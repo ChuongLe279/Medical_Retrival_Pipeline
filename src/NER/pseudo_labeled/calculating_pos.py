@@ -1,7 +1,6 @@
 """
 Tính trường position cho 2 output file là vistral và rule based
 """
-import json
 from pathlib import Path
 from string_matching_pos import string_matching_pos
 
@@ -28,7 +27,7 @@ for json_file in json_files:
    string_matching_pos(json_file, input_path)
 
 # Tiếp đó là xử lý output file cho rule-based
-rule_based_output_path = BASE_DIR / "output" / "vistral_output"
+rule_based_output_path = BASE_DIR / "output" / "rule_based"
 
 # Quality of life: sort các output json file theo thứ tự của cả hai output file
 json_files = sorted(

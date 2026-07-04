@@ -20,3 +20,54 @@ Chiến lược merge output của vistral và rule based
 5. Nếu source = section_rule:
    chỉ dùng khi không có rule hoặc vistral overlap tốt hơn.
 """
+
+from pathlib import Path
+from string_matching_pos import string_matching_pos
+import json
+BASE_DIR = Path(__file__).parent
+input_dir = BASE_DIR.parents[2] / "data" / "test" 
+vistral_output_path = BASE_DIR / "output" / "vistral_output"
+rule_based_output_path = BASE_DIR / "output" / "rule_based"
+merged_output_path = BASE_DIR / "output" / "merged_output"
+
+vistral_folder = Path(vistral_output_path)
+rule_based_folder = Path(rule_based_output_path)
+merged_output_folder = Path(merged_output_path)
+merged_output_folder.mkdir(parents=True, exist_ok=True)
+
+"""Sort 2 file json lại theo tên"""
+vistral_files = sorted(
+    vistral_output_path.glob("*.json"),
+    key=lambda p: int(p.stem)
+)
+"""Xóa hết content của file output merged trước khi merge"""
+for old_file in merged_output_folder.glob("*.json"):
+    old_file.unlink()
+
+"""Merge 2 file json lại với nhau. Xếp chồng."""
+for json_vistral_file in vistral_files:
+    json_rule_based_file = rule_based_folder / json_vistral_file.name
+
+    if not json_rule_based_file.exists():
+        print(f"Thiếu json file: {json_vistral_file.name } (vistral)")
+        continue
+
+    with open(json_vistral_file, "r", encoding="utf-8-sig") as f:
+        vistral_data = json.load(f)
+
+    with open(json_rule_based_file, "r", encoding="utf-8-sig") as f:
+        rule_based_data = json.load(f)
+
+    merged_data = []
+    merged_data.extend(vistral_data)
+    merged_data.extend(rule_based_data)
+
+    save_file = merged_output_folder / json_vistral_file.name
+
+    with open(save_file, "w", encoding="utf-8") as f:
+        json.dump(merged_data, f, ensure_ascii=False, indent=2)
+
+    print("Merged:", json_vistral_file.name)
+
+
+
