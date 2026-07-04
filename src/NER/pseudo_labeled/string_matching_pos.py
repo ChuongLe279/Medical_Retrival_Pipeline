@@ -21,9 +21,21 @@ def string_matching_pos(json_file, input_file):
         json_objects = json.load(f)
     with open(input_file, "r", encoding="utf-8-sig") as f:
         input_text = f.read()
+    input_text_lower = input_text.lower()
+
+    # Xử lý trường hợp mà json output chỉ có 1 object
+    if isinstance(json_objects, dict):
+        json_objects = [json_objects]
+    elif not isinstance(json_objects, list):
+        raise TypeError(f"{json_file} must contain a JSON object or a list of JSON objects")
 
     for obj in json_objects:
-        start = input_text.find(obj["text"])
+        if not isinstance(obj, dict):
+            raise TypeError(f"{json_file} contains a non-object item: {obj!r}")
+        
+        # Chuyển chữ hoa thành chữ thường để tránh trường hợp pos [-1,-1]
+        search_text = obj["text"].lower()
+        start = input_text_lower.find(search_text)
         if start == -1:
             obj["position"] = [-1, -1]
         else:
