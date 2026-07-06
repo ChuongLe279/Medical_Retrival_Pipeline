@@ -6,13 +6,14 @@ RxNorm để nhét vào rxnorm.db
 import sqlite3
 from pathlib import Path
 
-RXNORM_DIR = Path("rxnorm")          # folder containing .RRF files
-DB_PATH = Path("rxnorm.db")
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+RXNORM_DIR = PROJECT_ROOT / "data" / "raw" / "RxNorm"          # folder containing .RRF files
+DB_PATH = PROJECT_ROOT / "data" / "db" / "RxNorm" / "rxnorm.db"
+
 # Insert theo batch vì nhiều cột quá
 BATCH_SIZE = 50_000
-conn = sqlite3.connect(DB_PATH)
 
-def create_table():
+def create_tables(conn):
     cur = conn.cursor()
 
     cur.execute("""
@@ -99,11 +100,39 @@ def read_row(file_path, expected_cols):
             yield parts 
             # VD output: ["C0000005", "ENG", "P", "L0000005"]
 
-def insert_rrf():
-    pass
+def insert_rrf(conn, table_name, file_name, expected_cols):
+    file_path = RXNORM_DIR / file_name
+
+    placeholders = ",".join(["?"] * expected_cols)
+    # ["?", "?", "?", "?"] -> "?,?,?,?"
+    sql = f"INSERT INTO {table_name} VALUES ({placeholders})"
+
+    batch = []
+    total = 0
+
+    cur = conn.cursor()
+
+    for row in read_row(file_path, expected_cols):
+        # ["123", "ENG", "drug_name", "active"]
+        batch.append(row)
+
+        # Insert theo batch
+        if len(batch) >= BATCH_SIZE:
+            cur.executemany(sql, batch)
+            conn.commit()
+            total += len(batch)
+            print(f"{table_name}: inserted {total:,} rows")
+            batch.clear()
+
+    if batch:
+        cur.executemany(sql, batch)
+        conn.commit()
+        total += len(batch)
+
+    print(f"{table_name}: done, total {total:,} rows")
 
 
-def create_indexes():
+def create_indexes(conn):
         """
         Thêm index để truy vấn nhanh hơn
         """
@@ -125,9 +154,25 @@ def create_indexes():
         conn.commit()
 
 def build_db_rxnorm():
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     if DB_PATH.exists():
         DB_PATH.unlink()
+    conn = sqlite3.connect(DB_PATH)
 
+    conn.execute("PRAGMA journal_mode = OFF")
+    conn.execute("PRAGMA synchronous = OFF")
+    conn.execute("PRAGMA temp_store = MEMORY")
+
+    create_tables(conn)
+
+    insert_rrf(conn, "RXNCONSO", "RXNCONSO.RRF", 18)
+    insert_rrf(conn, "RXNREL", "RXNREL.RRF", 16)
+    insert_rrf(conn, "RXNSAT", "RXNSAT.RRF", 13)
+
+    create_indexes(conn)
+
+    conn.close()
+    print(f"Saved database to {DB_PATH}")
     
 
 if __name__ == "__main__":
