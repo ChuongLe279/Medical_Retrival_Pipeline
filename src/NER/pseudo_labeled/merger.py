@@ -136,5 +136,3 @@ for json_vistral_file in vistral_files:
 
     print("Merged:", json_vistral_file.name)
 
-
-
