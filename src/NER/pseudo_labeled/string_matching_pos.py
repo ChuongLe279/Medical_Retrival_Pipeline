@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).parent
 
 def string_matching_pos(json_file, input_file):
     """
-        Nhận directory của jsonfile và input file tương ứng. Thêm trường position dựa
+        Nhận directory của jsonfile và input file (test data) tương ứng. Thêm trường position dựa
         vào name của json file.
     """
     json_file = Path(json_file)
