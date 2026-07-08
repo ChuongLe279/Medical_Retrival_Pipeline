@@ -1,5 +1,12 @@
 [
   {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "source": "rule",
+    "start": 101,
+    "end": 116
+  },
+  {
     "text": "tăng huyết áp vô căn (nguyên phát)",
     "type": "CHẨN_ĐOÁN",
     "source": "vistral",
@@ -7,32 +14,39 @@
     "end": 227
   },
   {
-    "text": "tăng lipid máu, không đặc hiệu",
+    "text": "tăng lipid máu",
     "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
+    "source": "rule",
     "start": 250,
-    "end": 280
+    "end": 264
   },
   {
-    "text": "đái tháo đường type 2 (đái tháo đường típ 2)",
+    "text": "Đái tháo đường type 2",
     "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
+    "source": "rule",
     "start": 320,
-    "end": 364
+    "end": 341
   },
   {
-    "text": "bệnh phổi tắc nghẽn mạn tính, không xác định",
+    "text": "bệnh phổi tắc nghẽn mạn tính",
     "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
+    "source": "rule",
     "start": 371,
-    "end": 415
+    "end": 399
   },
   {
-    "text": "bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch)",
+    "text": "bệnh tim mạch do xơ vữa động mạch",
     "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
+    "source": "rule",
     "start": 469,
-    "end": 538
+    "end": 502
+  },
+  {
+    "text": "aspirin 81mg (asa81",
+    "type": "CHẨN_ĐOÁN",
+    "source": "section_rule",
+    "start": 760,
+    "end": 779
   },
   {
     "text": "clopidogrel",
@@ -42,11 +56,25 @@
     "end": 798
   },
   {
+    "text": "Đột quỵ",
+    "type": "CHẨN_ĐOÁN",
+    "source": "rule",
+    "start": 837,
+    "end": 844
+  },
+  {
     "text": "metoprolol",
     "type": "THUỐC",
     "source": "rule",
     "start": 860,
     "end": 870
+  },
+  {
+    "text": "lasix 40mg daily (tăng liều",
+    "type": "CHẨN_ĐOÁN",
+    "source": "section_rule",
+    "start": 911,
+    "end": 938
   },
   {
     "text": "atorvastatin 80mg daily",
@@ -63,11 +91,11 @@
     "end": 1008
   },
   {
-    "text": "đánh trống ngực",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 1592,
-    "end": 1607
+    "text": "ranexa 500mg daily (tiếp tục",
+    "type": "CHẨN_ĐOÁN",
+    "source": "section_rule",
+    "start": 1025,
+    "end": 1053
   },
   {
     "text": "khó thở",
@@ -77,95 +105,11 @@
     "end": 1590
   },
   {
-    "text": "bệnh tim mạch do xơ vữa động mạch",
-    "type": "CHẨN_ĐOÁN",
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
     "source": "rule",
-    "start": 469,
-    "end": 502
-  },
-  {
-    "text": "bệnh phổi tắc nghẽn mạn tính",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 371,
-    "end": 399
-  },
-  {
-    "text": "Đái tháo đường type 2",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 320,
-    "end": 341
-  },
-  {
-    "text": "Nhồi máu cơ tim",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 101,
-    "end": 116
-  },
-  {
-    "text": "tăng lipid máu",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 250,
-    "end": 264
-  },
-  {
-    "text": "Đái tháo đường",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 320,
-    "end": 334
-  },
-  {
-    "text": "Đột quỵ",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 837,
-    "end": 844
-  },
-  {
-    "text": "aspirin 81mg (asa81",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
-    "start": 760,
-    "end": 779
-  },
-  {
-    "text": "metoprolol succinate 100mg daily (tăng liều",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
-    "start": 860,
-    "end": 903
-  },
-  {
-    "text": "lasix 40mg daily (tăng liều",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
-    "start": 911,
-    "end": 938
-  },
-  {
-    "text": "atorvastatin 80mg daily (bắt đầu",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
-    "start": 946,
-    "end": 978
-  },
-  {
-    "text": "lisinopril 2.5mg daily (bắt đầu",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
-    "start": 986,
-    "end": 1017
-  },
-  {
-    "text": "ranexa 500mg daily (tiếp tục",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
-    "start": 1025,
-    "end": 1053
+    "start": 1592,
+    "end": 1607
   },
   {
     "text": "tổng trạng thái ổn",
