@@ -2,100 +2,16 @@
   {
     "text": "rung nhĩ",
     "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
+    "source": "both",
     "start": 39,
     "end": 47
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
+    "source": "section_rule+vistral",
     "start": 50,
     "end": 63
-  },
-  {
-    "text": "suy tim, không đặc hiệu",
-    "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
-    "start": 66,
-    "end": 89
-  },
-  {
-    "text": "béo phì",
-    "type": "TRIỆU_CHỨNG",
-    "source": "vistral",
-    "start": 92,
-    "end": 99
-  },
-  {
-    "text": "morphine",
-    "type": "THUỐC",
-    "source": "rule",
-    "start": 1740,
-    "end": 1748
-  },
-  {
-    "text": "metoprolol",
-    "type": "THUỐC",
-    "source": "rule",
-    "start": 1783,
-    "end": 1793
-  },
-  {
-    "text": "đánh trống ngực",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 1335,
-    "end": 1350
-  },
-  {
-    "text": "chóng mặt",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 1352,
-    "end": 1361
-  },
-  {
-    "text": "ngất xỉu",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 292,
-    "end": 300
-  },
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 144,
-    "end": 151
-  },
-  {
-    "text": "mệt mỏi",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 501,
-    "end": 508
-  },
-  {
-    "text": "chán ăn",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 364,
-    "end": 371
-  },
-  {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 391,
-    "end": 394
-  },
-  {
-    "text": "rung nhĩ",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 39,
-    "end": 47
   },
   {
     "text": "suy tim",
@@ -105,31 +21,17 @@
     "end": 73
   },
   {
-    "text": "tăng huyết áp",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
-    "start": 50,
-    "end": 63
-  },
-  {
-    "text": "suy tim, không đặc hiệu",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
-    "start": 66,
-    "end": 89
-  },
-  {
     "text": "béo phì",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
+    "type": "TRIỆU_CHỨNG",
+    "source": "vistral",
     "start": 92,
     "end": 99
   },
   {
-    "text": "Tăng khó thở",
+    "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 139,
+    "source": "rule",
+    "start": 144,
     "end": 151
   },
   {
@@ -147,25 +49,60 @@
     "end": 177
   },
   {
-    "text": "cơn ngất xỉu 2 tháng trước",
+    "text": "yếu",
     "type": "TRIỆU_CHỨNG",
     "source": "section_rule",
-    "start": 288,
+    "start": 263,
+    "end": 266
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "source": "rule",
+    "start": 292,
+    "end": 300
+  },
+  {
+    "text": "2 tháng trước",
+    "type": "TRIỆU_CHỨNG",
+    "source": "section_rule",
+    "start": 301,
     "end": 314
   },
   {
-    "text": "chán ăn trong 3 ngày qua",
+    "text": "đau rát khi đi tiểu",
     "type": "TRIỆU_CHỨNG",
     "source": "section_rule",
-    "start": 364,
-    "end": 388
+    "start": 317,
+    "end": 336
   },
   {
-    "text": "mệt mỏi và weak",
+    "text": "từng đợt, khoảng 2 tuần",
     "type": "TRIỆU_CHỨNG",
     "source": "section_rule",
+    "start": 338,
+    "end": 361
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "source": "rule",
+    "start": 364,
+    "end": 371
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "source": "rule",
+    "start": 391,
+    "end": 394
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "source": "rule",
     "start": 501,
-    "end": 516
+    "end": 508
   },
   {
     "text": "Đau buốt khi đi tiểu",
@@ -173,13 +110,6 @@
     "source": "section_rule",
     "start": 610,
     "end": 630
-  },
-  {
-    "text": "nôn từng đợt sau khi ăn",
-    "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 391,
-    "end": 414
   },
   {
     "text": "nhói",
@@ -231,27 +161,6 @@
     "end": 1031
   },
   {
-    "text": "yếu",
-    "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 263,
-    "end": 266
-  },
-  {
-    "text": "đau rát khi đi tiểu",
-    "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 317,
-    "end": 336
-  },
-  {
-    "text": "từng đợt, khoảng 2 tuần",
-    "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 338,
-    "end": 361
-  },
-  {
     "text": "Ăn uống",
     "type": "TRIỆU_CHỨNG",
     "source": "section_rule",
@@ -273,25 +182,25 @@
     "end": 1161
   },
   {
-    "text": "cơn ngất xỉu",
-    "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 288,
-    "end": 300
-  },
-  {
-    "text": "2 tháng trước",
-    "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 301,
-    "end": 314
-  },
-  {
     "text": "bệnh nhân không nhớ rõ",
     "type": "TRIỆU_CHỨNG",
     "source": "section_rule",
     "start": 1236,
     "end": 1258
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "source": "rule",
+    "start": 1335,
+    "end": 1350
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "source": "rule",
+    "start": 1352,
+    "end": 1361
   },
   {
     "text": "Nhận 2 sl ntg",
@@ -315,10 +224,10 @@
     "end": 1728
   },
   {
-    "text": "Nhận 8mg morphine",
-    "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 1731,
+    "text": "morphine",
+    "type": "THUỐC",
+    "source": "rule",
+    "start": 1740,
     "end": 1748
   },
   {
@@ -329,10 +238,10 @@
     "end": 1768
   },
   {
-    "text": "Được cho po metoprolol",
-    "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 1771,
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "source": "rule",
+    "start": 1783,
     "end": 1793
   },
   {

@@ -15,17 +15,17 @@
   },
   {
     "text": "rung nhĩ",
-    "type": "TRIỆU_CHỨNG",
-    "source": "vistral",
+    "type": "CHẨN_ĐOÁN",
+    "source": "rule",
     "start": 102,
     "end": 110
   },
   {
-    "text": "suy thận mạn giai đoạn V",
+    "text": "Suy thận mạn",
     "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
-    "start": -1,
-    "end": -1
+    "source": "rule",
+    "start": 159,
+    "end": 171
   },
   {
     "text": "chạy thận nhân tạo chu kì các ngày thứ 2, thứ 6, chủ nhật",
@@ -37,9 +37,16 @@
   {
     "text": "ghép thận thất bại",
     "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
+    "source": "section_rule+vistral",
     "start": 251,
     "end": 269
+  },
+  {
+    "text": "Phẫu thuật thay van hai lá cơ học",
+    "type": "CHẨN_ĐOÁN",
+    "source": "section_rule",
+    "start": 311,
+    "end": 344
   },
   {
     "text": "coumadin 3.0 mg /ngày",
@@ -47,13 +54,6 @@
     "source": "vistral",
     "start": 401,
     "end": 422
-  },
-  {
-    "text": "heparin",
-    "type": "THUỐC",
-    "source": "rule",
-    "start": 1130,
-    "end": 1137
   },
   {
     "text": "INR",
@@ -70,18 +70,11 @@
     "end": 679
   },
   {
-    "text": "SPO2",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
     "source": "rule",
-    "start": 1039,
-    "end": 1043
-  },
-  {
-    "text": "92",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "source": "rule",
-    "start": 1046,
-    "end": 1048
+    "start": 792,
+    "end": 799
   },
   {
     "text": "đau bụng",
@@ -98,52 +91,24 @@
     "end": 836
   },
   {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
+    "text": "SPO2",
+    "type": "TÊN_XÉT_NGHIỆM",
     "source": "rule",
-    "start": 792,
-    "end": 799
+    "start": 1039,
+    "end": 1043
   },
   {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
+    "text": "92",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "source": "rule",
-    "start": 833,
-    "end": 836
+    "start": 1046,
+    "end": 1048
   },
   {
-    "text": "Suy thận mạn",
-    "type": "CHẨN_ĐOÁN",
+    "text": "heparin",
+    "type": "THUỐC",
     "source": "rule",
-    "start": 159,
-    "end": 171
-  },
-  {
-    "text": "rung nhĩ",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 102,
-    "end": 110
-  },
-  {
-    "text": "Suy thận",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 159,
-    "end": 167
-  },
-  {
-    "text": "Phẫu thuật thay van hai lá cơ học",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
-    "start": 311,
-    "end": 344
-  },
-  {
-    "text": "ghép thận thất bại",
-    "type": "CHẨN_ĐOÁN",
-    "source": "section_rule",
-    "start": 251,
-    "end": 269
+    "start": 1130,
+    "end": 1137
   }
 ]
