@@ -1,9 +1,9 @@
 [
   {
-    "text": "tiền sử Đái tháo đường",
+    "text": "Đái tháo đường",
     "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
-    "start": 23,
+    "source": "rule",
+    "start": 31,
     "end": 45
   },
   {
@@ -16,28 +16,14 @@
   {
     "text": "khó chịu vùng ngực gián đoạn",
     "type": "TRIỆU_CHỨNG",
-    "source": "vistral",
+    "source": "section_rule+vistral",
     "start": 294,
     "end": 322
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "source": "vistral",
-    "start": 325,
-    "end": 334
-  },
-  {
-    "text": "đổ mồ hôi",
-    "type": "TRIỆU_CHỨNG",
-    "source": "vistral",
-    "start": 357,
-    "end": 366
-  },
-  {
-    "text": "chóng mặt",
-    "type": "TRIỆU_CHỨNG",
-    "source": "vistral",
+    "source": "both",
     "start": 325,
     "end": 334
   },
@@ -51,86 +37,9 @@
   {
     "text": "đổ mồ hôi",
     "type": "TRIỆU_CHỨNG",
-    "source": "vistral",
+    "source": "both",
     "start": 357,
     "end": 366
-  },
-  {
-    "text": "nghiệm pháp gắng sức dương tính với thiếu máu cơ tim cục bộ, biễu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên.Đoạn ST chênh xuống kiểu xuống dốc xuất hiện trong giai đoạn hồi phục, còn tồn tại sau 1 phút và kéo dài đến sau 5 phút hồi phục.",
-    "type": "CHẨN_ĐOÁN",
-    "source": "vistral",
-    "start": -1,
-    "end": -1
-  },
-  {
-    "text": "SpO2",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "source": "rule",
-    "start": 981,
-    "end": 985
-  },
-  {
-    "text": "100%",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "source": "rule",
-    "start": 986,
-    "end": 990
-  },
-  {
-    "text": "khó chịu vùng ngực",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 294,
-    "end": 312
-  },
-  {
-    "text": "chóng mặt",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 325,
-    "end": 334
-  },
-  {
-    "text": "đổ mồ hôi",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 357,
-    "end": 366
-  },
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "source": "rule",
-    "start": 337,
-    "end": 344
-  },
-  {
-    "text": "Đái tháo đường",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 31,
-    "end": 45
-  },
-  {
-    "text": "thiếu máu",
-    "type": "CHẨN_ĐOÁN",
-    "source": "rule",
-    "start": 1276,
-    "end": 1285
-  },
-  {
-    "text": "khó chịu vùng ngực gián đoạn",
-    "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 294,
-    "end": 322
-  },
-  {
-    "text": "khó thở (khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "source": "section_rule",
-    "start": 337,
-    "end": 353
   },
   {
     "text": "Vị trí: Không rõ (ngụ ý vùng ngực",
@@ -175,10 +84,45 @@
     "end": 607
   },
   {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "source": "vistral",
+    "start": 637,
+    "end": 646
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "source": "vistral",
+    "start": 657,
+    "end": 666
+  },
+  {
     "text": "Không có đau tại phòng cấp cứu",
     "type": "TRIỆU_CHỨNG",
     "source": "section_rule",
     "start": 787,
     "end": 817
+  },
+  {
+    "text": "SpO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "source": "rule",
+    "start": 981,
+    "end": 985
+  },
+  {
+    "text": "100%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "source": "rule",
+    "start": 986,
+    "end": 990
+  },
+  {
+    "text": "thiếu máu",
+    "type": "CHẨN_ĐOÁN",
+    "source": "rule",
+    "start": 1276,
+    "end": 1285
   }
 ]

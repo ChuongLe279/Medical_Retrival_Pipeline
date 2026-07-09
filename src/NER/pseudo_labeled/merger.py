@@ -23,8 +23,8 @@ Chiến lược merge output của vistral và rule based
 """
 
 from pathlib import Path
-from string_matching_pos import string_matching_pos
 import json
+from bisect import bisect_right
 BASE_DIR = Path(__file__).parent
 
 input_dir = BASE_DIR.parents[2] / "data" / "test" 
@@ -46,9 +46,195 @@ normalized_vistral_folder = Path(normalized_vistral_path)
 normalized_rule_based_folder.mkdir(parents=True, exist_ok=True)
 normalized_vistral_folder.mkdir(parents=True, exist_ok=True)
 
-"""Xóa hết content của file output merged trước khi merge"""
-for old_file in merged_output_folder.glob("*.json"):
-    old_file.unlink()
+
+# Điểm ưu tiên khi nhiều source cùng bắt một span hoặc các span bị overlap.
+# "both" nghĩa là cả rule-based và Vistral đều đồng ý, nên đáng tin nhất.
+# "section_rule" yếu hơn vì nó chỉ suy luận từ header/bullet, dễ bắt cả câu rộng.
+SOURCE_PRIORITY_BY_TYPE = {
+    "THUỐC": {
+        "both": 90,
+        "rule": 70,
+        "vistral": 65,
+        "section_rule": 5,
+        "unknown": 0,
+    },
+    "TÊN_XÉT_NGHIỆM": {
+        "both": 90,
+        "rule": 70,
+        "vistral": 55,
+        "section_rule": 5,
+        "unknown": 0,
+    },
+    "KẾT_QUẢ_XÉT_NGHIỆM": {
+        "both": 90,
+        "rule": 70,
+        "vistral": 55,
+        "section_rule": 5,
+        "unknown": 0,
+    },
+    "CHẨN_ĐOÁN": {
+        "both": 90,
+        "rule": 65,
+        "vistral": 60,
+        "section_rule": 15,
+        "unknown": 0,
+    },
+    "TRIỆU_CHỨNG": {
+        "both": 90,
+        "vistral": 60,
+        "rule": 55,
+        "section_rule": 15,
+        "unknown": 0,
+    },
+}
+
+
+def normalize_entities(data):
+    """Đổi position [start, end] thành start/end và bỏ entity không tìm được span."""
+    normalized_data = []
+
+    for obj in data:
+        start, end = obj["position"]
+        if start < 0 or end < 0:
+            # Span -1 nghĩa là text không xuất hiện nguyên văn/linh hoạt trong input.
+            continue
+
+        new_obj = {
+            "text": obj["text"],
+            "type": obj["type"],
+            "source": obj.get("source", "unknown"),
+            "start": start,
+            "end": end,
+        }
+        normalized_data.append(new_obj)
+
+    return normalized_data
+
+
+def source_parts(source):
+    """Tách source dạng 'rule+vistral' thành set {'rule', 'vistral'}."""
+    return set(str(source).split("+"))
+
+
+def merge_sources(sources):
+    """Gộp nhiều source thành một nhãn source dễ đọc."""
+    parts = set()
+    for source in sources:
+        parts.update(source_parts(source))
+
+    if "rule" in parts and "vistral" in parts:
+        # Khi rule và Vistral cùng bắt một entity, ghi là both.
+        return "both"
+
+    return "+".join(sorted(parts))
+
+
+def source_priority(entity):
+    """Lấy điểm ưu tiên của source theo từng type entity."""
+    type_priorities = SOURCE_PRIORITY_BY_TYPE.get(entity["type"], {})
+    parts = source_parts(entity.get("source", "unknown"))
+
+    if "rule" in parts and "vistral" in parts:
+        return type_priorities.get("both", 0)
+
+    return max((type_priorities.get(part, 0) for part in parts), default=0)
+
+
+def entity_score(entity):
+    """Tính điểm để chọn entity khi có duplicate/overlap."""
+    span_len = entity["end"] - entity["start"]
+    # Bonus nhẹ cho span dài hơn, nhưng giới hạn để source vẫn là yếu tố chính.
+    length_bonus = min(span_len, 30)
+    return source_priority(entity) * 100 + length_bonus
+
+
+def deduplicate_exact_entities(entities):
+    """Gộp các entity có cùng start/end/type thành một entity duy nhất."""
+    grouped = {}
+
+    for entity in entities:
+        key = (entity["start"], entity["end"], entity["type"])
+        grouped.setdefault(key, []).append(entity)
+
+    deduplicated = []
+    for group in grouped.values():
+        best = max(
+            group,
+            key=lambda item: (
+                source_priority(item),
+                len(item["text"]),
+                item["source"] != "section_rule",
+            ),
+        )
+        deduplicated.append({
+            "text": best["text"],
+            "type": best["type"],
+            # Giữ lại thông tin entity này đến từ những nguồn nào.
+            "source": merge_sources(item["source"] for item in group),
+            "start": best["start"],
+            "end": best["end"],
+        })
+
+    return deduplicated
+
+
+def select_non_overlapping_entities(entities):
+    """
+    Chọn tập entity có tổng điểm cao nhất nhưng không overlap.
+
+    Đây là bài toán interval scheduling có trọng số:
+    mỗi entity là một đoạn [start, end], điểm là entity_score(entity).
+    """
+    # Sort theo điểm kết thúc để tính dynamic programming.
+    entities = sorted(
+        entities,
+        key=lambda item: (item["end"], item["start"], -entity_score(item)),
+    )
+    ends = [entity["end"] for entity in entities]
+
+    # previous[i] là entity gần nhất đứng trước i mà không overlap với i.
+    previous = [
+        bisect_right(ends, entity["start"], hi=index) - 1
+        for index, entity in enumerate(entities)
+    ]
+
+    # dp[i] là tổng điểm tốt nhất khi xét i entity đầu tiên.
+    dp = [0] * (len(entities) + 1)
+    take = [False] * len(entities)
+
+    for index, entity in enumerate(entities, start=1):
+        # Hai lựa chọn: lấy entity hiện tại hoặc bỏ nó.
+        include_score = entity_score(entity) + dp[previous[index - 1] + 1]
+        exclude_score = dp[index - 1]
+
+        if include_score > exclude_score:
+            dp[index] = include_score
+            take[index - 1] = True
+        else:
+            dp[index] = exclude_score
+
+    selected = []
+    index = len(entities)
+    while index > 0:
+        # Truy vết lại các entity đã chọn từ bảng dp.
+        if take[index - 1] and entity_score(entities[index - 1]) + dp[previous[index - 1] + 1] >= dp[index - 1]:
+            selected.append(entities[index - 1])
+            index = previous[index - 1] + 1
+        else:
+            index -= 1
+
+    return sorted(selected, key=lambda item: (item["start"], item["end"], item["type"]))
+
+
+def merge_entities(*entity_lists):
+    """Merge nhiều list entity thành một list sạch duplicate và không overlap."""
+    entities = []
+    for entity_list in entity_lists:
+        entities.extend(entity_list)
+
+    deduplicated = deduplicate_exact_entities(entities)
+    return select_non_overlapping_entities(deduplicated)
+
 
 """Sort file json lại theo tên"""
 vistral_files = sorted(
@@ -66,18 +252,7 @@ for json_vistral_file in vistral_files:
     with open(json_vistral_file, "r", encoding="utf-8-sig") as f:
         vistral_data = json.load(f)
 
-    normalized_data = []
-    for obj in vistral_data:
-        start, end = obj["position"]
-
-        new_obj = {
-            "text": obj["text"],
-            "type": obj["type"],
-            "source": obj["source"],
-            "start": start,
-            "end": end,
-        }
-        normalized_data.append(new_obj)
+    normalized_data = normalize_entities(vistral_data)
 
     output_file = normalized_vistral_folder / name
     with open(output_file, "w", encoding="utf-8") as f:
@@ -88,18 +263,7 @@ for json_vistral_file in vistral_files:
     with open(json_rule_based_file, "r", encoding="utf-8-sig") as f:
         rule_based_data = json.load(f)
 
-    normalized_data = []
-    for obj in rule_based_data:
-        start, end = obj["position"]
-
-        new_obj = {
-            "text": obj["text"],
-            "type": obj["type"],
-            "source": obj["source"],
-            "start": start,
-            "end": end,
-        }
-        normalized_data.append(new_obj)
+    normalized_data = normalize_entities(rule_based_data)
 
     output_file = normalized_rule_based_folder / name
     with open(output_file, "w", encoding="utf-8") as f:
@@ -112,7 +276,7 @@ vistral_files = sorted(
     key=lambda p: int(p.stem)
 )
 
-"""Merge 2 file json lại với nhau. Xếp chồng."""
+"""Merge 2 file json lại với nhau và giải quyết duplicate/overlap."""
 for json_vistral_file in vistral_files:
     json_rule_based_file = normalized_rule_based_folder / json_vistral_file.name
 
@@ -126,9 +290,7 @@ for json_vistral_file in vistral_files:
     with open(json_rule_based_file, "r", encoding="utf-8-sig") as f:
         rule_based_data = json.load(f)
 
-    merged_data = []
-    merged_data.extend(vistral_data)
-    merged_data.extend(rule_based_data)
+    merged_data = merge_entities(vistral_data, rule_based_data)
 
     save_file = merged_output_folder / json_vistral_file.name
 
