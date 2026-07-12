@@ -4,10 +4,8 @@ Từ rxnorm.db -> Vector store
 import sqlite3
 import sys
 from pathlib import Path
-from dotenv import load_dotenv
 import shutil
 import torch
-import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModel
 from langchain_core.documents import Document
 from langchain_chroma import Chroma
@@ -23,7 +21,6 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from src.Embeddings.SapBert import SapBERTEmbeddings
 
-load_dotenv()
 
 DB_PATH = PROJECT_ROOT / "data" / "db" / "RxNorm" / "rxnorm.db"
 CHROMA_DIR = PROJECT_ROOT / "data" / "db" / "RxNorm_chroma"

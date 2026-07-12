@@ -13,7 +13,7 @@ import json
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 ICD10_CODE_PATH = PROJECT_ROOT / "data" / "raw" / "ICD10" / "icd10cm-codes-2027.txt"
-SAVE_PATH = PROJECT_ROOT / "data" / "db" / "ICD10" / "output.json"
+SAVE_PATH = PROJECT_ROOT / "data" / "db" / "ICD10" / "icd10.json"
 
 
 
