@@ -1,8 +1,50 @@
 [
-  { "code": "SYM005", "text": "đau bụng vùng hạ sườn phải" },
-  { "code": "SYM006", "text": "nôn ra máu" },
-  { "code": "DX003", "text": "viêm dạ dày" },
-  { "code": "DRUG003", "text": "omeprazole" },
-  { "code": "LABRES003", "text": "phân có guaiac dương tính" },
-  { "code": "LABTEST003", "text": "xét nghiệm máu ẩn trong phân" }
+    {
+        "code": "TEST-DX-003",
+        "text": "viêm phổi",
+        "type": "CHẨN ĐOÁN",
+        "eng_translation": [
+            "pneumonia",
+            "lung infection",
+            "community acquired pneumonia"
+        ],
+        "retriever": {
+            "sapbert": {
+                "J189": 0.95392,
+                "J159": 0.839622,
+                "J129": 0.787309,
+                "J181": 0.781404,
+                "J188": 0.781283
+            }
+        }
+    },
+    {
+        "code": "TEST-DRUG-003",
+        "text": "amoxicillin",
+        "type": "THUỐC",
+        "eng_translation": [
+            "amoxicillin",
+            "amoxicillin oral capsule"
+        ],
+        "retriever": {
+            "sapbert": {
+                "370578": 1.0,
+                "723": 1.0,
+                "352426": 0.923211,
+                "366780": 0.845822,
+                "1152901": 0.747019
+            }
+        }
+    },
+    {
+        "code": "TEST-SYM-003",
+        "text": "ho có đờm",
+        "type": "TRIỆU CHỨNG",
+        "eng_translation": [
+            "productive cough"
+        ],
+        "retriever": {
+            "sapbert": {}
+        }
+    }
 ]

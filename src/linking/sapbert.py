@@ -13,23 +13,28 @@ from src.Linking.embedding import create_sapbert_embeddings
 import json
 from langchain_chroma import Chroma
 
-RXNORM_CHROMA_DIR = Path("")
-ICD10_CHROMA_DIR = Path("")
-JSON_FOLDER_PATH = Path("") # File json kết quả
+RXNORM_CHROMA_DIR = PROJECT_ROOT / "data" / "db" / "RxNorm_chroma"
+ICD10_CHROMA_DIR = PROJECT_ROOT / "data" / "db" / "ICD10_chroma"
+JSON_FOLDER_PATH = PROJECT_ROOT / "data" / "mock_data"  # File JSON test
 
 K = 5 # LẤY 5 THẰNG ĐẦU TIÊN
 embeddings = create_sapbert_embeddings()
+
+def cosine_relevance_score(distance: float) -> float:
+    return max(0.0, min(1.0, 1.0 - distance))
 
 rxnorm_vector_store = Chroma(
     collection_name="rxnorm", 
     persist_directory=str(RXNORM_CHROMA_DIR),
     embedding_function=embeddings,
+    relevance_score_fn=cosine_relevance_score,
 )
 
 icd10_vector_store = Chroma(
     collection_name="icd10",
     persist_directory=str(ICD10_CHROMA_DIR),
     embedding_function=embeddings,
+    relevance_score_fn=cosine_relevance_score,
 )
 
 def sapbert_retrieval(vector_store, texts, code_key, k):
@@ -121,7 +126,7 @@ def json_sort_key(path: Path):
         return 0, int(path.stem)
     except ValueError:
         return 1, path.stem
-    
+
 
 if __name__ == "__main__":
 

@@ -1,8 +1,34 @@
 [
-  { "code": "SYM003", "text": "ho ra máu cỡ đồng xu" },
-  { "code": "SYM004", "text": "đau ngực trái cấp tính lan ra sau lưng" },
-  { "code": "DX002", "text": "bệnh động mạch vành mạn tính có thiếu máu cơ tim" },
-  { "code": "DRUG002", "text": "aspirin 325 mg hằng ngày" },
-  { "code": "LABRES002", "text": "troponin là 0.10" },
-  { "code": "LABTEST002", "text": "troponin" }
+    {
+        "code": "TEST-DX-002",
+        "text": "đái tháo đường típ 2",
+        "type": "CHẨN ĐOÁN",
+        "eng_translation": [
+            "type 2 diabetes mellitus",
+            "adult onset diabetes",
+            "non-insulin-dependent diabetes mellitus"
+        ],
+        "retriever": {
+            "sapbert": {
+                "E1165": 0.844191,
+                "P702": 0.787525,
+                "R7303": 0.737647,
+                "E119": 0.736971,
+                "Z833": 0.724102
+            }
+        }
+    },
+    {
+        "code": "TEST-DRUG-002",
+        "text": "aspirin 81 mg",
+        "type": "THUỐC",
+        "eng_translation": "aspirin 81 mg oral tablet",
+        "retriever": {
+            "sapbert": {
+                "308416": 1.0,
+                "243670": 1.0,
+                "794229": 0.964279
+            }
+        }
+    }
 ]
