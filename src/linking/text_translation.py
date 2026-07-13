@@ -22,5 +22,4 @@ NER entites có dạng như sau:
 import json
 from pathlib import Path
 
-JSON_FOLDER = Path()
 
