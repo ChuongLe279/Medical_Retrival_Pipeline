@@ -1,130 +1,143 @@
 """
-Retrieve RxNorm hoặc ICD10 dựa vào CANDIDATE.
+Retrieve trên chroma của SAPBERT
 """
-import sys
+
+from embedding import create_sapbert_embeddings
 from pathlib import Path
-import shutil
 import json
-import torch
-from transformers import AutoTokenizer, AutoModel
-from langchain_core.documents import Document
 from langchain_chroma import Chroma
-device = "cuda" if torch.cuda.is_available() else "cpu"
 
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+RXNORM_CHROMA_DIR = Path("")
+ICD10_CHROMA_DIR = Path("")
+JSON_FOLDER_PATH = Path("") # File json kết quả
 
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
+K = 5 # LẤY 5 THẰNG ĐẦU TIÊN
+embeddings = create_sapbert_embeddings()
 
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+rxnorm_vector_store = Chroma(
+    collection_name="rxnorm", 
+    persist_directory=str(RXNORM_CHROMA_DIR),
+    embedding_function=embeddings,
+)
 
-from src.Embeddings.SapBert import SapBERTEmbeddings
+icd10_vector_store = Chroma(
+    collection_name="icd10",
+    persist_directory=str(ICD10_CHROMA_DIR),
+    embedding_function=embeddings,
+)
 
-MODEL_NAME = "cambridgeltl/SapBERT-from-PubMedBERT-fulltext"
-"""
-Tải tokenizer đi kèm mô hình.
-Chuyển văn bản thành token và token ID mà SAPBert hiểu được.
-"""
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+def sapbert_retrieval(vector_store, text, code_key, k):
+    """
+        Embed query bằng SapBERT, retrieve top-k và trả về:
 
-"""Tải SAPBERT"""
-model = AutoModel.from_pretrained(MODEL_NAME).to(device)
-"""Đưa mô hình vào chế độ inference/evaluation."""
-model.eval()
+        {
+            "code_1": score_1,
+            "code_2": score_2
+        }
+    """
 
-JSON_FOLDER = Path()
-RXNORM_CHROMA = Path()
-ICD10_CHROMA = Path()
+    text = " ".join(text.strip().split())
 
-"""
-Embed text
-"""
-def embedding_text(s: str):
-    pass
+    if not text:
+        return {}
 
+    # Lấy nhiều hơn vì nhiều synonym có thể chung một code
+    retrieve_k = k * 4
 
-
-def retriever(CHROMA_DIR):
-    embeddings = SapBERTEmbeddings(
-        tokenizer=tokenizer,
-        model=model,
-        device=device,
-        batch_size=128,
-        max_length=64,
+    results = vector_store.similarity_search_with_relevance_scores(
+        query=text,
+        k=retrieve_k,
     )
 
-    vectorstore = Chroma(
-        collection_name="icd10",
-        embedding_function=embeddings,
-        persist_directory=str(CHROMA_DIR),
-        collection_metadata={"hnsw:space": "cosine"},
-    )
+    code_to_score = {}
+
+    for document, score in results:
+        code = document.metadata.get(code_key)
+
+        if code is None or not str(code).strip():
+            continue
+
+        code = str(code).strip()
+        score = float(score)
+
+        # Giữ score cao nhất nếu nhiều synonym chung code
+        code_to_score[code] = max(
+            score,
+            code_to_score.get(code, float("-inf")),
+        )
+
+    sorted_results = sorted(
+        code_to_score.items(),
+        key=lambda item: item[1],
+        reverse=True,
+    )[:k]
+
+    return {
+        code: round(score, 6)
+        for code, score in sorted_results
+    }
+
+def json_sort_key(path: Path):
+    try:
+        return 0, int(path.stem)
+    except ValueError:
+        return 1, path.stem
+    
 
 if __name__ == "__main__":
 
-    if not JSON_FOLDER.exists():
+    if not JSON_FOLDER_PATH.exists():
         raise FileNotFoundError(
-            f"Folder does not exist: {JSON_FOLDER}"
-        )
-
-    json_files = sorted(
-        JSON_FOLDER.glob("*.json"),
-        key=lambda path: int(path.stem)
-    )
-
-    if not json_files:
-        raise FileNotFoundError(
-            f"No JSON files found in: {JSON_FOLDER}"
+            f"Folder does not exist: {JSON_FOLDER_PATH}"
         )
     
-    print(f"Found {len(json_files)} JSON files.")
-
+    json_files = sorted(
+        JSON_FOLDER_PATH.glob("*.json"),
+        key=json_sort_key
+    )
+    if not json_files:
+        raise FileNotFoundError(
+            f"No JSON files found in: {JSON_FOLDER_PATH}"
+        )
     for file_path in json_files:
         print(f"Processing file: {file_path.name}")
 
         with file_path.open("r", encoding="utf-8") as file:
             data = json.load(file)
         
+        # Retrieve dựa trên trường type
         for entity in data:
-            if entity["type"] == "THUỐC":
-                retriever(RXNORM_CHROMA)
-            elif entity["type"] == "CHẨN ĐOÁN":
-                retriever(ICD10_CHROMA)
-            else:
-                entity["candidates"] = []
+            entity_type = entity.get("type", "")
+            query = entity.get("eng_translation", "")
 
+            entity["retriever"] = {
+                "sapbert": {}
+            }
+            if entity_type == "THUỐC":
+                entity["retriever"]["sapbert"] = sapbert_retrieval(
+                    vector_store=rxnorm_vector_store,
+                    text=query,
+                    code_key="rxcui",
+                    k=K,
+                )
+            elif entity_type == "CHẨN ĐOÁN":
+                entity["retriever"]["sapbert"] = sapbert_retrieval(
+                    vector_store=icd10_vector_store,
+                    text=query,
+                    code_key="code",
+                    k=K,
+                )
+            else:
+                entity["retriever"]["sapbert"] = {}
+            
+            
         with file_path.open("w", encoding="utf-8") as file:
             json.dump(
                 data,
                 file,
                 ensure_ascii=False,
-                indent=2,
+                indent=4,
             )
 
         print(f"Saved updated data to: {file_path.name}")
-
-        json_mock = [
-            {
-                "code": "A00.0",
-                "text": "text content",
-                "retriever": {
-                    "sapbert": {
-                        "001": 2,
-                        "034": 2,
-                        "012": 2,
-                    },
-                    "rapidfuzz": {
-                        "001": 2,
-                        "001": 2,
-                        "001": 2,
-                    },
-                }
-            }
-        ]
-    
-
-
-
 
