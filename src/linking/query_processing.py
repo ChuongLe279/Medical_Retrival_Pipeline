@@ -212,6 +212,32 @@ def query_expansion(json_files):
                 expansions[1],      # English synonym
                 expansions[2],      # Abbreviation expansion
             ]
+            candidates = [
+                english_text,
+                expansions[0],  # Canonical diagnosis
+                expansions[1],  # English synonym
+                expansions[2],  # Abbreviation expansion
+            ]
+
+            """Dedupe vì qwen8B đôi khi không mở rộng được ngữ cảnh."""
+            seen = set()
+            entity["eng_translation"] = []
+
+            for text in candidates:
+                if not isinstance(text, str):
+                    continue
+
+                text = " ".join(text.strip().split())
+
+                if not text:
+                    continue
+
+                normalized_text = text.casefold()
+
+                if normalized_text not in seen:
+                    seen.add(normalized_text)
+                    entity["eng_translation"].append(text)
+
 
         with file_path.open("w", encoding="utf-8") as file:
             json.dump(
