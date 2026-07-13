@@ -1,9 +1,15 @@
 """
 Retrieve trên chroma của SAPBERT
 """
-
-from embedding import create_sapbert_embeddings
+import sys
 from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from src.Linking.embedding import create_sapbert_embeddings
 import json
 from langchain_chroma import Chroma
 
@@ -26,7 +32,7 @@ icd10_vector_store = Chroma(
     embedding_function=embeddings,
 )
 
-def sapbert_retrieval(vector_store, text, code_key, k):
+def sapbert_retrieval(vector_store, texts, code_key, k):
     """
         Embed query bằng SapBERT, retrieve top-k và trả về:
 
@@ -36,39 +42,72 @@ def sapbert_retrieval(vector_store, text, code_key, k):
         }
     """
 
-    text = " ".join(text.strip().split())
+    """
+    Embed từng query trong list, retrieve và hợp nhất kết quả.
 
-    if not text:
-        return {}
+    texts có thể là:
+    - string
+    - list[string]
+    """
 
-    # Lấy nhiều hơn vì nhiều synonym có thể chung một code
-    retrieve_k = k * 4
+    # Cho phép truyền một string
+    if isinstance(texts, str):
+        texts = [texts]
 
-    results = vector_store.similarity_search_with_relevance_scores(
-        query=text,
-        k=retrieve_k,
-    )
+    # Làm sạch và loại query trùng
+    cleaned_texts = []
 
-    code_to_score = {}
-
-    for document, score in results:
-        code = document.metadata.get(code_key)
-
-        if code is None or not str(code).strip():
+    for text in texts:
+        if not isinstance(text, str):
             continue
 
-        code = str(code).strip()
-        score = float(score)
+        text = " ".join(text.strip().split())
 
-        # Giữ score cao nhất nếu nhiều synonym chung code
-        code_to_score[code] = max(
-            score,
-            code_to_score.get(code, float("-inf")),
+        if text and text not in cleaned_texts:
+            cleaned_texts.append(text)
+
+    if not cleaned_texts:
+        return {}
+
+    retrieve_k = k * 4
+
+    code_to_score = {}
+    code_hit_count = {}
+
+    for query in cleaned_texts:
+        # Chroma tự embed từng query bằng SapBERT
+        results = vector_store.similarity_search_with_relevance_scores(
+            query=query,
+            k=retrieve_k,
         )
 
+        for document, score in results:
+            code = document.metadata.get(code_key)
+
+            if code is None or not str(code).strip():
+                continue
+
+            code = str(code).strip()
+            score = float(score)
+
+            # Giữ score tốt nhất của code trên toàn bộ query
+            code_to_score[code] = max(
+                score,
+                code_to_score.get(code, float("-inf")),
+            )
+
+            # Đếm code xuất hiện trong bao nhiêu lần retrieval
+            code_hit_count[code] = (
+                code_hit_count.get(code, 0) + 1
+            )
+
+    # Ưu tiên score cao; nếu bằng nhau thì ưu tiên code xuất hiện nhiều
     sorted_results = sorted(
         code_to_score.items(),
-        key=lambda item: item[1],
+        key=lambda item: (
+            item[1],
+            code_hit_count[item[0]],
+        ),
         reverse=True,
     )[:k]
 
@@ -108,7 +147,7 @@ if __name__ == "__main__":
         # Retrieve dựa trên trường type
         for entity in data:
             entity_type = entity.get("type", "")
-            query = entity.get("eng_translation", "")
+            queries = entity.get("eng_translation", [])
 
             entity["retriever"] = {
                 "sapbert": {}
@@ -116,14 +155,14 @@ if __name__ == "__main__":
             if entity_type == "THUỐC":
                 entity["retriever"]["sapbert"] = sapbert_retrieval(
                     vector_store=rxnorm_vector_store,
-                    text=query,
+                    texts=queries,
                     code_key="rxcui",
                     k=K,
                 )
             elif entity_type == "CHẨN ĐOÁN":
                 entity["retriever"]["sapbert"] = sapbert_retrieval(
                     vector_store=icd10_vector_store,
-                    text=query,
+                    texts=queries,
                     code_key="code",
                     k=K,
                 )
