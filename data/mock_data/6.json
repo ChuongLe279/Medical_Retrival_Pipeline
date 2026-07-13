@@ -1,8 +1,54 @@
 [
-  { "code": "SYM011", "text": "mệt mỏi" },
-  { "code": "SYM012", "text": "ngã gần đây" },
-  { "code": "DX006", "text": "bệnh thận mạn tính" },
-  { "code": "DRUG006", "text": "insulin glargine 100 đơn vị hai lần mỗi ngày" },
-  { "code": "LABRES006", "text": "creatinine 5.7 mg/dL" },
-  { "code": "LABTEST006", "text": "creatinine huyết thanh" }
+    {
+        "text": "amlodipine 10 mg po daily",
+        "type": "THUỐC",
+        "assertions": [
+            "isHistorical"
+        ],
+        "position": [
+            58,
+            83
+        ],
+        "retriever": {
+            "sapbert": {}
+        }
+    },
+    {
+        "text": "aspirin 81 mg po daily",
+        "type": "THUỐC",
+        "assertions": [
+            "isHistorical"
+        ],
+        "position": [
+            89,
+            111
+        ],
+        "retriever": {
+            "sapbert": {}
+        }
+    },
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+            196,
+            198
+        ],
+        "retriever": {
+            "sapbert": {}
+        }
+    },
+    {
+        "text": "đau nhức",
+        "type": "TRIỆU_CHỨNG",
+        "assertions": [],
+        "position": [
+            254,
+            262
+        ],
+        "retriever": {
+            "sapbert": {}
+        }
+    }
 ]

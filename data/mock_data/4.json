@@ -1,8 +1,39 @@
 [
-  { "code": "SYM007", "text": "khò khè nhiều về đêm" },
-  { "code": "SYM008", "text": "đau đầu dữ dội" },
-  { "code": "DX004", "text": "đợt cấp hen suyễn" },
-  { "code": "DRUG004", "text": "prednisone 40 mg mỗi ngày" },
-  { "code": "LABRES004", "text": "lưu lượng đỉnh thở ra từ 240 đến 260" },
-  { "code": "LABTEST004", "text": "đo lưu lượng đỉnh thở ra" }
+    {
+        "code": "TEST-DX-004",
+        "text": "suy tim sung huyết",
+        "type": "CHẨN ĐOÁN",
+        "eng_translation": [
+            "congestive heart failure",
+            "cardiac failure",
+            "CHF"
+        ],
+        "retriever": {
+            "sapbert": {
+                "I509": 0.964027,
+                "I5084": 0.835247,
+                "I5020": 0.81339,
+                "I5089": 0.783642,
+                "I5022": 0.769411
+            }
+        }
+    },
+    {
+        "code": "TEST-DRUG-004",
+        "text": "furosemide 40 mg",
+        "type": "THUỐC",
+        "eng_translation": [
+            "furosemide 40 mg oral tablet",
+            "Lasix 40 mg"
+        ],
+        "retriever": {
+            "sapbert": {
+                "313988": 1.0,
+                "315971": 0.890316,
+                "565458": 0.890009,
+                "2720068": 0.76856,
+                "2199027": 0.761039
+            }
+        }
+    }
 ]
