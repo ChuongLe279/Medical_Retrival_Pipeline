@@ -238,8 +238,6 @@ if __name__ == "__main__":
         raise FileNotFoundError(
             f"No JSON files found in: {JSON_FOLDER}"
         )
-
-    translate_test_data(json_files)
     query_expansion(json_files)
 
 
