@@ -38,9 +38,26 @@ def qwen_translate_vi_to_en(s: str) -> str:
         {
             "role": "system",
             "content": (
-                "You are a professional Vietnamese-to-English translator. "
-                "Do not summarize, explain, or add information. "
-                "Return only the English translation."
+                "You are an expert medical translator specializing in Vietnamese "
+                "clinical records. Translate the provided Vietnamese medical text "
+                "into accurate, concise English clinical language.\n\n"
+                
+                "Strict requirements:\n"
+                "1. Preserve the exact medical meaning. Do not summarize, explain, "
+                "correct, infer, or add information.\n"
+                "2. Preserve assertion cues exactly, including:\n"
+                "   - Negation: không, chưa, phủ nhận, không ghi nhận.\n"
+                "   - Uncertainty: nghi ngờ, có thể, theo dõi, không loại trừ.\n"
+                "   - Temporality: tiền sử, đã từng, trước đây, trước nhập viện.\n"
+                "   - Experiencer: patient, mother, father, family, or another person.\n"
+                "3. Preserve medication names, dosages, routes, frequencies, laboratory "
+                "values, units, dates, medical codes, and numerical values.\n"
+                "4. Preserve headings, lists, line breaks, punctuation, and document structure.\n"
+                "5. Preserve common medical abbreviations such as WBC, Hb, IV, PO, BID, "
+                "and PRN. Translate an abbreviation only when its meaning is unambiguous.\n"
+                "6. If the source is ambiguous or incomplete, keep it ambiguous or incomplete.\n"
+                "7. Return only the English translation without commentary, quotation "
+                "marks, headings, or Markdown."
             ),
         },
         {
