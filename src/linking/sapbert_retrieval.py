@@ -12,6 +12,8 @@ if str(PROJECT_ROOT) not in sys.path:
 from src.Linking.embedding import create_sapbert_embeddings
 import json
 from langchain_chroma import Chroma
+import re
+import unicodedata
 
 RXNORM_CHROMA_DIR = PROJECT_ROOT / "data" / "db" / "RxNorm_chroma"
 ICD10_CHROMA_DIR = PROJECT_ROOT / "data" / "db" / "ICD10_chroma"
@@ -36,6 +38,15 @@ icd10_vector_store = Chroma(
     embedding_function=embeddings,
     relevance_score_fn=cosine_relevance_score,
 )
+
+import unicodedata
+
+def normalize_for_sapbert(text: str) -> str:
+    if not isinstance(text, str):
+        return ""
+
+    text = unicodedata.normalize("NFKC", text)
+    return " ".join(text.strip().split())
 
 def sapbert_retrieval(vector_store, texts, code_key, k):
     """
@@ -154,9 +165,20 @@ if __name__ == "__main__":
             entity_type = entity.get("type", "")
             queries = entity.get("eng_translation", [])
 
-            entity["retriever"] = {
-                "sapbert": {}
-            }
+            #Chuẩn hóa text
+            if isinstance(queries, str):
+                queries = [queries]
+            elif not isinstance(queries, list):
+                queries = []
+
+            queries = [
+                normalize_for_sapbert(query)
+                for query in queries
+                if isinstance(query, str) and query.strip()
+            ]
+            entity.setdefault("retriever", {})
+            entity["retriever"]["sapbert"] = {}
+
             if entity_type == "THUỐC":
                 entity["retriever"]["sapbert"] = sapbert_retrieval(
                     vector_store=rxnorm_vector_store,
