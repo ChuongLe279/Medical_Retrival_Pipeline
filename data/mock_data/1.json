@@ -1,56 +1,64 @@
 [
-    {
-        "code": "TEST-DX-001",
-        "text": "tăng huyết áp",
-        "type": "CHẨN ĐOÁN",
-        "eng_translation": [
-            "hypertension",
-            "high blood pressure",
-            "essential hypertension"
-        ],
-        "retriever": {
-            "sapbert": {
-                "I10": 0.966856,
-                "I159": 0.757279,
-                "I160": 0.721417,
-                "I150": 0.702525,
-                "R030": 0.688352
-            },
-            "rapidfuzz": {
-                "I10": 0.95,
-                "H40052": 0.9,
-                "H40053": 0.9,
-                "H40051": 0.9,
-                "O10013": 0.9,
-                "O1002": 0.9,
-                "L98A214": 0.855,
-                "S3599XS": 0.855,
-                "L98A298": 0.855
-            }
-        }
+  {
+    "code": "TEST-DX-001",
+    "text": "tăng huyết áp",
+    "type": "CHẨN ĐOÁN",
+    "eng_translation": [
+      "hypertension",
+      "high blood pressure",
+      "essential hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "R030": 0.688352
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9,
+        "L98A214": 0.855,
+        "S3599XS": 0.855,
+        "L98A298": 0.855
+      }
     },
-    {
-        "code": "TEST-DRUG-001",
-        "text": "metformin",
-        "type": "THUỐC",
-        "eng_translation": [
-            "metformin",
-            "metformin oral tablet"
-        ],
-        "retriever": {
-            "sapbert": {
-                "6809": 1.0,
-                "372803": 1.0,
-                "2646570": 0.989105,
-                "368254": 0.968804,
-                "2658152": 0.956736
-            },
-            "rapidfuzz": {
-                "6809": 1.0,
-                "372803": 1.0,
-                "378730": 0.95,
-                "2645330": 0.9
-            }
-        }
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
     }
+  },
+  {
+    "code": "TEST-DRUG-001",
+    "text": "metformin",
+    "type": "THUỐC",
+    "eng_translation": [
+      "metformin",
+      "metformin oral tablet"
+    ],
+    "retriever": {
+      "sapbert": {
+        "6809": 1.0,
+        "372803": 1.0,
+        "2646570": 0.989105,
+        "368254": 0.968804,
+        "2658152": 0.956736
+      },
+      "rapidfuzz": {
+        "6809": 1.0,
+        "372803": 1.0,
+        "378730": 0.95,
+        "2645330": 0.9
+      }
+    },
+    "candidate": {
+      "code": "6809",
+      "confidence": 1.0
+    }
+  }
 ]
