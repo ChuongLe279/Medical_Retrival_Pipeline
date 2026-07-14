@@ -1,34 +1,58 @@
 [
-    {
-        "code": "TEST-DX-002",
-        "text": "đái tháo đường típ 2",
-        "type": "CHẨN ĐOÁN",
-        "eng_translation": [
-            "type 2 diabetes mellitus",
-            "adult onset diabetes",
-            "non-insulin-dependent diabetes mellitus"
-        ],
-        "retriever": {
-            "sapbert": {
-                "E1165": 0.844191,
-                "P702": 0.787525,
-                "R7303": 0.737647,
-                "E119": 0.736971,
-                "Z833": 0.724102
-            }
-        }
+  {
+    "code": "TEST-DX-002",
+    "text": "đái tháo đường típ 2",
+    "type": "CHẨN ĐOÁN",
+    "eng_translation": [
+      "type 2 diabetes mellitus",
+      "adult onset diabetes",
+      "non-insulin-dependent diabetes mellitus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.844191,
+        "P702": 0.787525,
+        "R7303": 0.737647,
+        "E119": 0.736971,
+        "Z833": 0.724102
+      },
+      "rapidfuzz": {
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "E1169": 0.9,
+        "E133313": 0.855,
+        "E133319": 0.855,
+        "E133391": 0.855,
+        "I69153": 0.855,
+        "E133541": 0.855,
+        "E133539": 0.855
+      }
     },
-    {
-        "code": "TEST-DRUG-002",
-        "text": "aspirin 81 mg",
-        "type": "THUỐC",
-        "eng_translation": "aspirin 81 mg oral tablet",
-        "retriever": {
-            "sapbert": {
-                "308416": 1.0,
-                "243670": 1.0,
-                "794229": 0.964279
-            }
-        }
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.759772
     }
+  },
+  {
+    "code": "TEST-DRUG-002",
+    "text": "aspirin 81 mg",
+    "type": "THUỐC",
+    "eng_translation": "aspirin 81 mg oral tablet",
+    "retriever": {
+      "sapbert": {
+        "308416": 1.0,
+        "243670": 1.0,
+        "794229": 0.964279
+      },
+      "rapidfuzz": {
+        "243670": 1.0,
+        "370611": 0.95,
+        "246461": 0.941176
+      }
+    },
+    "candidate": {
+      "code": "243670",
+      "confidence": 1.0
+    }
+  }
 ]

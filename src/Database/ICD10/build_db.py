@@ -8,7 +8,6 @@ VD: A000    Cholera due to Vibrio cholerae 01, biovar cholerae
 Các chuẩn ICD10 khá đơn giản nên ta không cần phải dùng sqlite.
 """
 from pathlib import Path
-import re
 import json
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
