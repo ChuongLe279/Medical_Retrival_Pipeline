@@ -62,7 +62,16 @@ def normalize_for_fuzzy(text: str) -> str:
 def rapidfuzz_retrieval(text_list, candidate_texts, candidate_codes, top_k=5, scorer=fuzz.WRatio):
     score_matrix = process.cdist(text_list, candidate_texts, scorer=scorer, workers=-1)
     code_scores = {}
-    top_idx = np.argsort(-score_matrix, axis=1)[:, :top_k]
+    if score_matrix.shape[1] == 0 or top_k <= 0:
+        return {}
+
+    top_k = min(top_k, score_matrix.shape[1])
+
+    top_idx = np.argpartition(
+        -score_matrix,
+        kth=top_k - 1,
+        axis=1,
+    )[:, :top_k]
     for row_i, row in enumerate(top_idx):
         for idx in row:
             code = candidate_codes[idx]
@@ -129,8 +138,14 @@ if __name__ == "__main__":
                 )
             else:
                 entity["retriever"]["rapidfuzz"] = {}
-            
-            
+            # Sort rapidfuzz results by score, descending
+            entity["retriever"]["rapidfuzz"] = dict(
+                sorted(
+                    entity["retriever"]["rapidfuzz"].items(),
+                    key=lambda item: item[1],
+                    reverse=True,
+                )
+            )
         with file_path.open("w", encoding="utf-8") as file:
             json.dump(
                 data,
