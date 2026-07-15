@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import unittest
 
-from lab_extractor import (
+from src.rule_based.lab_extractor import (
     ExtractionStats,
     LabSeedEntry,
     build_lab_matcher,

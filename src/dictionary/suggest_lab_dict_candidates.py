@@ -9,7 +9,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from lab_extractor import build_lab_matcher, load_seed_dict
+from src.rule_based.lab_extractor import build_lab_matcher, load_seed_dict
 
 
 NUMBER_PATTERN = r"\d+(?:[.,]\d+)?"

@@ -10,7 +10,7 @@ Install dependency before running:
     pip install pdfplumber
 
 Example:
-    python scripts/extract_byt23_lab_dictionary.py \
+    python -m src.dictionary.extract_byt23_lab_dictionary \
       --pdf data/raw/23-byt-kem.pdf \
       --output data/dict/lab_imaging_from_byt23.json
 """
