@@ -17,7 +17,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Iterable
 
-from lab_extractor import RegexLabMatcher, build_lab_matcher, load_seed_dict, normalize_surface
+from src.rule_based.lab_extractor import RegexLabMatcher, build_lab_matcher, load_seed_dict, normalize_surface
 
 
 LOGGER = logging.getLogger(__name__)

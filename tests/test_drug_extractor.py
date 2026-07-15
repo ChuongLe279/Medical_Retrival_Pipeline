@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import unittest
 
-from drug_extractor import build_drug_name_matcher, extract_drug_mentions
+from src.rule_based.drug_extractor import build_drug_name_matcher, extract_drug_mentions
 
 
 class DrugExtractorTest(unittest.TestCase):

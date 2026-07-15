@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import unittest
 
-from find_imaging_gaps import extract_imaging_candidate_phrases
+from src.rule_based.find_imaging_gaps import extract_imaging_candidate_phrases
 
 
 class FindImagingGapsTest(unittest.TestCase):
