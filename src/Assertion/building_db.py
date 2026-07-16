@@ -606,38 +606,18 @@ negated_right_high = {
 }
 
 negated_left_expanded = {
-    "ít nghĩ",
-    "ít nghĩ đến",
-    "khó nghĩ đến",
-    "khả năng thấp",
-    "nguy cơ thấp",
     "gần như không",
     "hầu như không",
-    "không rõ",
-    "không chắc có",
-    "chưa xác định",
-    "chưa xác nhận",
-    "chưa được xác nhận",
-    "cần loại trừ",
     "để loại trừ",
     "nhằm loại trừ",
-    "theo dõi loại trừ",
     "chẩn đoán loại trừ",
     "ngoại trừ",
     "trừ",
 }
 
 negated_right_expanded = {
-    "ít khả năng",
-    "khả năng thấp",
-    "chưa xác nhận",
-    "chưa được xác nhận",
-    "cần được loại trừ",
-    "cần loại trừ",
     "không điển hình",
     "không phù hợp",
-    "không rõ ràng",
-    "không chắc chắn",
 }
 
 negative_test_prefixes = [
@@ -673,6 +653,127 @@ is_negated = build_output(
 
 
 # =========================================================
+# 4. isUncertain
+# =========================================================
+
+uncertain_left_high = {
+    "nghi",
+    "nghi ngờ",
+    "nghi mắc",
+    "nghi bị",
+    "nghĩ đến",
+    "nghĩ nhiều đến",
+    "hướng đến",
+    "gợi ý",
+    "có thể",
+    "có khả năng",
+    "nhiều khả năng",
+    "khả năng cao",
+    "không loại trừ",
+    "chưa loại trừ",
+    "cần loại trừ",
+    "cần được loại trừ",
+    "theo dõi",
+    "theo dõi loại trừ",
+    "cân nhắc",
+    "cần cân nhắc",
+    "chẩn đoán sơ bộ",
+    "chẩn đoán ban đầu",
+    "chẩn đoán tạm thời",
+    "chẩn đoán phân biệt",
+}
+
+uncertain_right_high = {
+    "được nghi ngờ",
+    "được nghĩ đến",
+    "được gợi ý",
+    "có thể xảy ra",
+    "có khả năng",
+    "nhiều khả năng",
+    "khả năng cao",
+    "chưa thể loại trừ",
+    "không thể loại trừ",
+    "cần loại trừ",
+    "cần được loại trừ",
+    "cần theo dõi",
+    "đang được theo dõi",
+    "chờ xác nhận",
+    "chưa được xác nhận",
+}
+
+uncertain_left_expanded = {
+    "ít nghĩ",
+    "ít nghĩ đến",
+    "khó nghĩ đến",
+    "khả năng thấp",
+    "nguy cơ thấp",
+    "không rõ",
+    "không chắc có",
+    "chưa xác định",
+    "chưa xác nhận",
+    "chưa được xác nhận",
+    "có vẻ",
+    "dường như",
+    "có lẽ",
+    "có khả năng là",
+    "đặt vấn đề",
+    "đặt ra khả năng",
+    "chưa thể khẳng định",
+    "chưa đủ cơ sở khẳng định",
+    "cần làm thêm xét nghiệm xác định",
+    "cần xét nghiệm xác nhận",
+}
+
+uncertain_right_expanded = {
+    "ít khả năng",
+    "khả năng thấp",
+    "chưa xác nhận",
+    "chưa được xác nhận",
+    "chưa xác định",
+    "chưa rõ",
+    "không rõ ràng",
+    "không chắc chắn",
+    "còn nghi ngờ",
+    "còn đang nghi ngờ",
+    "mang tính nghi ngờ",
+    "chỉ là chẩn đoán sơ bộ",
+    "cần xác nhận thêm",
+    "cần làm thêm xét nghiệm",
+}
+
+uncertain_subjects = [
+    "bác sĩ",
+    "nhóm điều trị",
+    "kíp điều trị",
+    "lâm sàng",
+    "kết quả ban đầu",
+    "hình ảnh",
+    "xét nghiệm ban đầu",
+]
+
+uncertain_verbs = [
+    "nghi ngờ",
+    "nghĩ đến",
+    "hướng đến",
+    "gợi ý",
+    "chưa loại trừ",
+    "không loại trừ",
+]
+
+for subject in uncertain_subjects:
+    for verb in uncertain_verbs:
+        uncertain_left_expanded.add(f"{subject} {verb}")
+
+is_uncertain = build_output(
+    label="isUncertain",
+    left_high=uncertain_left_high,
+    right_high=uncertain_right_high,
+    left_expanded=uncertain_left_expanded,
+    right_expanded=uncertain_right_expanded,
+)
+
+
+# =========================================================
 # SAVE JSON FILES
 # =========================================================
 
@@ -680,3 +781,4 @@ if __name__ == "__main__":
     save_json("isFamily.json", is_family)
     save_json("isHistorical.json", is_historical)
     save_json("isNegated.json", is_negated)
+    save_json("isUncertain.json", is_uncertain)

@@ -23,56 +23,67 @@ def check_folder_exist(path):
         )
 
 def hybrid_assertion_retrieval(ner_json, top_k = 5, alpha = 0.5):
-    with file_path.open("r", encoding="utf-8") as file:
+    with ner_json.open("r", encoding="utf-8") as file:
         data = json.load(file)
     
     for entity in data:
-        query_text  = entity["text"]
+        query_text  = entity["sentence"]
         # Encoding query
         query_outputs = model.encode([query_text], return_dense=True, return_sparse=True)
         query_dense = query_outputs['dense_vecs'][0].tolist() # type: ignore
         query_sparse = query_outputs['lexical_weights'][0]
 
-    # Fetch semantic candidates using the dense query vector
-    # Retrieve more candidates (e.g., top_k * 3) to give the lexical search room to rerank
-    candidate_pool_size = max(top_k * 3, 10)
-    candidates = collection.query(
-        query_embeddings=[query_dense], # type: ignore
-        n_results=candidate_pool_size,
-        include=["documents", "metadatas", "distances"]
-    )
-    # If database is empty
-    if not candidates['ids'] or len(candidates['ids'][0]) == 0:
-        print("No documents found in database.")
-        return
-    
-    # Narrow type so no error
-    documents = candidates.get("documents")
-    metadatas = candidates.get("metadatas")
-    distances = candidates.get("distances")
-
-    if documents is None or metadatas is None or distances is None:
-        raise RuntimeError("Chroma did not return all requested fields")
-    # Rerank candidates using BGE-M3's lexical matching scores
-
-    for i in range(len(candidates['ids'][0])):
-        text = documents[0][i]
-        meta = metadatas[0][i]
-        dense_distance = distances[0][i]
-
-        # Convert Chroma's cosine distance (1 - similarity) back to a similarity score
-        dense_score = 1.0 - dense_distance  
+        # Fetch semantic candidates using the dense query vector
+        # Retrieve more candidates (e.g., top_k * 3) to give the lexical search room to rerank
+        candidate_pool_size = max(top_k * 3, 10)
+        candidates = collection.query(
+            query_embeddings=[query_dense], # type: ignore
+            n_results=candidate_pool_size,
+            include=["documents", "metadatas", "distances"]
+        )
+        # If database is empty
+        if not candidates['ids'] or len(candidates['ids'][0]) == 0:
+            print("No documents found in database.")
+            return
         
-        # Retrieve and parse the stored sparse weights from metadata
-        doc_sparse_weights = json.loads(meta['sparse_weights']) # type: ignore
+        # Narrow type so no error
+        ids = candidates.get("ids")
+        documents = candidates.get("documents")
+        metadatas = candidates.get("metadatas")
+        distances = candidates.get("distances")
+
+        if documents is None or metadatas is None or distances is None:
+            raise RuntimeError("Chroma did not return all requested fields")
+        # Rerank candidates using BGE-M3's lexical matching scores
+
+        for i in range(len(candidates['ids'][0])):
+            id = ids[0][i]
+            text = documents[0][i]
+            meta = metadatas[0][i]
+            dense_distance = distances[0][i]
+
+            # Convert Chroma's cosine distance (1 - similarity) back to a similarity score
+            dense_score = 1.0 - dense_distance  
+            
+            # Retrieve and parse the stored sparse weights from metadata
+            doc_sparse_weights = json.loads(meta['sparse_weights']) # type: ignore
+            
+            # Compute the lexical match score
+            sparse_score = model.compute_lexical_matching_score(query_sparse, doc_sparse_weights) # type: ignore
         
-        # Compute the lexical match score
-        sparse_score = model.compute_lexical_matching_score(query_sparse, doc_sparse_weights) # type: ignore
-        
-        # Calculate combined hybrid score
-        # alpha = 1.0 -> Pure Semantic (Dense)
-        # alpha = 0.0 -> Pure Keyword (Sparse)
-        hybrid_score = (alpha * dense_score) + ((1.0 - alpha) * sparse_score)
+            # Calculate combined hybrid score
+            # alpha = 1.0 -> Pure Semantic (Dense)
+            # alpha = 0.0 -> Pure Keyword (Sparse)
+            hybrid_score = (alpha * dense_score) + ((1.0 - alpha) * sparse_score)
+
+            entity["assertions"] = {
+                "id": id,
+                "document": text,
+                "dense_similarity": dense_score,
+                "sparse_similarity": sparse_score,
+                "hybrid_score": hybrid_score
+            }
+
 
 if __name__ == "__main__":
     check_folder_exist(NER_FOLDER_PATH)

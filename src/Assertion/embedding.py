@@ -89,6 +89,8 @@ def assertion_embedding(json_folder, chroma_folder, batch_size: int = 32):
             )
         print("Ingestion complete!")
 
+
+
 if __name__ == "__main__":
     check_folder_exist(JSON_FOLDER_PATH)
     check_folder_exist(ASSERTION_CHROMA_DIR)
