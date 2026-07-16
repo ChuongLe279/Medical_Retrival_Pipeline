@@ -3,82 +3,101 @@ Gán thêm trường sentence cho NER bằng cách dựa vào position.
 Sau đó, thay entity = ENTITY (vd: sốt -> ENTITY)
 """
 
-import json
 import re
+import sys
+import json
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+TEXT_PATH = PROJECT_ROOT / "src" / "Assertion" / "data" / "mock_txt"
+JSON_PATH = PROJECT_ROOT / "src" / "Assertion" / "data" / "mock_ner"
+
+ENTITY_PLACEHOLDER = "[ENTITY]"
 
 
 def _split_sentences_with_spans(text):
     """
     Split `text` into sentences using Vietnamese sentence-ending punctuation
     (., ?, !), while keeping track of each sentence's character offsets
-    (start, end) in the ORIGINAL text. This lets us map an entity's
-    character span back to the sentence that contains it.
+    (start, end) in the ORIGINAL text.
 
-    Returns a list of (start, end, sentence_string) tuples, where
-    sentence_string is stripped of leading/trailing whitespace but start/end
-    still refer to the original (unstripped) sentence boundaries.
+    Returns a list of (start, end) tuples referring to the RAW (unstripped)
+    sentence span in `text`. We deliberately do NOT strip/store the sentence
+    string itself here, because masking an entity later requires slicing the
+    raw text at exact offsets -- stripping first would shift those offsets.
     """
-    # Match runs of non-terminator characters followed by a terminator
-    # (. ? !), or a trailing run with no terminator (last sentence in file).
     pattern = re.compile(r'[^.?!]*[.?!]|[^.?!]+$', re.UNICODE)
 
-    sentences = []
+    spans = []
     for match in pattern.finditer(text):
         raw_start, raw_end = match.start(), match.end()
-        raw_sentence = match.group()
-
-        if not raw_sentence.strip():
+        if not match.group().strip():
             # Skip empty/whitespace-only chunks (e.g. blank lines).
             continue
+        spans.append((raw_start, raw_end))
 
-        sentences.append((raw_start, raw_end, raw_sentence.strip()))
-
-    return sentences
+    return spans
 
 
-def _find_sentence_for_span(sentences, start, end):
+def _find_sentence_span(spans, start, end):
     """
-    Given the list of (sent_start, sent_end, sentence_text) tuples and an
-    entity's (start, end) character offsets, return the sentence text that
-    contains the entity's starting position.
+    Given the list of (sent_start, sent_end) tuples and an entity's
+    (start, end) character offsets, return the (sent_start, sent_end) of the
+    sentence that contains the entity's starting position.
 
-    Using the entity's start offset is enough because entities should not
-    span across sentence boundaries in well-formed clinical text; if no
-    exact containing sentence is found (e.g. due to punctuation edge cases),
-    we fall back to the closest sentence whose range overlaps the entity.
+    Falls back to overlap matching if no sentence strictly contains it
+    (e.g. punctuation edge cases).
     """
-    for sent_start, sent_end, sentence_text in sentences:
+    for sent_start, sent_end in spans:
         if sent_start <= start < sent_end:
-            return sentence_text
+            return sent_start, sent_end
 
-    # Fallback: look for any overlap between entity span and sentence span.
-    for sent_start, sent_end, sentence_text in sentences:
+    for sent_start, sent_end in spans:
         if start < sent_end and end > sent_start:
-            return sentence_text
+            return sent_start, sent_end
 
-    return None  # No containing sentence found (shouldn't normally happen).
+    return None
 
 
-def add_sentence_to_entities(txt_path, json_path, output_path):
+def _build_sentence_with_masked_entity(full_text, sent_start, sent_end, ent_start, ent_end):
+    """
+    Return the sentence's text (stripped) with THIS entity's own span
+    replaced by ENTITY_PLACEHOLDER. Other entities that may share the same
+    sentence are left untouched -- only the entity's own offsets are masked.
+
+    We compute the entity's position relative to the sentence's raw start,
+    slice the raw (unstripped) sentence text around it, and strip only
+    after masking so offsets stay correct.
+    """
+    raw_sentence = full_text[sent_start:sent_end]
+    rel_start = ent_start - sent_start
+    rel_end = ent_end - sent_start
+
+    masked = raw_sentence[:rel_start] + ENTITY_PLACEHOLDER + raw_sentence[rel_end:]
+    return masked.strip()
+
+
+def add_sentence_to_entities(txt_path, json_path):
     """
     Read a Vietnamese clinical .txt file and its corresponding NER .json
-    entity file, attach the full sentence containing each entity, and write
-    the enriched entities to `output_path`.
+    entity file, attach the full sentence containing each entity (with that
+    entity's own text replaced by "ENTITY"), and write the enriched entities
+    back to `json_path`.
 
     Parameters
     ----------
-    txt_path : str
+    txt_path : str or Path
         Path to the UTF-8 .txt file with the full clinical document.
-    json_path : str
+    json_path : str or Path
         Path to the .json file containing a list of entities, each with
-        "text", "type", and "pos": [start, end].
-    output_path : str
-        Path where the enriched entity list (with a new "sentence" field)
-        will be written as JSON.
+        "text", "type", and "pos": [start, end]. This file is overwritten
+        in place with the enriched entities.
 
     Notes
     -----
-    - Original files are only opened for reading; they are never modified.
+    - txt_path is only ever opened for reading; it is never modified.
     - Raises ValueError if an entity's recorded text does not match the
       actual substring of the document at its given [start, end] offsets.
     """
@@ -91,7 +110,7 @@ def add_sentence_to_entities(txt_path, json_path, output_path):
         entities = json.load(f)
 
     # --- 3. Pre-compute sentence spans once for the whole document ---
-    sentences = _split_sentences_with_spans(full_text)
+    spans = _split_sentences_with_spans(full_text)
 
     # --- 4. Process each entity ---
     enriched_entities = []
@@ -100,22 +119,28 @@ def add_sentence_to_entities(txt_path, json_path, output_path):
         expected_text = entity['text']
         actual_text = full_text[start:end]
 
-        # --- 8. Validate offsets match the recorded entity text ---
+        # --- Validate offsets match the recorded entity text ---
         if actual_text != expected_text:
             raise ValueError(
                 f"Entity/text mismatch at pos [{start}, {end}]: "
                 f"expected {expected_text!r} but found {actual_text!r} "
-                f"in the source document."
+                f"in the source document ({txt_path})."
             )
 
-        sentence = _find_sentence_for_span(sentences, start, end)
-        if sentence is None:
+        sent_span = _find_sentence_span(spans, start, end)
+        if sent_span is None:
             raise ValueError(
                 f"Could not find a containing sentence for entity "
-                f"{expected_text!r} at pos [{start}, {end}]."
+                f"{expected_text!r} at pos [{start}, {end}] ({txt_path})."
             )
+        sent_start, sent_end = sent_span
 
-        # --- 5. Preserve original fields, add the new "sentence" field ---
+        # --- Build the sentence text with THIS entity masked as ENTITY ---
+        sentence = _build_sentence_with_masked_entity(
+            full_text, sent_start, sent_end, start, end
+        )
+
+        # --- Preserve original fields, add the new "sentence" field ---
         enriched_entities.append({
             'text': entity['text'],
             'type': entity['type'],
@@ -123,20 +148,24 @@ def add_sentence_to_entities(txt_path, json_path, output_path):
             'sentence': sentence,
         })
 
-    # --- 9. Write results to a new file (ensure_ascii=False keeps Vietnamese
-    #        diacritics as real UTF-8 characters instead of \uXXXX escapes) ---
-    with open(output_path, 'w', encoding='utf-8') as f:
+    # --- Write results back (ensure_ascii=False keeps Vietnamese diacritics
+    #     as real UTF-8 characters instead of \uXXXX escapes) ---
+    with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(enriched_entities, f, ensure_ascii=False, indent=2)
 
-    return enriched_entities
 
-"""
+def check_folder_exist(path):
+    if not path.exists():
+        raise FileNotFoundError(
+            f"Folder does not exist: {path}"
+        )
+
+
 if __name__ == '__main__':
-    # Example usage
-    result = add_sentence_to_entities(
-        txt_path='clinical_note.txt',
-        json_path='entities.json',
-        output_path='entities_with_sentences.json',
-    )
-    print(f"Wrote {len(result)} enriched entities.")
-"""
+    check_folder_exist(JSON_PATH)
+    check_folder_exist(TEXT_PATH)
+
+    for json_path in JSON_PATH.glob("*.json"):
+        print(f"Processing: {json_path.name}")
+        text_path = TEXT_PATH / json_path.with_suffix(".txt").name
+        add_sentence_to_entities(text_path, json_path)
