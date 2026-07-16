@@ -2,7 +2,6 @@
 Ta sẽ dùng bge-m3 để làm phần assertion. 
 Ta sẽ tính luôn hybrid score trong file này.
 """
-import torch
 import chromadb
 from FlagEmbedding import BGEM3FlagModel
 import sys
@@ -41,10 +40,12 @@ def hybrid_assertion_retrieval(ner_json, top_k = 5, alpha = 0.5):
             n_results=candidate_pool_size,
             include=["documents", "metadatas", "distances"]
         )
-        # If database is empty
+        # If no candidates for THIS entity, skip it and move on to the next
+        # entity rather than aborting the whole file.
         if not candidates['ids'] or len(candidates['ids'][0]) == 0:
-            print("No documents found in database.")
-            return
+            print(f"No documents found in database for query: {query_text!r}")
+            entity.setdefault("assertion", [])
+            continue
         
         # Narrow type so no error
         ids = candidates.get("ids")
@@ -54,8 +55,9 @@ def hybrid_assertion_retrieval(ner_json, top_k = 5, alpha = 0.5):
 
         if documents is None or metadatas is None or distances is None:
             raise RuntimeError("Chroma did not return all requested fields")
+        
         # Rerank candidates using BGE-M3's lexical matching scores
-
+        hybrid_results = []
         for i in range(len(candidates['ids'][0])):
             id = ids[0][i]
             text = documents[0][i]
@@ -76,14 +78,23 @@ def hybrid_assertion_retrieval(ner_json, top_k = 5, alpha = 0.5):
             # alpha = 0.0 -> Pure Keyword (Sparse)
             hybrid_score = (alpha * dense_score) + ((1.0 - alpha) * sparse_score)
 
-            entity["assertions"] = {
+            hybrid_results.append({
                 "id": id,
                 "document": text,
                 "dense_similarity": dense_score,
                 "sparse_similarity": sparse_score,
                 "hybrid_score": hybrid_score
-            }
+            })
 
+        top_results = sorted(
+            hybrid_results, key=lambda x: x['hybrid_score'], reverse=True
+        )[:top_k]
+
+        entity.setdefault("assertion", []).append(top_results)
+    
+    # Update json
+    with open(ner_json, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2, default=lambda value: value.item() if hasattr(value, "item") else str(value),)
 
 if __name__ == "__main__":
     check_folder_exist(NER_FOLDER_PATH)
@@ -92,19 +103,21 @@ if __name__ == "__main__":
     print("Loading BGE-M3 model...")
     model = BGEM3FlagModel(MODEL_NAME, use_fp16=True)
 
-    # 2. Connect to the existing local Chroma DB
+    # Connect to the existing local Chroma DB
     print("Connecting to local Chroma DB...")
-    client = chromadb.PersistentClient(path=ASSERTION_CHROMA_DIR)
+    client = chromadb.PersistentClient(path=str(ASSERTION_CHROMA_DIR))
     
     try:
         collection = client.get_collection(name="bge_m3_hybrid")
-        for file_path in NER_FOLDER_PATH.glob("*.json"):
-            print(f"Processing {file_path.name}")
-
-            hybrid_assertion_retrieval(file_path)
 
     except Exception as e:
         print("Error: Could not find collection. Did you run ingest.py first?")
+        print(f"Details: {e}")
+        sys.exit(1)
+
+    for file_path in NER_FOLDER_PATH.glob("*.json"):
+        print(f"Processing {file_path.name}")
+        hybrid_assertion_retrieval(file_path)
         
         
         
