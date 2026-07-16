@@ -98,7 +98,7 @@ def process_file(input_path: Path, output_path: Path | None = None) -> Path:
     for entity in data:
         entity["assertion_result"] = classify_assertion(entity["sentence"])
 
-    destination = output_path or input_path.with_name(f"{input_path.stem}_v2.json")
+    destination = output_path or input_path.with_name(f"{input_path.stem}.json")
     destination.write_text(
         json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
     )

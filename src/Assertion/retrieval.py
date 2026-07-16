@@ -88,7 +88,7 @@ def hybrid_assertion_retrieval(ner_json, top_k = 5, alpha = 0.5):
 
         top_results = sorted(
             hybrid_results, key=lambda x: x['hybrid_score'], reverse=True
-        )[:top_k]
+        )[:3]
 
         entity.setdefault("assertion", []).append(top_results)
     
