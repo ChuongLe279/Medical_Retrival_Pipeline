@@ -1,5 +1,8 @@
 """
-Xây dựng các file json (example phrases) để sau này nhét vào vector store.
+Xây dựng các file JSON chứa câu mẫu assertion để đưa vào Chroma.
+
+Mỗi câu đều chứa placeholder [ENTITY]. Khi xử lý test data, entity đích
+cũng phải được thay bằng đúng placeholder này trước khi embedding.
 """
 from pathlib import Path
 import json
@@ -17,6 +20,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 ADD_UNACCENTED = True
 MAX_TIME_NUMBER = 100
+ENTITY_TOKEN = "[ENTITY]"
 
 
 # =========================================================
@@ -59,15 +63,84 @@ def prepare_phrases(phrases):
     return sorted(results, key=lambda x: (-len(x), x))
 
 
-def build_output(left_high=None, right_high=None,
+def attach_entity(phrase: str, cue_position: str) -> str:
+    """Gắn [ENTITY] đúng phía so với assertion cue."""
+    phrase = phrase.strip().rstrip(".!?;,:")
+
+    if cue_position == "left":
+        text = f"{phrase} {ENTITY_TOKEN}."
+    elif cue_position == "right":
+        text = f"{ENTITY_TOKEN} {phrase}."
+    else:
+        raise ValueError(
+            "cue_position must be either 'left' or 'right'"
+        )
+
+    return text
+
+
+def build_output(label, left_high=None, right_high=None,
                  left_expanded=None, right_expanded=None):
-    """Gộp tất cả phrase thành một danh sách phẳng, không có key."""
-    phrases = set()
+    """
+    Tạo record sẵn sàng để đưa vào Chroma.
 
-    for group in (left_high, right_high, left_expanded, right_expanded):
-        phrases.update(group or [])
+    Output item:
+    {
+        "id": "isFamily_000001",
+        "text": "mẹ bệnh nhân mắc [ENTITY].",
+        "metadata": {
+            "assertion": "isFamily",
+            "precision": "high",
+            "cue_position": "left"
+        }
+    }
+    """
+    records_by_text = {}
 
-    return prepare_phrases(phrases)
+    groups = [
+        (left_high, "high", "left"),
+        (right_high, "high", "right"),
+        (left_expanded, "expanded", "left"),
+        (right_expanded, "expanded", "right"),
+    ]
+
+    # Xử lý high trước. Nếu một câu xuất hiện ở cả high và expanded,
+    # metadata high sẽ được giữ lại.
+    for phrases, precision, cue_position in groups:
+        for phrase in prepare_phrases(phrases or []):
+            text = attach_entity(phrase, cue_position)
+
+            records_by_text.setdefault(
+                text,
+                {
+                    "text": text,
+                    "metadata": {
+                        "assertion": label,
+                        "precision": precision,
+                        "cue_position": cue_position,
+                        "entity_token": ENTITY_TOKEN,
+                    },
+                },
+            )
+
+    records = sorted(
+        records_by_text.values(),
+        key=lambda item: item["text"],
+    )
+
+    for index, record in enumerate(records, start=1):
+        record["id"] = f"{label}_{index:06d}"
+
+    return records
+
+
+def to_chroma_batch(records):
+    """Chuyển record JSON thành arguments cho collection.add()."""
+    return {
+        "ids": [record["id"] for record in records],
+        "documents": [record["text"] for record in records],
+        "metadatas": [record["metadata"] for record in records],
+    }
 
 
 def save_json(filename, data):
@@ -256,6 +329,7 @@ family_right_high.update([
 ])
 
 is_family = build_output(
+    label="isFamily",
     left_high=family_left_high,
     right_high=family_right_high,
     left_expanded=family_left_expanded,
@@ -430,6 +504,7 @@ for word in year_words:
         ])
 
 is_historical = build_output(
+    label="isHistorical",
     left_high=historical_left_high,
     right_high=historical_right_high,
     left_expanded=historical_left_expanded,
@@ -589,6 +664,7 @@ for prefix in negative_test_prefixes:
     ])
 
 is_negated = build_output(
+    label="isNegated",
     left_high=negated_left_high,
     right_high=negated_right_high,
     left_expanded=negated_left_expanded,
@@ -604,5 +680,3 @@ if __name__ == "__main__":
     save_json("isFamily.json", is_family)
     save_json("isHistorical.json", is_historical)
     save_json("isNegated.json", is_negated)
-
-
