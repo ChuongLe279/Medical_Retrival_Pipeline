@@ -2,145 +2,866 @@
   {
     "text": "ung thư biểu mô tế bào thận",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       87,
       114
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Tiền sử phẫu thuật / thủ thuật\n    - Cắt bỏ thận trái do [ENTITY]\n    - Cắt tuyến giáp với Dr.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6551336646080017,
+          "sparse_similarity": 0.18145893514156342,
+          "hybrid_score": 0.41829630732536316
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6497547030448914,
+          "sparse_similarity": 0.18388620018959045,
+          "hybrid_score": 0.4168204665184021
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6477011442184448,
+          "sparse_similarity": 0.14442482590675354,
+          "hybrid_score": 0.396062970161438
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Renal cell carcinoma",
+      "Kidney cancer"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư biểu mô tuyến giật nhú",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       147,
       177
-    ]
+    ],
+    "sentence": "do [ENTITY]\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006580",
+          "document": "[ENTITY] da 2 ngay.",
+          "dense_similarity": 0.8391737341880798,
+          "sparse_similarity": 0.13212445378303528,
+          "hybrid_score": 0.48564910888671875
+        },
+        {
+          "id": "isHistorical_006579",
+          "document": "[ENTITY] da 2 nam.",
+          "dense_similarity": 0.8350629806518555,
+          "sparse_similarity": 0.11518645286560059,
+          "hybrid_score": 0.475124716758728
+        },
+        {
+          "id": "isHistorical_015080",
+          "document": "da 2 ngay bi [ENTITY].",
+          "dense_similarity": 0.833062469959259,
+          "sparse_similarity": 0.11243212223052979,
+          "hybrid_score": 0.4727472960948944
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Papillary thyroid carcinoma",
+      "Differentiated thyroid carcinoma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       238,
       245
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đến khám vì [ENTITY], thiếu máu và phân có guaiac dương tính đến\n\n    Triệu chứng hiện tại\n    - mệt mỏi\n    - thiếu máu\n    - phân có guaiac dương tính\n\n    Các sự kiện trước khi nhập viện\n    - Nội soi đại tràng sau xuất viện cho thấy một khối ở chỗ uốn gan\n    - sinh thiết dương tính với ung thư biểu mô tuyến\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025192",
+          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6166896820068359,
+          "sparse_similarity": 0.16987791657447815,
+          "hybrid_score": 0.39328378438949585
+        },
+        {
+          "id": "isHistorical_001138",
+          "document": "3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6154017448425293,
+          "sparse_similarity": 0.16830043494701385,
+          "hybrid_score": 0.3918510973453522
+        },
+        {
+          "id": "isHistorical_020240",
+          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6127942204475403,
+          "sparse_similarity": 0.16934019327163696,
+          "hybrid_score": 0.3910672068595886
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thiếu máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       247,
       256
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đến khám vì mệt mỏi, [ENTITY] và phân có guaiac dương tính đến\n\n    Triệu chứng hiện tại\n    - mệt mỏi\n    - thiếu máu\n    - phân có guaiac dương tính\n\n    Các sự kiện trước khi nhập viện\n    - Nội soi đại tràng sau xuất viện cho thấy một khối ở chỗ uốn gan\n    - sinh thiết dương tính với ung thư biểu mô tuyến\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025192",
+          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6104243993759155,
+          "sparse_similarity": 0.1612357199192047,
+          "hybrid_score": 0.3858300447463989
+        },
+        {
+          "id": "isHistorical_001138",
+          "document": "3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6097410917282104,
+          "sparse_similarity": 0.15976211428642273,
+          "hybrid_score": 0.3847516179084778
+        },
+        {
+          "id": "isHistorical_020240",
+          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6059339046478271,
+          "sparse_similarity": 0.16076213121414185,
+          "hybrid_score": 0.3833480179309845
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Anemia",
+      "Iron deficiency anemia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phân có guaiac",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       260,
       274
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đến khám vì mệt mỏi, thiếu máu và [ENTITY] dương tính đến\n\n    Triệu chứng hiện tại\n    - mệt mỏi\n    - thiếu máu\n    - phân có guaiac dương tính\n\n    Các sự kiện trước khi nhập viện\n    - Nội soi đại tràng sau xuất viện cho thấy một khối ở chỗ uốn gan\n    - sinh thiết dương tính với ung thư biểu mô tuyến\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025192",
+          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6236608624458313,
+          "sparse_similarity": 0.17314383387565613,
+          "hybrid_score": 0.3984023332595825
+        },
+        {
+          "id": "isHistorical_001138",
+          "document": "3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6232930421829224,
+          "sparse_similarity": 0.17153006792068481,
+          "hybrid_score": 0.3974115550518036
+        },
+        {
+          "id": "isHistorical_020240",
+          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6204532980918884,
+          "sparse_similarity": 0.17260074615478516,
+          "hybrid_score": 0.3965270221233368
+        }
+      ]
+    ],
+    "eng_translation": [
+      "stool with guaiac test",
+      "Guaiac fecal occult blood test positive stool",
+      "Stool with fecal occult blood test"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       322,
       329
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đến khám vì mệt mỏi, thiếu máu và phân có guaiac dương tính đến\n\n    Triệu chứng hiện tại\n    - [ENTITY]\n    - thiếu máu\n    - phân có guaiac dương tính\n\n    Các sự kiện trước khi nhập viện\n    - Nội soi đại tràng sau xuất viện cho thấy một khối ở chỗ uốn gan\n    - sinh thiết dương tính với ung thư biểu mô tuyến\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025192",
+          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6097216010093689,
+          "sparse_similarity": 0.1781141310930252,
+          "hybrid_score": 0.39391785860061646
+        },
+        {
+          "id": "isHistorical_001138",
+          "document": "3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6087877750396729,
+          "sparse_similarity": 0.17668357491493225,
+          "hybrid_score": 0.39273566007614136
+        },
+        {
+          "id": "isHistorical_020240",
+          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6065158247947693,
+          "sparse_similarity": 0.177731454372406,
+          "hybrid_score": 0.39212363958358765
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thiếu máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       336,
       345
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đến khám vì mệt mỏi, thiếu máu và phân có guaiac dương tính đến\n\n    Triệu chứng hiện tại\n    - mệt mỏi\n    - [ENTITY]\n    - phân có guaiac dương tính\n\n    Các sự kiện trước khi nhập viện\n    - Nội soi đại tràng sau xuất viện cho thấy một khối ở chỗ uốn gan\n    - sinh thiết dương tính với ung thư biểu mô tuyến\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025192",
+          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.607817530632019,
+          "sparse_similarity": 0.16332371532917023,
+          "hybrid_score": 0.38557061553001404
+        },
+        {
+          "id": "isHistorical_001138",
+          "document": "3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6072195768356323,
+          "sparse_similarity": 0.1619284451007843,
+          "hybrid_score": 0.3845739960670471
+        },
+        {
+          "id": "isHistorical_020240",
+          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.604112446308136,
+          "sparse_similarity": 0.16295994818210602,
+          "hybrid_score": 0.3835361897945404
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Anemia",
+      "Iron deficiency anemia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phân có guaiac",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       352,
       366
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đến khám vì mệt mỏi, thiếu máu và phân có guaiac dương tính đến\n\n    Triệu chứng hiện tại\n    - mệt mỏi\n    - thiếu máu\n    - [ENTITY] dương tính\n\n    Các sự kiện trước khi nhập viện\n    - Nội soi đại tràng sau xuất viện cho thấy một khối ở chỗ uốn gan\n    - sinh thiết dương tính với ung thư biểu mô tuyến\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025192",
+          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6159264445304871,
+          "sparse_similarity": 0.1648995727300644,
+          "hybrid_score": 0.3904130160808563
+        },
+        {
+          "id": "isHistorical_001138",
+          "document": "3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6156444549560547,
+          "sparse_similarity": 0.16354677081108093,
+          "hybrid_score": 0.389595627784729
+        },
+        {
+          "id": "isHistorical_020240",
+          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6133064031600952,
+          "sparse_similarity": 0.16457101702690125,
+          "hybrid_score": 0.3889387249946594
+        }
+      ]
+    ],
+    "eng_translation": [
+      "stool with guaiac test",
+      "Guaiac fecal occult blood test positive stool",
+      "Stool with fecal occult blood test"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nội soi",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       421,
       428
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đến khám vì mệt mỏi, thiếu máu và phân có guaiac dương tính đến\n\n    Triệu chứng hiện tại\n    - mệt mỏi\n    - thiếu máu\n    - phân có guaiac dương tính\n\n    Các sự kiện trước khi nhập viện\n    - [ENTITY] đại tràng sau xuất viện cho thấy một khối ở chỗ uốn gan\n    - sinh thiết dương tính với ung thư biểu mô tuyến\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025192",
+          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6047905087471008,
+          "sparse_similarity": 0.16125014424324036,
+          "hybrid_score": 0.3830203413963318
+        },
+        {
+          "id": "isHistorical_001138",
+          "document": "3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6045430898666382,
+          "sparse_similarity": 0.16006594896316528,
+          "hybrid_score": 0.38230451941490173
+        },
+        {
+          "id": "isHistorical_020240",
+          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6021368503570557,
+          "sparse_similarity": 0.1610884666442871,
+          "hybrid_score": 0.3816126585006714
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Endoscopy",
+      "Gastrointestinal endoscopy",
+      "Endoscopic Examination"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "uốn gan",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       477,
       484
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đến khám vì mệt mỏi, thiếu máu và phân có guaiac dương tính đến\n\n    Triệu chứng hiện tại\n    - mệt mỏi\n    - thiếu máu\n    - phân có guaiac dương tính\n\n    Các sự kiện trước khi nhập viện\n    - Nội soi đại tràng sau xuất viện cho thấy một khối ở chỗ [ENTITY]\n    - sinh thiết dương tính với ung thư biểu mô tuyến\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025192",
+          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.622455358505249,
+          "sparse_similarity": 0.17115643620491028,
+          "hybrid_score": 0.39680588245391846
+        },
+        {
+          "id": "isHistorical_001138",
+          "document": "3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6219432950019836,
+          "sparse_similarity": 0.16962571442127228,
+          "hybrid_score": 0.39578449726104736
+        },
+        {
+          "id": "isHistorical_020240",
+          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6182243227958679,
+          "sparse_similarity": 0.17069825530052185,
+          "hybrid_score": 0.3944612741470337
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Liver cirrhosis",
+      "Liver disease with cirrhosis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư biểu mô tuyến",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       517,
       538
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đến khám vì mệt mỏi, thiếu máu và phân có guaiac dương tính đến\n\n    Triệu chứng hiện tại\n    - mệt mỏi\n    - thiếu máu\n    - phân có guaiac dương tính\n\n    Các sự kiện trước khi nhập viện\n    - Nội soi đại tràng sau xuất viện cho thấy một khối ở chỗ uốn gan\n    - sinh thiết dương tính với [ENTITY]\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.617629885673523,
+          "sparse_similarity": 0.18875595927238464,
+          "hybrid_score": 0.403192937374115
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6183984875679016,
+          "sparse_similarity": 0.18379276990890503,
+          "hybrid_score": 0.4010956287384033
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6228793859481812,
+          "sparse_similarity": 0.17646606266498566,
+          "hybrid_score": 0.3996727168560028
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Adenocarcinoma",
+      "Adenocarcinoma is a type of cancer that originates in glandular tissue. It is characterized by the uncontrolled growth of abnormal cells that form tumors, often arising from epithelial cells that line internal organs or glands. Adenocarcinomas can occur in various parts of the body, including the lungs, breasts, colon, pancreas, and prostate. The diagnosis is typically made through histopathological examination of biopsy samples, and treatment options depend on the location, stage, and grade of the tumor. Common symptoms may include localized pain, changes in bowel or bladder habits, unexplained weight loss, and fatigue. Early detection and appropriate treatment are crucial for improving prognosis."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thiếu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       597,
       602
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả phòng thí nghiệm: [ENTITY] máu\n    Kết quả chẩn đoán hình ảnh: chụp cắt lớp vi tính ổ bụng năm ngoái cho thấy không có dấu hiệu bệnh lan rộng\n\n    Thủ thuật thực hiện\n    - nội soi đại tràng\n    - sinh thiết\n\n    Các phát hiện chẩn đoán khác\n    - khối ở chỗ uốn gan\n    - ung thư biểu mô tuyến trên sinh thiết\n    - tiền sử khối u thận\n    - ung thư biểu mô tế bào thận\n    - ung thư biểu mô tuyến giật nhú",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5961913466453552,
+          "sparse_similarity": 0.13527463376522064,
+          "hybrid_score": 0.36573299765586853
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5865044593811035,
+          "sparse_similarity": 0.1428903043270111,
+          "hybrid_score": 0.3646973967552185
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.596969485282898,
+          "sparse_similarity": 0.12158093601465225,
+          "hybrid_score": 0.359275221824646
+        }
+      ]
+    ],
+    "eng_translation": [
+      "missing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp cắt lớp vi tính",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       639,
       659
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả phòng thí nghiệm: thiếu máu\n    Kết quả chẩn đoán hình ảnh: [ENTITY] ổ bụng năm ngoái cho thấy không có dấu hiệu bệnh lan rộng\n\n    Thủ thuật thực hiện\n    - nội soi đại tràng\n    - sinh thiết\n\n    Các phát hiện chẩn đoán khác\n    - khối ở chỗ uốn gan\n    - ung thư biểu mô tuyến trên sinh thiết\n    - tiền sử khối u thận\n    - ung thư biểu mô tế bào thận\n    - ung thư biểu mô tuyến giật nhú",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5917491912841797,
+          "sparse_similarity": 0.13681161403656006,
+          "hybrid_score": 0.3642804026603699
+        },
+        {
+          "id": "isNegated_000239",
+          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
+          "dense_similarity": 0.5885524153709412,
+          "sparse_similarity": 0.13986165821552277,
+          "hybrid_score": 0.36420702934265137
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.596472978591919,
+          "sparse_similarity": 0.12511536478996277,
+          "hybrid_score": 0.36079418659210205
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nội soi",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       749,
       756
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả phòng thí nghiệm: thiếu máu\n    Kết quả chẩn đoán hình ảnh: chụp cắt lớp vi tính ổ bụng năm ngoái cho thấy không có dấu hiệu bệnh lan rộng\n\n    Thủ thuật thực hiện\n    - [ENTITY] đại tràng\n    - sinh thiết\n\n    Các phát hiện chẩn đoán khác\n    - khối ở chỗ uốn gan\n    - ung thư biểu mô tuyến trên sinh thiết\n    - tiền sử khối u thận\n    - ung thư biểu mô tế bào thận\n    - ung thư biểu mô tuyến giật nhú",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000037",
+          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
+          "dense_similarity": 0.5691249370574951,
+          "sparse_similarity": 0.12233937531709671,
+          "hybrid_score": 0.3457321524620056
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5713343620300293,
+          "sparse_similarity": 0.10269511491060257,
+          "hybrid_score": 0.33701473474502563
+        },
+        {
+          "id": "isUncertain_000018",
+          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
+          "dense_similarity": 0.5703741312026978,
+          "sparse_similarity": 0.10063942521810532,
+          "hybrid_score": 0.33550676703453064
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Endoscopy",
+      "Gastrointestinal endoscopy",
+      "Endoscopic Examination"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "uốn gan",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       835,
       842
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả phòng thí nghiệm: thiếu máu\n    Kết quả chẩn đoán hình ảnh: chụp cắt lớp vi tính ổ bụng năm ngoái cho thấy không có dấu hiệu bệnh lan rộng\n\n    Thủ thuật thực hiện\n    - nội soi đại tràng\n    - sinh thiết\n\n    Các phát hiện chẩn đoán khác\n    - khối ở chỗ [ENTITY]\n    - ung thư biểu mô tuyến trên sinh thiết\n    - tiền sử khối u thận\n    - ung thư biểu mô tế bào thận\n    - ung thư biểu mô tuyến giật nhú",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5727729201316833,
+          "sparse_similarity": 0.11888773739337921,
+          "hybrid_score": 0.3458303213119507
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5784689784049988,
+          "sparse_similarity": 0.10708941519260406,
+          "hybrid_score": 0.3427791893482208
+        },
+        {
+          "id": "isUncertain_000018",
+          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
+          "dense_similarity": 0.5777167081832886,
+          "sparse_similarity": 0.10761634260416031,
+          "hybrid_score": 0.34266653656959534
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Liver cirrhosis",
+      "Liver disease with cirrhosis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư biểu mô tuyến trên",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       849,
       875
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả phòng thí nghiệm: thiếu máu\n    Kết quả chẩn đoán hình ảnh: chụp cắt lớp vi tính ổ bụng năm ngoái cho thấy không có dấu hiệu bệnh lan rộng\n\n    Thủ thuật thực hiện\n    - nội soi đại tràng\n    - sinh thiết\n\n    Các phát hiện chẩn đoán khác\n    - khối ở chỗ uốn gan\n    - [ENTITY] sinh thiết\n    - tiền sử khối u thận\n    - ung thư biểu mô tế bào thận\n    - ung thư biểu mô tuyến giật nhú",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5766817331314087,
+          "sparse_similarity": 0.11914065480232239,
+          "hybrid_score": 0.34791117906570435
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5798463225364685,
+          "sparse_similarity": 0.10585816204547882,
+          "hybrid_score": 0.34285223484039307
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5766414403915405,
+          "sparse_similarity": 0.1034027561545372,
+          "hybrid_score": 0.34002208709716797
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Adenocarcinoma of the upper gastrointestinal tract",
+      "Gastric adenocarcinoma of the upper gastrointestinal tract"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư biểu mô tế bào thận",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       919,
       946
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả phòng thí nghiệm: thiếu máu\n    Kết quả chẩn đoán hình ảnh: chụp cắt lớp vi tính ổ bụng năm ngoái cho thấy không có dấu hiệu bệnh lan rộng\n\n    Thủ thuật thực hiện\n    - nội soi đại tràng\n    - sinh thiết\n\n    Các phát hiện chẩn đoán khác\n    - khối ở chỗ uốn gan\n    - ung thư biểu mô tuyến trên sinh thiết\n    - tiền sử khối u thận\n    - [ENTITY]\n    - ung thư biểu mô tuyến giật nhú",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử khối u thận - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5737743973731995,
+          "sparse_similarity": 0.11187725514173508,
+          "hybrid_score": 0.34282582998275757
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5790451765060425,
+          "sparse_similarity": 0.09794215857982635,
+          "hybrid_score": 0.338493674993515
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5760587453842163,
+          "sparse_similarity": 0.09929417073726654,
+          "hybrid_score": 0.337676465511322
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Renal cell carcinoma",
+      "Kidney cancer"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư biểu mô tuyến giật nhú",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       953,
       983
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả phòng thí nghiệm: thiếu máu\n    Kết quả chẩn đoán hình ảnh: chụp cắt lớp vi tính ổ bụng năm ngoái cho thấy không có dấu hiệu bệnh lan rộng\n\n    Thủ thuật thực hiện\n    - nội soi đại tràng\n    - sinh thiết\n\n    Các phát hiện chẩn đoán khác\n    - khối ở chỗ uốn gan\n    - ung thư biểu mô tuyến trên sinh thiết\n    - tiền sử khối u thận\n    - ung thư biểu mô tế bào thận\n    - [ENTITY]",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử khối u thận - ung thư biểu mô tế bào thận - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5772605538368225,
+          "sparse_similarity": 0.11078395694494247,
+          "hybrid_score": 0.3440222442150116
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5816914439201355,
+          "sparse_similarity": 0.0983770415186882,
+          "hybrid_score": 0.34003424644470215
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.574842631816864,
+          "sparse_similarity": 0.09739498794078827,
+          "hybrid_score": 0.33611881732940674
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Papillary thyroid carcinoma",
+      "Differentiated thyroid carcinoma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

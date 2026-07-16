@@ -2,41 +2,241 @@
   {
     "text": "xơ gan do rượu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       61,
       75
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính: nghi ngờ [ENTITY]\n    Các yếu tố nguy cơ liên quan: Có tiền sử sử dụng rượu bia\n\n2.",
+    "assertion_result": {
+      "tag": "isUncertain",
+      "confidence": 1.0,
+      "evidence": "nghi ngờ [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6688092947006226,
+          "sparse_similarity": 0.24483801424503326,
+          "hybrid_score": 0.4568236470222473
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6736989617347717,
+          "sparse_similarity": 0.23803803324699402,
+          "hybrid_score": 0.4558684825897217
+        },
+        {
+          "id": "isFamily_007608",
+          "document": "bệnh sử gia đình ông nội có tiền sử [ENTITY].",
+          "dense_similarity": 0.6530883312225342,
+          "sparse_similarity": 0.20956236124038696,
+          "hybrid_score": 0.43132534623146057
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Alcoholic cirrhosis",
+      "Alcohol-related cirrhosis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hội chứng não gan",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       191,
       208
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Triệu chứng hiện tại: [ENTITY]\n    Các sự kiện trước khi nhập viện\n    - đến bệnh viện  với hội chứng não gan\n    - Bệnh nhân được chuyển viện trong tình trạng hội chứng não gan tiến triển, ý thức suy giảm\n    - Bệnh nhân nhập viện vào ngày w tiến triển hội chứng não gan\n    - không thể tự chăm sóc bản thân tại nhà\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6073026061058044,
+          "sparse_similarity": 0.1478133499622345,
+          "hybrid_score": 0.37755799293518066
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.595920979976654,
+          "sparse_similarity": 0.14361989498138428,
+          "hybrid_score": 0.36977043747901917
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.5919401049613953,
+          "sparse_similarity": 0.146399587392807,
+          "hybrid_score": 0.36916983127593994
+        }
+      ]
+    ],
+    "eng_translation": [
+      "hepatic encephalopathy",
+      "Portal Systemic Encephalopathy"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hội chứng não gan",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       270,
       287
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Triệu chứng hiện tại: hội chứng não gan\n    Các sự kiện trước khi nhập viện\n    - đến bệnh viện  với [ENTITY]\n    - Bệnh nhân được chuyển viện trong tình trạng hội chứng não gan tiến triển, ý thức suy giảm\n    - Bệnh nhân nhập viện vào ngày w tiến triển hội chứng não gan\n    - không thể tự chăm sóc bản thân tại nhà\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6243861317634583,
+          "sparse_similarity": 0.16256621479988098,
+          "hybrid_score": 0.3934761881828308
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6150040626525879,
+          "sparse_similarity": 0.15845581889152527,
+          "hybrid_score": 0.3867299556732178
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.6112039685249329,
+          "sparse_similarity": 0.16089831292629242,
+          "hybrid_score": 0.38605114817619324
+        }
+      ]
+    ],
+    "eng_translation": [
+      "hepatic encephalopathy",
+      "Portal Systemic Encephalopathy"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hội chứng não gan",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       338,
       355
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Triệu chứng hiện tại: hội chứng não gan\n    Các sự kiện trước khi nhập viện\n    - đến bệnh viện  với hội chứng não gan\n    - Bệnh nhân được chuyển viện trong tình trạng [ENTITY] tiến triển, ý thức suy giảm\n    - Bệnh nhân nhập viện vào ngày w tiến triển hội chứng não gan\n    - không thể tự chăm sóc bản thân tại nhà\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6140997409820557,
+          "sparse_similarity": 0.15187442302703857,
+          "hybrid_score": 0.3829870820045471
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6034842133522034,
+          "sparse_similarity": 0.15027067065238953,
+          "hybrid_score": 0.37687742710113525
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.5981060266494751,
+          "sparse_similarity": 0.15017300844192505,
+          "hybrid_score": 0.3741395175457001
+        }
+      ]
+    ],
+    "eng_translation": [
+      "hepatic encephalopathy",
+      "Portal Systemic Encephalopathy"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hội chứng não gan",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       432,
       449
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Triệu chứng hiện tại: hội chứng não gan\n    Các sự kiện trước khi nhập viện\n    - đến bệnh viện  với hội chứng não gan\n    - Bệnh nhân được chuyển viện trong tình trạng hội chứng não gan tiến triển, ý thức suy giảm\n    - Bệnh nhân nhập viện vào ngày w tiến triển [ENTITY]\n    - không thể tự chăm sóc bản thân tại nhà\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6060234904289246,
+          "sparse_similarity": 0.14588657021522522,
+          "hybrid_score": 0.3759550452232361
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5958063006401062,
+          "sparse_similarity": 0.14240694046020508,
+          "hybrid_score": 0.36910662055015564
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.5903598070144653,
+          "sparse_similarity": 0.14457187056541443,
+          "hybrid_score": 0.3674658536911011
+        }
+      ]
+    ],
+    "eng_translation": [
+      "hepatic encephalopathy",
+      "Portal Systemic Encephalopathy"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

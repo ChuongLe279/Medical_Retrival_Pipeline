@@ -2,209 +2,1249 @@
   {
     "text": "Viêm loét đại tràng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       57,
       76
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - [ENTITY] trong nhiều năm qua\n    - bằng chứng Bệnh gan do rượu ở vị trí 35cm\n    Tiền sử phẫu thuật / thủ thuật: đã phẫu thuật tạo hậu môn nhân tạo kiểu túi nối hồi tràng - hậu môn\n    Thuốc trước khi nhập viện: thuốc giảm đau opioid\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội khoa các bệnh lý mạn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020378",
+          "document": "khoảng 35 năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6434553861618042,
+          "sparse_similarity": 0.20166240632534027,
+          "hybrid_score": 0.42255890369415283
+        },
+        {
+          "id": "isHistorical_030143",
+          "document": "vào 35 năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6351850032806396,
+          "sparse_similarity": 0.2005995213985443,
+          "hybrid_score": 0.4178922772407532
+        },
+        {
+          "id": "isHistorical_020258",
+          "document": "khoảng 30 năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6468449831008911,
+          "sparse_similarity": 0.15476977825164795,
+          "hybrid_score": 0.40080738067626953
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ulcerative colitis",
+      "Inflammatory Bowel Disease (IBD)"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Bệnh gan do rượu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       114,
       130
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Viêm loét đại tràng trong nhiều năm qua\n    - bằng chứng [ENTITY] ở vị trí 35cm\n    Tiền sử phẫu thuật / thủ thuật: đã phẫu thuật tạo hậu môn nhân tạo kiểu túi nối hồi tràng - hậu môn\n    Thuốc trước khi nhập viện: thuốc giảm đau opioid\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020378",
+          "document": "khoảng 35 năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6213897466659546,
+          "sparse_similarity": 0.1982310563325882,
+          "hybrid_score": 0.4098103940486908
+        },
+        {
+          "id": "isHistorical_030143",
+          "document": "vào 35 năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6128307580947876,
+          "sparse_similarity": 0.19731122255325317,
+          "hybrid_score": 0.4050709903240204
+        },
+        {
+          "id": "isHistorical_025330",
+          "document": "từ 35 năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6091110706329346,
+          "sparse_similarity": 0.19722247123718262,
+          "hybrid_score": 0.4031667709350586
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Alcohol-related liver disease",
+      "Alcoholic liver disease"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ăn uống",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       408,
       415
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - [ENTITY] kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5958985686302185,
+          "sparse_similarity": 0.17966589331626892,
+          "hybrid_score": 0.3877822160720825
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5901833176612854,
+          "sparse_similarity": 0.18319927155971527,
+          "hybrid_score": 0.38669130206108093
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5970762968063354,
+          "sparse_similarity": 0.1698255091905594,
+          "hybrid_score": 0.3834508955478668
+        }
+      ]
+    ],
+    "eng_translation": [
+      "eating and drinking",
+      "Oral intake"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       423,
       431
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do [ENTITY]\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6003463864326477,
+          "sparse_similarity": 0.18335312604904175,
+          "hybrid_score": 0.3918497562408447
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5955963730812073,
+          "sparse_similarity": 0.186760812997818,
+          "hybrid_score": 0.39117860794067383
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6013639569282532,
+          "sparse_similarity": 0.1750776767730713,
+          "hybrid_score": 0.38822081685066223
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       438,
       446
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - [ENTITY]/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5837523937225342,
+          "sparse_similarity": 0.16479994356632233,
+          "hybrid_score": 0.37427616119384766
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.578928530216217,
+          "sparse_similarity": 0.16791938245296478,
+          "hybrid_score": 0.3734239637851715
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5851932168006897,
+          "sparse_similarity": 0.1574796885251999,
+          "hybrid_score": 0.3713364601135254
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó chịu vùng bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       447,
       465
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/[ENTITY] tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5932422280311584,
+          "sparse_similarity": 0.18186743557453156,
+          "hybrid_score": 0.3875548243522644
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.589479923248291,
+          "sparse_similarity": 0.18524247407913208,
+          "hybrid_score": 0.38736119866371155
+        },
+        {
+          "id": "isHistorical_020708",
+          "document": "khoảng 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5922356843948364,
+          "sparse_similarity": 0.17780910432338715,
+          "hybrid_score": 0.3850224018096924
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal discomfort",
+      "Abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       519,
       527
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - [ENTITY]\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5888990163803101,
+          "sparse_similarity": 0.16962890326976776,
+          "hybrid_score": 0.3792639672756195
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5843815803527832,
+          "sparse_similarity": 0.1728290617465973,
+          "hybrid_score": 0.37860530614852905
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5907878279685974,
+          "sparse_similarity": 0.16328024864196777,
+          "hybrid_score": 0.3770340383052826
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       534,
       537
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - [ENTITY] x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5865966081619263,
+          "sparse_similarity": 0.1689782440662384,
+          "hybrid_score": 0.37778741121292114
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5821938514709473,
+          "sparse_similarity": 0.17226514220237732,
+          "hybrid_score": 0.3772295117378235
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5884414911270142,
+          "sparse_similarity": 0.16038313508033752,
+          "hybrid_score": 0.37441229820251465
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       557,
       560
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan [ENTITY] và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5869190692901611,
+          "sparse_similarity": 0.16888168454170227,
+          "hybrid_score": 0.3779003620147705
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5818535685539246,
+          "sparse_similarity": 0.17185795307159424,
+          "hybrid_score": 0.3768557608127594
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.588373064994812,
+          "sparse_similarity": 0.1608390510082245,
+          "hybrid_score": 0.37460607290267944
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "run rẩy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       564,
       571
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và [ENTITY]\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.588350772857666,
+          "sparse_similarity": 0.17907586693763733,
+          "hybrid_score": 0.3837133049964905
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5846984386444092,
+          "sparse_similarity": 0.18245099484920502,
+          "hybrid_score": 0.3835747241973877
+        },
+        {
+          "id": "isHistorical_020708",
+          "document": "khoảng 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.587812066078186,
+          "sparse_similarity": 0.17680376768112183,
+          "hybrid_score": 0.38230791687965393
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Run rẩy",
+      "Rash"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất cảm giác ngon miệng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       578,
       601
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - [ENTITY]/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5857110619544983,
+          "sparse_similarity": 0.1708778291940689,
+          "hybrid_score": 0.378294438123703
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.581784725189209,
+          "sparse_similarity": 0.1741967797279358,
+          "hybrid_score": 0.3779907524585724
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5868638753890991,
+          "sparse_similarity": 0.1642192006111145,
+          "hybrid_score": 0.3755415380001068
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Loss of appetite",
+      "Anorexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chán ăn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       602,
       609
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/[ENTITY]\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5884946584701538,
+          "sparse_similarity": 0.17529337108135223,
+          "hybrid_score": 0.3818940222263336
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5840229392051697,
+          "sparse_similarity": 0.17859043180942535,
+          "hybrid_score": 0.3813066780567169
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5900388956069946,
+          "sparse_similarity": 0.16549323499202728,
+          "hybrid_score": 0.37776607275009155
+        }
+      ]
+    ],
+    "eng_translation": [
+      "loss of appetite",
+      "Anorexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy nhược",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       616,
       625
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - [ENTITY]\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5865158438682556,
+          "sparse_similarity": 0.17416703701019287,
+          "hybrid_score": 0.38034144043922424
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5816080570220947,
+          "sparse_similarity": 0.1772816926240921,
+          "hybrid_score": 0.3794448673725128
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5878896117210388,
+          "sparse_similarity": 0.16618148982524872,
+          "hybrid_score": 0.37703555822372437
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Weakness",
+      "Neurological weakness"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       898,
       906
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: [ENTITY]/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5830758213996887,
+          "sparse_similarity": 0.16576054692268372,
+          "hybrid_score": 0.3744181990623474
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5789024829864502,
+          "sparse_similarity": 0.16917674243450165,
+          "hybrid_score": 0.3740396201610565
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5849546790122986,
+          "sparse_similarity": 0.15812671184539795,
+          "hybrid_score": 0.37154069542884827
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó chịu vùng bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       907,
       925
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/[ENTITY] tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5914552807807922,
+          "sparse_similarity": 0.17740300297737122,
+          "hybrid_score": 0.3844291567802429
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5873400568962097,
+          "sparse_similarity": 0.18105840682983398,
+          "hybrid_score": 0.38419923186302185
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5926428437232971,
+          "sparse_similarity": 0.1688065230846405,
+          "hybrid_score": 0.3807246685028076
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal discomfort",
+      "Abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       979,
       982
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: [ENTITY] x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5883175134658813,
+          "sparse_similarity": 0.17372140288352966,
+          "hybrid_score": 0.3810194730758667
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5824107527732849,
+          "sparse_similarity": 0.17719662189483643,
+          "hybrid_score": 0.37980368733406067
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5902428030967712,
+          "sparse_similarity": 0.16636326909065247,
+          "hybrid_score": 0.37830305099487305
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1025,
       1028
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan [ENTITY] và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5975593328475952,
+          "sparse_similarity": 0.18137633800506592,
+          "hybrid_score": 0.38946783542633057
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5922726392745972,
+          "sparse_similarity": 0.18482257425785065,
+          "hybrid_score": 0.3885475993156433
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5989090204238892,
+          "sparse_similarity": 0.17372913658618927,
+          "hybrid_score": 0.3863190710544586
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "run rẩy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1032,
       1039
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và [ENTITY], mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6003260016441345,
+          "sparse_similarity": 0.18575820326805115,
+          "hybrid_score": 0.39304208755493164
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5957112908363342,
+          "sparse_similarity": 0.18952660262584686,
+          "hybrid_score": 0.39261895418167114
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6021920442581177,
+          "sparse_similarity": 0.17915019392967224,
+          "hybrid_score": 0.39067113399505615
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Run rẩy",
+      "Rash"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất cảm giác ngon miệng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1041,
       1064
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, [ENTITY]/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5845174193382263,
+          "sparse_similarity": 0.16690373420715332,
+          "hybrid_score": 0.3757105767726898
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5807425379753113,
+          "sparse_similarity": 0.17054378986358643,
+          "hybrid_score": 0.37564316391944885
+        },
+        {
+          "id": "isHistorical_020708",
+          "document": "khoảng 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.583609402179718,
+          "sparse_similarity": 0.16198617219924927,
+          "hybrid_score": 0.37279778718948364
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Loss of appetite",
+      "Anorexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chán ăn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1065,
       1072
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/[ENTITY], suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5886645913124084,
+          "sparse_similarity": 0.17127174139022827,
+          "hybrid_score": 0.37996816635131836
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5840656757354736,
+          "sparse_similarity": 0.17476433515548706,
+          "hybrid_score": 0.37941500544548035
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5903904438018799,
+          "sparse_similarity": 0.1653946042060852,
+          "hybrid_score": 0.37789252400398254
+        }
+      ]
+    ],
+    "eng_translation": [
+      "loss of appetite",
+      "Anorexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy nhược",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1074,
       1083
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, [ENTITY], toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5884581208229065,
+          "sparse_similarity": 0.1704111397266388,
+          "hybrid_score": 0.37943464517593384
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5838340520858765,
+          "sparse_similarity": 0.17377151548862457,
+          "hybrid_score": 0.3788027763366699
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.590369701385498,
+          "sparse_similarity": 0.16439123451709747,
+          "hybrid_score": 0.37738046050071716
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Weakness",
+      "Neurological weakness"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy kiệt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1096,
       1104
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng [ENTITY]  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5891256332397461,
+          "sparse_similarity": 0.17357777059078217,
+          "hybrid_score": 0.3813517093658447
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5845548510551453,
+          "sparse_similarity": 0.17718498408794403,
+          "hybrid_score": 0.38086992502212524
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5911646485328674,
+          "sparse_similarity": 0.1664918214082718,
+          "hybrid_score": 0.378828227519989
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Weight loss",
+      "Unintentional weight loss"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "niệu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1112,
       1116
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu [ENTITY], chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5887338519096375,
+          "sparse_similarity": 0.17226940393447876,
+          "hybrid_score": 0.3805016279220581
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5841260552406311,
+          "sparse_similarity": 0.17570461332798004,
+          "hybrid_score": 0.379915326833725
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5902764797210693,
+          "sparse_similarity": 0.16621330380439758,
+          "hybrid_score": 0.37824487686157227
+        }
+      ]
+    ],
+    "eng_translation": [
+      "urine",
+      "urine sample"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy dịch từ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1118,
       1130
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, [ENTITY] lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5834539532661438,
+          "sparse_similarity": 0.17320913076400757,
+          "hybrid_score": 0.3783315420150757
+        },
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5782902240753174,
+          "sparse_similarity": 0.17676231265068054,
+          "hybrid_score": 0.37752628326416016
+        },
+        {
+          "id": "isHistorical_020726",
+          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5854885578155518,
+          "sparse_similarity": 0.16812196373939514,
+          "hybrid_score": 0.37680524587631226
+        }
+      ]
+    ],
+    "eng_translation": [
+      "bleeding from",
+      "hemorrhage from"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ăn uống",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1188,
       1195
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - [ENTITY] kém do buồn nôn, được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5861775279045105,
+          "sparse_similarity": 0.1776162087917328,
+          "hybrid_score": 0.38189685344696045
+        },
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5897022485733032,
+          "sparse_similarity": 0.1738584041595459,
+          "hybrid_score": 0.38178032636642456
+        },
+        {
+          "id": "isHistorical_020708",
+          "document": "khoảng 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5891607999801636,
+          "sparse_similarity": 0.16888216137886047,
+          "hybrid_score": 0.37902146577835083
+        }
+      ]
+    ],
+    "eng_translation": [
+      "eating and drinking",
+      "Oral intake"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1203,
       1211
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 48 giờ qua\n    Triệu chứng hiện tại\n    - ăn uống kém do buồn nôn\n    - đau bụng/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)\n    - buồn nôn\n    - nôn x 1\n    - chủ quan sốt và run rẩy\n    - mất cảm giác ngon miệng/chán ăn\n    - suy nhược\n    -  Toàn trạng suy kiệt\n    - giảm lượng nước tiểu từ 1800 ml xuống còn 300 ml trong vòng 24 giờ\n    - tăng đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian\n    Đặc điểm triệu chứng\n    - Vị trí: LLQ\n    - Mức độ nghiêm trọng: đau bụng/khó chịu vùng bụng tăng dần\n    - Thời gian: 48 giờ qua\n    - Tần suất: nôn x 1\n    - Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể\n    Sự kiện trước khi nhập viện\n    - ăn uống kém do [ENTITY], được cho là do tác dụng phụ của thuốc giảm đau opioid\n    - ngừng thuốc giảm đau opioid vào hôm qua mà không có thay đổi các triệu chứng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025660",
+          "document": "từ 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5926077961921692,
+          "sparse_similarity": 0.18504086136817932,
+          "hybrid_score": 0.38882434368133545
+        },
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5960465669631958,
+          "sparse_similarity": 0.18120822310447693,
+          "hybrid_score": 0.38862740993499756
+        },
+        {
+          "id": "isHistorical_020708",
+          "document": "khoảng 48 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5953231453895569,
+          "sparse_similarity": 0.17604809999465942,
+          "hybrid_score": 0.38568562269210815
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

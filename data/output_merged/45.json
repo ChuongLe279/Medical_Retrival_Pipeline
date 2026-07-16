@@ -2,57 +2,335 @@
   {
     "text": "đái tháo đường",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       48,
       62
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY]\n    - tăng huyết áp\n    Tiền sử phẫu thuật / thủ thuật: đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    Các yếu tố nguy cơ liên quan\n    - đái tháo đường\n    - tăng huyết áp\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_021132",
+          "document": "người cùng huyết thống của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.623367190361023,
+          "sparse_similarity": 0.1796766072511673,
+          "hybrid_score": 0.4015218913555145
+        },
+        {
+          "id": "isFamily_021118",
+          "document": "người cùng huyết thống của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6276291012763977,
+          "sparse_similarity": 0.17121294140815735,
+          "hybrid_score": 0.3994210362434387
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6231601238250732,
+          "sparse_similarity": 0.16303789615631104,
+          "hybrid_score": 0.39309900999069214
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diabetes mellitus",
+      "Type 2 diabetes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       69,
       82
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - đái tháo đường\n    - [ENTITY]\n    Tiền sử phẫu thuật / thủ thuật: đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    Các yếu tố nguy cơ liên quan\n    - đái tháo đường\n    - tăng huyết áp\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_021132",
+          "document": "người cùng huyết thống của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6258000731468201,
+          "sparse_similarity": 0.1750519871711731,
+          "hybrid_score": 0.4004260301589966
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6271923780441284,
+          "sparse_similarity": 0.16957323253154755,
+          "hybrid_score": 0.3983828127384186
+        },
+        {
+          "id": "isFamily_021118",
+          "document": "người cùng huyết thống của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6292814612388611,
+          "sparse_similarity": 0.16693340241909027,
+          "hybrid_score": 0.3981074392795563
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đái tháo đường",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       209,
       223
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - đái tháo đường\n    - tăng huyết áp\n    Tiền sử phẫu thuật / thủ thuật: đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    Các yếu tố nguy cơ liên quan\n    - [ENTITY]\n    - tăng huyết áp\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_021132",
+          "document": "người cùng huyết thống của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6166286468505859,
+          "sparse_similarity": 0.16218358278274536,
+          "hybrid_score": 0.38940611481666565
+        },
+        {
+          "id": "isFamily_021118",
+          "document": "người cùng huyết thống của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6213886737823486,
+          "sparse_similarity": 0.15459348261356354,
+          "hybrid_score": 0.3879910707473755
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6154428124427795,
+          "sparse_similarity": 0.14413270354270935,
+          "hybrid_score": 0.37978774309158325
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diabetes mellitus",
+      "Type 2 diabetes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       230,
       243
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - đái tháo đường\n    - tăng huyết áp\n    Tiền sử phẫu thuật / thủ thuật: đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    Các yếu tố nguy cơ liên quan\n    - đái tháo đường\n    - [ENTITY]\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6260673999786377,
+          "sparse_similarity": 0.1626969426870346,
+          "hybrid_score": 0.39438217878341675
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6205628514289856,
+          "sparse_similarity": 0.16797593235969543,
+          "hybrid_score": 0.3942694067955017
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6254492998123169,
+          "sparse_similarity": 0.15845029056072235,
+          "hybrid_score": 0.3919498026371002
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tai biến mạch máu não",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       364,
       385
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Thủ thuật điện chọn\n    Triệu chứng hiện tại: triệu chứng liên quan đến [ENTITY] từ vùng này\n    Các sự kiện trước khi nhập viện\n    - Gần đây được điều trị bằng cách đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    - Trong quá trình chụp mạch máu, ghi nhận tình trạng hẹp khoảng 65% của động mạch cảnh chung trái gần gốc với bằng chứng xơ vữa mảng loét\n    - Đã thảo luận với bệnh nhân khi bà nhập viện rằng có khả năng bà sẽ cần được điều trị tình trạng này bằng phẫu thuật nội mạch hóa động mạch cảnh\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "bà"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021026",
+          "document": "khoảng 6 năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.580757737159729,
+          "sparse_similarity": 0.12551525235176086,
+          "hybrid_score": 0.35313647985458374
+        },
+        {
+          "id": "isHistorical_021032",
+          "document": "khoảng 6 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5798771381378174,
+          "sparse_similarity": 0.12638121843338013,
+          "hybrid_score": 0.35312917828559875
+        },
+        {
+          "id": "isHistorical_025990",
+          "document": "từ 6 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5727960467338562,
+          "sparse_similarity": 0.1313628852367401,
+          "hybrid_score": 0.35207945108413696
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cerebrovascular accident",
+      "Stroke"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xơ vữa mảng loét",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       648,
       664
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Thủ thuật điện chọn\n    Triệu chứng hiện tại: triệu chứng liên quan đến tai biến mạch máu não từ vùng này\n    Các sự kiện trước khi nhập viện\n    - Gần đây được điều trị bằng cách đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    - Trong quá trình chụp mạch máu, ghi nhận tình trạng hẹp khoảng 65% của động mạch cảnh chung trái gần gốc với bằng chứng [ENTITY]\n    - Đã thảo luận với bệnh nhân khi bà nhập viện rằng có khả năng bà sẽ cần được điều trị tình trạng này bằng phẫu thuật nội mạch hóa động mạch cảnh\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "bà"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025990",
+          "document": "từ 6 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5485435724258423,
+          "sparse_similarity": 0.12785910069942474,
+          "hybrid_score": 0.3382013440132141
+        },
+        {
+          "id": "isHistorical_025678",
+          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5525892376899719,
+          "sparse_similarity": 0.12273958325386047,
+          "hybrid_score": 0.3376644253730774
+        },
+        {
+          "id": "isHistorical_021026",
+          "document": "khoảng 6 năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.554021954536438,
+          "sparse_similarity": 0.12027508020401001,
+          "hybrid_score": 0.337148517370224
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Atheromatous ulceration"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xơ vữa mảng loét",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       977,
       993
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: chụp mạch máu ghi nhận tình trạng hẹp khoảng 65% của động mạch cảnh chung trái gần gốc với bằng chứng [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5911508798599243,
+          "sparse_similarity": 0.09115266799926758,
+          "hybrid_score": 0.34115177392959595
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5689936876296997,
+          "sparse_similarity": 0.10686886310577393,
+          "hybrid_score": 0.3379312753677368
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5740181803703308,
+          "sparse_similarity": 0.10168690979480743,
+          "hybrid_score": 0.3378525376319885
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Atheromatous ulceration"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

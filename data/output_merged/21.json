@@ -2,33 +2,193 @@
   {
     "text": "Tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       48,
       61
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY]\n    - suy tim, không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    Tiền sử phẫu thuật / thủ thuật: Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị phình động mạch chủ ngực – bụng giai đoạn 1 (không rõ thời điểm).",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6148547530174255,
+          "sparse_similarity": 0.14021828770637512,
+          "hybrid_score": 0.3775365352630615
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6158077716827393,
+          "sparse_similarity": 0.13611815869808197,
+          "hybrid_score": 0.3759629726409912
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6092020273208618,
+          "sparse_similarity": 0.14006328582763672,
+          "hybrid_score": 0.37463265657424927
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy tim",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       68,
       75
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - [ENTITY], không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    Tiền sử phẫu thuật / thủ thuật: Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị phình động mạch chủ ngực – bụng giai đoạn 1 (không rõ thời điểm).",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh các bệnh lý mãn tính - tăng huyết áp - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6103283166885376,
+          "sparse_similarity": 0.14170144498348236,
+          "hybrid_score": 0.3760148882865906
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6078497767448425,
+          "sparse_similarity": 0.13764137029647827,
+          "hybrid_score": 0.3727455735206604
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6018880009651184,
+          "sparse_similarity": 0.14163048565387726,
+          "hybrid_score": 0.37175923585891724
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Heart failure",
+      "Congestive heart failure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh thận mạn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       98,
       111
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - suy tim, không đặc hiệu\n    - [ENTITY], không đặc hiệu\n    Tiền sử phẫu thuật / thủ thuật: Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị phình động mạch chủ ngực – bụng giai đoạn 1 (không rõ thời điểm).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6146237850189209,
+          "sparse_similarity": 0.14464707672595978,
+          "hybrid_score": 0.37963542342185974
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.608930766582489,
+          "sparse_similarity": 0.14041604101657867,
+          "hybrid_score": 0.37467339634895325
+        },
+        {
+          "id": "isFamily_003342",
+          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6236555576324463,
+          "sparse_similarity": 0.12489252537488937,
+          "hybrid_score": 0.37427404522895813
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic kidney disease",
+      "CKD"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phình động mạch chủ ngực – bụng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       231,
       262
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - suy tim, không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    Tiền sử phẫu thuật / thủ thuật: Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị [ENTITY] giai đoạn 1 (không rõ thời điểm).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6408751606941223,
+          "sparse_similarity": 0.16065707802772522,
+          "hybrid_score": 0.40076613426208496
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6392495036125183,
+          "sparse_similarity": 0.1558283418416977,
+          "hybrid_score": 0.3975389301776886
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6307257413864136,
+          "sparse_similarity": 0.16041596233844757,
+          "hybrid_score": 0.39557084441185
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Thoracic-abdominal aortic aneurysm",
+      "Thoracic aortic aneurysm with extension into the abdominal aorta"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

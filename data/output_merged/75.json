@@ -2,217 +2,1432 @@
   {
     "text": "bệnh động mạch vành",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       48,
       67
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY] sau can thiệp bắc cầu nối\n    - Nhiều lần chụp mạch và can thiệp tim mạch do đau ngực\n    Tiền sử phẫu thuật / thủ thuật\n    - Bắc cầu nối chủ vành\n    - Can thiệp mạch vành qua da và đặt stent phủ thuốc (DES) ở động mạch liên thất trước (LAD).",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6227655410766602,
+          "sparse_similarity": 0.16164042055606842,
+          "hybrid_score": 0.3922029733657837
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6245050430297852,
+          "sparse_similarity": 0.15560661256313324,
+          "hybrid_score": 0.3900558352470398
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6147192716598511,
+          "sparse_similarity": 0.16026946902275085,
+          "hybrid_score": 0.38749438524246216
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Coronary artery disease",
+      "Ischemic heart disease"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       145,
       153
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - bệnh động mạch vành sau can thiệp bắc cầu nối\n    - Nhiều lần chụp mạch và can thiệp tim mạch do [ENTITY]\n    Tiền sử phẫu thuật / thủ thuật\n    - Bắc cầu nối chủ vành\n    - Can thiệp mạch vành qua da và đặt stent phủ thuốc (DES) ở động mạch liên thất trước (LAD).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6217864155769348,
+          "sparse_similarity": 0.16563314199447632,
+          "hybrid_score": 0.39370977878570557
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6242554187774658,
+          "sparse_similarity": 0.15972065925598145,
+          "hybrid_score": 0.39198803901672363
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6091482639312744,
+          "sparse_similarity": 0.17030827701091766,
+          "hybrid_score": 0.38972827792167664
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực trái dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       640,
       660
-    ]
+    ],
+    "sentence": "bệnh sử hiện tại\n    Lý do nhập viện: [ENTITY] lan xuống cánh tay trái\n    Theo lời kể bệnh nhân  bắt đầu đau trước khi đi ngủ vài đêm nay,  đau đã được giảm đau bằng ngậm nitroglycerin dưới lưỡi 1 liều vào các đêm trước.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6137872338294983,
+          "sparse_similarity": 0.12999992072582245,
+          "hybrid_score": 0.37189358472824097
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.6066750884056091,
+          "sparse_similarity": 0.13103066384792328,
+          "hybrid_score": 0.3688528835773468
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6022247672080994,
+          "sparse_similarity": 0.13491229712963104,
+          "hybrid_score": 0.3685685396194458
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Severe left-sided chest pain",
+      "Acute left-sided chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       720,
       723
-    ]
+    ],
+    "sentence": "bệnh sử hiện tại\n    Lý do nhập viện: đau ngực trái dữ dội lan xuống cánh tay trái\n    Theo lời kể bệnh nhân  bắt đầu [ENTITY] trước khi đi ngủ vài đêm nay,  đau đã được giảm đau bằng ngậm nitroglycerin dưới lưỡi 1 liều vào các đêm trước.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5997788906097412,
+          "sparse_similarity": 0.13335956633090973,
+          "hybrid_score": 0.3665692210197449
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5937802791595459,
+          "sparse_similarity": 0.13648155331611633,
+          "hybrid_score": 0.3651309013366699
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5928628444671631,
+          "sparse_similarity": 0.13453680276870728,
+          "hybrid_score": 0.3636998236179352
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nitroglycerin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       786,
       799
-    ]
+    ],
+    "sentence": "bệnh sử hiện tại\n    Lý do nhập viện: đau ngực trái dữ dội lan xuống cánh tay trái\n    Theo lời kể bệnh nhân  bắt đầu đau trước khi đi ngủ vài đêm nay,  đau đã được giảm đau bằng ngậm [ENTITY] dưới lưỡi 1 liều vào các đêm trước.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.652462363243103,
+          "sparse_similarity": 0.16702455282211304,
+          "hybrid_score": 0.40974345803260803
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.645586371421814,
+          "sparse_similarity": 0.17046843469142914,
+          "hybrid_score": 0.40802741050720215
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.6437578201293945,
+          "sparse_similarity": 0.1659613847732544,
+          "hybrid_score": 0.40485960245132446
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
   },
   {
     "text": "cơn đau dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       859,
       873
-    ]
+    ],
+    "sentence": "Đêm vào viện xuất hiện [ENTITY],  kèm theo khó thở, dã dùng 3 viên nitroglycerin nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện\n    Triệu chứng lúc nhập viện cơ sở\n    - đau ngực trái dữ dội lan xuống cánh tay trái\n    - vã mồ hôi\n    - khó thở\n     Đến bệnh viện tuyến cơ sở\n    - Phát hiện điện tim sóng ST chênh xuống ở các chuyển đạo v4 đến v6\n    - Được dùng aspirin\nNgậm dưới lưỡi 4 liều nitroglycerin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013154",
+          "document": "cách đây 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.594615638256073,
+          "sparse_similarity": 0.13634508848190308,
+          "hybrid_score": 0.36548036336898804
+        },
+        {
+          "id": "isHistorical_032657",
+          "document": "đã 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5972012281417847,
+          "sparse_similarity": 0.13033173978328705,
+          "hybrid_score": 0.36376649141311646
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5891121625900269,
+          "sparse_similarity": 0.13227036595344543,
+          "hybrid_score": 0.36069124937057495
+        }
+      ]
+    ],
+    "eng_translation": [
+      "severe pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       885,
       892
-    ]
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội,  kèm theo [ENTITY], dã dùng 3 viên nitroglycerin nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện\n    Triệu chứng lúc nhập viện cơ sở\n    - đau ngực trái dữ dội lan xuống cánh tay trái\n    - vã mồ hôi\n    - khó thở\n     Đến bệnh viện tuyến cơ sở\n    - Phát hiện điện tim sóng ST chênh xuống ở các chuyển đạo v4 đến v6\n    - Được dùng aspirin\nNgậm dưới lưỡi 4 liều nitroglycerin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032657",
+          "document": "đã 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5822033882141113,
+          "sparse_similarity": 0.1109781488776207,
+          "hybrid_score": 0.3465907573699951
+        },
+        {
+          "id": "isHistorical_013154",
+          "document": "cách đây 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5743832588195801,
+          "sparse_similarity": 0.11658285558223724,
+          "hybrid_score": 0.34548306465148926
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5801966786384583,
+          "sparse_similarity": 0.10619723796844482,
+          "hybrid_score": 0.34319695830345154
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nitroglycerin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       909,
       922
-    ]
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội,  kèm theo khó thở, dã dùng 3 viên [ENTITY] nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện\n    Triệu chứng lúc nhập viện cơ sở\n    - đau ngực trái dữ dội lan xuống cánh tay trái\n    - vã mồ hôi\n    - khó thở\n     Đến bệnh viện tuyến cơ sở\n    - Phát hiện điện tim sóng ST chênh xuống ở các chuyển đạo v4 đến v6\n    - Được dùng aspirin\nNgậm dưới lưỡi 4 liều nitroglycerin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6126838326454163,
+          "sparse_similarity": 0.14960259199142456,
+          "hybrid_score": 0.3811432123184204
+        },
+        {
+          "id": "isHistorical_013154",
+          "document": "cách đây 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6114782691001892,
+          "sparse_similarity": 0.14923402667045593,
+          "hybrid_score": 0.3803561329841614
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6159095168113708,
+          "sparse_similarity": 0.14209303259849548,
+          "hybrid_score": 0.379001259803772
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       945,
       953
-    ]
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội,  kèm theo khó thở, dã dùng 3 viên nitroglycerin nhưng không giảm đau, [ENTITY] hết trước khi chuyển viện, vào viện\n    Triệu chứng lúc nhập viện cơ sở\n    - đau ngực trái dữ dội lan xuống cánh tay trái\n    - vã mồ hôi\n    - khó thở\n     Đến bệnh viện tuyến cơ sở\n    - Phát hiện điện tim sóng ST chênh xuống ở các chuyển đạo v4 đến v6\n    - Được dùng aspirin\nNgậm dưới lưỡi 4 liều nitroglycerin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032657",
+          "document": "đã 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.577775776386261,
+          "sparse_similarity": 0.10927510261535645,
+          "hybrid_score": 0.3435254395008087
+        },
+        {
+          "id": "isHistorical_013154",
+          "document": "cách đây 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5703381299972534,
+          "sparse_similarity": 0.11489011347293854,
+          "hybrid_score": 0.3426141142845154
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5768550038337708,
+          "sparse_similarity": 0.10517746955156326,
+          "hybrid_score": 0.3410162329673767
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực trái dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1032,
       1052
-    ]
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội,  kèm theo khó thở, dã dùng 3 viên nitroglycerin nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện\n    Triệu chứng lúc nhập viện cơ sở\n    - [ENTITY] lan xuống cánh tay trái\n    - vã mồ hôi\n    - khó thở\n     Đến bệnh viện tuyến cơ sở\n    - Phát hiện điện tim sóng ST chênh xuống ở các chuyển đạo v4 đến v6\n    - Được dùng aspirin\nNgậm dưới lưỡi 4 liều nitroglycerin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013154",
+          "document": "cách đây 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.569962739944458,
+          "sparse_similarity": 0.10392224788665771,
+          "hybrid_score": 0.33694249391555786
+        },
+        {
+          "id": "isHistorical_032657",
+          "document": "đã 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5743730664253235,
+          "sparse_similarity": 0.098673015832901,
+          "hybrid_score": 0.33652305603027344
+        },
+        {
+          "id": "isHistorical_001648",
+          "document": "4 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5698554515838623,
+          "sparse_similarity": 0.09685128182172775,
+          "hybrid_score": 0.3333533704280853
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Severe left-sided chest pain",
+      "Acute left-sided chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vã mồ hôi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1083,
       1092
-    ]
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội,  kèm theo khó thở, dã dùng 3 viên nitroglycerin nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện\n    Triệu chứng lúc nhập viện cơ sở\n    - đau ngực trái dữ dội lan xuống cánh tay trái\n    - [ENTITY]\n    - khó thở\n     Đến bệnh viện tuyến cơ sở\n    - Phát hiện điện tim sóng ST chênh xuống ở các chuyển đạo v4 đến v6\n    - Được dùng aspirin\nNgậm dưới lưỡi 4 liều nitroglycerin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032657",
+          "document": "đã 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5732511281967163,
+          "sparse_similarity": 0.10422594100236893,
+          "hybrid_score": 0.3387385308742523
+        },
+        {
+          "id": "isHistorical_013154",
+          "document": "cách đây 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5675946474075317,
+          "sparse_similarity": 0.10974891483783722,
+          "hybrid_score": 0.3386717736721039
+        },
+        {
+          "id": "isHistorical_013172",
+          "document": "cách đây 4 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5655447840690613,
+          "sparse_similarity": 0.10486485064029694,
+          "hybrid_score": 0.3352048099040985
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Sweating",
+      "Diaphoresis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1099,
       1106
-    ]
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội,  kèm theo khó thở, dã dùng 3 viên nitroglycerin nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện\n    Triệu chứng lúc nhập viện cơ sở\n    - đau ngực trái dữ dội lan xuống cánh tay trái\n    - vã mồ hôi\n    - [ENTITY]\n     Đến bệnh viện tuyến cơ sở\n    - Phát hiện điện tim sóng ST chênh xuống ở các chuyển đạo v4 đến v6\n    - Được dùng aspirin\nNgậm dưới lưỡi 4 liều nitroglycerin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032657",
+          "document": "đã 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5744140148162842,
+          "sparse_similarity": 0.10763967037200928,
+          "hybrid_score": 0.34102684259414673
+        },
+        {
+          "id": "isHistorical_013154",
+          "document": "cách đây 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5681759119033813,
+          "sparse_similarity": 0.11325802654027939,
+          "hybrid_score": 0.3407169580459595
+        },
+        {
+          "id": "isHistorical_013172",
+          "document": "cách đây 4 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5650730133056641,
+          "sparse_similarity": 0.1081974059343338,
+          "hybrid_score": 0.33663520216941833
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "điện tim",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1154,
       1162
-    ]
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội,  kèm theo khó thở, dã dùng 3 viên nitroglycerin nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện\n    Triệu chứng lúc nhập viện cơ sở\n    - đau ngực trái dữ dội lan xuống cánh tay trái\n    - vã mồ hôi\n    - khó thở\n     Đến bệnh viện tuyến cơ sở\n    - Phát hiện [ENTITY] sóng ST chênh xuống ở các chuyển đạo v4 đến v6\n    - Được dùng aspirin\nNgậm dưới lưỡi 4 liều nitroglycerin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013154",
+          "document": "cách đây 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5915669798851013,
+          "sparse_similarity": 0.13161343336105347,
+          "hybrid_score": 0.3615902066230774
+        },
+        {
+          "id": "isHistorical_032657",
+          "document": "đã 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5954467058181763,
+          "sparse_similarity": 0.1259973794221878,
+          "hybrid_score": 0.36072203516960144
+        },
+        {
+          "id": "isHistorical_013172",
+          "document": "cách đây 4 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5906372666358948,
+          "sparse_similarity": 0.12573806941509247,
+          "hybrid_score": 0.3581876754760742
+        }
+      ]
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "aspirin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1226,
       1233
-    ]
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội,  kèm theo khó thở, dã dùng 3 viên nitroglycerin nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện\n    Triệu chứng lúc nhập viện cơ sở\n    - đau ngực trái dữ dội lan xuống cánh tay trái\n    - vã mồ hôi\n    - khó thở\n     Đến bệnh viện tuyến cơ sở\n    - Phát hiện điện tim sóng ST chênh xuống ở các chuyển đạo v4 đến v6\n    - Được dùng [ENTITY]\nNgậm dưới lưỡi 4 liều nitroglycerin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013154",
+          "document": "cách đây 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5976621508598328,
+          "sparse_similarity": 0.13272684812545776,
+          "hybrid_score": 0.36519449949264526
+        },
+        {
+          "id": "isHistorical_032657",
+          "document": "đã 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6005431413650513,
+          "sparse_similarity": 0.12739993631839752,
+          "hybrid_score": 0.3639715313911438
+        },
+        {
+          "id": "isHistorical_013172",
+          "document": "cách đây 4 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.594799280166626,
+          "sparse_similarity": 0.12683582305908203,
+          "hybrid_score": 0.360817551612854
+        }
+      ]
+    ],
+    "eng_translation": [
+      "aspirin",
+      "acetylsalicylic acid"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1191": 1.0,
+        "1858285": 0.918106,
+        "91101": 0.910793,
+        "215412": 0.87996
+      },
+      "rapidfuzz": {
+        "1191": 1.0,
+        "198471": 0.9,
+        "317297": 0.9,
+        "1803004": 0.9,
+        "891136": 0.9,
+        "2743257": 0.855
+      }
+    },
+    "candidate": {
+      "code": "1191",
+      "confidence": 1.0
+    }
   },
   {
     "text": "nitroglycerin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1256,
       1269
-    ]
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội,  kèm theo khó thở, dã dùng 3 viên nitroglycerin nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện\n    Triệu chứng lúc nhập viện cơ sở\n    - đau ngực trái dữ dội lan xuống cánh tay trái\n    - vã mồ hôi\n    - khó thở\n     Đến bệnh viện tuyến cơ sở\n    - Phát hiện điện tim sóng ST chênh xuống ở các chuyển đạo v4 đến v6\n    - Được dùng aspirin\nNgậm dưới lưỡi 4 liều [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013154",
+          "document": "cách đây 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5757097005844116,
+          "sparse_similarity": 0.10354752838611603,
+          "hybrid_score": 0.3396286070346832
+        },
+        {
+          "id": "isHistorical_032657",
+          "document": "đã 4 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5804808735847473,
+          "sparse_similarity": 0.09798958152532578,
+          "hybrid_score": 0.33923521637916565
+        },
+        {
+          "id": "isHistorical_013172",
+          "document": "cách đây 4 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5737631320953369,
+          "sparse_similarity": 0.09894166141748428,
+          "hybrid_score": 0.3363524079322815
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
   },
   {
     "text": "nitroglycerin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1283,
       1296
-    ]
+    ],
+    "sentence": "- Thuốc [ENTITY] dạng bôi/dán lên da (mỡ nitroglycerin)\n    - ativan ( Lorazepam)\n    - lovenox lúc 0100\nSau dùng thuốc đau ngực hết, sóng ST trên điện tim cải thiện không chênh\n    - Chuyển đến bệnh viện tuyến trên để tiếp tục điều trị\n \n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012910",
+          "document": "cách đây 3 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.618637204170227,
+          "sparse_similarity": 0.10249844938516617,
+          "hybrid_score": 0.3605678379535675
+        },
+        {
+          "id": "isHistorical_012892",
+          "document": "cách đây 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6092349290847778,
+          "sparse_similarity": 0.10741858184337616,
+          "hybrid_score": 0.3583267629146576
+        },
+        {
+          "id": "isHistorical_012904",
+          "document": "cách đây 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6071364283561707,
+          "sparse_similarity": 0.10898807644844055,
+          "hybrid_score": 0.3580622673034668
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
   },
   {
     "text": "nitroglycerin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1321,
       1334
-    ]
+    ],
+    "sentence": "- Thuốc nitroglycerin dạng bôi/dán lên da (mỡ [ENTITY])\n    - ativan ( Lorazepam)\n    - lovenox lúc 0100\nSau dùng thuốc đau ngực hết, sóng ST trên điện tim cải thiện không chênh\n    - Chuyển đến bệnh viện tuyến trên để tiếp tục điều trị\n \n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012910",
+          "document": "cách đây 3 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.5970792770385742,
+          "sparse_similarity": 0.08322865515947342,
+          "hybrid_score": 0.3401539623737335
+        },
+        {
+          "id": "isHistorical_012904",
+          "document": "cách đây 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.5865872502326965,
+          "sparse_similarity": 0.08895514905452728,
+          "hybrid_score": 0.3377712070941925
+        },
+        {
+          "id": "isHistorical_012892",
+          "document": "cách đây 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.5881880521774292,
+          "sparse_similarity": 0.08708873391151428,
+          "hybrid_score": 0.33763837814331055
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ativan",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1342,
       1348
-    ]
+    ],
+    "sentence": "- Thuốc nitroglycerin dạng bôi/dán lên da (mỡ nitroglycerin)\n    - [ENTITY] ( Lorazepam)\n    - lovenox lúc 0100\nSau dùng thuốc đau ngực hết, sóng ST trên điện tim cải thiện không chênh\n    - Chuyển đến bệnh viện tuyến trên để tiếp tục điều trị\n \n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012910",
+          "document": "cách đây 3 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.5897056460380554,
+          "sparse_similarity": 0.08494828641414642,
+          "hybrid_score": 0.3373269736766815
+        },
+        {
+          "id": "isHistorical_012904",
+          "document": "cách đây 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.581936776638031,
+          "sparse_similarity": 0.09059801697731018,
+          "hybrid_score": 0.3362674117088318
+        },
+        {
+          "id": "isHistorical_032407",
+          "document": "đã 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.5807819366455078,
+          "sparse_similarity": 0.08860938251018524,
+          "hybrid_score": 0.3346956670284271
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ativan",
+      "Lorazepam"
+    ],
+    "retriever": {
+      "sapbert": {
+        "6470": 1.0,
+        "202479": 1.0,
+        "28894": 0.968989
+      },
+      "rapidfuzz": {
+        "202479": 1.0,
+        "6470": 1.0,
+        "1665327": 0.9,
+        "372647": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202479",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Lorazepam",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1351,
       1360
-    ]
+    ],
+    "sentence": "- Thuốc nitroglycerin dạng bôi/dán lên da (mỡ nitroglycerin)\n    - ativan ( [ENTITY])\n    - lovenox lúc 0100\nSau dùng thuốc đau ngực hết, sóng ST trên điện tim cải thiện không chênh\n    - Chuyển đến bệnh viện tuyến trên để tiếp tục điều trị\n \n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012910",
+          "document": "cách đây 3 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.5981845855712891,
+          "sparse_similarity": 0.08387647569179535,
+          "hybrid_score": 0.3410305380821228
+        },
+        {
+          "id": "isHistorical_012904",
+          "document": "cách đây 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.5901127457618713,
+          "sparse_similarity": 0.08955200016498566,
+          "hybrid_score": 0.3398323655128479
+        },
+        {
+          "id": "isHistorical_032407",
+          "document": "đã 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.5909842252731323,
+          "sparse_similarity": 0.08752664923667908,
+          "hybrid_score": 0.3392554521560669
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Lorazepam",
+      "Alprazolam"
+    ],
+    "retriever": {
+      "sapbert": {
+        "6470": 1.0,
+        "596": 1.0,
+        "28894": 0.968989,
+        "404841": 0.949101,
+        "405117": 0.941322
+      },
+      "rapidfuzz": {
+        "6470": 1.0,
+        "596": 1.0,
+        "372647": 0.9,
+        "315314": 0.9
+      }
+    },
+    "candidate": {
+      "code": "596",
+      "confidence": 1.0
+    }
   },
   {
     "text": "lovenox",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1368,
       1375
-    ]
+    ],
+    "sentence": "- Thuốc nitroglycerin dạng bôi/dán lên da (mỡ nitroglycerin)\n    - ativan ( Lorazepam)\n    - [ENTITY] lúc 0100\nSau dùng thuốc đau ngực hết, sóng ST trên điện tim cải thiện không chênh\n    - Chuyển đến bệnh viện tuyến trên để tiếp tục điều trị\n \n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012910",
+          "document": "cách đây 3 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.5972976088523865,
+          "sparse_similarity": 0.09220734238624573,
+          "hybrid_score": 0.3447524905204773
+        },
+        {
+          "id": "isHistorical_012904",
+          "document": "cách đây 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.590123176574707,
+          "sparse_similarity": 0.09823280572891235,
+          "hybrid_score": 0.3441779911518097
+        },
+        {
+          "id": "isHistorical_012892",
+          "document": "cách đây 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.5890201330184937,
+          "sparse_similarity": 0.09646351635456085,
+          "hybrid_score": 0.34274181723594666
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Lovenox",
+      "Low molecular weight heparin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "5227": 1.0,
+        "225036": 1.0,
+        "606291": 0.916775,
+        "5224": 0.876634,
+        "235473": 0.876634
+      },
+      "rapidfuzz": {
+        "225036": 1.0,
+        "2657368": 0.9,
+        "2657818": 0.9,
+        "5224": 0.9,
+        "875812": 0.855,
+        "1166323": 0.855
+      }
+    },
+    "candidate": {
+      "code": "225036",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1400,
       1408
-    ]
+    ],
+    "sentence": "- Thuốc nitroglycerin dạng bôi/dán lên da (mỡ nitroglycerin)\n    - ativan ( Lorazepam)\n    - lovenox lúc 0100\nSau dùng thuốc [ENTITY] hết, sóng ST trên điện tim cải thiện không chênh\n    - Chuyển đến bệnh viện tuyến trên để tiếp tục điều trị\n \n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012904",
+          "document": "cách đây 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6248316168785095,
+          "sparse_similarity": 0.1197076365351677,
+          "hybrid_score": 0.3722696304321289
+        },
+        {
+          "id": "isHistorical_012892",
+          "document": "cách đây 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6242818832397461,
+          "sparse_similarity": 0.11785976588726044,
+          "hybrid_score": 0.37107083201408386
+        },
+        {
+          "id": "isHistorical_032407",
+          "document": "đã 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6235796809196472,
+          "sparse_similarity": 0.11711566895246506,
+          "hybrid_score": 0.37034767866134644
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "điện tim",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1427,
       1435
-    ]
+    ],
+    "sentence": "- Thuốc nitroglycerin dạng bôi/dán lên da (mỡ nitroglycerin)\n    - ativan ( Lorazepam)\n    - lovenox lúc 0100\nSau dùng thuốc đau ngực hết, sóng ST trên [ENTITY] cải thiện không chênh\n    - Chuyển đến bệnh viện tuyến trên để tiếp tục điều trị\n \n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012910",
+          "document": "cách đây 3 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6148356199264526,
+          "sparse_similarity": 0.09178853034973145,
+          "hybrid_score": 0.35331207513809204
+        },
+        {
+          "id": "isHistorical_012904",
+          "document": "cách đây 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6056597232818604,
+          "sparse_similarity": 0.09752880036830902,
+          "hybrid_score": 0.3515942692756653
+        },
+        {
+          "id": "isHistorical_013702",
+          "document": "cách đây 6 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6020562052726746,
+          "sparse_similarity": 0.09687002003192902,
+          "hybrid_score": 0.3494631052017212
+        }
+      ]
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vã mồ hôi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1569,
       1578
-    ]
+    ],
+    "sentence": "Lúc vào viện bệnh viện\n    Dấu hiệu lâm sàng: [ENTITY]\n    Kết quả xét nghiệm: troponin là 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000238",
+          "document": "kết quả xét nghiệm không ghi nhận [ENTITY].",
+          "dense_similarity": 0.6875602602958679,
+          "sparse_similarity": 0.11237777769565582,
+          "hybrid_score": 0.3999690115451813
+        },
+        {
+          "id": "isNegated_000239",
+          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
+          "dense_similarity": 0.6736124753952026,
+          "sparse_similarity": 0.12068153917789459,
+          "hybrid_score": 0.397146999835968
+        },
+        {
+          "id": "isNegated_000040",
+          "document": "[ENTITY] xét nghiệm âm tính.",
+          "dense_similarity": 0.645476222038269,
+          "sparse_similarity": 0.1403091847896576,
+          "hybrid_score": 0.3928927183151245
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Sweating",
+      "Diaphoresis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "troponin",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1603,
       1611
-    ]
+    ],
+    "sentence": "Lúc vào viện bệnh viện\n    Dấu hiệu lâm sàng: vã mồ hôi\n    Kết quả xét nghiệm: [ENTITY] là 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000040",
+          "document": "[ENTITY] xét nghiệm âm tính.",
+          "dense_similarity": 0.6897248029708862,
+          "sparse_similarity": 0.18324686586856842,
+          "hybrid_score": 0.43648582696914673
+        },
+        {
+          "id": "isNegated_000238",
+          "document": "kết quả xét nghiệm không ghi nhận [ENTITY].",
+          "dense_similarity": 0.7151769399642944,
+          "sparse_similarity": 0.14983171224594116,
+          "hybrid_score": 0.4325043261051178
+        },
+        {
+          "id": "isNegated_000239",
+          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
+          "dense_similarity": 0.7027461528778076,
+          "sparse_similarity": 0.161221444606781,
+          "hybrid_score": 0.4319837987422943
+        }
+      ]
+    ],
+    "eng_translation": [
+      "troponin",
+      "Troponin elevation",
+      "Cardiac troponin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "0.10",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1615,
       1619
-    ]
+    ],
+    "sentence": "Lúc vào viện bệnh viện\n    Dấu hiệu lâm sàng: vã mồ hôi\n    Kết quả xét nghiệm: troponin là [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6423022747039795,
+          "sparse_similarity": 0.08096347749233246,
+          "hybrid_score": 0.3616328835487366
+        },
+        {
+          "id": "isFamily_007152",
+          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6437145471572876,
+          "sparse_similarity": 0.07726982235908508,
+          "hybrid_score": 0.36049216985702515
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.641521692276001,
+          "sparse_similarity": 0.07604176551103592,
+          "hybrid_score": 0.35878172516822815
+        }
+      ]
+    ],
+    "eng_translation": [
+      "0.10"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "điện tâm đồ",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1657,
       1668
-    ]
+    ],
+    "sentence": "10\n    Kết quả chẩn đoán hình ảnh\n    - [ENTITY] cho thấy nhịp xoangnhịp xoang, tần số 91 lần/phút\n    - điện tâm đồ cho thấy Sóng ST chênh xuống  ở các chuyển đạo v4 đến v6chênh nhiều so với EKG ở  trước đó",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021873",
+          "document": "khoảng 91 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6088022589683533,
+          "sparse_similarity": 0.22057367861270905,
+          "hybrid_score": 0.41468796133995056
+        },
+        {
+          "id": "isHistorical_021879",
+          "document": "khoảng 91 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6122658252716064,
+          "sparse_similarity": 0.20752371847629547,
+          "hybrid_score": 0.40989476442337036
+        },
+        {
+          "id": "isHistorical_026831",
+          "document": "từ 91 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6028692126274109,
+          "sparse_similarity": 0.21106760203838348,
+          "hybrid_score": 0.4069684147834778
+        }
+      ]
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "điện tâm đồ",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1725,
       1736
-    ]
+    ],
+    "sentence": "10\n    Kết quả chẩn đoán hình ảnh\n    - điện tâm đồ cho thấy nhịp xoangnhịp xoang, tần số 91 lần/phút\n    - [ENTITY] cho thấy Sóng ST chênh xuống  ở các chuyển đạo v4 đến v6chênh nhiều so với EKG ở  trước đó",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021873",
+          "document": "khoảng 91 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5928540229797363,
+          "sparse_similarity": 0.21033041179180145,
+          "hybrid_score": 0.4015922248363495
+        },
+        {
+          "id": "isHistorical_026825",
+          "document": "từ 91 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5787959694862366,
+          "sparse_similarity": 0.21420978009700775,
+          "hybrid_score": 0.39650288224220276
+        },
+        {
+          "id": "isHistorical_021879",
+          "document": "khoảng 91 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5941152572631836,
+          "sparse_similarity": 0.1978825479745865,
+          "hybrid_score": 0.39599889516830444
+        }
+      ]
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

@@ -2,209 +2,1266 @@
   {
     "text": "Viêm nội tâm mạc",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       48,
       64
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY]  , rối loạn chức năng tâm thất phải, rung nhĩ\nsau Phẫu thuật thay van tim hai lá cơ học\n    - Suy thận mạn giai V đang chạy thận nhân tạo chu kì các ngày thứ 2, thứ 6, chủ nhật, sau khi ghép thận thất bại\n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật thay van hai lá cơ học\n    - ghép thận thất bại\n    Thuốc trước khi nhập viện: coumadin 3.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_002176",
+          "document": "5 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5977473258972168,
+          "sparse_similarity": 0.1254841536283493,
+          "hybrid_score": 0.36161574721336365
+        },
+        {
+          "id": "isHistorical_025708",
+          "document": "từ 5 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.595219075679779,
+          "sparse_similarity": 0.12506498396396637,
+          "hybrid_score": 0.3601420223712921
+        },
+        {
+          "id": "isHistorical_019970",
+          "document": "khoảng 2 năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5953957438468933,
+          "sparse_similarity": 0.12096450477838516,
+          "hybrid_score": 0.35818013548851013
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Endocarditis",
+      "Infective Endocarditis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rung nhĩ",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       102,
       110
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Viêm nội tâm mạc  , rối loạn chức năng tâm thất phải, [ENTITY]\nsau Phẫu thuật thay van tim hai lá cơ học\n    - Suy thận mạn giai V đang chạy thận nhân tạo chu kì các ngày thứ 2, thứ 6, chủ nhật, sau khi ghép thận thất bại\n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật thay van hai lá cơ học\n    - ghép thận thất bại\n    Thuốc trước khi nhập viện: coumadin 3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5995310544967651,
+          "sparse_similarity": 0.1293991059064865,
+          "hybrid_score": 0.3644650876522064
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5995367169380188,
+          "sparse_similarity": 0.1281752586364746,
+          "hybrid_score": 0.3638559877872467
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5929312705993652,
+          "sparse_similarity": 0.12833654880523682,
+          "hybrid_score": 0.360633909702301
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Atrial fibrillation",
+      "Paroxysmal atrial fibrillation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Suy thận mạn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       159,
       171
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Viêm nội tâm mạc  , rối loạn chức năng tâm thất phải, rung nhĩ\nsau Phẫu thuật thay van tim hai lá cơ học\n    - [ENTITY] giai V đang chạy thận nhân tạo chu kì các ngày thứ 2, thứ 6, chủ nhật, sau khi ghép thận thất bại\n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật thay van hai lá cơ học\n    - ghép thận thất bại\n    Thuốc trước khi nhập viện: coumadin 3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000592",
+          "document": "2 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5820794105529785,
+          "sparse_similarity": 0.12018683552742004,
+          "hybrid_score": 0.3511331081390381
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5898678302764893,
+          "sparse_similarity": 0.1115037128329277,
+          "hybrid_score": 0.3506857752799988
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5895383954048157,
+          "sparse_similarity": 0.11040140688419342,
+          "hybrid_score": 0.34996989369392395
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic kidney disease",
+      "CKD"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "coumadin 3.0 mg",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       401,
       416
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Viêm nội tâm mạc  , rối loạn chức năng tâm thất phải, rung nhĩ\nsau Phẫu thuật thay van tim hai lá cơ học\n    - Suy thận mạn giai V đang chạy thận nhân tạo chu kì các ngày thứ 2, thứ 6, chủ nhật, sau khi ghép thận thất bại\n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật thay van hai lá cơ học\n    - ghép thận thất bại\n    Thuốc trước khi nhập viện: [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6172038316726685,
+          "sparse_similarity": 0.16669565439224243,
+          "hybrid_score": 0.39194974303245544
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6111059784889221,
+          "sparse_similarity": 0.1705440729856491,
+          "hybrid_score": 0.3908250331878662
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6207350492477417,
+          "sparse_similarity": 0.15303057432174683,
+          "hybrid_score": 0.38688281178474426
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Coumadin 3.0 mg",
+      "Warfarin 3.0 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "855317": 0.94315,
+        "855319": 0.903668,
+        "855321": 0.89384,
+        "855311": 0.835902,
+        "855349": 0.816515
+      },
+      "rapidfuzz": {
+        "202421": 0.9,
+        "11289": 0.9,
+        "2743409": 0.855,
+        "2743413": 0.855,
+        "2714921": 0.855,
+        "2743367": 0.855
+      }
+    },
+    "candidate": {
+      "code": "855317",
+      "confidence": 0.848835
+    }
   },
   {
     "text": "INR",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       462,
       465
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do vào viện:, [ENTITY] dưới ngưỡng điều trị\nTheo lời bệnh nhân kể bệnh nhân xuất hiện chảy máu mũi xuất hiện khoảng 01 lần/ tuần.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.632920503616333,
+          "sparse_similarity": 0.11917798966169357,
+          "hybrid_score": 0.3760492503643036
+        },
+        {
+          "id": "isHistorical_019694",
+          "document": "khoảng 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6227697134017944,
+          "sparse_similarity": 0.12211836874485016,
+          "hybrid_score": 0.3724440336227417
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6254545450210571,
+          "sparse_similarity": 0.11001205444335938,
+          "hybrid_score": 0.36773329973220825
+        }
+      ]
+    ],
+    "eng_translation": [
+      "INR",
+      "International Normalized Ratio"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu mũi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       529,
       541
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do vào viện:, INR dưới ngưỡng điều trị\nTheo lời bệnh nhân kể bệnh nhân xuất hiện [ENTITY] xuất hiện khoảng 01 lần/ tuần.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7289613485336304,
+          "sparse_similarity": 0.1883399933576584,
+          "hybrid_score": 0.458650678396225
+        },
+        {
+          "id": "isHistorical_031859",
+          "document": "đã 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7170718908309937,
+          "sparse_similarity": 0.18292438983917236,
+          "hybrid_score": 0.449998140335083
+        },
+        {
+          "id": "isHistorical_019694",
+          "document": "khoảng 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7069516181945801,
+          "sparse_similarity": 0.19038061797618866,
+          "hybrid_score": 0.44866612553596497
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Epistaxis",
+      "Nosebleed"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "INR",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       672,
       675
-    ]
+    ],
+    "sentence": "Khi làm xét nghiệm tại khoa chạy thận, phát hiện chỉ số đông máu dưới ngưỡng điều trị ( kết quả là [ENTITY] 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6787963509559631,
+          "sparse_similarity": 0.05808129906654358,
+          "hybrid_score": 0.36843883991241455
+        },
+        {
+          "id": "isNegated_000224",
+          "document": "không đáp ứng tiêu chuẩn chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6761095523834229,
+          "sparse_similarity": 0.057029224932193756,
+          "hybrid_score": 0.3665693998336792
+        },
+        {
+          "id": "isNegated_000037",
+          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
+          "dense_similarity": 0.6704887747764587,
+          "sparse_similarity": 0.062045082449913025,
+          "hybrid_score": 0.3662669360637665
+        }
+      ]
+    ],
+    "eng_translation": [
+      "INR",
+      "International Normalized Ratio"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "1.7",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       676,
       679
-    ]
+    ],
+    "sentence": "Khi làm xét nghiệm tại khoa chạy thận, phát hiện chỉ số đông máu dưới ngưỡng điều trị ( kết quả là INR [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007186",
+          "document": "bên nội đang điều trị [ENTITY].",
+          "dense_similarity": 0.6401997804641724,
+          "sparse_similarity": 0.10657788068056107,
+          "hybrid_score": 0.3733888268470764
+        },
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6782131791114807,
+          "sparse_similarity": 0.04724139720201492,
+          "hybrid_score": 0.3627272844314575
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.669792115688324,
+          "sparse_similarity": 0.046635232865810394,
+          "hybrid_score": 0.3582136631011963
+        }
+      ]
+    ],
+    "eng_translation": [
+      "1.7"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu mũi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       752,
       764
-    ]
+    ],
+    "sentence": "7) ,không có biểu hiện bất thường khác, vào viện\n    Khám hiện tại:\nKhông [ENTITY]\nKhông có đau ngực\nKhông có khó thở\nKhông có đau bụng\n Không có buồn nôn, không nôn\n    Các cơ quan khác chưa phát hiện bất thường\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000206",
+          "document": "không có biểu hiện [ENTITY].",
+          "dense_similarity": 0.6336609125137329,
+          "sparse_similarity": 0.16572539508342743,
+          "hybrid_score": 0.39969316124916077
+        },
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.6709920167922974,
+          "sparse_similarity": 0.10840987414121628,
+          "hybrid_score": 0.3897009491920471
+        },
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.6486387848854065,
+          "sparse_similarity": 0.11705756187438965,
+          "hybrid_score": 0.38284817337989807
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Epistaxis",
+      "Nosebleed"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       774,
       782
-    ]
+    ],
+    "sentence": "7) ,không có biểu hiện bất thường khác, vào viện\n    Khám hiện tại:\nKhông chảy máu mũi\nKhông có [ENTITY]\nKhông có khó thở\nKhông có đau bụng\n Không có buồn nôn, không nôn\n    Các cơ quan khác chưa phát hiện bất thường\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000206",
+          "document": "không có biểu hiện [ENTITY].",
+          "dense_similarity": 0.6069906949996948,
+          "sparse_similarity": 0.15338511765003204,
+          "hybrid_score": 0.38018789887428284
+        },
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.6412584185600281,
+          "sparse_similarity": 0.09255411475896835,
+          "hybrid_score": 0.3669062554836273
+        },
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.6233684420585632,
+          "sparse_similarity": 0.09989432245492935,
+          "hybrid_score": 0.3616313934326172
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       792,
       799
-    ]
+    ],
+    "sentence": "7) ,không có biểu hiện bất thường khác, vào viện\n    Khám hiện tại:\nKhông chảy máu mũi\nKhông có đau ngực\nKhông có [ENTITY]\nKhông có đau bụng\n Không có buồn nôn, không nôn\n    Các cơ quan khác chưa phát hiện bất thường\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_031050",
+          "document": "vào 7 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.578429639339447,
+          "sparse_similarity": 0.09958115220069885,
+          "hybrid_score": 0.33900541067123413
+        },
+        {
+          "id": "isHistorical_031068",
+          "document": "vào 7 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.579985499382019,
+          "sparse_similarity": 0.09549598395824432,
+          "hybrid_score": 0.3377407491207123
+        },
+        {
+          "id": "isHistorical_033450",
+          "document": "đã 7 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5983123779296875,
+          "sparse_similarity": 0.06775779277086258,
+          "hybrid_score": 0.33303508162498474
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       809,
       817
-    ]
+    ],
+    "sentence": "7) ,không có biểu hiện bất thường khác, vào viện\n    Khám hiện tại:\nKhông chảy máu mũi\nKhông có đau ngực\nKhông có khó thở\nKhông có [ENTITY]\n Không có buồn nôn, không nôn\n    Các cơ quan khác chưa phát hiện bất thường\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000206",
+          "document": "không có biểu hiện [ENTITY].",
+          "dense_similarity": 0.5998827219009399,
+          "sparse_similarity": 0.14936988055706024,
+          "hybrid_score": 0.3746263086795807
+        },
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.6336574554443359,
+          "sparse_similarity": 0.09151458740234375,
+          "hybrid_score": 0.36258602142333984
+        },
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.6167324781417847,
+          "sparse_similarity": 0.09863857924938202,
+          "hybrid_score": 0.35768553614616394
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       828,
       836
-    ]
+    ],
+    "sentence": "7) ,không có biểu hiện bất thường khác, vào viện\n    Khám hiện tại:\nKhông chảy máu mũi\nKhông có đau ngực\nKhông có khó thở\nKhông có đau bụng\n Không có [ENTITY], không nôn\n    Các cơ quan khác chưa phát hiện bất thường\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000206",
+          "document": "không có biểu hiện [ENTITY].",
+          "dense_similarity": 0.6053762435913086,
+          "sparse_similarity": 0.1541670709848404,
+          "hybrid_score": 0.3797716498374939
+        },
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.6402877569198608,
+          "sparse_similarity": 0.09722231328487396,
+          "hybrid_score": 0.368755042552948
+        },
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.6246475577354431,
+          "sparse_similarity": 0.10885879397392273,
+          "hybrid_score": 0.36675316095352173
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       844,
       847
-    ]
+    ],
+    "sentence": "7) ,không có biểu hiện bất thường khác, vào viện\n    Khám hiện tại:\nKhông chảy máu mũi\nKhông có đau ngực\nKhông có khó thở\nKhông có đau bụng\n Không có buồn nôn, không [ENTITY]\n    Các cơ quan khác chưa phát hiện bất thường\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000206",
+          "document": "không có biểu hiện [ENTITY].",
+          "dense_similarity": 0.5922594666481018,
+          "sparse_similarity": 0.14389221370220184,
+          "hybrid_score": 0.3680758476257324
+        },
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.6270118951797485,
+          "sparse_similarity": 0.08420438319444656,
+          "hybrid_score": 0.35560813546180725
+        },
+        {
+          "id": "isNegated_000101",
+          "document": "chưa có triệu chứng [ENTITY].",
+          "dense_similarity": 0.6063345670700073,
+          "sparse_similarity": 0.09642437100410461,
+          "hybrid_score": 0.3513794541358948
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhiệt độ",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       965,
       973
-    ]
+    ],
+    "sentence": "Khám tại bệnh viện\n    Kết quả khám thực thể: dấu hiệu sinh tồn\n [ENTITY] : 36.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007165",
+          "document": "bên nội của người bệnh được ghi nhận [ENTITY].",
+          "dense_similarity": 0.6815616488456726,
+          "sparse_similarity": 0.10955696552991867,
+          "hybrid_score": 0.39555931091308594
+        },
+        {
+          "id": "isFamily_007151",
+          "document": "bên nội của bệnh nhân được ghi nhận [ENTITY].",
+          "dense_similarity": 0.6825770139694214,
+          "sparse_similarity": 0.10346291214227676,
+          "hybrid_score": 0.39301997423171997
+        },
+        {
+          "id": "isFamily_024998",
+          "document": "thân nhân của người bệnh được ghi nhận [ENTITY].",
+          "dense_similarity": 0.6681461334228516,
+          "sparse_similarity": 0.1171693503856659,
+          "hybrid_score": 0.3926577568054199
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Temperature",
+      "Body Temperature"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "36.5",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       976,
       980
-    ]
+    ],
+    "sentence": "Khám tại bệnh viện\n    Kết quả khám thực thể: dấu hiệu sinh tồn\n Nhiệt độ : [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007165",
+          "document": "bên nội của người bệnh được ghi nhận [ENTITY].",
+          "dense_similarity": 0.6739124059677124,
+          "sparse_similarity": 0.08147687464952469,
+          "hybrid_score": 0.37769463658332825
+        },
+        {
+          "id": "isFamily_007151",
+          "document": "bên nội của bệnh nhân được ghi nhận [ENTITY].",
+          "dense_similarity": 0.6778745651245117,
+          "sparse_similarity": 0.07727914303541183,
+          "hybrid_score": 0.3775768578052521
+        },
+        {
+          "id": "isFamily_020061",
+          "document": "má bệnh nhân được ghi nhận [ENTITY].",
+          "dense_similarity": 0.6703106164932251,
+          "sparse_similarity": 0.07846597582101822,
+          "hybrid_score": 0.37438830733299255
+        }
+      ]
+    ],
+    "eng_translation": [
+      "36.5"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Mạch",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       986,
       990
-    ]
+    ],
+    "sentence": "5 độ C\n[ENTITY]:  88 l/p\nHuyết áp: 120/70 mmHg\nNhịp thở: 20 l/p\nSPO2:  92 %\n    Kết quả xét nghiệm: INR dưới ngưỡng điều trị 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013420",
+          "document": "cách đây 5 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.632408082485199,
+          "sparse_similarity": 0.1739322543144226,
+          "hybrid_score": 0.4031701683998108
+        },
+        {
+          "id": "isHistorical_020758",
+          "document": "khoảng 5 ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.6302650570869446,
+          "sparse_similarity": 0.16701287031173706,
+          "hybrid_score": 0.3986389636993408
+        },
+        {
+          "id": "isHistorical_013438",
+          "document": "cách đây 5 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6305414438247681,
+          "sparse_similarity": 0.1661728471517563,
+          "hybrid_score": 0.3983571529388428
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Pulse",
+      "Heart rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "88",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       993,
       995
-    ]
+    ],
+    "sentence": "5 độ C\nMạch:  [ENTITY] l/p\nHuyết áp: 120/70 mmHg\nNhịp thở: 20 l/p\nSPO2:  92 %\n    Kết quả xét nghiệm: INR dưới ngưỡng điều trị 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013420",
+          "document": "cách đây 5 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6246405839920044,
+          "sparse_similarity": 0.16701051592826843,
+          "hybrid_score": 0.3958255648612976
+        },
+        {
+          "id": "isHistorical_020758",
+          "document": "khoảng 5 ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.6247272491455078,
+          "sparse_similarity": 0.16072751581668854,
+          "hybrid_score": 0.3927273750305176
+        },
+        {
+          "id": "isHistorical_013438",
+          "document": "cách đây 5 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6243113875389099,
+          "sparse_similarity": 0.15957121551036835,
+          "hybrid_score": 0.3919413089752197
+        }
+      ]
+    ],
+    "eng_translation": [
+      "88",
+      "The query provided is \"88\" which does not contain any medical information or context. Therefore, no rewrite is possible."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Huyết áp",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1000,
       1008
-    ]
+    ],
+    "sentence": "5 độ C\nMạch:  88 l/p\n[ENTITY]: 120/70 mmHg\nNhịp thở: 20 l/p\nSPO2:  92 %\n    Kết quả xét nghiệm: INR dưới ngưỡng điều trị 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013420",
+          "document": "cách đây 5 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6193151473999023,
+          "sparse_similarity": 0.16317860782146454,
+          "hybrid_score": 0.39124688506126404
+        },
+        {
+          "id": "isHistorical_020758",
+          "document": "khoảng 5 ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.6175731420516968,
+          "sparse_similarity": 0.15748995542526245,
+          "hybrid_score": 0.3875315487384796
+        },
+        {
+          "id": "isHistorical_013438",
+          "document": "cách đây 5 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6192007660865784,
+          "sparse_similarity": 0.15571482479572296,
+          "hybrid_score": 0.38745778799057007
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Blood pressure",
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "120/70",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1010,
       1016
-    ]
+    ],
+    "sentence": "5 độ C\nMạch:  88 l/p\nHuyết áp: [ENTITY] mmHg\nNhịp thở: 20 l/p\nSPO2:  92 %\n    Kết quả xét nghiệm: INR dưới ngưỡng điều trị 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013420",
+          "document": "cách đây 5 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6099440455436707,
+          "sparse_similarity": 0.15695121884346008,
+          "hybrid_score": 0.38344764709472656
+        },
+        {
+          "id": "isHistorical_020758",
+          "document": "khoảng 5 ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.6099197268486023,
+          "sparse_similarity": 0.15166690945625305,
+          "hybrid_score": 0.38079333305358887
+        },
+        {
+          "id": "isHistorical_013438",
+          "document": "cách đây 5 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6080889105796814,
+          "sparse_similarity": 0.14984852075576782,
+          "hybrid_score": 0.3789687156677246
+        }
+      ]
+    ],
+    "eng_translation": [
+      "120/70",
+      "Hypotension, systolic 120 mmHg, diastolic 70 mmHg",
+      "Hypotension",
+      "120 over 70"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhịp thở",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1022,
       1030
-    ]
+    ],
+    "sentence": "5 độ C\nMạch:  88 l/p\nHuyết áp: 120/70 mmHg\n[ENTITY]: 20 l/p\nSPO2:  92 %\n    Kết quả xét nghiệm: INR dưới ngưỡng điều trị 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013420",
+          "document": "cách đây 5 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6043660044670105,
+          "sparse_similarity": 0.16549451649188995,
+          "hybrid_score": 0.38493025302886963
+        },
+        {
+          "id": "isHistorical_020758",
+          "document": "khoảng 5 ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.6031985282897949,
+          "sparse_similarity": 0.15917982161045074,
+          "hybrid_score": 0.38118916749954224
+        },
+        {
+          "id": "isHistorical_013438",
+          "document": "cách đây 5 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6036214232444763,
+          "sparse_similarity": 0.15812435746192932,
+          "hybrid_score": 0.380872905254364
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Respiratory rate",
+      "Minute ventilation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "20",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1032,
       1034
-    ]
+    ],
+    "sentence": "5 độ C\nMạch:  88 l/p\nHuyết áp: 120/70 mmHg\nNhịp thở: [ENTITY] l/p\nSPO2:  92 %\n    Kết quả xét nghiệm: INR dưới ngưỡng điều trị 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013420",
+          "document": "cách đây 5 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6263667941093445,
+          "sparse_similarity": 0.1765604317188263,
+          "hybrid_score": 0.4014636278152466
+        },
+        {
+          "id": "isHistorical_013438",
+          "document": "cách đây 5 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.625031054019928,
+          "sparse_similarity": 0.16871967911720276,
+          "hybrid_score": 0.39687538146972656
+        },
+        {
+          "id": "isHistorical_020758",
+          "document": "khoảng 5 ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.623358964920044,
+          "sparse_similarity": 0.16952018439769745,
+          "hybrid_score": 0.3964395821094513
+        }
+      ]
+    ],
+    "eng_translation": [
+      "20"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "SPO2",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1039,
       1043
-    ]
+    ],
+    "sentence": "5 độ C\nMạch:  88 l/p\nHuyết áp: 120/70 mmHg\nNhịp thở: 20 l/p\n[ENTITY]:  92 %\n    Kết quả xét nghiệm: INR dưới ngưỡng điều trị 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013420",
+          "document": "cách đây 5 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6244202852249146,
+          "sparse_similarity": 0.17995226383209229,
+          "hybrid_score": 0.4021862745285034
+        },
+        {
+          "id": "isHistorical_013438",
+          "document": "cách đây 5 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6251639127731323,
+          "sparse_similarity": 0.17198386788368225,
+          "hybrid_score": 0.3985738754272461
+        },
+        {
+          "id": "isHistorical_020758",
+          "document": "khoảng 5 ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.6229408383369446,
+          "sparse_similarity": 0.17260131239891052,
+          "hybrid_score": 0.39777106046676636
+        }
+      ]
+    ],
+    "eng_translation": [
+      "SPO2",
+      "SpO₂",
+      "Oxygen saturation",
+      "Oxygen saturation in arterial blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "92",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1046,
       1048
-    ]
+    ],
+    "sentence": "5 độ C\nMạch:  88 l/p\nHuyết áp: 120/70 mmHg\nNhịp thở: 20 l/p\nSPO2:  [ENTITY] %\n    Kết quả xét nghiệm: INR dưới ngưỡng điều trị 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013420",
+          "document": "cách đây 5 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6145726442337036,
+          "sparse_similarity": 0.16352933645248413,
+          "hybrid_score": 0.38905099034309387
+        },
+        {
+          "id": "isHistorical_020758",
+          "document": "khoảng 5 ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.6153841614723206,
+          "sparse_similarity": 0.1575898826122284,
+          "hybrid_score": 0.3864870071411133
+        },
+        {
+          "id": "isHistorical_013438",
+          "document": "cách đây 5 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6126079559326172,
+          "sparse_similarity": 0.15634408593177795,
+          "hybrid_score": 0.3844760060310364
+        }
+      ]
+    ],
+    "eng_translation": [
+      "92",
+      "The query provided is \"92\" which does not contain any medical information or context. Therefore, no rewrite is possible."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "INR",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1075,
       1078
-    ]
+    ],
+    "sentence": "5 độ C\nMạch:  88 l/p\nHuyết áp: 120/70 mmHg\nNhịp thở: 20 l/p\nSPO2:  92 %\n    Kết quả xét nghiệm: [ENTITY] dưới ngưỡng điều trị 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013420",
+          "document": "cách đây 5 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.659733772277832,
+          "sparse_similarity": 0.20957687497138977,
+          "hybrid_score": 0.4346553087234497
+        },
+        {
+          "id": "isHistorical_013432",
+          "document": "cách đây 5 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.652826726436615,
+          "sparse_similarity": 0.21104371547698975,
+          "hybrid_score": 0.43193522095680237
+        },
+        {
+          "id": "isHistorical_013438",
+          "document": "cách đây 5 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6613759398460388,
+          "sparse_similarity": 0.2002442479133606,
+          "hybrid_score": 0.4308100938796997
+        }
+      ]
+    ],
+    "eng_translation": [
+      "INR",
+      "International Normalized Ratio"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "heparin",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1130,
       1137
-    ]
+    ],
+    "sentence": "7\n   Điều trị: Bắt đầu dùng [ENTITY] truyền tĩnh mạch liên tục",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013960",
+          "document": "cách đây 7 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.7132711410522461,
+          "sparse_similarity": 0.1937122493982315,
+          "hybrid_score": 0.4534916877746582
+        },
+        {
+          "id": "isHistorical_013948",
+          "document": "cách đây 7 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.7075182795524597,
+          "sparse_similarity": 0.1930878758430481,
+          "hybrid_score": 0.4503030776977539
+        },
+        {
+          "id": "isHistorical_026250",
+          "document": "từ 7 tháng trước được điều trị [ENTITY].",
+          "dense_similarity": 0.7060614824295044,
+          "sparse_similarity": 0.19439005851745605,
+          "hybrid_score": 0.4502257704734802
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Heparin",
+      "Low Molecular Weight Heparin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

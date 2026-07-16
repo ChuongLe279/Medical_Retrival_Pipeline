@@ -2,233 +2,1456 @@
   {
     "text": "Ung thư vú",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       49,
       59
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh mãn tính: [ENTITY] di căn ER+/HER2−\n    đang dùng thuốc  weekly taxol\nvà fulvestrant để điều trị\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007621",
+          "document": "bệnh sử gia đình đang điều trị [ENTITY].",
+          "dense_similarity": 0.684881329536438,
+          "sparse_similarity": 0.21375919878482819,
+          "hybrid_score": 0.4493202567100525
+        },
+        {
+          "id": "isFamily_007570",
+          "document": "bệnh sử gia đình mẹ đang điều trị [ENTITY].",
+          "dense_similarity": 0.6702849268913269,
+          "sparse_similarity": 0.20245596766471863,
+          "hybrid_score": 0.4363704323768616
+        },
+        {
+          "id": "isFamily_021600",
+          "document": "người thân có tiền sử đang điều trị [ENTITY].",
+          "dense_similarity": 0.6655890941619873,
+          "sparse_similarity": 0.2066955268383026,
+          "hybrid_score": 0.43614232540130615
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Breast cancer",
+      "Malignant breast neoplasm"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "taxol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       105,
       110
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh mãn tính: Ung thư vú di căn ER+/HER2−\n    đang dùng thuốc  weekly [ENTITY]\nvà fulvestrant để điều trị\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007621",
+          "document": "bệnh sử gia đình đang điều trị [ENTITY].",
+          "dense_similarity": 0.6827308535575867,
+          "sparse_similarity": 0.18874506652355194,
+          "hybrid_score": 0.4357379674911499
+        },
+        {
+          "id": "isFamily_007570",
+          "document": "bệnh sử gia đình mẹ đang điều trị [ENTITY].",
+          "dense_similarity": 0.6812803745269775,
+          "sparse_similarity": 0.17916180193424225,
+          "hybrid_score": 0.4302210807800293
+        },
+        {
+          "id": "isFamily_007586",
+          "document": "bệnh sử gia đình vợ đang điều trị [ENTITY].",
+          "dense_similarity": 0.6798977255821228,
+          "sparse_similarity": 0.17312058806419373,
+          "hybrid_score": 0.42650914192199707
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Taxol",
+      "Paclitaxel"
+    ],
+    "retriever": {
+      "sapbert": {
+        "56946": 1.0,
+        "196466": 1.0,
+        "236093": 0.971693,
+        "486610": 0.93978,
+        "405249": 0.926198
+      },
+      "rapidfuzz": {
+        "56946": 1.0,
+        "1297753": 0.9,
+        "1297756": 0.9,
+        "1163453": 0.9,
+        "1663184": 0.9
+      }
+    },
+    "candidate": {
+      "code": "56946",
+      "confidence": 1.0
+    }
   },
   {
     "text": "fulvestrant",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       114,
       125
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh mãn tính: Ung thư vú di căn ER+/HER2−\n    đang dùng thuốc  weekly taxol\nvà [ENTITY] để điều trị\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007621",
+          "document": "bệnh sử gia đình đang điều trị [ENTITY].",
+          "dense_similarity": 0.677252471446991,
+          "sparse_similarity": 0.19176705181598663,
+          "hybrid_score": 0.4345097541809082
+        },
+        {
+          "id": "isFamily_007570",
+          "document": "bệnh sử gia đình mẹ đang điều trị [ENTITY].",
+          "dense_similarity": 0.6738070249557495,
+          "sparse_similarity": 0.18200334906578064,
+          "hybrid_score": 0.42790520191192627
+        },
+        {
+          "id": "isFamily_007586",
+          "document": "bệnh sử gia đình vợ đang điều trị [ENTITY].",
+          "dense_similarity": 0.6776340007781982,
+          "sparse_similarity": 0.175847128033638,
+          "hybrid_score": 0.4267405569553375
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fulvestrant",
+      "Fulvestrant is a selective estrogen receptor downregulator (SERD) used in the treatment of hormone receptor-positive breast cancer in postmenopausal women. It works by binding to and inactivating estrogen receptors, thereby inhibiting the growth of breast cancer cells that depend on estrogen for proliferation. Fulvestrant is typically used in patients who have developed resistance to other endocrine therapies, such as aromatase inhibitors or tamoxifen. It is administered as a subcutaneous injection and is associated with a range of side effects, including hot flashes, fatigue, and musculoskeletal pain. The drug is approved for use in both early and advanced stages of breast cancer, depending on the patient's specific clinical situation."
+    ],
+    "retriever": {
+      "sapbert": {
+        "282357": 1.0,
+        "203870": 0.780433,
+        "2686426": 0.711195,
+        "2721302": 0.68595
+      },
+      "rapidfuzz": {
+        "282357": 1.0,
+        "350934": 0.9,
+        "727954": 0.9,
+        "2479044": 0.855,
+        "1147337": 0.855,
+        "2657500": 0.855
+      }
+    },
+    "candidate": {
+      "code": "282357",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau bụng vùng hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       181,
       207
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: [ENTITY] ngày càng tăng\n    Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân đột ngột xuất hiện đau bụng hạ sườn phải, buồn nôn, nôn kèm theo đi ngoài phân lỏng, toàn nước,  không nhầy máu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6196680068969727,
+          "sparse_similarity": 0.1559959203004837,
+          "hybrid_score": 0.3878319561481476
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6135703921318054,
+          "sparse_similarity": 0.1503140777349472,
+          "hybrid_score": 0.3819422423839569
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6036505699157715,
+          "sparse_similarity": 0.14899756014347076,
+          "hybrid_score": 0.3763240575790405
+        }
+      ]
+    ],
+    "eng_translation": [
+      "right lower quadrant abdominal pain",
+      "Right lower quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       295,
       316
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: đau bụng vùng hạ sườn phải ngày càng tăng\n    Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân đột ngột xuất hiện [ENTITY], buồn nôn, nôn kèm theo đi ngoài phân lỏng, toàn nước,  không nhầy máu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6032730340957642,
+          "sparse_similarity": 0.15039022266864777,
+          "hybrid_score": 0.37683162093162537
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5951346158981323,
+          "sparse_similarity": 0.15673288702964783,
+          "hybrid_score": 0.37593376636505127
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5942372679710388,
+          "sparse_similarity": 0.15220977365970612,
+          "hybrid_score": 0.37322351336479187
+        }
+      ]
+    ],
+    "eng_translation": [
+      "right lower quadrant abdominal pain",
+      "Right lower quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       318,
       326
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: đau bụng vùng hạ sườn phải ngày càng tăng\n    Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân đột ngột xuất hiện đau bụng hạ sườn phải, [ENTITY], nôn kèm theo đi ngoài phân lỏng, toàn nước,  không nhầy máu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5558775663375854,
+          "sparse_similarity": 0.11621038615703583,
+          "hybrid_score": 0.33604398369789124
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5593729615211487,
+          "sparse_similarity": 0.0996725782752037,
+          "hybrid_score": 0.3295227587223053
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.555730938911438,
+          "sparse_similarity": 0.10050665587186813,
+          "hybrid_score": 0.32811880111694336
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       328,
       331
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: đau bụng vùng hạ sườn phải ngày càng tăng\n    Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân đột ngột xuất hiện đau bụng hạ sườn phải, buồn nôn, [ENTITY] kèm theo đi ngoài phân lỏng, toàn nước,  không nhầy máu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5633779168128967,
+          "sparse_similarity": 0.11242607980966568,
+          "hybrid_score": 0.3379020094871521
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5646957159042358,
+          "sparse_similarity": 0.09614206850528717,
+          "hybrid_score": 0.3304188847541809
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.5579462051391602,
+          "sparse_similarity": 0.09606538712978363,
+          "hybrid_score": 0.3270058035850525
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đi ngoài phân lỏng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       341,
       359
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: đau bụng vùng hạ sườn phải ngày càng tăng\n    Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân đột ngột xuất hiện đau bụng hạ sườn phải, buồn nôn, nôn kèm theo [ENTITY], toàn nước,  không nhầy máu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5810917615890503,
+          "sparse_similarity": 0.13174575567245483,
+          "hybrid_score": 0.35641875863075256
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5809378027915955,
+          "sparse_similarity": 0.1145033910870552,
+          "hybrid_score": 0.34772059321403503
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5680817365646362,
+          "sparse_similarity": 0.12629620730876923,
+          "hybrid_score": 0.3471889793872833
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nước",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       366,
       370
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: đau bụng vùng hạ sườn phải ngày càng tăng\n    Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân đột ngột xuất hiện đau bụng hạ sườn phải, buồn nôn, nôn kèm theo đi ngoài phân lỏng, toàn [ENTITY],  không nhầy máu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.574203610420227,
+          "sparse_similarity": 0.11822261661291122,
+          "hybrid_score": 0.34621310234069824
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5752291083335876,
+          "sparse_similarity": 0.10235770791769028,
+          "hybrid_score": 0.33879339694976807
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.5653960704803467,
+          "sparse_similarity": 0.10479644685983658,
+          "hybrid_score": 0.3350962698459625
+        }
+      ]
+    ],
+    "eng_translation": [
+      "water"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       384,
       387
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: đau bụng vùng hạ sườn phải ngày càng tăng\n    Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân đột ngột xuất hiện đau bụng hạ sườn phải, buồn nôn, nôn kèm theo đi ngoài phân lỏng, toàn nước,  không nhầy [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5625156760215759,
+          "sparse_similarity": 0.12377160042524338,
+          "hybrid_score": 0.34314364194869995
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5642165541648865,
+          "sparse_similarity": 0.10533575713634491,
+          "hybrid_score": 0.3347761631011963
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.555664598941803,
+          "sparse_similarity": 0.10521012544631958,
+          "hybrid_score": 0.3304373621940613
+        }
+      ]
+    ],
+    "eng_translation": [
+      "blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       413,
       421
-    ]
+    ],
+    "sentence": "Sáng cùng ngày vào viện [ENTITY] tăng lên , VAS 7/10 kèm theo buồn nôn, nôn nhiều, chưa xử trí thuốc gì, vào viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_031049",
+          "document": "vào 7 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6794298887252808,
+          "sparse_similarity": 0.16415704786777496,
+          "hybrid_score": 0.42179346084594727
+        },
+        {
+          "id": "isHistorical_013946",
+          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6899181604385376,
+          "sparse_similarity": 0.15237045288085938,
+          "hybrid_score": 0.4211443066596985
+        },
+        {
+          "id": "isHistorical_033449",
+          "document": "đã 7 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6903296709060669,
+          "sparse_similarity": 0.1496107578277588,
+          "hybrid_score": 0.41997021436691284
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       451,
       459
-    ]
+    ],
+    "sentence": "Sáng cùng ngày vào viện đau bụng tăng lên , VAS 7/10 kèm theo [ENTITY], nôn nhiều, chưa xử trí thuốc gì, vào viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013946",
+          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6814189553260803,
+          "sparse_similarity": 0.13609576225280762,
+          "hybrid_score": 0.40875735878944397
+        },
+        {
+          "id": "isHistorical_031049",
+          "document": "vào 7 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6716789603233337,
+          "sparse_similarity": 0.14575575292110443,
+          "hybrid_score": 0.4087173640727997
+        },
+        {
+          "id": "isHistorical_033449",
+          "document": "đã 7 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6827284693717957,
+          "sparse_similarity": 0.13373370468616486,
+          "hybrid_score": 0.40823107957839966
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn nhiều",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       461,
       470
-    ]
+    ],
+    "sentence": "Sáng cùng ngày vào viện đau bụng tăng lên , VAS 7/10 kèm theo buồn nôn, [ENTITY], chưa xử trí thuốc gì, vào viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_031049",
+          "document": "vào 7 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6574464440345764,
+          "sparse_similarity": 0.13736793398857117,
+          "hybrid_score": 0.3974071741104126
+        },
+        {
+          "id": "isHistorical_033449",
+          "document": "đã 7 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.665568470954895,
+          "sparse_similarity": 0.12465375661849976,
+          "hybrid_score": 0.3951111137866974
+        },
+        {
+          "id": "isHistorical_003232",
+          "document": "7 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6697163581848145,
+          "sparse_similarity": 0.1200539842247963,
+          "hybrid_score": 0.39488518238067627
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Frequent vomiting",
+      "Recurrent vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đau bụng hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       559,
       580
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nNgười bệnh tỉnh\nDa niêm mạc hồngi\n [ENTITY]\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: 93 l/p\nNhiệt độ : 36.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5868090987205505,
+          "sparse_similarity": 0.1125338152050972,
+          "hybrid_score": 0.34967145323753357
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5859702825546265,
+          "sparse_similarity": 0.10690372437238693,
+          "hybrid_score": 0.346437007188797
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5815505385398865,
+          "sparse_similarity": 0.1045621931552887,
+          "hybrid_score": 0.3430563807487488
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Right lower quadrant abdominal pain",
+      "Right lower quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       582,
       590
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nNgười bệnh tỉnh\nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n [ENTITY], nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: 93 l/p\nNhiệt độ : 36.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.591221809387207,
+          "sparse_similarity": 0.09812000393867493,
+          "hybrid_score": 0.3446708917617798
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5832585096359253,
+          "sparse_similarity": 0.10348517447710037,
+          "hybrid_score": 0.34337183833122253
+        },
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5832493305206299,
+          "sparse_similarity": 0.09876842796802521,
+          "hybrid_score": 0.34100887179374695
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Nausea",
+      "Vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       592,
       595
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nNgười bệnh tỉnh\nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, [ENTITY] ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: 93 l/p\nNhiệt độ : 36.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007154",
+          "document": "bên nội của người bệnh có [ENTITY].",
+          "dense_similarity": 0.5879810452461243,
+          "sparse_similarity": 0.14055976271629333,
+          "hybrid_score": 0.3642703890800476
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6031332015991211,
+          "sparse_similarity": 0.1121625006198883,
+          "hybrid_score": 0.3576478362083435
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5944085121154785,
+          "sparse_similarity": 0.11805189400911331,
+          "hybrid_score": 0.3562301993370056
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ăn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       604,
       606
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nNgười bệnh tỉnh\nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức [ENTITY] và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: 93 l/p\nNhiệt độ : 36.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6041815280914307,
+          "sparse_similarity": 0.1113734096288681,
+          "hybrid_score": 0.35777747631073
+        },
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5965181589126587,
+          "sparse_similarity": 0.11596564948558807,
+          "hybrid_score": 0.356241911649704
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5944085717201233,
+          "sparse_similarity": 0.11708749830722809,
+          "hybrid_score": 0.3557480275630951
+        }
+      ]
+    ],
+    "eng_translation": [
+      "eating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Huyết áp",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       647,
       655
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nNgười bệnh tỉnh\nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\n[ENTITY]:130/76 mmHg\nMạch: 93 l/p\nNhiệt độ : 36.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6163201332092285,
+          "sparse_similarity": 0.10978429019451141,
+          "hybrid_score": 0.36305221915245056
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6202764511108398,
+          "sparse_similarity": 0.10510531067848206,
+          "hybrid_score": 0.36269086599349976
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6144858598709106,
+          "sparse_similarity": 0.1106448695063591,
+          "hybrid_score": 0.36256536841392517
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Blood pressure",
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "130/76",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       656,
       662
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nNgười bệnh tỉnh\nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:[ENTITY] mmHg\nMạch: 93 l/p\nNhiệt độ : 36.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007154",
+          "document": "bên nội của người bệnh có [ENTITY].",
+          "dense_similarity": 0.5918311476707458,
+          "sparse_similarity": 0.13125371932983398,
+          "hybrid_score": 0.3615424335002899
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6049771308898926,
+          "sparse_similarity": 0.09947507083415985,
+          "hybrid_score": 0.3522261083126068
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5952659845352173,
+          "sparse_similarity": 0.10494209825992584,
+          "hybrid_score": 0.35010403394699097
+        }
+      ]
+    ],
+    "eng_translation": [
+      "130/76",
+      "Hypertension, essential, stage 1, isolated systolic",
+      "130/76 mmHg",
+      "130 over 76"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Mạch",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       668,
       672
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nNgười bệnh tỉnh\nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\n[ENTITY]: 93 l/p\nNhiệt độ : 36.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007154",
+          "document": "bên nội của người bệnh có [ENTITY].",
+          "dense_similarity": 0.5869966745376587,
+          "sparse_similarity": 0.13988231122493744,
+          "hybrid_score": 0.36343950033187866
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6000878810882568,
+          "sparse_similarity": 0.10918399691581726,
+          "hybrid_score": 0.35463595390319824
+        },
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5933355093002319,
+          "sparse_similarity": 0.11325275897979736,
+          "hybrid_score": 0.35329413414001465
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Pulse",
+      "Heart rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "93",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       674,
       676
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nNgười bệnh tỉnh\nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: [ENTITY] l/p\nNhiệt độ : 36.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6019110679626465,
+          "sparse_similarity": 0.10401705652475357,
+          "hybrid_score": 0.3529640734195709
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5932466387748718,
+          "sparse_similarity": 0.10965307801961899,
+          "hybrid_score": 0.3514498472213745
+        },
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5938709378242493,
+          "sparse_similarity": 0.10710898041725159,
+          "hybrid_score": 0.3504899740219116
+        }
+      ]
+    ],
+    "eng_translation": [
+      "93"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhiệt độ",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       681,
       689
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nNgười bệnh tỉnh\nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: 93 l/p\n[ENTITY] : 36.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007154",
+          "document": "bên nội của người bệnh có [ENTITY].",
+          "dense_similarity": 0.5854948163032532,
+          "sparse_similarity": 0.12658323347568512,
+          "hybrid_score": 0.35603901743888855
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.589732825756073,
+          "sparse_similarity": 0.10395257920026779,
+          "hybrid_score": 0.3468427062034607
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5943197011947632,
+          "sparse_similarity": 0.09838268160820007,
+          "hybrid_score": 0.3463512063026428
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Temperature",
+      "Body Temperature"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "36.3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       692,
       696
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nNgười bệnh tỉnh\nDa niêm mạc hồngi\n Đau bụng hạ sườn phải\n Buồn nôn, nôn ra thức ăn và dịch dạ dày, không có máu \nKhám thấy\nHuyết áp:130/76 mmHg\nMạch: 93 l/p\nNhiệt độ : [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5951343774795532,
+          "sparse_similarity": 0.1022011935710907,
+          "hybrid_score": 0.34866780042648315
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5877155065536499,
+          "sparse_similarity": 0.10764594376087189,
+          "hybrid_score": 0.3476807177066803
+        },
+        {
+          "id": "isFamily_007165",
+          "document": "bên nội của người bệnh được ghi nhận [ENTITY].",
+          "dense_similarity": 0.587375283241272,
+          "sparse_similarity": 0.10472963750362396,
+          "hybrid_score": 0.34605246782302856
+        }
+      ]
+    ],
+    "eng_translation": [
+      "36.3",
+      "36.3°C fever",
+      "36.3°C"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhịp thở",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       702,
       710
-    ]
+    ],
+    "sentence": "3 độ C\n[ENTITY]: 14 l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012892",
+          "document": "cách đây 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6299570202827454,
+          "sparse_similarity": 0.14953549206256866,
+          "hybrid_score": 0.3897462487220764
+        },
+        {
+          "id": "isHistorical_032395",
+          "document": "đã 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6329010725021362,
+          "sparse_similarity": 0.14581893384456635,
+          "hybrid_score": 0.3893600106239319
+        },
+        {
+          "id": "isHistorical_032407",
+          "document": "đã 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6232748627662659,
+          "sparse_similarity": 0.15178003907203674,
+          "hybrid_score": 0.3875274658203125
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Respiratory rate",
+      "Minute ventilation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "14",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       712,
       714
-    ]
+    ],
+    "sentence": "3 độ C\nNhịp thở: [ENTITY] l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012892",
+          "document": "cách đây 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6378173828125,
+          "sparse_similarity": 0.15827211737632751,
+          "hybrid_score": 0.39804476499557495
+        },
+        {
+          "id": "isHistorical_032395",
+          "document": "đã 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6400355100631714,
+          "sparse_similarity": 0.15542146563529968,
+          "hybrid_score": 0.39772850275039673
+        },
+        {
+          "id": "isHistorical_032407",
+          "document": "đã 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6284580826759338,
+          "sparse_similarity": 0.1609860211610794,
+          "hybrid_score": 0.394722044467926
+        }
+      ]
+    ],
+    "eng_translation": [
+      "14",
+      "The query provided is \"14\" which does not contain any medical information or context. Therefore, no rewrite is possible."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "SPO2",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       720,
       724
-    ]
+    ],
+    "sentence": "3 độ C\nNhịp thở: 14 l/p \n[ENTITY]: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032395",
+          "document": "đã 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6399473547935486,
+          "sparse_similarity": 0.1408003717660904,
+          "hybrid_score": 0.3903738558292389
+        },
+        {
+          "id": "isHistorical_012892",
+          "document": "cách đây 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6356043219566345,
+          "sparse_similarity": 0.14352518320083618,
+          "hybrid_score": 0.38956475257873535
+        },
+        {
+          "id": "isHistorical_032407",
+          "document": "đã 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6323344707489014,
+          "sparse_similarity": 0.14616338908672333,
+          "hybrid_score": 0.38924893736839294
+        }
+      ]
+    ],
+    "eng_translation": [
+      "SPO2",
+      "SpO₂",
+      "Oxygen saturation",
+      "Oxygen saturation in arterial blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "99",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       726,
       728
-    ]
+    ],
+    "sentence": "3 độ C\nNhịp thở: 14 l/p \nSPO2: [ENTITY] %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032395",
+          "document": "đã 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.626004695892334,
+          "sparse_similarity": 0.12695875763893127,
+          "hybrid_score": 0.37648171186447144
+        },
+        {
+          "id": "isHistorical_012892",
+          "document": "cách đây 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6233568787574768,
+          "sparse_similarity": 0.12890711426734924,
+          "hybrid_score": 0.3761320114135742
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6133611798286438,
+          "sparse_similarity": 0.13153037428855896,
+          "hybrid_score": 0.3724457621574402
+        }
+      ]
+    ],
+    "eng_translation": [
+      "99"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "compazine",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       764,
       773
-    ]
+    ],
+    "sentence": "3 độ C\nNhịp thở: 14 l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - [ENTITY] và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  lorazepam đỡ đau  (có thể ngủ\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6610841155052185,
+          "sparse_similarity": 0.16816219687461853,
+          "hybrid_score": 0.4146231412887573
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6657928228378296,
+          "sparse_similarity": 0.1629982441663742,
+          "hybrid_score": 0.4143955409526825
+        },
+        {
+          "id": "isHistorical_012892",
+          "document": "cách đây 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6668151021003723,
+          "sparse_similarity": 0.1587480902671814,
+          "hybrid_score": 0.41278159618377686
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Compazine",
+      "Prochlorperazine",
+      "Compazine is the brand name for the medication prochlorperazine, which is used to treat nausea and vomiting."
+    ],
+    "retriever": {
+      "sapbert": {
+        "8704": 1.0,
+        "203546": 1.0,
+        "29512": 0.810925,
+        "202376": 0.79809,
+        "8042": 0.782897
+      },
+      "rapidfuzz": {
+        "203546": 1.0,
+        "8704": 1.0,
+        "316594": 0.95,
+        "316595": 0.95,
+        "368096": 0.9,
+        "207680": 0.9,
+        "1928941": 0.855,
+        "1425181": 0.855
+      }
+    },
+    "candidate": {
+      "code": "203546",
+      "confidence": 1.0
+    }
   },
   {
     "text": "lorazepam",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       829,
       838
-    ]
+    ],
+    "sentence": "3 độ C\nNhịp thở: 14 l/p \nSPO2: 99 %\n   Điều trị tại bệnh viện:\n    - compazine và alevenhưng vẫn còn đau\n    - Uống  morphineoral và  [ENTITY] đỡ đau  (có thể ngủ\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032395",
+          "document": "đã 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6501298546791077,
+          "sparse_similarity": 0.14370611310005188,
+          "hybrid_score": 0.39691799879074097
+        },
+        {
+          "id": "isHistorical_012892",
+          "document": "cách đây 3 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6465112566947937,
+          "sparse_similarity": 0.14659066498279572,
+          "hybrid_score": 0.3965509533882141
+        },
+        {
+          "id": "isHistorical_032407",
+          "document": "đã 3 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.640191376209259,
+          "sparse_similarity": 0.14890369772911072,
+          "hybrid_score": 0.3945475220680237
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Lorazepam",
+      "Alprazolam"
+    ],
+    "retriever": {
+      "sapbert": {
+        "6470": 1.0,
+        "596": 1.0,
+        "28894": 0.968989,
+        "404841": 0.949101,
+        "405117": 0.941322
+      },
+      "rapidfuzz": {
+        "6470": 1.0,
+        "596": 1.0,
+        "372647": 0.9,
+        "315314": 0.9
+      }
+    },
+    "candidate": {
+      "code": "596",
+      "confidence": 1.0
+    }
   }
 ]

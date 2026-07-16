@@ -2,9 +2,49 @@
   {
     "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       52,
       59
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính: [ENTITY]\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.727344810962677,
+          "sparse_similarity": 0.23553213477134705,
+          "hybrid_score": 0.48143845796585083
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.7338161468505859,
+          "sparse_similarity": 0.22730137407779694,
+          "hybrid_score": 0.48055875301361084
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.7655748128890991,
+          "sparse_similarity": 0.16997013986110687,
+          "hybrid_score": 0.4677724838256836
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Obesity",
+      "Excess body weight"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

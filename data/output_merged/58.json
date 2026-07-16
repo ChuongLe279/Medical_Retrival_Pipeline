@@ -2,465 +2,2782 @@
   {
     "text": "bệnh Graves",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       48,
       59
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - [ENTITY]\n    - tăng lipid máu, không đặc hiệu\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh các bệnh lý mạn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.7014344334602356,
+          "sparse_similarity": 0.16041801869869232,
+          "hybrid_score": 0.43092623353004456
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6793351173400879,
+          "sparse_similarity": 0.17219386994838715,
+          "hybrid_score": 0.4257645010948181
+        },
+        {
+          "id": "isFamily_020140",
+          "document": "má người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6747965216636658,
+          "sparse_similarity": 0.17609542608261108,
+          "hybrid_score": 0.4254459738731384
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Graves' disease",
+      "Hyperthyroidism due to autoimmune thyroiditis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "lipid",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       71,
       76
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - bệnh Graves\n    - tăng [ENTITY] máu, không đặc hiệu\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.7024480104446411,
+          "sparse_similarity": 0.15760746598243713,
+          "hybrid_score": 0.43002772331237793
+        },
+        {
+          "id": "isFamily_020140",
+          "document": "má người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6666065454483032,
+          "sparse_similarity": 0.1737987995147705,
+          "hybrid_score": 0.42020267248153687
+        },
+        {
+          "id": "isFamily_007550",
+          "document": "bệnh sử gia đình mẹ có tiền sử [ENTITY].",
+          "dense_similarity": 0.6867538094520569,
+          "sparse_similarity": 0.1496528536081314,
+          "hybrid_score": 0.41820332407951355
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Lipid",
+      "Lipid disorder",
+      "Fatty substance"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu sức nửa người bên phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       150,
       176
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - [ENTITY]\n    - tình trạng tri giác giảm sút\n    - nhìn song thị\n    Thời điểm khởi phát triệu chứng\n    - Thời gian: khoảng 11:00 sáng\n    - Khởi phát cấp tính hay từ từ: Không ghi rõ\n    Diễn biến bệnh\n    - Được con trai phát hiện tại nhà lúc khoảng 11:00 sáng, nằm sải trên sàn.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh hiện tại lý do nhập viện - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007459",
+          "document": "bệnh sử gia đình con trai được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6553272008895874,
+          "sparse_similarity": 0.19866982102394104,
+          "hybrid_score": 0.426998496055603
+        },
+        {
+          "id": "isFamily_007457",
+          "document": "bệnh sử gia đình con trai được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6570078134536743,
+          "sparse_similarity": 0.1902317851781845,
+          "hybrid_score": 0.42361980676651
+        },
+        {
+          "id": "isFamily_007453",
+          "document": "bệnh sử gia đình con trai đang mắc [ENTITY].",
+          "dense_similarity": 0.6586794257164001,
+          "sparse_similarity": 0.18586024641990662,
+          "hybrid_score": 0.4222698211669922
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Weakness on the right side of the body",
+      "Right-sided body weakness",
+      "Right-sided hemiparesis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tình",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       183,
       187
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - yếu sức nửa người bên phải\n    - [ENTITY] trạng tri giác giảm sút\n    - nhìn song thị\n    Thời điểm khởi phát triệu chứng\n    - Thời gian: khoảng 11:00 sáng\n    - Khởi phát cấp tính hay từ từ: Không ghi rõ\n    Diễn biến bệnh\n    - Được con trai phát hiện tại nhà lúc khoảng 11:00 sáng, nằm sải trên sàn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007459",
+          "document": "bệnh sử gia đình con trai được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6529367566108704,
+          "sparse_similarity": 0.20459038019180298,
+          "hybrid_score": 0.42876356840133667
+        },
+        {
+          "id": "isFamily_007453",
+          "document": "bệnh sử gia đình con trai đang mắc [ENTITY].",
+          "dense_similarity": 0.6612410545349121,
+          "sparse_similarity": 0.19100365042686462,
+          "hybrid_score": 0.42612236738204956
+        },
+        {
+          "id": "isFamily_011882",
+          "document": "con trai người bệnh đang mắc [ENTITY].",
+          "dense_similarity": 0.6482565402984619,
+          "sparse_similarity": 0.20332491397857666,
+          "hybrid_score": 0.4257907271385193
+        }
+      ]
+    ],
+    "eng_translation": [
+      "tình",
+      "Tình trạng suy tim trái mạn tính với triệu chứng khó thở khi gắng sức, phù ngoại vi và giảm tiểu cầu."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tri giác giảm sút",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       194,
       211
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - yếu sức nửa người bên phải\n    - tình trạng [ENTITY]\n    - nhìn song thị\n    Thời điểm khởi phát triệu chứng\n    - Thời gian: khoảng 11:00 sáng\n    - Khởi phát cấp tính hay từ từ: Không ghi rõ\n    Diễn biến bệnh\n    - Được con trai phát hiện tại nhà lúc khoảng 11:00 sáng, nằm sải trên sàn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007459",
+          "document": "bệnh sử gia đình con trai được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6823397278785706,
+          "sparse_similarity": 0.21030399203300476,
+          "hybrid_score": 0.44632184505462646
+        },
+        {
+          "id": "isFamily_007457",
+          "document": "bệnh sử gia đình con trai được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6818188428878784,
+          "sparse_similarity": 0.20126858353614807,
+          "hybrid_score": 0.44154369831085205
+        },
+        {
+          "id": "isFamily_007453",
+          "document": "bệnh sử gia đình con trai đang mắc [ENTITY].",
+          "dense_similarity": 0.683853805065155,
+          "sparse_similarity": 0.1963856816291809,
+          "hybrid_score": 0.44011974334716797
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Reduced consciousness",
+      "Altered mental status"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhìn song thị",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       218,
       231
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - yếu sức nửa người bên phải\n    - tình trạng tri giác giảm sút\n    - [ENTITY]\n    Thời điểm khởi phát triệu chứng\n    - Thời gian: khoảng 11:00 sáng\n    - Khởi phát cấp tính hay từ từ: Không ghi rõ\n    Diễn biến bệnh\n    - Được con trai phát hiện tại nhà lúc khoảng 11:00 sáng, nằm sải trên sàn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007459",
+          "document": "bệnh sử gia đình con trai được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6557636857032776,
+          "sparse_similarity": 0.20426224172115326,
+          "hybrid_score": 0.430012971162796
+        },
+        {
+          "id": "isFamily_007453",
+          "document": "bệnh sử gia đình con trai đang mắc [ENTITY].",
+          "dense_similarity": 0.6619269847869873,
+          "sparse_similarity": 0.19094115495681763,
+          "hybrid_score": 0.42643406987190247
+        },
+        {
+          "id": "isFamily_007457",
+          "document": "bệnh sử gia đình con trai được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6561938524246216,
+          "sparse_similarity": 0.19510968029499054,
+          "hybrid_score": 0.42565175890922546
+        }
+      ]
+    ],
+    "eng_translation": [
+      "visual acuity"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "không thể tự đứng dậy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       470,
       491
-    ]
+    ],
+    "sentence": "- Than phiền về [ENTITY] do yếu sức chân phải.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006788",
+          "document": "bên nội có người bị [ENTITY].",
+          "dense_similarity": 0.7193363904953003,
+          "sparse_similarity": 0.0730644166469574,
+          "hybrid_score": 0.39620041847229004
+        },
+        {
+          "id": "isFamily_025018",
+          "document": "thân nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.7046979069709778,
+          "sparse_similarity": 0.08086345344781876,
+          "hybrid_score": 0.39278069138526917
+        },
+        {
+          "id": "isFamily_007030",
+          "document": "bên nội có người mắc [ENTITY].",
+          "dense_similarity": 0.7058175206184387,
+          "sparse_similarity": 0.07731663435697556,
+          "hybrid_score": 0.39156708121299744
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cannot stand up unassisted",
+      "Inability to stand unassisted",
+      "Unable to stand unaided"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu sức chân phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       495,
       512
-    ]
+    ],
+    "sentence": "- Than phiền về không thể tự đứng dậy do [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000030",
+          "document": "[ENTITY] không phù hợp.",
+          "dense_similarity": 0.6772896647453308,
+          "sparse_similarity": 0.12435115873813629,
+          "hybrid_score": 0.40082040429115295
+        },
+        {
+          "id": "isNegated_000218",
+          "document": "không phù hợp với [ENTITY].",
+          "dense_similarity": 0.6660280227661133,
+          "sparse_similarity": 0.1129670962691307,
+          "hybrid_score": 0.3894975483417511
+        },
+        {
+          "id": "isNegated_000224",
+          "document": "không đáp ứng tiêu chuẩn chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6643483638763428,
+          "sparse_similarity": 0.10867167264223099,
+          "hybrid_score": 0.3865100145339966
+        }
+      ]
+    ],
+    "eng_translation": [
+      "weakness in the right lower limb",
+      "Right lower limb paresis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "không thể chịu lực ở chân phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       594,
       624
-    ]
+    ],
+    "sentence": "- [ENTITY], liên tục khuỵu chân khi được giúp đỡ đứng dậy.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000053",
+          "document": "[ENTITY] đang được theo dõi.",
+          "dense_similarity": 0.6954259276390076,
+          "sparse_similarity": 0.1208670362830162,
+          "hybrid_score": 0.408146470785141
+        },
+        {
+          "id": "isFamily_025018",
+          "document": "thân nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.7064988613128662,
+          "sparse_similarity": 0.07880932092666626,
+          "hybrid_score": 0.39265409111976624
+        },
+        {
+          "id": "isUncertain_000030",
+          "document": "[ENTITY] cần theo dõi.",
+          "dense_similarity": 0.6951932907104492,
+          "sparse_similarity": 0.08339247107505798,
+          "hybrid_score": 0.3892928957939148
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Unable to bear weight on the right foot",
+      "Unable to bear weight on the right foot due to possible fracture or injury"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khuỵu chân",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       635,
       645
-    ]
+    ],
+    "sentence": "- không thể chịu lực ở chân phải, liên tục [ENTITY] khi được giúp đỡ đứng dậy.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_025018",
+          "document": "thân nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.6980870962142944,
+          "sparse_similarity": 0.06840056926012039,
+          "hybrid_score": 0.3832438290119171
+        },
+        {
+          "id": "isFamily_006269",
+          "document": "bên ngoại có người bị [ENTITY].",
+          "dense_similarity": 0.6978999972343445,
+          "sparse_similarity": 0.06329536437988281,
+          "hybrid_score": 0.38059768080711365
+        },
+        {
+          "id": "isFamily_006584",
+          "document": "bên ngoại có người đang mắc [ENTITY].",
+          "dense_similarity": 0.6905102133750916,
+          "sparse_similarity": 0.0652841329574585,
+          "hybrid_score": 0.377897173166275
+        }
+      ]
+    ],
+    "eng_translation": [
+      "khuỵu chân",
+      "Gối sưng",
+      "Knee pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       692,
       699
-    ]
+    ],
+    "sentence": "- Đã được chụp [ENTITY] sọ não kết quả âm tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000040",
+          "document": "[ENTITY] xét nghiệm âm tính.",
+          "dense_similarity": 0.8834456205368042,
+          "sparse_similarity": 0.22951877117156982,
+          "hybrid_score": 0.556482195854187
+        },
+        {
+          "id": "isNegated_000232",
+          "document": "kết quả kiểm tra âm tính với [ENTITY].",
+          "dense_similarity": 0.868566632270813,
+          "sparse_similarity": 0.24421252310276031,
+          "hybrid_score": 0.556389570236206
+        },
+        {
+          "id": "isNegated_000240",
+          "document": "kết quả xét nghiệm âm tính với [ENTITY].",
+          "dense_similarity": 0.8623132109642029,
+          "sparse_similarity": 0.24673214554786682,
+          "hybrid_score": 0.554522693157196
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cơn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       788,
       791
-    ]
+    ],
+    "sentence": "- Bị một [ENTITY] nhịp tim chậm nặng và hạ huyết áp ngay sau khi study.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012340",
+          "document": "cách đây 1 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6566027998924255,
+          "sparse_similarity": 0.04932751506567001,
+          "hybrid_score": 0.3529651463031769
+        },
+        {
+          "id": "isHistorical_012339",
+          "document": "cách đây 1 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6459404826164246,
+          "sparse_similarity": 0.05639408528804779,
+          "hybrid_score": 0.3511672914028168
+        },
+        {
+          "id": "isHistorical_012358",
+          "document": "cách đây 1 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6539220213890076,
+          "sparse_similarity": 0.04556834697723389,
+          "hybrid_score": 0.3497451841831207
+        }
+      ]
+    ],
+    "eng_translation": [
+      "cơn",
+      "Cơn đau thắt ngực ổn định"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp tim chậm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       792,
       805
-    ]
+    ],
+    "sentence": "- Bị một cơn [ENTITY] nặng và hạ huyết áp ngay sau khi study.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012340",
+          "document": "cách đây 1 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6973949074745178,
+          "sparse_similarity": 0.06605316698551178,
+          "hybrid_score": 0.3817240297794342
+        },
+        {
+          "id": "isHistorical_012339",
+          "document": "cách đây 1 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6809467673301697,
+          "sparse_similarity": 0.07544416189193726,
+          "hybrid_score": 0.37819546461105347
+        },
+        {
+          "id": "isHistorical_012358",
+          "document": "cách đây 1 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6892118453979492,
+          "sparse_similarity": 0.06099839508533478,
+          "hybrid_score": 0.3751051127910614
+        }
+      ]
+    ],
+    "eng_translation": [
+      "bradycardia",
+      "Slow heart rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       814,
       825
-    ]
+    ],
+    "sentence": "- Bị một cơn nhịp tim chậm nặng và [ENTITY] ngay sau khi study.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012339",
+          "document": "cách đây 1 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6894404888153076,
+          "sparse_similarity": 0.0658041313290596,
+          "hybrid_score": 0.3776223063468933
+        },
+        {
+          "id": "isHistorical_012336",
+          "document": "cách đây 1 ngày bị [ENTITY].",
+          "dense_similarity": 0.6799835562705994,
+          "sparse_similarity": 0.07067325711250305,
+          "hybrid_score": 0.3753284215927124
+        },
+        {
+          "id": "isFamily_025016",
+          "document": "thân nhân từng bị [ENTITY].",
+          "dense_similarity": 0.6768128275871277,
+          "sparse_similarity": 0.07057704031467438,
+          "hybrid_score": 0.37369492650032043
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypotension",
+      "Low blood pressure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       917,
       924
-    ]
+    ],
+    "sentence": "- Chụp lại [ENTITY] sọ não, kết quả âm tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000038",
+          "document": "[ENTITY] kết quả âm tính.",
+          "dense_similarity": 0.8505403995513916,
+          "sparse_similarity": 0.23915907740592957,
+          "hybrid_score": 0.5448497533798218
+        },
+        {
+          "id": "isNegated_000003",
+          "document": "[ENTITY] cho kết quả âm tính.",
+          "dense_similarity": 0.848085343837738,
+          "sparse_similarity": 0.23435547947883606,
+          "hybrid_score": 0.5412204265594482
+        },
+        {
+          "id": "isNegated_000041",
+          "document": "[ENTITY] âm tính.",
+          "dense_similarity": 0.808387815952301,
+          "sparse_similarity": 0.21381798386573792,
+          "hybrid_score": 0.5111029148101807
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tai biến mạch máu não",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1022,
       1043
-    ]
+    ],
+    "sentence": "- Được gọi là Code [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000054",
+          "document": "[ENTITY] được gợi ý.",
+          "dense_similarity": 0.7277679443359375,
+          "sparse_similarity": 0.16507036983966827,
+          "hybrid_score": 0.4464191496372223
+        },
+        {
+          "id": "isFamily_006674",
+          "document": "bên nội có [ENTITY].",
+          "dense_similarity": 0.7278676629066467,
+          "sparse_similarity": 0.1535361409187317,
+          "hybrid_score": 0.4407019019126892
+        },
+        {
+          "id": "isFamily_012654",
+          "document": "dì có [ENTITY].",
+          "dense_similarity": 0.7183878421783447,
+          "sparse_similarity": 0.15734051167964935,
+          "hybrid_score": 0.43786418437957764
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cerebrovascular accident",
+      "Stroke"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh chậm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1059,
       1068
-    ]
+    ],
+    "sentence": "- Ban đầu [ENTITY] phản xạ kém.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000164",
+          "document": "kết quả ban đầu gợi ý [ENTITY].",
+          "dense_similarity": 0.7501680850982666,
+          "sparse_similarity": 0.16812975704669952,
+          "hybrid_score": 0.45914891362190247
+        },
+        {
+          "id": "isUncertain_000168",
+          "document": "kết quả ban đầu nghĩ đến [ENTITY].",
+          "dense_similarity": 0.7511448860168457,
+          "sparse_similarity": 0.16343893110752106,
+          "hybrid_score": 0.4572919011116028
+        },
+        {
+          "id": "isUncertain_000219",
+          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
+          "dense_similarity": 0.739520788192749,
+          "sparse_similarity": 0.17340071499347687,
+          "hybrid_score": 0.45646074414253235
+        }
+      ]
+    ],
+    "eng_translation": [
+      "slow response",
+      "Slow response time"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xạ kém",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1074,
       1080
-    ]
+    ],
+    "sentence": "- Ban đầu tỉnh chậm phản [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_000004",
+          "document": "[ENTITY] ghi nhan o ba ngoai.",
+          "dense_similarity": 0.6782078146934509,
+          "sparse_similarity": 0.06691500544548035,
+          "hybrid_score": 0.37256139516830444
+        },
+        {
+          "id": "isFamily_000329",
+          "document": "[ENTITY] o ma cua benh nhi.",
+          "dense_similarity": 0.6656308174133301,
+          "sparse_similarity": 0.07462921738624573,
+          "hybrid_score": 0.3701300024986267
+        },
+        {
+          "id": "isFamily_021893",
+          "document": "ong ngoai ghi nhan [ENTITY].",
+          "dense_similarity": 0.6712859272956848,
+          "sparse_similarity": 0.06647143512964249,
+          "hybrid_score": 0.36887869238853455
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Radiation poor",
+      "Radiation exposure poor"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh táo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1096,
       1104
-    ]
+    ],
+    "sentence": "- Dần dần [ENTITY] hơn tỉnh táo và tỉnh khi gọi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006954",
+          "document": "[ENTITY] hiện đã ổn định.",
+          "dense_similarity": 0.7264419198036194,
+          "sparse_similarity": 0.132047638297081,
+          "hybrid_score": 0.4292447865009308
+        },
+        {
+          "id": "isHistorical_009849",
+          "document": "[ENTITY] đã ổn định.",
+          "dense_similarity": 0.7262841463088989,
+          "sparse_similarity": 0.13135926425457,
+          "hybrid_score": 0.42882171273231506
+        },
+        {
+          "id": "isHistorical_009842",
+          "document": "[ENTITY] đã phục hồi.",
+          "dense_similarity": 0.7161421179771423,
+          "sparse_similarity": 0.13743053376674652,
+          "hybrid_score": 0.426786333322525
+        }
+      ]
+    ],
+    "eng_translation": [
+      "alert"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh táo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1109,
       1117
-    ]
+    ],
+    "sentence": "- Dần dần tỉnh táo hơn [ENTITY] và tỉnh khi gọi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009842",
+          "document": "[ENTITY] đã phục hồi.",
+          "dense_similarity": 0.6935852766036987,
+          "sparse_similarity": 0.10702352970838547,
+          "hybrid_score": 0.4003044068813324
+        },
+        {
+          "id": "isHistorical_009840",
+          "document": "[ENTITY] đã hồi phục.",
+          "dense_similarity": 0.6930456161499023,
+          "sparse_similarity": 0.10517111420631409,
+          "hybrid_score": 0.399108350276947
+        },
+        {
+          "id": "isHistorical_006954",
+          "document": "[ENTITY] hiện đã ổn định.",
+          "dense_similarity": 0.6956759691238403,
+          "sparse_similarity": 0.10230837762355804,
+          "hybrid_score": 0.3989921808242798
+        }
+      ]
+    ],
+    "eng_translation": [
+      "alert"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh khi gọi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1121,
       1133
-    ]
+    ],
+    "sentence": "- Dần dần tỉnh táo hơn tỉnh táo và [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020855",
+          "document": "nguoi than co tien su con trai co tien su [ENTITY].",
+          "dense_similarity": 0.7213016152381897,
+          "sparse_similarity": 0.07233770936727524,
+          "hybrid_score": 0.3968196511268616
+        },
+        {
+          "id": "isFamily_020824",
+          "document": "nguoi than co tien su co tien su [ENTITY].",
+          "dense_similarity": 0.716834306716919,
+          "sparse_similarity": 0.07631883025169373,
+          "hybrid_score": 0.39657658338546753
+        },
+        {
+          "id": "isFamily_020962",
+          "document": "nguoi than co tien su ong ngoai co tien su [ENTITY].",
+          "dense_similarity": 0.7189133763313293,
+          "sparse_similarity": 0.07321237027645111,
+          "hybrid_score": 0.3960628807544708
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Alert when called"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tai biến mạch máu não",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1306,
       1327
-    ]
+    ],
+    "sentence": "- Phủ nhận tiền sử bị [ENTITY] hoặc co giật.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "phủ nhận tiền sử bị [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_017198",
+          "document": "ghi nhận tiền sử [ENTITY].",
+          "dense_similarity": 0.707808256149292,
+          "sparse_similarity": 0.25696635246276855,
+          "hybrid_score": 0.4823873043060303
+        },
+        {
+          "id": "isFamily_021284",
+          "document": "người thân có tiền sử bị [ENTITY].",
+          "dense_similarity": 0.7079110145568848,
+          "sparse_similarity": 0.2221219837665558,
+          "hybrid_score": 0.4650164842605591
+        },
+        {
+          "id": "isFamily_021601",
+          "document": "người thân có tiền sử đã bị [ENTITY].",
+          "dense_similarity": 0.7141017913818359,
+          "sparse_similarity": 0.21189233660697937,
+          "hybrid_score": 0.46299707889556885
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cerebrovascular accident",
+      "Stroke"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "co",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1333,
       1335
-    ]
+    ],
+    "sentence": "- Phủ nhận tiền sử bị tai biến mạch máu não hoặc [ENTITY] giật.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "phủ nhận tiền sử bị tai biến mạch máu não hoặc [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_021284",
+          "document": "người thân có tiền sử bị [ENTITY].",
+          "dense_similarity": 0.6955748796463013,
+          "sparse_similarity": 0.2268369048833847,
+          "hybrid_score": 0.4612058997154236
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.7114422917366028,
+          "sparse_similarity": 0.19240641593933105,
+          "hybrid_score": 0.4519243538379669
+        },
+        {
+          "id": "isFamily_026758",
+          "document": "tiền sử gia đình đang mắc [ENTITY].",
+          "dense_similarity": 0.7022733092308044,
+          "sparse_similarity": 0.18643569946289062,
+          "hybrid_score": 0.44435450434684753
+        }
+      ]
+    ],
+    "eng_translation": [
+      "No"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "giật",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1336,
       1340
-    ]
+    ],
+    "sentence": "- Phủ nhận tiền sử bị tai biến mạch máu não hoặc co [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "phủ nhận tiền sử bị tai biến mạch máu não hoặc co [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_021284",
+          "document": "người thân có tiền sử bị [ENTITY].",
+          "dense_similarity": 0.7043846249580383,
+          "sparse_similarity": 0.24368047714233398,
+          "hybrid_score": 0.47403255105018616
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.7294349670410156,
+          "sparse_similarity": 0.20633599162101746,
+          "hybrid_score": 0.46788549423217773
+        },
+        {
+          "id": "isFamily_024974",
+          "document": "thân nhân của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.7125471234321594,
+          "sparse_similarity": 0.20420517027378082,
+          "hybrid_score": 0.4583761394023895
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Seizure",
+      "Epileptic seizure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu sức nửa người bên phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1378,
       1404
-    ]
+    ],
+    "sentence": "Triệu chứng khi nhập viện\n    - [ENTITY]\n    - tình trạng tri giác giảm sút\n    - nhìn song thị\n    - mệt mỏi\n    Đặc điểm triệu chứng\n    - Vị trí: yếu chân phải\n    - Mức độ nghiêm trọng: Không ghi rõ\n    - Thời gian: Không ghi rõ\n    - Tần suất: Không ghi rõ\n    - Lan tỏa: Không ghi rõ\n    - Các yếu tố làm nặng thêm: Không ghi rõ\n    - Các yếu tố làm giảm bớt: Không ghi rõ\n    - Triệu chứng liên quan: mệt mỏi\n    Các sự kiện trước khi nhập viện\n    - Được con trai phát hiện tại nhà.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6003458499908447,
+          "sparse_similarity": 0.16516731679439545,
+          "hybrid_score": 0.3827565908432007
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5960990190505981,
+          "sparse_similarity": 0.14532241225242615,
+          "hybrid_score": 0.37071073055267334
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5957914590835571,
+          "sparse_similarity": 0.14361292123794556,
+          "hybrid_score": 0.36970219016075134
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Weakness on the right side of the body",
+      "Right-sided body weakness",
+      "Right-sided hemiparesis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tri giác giảm sút",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1422,
       1439
-    ]
+    ],
+    "sentence": "Triệu chứng khi nhập viện\n    - yếu sức nửa người bên phải\n    - tình trạng [ENTITY]\n    - nhìn song thị\n    - mệt mỏi\n    Đặc điểm triệu chứng\n    - Vị trí: yếu chân phải\n    - Mức độ nghiêm trọng: Không ghi rõ\n    - Thời gian: Không ghi rõ\n    - Tần suất: Không ghi rõ\n    - Lan tỏa: Không ghi rõ\n    - Các yếu tố làm nặng thêm: Không ghi rõ\n    - Các yếu tố làm giảm bớt: Không ghi rõ\n    - Triệu chứng liên quan: mệt mỏi\n    Các sự kiện trước khi nhập viện\n    - Được con trai phát hiện tại nhà.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024084",
+          "document": "phía bên nội con trai được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6145926713943481,
+          "sparse_similarity": 0.09228622913360596,
+          "hybrid_score": 0.35343945026397705
+        },
+        {
+          "id": "isFamily_024156",
+          "document": "phía bên nội em trai được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6204302310943604,
+          "sparse_similarity": 0.07543624192476273,
+          "hybrid_score": 0.34793323278427124
+        },
+        {
+          "id": "isFamily_007156",
+          "document": "bên nội của người bệnh ghi nhận [ENTITY].",
+          "dense_similarity": 0.622381329536438,
+          "sparse_similarity": 0.06981559842824936,
+          "hybrid_score": 0.3460984528064728
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Reduced consciousness",
+      "Altered mental status"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhìn song thị",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1446,
       1459
-    ]
+    ],
+    "sentence": "Triệu chứng khi nhập viện\n    - yếu sức nửa người bên phải\n    - tình trạng tri giác giảm sút\n    - [ENTITY]\n    - mệt mỏi\n    Đặc điểm triệu chứng\n    - Vị trí: yếu chân phải\n    - Mức độ nghiêm trọng: Không ghi rõ\n    - Thời gian: Không ghi rõ\n    - Tần suất: Không ghi rõ\n    - Lan tỏa: Không ghi rõ\n    - Các yếu tố làm nặng thêm: Không ghi rõ\n    - Các yếu tố làm giảm bớt: Không ghi rõ\n    - Triệu chứng liên quan: mệt mỏi\n    Các sự kiện trước khi nhập viện\n    - Được con trai phát hiện tại nhà.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007156",
+          "document": "bên nội của người bệnh ghi nhận [ENTITY].",
+          "dense_similarity": 0.6174495816230774,
+          "sparse_similarity": 0.06993360817432404,
+          "hybrid_score": 0.3436915874481201
+        },
+        {
+          "id": "isFamily_007165",
+          "document": "bên nội của người bệnh được ghi nhận [ENTITY].",
+          "dense_similarity": 0.6122346520423889,
+          "sparse_similarity": 0.07356049120426178,
+          "hybrid_score": 0.34289756417274475
+        },
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6106307506561279,
+          "sparse_similarity": 0.07030338793992996,
+          "hybrid_score": 0.34046706557273865
+        }
+      ]
+    ],
+    "eng_translation": [
+      "visual acuity"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1466,
       1473
-    ]
+    ],
+    "sentence": "Triệu chứng khi nhập viện\n    - yếu sức nửa người bên phải\n    - tình trạng tri giác giảm sút\n    - nhìn song thị\n    - [ENTITY]\n    Đặc điểm triệu chứng\n    - Vị trí: yếu chân phải\n    - Mức độ nghiêm trọng: Không ghi rõ\n    - Thời gian: Không ghi rõ\n    - Tần suất: Không ghi rõ\n    - Lan tỏa: Không ghi rõ\n    - Các yếu tố làm nặng thêm: Không ghi rõ\n    - Các yếu tố làm giảm bớt: Không ghi rõ\n    - Triệu chứng liên quan: mệt mỏi\n    Các sự kiện trước khi nhập viện\n    - Được con trai phát hiện tại nhà.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007156",
+          "document": "bên nội của người bệnh ghi nhận [ENTITY].",
+          "dense_similarity": 0.6076004505157471,
+          "sparse_similarity": 0.07503093779087067,
+          "hybrid_score": 0.34131568670272827
+        },
+        {
+          "id": "isFamily_007165",
+          "document": "bên nội của người bệnh được ghi nhận [ENTITY].",
+          "dense_similarity": 0.6014395356178284,
+          "sparse_similarity": 0.07900375872850418,
+          "hybrid_score": 0.340221643447876
+        },
+        {
+          "id": "isFamily_024156",
+          "document": "phía bên nội em trai được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5989908576011658,
+          "sparse_similarity": 0.07283009588718414,
+          "hybrid_score": 0.33591046929359436
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu chân phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1513,
       1526
-    ]
+    ],
+    "sentence": "Triệu chứng khi nhập viện\n    - yếu sức nửa người bên phải\n    - tình trạng tri giác giảm sút\n    - nhìn song thị\n    - mệt mỏi\n    Đặc điểm triệu chứng\n    - Vị trí: [ENTITY]\n    - Mức độ nghiêm trọng: Không ghi rõ\n    - Thời gian: Không ghi rõ\n    - Tần suất: Không ghi rõ\n    - Lan tỏa: Không ghi rõ\n    - Các yếu tố làm nặng thêm: Không ghi rõ\n    - Các yếu tố làm giảm bớt: Không ghi rõ\n    - Triệu chứng liên quan: mệt mỏi\n    Các sự kiện trước khi nhập viện\n    - Được con trai phát hiện tại nhà.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024084",
+          "document": "phía bên nội con trai được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6366651654243469,
+          "sparse_similarity": 0.10916322469711304,
+          "hybrid_score": 0.37291419506073
+        },
+        {
+          "id": "isFamily_007012",
+          "document": "bên nội có người em trai được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6277686357498169,
+          "sparse_similarity": 0.09879258275032043,
+          "hybrid_score": 0.36328059434890747
+        },
+        {
+          "id": "isFamily_024156",
+          "document": "phía bên nội em trai được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6359084844589233,
+          "sparse_similarity": 0.08708903938531876,
+          "hybrid_score": 0.36149877309799194
+        }
+      ]
+    ],
+    "eng_translation": [
+      "right foot weakness",
+      "right foot drop"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1772,
       1779
-    ]
+    ],
+    "sentence": "Triệu chứng khi nhập viện\n    - yếu sức nửa người bên phải\n    - tình trạng tri giác giảm sút\n    - nhìn song thị\n    - mệt mỏi\n    Đặc điểm triệu chứng\n    - Vị trí: yếu chân phải\n    - Mức độ nghiêm trọng: Không ghi rõ\n    - Thời gian: Không ghi rõ\n    - Tần suất: Không ghi rõ\n    - Lan tỏa: Không ghi rõ\n    - Các yếu tố làm nặng thêm: Không ghi rõ\n    - Các yếu tố làm giảm bớt: Không ghi rõ\n    - Triệu chứng liên quan: [ENTITY]\n    Các sự kiện trước khi nhập viện\n    - Được con trai phát hiện tại nhà.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "con"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007156",
+          "document": "bên nội của người bệnh ghi nhận [ENTITY].",
+          "dense_similarity": 0.6128186583518982,
+          "sparse_similarity": 0.06744414567947388,
+          "hybrid_score": 0.34013140201568604
+        },
+        {
+          "id": "isFamily_007165",
+          "document": "bên nội của người bệnh được ghi nhận [ENTITY].",
+          "dense_similarity": 0.6075773239135742,
+          "sparse_similarity": 0.07077141851186752,
+          "hybrid_score": 0.33917436003685
+        },
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6054874062538147,
+          "sparse_similarity": 0.06854289025068283,
+          "hybrid_score": 0.33701515197753906
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu sức chân phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1875,
       1892
-    ]
+    ],
+    "sentence": "- Than phiền về [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000227",
+          "document": "đặt vấn đề [ENTITY].",
+          "dense_similarity": 0.8371449112892151,
+          "sparse_similarity": 0.12450229376554489,
+          "hybrid_score": 0.4808236062526703
+        },
+        {
+          "id": "isFamily_005917",
+          "document": "bác có [ENTITY].",
+          "dense_similarity": 0.773632824420929,
+          "sparse_similarity": 0.17735397815704346,
+          "hybrid_score": 0.4754934012889862
+        },
+        {
+          "id": "isUncertain_000054",
+          "document": "[ENTITY] được gợi ý.",
+          "dense_similarity": 0.7778343558311462,
+          "sparse_similarity": 0.17241783440113068,
+          "hybrid_score": 0.47512608766555786
+        }
+      ]
+    ],
+    "eng_translation": [
+      "weakness in the right lower limb",
+      "Right lower limb paresis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1913,
       1920
-    ]
+    ],
+    "sentence": "- Đã được chụp [ENTITY] sọ não kết quả âm tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000040",
+          "document": "[ENTITY] xét nghiệm âm tính.",
+          "dense_similarity": 0.8834456205368042,
+          "sparse_similarity": 0.22951877117156982,
+          "hybrid_score": 0.556482195854187
+        },
+        {
+          "id": "isNegated_000232",
+          "document": "kết quả kiểm tra âm tính với [ENTITY].",
+          "dense_similarity": 0.868566632270813,
+          "sparse_similarity": 0.24421252310276031,
+          "hybrid_score": 0.556389570236206
+        },
+        {
+          "id": "isNegated_000240",
+          "document": "kết quả xét nghiệm âm tính với [ENTITY].",
+          "dense_similarity": 0.8623132109642029,
+          "sparse_similarity": 0.24673214554786682,
+          "hybrid_score": 0.554522693157196
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp tim chậm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1992,
       2005
-    ]
+    ],
+    "sentence": "- Bị [ENTITY] nặng và hạ huyết áp, không đặc hiệu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000225",
+          "document": "không được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6935821175575256,
+          "sparse_similarity": 0.08997046202421188,
+          "hybrid_score": 0.39177629351615906
+        },
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.665347158908844,
+          "sparse_similarity": 0.1140962466597557,
+          "hybrid_score": 0.38972169160842896
+        },
+        {
+          "id": "isNegated_000037",
+          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
+          "dense_similarity": 0.6747298240661621,
+          "sparse_similarity": 0.10441263765096664,
+          "hybrid_score": 0.3895712196826935
+        }
+      ]
+    ],
+    "eng_translation": [
+      "bradycardia",
+      "Slow heart rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2014,
       2025
-    ]
+    ],
+    "sentence": "- Bị nhịp tim chậm nặng và [ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000034",
+          "document": "[ENTITY] không điển hình.",
+          "dense_similarity": 0.7092247605323792,
+          "sparse_similarity": 0.12392555177211761,
+          "hybrid_score": 0.416575163602829
+        },
+        {
+          "id": "isNegated_000225",
+          "document": "không được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7101194858551025,
+          "sparse_similarity": 0.10225129127502441,
+          "hybrid_score": 0.4061853885650635
+        },
+        {
+          "id": "isNegated_000037",
+          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
+          "dense_similarity": 0.6901794672012329,
+          "sparse_similarity": 0.11856035143136978,
+          "hybrid_score": 0.40436992049217224
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypotension",
+      "Low blood pressure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2114,
       2121
-    ]
+    ],
+    "sentence": "- Chụp lại [ENTITY] sọ não, kết quả âm tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000038",
+          "document": "[ENTITY] kết quả âm tính.",
+          "dense_similarity": 0.8505403995513916,
+          "sparse_similarity": 0.23915907740592957,
+          "hybrid_score": 0.5448497533798218
+        },
+        {
+          "id": "isNegated_000003",
+          "document": "[ENTITY] cho kết quả âm tính.",
+          "dense_similarity": 0.848085343837738,
+          "sparse_similarity": 0.23435547947883606,
+          "hybrid_score": 0.5412204265594482
+        },
+        {
+          "id": "isNegated_000041",
+          "document": "[ENTITY] âm tính.",
+          "dense_similarity": 0.808387815952301,
+          "sparse_similarity": 0.21381798386573792,
+          "hybrid_score": 0.5111029148101807
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "trùng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       2194,
       2199
-    ]
+    ],
+    "sentence": "- Đã dùng kháng sinh cho nhiễm trùng nhiễm [ENTITY] răng miệng gần đây.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009845",
+          "document": "[ENTITY] đã điều trị trước đây.",
+          "dense_similarity": 0.7405945658683777,
+          "sparse_similarity": 0.10046949982643127,
+          "hybrid_score": 0.4205320477485657
+        },
+        {
+          "id": "isHistorical_012339",
+          "document": "cách đây 1 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7289015650749207,
+          "sparse_similarity": 0.0819101557135582,
+          "hybrid_score": 0.40540584921836853
+        },
+        {
+          "id": "isHistorical_012349",
+          "document": "cách đây 1 tháng mắc [ENTITY].",
+          "dense_similarity": 0.7273421287536621,
+          "sparse_similarity": 0.08205670863389969,
+          "hybrid_score": 0.4046994149684906
+        }
+      ]
+    ],
+    "eng_translation": [
+      "trùng",
+      "Trichomoniasis",
+      "Parasitic infection",
+      "Trùng is not a medical abbreviation. Return the original query unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nằm sải trên",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2266,
       2278
-    ]
+    ],
+    "sentence": "Tình trạng ngay trước khi nhập viện\n    - [ENTITY] sàn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.8769551515579224,
+          "sparse_similarity": 0.2199815809726715,
+          "hybrid_score": 0.5484683513641357
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.8742192387580872,
+          "sparse_similarity": 0.22184553742408752,
+          "hybrid_score": 0.5480324029922485
+        },
+        {
+          "id": "isHistorical_009850",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.8375123739242554,
+          "sparse_similarity": 0.2199239879846573,
+          "hybrid_score": 0.5287181735038757
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Lying supine",
+      "Supine position",
+      "Lying on the back"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "không",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2290,
       2295
-    ]
+    ],
+    "sentence": "- [ENTITY] thể tự đứng dậy do yếu sức chân phải.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000027",
+          "document": "[ENTITY] có thể xảy ra.",
+          "dense_similarity": 0.6583878397941589,
+          "sparse_similarity": 0.16849815845489502,
+          "hybrid_score": 0.413442999124527
+        },
+        {
+          "id": "isUncertain_000026",
+          "document": "[ENTITY] có khả năng.",
+          "dense_similarity": 0.677034854888916,
+          "sparse_similarity": 0.08905699104070663,
+          "hybrid_score": 0.38304591178894043
+        },
+        {
+          "id": "isHistorical_009840",
+          "document": "[ENTITY] đã hồi phục.",
+          "dense_similarity": 0.6682994961738586,
+          "sparse_similarity": 0.09212581813335419,
+          "hybrid_score": 0.380212664604187
+        }
+      ]
+    ],
+    "eng_translation": [
+      "no"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tự đứng dậy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2300,
       2311
-    ]
+    ],
+    "sentence": "- không thể [ENTITY] do yếu sức chân phải.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000030",
+          "document": "[ENTITY] không phù hợp.",
+          "dense_similarity": 0.7062719464302063,
+          "sparse_similarity": 0.15040738880634308,
+          "hybrid_score": 0.4283396601676941
+        },
+        {
+          "id": "isNegated_000037",
+          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
+          "dense_similarity": 0.6967952847480774,
+          "sparse_similarity": 0.1413968950510025,
+          "hybrid_score": 0.41909608244895935
+        },
+        {
+          "id": "isUncertain_000086",
+          "document": "chưa thể khẳng định [ENTITY].",
+          "dense_similarity": 0.6902746558189392,
+          "sparse_similarity": 0.13373370468616486,
+          "hybrid_score": 0.41200417280197144
+        }
+      ]
+    ],
+    "eng_translation": [
+      "stand independently"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu sức chân phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2315,
       2332
-    ]
+    ],
+    "sentence": "- không thể tự đứng dậy do [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000030",
+          "document": "[ENTITY] không phù hợp.",
+          "dense_similarity": 0.6954996585845947,
+          "sparse_similarity": 0.15061424672603607,
+          "hybrid_score": 0.423056960105896
+        },
+        {
+          "id": "isUncertain_000043",
+          "document": "[ENTITY] không chắc chắn.",
+          "dense_similarity": 0.682781994342804,
+          "sparse_similarity": 0.1497807800769806,
+          "hybrid_score": 0.41628140211105347
+        },
+        {
+          "id": "isNegated_000037",
+          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
+          "dense_similarity": 0.6809632778167725,
+          "sparse_similarity": 0.14169535040855408,
+          "hybrid_score": 0.41132932901382446
+        }
+      ]
+    ],
+    "eng_translation": [
+      "weakness in the right lower limb",
+      "Right lower limb paresis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "không thể chịu lực ở chân phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2340,
       2370
-    ]
+    ],
+    "sentence": "- [ENTITY], liên tục khuỵu chân.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000053",
+          "document": "[ENTITY] đang được theo dõi.",
+          "dense_similarity": 0.7399160265922546,
+          "sparse_similarity": 0.10849069803953171,
+          "hybrid_score": 0.42420336604118347
+        },
+        {
+          "id": "isFamily_010056",
+          "document": "chú đang mắc [ENTITY].",
+          "dense_similarity": 0.7290217876434326,
+          "sparse_similarity": 0.10513575375080109,
+          "hybrid_score": 0.41707876324653625
+        },
+        {
+          "id": "isUncertain_000030",
+          "document": "[ENTITY] cần theo dõi.",
+          "dense_similarity": 0.7258037328720093,
+          "sparse_similarity": 0.10097923874855042,
+          "hybrid_score": 0.41339147090911865
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Unable to bear weight on the right foot",
+      "Unable to bear weight on the right foot due to possible fracture or injury"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khuỵu chân",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2381,
       2391
-    ]
+    ],
+    "sentence": "- không thể chịu lực ở chân phải, liên tục [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000030",
+          "document": "[ENTITY] không phù hợp.",
+          "dense_similarity": 0.7206220626831055,
+          "sparse_similarity": 0.12641966342926025,
+          "hybrid_score": 0.42352086305618286
+        },
+        {
+          "id": "isFamily_006666",
+          "document": "bên ngoại đang mắc [ENTITY].",
+          "dense_similarity": 0.7158038020133972,
+          "sparse_similarity": 0.06337939947843552,
+          "hybrid_score": 0.38959160447120667
+        },
+        {
+          "id": "isFamily_006669",
+          "document": "bên ngoại đã mắc [ENTITY].",
+          "dense_similarity": 0.7140228748321533,
+          "sparse_similarity": 0.06346652656793594,
+          "hybrid_score": 0.3887447118759155
+        }
+      ]
+    ],
+    "eng_translation": [
+      "khuỵu chân",
+      "Gối sưng",
+      "Knee pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh chậm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2399,
       2408
-    ]
+    ],
+    "sentence": "- [ENTITY], phản xạ kém.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000041",
+          "document": "[ENTITY] âm tính.",
+          "dense_similarity": 0.8268239498138428,
+          "sparse_similarity": 0.09980250895023346,
+          "hybrid_score": 0.4633132219314575
+        },
+        {
+          "id": "isUncertain_000047",
+          "document": "[ENTITY] khả năng thấp.",
+          "dense_similarity": 0.7889982461929321,
+          "sparse_similarity": 0.09990358352661133,
+          "hybrid_score": 0.44445091485977173
+        },
+        {
+          "id": "isNegated_000030",
+          "document": "[ENTITY] không phù hợp.",
+          "dense_similarity": 0.7793787121772766,
+          "sparse_similarity": 0.10824402421712875,
+          "hybrid_score": 0.4438113570213318
+        }
+      ]
+    ],
+    "eng_translation": [
+      "slow response",
+      "Slow response time"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phản xạ kém",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2410,
       2421
-    ]
+    ],
+    "sentence": "- tỉnh chậm, [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000224",
+          "document": "ít nghĩ [ENTITY].",
+          "dense_similarity": 0.7733463644981384,
+          "sparse_similarity": 0.0946243479847908,
+          "hybrid_score": 0.4339853525161743
+        },
+        {
+          "id": "isHistorical_006530",
+          "document": "[ENTITY] cũ.",
+          "dense_similarity": 0.7434897422790527,
+          "sparse_similarity": 0.12349284440279007,
+          "hybrid_score": 0.4334912896156311
+        },
+        {
+          "id": "isUncertain_000114",
+          "document": "dường như [ENTITY].",
+          "dense_similarity": 0.7295438051223755,
+          "sparse_similarity": 0.1314847618341446,
+          "hybrid_score": 0.43051427602767944
+        }
+      ]
+    ],
+    "eng_translation": [
+      "poor reflexes",
+      "Reduced reflexes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu nửa người bên phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2479,
       2501
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - [ENTITY]\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000176",
+          "document": "lâm sàng gợi ý [ENTITY].",
+          "dense_similarity": 0.597994863986969,
+          "sparse_similarity": 0.18002329766750336,
+          "hybrid_score": 0.3890090882778168
+        },
+        {
+          "id": "isUncertain_000179",
+          "document": "lâm sàng nghi ngờ [ENTITY].",
+          "dense_similarity": 0.6004033088684082,
+          "sparse_similarity": 0.1618027538061142,
+          "hybrid_score": 0.3811030387878418
+        },
+        {
+          "id": "isFamily_024997",
+          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5911633372306824,
+          "sparse_similarity": 0.1292767971754074,
+          "hybrid_score": 0.3602200746536255
+        }
+      ]
+    ],
+    "eng_translation": [
+      "right-sided hemiparesis",
+      "right-sided weakness"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy giảm tri giác",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2508,
       2525
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - [ENTITY]\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6107767224311829,
+          "sparse_similarity": 0.14893469214439392,
+          "hybrid_score": 0.3798556923866272
+        },
+        {
+          "id": "isFamily_007107",
+          "document": "bên nội có người được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6010518074035645,
+          "sparse_similarity": 0.1534903645515442,
+          "hybrid_score": 0.3772710859775543
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6132174134254456,
+          "sparse_similarity": 0.123701311647892,
+          "hybrid_score": 0.3684593737125397
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Altered mental status",
+      "Altered level of consciousness"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhìn song thị",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2532,
       2545
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - [ENTITY]\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5946064591407776,
+          "sparse_similarity": 0.14247526228427887,
+          "hybrid_score": 0.36854085326194763
+        },
+        {
+          "id": "isFamily_007107",
+          "document": "bên nội có người được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5845609903335571,
+          "sparse_similarity": 0.14611877501010895,
+          "hybrid_score": 0.36533987522125244
+        },
+        {
+          "id": "isUncertain_000179",
+          "document": "lâm sàng nghi ngờ [ENTITY].",
+          "dense_similarity": 0.5828739404678345,
+          "sparse_similarity": 0.13393819332122803,
+          "hybrid_score": 0.35840606689453125
+        }
+      ]
+    ],
+    "eng_translation": [
+      "visual acuity"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp tim chậm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2552,
       2565
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - [ENTITY]\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5991405844688416,
+          "sparse_similarity": 0.13703851401805878,
+          "hybrid_score": 0.36808955669403076
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5909442901611328,
+          "sparse_similarity": 0.13993746042251587,
+          "hybrid_score": 0.36544087529182434
+        },
+        {
+          "id": "isFamily_024997",
+          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.592529296875,
+          "sparse_similarity": 0.12516368925571442,
+          "hybrid_score": 0.3588464856147766
+        }
+      ]
+    ],
+    "eng_translation": [
+      "bradycardia",
+      "Slow heart rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2572,
       2583
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - [ENTITY], không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6029527187347412,
+          "sparse_similarity": 0.1430252641439438,
+          "hybrid_score": 0.3729889988899231
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5962109565734863,
+          "sparse_similarity": 0.1460544764995575,
+          "hybrid_score": 0.3711327314376831
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6052976846694946,
+          "sparse_similarity": 0.11944624781608582,
+          "hybrid_score": 0.3623719811439514
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypotension",
+      "Low blood pressure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "không",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2606,
       2611
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - [ENTITY] nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.597610592842102,
+          "sparse_similarity": 0.13634462654590607,
+          "hybrid_score": 0.36697760224342346
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5903918743133545,
+          "sparse_similarity": 0.139165461063385,
+          "hybrid_score": 0.36477866768836975
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5998778343200684,
+          "sparse_similarity": 0.11367713660001755,
+          "hybrid_score": 0.35677748918533325
+        }
+      ]
+    ],
+    "eng_translation": [
+      "no"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chân",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2617,
       2621
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc [ENTITY] phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.601718008518219,
+          "sparse_similarity": 0.14004677534103394,
+          "hybrid_score": 0.37088239192962646
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5956199169158936,
+          "sparse_similarity": 0.1429322063922882,
+          "hybrid_score": 0.3692760467529297
+        },
+        {
+          "id": "isFamily_024997",
+          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5939003229141235,
+          "sparse_similarity": 0.1282077133655548,
+          "hybrid_score": 0.361054003238678
+        }
+      ]
+    ],
+    "eng_translation": [
+      "foot",
+      "lower extremity"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chân",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2649,
       2653
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - [ENTITY] phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.598625123500824,
+          "sparse_similarity": 0.1380988359451294,
+          "hybrid_score": 0.3683619797229767
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5927982330322266,
+          "sparse_similarity": 0.14093679189682007,
+          "hybrid_score": 0.3668675124645233
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6001492738723755,
+          "sparse_similarity": 0.11416459083557129,
+          "hybrid_score": 0.3571569323539734
+        }
+      ]
+    ],
+    "eng_translation": [
+      "foot",
+      "lower extremity"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khuỵ xuống",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2668,
       2678
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục [ENTITY]\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5985376834869385,
+          "sparse_similarity": 0.13887740671634674,
+          "hybrid_score": 0.368707537651062
+        },
+        {
+          "id": "isFamily_007107",
+          "document": "bên nội có người được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5890008211135864,
+          "sparse_similarity": 0.1442645937204361,
+          "hybrid_score": 0.36663269996643066
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5901490449905396,
+          "sparse_similarity": 0.14173808693885803,
+          "hybrid_score": 0.3659435510635376
+        }
+      ]
+    ],
+    "eng_translation": [
+      "collapsed",
+      "Collapsed Lung"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh chậm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2685,
       2694
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - [ENTITY], phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5947566628456116,
+          "sparse_similarity": 0.13470998406410217,
+          "hybrid_score": 0.36473333835601807
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5862438082695007,
+          "sparse_similarity": 0.13744591176509857,
+          "hybrid_score": 0.36184486746788025
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5968443751335144,
+          "sparse_similarity": 0.11118489503860474,
+          "hybrid_score": 0.35401463508605957
+        }
+      ]
+    ],
+    "eng_translation": [
+      "slow response",
+      "Slow response time"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kém",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2704,
       2707
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ [ENTITY]\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5900218486785889,
+          "sparse_similarity": 0.13318002223968506,
+          "hybrid_score": 0.36160093545913696
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5815566778182983,
+          "sparse_similarity": 0.13589099049568176,
+          "hybrid_score": 0.35872381925582886
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5920294523239136,
+          "sparse_similarity": 0.11006633937358856,
+          "hybrid_score": 0.35104790329933167
+        }
+      ]
+    ],
+    "eng_translation": [
+      "poor",
+      "Poor perfusion"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2762,
       2769
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - [ENTITY] sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5916393399238586,
+          "sparse_similarity": 0.1281065046787262,
+          "hybrid_score": 0.3598729372024536
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5827282667160034,
+          "sparse_similarity": 0.13069793581962585,
+          "hybrid_score": 0.35671311616897583
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5932611227035522,
+          "sparse_similarity": 0.10628912597894669,
+          "hybrid_score": 0.34977513551712036
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2801,
       2808
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại [ENTITY] sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - chụp ct sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.590522825717926,
+          "sparse_similarity": 0.12064046412706375,
+          "hybrid_score": 0.3555816411972046
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5818019509315491,
+          "sparse_similarity": 0.12296722829341888,
+          "hybrid_score": 0.3523845970630646
+        },
+        {
+          "id": "isFamily_007107",
+          "document": "bên nội có người được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5793412923812866,
+          "sparse_similarity": 0.12321481108665466,
+          "hybrid_score": 0.35127806663513184
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2862,
       2869
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - yếu nửa người bên phải\n    - suy giảm tri giác\n    - nhìn song thị\n    - nhịp tim chậm\n    - hạ huyết áp, không đặc hiệu\n    - không nhấc chân phải khỏi mặt giường\n    - chân phải liên tục khuỵ xuống\n    - tỉnh chậm, phản xạ kém\n    Kết quả xét nghiệm\n    - Chẩn đoán hình ảnh\n    - chụp ct sọ não: âm tính\n    - Chụp lại chụp ct sọ não: âm tính\n    Các thủ thuật đã thực hiện\n    - [ENTITY] sọ não\n    - chọc dò dịch não tủy\n    - Truyền dịch tĩnh mạch",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5975438952445984,
+          "sparse_similarity": 0.13907670974731445,
+          "hybrid_score": 0.3683103024959564
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5884397625923157,
+          "sparse_similarity": 0.14206652343273163,
+          "hybrid_score": 0.36525315046310425
+        },
+        {
+          "id": "isFamily_007107",
+          "document": "bên nội có người được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5864445567131042,
+          "sparse_similarity": 0.14027506113052368,
+          "hybrid_score": 0.36335980892181396
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

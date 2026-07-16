@@ -2,281 +2,1699 @@
   {
     "text": "tụy",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       67,
       70
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    bệnh nhân có tiền sử nhập viện gần đây vìviêm [ENTITY]\n    Bệnh lý mãn tính\n    - tiền sử rung nhĩ\n    - phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)\n    - rối loạn cảm xúc lưỡng cực khác\n    Tiền sử phẫu thuật / thủ thuật: phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)\n    Thuốc trước khi nhập viện: đang dùng eliquis (cho rung nhĩ)\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử nhập viện gần đây vìviêm [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6499910354614258,
+          "sparse_similarity": 0.24903184175491333,
+          "hybrid_score": 0.44951143860816956
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6546275615692139,
+          "sparse_similarity": 0.2440367043018341,
+          "hybrid_score": 0.4493321180343628
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.654147744178772,
+          "sparse_similarity": 0.24436374008655548,
+          "hybrid_score": 0.44925573468208313
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Pancreas",
+      "Exocrine pancreas"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rung nhĩ",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       106,
       114
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    bệnh nhân có tiền sử nhập viện gần đây vìviêm tụy\n    Bệnh lý mãn tính\n    - tiền sử [ENTITY]\n    - phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)\n    - rối loạn cảm xúc lưỡng cực khác\n    Tiền sử phẫu thuật / thủ thuật: phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)\n    Thuốc trước khi nhập viện: đang dùng eliquis (cho rung nhĩ)\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6581676602363586,
+          "sparse_similarity": 0.23834958672523499,
+          "hybrid_score": 0.448258638381958
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.656351625919342,
+          "sparse_similarity": 0.22812320291996002,
+          "hybrid_score": 0.44223740696907043
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6512991189956665,
+          "sparse_similarity": 0.2328866422176361,
+          "hybrid_score": 0.4420928955078125
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Atrial fibrillation",
+      "Paroxysmal atrial fibrillation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "eliquis",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       358,
       365
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    bệnh nhân có tiền sử nhập viện gần đây vìviêm tụy\n    Bệnh lý mãn tính\n    - tiền sử rung nhĩ\n    - phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)\n    - rối loạn cảm xúc lưỡng cực khác\n    Tiền sử phẫu thuật / thủ thuật: phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)\n    Thuốc trước khi nhập viện: đang dùng [ENTITY] (cho rung nhĩ)\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6595467329025269,
+          "sparse_similarity": 0.24138639867305756,
+          "hybrid_score": 0.4504665732383728
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6567363739013672,
+          "sparse_similarity": 0.23072974383831024,
+          "hybrid_score": 0.4437330663204193
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6503534317016602,
+          "sparse_similarity": 0.23572003841400146,
+          "hybrid_score": 0.4430367350578308
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Eliquis",
+      "Apixaban",
+      "Edoxaban"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1599538": 1.0,
+        "1364436": 1.0,
+        "1364430": 1.0,
+        "2725051": 0.936772,
+        "1599564": 0.923715
+      },
+      "rapidfuzz": {
+        "1364436": 1.0,
+        "1364430": 1.0,
+        "1599538": 1.0,
+        "1992428": 0.9,
+        "1364441": 0.9,
+        "1992427": 0.9,
+        "1599539": 0.9,
+        "1599550": 0.9
+      }
+    },
+    "candidate": {
+      "code": "1599538",
+      "confidence": 1.0
+    }
   },
   {
     "text": "rung nhĩ",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       371,
       379
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    bệnh nhân có tiền sử nhập viện gần đây vìviêm tụy\n    Bệnh lý mãn tính\n    - tiền sử rung nhĩ\n    - phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)\n    - rối loạn cảm xúc lưỡng cực khác\n    Tiền sử phẫu thuật / thủ thuật: phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)\n    Thuốc trước khi nhập viện: đang dùng eliquis (cho [ENTITY])\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6622488498687744,
+          "sparse_similarity": 0.24225452542304993,
+          "hybrid_score": 0.452251672744751
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6550418734550476,
+          "sparse_similarity": 0.23642560839653015,
+          "hybrid_score": 0.4457337260246277
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6598978042602539,
+          "sparse_similarity": 0.23147475719451904,
+          "hybrid_score": 0.4456862807273865
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Atrial fibrillation",
+      "Paroxysmal atrial fibrillation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       428,
       431
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY] và đau bụng\n    Thời điểm khởi phát triệu chứng\n    - khởi phát đau bụng trên (lần nhập viện trước)\n    - Hôm nay, bệnh nhân có sốt nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020462",
+          "document": "khoảng 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6372479200363159,
+          "sparse_similarity": 0.20054806768894196,
+          "hybrid_score": 0.41889798641204834
+        },
+        {
+          "id": "isHistorical_025414",
+          "document": "từ 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6368089914321899,
+          "sparse_similarity": 0.199753999710083,
+          "hybrid_score": 0.4182814955711365
+        },
+        {
+          "id": "isHistorical_020444",
+          "document": "khoảng 38 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6325329542160034,
+          "sparse_similarity": 0.20304599404335022,
+          "hybrid_score": 0.4177894592285156
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       435,
       443
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: sốt và [ENTITY]\n    Thời điểm khởi phát triệu chứng\n    - khởi phát đau bụng trên (lần nhập viện trước)\n    - Hôm nay, bệnh nhân có sốt nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020462",
+          "document": "khoảng 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6331740617752075,
+          "sparse_similarity": 0.21423926949501038,
+          "hybrid_score": 0.42370665073394775
+        },
+        {
+          "id": "isHistorical_020444",
+          "document": "khoảng 38 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6297409534454346,
+          "sparse_similarity": 0.21687883138656616,
+          "hybrid_score": 0.42330989241600037
+        },
+        {
+          "id": "isHistorical_025414",
+          "document": "từ 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6316810846328735,
+          "sparse_similarity": 0.2134428322315216,
+          "hybrid_score": 0.4225619435310364
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng trên",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       496,
       509
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: sốt và đau bụng\n    Thời điểm khởi phát triệu chứng\n    - khởi phát [ENTITY] (lần nhập viện trước)\n    - Hôm nay, bệnh nhân có sốt nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020462",
+          "document": "khoảng 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6287354826927185,
+          "sparse_similarity": 0.23019592463970184,
+          "hybrid_score": 0.42946571111679077
+        },
+        {
+          "id": "isHistorical_025414",
+          "document": "từ 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6276998519897461,
+          "sparse_similarity": 0.229426771402359,
+          "hybrid_score": 0.42856329679489136
+        },
+        {
+          "id": "isHistorical_020444",
+          "document": "khoảng 38 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.623809278011322,
+          "sparse_similarity": 0.23301637172698975,
+          "hybrid_score": 0.4284128248691559
+        }
+      ]
+    ],
+    "eng_translation": [
+      "upper abdominal pain",
+      "epigastric pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       560,
       563
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: sốt và đau bụng\n    Thời điểm khởi phát triệu chứng\n    - khởi phát đau bụng trên (lần nhập viện trước)\n    - Hôm nay, bệnh nhân có [ENTITY] nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020462",
+          "document": "khoảng 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6460144519805908,
+          "sparse_similarity": 0.22287039458751678,
+          "hybrid_score": 0.4344424307346344
+        },
+        {
+          "id": "isHistorical_025414",
+          "document": "từ 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6443838477134705,
+          "sparse_similarity": 0.22216126322746277,
+          "hybrid_score": 0.4332725405693054
+        },
+        {
+          "id": "isHistorical_020444",
+          "document": "khoảng 38 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6378036737442017,
+          "sparse_similarity": 0.2256244719028473,
+          "hybrid_score": 0.4317140579223633
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       588,
       604
-    ]
+    ],
+    "sentence": "3°C kèm theo [ENTITY] tái phát, ngày càng nặng hơn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032392",
+          "document": "đã 3 ngày mắc [ENTITY].",
+          "dense_similarity": 0.7082175612449646,
+          "sparse_similarity": 0.11892273277044296,
+          "hybrid_score": 0.4135701358318329
+        },
+        {
+          "id": "isHistorical_032391",
+          "document": "đã 3 ngày bị [ENTITY].",
+          "dense_similarity": 0.6941547989845276,
+          "sparse_similarity": 0.12255862355232239,
+          "hybrid_score": 0.4083567261695862
+        },
+        {
+          "id": "isHistorical_032394",
+          "document": "đã 3 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6879677772521973,
+          "sparse_similarity": 0.1100059449672699,
+          "hybrid_score": 0.3989868760108948
+        }
+      ]
+    ],
+    "eng_translation": [
+      "right lower quadrant pain",
+      "Right lower quadrant abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng trên",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       678,
       691
-    ]
+    ],
+    "sentence": "Diễn biến bệnh\n    - Ban đầu xuất hiện [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000091",
+          "document": "chẩn đoán ban đầu [ENTITY].",
+          "dense_similarity": 0.8183127641677856,
+          "sparse_similarity": 0.1486319601535797,
+          "hybrid_score": 0.4834723472595215
+        },
+        {
+          "id": "isUncertain_000164",
+          "document": "kết quả ban đầu gợi ý [ENTITY].",
+          "dense_similarity": 0.782476544380188,
+          "sparse_similarity": 0.1565074622631073,
+          "hybrid_score": 0.46949201822280884
+        },
+        {
+          "id": "isUncertain_000219",
+          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
+          "dense_similarity": 0.7768290042877197,
+          "sparse_similarity": 0.160056471824646,
+          "hybrid_score": 0.46844273805618286
+        }
+      ]
+    ],
+    "eng_translation": [
+      "upper abdominal pain",
+      "epigastric pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       803,
       806
-    ]
+    ],
+    "sentence": "sau đó nhập viện để khám và điều trị tại bệnh viện,  trong quá trình nằm viện ngày hôm qua bệnh nhân thấy  đỡ [ENTITY] hơn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009848",
+          "document": "[ENTITY] đã được điều trị.",
+          "dense_similarity": 0.7815277576446533,
+          "sparse_similarity": 0.17722484469413757,
+          "hybrid_score": 0.47937631607055664
+        },
+        {
+          "id": "isHistorical_012340",
+          "document": "cách đây 1 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.8049893379211426,
+          "sparse_similarity": 0.1511380672454834,
+          "hybrid_score": 0.478063702583313
+        },
+        {
+          "id": "isHistorical_009846",
+          "document": "[ENTITY] đã điều trị ổn.",
+          "dense_similarity": 0.7841023802757263,
+          "sparse_similarity": 0.16903725266456604,
+          "hybrid_score": 0.4765698313713074
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       896,
       899
-    ]
+    ],
+    "sentence": "- Hôm nay, bệnh nhân có [ENTITY] nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032608",
+          "document": "đã 38 ngày mắc [ENTITY].",
+          "dense_similarity": 0.793805718421936,
+          "sparse_similarity": 0.20456357300281525,
+          "hybrid_score": 0.49918463826179504
+        },
+        {
+          "id": "isHistorical_013105",
+          "document": "cách đây 38 ngày mắc [ENTITY].",
+          "dense_similarity": 0.7968800663948059,
+          "sparse_similarity": 0.1985427290201187,
+          "hybrid_score": 0.4977113902568817
+        },
+        {
+          "id": "isHistorical_013107",
+          "document": "cách đây 38 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7957949638366699,
+          "sparse_similarity": 0.1955060213804245,
+          "hybrid_score": 0.4956505000591278
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       924,
       940
-    ]
+    ],
+    "sentence": "3°C kèm theo [ENTITY] tái phát, ngày càng nặng hơn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032392",
+          "document": "đã 3 ngày mắc [ENTITY].",
+          "dense_similarity": 0.7082175612449646,
+          "sparse_similarity": 0.11892273277044296,
+          "hybrid_score": 0.4135701358318329
+        },
+        {
+          "id": "isHistorical_032391",
+          "document": "đã 3 ngày bị [ENTITY].",
+          "dense_similarity": 0.6941547989845276,
+          "sparse_similarity": 0.12255862355232239,
+          "hybrid_score": 0.4083567261695862
+        },
+        {
+          "id": "isHistorical_032394",
+          "document": "đã 3 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6879677772521973,
+          "sparse_similarity": 0.1100059449672699,
+          "hybrid_score": 0.3989868760108948
+        }
+      ]
+    ],
+    "eng_translation": [
+      "right lower quadrant pain",
+      "Right lower quadrant abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1066,
       1069
-    ]
+    ],
+    "sentence": "- Được gọi lại nhập viện do có kết quả  cấy máu dương tính \n    Triệu chứng hiện tại\n    - [ENTITY]\n    - đau bụng\n    - đau hạ sườn phải\n    - sốt nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013106",
+          "document": "cách đây 38 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6291913390159607,
+          "sparse_similarity": 0.18322227895259857,
+          "hybrid_score": 0.40620681643486023
+        },
+        {
+          "id": "isHistorical_020462",
+          "document": "khoảng 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6259841322898865,
+          "sparse_similarity": 0.1719551682472229,
+          "hybrid_score": 0.3989696502685547
+        },
+        {
+          "id": "isHistorical_025414",
+          "document": "từ 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.624557375907898,
+          "sparse_similarity": 0.17283684015274048,
+          "hybrid_score": 0.3986971080303192
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1076,
       1084
-    ]
+    ],
+    "sentence": "- Được gọi lại nhập viện do có kết quả  cấy máu dương tính \n    Triệu chứng hiện tại\n    - sốt\n    - [ENTITY]\n    - đau hạ sườn phải\n    - sốt nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013106",
+          "document": "cách đây 38 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6210384368896484,
+          "sparse_similarity": 0.17373163998126984,
+          "hybrid_score": 0.39738503098487854
+        },
+        {
+          "id": "isHistorical_020462",
+          "document": "khoảng 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6149781942367554,
+          "sparse_similarity": 0.16309484839439392,
+          "hybrid_score": 0.38903653621673584
+        },
+        {
+          "id": "isHistorical_025414",
+          "document": "từ 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6127797961235046,
+          "sparse_similarity": 0.16380998492240906,
+          "hybrid_score": 0.38829487562179565
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1091,
       1107
-    ]
+    ],
+    "sentence": "- Được gọi lại nhập viện do có kết quả  cấy máu dương tính \n    Triệu chứng hiện tại\n    - sốt\n    - đau bụng\n    - [ENTITY]\n    - sốt nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013106",
+          "document": "cách đây 38 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6250433921813965,
+          "sparse_similarity": 0.18545232713222504,
+          "hybrid_score": 0.40524786710739136
+        },
+        {
+          "id": "isHistorical_013124",
+          "document": "cách đây 38 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6149559020996094,
+          "sparse_similarity": 0.18170645833015442,
+          "hybrid_score": 0.3983311653137207
+        },
+        {
+          "id": "isHistorical_025414",
+          "document": "từ 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6209925413131714,
+          "sparse_similarity": 0.17495550215244293,
+          "hybrid_score": 0.39797401428222656
+        }
+      ]
+    ],
+    "eng_translation": [
+      "right lower quadrant pain",
+      "Right lower quadrant abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1114,
       1117
-    ]
+    ],
+    "sentence": "- Được gọi lại nhập viện do có kết quả  cấy máu dương tính \n    Triệu chứng hiện tại\n    - sốt\n    - đau bụng\n    - đau hạ sườn phải\n    - [ENTITY] nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013106",
+          "document": "cách đây 38 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6337697505950928,
+          "sparse_similarity": 0.1896449774503708,
+          "hybrid_score": 0.4117073714733124
+        },
+        {
+          "id": "isHistorical_013124",
+          "document": "cách đây 38 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6255702972412109,
+          "sparse_similarity": 0.18577225506305695,
+          "hybrid_score": 0.40567126870155334
+        },
+        {
+          "id": "isHistorical_025414",
+          "document": "từ 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6292310953140259,
+          "sparse_similarity": 0.17888057231903076,
+          "hybrid_score": 0.4040558338165283
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1139,
       1155
-    ]
+    ],
+    "sentence": "3°C\n    - [ENTITY] tái phát, ngày càng nặng hơn\n    - đau hạ sườn phải liên tục\n    Đặc điểm triệu chứng\n    - Vị trí: Vùng hạ sườn phải \n    - Mức độ nghiêm trọng: ngày càng nặng hơn\n    - Tính chất: liên tục\n    - Triệu chứng liên quan: không thấy  buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003433",
+          "document": "ba ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.5903865098953247,
+          "sparse_similarity": 0.0804852694272995,
+          "hybrid_score": 0.3354358971118927
+        },
+        {
+          "id": "isFamily_003436",
+          "document": "ba ruột người bệnh đang mắc [ENTITY].",
+          "dense_similarity": 0.5898331999778748,
+          "sparse_similarity": 0.07958254218101501,
+          "hybrid_score": 0.3347078561782837
+        },
+        {
+          "id": "isFamily_003344",
+          "document": "ba ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.5864746570587158,
+          "sparse_similarity": 0.08163494616746902,
+          "hybrid_score": 0.3340547978878021
+        }
+      ]
+    ],
+    "eng_translation": [
+      "right lower quadrant pain",
+      "Right lower quadrant abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1191,
       1207
-    ]
+    ],
+    "sentence": "3°C\n    - đau hạ sườn phải tái phát, ngày càng nặng hơn\n    - [ENTITY] liên tục\n    Đặc điểm triệu chứng\n    - Vị trí: Vùng hạ sườn phải \n    - Mức độ nghiêm trọng: ngày càng nặng hơn\n    - Tính chất: liên tục\n    - Triệu chứng liên quan: không thấy  buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003436",
+          "document": "ba ruột người bệnh đang mắc [ENTITY].",
+          "dense_similarity": 0.5682311654090881,
+          "sparse_similarity": 0.06586375832557678,
+          "hybrid_score": 0.31704747676849365
+        },
+        {
+          "id": "isFamily_003347",
+          "document": "ba ruột bệnh nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.5650978088378906,
+          "sparse_similarity": 0.06577207148075104,
+          "hybrid_score": 0.31543493270874023
+        },
+        {
+          "id": "isFamily_003433",
+          "document": "ba ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.5641092658042908,
+          "sparse_similarity": 0.06642454117536545,
+          "hybrid_score": 0.3152669072151184
+        }
+      ]
+    ],
+    "eng_translation": [
+      "right lower quadrant pain",
+      "Right lower quadrant abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1388,
       1396
-    ]
+    ],
+    "sentence": "3°C\n    - đau hạ sườn phải tái phát, ngày càng nặng hơn\n    - đau hạ sườn phải liên tục\n    Đặc điểm triệu chứng\n    - Vị trí: Vùng hạ sườn phải \n    - Mức độ nghiêm trọng: ngày càng nặng hơn\n    - Tính chất: liên tục\n    - Triệu chứng liên quan: không thấy  [ENTITY], nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không thấy [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003436",
+          "document": "ba ruột người bệnh đang mắc [ENTITY].",
+          "dense_similarity": 0.5576409697532654,
+          "sparse_similarity": 0.06251361221075058,
+          "hybrid_score": 0.3100772798061371
+        },
+        {
+          "id": "isFamily_003433",
+          "document": "ba ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.5554208159446716,
+          "sparse_similarity": 0.0631430447101593,
+          "hybrid_score": 0.30928194522857666
+        },
+        {
+          "id": "isFamily_003347",
+          "document": "ba ruột bệnh nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.5552745461463928,
+          "sparse_similarity": 0.062414780259132385,
+          "hybrid_score": 0.308844655752182
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1398,
       1401
-    ]
+    ],
+    "sentence": "3°C\n    - đau hạ sườn phải tái phát, ngày càng nặng hơn\n    - đau hạ sườn phải liên tục\n    Đặc điểm triệu chứng\n    - Vị trí: Vùng hạ sườn phải \n    - Mức độ nghiêm trọng: ngày càng nặng hơn\n    - Tính chất: liên tục\n    - Triệu chứng liên quan: không thấy  buồn nôn, [ENTITY], ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003436",
+          "document": "ba ruột người bệnh đang mắc [ENTITY].",
+          "dense_similarity": 0.5522441864013672,
+          "sparse_similarity": 0.058154039084911346,
+          "hybrid_score": 0.30519911646842957
+        },
+        {
+          "id": "isFamily_003433",
+          "document": "ba ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.5505032539367676,
+          "sparse_similarity": 0.05857185646891594,
+          "hybrid_score": 0.3045375645160675
+        },
+        {
+          "id": "isFamily_003347",
+          "document": "ba ruột bệnh nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.54925537109375,
+          "sparse_similarity": 0.05805979296565056,
+          "hybrid_score": 0.303657591342926
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ớn lạnh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1403,
       1410
-    ]
+    ],
+    "sentence": "3°C\n    - đau hạ sườn phải tái phát, ngày càng nặng hơn\n    - đau hạ sườn phải liên tục\n    Đặc điểm triệu chứng\n    - Vị trí: Vùng hạ sườn phải \n    - Mức độ nghiêm trọng: ngày càng nặng hơn\n    - Tính chất: liên tục\n    - Triệu chứng liên quan: không thấy  buồn nôn, nôn, [ENTITY], thay đổi chức năng ruột, đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003436",
+          "document": "ba ruột người bệnh đang mắc [ENTITY].",
+          "dense_similarity": 0.543648362159729,
+          "sparse_similarity": 0.05214892700314522,
+          "hybrid_score": 0.29789865016937256
+        },
+        {
+          "id": "isFamily_003347",
+          "document": "ba ruột bệnh nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.5411320328712463,
+          "sparse_similarity": 0.052058033645153046,
+          "hybrid_score": 0.29659503698349
+        },
+        {
+          "id": "isFamily_003433",
+          "document": "ba ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.5405808091163635,
+          "sparse_similarity": 0.05244530737400055,
+          "hybrid_score": 0.29651305079460144
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chills"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1437,
       1445
-    ]
+    ],
+    "sentence": "3°C\n    - đau hạ sườn phải tái phát, ngày càng nặng hơn\n    - đau hạ sườn phải liên tục\n    Đặc điểm triệu chứng\n    - Vị trí: Vùng hạ sườn phải \n    - Mức độ nghiêm trọng: ngày càng nặng hơn\n    - Tính chất: liên tục\n    - Triệu chứng liên quan: không thấy  buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, [ENTITY], khó thở.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003436",
+          "document": "ba ruột người bệnh đang mắc [ENTITY].",
+          "dense_similarity": 0.5507498383522034,
+          "sparse_similarity": 0.04921028017997742,
+          "hybrid_score": 0.2999800443649292
+        },
+        {
+          "id": "isFamily_003433",
+          "document": "ba ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.5485663414001465,
+          "sparse_similarity": 0.04935227334499359,
+          "hybrid_score": 0.29895931482315063
+        },
+        {
+          "id": "isFamily_003347",
+          "document": "ba ruột bệnh nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.5479869842529297,
+          "sparse_similarity": 0.049117136746644974,
+          "hybrid_score": 0.2985520660877228
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1447,
       1454
-    ]
+    ],
+    "sentence": "3°C\n    - đau hạ sườn phải tái phát, ngày càng nặng hơn\n    - đau hạ sườn phải liên tục\n    Đặc điểm triệu chứng\n    - Vị trí: Vùng hạ sườn phải \n    - Mức độ nghiêm trọng: ngày càng nặng hơn\n    - Tính chất: liên tục\n    - Triệu chứng liên quan: không thấy  buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003436",
+          "document": "ba ruột người bệnh đang mắc [ENTITY].",
+          "dense_similarity": 0.551590085029602,
+          "sparse_similarity": 0.05127325654029846,
+          "hybrid_score": 0.30143165588378906
+        },
+        {
+          "id": "isFamily_003433",
+          "document": "ba ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.5493232011795044,
+          "sparse_similarity": 0.051613014191389084,
+          "hybrid_score": 0.3004681169986725
+        },
+        {
+          "id": "isFamily_003347",
+          "document": "ba ruột bệnh nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.5491027235984802,
+          "sparse_similarity": 0.05119922012090683,
+          "hybrid_score": 0.30015096068382263
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "AMA",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1515,
       1518
-    ]
+    ],
+    "sentence": "Diễn biến  trước khi nhập viện\n    - Tự ý rời bệnh viện ([ENTITY]) ngày hôm qua sau khi cơn đau đỡ hơn ở  lần nhập viện trước.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009850",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.6643613576889038,
+          "sparse_similarity": 0.16921551525592804,
+          "hybrid_score": 0.4167884290218353
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.660580039024353,
+          "sparse_similarity": 0.1633394956588745,
+          "hybrid_score": 0.41195976734161377
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6580268740653992,
+          "sparse_similarity": 0.16447566449642181,
+          "hybrid_score": 0.4112512767314911
+        }
+      ]
+    ],
+    "eng_translation": [
+      "AMA",
+      "Acute Mild Asthma",
+      "American Medical Association"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1601,
       1608
-    ]
+    ],
+    "sentence": "- Được thực hiện [ENTITY] vùng gan mật tại phòng cấp cứu cho thấy túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.654558539390564,
+          "sparse_similarity": 0.0588131844997406,
+          "hybrid_score": 0.3566858768463135
+        },
+        {
+          "id": "isFamily_007152",
+          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.653628945350647,
+          "sparse_similarity": 0.059425659477710724,
+          "hybrid_score": 0.35652729868888855
+        },
+        {
+          "id": "isFamily_006633",
+          "document": "bên ngoại của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6440494060516357,
+          "sparse_similarity": 0.06070997193455696,
+          "hybrid_score": 0.3523796796798706
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật cấp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1694,
       1710
-    ]
+    ],
+    "sentence": "- Được thực hiện siêu âm vùng gan mật tại phòng cấp cứu cho thấy túi mật căng to với dịch quanh túi mật gợi ý [ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain",
+      "confidence": 1.0,
+      "evidence": "gợi ý [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6395185589790344,
+          "sparse_similarity": 0.0480940006673336,
+          "hybrid_score": 0.34380626678466797
+        },
+        {
+          "id": "isFamily_007152",
+          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6383774876594543,
+          "sparse_similarity": 0.04859615117311478,
+          "hybrid_score": 0.34348681569099426
+        },
+        {
+          "id": "isFamily_006633",
+          "document": "bên ngoại của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6342751979827881,
+          "sparse_similarity": 0.049647822976112366,
+          "hybrid_score": 0.34196150302886963
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Acute cholecystitis",
+      "Acute gallbladder inflammation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2077,
       2084
-    ]
+    ],
+    "sentence": "0 sau đó cải thiện (lần nhập viện trước)\n    - các xét nghiệm khác có xu hướng giảm (lần nhập viện trước)\n    - dương tính cấy máu khi tái khám với GPRs\n    Kết quả chẩn đoán hình ảnh\n    - [ENTITY] vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc sỏi ống mật (lần nhập viện trước)\n    - chụp ct bụng chậu là chưa phát hiện bất thường (lần nhập viện trước)\n    - siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp\n    Các phát hiện chẩn đoán khác: lo ngại viêm túi mật cấp",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5750929117202759,
+          "sparse_similarity": 0.09103982150554657,
+          "hybrid_score": 0.3330663740634918
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5717427730560303,
+          "sparse_similarity": 0.09282389283180237,
+          "hybrid_score": 0.3322833180427551
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5651904344558716,
+          "sparse_similarity": 0.09648948162794113,
+          "hybrid_score": 0.33083996176719666
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sỏi mật",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       2107,
       2114
-    ]
+    ],
+    "sentence": "0 sau đó cải thiện (lần nhập viện trước)\n    - các xét nghiệm khác có xu hướng giảm (lần nhập viện trước)\n    - dương tính cấy máu khi tái khám với GPRs\n    Kết quả chẩn đoán hình ảnh\n    - siêu âm vùng gan mật cho thấy [ENTITY] nhưng không có viêm túi mật hoặc sỏi ống mật (lần nhập viện trước)\n    - chụp ct bụng chậu là chưa phát hiện bất thường (lần nhập viện trước)\n    - siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp\n    Các phát hiện chẩn đoán khác: lo ngại viêm túi mật cấp",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5747854113578796,
+          "sparse_similarity": 0.08236599713563919,
+          "hybrid_score": 0.3285757005214691
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5726339817047119,
+          "sparse_similarity": 0.0839652419090271,
+          "hybrid_score": 0.3282996118068695
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5665038824081421,
+          "sparse_similarity": 0.08720554411411285,
+          "hybrid_score": 0.3268547058105469
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Gallstones",
+      "Cholelithiasis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       2130,
       2142
-    ]
+    ],
+    "sentence": "0 sau đó cải thiện (lần nhập viện trước)\n    - các xét nghiệm khác có xu hướng giảm (lần nhập viện trước)\n    - dương tính cấy máu khi tái khám với GPRs\n    Kết quả chẩn đoán hình ảnh\n    - siêu âm vùng gan mật cho thấy sỏi mật nhưng không có [ENTITY] hoặc sỏi ống mật (lần nhập viện trước)\n    - chụp ct bụng chậu là chưa phát hiện bất thường (lần nhập viện trước)\n    - siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp\n    Các phát hiện chẩn đoán khác: lo ngại viêm túi mật cấp",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5714504718780518,
+          "sparse_similarity": 0.08132657408714294,
+          "hybrid_score": 0.32638853788375854
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5681061744689941,
+          "sparse_similarity": 0.0829993486404419,
+          "hybrid_score": 0.325552761554718
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5720798969268799,
+          "sparse_similarity": 0.07498836517333984,
+          "hybrid_score": 0.32353413105010986
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cholecystitis",
+      "Cholecystitis is the inflammation of the gallbladder, typically caused by gallstones blocking the cystic duct, leading to infection and potential complications such as gangrene or perforation. It is often associated with right upper quadrant pain, fever, and elevated white blood cell count. Diagnosis is usually confirmed with imaging studies like ultrasound, and treatment may involve antibiotics, pain management, and surgical removal of the gallbladder (cholecystectomy) if recurrent or severe."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sỏi ống mật",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       2148,
       2159
-    ]
+    ],
+    "sentence": "0 sau đó cải thiện (lần nhập viện trước)\n    - các xét nghiệm khác có xu hướng giảm (lần nhập viện trước)\n    - dương tính cấy máu khi tái khám với GPRs\n    Kết quả chẩn đoán hình ảnh\n    - siêu âm vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc [ENTITY] (lần nhập viện trước)\n    - chụp ct bụng chậu là chưa phát hiện bất thường (lần nhập viện trước)\n    - siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp\n    Các phát hiện chẩn đoán khác: lo ngại viêm túi mật cấp",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5622375011444092,
+          "sparse_similarity": 0.07661828398704529,
+          "hybrid_score": 0.3194279074668884
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5604913234710693,
+          "sparse_similarity": 0.07815819978713989,
+          "hybrid_score": 0.3193247616291046
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5657153129577637,
+          "sparse_similarity": 0.07062815874814987,
+          "hybrid_score": 0.31817173957824707
+        }
+      ]
+    ],
+    "eng_translation": [
+      "biliary tract stones",
+      "cholelithiasis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2188,
       2195
-    ]
+    ],
+    "sentence": "0 sau đó cải thiện (lần nhập viện trước)\n    - các xét nghiệm khác có xu hướng giảm (lần nhập viện trước)\n    - dương tính cấy máu khi tái khám với GPRs\n    Kết quả chẩn đoán hình ảnh\n    - siêu âm vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc sỏi ống mật (lần nhập viện trước)\n    - [ENTITY] bụng chậu là chưa phát hiện bất thường (lần nhập viện trước)\n    - siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp\n    Các phát hiện chẩn đoán khác: lo ngại viêm túi mật cấp",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5464181900024414,
+          "sparse_similarity": 0.07484510540962219,
+          "hybrid_score": 0.3106316328048706
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5476617813110352,
+          "sparse_similarity": 0.0730738639831543,
+          "hybrid_score": 0.3103678226470947
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5518677234649658,
+          "sparse_similarity": 0.06745534390211105,
+          "hybrid_score": 0.30966153740882874
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2263,
       2270
-    ]
+    ],
+    "sentence": "0 sau đó cải thiện (lần nhập viện trước)\n    - các xét nghiệm khác có xu hướng giảm (lần nhập viện trước)\n    - dương tính cấy máu khi tái khám với GPRs\n    Kết quả chẩn đoán hình ảnh\n    - siêu âm vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc sỏi ống mật (lần nhập viện trước)\n    - chụp ct bụng chậu là chưa phát hiện bất thường (lần nhập viện trước)\n    - [ENTITY] vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp\n    Các phát hiện chẩn đoán khác: lo ngại viêm túi mật cấp",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5524854063987732,
+          "sparse_similarity": 0.07291227579116821,
+          "hybrid_score": 0.3126988410949707
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5538813471794128,
+          "sparse_similarity": 0.07139576226472855,
+          "hybrid_score": 0.3126385509967804
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5560851097106934,
+          "sparse_similarity": 0.06584146618843079,
+          "hybrid_score": 0.3109632730484009
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật cấp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       2347,
       2363
-    ]
+    ],
+    "sentence": "0 sau đó cải thiện (lần nhập viện trước)\n    - các xét nghiệm khác có xu hướng giảm (lần nhập viện trước)\n    - dương tính cấy máu khi tái khám với GPRs\n    Kết quả chẩn đoán hình ảnh\n    - siêu âm vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc sỏi ống mật (lần nhập viện trước)\n    - chụp ct bụng chậu là chưa phát hiện bất thường (lần nhập viện trước)\n    - siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý [ENTITY]\n    Các phát hiện chẩn đoán khác: lo ngại viêm túi mật cấp",
+    "assertion_result": {
+      "tag": "isUncertain",
+      "confidence": 1.0,
+      "evidence": "gợi ý [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.550337553024292,
+          "sparse_similarity": 0.060990359634160995,
+          "hybrid_score": 0.30566394329071045
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5513244867324829,
+          "sparse_similarity": 0.05956784635782242,
+          "hybrid_score": 0.30544617772102356
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5462779998779297,
+          "sparse_similarity": 0.062376923859119415,
+          "hybrid_score": 0.30432745814323425
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Acute cholecystitis",
+      "Acute gallbladder inflammation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật cấp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       2406,
       2422
-    ]
+    ],
+    "sentence": "0 sau đó cải thiện (lần nhập viện trước)\n    - các xét nghiệm khác có xu hướng giảm (lần nhập viện trước)\n    - dương tính cấy máu khi tái khám với GPRs\n    Kết quả chẩn đoán hình ảnh\n    - siêu âm vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc sỏi ống mật (lần nhập viện trước)\n    - chụp ct bụng chậu là chưa phát hiện bất thường (lần nhập viện trước)\n    - siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý viêm túi mật cấp\n    Các phát hiện chẩn đoán khác: lo ngại [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5554087162017822,
+          "sparse_similarity": 0.06319266557693481,
+          "hybrid_score": 0.3093006908893585
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5536844730377197,
+          "sparse_similarity": 0.0646807849407196,
+          "hybrid_score": 0.30918264389038086
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5476467609405518,
+          "sparse_similarity": 0.0671527311205864,
+          "hybrid_score": 0.3073997497558594
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Acute cholecystitis",
+      "Acute gallbladder inflammation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

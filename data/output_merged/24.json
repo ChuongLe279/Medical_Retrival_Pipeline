@@ -2,161 +2,976 @@
   {
     "text": "ung thư vú trái",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       58,
       73
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Bệnh lý mãn tính: mới được chẩn đoán [ENTITY] giai IIIB ung thư vú trái\n    Tiền sử phẫu thuật / thủ thuật\n    - cắt bỏ tuyến vú trái đơn giản\n    - thủ thuật nạo hạch gác rồng bên trái\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001139",
+          "document": "3 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5463233590126038,
+          "sparse_similarity": 0.06816577166318893,
+          "hybrid_score": 0.30724456906318665
+        },
+        {
+          "id": "isHistorical_001127",
+          "document": "3 năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5438809990882874,
+          "sparse_similarity": 0.06800906360149384,
+          "hybrid_score": 0.3059450387954712
+        },
+        {
+          "id": "isHistorical_012897",
+          "document": "cách đây 3 năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5432594418525696,
+          "sparse_similarity": 0.06840391457080841,
+          "hybrid_score": 0.3058316707611084
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Left breast cancer",
+      "Breast carcinoma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư vú trái",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       84,
       99
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Bệnh lý mãn tính: mới được chẩn đoán ung thư vú trái giai IIIB [ENTITY]\n    Tiền sử phẫu thuật / thủ thuật\n    - cắt bỏ tuyến vú trái đơn giản\n    - thủ thuật nạo hạch gác rồng bên trái\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012897",
+          "document": "cách đây 3 năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5426945686340332,
+          "sparse_similarity": 0.05518917739391327,
+          "hybrid_score": 0.29894188046455383
+        },
+        {
+          "id": "isHistorical_001139",
+          "document": "3 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5428606867790222,
+          "sparse_similarity": 0.054755859076976776,
+          "hybrid_score": 0.2988082766532898
+        },
+        {
+          "id": "isHistorical_001127",
+          "document": "3 năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5424690842628479,
+          "sparse_similarity": 0.05473330616950989,
+          "hybrid_score": 0.2986012101173401
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Left breast cancer",
+      "Breast carcinoma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ban đỏ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       278,
       284
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  [ENTITY] và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5688257217407227,
+          "sparse_similarity": 0.14134126901626587,
+          "hybrid_score": 0.35508349537849426
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5677193403244019,
+          "sparse_similarity": 0.138399139046669,
+          "hybrid_score": 0.35305923223495483
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5706661343574524,
+          "sparse_similarity": 0.1344444453716278,
+          "hybrid_score": 0.3525552749633789
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Red rash",
+      "Rash"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau khi sờ nắn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       288,
       302
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và [ENTITY] ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5634657740592957,
+          "sparse_similarity": 0.1332484930753708,
+          "hybrid_score": 0.3483571410179138
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5590800046920776,
+          "sparse_similarity": 0.12837274372577667,
+          "hybrid_score": 0.34372636675834656
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.55024254322052,
+          "sparse_similarity": 0.1362788826227188,
+          "hybrid_score": 0.3432607054710388
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain on palpation",
+      "Localized tenderness on palpation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sưng nề",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       433,
       440
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng [ENTITY] đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5574042201042175,
+          "sparse_similarity": 0.13181377947330475,
+          "hybrid_score": 0.34460899233818054
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5566938519477844,
+          "sparse_similarity": 0.12656478583812714,
+          "hybrid_score": 0.3416293263435364
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5492328405380249,
+          "sparse_similarity": 0.1305675059556961,
+          "hybrid_score": 0.3399001657962799
+        }
+      ]
+    ],
+    "eng_translation": [
+      "swelling",
+      "Edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau khi sờ nắn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       441,
       455
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề [ENTITY] trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5584222674369812,
+          "sparse_similarity": 0.13422362506389618,
+          "hybrid_score": 0.3463229537010193
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5570598244667053,
+          "sparse_similarity": 0.13374891877174377,
+          "hybrid_score": 0.34540438652038574
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5540779829025269,
+          "sparse_similarity": 0.12830892205238342,
+          "hybrid_score": 0.34119343757629395
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain on palpation",
+      "Localized tenderness on palpation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ban đỏ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       478,
       484
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo [ENTITY]\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5496836304664612,
+          "sparse_similarity": 0.12769988179206848,
+          "hybrid_score": 0.338691771030426
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5477244853973389,
+          "sparse_similarity": 0.12087767571210861,
+          "hybrid_score": 0.33430108428001404
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.5375601649284363,
+          "sparse_similarity": 0.1270655393600464,
+          "hybrid_score": 0.33231285214424133
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Red rash",
+      "Rash"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau khi sờ nắn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       525,
       539
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích [ENTITY] trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.552025556564331,
+          "sparse_similarity": 0.13217124342918396,
+          "hybrid_score": 0.3420984148979187
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5504673719406128,
+          "sparse_similarity": 0.13154727220535278,
+          "hybrid_score": 0.3410073220729828
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5493311285972595,
+          "sparse_similarity": 0.12557530403137207,
+          "hybrid_score": 0.3374532163143158
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain on palpation",
+      "Localized tenderness on palpation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ban đỏ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       562,
       568
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo [ENTITY]\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5533106327056885,
+          "sparse_similarity": 0.12970270216464996,
+          "hybrid_score": 0.3415066599845886
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5516617894172668,
+          "sparse_similarity": 0.12339311838150024,
+          "hybrid_score": 0.33752745389938354
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.548534631729126,
+          "sparse_similarity": 0.12392386049032211,
+          "hybrid_score": 0.33622923493385315
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Red rash",
+      "Rash"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sưng nề",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       613,
       620
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da [ENTITY] được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5553743839263916,
+          "sparse_similarity": 0.12664705514907837,
+          "hybrid_score": 0.341010719537735
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5538192391395569,
+          "sparse_similarity": 0.12122245877981186,
+          "hybrid_score": 0.3375208377838135
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.5427677631378174,
+          "sparse_similarity": 0.12586143612861633,
+          "hybrid_score": 0.33431458473205566
+        }
+      ]
+    ],
+    "eng_translation": [
+      "swelling",
+      "Edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ban đỏ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       767,
       773
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  [ENTITY] lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5724340677261353,
+          "sparse_similarity": 0.14415639638900757,
+          "hybrid_score": 0.3582952320575714
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5720440745353699,
+          "sparse_similarity": 0.13826079666614532,
+          "hybrid_score": 0.355152428150177
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5675933957099915,
+          "sparse_similarity": 0.1418628692626953,
+          "hybrid_score": 0.3547281324863434
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Red rash",
+      "Rash"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       792,
       801
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo [ENTITY]\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5541406869888306,
+          "sparse_similarity": 0.1280984729528427,
+          "hybrid_score": 0.34111958742141724
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5530287027359009,
+          "sparse_similarity": 0.12218259274959564,
+          "hybrid_score": 0.33760565519332886
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5490062832832336,
+          "sparse_similarity": 0.12354158610105515,
+          "hybrid_score": 0.3362739384174347
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ban đỏ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       938,
       944
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  [ENTITY] xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5650697946548462,
+          "sparse_similarity": 0.1469094604253769,
+          "hybrid_score": 0.35598963499069214
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5640405416488647,
+          "sparse_similarity": 0.14130651950836182,
+          "hybrid_score": 0.3526735305786133
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5559226274490356,
+          "sparse_similarity": 0.1457836627960205,
+          "hybrid_score": 0.3508531451225281
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Red rash",
+      "Rash"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau khi sờ nắn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       987,
       1001
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - [ENTITY] vùng mổ\n    - chóng mặt\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.551194965839386,
+          "sparse_similarity": 0.13365259766578674,
+          "hybrid_score": 0.34242379665374756
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5466071963310242,
+          "sparse_similarity": 0.12965060770511627,
+          "hybrid_score": 0.3381288945674896
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5486782789230347,
+          "sparse_similarity": 0.12745605409145355,
+          "hybrid_score": 0.3380671739578247
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain on palpation",
+      "Localized tenderness on palpation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1016,
       1025
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - [ENTITY]\n    - không sốt\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5516595244407654,
+          "sparse_similarity": 0.13553407788276672,
+          "hybrid_score": 0.34359681606292725
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5502737760543823,
+          "sparse_similarity": 0.12945783138275146,
+          "hybrid_score": 0.3398658037185669
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5434340834617615,
+          "sparse_similarity": 0.13002318143844604,
+          "hybrid_score": 0.33672863245010376
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1038,
       1041
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: xuất hiện nhiều  ban đỏ và đau khi sờ nắn ở vết mổ\n    Triệu chứng Bắt đầu\n    - sau khi xuất viện\n    - ống dẫn lưu JP được rút vào ngày DD MM\n    - bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    Diễn biến bệnh\n    - tăng diện tích đau khi sờ nắn trên vùng da kèm theo ban đỏ\n    - đến khám tại phòng khám\n    - vùng da sưng nề được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm\n    - được cho về vớ đơn thuốci levafloxacin và cephalexin\n    - tái khám với triệu chứng xuất hiện  ban đỏ lan rộng kèm theo chóng mặt\n    - được chuyển đến Khoa Cấp cứu\n    - Tại thời điểm khám bệnh  bệnh nhân có các triệu chứng tương tự\n    Triệu chứng hiện tại\n    -  ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật\n    - đau khi sờ nắn vùng mổ\n    - chóng mặt\n    - không [ENTITY]\n    - hiện tại chưa phát hiện các triệu chứng toàn thân khác\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5488955974578857,
+          "sparse_similarity": 0.12253031134605408,
+          "hybrid_score": 0.3357129693031311
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5462384819984436,
+          "sparse_similarity": 0.11616136133670807,
+          "hybrid_score": 0.33119991421699524
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.5365471243858337,
+          "sparse_similarity": 0.12188661098480225,
+          "hybrid_score": 0.329216867685318
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ban đỏ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1154,
       1160
-    ]
+    ],
+    "sentence": "khám tại bệnh viện\n    Dấu hiệu lâm sàng\n    - [ENTITY] ở vị trí phẫu thuật\n    - đau ấn vùng mổ\n    - không sốt\n    - chưa phát hiện các triệu chứng toàn thân khác\n    Thủ thuật đã thực hiện\n    - Đã khám tổn thương da, chọc hút dịch\n    - dùng vancomycin",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007165",
+          "document": "bên nội của người bệnh được ghi nhận [ENTITY].",
+          "dense_similarity": 0.5981025695800781,
+          "sparse_similarity": 0.08517614006996155,
+          "hybrid_score": 0.34163933992385864
+        },
+        {
+          "id": "isFamily_007151",
+          "document": "bên nội của bệnh nhân được ghi nhận [ENTITY].",
+          "dense_similarity": 0.5995514988899231,
+          "sparse_similarity": 0.08186362683773041,
+          "hybrid_score": 0.34070757031440735
+        },
+        {
+          "id": "isFamily_006646",
+          "document": "bên ngoại của người bệnh được ghi nhận [ENTITY].",
+          "dense_similarity": 0.5935258269309998,
+          "sparse_similarity": 0.08636659383773804,
+          "hybrid_score": 0.3399462103843689
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Red rash",
+      "Rash"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ấn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1187,
       1193
-    ]
+    ],
+    "sentence": "khám tại bệnh viện\n    Dấu hiệu lâm sàng\n    - ban đỏ ở vị trí phẫu thuật\n    - [ENTITY] vùng mổ\n    - không sốt\n    - chưa phát hiện các triệu chứng toàn thân khác\n    Thủ thuật đã thực hiện\n    - Đã khám tổn thương da, chọc hút dịch\n    - dùng vancomycin",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5964195132255554,
+          "sparse_similarity": 0.08110485225915909,
+          "hybrid_score": 0.33876219391822815
+        },
+        {
+          "id": "isFamily_006631",
+          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5995471477508545,
+          "sparse_similarity": 0.07528024911880493,
+          "hybrid_score": 0.3374136984348297
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5945578813552856,
+          "sparse_similarity": 0.07975679636001587,
+          "hybrid_score": 0.33715733885765076
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain on pressure",
+      "Localized tenderness"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1214,
       1217
-    ]
+    ],
+    "sentence": "khám tại bệnh viện\n    Dấu hiệu lâm sàng\n    - ban đỏ ở vị trí phẫu thuật\n    - đau ấn vùng mổ\n    - không [ENTITY]\n    - chưa phát hiện các triệu chứng toàn thân khác\n    Thủ thuật đã thực hiện\n    - Đã khám tổn thương da, chọc hút dịch\n    - dùng vancomycin",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006629",
+          "document": "bên ngoại của bệnh nhân đã bị [ENTITY].",
+          "dense_similarity": 0.5764657855033875,
+          "sparse_similarity": 0.07512757182121277,
+          "hybrid_score": 0.3257966637611389
+        },
+        {
+          "id": "isFamily_006631",
+          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5859344601631165,
+          "sparse_similarity": 0.0650748759508133,
+          "hybrid_score": 0.3255046606063843
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5802469849586487,
+          "sparse_similarity": 0.0701732337474823,
+          "hybrid_score": 0.3252100944519043
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vancomycin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1351,
       1361
-    ]
+    ],
+    "sentence": "khám tại bệnh viện\n    Dấu hiệu lâm sàng\n    - ban đỏ ở vị trí phẫu thuật\n    - đau ấn vùng mổ\n    - không sốt\n    - chưa phát hiện các triệu chứng toàn thân khác\n    Thủ thuật đã thực hiện\n    - Đã khám tổn thương da, chọc hút dịch\n    - dùng [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5977450609207153,
+          "sparse_similarity": 0.06500274688005447,
+          "hybrid_score": 0.3313739001750946
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5944446921348572,
+          "sparse_similarity": 0.06364069133996964,
+          "hybrid_score": 0.3290427029132843
+        },
+        {
+          "id": "isFamily_006631",
+          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5988225936889648,
+          "sparse_similarity": 0.059088084846735,
+          "hybrid_score": 0.32895535230636597
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Vancomycin",
+      "Vancomycin is a glycopeptide antibiotic used to treat serious bacterial infections, particularly those caused by gram-positive organisms, including methicillin-resistant Staphylococcus aureus (MRSA). It works by inhibiting cell wall synthesis and is often reserved for severe infections due to its potential for nephrotoxicity and ototoxicity. Monitoring of serum levels and renal function is essential to ensure therapeutic efficacy and minimize adverse effects."
+    ],
+    "retriever": {
+      "sapbert": {
+        "11124": 1.0,
+        "997397": 0.734893,
+        "405388": 0.707967,
+        "66955": 0.700402
+      },
+      "rapidfuzz": {
+        "11124": 1.0,
+        "2387078": 0.9,
+        "2118449": 0.9,
+        "2677176": 0.855,
+        "2709234": 0.855,
+        "2709236": 0.855
+      }
+    },
+    "candidate": {
+      "code": "11124",
+      "confidence": 1.0
+    }
   }
 ]

@@ -2,65 +2,383 @@
   {
     "text": "đại tiện ra máu đỏ tươi gián đoạn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       99,
       132
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: 3 ngày [ENTITY]\nThời điểm khởi phát triệu chứng: 3 ngày\nTriệu chứng hiện tại\n- đại tiện ra máu đỏ tươi gián đoạn\n- chóng mặt\nĐặc điểm triệu chứng\n- Vị trí: qua đường hậu môn\n- Màu sắc: đỏ tươi\n- Triệu chứng kèm theo: chóng mặt\nCác sự kiện trước khi nhập viện\n- Bệnh nhân được khám tại phòng cấp cứu\n- inr là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6020714044570923,
+          "sparse_similarity": 0.18577612936496735,
+          "hybrid_score": 0.3939237594604492
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6057542562484741,
+          "sparse_similarity": 0.18173475563526154,
+          "hybrid_score": 0.39374449849128723
+        },
+        {
+          "id": "isHistorical_020228",
+          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6012512445449829,
+          "sparse_similarity": 0.18151047825813293,
+          "hybrid_score": 0.39138084650039673
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Intermittent bright red blood in stool",
+      "Occasional hematochezia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đại tiện ra máu đỏ tươi gián đoạn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       196,
       229
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: 3 ngày đại tiện ra máu đỏ tươi gián đoạn\nThời điểm khởi phát triệu chứng: 3 ngày\nTriệu chứng hiện tại\n- [ENTITY]\n- chóng mặt\nĐặc điểm triệu chứng\n- Vị trí: qua đường hậu môn\n- Màu sắc: đỏ tươi\n- Triệu chứng kèm theo: chóng mặt\nCác sự kiện trước khi nhập viện\n- Bệnh nhân được khám tại phòng cấp cứu\n- inr là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5807965397834778,
+          "sparse_similarity": 0.16689419746398926,
+          "hybrid_score": 0.3738453686237335
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5769646763801575,
+          "sparse_similarity": 0.16992789506912231,
+          "hybrid_score": 0.3734462857246399
+        },
+        {
+          "id": "isHistorical_020228",
+          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5745983719825745,
+          "sparse_similarity": 0.1659311205148697,
+          "hybrid_score": 0.3702647387981415
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Intermittent bright red blood in stool",
+      "Occasional hematochezia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       232,
       241
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: 3 ngày đại tiện ra máu đỏ tươi gián đoạn\nThời điểm khởi phát triệu chứng: 3 ngày\nTriệu chứng hiện tại\n- đại tiện ra máu đỏ tươi gián đoạn\n- [ENTITY]\nĐặc điểm triệu chứng\n- Vị trí: qua đường hậu môn\n- Màu sắc: đỏ tươi\n- Triệu chứng kèm theo: chóng mặt\nCác sự kiện trước khi nhập viện\n- Bệnh nhân được khám tại phòng cấp cứu\n- inr là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5606037378311157,
+          "sparse_similarity": 0.1591125726699829,
+          "hybrid_score": 0.3598581552505493
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5543801784515381,
+          "sparse_similarity": 0.15972118079662323,
+          "hybrid_score": 0.35705068707466125
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5569247603416443,
+          "sparse_similarity": 0.15153181552886963,
+          "hybrid_score": 0.35422828793525696
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       334,
       343
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: 3 ngày đại tiện ra máu đỏ tươi gián đoạn\nThời điểm khởi phát triệu chứng: 3 ngày\nTriệu chứng hiện tại\n- đại tiện ra máu đỏ tươi gián đoạn\n- chóng mặt\nĐặc điểm triệu chứng\n- Vị trí: qua đường hậu môn\n- Màu sắc: đỏ tươi\n- Triệu chứng kèm theo: [ENTITY]\nCác sự kiện trước khi nhập viện\n- Bệnh nhân được khám tại phòng cấp cứu\n- inr là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5685637593269348,
+          "sparse_similarity": 0.1613730639219284,
+          "hybrid_score": 0.3649684190750122
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5619231462478638,
+          "sparse_similarity": 0.1619127243757248,
+          "hybrid_score": 0.3619179427623749
+        },
+        {
+          "id": "isHistorical_025180",
+          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5569959282875061,
+          "sparse_similarity": 0.16024233400821686,
+          "hybrid_score": 0.3586191236972809
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "inr",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       418,
       421
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: 3 ngày đại tiện ra máu đỏ tươi gián đoạn\nThời điểm khởi phát triệu chứng: 3 ngày\nTriệu chứng hiện tại\n- đại tiện ra máu đỏ tươi gián đoạn\n- chóng mặt\nĐặc điểm triệu chứng\n- Vị trí: qua đường hậu môn\n- Màu sắc: đỏ tươi\n- Triệu chứng kèm theo: chóng mặt\nCác sự kiện trước khi nhập viện\n- Bệnh nhân được khám tại phòng cấp cứu\n- [ENTITY] là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5786276459693909,
+          "sparse_similarity": 0.16819515824317932,
+          "hybrid_score": 0.3734114170074463
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5753816962242126,
+          "sparse_similarity": 0.1709207147359848,
+          "hybrid_score": 0.3731512129306793
+        },
+        {
+          "id": "isHistorical_020228",
+          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.575377345085144,
+          "sparse_similarity": 0.16682791709899902,
+          "hybrid_score": 0.37110263109207153
+        }
+      ]
+    ],
+    "eng_translation": [
+      "INR",
+      "International Normalized Ratio"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "2.0",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       425,
       428
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: 3 ngày đại tiện ra máu đỏ tươi gián đoạn\nThời điểm khởi phát triệu chứng: 3 ngày\nTriệu chứng hiện tại\n- đại tiện ra máu đỏ tươi gián đoạn\n- chóng mặt\nĐặc điểm triệu chứng\n- Vị trí: qua đường hậu môn\n- Màu sắc: đỏ tươi\n- Triệu chứng kèm theo: chóng mặt\nCác sự kiện trước khi nhập viện\n- Bệnh nhân được khám tại phòng cấp cứu\n- inr là [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5719239711761475,
+          "sparse_similarity": 0.16509875655174255,
+          "hybrid_score": 0.3685113787651062
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5657811164855957,
+          "sparse_similarity": 0.16634437441825867,
+          "hybrid_score": 0.3660627603530884
+        },
+        {
+          "id": "isHistorical_020228",
+          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5638337135314941,
+          "sparse_similarity": 0.16228413581848145,
+          "hybrid_score": 0.3630589246749878
+        }
+      ]
+    ],
+    "eng_translation": [
+      "2.0"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "inr",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       606,
       609
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- [ENTITY] là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000109",
+          "document": "cần xét nghiệm xác nhận [ENTITY].",
+          "dense_similarity": 0.72077876329422,
+          "sparse_similarity": 0.24575123190879822,
+          "hybrid_score": 0.4832649827003479
+        },
+        {
+          "id": "isHistorical_000593",
+          "document": "2 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7404198050498962,
+          "sparse_similarity": 0.10182606428861618,
+          "hybrid_score": 0.4211229383945465
+        },
+        {
+          "id": "isHistorical_032130",
+          "document": "đã 2 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7394380569458008,
+          "sparse_similarity": 0.098316490650177,
+          "hybrid_score": 0.4188772737979889
+        }
+      ]
+    ],
+    "eng_translation": [
+      "INR",
+      "International Normalized Ratio"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "2.0",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       613,
       616
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- inr là [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000109",
+          "document": "cần xét nghiệm xác nhận [ENTITY].",
+          "dense_similarity": 0.70680832862854,
+          "sparse_similarity": 0.19856171309947968,
+          "hybrid_score": 0.45268502831459045
+        },
+        {
+          "id": "isFamily_007152",
+          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.7291285395622253,
+          "sparse_similarity": 0.10119067877531052,
+          "hybrid_score": 0.4151596128940582
+        },
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7440680265426636,
+          "sparse_similarity": 0.08360923081636429,
+          "hybrid_score": 0.41383862495422363
+        }
+      ]
+    ],
+    "eng_translation": [
+      "2.0"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

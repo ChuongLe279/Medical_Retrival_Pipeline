@@ -2,137 +2,850 @@
   {
     "text": "Đái tháo đường típ 1",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       48,
       68
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY] có biến chứng viêm thần kinh ngoại biên\n    - Viêm gan virus C và B\n    - Tăng áp động mạch phổi mức độ trung bình\n    - U lympho không hodgkin tế bàoB lớn lan toả)\n    Tiền sử phẫu thuật / thủ thuật: \nPhẫu thuật thay toàn bộ khớp háng phải \n    Thuốc đang dùng trước khi nhập viện\n    - Dùngmethadonekéo dài\n    - lasixđã dừng cách vài tuần\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6563298106193542,
+          "sparse_similarity": 0.24774380028247833,
+          "hybrid_score": 0.4520367980003357
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.647910475730896,
+          "sparse_similarity": 0.2526317536830902,
+          "hybrid_score": 0.4502711296081543
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6519700288772583,
+          "sparse_similarity": 0.22817620635032654,
+          "hybrid_score": 0.4400731325149536
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Type 1 Diabetes mellitus",
+      "Insulin-Dependent Diabetes Mellitus"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm thần kinh ngoại biên",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       83,
       108
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Đái tháo đường típ 1 có biến chứng [ENTITY]\n    - Viêm gan virus C và B\n    - Tăng áp động mạch phổi mức độ trung bình\n    - U lympho không hodgkin tế bàoB lớn lan toả)\n    Tiền sử phẫu thuật / thủ thuật: \nPhẫu thuật thay toàn bộ khớp háng phải \n    Thuốc đang dùng trước khi nhập viện\n    - Dùngmethadonekéo dài\n    - lasixđã dừng cách vài tuần\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6244590878486633,
+          "sparse_similarity": 0.18310017883777618,
+          "hybrid_score": 0.40377962589263916
+        },
+        {
+          "id": "isFamily_020140",
+          "document": "má người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6195122003555298,
+          "sparse_similarity": 0.1860005259513855,
+          "hybrid_score": 0.40275636315345764
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6094653010368347,
+          "sparse_similarity": 0.17762500047683716,
+          "hybrid_score": 0.39354515075683594
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Peripheral neuropathy"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Viêm gan virus C",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       115,
       131
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Đái tháo đường típ 1 có biến chứng viêm thần kinh ngoại biên\n    - [ENTITY] và B\n    - Tăng áp động mạch phổi mức độ trung bình\n    - U lympho không hodgkin tế bàoB lớn lan toả)\n    Tiền sử phẫu thuật / thủ thuật: \nPhẫu thuật thay toàn bộ khớp háng phải \n    Thuốc đang dùng trước khi nhập viện\n    - Dùngmethadonekéo dài\n    - lasixđã dừng cách vài tuần\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_026549",
+          "document": "tiền sử gia đình chồng đang mắc [ENTITY].",
+          "dense_similarity": 0.6051850318908691,
+          "sparse_similarity": 0.14212122559547424,
+          "hybrid_score": 0.3736531138420105
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6020225286483765,
+          "sparse_similarity": 0.1446652114391327,
+          "hybrid_score": 0.37334388494491577
+        },
+        {
+          "id": "isHistorical_000034",
+          "document": "1 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.596284031867981,
+          "sparse_similarity": 0.14935123920440674,
+          "hybrid_score": 0.37281763553619385
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hepatitis C virus",
+      "Hepatitis C virus infection",
+      "HCV infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tăng áp động mạch phổi",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       143,
       165
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Đái tháo đường típ 1 có biến chứng viêm thần kinh ngoại biên\n    - Viêm gan virus C và B\n    - [ENTITY] mức độ trung bình\n    - U lympho không hodgkin tế bàoB lớn lan toả)\n    Tiền sử phẫu thuật / thủ thuật: \nPhẫu thuật thay toàn bộ khớp háng phải \n    Thuốc đang dùng trước khi nhập viện\n    - Dùngmethadonekéo dài\n    - lasixđã dừng cách vài tuần\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6156105399131775,
+          "sparse_similarity": 0.17298081517219543,
+          "hybrid_score": 0.39429569244384766
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6060172915458679,
+          "sparse_similarity": 0.18254287540912628,
+          "hybrid_score": 0.3942800760269165
+        },
+        {
+          "id": "isFamily_020140",
+          "document": "má người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6092831492424011,
+          "sparse_similarity": 0.17588627338409424,
+          "hybrid_score": 0.3925847113132477
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Pulmonary artery hypertension",
+      "Pulmonary hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "U lympho không hodgkin tế bàoB",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       190,
       220
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Đái tháo đường típ 1 có biến chứng viêm thần kinh ngoại biên\n    - Viêm gan virus C và B\n    - Tăng áp động mạch phổi mức độ trung bình\n    - [ENTITY] lớn lan toả)\n    Tiền sử phẫu thuật / thủ thuật: \nPhẫu thuật thay toàn bộ khớp háng phải \n    Thuốc đang dùng trước khi nhập viện\n    - Dùngmethadonekéo dài\n    - lasixđã dừng cách vài tuần\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007411",
+          "document": "bệnh sử gia đình chồng đang mắc [ENTITY].",
+          "dense_similarity": 0.6046915650367737,
+          "sparse_similarity": 0.13076633214950562,
+          "hybrid_score": 0.36772894859313965
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6041847467422485,
+          "sparse_similarity": 0.13063770532608032,
+          "hybrid_score": 0.36741122603416443
+        },
+        {
+          "id": "isFamily_007409",
+          "document": "bệnh sử gia đình chồng từng bị [ENTITY].",
+          "dense_similarity": 0.6095314621925354,
+          "sparse_similarity": 0.12055501341819763,
+          "hybrid_score": 0.3650432229042053
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Non-Hodgkin B-cell lymphoma",
+      "B-cell non-Hodgkin lymphoma",
+      "Non-Hodgkin Lymphoma B-cell Lymphoma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Phù chân trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       454,
       467
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: [ENTITY] và hoại tử ngày càng nặng\n    Ttheo lời bệnh nhân kể, bệnh nhân có khó khăn trong việc tự chăm sóc bản thân tại nhà, bệnh nhân tự ý dừng Lasix vì không muốn đi tiểu nhiều lần.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5840648412704468,
+          "sparse_similarity": 0.1843302696943283,
+          "hybrid_score": 0.38419756293296814
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5797563791275024,
+          "sparse_similarity": 0.17855894565582275,
+          "hybrid_score": 0.3791576623916626
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.579058825969696,
+          "sparse_similarity": 0.17473876476287842,
+          "hybrid_score": 0.37689879536628723
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Edema of the left foot",
+      "Left foot edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hoại tử",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       471,
       478
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: Phù chân trái và [ENTITY] ngày càng nặng\n    Ttheo lời bệnh nhân kể, bệnh nhân có khó khăn trong việc tự chăm sóc bản thân tại nhà, bệnh nhân tự ý dừng Lasix vì không muốn đi tiểu nhiều lần.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6055825352668762,
+          "sparse_similarity": 0.19314584136009216,
+          "hybrid_score": 0.399364173412323
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6040571331977844,
+          "sparse_similarity": 0.1832241415977478,
+          "hybrid_score": 0.3936406373977661
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6013942956924438,
+          "sparse_similarity": 0.18474015593528748,
+          "hybrid_score": 0.39306724071502686
+        }
+      ]
+    ],
+    "eng_translation": [
+      "necrosis",
+      "Necrotic tissue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Lasix",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       605,
       610
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: Phù chân trái và hoại tử ngày càng nặng\n    Ttheo lời bệnh nhân kể, bệnh nhân có khó khăn trong việc tự chăm sóc bản thân tại nhà, bệnh nhân tự ý dừng [ENTITY] vì không muốn đi tiểu nhiều lần.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5864298343658447,
+          "sparse_similarity": 0.1560867577791214,
+          "hybrid_score": 0.37125828862190247
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5828970670700073,
+          "sparse_similarity": 0.14982840418815613,
+          "hybrid_score": 0.3663627505302429
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5799793601036072,
+          "sparse_similarity": 0.14877988398075104,
+          "hybrid_score": 0.3643796145915985
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Furosemide",
+      "Loop Diuretic"
+    ],
+    "retriever": {
+      "sapbert": {
+        "4603": 1.0,
+        "104215": 1.0,
+        "3567": 0.759171,
+        "3569": 0.751101,
+        "91218": 0.737778
+      },
+      "rapidfuzz": {
+        "4603": 1.0,
+        "2725542": 0.9,
+        "2725545": 0.9,
+        "2654838": 0.855,
+        "1300289": 0.72
+      }
+    },
+    "candidate": {
+      "code": "4603",
+      "confidence": 1.0
+    }
   },
   {
     "text": "lasix",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       665,
       670
-    ]
+    ],
+    "sentence": "Sau khi dừng sử dụng [ENTITY] cách đây vài tuần, xuất hiện phù chân.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "[entity] cách đây"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012355",
+          "document": "cách đây 1 tuần mắc [ENTITY].",
+          "dense_similarity": 0.7400500774383545,
+          "sparse_similarity": 0.1472584754228592,
+          "hybrid_score": 0.44365426898002625
+        },
+        {
+          "id": "isHistorical_012643",
+          "document": "cách đây 2 tuần mắc [ENTITY].",
+          "dense_similarity": 0.7444581389427185,
+          "sparse_similarity": 0.1421395093202591,
+          "hybrid_score": 0.4432988166809082
+        },
+        {
+          "id": "isHistorical_013963",
+          "document": "cách đây 7 tuần mắc [ENTITY].",
+          "dense_similarity": 0.737151026725769,
+          "sparse_similarity": 0.14618967473506927,
+          "hybrid_score": 0.44167035818099976
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Lasix",
+      "Furosemide"
+    ],
+    "retriever": {
+      "sapbert": {
+        "4603": 1.0,
+        "202991": 1.0,
+        "2735130": 0.843701,
+        "2739320": 0.690308,
+        "1364397": 0.680973
+      },
+      "rapidfuzz": {
+        "202991": 1.0,
+        "4603": 1.0,
+        "565458": 0.9,
+        "1175645": 0.9,
+        "2725542": 0.9,
+        "2725545": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202991",
+      "confidence": 1.0
+    }
   },
   {
     "text": "phù chân",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       700,
       708
-    ]
+    ],
+    "sentence": "Sau khi dừng sử dụng lasix cách đây vài tuần, xuất hiện [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "cách đây vài tuần, xuất hiện [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014782",
+          "document": "cách đây vài tuần [ENTITY].",
+          "dense_similarity": 0.7819408178329468,
+          "sparse_similarity": 0.2544940114021301,
+          "hybrid_score": 0.5182174444198608
+        },
+        {
+          "id": "isHistorical_012354",
+          "document": "cách đây 1 tuần bị [ENTITY].",
+          "dense_similarity": 0.7977574467658997,
+          "sparse_similarity": 0.21345606446266174,
+          "hybrid_score": 0.5056067705154419
+        },
+        {
+          "id": "isHistorical_012355",
+          "document": "cách đây 1 tuần mắc [ENTITY].",
+          "dense_similarity": 0.7957021594047546,
+          "sparse_similarity": 0.21364662051200867,
+          "hybrid_score": 0.5046743750572205
+        }
+      ]
+    ],
+    "eng_translation": [
+      "edema of the feet",
+      "Peripheral edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phù chân",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       719,
       727
-    ]
+    ],
+    "sentence": "Ngày nay [ENTITY] và hoại tử nặng lên, chưa xử trí gì, vào viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7886244058609009,
+          "sparse_similarity": 0.1697765588760376,
+          "hybrid_score": 0.47920048236846924
+        },
+        {
+          "id": "isHistorical_034243",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7757636904716492,
+          "sparse_similarity": 0.17761611938476562,
+          "hybrid_score": 0.4766899049282074
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7548941373825073,
+          "sparse_similarity": 0.1767624467611313,
+          "hybrid_score": 0.4658282995223999
+        }
+      ]
+    ],
+    "eng_translation": [
+      "edema of the feet",
+      "Peripheral edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hoại tử",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       731,
       738
-    ]
+    ],
+    "sentence": "Ngày nay phù chân và [ENTITY] nặng lên, chưa xử trí gì, vào viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.753525972366333,
+          "sparse_similarity": 0.1586991548538208,
+          "hybrid_score": 0.4561125636100769
+        },
+        {
+          "id": "isHistorical_034243",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7300236225128174,
+          "sparse_similarity": 0.1655270904302597,
+          "hybrid_score": 0.44777536392211914
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7303030490875244,
+          "sparse_similarity": 0.1652388572692871,
+          "hybrid_score": 0.44777095317840576
+        }
+      ]
+    ],
+    "eng_translation": [
+      "necrosis",
+      "Necrotic tissue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Phù 2 chân nặng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       835,
       850
-    ]
+    ],
+    "sentence": "Tình trạng lúc khám vào viện:\nBệnh nhân tỉnh, tiếp xúc được\n[ENTITY], Loét 2 bàn chân, chảy dịch vàng và có hoại tử đen kích thước 2*4 cm\nChẩn đoán: Theo dõiLoét bàn chân nhiễm trùng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_012219",
+          "document": "cậu của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5961667895317078,
+          "sparse_similarity": 0.08537587523460388,
+          "hybrid_score": 0.34077131748199463
+        },
+        {
+          "id": "isFamily_024983",
+          "document": "thân nhân của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.589130699634552,
+          "sparse_similarity": 0.09187883883714676,
+          "hybrid_score": 0.3405047655105591
+        },
+        {
+          "id": "isFamily_024997",
+          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5874302983283997,
+          "sparse_similarity": 0.09290812909603119,
+          "hybrid_score": 0.340169221162796
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Edema of both lower extremities, severe",
+      "Edematous lower extremities, severe"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Loét 2 bàn chân",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       852,
       867
-    ]
+    ],
+    "sentence": "Tình trạng lúc khám vào viện:\nBệnh nhân tỉnh, tiếp xúc được\nPhù 2 chân nặng, [ENTITY], chảy dịch vàng và có hoại tử đen kích thước 2*4 cm\nChẩn đoán: Theo dõiLoét bàn chân nhiễm trùng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024983",
+          "document": "thân nhân của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6107097268104553,
+          "sparse_similarity": 0.0888814777135849,
+          "hybrid_score": 0.3497956097126007
+        },
+        {
+          "id": "isFamily_024997",
+          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6093608140945435,
+          "sparse_similarity": 0.08984380215406418,
+          "hybrid_score": 0.3496023118495941
+        },
+        {
+          "id": "isFamily_009867",
+          "document": "chú của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6163837313652039,
+          "sparse_similarity": 0.08163326978683472,
+          "hybrid_score": 0.3490085005760193
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ulceration on both feet",
+      "Ulceration of both feet",
+      "Foot ulcers on both feet"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy dịch vàng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       869,
       883
-    ]
+    ],
+    "sentence": "Tình trạng lúc khám vào viện:\nBệnh nhân tỉnh, tiếp xúc được\nPhù 2 chân nặng, Loét 2 bàn chân, [ENTITY] và có hoại tử đen kích thước 2*4 cm\nChẩn đoán: Theo dõiLoét bàn chân nhiễm trùng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_025022",
+          "document": "thân nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.596501886844635,
+          "sparse_similarity": 0.09910693764686584,
+          "hybrid_score": 0.3478044271469116
+        },
+        {
+          "id": "isFamily_024997",
+          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6021472215652466,
+          "sparse_similarity": 0.09266259521245956,
+          "hybrid_score": 0.3474048972129822
+        },
+        {
+          "id": "isFamily_024983",
+          "document": "thân nhân của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6014403700828552,
+          "sparse_similarity": 0.09127774834632874,
+          "hybrid_score": 0.3463590741157532
+        }
+      ]
+    ],
+    "eng_translation": [
+      "purulent discharge",
+      "purulent secretion"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tử đen",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       895,
       901
-    ]
+    ],
+    "sentence": "Tình trạng lúc khám vào viện:\nBệnh nhân tỉnh, tiếp xúc được\nPhù 2 chân nặng, Loét 2 bàn chân, chảy dịch vàng và có hoại [ENTITY] kích thước 2*4 cm\nChẩn đoán: Theo dõiLoét bàn chân nhiễm trùng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_009867",
+          "document": "chú của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5976154804229736,
+          "sparse_similarity": 0.06377974897623062,
+          "hybrid_score": 0.330697625875473
+        },
+        {
+          "id": "isFamily_024983",
+          "document": "thân nhân của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.587462306022644,
+          "sparse_similarity": 0.0695970356464386,
+          "hybrid_score": 0.3285296559333801
+        },
+        {
+          "id": "isFamily_009881",
+          "document": "chú của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6001243591308594,
+          "sparse_similarity": 0.056787170469760895,
+          "hybrid_score": 0.32845577597618103
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Black stool",
+      "Melena"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bàn chân nhiễm trùng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       944,
       964
-    ]
+    ],
+    "sentence": "Tình trạng lúc khám vào viện:\nBệnh nhân tỉnh, tiếp xúc được\nPhù 2 chân nặng, Loét 2 bàn chân, chảy dịch vàng và có hoại tử đen kích thước 2*4 cm\nChẩn đoán: Theo dõiLoét [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_025022",
+          "document": "thân nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6183674335479736,
+          "sparse_similarity": 0.10861311107873917,
+          "hybrid_score": 0.3634902834892273
+        },
+        {
+          "id": "isFamily_024983",
+          "document": "thân nhân của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6195563077926636,
+          "sparse_similarity": 0.10093855857849121,
+          "hybrid_score": 0.3602474331855774
+        },
+        {
+          "id": "isFamily_024997",
+          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6175592541694641,
+          "sparse_similarity": 0.10220307856798172,
+          "hybrid_score": 0.3598811626434326
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Infection of the foot",
+      "Foot infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

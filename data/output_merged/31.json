@@ -2,17 +2,97 @@
   {
     "text": "ra huyết âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       146,
       161
-    ]
+    ],
+    "sentence": "Hiện có cơn co tử cung, \nthai máy tốt (FM +), \nchưa  [ENTITY] (VB -), chưa vỡ ối/rỉ ối (LOF -).",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "chưa [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000108",
+          "document": "cần làm thêm xét nghiệm xác định [ENTITY].",
+          "dense_similarity": 0.6235512495040894,
+          "sparse_similarity": 0.07091698795557022,
+          "hybrid_score": 0.3472341299057007
+        },
+        {
+          "id": "isFamily_020471",
+          "document": "mẹ sản phụ được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6294839382171631,
+          "sparse_similarity": 0.05799591541290283,
+          "hybrid_score": 0.34373992681503296
+        },
+        {
+          "id": "isNegated_000040",
+          "document": "[ENTITY] xét nghiệm âm tính.",
+          "dense_similarity": 0.6194448471069336,
+          "sparse_similarity": 0.0666365996003151,
+          "hybrid_score": 0.34304073452949524
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vaginal bleeding",
+      "Vaginal hemorrhage"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rỉ ối",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       181,
       186
-    ]
+    ],
+    "sentence": "Hiện có cơn co tử cung, \nthai máy tốt (FM +), \nchưa  ra huyết âm đạo (VB -), chưa vỡ ối/[ENTITY] (LOF -).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000175",
+          "document": "lâm sàng chưa loại trừ [ENTITY].",
+          "dense_similarity": 0.6177521347999573,
+          "sparse_similarity": 0.09910222142934799,
+          "hybrid_score": 0.35842716693878174
+        },
+        {
+          "id": "isNegated_000040",
+          "document": "[ENTITY] xét nghiệm âm tính.",
+          "dense_similarity": 0.6107235550880432,
+          "sparse_similarity": 0.10572386533021927,
+          "hybrid_score": 0.35822370648384094
+        },
+        {
+          "id": "isUncertain_000218",
+          "document": "xét nghiệm ban đầu chưa loại trừ [ENTITY].",
+          "dense_similarity": 0.6076117753982544,
+          "sparse_similarity": 0.1011977344751358,
+          "hybrid_score": 0.3544047474861145
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Amniotic fluid leak",
+      "Premature rupture of membranes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

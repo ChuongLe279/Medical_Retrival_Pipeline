@@ -2,241 +2,1499 @@
   {
     "text": "viêm tủy xương mãn tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       18,
       41
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n- [ENTITY] và bàng quang thần kinh gây biến chứng liệt hai chi dưới và loét tì đè giai đoạn IV mãn tính\n- đặt lưu sonde tiểu    gây nhiễm khuẩn đường tiết niệu tái phát\nThuốc đã dùng trước đây\n- Đã sử dụngvancozosyn nhưng hiện tại đang dừng.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5815147161483765,
+          "sparse_similarity": 0.11258564889431,
+          "hybrid_score": 0.34705018997192383
+        },
+        {
+          "id": "isFamily_005963",
+          "document": "bác của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.5761387944221497,
+          "sparse_similarity": 0.11255769431591034,
+          "hybrid_score": 0.3443482518196106
+        },
+        {
+          "id": "isFamily_005949",
+          "document": "bác của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5728709101676941,
+          "sparse_similarity": 0.11033633351325989,
+          "hybrid_score": 0.3416036367416382
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic osteomyelitis",
+      "Chronic bone infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "liệt hai chi dưới",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       81,
       98
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n- viêm tủy xương mãn tính và bàng quang thần kinh gây biến chứng [ENTITY] và loét tì đè giai đoạn IV mãn tính\n- đặt lưu sonde tiểu    gây nhiễm khuẩn đường tiết niệu tái phát\nThuốc đã dùng trước đây\n- Đã sử dụngvancozosyn nhưng hiện tại đang dừng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5635374188423157,
+          "sparse_similarity": 0.104615718126297,
+          "hybrid_score": 0.33407658338546753
+        },
+        {
+          "id": "isFamily_005963",
+          "document": "bác của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.550681471824646,
+          "sparse_similarity": 0.10483262687921524,
+          "hybrid_score": 0.3277570605278015
+        },
+        {
+          "id": "isFamily_003342",
+          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5528784394264221,
+          "sparse_similarity": 0.09002958238124847,
+          "hybrid_score": 0.3214540183544159
+        }
+      ]
+    ],
+    "eng_translation": [
+      "paralysis of both lower limbs",
+      "Paraplegia of both lower limbs"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loét tì đè",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       102,
       112
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n- viêm tủy xương mãn tính và bàng quang thần kinh gây biến chứng liệt hai chi dưới và [ENTITY] giai đoạn IV mãn tính\n- đặt lưu sonde tiểu    gây nhiễm khuẩn đường tiết niệu tái phát\nThuốc đã dùng trước đây\n- Đã sử dụngvancozosyn nhưng hiện tại đang dừng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.561023473739624,
+          "sparse_similarity": 0.10280200093984604,
+          "hybrid_score": 0.33191272616386414
+        },
+        {
+          "id": "isFamily_020140",
+          "document": "má người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.5468913316726685,
+          "sparse_similarity": 0.10403532534837723,
+          "hybrid_score": 0.32546332478523254
+        },
+        {
+          "id": "isFamily_005963",
+          "document": "bác của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.5472411513328552,
+          "sparse_similarity": 0.10306602716445923,
+          "hybrid_score": 0.3251535892486572
+        }
+      ]
+    ],
+    "eng_translation": [
+      "peptic ulcer",
+      "Gastric ulcer"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhiễm khuẩn đường tiết niệu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       163,
       190
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n- viêm tủy xương mãn tính và bàng quang thần kinh gây biến chứng liệt hai chi dưới và loét tì đè giai đoạn IV mãn tính\n- đặt lưu sonde tiểu    gây [ENTITY] tái phát\nThuốc đã dùng trước đây\n- Đã sử dụngvancozosyn nhưng hiện tại đang dừng.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "[entity] tái phát thuốc đã dùng trước đây"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5630888342857361,
+          "sparse_similarity": 0.0982445552945137,
+          "hybrid_score": 0.3306666910648346
+        },
+        {
+          "id": "isFamily_003342",
+          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5531814694404602,
+          "sparse_similarity": 0.0847524106502533,
+          "hybrid_score": 0.31896692514419556
+        },
+        {
+          "id": "isFamily_007621",
+          "document": "bệnh sử gia đình đang điều trị [ENTITY].",
+          "dense_similarity": 0.5555181503295898,
+          "sparse_similarity": 0.08119835704565048,
+          "hybrid_score": 0.31835824251174927
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Urinary tract infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bactrim",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       321,
       328
-    ]
+    ],
+    "sentence": "Sau khi khám chuyên khoa Truyền nhiễm đang dùng [ENTITY] để điều trị nhiễm khuẩn đường tiết niệu\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012628",
+          "document": "cách đây 2 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6873751282691956,
+          "sparse_similarity": 0.16236549615859985,
+          "hybrid_score": 0.4248703122138977
+        },
+        {
+          "id": "isHistorical_012640",
+          "document": "cách đây 2 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6863420605659485,
+          "sparse_similarity": 0.1609104722738266,
+          "hybrid_score": 0.42362627387046814
+        },
+        {
+          "id": "isHistorical_012646",
+          "document": "cách đây 2 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6889559030532837,
+          "sparse_similarity": 0.15283934772014618,
+          "hybrid_score": 0.42089763283729553
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Bactrim",
+      "Bactrim is a brand name for the combination antibiotic sulfamethoxazole and trimethoprim. The canonical clinical term for this medication is: Sulfamethoxazole and trimethoprim",
+      "Trimethoprim-Sulfamethoxazole",
+      "Trimethoprim and Sulfamethoxazole"
+    ],
+    "retriever": {
+      "sapbert": {
+        "151399": 1.0,
+        "10831": 0.983957,
+        "91920": 0.962183,
+        "1427187": 0.925317,
+        "352965": 0.898259
+      },
+      "rapidfuzz": {
+        "151399": 1.0,
+        "1809082": 0.95,
+        "374234": 0.95,
+        "1162984": 0.95,
+        "10831": 0.95,
+        "1167959": 0.9,
+        "208416": 0.9,
+        "10180": 0.9,
+        "10829": 0.9,
+        "751987": 0.855,
+        "2743200": 0.855,
+        "2743199": 0.855
+      }
+    },
+    "candidate": {
+      "code": "151399",
+      "confidence": 1.0
+    }
   },
   {
     "text": "nhiễm khuẩn đường tiết",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       341,
       363
-    ]
+    ],
+    "sentence": "Sau khi khám chuyên khoa Truyền nhiễm đang dùng bactrim để điều trị [ENTITY] niệu\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012628",
+          "document": "cách đây 2 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6746718883514404,
+          "sparse_similarity": 0.1173320785164833,
+          "hybrid_score": 0.39600199460983276
+        },
+        {
+          "id": "isHistorical_012640",
+          "document": "cách đây 2 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6732971668243408,
+          "sparse_similarity": 0.11638949811458588,
+          "hybrid_score": 0.39484333992004395
+        },
+        {
+          "id": "isHistorical_012646",
+          "document": "cách đây 2 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6756181120872498,
+          "sparse_similarity": 0.11048254370689392,
+          "hybrid_score": 0.39305031299591064
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Infection of the urinary tract",
+      "Urinary Tract Infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt cao",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       407,
       414
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: [ENTITY]\nCách ngày vào viện 2 tuần bệnh nhân đã vào viện vì hạ huyết áp và được chẩn đoán  nhiễm trùng huyết điều trị bằng kháng sinh  vancozosynbactrim  điều trị  bệnh viêm tuỷ xương.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012644",
+          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6316927671432495,
+          "sparse_similarity": 0.17071057856082916,
+          "hybrid_score": 0.40120166540145874
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6292633414268494,
+          "sparse_similarity": 0.16394232213497162,
+          "hybrid_score": 0.3966028392314911
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6343464851379395,
+          "sparse_similarity": 0.15802904963493347,
+          "hybrid_score": 0.39618778228759766
+        }
+      ]
+    ],
+    "eng_translation": [
+      "High fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       466,
       477
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: sốt cao\nCách ngày vào viện 2 tuần bệnh nhân đã vào viện vì [ENTITY] và được chẩn đoán  nhiễm trùng huyết điều trị bằng kháng sinh  vancozosynbactrim  điều trị  bệnh viêm tuỷ xương.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012644",
+          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6426140069961548,
+          "sparse_similarity": 0.18731442093849182,
+          "hybrid_score": 0.4149641990661621
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6444327235221863,
+          "sparse_similarity": 0.17359431087970734,
+          "hybrid_score": 0.4090135097503662
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6379050612449646,
+          "sparse_similarity": 0.1780521720647812,
+          "hybrid_score": 0.4079786241054535
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypotension",
+      "Low blood pressure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhiễm trùng huyết",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       497,
       514
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: sốt cao\nCách ngày vào viện 2 tuần bệnh nhân đã vào viện vì hạ huyết áp và được chẩn đoán  [ENTITY] điều trị bằng kháng sinh  vancozosynbactrim  điều trị  bệnh viêm tuỷ xương.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012644",
+          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.599123477935791,
+          "sparse_similarity": 0.17382627725601196,
+          "hybrid_score": 0.3864748775959015
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6034383177757263,
+          "sparse_similarity": 0.1686299592256546,
+          "hybrid_score": 0.38603413105010986
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6016616821289062,
+          "sparse_similarity": 0.16293244063854218,
+          "hybrid_score": 0.3822970688343048
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Bloodstream infection",
+      "Sepsis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh viêm tuỷ xương",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       570,
       589
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: sốt cao\nCách ngày vào viện 2 tuần bệnh nhân đã vào viện vì hạ huyết áp và được chẩn đoán  nhiễm trùng huyết điều trị bằng kháng sinh  vancozosynbactrim  điều trị  [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012644",
+          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.641392707824707,
+          "sparse_similarity": 0.18090654909610748,
+          "hybrid_score": 0.41114962100982666
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.646712064743042,
+          "sparse_similarity": 0.16938550770282745,
+          "hybrid_score": 0.4080487787723541
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6413857936859131,
+          "sparse_similarity": 0.17384885251522064,
+          "hybrid_score": 0.40761733055114746
+        }
+      ]
+    ],
+    "eng_translation": [
+      "bone marrow inflammation",
+      "Myelitis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "zosyn",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       604,
       609
-    ]
+    ],
+    "sentence": "Sau đó dùng [ENTITY] 8 ngày và dừng tất cả kháng sinh để điều trị viêm tủy xương mãn tính tại khoa Hồi sức tích cực.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014212",
+          "document": "cách đây 8 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.7049630284309387,
+          "sparse_similarity": 0.2016488015651703,
+          "hybrid_score": 0.4533059000968933
+        },
+        {
+          "id": "isHistorical_033715",
+          "document": "đã 8 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.7022804021835327,
+          "sparse_similarity": 0.20043444633483887,
+          "hybrid_score": 0.4513574242591858
+        },
+        {
+          "id": "isHistorical_026502",
+          "document": "từ 8 ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.6938363313674927,
+          "sparse_similarity": 0.19929364323616028,
+          "hybrid_score": 0.4465649724006653
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Zosyn",
+      "Piperacillin-tazobactam",
+      "Piperacillin and Tazobactam"
+    ],
+    "retriever": {
+      "sapbert": {
+        "74169": 1.0,
+        "74170": 1.0,
+        "655011": 0.930412,
+        "1946572": 0.886602,
+        "1471857": 0.851832
+      },
+      "rapidfuzz": {
+        "74170": 1.0,
+        "74169": 1.0,
+        "1659130": 0.95,
+        "1659151": 0.9,
+        "1659139": 0.9,
+        "8339": 0.9,
+        "37617": 0.9
+      }
+    },
+    "candidate": {
+      "code": "74169",
+      "confidence": 1.0
+    }
   },
   {
     "text": "viêm tủy xương mãn tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       655,
       678
-    ]
+    ],
+    "sentence": "Sau đó dùng zosyn 8 ngày và dừng tất cả kháng sinh để điều trị [ENTITY] tại khoa Hồi sức tích cực.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014212",
+          "document": "cách đây 8 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.70847487449646,
+          "sparse_similarity": 0.17657534778118134,
+          "hybrid_score": 0.44252511858940125
+        },
+        {
+          "id": "isHistorical_033715",
+          "document": "đã 8 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.7076409459114075,
+          "sparse_similarity": 0.17559131979942322,
+          "hybrid_score": 0.44161611795425415
+        },
+        {
+          "id": "isHistorical_026502",
+          "document": "từ 8 ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.699144721031189,
+          "sparse_similarity": 0.17501936852931976,
+          "hybrid_score": 0.43708205223083496
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic osteomyelitis",
+      "Chronic bone infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt cao",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       822,
       829
-    ]
+    ],
+    "sentence": "Ra viện và tái khám không sử dụng thuốc kháng sinh vì khám lâm sàng ổn\n Sáng cùng ngày vào viện bệnh nhân xuất hiện [ENTITY] 39.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013130",
+          "document": "cách đây 39 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6937785148620605,
+          "sparse_similarity": 0.21617746353149414,
+          "hybrid_score": 0.45497798919677734
+        },
+        {
+          "id": "isHistorical_030234",
+          "document": "vào 39 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6894910335540771,
+          "sparse_similarity": 0.17960624396800995,
+          "hybrid_score": 0.43454864621162415
+        },
+        {
+          "id": "isHistorical_013131",
+          "document": "cách đây 39 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7032230496406555,
+          "sparse_similarity": 0.15549197793006897,
+          "hybrid_score": 0.42935752868652344
+        }
+      ]
+    ],
+    "eng_translation": [
+      "High fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Cảm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       896,
       899
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\n[ENTITY] giác khát nước\nDa khô, nếp véo da mất chậm\nKhông ngực,  không khó thở\nĐau bụng, đau hông từng cơn-\nHạ huyết áp\nMạch nhanh \nTim nhịp nhanh đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6083637475967407,
+          "sparse_similarity": 0.10617116093635559,
+          "hybrid_score": 0.35726743936538696
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6110222935676575,
+          "sparse_similarity": 0.0985395535826683,
+          "hybrid_score": 0.354780912399292
+        },
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6154583692550659,
+          "sparse_similarity": 0.09126622974872589,
+          "hybrid_score": 0.3533622920513153
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cảm",
+      "Cảm (common cold)"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khát nước",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       905,
       914
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\nCảm giác [ENTITY]\nDa khô, nếp véo da mất chậm\nKhông ngực,  không khó thở\nĐau bụng, đau hông từng cơn-\nHạ huyết áp\nMạch nhanh \nTim nhịp nhanh đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6262622475624084,
+          "sparse_similarity": 0.1016620546579361,
+          "hybrid_score": 0.3639621436595917
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6312018632888794,
+          "sparse_similarity": 0.09460943192243576,
+          "hybrid_score": 0.3629056513309479
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6158955097198486,
+          "sparse_similarity": 0.09535150229930878,
+          "hybrid_score": 0.3556235134601593
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Thirst",
+      "Polydipsia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Da khô",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       915,
       921
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\nCảm giác khát nước\n[ENTITY], nếp véo da mất chậm\nKhông ngực,  không khó thở\nĐau bụng, đau hông từng cơn-\nHạ huyết áp\nMạch nhanh \nTim nhịp nhanh đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6095141172409058,
+          "sparse_similarity": 0.10990151017904282,
+          "hybrid_score": 0.3597078025341034
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6157799363136292,
+          "sparse_similarity": 0.10234726965427399,
+          "hybrid_score": 0.35906359553337097
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6073340177536011,
+          "sparse_similarity": 0.10390914231538773,
+          "hybrid_score": 0.3556215763092041
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dry skin",
+      "Xerosis cutis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nếp véo da mất chậm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       923,
       942
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\nCảm giác khát nước\nDa khô, [ENTITY]\nKhông ngực,  không khó thở\nĐau bụng, đau hông từng cơn-\nHạ huyết áp\nMạch nhanh \nTim nhịp nhanh đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5949081182479858,
+          "sparse_similarity": 0.10206256061792374,
+          "hybrid_score": 0.3484853506088257
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5996257066726685,
+          "sparse_similarity": 0.09521825611591339,
+          "hybrid_score": 0.3474219739437103
+        },
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.5976258516311646,
+          "sparse_similarity": 0.08455241471529007,
+          "hybrid_score": 0.341089129447937
+        }
+      ]
+    ],
+    "eng_translation": [
+      "skin crease healing is slow",
+      "Delayed healing of skin crease",
+      "Delayed wound healing in skin creases"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Không ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       943,
       953
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\nCảm giác khát nước\nDa khô, nếp véo da mất chậm\n[ENTITY],  không khó thở\nĐau bụng, đau hông từng cơn-\nHạ huyết áp\nMạch nhanh \nTim nhịp nhanh đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6049060821533203,
+          "sparse_similarity": 0.0960623025894165,
+          "hybrid_score": 0.3504841923713684
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5975550413131714,
+          "sparse_similarity": 0.10338307917118073,
+          "hybrid_score": 0.35046905279159546
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.5958268046379089,
+          "sparse_similarity": 0.09866874665021896,
+          "hybrid_score": 0.34724777936935425
+        }
+      ]
+    ],
+    "eng_translation": [
+      "No breast",
+      "No breast tissue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       962,
       969
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\nCảm giác khát nước\nDa khô, nếp véo da mất chậm\nKhông ngực,  không [ENTITY]\nĐau bụng, đau hông từng cơn-\nHạ huyết áp\nMạch nhanh \nTim nhịp nhanh đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5960497856140137,
+          "sparse_similarity": 0.09322047978639603,
+          "hybrid_score": 0.34463512897491455
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6026455163955688,
+          "sparse_similarity": 0.0865987092256546,
+          "hybrid_score": 0.34462210536003113
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.5972365736961365,
+          "sparse_similarity": 0.08881040662527084,
+          "hybrid_score": 0.34302347898483276
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       970,
       978
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\nCảm giác khát nước\nDa khô, nếp véo da mất chậm\nKhông ngực,  không khó thở\n[ENTITY], đau hông từng cơn-\nHạ huyết áp\nMạch nhanh \nTim nhịp nhanh đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6076508164405823,
+          "sparse_similarity": 0.12075178325176239,
+          "hybrid_score": 0.36420130729675293
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6151927709579468,
+          "sparse_similarity": 0.11233066022396088,
+          "hybrid_score": 0.3637617230415344
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6076256036758423,
+          "sparse_similarity": 0.11748003959655762,
+          "hybrid_score": 0.36255282163619995
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hông từng cơn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       980,
       997
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\nCảm giác khát nước\nDa khô, nếp véo da mất chậm\nKhông ngực,  không khó thở\nĐau bụng, [ENTITY]-\nHạ huyết áp\nMạch nhanh \nTim nhịp nhanh đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5874044895172119,
+          "sparse_similarity": 0.10507185757160187,
+          "hybrid_score": 0.3462381660938263
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5906447172164917,
+          "sparse_similarity": 0.09777790307998657,
+          "hybrid_score": 0.34421131014823914
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.5806521773338318,
+          "sparse_similarity": 0.10002900660037994,
+          "hybrid_score": 0.34034058451652527
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Intermittent flank pain",
+      "Renal colic"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       999,
       1010
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\nCảm giác khát nước\nDa khô, nếp véo da mất chậm\nKhông ngực,  không khó thở\nĐau bụng, đau hông từng cơn-\n[ENTITY]\nMạch nhanh \nTim nhịp nhanh đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "từng cơn- [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6126541495323181,
+          "sparse_similarity": 0.09437710791826248,
+          "hybrid_score": 0.353515625
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6038153767585754,
+          "sparse_similarity": 0.10136782377958298,
+          "hybrid_score": 0.3525916039943695
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6028368473052979,
+          "sparse_similarity": 0.09526613354682922,
+          "hybrid_score": 0.34905147552490234
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypotension",
+      "Low blood pressure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Mạch nhanh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1011,
       1021
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\nCảm giác khát nước\nDa khô, nếp véo da mất chậm\nKhông ngực,  không khó thở\nĐau bụng, đau hông từng cơn-\nHạ huyết áp\n[ENTITY] \nTim nhịp nhanh đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "từng cơn- hạ huyết áp [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6015702486038208,
+          "sparse_similarity": 0.08218169212341309,
+          "hybrid_score": 0.34187597036361694
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5931061506271362,
+          "sparse_similarity": 0.08840679377317429,
+          "hybrid_score": 0.34075647592544556
+        },
+        {
+          "id": "isFamily_007151",
+          "document": "bên nội của bệnh nhân được ghi nhận [ENTITY].",
+          "dense_similarity": 0.5979405641555786,
+          "sparse_similarity": 0.07129702717065811,
+          "hybrid_score": 0.33461880683898926
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tachycardia",
+      "Fast heart rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tim nhịp nhanh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1023,
       1037
-    ]
+    ],
+    "sentence": "Tình trạng lúc vào:\nBệnh nhân tỉnh\nCảm giác khát nước\nDa khô, nếp véo da mất chậm\nKhông ngực,  không khó thở\nĐau bụng, đau hông từng cơn-\nHạ huyết áp\nMạch nhanh \n[ENTITY] đều\nPhổi thông khí đều\nCòn sonde tiểu, nước tiểu có cặn\nCận lâm sàng::\n- lactate 1.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "từng cơn- hạ huyết áp mạch nhanh [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5924765467643738,
+          "sparse_similarity": 0.09450681507587433,
+          "hybrid_score": 0.34349167346954346
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5943784713745117,
+          "sparse_similarity": 0.08792954683303833,
+          "hybrid_score": 0.341154009103775
+        },
+        {
+          "id": "isHistorical_031842",
+          "document": "đã 1 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6001635193824768,
+          "sparse_similarity": 0.07688544690608978,
+          "hybrid_score": 0.3385244905948639
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tachycardia",
+      "Fast heart rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "marker",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1226,
       1232
-    ]
+    ],
+    "sentence": "8\n- Cấy nước tiểu : nhiễm khuẩn đường tiết niệu có các vi khuẩn hỗn hợp\n- cấy máu :âm tính\n-chỉ số [ENTITY] viêm của anh ấy đã có xu hướng tăng \nchẩn đoán hình ảnh: \n - MRI:  không thấy tình trạng viêm xương tủy nặng hơn\n- Xquang ngực thẳng: không thấy thâm nhiễm\nThủ thuật:\n- svo2 là 82\nĐặt ống thông tĩnh mạch trung tâm : đo cvp là 6\nChẩn đoán: nhiễm trùng huyết đường vào tiết niệu- viêm tủy xương mãn tính,\n\nĐiều trị: \n- Truyền dịch : 4000 ml NS 0.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "anh"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014223",
+          "document": "cách đây 8 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5481377243995667,
+          "sparse_similarity": 0.12683598697185516,
+          "hybrid_score": 0.3374868631362915
+        },
+        {
+          "id": "isHistorical_014211",
+          "document": "cách đây 8 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5479122996330261,
+          "sparse_similarity": 0.12684543430805206,
+          "hybrid_score": 0.3373788595199585
+        },
+        {
+          "id": "isHistorical_021561",
+          "document": "khoảng 8 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5504765510559082,
+          "sparse_similarity": 0.12273917347192764,
+          "hybrid_score": 0.3366078734397888
+        }
+      ]
+    ],
+    "eng_translation": [
+      "marker",
+      "Tumor marker"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "MRI",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1294,
       1297
-    ]
+    ],
+    "sentence": "8\n- Cấy nước tiểu : nhiễm khuẩn đường tiết niệu có các vi khuẩn hỗn hợp\n- cấy máu :âm tính\n-chỉ số marker viêm của anh ấy đã có xu hướng tăng \nchẩn đoán hình ảnh: \n - [ENTITY]:  không thấy tình trạng viêm xương tủy nặng hơn\n- Xquang ngực thẳng: không thấy thâm nhiễm\nThủ thuật:\n- svo2 là 82\nĐặt ống thông tĩnh mạch trung tâm : đo cvp là 6\nChẩn đoán: nhiễm trùng huyết đường vào tiết niệu- viêm tủy xương mãn tính,\n\nĐiều trị: \n- Truyền dịch : 4000 ml NS 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014223",
+          "document": "cách đây 8 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5478570461273193,
+          "sparse_similarity": 0.11809206008911133,
+          "hybrid_score": 0.33297455310821533
+        },
+        {
+          "id": "isHistorical_014211",
+          "document": "cách đây 8 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5468933582305908,
+          "sparse_similarity": 0.1183975338935852,
+          "hybrid_score": 0.332645446062088
+        },
+        {
+          "id": "isHistorical_033726",
+          "document": "đã 8 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5494459271430969,
+          "sparse_similarity": 0.11531557142734528,
+          "hybrid_score": 0.3323807418346405
+        }
+      ]
+    ],
+    "eng_translation": [
+      "MRI: Không có bất thường.",
+      "MRI: No abnormalities found.",
+      "MRI: No abnormalities detected."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm xương tủy",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1322,
       1336
-    ]
+    ],
+    "sentence": "8\n- Cấy nước tiểu : nhiễm khuẩn đường tiết niệu có các vi khuẩn hỗn hợp\n- cấy máu :âm tính\n-chỉ số marker viêm của anh ấy đã có xu hướng tăng \nchẩn đoán hình ảnh: \n - MRI:  không thấy tình trạng [ENTITY] nặng hơn\n- Xquang ngực thẳng: không thấy thâm nhiễm\nThủ thuật:\n- svo2 là 82\nĐặt ống thông tĩnh mạch trung tâm : đo cvp là 6\nChẩn đoán: nhiễm trùng huyết đường vào tiết niệu- viêm tủy xương mãn tính,\n\nĐiều trị: \n- Truyền dịch : 4000 ml NS 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014211",
+          "document": "cách đây 8 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.554601788520813,
+          "sparse_similarity": 0.12383540719747543,
+          "hybrid_score": 0.3392185866832733
+        },
+        {
+          "id": "isHistorical_014223",
+          "document": "cách đây 8 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5546290874481201,
+          "sparse_similarity": 0.12351194769144058,
+          "hybrid_score": 0.33907052874565125
+        },
+        {
+          "id": "isHistorical_033726",
+          "document": "đã 8 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5564292073249817,
+          "sparse_similarity": 0.12052418291568756,
+          "hybrid_score": 0.33847668766975403
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Bone marrow inflammation",
+      "Myelitis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhiễm trùng huyết",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1472,
       1489
-    ]
+    ],
+    "sentence": "8\n- Cấy nước tiểu : nhiễm khuẩn đường tiết niệu có các vi khuẩn hỗn hợp\n- cấy máu :âm tính\n-chỉ số marker viêm của anh ấy đã có xu hướng tăng \nchẩn đoán hình ảnh: \n - MRI:  không thấy tình trạng viêm xương tủy nặng hơn\n- Xquang ngực thẳng: không thấy thâm nhiễm\nThủ thuật:\n- svo2 là 82\nĐặt ống thông tĩnh mạch trung tâm : đo cvp là 6\nChẩn đoán: [ENTITY] đường vào tiết niệu- viêm tủy xương mãn tính,\n\nĐiều trị: \n- Truyền dịch : 4000 ml NS 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014223",
+          "document": "cách đây 8 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5633721351623535,
+          "sparse_similarity": 0.15152183175086975,
+          "hybrid_score": 0.35744696855545044
+        },
+        {
+          "id": "isHistorical_021561",
+          "document": "khoảng 8 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.565535306930542,
+          "sparse_similarity": 0.14649641513824463,
+          "hybrid_score": 0.3560158610343933
+        },
+        {
+          "id": "isHistorical_033726",
+          "document": "đã 8 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5645459890365601,
+          "sparse_similarity": 0.14743933081626892,
+          "hybrid_score": 0.3559926748275757
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Bloodstream infection",
+      "Sepsis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm tủy xương mãn tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1511,
       1534
-    ]
+    ],
+    "sentence": "8\n- Cấy nước tiểu : nhiễm khuẩn đường tiết niệu có các vi khuẩn hỗn hợp\n- cấy máu :âm tính\n-chỉ số marker viêm của anh ấy đã có xu hướng tăng \nchẩn đoán hình ảnh: \n - MRI:  không thấy tình trạng viêm xương tủy nặng hơn\n- Xquang ngực thẳng: không thấy thâm nhiễm\nThủ thuật:\n- svo2 là 82\nĐặt ống thông tĩnh mạch trung tâm : đo cvp là 6\nChẩn đoán: nhiễm trùng huyết đường vào tiết niệu- [ENTITY],\n\nĐiều trị: \n- Truyền dịch : 4000 ml NS 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014223",
+          "document": "cách đây 8 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5549328327178955,
+          "sparse_similarity": 0.1250343769788742,
+          "hybrid_score": 0.33998361229896545
+        },
+        {
+          "id": "isHistorical_014211",
+          "document": "cách đây 8 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5538997650146484,
+          "sparse_similarity": 0.1251840442419052,
+          "hybrid_score": 0.3395419120788574
+        },
+        {
+          "id": "isHistorical_021561",
+          "document": "khoảng 8 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5569246411323547,
+          "sparse_similarity": 0.1212388202548027,
+          "hybrid_score": 0.339081734418869
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic osteomyelitis",
+      "Chronic bone infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Vancomycin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1605,
       1615
-    ]
+    ],
+    "sentence": "9 %\n- Kháng sinh Cefepim và [ENTITY] truyền tĩnh mạch\n\n.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_004307",
+          "document": "9 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5920518636703491,
+          "sparse_similarity": 0.12374039739370346,
+          "hybrid_score": 0.3578961193561554
+        },
+        {
+          "id": "isHistorical_004319",
+          "document": "9 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.593620240688324,
+          "sparse_similarity": 0.11702468991279602,
+          "hybrid_score": 0.3553224802017212
+        },
+        {
+          "id": "isHistorical_004308",
+          "document": "9 tháng trước được điều trị [ENTITY].",
+          "dense_similarity": 0.6003462076187134,
+          "sparse_similarity": 0.11010429263114929,
+          "hybrid_score": 0.35522526502609253
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Vancomycin",
+      "Vancomycin is a glycopeptide antibiotic used to treat serious bacterial infections, particularly those caused by gram-positive organisms, including methicillin-resistant Staphylococcus aureus (MRSA). It works by inhibiting cell wall synthesis and is often reserved for severe infections due to its potential for nephrotoxicity and ototoxicity. Monitoring of serum levels and renal function is essential to ensure therapeutic efficacy and minimize adverse effects."
+    ],
+    "retriever": {
+      "sapbert": {
+        "11124": 1.0,
+        "997397": 0.734893,
+        "405388": 0.707967,
+        "66955": 0.700402
+      },
+      "rapidfuzz": {
+        "11124": 1.0,
+        "2387078": 0.9,
+        "2118449": 0.9,
+        "2677176": 0.855,
+        "2709234": 0.855,
+        "2709236": 0.855
+      }
+    },
+    "candidate": {
+      "code": "11124",
+      "confidence": 1.0
+    }
   }
 ]

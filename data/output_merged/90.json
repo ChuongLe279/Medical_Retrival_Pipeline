@@ -2,17 +2,97 @@
   {
     "text": "giọng khàn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       37,
       47
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do khám bệnh: [ENTITY] do tổn thương dây thanh quản\nTriệu chứng hiện tại\n- giọng khàn\n- tổn thương dây thanh quản thật sự\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007620",
+          "document": "bệnh sử gia đình đang mắc [ENTITY].",
+          "dense_similarity": 0.5941495299339294,
+          "sparse_similarity": 0.12075449526309967,
+          "hybrid_score": 0.35745200514793396
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5676363110542297,
+          "sparse_similarity": 0.13851173222064972,
+          "hybrid_score": 0.35307401418685913
+        },
+        {
+          "id": "isHistorical_009872",
+          "document": "bệnh sử ghi nhận [ENTITY].",
+          "dense_similarity": 0.5690075755119324,
+          "sparse_similarity": 0.136271670460701,
+          "hybrid_score": 0.3526396155357361
+        }
+      ]
+    ],
+    "eng_translation": [
+      "hoarseness",
+      "Voice alteration"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "giọng khàn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       100,
       110
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do khám bệnh: giọng khàn do tổn thương dây thanh quản\nTriệu chứng hiện tại\n- [ENTITY]\n- tổn thương dây thanh quản thật sự\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007620",
+          "document": "bệnh sử gia đình đang mắc [ENTITY].",
+          "dense_similarity": 0.6067226529121399,
+          "sparse_similarity": 0.13467644155025482,
+          "hybrid_score": 0.37069955468177795
+        },
+        {
+          "id": "isHistorical_009872",
+          "document": "bệnh sử ghi nhận [ENTITY].",
+          "dense_similarity": 0.5871504545211792,
+          "sparse_similarity": 0.15276852250099182,
+          "hybrid_score": 0.3699594736099243
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.578745424747467,
+          "sparse_similarity": 0.15458399057388306,
+          "hybrid_score": 0.36666470766067505
+        }
+      ]
+    ],
+    "eng_translation": [
+      "hoarseness",
+      "Voice alteration"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

@@ -2,73 +2,433 @@
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       57,
       70
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - [ENTITY]\n    - bệnh gút không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    - ung thư đại tràng\n    - béo phì\n    - Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và tràn dịch màng phổi.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội khoa các bệnh lý mạn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6589766144752502,
+          "sparse_similarity": 0.27488064765930176,
+          "hybrid_score": 0.466928631067276
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6588066220283508,
+          "sparse_similarity": 0.2626520097255707,
+          "hybrid_score": 0.46072930097579956
+        },
+        {
+          "id": "isFamily_019522",
+          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.620017409324646,
+          "sparse_similarity": 0.2425350397825241,
+          "hybrid_score": 0.43127623200416565
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh gút",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       77,
       85
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - tăng huyết áp\n    - [ENTITY] không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    - ung thư đại tràng\n    - béo phì\n    - Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và tràn dịch màng phổi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6511770486831665,
+          "sparse_similarity": 0.2648065984249115,
+          "hybrid_score": 0.4579918384552002
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6502742767333984,
+          "sparse_similarity": 0.25304028391838074,
+          "hybrid_score": 0.4516572952270508
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6282409429550171,
+          "sparse_similarity": 0.22109422087669373,
+          "hybrid_score": 0.4246675968170166
+        }
+      ]
+    ],
+    "eng_translation": [
+      "gout",
+      "Hyperuricemia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh thận mạn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       107,
       120
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - tăng huyết áp\n    - bệnh gút không đặc hiệu\n    - [ENTITY], không đặc hiệu\n    - ung thư đại tràng\n    - béo phì\n    - Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và tràn dịch màng phổi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6420480608940125,
+          "sparse_similarity": 0.26074522733688354,
+          "hybrid_score": 0.451396644115448
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6425209641456604,
+          "sparse_similarity": 0.24736016988754272,
+          "hybrid_score": 0.44494056701660156
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6206598877906799,
+          "sparse_similarity": 0.21721117198467255,
+          "hybrid_score": 0.41893553733825684
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic kidney disease",
+      "CKD"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư đại tràng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       143,
       160
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - tăng huyết áp\n    - bệnh gút không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    - [ENTITY]\n    - béo phì\n    - Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và tràn dịch màng phổi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6410244703292847,
+          "sparse_similarity": 0.26758456230163574,
+          "hybrid_score": 0.4543045163154602
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6418733596801758,
+          "sparse_similarity": 0.2551441192626953,
+          "hybrid_score": 0.44850873947143555
+        },
+        {
+          "id": "isFamily_007127",
+          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
+          "dense_similarity": 0.6011785268783569,
+          "sparse_similarity": 0.23523470759391785,
+          "hybrid_score": 0.4182066321372986
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Colorectal cancer",
+      "Colorectal carcinoma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       167,
       174
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - tăng huyết áp\n    - bệnh gút không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    - ung thư đại tràng\n    - [ENTITY]\n    - Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và tràn dịch màng phổi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.619873583316803,
+          "sparse_similarity": 0.22746820747852325,
+          "hybrid_score": 0.4236708879470825
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6225441098213196,
+          "sparse_similarity": 0.21023976802825928,
+          "hybrid_score": 0.41639193892478943
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5985085368156433,
+          "sparse_similarity": 0.18773218989372253,
+          "hybrid_score": 0.39312034845352173
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Obesity",
+      "Excess body weight"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xơ gan",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       191,
       197
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - tăng huyết áp\n    - bệnh gút không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    - ung thư đại tràng\n    - béo phì\n    - Bệnh nhân [ENTITY] mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và tràn dịch màng phổi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6387309432029724,
+          "sparse_similarity": 0.24742169678211212,
+          "hybrid_score": 0.44307631254196167
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6374220252037048,
+          "sparse_similarity": 0.23665720224380493,
+          "hybrid_score": 0.4370396137237549
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6210184097290039,
+          "sparse_similarity": 0.20597055554389954,
+          "hybrid_score": 0.4134944677352905
+        }
+      ]
+    ],
+    "eng_translation": [
+      "cirrhosis",
+      "Liver disease"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cổ trướng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       235,
       244
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - tăng huyết áp\n    - bệnh gút không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    - ung thư đại tràng\n    - béo phì\n    - Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, [ENTITY] và tràn dịch màng phổi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6435194611549377,
+          "sparse_similarity": 0.25746574997901917,
+          "hybrid_score": 0.45049262046813965
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.643516480922699,
+          "sparse_similarity": 0.24695846438407898,
+          "hybrid_score": 0.4452374577522278
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6211872100830078,
+          "sparse_similarity": 0.2128320336341858,
+          "hybrid_score": 0.4170096218585968
+        }
+      ]
+    ],
+    "eng_translation": [
+      "ascites",
+      "Ascites is the accumulation of fluid in the peritoneal cavity."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tràn dịch màng phổi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       248,
       267
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - tăng huyết áp\n    - bệnh gút không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    - ung thư đại tràng\n    - béo phì\n    - Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6391083598136902,
+          "sparse_similarity": 0.2557993531227112,
+          "hybrid_score": 0.4474538564682007
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6403246521949768,
+          "sparse_similarity": 0.24579615890979767,
+          "hybrid_score": 0.44306039810180664
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6151906847953796,
+          "sparse_similarity": 0.21141932904720306,
+          "hybrid_score": 0.41330501437187195
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pleural effusion",
+      "Pleural fluid accumulation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "TIPS",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       510,
       514
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - chọc dò màng phổi 3L4\n    - chọc dò dịch ổ bụng 7L\n    - thủ thuật [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034244",
+          "document": "đã phẫu thuật [ENTITY].",
+          "dense_similarity": 0.637158215045929,
+          "sparse_similarity": 0.152871772646904,
+          "hybrid_score": 0.39501500129699707
+        },
+        {
+          "id": "isHistorical_034247",
+          "document": "đã từng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.622908890247345,
+          "sparse_similarity": 0.09494731575250626,
+          "hybrid_score": 0.3589281141757965
+        },
+        {
+          "id": "isHistorical_027029",
+          "document": "từng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6288464069366455,
+          "sparse_similarity": 0.06367858499288559,
+          "hybrid_score": 0.34626248478889465
+        }
+      ]
+    ],
+    "eng_translation": [
+      "TIPS",
+      "Transjugular Intrahepatic Portosystemic Shunt"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

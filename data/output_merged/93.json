@@ -2,41 +2,241 @@
   {
     "text": "Ung thư vú",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       25,
       35
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n[ENTITY] di căn, tràn dịch màng phổi trái tái phát\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội khoa [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.7179052829742432,
+          "sparse_similarity": 0.22382351756095886,
+          "hybrid_score": 0.4708644151687622
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.708065390586853,
+          "sparse_similarity": 0.2269168347120285,
+          "hybrid_score": 0.46749112010002136
+        },
+        {
+          "id": "isFamily_007127",
+          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
+          "dense_similarity": 0.6962052583694458,
+          "sparse_similarity": 0.2141260802745819,
+          "hybrid_score": 0.45516568422317505
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Breast cancer",
+      "Malignant breast neoplasm"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tràn dịch màng phổi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       44,
       63
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\nUng thư vú di căn, [ENTITY] trái tái phát\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội khoa ung thư vú di căn, [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.685501754283905,
+          "sparse_similarity": 0.15202192962169647,
+          "hybrid_score": 0.41876184940338135
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6761445999145508,
+          "sparse_similarity": 0.15345650911331177,
+          "hybrid_score": 0.4148005545139313
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.69337397813797,
+          "sparse_similarity": 0.11446525901556015,
+          "hybrid_score": 0.40391960740089417
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pleural effusion",
+      "Pleural fluid accumulation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       116,
       123
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do vào việni: [ENTITY]\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7486284375190735,
+          "sparse_similarity": 0.14911022782325745,
+          "hybrid_score": 0.44886934757232666
+        },
+        {
+          "id": "isHistorical_029999",
+          "document": "vào 3 năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7357047200202942,
+          "sparse_similarity": 0.16054829955101013,
+          "hybrid_score": 0.44812649488449097
+        },
+        {
+          "id": "isHistorical_012896",
+          "document": "cách đây 3 năm nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7422886490821838,
+          "sparse_similarity": 0.14035886526107788,
+          "hybrid_score": 0.44132375717163086
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tràn dịch màng ngoài tim",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       156,
       180
-    ]
+    ],
+    "sentence": "Khám tại bệnh viện\nLâm sàng: [ENTITY] mức độ trung bình\nKết quả chẩn đoán hình ảnh: ung thư di căn theo đường bạch huyết ở hai phổi\nCác thủ thuật đã thực hiện\n- dẫn lưu dịch màng tim\n- Không thực hiện gây dính màng phổi bằng talc",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_026005",
+          "document": "tiền căn gia đình bác ruột được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5431868433952332,
+          "sparse_similarity": 0.12866021692752838,
+          "hybrid_score": 0.33592352271080017
+        },
+        {
+          "id": "isHistorical_027029",
+          "document": "từng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5488446354866028,
+          "sparse_similarity": 0.1162477657198906,
+          "hybrid_score": 0.332546204328537
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5464917421340942,
+          "sparse_similarity": 0.11636552959680557,
+          "hybrid_score": 0.3314286470413208
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pericardial effusion",
+      "Cardiac fluid accumulation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       227,
       234
-    ]
+    ],
+    "sentence": "Khám tại bệnh viện\nLâm sàng: tràn dịch màng ngoài tim mức độ trung bình\nKết quả chẩn đoán hình ảnh: [ENTITY] di căn theo đường bạch huyết ở hai phổi\nCác thủ thuật đã thực hiện\n- dẫn lưu dịch màng tim\n- Không thực hiện gây dính màng phổi bằng talc",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5780571699142456,
+          "sparse_similarity": 0.11721144616603851,
+          "hybrid_score": 0.34763431549072266
+        },
+        {
+          "id": "isFamily_023816",
+          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5749813318252563,
+          "sparse_similarity": 0.11887329071760178,
+          "hybrid_score": 0.34692731499671936
+        },
+        {
+          "id": "isFamily_006670",
+          "document": "bên ngoại được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5710076689720154,
+          "sparse_similarity": 0.1216750293970108,
+          "hybrid_score": 0.3463413417339325
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cancer",
+      "Malignancy"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

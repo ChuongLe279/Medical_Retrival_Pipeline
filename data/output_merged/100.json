@@ -2,209 +2,1265 @@
   {
     "text": "tăng calci máu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       61,
       75
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các bệnh đã điều trị trước đây: tiền sử [ENTITY] trước đây; 11.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_026759",
+          "document": "tiền sử gia đình đang điều trị [ENTITY].",
+          "dense_similarity": 0.7279558181762695,
+          "sparse_similarity": 0.24481308460235596,
+          "hybrid_score": 0.48638445138931274
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.7467793822288513,
+          "sparse_similarity": 0.22154054045677185,
+          "hybrid_score": 0.4841599464416504
+        },
+        {
+          "id": "isFamily_020140",
+          "document": "má người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.7128509283065796,
+          "sparse_similarity": 0.2494199424982071,
+          "hybrid_score": 0.48113542795181274
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypercalcemia",
+      "Elevated serum calcium level"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "U ác của đại tràng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       123,
       141
-    ]
+    ],
+    "sentence": "6\n    Các bệnh lý mãn tính\n    - [ENTITY]\n    - cường cận giáp nguyên phát\n    - Xơ vữa động mạch\n    - cơn đau thắt ngực ổn định\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6243960857391357,
+          "sparse_similarity": 0.1505334973335266,
+          "hybrid_score": 0.3874647915363312
+        },
+        {
+          "id": "isFamily_006647",
+          "document": "bên ngoại của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6134517788887024,
+          "sparse_similarity": 0.15403826534748077,
+          "hybrid_score": 0.383745014667511
+        },
+        {
+          "id": "isFamily_007152",
+          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.61537104845047,
+          "sparse_similarity": 0.1396447867155075,
+          "hybrid_score": 0.37750792503356934
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Colorectal cancer",
+      "Colorectal carcinoma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cường cận giáp nguyên phát",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       148,
       174
-    ]
+    ],
+    "sentence": "6\n    Các bệnh lý mãn tính\n    - U ác của đại tràng\n    - [ENTITY]\n    - Xơ vữa động mạch\n    - cơn đau thắt ngực ổn định\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011596",
+          "document": "con ruột người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.607546329498291,
+          "sparse_similarity": 0.12622690200805664,
+          "hybrid_score": 0.36688661575317383
+        },
+        {
+          "id": "isFamily_011589",
+          "document": "con ruột người bệnh từng mắc [ENTITY].",
+          "dense_similarity": 0.6177719235420227,
+          "sparse_similarity": 0.0962163507938385,
+          "hybrid_score": 0.3569941520690918
+        },
+        {
+          "id": "isFamily_011587",
+          "document": "con ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.6163005232810974,
+          "sparse_similarity": 0.09744732826948166,
+          "hybrid_score": 0.35687392950057983
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Primary hyperparathyroidism",
+      "Parathyroid hormone excess"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Xơ vữa động mạch",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       181,
       197
-    ]
+    ],
+    "sentence": "6\n    Các bệnh lý mãn tính\n    - U ác của đại tràng\n    - cường cận giáp nguyên phát\n    - [ENTITY]\n    - cơn đau thắt ngực ổn định\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6196994781494141,
+          "sparse_similarity": 0.14456431567668915,
+          "hybrid_score": 0.3821319043636322
+        },
+        {
+          "id": "isFamily_006647",
+          "document": "bên ngoại của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6111630797386169,
+          "sparse_similarity": 0.14683708548545837,
+          "hybrid_score": 0.37900006771087646
+        },
+        {
+          "id": "isFamily_007152",
+          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6094014644622803,
+          "sparse_similarity": 0.13446225225925446,
+          "hybrid_score": 0.37193185091018677
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Atherosclerosis",
+      "Arteriosclerosis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cơn đau thắt ngực ổn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       204,
       224
-    ]
+    ],
+    "sentence": "6\n    Các bệnh lý mãn tính\n    - U ác của đại tràng\n    - cường cận giáp nguyên phát\n    - Xơ vữa động mạch\n    - [ENTITY] định\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007626",
+          "document": "bệnh sử gia đình được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6322428584098816,
+          "sparse_similarity": 0.1763918697834015,
+          "hybrid_score": 0.40431737899780273
+        },
+        {
+          "id": "isHistorical_002711",
+          "document": "6 năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6328163743019104,
+          "sparse_similarity": 0.13685350120067596,
+          "hybrid_score": 0.3848349452018738
+        },
+        {
+          "id": "isHistorical_002723",
+          "document": "6 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6350840330123901,
+          "sparse_similarity": 0.13435564935207367,
+          "hybrid_score": 0.3847198486328125
+        }
+      ]
+    ],
+    "eng_translation": [
+      "angina is stable",
+      "Stable angina"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng calci máu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       275,
       289
-    ]
+    ],
+    "sentence": "Bệnh sử\n    Lý do nhập viện: đến khám vì [ENTITY]\n    Triệu chứng hiện tại: tăng calci máu\n    Các lần khám và xét nghiệm trước khi nhập viện\n    - xét nghiệm xét nghiệm ngoại trú được thực hiện hôm nay và canxi là 12.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6289498209953308,
+          "sparse_similarity": 0.18880245089530945,
+          "hybrid_score": 0.40887612104415894
+        },
+        {
+          "id": "isHistorical_000208",
+          "document": "12 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.61937016248703,
+          "sparse_similarity": 0.1879911869764328,
+          "hybrid_score": 0.403680682182312
+        },
+        {
+          "id": "isHistorical_019772",
+          "document": "khoảng 12 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6181791424751282,
+          "sparse_similarity": 0.18826663494110107,
+          "hybrid_score": 0.4032228887081146
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypercalcemia",
+      "Elevated serum calcium level"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng calci máu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       316,
       330
-    ]
+    ],
+    "sentence": "Bệnh sử\n    Lý do nhập viện: đến khám vì tăng calci máu\n    Triệu chứng hiện tại: [ENTITY]\n    Các lần khám và xét nghiệm trước khi nhập viện\n    - xét nghiệm xét nghiệm ngoại trú được thực hiện hôm nay và canxi là 12.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019772",
+          "document": "khoảng 12 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6139096021652222,
+          "sparse_similarity": 0.1789298802614212,
+          "hybrid_score": 0.3964197337627411
+        },
+        {
+          "id": "isHistorical_000208",
+          "document": "12 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6137739419937134,
+          "sparse_similarity": 0.1787046194076538,
+          "hybrid_score": 0.3962392807006836
+        },
+        {
+          "id": "isHistorical_019784",
+          "document": "khoảng 12 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6100283861160278,
+          "sparse_similarity": 0.1805514693260193,
+          "hybrid_score": 0.39528992772102356
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypercalcemia",
+      "Elevated serum calcium level"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "canxi",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       446,
       451
-    ]
+    ],
+    "sentence": "Bệnh sử\n    Lý do nhập viện: đến khám vì tăng calci máu\n    Triệu chứng hiện tại: tăng calci máu\n    Các lần khám và xét nghiệm trước khi nhập viện\n    - xét nghiệm xét nghiệm ngoại trú được thực hiện hôm nay và [ENTITY] là 12.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.600516676902771,
+          "sparse_similarity": 0.23261131346225739,
+          "hybrid_score": 0.4165639877319336
+        },
+        {
+          "id": "isHistorical_019772",
+          "document": "khoảng 12 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.61188805103302,
+          "sparse_similarity": 0.18992644548416138,
+          "hybrid_score": 0.4009072482585907
+        },
+        {
+          "id": "isHistorical_019784",
+          "document": "khoảng 12 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.608379602432251,
+          "sparse_similarity": 0.19147706031799316,
+          "hybrid_score": 0.39992833137512207
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Calcium",
+      "Calcium levels"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "12.0",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       455,
       459
-    ]
+    ],
+    "sentence": "Bệnh sử\n    Lý do nhập viện: đến khám vì tăng calci máu\n    Triệu chứng hiện tại: tăng calci máu\n    Các lần khám và xét nghiệm trước khi nhập viện\n    - xét nghiệm xét nghiệm ngoại trú được thực hiện hôm nay và canxi là [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5764449238777161,
+          "sparse_similarity": 0.1910497099161148,
+          "hybrid_score": 0.38374730944633484
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5943934917449951,
+          "sparse_similarity": 0.16836819052696228,
+          "hybrid_score": 0.3813808560371399
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5823875665664673,
+          "sparse_similarity": 0.174698606133461,
+          "hybrid_score": 0.37854307889938354
+        }
+      ]
+    ],
+    "eng_translation": [
+      "12.0"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "canxi",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       461,
       466
-    ]
+    ],
+    "sentence": "0; [ENTITY] ion hóa 6.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006756",
+          "document": "[ENTITY] da 6 ngay.",
+          "dense_similarity": 0.7849870324134827,
+          "sparse_similarity": 0.11092983931303024,
+          "hybrid_score": 0.44795843958854675
+        },
+        {
+          "id": "isHistorical_006755",
+          "document": "[ENTITY] da 6 nam.",
+          "dense_similarity": 0.776720404624939,
+          "sparse_similarity": 0.10175874829292297,
+          "hybrid_score": 0.4392395615577698
+        },
+        {
+          "id": "isHistorical_016135",
+          "document": "da 6 ngay [ENTITY].",
+          "dense_similarity": 0.7609063982963562,
+          "sparse_similarity": 0.09425660222768784,
+          "hybrid_score": 0.4275814890861511
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Calcium",
+      "Calcium levels"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngất xỉu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       504,
       512
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần [ENTITY], một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện đau ngực, khó thở, chóng mặt trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định MRI ngoại trú  có hình ảnh nhồi máu cũ nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần đau ngực vào chiều ngày vào viện, cơn đau kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên nitroglycerin đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn đau ở sau đầu và cổ từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6288195848464966,
+          "sparse_similarity": 0.15191040933132172,
+          "hybrid_score": 0.39036500453948975
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6244545578956604,
+          "sparse_similarity": 0.151344895362854,
+          "hybrid_score": 0.3878997266292572
+        },
+        {
+          "id": "isHistorical_014222",
+          "document": "cách đây 8 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6219455003738403,
+          "sparse_similarity": 0.14796215295791626,
+          "hybrid_score": 0.3849538266658783
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Syncope",
+      "Fainting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       673,
       681
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần ngất xỉu, một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện [ENTITY], khó thở, chóng mặt trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định MRI ngoại trú  có hình ảnh nhồi máu cũ nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần đau ngực vào chiều ngày vào viện, cơn đau kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên nitroglycerin đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn đau ở sau đầu và cổ từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6157980561256409,
+          "sparse_similarity": 0.12828025221824646,
+          "hybrid_score": 0.37203913927078247
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6135112047195435,
+          "sparse_similarity": 0.12904700636863708,
+          "hybrid_score": 0.37127912044525146
+        },
+        {
+          "id": "isHistorical_014222",
+          "document": "cách đây 8 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6101619005203247,
+          "sparse_similarity": 0.1260986328125,
+          "hybrid_score": 0.36813026666641235
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       683,
       690
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần ngất xỉu, một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện đau ngực, [ENTITY], chóng mặt trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định MRI ngoại trú  có hình ảnh nhồi máu cũ nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần đau ngực vào chiều ngày vào viện, cơn đau kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên nitroglycerin đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn đau ở sau đầu và cổ từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.613577663898468,
+          "sparse_similarity": 0.12352051585912704,
+          "hybrid_score": 0.36854907870292664
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6105096340179443,
+          "sparse_similarity": 0.12415926158428192,
+          "hybrid_score": 0.3673344552516937
+        },
+        {
+          "id": "isHistorical_014222",
+          "document": "cách đây 8 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6065234541893005,
+          "sparse_similarity": 0.12003500014543533,
+          "hybrid_score": 0.36327922344207764
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       692,
       701
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần ngất xỉu, một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện đau ngực, khó thở, [ENTITY] trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định MRI ngoại trú  có hình ảnh nhồi máu cũ nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần đau ngực vào chiều ngày vào viện, cơn đau kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên nitroglycerin đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn đau ở sau đầu và cổ từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6126696467399597,
+          "sparse_similarity": 0.12757374346256256,
+          "hybrid_score": 0.37012168765068054
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6095649600028992,
+          "sparse_similarity": 0.12838712334632874,
+          "hybrid_score": 0.36897605657577515
+        },
+        {
+          "id": "isHistorical_014222",
+          "document": "cách đây 8 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6052742004394531,
+          "sparse_similarity": 0.12456672638654709,
+          "hybrid_score": 0.3649204671382904
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "MRI",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       769,
       772
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần ngất xỉu, một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện đau ngực, khó thở, chóng mặt trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định [ENTITY] ngoại trú  có hình ảnh nhồi máu cũ nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần đau ngực vào chiều ngày vào viện, cơn đau kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên nitroglycerin đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn đau ở sau đầu và cổ từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6190022230148315,
+          "sparse_similarity": 0.13429883122444153,
+          "hybrid_score": 0.37665051221847534
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6156975030899048,
+          "sparse_similarity": 0.13475549221038818,
+          "hybrid_score": 0.3752264976501465
+        },
+        {
+          "id": "isHistorical_014222",
+          "document": "cách đây 8 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6127188205718994,
+          "sparse_similarity": 0.1316368132829666,
+          "hybrid_score": 0.3721778094768524
+        }
+      ]
+    ],
+    "eng_translation": [
+      "MRI: Không có bất thường.",
+      "MRI: No abnormalities found.",
+      "MRI: No abnormalities detected."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhồi máu cũ",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       796,
       807
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần ngất xỉu, một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện đau ngực, khó thở, chóng mặt trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định MRI ngoại trú  có hình ảnh [ENTITY] nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần đau ngực vào chiều ngày vào viện, cơn đau kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên nitroglycerin đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn đau ở sau đầu và cổ từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.614944577217102,
+          "sparse_similarity": 0.13854235410690308,
+          "hybrid_score": 0.37674346566200256
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6113371849060059,
+          "sparse_similarity": 0.13849346339702606,
+          "hybrid_score": 0.37491533160209656
+        },
+        {
+          "id": "isHistorical_014222",
+          "document": "cách đây 8 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6087079048156738,
+          "sparse_similarity": 0.13507413864135742,
+          "hybrid_score": 0.3718910217285156
+        }
+      ]
+    ],
+    "eng_translation": [
+      "old myocardial infarction",
+      "Previous Myocardial Infarction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       895,
       903
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần ngất xỉu, một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện đau ngực, khó thở, chóng mặt trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định MRI ngoại trú  có hình ảnh nhồi máu cũ nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần [ENTITY] vào chiều ngày vào viện, cơn đau kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên nitroglycerin đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn đau ở sau đầu và cổ từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6204315423965454,
+          "sparse_similarity": 0.14662867784500122,
+          "hybrid_score": 0.3835301101207733
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6160967946052551,
+          "sparse_similarity": 0.14588458836078644,
+          "hybrid_score": 0.3809906840324402
+        },
+        {
+          "id": "isHistorical_014222",
+          "document": "cách đây 8 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6144803166389465,
+          "sparse_similarity": 0.14281073212623596,
+          "hybrid_score": 0.37864553928375244
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cơn đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       929,
       936
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần ngất xỉu, một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện đau ngực, khó thở, chóng mặt trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định MRI ngoại trú  có hình ảnh nhồi máu cũ nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần đau ngực vào chiều ngày vào viện, [ENTITY] kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên nitroglycerin đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn đau ở sau đầu và cổ từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6125890016555786,
+          "sparse_similarity": 0.1380513310432434,
+          "hybrid_score": 0.375320166349411
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6088300347328186,
+          "sparse_similarity": 0.1377389132976532,
+          "hybrid_score": 0.3732844591140747
+        },
+        {
+          "id": "isHistorical_003760",
+          "document": "8 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6102038025856018,
+          "sparse_similarity": 0.13201503455638885,
+          "hybrid_score": 0.3711094260215759
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nitroglycerin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       996,
       1009
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần ngất xỉu, một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện đau ngực, khó thở, chóng mặt trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định MRI ngoại trú  có hình ảnh nhồi máu cũ nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần đau ngực vào chiều ngày vào viện, cơn đau kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên [ENTITY] đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn đau ở sau đầu và cổ từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6492112278938293,
+          "sparse_similarity": 0.1576518416404724,
+          "hybrid_score": 0.4034315347671509
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6445457935333252,
+          "sparse_similarity": 0.15792222321033478,
+          "hybrid_score": 0.4012340009212494
+        },
+        {
+          "id": "isHistorical_014222",
+          "document": "cách đây 8 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.645220935344696,
+          "sparse_similarity": 0.1570703387260437,
+          "hybrid_score": 0.4011456370353699
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau ở sau đầu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1053,
       1066
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần ngất xỉu, một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện đau ngực, khó thở, chóng mặt trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định MRI ngoại trú  có hình ảnh nhồi máu cũ nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần đau ngực vào chiều ngày vào viện, cơn đau kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên nitroglycerin đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn [ENTITY] và cổ từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6256536841392517,
+          "sparse_similarity": 0.14516744017601013,
+          "hybrid_score": 0.3854105472564697
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6223904490470886,
+          "sparse_similarity": 0.14577451348304749,
+          "hybrid_score": 0.38408249616622925
+        },
+        {
+          "id": "isHistorical_014222",
+          "document": "cách đây 8 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6209417581558228,
+          "sparse_similarity": 0.14330516755580902,
+          "hybrid_score": 0.3821234703063965
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain in the occipital region",
+      "pain in the posterior head region"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cổ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1070,
       1072
-    ]
+    ],
+    "sentence": "8 \n    - xuất hiện hai lần ngất xỉu, một lần khi lái xe lần cuối và một lần khác khi nói chuyện với bạn trong xe một tháng trước\n    - Cả hai lần đều kéo dài vài giây\n    - Không có các biểu hiện đau ngực, khó thở, chóng mặt trước lần này\n    - Không có biểu hiện động kinh\n    - đã chỉ định MRI ngoại trú  có hình ảnh nhồi máu cũ nhỏ ở vỏ não đỉnh trái, không có tổn thương cấp tính\n    - Bệnh nhân xuất hiện một lần đau ngực vào chiều ngày vào viện, cơn đau kéo dài khoảng 5 phút\n sau đó đã được sử dụng ngay 01 viên nitroglycerin đặt dưới lưỡi\n    - Hiện tại bệnh nhân còn đau ở sau đầu và [ENTITY] từ khi bị ngã trong bồn tắm năm ngoái đến nay\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021560",
+          "document": "khoảng 8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6171497106552124,
+          "sparse_similarity": 0.142730250954628,
+          "hybrid_score": 0.3799399733543396
+        },
+        {
+          "id": "isHistorical_003778",
+          "document": "8 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6143417954444885,
+          "sparse_similarity": 0.14298637211322784,
+          "hybrid_score": 0.3786640763282776
+        },
+        {
+          "id": "isHistorical_014222",
+          "document": "cách đây 8 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6114000678062439,
+          "sparse_similarity": 0.13977757096290588,
+          "hybrid_score": 0.3755888342857361
+        }
+      ]
+    ],
+    "eng_translation": [
+      "neck",
+      "cervical region"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "canxi",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1177,
       1182
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xétí nghiệm\n    - [ENTITY] toàn phần là 12.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000209",
+          "document": "12 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7107132077217102,
+          "sparse_similarity": 0.11005208641290665,
+          "hybrid_score": 0.4103826582431793
+        },
+        {
+          "id": "isHistorical_031938",
+          "document": "đã 12 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7067636251449585,
+          "sparse_similarity": 0.10584799945354462,
+          "hybrid_score": 0.40630581974983215
+        },
+        {
+          "id": "isHistorical_012435",
+          "document": "cách đây 12 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7001134157180786,
+          "sparse_similarity": 0.10849350690841675,
+          "hybrid_score": 0.4043034613132477
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Calcium",
+      "Calcium levels"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "canxi",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1202,
       1207
-    ]
+    ],
+    "sentence": "0; [ENTITY] ion hóa 6.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006756",
+          "document": "[ENTITY] da 6 ngay.",
+          "dense_similarity": 0.7849870324134827,
+          "sparse_similarity": 0.11092983931303024,
+          "hybrid_score": 0.44795843958854675
+        },
+        {
+          "id": "isHistorical_006755",
+          "document": "[ENTITY] da 6 nam.",
+          "dense_similarity": 0.776720404624939,
+          "sparse_similarity": 0.10175874829292297,
+          "hybrid_score": 0.4392395615577698
+        },
+        {
+          "id": "isHistorical_016135",
+          "document": "da 6 ngay [ENTITY].",
+          "dense_similarity": 0.7609063982963562,
+          "sparse_similarity": 0.09425660222768784,
+          "hybrid_score": 0.4275814890861511
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Calcium",
+      "Calcium levels"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "creatinine",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1260,
       1270
-    ]
+    ],
+    "sentence": "3\n    - cr ([ENTITY]) 1.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_004986",
+          "document": "[ENTITY] 3 ngay truoc.",
+          "dense_similarity": 0.7368969321250916,
+          "sparse_similarity": 0.17198415100574493,
+          "hybrid_score": 0.45444053411483765
+        },
+        {
+          "id": "isHistorical_006624",
+          "document": "[ENTITY] da 3 ngay.",
+          "dense_similarity": 0.7207499146461487,
+          "sparse_similarity": 0.17573973536491394,
+          "hybrid_score": 0.4482448101043701
+        },
+        {
+          "id": "isHistorical_001111",
+          "document": "3 ngay truoc [ENTITY].",
+          "dense_similarity": 0.7351797819137573,
+          "sparse_similarity": 0.16057580709457397,
+          "hybrid_score": 0.44787779450416565
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Creatinine",
+      "Serum Creatinine"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "MRI",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1308,
       1311
-    ]
+    ],
+    "sentence": "2\n    Kết quả chẩn đoán hình ảnh: [ENTITY] ngoại trú cho thấy hình ảnh  nhồi máu cũ nhỏ ở vỏ não đỉnh trái nhưng không có quá trình cấp tính\n    Xử trí thuốc\n    - đã dùng Laxis 20mg tiêm tĩnh mạch\n    - Truyền  dịch Natriclori 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012670",
+          "document": "cách đây 20 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6037371754646301,
+          "sparse_similarity": 0.05742353945970535,
+          "hybrid_score": 0.33058035373687744
+        },
+        {
+          "id": "isFamily_023813",
+          "document": "phía bên ngoại đang điều trị [ENTITY].",
+          "dense_similarity": 0.5816847681999207,
+          "sparse_similarity": 0.0762987732887268,
+          "hybrid_score": 0.32899177074432373
+        },
+        {
+          "id": "isHistorical_000672",
+          "document": "20 tuần trước được điều trị [ENTITY].",
+          "dense_similarity": 0.595031201839447,
+          "sparse_similarity": 0.05681931599974632,
+          "hybrid_score": 0.3259252607822418
+        }
+      ]
+    ],
+    "eng_translation": [
+      "MRI: Không có bất thường.",
+      "MRI: No abnormalities found.",
+      "MRI: No abnormalities detected."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhồi",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1341,
       1345
-    ]
+    ],
+    "sentence": "2\n    Kết quả chẩn đoán hình ảnh: MRI ngoại trú cho thấy hình ảnh  [ENTITY] máu cũ nhỏ ở vỏ não đỉnh trái nhưng không có quá trình cấp tính\n    Xử trí thuốc\n    - đã dùng Laxis 20mg tiêm tĩnh mạch\n    - Truyền  dịch Natriclori 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_023813",
+          "document": "phía bên ngoại đang điều trị [ENTITY].",
+          "dense_similarity": 0.5876414179801941,
+          "sparse_similarity": 0.08836271613836288,
+          "hybrid_score": 0.3380020558834076
+        },
+        {
+          "id": "isHistorical_012670",
+          "document": "cách đây 20 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6076397895812988,
+          "sparse_similarity": 0.06742601096630096,
+          "hybrid_score": 0.3375329077243805
+        },
+        {
+          "id": "isFamily_023733",
+          "document": "phía bên ngoại má đang điều trị [ENTITY].",
+          "dense_similarity": 0.5961019396781921,
+          "sparse_similarity": 0.07823066413402557,
+          "hybrid_score": 0.33716630935668945
+        }
+      ]
+    ],
+    "eng_translation": [
+      "infarction",
+      "Myocardial Infarction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

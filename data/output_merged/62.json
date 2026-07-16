@@ -2,33 +2,194 @@
   {
     "text": "loét mới ở ngón chân út",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       204,
       227
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:[ENTITY] bên phải\n    Triệu chứng hiện tại\n    - loét đau\n    - loét đỏ\n    - loét sưng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6487029194831848,
+          "sparse_similarity": 0.15416677296161652,
+          "hybrid_score": 0.40143483877182007
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6606165170669556,
+          "sparse_similarity": 0.13230840861797333,
+          "hybrid_score": 0.39646247029304504
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6574615240097046,
+          "sparse_similarity": 0.12529821693897247,
+          "hybrid_score": 0.39137986302375793
+        }
+      ]
+    ],
+    "eng_translation": [
+      "new ulcer on the little toe",
+      "New plantar ulcer on the little toe"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loét đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       268,
       276
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:loét mới ở ngón chân út bên phải\n    Triệu chứng hiện tại\n    - [ENTITY]\n    - loét đỏ\n    - loét sưng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6169668436050415,
+          "sparse_similarity": 0.13960999250411987,
+          "hybrid_score": 0.3782884180545807
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.614539623260498,
+          "sparse_similarity": 0.13593968749046326,
+          "hybrid_score": 0.37523967027664185
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6059611439704895,
+          "sparse_similarity": 0.14271289110183716,
+          "hybrid_score": 0.37433701753616333
+        }
+      ]
+    ],
+    "eng_translation": [
+      "painful ulcer",
+      "Ulcer with pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loét đỏ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       283,
       290
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:loét mới ở ngón chân út bên phải\n    Triệu chứng hiện tại\n    - loét đau\n    - [ENTITY]\n    - loét sưng\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6328043341636658,
+          "sparse_similarity": 0.1300024688243866,
+          "hybrid_score": 0.381403386592865
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6344274878501892,
+          "sparse_similarity": 0.12310786545276642,
+          "hybrid_score": 0.3787676692008972
+        },
+        {
+          "id": "isHistorical_012896",
+          "document": "cách đây 3 năm nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6348322629928589,
+          "sparse_similarity": 0.1220380961894989,
+          "hybrid_score": 0.3784351944923401
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Redness",
+      "Erythema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loét sưng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       297,
       306
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:loét mới ở ngón chân út bên phải\n    Triệu chứng hiện tại\n    - loét đau\n    - loét đỏ\n    - [ENTITY]\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6217338442802429,
+          "sparse_similarity": 0.13473649322986603,
+          "hybrid_score": 0.3782351613044739
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6218416690826416,
+          "sparse_similarity": 0.13126075267791748,
+          "hybrid_score": 0.37655121088027954
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.617712140083313,
+          "sparse_similarity": 0.13423307240009308,
+          "hybrid_score": 0.37597259879112244
+        }
+      ]
+    ],
+    "eng_translation": [
+      "swollen ulcer",
+      "Ulcer, swollen",
+      "Ulcer with edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

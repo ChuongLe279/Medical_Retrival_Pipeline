@@ -2,57 +2,336 @@
   {
     "text": "Đái tháo đường type II",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       57,
       79
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính\n    - [ENTITY]\n    - bệnh động mạch vành sau phẫu thuật bắc cầu nối động mạch vành\n    - suy tim\n    - bệnh mạch máu ngoại biên\n    - bệnh phổi tắc nghẽn mạn tính\n    - Ngưng thở khi ngủ do tắc nghẽn đang dùng BiPAP\n    - Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với bờ diện cắt dương tính.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội khoa các bệnh lý mãn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6409326195716858,
+          "sparse_similarity": 0.2742038071155548,
+          "hybrid_score": 0.4575682282447815
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6393669247627258,
+          "sparse_similarity": 0.265016108751297,
+          "hybrid_score": 0.4521915316581726
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6254362463951111,
+          "sparse_similarity": 0.24077242612838745,
+          "hybrid_score": 0.43310433626174927
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Type II Diabetes Mellitus",
+      "Diabetes Mellitus, Type 2"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh động mạch vành",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       86,
       105
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính\n    - Đái tháo đường type II\n    - [ENTITY] sau phẫu thuật bắc cầu nối động mạch vành\n    - suy tim\n    - bệnh mạch máu ngoại biên\n    - bệnh phổi tắc nghẽn mạn tính\n    - Ngưng thở khi ngủ do tắc nghẽn đang dùng BiPAP\n    - Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với bờ diện cắt dương tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6348955631256104,
+          "sparse_similarity": 0.2841671407222748,
+          "hybrid_score": 0.45953136682510376
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6343197822570801,
+          "sparse_similarity": 0.27609264850616455,
+          "hybrid_score": 0.4552062153816223
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6212051510810852,
+          "sparse_similarity": 0.24947573244571686,
+          "hybrid_score": 0.43534043431282043
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Coronary artery disease",
+      "Ischemic heart disease"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy tim",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       154,
       161
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính\n    - Đái tháo đường type II\n    - bệnh động mạch vành sau phẫu thuật bắc cầu nối động mạch vành\n    - [ENTITY]\n    - bệnh mạch máu ngoại biên\n    - bệnh phổi tắc nghẽn mạn tính\n    - Ngưng thở khi ngủ do tắc nghẽn đang dùng BiPAP\n    - Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với bờ diện cắt dương tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.631817102432251,
+          "sparse_similarity": 0.26113754510879517,
+          "hybrid_score": 0.44647732377052307
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6288031339645386,
+          "sparse_similarity": 0.25169074535369873,
+          "hybrid_score": 0.44024693965911865
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6149570941925049,
+          "sparse_similarity": 0.23029173910617828,
+          "hybrid_score": 0.422624409198761
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Heart failure",
+      "Congestive heart failure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh mạch máu ngoại biên",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       168,
       192
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính\n    - Đái tháo đường type II\n    - bệnh động mạch vành sau phẫu thuật bắc cầu nối động mạch vành\n    - suy tim\n    - [ENTITY]\n    - bệnh phổi tắc nghẽn mạn tính\n    - Ngưng thở khi ngủ do tắc nghẽn đang dùng BiPAP\n    - Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với bờ diện cắt dương tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6354907155036926,
+          "sparse_similarity": 0.27186575531959534,
+          "hybrid_score": 0.4536782503128052
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6344549059867859,
+          "sparse_similarity": 0.2626224756240845,
+          "hybrid_score": 0.4485386908054352
+        },
+        {
+          "id": "isFamily_007127",
+          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
+          "dense_similarity": 0.6062524914741516,
+          "sparse_similarity": 0.24828384816646576,
+          "hybrid_score": 0.4272681772708893
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Peripheral vascular disease",
+      "Peripheral Arterial Disease"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh phổi tắc nghẽn mạn tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       199,
       227
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính\n    - Đái tháo đường type II\n    - bệnh động mạch vành sau phẫu thuật bắc cầu nối động mạch vành\n    - suy tim\n    - bệnh mạch máu ngoại biên\n    - [ENTITY]\n    - Ngưng thở khi ngủ do tắc nghẽn đang dùng BiPAP\n    - Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với bờ diện cắt dương tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6232701539993286,
+          "sparse_similarity": 0.25254759192466736,
+          "hybrid_score": 0.4379088878631592
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6207103729248047,
+          "sparse_similarity": 0.24341855943202972,
+          "hybrid_score": 0.4320644736289978
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.608548641204834,
+          "sparse_similarity": 0.22317250072956085,
+          "hybrid_score": 0.4158605635166168
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Chronic Obstructive Lung Disease"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ngưng thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       234,
       243
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính\n    - Đái tháo đường type II\n    - bệnh động mạch vành sau phẫu thuật bắc cầu nối động mạch vành\n    - suy tim\n    - bệnh mạch máu ngoại biên\n    - bệnh phổi tắc nghẽn mạn tính\n    - [ENTITY] khi ngủ do tắc nghẽn đang dùng BiPAP\n    - Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với bờ diện cắt dương tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6381011605262756,
+          "sparse_similarity": 0.26957160234451294,
+          "hybrid_score": 0.4538363814353943
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6362367868423462,
+          "sparse_similarity": 0.260536253452301,
+          "hybrid_score": 0.4483865201473236
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6241838932037354,
+          "sparse_similarity": 0.2354344129562378,
+          "hybrid_score": 0.4298091530799866
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Apnea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ung thư biểu mô tế bào vảy",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       287,
       313
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính\n    - Đái tháo đường type II\n    - bệnh động mạch vành sau phẫu thuật bắc cầu nối động mạch vành\n    - suy tim\n    - bệnh mạch máu ngoại biên\n    - bệnh phổi tắc nghẽn mạn tính\n    - Ngưng thở khi ngủ do tắc nghẽn đang dùng BiPAP\n    - [ENTITY] xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với bờ diện cắt dương tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6287186741828918,
+          "sparse_similarity": 0.24496056139469147,
+          "hybrid_score": 0.43683961033821106
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6253690719604492,
+          "sparse_similarity": 0.23664110898971558,
+          "hybrid_score": 0.4310050904750824
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6150512099266052,
+          "sparse_similarity": 0.21220101416110992,
+          "hybrid_score": 0.413626104593277
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Squamous cell carcinoma",
+      "Cutaneous squamous cell carcinoma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

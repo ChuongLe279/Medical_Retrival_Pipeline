@@ -2,17 +2,96 @@
   {
     "text": "Trào ngược dạ dày thực quản",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       149,
       176
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY] ngày càng tăng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7527021169662476,
+          "sparse_similarity": 0.2829263210296631,
+          "hybrid_score": 0.5178142189979553
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7465612888336182,
+          "sparse_similarity": 0.27475976943969727,
+          "hybrid_score": 0.5106605291366577
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7283415794372559,
+          "sparse_similarity": 0.2717217803001404,
+          "hybrid_score": 0.5000317096710205
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Gastroesophageal reflux disease",
+      "GERD"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thoát vị hoành",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       638,
       652
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả Chẩn đoán hình ảnh\n    - Kêt quả không cho thấy [ENTITY] cách đây một năm.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "[entity] cách đây"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012345",
+          "document": "cách đây 1 năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7119061350822449,
+          "sparse_similarity": 0.19159793853759766,
+          "hybrid_score": 0.45175203680992126
+        },
+        {
+          "id": "isHistorical_024635",
+          "document": "từ 1 năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.715800404548645,
+          "sparse_similarity": 0.16056936979293823,
+          "hybrid_score": 0.4381848871707916
+        },
+        {
+          "id": "isHistorical_000023",
+          "document": "1 năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7140556573867798,
+          "sparse_similarity": 0.1583302766084671,
+          "hybrid_score": 0.43619295954704285
+        }
+      ]
+    ],
+    "eng_translation": [
+      "hiatal hernia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

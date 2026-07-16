@@ -2,217 +2,1298 @@
   {
     "text": "sa",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       58,
       60
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: Khối [ENTITY] âm đạo gây khó chịu, được bác sĩ giới thiệu khám chuyên khoa.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6548157930374146,
+          "sparse_similarity": 0.20561735332012177,
+          "hybrid_score": 0.43021658062934875
+        },
+        {
+          "id": "isHistorical_034243",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6416341662406921,
+          "sparse_similarity": 0.20076657831668854,
+          "hybrid_score": 0.42120036482810974
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6531593799591064,
+          "sparse_similarity": 0.18909475207328796,
+          "hybrid_score": 0.4211270809173584
+        }
+      ]
+    ],
+    "eng_translation": [
+      "sa",
+      "Sudden arterial occlusion of the left middle cerebral artery resulting in acute ischemic stroke with severe neurological deficits and potential complications including cerebral edema and hemorrhagic transformation.",
+      "SA stands for \"Systolic Arterial Pressure\" in medical contexts, but since the query is simply \"sa\" and there is no clear medical abbreviation in the query, the original query remains unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đạo",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       64,
       67
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: Khối sa âm [ENTITY] gây khó chịu, được bác sĩ giới thiệu khám chuyên khoa.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6584321856498718,
+          "sparse_similarity": 0.20951706171035767,
+          "hybrid_score": 0.43397462368011475
+        },
+        {
+          "id": "isHistorical_012350",
+          "document": "cách đây 1 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.646294891834259,
+          "sparse_similarity": 0.20042893290519714,
+          "hybrid_score": 0.4233618974685669
+        },
+        {
+          "id": "isHistorical_034243",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6408907771110535,
+          "sparse_similarity": 0.20506279170513153,
+          "hybrid_score": 0.4229767918586731
+        }
+      ]
+    ],
+    "eng_translation": [
+      "No translation provided. The input text is incomplete or non-sensical.",
+      "The input text is incomplete or non-sensical."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó chịu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       72,
       80
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: Khối sa âm đạo gây [ENTITY], được bác sĩ giới thiệu khám chuyên khoa.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6647670269012451,
+          "sparse_similarity": 0.19904789328575134,
+          "hybrid_score": 0.4319074749946594
+        },
+        {
+          "id": "isHistorical_034243",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6541938781738281,
+          "sparse_similarity": 0.19450044631958008,
+          "hybrid_score": 0.4243471622467041
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6613454818725586,
+          "sparse_similarity": 0.1830635368824005,
+          "hybrid_score": 0.42220449447631836
+        }
+      ]
+    ],
+    "eng_translation": [
+      "discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "lồi trong âm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       160,
       172
-    ]
+    ],
+    "sentence": "Bệnh nhân xuất hiện cảm giác có khối [ENTITY] đạo khoảng 5 năm nay.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020763",
+          "document": "khoảng 5 năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.8074896335601807,
+          "sparse_similarity": 0.19761842489242554,
+          "hybrid_score": 0.5025540590286255
+        },
+        {
+          "id": "isHistorical_032928",
+          "document": "đã 5 năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.813904881477356,
+          "sparse_similarity": 0.18670257925987244,
+          "hybrid_score": 0.5003037452697754
+        },
+        {
+          "id": "isHistorical_032925",
+          "document": "đã 5 năm bị [ENTITY].",
+          "dense_similarity": 0.7891495227813721,
+          "sparse_similarity": 0.20407484471797943,
+          "hybrid_score": 0.49661219120025635
+        }
+      ]
+    ],
+    "eng_translation": [
+      "protruding inward",
+      "Inward protrusion"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "căng tức vùng âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       286,
       306
-    ]
+    ],
+    "sentence": "Hiện bệnh nhân thường xuyên cảm thấy  [ENTITY], sờ thấy khối sa tại âm hộ.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7189825773239136,
+          "sparse_similarity": 0.14483283460140228,
+          "hybrid_score": 0.4319077134132385
+        },
+        {
+          "id": "isFamily_006621",
+          "document": "bên ngoại của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7046347260475159,
+          "sparse_similarity": 0.14918352663516998,
+          "hybrid_score": 0.42690911889076233
+        },
+        {
+          "id": "isFamily_007154",
+          "document": "bên nội của người bệnh có [ENTITY].",
+          "dense_similarity": 0.7119842767715454,
+          "sparse_similarity": 0.12226924300193787,
+          "hybrid_score": 0.41712677478790283
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain in the vaginal area",
+      "pelvic pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sa",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       321,
       323
-    ]
+    ],
+    "sentence": "Hiện bệnh nhân thường xuyên cảm thấy  căng tức vùng âm đạo, sờ thấy khối [ENTITY] tại âm hộ.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6900205612182617,
+          "sparse_similarity": 0.13728272914886475,
+          "hybrid_score": 0.41365164518356323
+        },
+        {
+          "id": "isFamily_006621",
+          "document": "bên ngoại của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6761425733566284,
+          "sparse_similarity": 0.14127284288406372,
+          "hybrid_score": 0.40870770812034607
+        },
+        {
+          "id": "isFamily_007154",
+          "document": "bên nội của người bệnh có [ENTITY].",
+          "dense_similarity": 0.6806889176368713,
+          "sparse_similarity": 0.11587823927402496,
+          "hybrid_score": 0.39828357100486755
+        }
+      ]
+    ],
+    "eng_translation": [
+      "sa",
+      "Sudden arterial occlusion of the left middle cerebral artery resulting in acute ischemic stroke with severe neurological deficits and potential complications including cerebral edema and hemorrhagic transformation.",
+      "SA stands for \"Systolic Arterial Pressure\" in medical contexts, but since the query is simply \"sa\" and there is no clear medical abbreviation in the query, the original query remains unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiểu buốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       373,
       382
-    ]
+    ],
+    "sentence": "Kèm theo đó, bệnh nhân có triệu chứng [ENTITY], đôi khi không kiểm soát được tiểu tiện khi có cảm giác buồn tiểu nhưng không kịp vào nhà vệ sinh.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6811246871948242,
+          "sparse_similarity": 0.17494246363639832,
+          "hybrid_score": 0.42803359031677246
+        },
+        {
+          "id": "isFamily_007154",
+          "document": "bên nội của người bệnh có [ENTITY].",
+          "dense_similarity": 0.6867856979370117,
+          "sparse_similarity": 0.15017318725585938,
+          "hybrid_score": 0.41847944259643555
+        },
+        {
+          "id": "isFamily_007152",
+          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6850365996360779,
+          "sparse_similarity": 0.15003210306167603,
+          "hybrid_score": 0.41753435134887695
+        }
+      ]
+    ],
+    "eng_translation": [
+      "dysuria"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiện",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       418,
       422
-    ]
+    ],
+    "sentence": "Kèm theo đó, bệnh nhân có triệu chứng tiểu buốt, đôi khi không kiểm soát được tiểu [ENTITY] khi có cảm giác buồn tiểu nhưng không kịp vào nhà vệ sinh.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.653186023235321,
+          "sparse_similarity": 0.08493983000516891,
+          "hybrid_score": 0.3690629303455353
+        },
+        {
+          "id": "isFamily_003344",
+          "document": "ba ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6447333097457886,
+          "sparse_similarity": 0.08266279846429825,
+          "hybrid_score": 0.3636980652809143
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6425007581710815,
+          "sparse_similarity": 0.08373494446277618,
+          "hybrid_score": 0.36311784386634827
+        }
+      ]
+    ],
+    "eng_translation": [
+      "convenient",
+      "The query provided does not contain a medical term or concept. Therefore, the original query remains unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn tiểu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       439,
       448
-    ]
+    ],
+    "sentence": "Kèm theo đó, bệnh nhân có triệu chứng tiểu buốt, đôi khi không kiểm soát được tiểu tiện khi có cảm giác [ENTITY] nhưng không kịp vào nhà vệ sinh.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6767494678497314,
+          "sparse_similarity": 0.10019473731517792,
+          "hybrid_score": 0.3884721100330353
+        },
+        {
+          "id": "isFamily_003344",
+          "document": "ba ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6663589477539062,
+          "sparse_similarity": 0.09735826402902603,
+          "hybrid_score": 0.38185861706733704
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6643722653388977,
+          "sparse_similarity": 0.09869033843278885,
+          "hybrid_score": 0.381531298160553
+        }
+      ]
+    ],
+    "eng_translation": [
+      "dysuria"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "táo bón",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       497,
       504
-    ]
+    ],
+    "sentence": "Bệnh nhân có  [ENTITY], khô âm đạo, đau nhiều khi  giao hợp và đôi lúc ra huyết âm đạo lượng ít.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011971",
+          "document": "cô của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6281595826148987,
+          "sparse_similarity": 0.1476108431816101,
+          "hybrid_score": 0.3878852128982544
+        },
+        {
+          "id": "isFamily_011985",
+          "document": "cô của người bệnh có [ENTITY].",
+          "dense_similarity": 0.6310222148895264,
+          "sparse_similarity": 0.11325559765100479,
+          "hybrid_score": 0.3721389174461365
+        },
+        {
+          "id": "isFamily_011975",
+          "document": "cô của bệnh nhân từng bị [ENTITY].",
+          "dense_similarity": 0.6367691159248352,
+          "sparse_similarity": 0.09741614758968353,
+          "hybrid_score": 0.36709263920783997
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khô âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       506,
       516
-    ]
+    ],
+    "sentence": "Bệnh nhân có  táo bón, [ENTITY], đau nhiều khi  giao hợp và đôi lúc ra huyết âm đạo lượng ít.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.611130952835083,
+          "sparse_similarity": 0.10959573090076447,
+          "hybrid_score": 0.36036333441734314
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6204519271850586,
+          "sparse_similarity": 0.06780564785003662,
+          "hybrid_score": 0.3441287875175476
+        },
+        {
+          "id": "isFamily_011584",
+          "document": "con ruột người bệnh có [ENTITY].",
+          "dense_similarity": 0.607474684715271,
+          "sparse_similarity": 0.07857794314622879,
+          "hybrid_score": 0.3430263102054596
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vaginal dryness",
+      "Atrophy of the vulva and vagina"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau nhiều khi  giao hợp",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       518,
       541
-    ]
+    ],
+    "sentence": "Bệnh nhân có  táo bón, khô âm đạo, [ENTITY] và đôi lúc ra huyết âm đạo lượng ít.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6388289332389832,
+          "sparse_similarity": 0.11673231422901154,
+          "hybrid_score": 0.37778061628341675
+        },
+        {
+          "id": "isFamily_012046",
+          "document": "cô ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6431712508201599,
+          "sparse_similarity": 0.07677817344665527,
+          "hybrid_score": 0.3599747121334076
+        },
+        {
+          "id": "isFamily_011584",
+          "document": "con ruột người bệnh có [ENTITY].",
+          "dense_similarity": 0.6315426826477051,
+          "sparse_similarity": 0.08420087397098541,
+          "hybrid_score": 0.35787177085876465
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Painful intercourse",
+      "Dyspareunia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ra huyết âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       553,
       568
-    ]
+    ],
+    "sentence": "Bệnh nhân có  táo bón, khô âm đạo, đau nhiều khi  giao hợp và đôi lúc [ENTITY] lượng ít.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007154",
+          "document": "bên nội của người bệnh có [ENTITY].",
+          "dense_similarity": 0.6127527356147766,
+          "sparse_similarity": 0.10017180442810059,
+          "hybrid_score": 0.3564622700214386
+        },
+        {
+          "id": "isFamily_011975",
+          "document": "cô của bệnh nhân từng bị [ENTITY].",
+          "dense_similarity": 0.6164059638977051,
+          "sparse_similarity": 0.08734507858753204,
+          "hybrid_score": 0.35187551379203796
+        },
+        {
+          "id": "isFamily_007139",
+          "document": "bên nội của bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6142310500144958,
+          "sparse_similarity": 0.0885394811630249,
+          "hybrid_score": 0.3513852655887604
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vaginal bleeding",
+      "Vaginal hemorrhage"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sa",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       618,
       620
-    ]
+    ],
+    "sentence": "Triệu chứng hiện tại:\nCảm giác có khối [ENTITY] lồi ra âm đạo.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006649",
+          "document": "bên ngoại của sản phụ có [ENTITY].",
+          "dense_similarity": 0.6890950202941895,
+          "sparse_similarity": 0.10988855361938477,
+          "hybrid_score": 0.3994917869567871
+        },
+        {
+          "id": "isFamily_007168",
+          "document": "bên nội của sản phụ có [ENTITY].",
+          "dense_similarity": 0.673721194267273,
+          "sparse_similarity": 0.10711522400379181,
+          "hybrid_score": 0.3904182016849518
+        },
+        {
+          "id": "isFamily_006655",
+          "document": "bên ngoại của sản phụ đang mắc [ENTITY].",
+          "dense_similarity": 0.6998028755187988,
+          "sparse_similarity": 0.07016393542289734,
+          "hybrid_score": 0.3849834203720093
+        }
+      ]
+    ],
+    "eng_translation": [
+      "sa",
+      "Sudden arterial occlusion of the left middle cerebral artery resulting in acute ischemic stroke with severe neurological deficits and potential complications including cerebral edema and hemorrhagic transformation.",
+      "SA stands for \"Systolic Arterial Pressure\" in medical contexts, but since the query is simply \"sa\" and there is no clear medical abbreviation in the query, the original query remains unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sa lồi ra âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       618,
       634
-    ]
+    ],
+    "sentence": "Triệu chứng hiện tại:\nCảm giác có khối [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020139",
+          "document": "má người bệnh có [ENTITY].",
+          "dense_similarity": 0.7275431156158447,
+          "sparse_similarity": 0.20322798192501068,
+          "hybrid_score": 0.4653855562210083
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7313061952590942,
+          "sparse_similarity": 0.196529358625412,
+          "hybrid_score": 0.4639177918434143
+        },
+        {
+          "id": "isFamily_006621",
+          "document": "bên ngoại của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7253791093826294,
+          "sparse_similarity": 0.20080885291099548,
+          "hybrid_score": 0.46309399604797363
+        }
+      ]
+    ],
+    "eng_translation": [
+      "prolapse into the vagina",
+      "Vaginal Prolapse"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "căng tức vùng âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       644,
       664
-    ]
+    ],
+    "sentence": "Cảm giác [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000056",
+          "document": "[ENTITY] được nghĩ đến.",
+          "dense_similarity": 0.8345012664794922,
+          "sparse_similarity": 0.19146229326725006,
+          "hybrid_score": 0.5129817724227905
+        },
+        {
+          "id": "isUncertain_000114",
+          "document": "dường như [ENTITY].",
+          "dense_similarity": 0.8367933630943298,
+          "sparse_similarity": 0.18854163587093353,
+          "hybrid_score": 0.5126674771308899
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8055264949798584,
+          "sparse_similarity": 0.21584481000900269,
+          "hybrid_score": 0.5106856822967529
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain in the vaginal area",
+      "pelvic pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tiểu dắt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       666,
       674
-    ]
+    ],
+    "sentence": "[ENTITY] .",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.863334059715271,
+          "sparse_similarity": 0.2508750557899475,
+          "hybrid_score": 0.5571045875549316
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8416154384613037,
+          "sparse_similarity": 0.25017818808555603,
+          "hybrid_score": 0.5458968281745911
+        },
+        {
+          "id": "isUncertain_000097",
+          "document": "co le [ENTITY].",
+          "dense_similarity": 0.867133617401123,
+          "sparse_similarity": 0.20213063061237335,
+          "hybrid_score": 0.53463214635849
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Oliguria",
+      "Decreased urine output"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tiểu không tự chủ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       676,
       693
-    ]
+    ],
+    "sentence": "[ENTITY], xuất hiện từng đợt.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022169",
+          "document": "sau một đợt [ENTITY].",
+          "dense_similarity": 0.8211676478385925,
+          "sparse_similarity": 0.24489711225032806,
+          "hybrid_score": 0.5330323576927185
+        },
+        {
+          "id": "isHistorical_007815",
+          "document": "[ENTITY] trong đợt trước.",
+          "dense_similarity": 0.7924343347549438,
+          "sparse_similarity": 0.27253609895706177,
+          "hybrid_score": 0.5324852466583252
+        },
+        {
+          "id": "isHistorical_034249",
+          "document": "đợt trước [ENTITY].",
+          "dense_similarity": 0.7834779620170593,
+          "sparse_similarity": 0.2763396203517914,
+          "hybrid_score": 0.5299087762832642
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Incontinence",
+      "Urinary Incontinence"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Táo bón",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       715,
       722
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Khô âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       723,
       733
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Vaginal dryness",
+      "Atrophy of the vaginal mucosa"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đau khi giao hợp",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       735,
       751
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Pain during intercourse",
+      "Dyspareunia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ra huyết âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       753,
       768
-    ]
+    ],
+    "sentence": "[ENTITY] lượng ít, từng đợt.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000052",
+          "document": "[ENTITY] ít khả năng.",
+          "dense_similarity": 0.7929159998893738,
+          "sparse_similarity": 0.26280710101127625,
+          "hybrid_score": 0.5278615355491638
+        },
+        {
+          "id": "isUncertain_000224",
+          "document": "ít nghĩ [ENTITY].",
+          "dense_similarity": 0.8066827654838562,
+          "sparse_similarity": 0.23527301847934723,
+          "hybrid_score": 0.5209779143333435
+        },
+        {
+          "id": "isHistorical_007815",
+          "document": "[ENTITY] trong đợt trước.",
+          "dense_similarity": 0.7524795532226562,
+          "sparse_similarity": 0.2586902976036072,
+          "hybrid_score": 0.5055849552154541
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Vaginal bleeding",
+      "Uterine bleeding"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ít",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       775,
       777
-    ]
+    ],
+    "sentence": "Ra huyết âm đạo lượng [ENTITY], từng đợt.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011603",
+          "document": "con ruột sản phụ từng mắc [ENTITY].",
+          "dense_similarity": 0.6690313816070557,
+          "sparse_similarity": 0.10376312583684921,
+          "hybrid_score": 0.38639724254608154
+        },
+        {
+          "id": "isFamily_003449",
+          "document": "ba ruột sản phụ từng mắc [ENTITY].",
+          "dense_similarity": 0.6576613187789917,
+          "sparse_similarity": 0.08929765969514847,
+          "hybrid_score": 0.3734794855117798
+        },
+        {
+          "id": "isFamily_001078",
+          "document": "[ENTITY] ở mẹ ruột bệnh nhân.",
+          "dense_similarity": 0.6649549007415771,
+          "sparse_similarity": 0.08022484183311462,
+          "hybrid_score": 0.3725898861885071
+        }
+      ]
+    ],
+    "eng_translation": [
+      "little",
+      "Little's disease"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau khi đi tiểu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1138,
       1153
-    ]
+    ],
+    "sentence": "- không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000202",
+          "document": "không [ENTITY].",
+          "dense_similarity": 0.9745699167251587,
+          "sparse_similarity": 0.256393700838089,
+          "hybrid_score": 0.6154817938804626
+        },
+        {
+          "id": "isNegated_000214",
+          "document": "không hề [ENTITY].",
+          "dense_similarity": 0.9111169576644897,
+          "sparse_similarity": 0.21908454596996307,
+          "hybrid_score": 0.5651007294654846
+        },
+        {
+          "id": "isNegated_000205",
+          "document": "không có [ENTITY].",
+          "dense_similarity": 0.8704549074172974,
+          "sparse_similarity": 0.2463202029466629,
+          "hybrid_score": 0.5583875775337219
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain on urination",
+      "Dysuria"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiểu máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1166,
       1174
-    ]
+    ],
+    "sentence": "- Phủ nhận [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "phủ nhận [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000264",
+          "document": "phủ nhận [ENTITY].",
+          "dense_similarity": 0.9691674709320068,
+          "sparse_similarity": 0.16380523145198822,
+          "hybrid_score": 0.5664863586425781
+        },
+        {
+          "id": "isNegated_000049",
+          "document": "bn phủ nhận [ENTITY].",
+          "dense_similarity": 0.899821937084198,
+          "sparse_similarity": 0.15251022577285767,
+          "hybrid_score": 0.5261660814285278
+        },
+        {
+          "id": "isNegated_000244",
+          "document": "người bệnh phủ nhận [ENTITY].",
+          "dense_similarity": 0.8532735705375671,
+          "sparse_similarity": 0.14502690732479095,
+          "hybrid_score": 0.49915024638175964
+        }
+      ]
+    ],
+    "eng_translation": [
+      "hematuria",
+      "Blood in urine"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sỏi thận",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1244,
       1252
-    ]
+    ],
+    "sentence": "- không [ENTITY]\n- không viêm bể thận.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000204",
+          "document": "không bị [ENTITY].",
+          "dense_similarity": 0.7750640511512756,
+          "sparse_similarity": 0.15344111621379852,
+          "hybrid_score": 0.4642525911331177
+        },
+        {
+          "id": "isNegated_000215",
+          "document": "không mắc [ENTITY].",
+          "dense_similarity": 0.7589506506919861,
+          "sparse_similarity": 0.14652188122272491,
+          "hybrid_score": 0.4527362585067749
+        },
+        {
+          "id": "isNegated_000202",
+          "document": "không [ENTITY].",
+          "dense_similarity": 0.7361849546432495,
+          "sparse_similarity": 0.16050615906715393,
+          "hybrid_score": 0.4483455419540405
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Kidney stones",
+      "Nephrolithiasis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm bể thận",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1261,
       1273
-    ]
+    ],
+    "sentence": "- không sỏi thận\n- không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000202",
+          "document": "không [ENTITY].",
+          "dense_similarity": 0.8051546812057495,
+          "sparse_similarity": 0.19228705763816833,
+          "hybrid_score": 0.4987208843231201
+        },
+        {
+          "id": "isNegated_000204",
+          "document": "không bị [ENTITY].",
+          "dense_similarity": 0.7956300973892212,
+          "sparse_similarity": 0.183015838265419,
+          "hybrid_score": 0.4893229603767395
+        },
+        {
+          "id": "isNegated_000215",
+          "document": "không mắc [ENTITY].",
+          "dense_similarity": 0.7864481806755066,
+          "sparse_similarity": 0.17524580657482147,
+          "hybrid_score": 0.48084700107574463
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Pyelonephritis",
+      "Renal infection",
+      "Pyelonephritis is a medical condition that involves inflammation of the kidney and the renal pelvis, typically caused by a bacterial infection. It is often a complication of a urinary tract infection (UTI) that has spread from the bladder to the kidneys. Symptoms may include fever, flank pain, nausea, vomiting, and dysuria. Diagnosis is usually confirmed through urine analysis and culture, and treatment typically involves antibiotics. In severe cases, hospitalization may be required."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

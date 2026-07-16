@@ -2,121 +2,793 @@
   {
     "text": "loạn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       199,
       203
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    - 2 lần tự tửdo quá liều klonopinclonidine điều trị đặt nội khí quản tại khoa Hồi sức tích cực\n  - Mẹ Đã tử vong trong lần nhập viện gần đây nhất\n    Các bệnh mãn tính\n    - Rối [ENTITY] cảm xúc \n    - Rối loạn lưỡng cực\n    - rối loạn lo âu\n    Thuốc đã điều trị trước khi nhập viện lần này\n    - Thuốc kê đơn (tên không được chỉ định)\n    - klonopinclonidine (được kê đơn)\n    - clonidine (mua trên đường phố)\n    - suboxone (bắt đầu 3 tuần trước), không dùng đều 5-6 ngày, dừng thuốc trước nhập viện 01 ngày\n    Các yếu tố nguy cơ liên quan\n    - Lạm dụng chất kích thích, chất gây nghiện opioid\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "mẹ"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6119115352630615,
+          "sparse_similarity": 0.1351919323205948,
+          "hybrid_score": 0.37355172634124756
+        },
+        {
+          "id": "isHistorical_000610",
+          "document": "2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6211830973625183,
+          "sparse_similarity": 0.10806868970394135,
+          "hybrid_score": 0.3646259009838104
+        },
+        {
+          "id": "isHistorical_019976",
+          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6200560331344604,
+          "sparse_similarity": 0.10857070982456207,
+          "hybrid_score": 0.36431336402893066
+        }
+      ]
+    ],
+    "eng_translation": [
+      "disorder",
+      "Medical Condition"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loạn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       223,
       227
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    - 2 lần tự tửdo quá liều klonopinclonidine điều trị đặt nội khí quản tại khoa Hồi sức tích cực\n  - Mẹ Đã tử vong trong lần nhập viện gần đây nhất\n    Các bệnh mãn tính\n    - Rối loạn cảm xúc \n    - Rối [ENTITY] lưỡng cực\n    - rối loạn lo âu\n    Thuốc đã điều trị trước khi nhập viện lần này\n    - Thuốc kê đơn (tên không được chỉ định)\n    - klonopinclonidine (được kê đơn)\n    - clonidine (mua trên đường phố)\n    - suboxone (bắt đầu 3 tuần trước), không dùng đều 5-6 ngày, dừng thuốc trước nhập viện 01 ngày\n    Các yếu tố nguy cơ liên quan\n    - Lạm dụng chất kích thích, chất gây nghiện opioid\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "mẹ"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6127969026565552,
+          "sparse_similarity": 0.1383286565542221,
+          "hybrid_score": 0.37556278705596924
+        },
+        {
+          "id": "isHistorical_000610",
+          "document": "2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6204178333282471,
+          "sparse_similarity": 0.11067253351211548,
+          "hybrid_score": 0.3655451834201813
+        },
+        {
+          "id": "isHistorical_019976",
+          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6196308135986328,
+          "sparse_similarity": 0.11122377961874008,
+          "hybrid_score": 0.36542728543281555
+        }
+      ]
+    ],
+    "eng_translation": [
+      "disorder",
+      "Medical Condition"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rối",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       244,
       247
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    - 2 lần tự tửdo quá liều klonopinclonidine điều trị đặt nội khí quản tại khoa Hồi sức tích cực\n  - Mẹ Đã tử vong trong lần nhập viện gần đây nhất\n    Các bệnh mãn tính\n    - Rối loạn cảm xúc \n    - Rối loạn lưỡng cực\n    - [ENTITY] loạn lo âu\n    Thuốc đã điều trị trước khi nhập viện lần này\n    - Thuốc kê đơn (tên không được chỉ định)\n    - klonopinclonidine (được kê đơn)\n    - clonidine (mua trên đường phố)\n    - suboxone (bắt đầu 3 tuần trước), không dùng đều 5-6 ngày, dừng thuốc trước nhập viện 01 ngày\n    Các yếu tố nguy cơ liên quan\n    - Lạm dụng chất kích thích, chất gây nghiện opioid\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "mẹ"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6108778715133667,
+          "sparse_similarity": 0.14489150047302246,
+          "hybrid_score": 0.3778846859931946
+        },
+        {
+          "id": "isHistorical_019976",
+          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6157795190811157,
+          "sparse_similarity": 0.11760489642620087,
+          "hybrid_score": 0.3666922152042389
+        },
+        {
+          "id": "isHistorical_000610",
+          "document": "2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6159983277320862,
+          "sparse_similarity": 0.11701761931180954,
+          "hybrid_score": 0.36650797724723816
+        }
+      ]
+    ],
+    "eng_translation": [
+      "rối",
+      "Rối loạn chức năng gan cấp tính do rượu",
+      "Rối loạn giấc ngủ do sử dụng chất gây nghiện"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "lo âu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       253,
       258
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    - 2 lần tự tửdo quá liều klonopinclonidine điều trị đặt nội khí quản tại khoa Hồi sức tích cực\n  - Mẹ Đã tử vong trong lần nhập viện gần đây nhất\n    Các bệnh mãn tính\n    - Rối loạn cảm xúc \n    - Rối loạn lưỡng cực\n    - rối loạn [ENTITY]\n    Thuốc đã điều trị trước khi nhập viện lần này\n    - Thuốc kê đơn (tên không được chỉ định)\n    - klonopinclonidine (được kê đơn)\n    - clonidine (mua trên đường phố)\n    - suboxone (bắt đầu 3 tuần trước), không dùng đều 5-6 ngày, dừng thuốc trước nhập viện 01 ngày\n    Các yếu tố nguy cơ liên quan\n    - Lạm dụng chất kích thích, chất gây nghiện opioid\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "mẹ"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6204911470413208,
+          "sparse_similarity": 0.16183802485466003,
+          "hybrid_score": 0.3911646008491516
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.615428626537323,
+          "sparse_similarity": 0.16031931340694427,
+          "hybrid_score": 0.38787397742271423
+        },
+        {
+          "id": "isHistorical_019976",
+          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6248548626899719,
+          "sparse_similarity": 0.12903185188770294,
+          "hybrid_score": 0.37694334983825684
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Anxiety",
+      "Anxiety Disorder"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "clonidine",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       398,
       407
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    - 2 lần tự tửdo quá liều klonopinclonidine điều trị đặt nội khí quản tại khoa Hồi sức tích cực\n  - Mẹ Đã tử vong trong lần nhập viện gần đây nhất\n    Các bệnh mãn tính\n    - Rối loạn cảm xúc \n    - Rối loạn lưỡng cực\n    - rối loạn lo âu\n    Thuốc đã điều trị trước khi nhập viện lần này\n    - Thuốc kê đơn (tên không được chỉ định)\n    - klonopinclonidine (được kê đơn)\n    - [ENTITY] (mua trên đường phố)\n    - suboxone (bắt đầu 3 tuần trước), không dùng đều 5-6 ngày, dừng thuốc trước nhập viện 01 ngày\n    Các yếu tố nguy cơ liên quan\n    - Lạm dụng chất kích thích, chất gây nghiện opioid\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "mẹ"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6247063875198364,
+          "sparse_similarity": 0.16573366522789001,
+          "hybrid_score": 0.3952200412750244
+        },
+        {
+          "id": "isHistorical_019976",
+          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6312261819839478,
+          "sparse_similarity": 0.13290250301361084,
+          "hybrid_score": 0.3820643424987793
+        },
+        {
+          "id": "isHistorical_000610",
+          "document": "2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6316959857940674,
+          "sparse_similarity": 0.13210800290107727,
+          "hybrid_score": 0.38190197944641113
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Clonidine",
+      "Alpha-2 Adrenergic Agonist"
+    ],
+    "retriever": {
+      "sapbert": {
+        "2599": 1.0,
+        "1024639": 0.980164,
+        "2277290": 0.882257,
+        "104499": 0.793657,
+        "91230": 0.780195
+      },
+      "rapidfuzz": {
+        "2599": 1.0,
+        "884198": 0.9,
+        "857395": 0.855,
+        "856719": 0.855,
+        "856706": 0.855
+      }
+    },
+    "candidate": {
+      "code": "2599",
+      "confidence": 1.0
+    }
   },
   {
     "text": "suboxone",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       435,
       443
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    - 2 lần tự tửdo quá liều klonopinclonidine điều trị đặt nội khí quản tại khoa Hồi sức tích cực\n  - Mẹ Đã tử vong trong lần nhập viện gần đây nhất\n    Các bệnh mãn tính\n    - Rối loạn cảm xúc \n    - Rối loạn lưỡng cực\n    - rối loạn lo âu\n    Thuốc đã điều trị trước khi nhập viện lần này\n    - Thuốc kê đơn (tên không được chỉ định)\n    - klonopinclonidine (được kê đơn)\n    - clonidine (mua trên đường phố)\n    - [ENTITY] (bắt đầu 3 tuần trước), không dùng đều 5-6 ngày, dừng thuốc trước nhập viện 01 ngày\n    Các yếu tố nguy cơ liên quan\n    - Lạm dụng chất kích thích, chất gây nghiện opioid\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "mẹ"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6352773308753967,
+          "sparse_similarity": 0.16322721540927887,
+          "hybrid_score": 0.3992522656917572
+        },
+        {
+          "id": "isHistorical_019976",
+          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6426687836647034,
+          "sparse_similarity": 0.13338744640350342,
+          "hybrid_score": 0.3880281150341034
+        },
+        {
+          "id": "isHistorical_000610",
+          "document": "2 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.642013669013977,
+          "sparse_similarity": 0.13237717747688293,
+          "hybrid_score": 0.3871954083442688
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Suboxone",
+      "Buprenorphine",
+      "Suboxone is a brand name for a combination medication that contains buprenorphine and naloxone. It is used to treat opioid dependence."
+    ],
+    "retriever": {
+      "sapbert": {
+        "352990": 1.0,
+        "1819": 1.0,
+        "203841": 0.922897,
+        "352364": 0.856366,
+        "1988927": 0.817369
+      },
+      "rapidfuzz": {
+        "352990": 1.0,
+        "1819": 1.0,
+        "1307059": 0.95,
+        "353390": 0.95,
+        "2269596": 0.9,
+        "1307063": 0.9,
+        "313599": 0.855,
+        "313650": 0.855
+      }
+    },
+    "candidate": {
+      "code": "1819",
+      "confidence": 1.0
+    }
   },
   {
     "text": "trầm cảm",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       726,
       734
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện:i ý định tự tử và ý nghĩ tự bắn vào đầu\n   Theo lời kể bệnh nhân bị [ENTITY] ngày càng nặng , vài tháng trước có các giai đoạn giống hưng cảm  biểu hiện bằng tăng hoạt động và giảm nhu cầu ngủ 3-4 ngày, trong vài tuần nay và có ý định tự tử.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6827712059020996,
+          "sparse_similarity": 0.23436172306537628,
+          "hybrid_score": 0.45856645703315735
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6813936233520508,
+          "sparse_similarity": 0.22682973742485046,
+          "hybrid_score": 0.4541116952896118
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6824250817298889,
+          "sparse_similarity": 0.2223229706287384,
+          "hybrid_score": 0.45237404108047485
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Depression",
+      "Major Depressive Disorder"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hưng cảm",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       791,
       799
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện:i ý định tự tử và ý nghĩ tự bắn vào đầu\n   Theo lời kể bệnh nhân bị trầm cảm ngày càng nặng , vài tháng trước có các giai đoạn giống [ENTITY]  biểu hiện bằng tăng hoạt động và giảm nhu cầu ngủ 3-4 ngày, trong vài tuần nay và có ý định tự tử.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6489683389663696,
+          "sparse_similarity": 0.17697831988334656,
+          "hybrid_score": 0.4129733443260193
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6478945016860962,
+          "sparse_similarity": 0.1689850091934204,
+          "hybrid_score": 0.4084397554397583
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.648571252822876,
+          "sparse_similarity": 0.16781684756278992,
+          "hybrid_score": 0.40819406509399414
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hưng cảm",
+      "Hưng cảm (common cold)"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suboxone",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       957,
       965
-    ]
+    ],
+    "sentence": "Thuốc kê đơn không dùng đều đặn x5-6 ngày, bắt đầu dùng [ENTITY] 3 tuần trước vì rẻ hơn, dừng dùng suboxone ngày hôm qua\n    Triệu chứng khi vào viện\n    - ý nghĩ tự tử, có nghĩ tự bắn vào đầu\n    - lo âu\nhoảng sợ\n    - hoang tưởng như đang chiếm khí oxy của người khác\n Điều trị\n    - Hiện đang được chăm sóc tâm thần bởi bác sĩ",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6175146698951721,
+          "sparse_similarity": 0.1013474315404892,
+          "hybrid_score": 0.35943105816841125
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6110303401947021,
+          "sparse_similarity": 0.09665139019489288,
+          "hybrid_score": 0.3538408577442169
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6177902221679688,
+          "sparse_similarity": 0.08825253695249557,
+          "hybrid_score": 0.35302138328552246
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Suboxone",
+      "Buprenorphine",
+      "Suboxone is a brand name for a combination medication that contains buprenorphine and naloxone. It is used to treat opioid dependence."
+    ],
+    "retriever": {
+      "sapbert": {
+        "352990": 1.0,
+        "1819": 1.0,
+        "203841": 0.922897,
+        "352364": 0.856366,
+        "1988927": 0.817369
+      },
+      "rapidfuzz": {
+        "352990": 1.0,
+        "1819": 1.0,
+        "1307059": 0.95,
+        "353390": 0.95,
+        "2269596": 0.9,
+        "1307063": 0.9,
+        "313599": 0.855,
+        "313650": 0.855
+      }
+    },
+    "candidate": {
+      "code": "1819",
+      "confidence": 1.0
+    }
   },
   {
     "text": "suboxone",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1000,
       1008
-    ]
+    ],
+    "sentence": "Thuốc kê đơn không dùng đều đặn x5-6 ngày, bắt đầu dùng suboxone 3 tuần trước vì rẻ hơn, dừng dùng [ENTITY] ngày hôm qua\n    Triệu chứng khi vào viện\n    - ý nghĩ tự tử, có nghĩ tự bắn vào đầu\n    - lo âu\nhoảng sợ\n    - hoang tưởng như đang chiếm khí oxy của người khác\n Điều trị\n    - Hiện đang được chăm sóc tâm thần bởi bác sĩ",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "3 tuần trước vì rẻ hơn, dừng dùng [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6209572553634644,
+          "sparse_similarity": 0.10472079366445541,
+          "hybrid_score": 0.362839013338089
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6141127347946167,
+          "sparse_similarity": 0.09994670748710632,
+          "hybrid_score": 0.3570297360420227
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6165376901626587,
+          "sparse_similarity": 0.09739629179239273,
+          "hybrid_score": 0.3569670021533966
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Suboxone",
+      "Buprenorphine",
+      "Suboxone is a brand name for a combination medication that contains buprenorphine and naloxone. It is used to treat opioid dependence."
+    ],
+    "retriever": {
+      "sapbert": {
+        "352990": 1.0,
+        "1819": 1.0,
+        "203841": 0.922897,
+        "352364": 0.856366,
+        "1988927": 0.817369
+      },
+      "rapidfuzz": {
+        "352990": 1.0,
+        "1819": 1.0,
+        "1307059": 0.95,
+        "353390": 0.95,
+        "2269596": 0.9,
+        "1307063": 0.9,
+        "313599": 0.855,
+        "313650": 0.855
+      }
+    },
+    "candidate": {
+      "code": "1819",
+      "confidence": 1.0
+    }
   },
   {
     "text": "có",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1071,
       1073
-    ]
+    ],
+    "sentence": "Thuốc kê đơn không dùng đều đặn x5-6 ngày, bắt đầu dùng suboxone 3 tuần trước vì rẻ hơn, dừng dùng suboxone ngày hôm qua\n    Triệu chứng khi vào viện\n    - ý nghĩ tự tử, [ENTITY] nghĩ tự bắn vào đầu\n    - lo âu\nhoảng sợ\n    - hoang tưởng như đang chiếm khí oxy của người khác\n Điều trị\n    - Hiện đang được chăm sóc tâm thần bởi bác sĩ",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6183763742446899,
+          "sparse_similarity": 0.09205968677997589,
+          "hybrid_score": 0.3552180230617523
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6131054759025574,
+          "sparse_similarity": 0.08745577186346054,
+          "hybrid_score": 0.35028061270713806
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6143366098403931,
+          "sparse_similarity": 0.08554551750421524,
+          "hybrid_score": 0.34994107484817505
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Yes.",
+      "No."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đầu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1090,
       1093
-    ]
+    ],
+    "sentence": "Thuốc kê đơn không dùng đều đặn x5-6 ngày, bắt đầu dùng suboxone 3 tuần trước vì rẻ hơn, dừng dùng suboxone ngày hôm qua\n    Triệu chứng khi vào viện\n    - ý nghĩ tự tử, có nghĩ tự bắn vào [ENTITY]\n    - lo âu\nhoảng sợ\n    - hoang tưởng như đang chiếm khí oxy của người khác\n Điều trị\n    - Hiện đang được chăm sóc tâm thần bởi bác sĩ",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6241539716720581,
+          "sparse_similarity": 0.09012670069932938,
+          "hybrid_score": 0.35714033246040344
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6211535930633545,
+          "sparse_similarity": 0.08370033651590347,
+          "hybrid_score": 0.3524269759654999
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6188887357711792,
+          "sparse_similarity": 0.08539466559886932,
+          "hybrid_score": 0.35214170813560486
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Headache"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "lo âu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1100,
       1105
-    ]
+    ],
+    "sentence": "Thuốc kê đơn không dùng đều đặn x5-6 ngày, bắt đầu dùng suboxone 3 tuần trước vì rẻ hơn, dừng dùng suboxone ngày hôm qua\n    Triệu chứng khi vào viện\n    - ý nghĩ tự tử, có nghĩ tự bắn vào đầu\n    - [ENTITY]\nhoảng sợ\n    - hoang tưởng như đang chiếm khí oxy của người khác\n Điều trị\n    - Hiện đang được chăm sóc tâm thần bởi bác sĩ",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.617429792881012,
+          "sparse_similarity": 0.09091249108314514,
+          "hybrid_score": 0.35417115688323975
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6126134395599365,
+          "sparse_similarity": 0.08635883033275604,
+          "hybrid_score": 0.3494861423969269
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6142686009407043,
+          "sparse_similarity": 0.08444628119468689,
+          "hybrid_score": 0.3493574261665344
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Anxiety",
+      "Anxiety Disorder"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hoảng sợ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1106,
       1114
-    ]
+    ],
+    "sentence": "Thuốc kê đơn không dùng đều đặn x5-6 ngày, bắt đầu dùng suboxone 3 tuần trước vì rẻ hơn, dừng dùng suboxone ngày hôm qua\n    Triệu chứng khi vào viện\n    - ý nghĩ tự tử, có nghĩ tự bắn vào đầu\n    - lo âu\n[ENTITY]\n    - hoang tưởng như đang chiếm khí oxy của người khác\n Điều trị\n    - Hiện đang được chăm sóc tâm thần bởi bác sĩ",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.628627359867096,
+          "sparse_similarity": 0.10038752853870392,
+          "hybrid_score": 0.36450743675231934
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6234069466590881,
+          "sparse_similarity": 0.09549873322248459,
+          "hybrid_score": 0.35945284366607666
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6247503757476807,
+          "sparse_similarity": 0.0932486355304718,
+          "hybrid_score": 0.35899949073791504
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fear",
+      "anxiety"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hoang tưởng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1121,
       1132
-    ]
+    ],
+    "sentence": "Thuốc kê đơn không dùng đều đặn x5-6 ngày, bắt đầu dùng suboxone 3 tuần trước vì rẻ hơn, dừng dùng suboxone ngày hôm qua\n    Triệu chứng khi vào viện\n    - ý nghĩ tự tử, có nghĩ tự bắn vào đầu\n    - lo âu\nhoảng sợ\n    - [ENTITY] như đang chiếm khí oxy của người khác\n Điều trị\n    - Hiện đang được chăm sóc tâm thần bởi bác sĩ",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6312608122825623,
+          "sparse_similarity": 0.10100460052490234,
+          "hybrid_score": 0.3661327064037323
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6275463700294495,
+          "sparse_similarity": 0.09386896342039108,
+          "hybrid_score": 0.36070767045021057
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6233386993408203,
+          "sparse_similarity": 0.09631115943193436,
+          "hybrid_score": 0.35982492566108704
+        }
+      ]
+    ],
+    "eng_translation": [
+      "hallucination",
+      "Illusion"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

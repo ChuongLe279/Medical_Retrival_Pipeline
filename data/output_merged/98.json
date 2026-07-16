@@ -2,81 +2,483 @@
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       53,
       66
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Bệnh mãn tính: tiền sử [ENTITY]\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.7412989735603333,
+          "sparse_similarity": 0.26958757638931274,
+          "hybrid_score": 0.505443274974823
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.7360458970069885,
+          "sparse_similarity": 0.27475616335868835,
+          "hybrid_score": 0.5054010152816772
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.7777382731437683,
+          "sparse_similarity": 0.2089923471212387,
+          "hybrid_score": 0.4933653175830841
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       165,
       167
-    ]
+    ],
+    "sentence": "Triệu chứng hiện tại\n    - [ENTITY]\n    - đau lưng\n    Cận lâm sàng  trước khi nhập viện\n    - phim chụp CT hình ảnh tổn thương tiêu xương lan tỏa phù hợp với đa u tuỷ xương\n    - Xét nghiệm : Định lượng IgA tăng cao trong bệnh đa u tuỷ xương\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003351",
+          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5854830741882324,
+          "sparse_similarity": 0.07050375640392303,
+          "hybrid_score": 0.3279934227466583
+        },
+        {
+          "id": "isFamily_003440",
+          "document": "ba ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5792598724365234,
+          "sparse_similarity": 0.07522007822990417,
+          "hybrid_score": 0.327239990234375
+        },
+        {
+          "id": "isFamily_003353",
+          "document": "ba ruột bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5758978724479675,
+          "sparse_similarity": 0.07461786270141602,
+          "hybrid_score": 0.3252578675746918
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau lưng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       174,
       182
-    ]
+    ],
+    "sentence": "Triệu chứng hiện tại\n    - ho\n    - [ENTITY]\n    Cận lâm sàng  trước khi nhập viện\n    - phim chụp CT hình ảnh tổn thương tiêu xương lan tỏa phù hợp với đa u tuỷ xương\n    - Xét nghiệm : Định lượng IgA tăng cao trong bệnh đa u tuỷ xương\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5722516775131226,
+          "sparse_similarity": 0.08127401024103165,
+          "hybrid_score": 0.326762855052948
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5770425796508789,
+          "sparse_similarity": 0.07641953229904175,
+          "hybrid_score": 0.3267310559749603
+        },
+        {
+          "id": "isFamily_003351",
+          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5846494436264038,
+          "sparse_similarity": 0.06095544993877411,
+          "hybrid_score": 0.32280245423316956
+        }
+      ]
+    ],
+    "eng_translation": [
+      "back pain",
+      "Low back pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp CT",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       232,
       239
-    ]
+    ],
+    "sentence": "Triệu chứng hiện tại\n    - ho\n    - đau lưng\n    Cận lâm sàng  trước khi nhập viện\n    - phim [ENTITY] hình ảnh tổn thương tiêu xương lan tỏa phù hợp với đa u tuỷ xương\n    - Xét nghiệm : Định lượng IgA tăng cao trong bệnh đa u tuỷ xương\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003351",
+          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.583975613117218,
+          "sparse_similarity": 0.07417399436235428,
+          "hybrid_score": 0.32907480001449585
+        },
+        {
+          "id": "isFamily_003440",
+          "document": "ba ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.577817440032959,
+          "sparse_similarity": 0.07925274968147278,
+          "hybrid_score": 0.3285350799560547
+        },
+        {
+          "id": "isFamily_003353",
+          "document": "ba ruột bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5773375034332275,
+          "sparse_similarity": 0.07847770303487778,
+          "hybrid_score": 0.32790759205818176
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu xương",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       260,
       270
-    ]
+    ],
+    "sentence": "Triệu chứng hiện tại\n    - ho\n    - đau lưng\n    Cận lâm sàng  trước khi nhập viện\n    - phim chụp CT hình ảnh tổn thương [ENTITY] lan tỏa phù hợp với đa u tuỷ xương\n    - Xét nghiệm : Định lượng IgA tăng cao trong bệnh đa u tuỷ xương\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5704177618026733,
+          "sparse_similarity": 0.0913190245628357,
+          "hybrid_score": 0.3308683931827545
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5652070045471191,
+          "sparse_similarity": 0.0955132395029068,
+          "hybrid_score": 0.3303601145744324
+        },
+        {
+          "id": "isFamily_003351",
+          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5865366458892822,
+          "sparse_similarity": 0.07236087322235107,
+          "hybrid_score": 0.32944875955581665
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Osteolysis",
+      "Bone resorption"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đa u tuỷ xương",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       291,
       305
-    ]
+    ],
+    "sentence": "Triệu chứng hiện tại\n    - ho\n    - đau lưng\n    Cận lâm sàng  trước khi nhập viện\n    - phim chụp CT hình ảnh tổn thương tiêu xương lan tỏa phù hợp với [ENTITY]\n    - Xét nghiệm : Định lượng IgA tăng cao trong bệnh đa u tuỷ xương\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003351",
+          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5817285180091858,
+          "sparse_similarity": 0.06204810366034508,
+          "hybrid_score": 0.3218882977962494
+        },
+        {
+          "id": "isFamily_003440",
+          "document": "ba ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5761598348617554,
+          "sparse_similarity": 0.06670444458723068,
+          "hybrid_score": 0.3214321434497833
+        },
+        {
+          "id": "isFamily_003353",
+          "document": "ba ruột bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.573695957660675,
+          "sparse_similarity": 0.06559959053993225,
+          "hybrid_score": 0.31964778900146484
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Multiple myeloma",
+      "Plasma cell neoplasm"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Định lượng IgA",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       325,
       339
-    ]
+    ],
+    "sentence": "Triệu chứng hiện tại\n    - ho\n    - đau lưng\n    Cận lâm sàng  trước khi nhập viện\n    - phim chụp CT hình ảnh tổn thương tiêu xương lan tỏa phù hợp với đa u tuỷ xương\n    - Xét nghiệm : [ENTITY] tăng cao trong bệnh đa u tuỷ xương\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_003351",
+          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6283319592475891,
+          "sparse_similarity": 0.0760311633348465,
+          "hybrid_score": 0.3521815538406372
+        },
+        {
+          "id": "isFamily_003440",
+          "document": "ba ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.620104968547821,
+          "sparse_similarity": 0.08088569343090057,
+          "hybrid_score": 0.3504953384399414
+        },
+        {
+          "id": "isFamily_003353",
+          "document": "ba ruột bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6201898455619812,
+          "sparse_similarity": 0.0805109292268753,
+          "hybrid_score": 0.35035037994384766
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Quantitative IgA",
+      "Quantitative Immunoglobulin A"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh đa u tuỷ xương",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       355,
       374
-    ]
+    ],
+    "sentence": "Triệu chứng hiện tại\n    - ho\n    - đau lưng\n    Cận lâm sàng  trước khi nhập viện\n    - phim chụp CT hình ảnh tổn thương tiêu xương lan tỏa phù hợp với đa u tuỷ xương\n    - Xét nghiệm : Định lượng IgA tăng cao trong [ENTITY]\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5955719947814941,
+          "sparse_similarity": 0.15239866077899933,
+          "hybrid_score": 0.37398532032966614
+        },
+        {
+          "id": "isFamily_003351",
+          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6102375984191895,
+          "sparse_similarity": 0.04220685362815857,
+          "hybrid_score": 0.3262222409248352
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5958961248397827,
+          "sparse_similarity": 0.05477089434862137,
+          "hybrid_score": 0.32533350586891174
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Multiple myeloma",
+      "Plasma cell neoplasm"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu xương",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       451,
       461
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: các tổn thương ổ [ENTITY] lan tỏa\n    Chẩn đoán: Đa u tủy xương",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6437954306602478,
+          "sparse_similarity": 0.11587624251842499,
+          "hybrid_score": 0.379835844039917
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6360591650009155,
+          "sparse_similarity": 0.11757934093475342,
+          "hybrid_score": 0.3768192529678345
+        },
+        {
+          "id": "isFamily_025022",
+          "document": "thân nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6340343952178955,
+          "sparse_similarity": 0.11355241388082504,
+          "hybrid_score": 0.3737933933734894
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Osteolysis",
+      "Bone resorption"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đa u tủy xương",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       485,
       499
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: các tổn thương ổ tiêu xương lan tỏa\n    Chẩn đoán: [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_025022",
+          "document": "thân nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6340974569320679,
+          "sparse_similarity": 0.13526886701583862,
+          "hybrid_score": 0.38468316197395325
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6357991695404053,
+          "sparse_similarity": 0.1310567855834961,
+          "hybrid_score": 0.3834279775619507
+        },
+        {
+          "id": "isFamily_006631",
+          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6387860774993896,
+          "sparse_similarity": 0.12763634324073792,
+          "hybrid_score": 0.3832111954689026
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Multiple myeloma",
+      "Plasma cell neoplasm"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

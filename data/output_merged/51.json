@@ -2,305 +2,1831 @@
   {
     "text": "Đái tháo đường type 2",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       57,
       78
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - [ENTITY]\n    - Tăng huyết áp\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội khoa các bệnh lý mạn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6692350506782532,
+          "sparse_similarity": 0.18177607655525208,
+          "hybrid_score": 0.4255055785179138
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6625894904136658,
+          "sparse_similarity": 0.1881791204214096,
+          "hybrid_score": 0.4253843128681183
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.6903784871101379,
+          "sparse_similarity": 0.13473647832870483,
+          "hybrid_score": 0.4125574827194214
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Type 2 diabetes mellitus",
+      "Diabetes mellitus type 2"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tăng huyết áp\n\n2",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       85,
       101
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Đái tháo đường type 2\n    - [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6739118099212646,
+          "sparse_similarity": 0.191802516579628,
+          "hybrid_score": 0.4328571557998657
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.7116686105728149,
+          "sparse_similarity": 0.14433014392852783,
+          "hybrid_score": 0.4279993772506714
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6746214628219604,
+          "sparse_similarity": 0.15543031692504883,
+          "hybrid_score": 0.41502588987350464
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension 2",
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó chịu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       214,
       222
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy [ENTITY] chung\n    - nghẹt mũi nhiều hơn\n    - đau đầu bên trái\n    - mệt mỏi\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  phân đen, nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025709",
+          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5962935090065002,
+          "sparse_similarity": 0.10170667618513107,
+          "hybrid_score": 0.34900009632110596
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5990588068962097,
+          "sparse_similarity": 0.09788910299539566,
+          "hybrid_score": 0.3484739661216736
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5951747894287109,
+          "sparse_similarity": 0.10166391730308533,
+          "hybrid_score": 0.3484193682670593
+        }
+      ]
+    ],
+    "eng_translation": [
+      "discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nghẹt mũi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       235,
       244
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - [ENTITY] nhiều hơn\n    - đau đầu bên trái\n    - mệt mỏi\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  phân đen, nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025727",
+          "document": "từ 5 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6001296043395996,
+          "sparse_similarity": 0.10430750995874405,
+          "hybrid_score": 0.3522185683250427
+        },
+        {
+          "id": "isHistorical_025709",
+          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5965455174446106,
+          "sparse_similarity": 0.10668661445379257,
+          "hybrid_score": 0.3516160547733307
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5974286198616028,
+          "sparse_similarity": 0.10264082998037338,
+          "hybrid_score": 0.3500347137451172
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nasal congestion",
+      "Rhinitis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau đầu bên trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       261,
       277
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - nghẹt mũi nhiều hơn\n    - [ENTITY]\n    - mệt mỏi\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  phân đen, nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025709",
+          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.587287425994873,
+          "sparse_similarity": 0.099100261926651,
+          "hybrid_score": 0.34319382905960083
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.58611661195755,
+          "sparse_similarity": 0.09931334853172302,
+          "hybrid_score": 0.34271496534347534
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5894899964332581,
+          "sparse_similarity": 0.09545733779668808,
+          "hybrid_score": 0.3424736559391022
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Left-sided headache"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       284,
       291
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - nghẹt mũi nhiều hơn\n    - đau đầu bên trái\n    - [ENTITY]\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  phân đen, nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025709",
+          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5946863293647766,
+          "sparse_similarity": 0.09788129478693008,
+          "hybrid_score": 0.34628382325172424
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5931347608566284,
+          "sparse_similarity": 0.09809357672929764,
+          "hybrid_score": 0.34561416506767273
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5966611504554749,
+          "sparse_similarity": 0.09431464225053787,
+          "hybrid_score": 0.34548789262771606
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       298,
       307
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - nghẹt mũi nhiều hơn\n    - đau đầu bên trái\n    - mệt mỏi\n    - [ENTITY]\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  phân đen, nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025709",
+          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5857895016670227,
+          "sparse_similarity": 0.09353651106357574,
+          "hybrid_score": 0.33966299891471863
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.588590681552887,
+          "sparse_similarity": 0.09000499546527863,
+          "hybrid_score": 0.3392978310585022
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5852553844451904,
+          "sparse_similarity": 0.09324541687965393,
+          "hybrid_score": 0.339250385761261
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       339,
       348
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - nghẹt mũi nhiều hơn\n    - đau đầu bên trái\n    - mệt mỏi\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - [ENTITY]: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  phân đen, nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025727",
+          "document": "từ 5 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5981515049934387,
+          "sparse_similarity": 0.10130247473716736,
+          "hybrid_score": 0.34972697496414185
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5990235805511475,
+          "sparse_similarity": 0.09706677496433258,
+          "hybrid_score": 0.3480451703071594
+        },
+        {
+          "id": "isHistorical_020775",
+          "document": "khoảng 5 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5970546007156372,
+          "sparse_similarity": 0.09863097965717316,
+          "hybrid_score": 0.3478427827358246
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       359,
       368
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - nghẹt mũi nhiều hơn\n    - đau đầu bên trái\n    - mệt mỏi\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần [ENTITY] bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  phân đen, nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025727",
+          "document": "từ 5 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6033587455749512,
+          "sparse_similarity": 0.1105899065732956,
+          "hybrid_score": 0.356974333524704
+        },
+        {
+          "id": "isHistorical_025709",
+          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6011227369308472,
+          "sparse_similarity": 0.11152593791484833,
+          "hybrid_score": 0.35632434487342834
+        },
+        {
+          "id": "isHistorical_024935",
+          "document": "từ 2 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6094157099723816,
+          "sparse_similarity": 0.09979581832885742,
+          "hybrid_score": 0.3546057641506195
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       418,
       427
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - nghẹt mũi nhiều hơn\n    - đau đầu bên trái\n    - mệt mỏi\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - [ENTITY]: không thấy  phân đen, nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025709",
+          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6005393862724304,
+          "sparse_similarity": 0.10679838061332703,
+          "hybrid_score": 0.35366886854171753
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5997507572174072,
+          "sparse_similarity": 0.10718250274658203,
+          "hybrid_score": 0.35346662998199463
+        },
+        {
+          "id": "isHistorical_025727",
+          "document": "từ 5 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6014550924301147,
+          "sparse_similarity": 0.10420379787683487,
+          "hybrid_score": 0.3528294563293457
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phân đen",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       441,
       449
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - nghẹt mũi nhiều hơn\n    - đau đầu bên trái\n    - mệt mỏi\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  [ENTITY], nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là 2.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không thấy [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025709",
+          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5920581817626953,
+          "sparse_similarity": 0.09456732869148254,
+          "hybrid_score": 0.34331274032592773
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5905765295028687,
+          "sparse_similarity": 0.09535432606935501,
+          "hybrid_score": 0.34296542406082153
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5942588448524475,
+          "sparse_similarity": 0.0913771316409111,
+          "hybrid_score": 0.3428179919719696
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Melena",
+      "Hematochezia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       457,
       460
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - nghẹt mũi nhiều hơn\n    - đau đầu bên trái\n    - mệt mỏi\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  phân đen, nhầy, [ENTITY] đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025709",
+          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5963539481163025,
+          "sparse_similarity": 0.09910695254802704,
+          "hybrid_score": 0.34773045778274536
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5981437563896179,
+          "sparse_similarity": 0.09525726735591888,
+          "hybrid_score": 0.346700519323349
+        },
+        {
+          "id": "isHistorical_025727",
+          "document": "từ 5 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.59647536277771,
+          "sparse_similarity": 0.09524955600500107,
+          "hybrid_score": 0.3458624482154846
+        }
+      ]
+    ],
+    "eng_translation": [
+      "blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       583,
       587
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - nghẹt mũi nhiều hơn\n    - đau đầu bên trái\n    - mệt mỏi\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  phân đen, nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy [ENTITY] là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000593",
+          "document": "2 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6540355682373047,
+          "sparse_similarity": 0.12606540322303772,
+          "hybrid_score": 0.39005047082901
+        },
+        {
+          "id": "isHistorical_000623",
+          "document": "2 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6581630706787109,
+          "sparse_similarity": 0.12121477723121643,
+          "hybrid_score": 0.3896889090538025
+        },
+        {
+          "id": "isHistorical_025727",
+          "document": "từ 5 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6475816369056702,
+          "sparse_similarity": 0.13108676671981812,
+          "hybrid_score": 0.38933420181274414
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Kali",
+      "Hyperkalemia",
+      "Potassium"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "2.4",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       591,
       594
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: 5 ngày qua\n    Triệu chứng hiện tại\n    - cảm thấy khó chịu chung\n    - nghẹt mũi nhiều hơn\n    - đau đầu bên trái\n    - mệt mỏi\n    - tiêu chảy\n    Đặc điểm triệu chứng\n    - tiêu chảy: vài tuần tiêu chảy bùng nổ, vài lần mỗi ngày, chủ yếu là phân\n    - tiêu chảy: không thấy  phân đen, nhầy, máu đỏ tươi hoặc dịch nhầy\n    Sự kiện trước khi nhập viện\n    - Khám tại phòng khám vào ngày, xét nghiệm thường quy cho thấy kali là [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_025709",
+          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5871836543083191,
+          "sparse_similarity": 0.09608587622642517,
+          "hybrid_score": 0.34163475036621094
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5843059420585632,
+          "sparse_similarity": 0.09592927247285843,
+          "hybrid_score": 0.34011760354042053
+        },
+        {
+          "id": "isHistorical_025727",
+          "document": "từ 5 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.585770308971405,
+          "sparse_similarity": 0.0933152362704277,
+          "hybrid_score": 0.33954277634620667
+        }
+      ]
+    ],
+    "eng_translation": [
+      "2.4"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       614,
       618
-    ]
+    ],
+    "sentence": "4\n    - Được bổ sung [ENTITY] 80mEq trong 24 giờ\n    - Quay lại để làm lại xét nghiệm vào ngày\n    - Lặp lại xét nghiệm cho thấy kali vẫn giảm xuống 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012747",
+          "document": "cách đây 24 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6283712387084961,
+          "sparse_similarity": 0.11690066754817963,
+          "hybrid_score": 0.37263596057891846
+        },
+        {
+          "id": "isHistorical_032250",
+          "document": "đã 24 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6253702640533447,
+          "sparse_similarity": 0.11974700540304184,
+          "hybrid_score": 0.3725586235523224
+        },
+        {
+          "id": "isHistorical_000833",
+          "document": "24 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6256626844406128,
+          "sparse_similarity": 0.11631790548563004,
+          "hybrid_score": 0.3709903061389923
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Kali",
+      "Hyperkalemia",
+      "Potassium"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "80",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       619,
       621
-    ]
+    ],
+    "sentence": "4\n    - Được bổ sung kali [ENTITY]mEq trong 24 giờ\n    - Quay lại để làm lại xét nghiệm vào ngày\n    - Lặp lại xét nghiệm cho thấy kali vẫn giảm xuống 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032250",
+          "document": "đã 24 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6229003667831421,
+          "sparse_similarity": 0.10830407589673996,
+          "hybrid_score": 0.3656022250652313
+        },
+        {
+          "id": "isHistorical_012747",
+          "document": "cách đây 24 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6212891340255737,
+          "sparse_similarity": 0.10483510792255402,
+          "hybrid_score": 0.3630621135234833
+        },
+        {
+          "id": "isHistorical_025037",
+          "document": "từ 24 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6207476854324341,
+          "sparse_similarity": 0.10306429862976074,
+          "hybrid_score": 0.3619059920310974
+        }
+      ]
+    ],
+    "eng_translation": [
+      "80"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       718,
       722
-    ]
+    ],
+    "sentence": "4\n    - Được bổ sung kali 80mEq trong 24 giờ\n    - Quay lại để làm lại xét nghiệm vào ngày\n    - Lặp lại xét nghiệm cho thấy [ENTITY] vẫn giảm xuống 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012747",
+          "document": "cách đây 24 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6486309766769409,
+          "sparse_similarity": 0.12155023217201233,
+          "hybrid_score": 0.38509058952331543
+        },
+        {
+          "id": "isHistorical_000833",
+          "document": "24 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6441481113433838,
+          "sparse_similarity": 0.12080678343772888,
+          "hybrid_score": 0.38247746229171753
+        },
+        {
+          "id": "isHistorical_032250",
+          "document": "đã 24 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6397984623908997,
+          "sparse_similarity": 0.12381564825773239,
+          "hybrid_score": 0.3818070590496063
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Kali",
+      "Hyperkalemia",
+      "Potassium"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "azithromycin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       795,
       807
-    ]
+    ],
+    "sentence": "2\n    - Được giới thiệu đến Khoa Cấp cứu\n    - Được kê [ENTITY] vào ngày\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_029994",
+          "document": "vào 3 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.8078655004501343,
+          "sparse_similarity": 0.10037435591220856,
+          "hybrid_score": 0.4541199207305908
+        },
+        {
+          "id": "isHistorical_029730",
+          "document": "vào 2 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7663853168487549,
+          "sparse_similarity": 0.130866140127182,
+          "hybrid_score": 0.44862574338912964
+        },
+        {
+          "id": "isHistorical_025181",
+          "document": "từ 3 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7997888326644897,
+          "sparse_similarity": 0.09516441822052002,
+          "hybrid_score": 0.4474766254425049
+        }
+      ]
+    ],
+    "eng_translation": [
+      "azithromycin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "18631": 1.0,
+        "672606": 0.954285
+      },
+      "rapidfuzz": {
+        "18631": 1.0,
+        "1155012": 0.95,
+        "315450": 0.9
+      }
+    },
+    "candidate": {
+      "code": "18631",
+      "confidence": 1.0
+    }
   },
   {
     "text": "nhiệt độ",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       899,
       907
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám thực thể\n    - Khi đến Khoa Cấp cứu, [ENTITY] 97.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014666",
+          "document": "cách đây 97 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6442273259162903,
+          "sparse_similarity": 0.20775367319583893,
+          "hybrid_score": 0.425990492105484
+        },
+        {
+          "id": "isHistorical_014684",
+          "document": "cách đây 97 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6363591551780701,
+          "sparse_similarity": 0.20181554555892944,
+          "hybrid_score": 0.41908735036849976
+        },
+        {
+          "id": "isHistorical_022022",
+          "document": "khoảng 97 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6440743803977966,
+          "sparse_similarity": 0.1935708075761795,
+          "hybrid_score": 0.41882258653640747
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Temperature",
+      "Body Temperature"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "97.5",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       908,
       912
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám thực thể\n    - Khi đến Khoa Cấp cứu, nhiệt độ [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024983",
+          "document": "thân nhân của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6332711577415466,
+          "sparse_similarity": 0.057509616017341614,
+          "hybrid_score": 0.3453903794288635
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.632235050201416,
+          "sparse_similarity": 0.05789994075894356,
+          "hybrid_score": 0.34506750106811523
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.632110059261322,
+          "sparse_similarity": 0.05711708962917328,
+          "hybrid_score": 0.34461358189582825
+        }
+      ]
+    ],
+    "eng_translation": [
+      "97.5"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mạch",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       914,
       918
-    ]
+    ],
+    "sentence": "5, [ENTITY] 85, nhịp thở 18, huyết áp 14279, spo2 96 khi thở khí trời\n    - khám là bình thường\n    Kết quả xét nghiệm\n    - kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014355",
+          "document": "cách đây 85 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5401145219802856,
+          "sparse_similarity": 0.11404366791248322,
+          "hybrid_score": 0.32707908749580383
+        },
+        {
+          "id": "isHistorical_021693",
+          "document": "khoảng 85 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5422244668006897,
+          "sparse_similarity": 0.11093871295452118,
+          "hybrid_score": 0.32658159732818604
+        },
+        {
+          "id": "isHistorical_021705",
+          "document": "khoảng 85 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.536708414554596,
+          "sparse_similarity": 0.11544454842805862,
+          "hybrid_score": 0.326076477766037
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pulse",
+      "heart rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "85",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       919,
       921
-    ]
+    ],
+    "sentence": "5, mạch [ENTITY], nhịp thở 18, huyết áp 14279, spo2 96 khi thở khí trời\n    - khám là bình thường\n    Kết quả xét nghiệm\n    - kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012579",
+          "document": "cách đây 18 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5398921966552734,
+          "sparse_similarity": 0.08936310559511185,
+          "hybrid_score": 0.31462764739990234
+        },
+        {
+          "id": "isHistorical_013419",
+          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5441883206367493,
+          "sparse_similarity": 0.08442177623510361,
+          "hybrid_score": 0.31430503726005554
+        },
+        {
+          "id": "isHistorical_019917",
+          "document": "khoảng 18 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.541070282459259,
+          "sparse_similarity": 0.08532948791980743,
+          "hybrid_score": 0.31319987773895264
+        }
+      ]
+    ],
+    "eng_translation": [
+      "85"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp thở",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       923,
       931
-    ]
+    ],
+    "sentence": "5, mạch 85, [ENTITY] 18, huyết áp 14279, spo2 96 khi thở khí trời\n    - khám là bình thường\n    Kết quả xét nghiệm\n    - kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012579",
+          "document": "cách đây 18 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5381647348403931,
+          "sparse_similarity": 0.08447723090648651,
+          "hybrid_score": 0.3113209903240204
+        },
+        {
+          "id": "isHistorical_019917",
+          "document": "khoảng 18 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5387837886810303,
+          "sparse_similarity": 0.08064746856689453,
+          "hybrid_score": 0.3097156286239624
+        },
+        {
+          "id": "isHistorical_013419",
+          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5380463004112244,
+          "sparse_similarity": 0.06885838508605957,
+          "hybrid_score": 0.30345234274864197
+        }
+      ]
+    ],
+    "eng_translation": [
+      "respiratory rate",
+      "Minute ventilation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "18",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       932,
       934
-    ]
+    ],
+    "sentence": "5, mạch 85, nhịp thở [ENTITY], huyết áp 14279, spo2 96 khi thở khí trời\n    - khám là bình thường\n    Kết quả xét nghiệm\n    - kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013419",
+          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5411062836647034,
+          "sparse_similarity": 0.07595827430486679,
+          "hybrid_score": 0.3085322678089142
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5403486490249634,
+          "sparse_similarity": 0.07439719140529633,
+          "hybrid_score": 0.30737292766571045
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5427417755126953,
+          "sparse_similarity": 0.07130755484104156,
+          "hybrid_score": 0.30702465772628784
+        }
+      ]
+    ],
+    "eng_translation": [
+      "18",
+      "The query provided is \"18\" which does not contain any medical information or context. Therefore, no rewrite is possible."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "huyết áp",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       936,
       944
-    ]
+    ],
+    "sentence": "5, mạch 85, nhịp thở 18, [ENTITY] 14279, spo2 96 khi thở khí trời\n    - khám là bình thường\n    Kết quả xét nghiệm\n    - kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012579",
+          "document": "cách đây 18 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5351667404174805,
+          "sparse_similarity": 0.07931093871593475,
+          "hybrid_score": 0.3072388470172882
+        },
+        {
+          "id": "isHistorical_032082",
+          "document": "đã 18 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5336469411849976,
+          "sparse_similarity": 0.07970190048217773,
+          "hybrid_score": 0.30667442083358765
+        },
+        {
+          "id": "isHistorical_019917",
+          "document": "khoảng 18 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.536929726600647,
+          "sparse_similarity": 0.07571028172969818,
+          "hybrid_score": 0.3063200116157532
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Blood pressure",
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "14279",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       945,
       950
-    ]
+    ],
+    "sentence": "5, mạch 85, nhịp thở 18, huyết áp [ENTITY], spo2 96 khi thở khí trời\n    - khám là bình thường\n    Kết quả xét nghiệm\n    - kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013419",
+          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5337756872177124,
+          "sparse_similarity": 0.07298857718706131,
+          "hybrid_score": 0.30338212847709656
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5335021615028381,
+          "sparse_similarity": 0.07145270705223083,
+          "hybrid_score": 0.3024774193763733
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5363136529922485,
+          "sparse_similarity": 0.06854859739542007,
+          "hybrid_score": 0.3024311363697052
+        }
+      ]
+    ],
+    "eng_translation": [
+      "14279"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "spo2",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       952,
       956
-    ]
+    ],
+    "sentence": "5, mạch 85, nhịp thở 18, huyết áp 14279, [ENTITY] 96 khi thở khí trời\n    - khám là bình thường\n    Kết quả xét nghiệm\n    - kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012579",
+          "document": "cách đây 18 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5254237651824951,
+          "sparse_similarity": 0.08255742490291595,
+          "hybrid_score": 0.30399060249328613
+        },
+        {
+          "id": "isHistorical_013419",
+          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5313871502876282,
+          "sparse_similarity": 0.07383602112531662,
+          "hybrid_score": 0.3026115894317627
+        },
+        {
+          "id": "isHistorical_019917",
+          "document": "khoảng 18 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5256081223487854,
+          "sparse_similarity": 0.07881242036819458,
+          "hybrid_score": 0.30221027135849
+        }
+      ]
+    ],
+    "eng_translation": [
+      "SpO₂",
+      "Oxygen saturation",
+      "Oxygen saturation in arterial blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "96",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       957,
       959
-    ]
+    ],
+    "sentence": "5, mạch 85, nhịp thở 18, huyết áp 14279, spo2 [ENTITY] khi thở khí trời\n    - khám là bình thường\n    Kết quả xét nghiệm\n    - kali là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013419",
+          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5318517088890076,
+          "sparse_similarity": 0.07521997392177582,
+          "hybrid_score": 0.3035358488559723
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5334910750389099,
+          "sparse_similarity": 0.07068552076816559,
+          "hybrid_score": 0.30208829045295715
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.530398964881897,
+          "sparse_similarity": 0.07369028776884079,
+          "hybrid_score": 0.3020446300506592
+        }
+      ]
+    ],
+    "eng_translation": [
+      "96"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1032,
       1036
-    ]
+    ],
+    "sentence": "5, mạch 85, nhịp thở 18, huyết áp 14279, spo2 96 khi thở khí trời\n    - khám là bình thường\n    Kết quả xét nghiệm\n    - [ENTITY] là 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013419",
+          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6189651489257812,
+          "sparse_similarity": 0.11444275081157684,
+          "hybrid_score": 0.36670395731925964
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6181820631027222,
+          "sparse_similarity": 0.11236216872930527,
+          "hybrid_score": 0.3652721047401428
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6190641522407532,
+          "sparse_similarity": 0.10773788392543793,
+          "hybrid_score": 0.36340102553367615
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Kali",
+      "Hyperkalemia",
+      "Potassium"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "2.4",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1040,
       1043
-    ]
+    ],
+    "sentence": "5, mạch 85, nhịp thở 18, huyết áp 14279, spo2 96 khi thở khí trời\n    - khám là bình thường\n    Kết quả xét nghiệm\n    - kali là [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013419",
+          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.546872615814209,
+          "sparse_similarity": 0.08332216739654541,
+          "hybrid_score": 0.3150973916053772
+        },
+        {
+          "id": "isHistorical_002177",
+          "document": "5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5458454489707947,
+          "sparse_similarity": 0.08161883056163788,
+          "hybrid_score": 0.3137321472167969
+        },
+        {
+          "id": "isHistorical_020757",
+          "document": "khoảng 5 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5481925010681152,
+          "sparse_similarity": 0.07829296588897705,
+          "hybrid_score": 0.31324273347854614
+        }
+      ]
+    ],
+    "eng_translation": [
+      "2.4"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1050,
       1054
-    ]
+    ],
+    "sentence": "4\n    - [ENTITY] vẫn giảm xuống 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006668",
+          "document": "[ENTITY] da 4 ngay.",
+          "dense_similarity": 0.7381846308708191,
+          "sparse_similarity": 0.17196297645568848,
+          "hybrid_score": 0.4550738036632538
+        },
+        {
+          "id": "isHistorical_006667",
+          "document": "[ENTITY] da 4 nam.",
+          "dense_similarity": 0.735948383808136,
+          "sparse_similarity": 0.15320684015750885,
+          "hybrid_score": 0.4445776045322418
+        },
+        {
+          "id": "isHistorical_015608",
+          "document": "da 4 ngay bi [ENTITY].",
+          "dense_similarity": 0.7288792729377747,
+          "sparse_similarity": 0.14289867877960205,
+          "hybrid_score": 0.43588897585868835
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Kali",
+      "Hyperkalemia",
+      "Potassium"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1080,
       1084
-    ]
+    ],
+    "sentence": "2\n    - [ENTITY] dai dẳng 2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006580",
+          "document": "[ENTITY] da 2 ngay.",
+          "dense_similarity": 0.8243114352226257,
+          "sparse_similarity": 0.1932021975517273,
+          "hybrid_score": 0.5087568163871765
+        },
+        {
+          "id": "isHistorical_015079",
+          "document": "da 2 ngay [ENTITY].",
+          "dense_similarity": 0.8079495429992676,
+          "sparse_similarity": 0.1751575917005539,
+          "hybrid_score": 0.49155357480049133
+        },
+        {
+          "id": "isHistorical_006581",
+          "document": "[ENTITY] da 2 thang.",
+          "dense_similarity": 0.8004013895988464,
+          "sparse_similarity": 0.17733436822891235,
+          "hybrid_score": 0.4888678789138794
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Kali",
+      "Hyperkalemia",
+      "Potassium"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "k",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1145,
       1146
-    ]
+    ],
+    "sentence": "2\n    Thủ thuật đã thực hiện\n    - Nhận 40meq po [ENTITY]\n    - Nhận 40meq iv k\n    Các phát hiện chẩn đoán khác: hạ kali máu rõ rệt trong bối cảnh tiêu chảy và có khả năng nhiễm trùng đường hô hấp trên cấp, không xác định",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013197",
+          "document": "cách đây 40 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6360158920288086,
+          "sparse_similarity": 0.12556354701519012,
+          "hybrid_score": 0.38078972697257996
+        },
+        {
+          "id": "isHistorical_013191",
+          "document": "cách đây 40 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6299731135368347,
+          "sparse_similarity": 0.1294117569923401,
+          "hybrid_score": 0.3796924352645874
+        },
+        {
+          "id": "isHistorical_013179",
+          "document": "cách đây 40 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6303838491439819,
+          "sparse_similarity": 0.12888668477535248,
+          "hybrid_score": 0.3796352744102478
+        }
+      ]
+    ],
+    "eng_translation": [
+      "k",
+      "The query is too short to determine a medical diagnosis or concept. Please provide a complete medical query."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "k",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1167,
       1168
-    ]
+    ],
+    "sentence": "2\n    Thủ thuật đã thực hiện\n    - Nhận 40meq po k\n    - Nhận 40meq iv [ENTITY]\n    Các phát hiện chẩn đoán khác: hạ kali máu rõ rệt trong bối cảnh tiêu chảy và có khả năng nhiễm trùng đường hô hấp trên cấp, không xác định",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013197",
+          "document": "cách đây 40 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6266987323760986,
+          "sparse_similarity": 0.12068382650613785,
+          "hybrid_score": 0.37369129061698914
+        },
+        {
+          "id": "isHistorical_013179",
+          "document": "cách đây 40 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6217055320739746,
+          "sparse_similarity": 0.12413863837718964,
+          "hybrid_score": 0.3729220926761627
+        },
+        {
+          "id": "isHistorical_013191",
+          "document": "cách đây 40 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6203324794769287,
+          "sparse_similarity": 0.12444783002138138,
+          "hybrid_score": 0.37239015102386475
+        }
+      ]
+    ],
+    "eng_translation": [
+      "k",
+      "The query is too short to determine a medical diagnosis or concept. Please provide a complete medical query."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hạ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1203,
       1205
-    ]
+    ],
+    "sentence": "2\n    Thủ thuật đã thực hiện\n    - Nhận 40meq po k\n    - Nhận 40meq iv k\n    Các phát hiện chẩn đoán khác: [ENTITY] kali máu rõ rệt trong bối cảnh tiêu chảy và có khả năng nhiễm trùng đường hô hấp trên cấp, không xác định",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013197",
+          "document": "cách đây 40 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6535471081733704,
+          "sparse_similarity": 0.14110051095485687,
+          "hybrid_score": 0.3973238170146942
+        },
+        {
+          "id": "isHistorical_013191",
+          "document": "cách đây 40 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6449827551841736,
+          "sparse_similarity": 0.14540202915668488,
+          "hybrid_score": 0.39519238471984863
+        },
+        {
+          "id": "isHistorical_013179",
+          "document": "cách đây 40 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6454243659973145,
+          "sparse_similarity": 0.14477461576461792,
+          "hybrid_score": 0.3950994908809662
+        }
+      ]
+    ],
+    "eng_translation": [
+      "low",
+      "low blood pressure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1206,
       1210
-    ]
+    ],
+    "sentence": "2\n    Thủ thuật đã thực hiện\n    - Nhận 40meq po k\n    - Nhận 40meq iv k\n    Các phát hiện chẩn đoán khác: hạ [ENTITY] máu rõ rệt trong bối cảnh tiêu chảy và có khả năng nhiễm trùng đường hô hấp trên cấp, không xác định",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013197",
+          "document": "cách đây 40 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6574386358261108,
+          "sparse_similarity": 0.13977676630020142,
+          "hybrid_score": 0.39860770106315613
+        },
+        {
+          "id": "isHistorical_013179",
+          "document": "cách đây 40 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6523011326789856,
+          "sparse_similarity": 0.1435265839099884,
+          "hybrid_score": 0.3979138731956482
+        },
+        {
+          "id": "isHistorical_013191",
+          "document": "cách đây 40 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6485947370529175,
+          "sparse_similarity": 0.14405637979507446,
+          "hybrid_score": 0.39632555842399597
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Kali",
+      "Hyperkalemia",
+      "Potassium"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1237,
       1246
-    ]
+    ],
+    "sentence": "2\n    Thủ thuật đã thực hiện\n    - Nhận 40meq po k\n    - Nhận 40meq iv k\n    Các phát hiện chẩn đoán khác: hạ kali máu rõ rệt trong bối cảnh [ENTITY] và có khả năng nhiễm trùng đường hô hấp trên cấp, không xác định",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013197",
+          "document": "cách đây 40 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6499344110488892,
+          "sparse_similarity": 0.12110896408557892,
+          "hybrid_score": 0.38552168011665344
+        },
+        {
+          "id": "isHistorical_013179",
+          "document": "cách đây 40 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6445719003677368,
+          "sparse_similarity": 0.1243283748626709,
+          "hybrid_score": 0.38445013761520386
+        },
+        {
+          "id": "isHistorical_001727",
+          "document": "40 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6437828540802002,
+          "sparse_similarity": 0.12002644687891006,
+          "hybrid_score": 0.381904661655426
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhiễm trùng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1262,
       1273
-    ]
+    ],
+    "sentence": "2\n    Thủ thuật đã thực hiện\n    - Nhận 40meq po k\n    - Nhận 40meq iv k\n    Các phát hiện chẩn đoán khác: hạ kali máu rõ rệt trong bối cảnh tiêu chảy và có khả năng [ENTITY] đường hô hấp trên cấp, không xác định",
+    "assertion_result": {
+      "tag": "isUncertain",
+      "confidence": 1.0,
+      "evidence": "có khả năng [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013197",
+          "document": "cách đây 40 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6224819421768188,
+          "sparse_similarity": 0.1118902862071991,
+          "hybrid_score": 0.36718612909317017
+        },
+        {
+          "id": "isHistorical_013179",
+          "document": "cách đây 40 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6165127158164978,
+          "sparse_similarity": 0.11497870087623596,
+          "hybrid_score": 0.3657457232475281
+        },
+        {
+          "id": "isHistorical_001727",
+          "document": "40 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6191530823707581,
+          "sparse_similarity": 0.11081670224666595,
+          "hybrid_score": 0.3649848997592926
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Infection",
+      "Infectious process"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

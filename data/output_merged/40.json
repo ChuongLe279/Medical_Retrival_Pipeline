@@ -2,361 +2,2256 @@
   {
     "text": "ho",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       51,
       53
-    ]
+    ],
+    "sentence": "Tiền sử bệnh lý\n    Các bệnh lý mạn tính\n    - [ENTITY] đái tháo đường\n    - tăng huyết áp\n    - béo phì\n    - ngưng thở khi ngủ do tắc nghẽn\n    Thuốc trước khi nhập viện\n    - tylenol\n    - mucinex d\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007409",
+          "document": "bệnh sử gia đình chồng từng bị [ENTITY].",
+          "dense_similarity": 0.6498307585716248,
+          "sparse_similarity": 0.1393861621618271,
+          "hybrid_score": 0.3946084678173065
+        },
+        {
+          "id": "isFamily_007406",
+          "document": "bệnh sử gia đình chồng có tiền sử [ENTITY].",
+          "dense_similarity": 0.6309875249862671,
+          "sparse_similarity": 0.15428557991981506,
+          "hybrid_score": 0.3926365375518799
+        },
+        {
+          "id": "isFamily_007410",
+          "document": "bệnh sử gia đình chồng từng mắc [ENTITY].",
+          "dense_similarity": 0.6465418338775635,
+          "sparse_similarity": 0.13728685677051544,
+          "hybrid_score": 0.39191433787345886
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đái tháo đường",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       54,
       68
-    ]
+    ],
+    "sentence": "Tiền sử bệnh lý\n    Các bệnh lý mạn tính\n    - ho [ENTITY]\n    - tăng huyết áp\n    - béo phì\n    - ngưng thở khi ngủ do tắc nghẽn\n    Thuốc trước khi nhập viện\n    - tylenol\n    - mucinex d\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007409",
+          "document": "bệnh sử gia đình chồng từng bị [ENTITY].",
+          "dense_similarity": 0.6597894430160522,
+          "sparse_similarity": 0.1469341516494751,
+          "hybrid_score": 0.40336179733276367
+        },
+        {
+          "id": "isFamily_007406",
+          "document": "bệnh sử gia đình chồng có tiền sử [ENTITY].",
+          "dense_similarity": 0.6411157250404358,
+          "sparse_similarity": 0.1619999259710312,
+          "hybrid_score": 0.4015578329563141
+        },
+        {
+          "id": "isFamily_007410",
+          "document": "bệnh sử gia đình chồng từng mắc [ENTITY].",
+          "dense_similarity": 0.6554253697395325,
+          "sparse_similarity": 0.14370551705360413,
+          "hybrid_score": 0.3995654582977295
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diabetes mellitus",
+      "Type 2 diabetes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       75,
       88
-    ]
+    ],
+    "sentence": "Tiền sử bệnh lý\n    Các bệnh lý mạn tính\n    - ho đái tháo đường\n    - [ENTITY]\n    - béo phì\n    - ngưng thở khi ngủ do tắc nghẽn\n    Thuốc trước khi nhập viện\n    - tylenol\n    - mucinex d\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007409",
+          "document": "bệnh sử gia đình chồng từng bị [ENTITY].",
+          "dense_similarity": 0.6560153365135193,
+          "sparse_similarity": 0.14552907645702362,
+          "hybrid_score": 0.40077221393585205
+        },
+        {
+          "id": "isFamily_007410",
+          "document": "bệnh sử gia đình chồng từng mắc [ENTITY].",
+          "dense_similarity": 0.6528164148330688,
+          "sparse_similarity": 0.14240215718746185,
+          "hybrid_score": 0.39760929346084595
+        },
+        {
+          "id": "isFamily_007404",
+          "document": "bệnh sử gia đình chồng bị [ENTITY].",
+          "dense_similarity": 0.6387150883674622,
+          "sparse_similarity": 0.15019641816616058,
+          "hybrid_score": 0.39445576071739197
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       95,
       102
-    ]
+    ],
+    "sentence": "Tiền sử bệnh lý\n    Các bệnh lý mạn tính\n    - ho đái tháo đường\n    - tăng huyết áp\n    - [ENTITY]\n    - ngưng thở khi ngủ do tắc nghẽn\n    Thuốc trước khi nhập viện\n    - tylenol\n    - mucinex d\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_005963",
+          "document": "bác của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6229617595672607,
+          "sparse_similarity": 0.18550223112106323,
+          "hybrid_score": 0.404231995344162
+        },
+        {
+          "id": "isFamily_007409",
+          "document": "bệnh sử gia đình chồng từng bị [ENTITY].",
+          "dense_similarity": 0.6431505084037781,
+          "sparse_similarity": 0.1366625726222992,
+          "hybrid_score": 0.38990652561187744
+        },
+        {
+          "id": "isFamily_007410",
+          "document": "bệnh sử gia đình chồng từng mắc [ENTITY].",
+          "dense_similarity": 0.6411124467849731,
+          "sparse_similarity": 0.13408221304416656,
+          "hybrid_score": 0.38759732246398926
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Obesity",
+      "Excess body weight"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngưng thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       109,
       118
-    ]
+    ],
+    "sentence": "Tiền sử bệnh lý\n    Các bệnh lý mạn tính\n    - ho đái tháo đường\n    - tăng huyết áp\n    - béo phì\n    - [ENTITY] khi ngủ do tắc nghẽn\n    Thuốc trước khi nhập viện\n    - tylenol\n    - mucinex d\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_005963",
+          "document": "bác của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6236013174057007,
+          "sparse_similarity": 0.1807430237531662,
+          "hybrid_score": 0.40217217803001404
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6224923133850098,
+          "sparse_similarity": 0.17572318017482758,
+          "hybrid_score": 0.39910775423049927
+        },
+        {
+          "id": "isFamily_007409",
+          "document": "bệnh sử gia đình chồng từng bị [ENTITY].",
+          "dense_similarity": 0.6418541073799133,
+          "sparse_similarity": 0.13289926946163177,
+          "hybrid_score": 0.38737669587135315
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Apnea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tylenol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       176,
       183
-    ]
+    ],
+    "sentence": "Tiền sử bệnh lý\n    Các bệnh lý mạn tính\n    - ho đái tháo đường\n    - tăng huyết áp\n    - béo phì\n    - ngưng thở khi ngủ do tắc nghẽn\n    Thuốc trước khi nhập viện\n    - [ENTITY]\n    - mucinex d\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6378010511398315,
+          "sparse_similarity": 0.1810220330953598,
+          "hybrid_score": 0.40941154956817627
+        },
+        {
+          "id": "isFamily_007409",
+          "document": "bệnh sử gia đình chồng từng bị [ENTITY].",
+          "dense_similarity": 0.653693675994873,
+          "sparse_similarity": 0.13338923454284668,
+          "hybrid_score": 0.39354145526885986
+        },
+        {
+          "id": "isFamily_007410",
+          "document": "bệnh sử gia đình chồng từng mắc [ENTITY].",
+          "dense_similarity": 0.6501005291938782,
+          "sparse_similarity": 0.13199864327907562,
+          "hybrid_score": 0.3910495936870575
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
   },
   {
     "text": "mucinex d",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       190,
       199
-    ]
+    ],
+    "sentence": "Tiền sử bệnh lý\n    Các bệnh lý mạn tính\n    - ho đái tháo đường\n    - tăng huyết áp\n    - béo phì\n    - ngưng thở khi ngủ do tắc nghẽn\n    Thuốc trước khi nhập viện\n    - tylenol\n    - [ENTITY]\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_005963",
+          "document": "bác của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6361218094825745,
+          "sparse_similarity": 0.19228458404541016,
+          "hybrid_score": 0.4142031967639923
+        },
+        {
+          "id": "isFamily_005949",
+          "document": "bác của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6330951452255249,
+          "sparse_similarity": 0.18375220894813538,
+          "hybrid_score": 0.40842366218566895
+        },
+        {
+          "id": "isFamily_007406",
+          "document": "bệnh sử gia đình chồng có tiền sử [ENTITY].",
+          "dense_similarity": 0.6322914958000183,
+          "sparse_similarity": 0.15359556674957275,
+          "hybrid_score": 0.39294353127479553
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Mucinex D",
+      "Mucinex D is a combination medication containing dextromethorphan and guaifenesin. It is used for the temporary relief of cough and chest congestion. Dextromethorphan is a cough suppressant, while guaifenesin is an expectorant that helps loosen mucus in the airways. It is typically used for acute respiratory conditions such as the common cold, bronchitis, or other upper respiratory infections. The medication is available over-the-counter and is generally considered safe when used as directed. It is not intended for long-term use and should be avoided in individuals with certain medical conditions or those taking specific medications that may interact with its components.",
+      "Mucinex with Decongestant",
+      "Mucinex with Dextromethorphan and Guaifenesin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "2388175": 1.0,
+        "352777": 0.891874,
+        "2641119": 0.889896,
+        "2591192": 0.866885,
+        "2383054": 0.862323
+      },
+      "rapidfuzz": {
+        "352777": 0.95,
+        "5032": 0.9,
+        "3289": 0.9,
+        "1011087": 0.855,
+        "1011086": 0.855,
+        "2662811": 0.855,
+        "2655069": 0.855,
+        "2646650": 0.855,
+        "1101349": 0.855,
+        "1998458": 0.855
+      }
+    },
+    "candidate": {
+      "code": "2388175",
+      "confidence": 0.9
+    }
   },
   {
     "text": "tiêu chảy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       219,
       228
-    ]
+    ],
+    "sentence": "Tiền sử bệnh lý\n    Các bệnh lý mạn tính\n    - ho đái tháo đường\n    - tăng huyết áp\n    - béo phì\n    - ngưng thở khi ngủ do tắc nghẽn\n    Thuốc trước khi nhập viện\n    - tylenol\n    - mucinex d\n    - thỉnh thoảng [ENTITY] các thuốc của ông ấy\n\n2.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_005963",
+          "document": "bác của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6391129493713379,
+          "sparse_similarity": 0.20110516250133514,
+          "hybrid_score": 0.4201090633869171
+        },
+        {
+          "id": "isFamily_005949",
+          "document": "bác của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6344098448753357,
+          "sparse_similarity": 0.19249051809310913,
+          "hybrid_score": 0.4134501814842224
+        },
+        {
+          "id": "isFamily_007409",
+          "document": "bệnh sử gia đình chồng từng bị [ENTITY].",
+          "dense_similarity": 0.6370652318000793,
+          "sparse_similarity": 0.1398124396800995,
+          "hybrid_score": 0.3884388208389282
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       298,
       300
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY], thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022022",
+          "document": "khoảng 97 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6072645783424377,
+          "sparse_similarity": 0.14653253555297852,
+          "hybrid_score": 0.37689855694770813
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6103465557098389,
+          "sparse_similarity": 0.13941070437431335,
+          "hybrid_score": 0.3748786449432373
+        },
+        {
+          "id": "isHistorical_022004",
+          "document": "khoảng 97 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6105576753616333,
+          "sparse_similarity": 0.13871899247169495,
+          "hybrid_score": 0.37463831901550293
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thiếu oxy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       302,
       311
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, [ENTITY]\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6140627861022949,
+          "sparse_similarity": 0.15295162796974182,
+          "hybrid_score": 0.3835071921348572
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6135611534118652,
+          "sparse_similarity": 0.15270857512950897,
+          "hybrid_score": 0.3831348717212677
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6134922504425049,
+          "sparse_similarity": 0.1519400179386139,
+          "hybrid_score": 0.3827161192893982
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypoxia",
+      "Oxygen deficiency"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       407,
       409
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - [ENTITY]\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022022",
+          "document": "khoảng 97 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.602166473865509,
+          "sparse_similarity": 0.150027334690094,
+          "hybrid_score": 0.3760969042778015
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.602119505405426,
+          "sparse_similarity": 0.14725245535373688,
+          "hybrid_score": 0.37468597292900085
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6064858436584473,
+          "sparse_similarity": 0.14172960817813873,
+          "hybrid_score": 0.3741077184677124
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nghẹt ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       416,
       426
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - [ENTITY]\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6037740111351013,
+          "sparse_similarity": 0.15157169103622437,
+          "hybrid_score": 0.37767285108566284
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6012307405471802,
+          "sparse_similarity": 0.1488526463508606,
+          "hybrid_score": 0.3750416934490204
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5989961624145508,
+          "sparse_similarity": 0.15065975487232208,
+          "hybrid_score": 0.37482795119285583
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest tightness",
+      "Chest discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       433,
       440
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - [ENTITY] nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6063401699066162,
+          "sparse_similarity": 0.13835762441158295,
+          "hybrid_score": 0.3723489046096802
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6018421053886414,
+          "sparse_similarity": 0.14191773533821106,
+          "hybrid_score": 0.3718799352645874
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6032816767692566,
+          "sparse_similarity": 0.13942086696624756,
+          "hybrid_score": 0.3713512718677521
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       449,
       456
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa [ENTITY] khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.604918360710144,
+          "sparse_similarity": 0.13591670989990234,
+          "hybrid_score": 0.3704175353050232
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6003155708312988,
+          "sparse_similarity": 0.13985221087932587,
+          "hybrid_score": 0.37008389830589294
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6017439961433411,
+          "sparse_similarity": 0.1355675309896469,
+          "hybrid_score": 0.3686557710170746
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       476,
       483
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - [ENTITY]\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6059185862541199,
+          "sparse_similarity": 0.13583534955978394,
+          "hybrid_score": 0.3708769679069519
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6010368466377258,
+          "sparse_similarity": 0.13964073359966278,
+          "hybrid_score": 0.3703387975692749
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6020482778549194,
+          "sparse_similarity": 0.13674598932266235,
+          "hybrid_score": 0.3693971335887909
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       490,
       497
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - [ENTITY]\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.607261061668396,
+          "sparse_similarity": 0.14001263678073883,
+          "hybrid_score": 0.3736368417739868
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6025550961494446,
+          "sparse_similarity": 0.1435137838125229,
+          "hybrid_score": 0.37303444743156433
+        },
+        {
+          "id": "isHistorical_022004",
+          "document": "khoảng 97 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6045387387275696,
+          "sparse_similarity": 0.14060722291469574,
+          "hybrid_score": 0.37257298827171326
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       504,
       507
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - [ENTITY] lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022022",
+          "document": "khoảng 97 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6081851720809937,
+          "sparse_similarity": 0.15244607627391815,
+          "hybrid_score": 0.3803156316280365
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6072418689727783,
+          "sparse_similarity": 0.15087676048278809,
+          "hybrid_score": 0.3790593147277832
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.611072301864624,
+          "sparse_similarity": 0.14684942364692688,
+          "hybrid_score": 0.37896084785461426
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       539,
       548
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng [ENTITY] các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6053264737129211,
+          "sparse_similarity": 0.14680765569210052,
+          "hybrid_score": 0.37606707215309143
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6006197929382324,
+          "sparse_similarity": 0.15024010837078094,
+          "hybrid_score": 0.3754299581050873
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6022211313247681,
+          "sparse_similarity": 0.14741578698158264,
+          "hybrid_score": 0.37481844425201416
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đi tiểu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       576,
       583
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - [ENTITY] nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6037176251411438,
+          "sparse_similarity": 0.15732623636722565,
+          "hybrid_score": 0.3805219233036041
+        },
+        {
+          "id": "isHistorical_022022",
+          "document": "khoảng 97 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6033806800842285,
+          "sparse_similarity": 0.15066884458065033,
+          "hybrid_score": 0.37702476978302
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6078678965568542,
+          "sparse_similarity": 0.14427484571933746,
+          "hybrid_score": 0.37607136368751526
+        }
+      ]
+    ],
+    "eng_translation": [
+      "urination",
+      "Urinary elimination"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau buốt khi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       616,
       628
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có [ENTITY] đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6056826114654541,
+          "sparse_similarity": 0.1441211998462677,
+          "hybrid_score": 0.3749018907546997
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6023754477500916,
+          "sparse_similarity": 0.14246591925621033,
+          "hybrid_score": 0.37242066860198975
+        },
+        {
+          "id": "isHistorical_022004",
+          "document": "khoảng 97 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6021766662597656,
+          "sparse_similarity": 0.14226026833057404,
+          "hybrid_score": 0.37221845984458923
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain when",
+      "pain when swallowing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiểu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       632,
       636
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi [ENTITY]\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022022",
+          "document": "khoảng 97 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.598357081413269,
+          "sparse_similarity": 0.1470733880996704,
+          "hybrid_score": 0.3727152347564697
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6032989025115967,
+          "sparse_similarity": 0.140283465385437,
+          "hybrid_score": 0.37179118394851685
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5990465879440308,
+          "sparse_similarity": 0.14429064095020294,
+          "hybrid_score": 0.37166860699653625
+        }
+      ]
+    ],
+    "eng_translation": [
+      "urine",
+      "urine sample"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       668,
       675
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - [ENTITY] khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6150872111320496,
+          "sparse_similarity": 0.15537406504154205,
+          "hybrid_score": 0.3852306306362152
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6109681725502014,
+          "sparse_similarity": 0.15779007971286774,
+          "hybrid_score": 0.384379118680954
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.611697256565094,
+          "sparse_similarity": 0.15662813186645508,
+          "hybrid_score": 0.38416269421577454
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       706,
       713
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác [ENTITY] sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6082208752632141,
+          "sparse_similarity": 0.14786584675312042,
+          "hybrid_score": 0.37804335355758667
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6038070321083069,
+          "sparse_similarity": 0.15084971487522125,
+          "hybrid_score": 0.37732836604118347
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6047372817993164,
+          "sparse_similarity": 0.14858990907669067,
+          "hybrid_score": 0.37666359543800354
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       743,
       745
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - [ENTITY] đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6017812490463257,
+          "sparse_similarity": 0.145124614238739,
+          "hybrid_score": 0.37345293164253235
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6056541204452515,
+          "sparse_similarity": 0.14073380827903748,
+          "hybrid_score": 0.37319397926330566
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6038309335708618,
+          "sparse_similarity": 0.14090299606323242,
+          "hybrid_score": 0.3723669648170471
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       813,
       816
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - [ENTITY] lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6101898550987244,
+          "sparse_similarity": 0.1488230675458908,
+          "hybrid_score": 0.3795064687728882
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6065152883529663,
+          "sparse_similarity": 0.15106233954429626,
+          "hybrid_score": 0.3787888288497925
+        },
+        {
+          "id": "isHistorical_022004",
+          "document": "khoảng 97 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6067420840263367,
+          "sparse_similarity": 0.1496906280517578,
+          "hybrid_score": 0.37821635603904724
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       826,
       829
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối [ENTITY] là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.602331817150116,
+          "sparse_similarity": 0.14454641938209534,
+          "hybrid_score": 0.37343913316726685
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6062729358673096,
+          "sparse_similarity": 0.14019468426704407,
+          "hybrid_score": 0.3732337951660156
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6016091108322144,
+          "sparse_similarity": 0.14255978167057037,
+          "hybrid_score": 0.37208443880081177
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       848,
       857
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - [ENTITY] đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6040983200073242,
+          "sparse_similarity": 0.14072364568710327,
+          "hybrid_score": 0.37241098284721375
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6003898978233337,
+          "sparse_similarity": 0.1431313008069992,
+          "hybrid_score": 0.37176060676574707
+        },
+        {
+          "id": "isHistorical_022004",
+          "document": "khoảng 97 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6013230085372925,
+          "sparse_similarity": 0.1416628360748291,
+          "hybrid_score": 0.3714929223060608
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       906,
       914
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận [ENTITY]\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6026321649551392,
+          "sparse_similarity": 0.13482892513275146,
+          "hybrid_score": 0.3687305450439453
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5975430011749268,
+          "sparse_similarity": 0.13839198648929596,
+          "hybrid_score": 0.36796748638153076
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5984163880348206,
+          "sparse_similarity": 0.13573643565177917,
+          "hybrid_score": 0.36707639694213867
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       930,
       938
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận [ENTITY]/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6079003214836121,
+          "sparse_similarity": 0.13165344297885895,
+          "hybrid_score": 0.3697768747806549
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6032673120498657,
+          "sparse_similarity": 0.13520586490631104,
+          "hybrid_score": 0.3692365884780884
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6047236919403076,
+          "sparse_similarity": 0.13039526343345642,
+          "hybrid_score": 0.3675594925880432
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       939,
       942
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/[ENTITY]\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6030671000480652,
+          "sparse_similarity": 0.1356765329837799,
+          "hybrid_score": 0.36937183141708374
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5986718535423279,
+          "sparse_similarity": 0.13921906054019928,
+          "hybrid_score": 0.368945449590683
+        },
+        {
+          "id": "isHistorical_022004",
+          "document": "khoảng 97 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5998147130012512,
+          "sparse_similarity": 0.1363276243209839,
+          "hybrid_score": 0.36807116866111755
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đổ mồ hôi đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       958,
       971
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận [ENTITY]\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.599664568901062,
+          "sparse_similarity": 0.14084604382514954,
+          "hybrid_score": 0.3702552914619446
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6036393046379089,
+          "sparse_similarity": 0.13522988557815552,
+          "hybrid_score": 0.3694345951080322
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6019301414489746,
+          "sparse_similarity": 0.1342795491218567,
+          "hybrid_score": 0.36810484528541565
+        }
+      ]
+    ],
+    "eng_translation": [
+      "night sweats",
+      "Nocturnal sweats"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       987,
       994
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận [ENTITY] khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6173437833786011,
+          "sparse_similarity": 0.15489357709884644,
+          "hybrid_score": 0.38611868023872375
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6140611171722412,
+          "sparse_similarity": 0.15809257328510284,
+          "hybrid_score": 0.38607683777809143
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6143550872802734,
+          "sparse_similarity": 0.15561632812023163,
+          "hybrid_score": 0.38498571515083313
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1018,
       1025
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận [ENTITY] khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6094245910644531,
+          "sparse_similarity": 0.14918775856494904,
+          "hybrid_score": 0.3793061673641205
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.612924337387085,
+          "sparse_similarity": 0.1454901099205017,
+          "hybrid_score": 0.37920722365379333
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6108143925666809,
+          "sparse_similarity": 0.14552828669548035,
+          "hybrid_score": 0.37817132472991943
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "giãn phế quản",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1175,
       1188
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là [ENTITY], phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.646795392036438,
+          "sparse_similarity": 0.1778492033481598,
+          "hybrid_score": 0.4123222827911377
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6435640454292297,
+          "sparse_similarity": 0.18054728209972382,
+          "hybrid_score": 0.4120556712150574
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6459537744522095,
+          "sparse_similarity": 0.17784088850021362,
+          "hybrid_score": 0.41189733147621155
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Bronchial dilation",
+      "Bronchiectasis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "azithromycin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1207,
       1219
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với [ENTITY]\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6314683556556702,
+          "sparse_similarity": 0.15504667162895203,
+          "hybrid_score": 0.3932574987411499
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6335744261741638,
+          "sparse_similarity": 0.15186166763305664,
+          "hybrid_score": 0.39271804690361023
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6322416067123413,
+          "sparse_similarity": 0.15301460027694702,
+          "hybrid_score": 0.39262810349464417
+        }
+      ]
+    ],
+    "eng_translation": [
+      "azithromycin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "18631": 1.0,
+        "672606": 0.954285
+      },
+      "rapidfuzz": {
+        "18631": 1.0,
+        "1155012": 0.95,
+        "315450": 0.9
+      }
+    },
+    "candidate": {
+      "code": "18631",
+      "confidence": 1.0
+    }
   },
   {
     "text": "tylenol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1243,
       1250
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng [ENTITY] và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022022",
+          "document": "khoảng 97 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6127520799636841,
+          "sparse_similarity": 0.1570354849100113,
+          "hybrid_score": 0.3848937749862671
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.612717866897583,
+          "sparse_similarity": 0.15538102388381958,
+          "hybrid_score": 0.3840494453907013
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6161312460899353,
+          "sparse_similarity": 0.15174637734889984,
+          "hybrid_score": 0.38393881916999817
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
   },
   {
     "text": "mucinex d",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1254,
       1263
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và [ENTITY]\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.606269359588623,
+          "sparse_similarity": 0.14176517724990845,
+          "hybrid_score": 0.37401726841926575
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6017754673957825,
+          "sparse_similarity": 0.1457187533378601,
+          "hybrid_score": 0.3737471103668213
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6011516451835632,
+          "sparse_similarity": 0.141341894865036,
+          "hybrid_score": 0.3712467551231384
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Mucinex D",
+      "Mucinex D is a combination medication containing dextromethorphan and guaifenesin. It is used for the temporary relief of cough and chest congestion. Dextromethorphan is a cough suppressant, while guaifenesin is an expectorant that helps loosen mucus in the airways. It is typically used for acute respiratory conditions such as the common cold, bronchitis, or other upper respiratory infections. The medication is available over-the-counter and is generally considered safe when used as directed. It is not intended for long-term use and should be avoided in individuals with certain medical conditions or those taking specific medications that may interact with its components.",
+      "Mucinex with Decongestant",
+      "Mucinex with Dextromethorphan and Guaifenesin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "2388175": 1.0,
+        "352777": 0.891874,
+        "2641119": 0.889896,
+        "2591192": 0.866885,
+        "2383054": 0.862323
+      },
+      "rapidfuzz": {
+        "352777": 0.95,
+        "5032": 0.9,
+        "3289": 0.9,
+        "1011087": 0.855,
+        "1011086": 0.855,
+        "2662811": 0.855,
+        "2655069": 0.855,
+        "2646650": 0.855,
+        "1101349": 0.855,
+        "1998458": 0.855
+      }
+    },
+    "candidate": {
+      "code": "2388175",
+      "confidence": 0.9
+    }
   },
   {
     "text": "spo2",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1361,
       1365
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận [ENTITY] là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6209936738014221,
+          "sparse_similarity": 0.15985052287578583,
+          "hybrid_score": 0.39042210578918457
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6170272827148438,
+          "sparse_similarity": 0.1636735200881958,
+          "hybrid_score": 0.3903504014015198
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6177576780319214,
+          "sparse_similarity": 0.16047918796539307,
+          "hybrid_score": 0.3891184329986572
+        }
+      ]
+    ],
+    "eng_translation": [
+      "SpO₂",
+      "Oxygen saturation",
+      "Oxygen saturation in arterial blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "90",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1369,
       1371
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ho, thiếu oxy\n    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện\n    Triệu chứng hiện tại\n    - ho\n    - nghẹt ngực\n    - khó thở nhẹ-vừa khó thở khi gắng sức\n    - mệt mỏi\n    - mệt mỏi\n    - sốt lên đến 101\n    - thỉnh thoảng tiêu chảy các thuốc của ông ấy\n    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu\n    Đặc điểm triệu chứng\n    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối\n    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì\n    - sốt lần cuối sốt là vào ngày\n    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau\n    - Phủ nhận đau ngực\n    - Phủ nhận buồn nôn/nôn\n    - Phủ nhận đổ mồ hôi đêm\n    - Phủ nhận khó thở khi nằm\n    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)\n    Sự kiện trước khi nhập viện\n    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin\n    - Tự điều trị bằng tylenol và mucinex d\n    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện\n    - Bác sĩ PCP ghi nhận spo2 là [ENTITY]-92% spo2 khi thở khí trời, 93% khi không dùng oxy\n    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu\n\n3.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "ông"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6078835725784302,
+          "sparse_similarity": 0.14826923608779907,
+          "hybrid_score": 0.3780764043331146
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6039186120033264,
+          "sparse_similarity": 0.1484731137752533,
+          "hybrid_score": 0.37619584798812866
+        },
+        {
+          "id": "isHistorical_022004",
+          "document": "khoảng 97 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6051962375640869,
+          "sparse_similarity": 0.14678436517715454,
+          "hybrid_score": 0.3759903013706207
+        }
+      ]
+    ],
+    "eng_translation": [
+      "90"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "số lượng bạch cầu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1532,
       1549
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - [ENTITY] là 12.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000209",
+          "document": "12 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7566463351249695,
+          "sparse_similarity": 0.1129351556301117,
+          "hybrid_score": 0.4347907304763794
+        },
+        {
+          "id": "isHistorical_031938",
+          "document": "đã 12 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7516355514526367,
+          "sparse_similarity": 0.10865792632102966,
+          "hybrid_score": 0.4301467537879944
+        },
+        {
+          "id": "isHistorical_012435",
+          "document": "cách đây 12 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7487422823905945,
+          "sparse_similarity": 0.11131133884191513,
+          "hybrid_score": 0.4300267994403839
+        }
+      ]
+    ],
+    "eng_translation": [
+      "White blood cell count"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "12.5",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1553,
       1557
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - số lượng bạch cầu là [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000109",
+          "document": "cần xét nghiệm xác nhận [ENTITY].",
+          "dense_similarity": 0.6618357300758362,
+          "sparse_similarity": 0.18132354319095612,
+          "hybrid_score": 0.42157962918281555
+        },
+        {
+          "id": "isUncertain_000029",
+          "document": "[ENTITY] cần làm thêm xét nghiệm.",
+          "dense_similarity": 0.6594550609588623,
+          "sparse_similarity": 0.18328803777694702,
+          "hybrid_score": 0.42137154936790466
+        },
+        {
+          "id": "isUncertain_000108",
+          "document": "cần làm thêm xét nghiệm xác định [ENTITY].",
+          "dense_similarity": 0.6549529433250427,
+          "sparse_similarity": 0.16764937341213226,
+          "hybrid_score": 0.4113011658191681
+        }
+      ]
+    ],
+    "eng_translation": [
+      "12.5"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tổng phân tích nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1564,
       1588
-    ]
+    ],
+    "sentence": "5\n    - [ENTITY] đáng chú ý chỉ có vếtvết protein niệu.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "chú"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_008003",
+          "document": "[ENTITY] tu 5 ngay truoc.",
+          "dense_similarity": 0.6919281482696533,
+          "sparse_similarity": 0.11819206923246384,
+          "hybrid_score": 0.4050601124763489
+        },
+        {
+          "id": "isHistorical_008002",
+          "document": "[ENTITY] tu 5 nam truoc.",
+          "dense_similarity": 0.6817439794540405,
+          "sparse_similarity": 0.10801339894533157,
+          "hybrid_score": 0.39487868547439575
+        },
+        {
+          "id": "isHistorical_023302",
+          "document": "tu 5 ngay truoc [ENTITY].",
+          "dense_similarity": 0.6756396293640137,
+          "sparse_similarity": 0.10855358093976974,
+          "hybrid_score": 0.392096608877182
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Urinalysis summary",
+      "Urinalysis results summary"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "troponin",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1636,
       1644
-    ]
+    ],
+    "sentence": "- [ENTITY] âm tính x1\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực được cho là viêm phổi thùy dưới phải (RLL PNA)",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6405515670776367,
+          "sparse_similarity": 0.11048930138349533,
+          "hybrid_score": 0.3755204379558563
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6422328352928162,
+          "sparse_similarity": 0.1078515499830246,
+          "hybrid_score": 0.375042200088501
+        },
+        {
+          "id": "isFamily_007122",
+          "document": "bên nội của bn được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6332690119743347,
+          "sparse_similarity": 0.10366581380367279,
+          "hybrid_score": 0.36846742033958435
+        }
+      ]
+    ],
+    "eng_translation": [
+      "troponin",
+      "Troponin elevation",
+      "Cardiac troponin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp x-quang",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1688,
       1700
-    ]
+    ],
+    "sentence": "- troponin âm tính x1\n    Kết quả chẩn đoán hình ảnh: [ENTITY] ngực được cho là viêm phổi thùy dưới phải (RLL PNA)",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6251779198646545,
+          "sparse_similarity": 0.08489149808883667,
+          "hybrid_score": 0.3550347089767456
+        },
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6156743168830872,
+          "sparse_similarity": 0.08653314411640167,
+          "hybrid_score": 0.3511037230491638
+        },
+        {
+          "id": "isFamily_007122",
+          "document": "bên nội của bn được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6169142723083496,
+          "sparse_similarity": 0.08194643259048462,
+          "hybrid_score": 0.3494303524494171
+        }
+      ]
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm phổi thùy dưới phải",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1718,
       1742
-    ]
+    ],
+    "sentence": "- troponin âm tính x1\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực được cho là [ENTITY] (RLL PNA)",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000232",
+          "document": "kết quả kiểm tra âm tính với [ENTITY].",
+          "dense_similarity": 0.6098065972328186,
+          "sparse_similarity": 0.14761406183242798,
+          "hybrid_score": 0.3787103295326233
+        },
+        {
+          "id": "isNegated_000040",
+          "document": "[ENTITY] xét nghiệm âm tính.",
+          "dense_similarity": 0.6099199056625366,
+          "sparse_similarity": 0.14597134292125702,
+          "hybrid_score": 0.3779456317424774
+        },
+        {
+          "id": "isNegated_000257",
+          "document": "pcr cho kết quả âm tính với [ENTITY].",
+          "dense_similarity": 0.6142041683197021,
+          "sparse_similarity": 0.13623809814453125,
+          "hybrid_score": 0.3752211332321167
+        }
+      ]
+    ],
+    "eng_translation": [
+      "right lower lobe pneumonia",
+      "right lower lobe infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

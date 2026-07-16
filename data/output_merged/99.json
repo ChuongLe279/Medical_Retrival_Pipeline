@@ -2,57 +2,338 @@
   {
     "text": "nội soi",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       131,
       138
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Bệnh lý mãn tính: rối loạn lo âu, không biệt định nghiêm trọng\n    Tiền sử phẫu thuật / thủ thuật: phẫu thuật [ENTITY] cắt bỏ tuyến tiền liệt  bên trái\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6473186016082764,
+          "sparse_similarity": 0.24926790595054626,
+          "hybrid_score": 0.4482932686805725
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6481143832206726,
+          "sparse_similarity": 0.24670815467834473,
+          "hybrid_score": 0.44741126894950867
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6352003216743469,
+          "sparse_similarity": 0.2438892126083374,
+          "hybrid_score": 0.43954476714134216
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Endoscopy",
+      "Gastrointestinal endoscopy",
+      "Endoscopic Examination"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       206,
       214
-    ]
+    ],
+    "sentence": "Bệnh sử\n    Lý do nhập viện: [ENTITY], đau dai dẳng, và táo bón\n    Triệu chứng hiện tại\n    - buồn nôn\n    - đau dai dẳng\n    - táo bón\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.64291912317276,
+          "sparse_similarity": 0.14672710001468658,
+          "hybrid_score": 0.3948231041431427
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6519597768783569,
+          "sparse_similarity": 0.13682438433170319,
+          "hybrid_score": 0.39439207315444946
+        },
+        {
+          "id": "isHistorical_032405",
+          "document": "đã 3 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6441182494163513,
+          "sparse_similarity": 0.13849635422229767,
+          "hybrid_score": 0.3913072943687439
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau dai dẳng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       216,
       228
-    ]
+    ],
+    "sentence": "Bệnh sử\n    Lý do nhập viện: buồn nôn, [ENTITY], và táo bón\n    Triệu chứng hiện tại\n    - buồn nôn\n    - đau dai dẳng\n    - táo bón\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6294952630996704,
+          "sparse_similarity": 0.14457571506500244,
+          "hybrid_score": 0.3870354890823364
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.637407660484314,
+          "sparse_similarity": 0.13433457911014557,
+          "hybrid_score": 0.38587111234664917
+        },
+        {
+          "id": "isHistorical_032405",
+          "document": "đã 3 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6295778751373291,
+          "sparse_similarity": 0.13598380982875824,
+          "hybrid_score": 0.38278084993362427
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic pain",
+      "Persistent pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "táo bón",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       233,
       240
-    ]
+    ],
+    "sentence": "Bệnh sử\n    Lý do nhập viện: buồn nôn, đau dai dẳng, và [ENTITY]\n    Triệu chứng hiện tại\n    - buồn nôn\n    - đau dai dẳng\n    - táo bón\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6329948902130127,
+          "sparse_similarity": 0.1519886553287506,
+          "hybrid_score": 0.39249175786972046
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6432693600654602,
+          "sparse_similarity": 0.14156833291053772,
+          "hybrid_score": 0.39241886138916016
+        },
+        {
+          "id": "isHistorical_032405",
+          "document": "đã 3 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6342496871948242,
+          "sparse_similarity": 0.1433548629283905,
+          "hybrid_score": 0.38880228996276855
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       272,
       280
-    ]
+    ],
+    "sentence": "Bệnh sử\n    Lý do nhập viện: buồn nôn, đau dai dẳng, và táo bón\n    Triệu chứng hiện tại\n    - [ENTITY]\n    - đau dai dẳng\n    - táo bón\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6405346989631653,
+          "sparse_similarity": 0.15497292578220367,
+          "hybrid_score": 0.3977538049221039
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6487860083580017,
+          "sparse_similarity": 0.1448209583759308,
+          "hybrid_score": 0.39680349826812744
+        },
+        {
+          "id": "isHistorical_032405",
+          "document": "đã 3 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6429256796836853,
+          "sparse_similarity": 0.14658436179161072,
+          "hybrid_score": 0.3947550058364868
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau dai dẳng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       287,
       299
-    ]
+    ],
+    "sentence": "Bệnh sử\n    Lý do nhập viện: buồn nôn, đau dai dẳng, và táo bón\n    Triệu chứng hiện tại\n    - buồn nôn\n    - [ENTITY]\n    - táo bón\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6345335245132446,
+          "sparse_similarity": 0.1480492353439331,
+          "hybrid_score": 0.39129137992858887
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6404057741165161,
+          "sparse_similarity": 0.13817961513996124,
+          "hybrid_score": 0.3892926871776581
+        },
+        {
+          "id": "isHistorical_032405",
+          "document": "đã 3 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6341878771781921,
+          "sparse_similarity": 0.13986539840698242,
+          "hybrid_score": 0.3870266377925873
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic pain",
+      "Persistent pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "táo bón",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       306,
       313
-    ]
+    ],
+    "sentence": "Bệnh sử\n    Lý do nhập viện: buồn nôn, đau dai dẳng, và táo bón\n    Triệu chứng hiện tại\n    - buồn nôn\n    - đau dai dẳng\n    - [ENTITY]\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6245151162147522,
+          "sparse_similarity": 0.14430688321590424,
+          "hybrid_score": 0.3844110071659088
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6314918398857117,
+          "sparse_similarity": 0.13406401872634888,
+          "hybrid_score": 0.3827779293060303
+        },
+        {
+          "id": "isHistorical_032405",
+          "document": "đã 3 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.626828670501709,
+          "sparse_similarity": 0.13570618629455566,
+          "hybrid_score": 0.3812674283981323
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

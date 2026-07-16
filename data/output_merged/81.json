@@ -2,25 +2,145 @@
   {
     "text": "chụp cắt lớp vi tính (ct)",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       257,
       282
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nKết quả chẩn đoán hình ảnh:\n- [ENTITY] sọ  trước mổ cho thấy độ dày niêm mạc xoang hàm dày lên\n- không có tổn thương rõ ràng khác trên chụp cắt lớp vi tính (ct) bụng\nCác thủ thuật đã thực hiện: nội soi ổ bụng chẩn đoán",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6182408332824707,
+          "sparse_similarity": 0.1319417655467987,
+          "hybrid_score": 0.3750913143157959
+        },
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6067546606063843,
+          "sparse_similarity": 0.1357426643371582,
+          "hybrid_score": 0.37124866247177124
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6052727103233337,
+          "sparse_similarity": 0.13124778866767883,
+          "hybrid_score": 0.3682602643966675
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       379,
       404
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nKết quả chẩn đoán hình ảnh:\n- chụp cắt lớp vi tính (ct) sọ  trước mổ cho thấy độ dày niêm mạc xoang hàm dày lên\n- không có tổn thương rõ ràng khác trên [ENTITY] bụng\nCác thủ thuật đã thực hiện: nội soi ổ bụng chẩn đoán",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5999654531478882,
+          "sparse_similarity": 0.10613343119621277,
+          "hybrid_score": 0.35304945707321167
+        },
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5879184007644653,
+          "sparse_similarity": 0.10966154932975769,
+          "hybrid_score": 0.3487899899482727
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5874893665313721,
+          "sparse_similarity": 0.10545021295547485,
+          "hybrid_score": 0.34646978974342346
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nội soi ổ bụng chẩn đoán",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       438,
       462
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nKết quả chẩn đoán hình ảnh:\n- chụp cắt lớp vi tính (ct) sọ  trước mổ cho thấy độ dày niêm mạc xoang hàm dày lên\n- không có tổn thương rõ ràng khác trên chụp cắt lớp vi tính (ct) bụng\nCác thủ thuật đã thực hiện: [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5714762806892395,
+          "sparse_similarity": 0.08983611315488815,
+          "hybrid_score": 0.3306562006473541
+        },
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5540425777435303,
+          "sparse_similarity": 0.10002706199884415,
+          "hybrid_score": 0.3270348310470581
+        },
+        {
+          "id": "isFamily_023816",
+          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5630016922950745,
+          "sparse_similarity": 0.09068585187196732,
+          "hybrid_score": 0.3268437683582306
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal endoscopy diagnosis",
+      "Gastrointestinal endoscopy diagnosis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

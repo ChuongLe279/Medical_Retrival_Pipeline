@@ -2,337 +2,2115 @@
   {
     "text": "metoprolol 25mg po bid",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       53,
       75
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Thuốc trước khi nhập viện\n    - [ENTITY]\n    - doxycycline cho viêm tuyến mồ hôi\n    - atenolol (uống hôm nay)\n    Các yếu tố nguy cơ liên quan\n    - Theo lời bệnh nhân kể lại bệnh nhân có   Căng thẳng  nhiều trong công việc\n    - Mất việc làm 8 ngày trước\n    -  Một ngày người bệnh có thể uống hàng chục tách cà phê có caffeine\n    -  và 1 tách cà phê không caffeine\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh thuốc trước khi nhập viện - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5977041721343994,
+          "sparse_similarity": 0.16216041147708893,
+          "hybrid_score": 0.3799322843551636
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5863146185874939,
+          "sparse_similarity": 0.16346967220306396,
+          "hybrid_score": 0.37489214539527893
+        },
+        {
+          "id": "isHistorical_019676",
+          "document": "khoảng 1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5873852968215942,
+          "sparse_similarity": 0.15756957232952118,
+          "hybrid_score": 0.3724774420261383
+        }
+      ]
+    ],
+    "eng_translation": [
+      "metoprolol 25mg PO BID",
+      "Metoprolol 25mg by mouth twice daily",
+      "Metoprolol 25 mg by mouth twice daily"
+    ],
+    "retriever": {
+      "sapbert": {
+        "866924": 0.915099
+      },
+      "rapidfuzz": {
+        "865575": 0.9,
+        "6918": 0.9,
+        "2743367": 0.855,
+        "1423766": 0.855
+      }
+    },
+    "candidate": {
+      "code": "866924",
+      "confidence": 0.823589
+    }
   },
   {
     "text": "doxycycline",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       82,
       93
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Thuốc trước khi nhập viện\n    - metoprolol 25mg po bid\n    - [ENTITY] cho viêm tuyến mồ hôi\n    - atenolol (uống hôm nay)\n    Các yếu tố nguy cơ liên quan\n    - Theo lời bệnh nhân kể lại bệnh nhân có   Căng thẳng  nhiều trong công việc\n    - Mất việc làm 8 ngày trước\n    -  Một ngày người bệnh có thể uống hàng chục tách cà phê có caffeine\n    -  và 1 tách cà phê không caffeine\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020108",
+          "document": "khoảng 25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5745651721954346,
+          "sparse_similarity": 0.17340818047523499,
+          "hybrid_score": 0.3739866614341736
+        },
+        {
+          "id": "isHistorical_000880",
+          "document": "25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5713940262794495,
+          "sparse_similarity": 0.17393851280212402,
+          "hybrid_score": 0.37266626954078674
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.580260694026947,
+          "sparse_similarity": 0.15704280138015747,
+          "hybrid_score": 0.36865174770355225
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Doxycycline",
+      "Doxycycline is a tetracycline antibiotic used to treat a variety of bacterial infections. It works by inhibiting the growth of bacteria. Doxycycline is available in both oral and injectable forms and is often prescribed for conditions such as acne, urinary tract infections, and respiratory tract infections. It is important to take this medication exactly as prescribed and to complete the full course of treatment to ensure that the infection is fully eradicated. Doxycycline may cause side effects such as nausea, vomiting, and increased sensitivity to sunlight, so it is important to follow the instructions provided by your healthcare provider. If you experience any severe side effects, you should contact your healthcare provider immediately."
+    ],
+    "retriever": {
+      "sapbert": {
+        "3640": 1.0,
+        "1545992": 0.941019,
+        "2181703": 0.714712,
+        "439221": 0.707729,
+        "203122": 0.703873
+      },
+      "rapidfuzz": {
+        "3640": 1.0,
+        "1160779": 0.95,
+        "205604": 0.9,
+        "2709477": 0.855,
+        "1365984": 0.855
+      }
+    },
+    "candidate": {
+      "code": "3640",
+      "confidence": 1.0
+    }
   },
   {
     "text": "viêm tuyến mồ hôi",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       98,
       115
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Thuốc trước khi nhập viện\n    - metoprolol 25mg po bid\n    - doxycycline cho [ENTITY]\n    - atenolol (uống hôm nay)\n    Các yếu tố nguy cơ liên quan\n    - Theo lời bệnh nhân kể lại bệnh nhân có   Căng thẳng  nhiều trong công việc\n    - Mất việc làm 8 ngày trước\n    -  Một ngày người bệnh có thể uống hàng chục tách cà phê có caffeine\n    -  và 1 tách cà phê không caffeine\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020108",
+          "document": "khoảng 25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5926886200904846,
+          "sparse_similarity": 0.1761503517627716,
+          "hybrid_score": 0.3844195008277893
+        },
+        {
+          "id": "isHistorical_000880",
+          "document": "25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5880330204963684,
+          "sparse_similarity": 0.17665526270866394,
+          "hybrid_score": 0.382344126701355
+        },
+        {
+          "id": "isHistorical_025060",
+          "document": "từ 25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5845981240272522,
+          "sparse_similarity": 0.17619763314723969,
+          "hybrid_score": 0.38039788603782654
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Sweat gland inflammation",
+      "Eccrine sweat gland inflammation",
+      "Sudoriferous gland inflammation",
+      "Inflammation of the sweat glands"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "atenolol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       122,
       130
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Thuốc trước khi nhập viện\n    - metoprolol 25mg po bid\n    - doxycycline cho viêm tuyến mồ hôi\n    - [ENTITY] (uống hôm nay)\n    Các yếu tố nguy cơ liên quan\n    - Theo lời bệnh nhân kể lại bệnh nhân có   Căng thẳng  nhiều trong công việc\n    - Mất việc làm 8 ngày trước\n    -  Một ngày người bệnh có thể uống hàng chục tách cà phê có caffeine\n    -  và 1 tách cà phê không caffeine\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020108",
+          "document": "khoảng 25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5803244113922119,
+          "sparse_similarity": 0.1702014058828354,
+          "hybrid_score": 0.37526291608810425
+        },
+        {
+          "id": "isHistorical_000880",
+          "document": "25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5764854550361633,
+          "sparse_similarity": 0.17071570456027985,
+          "hybrid_score": 0.373600572347641
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5815104842185974,
+          "sparse_similarity": 0.15705275535583496,
+          "hybrid_score": 0.3692816197872162
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Atenolol",
+      "Beta-blocker"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1202": 1.0,
+        "371": 0.992403,
+        "1427669": 0.948898,
+        "1431126": 0.939277,
+        "691779": 0.887482
+      },
+      "rapidfuzz": {
+        "1202": 1.0,
+        "2662562": 0.9,
+        "565804": 0.9,
+        "1792488": 0.855,
+        "1792490": 0.855,
+        "1792493": 0.855
+      }
+    },
+    "candidate": {
+      "code": "1202",
+      "confidence": 1.0
+    }
   },
   {
     "text": "caffeine",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       356,
       364
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Thuốc trước khi nhập viện\n    - metoprolol 25mg po bid\n    - doxycycline cho viêm tuyến mồ hôi\n    - atenolol (uống hôm nay)\n    Các yếu tố nguy cơ liên quan\n    - Theo lời bệnh nhân kể lại bệnh nhân có   Căng thẳng  nhiều trong công việc\n    - Mất việc làm 8 ngày trước\n    -  Một ngày người bệnh có thể uống hàng chục tách cà phê có [ENTITY]\n    -  và 1 tách cà phê không caffeine\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020108",
+          "document": "khoảng 25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5784425735473633,
+          "sparse_similarity": 0.15663141012191772,
+          "hybrid_score": 0.3675369918346405
+        },
+        {
+          "id": "isHistorical_000880",
+          "document": "25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5746705532073975,
+          "sparse_similarity": 0.15708670020103455,
+          "hybrid_score": 0.3658786416053772
+        },
+        {
+          "id": "isHistorical_025060",
+          "document": "từ 25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5709232091903687,
+          "sparse_similarity": 0.15672330558300018,
+          "hybrid_score": 0.363823264837265
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Caffeine",
+      "Caffeine is a central nervous system stimulant commonly found in coffee, tea, energy drinks, and certain medications. It works by blocking the action of adenosine, a neurotransmitter that promotes sleep and suppresses arousal. Caffeine can increase alertness, reduce fatigue, and enhance physical performance. However, excessive consumption may lead to side effects such as insomnia, anxiety, increased heart rate, and gastrointestinal discomfort. It is also associated with dependency and withdrawal symptoms when consumption is reduced."
+    ],
+    "retriever": {
+      "sapbert": {
+        "1886": 1.0,
+        "2636169": 0.721418,
+        "2727908": 0.682711
+      },
+      "rapidfuzz": {
+        "1886": 1.0,
+        "2661484": 0.9,
+        "1152405": 0.9,
+        "1488671": 0.855,
+        "701627": 0.855,
+        "2655807": 0.855
+      }
+    },
+    "candidate": {
+      "code": "1886",
+      "confidence": 1.0
+    }
   },
   {
     "text": "caffeine",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       395,
       403
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Thuốc trước khi nhập viện\n    - metoprolol 25mg po bid\n    - doxycycline cho viêm tuyến mồ hôi\n    - atenolol (uống hôm nay)\n    Các yếu tố nguy cơ liên quan\n    - Theo lời bệnh nhân kể lại bệnh nhân có   Căng thẳng  nhiều trong công việc\n    - Mất việc làm 8 ngày trước\n    -  Một ngày người bệnh có thể uống hàng chục tách cà phê có caffeine\n    -  và 1 tách cà phê không [ENTITY]\n\n2.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020108",
+          "document": "khoảng 25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5696443915367126,
+          "sparse_similarity": 0.13611769676208496,
+          "hybrid_score": 0.3528810441493988
+        },
+        {
+          "id": "isHistorical_000880",
+          "document": "25 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5671208500862122,
+          "sparse_similarity": 0.13672257959842682,
+          "hybrid_score": 0.3519217073917389
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5690139532089233,
+          "sparse_similarity": 0.12649661302566528,
+          "hybrid_score": 0.3477552831172943
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Caffeine",
+      "Caffeine is a central nervous system stimulant commonly found in coffee, tea, energy drinks, and certain medications. It works by blocking the action of adenosine, a neurotransmitter that promotes sleep and suppresses arousal. Caffeine can increase alertness, reduce fatigue, and enhance physical performance. However, excessive consumption may lead to side effects such as insomnia, anxiety, increased heart rate, and gastrointestinal discomfort. It is also associated with dependency and withdrawal symptoms when consumption is reduced."
+    ],
+    "retriever": {
+      "sapbert": {
+        "1886": 1.0,
+        "2636169": 0.721418,
+        "2727908": 0.682711
+      },
+      "rapidfuzz": {
+        "1886": 1.0,
+        "2661484": 0.9,
+        "1152405": 0.9,
+        "1488671": 0.855,
+        "701627": 0.855,
+        "2655807": 0.855
+      }
+    },
+    "candidate": {
+      "code": "1886",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       497,
       512
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng [ENTITY]\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - Khó thở nhẹ khó thở\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6105669736862183,
+          "sparse_similarity": 0.1902594417333603,
+          "hybrid_score": 0.4004132151603699
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6084545850753784,
+          "sparse_similarity": 0.1834099441766739,
+          "hybrid_score": 0.39593225717544556
+        },
+        {
+          "id": "isHistorical_024628",
+          "document": "từ 1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6042845845222473,
+          "sparse_similarity": 0.18620926141738892,
+          "hybrid_score": 0.3952469229698181
+        }
+      ]
+    ],
+    "eng_translation": [
+      "palpitations",
+      "Arrhythmia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       615,
       630
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác [ENTITY]\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - Khó thở nhẹ khó thở\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "10 ngày trước khi vào việc bệnh nhân xuất hiện cảm giác [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6015576124191284,
+          "sparse_similarity": 0.17653363943099976,
+          "hybrid_score": 0.3890456259250641
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6018962264060974,
+          "sparse_similarity": 0.1744948774576187,
+          "hybrid_score": 0.38819554448127747
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6029097437858582,
+          "sparse_similarity": 0.1678275167942047,
+          "hybrid_score": 0.3853686451911926
+        }
+      ]
+    ],
+    "eng_translation": [
+      "palpitations",
+      "Arrhythmia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       666,
       681
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - [ENTITY]\n    - Khó thở nhẹ khó thở\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6055392026901245,
+          "sparse_similarity": 0.17660966515541077,
+          "hybrid_score": 0.39107441902160645
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6051806807518005,
+          "sparse_similarity": 0.17384400963783264,
+          "hybrid_score": 0.3895123600959778
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6060932874679565,
+          "sparse_similarity": 0.16747990250587463,
+          "hybrid_score": 0.3867865800857544
+        }
+      ]
+    ],
+    "eng_translation": [
+      "palpitations",
+      "Arrhythmia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       688,
       695
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - [ENTITY] nhẹ khó thở\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6168308854103088,
+          "sparse_similarity": 0.1803428828716278,
+          "hybrid_score": 0.39858686923980713
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6143112778663635,
+          "sparse_similarity": 0.18204668164253235,
+          "hybrid_score": 0.39817899465560913
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6170225143432617,
+          "sparse_similarity": 0.17384085059165955,
+          "hybrid_score": 0.3954316973686218
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       700,
       707
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - Khó thở nhẹ [ENTITY]\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5988134741783142,
+          "sparse_similarity": 0.1783936619758606,
+          "hybrid_score": 0.3886035680770874
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.599246621131897,
+          "sparse_similarity": 0.17491906881332397,
+          "hybrid_score": 0.3870828449726105
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6013359427452087,
+          "sparse_similarity": 0.1684265285730362,
+          "hybrid_score": 0.38488122820854187
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "giác thắt chặt ngực vùng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       718,
       742
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - Khó thở nhẹ khó thở\n    - cảm [ENTITY] trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5997576713562012,
+          "sparse_similarity": 0.18305155634880066,
+          "hybrid_score": 0.3914046287536621
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6003854870796204,
+          "sparse_similarity": 0.17924806475639343,
+          "hybrid_score": 0.3898167610168457
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6026394367218018,
+          "sparse_similarity": 0.17266863584518433,
+          "hybrid_score": 0.38765403628349304
+        }
+      ]
+    ],
+    "eng_translation": [
+      "tight chest pain in the area",
+      "Chest pain in the area of the sternum",
+      "Chest tightness in the area"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       787,
       802
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - Khó thở nhẹ khó thở\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng [ENTITY] (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6023962497711182,
+          "sparse_similarity": 0.1786142885684967,
+          "hybrid_score": 0.39050525426864624
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.603710949420929,
+          "sparse_similarity": 0.17590868473052979,
+          "hybrid_score": 0.38980981707572937
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6059015393257141,
+          "sparse_similarity": 0.16940349340438843,
+          "hybrid_score": 0.38765251636505127
+        }
+      ]
+    ],
+    "eng_translation": [
+      "palpitations",
+      "Arrhythmia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       832,
       839
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - Khó thở nhẹ khó thở\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - [ENTITY] (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6073449850082397,
+          "sparse_similarity": 0.17948965728282928,
+          "hybrid_score": 0.3934173285961151
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6039068698883057,
+          "sparse_similarity": 0.18230298161506653,
+          "hybrid_score": 0.3931049108505249
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.610059380531311,
+          "sparse_similarity": 0.17290347814559937,
+          "hybrid_score": 0.3914814293384552
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       878,
       885
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - Khó thở nhẹ khó thở\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy [ENTITY] nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5997877717018127,
+          "sparse_similarity": 0.1806424856185913,
+          "hybrid_score": 0.390215128660202
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.600568413734436,
+          "sparse_similarity": 0.17797844111919403,
+          "hybrid_score": 0.38927343487739563
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6026309132575989,
+          "sparse_similarity": 0.17155101895332336,
+          "hybrid_score": 0.3870909810066223
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       935,
       942
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - Khó thở nhẹ khó thở\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy [ENTITY] nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5979334115982056,
+          "sparse_similarity": 0.17707137763500214,
+          "hybrid_score": 0.38750240206718445
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.598555326461792,
+          "sparse_similarity": 0.17408309876918793,
+          "hybrid_score": 0.38631922006607056
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6010022759437561,
+          "sparse_similarity": 0.16767990589141846,
+          "hybrid_score": 0.3843410909175873
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1053,
       1068
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - Khó thở nhẹ khó thở\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - [ENTITY]:  còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6066434383392334,
+          "sparse_similarity": 0.187631756067276,
+          "hybrid_score": 0.3971375823020935
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6065528392791748,
+          "sparse_similarity": 0.1839745193719864,
+          "hybrid_score": 0.395263671875
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6085305213928223,
+          "sparse_similarity": 0.17755162715911865,
+          "hybrid_score": 0.39304107427597046
+        }
+      ]
+    ],
+    "eng_translation": [
+      "palpitations",
+      "Arrhythmia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1084,
       1099
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện:  Bệnh nhân vào viện vì xuất hiện triệu chứng đánh trống ngực\n    Thời điểm khởi phát triệu chứng: \n- Cách 10 ngày trước khi vào việc  bệnh nhân xuất hiện cảm giác đánh trống ngực\n    Các triệu chứng hiện tại\n    - đánh trống ngực\n    - Khó thở nhẹ khó thở\n    - cảm giác thắt chặt ngực vùng trước tim (khởi phát lúc 17 giờ)\n    - Tăng đánh trống ngực (khởi phát lúc 17 giờ)\n    - khó thở (khởi phát lúc 17 giờ)\n    - Cảm thấy mệt mỏi nhiều khi gắng sức trong tuần qua\n    - Cảm thấy mệt mỏi nhiều hơn sau khi luyện tập thể dục so với mọi ngày \n    Đặc điểm triệu chứng khi khám tại khoa cấp cứu\n    - đánh trống ngực:  còn cảm giác [ENTITY] khi nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6099836230278015,
+          "sparse_similarity": 0.19108639657497406,
+          "hybrid_score": 0.4005350172519684
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.611733615398407,
+          "sparse_similarity": 0.1891123354434967,
+          "hybrid_score": 0.40042299032211304
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6142914295196533,
+          "sparse_similarity": 0.18252089619636536,
+          "hybrid_score": 0.39840614795684814
+        }
+      ]
+    ],
+    "eng_translation": [
+      "palpitations",
+      "Arrhythmia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1121,
       1128
-    ]
+    ],
+    "sentence": "- [ENTITY]: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ)\n    - cảm giác thắt chặt ngực: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có khó chịu vùng ngực khi đến tầng\n    - khó thở: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây\n    - giảm dung nạp gắng sức: \n    - Không  buồn nôn, hay nôn, đổ mồ hôi\n    - Không liên quan đến gắng sức hoặc tư thế\n    Các diễn biến  trước khi nhập viện\n    - Được thăm khám bởi bác sĩ phụ trách chính \n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019910",
+          "document": "khoảng 17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5578264594078064,
+          "sparse_similarity": 0.16555500030517578,
+          "hybrid_score": 0.3616907298564911
+        },
+        {
+          "id": "isHistorical_019892",
+          "document": "khoảng 17 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5497298240661621,
+          "sparse_similarity": 0.16914810240268707,
+          "hybrid_score": 0.359438955783844
+        },
+        {
+          "id": "isHistorical_000478",
+          "document": "17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.550635039806366,
+          "sparse_similarity": 0.16680072247982025,
+          "hybrid_score": 0.3587178885936737
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1149,
       1164
-    ]
+    ],
+    "sentence": "- khó thở: Nhẹ, liên quan đến [ENTITY], liên quan đến khó thở (khởi phát lúc 17 giờ)\n    - cảm giác thắt chặt ngực: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có khó chịu vùng ngực khi đến tầng\n    - khó thở: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây\n    - giảm dung nạp gắng sức: \n    - Không  buồn nôn, hay nôn, đổ mồ hôi\n    - Không liên quan đến gắng sức hoặc tư thế\n    Các diễn biến  trước khi nhập viện\n    - Được thăm khám bởi bác sĩ phụ trách chính \n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019910",
+          "document": "khoảng 17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5701051950454712,
+          "sparse_similarity": 0.1766994595527649,
+          "hybrid_score": 0.37340232729911804
+        },
+        {
+          "id": "isHistorical_019892",
+          "document": "khoảng 17 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5631716847419739,
+          "sparse_similarity": 0.18066804111003876,
+          "hybrid_score": 0.3719198703765869
+        },
+        {
+          "id": "isHistorical_000478",
+          "document": "17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5634840130805969,
+          "sparse_similarity": 0.17791292071342468,
+          "hybrid_score": 0.3706984519958496
+        }
+      ]
+    ],
+    "eng_translation": [
+      "palpitations",
+      "Arrhythmia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1180,
       1187
-    ]
+    ],
+    "sentence": "- khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến [ENTITY] (khởi phát lúc 17 giờ)\n    - cảm giác thắt chặt ngực: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có khó chịu vùng ngực khi đến tầng\n    - khó thở: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây\n    - giảm dung nạp gắng sức: \n    - Không  buồn nôn, hay nôn, đổ mồ hôi\n    - Không liên quan đến gắng sức hoặc tư thế\n    Các diễn biến  trước khi nhập viện\n    - Được thăm khám bởi bác sĩ phụ trách chính \n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019910",
+          "document": "khoảng 17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.569408655166626,
+          "sparse_similarity": 0.17496000230312347,
+          "hybrid_score": 0.3721843361854553
+        },
+        {
+          "id": "isHistorical_019892",
+          "document": "khoảng 17 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5614780187606812,
+          "sparse_similarity": 0.1788109838962555,
+          "hybrid_score": 0.37014448642730713
+        },
+        {
+          "id": "isHistorical_000478",
+          "document": "17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5624745488166809,
+          "sparse_similarity": 0.1760212779045105,
+          "hybrid_score": 0.3692479133605957
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cảm giác thắt chặt ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1217,
       1240
-    ]
+    ],
+    "sentence": "- khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ)\n    - [ENTITY]: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có khó chịu vùng ngực khi đến tầng\n    - khó thở: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây\n    - giảm dung nạp gắng sức: \n    - Không  buồn nôn, hay nôn, đổ mồ hôi\n    - Không liên quan đến gắng sức hoặc tư thế\n    Các diễn biến  trước khi nhập viện\n    - Được thăm khám bởi bác sĩ phụ trách chính \n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019910",
+          "document": "khoảng 17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5622364282608032,
+          "sparse_similarity": 0.17682932317256927,
+          "hybrid_score": 0.36953288316726685
+        },
+        {
+          "id": "isHistorical_019892",
+          "document": "khoảng 17 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5558586716651917,
+          "sparse_similarity": 0.18070682883262634,
+          "hybrid_score": 0.3682827353477478
+        },
+        {
+          "id": "isHistorical_000478",
+          "document": "17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5565490126609802,
+          "sparse_similarity": 0.17805299162864685,
+          "hybrid_score": 0.36730098724365234
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest tightness",
+      "Chest discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó chịu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1301,
       1309
-    ]
+    ],
+    "sentence": "- khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ)\n    - cảm giác thắt chặt ngực: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có [ENTITY] vùng ngực khi đến tầng\n    - khó thở: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây\n    - giảm dung nạp gắng sức: \n    - Không  buồn nôn, hay nôn, đổ mồ hôi\n    - Không liên quan đến gắng sức hoặc tư thế\n    Các diễn biến  trước khi nhập viện\n    - Được thăm khám bởi bác sĩ phụ trách chính \n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019910",
+          "document": "khoảng 17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5531489849090576,
+          "sparse_similarity": 0.15848933160305023,
+          "hybrid_score": 0.3558191657066345
+        },
+        {
+          "id": "isHistorical_019892",
+          "document": "khoảng 17 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5462609529495239,
+          "sparse_similarity": 0.16195698082447052,
+          "hybrid_score": 0.3541089594364166
+        },
+        {
+          "id": "isHistorical_000478",
+          "document": "17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5474675893783569,
+          "sparse_similarity": 0.1598460078239441,
+          "hybrid_score": 0.3536567986011505
+        }
+      ]
+    ],
+    "eng_translation": [
+      "discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1339,
       1346
-    ]
+    ],
+    "sentence": "- khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ)\n    - cảm giác thắt chặt ngực: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có khó chịu vùng ngực khi đến tầng\n    - [ENTITY]: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây\n    - giảm dung nạp gắng sức: \n    - Không  buồn nôn, hay nôn, đổ mồ hôi\n    - Không liên quan đến gắng sức hoặc tư thế\n    Các diễn biến  trước khi nhập viện\n    - Được thăm khám bởi bác sĩ phụ trách chính \n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019910",
+          "document": "khoảng 17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5551745891571045,
+          "sparse_similarity": 0.16493867337703705,
+          "hybrid_score": 0.36005663871765137
+        },
+        {
+          "id": "isHistorical_019892",
+          "document": "khoảng 17 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5483105778694153,
+          "sparse_similarity": 0.16856402158737183,
+          "hybrid_score": 0.35843729972839355
+        },
+        {
+          "id": "isHistorical_000478",
+          "document": "17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5486315488815308,
+          "sparse_similarity": 0.16624777019023895,
+          "hybrid_score": 0.35743966698646545
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1362,
       1377
-    ]
+    ],
+    "sentence": "- khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ)\n    - cảm giác thắt chặt ngực: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có khó chịu vùng ngực khi đến tầng\n    - khó thở: Liên quan đến [ENTITY], khởi phát lúc 17 giờ, kéo dài 20 giây\n    - giảm dung nạp gắng sức: \n    - Không  buồn nôn, hay nôn, đổ mồ hôi\n    - Không liên quan đến gắng sức hoặc tư thế\n    Các diễn biến  trước khi nhập viện\n    - Được thăm khám bởi bác sĩ phụ trách chính \n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019910",
+          "document": "khoảng 17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5703405141830444,
+          "sparse_similarity": 0.18270909786224365,
+          "hybrid_score": 0.37652480602264404
+        },
+        {
+          "id": "isHistorical_019892",
+          "document": "khoảng 17 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5638669729232788,
+          "sparse_similarity": 0.18678629398345947,
+          "hybrid_score": 0.37532663345336914
+        },
+        {
+          "id": "isHistorical_000478",
+          "document": "17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5638167858123779,
+          "sparse_similarity": 0.1839032620191574,
+          "hybrid_score": 0.37386003136634827
+        }
+      ]
+    ],
+    "eng_translation": [
+      "palpitations",
+      "Arrhythmia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1461,
       1469
-    ]
+    ],
+    "sentence": "- khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ)\n    - cảm giác thắt chặt ngực: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có khó chịu vùng ngực khi đến tầng\n    - khó thở: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây\n    - giảm dung nạp gắng sức: \n    - Không  [ENTITY], hay nôn, đổ mồ hôi\n    - Không liên quan đến gắng sức hoặc tư thế\n    Các diễn biến  trước khi nhập viện\n    - Được thăm khám bởi bác sĩ phụ trách chính \n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019910",
+          "document": "khoảng 17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5540832281112671,
+          "sparse_similarity": 0.15906593203544617,
+          "hybrid_score": 0.3565745949745178
+        },
+        {
+          "id": "isHistorical_019892",
+          "document": "khoảng 17 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5472916960716248,
+          "sparse_similarity": 0.16259773075580597,
+          "hybrid_score": 0.35494470596313477
+        },
+        {
+          "id": "isHistorical_000478",
+          "document": "17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5476407408714294,
+          "sparse_similarity": 0.16033194959163666,
+          "hybrid_score": 0.35398635268211365
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1475,
       1478
-    ]
+    ],
+    "sentence": "- khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ)\n    - cảm giác thắt chặt ngực: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có khó chịu vùng ngực khi đến tầng\n    - khó thở: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây\n    - giảm dung nạp gắng sức: \n    - Không  buồn nôn, hay [ENTITY], đổ mồ hôi\n    - Không liên quan đến gắng sức hoặc tư thế\n    Các diễn biến  trước khi nhập viện\n    - Được thăm khám bởi bác sĩ phụ trách chính \n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019910",
+          "document": "khoảng 17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.55068439245224,
+          "sparse_similarity": 0.15775066614151,
+          "hybrid_score": 0.354217529296875
+        },
+        {
+          "id": "isHistorical_019892",
+          "document": "khoảng 17 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5440076589584351,
+          "sparse_similarity": 0.16121229529380798,
+          "hybrid_score": 0.3526099920272827
+        },
+        {
+          "id": "isHistorical_000478",
+          "document": "17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5446070432662964,
+          "sparse_similarity": 0.15900486707687378,
+          "hybrid_score": 0.3518059551715851
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đổ mồ hôi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1480,
       1489
-    ]
+    ],
+    "sentence": "- khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ)\n    - cảm giác thắt chặt ngực: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có khó chịu vùng ngực khi đến tầng\n    - khó thở: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây\n    - giảm dung nạp gắng sức: \n    - Không  buồn nôn, hay nôn, [ENTITY]\n    - Không liên quan đến gắng sức hoặc tư thế\n    Các diễn biến  trước khi nhập viện\n    - Được thăm khám bởi bác sĩ phụ trách chính \n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019910",
+          "document": "khoảng 17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5527673959732056,
+          "sparse_similarity": 0.16005107760429382,
+          "hybrid_score": 0.3564092516899109
+        },
+        {
+          "id": "isHistorical_019892",
+          "document": "khoảng 17 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5459434390068054,
+          "sparse_similarity": 0.16347062587738037,
+          "hybrid_score": 0.3547070324420929
+        },
+        {
+          "id": "isHistorical_000478",
+          "document": "17 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5465469360351562,
+          "sparse_similarity": 0.1613195389509201,
+          "hybrid_score": 0.3539332449436188
+        }
+      ]
+    ],
+    "eng_translation": [
+      "sweating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "metoprolol 25mg po bid",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1772,
       1794
-    ]
+    ],
+    "sentence": "- Bắt đầu dùng [ENTITY], không có cải thiện\n    -  Ở nhà bệnh nhân đã sử dụng atenololtrong ngày\n    - Lên lịch tái khám với bác sĩ tim mạch và được chỉ định siêu âm tim qua thành ngực vào tuần tới\n    - Ngày hôm nay khoảng Lúc 17 giờ,  khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng đánh trống ngực, và khó thở kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  aspirin 325mg x 1\n    - chụp x-quang ngực không ghi nhận gì bất thường\n    - phân tích nước tiểu không ghi nhận gì bất thường\n    - ecg bình thường\n    Tình trạng ngay trước khi nhập viện: Tiếp tục cảm thấy đánh trống ngực\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6169117093086243,
+          "sparse_similarity": 0.14600102603435516,
+          "hybrid_score": 0.3814563751220703
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6172626614570618,
+          "sparse_similarity": 0.13939166069030762,
+          "hybrid_score": 0.3783271610736847
+        },
+        {
+          "id": "isHistorical_020228",
+          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6114708781242371,
+          "sparse_similarity": 0.14371271431446075,
+          "hybrid_score": 0.3775917887687683
+        }
+      ]
+    ],
+    "eng_translation": [
+      "metoprolol 25mg PO BID",
+      "Metoprolol 25mg by mouth twice daily",
+      "Metoprolol 25 mg by mouth twice daily"
+    ],
+    "retriever": {
+      "sapbert": {
+        "866924": 0.915099
+      },
+      "rapidfuzz": {
+        "865575": 0.9,
+        "6918": 0.9,
+        "2743367": 0.855,
+        "1423766": 0.855
+      }
+    },
+    "candidate": {
+      "code": "866924",
+      "confidence": 0.823589
+    }
   },
   {
     "text": "siêu âm tim",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1929,
       1940
-    ]
+    ],
+    "sentence": "- Bắt đầu dùng metoprolol 25mg po bid, không có cải thiện\n    -  Ở nhà bệnh nhân đã sử dụng atenololtrong ngày\n    - Lên lịch tái khám với bác sĩ tim mạch và được chỉ định [ENTITY] qua thành ngực vào tuần tới\n    - Ngày hôm nay khoảng Lúc 17 giờ,  khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng đánh trống ngực, và khó thở kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  aspirin 325mg x 1\n    - chụp x-quang ngực không ghi nhận gì bất thường\n    - phân tích nước tiểu không ghi nhận gì bất thường\n    - ecg bình thường\n    Tình trạng ngay trước khi nhập viện: Tiếp tục cảm thấy đánh trống ngực\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5993171334266663,
+          "sparse_similarity": 0.1133718341588974,
+          "hybrid_score": 0.3563444912433624
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5994150638580322,
+          "sparse_similarity": 0.10894163697957993,
+          "hybrid_score": 0.3541783392429352
+        },
+        {
+          "id": "isHistorical_020246",
+          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5973972082138062,
+          "sparse_similarity": 0.10881798714399338,
+          "hybrid_score": 0.35310760140419006
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Echocardiogram",
+      "Cardiac ultrasound"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thắt chặt ngực vùng trước tim",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2059,
       2088
-    ]
+    ],
+    "sentence": "- Bắt đầu dùng metoprolol 25mg po bid, không có cải thiện\n    -  Ở nhà bệnh nhân đã sử dụng atenololtrong ngày\n    - Lên lịch tái khám với bác sĩ tim mạch và được chỉ định siêu âm tim qua thành ngực vào tuần tới\n    - Ngày hôm nay khoảng Lúc 17 giờ,  khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác [ENTITY], tăng đánh trống ngực, và khó thở kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  aspirin 325mg x 1\n    - chụp x-quang ngực không ghi nhận gì bất thường\n    - phân tích nước tiểu không ghi nhận gì bất thường\n    - ecg bình thường\n    Tình trạng ngay trước khi nhập viện: Tiếp tục cảm thấy đánh trống ngực\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5929945111274719,
+          "sparse_similarity": 0.12002085149288177,
+          "hybrid_score": 0.35650768876075745
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5950261950492859,
+          "sparse_similarity": 0.11377427726984024,
+          "hybrid_score": 0.35440024733543396
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.590746283531189,
+          "sparse_similarity": 0.11616594344377518,
+          "hybrid_score": 0.3534561097621918
+        }
+      ]
+    ],
+    "eng_translation": [
+      "tightening of the anterior chest wall over the heart",
+      "Precordial tightness over the heart",
+      "Constrictive pericarditis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2090,
       2110
-    ]
+    ],
+    "sentence": "- Bắt đầu dùng metoprolol 25mg po bid, không có cải thiện\n    -  Ở nhà bệnh nhân đã sử dụng atenololtrong ngày\n    - Lên lịch tái khám với bác sĩ tim mạch và được chỉ định siêu âm tim qua thành ngực vào tuần tới\n    - Ngày hôm nay khoảng Lúc 17 giờ,  khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, [ENTITY], và khó thở kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  aspirin 325mg x 1\n    - chụp x-quang ngực không ghi nhận gì bất thường\n    - phân tích nước tiểu không ghi nhận gì bất thường\n    - ecg bình thường\n    Tình trạng ngay trước khi nhập viện: Tiếp tục cảm thấy đánh trống ngực\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5846215486526489,
+          "sparse_similarity": 0.11659660190343857,
+          "hybrid_score": 0.35060906410217285
+        },
+        {
+          "id": "isHistorical_020126",
+          "document": "khoảng 25 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5726205706596375,
+          "sparse_similarity": 0.12715116143226624,
+          "hybrid_score": 0.34988588094711304
+        },
+        {
+          "id": "isHistorical_020006",
+          "document": "khoảng 20 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5741159915924072,
+          "sparse_similarity": 0.11989153921604156,
+          "hybrid_score": 0.3470037579536438
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Increased palpitations",
+      "Palpitations",
+      "Increased tachycardia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2115,
       2122
-    ]
+    ],
+    "sentence": "- Bắt đầu dùng metoprolol 25mg po bid, không có cải thiện\n    -  Ở nhà bệnh nhân đã sử dụng atenololtrong ngày\n    - Lên lịch tái khám với bác sĩ tim mạch và được chỉ định siêu âm tim qua thành ngực vào tuần tới\n    - Ngày hôm nay khoảng Lúc 17 giờ,  khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng đánh trống ngực, và [ENTITY] kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  aspirin 325mg x 1\n    - chụp x-quang ngực không ghi nhận gì bất thường\n    - phân tích nước tiểu không ghi nhận gì bất thường\n    - ecg bình thường\n    Tình trạng ngay trước khi nhập viện: Tiếp tục cảm thấy đánh trống ngực\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5739507079124451,
+          "sparse_similarity": 0.11635489761829376,
+          "hybrid_score": 0.3451527953147888
+        },
+        {
+          "id": "isHistorical_020228",
+          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5677651762962341,
+          "sparse_similarity": 0.11471417546272278,
+          "hybrid_score": 0.34123969078063965
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5729917883872986,
+          "sparse_similarity": 0.10738712549209595,
+          "hybrid_score": 0.34018945693969727
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "aspirin 325mg",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       2199,
       2212
-    ]
+    ],
+    "sentence": "- Bắt đầu dùng metoprolol 25mg po bid, không có cải thiện\n    -  Ở nhà bệnh nhân đã sử dụng atenololtrong ngày\n    - Lên lịch tái khám với bác sĩ tim mạch và được chỉ định siêu âm tim qua thành ngực vào tuần tới\n    - Ngày hôm nay khoảng Lúc 17 giờ,  khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng đánh trống ngực, và khó thở kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  [ENTITY] x 1\n    - chụp x-quang ngực không ghi nhận gì bất thường\n    - phân tích nước tiểu không ghi nhận gì bất thường\n    - ecg bình thường\n    Tình trạng ngay trước khi nhập viện: Tiếp tục cảm thấy đánh trống ngực\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5963788032531738,
+          "sparse_similarity": 0.11840137839317322,
+          "hybrid_score": 0.3573901057243347
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5792127251625061,
+          "sparse_similarity": 0.12843164801597595,
+          "hybrid_score": 0.35382217168807983
+        },
+        {
+          "id": "isHistorical_020228",
+          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.59023517370224,
+          "sparse_similarity": 0.1167655885219574,
+          "hybrid_score": 0.3535003662109375
+        }
+      ]
+    ],
+    "eng_translation": [
+      "aspirin 325mg",
+      "Aspirin 325 mg",
+      "Acetylsalicylic acid 325mg",
+      "aspirin 325 milligrams"
+    ],
+    "retriever": {
+      "sapbert": {
+        "572393": 0.974495,
+        "572203": 0.96399,
+        "572210": 0.962723,
+        "2563424": 0.96112,
+        "574308": 0.959
+      },
+      "rapidfuzz": {
+        "317300": 1.0,
+        "329295": 0.962963,
+        "335953": 0.928571,
+        "9525": 0.9,
+        "1437977": 0.855,
+        "1810999": 0.855
+      }
+    },
+    "candidate": {
+      "code": "572393",
+      "confidence": 0.877046
+    }
   },
   {
     "text": "chụp x-quang",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2223,
       2235
-    ]
+    ],
+    "sentence": "- Bắt đầu dùng metoprolol 25mg po bid, không có cải thiện\n    -  Ở nhà bệnh nhân đã sử dụng atenololtrong ngày\n    - Lên lịch tái khám với bác sĩ tim mạch và được chỉ định siêu âm tim qua thành ngực vào tuần tới\n    - Ngày hôm nay khoảng Lúc 17 giờ,  khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng đánh trống ngực, và khó thở kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  aspirin 325mg x 1\n    - [ENTITY] ngực không ghi nhận gì bất thường\n    - phân tích nước tiểu không ghi nhận gì bất thường\n    - ecg bình thường\n    Tình trạng ngay trước khi nhập viện: Tiếp tục cảm thấy đánh trống ngực\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020126",
+          "document": "khoảng 25 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.55282062292099,
+          "sparse_similarity": 0.11152243614196777,
+          "hybrid_score": 0.3321715295314789
+        },
+        {
+          "id": "isHistorical_000910",
+          "document": "25 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5514329671859741,
+          "sparse_similarity": 0.11163246631622314,
+          "hybrid_score": 0.33153271675109863
+        },
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5634729266166687,
+          "sparse_similarity": 0.0984511449933052,
+          "hybrid_score": 0.33096203207969666
+        }
+      ]
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phân tích nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2276,
       2295
-    ]
+    ],
+    "sentence": "- Bắt đầu dùng metoprolol 25mg po bid, không có cải thiện\n    -  Ở nhà bệnh nhân đã sử dụng atenololtrong ngày\n    - Lên lịch tái khám với bác sĩ tim mạch và được chỉ định siêu âm tim qua thành ngực vào tuần tới\n    - Ngày hôm nay khoảng Lúc 17 giờ,  khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng đánh trống ngực, và khó thở kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  aspirin 325mg x 1\n    - chụp x-quang ngực không ghi nhận gì bất thường\n    - [ENTITY] không ghi nhận gì bất thường\n    - ecg bình thường\n    Tình trạng ngay trước khi nhập viện: Tiếp tục cảm thấy đánh trống ngực\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5622522234916687,
+          "sparse_similarity": 0.09868364781141281,
+          "hybrid_score": 0.33046793937683105
+        },
+        {
+          "id": "isHistorical_020126",
+          "document": "khoảng 25 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5473933815956116,
+          "sparse_similarity": 0.11078426241874695,
+          "hybrid_score": 0.32908880710601807
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5610436201095581,
+          "sparse_similarity": 0.09138385951519012,
+          "hybrid_score": 0.3262137472629547
+        }
+      ]
+    ],
+    "eng_translation": [
+      "urinalysis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ecg",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2331,
       2334
-    ]
+    ],
+    "sentence": "- Bắt đầu dùng metoprolol 25mg po bid, không có cải thiện\n    -  Ở nhà bệnh nhân đã sử dụng atenololtrong ngày\n    - Lên lịch tái khám với bác sĩ tim mạch và được chỉ định siêu âm tim qua thành ngực vào tuần tới\n    - Ngày hôm nay khoảng Lúc 17 giờ,  khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng đánh trống ngực, và khó thở kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  aspirin 325mg x 1\n    - chụp x-quang ngực không ghi nhận gì bất thường\n    - phân tích nước tiểu không ghi nhận gì bất thường\n    - [ENTITY] bình thường\n    Tình trạng ngay trước khi nhập viện: Tiếp tục cảm thấy đánh trống ngực\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001120",
+          "document": "3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5616041421890259,
+          "sparse_similarity": 0.1118442565202713,
+          "hybrid_score": 0.336724191904068
+        },
+        {
+          "id": "isHistorical_020126",
+          "document": "khoảng 25 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5505948066711426,
+          "sparse_similarity": 0.12226276099681854,
+          "hybrid_score": 0.33642879128456116
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5497926473617554,
+          "sparse_similarity": 0.1200614646077156,
+          "hybrid_score": 0.3349270522594452
+        }
+      ]
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2406,
       2421
-    ]
+    ],
+    "sentence": "- Bắt đầu dùng metoprolol 25mg po bid, không có cải thiện\n    -  Ở nhà bệnh nhân đã sử dụng atenololtrong ngày\n    - Lên lịch tái khám với bác sĩ tim mạch và được chỉ định siêu âm tim qua thành ngực vào tuần tới\n    - Ngày hôm nay khoảng Lúc 17 giờ,  khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng đánh trống ngực, và khó thở kéo dài 20 giây\n    - Sau đó Đến Khoa Cấp cứu\n    - Được chỉ định điều trị  aspirin 325mg x 1\n    - chụp x-quang ngực không ghi nhận gì bất thường\n    - phân tích nước tiểu không ghi nhận gì bất thường\n    - ecg bình thường\n    Tình trạng ngay trước khi nhập viện: Tiếp tục cảm thấy [ENTITY]\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020126",
+          "document": "khoảng 25 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.580797553062439,
+          "sparse_similarity": 0.13513752818107605,
+          "hybrid_score": 0.3579675555229187
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5810120105743408,
+          "sparse_similarity": 0.13238802552223206,
+          "hybrid_score": 0.35670000314712524
+        },
+        {
+          "id": "isHistorical_000640",
+          "document": "20 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.580783486366272,
+          "sparse_similarity": 0.13174079358577728,
+          "hybrid_score": 0.3562621474266052
+        }
+      ]
+    ],
+    "eng_translation": [
+      "palpitations",
+      "Arrhythmia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chịu vùng ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2579,
       2593
-    ]
+    ],
+    "sentence": "3 12987 56 18 99RA\n    - Khi được chuyển vào khoa điều trị, bệnh nhân không còn cảm giáckhó [ENTITY]\n    Kết quả xét nghiệm: phân tích nước tiểu không có gì đáng chú ý\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực không có gì đáng chú ý\n    Các kết quả chẩn đoán khác\n    - điện tâm đồ là không ghi nhận gì bất thường\n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5526851415634155,
+          "sparse_similarity": 0.12103518098592758,
+          "hybrid_score": 0.33686015009880066
+        },
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.5640113353729248,
+          "sparse_similarity": 0.10488355904817581,
+          "hybrid_score": 0.33444744348526
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5513883233070374,
+          "sparse_similarity": 0.11240988969802856,
+          "hybrid_score": 0.33189910650253296
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phân tích nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2618,
       2637
-    ]
+    ],
+    "sentence": "3 12987 56 18 99RA\n    - Khi được chuyển vào khoa điều trị, bệnh nhân không còn cảm giáckhó chịu vùng ngực\n    Kết quả xét nghiệm: [ENTITY] không có gì đáng chú ý\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực không có gì đáng chú ý\n    Các kết quả chẩn đoán khác\n    - điện tâm đồ là không ghi nhận gì bất thường\n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "chú"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5580101013183594,
+          "sparse_similarity": 0.125240758061409,
+          "hybrid_score": 0.3416254222393036
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5666046738624573,
+          "sparse_similarity": 0.11644239723682404,
+          "hybrid_score": 0.34152352809906006
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5609950423240662,
+          "sparse_similarity": 0.1119883805513382,
+          "hybrid_score": 0.3364917039871216
+        }
+      ]
+    ],
+    "eng_translation": [
+      "urinalysis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp x-quang",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2693,
       2705
-    ]
+    ],
+    "sentence": "3 12987 56 18 99RA\n    - Khi được chuyển vào khoa điều trị, bệnh nhân không còn cảm giáckhó chịu vùng ngực\n    Kết quả xét nghiệm: phân tích nước tiểu không có gì đáng chú ý\n    Kết quả chẩn đoán hình ảnh: [ENTITY] ngực không có gì đáng chú ý\n    Các kết quả chẩn đoán khác\n    - điện tâm đồ là không ghi nhận gì bất thường\n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "chú"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5791525840759277,
+          "sparse_similarity": 0.11350242048501968,
+          "hybrid_score": 0.3463275134563446
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5670591592788696,
+          "sparse_similarity": 0.12203681468963623,
+          "hybrid_score": 0.34454798698425293
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5732805728912354,
+          "sparse_similarity": 0.10948941111564636,
+          "hybrid_score": 0.34138500690460205
+        }
+      ]
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "điện tâm đồ",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2771,
       2782
-    ]
+    ],
+    "sentence": "3 12987 56 18 99RA\n    - Khi được chuyển vào khoa điều trị, bệnh nhân không còn cảm giáckhó chịu vùng ngực\n    Kết quả xét nghiệm: phân tích nước tiểu không có gì đáng chú ý\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực không có gì đáng chú ý\n    Các kết quả chẩn đoán khác\n    - [ENTITY] là không ghi nhận gì bất thường\n    - monitor holter cho thấy Nhịp xoang chiếm ưu thế.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "chú"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5655195116996765,
+          "sparse_similarity": 0.11752712726593018,
+          "hybrid_score": 0.34152331948280334
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5615841150283813,
+          "sparse_similarity": 0.1144503653049469,
+          "hybrid_score": 0.33801722526550293
+        },
+        {
+          "id": "isFamily_006631",
+          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5536304116249084,
+          "sparse_similarity": 0.12058569490909576,
+          "hybrid_score": 0.3371080458164215
+        }
+      ]
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

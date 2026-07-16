@@ -2,33 +2,195 @@
   {
     "text": "bàn chân vẹo bẩm sinh",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       39,
       60
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Bệnh lý mãn tính: [ENTITY]\n    Tiền sử phẫu thuật / thủ thuật\n    - đã phẫu thuật chân trái nhiều lần trong quá khứ vì bàn chân vẹo bẩm sinh\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6634687185287476,
+          "sparse_similarity": 0.1423770636320114,
+          "hybrid_score": 0.4029228985309601
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.6709262132644653,
+          "sparse_similarity": 0.13280877470970154,
+          "hybrid_score": 0.40186750888824463
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6567165851593018,
+          "sparse_similarity": 0.1440916359424591,
+          "hybrid_score": 0.40040409564971924
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Conged foot at birth",
+      "Congenital foot deformity at birth",
+      "Congenital foot at birth"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bàn chân vẹo bẩm sinh",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       153,
       174
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Bệnh lý mãn tính: bàn chân vẹo bẩm sinh\n    Tiền sử phẫu thuật / thủ thuật\n    - đã phẫu thuật chân trái nhiều lần trong quá khứ vì [ENTITY]\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6536301374435425,
+          "sparse_similarity": 0.1280057430267334,
+          "hybrid_score": 0.39081794023513794
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.6593729257583618,
+          "sparse_similarity": 0.11863008141517639,
+          "hybrid_score": 0.3890014886856079
+        },
+        {
+          "id": "isFamily_006636",
+          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6472563147544861,
+          "sparse_similarity": 0.12906672060489655,
+          "hybrid_score": 0.3881615102291107
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Conged foot at birth",
+      "Congenital foot deformity at birth",
+      "Congenital foot at birth"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy dịch liên",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       218,
       232
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: [ENTITY] tục từ mặt trong của bàn chân trái\n    Triệu chứng hiện tại: chảy dịch liên tục từ mặt trong của bàn chân trái",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5995401740074158,
+          "sparse_similarity": 0.13700079917907715,
+          "hybrid_score": 0.36827048659324646
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6101551651954651,
+          "sparse_similarity": 0.10987020283937454,
+          "hybrid_score": 0.3600126802921295
+        },
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6042450666427612,
+          "sparse_similarity": 0.11265728622674942,
+          "hybrid_score": 0.3584511876106262
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Continuous discharge",
+      "Persistent discharge"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy dịch liên",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       294,
       308
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: chảy dịch liên tục từ mặt trong của bàn chân trái\n    Triệu chứng hiện tại: [ENTITY] tục từ mặt trong của bàn chân trái",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006622",
+          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6187570691108704,
+          "sparse_similarity": 0.13301248848438263,
+          "hybrid_score": 0.3758847713470459
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6218084692955017,
+          "sparse_similarity": 0.12961119413375854,
+          "hybrid_score": 0.3757098317146301
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6159494519233704,
+          "sparse_similarity": 0.12670132517814636,
+          "hybrid_score": 0.37132537364959717
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Continuous discharge",
+      "Persistent discharge"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

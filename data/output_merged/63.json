@@ -2,289 +2,1835 @@
   {
     "text": "túi thừa",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       58,
       66
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Bệnh mãn tính: tiền sử Bệnh [ENTITY] ở cả ruột non và đại tràng, chưa có biến chứng thủng hoặc áp xe.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011496",
+          "document": "con ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.716010332107544,
+          "sparse_similarity": 0.3228383958339691,
+          "hybrid_score": 0.5194243788719177
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6945732831954956,
+          "sparse_similarity": 0.3389868438243866,
+          "hybrid_score": 0.5167800784111023
+        },
+        {
+          "id": "isFamily_011585",
+          "document": "con ruột người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6985620260238647,
+          "sparse_similarity": 0.3336854875087738,
+          "hybrid_score": 0.5161237716674805
+        }
+      ]
+    ],
+    "eng_translation": [
+      "diverticulum",
+      "Diverticulosis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "colace",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       175,
       181
-    ]
+    ],
+    "sentence": "Thuốc trước khi nhập viện: thường dùng [ENTITY]\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.7527745366096497,
+          "sparse_similarity": 0.23089541494846344,
+          "hybrid_score": 0.49183496832847595
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.7434077262878418,
+          "sparse_similarity": 0.22749008238315582,
+          "hybrid_score": 0.4854488968849182
+        },
+        {
+          "id": "isHistorical_009850",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.7412539124488831,
+          "sparse_similarity": 0.22310301661491394,
+          "hybrid_score": 0.4821784496307373
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Colace",
+      "Constipation",
+      "Colace is a brand name for docusate sodium, which is a stool softener used to treat constipation."
+    ],
+    "retriever": {
+      "sapbert": {
+        "82000": 1.0,
+        "1876539": 0.833924,
+        "784126": 0.804763,
+        "2612268": 0.776832,
+        "71722": 0.775993
+      },
+      "rapidfuzz": {
+        "82000": 1.0,
+        "2692740": 0.9,
+        "1247760": 0.9,
+        "71722": 0.9,
+        "2743151": 0.855,
+        "313641": 0.855,
+        "90176": 0.771429,
+        "2659021": 0.72,
+        "2658617": 0.72
+      }
+    },
+    "candidate": {
+      "code": "82000",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       230,
       238
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY]\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5642883777618408,
+          "sparse_similarity": 0.10836701095104218,
+          "hybrid_score": 0.3363277018070221
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.560126781463623,
+          "sparse_similarity": 0.10930861532688141,
+          "hybrid_score": 0.33471769094467163
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5624392032623291,
+          "sparse_similarity": 0.10353896021842957,
+          "hybrid_score": 0.3329890966415405
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hố chậu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       295,
       306
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột [ENTITY]\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5571815967559814,
+          "sparse_similarity": 0.1336890608072281,
+          "hybrid_score": 0.34543532133102417
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5534032583236694,
+          "sparse_similarity": 0.1341019868850708,
+          "hybrid_score": 0.3437526226043701
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5557304620742798,
+          "sparse_similarity": 0.12284846603870392,
+          "hybrid_score": 0.33928945660591125
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Pelvic pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "táo bón",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       355,
       362
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất [ENTITY]\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5498253703117371,
+          "sparse_similarity": 0.10900696367025375,
+          "hybrid_score": 0.3294161558151245
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5461198091506958,
+          "sparse_similarity": 0.10967404395341873,
+          "hybrid_score": 0.32789692282676697
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5478800535202026,
+          "sparse_similarity": 0.09627976268529892,
+          "hybrid_score": 0.3220798969268799
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đi đại tiện",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       429,
       440
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể [ENTITY] vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": "isUncertain",
+      "confidence": 1.0,
+      "evidence": "có thể [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.5698333978652954,
+          "sparse_similarity": 0.05471744388341904,
+          "hybrid_score": 0.31227540969848633
+        },
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.5678502917289734,
+          "sparse_similarity": 0.055946800857782364,
+          "hybrid_score": 0.3118985593318939
+        },
+        {
+          "id": "isFamily_003345",
+          "document": "ba ruột bệnh nhân từng bị [ENTITY].",
+          "dense_similarity": 0.568748950958252,
+          "sparse_similarity": 0.05405774712562561,
+          "hybrid_score": 0.3114033341407776
+        }
+      ]
+    ],
+    "eng_translation": [
+      "defecation",
+      "Bowel movement"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phân có",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       459,
       466
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, [ENTITY] vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5646594762802124,
+          "sparse_similarity": 0.1371244341135025,
+          "hybrid_score": 0.35089194774627686
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.560564398765564,
+          "sparse_similarity": 0.1371951699256897,
+          "hybrid_score": 0.34887978434562683
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5624811053276062,
+          "sparse_similarity": 0.11988446861505508,
+          "hybrid_score": 0.34118279814720154
+        }
+      ]
+    ],
+    "eng_translation": [
+      "stool positive",
+      "Stool positive for pathogens"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khuôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       476,
       481
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành [ENTITY]\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5595643520355225,
+          "sparse_similarity": 0.13159313797950745,
+          "hybrid_score": 0.34557873010635376
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5560899972915649,
+          "sparse_similarity": 0.1311921924352646,
+          "hybrid_score": 0.34364110231399536
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5563403367996216,
+          "sparse_similarity": 0.11834095418453217,
+          "hybrid_score": 0.33734065294265747
+        }
+      ]
+    ],
+    "eng_translation": [
+      "khuôn",
+      "No appropriate synonym found. Return the original query unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hố chậu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       535,
       546
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột [ENTITY]\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5701156854629517,
+          "sparse_similarity": 0.14308862388134003,
+          "hybrid_score": 0.35660216212272644
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5643872618675232,
+          "sparse_similarity": 0.14307549595832825,
+          "hybrid_score": 0.3537313938140869
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5677303075790405,
+          "sparse_similarity": 0.1295647770166397,
+          "hybrid_score": 0.3486475348472595
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Pelvic pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tylenol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       618,
       625
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng [ENTITY] cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5824910998344421,
+          "sparse_similarity": 0.14802300930023193,
+          "hybrid_score": 0.36525705456733704
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.577759861946106,
+          "sparse_similarity": 0.1475905328989029,
+          "hybrid_score": 0.36267518997192383
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5797244310379028,
+          "sparse_similarity": 0.13582725822925568,
+          "hybrid_score": 0.35777583718299866
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
   },
   {
     "text": "tylenol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       655,
       662
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng [ENTITY] nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5760838389396667,
+          "sparse_similarity": 0.13953827321529388,
+          "hybrid_score": 0.3578110635280609
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.571772038936615,
+          "sparse_similarity": 0.13830652832984924,
+          "hybrid_score": 0.3550392985343933
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5729861259460449,
+          "sparse_similarity": 0.12727318704128265,
+          "hybrid_score": 0.3501296639442444
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       695,
       698
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì [ENTITY] vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5672311782836914,
+          "sparse_similarity": 0.1353798657655716,
+          "hybrid_score": 0.3513055145740509
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5628378987312317,
+          "sparse_similarity": 0.1350802183151245,
+          "hybrid_score": 0.3489590585231781
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5649974942207336,
+          "sparse_similarity": 0.12287051975727081,
+          "hybrid_score": 0.34393399953842163
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       743,
       751
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - [ENTITY]\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5538610219955444,
+          "sparse_similarity": 0.12674231827259064,
+          "hybrid_score": 0.34030166268348694
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5498592257499695,
+          "sparse_similarity": 0.12696915864944458,
+          "hybrid_score": 0.33841419219970703
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5532064437866211,
+          "sparse_similarity": 0.11416641622781754,
+          "hybrid_score": 0.3336864411830902
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "táo bón",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       758,
       765
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - [ENTITY]\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5573506355285645,
+          "sparse_similarity": 0.12622441351413727,
+          "hybrid_score": 0.34178751707077026
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5536395311355591,
+          "sparse_similarity": 0.1264325976371765,
+          "hybrid_score": 0.3400360643863678
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.555579662322998,
+          "sparse_similarity": 0.11253389716148376,
+          "hybrid_score": 0.3340567946434021
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       772,
       780
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - [ENTITY]\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.551712691783905,
+          "sparse_similarity": 0.13400597870349884,
+          "hybrid_score": 0.34285932779312134
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5470576882362366,
+          "sparse_similarity": 0.13419955968856812,
+          "hybrid_score": 0.34062862396240234
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.54933100938797,
+          "sparse_similarity": 0.1204390674829483,
+          "hybrid_score": 0.33488503098487854
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hố chậu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       820,
       831
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: [ENTITY]\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5565953850746155,
+          "sparse_similarity": 0.13209933042526245,
+          "hybrid_score": 0.34434735774993896
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5527346134185791,
+          "sparse_similarity": 0.1323281079530716,
+          "hybrid_score": 0.34253135323524475
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5553175806999207,
+          "sparse_similarity": 0.11965084075927734,
+          "hybrid_score": 0.337484210729599
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Pelvic pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cơn đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       859,
       866
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: [ENTITY] vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5653306841850281,
+          "sparse_similarity": 0.13254757225513458,
+          "hybrid_score": 0.34893912076950073
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5607021450996399,
+          "sparse_similarity": 0.13250696659088135,
+          "hybrid_score": 0.3466045558452606
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5631611347198486,
+          "sparse_similarity": 0.1198626309633255,
+          "hybrid_score": 0.34151187539100647
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tylenol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       896,
       903
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng [ENTITY]\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5554458498954773,
+          "sparse_similarity": 0.12674152851104736,
+          "hybrid_score": 0.34109368920326233
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5510451793670654,
+          "sparse_similarity": 0.12706340849399567,
+          "hybrid_score": 0.33905428647994995
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.553541898727417,
+          "sparse_similarity": 0.1146012619137764,
+          "hybrid_score": 0.3340715765953064
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       933,
       941
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: [ENTITY]\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5666887164115906,
+          "sparse_similarity": 0.1487516313791275,
+          "hybrid_score": 0.35772016644477844
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5617295503616333,
+          "sparse_similarity": 0.14844223856925964,
+          "hybrid_score": 0.35508590936660767
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5644513368606567,
+          "sparse_similarity": 0.13428613543510437,
+          "hybrid_score": 0.34936875104904175
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tylenol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1018,
       1025
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng [ENTITY]\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5693073868751526,
+          "sparse_similarity": 0.13601475954055786,
+          "hybrid_score": 0.3526610732078552
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5646396279335022,
+          "sparse_similarity": 0.13594520092010498,
+          "hybrid_score": 0.3502924144268036
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5673189759254456,
+          "sparse_similarity": 0.12252484261989594,
+          "hybrid_score": 0.34492191672325134
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
   },
   {
     "text": "tylenol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1080,
       1087
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng [ENTITY] cho đau\n    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5630868077278137,
+          "sparse_similarity": 0.1314922571182251,
+          "hybrid_score": 0.3472895324230194
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.558469831943512,
+          "sparse_similarity": 0.13161863386631012,
+          "hybrid_score": 0.34504422545433044
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5616002678871155,
+          "sparse_similarity": 0.11777772009372711,
+          "hybrid_score": 0.3396889865398407
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1137,
       1140
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu\n    Diễn biến bệnh\n    - Bệnh nhân cảm thấy rất táo bón\n    - Bệnh nhân đã ăn quả mận khô\n    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn\n    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu\n    - gọi cho bác sĩ chăm sóc chính (PCP)\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục\n    Triệu chứng hiện tại\n    - đau bụng\n    - táo bón\n    - buồn nôn\n    Đặc điểm triệu chứng\n    - Vị trí: đau hố chậu\n    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol\n    - Triệu chứng liên quan: buồn nôn\n    Các sự kiện trước khi nhập viện\n    - đã dùng quả mận khô\n    - đã dùng tylenol\n    - gọi cho bác sĩ PCP\n    - Bác sĩ PCP khuyên dùng tylenol cho đau\n    Tình trạng ngay trước khi nhập viện: [ENTITY] vẫn tiếp diễn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5626176595687866,
+          "sparse_similarity": 0.13129761815071106,
+          "hybrid_score": 0.34695762395858765
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5578525066375732,
+          "sparse_similarity": 0.13139177858829498,
+          "hybrid_score": 0.3446221351623535
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5601682066917419,
+          "sparse_similarity": 0.11772499978542328,
+          "hybrid_score": 0.3389466106891632
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp tim",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1260,
       1268
-    ]
+    ],
+    "sentence": "8, [ENTITY] 84, huyết áp 15670, nhịp thở 20, độ bão hòa oxy 99 khi thở khí trời\n    xét nghiệm Kết quả\n    - thiếu máu hồng cầu nhỏ là 27.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021681",
+          "document": "khoảng 84 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5964141488075256,
+          "sparse_similarity": 0.1313580870628357,
+          "hybrid_score": 0.36388611793518066
+        },
+        {
+          "id": "isHistorical_004019",
+          "document": "84 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5852917432785034,
+          "sparse_similarity": 0.1336575150489807,
+          "hybrid_score": 0.35947462916374207
+        },
+        {
+          "id": "isHistorical_014343",
+          "document": "cách đây 84 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5859561562538147,
+          "sparse_similarity": 0.1329440027475357,
+          "hybrid_score": 0.3594500720500946
+        }
+      ]
+    ],
+    "eng_translation": [
+      "heart rate",
+      "pulse rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "84",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1269,
       1271
-    ]
+    ],
+    "sentence": "8, nhịp tim [ENTITY], huyết áp 15670, nhịp thở 20, độ bão hòa oxy 99 khi thở khí trời\n    xét nghiệm Kết quả\n    - thiếu máu hồng cầu nhỏ là 27.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021561",
+          "document": "khoảng 8 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5859897136688232,
+          "sparse_similarity": 0.11680388450622559,
+          "hybrid_score": 0.3513967990875244
+        },
+        {
+          "id": "isHistorical_021549",
+          "document": "khoảng 8 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5819395780563354,
+          "sparse_similarity": 0.11496982723474503,
+          "hybrid_score": 0.34845471382141113
+        },
+        {
+          "id": "isHistorical_021753",
+          "document": "khoảng 87 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5909910202026367,
+          "sparse_similarity": 0.07117033749818802,
+          "hybrid_score": 0.33108067512512207
+        }
+      ]
+    ],
+    "eng_translation": [
+      "84"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "huyết áp",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1273,
       1281
-    ]
+    ],
+    "sentence": "8, nhịp tim 84, [ENTITY] 15670, nhịp thở 20, độ bão hòa oxy 99 khi thở khí trời\n    xét nghiệm Kết quả\n    - thiếu máu hồng cầu nhỏ là 27.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021681",
+          "document": "khoảng 84 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5652639269828796,
+          "sparse_similarity": 0.10810450464487076,
+          "hybrid_score": 0.3366842269897461
+        },
+        {
+          "id": "isHistorical_021687",
+          "document": "khoảng 84 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5640566945075989,
+          "sparse_similarity": 0.10289306938648224,
+          "hybrid_score": 0.33347487449645996
+        },
+        {
+          "id": "isHistorical_021753",
+          "document": "khoảng 87 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5774030089378357,
+          "sparse_similarity": 0.05414755642414093,
+          "hybrid_score": 0.3157752752304077
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Blood pressure",
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "15670",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1282,
       1287
-    ]
+    ],
+    "sentence": "8, nhịp tim 84, huyết áp [ENTITY], nhịp thở 20, độ bão hòa oxy 99 khi thở khí trời\n    xét nghiệm Kết quả\n    - thiếu máu hồng cầu nhỏ là 27.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021681",
+          "document": "khoảng 84 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5795055031776428,
+          "sparse_similarity": 0.10683221369981766,
+          "hybrid_score": 0.34316885471343994
+        },
+        {
+          "id": "isHistorical_021753",
+          "document": "khoảng 87 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5896593928337097,
+          "sparse_similarity": 0.05755598098039627,
+          "hybrid_score": 0.3236076831817627
+        },
+        {
+          "id": "isHistorical_014421",
+          "document": "cách đây 87 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5845624208450317,
+          "sparse_similarity": 0.0562688484787941,
+          "hybrid_score": 0.3204156458377838
+        }
+      ]
+    ],
+    "eng_translation": [
+      "15670"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp thở",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1289,
       1297
-    ]
+    ],
+    "sentence": "8, nhịp tim 84, huyết áp 15670, [ENTITY] 20, độ bão hòa oxy 99 khi thở khí trời\n    xét nghiệm Kết quả\n    - thiếu máu hồng cầu nhỏ là 27.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021681",
+          "document": "khoảng 84 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5646047592163086,
+          "sparse_similarity": 0.10165806114673615,
+          "hybrid_score": 0.3331314027309418
+        },
+        {
+          "id": "isHistorical_021669",
+          "document": "khoảng 84 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5620195269584656,
+          "sparse_similarity": 0.09781688451766968,
+          "hybrid_score": 0.3299182057380676
+        },
+        {
+          "id": "isHistorical_021687",
+          "document": "khoảng 84 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5622917413711548,
+          "sparse_similarity": 0.09679366648197174,
+          "hybrid_score": 0.32954269647598267
+        }
+      ]
+    ],
+    "eng_translation": [
+      "respiratory rate",
+      "Minute ventilation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "20",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1298,
       1300
-    ]
+    ],
+    "sentence": "8, nhịp tim 84, huyết áp 15670, nhịp thở [ENTITY], độ bão hòa oxy 99 khi thở khí trời\n    xét nghiệm Kết quả\n    - thiếu máu hồng cầu nhỏ là 27.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021681",
+          "document": "khoảng 84 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5846236944198608,
+          "sparse_similarity": 0.10796831548213959,
+          "hybrid_score": 0.3462960124015808
+        },
+        {
+          "id": "isHistorical_021669",
+          "document": "khoảng 84 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5821428894996643,
+          "sparse_similarity": 0.10368776321411133,
+          "hybrid_score": 0.3429153263568878
+        },
+        {
+          "id": "isHistorical_021687",
+          "document": "khoảng 84 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5830961465835571,
+          "sparse_similarity": 0.10270831733942032,
+          "hybrid_score": 0.3429022431373596
+        }
+      ]
+    ],
+    "eng_translation": [
+      "20"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "độ bão hòa oxy",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1302,
       1316
-    ]
+    ],
+    "sentence": "8, nhịp tim 84, huyết áp 15670, nhịp thở 20, [ENTITY] 99 khi thở khí trời\n    xét nghiệm Kết quả\n    - thiếu máu hồng cầu nhỏ là 27.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021681",
+          "document": "khoảng 84 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5578041672706604,
+          "sparse_similarity": 0.11032720655202866,
+          "hybrid_score": 0.33406567573547363
+        },
+        {
+          "id": "isHistorical_021669",
+          "document": "khoảng 84 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5559922456741333,
+          "sparse_similarity": 0.10611836612224579,
+          "hybrid_score": 0.33105531334877014
+        },
+        {
+          "id": "isHistorical_021687",
+          "document": "khoảng 84 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5563154816627502,
+          "sparse_similarity": 0.10503647476434708,
+          "hybrid_score": 0.33067598938941956
+        }
+      ]
+    ],
+    "eng_translation": [
+      "oxygen saturation",
+      "SpO₂"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "99",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1317,
       1319
-    ]
+    ],
+    "sentence": "8, nhịp tim 84, huyết áp 15670, nhịp thở 20, độ bão hòa oxy [ENTITY] khi thở khí trời\n    xét nghiệm Kết quả\n    - thiếu máu hồng cầu nhỏ là 27.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021681",
+          "document": "khoảng 84 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5632118582725525,
+          "sparse_similarity": 0.10707030445337296,
+          "hybrid_score": 0.3351410925388336
+        },
+        {
+          "id": "isHistorical_021687",
+          "document": "khoảng 84 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5608837604522705,
+          "sparse_similarity": 0.10191494226455688,
+          "hybrid_score": 0.3313993513584137
+        },
+        {
+          "id": "isHistorical_021753",
+          "document": "khoảng 87 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5743710398674011,
+          "sparse_similarity": 0.055306535214185715,
+          "hybrid_score": 0.31483879685401917
+        }
+      ]
+    ],
+    "eng_translation": [
+      "99"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hồng cầu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1376,
       1384
-    ]
+    ],
+    "sentence": "8, nhịp tim 84, huyết áp 15670, nhịp thở 20, độ bão hòa oxy 99 khi thở khí trời\n    xét nghiệm Kết quả\n    - thiếu máu [ENTITY] nhỏ là 27.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021681",
+          "document": "khoảng 84 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6141644716262817,
+          "sparse_similarity": 0.12745067477226257,
+          "hybrid_score": 0.37080758810043335
+        },
+        {
+          "id": "isHistorical_014211",
+          "document": "cách đây 8 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6122526526451111,
+          "sparse_similarity": 0.12695744633674622,
+          "hybrid_score": 0.36960506439208984
+        },
+        {
+          "id": "isHistorical_003761",
+          "document": "8 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6129133701324463,
+          "sparse_similarity": 0.12625716626644135,
+          "hybrid_score": 0.3695852756500244
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Red blood cells",
+      "Erythrocytes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bun",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1403,
       1406
-    ]
+    ],
+    "sentence": "2\n    - [ENTITY]/creatinine\n    Kết quả chẩn đoán hình ảnh: chụp ct bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một quai ruột kết sigma, gợi ý viêm túi mật cấp tính không biến chứng\n    Các kết quả chẩn đoán khác: viêm túi mật cấp tính không biến chứng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.615953803062439,
+          "sparse_similarity": 0.1247018426656723,
+          "hybrid_score": 0.37032783031463623
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.614928662776947,
+          "sparse_similarity": 0.12182595580816269,
+          "hybrid_score": 0.36837729811668396
+        },
+        {
+          "id": "isFamily_012291",
+          "document": "cậu ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.597614586353302,
+          "sparse_similarity": 0.1207796260714531,
+          "hybrid_score": 0.35919710993766785
+        }
+      ]
+    ],
+    "eng_translation": [
+      "BUN",
+      "BUN (Blood Urea Nitrogen)",
+      "Blood Urea Nitrogen"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "creatinine",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1407,
       1417
-    ]
+    ],
+    "sentence": "2\n    - bun/[ENTITY]\n    Kết quả chẩn đoán hình ảnh: chụp ct bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một quai ruột kết sigma, gợi ý viêm túi mật cấp tính không biến chứng\n    Các kết quả chẩn đoán khác: viêm túi mật cấp tính không biến chứng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6367066502571106,
+          "sparse_similarity": 0.13575327396392822,
+          "hybrid_score": 0.3862299621105194
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6339978575706482,
+          "sparse_similarity": 0.13219574093818665,
+          "hybrid_score": 0.3830968141555786
+        },
+        {
+          "id": "isFamily_012291",
+          "document": "cậu ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6104112863540649,
+          "sparse_similarity": 0.13080433011054993,
+          "hybrid_score": 0.37060779333114624
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Creatinine",
+      "Serum Creatinine"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1450,
       1457
-    ]
+    ],
+    "sentence": "2\n    - bun/creatinine\n    Kết quả chẩn đoán hình ảnh: [ENTITY] bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một quai ruột kết sigma, gợi ý viêm túi mật cấp tính không biến chứng\n    Các kết quả chẩn đoán khác: viêm túi mật cấp tính không biến chứng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6301491260528564,
+          "sparse_similarity": 0.13247664272785187,
+          "hybrid_score": 0.38131287693977356
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6291847825050354,
+          "sparse_similarity": 0.1293405145406723,
+          "hybrid_score": 0.37926265597343445
+        },
+        {
+          "id": "isFamily_012291",
+          "document": "cậu ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6027341485023499,
+          "sparse_similarity": 0.12807758152484894,
+          "hybrid_score": 0.3654058575630188
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật cấp tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1567,
       1588
-    ]
+    ],
+    "sentence": "2\n    - bun/creatinine\n    Kết quả chẩn đoán hình ảnh: chụp ct bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một quai ruột kết sigma, gợi ý [ENTITY] không biến chứng\n    Các kết quả chẩn đoán khác: viêm túi mật cấp tính không biến chứng",
+    "assertion_result": {
+      "tag": "isUncertain",
+      "confidence": 1.0,
+      "evidence": "gợi ý [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6170525550842285,
+          "sparse_similarity": 0.1328461766242981,
+          "hybrid_score": 0.3749493658542633
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6181440949440002,
+          "sparse_similarity": 0.12953191995620728,
+          "hybrid_score": 0.37383800745010376
+        },
+        {
+          "id": "isFamily_012291",
+          "document": "cậu ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5953261852264404,
+          "sparse_similarity": 0.12832078337669373,
+          "hybrid_score": 0.36182349920272827
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Acute cholecystitis",
+      "Acute gallbladder inflammation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật cấp tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1638,
       1659
-    ]
+    ],
+    "sentence": "2\n    - bun/creatinine\n    Kết quả chẩn đoán hình ảnh: chụp ct bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một quai ruột kết sigma, gợi ý viêm túi mật cấp tính không biến chứng\n    Các kết quả chẩn đoán khác: [ENTITY] không biến chứng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6157209277153015,
+          "sparse_similarity": 0.12396663427352905,
+          "hybrid_score": 0.3698437809944153
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6155343055725098,
+          "sparse_similarity": 0.12117716670036316,
+          "hybrid_score": 0.36835575103759766
+        },
+        {
+          "id": "isFamily_012291",
+          "document": "cậu ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.596846342086792,
+          "sparse_similarity": 0.1200176253914833,
+          "hybrid_score": 0.35843199491500854
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Acute cholecystitis",
+      "Acute gallbladder inflammation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

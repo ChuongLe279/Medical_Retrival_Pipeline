@@ -2,249 +2,1519 @@
   {
     "text": "hen suyễn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       54,
       63
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh mãn tính\n    - [ENTITY]\n    - rối loạn lo âu\n    - tăng huyết áp (tăng huyết áp)\n    - Táo bón mãn tính \n    - ngưng thở khi ngủ\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội khoa các bệnh mãn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6481603980064392,
+          "sparse_similarity": 0.25480130314826965,
+          "hybrid_score": 0.4514808654785156
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6485888957977295,
+          "sparse_similarity": 0.2441767156124115,
+          "hybrid_score": 0.4463828206062317
+        },
+        {
+          "id": "isFamily_007127",
+          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
+          "dense_similarity": 0.6207966804504395,
+          "sparse_similarity": 0.23215366899967194,
+          "hybrid_score": 0.4264751672744751
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Asthma",
+      "Bronchial Asthma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       91,
       104
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh mãn tính\n    - hen suyễn\n    - rối loạn lo âu\n    - [ENTITY] (tăng huyết áp)\n    - Táo bón mãn tính \n    - ngưng thở khi ngủ\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6550523638725281,
+          "sparse_similarity": 0.24663381278514862,
+          "hybrid_score": 0.45084309577941895
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6559497117996216,
+          "sparse_similarity": 0.23615175485610962,
+          "hybrid_score": 0.4460507333278656
+        },
+        {
+          "id": "isFamily_007127",
+          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
+          "dense_similarity": 0.6273369193077087,
+          "sparse_similarity": 0.22471314668655396,
+          "hybrid_score": 0.42602503299713135
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       106,
       119
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh mãn tính\n    - hen suyễn\n    - rối loạn lo âu\n    - tăng huyết áp ([ENTITY])\n    - Táo bón mãn tính \n    - ngưng thở khi ngủ\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6497467160224915,
+          "sparse_similarity": 0.2434646487236023,
+          "hybrid_score": 0.4466056823730469
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6502248048782349,
+          "sparse_similarity": 0.23283305764198303,
+          "hybrid_score": 0.44152891635894775
+        },
+        {
+          "id": "isFamily_020140",
+          "document": "má người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.631611168384552,
+          "sparse_similarity": 0.19298237562179565,
+          "hybrid_score": 0.41229677200317383
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Táo bón mãn tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       127,
       143
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh mãn tính\n    - hen suyễn\n    - rối loạn lo âu\n    - tăng huyết áp (tăng huyết áp)\n    - [ENTITY] \n    - ngưng thở khi ngủ\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6515906453132629,
+          "sparse_similarity": 0.24032559990882874,
+          "hybrid_score": 0.44595813751220703
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6521550416946411,
+          "sparse_similarity": 0.2302418351173401,
+          "hybrid_score": 0.4411984384059906
+        },
+        {
+          "id": "isFamily_020140",
+          "document": "má người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.625103235244751,
+          "sparse_similarity": 0.1931387186050415,
+          "hybrid_score": 0.40912097692489624
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic constipation",
+      "Functional constipation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngưng thở khi ngủ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       151,
       168
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh mãn tính\n    - hen suyễn\n    - rối loạn lo âu\n    - tăng huyết áp (tăng huyết áp)\n    - Táo bón mãn tính \n    - [ENTITY]\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6646703481674194,
+          "sparse_similarity": 0.25975438952445984,
+          "hybrid_score": 0.46221238374710083
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6641093492507935,
+          "sparse_similarity": 0.24825650453567505,
+          "hybrid_score": 0.45618292689323425
+        },
+        {
+          "id": "isFamily_019522",
+          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6354756951332092,
+          "sparse_similarity": 0.24154627323150635,
+          "hybrid_score": 0.4385109841823578
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Sleep apnea",
+      "Obstructive Sleep Apnea",
+      "Sleep Apnea Syndrome"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp thở nhanh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       211,
       225
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: [ENTITY] và thiếu oxy\n    Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, ho và chảy nước mũi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019982",
+          "document": "khoảng 2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6854318380355835,
+          "sparse_similarity": 0.20648625493049622,
+          "hybrid_score": 0.44595903158187866
+        },
+        {
+          "id": "isHistorical_000622",
+          "document": "2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6829053163528442,
+          "sparse_similarity": 0.20017971098423004,
+          "hybrid_score": 0.44154250621795654
+        },
+        {
+          "id": "isHistorical_024934",
+          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6788762807846069,
+          "sparse_similarity": 0.19811610877513885,
+          "hybrid_score": 0.4384962022304535
+        }
+      ]
+    ],
+    "eng_translation": [
+      "tachypnea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thiếu oxy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       229,
       238
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: nhịp thở nhanh và [ENTITY]\n    Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, ho và chảy nước mũi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019982",
+          "document": "khoảng 2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6814508438110352,
+          "sparse_similarity": 0.2401273250579834,
+          "hybrid_score": 0.4607890844345093
+        },
+        {
+          "id": "isHistorical_000622",
+          "document": "2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.678097128868103,
+          "sparse_similarity": 0.2304677665233612,
+          "hybrid_score": 0.4542824625968933
+        },
+        {
+          "id": "isHistorical_024934",
+          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6753982901573181,
+          "sparse_similarity": 0.22808048129081726,
+          "hybrid_score": 0.4517393708229065
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypoxia",
+      "Oxygen deficiency"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       311,
       318
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: nhịp thở nhanh và thiếu oxy\n    Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện [ENTITY], ho và chảy nước mũi.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "2 tuần trước khi nhập viện bệnh nhân xuất hiện [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019982",
+          "document": "khoảng 2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6963084936141968,
+          "sparse_similarity": 0.22955450415611267,
+          "hybrid_score": 0.4629315137863159
+        },
+        {
+          "id": "isHistorical_000622",
+          "document": "2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6932234764099121,
+          "sparse_similarity": 0.22161784768104553,
+          "hybrid_score": 0.4574206471443176
+        },
+        {
+          "id": "isHistorical_024934",
+          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6903074979782104,
+          "sparse_similarity": 0.2195453643798828,
+          "hybrid_score": 0.45492643117904663
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       320,
       322
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: nhịp thở nhanh và thiếu oxy\n    Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, [ENTITY] và chảy nước mũi.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019982",
+          "document": "khoảng 2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.676082193851471,
+          "sparse_similarity": 0.20128577947616577,
+          "hybrid_score": 0.43868398666381836
+        },
+        {
+          "id": "isHistorical_000622",
+          "document": "2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6736276149749756,
+          "sparse_similarity": 0.19591306149959564,
+          "hybrid_score": 0.4347703456878662
+        },
+        {
+          "id": "isHistorical_024934",
+          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6691344976425171,
+          "sparse_similarity": 0.19383147358894348,
+          "hybrid_score": 0.4314829707145691
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy nước mũi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       326,
       339
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: nhịp thở nhanh và thiếu oxy\n    Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, ho và [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_019982",
+          "document": "khoảng 2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6818121671676636,
+          "sparse_similarity": 0.21347925066947937,
+          "hybrid_score": 0.44764572381973267
+        },
+        {
+          "id": "isHistorical_000622",
+          "document": "2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6790189146995544,
+          "sparse_similarity": 0.2057144045829773,
+          "hybrid_score": 0.44236665964126587
+        },
+        {
+          "id": "isHistorical_024934",
+          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6769101619720459,
+          "sparse_similarity": 0.20334014296531677,
+          "hybrid_score": 0.44012516736984253
+        }
+      ]
+    ],
+    "eng_translation": [
+      "rhinorrhea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhiễm trùng đường hô hấp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       459,
       483
-    ]
+    ],
+    "sentence": "Bệnh nhân đã được bác sĩ gia đình khám vì các triệu chứng [ENTITY] trên.",
+    "assertion_result": {
+      "tag": "isFamily",
+      "confidence": 1.0,
+      "evidence": "gia đình"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_015971",
+          "document": "gia đình của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.8560924530029297,
+          "sparse_similarity": 0.20740877091884613,
+          "hybrid_score": 0.5317506194114685
+        },
+        {
+          "id": "isFamily_024899",
+          "document": "thành viên trong gia đình của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.8573853969573975,
+          "sparse_similarity": 0.2003086805343628,
+          "hybrid_score": 0.5288470387458801
+        },
+        {
+          "id": "isFamily_005960",
+          "document": "bác của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.8407241106033325,
+          "sparse_similarity": 0.20874209702014923,
+          "hybrid_score": 0.5247331261634827
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Respiratory tract infection",
+      "Lower respiratory tract infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp thở nhanh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       592,
       606
-    ]
+    ],
+    "sentence": "- Tại phòng khám, bệnh nhân được ghi nhận có độ bão hòa oxy (SPO2) từ 88-92 % khi thở khí trời và [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_021765",
+          "document": "khoảng 88 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6123418211936951,
+          "sparse_similarity": 0.12469521909952164,
+          "hybrid_score": 0.36851853132247925
+        },
+        {
+          "id": "isHistorical_021783",
+          "document": "khoảng 88 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6131941080093384,
+          "sparse_similarity": 0.12262213230133057,
+          "hybrid_score": 0.3679081201553345
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6077260971069336,
+          "sparse_similarity": 0.12289972603321075,
+          "hybrid_score": 0.3653129041194916
+        }
+      ]
+    ],
+    "eng_translation": [
+      "tachypnea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       734,
       741
-    ]
+    ],
+    "sentence": "Lúc vào phòng cấp cứu trong tình trạng:\n    - [ENTITY]\n    - ho\n    - chảy nước mũi\n    - nhịp thở nhanh\n    - Thiếu oxy\n    - đau\n    Kết quả xét nghiệm\n    - bạch cầu 26.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_029915",
+          "document": "vào 26 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6238341331481934,
+          "sparse_similarity": 0.06487489491701126,
+          "hybrid_score": 0.344354510307312
+        },
+        {
+          "id": "isHistorical_029897",
+          "document": "vào 26 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6232452988624573,
+          "sparse_similarity": 0.06526647508144379,
+          "hybrid_score": 0.34425589442253113
+        },
+        {
+          "id": "isHistorical_029909",
+          "document": "vào 26 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6193605661392212,
+          "sparse_similarity": 0.0687595009803772,
+          "hybrid_score": 0.3440600335597992
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       748,
       750
-    ]
+    ],
+    "sentence": "Lúc vào phòng cấp cứu trong tình trạng:\n    - mệt mỏi\n    - [ENTITY]\n    - chảy nước mũi\n    - nhịp thở nhanh\n    - Thiếu oxy\n    - đau\n    Kết quả xét nghiệm\n    - bạch cầu 26.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_029897",
+          "document": "vào 26 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6220820546150208,
+          "sparse_similarity": 0.06398695707321167,
+          "hybrid_score": 0.3430345058441162
+        },
+        {
+          "id": "isHistorical_029915",
+          "document": "vào 26 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6196082234382629,
+          "sparse_similarity": 0.06373480707406998,
+          "hybrid_score": 0.34167152643203735
+        },
+        {
+          "id": "isHistorical_012794",
+          "document": "cách đây 26 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6336876153945923,
+          "sparse_similarity": 0.045054297894239426,
+          "hybrid_score": 0.3393709659576416
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy nước mũi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       757,
       770
-    ]
+    ],
+    "sentence": "Lúc vào phòng cấp cứu trong tình trạng:\n    - mệt mỏi\n    - ho\n    - [ENTITY]\n    - nhịp thở nhanh\n    - Thiếu oxy\n    - đau\n    Kết quả xét nghiệm\n    - bạch cầu 26.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_029897",
+          "document": "vào 26 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.631105363368988,
+          "sparse_similarity": 0.06287442147731781,
+          "hybrid_score": 0.3469898998737335
+        },
+        {
+          "id": "isHistorical_029909",
+          "document": "vào 26 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6258137822151184,
+          "sparse_similarity": 0.06641226261854172,
+          "hybrid_score": 0.34611302614212036
+        },
+        {
+          "id": "isHistorical_029915",
+          "document": "vào 26 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6283800005912781,
+          "sparse_similarity": 0.06262882053852081,
+          "hybrid_score": 0.34550440311431885
+        }
+      ]
+    ],
+    "eng_translation": [
+      "rhinorrhea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp thở nhanh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       777,
       791
-    ]
+    ],
+    "sentence": "Lúc vào phòng cấp cứu trong tình trạng:\n    - mệt mỏi\n    - ho\n    - chảy nước mũi\n    - [ENTITY]\n    - Thiếu oxy\n    - đau\n    Kết quả xét nghiệm\n    - bạch cầu 26.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_029897",
+          "document": "vào 26 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6272229552268982,
+          "sparse_similarity": 0.060049016028642654,
+          "hybrid_score": 0.3436359763145447
+        },
+        {
+          "id": "isHistorical_029909",
+          "document": "vào 26 tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6237732172012329,
+          "sparse_similarity": 0.06341703236103058,
+          "hybrid_score": 0.34359511733055115
+        },
+        {
+          "id": "isHistorical_029915",
+          "document": "vào 26 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6256749033927917,
+          "sparse_similarity": 0.05980914831161499,
+          "hybrid_score": 0.34274202585220337
+        }
+      ]
+    ],
+    "eng_translation": [
+      "tachypnea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Thiếu oxy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       798,
       807
-    ]
+    ],
+    "sentence": "Lúc vào phòng cấp cứu trong tình trạng:\n    - mệt mỏi\n    - ho\n    - chảy nước mũi\n    - nhịp thở nhanh\n    - [ENTITY]\n    - đau\n    Kết quả xét nghiệm\n    - bạch cầu 26.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_029898",
+          "document": "vào 26 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6215037107467651,
+          "sparse_similarity": 0.07613269984722137,
+          "hybrid_score": 0.34881821274757385
+        },
+        {
+          "id": "isHistorical_029897",
+          "document": "vào 26 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.62349534034729,
+          "sparse_similarity": 0.06670684367418289,
+          "hybrid_score": 0.34510108828544617
+        },
+        {
+          "id": "isHistorical_020132",
+          "document": "khoảng 26 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6366752982139587,
+          "sparse_similarity": 0.045337218791246414,
+          "hybrid_score": 0.34100624918937683
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypoxia",
+      "Oxygen deficiency"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       814,
       817
-    ]
+    ],
+    "sentence": "Lúc vào phòng cấp cứu trong tình trạng:\n    - mệt mỏi\n    - ho\n    - chảy nước mũi\n    - nhịp thở nhanh\n    - Thiếu oxy\n    - [ENTITY]\n    Kết quả xét nghiệm\n    - bạch cầu 26.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_029897",
+          "document": "vào 26 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6235109567642212,
+          "sparse_similarity": 0.0644858330488205,
+          "hybrid_score": 0.34399840235710144
+        },
+        {
+          "id": "isHistorical_029915",
+          "document": "vào 26 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6222594976425171,
+          "sparse_similarity": 0.06400945037603378,
+          "hybrid_score": 0.34313446283340454
+        },
+        {
+          "id": "isHistorical_012794",
+          "document": "cách đây 26 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6354724764823914,
+          "sparse_similarity": 0.04820671305060387,
+          "hybrid_score": 0.34183958172798157
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bạch cầu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       847,
       855
-    ]
+    ],
+    "sentence": "Lúc vào phòng cấp cứu trong tình trạng:\n    - mệt mỏi\n    - ho\n    - chảy nước mũi\n    - nhịp thở nhanh\n    - Thiếu oxy\n    - đau\n    Kết quả xét nghiệm\n    - [ENTITY] 26.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_029897",
+          "document": "vào 26 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6621630191802979,
+          "sparse_similarity": 0.07542812824249268,
+          "hybrid_score": 0.36879557371139526
+        },
+        {
+          "id": "isHistorical_029915",
+          "document": "vào 26 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6623538136482239,
+          "sparse_similarity": 0.07501518726348877,
+          "hybrid_score": 0.3686845004558563
+        },
+        {
+          "id": "isHistorical_012794",
+          "document": "cách đây 26 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6769266128540039,
+          "sparse_similarity": 0.05772692710161209,
+          "hybrid_score": 0.3673267662525177
+        }
+      ]
+    ],
+    "eng_translation": [
+      "White blood cells",
+      "Leukocytes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "26.7",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       856,
       860
-    ]
+    ],
+    "sentence": "Lúc vào phòng cấp cứu trong tình trạng:\n    - mệt mỏi\n    - ho\n    - chảy nước mũi\n    - nhịp thở nhanh\n    - Thiếu oxy\n    - đau\n    Kết quả xét nghiệm\n    - bạch cầu [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000029",
+          "document": "[ENTITY] cần làm thêm xét nghiệm.",
+          "dense_similarity": 0.6251065731048584,
+          "sparse_similarity": 0.13438493013381958,
+          "hybrid_score": 0.379745751619339
+        },
+        {
+          "id": "isUncertain_000109",
+          "document": "cần xét nghiệm xác nhận [ENTITY].",
+          "dense_similarity": 0.6171684265136719,
+          "sparse_similarity": 0.13190793991088867,
+          "hybrid_score": 0.3745381832122803
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6336571574211121,
+          "sparse_similarity": 0.05006531625986099,
+          "hybrid_score": 0.3418612480163574
+        }
+      ]
+    ],
+    "eng_translation": [
+      "26.7"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bnp",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       867,
       870
-    ]
+    ],
+    "sentence": "7\n    - [ENTITY] 4227\n    - kali 3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006799",
+          "document": "[ENTITY] da 7 nam.",
+          "dense_similarity": 0.6899407505989075,
+          "sparse_similarity": 0.1351841539144516,
+          "hybrid_score": 0.41256245970726013
+        },
+        {
+          "id": "isHistorical_006801",
+          "document": "[ENTITY] da 7 thang.",
+          "dense_similarity": 0.6852864623069763,
+          "sparse_similarity": 0.13833706080913544,
+          "hybrid_score": 0.4118117690086365
+        },
+        {
+          "id": "isHistorical_016405",
+          "document": "da 7 thang [ENTITY].",
+          "dense_similarity": 0.6832562685012817,
+          "sparse_similarity": 0.12280628085136414,
+          "hybrid_score": 0.40303128957748413
+        }
+      ]
+    ],
+    "eng_translation": [
+      "BNP",
+      "Brain Natriuretic Peptide"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "4227",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       871,
       875
-    ]
+    ],
+    "sentence": "7\n    - bnp [ENTITY]\n    - kali 3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006799",
+          "document": "[ENTITY] da 7 nam.",
+          "dense_similarity": 0.7453199625015259,
+          "sparse_similarity": 0.1472107172012329,
+          "hybrid_score": 0.4462653398513794
+        },
+        {
+          "id": "isHistorical_016393",
+          "document": "da 7 nam [ENTITY].",
+          "dense_similarity": 0.7431854009628296,
+          "sparse_similarity": 0.1325189471244812,
+          "hybrid_score": 0.4378521740436554
+        },
+        {
+          "id": "isHistorical_016405",
+          "document": "da 7 thang [ENTITY].",
+          "dense_similarity": 0.7371660470962524,
+          "sparse_similarity": 0.13458386063575745,
+          "hybrid_score": 0.43587493896484375
+        }
+      ]
+    ],
+    "eng_translation": [
+      "4227"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       882,
       886
-    ]
+    ],
+    "sentence": "7\n    - bnp 4227\n    - [ENTITY] 3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006799",
+          "document": "[ENTITY] da 7 nam.",
+          "dense_similarity": 0.684867262840271,
+          "sparse_similarity": 0.1304943561553955,
+          "hybrid_score": 0.40768080949783325
+        },
+        {
+          "id": "isHistorical_016400",
+          "document": "da 7 ngay bi [ENTITY].",
+          "dense_similarity": 0.6771093606948853,
+          "sparse_similarity": 0.11563210189342499,
+          "hybrid_score": 0.3963707387447357
+        },
+        {
+          "id": "isHistorical_016393",
+          "document": "da 7 nam [ENTITY].",
+          "dense_similarity": 0.6736376285552979,
+          "sparse_similarity": 0.11607444286346436,
+          "hybrid_score": 0.3948560357093811
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Kali",
+      "Hyperkalemia",
+      "Potassium"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "3.2",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       887,
       890
-    ]
+    ],
+    "sentence": "7\n    - bnp 4227\n    - kali [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_011485",
+          "document": "cach day 7 nam [ENTITY].",
+          "dense_similarity": 0.6620407104492188,
+          "sparse_similarity": 0.1047033965587616,
+          "hybrid_score": 0.38337206840515137
+        },
+        {
+          "id": "isHistorical_011498",
+          "document": "cach day 7 thang bi [ENTITY].",
+          "dense_similarity": 0.6640024185180664,
+          "sparse_similarity": 0.10133763402700424,
+          "hybrid_score": 0.38267001509666443
+        },
+        {
+          "id": "isHistorical_011492",
+          "document": "cach day 7 ngay bi [ENTITY].",
+          "dense_similarity": 0.6607043743133545,
+          "sparse_similarity": 0.10455840826034546,
+          "hybrid_score": 0.38263139128685
+        }
+      ]
+    ],
+    "eng_translation": [
+      "3.2"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "troponin",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       897,
       905
-    ]
+    ],
+    "sentence": "2\n    - [ENTITY] 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006580",
+          "document": "[ENTITY] da 2 ngay.",
+          "dense_similarity": 0.7654246687889099,
+          "sparse_similarity": 0.19140160083770752,
+          "hybrid_score": 0.4784131348133087
+        },
+        {
+          "id": "isHistorical_006579",
+          "document": "[ENTITY] da 2 nam.",
+          "dense_similarity": 0.7672552466392517,
+          "sparse_similarity": 0.17061683535575867,
+          "hybrid_score": 0.468936026096344
+        },
+        {
+          "id": "isHistorical_015080",
+          "document": "da 2 ngay bi [ENTITY].",
+          "dense_similarity": 0.7611802220344543,
+          "sparse_similarity": 0.16842429339885712,
+          "hybrid_score": 0.46480226516723633
+        }
+      ]
+    ],
+    "eng_translation": [
+      "troponin",
+      "Troponin elevation",
+      "Cardiac troponin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "0.01",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       906,
       910
-    ]
+    ],
+    "sentence": "2\n    - troponin [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000601",
+          "document": "2 thang truoc [ENTITY].",
+          "dense_similarity": 0.7092703580856323,
+          "sparse_similarity": 0.10687470436096191,
+          "hybrid_score": 0.4080725312232971
+        },
+        {
+          "id": "isHistorical_000583",
+          "document": "2 ngay truoc [ENTITY].",
+          "dense_similarity": 0.7021592259407043,
+          "sparse_similarity": 0.1134931817650795,
+          "hybrid_score": 0.4078262150287628
+        },
+        {
+          "id": "isHistorical_000577",
+          "document": "2 nam truoc [ENTITY].",
+          "dense_similarity": 0.7065614461898804,
+          "sparse_similarity": 0.10575427860021591,
+          "hybrid_score": 0.40615785121917725
+        }
+      ]
+    ],
+    "eng_translation": [
+      "0.01"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tổng phân tích nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       935,
       959
-    ]
+    ],
+    "sentence": "8\n    - [ENTITY] có kết quả dương tính  với 182bạch cầuvài vi khuẩn (vi khuẩn), nitrite\n    Kết quả chẩn đoán hình ảnh\n    - chẩn đoán hình ảnh không cho thấy quá trình bệnh lý tim mạch hoặc hô hấp cấp tính \n    - chụp x-quang ngực phù hợp với viêm phổi kẽ.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014229",
+          "document": "cách đây 8 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5890659093856812,
+          "sparse_similarity": 0.15259328484535217,
+          "hybrid_score": 0.37082958221435547
+        },
+        {
+          "id": "isHistorical_012597",
+          "document": "cách đây 18 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6010945439338684,
+          "sparse_similarity": 0.10303817689418793,
+          "hybrid_score": 0.35206636786460876
+        },
+        {
+          "id": "isHistorical_000527",
+          "document": "18 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5998196601867676,
+          "sparse_similarity": 0.10247668623924255,
+          "hybrid_score": 0.35114818811416626
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Urinalysis summary",
+      "Urinalysis results summary"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp x-quang",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1157,
       1169
-    ]
+    ],
+    "sentence": "8\n    - tổng phân tích nước tiểu có kết quả dương tính  với 182bạch cầuvài vi khuẩn (vi khuẩn), nitrite\n    Kết quả chẩn đoán hình ảnh\n    - chẩn đoán hình ảnh không cho thấy quá trình bệnh lý tim mạch hoặc hô hấp cấp tính \n    - [ENTITY] ngực phù hợp với viêm phổi kẽ.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014211",
+          "document": "cách đây 8 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5494049787521362,
+          "sparse_similarity": 0.12623392045497894,
+          "hybrid_score": 0.3378194570541382
+        },
+        {
+          "id": "isHistorical_003761",
+          "document": "8 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5488520860671997,
+          "sparse_similarity": 0.125434011220932,
+          "hybrid_score": 0.33714306354522705
+        },
+        {
+          "id": "isHistorical_014229",
+          "document": "cách đây 8 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5530614852905273,
+          "sparse_similarity": 0.12078553438186646,
+          "hybrid_score": 0.3369235098361969
+        }
+      ]
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm phổi kẽ",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1187,
       1199
-    ]
+    ],
+    "sentence": "8\n    - tổng phân tích nước tiểu có kết quả dương tính  với 182bạch cầuvài vi khuẩn (vi khuẩn), nitrite\n    Kết quả chẩn đoán hình ảnh\n    - chẩn đoán hình ảnh không cho thấy quá trình bệnh lý tim mạch hoặc hô hấp cấp tính \n    - chụp x-quang ngực phù hợp với [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_003761",
+          "document": "8 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5691530704498291,
+          "sparse_similarity": 0.13373540341854095,
+          "hybrid_score": 0.3514442443847656
+        },
+        {
+          "id": "isHistorical_014211",
+          "document": "cách đây 8 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5675391554832458,
+          "sparse_similarity": 0.134603351354599,
+          "hybrid_score": 0.35107123851776123
+        },
+        {
+          "id": "isHistorical_014229",
+          "document": "cách đây 8 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5680436491966248,
+          "sparse_similarity": 0.12864813208580017,
+          "hybrid_score": 0.34834587574005127
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Interstitital pneumonia",
+      "Interstitial pneumonia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Albuterol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1254,
       1263
-    ]
+    ],
+    "sentence": "Đã xử trí thuốc và thủ thuật\n    - Khí dung phối hợp [ENTITY] và Ipratropium 1 lần\n    - Ceftriaxone 1 gram dùng 1 liều\n    - Uống Tylenol 1 gram, 1 liều duy nhất.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012358",
+          "document": "cách đây 1 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.630087673664093,
+          "sparse_similarity": 0.09808414429426193,
+          "hybrid_score": 0.3640859127044678
+        },
+        {
+          "id": "isHistorical_031843",
+          "document": "đã 1 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6198849081993103,
+          "sparse_similarity": 0.10725925862789154,
+          "hybrid_score": 0.3635720908641815
+        },
+        {
+          "id": "isHistorical_012340",
+          "document": "cách đây 1 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6191659569740295,
+          "sparse_similarity": 0.10696762800216675,
+          "hybrid_score": 0.36306679248809814
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Albuterol",
+      "Bronchodilator"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1779": 1.0,
+        "435": 0.999999,
+        "237159": 0.977554,
+        "104542": 0.825081,
+        "691973": 0.772624
+      },
+      "rapidfuzz": {
+        "435": 1.0,
+        "2284638": 0.9,
+        "2284636": 0.9,
+        "1705": 0.8,
+        "1539887": 0.771429,
+        "2475836": 0.75
+      }
+    },
+    "candidate": {
+      "code": "435",
+      "confidence": 0.999999
+    }
   },
   {
     "text": "Tylenol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1333,
       1340
-    ]
+    ],
+    "sentence": "Đã xử trí thuốc và thủ thuật\n    - Khí dung phối hợp Albuterol và Ipratropium 1 lần\n    - Ceftriaxone 1 gram dùng 1 liều\n    - Uống [ENTITY] 1 gram, 1 liều duy nhất.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012340",
+          "document": "cách đây 1 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6279436945915222,
+          "sparse_similarity": 0.09661278128623962,
+          "hybrid_score": 0.3622782230377197
+        },
+        {
+          "id": "isHistorical_031843",
+          "document": "đã 1 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.627615213394165,
+          "sparse_similarity": 0.096537284553051,
+          "hybrid_score": 0.3620762526988983
+        },
+        {
+          "id": "isHistorical_012358",
+          "document": "cách đây 1 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.6333330273628235,
+          "sparse_similarity": 0.08861827105283737,
+          "hybrid_score": 0.3609756529331207
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
   }
 ]

@@ -2,33 +2,193 @@
   {
     "text": "hẹp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       63,
       66
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n   Bệnh nhân có tiền sử Nghẽn tắc và [ENTITY] động mạch cảnh, được theo dõi định kỳ chuyên khoa tim mạch - mạch máu.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử nghẽn tắc và [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.7057501077651978,
+          "sparse_similarity": 0.32540032267570496,
+          "hybrid_score": 0.5155752301216125
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6960576176643372,
+          "sparse_similarity": 0.30174028873443604,
+          "hybrid_score": 0.4988989531993866
+        },
+        {
+          "id": "isFamily_019508",
+          "document": "họ nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.687089741230011,
+          "sparse_similarity": 0.2915896475315094,
+          "hybrid_score": 0.4893397092819214
+        }
+      ]
+    ],
+    "eng_translation": [
+      "narrowing",
+      "Stenosis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mạch cảnh",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       72,
       81
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n   Bệnh nhân có tiền sử Nghẽn tắc và hẹp động [ENTITY], được theo dõi định kỳ chuyên khoa tim mạch - mạch máu.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử nghẽn tắc và hẹp động [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.7212756276130676,
+          "sparse_similarity": 0.33057522773742676,
+          "hybrid_score": 0.5259253978729248
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.7105386257171631,
+          "sparse_similarity": 0.30897146463394165,
+          "hybrid_score": 0.50975501537323
+        },
+        {
+          "id": "isFamily_019508",
+          "document": "họ nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6963154673576355,
+          "sparse_similarity": 0.2962559163570404,
+          "hybrid_score": 0.49628567695617676
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Carotid pulse",
+      "Carotid artery pulse"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       235,
       242
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Các sự kiện trước khi nhập viện\n    - Được theo dõi định kỳ bằng  [ENTITY] Doppler động mạchcho nghẽn tắc và hẹp động mạch cảnh\n    - Ghi nhận trên các siêu âm doppler hai chiều gần đây có hẹp nặng, tỷ số PSV/EDV > 7, vận tốc dòng chảy tăng rõ\n    Tình trạng ngay trước khi nhập viện\n    - Chỉ định can thiệp tái thông động mạch cảnh sau khi đã đánh giá đầy đủ nguy cơ và lợi ích điều trị.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5959565043449402,
+          "sparse_similarity": 0.18272262811660767,
+          "hybrid_score": 0.3893395662307739
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5931758880615234,
+          "sparse_similarity": 0.17449676990509033,
+          "hybrid_score": 0.3838363289833069
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.5798541903495789,
+          "sparse_similarity": 0.18092703819274902,
+          "hybrid_score": 0.38039061427116394
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       320,
       327
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Các sự kiện trước khi nhập viện\n    - Được theo dõi định kỳ bằng  siêu âm Doppler động mạchcho nghẽn tắc và hẹp động mạch cảnh\n    - Ghi nhận trên các [ENTITY] doppler hai chiều gần đây có hẹp nặng, tỷ số PSV/EDV > 7, vận tốc dòng chảy tăng rõ\n    Tình trạng ngay trước khi nhập viện\n    - Chỉ định can thiệp tái thông động mạch cảnh sau khi đã đánh giá đầy đủ nguy cơ và lợi ích điều trị.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.5945116877555847,
+          "sparse_similarity": 0.1747511625289917,
+          "hybrid_score": 0.3846314251422882
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5914927124977112,
+          "sparse_similarity": 0.1677318662405014,
+          "hybrid_score": 0.3796122968196869
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5840049386024475,
+          "sparse_similarity": 0.16838207840919495,
+          "hybrid_score": 0.3761935234069824
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

@@ -2,257 +2,1582 @@
   {
     "text": "viêm túi mật",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       109,
       121
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây\n    - Nhiều lần nhập viện trước đây vào khoa nội để điều trị [ENTITY]\n    - Nhập viện trước đây bắt đầu bằng ciproflagyl\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy viêm túi mật không biến chứng\n    Bệnh lý mãn tính\n    - Tiền sử đã biết của bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe\n    - táo bón trở nên tồi tệ hơn gần đây\n    Thuốc trước khi nhập viện lần này: percocet (để kiểm soát cơn đau)\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "[entity] - nhập viện trước đây"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6102473139762878,
+          "sparse_similarity": 0.16441743075847626,
+          "hybrid_score": 0.38733237981796265
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5981502532958984,
+          "sparse_similarity": 0.16493530571460724,
+          "hybrid_score": 0.38154277205467224
+        },
+        {
+          "id": "isHistorical_009850",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.5782771110534668,
+          "sparse_similarity": 0.1678590476512909,
+          "hybrid_score": 0.37306809425354004
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cholecystitis",
+      "Cholecystitis is the inflammation of the gallbladder, typically caused by gallstones blocking the cystic duct, leading to infection and potential complications such as gangrene or perforation. It is often associated with right upper quadrant pain, fever, and elevated white blood cell count. Diagnosis is usually confirmed with imaging studies like ultrasound, and treatment may involve antibiotics, pain management, and surgical removal of the gallbladder (cholecystectomy) if recurrent or severe."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       188,
       191
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây\n    - Nhiều lần nhập viện trước đây vào khoa nội để điều trị viêm túi mật\n    - Nhập viện trước đây bắt đầu bằng ciproflagyl\n    - Tiếp tục [ENTITY] tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy viêm túi mật không biến chứng\n    Bệnh lý mãn tính\n    - Tiền sử đã biết của bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe\n    - táo bón trở nên tồi tệ hơn gần đây\n    Thuốc trước khi nhập viện lần này: percocet (để kiểm soát cơn đau)\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "trước đây bắt đầu bằng ciproflagyl - tiếp tục [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5952483415603638,
+          "sparse_similarity": 0.1588217318058014,
+          "hybrid_score": 0.3770350217819214
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5795436501502991,
+          "sparse_similarity": 0.1593543142080307,
+          "hybrid_score": 0.3694489896297455
+        },
+        {
+          "id": "isFamily_003342",
+          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5957311391830444,
+          "sparse_similarity": 0.12740640342235565,
+          "hybrid_score": 0.36156877875328064
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "percocet",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       273,
       281
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây\n    - Nhiều lần nhập viện trước đây vào khoa nội để điều trị viêm túi mật\n    - Nhập viện trước đây bắt đầu bằng ciproflagyl\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng [ENTITY]\n    - Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy viêm túi mật không biến chứng\n    Bệnh lý mãn tính\n    - Tiền sử đã biết của bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe\n    - táo bón trở nên tồi tệ hơn gần đây\n    Thuốc trước khi nhập viện lần này: percocet (để kiểm soát cơn đau)\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5932015776634216,
+          "sparse_similarity": 0.14798292517662048,
+          "hybrid_score": 0.37059223651885986
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5793758630752563,
+          "sparse_similarity": 0.14855551719665527,
+          "hybrid_score": 0.3639656901359558
+        },
+        {
+          "id": "isFamily_003342",
+          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5927493572235107,
+          "sparse_similarity": 0.13062238693237305,
+          "hybrid_score": 0.3616858720779419
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Percocet",
+      "Oxycodone with acetaminophen",
+      "Oxycodone and Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "42844": 1.0,
+        "1865234": 0.9746,
+        "214183": 0.95878,
+        "214965": 0.859266,
+        "1865233": 0.806059
+      },
+      "rapidfuzz": {
+        "42844": 1.0,
+        "214183": 0.95,
+        "2656148": 0.9,
+        "7804": 0.9,
+        "161": 0.9
+      }
+    },
+    "candidate": {
+      "code": "42844",
+      "confidence": 1.0
+    }
   },
   {
     "text": "chụp cắt lớp vi tính",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       303,
       323
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây\n    - Nhiều lần nhập viện trước đây vào khoa nội để điều trị viêm túi mật\n    - Nhập viện trước đây bắt đầu bằng ciproflagyl\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Nhiều lần chụp [ENTITY] trong lần nhập viện trước cho thấy viêm túi mật không biến chứng\n    Bệnh lý mãn tính\n    - Tiền sử đã biết của bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe\n    - táo bón trở nên tồi tệ hơn gần đây\n    Thuốc trước khi nhập viện lần này: percocet (để kiểm soát cơn đau)\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5873355865478516,
+          "sparse_similarity": 0.1391640603542328,
+          "hybrid_score": 0.36324983835220337
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5742965936660767,
+          "sparse_similarity": 0.13990406692028046,
+          "hybrid_score": 0.35710033774375916
+        },
+        {
+          "id": "isFamily_003342",
+          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5819125771522522,
+          "sparse_similarity": 0.12249376624822617,
+          "hybrid_score": 0.3522031605243683
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       359,
       371
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây\n    - Nhiều lần nhập viện trước đây vào khoa nội để điều trị viêm túi mật\n    - Nhập viện trước đây bắt đầu bằng ciproflagyl\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy [ENTITY] không biến chứng\n    Bệnh lý mãn tính\n    - Tiền sử đã biết của bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe\n    - táo bón trở nên tồi tệ hơn gần đây\n    Thuốc trước khi nhập viện lần này: percocet (để kiểm soát cơn đau)\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5955345630645752,
+          "sparse_similarity": 0.15186645090579987,
+          "hybrid_score": 0.37370049953460693
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5828232169151306,
+          "sparse_similarity": 0.15226443111896515,
+          "hybrid_score": 0.3675438165664673
+        },
+        {
+          "id": "isFamily_003342",
+          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5961821675300598,
+          "sparse_similarity": 0.13775840401649475,
+          "hybrid_score": 0.3669703006744385
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cholecystitis",
+      "Cholecystitis is the inflammation of the gallbladder, typically caused by gallstones blocking the cystic duct, leading to infection and potential complications such as gangrene or perforation. It is often associated with right upper quadrant pain, fever, and elevated white blood cell count. Diagnosis is usually confirmed with imaging studies like ultrasound, and treatment may involve antibiotics, pain management, and surgical removal of the gallbladder (cholecystectomy) if recurrent or severe."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh túi thừa",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       436,
       449
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây\n    - Nhiều lần nhập viện trước đây vào khoa nội để điều trị viêm túi mật\n    - Nhập viện trước đây bắt đầu bằng ciproflagyl\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy viêm túi mật không biến chứng\n    Bệnh lý mãn tính\n    - Tiền sử đã biết của [ENTITY] của cả ruột non và đại tràng, không thủng hay áp xe\n    - táo bón trở nên tồi tệ hơn gần đây\n    Thuốc trước khi nhập viện lần này: percocet (để kiểm soát cơn đau)\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử đã biết của [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6183895468711853,
+          "sparse_similarity": 0.1787961721420288,
+          "hybrid_score": 0.39859285950660706
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.6056529879570007,
+          "sparse_similarity": 0.17856381833553314,
+          "hybrid_score": 0.39210841059684753
+        },
+        {
+          "id": "isFamily_003342",
+          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6172268390655518,
+          "sparse_similarity": 0.15832528471946716,
+          "hybrid_score": 0.38777607679367065
+        }
+      ]
+    ],
+    "eng_translation": [
+      "diverticulosis",
+      "Diverticular disease"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "táo bón",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       508,
       515
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây\n    - Nhiều lần nhập viện trước đây vào khoa nội để điều trị viêm túi mật\n    - Nhập viện trước đây bắt đầu bằng ciproflagyl\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy viêm túi mật không biến chứng\n    Bệnh lý mãn tính\n    - Tiền sử đã biết của bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe\n    - [ENTITY] trở nên tồi tệ hơn gần đây\n    Thuốc trước khi nhập viện lần này: percocet (để kiểm soát cơn đau)\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5978379249572754,
+          "sparse_similarity": 0.15526895225048065,
+          "hybrid_score": 0.3765534460544586
+        },
+        {
+          "id": "isFamily_011496",
+          "document": "con ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5974608063697815,
+          "sparse_similarity": 0.1520082652568817,
+          "hybrid_score": 0.3747345209121704
+        },
+        {
+          "id": "isFamily_003342",
+          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.5998771786689758,
+          "sparse_similarity": 0.14818574488162994,
+          "hybrid_score": 0.3740314543247223
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "percocet",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       582,
       590
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây\n    - Nhiều lần nhập viện trước đây vào khoa nội để điều trị viêm túi mật\n    - Nhập viện trước đây bắt đầu bằng ciproflagyl\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy viêm túi mật không biến chứng\n    Bệnh lý mãn tính\n    - Tiền sử đã biết của bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe\n    - táo bón trở nên tồi tệ hơn gần đây\n    Thuốc trước khi nhập viện lần này: [ENTITY] (để kiểm soát cơn đau)\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.5967115759849548,
+          "sparse_similarity": 0.16195076704025269,
+          "hybrid_score": 0.37933117151260376
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.5835000276565552,
+          "sparse_similarity": 0.1622222661972046,
+          "hybrid_score": 0.3728611469268799
+        },
+        {
+          "id": "isHistorical_009850",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.5620009303092957,
+          "sparse_similarity": 0.1646590232849121,
+          "hybrid_score": 0.3633299767971039
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Percocet",
+      "Oxycodone with acetaminophen",
+      "Oxycodone and Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "42844": 1.0,
+        "1865234": 0.9746,
+        "214183": 0.95878,
+        "214965": 0.859266,
+        "1865233": 0.806059
+      },
+      "rapidfuzz": {
+        "42844": 1.0,
+        "214183": 0.95,
+        "2656148": 0.9,
+        "7804": 0.9,
+        "161": 0.9
+      }
+    },
+    "candidate": {
+      "code": "42844",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau vùng hạ vị bên",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       662,
       680
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY] phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5593357682228088,
+          "sparse_similarity": 0.15140606462955475,
+          "hybrid_score": 0.3553709089756012
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5574514865875244,
+          "sparse_similarity": 0.14628468453884125,
+          "hybrid_score": 0.3518680930137634
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5540111064910889,
+          "sparse_similarity": 0.14515331387519836,
+          "hybrid_score": 0.3495821952819824
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain in the left lower quadrant",
+      "left lower quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng ở vùng bụng dưới",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       741,
       766
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: [ENTITY] trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5901849865913391,
+          "sparse_similarity": 0.18322022259235382,
+          "hybrid_score": 0.38670259714126587
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5882988572120667,
+          "sparse_similarity": 0.17818614840507507,
+          "hybrid_score": 0.38324248790740967
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5813108086585999,
+          "sparse_similarity": 0.17621882259845734,
+          "hybrid_score": 0.378764808177948
+        }
+      ]
+    ],
+    "eng_translation": [
+      "abdominal pain in the lower abdomen",
+      "Lower abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau vùng hạ vị bên",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       830,
       848
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - [ENTITY] phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5624529719352722,
+          "sparse_similarity": 0.16208332777023315,
+          "hybrid_score": 0.3622681498527527
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5612364411354065,
+          "sparse_similarity": 0.15695640444755554,
+          "hybrid_score": 0.3590964078903198
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5579369068145752,
+          "sparse_similarity": 0.14744119346141815,
+          "hybrid_score": 0.35268905758857727
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain in the left lower quadrant",
+      "left lower quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vị",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       860,
       862
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ [ENTITY] bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5662214159965515,
+          "sparse_similarity": 0.16331921517848969,
+          "hybrid_score": 0.3647703230381012
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5635401010513306,
+          "sparse_similarity": 0.1579085886478424,
+          "hybrid_score": 0.3607243299484253
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5632852911949158,
+          "sparse_similarity": 0.14954015612602234,
+          "hybrid_score": 0.35641270875930786
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vị",
+      "The query provided is in Vietnamese and does not contain any medical terms or concepts. Therefore, no rewrite is necessary. Result: vị"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "táo bón",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       878,
       885
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - [ENTITY] trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5610074996948242,
+          "sparse_similarity": 0.16454516351222992,
+          "hybrid_score": 0.36277633905410767
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.558821976184845,
+          "sparse_similarity": 0.15934965014457703,
+          "hybrid_score": 0.3590857982635498
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5579760670661926,
+          "sparse_similarity": 0.1517336368560791,
+          "hybrid_score": 0.35485485196113586
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đổ mồ hôi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       919,
       928
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - [ENTITY] qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5542907118797302,
+          "sparse_similarity": 0.15685023367404938,
+          "hybrid_score": 0.3555704653263092
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5590476989746094,
+          "sparse_similarity": 0.13435843586921692,
+          "hybrid_score": 0.34670305252075195
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5591697692871094,
+          "sparse_similarity": 0.13216327130794525,
+          "hybrid_score": 0.3456665277481079
+        }
+      ]
+    ],
+    "eng_translation": [
+      "sweating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       958,
       961
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận [ENTITY]\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không ghi nhận [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5586782693862915,
+          "sparse_similarity": 0.1565786898136139,
+          "hybrid_score": 0.3576284646987915
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5623354315757751,
+          "sparse_similarity": 0.1344252973794937,
+          "hybrid_score": 0.34838035702705383
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5640721917152405,
+          "sparse_similarity": 0.13258743286132812,
+          "hybrid_score": 0.3483298122882843
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       974,
       983
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không [ENTITY]\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.557817816734314,
+          "sparse_similarity": 0.15570035576820374,
+          "hybrid_score": 0.35675907135009766
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5618066191673279,
+          "sparse_similarity": 0.13325630128383636,
+          "hybrid_score": 0.3475314676761627
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5631833076477051,
+          "sparse_similarity": 0.131783589720726,
+          "hybrid_score": 0.34748345613479614
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hoa mắt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       996,
       1003
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không [ENTITY]\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5551952123641968,
+          "sparse_similarity": 0.15594546496868134,
+          "hybrid_score": 0.35557034611701965
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5528863072395325,
+          "sparse_similarity": 0.15056154131889343,
+          "hybrid_score": 0.35172390937805176
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5605389475822449,
+          "sparse_similarity": 0.1324668675661087,
+          "hybrid_score": 0.3465029001235962
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Blurred vision",
+      "Visual acuity impairment"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đi tiêu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1010,
       1017
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - [ENTITY] bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5595136284828186,
+          "sparse_similarity": 0.15879252552986145,
+          "hybrid_score": 0.3591530919075012
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5633438229560852,
+          "sparse_similarity": 0.13618256151676178,
+          "hybrid_score": 0.3497631847858429
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5641336441040039,
+          "sparse_similarity": 0.13457144796848297,
+          "hybrid_score": 0.34935253858566284
+        }
+      ]
+    ],
+    "eng_translation": [
+      "defecation",
+      "Bowel movement"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1040,
       1043
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra [ENTITY]\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5473535060882568,
+          "sparse_similarity": 0.15256904065608978,
+          "hybrid_score": 0.3499612808227539
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5465553998947144,
+          "sparse_similarity": 0.14737120270729065,
+          "hybrid_score": 0.3469632863998413
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.552613377571106,
+          "sparse_similarity": 0.12941113114356995,
+          "hybrid_score": 0.34101223945617676
+        }
+      ]
+    ],
+    "eng_translation": [
+      "blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau RLQLLQ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1099,
       1109
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới ([ENTITY])\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007153",
+          "document": "bên nội của người bệnh bị [ENTITY].",
+          "dense_similarity": 0.5616210103034973,
+          "sparse_similarity": 0.09433194994926453,
+          "hybrid_score": 0.3279764652252197
+        },
+        {
+          "id": "isFamily_007162",
+          "document": "bên nội của người bệnh đã bị [ENTITY].",
+          "dense_similarity": 0.5579981207847595,
+          "sparse_similarity": 0.09468317031860352,
+          "hybrid_score": 0.3263406455516815
+        },
+        {
+          "id": "isFamily_007139",
+          "document": "bên nội của bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.5617069602012634,
+          "sparse_similarity": 0.08955392241477966,
+          "hybrid_score": 0.32563042640686035
+        }
+      ]
+    ],
+    "eng_translation": [
+      "RLQLLQ pain",
+      "Right lower quadrant lower quadrant pain",
+      "Retroperitoneal Lymph Node Dissection Pain",
+      "Recurrent Left Quadrant Lower Left Quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đổ mồ hôi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1206,
       1215
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: [ENTITY]\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5611332654953003,
+          "sparse_similarity": 0.1643974781036377,
+          "hybrid_score": 0.362765371799469
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.559358537197113,
+          "sparse_similarity": 0.1592273712158203,
+          "hybrid_score": 0.3592929542064667
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5677083134651184,
+          "sparse_similarity": 0.14081591367721558,
+          "hybrid_score": 0.354262113571167
+        }
+      ]
+    ],
+    "eng_translation": [
+      "sweating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1315,
       1318
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục [ENTITY] tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5709112882614136,
+          "sparse_similarity": 0.17236852645874023,
+          "hybrid_score": 0.3716399073600769
+        },
+        {
+          "id": "isHistorical_012626",
+          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5687681436538696,
+          "sparse_similarity": 0.15710370242595673,
+          "hybrid_score": 0.3629359304904938
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5752954483032227,
+          "sparse_similarity": 0.14816534519195557,
+          "hybrid_score": 0.3617303967475891
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "percocet",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1400,
       1408
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng [ENTITY]\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.562890350818634,
+          "sparse_similarity": 0.16737264394760132,
+          "hybrid_score": 0.3651314973831177
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5676232576370239,
+          "sparse_similarity": 0.14379528164863586,
+          "hybrid_score": 0.3557092547416687
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5682424902915955,
+          "sparse_similarity": 0.14245235919952393,
+          "hybrid_score": 0.3553474247455597
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Percocet",
+      "Oxycodone with acetaminophen",
+      "Oxycodone and Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "42844": 1.0,
+        "1865234": 0.9746,
+        "214183": 0.95878,
+        "214965": 0.859266,
+        "1865233": 0.806059
+      },
+      "rapidfuzz": {
+        "42844": 1.0,
+        "214183": 0.95,
+        "2656148": 0.9,
+        "7804": 0.9,
+        "161": 0.9
+      }
+    },
+    "candidate": {
+      "code": "42844",
+      "confidence": 1.0
+    }
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1430,
       1433
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận [ENTITY]\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không ghi nhận [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5482451915740967,
+          "sparse_similarity": 0.1520448923110962,
+          "hybrid_score": 0.35014504194259644
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5524137616157532,
+          "sparse_similarity": 0.12949782609939575,
+          "hybrid_score": 0.34095579385757446
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5537607669830322,
+          "sparse_similarity": 0.12788507342338562,
+          "hybrid_score": 0.3408229351043701
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1446,
       1455
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không [ENTITY]\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5531195998191833,
+          "sparse_similarity": 0.1529659479856491,
+          "hybrid_score": 0.3530427813529968
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.557564377784729,
+          "sparse_similarity": 0.1303163468837738,
+          "hybrid_score": 0.3439403772354126
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5587155222892761,
+          "sparse_similarity": 0.12886223196983337,
+          "hybrid_score": 0.34378886222839355
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hoa mắt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1468,
       1475
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không [ENTITY]\n    - đi tiêu bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5550833940505981,
+          "sparse_similarity": 0.1576356738805771,
+          "hybrid_score": 0.3563595414161682
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5591695308685303,
+          "sparse_similarity": 0.13480235636234283,
+          "hybrid_score": 0.34698593616485596
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5603116750717163,
+          "sparse_similarity": 0.13305339217185974,
+          "hybrid_score": 0.3466825485229492
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Blurred vision",
+      "Visual acuity impairment"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đi tiêu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1482,
       1489
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - [ENTITY] bình thường, không ra máu\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5576634407043457,
+          "sparse_similarity": 0.1643284410238266,
+          "hybrid_score": 0.36099594831466675
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5620172619819641,
+          "sparse_similarity": 0.1409234255552292,
+          "hybrid_score": 0.35147035121917725
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.562650203704834,
+          "sparse_similarity": 0.13885259628295898,
+          "hybrid_score": 0.3507513999938965
+        }
+      ]
+    ],
+    "eng_translation": [
+      "defecation",
+      "Bowel movement"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ra máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1509,
       1515
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau vùng hạ vị bên phải và hạ vị bên trái\n    Thời điểm khởi phát triệu chứng: đau bụng ở vùng bụng dưới trở nên tồi tệ hơn trong 1 ngày\n    Triệu chứng hiện tại\n    - đau vùng hạ vị bên phải và hạ vị bên trái\n    - táo bón trở nên tồi tệ hơn gần đây\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không ra máu\n    Đặc điểm triệu chứng\n    - Vị trí: vùng bụng dưới (đau RLQLLQ)\n    - Mức độ nghiêm trọng: Tồi tệ hơn\n    - Thời gian: 1 ngày\n    - Các triệu chứng liên quan: đổ mồ hôi\n    Sự kiện trước khi nhập viện\n    - sử dụng ciproflagyl trong lần nhập viện trước\n    - Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet\n    - Không ghi nhận sốt\n    - Không chóng mặt\n    - Không hoa mắt\n    - đi tiêu bình thường, không [ENTITY]\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5505227446556091,
+          "sparse_similarity": 0.1399608850479126,
+          "hybrid_score": 0.34524181485176086
+        },
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5573150515556335,
+          "sparse_similarity": 0.11818472295999527,
+          "hybrid_score": 0.3377498984336853
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5551749467849731,
+          "sparse_similarity": 0.11814087629318237,
+          "hybrid_score": 0.33665791153907776
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Bleeding",
+      "Hemorrhage"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đổ mồ hôi qua đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1572,
       1589
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - [ENTITY]\n    - Không ghi nhận sốt\n    Kết quả chẩn đoán hình ảnh: Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy viêm túi mật không biến chứng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000178",
+          "document": "lâm sàng không loại trừ [ENTITY].",
+          "dense_similarity": 0.5876899361610413,
+          "sparse_similarity": 0.12991195917129517,
+          "hybrid_score": 0.3588009476661682
+        },
+        {
+          "id": "isNegated_000238",
+          "document": "kết quả xét nghiệm không ghi nhận [ENTITY].",
+          "dense_similarity": 0.5932064652442932,
+          "sparse_similarity": 0.0961090475320816,
+          "hybrid_score": 0.3446577489376068
+        },
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.5668078064918518,
+          "sparse_similarity": 0.11884896457195282,
+          "hybrid_score": 0.3428283929824829
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Night sweats",
+      "Nocturnal sweats"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1611,
       1614
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận [ENTITY]\n    Kết quả chẩn đoán hình ảnh: Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy viêm túi mật không biến chứng",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không ghi nhận [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000178",
+          "document": "lâm sàng không loại trừ [ENTITY].",
+          "dense_similarity": 0.5474756956100464,
+          "sparse_similarity": 0.10593793541193008,
+          "hybrid_score": 0.32670682668685913
+        },
+        {
+          "id": "isUncertain_000175",
+          "document": "lâm sàng chưa loại trừ [ENTITY].",
+          "dense_similarity": 0.5519325733184814,
+          "sparse_similarity": 0.08319461345672607,
+          "hybrid_score": 0.31756359338760376
+        },
+        {
+          "id": "isUncertain_000179",
+          "document": "lâm sàng nghi ngờ [ENTITY].",
+          "dense_similarity": 0.544830322265625,
+          "sparse_similarity": 0.08261565864086151,
+          "hybrid_score": 0.31372299790382385
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp cắt lớp vi tính",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1662,
       1682
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    Kết quả chẩn đoán hình ảnh: Nhiều lần chụp [ENTITY] trong lần nhập viện trước cho thấy viêm túi mật không biến chứng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000178",
+          "document": "lâm sàng không loại trừ [ENTITY].",
+          "dense_similarity": 0.5625401735305786,
+          "sparse_similarity": 0.13144873082637787,
+          "hybrid_score": 0.34699445962905884
+        },
+        {
+          "id": "isNegated_000238",
+          "document": "kết quả xét nghiệm không ghi nhận [ENTITY].",
+          "dense_similarity": 0.5704106688499451,
+          "sparse_similarity": 0.0874728411436081,
+          "hybrid_score": 0.3289417624473572
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5719374418258667,
+          "sparse_similarity": 0.0765344500541687,
+          "hybrid_score": 0.3242359459400177
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1718,
       1730
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - đổ mồ hôi qua đêm\n    - Không ghi nhận sốt\n    Kết quả chẩn đoán hình ảnh: Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy [ENTITY] không biến chứng",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000178",
+          "document": "lâm sàng không loại trừ [ENTITY].",
+          "dense_similarity": 0.592756450176239,
+          "sparse_similarity": 0.15330347418785095,
+          "hybrid_score": 0.3730299472808838
+        },
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.574913501739502,
+          "sparse_similarity": 0.1479228138923645,
+          "hybrid_score": 0.3614181578159332
+        },
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.5947288870811462,
+          "sparse_similarity": 0.12326845526695251,
+          "hybrid_score": 0.3589986562728882
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cholecystitis",
+      "Cholecystitis is the inflammation of the gallbladder, typically caused by gallstones blocking the cystic duct, leading to infection and potential complications such as gangrene or perforation. It is often associated with right upper quadrant pain, fever, and elevated white blood cell count. Diagnosis is usually confirmed with imaging studies like ultrasound, and treatment may involve antibiotics, pain management, and surgical removal of the gallbladder (cholecystectomy) if recurrent or severe."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

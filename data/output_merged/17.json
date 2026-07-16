@@ -2,305 +2,1864 @@
   {
     "text": "bệnh trào ngược dạ dày- thực quản",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       40,
       73
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\nBệnh mãn tính: [ENTITY] không có viêm thực quản\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6324011087417603,
+          "sparse_similarity": 0.20476652681827545,
+          "hybrid_score": 0.41858381032943726
+        },
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.6859503388404846,
+          "sparse_similarity": 0.11934484541416168,
+          "hybrid_score": 0.40264758467674255
+        },
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.6788272857666016,
+          "sparse_similarity": 0.12157391011714935,
+          "hybrid_score": 0.40020060539245605
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Gastroesophageal reflux disease",
+      "GERD"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm thực quản",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       83,
       97
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\nBệnh mãn tính: bệnh trào ngược dạ dày- thực quản không có [ENTITY]\n2.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6473679542541504,
+          "sparse_similarity": 0.20180290937423706,
+          "hybrid_score": 0.4245854318141937
+        },
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6414172649383545,
+          "sparse_similarity": 0.2073480188846588,
+          "hybrid_score": 0.42438262701034546
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.6737818717956543,
+          "sparse_similarity": 0.15441659092903137,
+          "hybrid_score": 0.41409921646118164
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Gastritis",
+      "Gastritis is the inflammation of the stomach lining."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       135,
       138
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: [ENTITY] và đau cơ sau khi đi du lịch\nThời điểm khởi phát triệu chứng: 13 ngày sau khi trở về từ một chuyến du thuyền\nDiễn biến bệnh\n- Bắt đầu cảm thấy không khỏe kèm theo sốt, mệt mỏi, đau cơ\n- Sốt cao nhất là 102.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012458",
+          "document": "cách đây 13 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5975747108459473,
+          "sparse_similarity": 0.21921832859516144,
+          "hybrid_score": 0.40839651226997375
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5997118949890137,
+          "sparse_similarity": 0.18254214525222778,
+          "hybrid_score": 0.3911270201206207
+        },
+        {
+          "id": "isHistorical_026572",
+          "document": "từ 82 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5976500511169434,
+          "sparse_similarity": 0.17681287229061127,
+          "hybrid_score": 0.3872314691543579
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau cơ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       142,
       148
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: sốt và [ENTITY] sau khi đi du lịch\nThời điểm khởi phát triệu chứng: 13 ngày sau khi trở về từ một chuyến du thuyền\nDiễn biến bệnh\n- Bắt đầu cảm thấy không khỏe kèm theo sốt, mệt mỏi, đau cơ\n- Sốt cao nhất là 102.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012458",
+          "document": "cách đây 13 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6142104864120483,
+          "sparse_similarity": 0.25102415680885315,
+          "hybrid_score": 0.43261730670928955
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6178090572357178,
+          "sparse_similarity": 0.21365225315093994,
+          "hybrid_score": 0.41573065519332886
+        },
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6129202246665955,
+          "sparse_similarity": 0.20970386266708374,
+          "hybrid_score": 0.4113120436668396
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Muscle pain",
+      "Myalgia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       302,
       305
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: sốt và đau cơ sau khi đi du lịch\nThời điểm khởi phát triệu chứng: 13 ngày sau khi trở về từ một chuyến du thuyền\nDiễn biến bệnh\n- Bắt đầu cảm thấy không khỏe kèm theo [ENTITY], mệt mỏi, đau cơ\n- Sốt cao nhất là 102.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012458",
+          "document": "cách đây 13 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5900401473045349,
+          "sparse_similarity": 0.22263741493225098,
+          "hybrid_score": 0.40633878111839294
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5964702367782593,
+          "sparse_similarity": 0.18683013319969177,
+          "hybrid_score": 0.3916501998901367
+        },
+        {
+          "id": "isHistorical_026572",
+          "document": "từ 82 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5920543670654297,
+          "sparse_similarity": 0.1814666986465454,
+          "hybrid_score": 0.38676053285598755
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       307,
       314
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: sốt và đau cơ sau khi đi du lịch\nThời điểm khởi phát triệu chứng: 13 ngày sau khi trở về từ một chuyến du thuyền\nDiễn biến bệnh\n- Bắt đầu cảm thấy không khỏe kèm theo sốt, [ENTITY], đau cơ\n- Sốt cao nhất là 102.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012458",
+          "document": "cách đây 13 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5861653089523315,
+          "sparse_similarity": 0.22233806550502777,
+          "hybrid_score": 0.40425169467926025
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5912450551986694,
+          "sparse_similarity": 0.18651027977466583,
+          "hybrid_score": 0.38887766003608704
+        },
+        {
+          "id": "isHistorical_013946",
+          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5856223702430725,
+          "sparse_similarity": 0.18459978699684143,
+          "hybrid_score": 0.38511109352111816
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau cơ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       316,
       322
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: sốt và đau cơ sau khi đi du lịch\nThời điểm khởi phát triệu chứng: 13 ngày sau khi trở về từ một chuyến du thuyền\nDiễn biến bệnh\n- Bắt đầu cảm thấy không khỏe kèm theo sốt, mệt mỏi, [ENTITY]\n- Sốt cao nhất là 102.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5896127223968506,
+          "sparse_similarity": 0.1909433901309967,
+          "hybrid_score": 0.39027804136276245
+        },
+        {
+          "id": "isHistorical_034193",
+          "document": "đã 98 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5869828462600708,
+          "sparse_similarity": 0.18501690030097961,
+          "hybrid_score": 0.385999858379364
+        },
+        {
+          "id": "isHistorical_026572",
+          "document": "từ 82 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5865338444709778,
+          "sparse_similarity": 0.18527957797050476,
+          "hybrid_score": 0.3859066963195801
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Muscle pain",
+      "Myalgia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       325,
       328
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: sốt và đau cơ sau khi đi du lịch\nThời điểm khởi phát triệu chứng: 13 ngày sau khi trở về từ một chuyến du thuyền\nDiễn biến bệnh\n- Bắt đầu cảm thấy không khỏe kèm theo sốt, mệt mỏi, đau cơ\n- [ENTITY] cao nhất là 102.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6122217178344727,
+          "sparse_similarity": 0.20063017308712006,
+          "hybrid_score": 0.40642595291137695
+        },
+        {
+          "id": "isHistorical_034193",
+          "document": "đã 98 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6073300838470459,
+          "sparse_similarity": 0.1944296807050705,
+          "hybrid_score": 0.4008798897266388
+        },
+        {
+          "id": "isHistorical_033185",
+          "document": "đã 6 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6081315279006958,
+          "sparse_similarity": 0.1933952420949936,
+          "hybrid_score": 0.4007633924484253
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tylenol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       367,
       374
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với [ENTITY] và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5963341593742371,
+          "sparse_similarity": 0.1020071730017662,
+          "hybrid_score": 0.34917065501213074
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.596506655216217,
+          "sparse_similarity": 0.09837085008621216,
+          "hybrid_score": 0.3474387526512146
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5972434878349304,
+          "sparse_similarity": 0.09755603969097137,
+          "hybrid_score": 0.3473997712135315
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
   },
   {
     "text": "advil",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       378,
       383
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và [ENTITY]\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5975232124328613,
+          "sparse_similarity": 0.09733176231384277,
+          "hybrid_score": 0.34742748737335205
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5991032123565674,
+          "sparse_similarity": 0.09384375810623169,
+          "hybrid_score": 0.34647348523139954
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5978353023529053,
+          "sparse_similarity": 0.09326131641864777,
+          "hybrid_score": 0.3455483019351959
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Advil",
+      "Advil is a brand name for ibuprofen, a nonsteroidal anti-inflammatory drug (NSAID) used to treat pain, inflammation, and fever. As a brand name, it is not a clinical diagnosis or standardized medical term. The canonical term would be ibuprofen.",
+      "Ibuprofen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "5640": 1.0,
+        "153010": 1.0,
+        "215044": 0.907696,
+        "2698711": 0.864713,
+        "215040": 0.836101
+      },
+      "rapidfuzz": {
+        "153010": 1.0,
+        "5640": 1.0,
+        "365861": 0.9,
+        "1172038": 0.9,
+        "859317": 0.9,
+        "858838": 0.9,
+        "730866": 0.855,
+        "1791576": 0.855,
+        "208980": 0.855
+      }
+    },
+    "candidate": {
+      "code": "5640",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau cổ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       394,
       400
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo [ENTITY] và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5929387807846069,
+          "sparse_similarity": 0.09437575936317444,
+          "hybrid_score": 0.3436572551727295
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5959587693214417,
+          "sparse_similarity": 0.08998385071754456,
+          "hybrid_score": 0.3429713249206543
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5947599411010742,
+          "sparse_similarity": 0.09097976982593536,
+          "hybrid_score": 0.3428698480129242
+        }
+      ]
+    ],
+    "eng_translation": [
+      "neck pain",
+      "Cervical pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vai",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       404,
       407
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và [ENTITY] phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5956923961639404,
+          "sparse_similarity": 0.1012129932641983,
+          "hybrid_score": 0.34845268726348877
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5998908877372742,
+          "sparse_similarity": 0.0967450737953186,
+          "hybrid_score": 0.3483179807662964
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5975819230079651,
+          "sparse_similarity": 0.09760884940624237,
+          "hybrid_score": 0.3475953936576843
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vai",
+      "Vasovagal syncope",
+      "Vasculitis",
+      "Ventricular Arrhythmia and Ischemia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sưng quanh khớp ức đòn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       422,
       444
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo [ENTITY]\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5799680352210999,
+          "sparse_similarity": 0.08843537420034409,
+          "hybrid_score": 0.3342016935348511
+        },
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5749891996383667,
+          "sparse_similarity": 0.09281144291162491,
+          "hybrid_score": 0.3339003324508667
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5752235651016235,
+          "sparse_similarity": 0.08950343728065491,
+          "hybrid_score": 0.332363486289978
+        }
+      ]
+    ],
+    "eng_translation": [
+      "swelling around the sternoclavicular joint",
+      "Swelling of the sternoclavicular joint",
+      "swelling at the sternoclavicular joint",
+      "Swelling around the sternocleidomastoid joint"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "áp xe",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       562,
       567
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu [ENTITY], và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5957219004631042,
+          "sparse_similarity": 0.09457661211490631,
+          "hybrid_score": 0.3451492488384247
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5969538688659668,
+          "sparse_similarity": 0.09117763489484787,
+          "hybrid_score": 0.34406575560569763
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5963296294212341,
+          "sparse_similarity": 0.09015387296676636,
+          "hybrid_score": 0.34324175119400024
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abscess",
+      "Infected Cyst"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       585,
       588
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  [ENTITY] và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5893638730049133,
+          "sparse_similarity": 0.0992765873670578,
+          "hybrid_score": 0.34432023763656616
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5917419195175171,
+          "sparse_similarity": 0.09572980552911758,
+          "hybrid_score": 0.34373587369918823
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5917787551879883,
+          "sparse_similarity": 0.09495620429515839,
+          "hybrid_score": 0.34336748719215393
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau cổ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       592,
       598
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và [ENTITY]\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5816165208816528,
+          "sparse_similarity": 0.0995161235332489,
+          "hybrid_score": 0.34056633710861206
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5851983428001404,
+          "sparse_similarity": 0.09503865242004395,
+          "hybrid_score": 0.34011849761009216
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5828402042388916,
+          "sparse_similarity": 0.09594733268022537,
+          "hybrid_score": 0.3393937647342682
+        }
+      ]
+    ],
+    "eng_translation": [
+      "neck pain",
+      "Cervical pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       622,
       625
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- [ENTITY]\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5807883143424988,
+          "sparse_similarity": 0.09779269993305206,
+          "hybrid_score": 0.3392904996871948
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5821576714515686,
+          "sparse_similarity": 0.0953131690621376,
+          "hybrid_score": 0.338735431432724
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5840195417404175,
+          "sparse_similarity": 0.09329953789710999,
+          "hybrid_score": 0.33865952491760254
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau cơ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       628,
       634
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- [ENTITY]\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5776462554931641,
+          "sparse_similarity": 0.09528332948684692,
+          "hybrid_score": 0.3364647924900055
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5805196166038513,
+          "sparse_similarity": 0.0907985121011734,
+          "hybrid_score": 0.33565905690193176
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.57806795835495,
+          "sparse_similarity": 0.09257489442825317,
+          "hybrid_score": 0.33532142639160156
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Muscle pain",
+      "Myalgia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau cổ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       637,
       643
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- [ENTITY]\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5784778594970703,
+          "sparse_similarity": 0.09050542116165161,
+          "hybrid_score": 0.33449164032936096
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5814018249511719,
+          "sparse_similarity": 0.08616140484809875,
+          "hybrid_score": 0.3337815999984741
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.579213559627533,
+          "sparse_similarity": 0.08770649880170822,
+          "hybrid_score": 0.3334600329399109
+        }
+      ]
+    ],
+    "eng_translation": [
+      "neck pain",
+      "Cervical pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau vai",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       646,
       653
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- [ENTITY] phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.575352668762207,
+          "sparse_similarity": 0.09369859099388123,
+          "hybrid_score": 0.3345256447792053
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5774978995323181,
+          "sparse_similarity": 0.09123601764440536,
+          "hybrid_score": 0.33436694741249084
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5787590146064758,
+          "sparse_similarity": 0.08929213136434555,
+          "hybrid_score": 0.3340255618095398
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Shoulder pain",
+      "Shoulder discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sưng quanh khớp ức đòn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       661,
       683
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- [ENTITY]\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5803014636039734,
+          "sparse_similarity": 0.081837959587574,
+          "hybrid_score": 0.3310697078704834
+        },
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5743585824966431,
+          "sparse_similarity": 0.08619993925094604,
+          "hybrid_score": 0.33027926087379456
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5752648115158081,
+          "sparse_similarity": 0.08308794349431992,
+          "hybrid_score": 0.3291763663291931
+        }
+      ]
+    ],
+    "eng_translation": [
+      "swelling around the sternoclavicular joint",
+      "Swelling of the sternoclavicular joint",
+      "swelling at the sternoclavicular joint",
+      "Swelling around the sternocleidomastoid joint"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       686,
       693
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- [ENTITY]\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5767412781715393,
+          "sparse_similarity": 0.09273483604192734,
+          "hybrid_score": 0.3347380459308624
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5798683166503906,
+          "sparse_similarity": 0.08841021358966827,
+          "hybrid_score": 0.33413925766944885
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.578566312789917,
+          "sparse_similarity": 0.08939352631568909,
+          "hybrid_score": 0.33397990465164185
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho khan",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       696,
       703
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- [ENTITY]\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5764925479888916,
+          "sparse_similarity": 0.09314651787281036,
+          "hybrid_score": 0.3348195254802704
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5804846286773682,
+          "sparse_similarity": 0.08877435326576233,
+          "hybrid_score": 0.33462947607040405
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5775368213653564,
+          "sparse_similarity": 0.08979278057813644,
+          "hybrid_score": 0.33366480469703674
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cough",
+      "Coughing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau đầu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       706,
       713
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- [ENTITY]\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5799010396003723,
+          "sparse_similarity": 0.09201004356145859,
+          "hybrid_score": 0.33595553040504456
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5834713578224182,
+          "sparse_similarity": 0.08771200478076935,
+          "hybrid_score": 0.3355916738510132
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5805808901786804,
+          "sparse_similarity": 0.08912117779254913,
+          "hybrid_score": 0.3348510265350342
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Headache"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sợ ánh sáng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       716,
       727
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- [ENTITY]\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5738943219184875,
+          "sparse_similarity": 0.09702679514884949,
+          "hybrid_score": 0.3354605436325073
+        },
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5709936022758484,
+          "sparse_similarity": 0.0973341092467308,
+          "hybrid_score": 0.3341638445854187
+        },
+        {
+          "id": "isHistorical_004288",
+          "document": "9 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5666052103042603,
+          "sparse_similarity": 0.10095847398042679,
+          "hybrid_score": 0.3337818384170532
+        }
+      ]
+    ],
+    "eng_translation": [
+      "fear of light",
+      "Photophobia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       882,
       889
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện [ENTITY] vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.600892186164856,
+          "sparse_similarity": 0.10651638358831406,
+          "hybrid_score": 0.3537042737007141
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6033480167388916,
+          "sparse_similarity": 0.10270630568265915,
+          "hybrid_score": 0.3530271649360657
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6013192534446716,
+          "sparse_similarity": 0.10175979882478714,
+          "hybrid_score": 0.3515395224094391
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "áp xe",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       923,
       928
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  [ENTITY]/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.604321300983429,
+          "sparse_similarity": 0.10034244507551193,
+          "hybrid_score": 0.35233187675476074
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6060761213302612,
+          "sparse_similarity": 0.0967337116599083,
+          "hybrid_score": 0.35140490531921387
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6038978099822998,
+          "sparse_similarity": 0.09604716300964355,
+          "hybrid_score": 0.3499724864959717
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abscess",
+      "Infected Cyst"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm khớp nhiễm trùng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       929,
       950
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/[ENTITY]\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.580139696598053,
+          "sparse_similarity": 0.09509839117527008,
+          "hybrid_score": 0.33761903643608093
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5814946889877319,
+          "sparse_similarity": 0.09234147518873215,
+          "hybrid_score": 0.33691808581352234
+        },
+        {
+          "id": "isHistorical_033977",
+          "document": "đã 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5818331241607666,
+          "sparse_similarity": 0.0904935747385025,
+          "hybrid_score": 0.33616334199905396
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Infectious arthritis",
+      "Septic arthritis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mri",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       984,
       987
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị [ENTITY]\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5785108208656311,
+          "sparse_similarity": 0.10216115415096283,
+          "hybrid_score": 0.34033599495887756
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.581028401851654,
+          "sparse_similarity": 0.09842213988304138,
+          "hybrid_score": 0.3397252559661865
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5806174874305725,
+          "sparse_similarity": 0.09848164021968842,
+          "hybrid_score": 0.33954957127571106
+        }
+      ]
+    ],
+    "eng_translation": [
+      "MRI",
+      "Magnetic Resonance Imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mri",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1065,
       1068
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và [ENTITY]\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5860534906387329,
+          "sparse_similarity": 0.09846080839633942,
+          "hybrid_score": 0.34225714206695557
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5884336233139038,
+          "sparse_similarity": 0.09540203958749771,
+          "hybrid_score": 0.34191784262657166
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5886498689651489,
+          "sparse_similarity": 0.09491836279630661,
+          "hybrid_score": 0.34178411960601807
+        }
+      ]
+    ],
+    "eng_translation": [
+      "MRI",
+      "Magnetic Resonance Imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1069,
       1070
-    ]
+    ],
+    "sentence": "9°F không đáp ứng với tylenol và advil\n- Báo cáo đau cổ và vai phải kèm theo sưng quanh khớp ức đòn\n- Đã khám bác sĩ chăm sóc chính  hai lần\n- Sau đó được nhập viện vào khoa cấp cứu\n- cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ  sốt và đau cổ\nTriệu chứng hiện tại\n- sốt\n- đau cơ\n- đau cổ\n- đau vai phải\n- sưng quanh khớp ức đòn\n- mệt mỏi\n- ho khan\n- đau đầu\n- sợ ánh sáng\nCác biến trước khi nhập viện\n- Đã khám bác sĩ chăm sóc chính hai lần\n-sau đó nhaoaj viện tại khoa cấp cứu \n- Đã thực hiện khám và điều trị\n- Đã thực hiện siêu âm vùng cổ phải  cho có kết qủa là  áp xe/viêm khớp nhiễm trùng\n- Dẫn lưu dịch\n- x-quang đề nghị mri\n- nhập viện tại  khoa cấp cứu để điều trị thêm, dùng kháng sinh tĩnh mạch và mri\n[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_014474",
+          "document": "cách đây 9 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5806302428245544,
+          "sparse_similarity": 0.10596662759780884,
+          "hybrid_score": 0.34329843521118164
+        },
+        {
+          "id": "isHistorical_014492",
+          "document": "cách đây 9 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5830520391464233,
+          "sparse_similarity": 0.10217101871967316,
+          "hybrid_score": 0.34261152148246765
+        },
+        {
+          "id": "isHistorical_004318",
+          "document": "9 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5827165842056274,
+          "sparse_similarity": 0.10237462818622589,
+          "hybrid_score": 0.34254559874534607
+        }
+      ]
+    ],
+    "eng_translation": [
+      "3"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bạch cầu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1377,
       1385
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nKết quả khám lâm sàng\n- Vết rạch nhỏ trên ngực phải, hơi đau khi sờ nắn\n- Không đau khi vận động cánh tay\n- Không có dấu hiệu viêm mô tế bào hoặc nhiễm trùng ở các bộ phận khác trên cơ thể\n- Phổi rõ tiếng khi nghe\n- Tim nhịp đều, không có tiếng tim bệnh lý\nKết quả xét nghiệm máu\n- [ENTITY] 13.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6053721904754639,
+          "sparse_similarity": 0.07513825595378876,
+          "hybrid_score": 0.3402552306652069
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6089391708374023,
+          "sparse_similarity": 0.07062864303588867,
+          "hybrid_score": 0.3397839069366455
+        },
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5940253138542175,
+          "sparse_similarity": 0.077280193567276,
+          "hybrid_score": 0.33565276861190796
+        }
+      ]
+    ],
+    "eng_translation": [
+      "White blood cells",
+      "Leukocytes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "13.9",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1386,
       1390
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nKết quả khám lâm sàng\n- Vết rạch nhỏ trên ngực phải, hơi đau khi sờ nắn\n- Không đau khi vận động cánh tay\n- Không có dấu hiệu viêm mô tế bào hoặc nhiễm trùng ở các bộ phận khác trên cơ thể\n- Phổi rõ tiếng khi nghe\n- Tim nhịp đều, không có tiếng tim bệnh lý\nKết quả xét nghiệm máu\n- bạch cầu [ENTITY]",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6011796593666077,
+          "sparse_similarity": 0.06953635811805725,
+          "hybrid_score": 0.33535802364349365
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6041399240493774,
+          "sparse_similarity": 0.06461337953805923,
+          "hybrid_score": 0.33437666296958923
+        },
+        {
+          "id": "isFamily_007166",
+          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5898902416229248,
+          "sparse_similarity": 0.07018812000751495,
+          "hybrid_score": 0.3300391733646393
+        }
+      ]
+    ],
+    "eng_translation": [
+      "13.9"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "alt",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1454,
       1457
-    ]
+    ],
+    "sentence": "9\n- 80 neutrophil\n- 11 lymphocyte\n- bình thường chem 7\n- ck 58\n- [ENTITY] 92\n- hiv vl đang chờ\n- soi tươi ký sinh trùng âm tính\nKết quả chẩn đoán hình ảnh\n- siêu âm vùng cổ phải (scm):  ổ tụ dịch chia làm hai thùy, giới hạn và bờ không rõ.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013947",
+          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5583475232124329,
+          "sparse_similarity": 0.09492939710617065,
+          "hybrid_score": 0.32663846015930176
+        },
+        {
+          "id": "isHistorical_021285",
+          "document": "khoảng 7 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.560295581817627,
+          "sparse_similarity": 0.09105123579502106,
+          "hybrid_score": 0.3256734013557434
+        },
+        {
+          "id": "isHistorical_013965",
+          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5611705183982849,
+          "sparse_similarity": 0.08997257053852081,
+          "hybrid_score": 0.32557153701782227
+        }
+      ]
+    ],
+    "eng_translation": [
+      "No translation provided. Please provide the Vietnamese medical text for translation.",
+      "Please provide the Vietnamese medical text for translation."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "92",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1458,
       1460
-    ]
+    ],
+    "sentence": "9\n- 80 neutrophil\n- 11 lymphocyte\n- bình thường chem 7\n- ck 58\n- alt [ENTITY]\n- hiv vl đang chờ\n- soi tươi ký sinh trùng âm tính\nKết quả chẩn đoán hình ảnh\n- siêu âm vùng cổ phải (scm):  ổ tụ dịch chia làm hai thùy, giới hạn và bờ không rõ.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013947",
+          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5612434148788452,
+          "sparse_similarity": 0.08238847553730011,
+          "hybrid_score": 0.32181593775749207
+        },
+        {
+          "id": "isHistorical_021285",
+          "document": "khoảng 7 ngày trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5639238357543945,
+          "sparse_similarity": 0.07914477586746216,
+          "hybrid_score": 0.32153430581092834
+        },
+        {
+          "id": "isHistorical_013965",
+          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5642310976982117,
+          "sparse_similarity": 0.0779697522521019,
+          "hybrid_score": 0.3211004137992859
+        }
+      ]
+    ],
+    "eng_translation": [
+      "92",
+      "The query provided is \"92\" which does not contain any medical information or context. Therefore, no rewrite is possible."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1541,
       1548
-    ]
+    ],
+    "sentence": "9\n- 80 neutrophil\n- 11 lymphocyte\n- bình thường chem 7\n- ck 58\n- alt 92\n- hiv vl đang chờ\n- soi tươi ký sinh trùng âm tính\nKết quả chẩn đoán hình ảnh\n- [ENTITY] vùng cổ phải (scm):  ổ tụ dịch chia làm hai thùy, giới hạn và bờ không rõ.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013965",
+          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5757321119308472,
+          "sparse_similarity": 0.10950395464897156,
+          "hybrid_score": 0.34261804819107056
+        },
+        {
+          "id": "isHistorical_012627",
+          "document": "cách đây 2 ngày được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5777238011360168,
+          "sparse_similarity": 0.10637956112623215,
+          "hybrid_score": 0.3420516848564148
+        },
+        {
+          "id": "isHistorical_003263",
+          "document": "7 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5752719640731812,
+          "sparse_similarity": 0.10684335976839066,
+          "hybrid_score": 0.3410576581954956
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sung huyết ngoại vi",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1822,
       1841
-    ]
+    ],
+    "sentence": "- [ENTITY] nhẹ nhưng không có mạch máu bên trong\nCác thủ thuật đã thực hiện\n- siêu âm vùng cổ phải (scm)\n- Hút 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000127",
+          "document": "cấy máu không phát hiện [ENTITY].",
+          "dense_similarity": 0.5751467347145081,
+          "sparse_similarity": 0.145921990275383,
+          "hybrid_score": 0.3605343699455261
+        },
+        {
+          "id": "isNegated_000125",
+          "document": "cấy máu cho kết quả âm tính với [ENTITY].",
+          "dense_similarity": 0.5949661135673523,
+          "sparse_similarity": 0.12405899167060852,
+          "hybrid_score": 0.3595125675201416
+        },
+        {
+          "id": "isNegated_000126",
+          "document": "cấy máu không ghi nhận [ENTITY].",
+          "dense_similarity": 0.5874983072280884,
+          "sparse_similarity": 0.12907345592975616,
+          "hybrid_score": 0.3582858741283417
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Peripheral cyanosis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1909,
       1916
-    ]
+    ],
+    "sentence": "- sung huyết ngoại vi nhẹ nhưng không có mạch máu bên trong\nCác thủ thuật đã thực hiện\n- [ENTITY] vùng cổ phải (scm)\n- Hút 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_023816",
+          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5912407636642456,
+          "sparse_similarity": 0.09581222385168076,
+          "hybrid_score": 0.3435264825820923
+        },
+        {
+          "id": "isFamily_006670",
+          "document": "bên ngoại được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5814359784126282,
+          "sparse_similarity": 0.10119876265525818,
+          "hybrid_score": 0.341317355632782
+        },
+        {
+          "id": "isFamily_006631",
+          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.583604097366333,
+          "sparse_similarity": 0.09574481844902039,
+          "hybrid_score": 0.3396744728088379
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

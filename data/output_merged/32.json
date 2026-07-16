@@ -2,337 +2,2071 @@
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       43,
       45
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội\nCác bệnh lý mạn tính\n- [ENTITY] Bệnh bạch cầu dòng tủy mãn tính\n- Tăng huyết áp\n- Đái tháo đường típ 2\n- ho Rung nhĩ kèm đáp ứng thất nhanh\n- bệnh thận mạn, không đặc hiệu\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội các bệnh lý mạn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6676468849182129,
+          "sparse_similarity": 0.2798723876476288,
+          "hybrid_score": 0.47375965118408203
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6704186797142029,
+          "sparse_similarity": 0.270659863948822,
+          "hybrid_score": 0.47053927183151245
+        },
+        {
+          "id": "isFamily_019522",
+          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6521492004394531,
+          "sparse_similarity": 0.25878292322158813,
+          "hybrid_score": 0.45546606183052063
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Bệnh bạch cầu dòng tủy mãn tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       46,
       77
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội\nCác bệnh lý mạn tính\n- ho [ENTITY]\n- Tăng huyết áp\n- Đái tháo đường típ 2\n- ho Rung nhĩ kèm đáp ứng thất nhanh\n- bệnh thận mạn, không đặc hiệu\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội các bệnh lý mạn tính - ho [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6546083092689514,
+          "sparse_similarity": 0.2627274692058563,
+          "hybrid_score": 0.4586678743362427
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6554621458053589,
+          "sparse_similarity": 0.2537117898464203,
+          "hybrid_score": 0.4545869827270508
+        },
+        {
+          "id": "isFamily_019522",
+          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6390355229377747,
+          "sparse_similarity": 0.24273745715618134,
+          "hybrid_score": 0.4408864974975586
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic Myeloid Leukemia",
+      "Chronic Myelogenous Leukemia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bạch cầu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       51,
       59
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội\nCác bệnh lý mạn tính\n- ho Bệnh [ENTITY] dòng tủy mãn tính\n- Tăng huyết áp\n- Đái tháo đường típ 2\n- ho Rung nhĩ kèm đáp ứng thất nhanh\n- bệnh thận mạn, không đặc hiệu\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội các bệnh lý mạn tính - ho bệnh [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6659743189811707,
+          "sparse_similarity": 0.28008833527565,
+          "hybrid_score": 0.47303134202957153
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6677103638648987,
+          "sparse_similarity": 0.27160656452178955,
+          "hybrid_score": 0.4696584641933441
+        },
+        {
+          "id": "isFamily_019522",
+          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6515707969665527,
+          "sparse_similarity": 0.25905847549438477,
+          "hybrid_score": 0.45531463623046875
+        }
+      ]
+    ],
+    "eng_translation": [
+      "White blood cells",
+      "Leukocytes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       80,
       93
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội\nCác bệnh lý mạn tính\n- ho Bệnh bạch cầu dòng tủy mãn tính\n- [ENTITY]\n- Đái tháo đường típ 2\n- ho Rung nhĩ kèm đáp ứng thất nhanh\n- bệnh thận mạn, không đặc hiệu\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6619013547897339,
+          "sparse_similarity": 0.2653537094593048,
+          "hybrid_score": 0.46362751722335815
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.662082850933075,
+          "sparse_similarity": 0.2562597990036011,
+          "hybrid_score": 0.459171324968338
+        },
+        {
+          "id": "isFamily_019522",
+          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6479452848434448,
+          "sparse_similarity": 0.2455970048904419,
+          "hybrid_score": 0.44677114486694336
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đái tháo đường típ 2",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       96,
       116
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội\nCác bệnh lý mạn tính\n- ho Bệnh bạch cầu dòng tủy mãn tính\n- Tăng huyết áp\n- [ENTITY]\n- ho Rung nhĩ kèm đáp ứng thất nhanh\n- bệnh thận mạn, không đặc hiệu\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6610222458839417,
+          "sparse_similarity": 0.25200966000556946,
+          "hybrid_score": 0.45651596784591675
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.661076009273529,
+          "sparse_similarity": 0.24295365810394287,
+          "hybrid_score": 0.45201483368873596
+        },
+        {
+          "id": "isFamily_019522",
+          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6425307989120483,
+          "sparse_similarity": 0.23393304646015167,
+          "hybrid_score": 0.4382319152355194
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Type 2 diabetes mellitus",
+      "Diabetes mellitus type 2"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       119,
       121
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội\nCác bệnh lý mạn tính\n- ho Bệnh bạch cầu dòng tủy mãn tính\n- Tăng huyết áp\n- Đái tháo đường típ 2\n- [ENTITY] Rung nhĩ kèm đáp ứng thất nhanh\n- bệnh thận mạn, không đặc hiệu\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.658593475818634,
+          "sparse_similarity": 0.2571212351322174,
+          "hybrid_score": 0.4578573703765869
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6591829657554626,
+          "sparse_similarity": 0.24815790355205536,
+          "hybrid_score": 0.4536704421043396
+        },
+        {
+          "id": "isFamily_019522",
+          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6394965648651123,
+          "sparse_similarity": 0.23755869269371033,
+          "hybrid_score": 0.4385276436805725
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Rung nhĩ",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       122,
       130
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội\nCác bệnh lý mạn tính\n- ho Bệnh bạch cầu dòng tủy mãn tính\n- Tăng huyết áp\n- Đái tháo đường típ 2\n- ho [ENTITY] kèm đáp ứng thất nhanh\n- bệnh thận mạn, không đặc hiệu\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6458534598350525,
+          "sparse_similarity": 0.2531231641769409,
+          "hybrid_score": 0.4494883120059967
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6480574607849121,
+          "sparse_similarity": 0.2442442923784256,
+          "hybrid_score": 0.44615086913108826
+        },
+        {
+          "id": "isFamily_019522",
+          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6270205974578857,
+          "sparse_similarity": 0.23418192565441132,
+          "hybrid_score": 0.4306012690067291
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Atrial fibrillation",
+      "Paroxysmal atrial fibrillation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh thận mạn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       156,
       169
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội\nCác bệnh lý mạn tính\n- ho Bệnh bạch cầu dòng tủy mãn tính\n- Tăng huyết áp\n- Đái tháo đường típ 2\n- ho Rung nhĩ kèm đáp ứng thất nhanh\n- [ENTITY], không đặc hiệu\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007155",
+          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6511806845664978,
+          "sparse_similarity": 0.25120261311531067,
+          "hybrid_score": 0.45119166374206543
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.6504523158073425,
+          "sparse_similarity": 0.24183569848537445,
+          "hybrid_score": 0.4461440145969391
+        },
+        {
+          "id": "isFamily_019522",
+          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.6360830068588257,
+          "sparse_similarity": 0.23304325342178345,
+          "hybrid_score": 0.43456313014030457
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic kidney disease",
+      "CKD"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       222,
       229
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do vào viện: [ENTITY] tăng dần, diễn tiến nặng hơn từ sáng ngày nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7352635860443115,
+          "sparse_similarity": 0.2452804446220398,
+          "hybrid_score": 0.49027201533317566
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7356264591217041,
+          "sparse_similarity": 0.23681342601776123,
+          "hybrid_score": 0.48621994256973267
+        },
+        {
+          "id": "isHistorical_024628",
+          "document": "từ 1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.735821008682251,
+          "sparse_similarity": 0.23339682817459106,
+          "hybrid_score": 0.484608918428421
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nghẹt ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       343,
       353
-    ]
+    ],
+    "sentence": "Khoảng 5 ngày trước nhập viện, bệnh nhân xuất hiện cảm giác [ENTITY] kèm sốt, nhiệt độ cao nhất khoảng 38,3°C.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "5 ngày trước nhập viện, bệnh nhân xuất hiện cảm giác [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020444",
+          "document": "khoảng 38 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7498024702072144,
+          "sparse_similarity": 0.2734107971191406,
+          "hybrid_score": 0.5116066336631775
+        },
+        {
+          "id": "isHistorical_020756",
+          "document": "khoảng 5 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7686938643455505,
+          "sparse_similarity": 0.22194664180278778,
+          "hybrid_score": 0.49532026052474976
+        },
+        {
+          "id": "isHistorical_020462",
+          "document": "khoảng 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7436819076538086,
+          "sparse_similarity": 0.24590902030467987,
+          "hybrid_score": 0.49479547142982483
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest tightness",
+      "Chest discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       358,
       361
-    ]
+    ],
+    "sentence": "Khoảng 5 ngày trước nhập viện, bệnh nhân xuất hiện cảm giác nghẹt ngực kèm [ENTITY], nhiệt độ cao nhất khoảng 38,3°C.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020444",
+          "document": "khoảng 38 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.73014897108078,
+          "sparse_similarity": 0.24185016751289368,
+          "hybrid_score": 0.48599958419799805
+        },
+        {
+          "id": "isHistorical_020462",
+          "document": "khoảng 38 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7276915907859802,
+          "sparse_similarity": 0.21828415989875793,
+          "hybrid_score": 0.4729878902435303
+        },
+        {
+          "id": "isHistorical_020756",
+          "document": "khoảng 5 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7473430037498474,
+          "sparse_similarity": 0.19187374413013458,
+          "hybrid_score": 0.4696083664894104
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       414,
       417
-    ]
+    ],
+    "sentence": "Sau đó không còn [ENTITY] nhưng tình trạng nghẹt ngực vẫn kéo dài.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không còn [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032451",
+          "document": "đã 31 tháng bị [ENTITY].",
+          "dense_similarity": 0.6715965867042542,
+          "sparse_similarity": 0.08726197481155396,
+          "hybrid_score": 0.37942928075790405
+        },
+        {
+          "id": "isHistorical_032571",
+          "document": "đã 36 tháng bị [ENTITY].",
+          "dense_similarity": 0.6703451871871948,
+          "sparse_similarity": 0.08529914170503616,
+          "hybrid_score": 0.3778221607208252
+        },
+        {
+          "id": "isHistorical_032127",
+          "document": "đã 2 ngày bị [ENTITY].",
+          "dense_similarity": 0.668184220790863,
+          "sparse_similarity": 0.08738824725151062,
+          "hybrid_score": 0.37778621912002563
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nghẹt ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       435,
       445
-    ]
+    ],
+    "sentence": "Sau đó không còn sốt nhưng tình trạng [ENTITY] vẫn kéo dài.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.7186726331710815,
+          "sparse_similarity": 0.2371986210346222,
+          "hybrid_score": 0.4779356122016907
+        },
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.6895129084587097,
+          "sparse_similarity": 0.15529021620750427,
+          "hybrid_score": 0.4224015474319458
+        },
+        {
+          "id": "isHistorical_006953",
+          "document": "[ENTITY] hiện đã khỏi.",
+          "dense_similarity": 0.6900244951248169,
+          "sparse_similarity": 0.14008158445358276,
+          "hybrid_score": 0.41505303978919983
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest tightness",
+      "Chest discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       504,
       511
-    ]
+    ],
+    "sentence": "Trong vài ngày gần đây, bệnh nhân xuất hiện [ENTITY] tăng dần, chủ yếu khi gắng sức, kèm phù ngoại vi tăng dần trong vài tuần trở lại đây.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012357",
+          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7213432788848877,
+          "sparse_similarity": 0.11422000080347061,
+          "hybrid_score": 0.41778165102005005
+        },
+        {
+          "id": "isHistorical_012645",
+          "document": "cách đây 2 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.713649570941925,
+          "sparse_similarity": 0.11249527335166931,
+          "hybrid_score": 0.413072407245636
+        },
+        {
+          "id": "isHistorical_012381",
+          "document": "cách đây 10 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7134764194488525,
+          "sparse_similarity": 0.10912034660577774,
+          "hybrid_score": 0.41129839420318604
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phù",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       548,
       551
-    ]
+    ],
+    "sentence": "Trong vài ngày gần đây, bệnh nhân xuất hiện khó thở tăng dần, chủ yếu khi gắng sức, kèm [ENTITY] ngoại vi tăng dần trong vài tuần trở lại đây.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012357",
+          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6927229166030884,
+          "sparse_similarity": 0.09217891097068787,
+          "hybrid_score": 0.3924509286880493
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6951846480369568,
+          "sparse_similarity": 0.08543195575475693,
+          "hybrid_score": 0.39030829071998596
+        },
+        {
+          "id": "isHistorical_012909",
+          "document": "cách đây 3 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6894237995147705,
+          "sparse_similarity": 0.08913417905569077,
+          "hybrid_score": 0.38927897810935974
+        }
+      ]
+    ],
+    "eng_translation": [
+      "edema",
+      "Fluid retention"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       640,
       643
-    ]
+    ],
+    "sentence": "Bệnh nhân có tiền sử nhập viện gần đây vì [ENTITY] và đau vai.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử nhập viện gần đây vì [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8125905990600586,
+          "sparse_similarity": 0.24777039885520935,
+          "hybrid_score": 0.5301805138587952
+        },
+        {
+          "id": "isHistorical_012350",
+          "document": "cách đây 1 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7945568561553955,
+          "sparse_similarity": 0.23617947101593018,
+          "hybrid_score": 0.5153681635856628
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7987687587738037,
+          "sparse_similarity": 0.22625330090522766,
+          "hybrid_score": 0.5125110149383545
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau vai",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       647,
       654
-    ]
+    ],
+    "sentence": "Bệnh nhân có tiền sử nhập viện gần đây vì sốt và [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử nhập viện gần đây vì sốt và [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8355355858802795,
+          "sparse_similarity": 0.30284860730171204,
+          "hybrid_score": 0.569192111492157
+        },
+        {
+          "id": "isHistorical_012350",
+          "document": "cách đây 1 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8132792711257935,
+          "sparse_similarity": 0.2888660728931427,
+          "hybrid_score": 0.5510726571083069
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8232651352882385,
+          "sparse_similarity": 0.2764330506324768,
+          "hybrid_score": 0.5498490929603577
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Shoulder pain",
+      "Shoulder discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy hô hấp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       700,
       710
-    ]
+    ],
+    "sentence": "Trong đợt điều trị đó, bệnh nhân diễn tiến [ENTITY] kèm tăng huyết áp, không đáp ứng đáng kể với điều trị lợi tiểu và phải chuyển khoa Hồi sức tích cực để hỗ trợ thở áp lực dương không xâm nhập (BiPAP).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020057",
+          "document": "má bệnh nhân đang điều trị [ENTITY].",
+          "dense_similarity": 0.6020938754081726,
+          "sparse_similarity": 0.19101682305335999,
+          "hybrid_score": 0.3965553641319275
+        },
+        {
+          "id": "isFamily_025019",
+          "document": "thân nhân đang điều trị [ENTITY].",
+          "dense_similarity": 0.6128948926925659,
+          "sparse_similarity": 0.16764575242996216,
+          "hybrid_score": 0.39027032256126404
+        },
+        {
+          "id": "isUncertain_000159",
+          "document": "kíp điều trị hướng đến [ENTITY].",
+          "dense_similarity": 0.6036605834960938,
+          "sparse_similarity": 0.1460198163986206,
+          "hybrid_score": 0.3748401999473572
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Respiratory failure",
+      "Acute respiratory failure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       715,
       728
-    ]
+    ],
+    "sentence": "Trong đợt điều trị đó, bệnh nhân diễn tiến suy hô hấp kèm [ENTITY], không đáp ứng đáng kể với điều trị lợi tiểu và phải chuyển khoa Hồi sức tích cực để hỗ trợ thở áp lực dương không xâm nhập (BiPAP).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020057",
+          "document": "má bệnh nhân đang điều trị [ENTITY].",
+          "dense_similarity": 0.5957527756690979,
+          "sparse_similarity": 0.18117639422416687,
+          "hybrid_score": 0.3884645700454712
+        },
+        {
+          "id": "isFamily_025019",
+          "document": "thân nhân đang điều trị [ENTITY].",
+          "dense_similarity": 0.6098083257675171,
+          "sparse_similarity": 0.1584671139717102,
+          "hybrid_score": 0.38413771986961365
+        },
+        {
+          "id": "isFamily_005927",
+          "document": "bác của bn đang điều trị [ENTITY].",
+          "dense_similarity": 0.6062383055686951,
+          "sparse_similarity": 0.12999148666858673,
+          "hybrid_score": 0.3681148886680603
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhiễm khuẩn huyết",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       991,
       1008
-    ]
+    ],
+    "sentence": "Trong thời gian nằm viện, bệnh nhân được chẩn đoán [ENTITY] do tụ cầu vàng nhạy cảm methicillin, nghi liên quan đến đường truyền tĩnh mạch trung tâm ngoại vi (PICC).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006631",
+          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6498308777809143,
+          "sparse_similarity": 0.21441234648227692,
+          "hybrid_score": 0.432121604681015
+        },
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6406302452087402,
+          "sparse_similarity": 0.2013557255268097,
+          "hybrid_score": 0.42099297046661377
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6477323174476624,
+          "sparse_similarity": 0.18175365030765533,
+          "hybrid_score": 0.41474297642707825
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Bloodstream infection",
+      "Sepsis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1116,
       1123
-    ]
+    ],
+    "sentence": "[ENTITY] mạch máu chi trên không ghi nhận huyết khối, xạ hình thông khí - tưới máu phổi cho thấy xác suất thấp thuyên tắc phổi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000126",
+          "document": "cấy máu không ghi nhận [ENTITY].",
+          "dense_similarity": 0.5901644229888916,
+          "sparse_similarity": 0.14031103253364563,
+          "hybrid_score": 0.3652377128601074
+        },
+        {
+          "id": "isNegated_000127",
+          "document": "cấy máu không phát hiện [ENTITY].",
+          "dense_similarity": 0.6099402904510498,
+          "sparse_similarity": 0.1165289431810379,
+          "hybrid_score": 0.36323460936546326
+        },
+        {
+          "id": "isUncertain_000047",
+          "document": "[ENTITY] khả năng thấp.",
+          "dense_similarity": 0.5806882381439209,
+          "sparse_similarity": 0.11328241229057312,
+          "hybrid_score": 0.3469853401184082
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thuyên",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1226,
       1232
-    ]
+    ],
+    "sentence": "Siêu âm mạch máu chi trên không ghi nhận huyết khối, xạ hình thông khí - tưới máu phổi cho thấy xác suất thấp [ENTITY] tắc phổi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000127",
+          "document": "cấy máu không phát hiện [ENTITY].",
+          "dense_similarity": 0.6048177480697632,
+          "sparse_similarity": 0.11417364329099655,
+          "hybrid_score": 0.35949569940567017
+        },
+        {
+          "id": "isNegated_000126",
+          "document": "cấy máu không ghi nhận [ENTITY].",
+          "dense_similarity": 0.5760295391082764,
+          "sparse_similarity": 0.13116030395030975,
+          "hybrid_score": 0.35359492897987366
+        },
+        {
+          "id": "isUncertain_000047",
+          "document": "[ENTITY] khả năng thấp.",
+          "dense_similarity": 0.587770402431488,
+          "sparse_similarity": 0.11594516038894653,
+          "hybrid_score": 0.3518577814102173
+        }
+      ]
+    ],
+    "eng_translation": [
+      "thuyên",
+      "Thrombosis",
+      "Thuyên is not a recognized medical abbreviation in English. Please provide a valid medical query with abbreviations for expansion."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khò khè",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1382,
       1389
-    ]
+    ],
+    "sentence": "Sáng ngày nhập viện, bệnh nhân xuất hiện [ENTITY] và ho tăng lên.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8177810311317444,
+          "sparse_similarity": 0.23208650946617126,
+          "hybrid_score": 0.5249337553977966
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7955216765403748,
+          "sparse_similarity": 0.23946934938430786,
+          "hybrid_score": 0.5174955129623413
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8058761954307556,
+          "sparse_similarity": 0.21686415374279022,
+          "hybrid_score": 0.5113701820373535
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Wheezing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1393,
       1395
-    ]
+    ],
+    "sentence": "Sáng ngày nhập viện, bệnh nhân xuất hiện khò khè và [ENTITY] tăng lên.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.794365644454956,
+          "sparse_similarity": 0.23692463338375092,
+          "hybrid_score": 0.5156451463699341
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7693139910697937,
+          "sparse_similarity": 0.24427175521850586,
+          "hybrid_score": 0.5067929029464722
+        },
+        {
+          "id": "isHistorical_000016",
+          "document": "1 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7792822122573853,
+          "sparse_similarity": 0.2210744172334671,
+          "hybrid_score": 0.500178337097168
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "albuterol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1465,
       1474
-    ]
+    ],
+    "sentence": "Tại trung tâm phục hồi chức năng, bệnh nhân được khí dung [ENTITY] 2 lần, dùng guaifenesin và furosemide 40 mg đường uống nhưng triệu chứng không cải thiện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032131",
+          "document": "đã 2 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.652264416217804,
+          "sparse_similarity": 0.08537249267101288,
+          "hybrid_score": 0.368818461894989
+        },
+        {
+          "id": "isHistorical_032143",
+          "document": "đã 2 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6480507850646973,
+          "sparse_similarity": 0.08636926859617233,
+          "hybrid_score": 0.3672100305557251
+        },
+        {
+          "id": "isHistorical_012628",
+          "document": "cách đây 2 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6463542580604553,
+          "sparse_similarity": 0.08654312044382095,
+          "hybrid_score": 0.36644870042800903
+        }
+      ]
+    ],
+    "eng_translation": [
+      "albuterol",
+      "Bronchodilator"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1779": 1.0,
+        "435": 0.999999,
+        "237159": 0.977554,
+        "104542": 0.825081,
+        "691973": 0.772624
+      },
+      "rapidfuzz": {
+        "435": 1.0,
+        "2284638": 0.9,
+        "2284636": 0.9,
+        "1705": 0.8,
+        "1539887": 0.771429,
+        "2475836": 0.75
+      }
+    },
+    "candidate": {
+      "code": "435",
+      "confidence": 0.999999
+    }
   },
   {
     "text": "guaifenesin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1487,
       1498
-    ]
+    ],
+    "sentence": "Tại trung tâm phục hồi chức năng, bệnh nhân được khí dung albuterol 2 lần, dùng [ENTITY] và furosemide 40 mg đường uống nhưng triệu chứng không cải thiện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032131",
+          "document": "đã 2 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.660477876663208,
+          "sparse_similarity": 0.09448494017124176,
+          "hybrid_score": 0.3774814009666443
+        },
+        {
+          "id": "isHistorical_012628",
+          "document": "cách đây 2 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6581056714057922,
+          "sparse_similarity": 0.09651325643062592,
+          "hybrid_score": 0.3773094713687897
+        },
+        {
+          "id": "isHistorical_013180",
+          "document": "cách đây 40 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6392301321029663,
+          "sparse_similarity": 0.11020298302173615,
+          "hybrid_score": 0.37471655011177063
+        }
+      ]
+    ],
+    "eng_translation": [
+      "guaifenesin",
+      "Guaifenesin is an expectorant used to help loosen mucus in the airways, making it easier to cough up. It is commonly used in the treatment of respiratory conditions such as bronchitis and the common cold. Guaifenesin is available in both over-the-counter and prescription forms, and it is generally considered safe when used as directed. It is important to follow the dosage instructions provided by a healthcare provider to ensure its effectiveness and minimize the risk of side effects."
+    ],
+    "retriever": {
+      "sapbert": {
+        "5032": 1.0,
+        "2641119": 0.738364,
+        "2629663": 0.729779,
+        "1989286": 0.727834,
+        "2571170": 0.72644
+      },
+      "rapidfuzz": {
+        "5032": 1.0,
+        "1159705": 0.95,
+        "1307624": 0.855,
+        "1307633": 0.855,
+        "1307635": 0.855
+      }
+    },
+    "candidate": {
+      "code": "5032",
+      "confidence": 1.0
+    }
   },
   {
     "text": "furosemide 40 mg",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1502,
       1518
-    ]
+    ],
+    "sentence": "Tại trung tâm phục hồi chức năng, bệnh nhân được khí dung albuterol 2 lần, dùng guaifenesin và [ENTITY] đường uống nhưng triệu chứng không cải thiện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032131",
+          "document": "đã 2 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6475638747215271,
+          "sparse_similarity": 0.09656132757663727,
+          "hybrid_score": 0.3720625936985016
+        },
+        {
+          "id": "isHistorical_012628",
+          "document": "cách đây 2 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6439806222915649,
+          "sparse_similarity": 0.09832163900136948,
+          "hybrid_score": 0.3711511194705963
+        },
+        {
+          "id": "isHistorical_032143",
+          "document": "đã 2 tháng được điều trị [ENTITY].",
+          "dense_similarity": 0.6426200270652771,
+          "sparse_similarity": 0.09756757318973541,
+          "hybrid_score": 0.37009379267692566
+        }
+      ]
+    ],
+    "eng_translation": [
+      "furosemide 40 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "315971": 1.0,
+        "565458": 0.958524,
+        "2720068": 0.821366,
+        "315970": 0.812686,
+        "317377": 0.810704
+      },
+      "rapidfuzz": {
+        "315971": 1.0,
+        "565458": 0.95,
+        "334835": 0.9375
+      }
+    },
+    "candidate": {
+      "code": "315971",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1651,
       1658
-    ]
+    ],
+    "sentence": "Triệu chứng khi nhập viện:\n[ENTITY] tăng dần, chủ yếu khi gắng sức.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.7010959386825562,
+          "sparse_similarity": 0.22122257947921753,
+          "hybrid_score": 0.46115925908088684
+        },
+        {
+          "id": "isHistorical_009850",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.7014814019203186,
+          "sparse_similarity": 0.21931590139865875,
+          "hybrid_score": 0.4603986442089081
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.7000930309295654,
+          "sparse_similarity": 0.2041567713022232,
+          "hybrid_score": 0.4521248936653137
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nghẹt ngực kéo dài",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1691,
       1709
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Persistent chest pressure",
+      "Persistent chest discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1711,
       1713
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Khò khè",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1714,
       1721
-    ]
+    ],
+    "sentence": "[ENTITY]\nPhù ngoại vi tăng dần trong vài tuần gần đây.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006529",
+          "document": "[ENTITY] cách đây vài tuần.",
+          "dense_similarity": 0.7484222054481506,
+          "sparse_similarity": 0.2431989461183548,
+          "hybrid_score": 0.4958105683326721
+        },
+        {
+          "id": "isHistorical_014782",
+          "document": "cách đây vài tuần [ENTITY].",
+          "dense_similarity": 0.7395532727241516,
+          "sparse_similarity": 0.22535160183906555,
+          "hybrid_score": 0.4824524521827698
+        },
+        {
+          "id": "isHistorical_006513",
+          "document": "[ENTITY] cách đây nhiều tuần.",
+          "dense_similarity": 0.7460715174674988,
+          "sparse_similarity": 0.20856966078281403,
+          "hybrid_score": 0.4773205816745758
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Wheezing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Phù ngoại",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1722,
       1731
-    ]
+    ],
+    "sentence": "Khò khè\n[ENTITY] vi tăng dần trong vài tuần gần đây.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_006529",
+          "document": "[ENTITY] cách đây vài tuần.",
+          "dense_similarity": 0.7579523921012878,
+          "sparse_similarity": 0.25098174810409546,
+          "hybrid_score": 0.5044670701026917
+        },
+        {
+          "id": "isHistorical_014782",
+          "document": "cách đây vài tuần [ENTITY].",
+          "dense_similarity": 0.7464678287506104,
+          "sparse_similarity": 0.23634567856788635,
+          "hybrid_score": 0.49140673875808716
+        },
+        {
+          "id": "isHistorical_006513",
+          "document": "[ENTITY] cách đây nhiều tuần.",
+          "dense_similarity": 0.7473682165145874,
+          "sparse_similarity": 0.21406190097332,
+          "hybrid_score": 0.4807150661945343
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Edema",
+      "Fluid retention"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt 38",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1775,
       1781
-    ]
+    ],
+    "sentence": "Tiền sử [ENTITY],3°C khoảng 5 ngày trước nhập viện.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020756",
+          "document": "khoảng 5 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8279337882995605,
+          "sparse_similarity": 0.2783668041229248,
+          "hybrid_score": 0.5531502962112427
+        },
+        {
+          "id": "isHistorical_020228",
+          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8377374410629272,
+          "sparse_similarity": 0.251738041639328,
+          "hybrid_score": 0.5447377562522888
+        },
+        {
+          "id": "isHistorical_002176",
+          "document": "5 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8142974376678467,
+          "sparse_similarity": 0.26023200154304504,
+          "hybrid_score": 0.5372647047042847
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever 38°C",
+      "Fever, 38°C",
+      "Pyrexia 38°C",
+      "Fever 38 degrees Celsius"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1869,
       1871
-    ]
+    ],
+    "sentence": "Tình trạng ngay trước nhập viện:\nBệnh nhân xuất hiện [ENTITY] và khò khè tăng lên tại trung tâm phục hồi chức năng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.7256755232810974,
+          "sparse_similarity": 0.18079297244548798,
+          "hybrid_score": 0.4532342553138733
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.7231461405754089,
+          "sparse_similarity": 0.17875811457633972,
+          "hybrid_score": 0.45095211267471313
+        },
+        {
+          "id": "isHistorical_009850",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.7081053853034973,
+          "sparse_similarity": 0.19187942147254944,
+          "hybrid_score": 0.44999241828918457
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khò khè",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1875,
       1882
-    ]
+    ],
+    "sentence": "Tình trạng ngay trước nhập viện:\nBệnh nhân xuất hiện ho và [ENTITY] tăng lên tại trung tâm phục hồi chức năng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009850",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.7237882018089294,
+          "sparse_similarity": 0.20668531954288483,
+          "hybrid_score": 0.46523675322532654
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.7335259914398193,
+          "sparse_similarity": 0.19483232498168945,
+          "hybrid_score": 0.4641791582107544
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.7279731035232544,
+          "sparse_similarity": 0.19247189164161682,
+          "hybrid_score": 0.4602224826812744
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Wheezing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nghẹt ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1985,
       1995
-    ]
+    ],
+    "sentence": "Khi được đánh giá tại khoa Hồi sức, bệnh nhân còn cảm giác [ENTITY] nhưng tình trạng hô hấp tạm ổn định, không ghi nhận khó thở rõ, đau ngực hoặc ho nhiều\n.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009846",
+          "document": "[ENTITY] đã điều trị ổn.",
+          "dense_similarity": 0.6602943539619446,
+          "sparse_similarity": 0.14248701930046082,
+          "hybrid_score": 0.4013906717300415
+        },
+        {
+          "id": "isHistorical_007758",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.6251620650291443,
+          "sparse_similarity": 0.1752040684223175,
+          "hybrid_score": 0.4001830816268921
+        },
+        {
+          "id": "isFamily_024998",
+          "document": "thân nhân của người bệnh được ghi nhận [ENTITY].",
+          "dense_similarity": 0.618989109992981,
+          "sparse_similarity": 0.15276390314102173,
+          "hybrid_score": 0.38587650656700134
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest tightness",
+      "Chest discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở rõ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2048,
       2058
-    ]
+    ],
+    "sentence": "Khi được đánh giá tại khoa Hồi sức, bệnh nhân còn cảm giác nghẹt ngực nhưng tình trạng hô hấp tạm ổn định, không ghi nhận [ENTITY], đau ngực hoặc ho nhiều\n.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không ghi nhận [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009846",
+          "document": "[ENTITY] đã điều trị ổn.",
+          "dense_similarity": 0.6108202934265137,
+          "sparse_similarity": 0.09385380148887634,
+          "hybrid_score": 0.3523370623588562
+        },
+        {
+          "id": "isFamily_020061",
+          "document": "má bệnh nhân được ghi nhận [ENTITY].",
+          "dense_similarity": 0.5979576110839844,
+          "sparse_similarity": 0.10453097522258759,
+          "hybrid_score": 0.3512443006038666
+        },
+        {
+          "id": "isFamily_007151",
+          "document": "bên nội của bệnh nhân được ghi nhận [ENTITY].",
+          "dense_similarity": 0.6015775203704834,
+          "sparse_similarity": 0.1004604920744896,
+          "hybrid_score": 0.3510189950466156
+        }
+      ]
+    ],
+    "eng_translation": [
+      "clear dyspnea",
+      "Dyspnea, clear",
+      "Dyspnea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2060,
       2068
-    ]
+    ],
+    "sentence": "Khi được đánh giá tại khoa Hồi sức, bệnh nhân còn cảm giác nghẹt ngực nhưng tình trạng hô hấp tạm ổn định, không ghi nhận khó thở rõ, [ENTITY] hoặc ho nhiều\n.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_005960",
+          "document": "bác của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5999529957771301,
+          "sparse_similarity": 0.10319177061319351,
+          "hybrid_score": 0.3515723943710327
+        },
+        {
+          "id": "isHistorical_009846",
+          "document": "[ENTITY] đã điều trị ổn.",
+          "dense_similarity": 0.6099748611450195,
+          "sparse_similarity": 0.0914272889494896,
+          "hybrid_score": 0.35070106387138367
+        },
+        {
+          "id": "isFamily_020061",
+          "document": "má bệnh nhân được ghi nhận [ENTITY].",
+          "dense_similarity": 0.5981719493865967,
+          "sparse_similarity": 0.09868206828832626,
+          "hybrid_score": 0.3484269976615906
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho nhiều",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       2074,
       2082
-    ]
+    ],
+    "sentence": "Khi được đánh giá tại khoa Hồi sức, bệnh nhân còn cảm giác nghẹt ngực nhưng tình trạng hô hấp tạm ổn định, không ghi nhận khó thở rõ, đau ngực hoặc [ENTITY]\n.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009846",
+          "document": "[ENTITY] đã điều trị ổn.",
+          "dense_similarity": 0.6198410987854004,
+          "sparse_similarity": 0.10132324695587158,
+          "hybrid_score": 0.360582172870636
+        },
+        {
+          "id": "isFamily_005960",
+          "document": "bác của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6022738814353943,
+          "sparse_similarity": 0.11522389948368073,
+          "hybrid_score": 0.3587488830089569
+        },
+        {
+          "id": "isFamily_007152",
+          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6057806611061096,
+          "sparse_similarity": 0.11072758585214615,
+          "hybrid_score": 0.3582541346549988
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Cough",
+      "Coughing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhiễm khuẩn huyết",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       2114,
       2131
-    ]
+    ],
+    "sentence": "Các phát hiện chẩn đoán khác:\n[ENTITY] do tụ cầu vàng nhạy cảm methicillin, nghi liên quan catheter PICC \nSiêu âm mạch máu chi trên không ghi nhận huyết khối.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000037",
+          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
+          "dense_similarity": 0.6370630264282227,
+          "sparse_similarity": 0.1500547081232071,
+          "hybrid_score": 0.3935588598251343
+        },
+        {
+          "id": "isNegated_000224",
+          "document": "không đáp ứng tiêu chuẩn chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6423550844192505,
+          "sparse_similarity": 0.13128191232681274,
+          "hybrid_score": 0.3868184983730316
+        },
+        {
+          "id": "isNegated_000226",
+          "document": "không đủ tiêu chuẩn chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6235631108283997,
+          "sparse_similarity": 0.13413484394550323,
+          "hybrid_score": 0.37884896993637085
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Bloodstream infection",
+      "Sepsis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       2199,
       2206
-    ]
+    ],
+    "sentence": "Các phát hiện chẩn đoán khác:\nNhiễm khuẩn huyết do tụ cầu vàng nhạy cảm methicillin, nghi liên quan catheter PICC \n[ENTITY] mạch máu chi trên không ghi nhận huyết khối.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020172",
+          "document": "má được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6252484917640686,
+          "sparse_similarity": 0.10833089798688889,
+          "hybrid_score": 0.36678969860076904
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.625201940536499,
+          "sparse_similarity": 0.1007809191942215,
+          "hybrid_score": 0.36299142241477966
+        },
+        {
+          "id": "isFamily_012888",
+          "document": "dì được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6169638633728027,
+          "sparse_similarity": 0.10826064646244049,
+          "hybrid_score": 0.362612247467041
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thuyên tắc phổi",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       2309,
       2324
-    ]
+    ],
+    "sentence": "Xạ hình thông khí – tưới máu phổi cho thấy xác suất thấp [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000047",
+          "document": "[ENTITY] khả năng thấp.",
+          "dense_similarity": 0.6998686790466309,
+          "sparse_similarity": 0.1283503770828247,
+          "hybrid_score": 0.4141095280647278
+        },
+        {
+          "id": "isUncertain_000150",
+          "document": "khả năng thấp [ENTITY].",
+          "dense_similarity": 0.6906569004058838,
+          "sparse_similarity": 0.12462440133094788,
+          "hybrid_score": 0.40764063596725464
+        },
+        {
+          "id": "isUncertain_000193",
+          "document": "nguy cơ thấp [ENTITY].",
+          "dense_similarity": 0.6578773260116577,
+          "sparse_similarity": 0.12114186584949493,
+          "hybrid_score": 0.3895095884799957
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pulmonary embolism",
+      "Deep Vein Thrombosis Complication"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

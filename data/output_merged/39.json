@@ -2,137 +2,815 @@
   {
     "text": "đau bụng dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       37,
       52
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: [ENTITY]\nThời điểm khởi phát triệu chứng: vài ngày\nTriệu chứng hiện tại\n- đau bụng dữ dội\n- chướng bụng\n- ớn lạnh\n- mất ăn ngon\nĐặc điểm triệu chứng\n- Vị trí: thượng vị và góc phần tư trên bên phải\n- Mức độ nghiêm trọng: nghiêm trọng\n- Triệu chứng kèm theo: chướng bụng, ớn lạnh, mất ăn ngon\n- Không có buồn nôn hoặc nôn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6039400100708008,
+          "sparse_similarity": 0.16550345718860626,
+          "hybrid_score": 0.3847217261791229
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6066691875457764,
+          "sparse_similarity": 0.15523354709148407,
+          "hybrid_score": 0.3809513747692108
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5937231183052063,
+          "sparse_similarity": 0.16744491457939148,
+          "hybrid_score": 0.3805840015411377
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Severe abdominal pain",
+      "Acute abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       118,
       133
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng dữ dội\nThời điểm khởi phát triệu chứng: vài ngày\nTriệu chứng hiện tại\n- [ENTITY]\n- chướng bụng\n- ớn lạnh\n- mất ăn ngon\nĐặc điểm triệu chứng\n- Vị trí: thượng vị và góc phần tư trên bên phải\n- Mức độ nghiêm trọng: nghiêm trọng\n- Triệu chứng kèm theo: chướng bụng, ớn lạnh, mất ăn ngon\n- Không có buồn nôn hoặc nôn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6093568801879883,
+          "sparse_similarity": 0.1482330858707428,
+          "hybrid_score": 0.37879496812820435
+        },
+        {
+          "id": "isHistorical_032411",
+          "document": "đã 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6071962714195251,
+          "sparse_similarity": 0.13044771552085876,
+          "hybrid_score": 0.36882197856903076
+        },
+        {
+          "id": "isHistorical_001150",
+          "document": "3 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6072723269462585,
+          "sparse_similarity": 0.128016859292984,
+          "hybrid_score": 0.36764460802078247
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Severe abdominal pain",
+      "Acute abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chướng bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       136,
       147
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng dữ dội\nThời điểm khởi phát triệu chứng: vài ngày\nTriệu chứng hiện tại\n- đau bụng dữ dội\n- [ENTITY]\n- ớn lạnh\n- mất ăn ngon\nĐặc điểm triệu chứng\n- Vị trí: thượng vị và góc phần tư trên bên phải\n- Mức độ nghiêm trọng: nghiêm trọng\n- Triệu chứng kèm theo: chướng bụng, ớn lạnh, mất ăn ngon\n- Không có buồn nôn hoặc nôn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6013529300689697,
+          "sparse_similarity": 0.1542733609676361,
+          "hybrid_score": 0.3778131604194641
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6061033606529236,
+          "sparse_similarity": 0.14496970176696777,
+          "hybrid_score": 0.3755365312099457
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6025413870811462,
+          "sparse_similarity": 0.13486474752426147,
+          "hybrid_score": 0.36870306730270386
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal distension",
+      "Abdominal bloating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ớn lạnh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       150,
       157
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng dữ dội\nThời điểm khởi phát triệu chứng: vài ngày\nTriệu chứng hiện tại\n- đau bụng dữ dội\n- chướng bụng\n- [ENTITY]\n- mất ăn ngon\nĐặc điểm triệu chứng\n- Vị trí: thượng vị và góc phần tư trên bên phải\n- Mức độ nghiêm trọng: nghiêm trọng\n- Triệu chứng kèm theo: chướng bụng, ớn lạnh, mất ăn ngon\n- Không có buồn nôn hoặc nôn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6035889387130737,
+          "sparse_similarity": 0.15779735147953033,
+          "hybrid_score": 0.38069313764572144
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6072239875793457,
+          "sparse_similarity": 0.14835675060749054,
+          "hybrid_score": 0.3777903616428375
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.606377124786377,
+          "sparse_similarity": 0.13750186562538147,
+          "hybrid_score": 0.371939480304718
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chills"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất ăn ngon",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       160,
       171
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng dữ dội\nThời điểm khởi phát triệu chứng: vài ngày\nTriệu chứng hiện tại\n- đau bụng dữ dội\n- chướng bụng\n- ớn lạnh\n- [ENTITY]\nĐặc điểm triệu chứng\n- Vị trí: thượng vị và góc phần tư trên bên phải\n- Mức độ nghiêm trọng: nghiêm trọng\n- Triệu chứng kèm theo: chướng bụng, ớn lạnh, mất ăn ngon\n- Không có buồn nôn hoặc nôn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5952824950218201,
+          "sparse_similarity": 0.14705927670001984,
+          "hybrid_score": 0.37117087841033936
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6006675362586975,
+          "sparse_similarity": 0.137925922870636,
+          "hybrid_score": 0.36929672956466675
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5959621071815491,
+          "sparse_similarity": 0.12750126421451569,
+          "hybrid_score": 0.3617316782474518
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Loss of appetite",
+      "Anorexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chướng bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       302,
       313
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng dữ dội\nThời điểm khởi phát triệu chứng: vài ngày\nTriệu chứng hiện tại\n- đau bụng dữ dội\n- chướng bụng\n- ớn lạnh\n- mất ăn ngon\nĐặc điểm triệu chứng\n- Vị trí: thượng vị và góc phần tư trên bên phải\n- Mức độ nghiêm trọng: nghiêm trọng\n- Triệu chứng kèm theo: [ENTITY], ớn lạnh, mất ăn ngon\n- Không có buồn nôn hoặc nôn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6088236570358276,
+          "sparse_similarity": 0.15812411904335022,
+          "hybrid_score": 0.38347387313842773
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6137190461158752,
+          "sparse_similarity": 0.1486060917377472,
+          "hybrid_score": 0.3811625838279724
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6095733642578125,
+          "sparse_similarity": 0.13810059428215027,
+          "hybrid_score": 0.3738369941711426
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Abdominal distension",
+      "Abdominal bloating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ớn lạnh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       315,
       322
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng dữ dội\nThời điểm khởi phát triệu chứng: vài ngày\nTriệu chứng hiện tại\n- đau bụng dữ dội\n- chướng bụng\n- ớn lạnh\n- mất ăn ngon\nĐặc điểm triệu chứng\n- Vị trí: thượng vị và góc phần tư trên bên phải\n- Mức độ nghiêm trọng: nghiêm trọng\n- Triệu chứng kèm theo: chướng bụng, [ENTITY], mất ăn ngon\n- Không có buồn nôn hoặc nôn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5977272987365723,
+          "sparse_similarity": 0.15050339698791504,
+          "hybrid_score": 0.37411534786224365
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.603228747844696,
+          "sparse_similarity": 0.1412174552679062,
+          "hybrid_score": 0.3722231090068817
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6003159880638123,
+          "sparse_similarity": 0.13087187707424164,
+          "hybrid_score": 0.36559394001960754
+        }
+      ]
+    ],
+    "eng_translation": [
+      "chills"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất ăn ngon",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       324,
       335
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng dữ dội\nThời điểm khởi phát triệu chứng: vài ngày\nTriệu chứng hiện tại\n- đau bụng dữ dội\n- chướng bụng\n- ớn lạnh\n- mất ăn ngon\nĐặc điểm triệu chứng\n- Vị trí: thượng vị và góc phần tư trên bên phải\n- Mức độ nghiêm trọng: nghiêm trọng\n- Triệu chứng kèm theo: chướng bụng, ớn lạnh, [ENTITY]\n- Không có buồn nôn hoặc nôn\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6007203459739685,
+          "sparse_similarity": 0.1497267335653305,
+          "hybrid_score": 0.3752235472202301
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6062859892845154,
+          "sparse_similarity": 0.14032939076423645,
+          "hybrid_score": 0.3733077049255371
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6008875966072083,
+          "sparse_similarity": 0.1305580735206604,
+          "hybrid_score": 0.3657228350639343
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Loss of appetite",
+      "Anorexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       347,
       355
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng dữ dội\nThời điểm khởi phát triệu chứng: vài ngày\nTriệu chứng hiện tại\n- đau bụng dữ dội\n- chướng bụng\n- ớn lạnh\n- mất ăn ngon\nĐặc điểm triệu chứng\n- Vị trí: thượng vị và góc phần tư trên bên phải\n- Mức độ nghiêm trọng: nghiêm trọng\n- Triệu chứng kèm theo: chướng bụng, ớn lạnh, mất ăn ngon\n- Không có [ENTITY] hoặc nôn\n\n3.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6025101542472839,
+          "sparse_similarity": 0.1534375548362732,
+          "hybrid_score": 0.37797385454177856
+        },
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.608232855796814,
+          "sparse_similarity": 0.14391456544399261,
+          "hybrid_score": 0.3760737180709839
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6034091711044312,
+          "sparse_similarity": 0.1335430145263672,
+          "hybrid_score": 0.36847609281539917
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       361,
       364
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng dữ dội\nThời điểm khởi phát triệu chứng: vài ngày\nTriệu chứng hiện tại\n- đau bụng dữ dội\n- chướng bụng\n- ớn lạnh\n- mất ăn ngon\nĐặc điểm triệu chứng\n- Vị trí: thượng vị và góc phần tư trên bên phải\n- Mức độ nghiêm trọng: nghiêm trọng\n- Triệu chứng kèm theo: chướng bụng, ớn lạnh, mất ăn ngon\n- Không có buồn nôn hoặc [ENTITY]\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_032393",
+          "document": "đã 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6127885580062866,
+          "sparse_similarity": 0.1542077362537384,
+          "hybrid_score": 0.3834981322288513
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6107050180435181,
+          "sparse_similarity": 0.14243847131729126,
+          "hybrid_score": 0.37657174468040466
+        },
+        {
+          "id": "isHistorical_032411",
+          "document": "đã 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6113230586051941,
+          "sparse_similarity": 0.13462620973587036,
+          "hybrid_score": 0.3729746341705322
+        }
+      ]
+    ],
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       412,
       415
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nDấu hiệu lâm sàng\n- [ENTITY]\n- nhịp tim nhanh\nKết quả xét nghiệm\n- công thức máu là 32\n- suy thận cấp\n- bất thường điện giải\nKết quả chẩn đoán hình ảnh: Kết quả chụp cắt lớp vi tính cho thấy viêm túi mật thủng cấp tính\nThủ thuật thực hiện: Đặt ống dẫn lưu phúc mạc qua da cho túi mật",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012765",
+          "document": "cách đây 24 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5893914103507996,
+          "sparse_similarity": 0.07947362959384918,
+          "hybrid_score": 0.3344325125217438
+        },
+        {
+          "id": "isHistorical_000863",
+          "document": "24 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5887409448623657,
+          "sparse_similarity": 0.07836597412824631,
+          "hybrid_score": 0.3335534632205963
+        },
+        {
+          "id": "isHistorical_000851",
+          "document": "24 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5861729383468628,
+          "sparse_similarity": 0.08075109124183655,
+          "hybrid_score": 0.3334619998931885
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp tim nhanh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       418,
       432
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nDấu hiệu lâm sàng\n- sốt\n- [ENTITY]\nKết quả xét nghiệm\n- công thức máu là 32\n- suy thận cấp\n- bất thường điện giải\nKết quả chẩn đoán hình ảnh: Kết quả chụp cắt lớp vi tính cho thấy viêm túi mật thủng cấp tính\nThủ thuật thực hiện: Đặt ống dẫn lưu phúc mạc qua da cho túi mật",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012981",
+          "document": "cách đây 32 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5584052801132202,
+          "sparse_similarity": 0.12626074254512787,
+          "hybrid_score": 0.34233301877975464
+        },
+        {
+          "id": "isHistorical_001283",
+          "document": "32 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.553558886051178,
+          "sparse_similarity": 0.13100790977478027,
+          "hybrid_score": 0.3422833979129791
+        },
+        {
+          "id": "isHistorical_020313",
+          "document": "khoảng 32 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.554553210735321,
+          "sparse_similarity": 0.1284540295600891,
+          "hybrid_score": 0.3415036201477051
+        }
+      ]
+    ],
+    "eng_translation": [
+      "tachycardia",
+      "Fast heart rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "công thức máu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       454,
       467
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nDấu hiệu lâm sàng\n- sốt\n- nhịp tim nhanh\nKết quả xét nghiệm\n- [ENTITY] là 32\n- suy thận cấp\n- bất thường điện giải\nKết quả chẩn đoán hình ảnh: Kết quả chụp cắt lớp vi tính cho thấy viêm túi mật thủng cấp tính\nThủ thuật thực hiện: Đặt ống dẫn lưu phúc mạc qua da cho túi mật",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001283",
+          "document": "32 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5942323207855225,
+          "sparse_similarity": 0.15138289332389832,
+          "hybrid_score": 0.3728076219558716
+        },
+        {
+          "id": "isHistorical_012981",
+          "document": "cách đây 32 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5992511510848999,
+          "sparse_similarity": 0.14584530889987946,
+          "hybrid_score": 0.3725482225418091
+        },
+        {
+          "id": "isHistorical_001295",
+          "document": "32 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5993287563323975,
+          "sparse_similarity": 0.14483807981014252,
+          "hybrid_score": 0.3720834255218506
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Complete blood count (CBC)",
+      "Full blood count (FBC)"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "32",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       471,
       473
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nDấu hiệu lâm sàng\n- sốt\n- nhịp tim nhanh\nKết quả xét nghiệm\n- công thức máu là [ENTITY]\n- suy thận cấp\n- bất thường điện giải\nKết quả chẩn đoán hình ảnh: Kết quả chụp cắt lớp vi tính cho thấy viêm túi mật thủng cấp tính\nThủ thuật thực hiện: Đặt ống dẫn lưu phúc mạc qua da cho túi mật",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012351",
+          "document": "cách đây 1 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5670058727264404,
+          "sparse_similarity": 0.08600519597530365,
+          "hybrid_score": 0.32650554180145264
+        },
+        {
+          "id": "isHistorical_012357",
+          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5671476125717163,
+          "sparse_similarity": 0.08315546810626984,
+          "hybrid_score": 0.3251515328884125
+        },
+        {
+          "id": "isHistorical_013719",
+          "document": "cách đây 60 tháng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5670535564422607,
+          "sparse_similarity": 0.08116066455841064,
+          "hybrid_score": 0.3241071105003357
+        }
+      ]
+    ],
+    "eng_translation": [
+      "32",
+      "The query provided is \"32\" which does not contain any medical information or context. Therefore, no rewrite is possible."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy thận cấp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       476,
       488
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nDấu hiệu lâm sàng\n- sốt\n- nhịp tim nhanh\nKết quả xét nghiệm\n- công thức máu là 32\n- [ENTITY]\n- bất thường điện giải\nKết quả chẩn đoán hình ảnh: Kết quả chụp cắt lớp vi tính cho thấy viêm túi mật thủng cấp tính\nThủ thuật thực hiện: Đặt ống dẫn lưu phúc mạc qua da cho túi mật",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_001283",
+          "document": "32 tháng trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5732601284980774,
+          "sparse_similarity": 0.1423792839050293,
+          "hybrid_score": 0.35781970620155334
+        },
+        {
+          "id": "isHistorical_012981",
+          "document": "cách đây 32 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.578095555305481,
+          "sparse_similarity": 0.13719353079795837,
+          "hybrid_score": 0.35764455795288086
+        },
+        {
+          "id": "isHistorical_001295",
+          "document": "32 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5782223343849182,
+          "sparse_similarity": 0.1361885815858841,
+          "hybrid_score": 0.35720545053482056
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Acute kidney failure",
+      "Acute renal failure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp cắt lớp vi tính",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       548,
       568
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nDấu hiệu lâm sàng\n- sốt\n- nhịp tim nhanh\nKết quả xét nghiệm\n- công thức máu là 32\n- suy thận cấp\n- bất thường điện giải\nKết quả chẩn đoán hình ảnh: Kết quả [ENTITY] cho thấy viêm túi mật thủng cấp tính\nThủ thuật thực hiện: Đặt ống dẫn lưu phúc mạc qua da cho túi mật",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012981",
+          "document": "cách đây 32 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.568479597568512,
+          "sparse_similarity": 0.12843723595142365,
+          "hybrid_score": 0.3484584093093872
+        },
+        {
+          "id": "isHistorical_001295",
+          "document": "32 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5673747658729553,
+          "sparse_similarity": 0.12747526168823242,
+          "hybrid_score": 0.34742501378059387
+        },
+        {
+          "id": "isHistorical_020319",
+          "document": "khoảng 32 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5657936930656433,
+          "sparse_similarity": 0.12431800365447998,
+          "hybrid_score": 0.34505584836006165
+        }
+      ]
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật thủng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       578,
       596
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\nDấu hiệu lâm sàng\n- sốt\n- nhịp tim nhanh\nKết quả xét nghiệm\n- công thức máu là 32\n- suy thận cấp\n- bất thường điện giải\nKết quả chẩn đoán hình ảnh: Kết quả chụp cắt lớp vi tính cho thấy [ENTITY] cấp tính\nThủ thuật thực hiện: Đặt ống dẫn lưu phúc mạc qua da cho túi mật",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000109",
+          "document": "cần xét nghiệm xác nhận [ENTITY].",
+          "dense_similarity": 0.6205946207046509,
+          "sparse_similarity": 0.1349591463804245,
+          "hybrid_score": 0.3777768909931183
+        },
+        {
+          "id": "isUncertain_000029",
+          "document": "[ENTITY] cần làm thêm xét nghiệm.",
+          "dense_similarity": 0.6142764091491699,
+          "sparse_similarity": 0.13679097592830658,
+          "hybrid_score": 0.37553369998931885
+        },
+        {
+          "id": "isFamily_025022",
+          "document": "thân nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.630888819694519,
+          "sparse_similarity": 0.11939659714698792,
+          "hybrid_score": 0.3751426935195923
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Perforated cholecystitis",
+      "Acute cholecystitis with perforation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

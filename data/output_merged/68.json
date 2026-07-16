@@ -2,17 +2,97 @@
   {
     "text": "bệnh phổi tắc nghẽn mạn tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       57,
       85
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính\n    - [ENTITY], không xác định\n    - tâm thần phân liệt\n\n2.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử bệnh nội khoa các bệnh lý mãn tính - [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007626",
+          "document": "bệnh sử gia đình được xác định mắc [ENTITY].",
+          "dense_similarity": 0.64386385679245,
+          "sparse_similarity": 0.20012493431568146,
+          "hybrid_score": 0.4219943881034851
+        },
+        {
+          "id": "isFamily_007141",
+          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.640118420124054,
+          "sparse_similarity": 0.1840779185295105,
+          "hybrid_score": 0.4120981693267822
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.669184148311615,
+          "sparse_similarity": 0.14172278344631195,
+          "hybrid_score": 0.40545347332954407
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Chronic Obstructive Lung Disease"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tâm thần phân liệt",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       108,
       126
-    ]
+    ],
+    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mãn tính\n    - bệnh phổi tắc nghẽn mạn tính, không xác định\n    - [ENTITY]\n\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007626",
+          "document": "bệnh sử gia đình được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6521142721176147,
+          "sparse_similarity": 0.18598803877830505,
+          "hybrid_score": 0.4190511703491211
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.6878410577774048,
+          "sparse_similarity": 0.13222146034240723,
+          "hybrid_score": 0.410031259059906
+        },
+        {
+          "id": "isFamily_007192",
+          "document": "bệnh sử gia đình [ENTITY].",
+          "dense_similarity": 0.6784881949424744,
+          "sparse_similarity": 0.12787123024463654,
+          "hybrid_score": 0.40317970514297485
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Schizophrenia",
+      "Schizophrenia Spectrum and Other Psychotic Disorders"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

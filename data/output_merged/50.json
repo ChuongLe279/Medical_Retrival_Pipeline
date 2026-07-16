@@ -2,433 +2,2786 @@
   {
     "text": "hen suyễn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       84,
       93
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây: Nhập viện trong quá khứ vì đợt cấp [ENTITY]\n    Bệnh mạn tính: hen suyễn\n    Thuốc trước khi nhập viện\n    - albuterol nebs q4h tại nhà\n    - z-pack\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022199",
+          "document": "trong đợt nhập viện trước [ENTITY].",
+          "dense_similarity": 0.6456818580627441,
+          "sparse_similarity": 0.2247934341430664,
+          "hybrid_score": 0.4352376461029053
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6665485501289368,
+          "sparse_similarity": 0.19802182912826538,
+          "hybrid_score": 0.4322851896286011
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6703869700431824,
+          "sparse_similarity": 0.18826007843017578,
+          "hybrid_score": 0.4293235242366791
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Asthma",
+      "Bronchial Asthma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hen suyễn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       113,
       122
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây: Nhập viện trong quá khứ vì đợt cấp hen suyễn\n    Bệnh mạn tính: [ENTITY]\n    Thuốc trước khi nhập viện\n    - albuterol nebs q4h tại nhà\n    - z-pack\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.660639762878418,
+          "sparse_similarity": 0.1907293051481247,
+          "hybrid_score": 0.42568454146385193
+        },
+        {
+          "id": "isHistorical_022199",
+          "document": "trong đợt nhập viện trước [ENTITY].",
+          "dense_similarity": 0.6344541907310486,
+          "sparse_similarity": 0.2168668657541275,
+          "hybrid_score": 0.42566052079200745
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6650500893592834,
+          "sparse_similarity": 0.18092334270477295,
+          "hybrid_score": 0.4229867160320282
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Asthma",
+      "Bronchial Asthma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "albuterol",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       159,
       168
-    ]
+    ],
+    "sentence": "Tiền sử bệnh\n    Các đợt tương tự trước đây: Nhập viện trong quá khứ vì đợt cấp hen suyễn\n    Bệnh mạn tính: hen suyễn\n    Thuốc trước khi nhập viện\n    - [ENTITY] nebs q4h tại nhà\n    - z-pack\n2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022199",
+          "document": "trong đợt nhập viện trước [ENTITY].",
+          "dense_similarity": 0.6178935170173645,
+          "sparse_similarity": 0.20233690738677979,
+          "hybrid_score": 0.41011521220207214
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6440460681915283,
+          "sparse_similarity": 0.17503651976585388,
+          "hybrid_score": 0.4095413088798523
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6489216685295105,
+          "sparse_similarity": 0.1658409833908081,
+          "hybrid_score": 0.4073813259601593
+        }
+      ]
+    ],
+    "eng_translation": [
+      "albuterol",
+      "Bronchodilator"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1779": 1.0,
+        "435": 0.999999,
+        "237159": 0.977554,
+        "104542": 0.825081,
+        "691973": 0.772624
+      },
+      "rapidfuzz": {
+        "435": 1.0,
+        "2284638": 0.9,
+        "2284636": 0.9,
+        "1705": 0.8,
+        "1539887": 0.771429,
+        "2475836": 0.75
+      }
+    },
+    "candidate": {
+      "code": "435",
+      "confidence": 0.999999
+    }
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       246,
       253
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY] và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.637669563293457,
+          "sparse_similarity": 0.15638549625873566,
+          "hybrid_score": 0.39702752232551575
+        },
+        {
+          "id": "isHistorical_024646",
+          "document": "từ 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6357332468032837,
+          "sparse_similarity": 0.1542394608259201,
+          "hybrid_score": 0.3949863612651825
+        },
+        {
+          "id": "isHistorical_019694",
+          "document": "khoảng 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6356484889984131,
+          "sparse_similarity": 0.15372800827026367,
+          "hybrid_score": 0.3946882486343384
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiếng rít",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       257,
       266
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và [ENTITY]\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6328461170196533,
+          "sparse_similarity": 0.17012371122837067,
+          "hybrid_score": 0.4014849066734314
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6366311311721802,
+          "sparse_similarity": 0.1659644991159439,
+          "hybrid_score": 0.40129780769348145
+        },
+        {
+          "id": "isHistorical_021038",
+          "document": "khoảng 6 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6244339942932129,
+          "sparse_similarity": 0.1749863624572754,
+          "hybrid_score": 0.39971017837524414
+        }
+      ]
+    ],
+    "eng_translation": [
+      "whistling sound",
+      "Wheezing",
+      "Wheezing sound"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau khi ấn xoang",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       332,
       348
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: [ENTITY], ho nhẹ\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6524237394332886,
+          "sparse_similarity": 0.17662174999713898,
+          "hybrid_score": 0.4145227372646332
+        },
+        {
+          "id": "isHistorical_024646",
+          "document": "từ 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6509818434715271,
+          "sparse_similarity": 0.17428486049175262,
+          "hybrid_score": 0.41263335943222046
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6503990888595581,
+          "sparse_similarity": 0.17402306199073792,
+          "hybrid_score": 0.4122110605239868
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain on palpation of sinuses",
+      "pain on palpation of paranasal sinuses"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho nhẹ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       350,
       356
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, [ENTITY]\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6085824966430664,
+          "sparse_similarity": 0.14532944560050964,
+          "hybrid_score": 0.3769559860229492
+        },
+        {
+          "id": "isHistorical_024646",
+          "document": "từ 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6052060723304749,
+          "sparse_similarity": 0.14342013001441956,
+          "hybrid_score": 0.3743131160736084
+        },
+        {
+          "id": "isHistorical_019694",
+          "document": "khoảng 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6058529615402222,
+          "sparse_similarity": 0.1427454799413681,
+          "hybrid_score": 0.37429922819137573
+        }
+      ]
+    ],
+    "eng_translation": [
+      "mild cough",
+      "Respiratory tract infection with mild cough"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiếng rít",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       375,
       384
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng [ENTITY] và khó thở trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6353815197944641,
+          "sparse_similarity": 0.16586321592330933,
+          "hybrid_score": 0.4006223678588867
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6358047127723694,
+          "sparse_similarity": 0.1617330014705658,
+          "hybrid_score": 0.3987688422203064
+        },
+        {
+          "id": "isHistorical_021038",
+          "document": "khoảng 6 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6267961263656616,
+          "sparse_similarity": 0.17044958472251892,
+          "hybrid_score": 0.39862287044525146
+        }
+      ]
+    ],
+    "eng_translation": [
+      "whistling sound",
+      "Wheezing",
+      "Wheezing sound"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       388,
       395
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng tiếng rít và [ENTITY] trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6428253650665283,
+          "sparse_similarity": 0.16266030073165894,
+          "hybrid_score": 0.40274283289909363
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6423845887184143,
+          "sparse_similarity": 0.15891893208026886,
+          "hybrid_score": 0.400651752948761
+        },
+        {
+          "id": "isHistorical_024646",
+          "document": "từ 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.640586793422699,
+          "sparse_similarity": 0.16059081256389618,
+          "hybrid_score": 0.4005888104438782
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiếng rít",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       419,
       428
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - [ENTITY] vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6213779449462891,
+          "sparse_similarity": 0.14850375056266785,
+          "hybrid_score": 0.38494086265563965
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6220304369926453,
+          "sparse_similarity": 0.14312492311000824,
+          "hybrid_score": 0.38257768750190735
+        },
+        {
+          "id": "isHistorical_019694",
+          "document": "khoảng 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6191793084144592,
+          "sparse_similarity": 0.14591175317764282,
+          "hybrid_score": 0.382545530796051
+        }
+      ]
+    ],
+    "eng_translation": [
+      "whistling sound",
+      "Wheezing",
+      "Wheezing sound"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ban đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       433,
       440
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - tiếng rít vào [ENTITY]\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6197259426116943,
+          "sparse_similarity": 0.143146350979805,
+          "hybrid_score": 0.38143613934516907
+        },
+        {
+          "id": "isHistorical_019694",
+          "document": "khoảng 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6167711019515991,
+          "sparse_similarity": 0.14059539139270782,
+          "hybrid_score": 0.3786832392215729
+        },
+        {
+          "id": "isHistorical_024646",
+          "document": "từ 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6160988211631775,
+          "sparse_similarity": 0.14114584028720856,
+          "hybrid_score": 0.3786223232746124
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nighttime",
+      "Nocturnal"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau khi ấn xoang",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       482,
       498
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: [ENTITY], ho nhẹ\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6308011412620544,
+          "sparse_similarity": 0.1658901572227478,
+          "hybrid_score": 0.3983456492424011
+        },
+        {
+          "id": "isHistorical_024646",
+          "document": "từ 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6291027665138245,
+          "sparse_similarity": 0.16364474594593048,
+          "hybrid_score": 0.3963737487792969
+        },
+        {
+          "id": "isHistorical_019694",
+          "document": "khoảng 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6264896392822266,
+          "sparse_similarity": 0.16303114593029022,
+          "hybrid_score": 0.394760400056839
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain on palpation of sinuses",
+      "pain on palpation of paranasal sinuses"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho nhẹ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       500,
       506
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, [ENTITY]\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6245863437652588,
+          "sparse_similarity": 0.1616719365119934,
+          "hybrid_score": 0.3931291401386261
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6266770958900452,
+          "sparse_similarity": 0.15826570987701416,
+          "hybrid_score": 0.39247140288352966
+        },
+        {
+          "id": "isHistorical_021038",
+          "document": "khoảng 6 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6179925203323364,
+          "sparse_similarity": 0.1656709611415863,
+          "hybrid_score": 0.39183175563812256
+        }
+      ]
+    ],
+    "eng_translation": [
+      "mild cough",
+      "Respiratory tract infection with mild cough"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiếng rít",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       513,
       522
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - [ENTITY] và khó thở trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6210401058197021,
+          "sparse_similarity": 0.15475408732891083,
+          "hybrid_score": 0.3878971040248871
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6225625276565552,
+          "sparse_similarity": 0.15003763139247894,
+          "hybrid_score": 0.38630008697509766
+        },
+        {
+          "id": "isHistorical_024646",
+          "document": "từ 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6185475587844849,
+          "sparse_similarity": 0.15270154178142548,
+          "hybrid_score": 0.38562455773353577
+        }
+      ]
+    ],
+    "eng_translation": [
+      "whistling sound",
+      "Wheezing",
+      "Wheezing sound"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       526,
       533
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - tiếng rít và [ENTITY] trở nên tồi tệ hơn\n    - tiếng rít vào ban đêm\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6303311586380005,
+          "sparse_similarity": 0.1585858017206192,
+          "hybrid_score": 0.39445847272872925
+        },
+        {
+          "id": "isHistorical_022211",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.632594645023346,
+          "sparse_similarity": 0.15398791432380676,
+          "hybrid_score": 0.39329129457473755
+        },
+        {
+          "id": "isHistorical_024646",
+          "document": "từ 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6277755498886108,
+          "sparse_similarity": 0.15648576617240906,
+          "hybrid_score": 0.39213067293167114
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiếng rít vào ban đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       559,
       580
-    ]
+    ],
+    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở và tiếng rít\n    Thời điểm khởi phát triệu chứng\n    - Khoảng một tuần trước: đau khi ấn xoang, ho nhẹ\n    - Triệu chứng tiếng rít và khó thở trở nên nặng hơn\n    - tiếng rít vào ban đêm\n    Diễn biến bệnh\n    - Một tuần trước: đau khi ấn xoang, ho nhẹ\n    - tiếng rít và khó thở trở nên tồi tệ hơn\n    - [ENTITY]\n   2.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000046",
+          "document": "1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6162616014480591,
+          "sparse_similarity": 0.14886486530303955,
+          "hybrid_score": 0.3825632333755493
+        },
+        {
+          "id": "isHistorical_019694",
+          "document": "khoảng 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.613052487373352,
+          "sparse_similarity": 0.14622992277145386,
+          "hybrid_score": 0.37964120507240295
+        },
+        {
+          "id": "isHistorical_024646",
+          "document": "từ 1 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6115967035293579,
+          "sparse_similarity": 0.14678320288658142,
+          "hybrid_score": 0.37918996810913086
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nocturnal stridor"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       673,
       680
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tạiBệnh nhân được bác sĩ chăm sóc ban đầu khám cách đây khoảng 1 tuần vì [ENTITY], khò khè và các triệu chứng đường hô hấp trên.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "cách đây khoảng 1 tuần vì [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012357",
+          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7117646932601929,
+          "sparse_similarity": 0.15476740896701813,
+          "hybrid_score": 0.4332660436630249
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7049614191055298,
+          "sparse_similarity": 0.1523612141609192,
+          "hybrid_score": 0.4286613166332245
+        },
+        {
+          "id": "isHistorical_019695",
+          "document": "khoảng 1 tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7067745327949524,
+          "sparse_similarity": 0.13573379814624786,
+          "hybrid_score": 0.42125415802001953
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khò khè",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       682,
       689
-    ]
+    ],
+    "sentence": "Bệnh sử hiện tạiBệnh nhân được bác sĩ chăm sóc ban đầu khám cách đây khoảng 1 tuần vì khó thở, [ENTITY] và các triệu chứng đường hô hấp trên.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "cách đây khoảng 1 tuần vì khó thở, [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012357",
+          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7039701342582703,
+          "sparse_similarity": 0.14227047562599182,
+          "hybrid_score": 0.42312031984329224
+        },
+        {
+          "id": "isHistorical_012356",
+          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7040752172470093,
+          "sparse_similarity": 0.13928937911987305,
+          "hybrid_score": 0.42168229818344116
+        },
+        {
+          "id": "isHistorical_012358",
+          "document": "cách đây 1 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.7003780603408813,
+          "sparse_similarity": 0.12971162796020508,
+          "hybrid_score": 0.4150448441505432
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Wheezing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "prednisone",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       747,
       757
-    ]
+    ],
+    "sentence": "Bệnh nhân được kê [ENTITY] giảm liều và amoxicillin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009848",
+          "document": "[ENTITY] đã được điều trị.",
+          "dense_similarity": 0.7476660013198853,
+          "sparse_similarity": 0.16681122779846191,
+          "hybrid_score": 0.4572386145591736
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7327681183815002,
+          "sparse_similarity": 0.15513306856155396,
+          "hybrid_score": 0.4439505934715271
+        },
+        {
+          "id": "isFamily_025019",
+          "document": "thân nhân đang điều trị [ENTITY].",
+          "dense_similarity": 0.7400707006454468,
+          "sparse_similarity": 0.13133999705314636,
+          "hybrid_score": 0.43570536375045776
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Prednisone",
+      "Prednisolone"
+    ],
+    "retriever": {
+      "sapbert": {
+        "8638": 1.0,
+        "8640": 1.0,
+        "850451": 0.850804
+      },
+      "rapidfuzz": {
+        "8640": 1.0,
+        "8638": 1.0,
+        "333209": 0.95,
+        "29523": 0.909091
+      }
+    },
+    "candidate": {
+      "code": "8638",
+      "confidence": 1.0
+    }
   },
   {
     "text": "amoxicillin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       771,
       782
-    ]
+    ],
+    "sentence": "Bệnh nhân được kê prednisone giảm liều và [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009848",
+          "document": "[ENTITY] đã được điều trị.",
+          "dense_similarity": 0.7603580951690674,
+          "sparse_similarity": 0.15548598766326904,
+          "hybrid_score": 0.4579220414161682
+        },
+        {
+          "id": "isFamily_025022",
+          "document": "thân nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7517797350883484,
+          "sparse_similarity": 0.16201253235340118,
+          "hybrid_score": 0.4568961262702942
+        },
+        {
+          "id": "isFamily_024983",
+          "document": "thân nhân của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7477266788482666,
+          "sparse_similarity": 0.14689509570598602,
+          "hybrid_score": 0.4473108947277069
+        }
+      ]
+    ],
+    "eng_translation": [
+      "amoxicillin",
+      "Amoxicillin is a penicillin-class antibiotic used to treat a variety of bacterial infections, including respiratory tract infections, urinary tract infections, skin infections, and ear infections. It works by killing bacteria or preventing their growth. Common side effects may include diarrhea, nausea, and rash. It is typically taken orally, either as a tablet, capsule, or liquid, and the dosage depends on the patient's age, weight, and the type of infection being treated. Amoxicillin is generally safe but may cause allergic reactions in individuals with a history of penicillin allergy."
+    ],
+    "retriever": {
+      "sapbert": {
+        "723": 1.0,
+        "352426": 0.923211,
+        "1358969": 0.782941,
+        "897049": 0.728732,
+        "1297882": 0.706395
+      },
+      "rapidfuzz": {
+        "723": 1.0,
+        "1152901": 0.95,
+        "2692880": 0.9,
+        "207193": 0.855,
+        "1744049": 0.855,
+        "1744003": 0.855
+      }
+    },
+    "candidate": {
+      "code": "723",
+      "confidence": 1.0
+    }
   },
   {
     "text": "amoxicillin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       820,
       831
-    ]
+    ],
+    "sentence": "Tuy nhiên, bệnh nhân không dung nạp [ENTITY] do xuất hiện tiêu chảy nên được chuyển sang sử dụng azithromycin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020062",
+          "document": "má bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6494258046150208,
+          "sparse_similarity": 0.11247890442609787,
+          "hybrid_score": 0.3809523582458496
+        },
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6665987968444824,
+          "sparse_similarity": 0.0896691083908081,
+          "hybrid_score": 0.37813395261764526
+        },
+        {
+          "id": "isFamily_020059",
+          "document": "má bệnh nhân đã mắc [ENTITY].",
+          "dense_similarity": 0.6499391198158264,
+          "sparse_similarity": 0.10627543926239014,
+          "hybrid_score": 0.3781072795391083
+        }
+      ]
+    ],
+    "eng_translation": [
+      "amoxicillin",
+      "Amoxicillin is a penicillin-class antibiotic used to treat a variety of bacterial infections, including respiratory tract infections, urinary tract infections, skin infections, and ear infections. It works by killing bacteria or preventing their growth. Common side effects may include diarrhea, nausea, and rash. It is typically taken orally, either as a tablet, capsule, or liquid, and the dosage depends on the patient's age, weight, and the type of infection being treated. Amoxicillin is generally safe but may cause allergic reactions in individuals with a history of penicillin allergy."
+    ],
+    "retriever": {
+      "sapbert": {
+        "723": 1.0,
+        "352426": 0.923211,
+        "1358969": 0.782941,
+        "897049": 0.728732,
+        "1297882": 0.706395
+      },
+      "rapidfuzz": {
+        "723": 1.0,
+        "1152901": 0.95,
+        "2692880": 0.9,
+        "207193": 0.855,
+        "1744049": 0.855,
+        "1744003": 0.855
+      }
+    },
+    "candidate": {
+      "code": "723",
+      "confidence": 1.0
+    }
   },
   {
     "text": "tiêu chảy",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       845,
       854
-    ]
+    ],
+    "sentence": "Tuy nhiên, bệnh nhân không dung nạp amoxicillin do xuất hiện [ENTITY] nên được chuyển sang sử dụng azithromycin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020062",
+          "document": "má bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6691327691078186,
+          "sparse_similarity": 0.13408376276493073,
+          "hybrid_score": 0.40160825848579407
+        },
+        {
+          "id": "isFamily_020049",
+          "document": "má bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6646777987480164,
+          "sparse_similarity": 0.12526153028011322,
+          "hybrid_score": 0.3949696719646454
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6595643758773804,
+          "sparse_similarity": 0.12762635946273804,
+          "hybrid_score": 0.3935953676700592
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "azithromycin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       884,
       896
-    ]
+    ],
+    "sentence": "Tuy nhiên, bệnh nhân không dung nạp amoxicillin do xuất hiện tiêu chảy nên được chuyển sang sử dụng [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020062",
+          "document": "má bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.638056755065918,
+          "sparse_similarity": 0.10405578464269638,
+          "hybrid_score": 0.3710562586784363
+        },
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6544702649116516,
+          "sparse_similarity": 0.08268003165721893,
+          "hybrid_score": 0.36857515573501587
+        },
+        {
+          "id": "isFamily_020059",
+          "document": "má bệnh nhân đã mắc [ENTITY].",
+          "dense_similarity": 0.6372150778770447,
+          "sparse_similarity": 0.09794431179761887,
+          "hybrid_score": 0.36757969856262207
+        }
+      ]
+    ],
+    "eng_translation": [
+      "azithromycin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "18631": 1.0,
+        "672606": 0.954285
+      },
+      "rapidfuzz": {
+        "18631": 1.0,
+        "1155012": 0.95,
+        "315450": 0.9
+      }
+    },
+    "candidate": {
+      "code": "18631",
+      "confidence": 1.0
+    }
   },
   {
     "text": "prednisone 40 mg",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       915,
       931
-    ]
+    ],
+    "sentence": "Bệnh nhân đã dùng [ENTITY]/ngày trong 3 ngày, sau đó giảm xuống 30 mg vào ngày trước nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020252",
+          "document": "khoảng 30 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7699165344238281,
+          "sparse_similarity": 0.26635295152664185,
+          "hybrid_score": 0.5181347131729126
+        },
+        {
+          "id": "isHistorical_001168",
+          "document": "30 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7661834955215454,
+          "sparse_similarity": 0.27000144124031067,
+          "hybrid_score": 0.5180924534797668
+        },
+        {
+          "id": "isHistorical_025204",
+          "document": "từ 30 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7680384516716003,
+          "sparse_similarity": 0.2658466398715973,
+          "hybrid_score": 0.51694256067276
+        }
+      ]
+    ],
+    "eng_translation": [
+      "prednisone 40 mg",
+      "Prednisolone 40 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "336584": 0.824488,
+        "643126": 0.820909,
+        "452820": 0.818964,
+        "330037": 0.814303,
+        "333210": 0.80525
+      },
+      "rapidfuzz": {
+        "643126": 0.944444,
+        "452820": 0.944444,
+        "316582": 0.9375,
+        "317663": 0.9375
+      }
+    },
+    "candidate": {
+      "code": "643126",
+      "confidence": 0.833263
+    }
   },
   {
     "text": "prednisone",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1010,
       1020
-    ]
+    ],
+    "sentence": "Sau liều [ENTITY] đầu tiên, bệnh nhân xuất hiện đau đầu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020058",
+          "document": "má bệnh nhân đã bị [ENTITY].",
+          "dense_similarity": 0.6789227724075317,
+          "sparse_similarity": 0.16368666291236877,
+          "hybrid_score": 0.42130470275878906
+        },
+        {
+          "id": "isFamily_020059",
+          "document": "má bệnh nhân đã mắc [ENTITY].",
+          "dense_similarity": 0.6739344596862793,
+          "sparse_similarity": 0.1661231815814972,
+          "hybrid_score": 0.42002880573272705
+        },
+        {
+          "id": "isFamily_020049",
+          "document": "má bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6746391654014587,
+          "sparse_similarity": 0.16283440589904785,
+          "hybrid_score": 0.4187367856502533
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Prednisone",
+      "Prednisolone"
+    ],
+    "retriever": {
+      "sapbert": {
+        "8638": 1.0,
+        "8640": 1.0,
+        "850451": 0.850804
+      },
+      "rapidfuzz": {
+        "8640": 1.0,
+        "8638": 1.0,
+        "333209": 0.95,
+        "29523": 0.909091
+      }
+    },
+    "candidate": {
+      "code": "8638",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau đầu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1051,
       1058
-    ]
+    ],
+    "sentence": "Sau liều prednisone đầu tiên, bệnh nhân xuất hiện [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006621",
+          "document": "bên ngoại của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7484151124954224,
+          "sparse_similarity": 0.19929799437522888,
+          "hybrid_score": 0.4738565683364868
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7445436120033264,
+          "sparse_similarity": 0.19317081570625305,
+          "hybrid_score": 0.4688572287559509
+        },
+        {
+          "id": "isFamily_024997",
+          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7484861016273499,
+          "sparse_similarity": 0.18745417892932892,
+          "hybrid_score": 0.4679701328277588
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Headache"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau đầu dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1143,
       1157
-    ]
+    ],
+    "sentence": "Đêm trước nhập viện, bệnh nhân xuất hiện [ENTITY], khò khè nhiều, nghe tiếng rít về đêm, mất ngủ và đau vùng hạ vị.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.7063193321228027,
+          "sparse_similarity": 0.18204240500926971,
+          "hybrid_score": 0.4441808760166168
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.7080627083778381,
+          "sparse_similarity": 0.17661453783512115,
+          "hybrid_score": 0.44233861565589905
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.7087782025337219,
+          "sparse_similarity": 0.17459650337696075,
+          "hybrid_score": 0.44168734550476074
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Severe headache",
+      "Severe cephalgia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khò khè nhiều",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1159,
       1172
-    ]
+    ],
+    "sentence": "Đêm trước nhập viện, bệnh nhân xuất hiện đau đầu dữ dội, [ENTITY], nghe tiếng rít về đêm, mất ngủ và đau vùng hạ vị.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.6975070834159851,
+          "sparse_similarity": 0.1716073751449585,
+          "hybrid_score": 0.4345572292804718
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.7012659311294556,
+          "sparse_similarity": 0.16434699296951294,
+          "hybrid_score": 0.43280646204948425
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6990717053413391,
+          "sparse_similarity": 0.1661396622657776,
+          "hybrid_score": 0.43260568380355835
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Wheezing present"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nghe tiếng rít về đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1174,
       1195
-    ]
+    ],
+    "sentence": "Đêm trước nhập viện, bệnh nhân xuất hiện đau đầu dữ dội, khò khè nhiều, [ENTITY], mất ngủ và đau vùng hạ vị.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.6958305835723877,
+          "sparse_similarity": 0.15244212746620178,
+          "hybrid_score": 0.42413634061813354
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.6868175268173218,
+          "sparse_similarity": 0.15944498777389526,
+          "hybrid_score": 0.4231312572956085
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6908406615257263,
+          "sparse_similarity": 0.15382163226604462,
+          "hybrid_score": 0.42233115434646606
+        }
+      ]
+    ],
+    "eng_translation": [
+      "nocturnal wheezing",
+      "nocturnal asthma"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất ngủ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1197,
       1204
-    ]
+    ],
+    "sentence": "Đêm trước nhập viện, bệnh nhân xuất hiện đau đầu dữ dội, khò khè nhiều, nghe tiếng rít về đêm, [ENTITY] và đau vùng hạ vị.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.6872541904449463,
+          "sparse_similarity": 0.17603982985019684,
+          "hybrid_score": 0.43164700269699097
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6872248649597168,
+          "sparse_similarity": 0.17044693231582642,
+          "hybrid_score": 0.4288358986377716
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.6887450814247131,
+          "sparse_similarity": 0.16855871677398682,
+          "hybrid_score": 0.42865189909935
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Insomnia",
+      "Sleep Disorder"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau vùng hạ vị",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1208,
       1222
-    ]
+    ],
+    "sentence": "Đêm trước nhập viện, bệnh nhân xuất hiện đau đầu dữ dội, khò khè nhiều, nghe tiếng rít về đêm, mất ngủ và [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.7301202416419983,
+          "sparse_similarity": 0.180775448679924,
+          "hybrid_score": 0.45544785261154175
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.7238448858261108,
+          "sparse_similarity": 0.1861623078584671,
+          "hybrid_score": 0.4550035893917084
+        },
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.730587899684906,
+          "sparse_similarity": 0.17866240441799164,
+          "hybrid_score": 0.4546251595020294
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain in the lower abdomen",
+      "Lower abdominal pain",
+      "abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1251,
       1258
-    ]
+    ],
+    "sentence": "Triệu chứng khi nhập viện:\n[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034243",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8520190119743347,
+          "sparse_similarity": 0.23576344549655914,
+          "hybrid_score": 0.5438912510871887
+        },
+        {
+          "id": "isHistorical_031841",
+          "document": "đã 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8294981718063354,
+          "sparse_similarity": 0.22848881781101227,
+          "hybrid_score": 0.5289934873580933
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.8236838579177856,
+          "sparse_similarity": 0.2328774482011795,
+          "hybrid_score": 0.5282806754112244
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Khò khè",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1260,
       1267
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Wheezing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tiếng rít về đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1269,
       1285
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Nocturnal stridor",
+      "Nocturnal stridor is a term used to describe a high-pitched, wheezing sound that occurs during sleep, typically due to upper airway obstruction. It is commonly associated with conditions such as laryngomalacia, subglottic stenosis, or tracheomalacia. The sound is often more prominent during inspiration and may be accompanied by signs of respiratory distress, such as retractions or cyanosis. Nocturnal stridor can be a sign of an underlying airway disorder and may require further evaluation, including a sleep study or imaging, to determine the cause and appropriate management."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đau vùng xoang",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1287,
       1301
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Sinus pain",
+      "Sinusitis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ho nhẹ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1303,
       1309
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Mild cough",
+      "Respiratory tract infection with mild cough"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đau đầu dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1311,
       1325
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Severe headache",
+      "Severe cephalgia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đau hạ vị",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1327,
       1336
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Lower abdominal pain",
+      "Abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "prednisone",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1444,
       1454
-    ]
+    ],
+    "sentence": "Được chỉ định [ENTITY] giảm liều và amoxicillin.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012340",
+          "document": "cách đây 1 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.7313007712364197,
+          "sparse_similarity": 0.08096230775117874,
+          "hybrid_score": 0.4061315357685089
+        },
+        {
+          "id": "isHistorical_012358",
+          "document": "cách đây 1 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.7370083928108215,
+          "sparse_similarity": 0.07517341524362564,
+          "hybrid_score": 0.4060909152030945
+        },
+        {
+          "id": "isHistorical_012628",
+          "document": "cách đây 2 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.7240350842475891,
+          "sparse_similarity": 0.07916176319122314,
+          "hybrid_score": 0.40159842371940613
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Prednisone",
+      "Prednisolone"
+    ],
+    "retriever": {
+      "sapbert": {
+        "8638": 1.0,
+        "8640": 1.0,
+        "850451": 0.850804
+      },
+      "rapidfuzz": {
+        "8640": 1.0,
+        "8638": 1.0,
+        "333209": 0.95,
+        "29523": 0.909091
+      }
+    },
+    "candidate": {
+      "code": "8638",
+      "confidence": 1.0
+    }
   },
   {
     "text": "amoxicillin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1468,
       1479
-    ]
+    ],
+    "sentence": "Được chỉ định prednisone giảm liều và [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000158",
+          "document": "kíp điều trị gợi ý [ENTITY].",
+          "dense_similarity": 0.7467225193977356,
+          "sparse_similarity": 0.08372865617275238,
+          "hybrid_score": 0.4152255952358246
+        },
+        {
+          "id": "isUncertain_000064",
+          "document": "bác sĩ gợi ý [ENTITY].",
+          "dense_similarity": 0.7266092300415039,
+          "sparse_similarity": 0.09738557040691376,
+          "hybrid_score": 0.41199740767478943
+        },
+        {
+          "id": "isHistorical_012340",
+          "document": "cách đây 1 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.7395599484443665,
+          "sparse_similarity": 0.0745406225323677,
+          "hybrid_score": 0.4070502817630768
+        }
+      ]
+    ],
+    "eng_translation": [
+      "amoxicillin",
+      "Amoxicillin is a penicillin-class antibiotic used to treat a variety of bacterial infections, including respiratory tract infections, urinary tract infections, skin infections, and ear infections. It works by killing bacteria or preventing their growth. Common side effects may include diarrhea, nausea, and rash. It is typically taken orally, either as a tablet, capsule, or liquid, and the dosage depends on the patient's age, weight, and the type of infection being treated. Amoxicillin is generally safe but may cause allergic reactions in individuals with a history of penicillin allergy."
+    ],
+    "retriever": {
+      "sapbert": {
+        "723": 1.0,
+        "352426": 0.923211,
+        "1358969": 0.782941,
+        "897049": 0.728732,
+        "1297882": 0.706395
+      },
+      "rapidfuzz": {
+        "723": 1.0,
+        "1152901": 0.95,
+        "2692880": 0.9,
+        "207193": 0.855,
+        "1744049": 0.855,
+        "1744003": 0.855
+      }
+    },
+    "candidate": {
+      "code": "723",
+      "confidence": 1.0
+    }
   },
   {
     "text": "amoxicillin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1487,
       1498
-    ]
+    ],
+    "sentence": "Ngừng [ENTITY] do tiêu chảy.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034242",
+          "document": "đã mắc [ENTITY].",
+          "dense_similarity": 0.7149662375450134,
+          "sparse_similarity": 0.1249011904001236,
+          "hybrid_score": 0.4199337065219879
+        },
+        {
+          "id": "isUncertain_000028",
+          "document": "[ENTITY] cần loại trừ.",
+          "dense_similarity": 0.7227687835693359,
+          "sparse_similarity": 0.11628515273332596,
+          "hybrid_score": 0.41952696442604065
+        },
+        {
+          "id": "isUncertain_000032",
+          "document": "[ENTITY] cần được loại trừ.",
+          "dense_similarity": 0.7220613360404968,
+          "sparse_similarity": 0.11632741242647171,
+          "hybrid_score": 0.41919437050819397
+        }
+      ]
+    ],
+    "eng_translation": [
+      "amoxicillin",
+      "Amoxicillin is a penicillin-class antibiotic used to treat a variety of bacterial infections, including respiratory tract infections, urinary tract infections, skin infections, and ear infections. It works by killing bacteria or preventing their growth. Common side effects may include diarrhea, nausea, and rash. It is typically taken orally, either as a tablet, capsule, or liquid, and the dosage depends on the patient's age, weight, and the type of infection being treated. Amoxicillin is generally safe but may cause allergic reactions in individuals with a history of penicillin allergy."
+    ],
+    "retriever": {
+      "sapbert": {
+        "723": 1.0,
+        "352426": 0.923211,
+        "1358969": 0.782941,
+        "897049": 0.728732,
+        "1297882": 0.706395
+      },
+      "rapidfuzz": {
+        "723": 1.0,
+        "1152901": 0.95,
+        "2692880": 0.9,
+        "207193": 0.855,
+        "1744049": 0.855,
+        "1744003": 0.855
+      }
+    },
+    "candidate": {
+      "code": "723",
+      "confidence": 1.0
+    }
   },
   {
     "text": "tiêu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1502,
       1506
-    ]
+    ],
+    "sentence": "Ngừng amoxicillin do [ENTITY] chảy.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000032",
+          "document": "[ENTITY] cần được loại trừ.",
+          "dense_similarity": 0.6895310878753662,
+          "sparse_similarity": 0.11411696672439575,
+          "hybrid_score": 0.401824027299881
+        },
+        {
+          "id": "isUncertain_000028",
+          "document": "[ENTITY] cần loại trừ.",
+          "dense_similarity": 0.686463475227356,
+          "sparse_similarity": 0.1144779622554779,
+          "hybrid_score": 0.4004707336425781
+        },
+        {
+          "id": "isUncertain_000065",
+          "document": "bác sĩ hướng đến [ENTITY].",
+          "dense_similarity": 0.6808891296386719,
+          "sparse_similarity": 0.11853788793087006,
+          "hybrid_score": 0.39971351623535156
+        }
+      ]
+    ],
+    "eng_translation": [
+      "No translation provided. The input text is incomplete or non-medical.",
+      "The input text is incomplete or non-medical."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1507,
       1511
-    ]
+    ],
+    "sentence": "Ngừng amoxicillin do tiêu [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000107",
+          "document": "cần loại trừ [ENTITY].",
+          "dense_similarity": 0.7139545679092407,
+          "sparse_similarity": 0.0886075422167778,
+          "hybrid_score": 0.40128105878829956
+        },
+        {
+          "id": "isUncertain_000032",
+          "document": "[ENTITY] cần được loại trừ.",
+          "dense_similarity": 0.6971558332443237,
+          "sparse_similarity": 0.09799780696630478,
+          "hybrid_score": 0.39757680892944336
+        },
+        {
+          "id": "isNegated_000288",
+          "document": "để loại trừ [ENTITY].",
+          "dense_similarity": 0.7107998132705688,
+          "sparse_similarity": 0.08400946110486984,
+          "hybrid_score": 0.39740464091300964
+        }
+      ]
+    ],
+    "eng_translation": [
+      "bleeding",
+      "Hemorrhage"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "azithromycin",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1539,
       1551
-    ]
+    ],
+    "sentence": "Chuyển sang điều trị bằng [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_009848",
+          "document": "[ENTITY] đã được điều trị.",
+          "dense_similarity": 0.8432945013046265,
+          "sparse_similarity": 0.33060672879219055,
+          "hybrid_score": 0.5869506001472473
+        },
+        {
+          "id": "isHistorical_034248",
+          "document": "đã điều trị [ENTITY].",
+          "dense_similarity": 0.8614580631256104,
+          "sparse_similarity": 0.289451003074646,
+          "hybrid_score": 0.5754545331001282
+        },
+        {
+          "id": "isHistorical_009844",
+          "document": "[ENTITY] đã điều trị khỏi.",
+          "dense_similarity": 0.8136056661605835,
+          "sparse_similarity": 0.3259440064430237,
+          "hybrid_score": 0.569774866104126
+        }
+      ]
+    ],
+    "eng_translation": [
+      "azithromycin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "18631": 1.0,
+        "672606": 0.954285
+      },
+      "rapidfuzz": {
+        "18631": 1.0,
+        "1155012": 0.95,
+        "315450": 0.9
+      }
+    },
+    "candidate": {
+      "code": "18631",
+      "confidence": 1.0
+    }
   },
   {
     "text": "prednisone 40 mg",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1561,
       1577
-    ]
+    ],
+    "sentence": "Đã dùng [ENTITY]/ngày trong 3 ngày, sau đó 30 mg vào ngày trước nhập viện.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_020252",
+          "document": "khoảng 30 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8081300854682922,
+          "sparse_similarity": 0.3017406761646271,
+          "hybrid_score": 0.5549353957176208
+        },
+        {
+          "id": "isHistorical_001168",
+          "document": "30 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7986904382705688,
+          "sparse_similarity": 0.30604174733161926,
+          "hybrid_score": 0.5523660778999329
+        },
+        {
+          "id": "isHistorical_030017",
+          "document": "vào 30 ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8000027537345886,
+          "sparse_similarity": 0.30352261662483215,
+          "hybrid_score": 0.5517627000808716
+        }
+      ]
+    ],
+    "eng_translation": [
+      "prednisone 40 mg",
+      "Prednisolone 40 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "336584": 0.824488,
+        "643126": 0.820909,
+        "452820": 0.818964,
+        "330037": 0.814303,
+        "333210": 0.80525
+      },
+      "rapidfuzz": {
+        "643126": 0.944444,
+        "452820": 0.944444,
+        "316582": 0.9375,
+        "317663": 0.9375
+      }
+    },
+    "candidate": {
+      "code": "643126",
+      "confidence": 0.833263
+    }
   },
   {
     "text": "Đau đầu dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1673,
       1687
-    ]
+    ],
+    "sentence": "Tình trạng ngay trước khi nhập viện:\n[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_022208",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.9148433208465576,
+          "sparse_similarity": 0.2597486674785614,
+          "hybrid_score": 0.5872960090637207
+        },
+        {
+          "id": "isHistorical_022209",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.9095677733421326,
+          "sparse_similarity": 0.2634211778640747,
+          "hybrid_score": 0.5864944458007812
+        },
+        {
+          "id": "isHistorical_022210",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.8888277411460876,
+          "sparse_similarity": 0.24934235215187073,
+          "hybrid_score": 0.5690850615501404
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Severe headache",
+      "Severe cephalgia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Khò khè nhiều",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1688,
       1701
-    ]
+    ],
+    "sentence": "[ENTITY], đặc biệt về đêm.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_000790",
+          "document": "[ENTITY] về phía bên nội.",
+          "dense_similarity": 0.7145972847938538,
+          "sparse_similarity": 0.1928350329399109,
+          "hybrid_score": 0.4537161588668823
+        },
+        {
+          "id": "isFamily_000789",
+          "document": "[ENTITY] về phía bên ngoại.",
+          "dense_similarity": 0.7125826478004456,
+          "sparse_similarity": 0.19468243420124054,
+          "hybrid_score": 0.45363253355026245
+        },
+        {
+          "id": "isUncertain_000026",
+          "document": "[ENTITY] có khả năng.",
+          "dense_similarity": 0.7124314904212952,
+          "sparse_similarity": 0.18995916843414307,
+          "hybrid_score": 0.4511953294277191
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Wheezing present"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1715,
       1718
-    ]
+    ],
+    "sentence": "Khò khè nhiều, đặc biệt về [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000190",
+          "document": "nghĩ nhiều đến [ENTITY].",
+          "dense_similarity": 0.7442755103111267,
+          "sparse_similarity": 0.17948895692825317,
+          "hybrid_score": 0.46188223361968994
+        },
+        {
+          "id": "isFamily_007030",
+          "document": "bên nội có người mắc [ENTITY].",
+          "dense_similarity": 0.7063906788825989,
+          "sparse_similarity": 0.08822846412658691,
+          "hybrid_score": 0.3973095715045929
+        },
+        {
+          "id": "isFamily_006943",
+          "document": "bên nội có người có [ENTITY].",
+          "dense_similarity": 0.6907557249069214,
+          "sparse_similarity": 0.10345294326543808,
+          "hybrid_score": 0.39710432291030884
+        }
+      ]
+    ],
+    "eng_translation": [
+      "night",
+      "Nighttime hyperhidrosis affecting the palms and soles, with no known underlying medical condition."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Mất ngủ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1720,
       1727
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Insomnia",
+      "Sleep Disorder"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đau hạ vị",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       1729,
       1738
-    ]
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_034239",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.26202908158302307,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789468050003,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Lower abdominal pain",
+      "Abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp x-quang",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
+    "pos": [
       1799,
       1811
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: [ENTITY] ngực không cho thấy bằng chứng của viêm phổi hoặc các đám mờ\n    Các thủ thuật đã thực hiện\n    - combivent nebs x3 every 20 minutes\n    - iv magnesium\n    - 30 mg of prednisone (total of 60 mg bổ sung hôm nay)\n    - lưu lượng đỉnh thở ra đo được từ 240 đến 260",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012933",
+          "document": "cách đây 30 tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5855274796485901,
+          "sparse_similarity": 0.1399880051612854,
+          "hybrid_score": 0.36275774240493774
+        },
+        {
+          "id": "isHistorical_012914",
+          "document": "cách đây 30 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5880586504936218,
+          "sparse_similarity": 0.12214170396327972,
+          "hybrid_score": 0.35510018467903137
+        },
+        {
+          "id": "isHistorical_001198",
+          "document": "30 tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.5854521989822388,
+          "sparse_similarity": 0.11310400068759918,
+          "hybrid_score": 0.3492780923843384
+        }
+      ]
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm phổi",
     "type": "CHẨN_ĐOÁN",
-    "position": [
+    "pos": [
       1847,
       1856
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực không cho thấy bằng chứng của [ENTITY] hoặc các đám mờ\n    Các thủ thuật đã thực hiện\n    - combivent nebs x3 every 20 minutes\n    - iv magnesium\n    - 30 mg of prednisone (total of 60 mg bổ sung hôm nay)\n    - lưu lượng đỉnh thở ra đo được từ 240 đến 260",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012934",
+          "document": "cách đây 30 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.5830602645874023,
+          "sparse_similarity": 0.0727849081158638,
+          "hybrid_score": 0.3279225826263428
+        },
+        {
+          "id": "isHistorical_012916",
+          "document": "cách đây 30 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.5809009671211243,
+          "sparse_similarity": 0.07492738217115402,
+          "hybrid_score": 0.32791417837142944
+        },
+        {
+          "id": "isHistorical_013726",
+          "document": "cách đây 60 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.5732681155204773,
+          "sparse_similarity": 0.08138878643512726,
+          "hybrid_score": 0.3273284435272217
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Pneumonia",
+      "Pulmonary infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "combivent",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1910,
       1919
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực không cho thấy bằng chứng của viêm phổi hoặc các đám mờ\n    Các thủ thuật đã thực hiện\n    - [ENTITY] nebs x3 every 20 minutes\n    - iv magnesium\n    - 30 mg of prednisone (total of 60 mg bổ sung hôm nay)\n    - lưu lượng đỉnh thở ra đo được từ 240 đến 260",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012916",
+          "document": "cách đây 30 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.5784615874290466,
+          "sparse_similarity": 0.06353908777236938,
+          "hybrid_score": 0.321000337600708
+        },
+        {
+          "id": "isHistorical_012934",
+          "document": "cách đây 30 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.5797410607337952,
+          "sparse_similarity": 0.06171230226755142,
+          "hybrid_score": 0.3207266926765442
+        },
+        {
+          "id": "isHistorical_013708",
+          "document": "cách đây 60 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.5676884055137634,
+          "sparse_similarity": 0.0723484680056572,
+          "hybrid_score": 0.3200184404850006
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Combivent",
+      "Combivent is a combination medication containing ipratropium and albuterol, used for the treatment of bronchospasm in patients with chronic obstructive pulmonary disease (COPD) or asthma.",
+      "Combination of ipratropium and albuterol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "151539": 1.0,
+        "214199": 0.933059,
+        "724851": 0.913771,
+        "1304137": 0.890892,
+        "2284638": 0.859669
+      },
+      "rapidfuzz": {
+        "151539": 1.0,
+        "1166889": 0.9,
+        "2284638": 0.9,
+        "7213": 0.9,
+        "7676": 0.9,
+        "435": 0.9,
+        "2743202": 0.855,
+        "2265849": 0.855,
+        "1441563": 0.855
+      }
+    },
+    "candidate": {
+      "code": "151539",
+      "confidence": 1.0
+    }
   },
   {
     "text": "prednisone",
     "type": "THUỐC",
-    "position": [
+    "pos": [
       1979,
       1989
-    ]
+    ],
+    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực không cho thấy bằng chứng của viêm phổi hoặc các đám mờ\n    Các thủ thuật đã thực hiện\n    - combivent nebs x3 every 20 minutes\n    - iv magnesium\n    - 30 mg of [ENTITY] (total of 60 mg bổ sung hôm nay)\n    - lưu lượng đỉnh thở ra đo được từ 240 đến 260",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_013726",
+          "document": "cách đây 60 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.5664315223693848,
+          "sparse_similarity": 0.08162210881710052,
+          "hybrid_score": 0.32402682304382324
+        },
+        {
+          "id": "isHistorical_013708",
+          "document": "cách đây 60 ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.5644817352294922,
+          "sparse_similarity": 0.08327914029359818,
+          "hybrid_score": 0.3238804340362549
+        },
+        {
+          "id": "isHistorical_012934",
+          "document": "cách đây 30 tuần được điều trị [ENTITY].",
+          "dense_similarity": 0.5718172788619995,
+          "sparse_similarity": 0.07488920539617538,
+          "hybrid_score": 0.32335323095321655
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Prednisone",
+      "Prednisolone"
+    ],
+    "retriever": {
+      "sapbert": {
+        "8638": 1.0,
+        "8640": 1.0,
+        "850451": 0.850804
+      },
+      "rapidfuzz": {
+        "8640": 1.0,
+        "8638": 1.0,
+        "333209": 0.95,
+        "29523": 0.909091
+      }
+    },
+    "candidate": {
+      "code": "8638",
+      "confidence": 1.0
+    }
   }
 ]

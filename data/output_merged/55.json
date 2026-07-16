@@ -2,33 +2,191 @@
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       42,
       45
-    ]
+    ],
+    "sentence": "Lịch sử bệnh hiện tại\nLý do nhập viện: [ENTITY], đau quanh vết mổ\nTriệu chứng hiện tại\n- sốt\n- đau quanh vết mổ\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6293908953666687,
+          "sparse_similarity": 0.1387123018503189,
+          "hybrid_score": 0.3840515911579132
+        },
+        {
+          "id": "isHistorical_012902",
+          "document": "cách đây 3 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6186447739601135,
+          "sparse_similarity": 0.1358618140220642,
+          "hybrid_score": 0.37725329399108887
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6213618516921997,
+          "sparse_similarity": 0.13144522905349731,
+          "hybrid_score": 0.3764035403728485
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau quanh vết mổ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       47,
       63
-    ]
+    ],
+    "sentence": "Lịch sử bệnh hiện tại\nLý do nhập viện: sốt, [ENTITY]\nTriệu chứng hiện tại\n- sốt\n- đau quanh vết mổ\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.644647479057312,
+          "sparse_similarity": 0.15646642446517944,
+          "hybrid_score": 0.4005569517612457
+        },
+        {
+          "id": "isHistorical_012902",
+          "document": "cách đây 3 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6299222707748413,
+          "sparse_similarity": 0.15311525762081146,
+          "hybrid_score": 0.391518771648407
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6338774561882019,
+          "sparse_similarity": 0.14811430871486664,
+          "hybrid_score": 0.39099588990211487
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain around the surgical incision site"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       87,
       90
-    ]
+    ],
+    "sentence": "Lịch sử bệnh hiện tại\nLý do nhập viện: sốt, đau quanh vết mổ\nTriệu chứng hiện tại\n- [ENTITY]\n- đau quanh vết mổ\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6426365971565247,
+          "sparse_similarity": 0.14933454990386963,
+          "hybrid_score": 0.39598557353019714
+        },
+        {
+          "id": "isHistorical_012902",
+          "document": "cách đây 3 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6325417160987854,
+          "sparse_similarity": 0.14627444744110107,
+          "hybrid_score": 0.38940808176994324
+        },
+        {
+          "id": "isHistorical_012908",
+          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6371673345565796,
+          "sparse_similarity": 0.1415386199951172,
+          "hybrid_score": 0.3893529772758484
+        }
+      ]
+    ],
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau quanh vết mổ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
+    "pos": [
       93,
       109
-    ]
+    ],
+    "sentence": "Lịch sử bệnh hiện tại\nLý do nhập viện: sốt, đau quanh vết mổ\nTriệu chứng hiện tại\n- sốt\n- [ENTITY]\n\n3.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_012890",
+          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6682524085044861,
+          "sparse_similarity": 0.17243988811969757,
+          "hybrid_score": 0.42034614086151123
+        },
+        {
+          "id": "isHistorical_012338",
+          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6499139070510864,
+          "sparse_similarity": 0.18222975730895996,
+          "hybrid_score": 0.4160718321800232
+        },
+        {
+          "id": "isHistorical_012902",
+          "document": "cách đây 3 tháng nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6566184759140015,
+          "sparse_similarity": 0.16887404024600983,
+          "hybrid_score": 0.41274625062942505
+        }
+      ]
+    ],
+    "eng_translation": [
+      "pain around the surgical incision site"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]
