@@ -129,7 +129,7 @@ if __name__ == "__main__":
                     candidate_codes = rxnorm_code,
                     top_k=3,
                 )
-            elif entity_type == "CHẨN ĐOÁN":
+            elif entity_type == "CHẨN_ĐOÁN":
                 entity["retriever"]["rapidfuzz"] = rapidfuzz_retrieval(
                     text_list = queries,
                     candidate_texts = icd10_text,

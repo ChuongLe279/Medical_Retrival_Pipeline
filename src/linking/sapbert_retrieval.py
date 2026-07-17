@@ -186,7 +186,7 @@ if __name__ == "__main__":
                     code_key="rxcui",
                     k=K,
                 )
-            elif entity_type == "CHẨN ĐOÁN":
+            elif entity_type == "CHẨN_ĐOÁN":
                 entity["retriever"]["sapbert"] = sapbert_retrieval(
                     vector_store=icd10_vector_store,
                     texts=queries,
