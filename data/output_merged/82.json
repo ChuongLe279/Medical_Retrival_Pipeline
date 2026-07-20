@@ -6,62 +6,11 @@
       48,
       60
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - [ENTITY] giai đoạn V do đái tháo đường và tăng huyết áp\n    - u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt \n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật cắt bỏ u dây thần kinh số VIII \n    - Đặt shunt động tĩnh mạch (AVF) ở tay phải (RUE AVF)\n    - Sinh thiết tuyến tiền liệt\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mạn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009845",
-          "document": "[ENTITY] đã điều trị trước đây.",
-          "dense_similarity": 0.5816159248352051,
-          "sparse_similarity": 0.1582421362400055,
-          "hybrid_score": 0.3699290156364441
-        },
-        {
-          "id": "isHistorical_002184",
-          "document": "5 năm trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5986676216125488,
-          "sparse_similarity": 0.11006675660610199,
-          "hybrid_score": 0.354367196559906
-        },
-        {
-          "id": "isHistorical_025716",
-          "document": "từ 5 năm trước được điều trị [ENTITY].",
-          "dense_similarity": 0.589287281036377,
-          "sparse_similarity": 0.11290775239467621,
-          "hybrid_score": 0.3510975241661072
-        }
-      ]
+    "assertion_position": [
+      36,
+      48
     ],
-    "eng_translation": [
-      "Chronic kidney disease",
-      "CKD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N189": 0.982146,
-        "N039": 0.781739,
-        "N186": 0.757736,
-        "N181": 0.744167,
-        "N1830": 0.681813
-      },
-      "rapidfuzz": {
-        "D631": 0.95,
-        "N181": 0.95,
-        "N1831": 0.95,
-        "I450": 0.72,
-        "I452": 0.72,
-        "I453": 0.72
-      }
-    },
-    "candidate": {
-      "code": "N189",
-      "confidence": 0.883931
-    }
+    "sentence": "[ENTITY] giai đoạn V do đái tháo đường và tăng huyết áp."
   },
   {
     "text": "đái tháo đường",
@@ -70,62 +19,11 @@
       76,
       90
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - Suy thận mạn giai đoạn V do [ENTITY] và tăng huyết áp\n    - u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt \n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật cắt bỏ u dây thần kinh số VIII \n    - Đặt shunt động tĩnh mạch (AVF) ở tay phải (RUE AVF)\n    - Sinh thiết tuyến tiền liệt\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6203197836875916,
-          "sparse_similarity": 0.23907442390918732,
-          "hybrid_score": 0.42969709634780884
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6202928423881531,
-          "sparse_similarity": 0.23317787051200867,
-          "hybrid_score": 0.4267353415489197
-        },
-        {
-          "id": "isFamily_026759",
-          "document": "tiền sử gia đình đang điều trị [ENTITY].",
-          "dense_similarity": 0.6198900938034058,
-          "sparse_similarity": 0.21804356575012207,
-          "hybrid_score": 0.4189668297767639
-        }
-      ]
+    "assertion_position": [
+      64,
+      78
     ],
-    "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
-        "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.757908
-    }
+    "sentence": "Suy thận mạn giai đoạn V do [ENTITY] và tăng huyết áp."
   },
   {
     "text": "tăng huyết áp",
@@ -134,62 +32,11 @@
       94,
       107
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - Suy thận mạn giai đoạn V do đái tháo đường và [ENTITY]\n    - u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt \n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật cắt bỏ u dây thần kinh số VIII \n    - Đặt shunt động tĩnh mạch (AVF) ở tay phải (RUE AVF)\n    - Sinh thiết tuyến tiền liệt\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009845",
-          "document": "[ENTITY] đã điều trị trước đây.",
-          "dense_similarity": 0.5850217938423157,
-          "sparse_similarity": 0.16526547074317932,
-          "hybrid_score": 0.3751436471939087
-        },
-        {
-          "id": "isHistorical_003768",
-          "document": "8 năm trước được điều trị [ENTITY].",
-          "dense_similarity": 0.58982914686203,
-          "sparse_similarity": 0.1177479475736618,
-          "hybrid_score": 0.3537885546684265
-        },
-        {
-          "id": "isHistorical_002184",
-          "document": "5 năm trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5949596762657166,
-          "sparse_similarity": 0.11128425598144531,
-          "hybrid_score": 0.35312196612358093
-        }
-      ]
+    "assertion_position": [
+      82,
+      95
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "Suy thận mạn giai đoạn V do đái tháo đường và [ENTITY]."
   },
   {
     "text": "mệt mỏi",
@@ -198,45 +45,11 @@
       387,
       394
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện:  [ENTITY], mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.647611141204834,
-          "sparse_similarity": 0.19939900934696198,
-          "hybrid_score": 0.4235050678253174
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6457708477973938,
-          "sparse_similarity": 0.1898985654115677,
-          "hybrid_score": 0.41783469915390015
-        },
-        {
-          "id": "isHistorical_012350",
-          "document": "cách đây 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6358322501182556,
-          "sparse_similarity": 0.190684512257576,
-          "hybrid_score": 0.4132583737373352
-        }
-      ]
+    "assertion_position": [
+      343,
+      350
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY], mất trí nhớ chi tiết."
   },
   {
     "text": "mất trí nhớ chi tiết",
@@ -245,47 +58,11 @@
       396,
       416
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, [ENTITY]\nBệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6390275359153748,
-          "sparse_similarity": 0.20120510458946228,
-          "hybrid_score": 0.4201163053512573
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.646057665348053,
-          "sparse_similarity": 0.19068992137908936,
-          "hybrid_score": 0.41837379336357117
-        },
-        {
-          "id": "isHistorical_031853",
-          "document": "đã 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6326066851615906,
-          "sparse_similarity": 0.1861116737127304,
-          "hybrid_score": 0.4093591868877411
-        }
-      ]
+    "assertion_position": [
+      352,
+      372
     ],
-    "eng_translation": [
-      "Memory loss details",
-      "Memory loss",
-      "Amnesia details"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: mệt mỏi, [ENTITY]."
   },
   {
     "text": "khó chịu",
@@ -294,45 +71,11 @@
       439,
       447
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy [ENTITY] mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6254253387451172,
-          "sparse_similarity": 0.19967734813690186,
-          "hybrid_score": 0.4125513434410095
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6344282627105713,
-          "sparse_similarity": 0.1897401660680771,
-          "hybrid_score": 0.4120842218399048
-        },
-        {
-          "id": "isHistorical_031853",
-          "document": "đã 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6272897720336914,
-          "sparse_similarity": 0.18502746522426605,
-          "hybrid_score": 0.4061586260795593
-        }
-      ]
+    "assertion_position": [
+      396,
+      404
     ],
-    "eng_translation": [
-      "discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân kể cảm thấy [ENTITY] mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức."
   },
   {
     "text": "mệt mỏi",
@@ -341,45 +84,11 @@
       448,
       455
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu [ENTITY] nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.634724497795105,
-          "sparse_similarity": 0.20039328932762146,
-          "hybrid_score": 0.4175589084625244
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6413136720657349,
-          "sparse_similarity": 0.19061516225337982,
-          "hybrid_score": 0.41596442461013794
-        },
-        {
-          "id": "isHistorical_031853",
-          "document": "đã 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6341349482536316,
-          "sparse_similarity": 0.18577152490615845,
-          "hybrid_score": 0.409953236579895
-        }
-      ]
+    "assertion_position": [
+      405,
+      412
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu [ENTITY] nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức."
   },
   {
     "text": "ăn không ngon miệng",
@@ -388,47 +97,11 @@
       463,
       482
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, [ENTITY], ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6369527578353882,
-          "sparse_similarity": 0.21213467419147491,
-          "hybrid_score": 0.42454370856285095
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6431113481521606,
-          "sparse_similarity": 0.20207816362380981,
-          "hybrid_score": 0.42259475588798523
-        },
-        {
-          "id": "isHistorical_031853",
-          "document": "đã 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6353453397750854,
-          "sparse_similarity": 0.19705170392990112,
-          "hybrid_score": 0.4161985218524933
-        }
-      ]
+    "assertion_position": [
+      420,
+      439
     ],
-    "eng_translation": [
-      "patient reports poor appetite",
-      "Poor appetite",
-      "Patient reports anorexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, [ENTITY], ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức."
   },
   {
     "text": "ngứa da toàn thân nhiều",
@@ -437,46 +110,11 @@
       484,
       507
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, [ENTITY], và mất trí nhớ chi tiết, khó thở khi gắng sức.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6265861988067627,
-          "sparse_similarity": 0.19286051392555237,
-          "hybrid_score": 0.40972334146499634
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6277821660041809,
-          "sparse_similarity": 0.1832120716571808,
-          "hybrid_score": 0.40549713373184204
-        },
-        {
-          "id": "isHistorical_012350",
-          "document": "cách đây 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.620525598526001,
-          "sparse_similarity": 0.18446974456310272,
-          "hybrid_score": 0.40249767899513245
-        }
-      ]
+    "assertion_position": [
+      441,
+      464
     ],
-    "eng_translation": [
-      "Generalized pruritus",
-      "Generalized itching"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, [ENTITY], và mất trí nhớ chi tiết, khó thở khi gắng sức."
   },
   {
     "text": "mất trí nhớ chi tiết",
@@ -485,47 +123,11 @@
       512,
       532
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và [ENTITY], khó thở khi gắng sức.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6294158697128296,
-          "sparse_similarity": 0.19007380306720734,
-          "hybrid_score": 0.40974482893943787
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6373831033706665,
-          "sparse_similarity": 0.18063265085220337,
-          "hybrid_score": 0.40900787711143494
-        },
-        {
-          "id": "isHistorical_031853",
-          "document": "đã 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6287654638290405,
-          "sparse_similarity": 0.17592230439186096,
-          "hybrid_score": 0.40234386920928955
-        }
-      ]
+    "assertion_position": [
+      469,
+      489
     ],
-    "eng_translation": [
-      "Memory loss details",
-      "Memory loss",
-      "Amnesia details"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và [ENTITY], khó thở khi gắng sức."
   },
   {
     "text": "khó thở khi gắng sức",
@@ -534,46 +136,11 @@
       534,
       554
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện:  mệt mỏi, mất trí nhớ chi tiết\nBệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6123206615447998,
-          "sparse_similarity": 0.18770691752433777,
-          "hybrid_score": 0.40001380443573
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6201866865158081,
-          "sparse_similarity": 0.17799025774002075,
-          "hybrid_score": 0.39908847212791443
-        },
-        {
-          "id": "isHistorical_031853",
-          "document": "đã 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6115126609802246,
-          "sparse_similarity": 0.17342723906040192,
-          "hybrid_score": 0.39246994256973267
-        }
-      ]
+    "assertion_position": [
+      491,
+      511
     ],
-    "eng_translation": [
-      "Dyspnea on exertion",
-      "Dyspnea on exertion is a common symptom that may indicate underlying cardiovascular or pulmonary conditions. It refers to shortness of breath that occurs during physical activity and typically resolves with rest. This symptom can be a sign of heart failure, coronary artery disease, chronic obstructive pulmonary disease (COPD), or other respiratory disorders. It is important to evaluate the cause of dyspnea on exertion through a thorough clinical assessment, including a detailed history, physical examination, and appropriate diagnostic testing such as an electrocardiogram (ECG), chest X-ray, or pulmonary function tests. Patients experiencing dyspnea on exertion should seek medical evaluation to determine the underlying cause and initiate appropriate management."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, [ENTITY]."
   },
   {
     "text": "buồn nôn",
@@ -582,46 +149,11 @@
       568,
       576
     ],
-    "sentence": "Tuần qua có [ENTITY], và nôn .",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012354",
-          "document": "cách đây 1 tuần bị [ENTITY].",
-          "dense_similarity": 0.8259708881378174,
-          "sparse_similarity": 0.09296237677335739,
-          "hybrid_score": 0.4594666361808777
-        },
-        {
-          "id": "isHistorical_000044",
-          "document": "1 tuần trước bị [ENTITY].",
-          "dense_similarity": 0.8274568319320679,
-          "sparse_similarity": 0.08687689900398254,
-          "hybrid_score": 0.457166850566864
-        },
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7965537905693054,
-          "sparse_similarity": 0.1170484721660614,
-          "hybrid_score": 0.4568011164665222
-        }
-      ]
+    "assertion_position": [
+      525,
+      533
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tuần qua có [ENTITY], và nôn."
   },
   {
     "text": "nôn",
@@ -630,46 +162,11 @@
       581,
       584
     ],
-    "sentence": "Tuần qua có buồn nôn, và [ENTITY] .",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7932616472244263,
-          "sparse_similarity": 0.09647670388221741,
-          "hybrid_score": 0.44486916065216064
-        },
-        {
-          "id": "isHistorical_000047",
-          "document": "1 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7954591512680054,
-          "sparse_similarity": 0.09407913684844971,
-          "hybrid_score": 0.44476914405822754
-        },
-        {
-          "id": "isHistorical_031857",
-          "document": "đã 1 tuần bị [ENTITY].",
-          "dense_similarity": 0.8026683926582336,
-          "sparse_similarity": 0.08425768464803696,
-          "hybrid_score": 0.4434630274772644
-        }
-      ]
+    "assertion_position": [
+      538,
+      541
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tuần qua có buồn nôn, và [ENTITY]."
   },
   {
     "text": "Mệt mỏi nhiều",
@@ -678,46 +175,11 @@
       628,
       641
     ],
-    "sentence": "Khám hiện tại thấy\nBệnh nhân tỉnhi\n    - [ENTITY]\n    - Ăn không ngon miệng\n    - Ngứa da toàn thân nhiều\n    - mất trí nhớ chi tiết\n    - khó thở khi gắng sức \n    - buồn nôn và nôn \nCận lâm sàng\n    - Kết quả xét nghiệm cho thấy creatinine tăng từ 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013419",
-          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6086050868034363,
-          "sparse_similarity": 0.06070607155561447,
-          "hybrid_score": 0.3346555829048157
-        },
-        {
-          "id": "isHistorical_032922",
-          "document": "đã 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6100890040397644,
-          "sparse_similarity": 0.05642169713973999,
-          "hybrid_score": 0.3332553505897522
-        },
-        {
-          "id": "isHistorical_013437",
-          "document": "cách đây 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6074545979499817,
-          "sparse_similarity": 0.0585087314248085,
-          "hybrid_score": 0.332981675863266
-        }
-      ]
+    "assertion_position": [
+      580,
+      593
     ],
-    "eng_translation": [
-      "Fatigue, multiple",
-      "Fatigue, multiple sclerosis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Ăn không ngon miệng",
@@ -726,46 +188,11 @@
       648,
       667
     ],
-    "sentence": "Khám hiện tại thấy\nBệnh nhân tỉnhi\n    - Mệt mỏi nhiều\n    - [ENTITY]\n    - Ngứa da toàn thân nhiều\n    - mất trí nhớ chi tiết\n    - khó thở khi gắng sức \n    - buồn nôn và nôn \nCận lâm sàng\n    - Kết quả xét nghiệm cho thấy creatinine tăng từ 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032922",
-          "document": "đã 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.618738055229187,
-          "sparse_similarity": 0.05423639342188835,
-          "hybrid_score": 0.3364872336387634
-        },
-        {
-          "id": "isHistorical_013419",
-          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.613856315612793,
-          "sparse_similarity": 0.0581585057079792,
-          "hybrid_score": 0.33600741624832153
-        },
-        {
-          "id": "isHistorical_032940",
-          "document": "đã 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6195283532142639,
-          "sparse_similarity": 0.052230753004550934,
-          "hybrid_score": 0.3358795642852783
-        }
-      ]
+    "assertion_position": [
+      595,
+      614
     ],
-    "eng_translation": [
-      "Loss of appetite",
-      "Anorexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Ngứa da toàn thân",
@@ -774,46 +201,11 @@
       674,
       691
     ],
-    "sentence": "Khám hiện tại thấy\nBệnh nhân tỉnhi\n    - Mệt mỏi nhiều\n    - Ăn không ngon miệng\n    - [ENTITY] nhiều\n    - mất trí nhớ chi tiết\n    - khó thở khi gắng sức \n    - buồn nôn và nôn \nCận lâm sàng\n    - Kết quả xét nghiệm cho thấy creatinine tăng từ 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025709",
-          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5974279642105103,
-          "sparse_similarity": 0.08280132710933685,
-          "hybrid_score": 0.34011465311050415
-        },
-        {
-          "id": "isHistorical_013419",
-          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6094503402709961,
-          "sparse_similarity": 0.06981465965509415,
-          "hybrid_score": 0.339632511138916
-        },
-        {
-          "id": "isHistorical_025727",
-          "document": "từ 5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.599139392375946,
-          "sparse_similarity": 0.0782235860824585,
-          "hybrid_score": 0.33868148922920227
-        }
-      ]
+    "assertion_position": [
+      616,
+      633
     ],
-    "eng_translation": [
-      "Pruritus of the entire skin surface",
-      "Generalized pruritus"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] nhiều."
   },
   {
     "text": "mất trí nhớ chi tiết",
@@ -822,47 +214,11 @@
       704,
       724
     ],
-    "sentence": "Khám hiện tại thấy\nBệnh nhân tỉnhi\n    - Mệt mỏi nhiều\n    - Ăn không ngon miệng\n    - Ngứa da toàn thân nhiều\n    - [ENTITY]\n    - khó thở khi gắng sức \n    - buồn nôn và nôn \nCận lâm sàng\n    - Kết quả xét nghiệm cho thấy creatinine tăng từ 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032922",
-          "document": "đã 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6173996329307556,
-          "sparse_similarity": 0.058690205216407776,
-          "hybrid_score": 0.3380449116230011
-        },
-        {
-          "id": "isHistorical_013419",
-          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6125682592391968,
-          "sparse_similarity": 0.06315021216869354,
-          "hybrid_score": 0.33785924315452576
-        },
-        {
-          "id": "isHistorical_032940",
-          "document": "đã 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6176220774650574,
-          "sparse_similarity": 0.05664766579866409,
-          "hybrid_score": 0.33713486790657043
-        }
-      ]
+    "assertion_position": [
+      641,
+      661
     ],
-    "eng_translation": [
-      "Memory loss details",
-      "Memory loss",
-      "Amnesia details"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó thở khi gắng sức",
@@ -871,46 +227,11 @@
       731,
       751
     ],
-    "sentence": "Khám hiện tại thấy\nBệnh nhân tỉnhi\n    - Mệt mỏi nhiều\n    - Ăn không ngon miệng\n    - Ngứa da toàn thân nhiều\n    - mất trí nhớ chi tiết\n    - [ENTITY] \n    - buồn nôn và nôn \nCận lâm sàng\n    - Kết quả xét nghiệm cho thấy creatinine tăng từ 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032922",
-          "document": "đã 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6293729543685913,
-          "sparse_similarity": 0.06310025602579117,
-          "hybrid_score": 0.34623661637306213
-        },
-        {
-          "id": "isHistorical_025709",
-          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.611891508102417,
-          "sparse_similarity": 0.0799553394317627,
-          "hybrid_score": 0.34592342376708984
-        },
-        {
-          "id": "isHistorical_013419",
-          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6217071413993835,
-          "sparse_similarity": 0.06770355999469757,
-          "hybrid_score": 0.34470534324645996
-        }
-      ]
+    "assertion_position": [
+      663,
+      683
     ],
-    "eng_translation": [
-      "Dyspnea on exertion",
-      "Dyspnea on exertion is a common symptom that may indicate underlying cardiovascular or pulmonary conditions. It refers to shortness of breath that occurs during physical activity and typically resolves with rest. This symptom can be a sign of heart failure, coronary artery disease, chronic obstructive pulmonary disease (COPD), or other respiratory disorders. It is important to evaluate the cause of dyspnea on exertion through a thorough clinical assessment, including a detailed history, physical examination, and appropriate diagnostic testing such as an electrocardiogram (ECG), chest X-ray, or pulmonary function tests. Patients experiencing dyspnea on exertion should seek medical evaluation to determine the underlying cause and initiate appropriate management."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "buồn nôn",
@@ -919,46 +240,11 @@
       759,
       767
     ],
-    "sentence": "Khám hiện tại thấy\nBệnh nhân tỉnhi\n    - Mệt mỏi nhiều\n    - Ăn không ngon miệng\n    - Ngứa da toàn thân nhiều\n    - mất trí nhớ chi tiết\n    - khó thở khi gắng sức \n    - [ENTITY] và nôn \nCận lâm sàng\n    - Kết quả xét nghiệm cho thấy creatinine tăng từ 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013419",
-          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6236163377761841,
-          "sparse_similarity": 0.06946583092212677,
-          "hybrid_score": 0.34654107689857483
-        },
-        {
-          "id": "isHistorical_032922",
-          "document": "đã 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6268636584281921,
-          "sparse_similarity": 0.06480544060468674,
-          "hybrid_score": 0.34583455324172974
-        },
-        {
-          "id": "isHistorical_032940",
-          "document": "đã 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6273231506347656,
-          "sparse_similarity": 0.06253289431333542,
-          "hybrid_score": 0.3449280261993408
-        }
-      ]
+    "assertion_position": [
+      685,
+      693
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] và nôn."
   },
   {
     "text": "nôn",
@@ -967,46 +253,11 @@
       771,
       774
     ],
-    "sentence": "Khám hiện tại thấy\nBệnh nhân tỉnhi\n    - Mệt mỏi nhiều\n    - Ăn không ngon miệng\n    - Ngứa da toàn thân nhiều\n    - mất trí nhớ chi tiết\n    - khó thở khi gắng sức \n    - buồn nôn và [ENTITY] \nCận lâm sàng\n    - Kết quả xét nghiệm cho thấy creatinine tăng từ 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013419",
-          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6205273866653442,
-          "sparse_similarity": 0.0626244992017746,
-          "hybrid_score": 0.34157595038414
-        },
-        {
-          "id": "isHistorical_032922",
-          "document": "đã 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6232010722160339,
-          "sparse_similarity": 0.059085600078105927,
-          "hybrid_score": 0.34114333987236023
-        },
-        {
-          "id": "isHistorical_032940",
-          "document": "đã 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6237115859985352,
-          "sparse_similarity": 0.056952737271785736,
-          "hybrid_score": 0.34033215045928955
-        }
-      ]
+    "assertion_position": [
+      697,
+      700
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "buồn nôn và [ENTITY]."
   },
   {
     "text": "creatinine",
@@ -1015,46 +266,11 @@
       823,
       833
     ],
-    "sentence": "Khám hiện tại thấy\nBệnh nhân tỉnhi\n    - Mệt mỏi nhiều\n    - Ăn không ngon miệng\n    - Ngứa da toàn thân nhiều\n    - mất trí nhớ chi tiết\n    - khó thở khi gắng sức \n    - buồn nôn và nôn \nCận lâm sàng\n    - Kết quả xét nghiệm cho thấy [ENTITY] tăng từ 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032934",
-          "document": "đã 5 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6746526956558228,
-          "sparse_similarity": 0.09873134642839432,
-          "hybrid_score": 0.38669201731681824
-        },
-        {
-          "id": "isHistorical_013419",
-          "document": "cách đây 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6653245091438293,
-          "sparse_similarity": 0.104990653693676,
-          "hybrid_score": 0.38515758514404297
-        },
-        {
-          "id": "isHistorical_025727",
-          "document": "từ 5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6549771428108215,
-          "sparse_similarity": 0.11475975811481476,
-          "hybrid_score": 0.38486844301223755
-        }
-      ]
+    "assertion_position": [
+      744,
+      754
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả xét nghiệm cho thấy [ENTITY] tăng từ 5."
   },
   {
     "text": "Ure",
@@ -1063,46 +279,10 @@
       885,
       888
     ],
-    "sentence": "3 mg/dl (460 - 557 umol/l) và \n  [ENTITY] tăng từ 69 lên 91 mg/dl ( 24.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_026831",
-          "document": "từ 91 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6492890119552612,
-          "sparse_similarity": 0.2007099986076355,
-          "hybrid_score": 0.42499950528144836
-        },
-        {
-          "id": "isHistorical_021879",
-          "document": "khoảng 91 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6508821845054626,
-          "sparse_similarity": 0.17439907789230347,
-          "hybrid_score": 0.41264063119888306
-        },
-        {
-          "id": "isHistorical_025181",
-          "document": "từ 3 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6567683815956116,
-          "sparse_similarity": 0.1648511290550232,
-          "hybrid_score": 0.4108097553253174
-        }
-      ]
+    "assertion_position": [
+      804,
+      807
     ],
-    "eng_translation": [
-      "Ure",
-      "Urethritis",
-      "Ure (if \"Ure\" is an abbreviation, it may stand for \"Ureter\" or \"Urethra\" depending on context, but without additional context, it cannot be definitively expanded. If it is not an abbreviation, it should remain as is.)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] tăng từ 69 lên 91 mg/dl ( 24."
   }
 ]

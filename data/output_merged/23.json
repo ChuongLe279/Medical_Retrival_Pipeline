@@ -6,62 +6,11 @@
       26,
       34
     ],
-    "sentence": "Tiền sử bệnh lý\n\nBệnh [ENTITY] do xơ vữa động mạch.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh lý bệnh [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.7660674452781677,
-          "sparse_similarity": 0.23789791762828827,
-          "hybrid_score": 0.5019826889038086
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.7316223978996277,
-          "sparse_similarity": 0.2531731128692627,
-          "hybrid_score": 0.4923977553844452
-        },
-        {
-          "id": "isFamily_007626",
-          "document": "bệnh sử gia đình được xác định mắc [ENTITY].",
-          "dense_similarity": 0.7335776090621948,
-          "sparse_similarity": 0.2421758770942688,
-          "hybrid_score": 0.4878767430782318
-        }
-      ]
+    "assertion_position": [
+      22,
+      30
     ],
-    "eng_translation": [
-      "Cardiology",
-      "Heart Disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I519": 0.983466,
-        "I5189": 0.757212,
-        "I099": 0.714408,
-        "C380": 0.712287,
-        "I429": 0.691771
-      },
-      "rapidfuzz": {
-        "O1012": 0.9,
-        "O10119": 0.9,
-        "O10113": 0.9,
-        "R570": 0.741176,
-        "I517": 0.727273,
-        "I970": 0.72
-      }
-    },
-    "candidate": {
-      "code": "I519",
-      "confidence": 0.885119
-    }
+    "sentence": "Bệnh [ENTITY] do xơ vữa động mạch."
   },
   {
     "text": "xơ vữa động mạch",
@@ -70,62 +19,11 @@
       38,
       54
     ],
-    "sentence": "Tiền sử bệnh lý\n\nBệnh tim mạch do [ENTITY].",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh lý bệnh tim mạch do [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.8000043630599976,
-          "sparse_similarity": 0.20814062654972076,
-          "hybrid_score": 0.5040724873542786
-        },
-        {
-          "id": "isFamily_007626",
-          "document": "bệnh sử gia đình được xác định mắc [ENTITY].",
-          "dense_similarity": 0.7731872797012329,
-          "sparse_similarity": 0.2113756239414215,
-          "hybrid_score": 0.492281436920166
-        },
-        {
-          "id": "isFamily_007460",
-          "document": "bệnh sử gia đình có [ENTITY].",
-          "dense_similarity": 0.7832615375518799,
-          "sparse_similarity": 0.20113559067249298,
-          "hybrid_score": 0.49219855666160583
-        }
-      ]
+    "assertion_position": [
+      34,
+      50
     ],
-    "eng_translation": [
-      "Atherosclerosis",
-      "Arteriosclerosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I7090": 0.960917,
-        "I7091": 0.846441,
-        "I700": 0.836473,
-        "I672": 0.751668,
-        "I708": 0.727376
-      },
-      "rapidfuzz": {
-        "I70743": 0.9,
-        "I70291": 0.9,
-        "I70269": 0.9,
-        "I7090": 0.812903,
-        "I7091": 0.812903,
-        "I70735": 0.812903
-      }
-    },
-    "candidate": {
-      "code": "I7090",
-      "confidence": 0.946116
-    }
+    "sentence": "Bệnh tim mạch do [ENTITY]."
   },
   {
     "text": "ăng huyết áp",
@@ -134,62 +32,11 @@
       56,
       68
     ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034239",
-          "document": "đã có [ENTITY].",
-          "dense_similarity": 0.8768635988235474,
-          "sparse_similarity": 0.26202908158302307,
-          "hybrid_score": 0.569446325302124
-        },
-        {
-          "id": "isFamily_009826",
-          "document": "chú có [ENTITY].",
-          "dense_similarity": 0.8590649366378784,
-          "sparse_similarity": 0.26176542043685913,
-          "hybrid_score": 0.5604151487350464
-        },
-        {
-          "id": "isFamily_000357",
-          "document": "[ENTITY] o me.",
-          "dense_similarity": 0.8685569167137146,
-          "sparse_similarity": 0.2289789468050003,
-          "hybrid_score": 0.5487679243087769
-        }
-      ]
+    "assertion_position": [
+      52,
+      64
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Đái tháo đường",
@@ -198,62 +45,11 @@
       89,
       103
     ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034239",
-          "document": "đã có [ENTITY].",
-          "dense_similarity": 0.8768635988235474,
-          "sparse_similarity": 0.26202908158302307,
-          "hybrid_score": 0.569446325302124
-        },
-        {
-          "id": "isFamily_009826",
-          "document": "chú có [ENTITY].",
-          "dense_similarity": 0.8590649366378784,
-          "sparse_similarity": 0.26176542043685913,
-          "hybrid_score": 0.5604151487350464
-        },
-        {
-          "id": "isFamily_000357",
-          "document": "[ENTITY] o me.",
-          "dense_similarity": 0.8685569167137146,
-          "sparse_similarity": 0.2289789468050003,
-          "hybrid_score": 0.5487679243087769
-        }
-      ]
+    "assertion_position": [
+      85,
+      99
     ],
-    "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
-        "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.757908
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Cơn rối loạn ý thức",
@@ -262,46 +58,11 @@
       132,
       151
     ],
-    "sentence": "Bệnh sử\nLý do vào viện: [ENTITY] thoáng qua, nghi ngờ cơn co giật.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7115247845649719,
-          "sparse_similarity": 0.15248985588550568,
-          "hybrid_score": 0.4320073127746582
-        },
-        {
-          "id": "isHistorical_034243",
-          "document": "đã nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6915411949157715,
-          "sparse_similarity": 0.15204566717147827,
-          "hybrid_score": 0.4217934310436249
-        },
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6980789303779602,
-          "sparse_similarity": 0.1417713761329651,
-          "hybrid_score": 0.41992515325546265
-        }
-      ]
+    "assertion_position": [
+      128,
+      147
     ],
-    "eng_translation": [
-      "Altered mental status",
-      "Altered level of consciousness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do vào viện: [ENTITY] thoáng qua, nghi ngờ cơn co giật."
   },
   {
     "text": "co giật",
@@ -310,46 +71,11 @@
       177,
       184
     ],
-    "sentence": "Bệnh sử\nLý do vào viện: Cơn rối loạn ý thức thoáng qua, nghi ngờ cơn [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000179",
-          "document": "lâm sàng nghi ngờ [ENTITY].",
-          "dense_similarity": 0.7117363214492798,
-          "sparse_similarity": 0.17678920924663544,
-          "hybrid_score": 0.4442627727985382
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7029424905776978,
-          "sparse_similarity": 0.1604917347431183,
-          "hybrid_score": 0.4317170977592468
-        },
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6998671293258667,
-          "sparse_similarity": 0.14923347532749176,
-          "hybrid_score": 0.42455029487609863
-        }
-      ]
+    "assertion_position": [
+      173,
+      180
     ],
-    "eng_translation": [
-      "Seizure",
-      "Epileptic seizure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do vào viện: Cơn rối loạn ý thức thoáng qua, nghi ngờ cơn [ENTITY]."
   },
   {
     "text": "xuất huyết dưới nhện",
@@ -358,62 +84,11 @@
       253,
       273
     ],
-    "sentence": "Khoảng 1 tháng trước nhập viện, bệnh nhân bị ngã và được chẩn đoán [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_024641",
-          "document": "từ 1 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.8497980237007141,
-          "sparse_similarity": 0.3047915995121002,
-          "hybrid_score": 0.5772948265075684
-        },
-        {
-          "id": "isHistorical_000035",
-          "document": "1 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.8534036874771118,
-          "sparse_similarity": 0.30051612854003906,
-          "hybrid_score": 0.5769599080085754
-        },
-        {
-          "id": "isHistorical_019689",
-          "document": "khoảng 1 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.8546048998832703,
-          "sparse_similarity": 0.29429370164871216,
-          "hybrid_score": 0.5744493007659912
-        }
-      ]
+    "assertion_position": [
+      249,
+      269
     ],
-    "eng_translation": [
-      "subarachnoid hemorrhage",
-      "SAH"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I609": 0.779369,
-        "P103": 0.69536,
-        "I69093": 0.672027,
-        "P525": 0.657628,
-        "I607": 0.651628
-      },
-      "rapidfuzz": {
-        "P103": 0.9,
-        "I6010": 0.9,
-        "I6011": 0.9,
-        "A0223": 0.72,
-        "A0222": 0.72,
-        "D869": 0.72
-      }
-    },
-    "candidate": {
-      "code": "P103",
-      "confidence": 0.715824
-    }
+    "sentence": "Khoảng 1 tháng trước nhập viện, bệnh nhân bị ngã và được chẩn đoán [ENTITY]."
   },
   {
     "text": "Chụp cắt lớp vi tính",
@@ -422,46 +97,11 @@
       275,
       295
     ],
-    "sentence": "[ENTITY] sọ não cho hình ảnh  xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.636982262134552,
-          "sparse_similarity": 0.07448408752679825,
-          "hybrid_score": 0.355733186006546
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6304116249084473,
-          "sparse_similarity": 0.07281116396188736,
-          "hybrid_score": 0.3516114056110382
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6176753044128418,
-          "sparse_similarity": 0.07970681041479111,
-          "hybrid_score": 0.34869104623794556
-        }
-      ]
+    "assertion_position": [
+      271,
+      291
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính."
   },
   {
     "text": "xuất huyết",
@@ -470,62 +110,11 @@
       317,
       327
     ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh  [ENTITY] dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6135968565940857,
-          "sparse_similarity": 0.07505054026842117,
-          "hybrid_score": 0.34432369470596313
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.613885760307312,
-          "sparse_similarity": 0.07329420000314713,
-          "hybrid_score": 0.34358999133110046
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5948886871337891,
-          "sparse_similarity": 0.08049130439758301,
-          "hybrid_score": 0.33768999576568604
-        }
-      ]
+    "assertion_position": [
+      312,
+      322
     ],
-    "eng_translation": [
-      "Hemorrhage",
-      "Bleeding"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D699": 0.854868,
-        "R58": 0.758272,
-        "K920": 0.707418,
-        "K922": 0.680014,
-        "N857": 0.658637
-      },
-      "rapidfuzz": {
-        "I69211": 0.9,
-        "S065XAS": 0.9,
-        "I69298": 0.9,
-        "N924": 0.9,
-        "N930": 0.9,
-        "N931": 0.9
-      }
-    },
-    "candidate": {
-      "code": "D699",
-      "confidence": 0.769381
-    }
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh [ENTITY] dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính."
   },
   {
     "text": "dưới",
@@ -534,47 +123,11 @@
       328,
       332
     ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh  xuất huyết [ENTITY] nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6040817499160767,
-          "sparse_similarity": 0.0793146938085556,
-          "hybrid_score": 0.34169822931289673
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5896549224853516,
-          "sparse_similarity": 0.07745013386011124,
-          "hybrid_score": 0.3335525393486023
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5782948732376099,
-          "sparse_similarity": 0.08610989898443222,
-          "hybrid_score": 0.33220237493515015
-        }
-      ]
+    "assertion_position": [
+      323,
+      327
     ],
-    "eng_translation": [
-      "dưới",
-      "The input provided is not a valid medical query. Please provide a complete medical question or statement for conversion.",
-      "The query provided is in Vietnamese and does not contain any medical content. Therefore, no rewrite is necessary."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết [ENTITY] nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính."
   },
   {
     "text": "nhện",
@@ -583,62 +136,11 @@
       333,
       337
     ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh  xuất huyết dưới [ENTITY] vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6037955284118652,
-          "sparse_similarity": 0.07127248495817184,
-          "hybrid_score": 0.33753401041030884
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5946662425994873,
-          "sparse_similarity": 0.06959331780672073,
-          "hybrid_score": 0.3321297764778137
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5726243257522583,
-          "sparse_similarity": 0.07759100943803787,
-          "hybrid_score": 0.3251076638698578
-        }
-      ]
+    "assertion_position": [
+      328,
+      332
     ],
-    "eng_translation": [
-      "spider",
-      "Spider bite"
-    ],
-    "retriever": {
-      "sapbert": {
-        "F40210": 0.523981,
-        "T63303A": 0.523272,
-        "Y93K1": 0.498323,
-        "F40218": 0.496566,
-        "T63393A": 0.495671
-      },
-      "rapidfuzz": {
-        "S30861S": 0.855,
-        "S20363S": 0.855,
-        "S20371A": 0.855,
-        "D501": 0.818182,
-        "H44329": 0.818182,
-        "H44323": 0.818182
-      }
-    },
-    "candidate": {
-      "code": "F40210",
-      "confidence": 0.471583
-    }
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới [ENTITY] vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính."
   },
   {
     "text": "bầm",
@@ -647,46 +149,11 @@
       354,
       357
     ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh  xuất huyết dưới nhện vùng trán phải, [ENTITY] dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5963191986083984,
-          "sparse_similarity": 0.06212521344423294,
-          "hybrid_score": 0.3292222023010254
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5880295038223267,
-          "sparse_similarity": 0.06070653349161148,
-          "hybrid_score": 0.32436802983283997
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5677369832992554,
-          "sparse_similarity": 0.06710430234670639,
-          "hybrid_score": 0.31742063164711
-        }
-      ]
+    "assertion_position": [
+      349,
+      352
     ],
-    "eng_translation": [
-      "bruise",
-      "Contusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, [ENTITY] dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính."
   },
   {
     "text": "nang màng nhện",
@@ -695,58 +162,11 @@
       484,
       498
     ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh  xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến [ENTITY] hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": "isUncertain",
-      "confidence": 1.0,
-      "evidence": "nghĩ nhiều đến [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6015000343322754,
-          "sparse_similarity": 0.0640726312994957,
-          "hybrid_score": 0.33278632164001465
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5924761295318604,
-          "sparse_similarity": 0.06262415647506714,
-          "hybrid_score": 0.32755014300346375
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.574970543384552,
-          "sparse_similarity": 0.06908808648586273,
-          "hybrid_score": 0.32202932238578796
-        }
-      ]
+    "assertion_position": [
+      479,
+      493
     ],
-    "eng_translation": [
-      "arachnoid cyst"
-    ],
-    "retriever": {
-      "sapbert": {
-        "G930": 0.728069,
-        "M8550": 0.685989,
-        "K048": 0.668928,
-        "Q046": 0.657648,
-        "L720": 0.648508
-      },
-      "rapidfuzz": {
-        "H35349": 0.855,
-        "H35343": 0.855,
-        "M71359": 0.855
-      }
-    },
-    "candidate": {
-      "code": "G930",
-      "confidence": 0.655262
-    }
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến [ENTITY] hoặc tụ dịch/tụ máu dưới màng cứng mạn tính."
   },
   {
     "text": "tụ dịch",
@@ -755,61 +175,11 @@
       504,
       511
     ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh  xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc [ENTITY]/tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6096776127815247,
-          "sparse_similarity": 0.06457681953907013,
-          "hybrid_score": 0.3371272087097168
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6010887622833252,
-          "sparse_similarity": 0.06308852136135101,
-          "hybrid_score": 0.3320886492729187
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5824886560440063,
-          "sparse_similarity": 0.0697038471698761,
-          "hybrid_score": 0.32609623670578003
-        }
-      ]
+    "assertion_position": [
+      499,
+      506
     ],
-    "eng_translation": [
-      "pleural effusion",
-      "Pleural fluid accumulation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J90": 0.830142,
-        "J910": 0.780088,
-        "J940": 0.752269,
-        "J942": 0.725819,
-        "J939": 0.681702
-      },
-      "rapidfuzz": {
-        "J918": 0.9,
-        "J90": 0.9,
-        "J910": 0.9,
-        "Z982": 0.855,
-        "Z4541": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J90",
-      "confidence": 0.837128
-    }
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc [ENTITY]/tụ máu dưới màng cứng mạn tính."
   },
   {
     "text": "tụ máu dưới màng cứng mạn tính",
@@ -818,62 +188,11 @@
       512,
       542
     ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh  xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/[ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5954142808914185,
-          "sparse_similarity": 0.06309806555509567,
-          "hybrid_score": 0.32925617694854736
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.586328387260437,
-          "sparse_similarity": 0.06160285323858261,
-          "hybrid_score": 0.3239656090736389
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5652242302894592,
-          "sparse_similarity": 0.06833363324403763,
-          "hybrid_score": 0.31677892804145813
-        }
-      ]
+    "assertion_position": [
+      507,
+      537
     ],
-    "eng_translation": [
-      "Chronic subdural hematoma",
-      "Chronic subdural effusion"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I6203": 0.870887,
-        "I6202": 0.733959,
-        "I6200": 0.721568,
-        "J9381": 0.675131,
-        "S065X0S": 0.672532
-      },
-      "rapidfuzz": {
-        "M12051": 0.855,
-        "I82501": 0.855,
-        "I82509": 0.855,
-        "M86521": 0.855,
-        "L97122": 0.855,
-        "L97123": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I6203",
-      "confidence": 0.783798
-    }
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/[ENTITY]."
   },
   {
     "text": "chụp CT",
@@ -882,46 +201,11 @@
       553,
       560
     ],
-    "sentence": "Các lần [ENTITY] theo dõi sau đó ổn định và bệnh nhân được xuất viện, hẹn tái khám chuyên khoa Ngoại thần kinh.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006633",
-          "document": "bên ngoại của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.686859130859375,
-          "sparse_similarity": 0.13958235085010529,
-          "hybrid_score": 0.41322073340415955
-        },
-        {
-          "id": "isHistorical_009846",
-          "document": "[ENTITY] đã điều trị ổn.",
-          "dense_similarity": 0.7040145397186279,
-          "sparse_similarity": 0.11440052092075348,
-          "hybrid_score": 0.4092075228691101
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6992967128753662,
-          "sparse_similarity": 0.10644949972629547,
-          "hybrid_score": 0.40287309885025024
-        }
-      ]
+    "assertion_position": [
+      547,
+      554
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các lần [ENTITY] theo dõi sau đó ổn định và bệnh nhân được xuất viện, hẹn tái khám chuyên khoa Ngoại thần kinh."
   },
   {
     "text": "đau đầu kéo dài",
@@ -930,46 +214,11 @@
       711,
       726
     ],
-    "sentence": "Sau xuất viện, bệnh nhân từng quay lại khoa Cấp cứu vì [ENTITY].",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng quay lại khoa cấp cứu vì [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034243",
-          "document": "đã nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7667309045791626,
-          "sparse_similarity": 0.20536081492900848,
-          "hybrid_score": 0.48604586720466614
-        },
-        {
-          "id": "isFamily_020054",
-          "document": "má bệnh nhân từng bị [ENTITY].",
-          "dense_similarity": 0.7369961738586426,
-          "sparse_similarity": 0.20970720052719116,
-          "hybrid_score": 0.47335168719291687
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7461668848991394,
-          "sparse_similarity": 0.19976696372032166,
-          "hybrid_score": 0.47296690940856934
-        }
-      ]
+    "assertion_position": [
+      705,
+      720
     ],
-    "eng_translation": [
-      "Chronic headache",
-      "Chronic migraine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Sau xuất viện, bệnh nhân từng quay lại khoa Cấp cứu vì [ENTITY]."
   },
   {
     "text": "tụ máu ngoài màng cứng",
@@ -978,62 +227,11 @@
       752,
       774
     ],
-    "sentence": "Chụp kiểm tra ghi nhận [ENTITY] phải cấp tính trên nền tổn thương mạn tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006646",
-          "document": "bên ngoại của người bệnh được ghi nhận [ENTITY].",
-          "dense_similarity": 0.7483279705047607,
-          "sparse_similarity": 0.1351684182882309,
-          "hybrid_score": 0.4417482018470764
-        },
-        {
-          "id": "isFamily_006632",
-          "document": "bên ngoại của bệnh nhân được ghi nhận [ENTITY].",
-          "dense_similarity": 0.7492421269416809,
-          "sparse_similarity": 0.13299550116062164,
-          "hybrid_score": 0.4411188066005707
-        },
-        {
-          "id": "isFamily_020061",
-          "document": "má bệnh nhân được ghi nhận [ENTITY].",
-          "dense_similarity": 0.7430466413497925,
-          "sparse_similarity": 0.1339712142944336,
-          "hybrid_score": 0.43850892782211304
-        }
-      ]
+    "assertion_position": [
+      745,
+      767
     ],
-    "eng_translation": [
-      "subdural hematoma",
-      "epidural hematoma"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I6200": 0.764453,
-        "I6203": 0.693005,
-        "I6202": 0.686921,
-        "I6201": 0.686897,
-        "I621": 0.674812
-      },
-      "rapidfuzz": {
-        "O717": 0.855,
-        "O902": 0.855,
-        "S065X2D": 0.855,
-        "H59331": 0.855,
-        "H59349": 0.855,
-        "H61121": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I6200",
-      "confidence": 0.688008
-    }
+    "sentence": "Chụp kiểm tra ghi nhận [ENTITY] phải cấp tính trên nền tổn thương mạn tính."
   },
   {
     "text": "chụp CT",
@@ -1042,46 +240,11 @@
       862,
       869
     ],
-    "sentence": "Bệnh nhân tiếp tục được theo dõi, các lần [ENTITY] kiểm tra không ghi nhận diễn tiến xấu nên được xuất viện về nhà.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009847",
-          "document": "[ENTITY] đã được chữa khỏi.",
-          "dense_similarity": 0.7433903813362122,
-          "sparse_similarity": 0.12176299095153809,
-          "hybrid_score": 0.4325766861438751
-        },
-        {
-          "id": "isHistorical_009846",
-          "document": "[ENTITY] đã điều trị ổn.",
-          "dense_similarity": 0.7760123014450073,
-          "sparse_similarity": 0.08664923906326294,
-          "hybrid_score": 0.43133077025413513
-        },
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.7235872745513916,
-          "sparse_similarity": 0.13435474038124084,
-          "hybrid_score": 0.42897099256515503
-        }
-      ]
+    "assertion_position": [
+      854,
+      861
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân tiếp tục được theo dõi, các lần [ENTITY] kiểm tra không ghi nhận diễn tiến xấu nên được xuất viện về nhà."
   },
   {
     "text": "đau đầu vùng thái dương",
@@ -1090,47 +253,11 @@
       1001,
       1024
     ],
-    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn [ENTITY] phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020107",
-          "document": "má của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6078583598136902,
-          "sparse_similarity": 0.14003051817417145,
-          "hybrid_score": 0.3739444315433502
-        },
-        {
-          "id": "isFamily_006633",
-          "document": "bên ngoại của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6074281334877014,
-          "sparse_similarity": 0.140306293964386,
-          "hybrid_score": 0.3738672137260437
-        },
-        {
-          "id": "isFamily_020151",
-          "document": "má người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.610092282295227,
-          "sparse_similarity": 0.12656718492507935,
-          "hybrid_score": 0.3683297336101532
-        }
-      ]
+    "assertion_position": [
+      993,
+      1016
     ],
-    "eng_translation": [
-      "Temporal headache",
-      "Primary headache disorder",
-      "Headache of the Temporal Region"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn [ENTITY] phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã."
   },
   {
     "text": "đầu",
@@ -1139,45 +266,11 @@
       1038,
       1041
     ],
-    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh [ENTITY], kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006633",
-          "document": "bên ngoại của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5685062408447266,
-          "sparse_similarity": 0.11838070303201675,
-          "hybrid_score": 0.34344348311424255
-        },
-        {
-          "id": "isFamily_006629",
-          "document": "bên ngoại của bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.5809336304664612,
-          "sparse_similarity": 0.0922776311635971,
-          "hybrid_score": 0.33660563826560974
-        },
-        {
-          "id": "isFamily_006620",
-          "document": "bên ngoại của bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5758108496665955,
-          "sparse_similarity": 0.09132750332355499,
-          "hybrid_score": 0.33356916904449463
-        }
-      ]
+    "assertion_position": [
+      1030,
+      1033
     ],
-    "eng_translation": [
-      "Headache"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh [ENTITY], kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã."
   },
   {
     "text": "tê bì nửa mặt phải",
@@ -1186,47 +279,11 @@
       1056,
       1074
     ],
-    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh đầu, kèm cảm giác [ENTITY], đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006633",
-          "document": "bên ngoại của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5868322253227234,
-          "sparse_similarity": 0.14001810550689697,
-          "hybrid_score": 0.3634251654148102
-        },
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5876894593238831,
-          "sparse_similarity": 0.1362161934375763,
-          "hybrid_score": 0.36195284128189087
-        },
-        {
-          "id": "isFamily_024997",
-          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5883065462112427,
-          "sparse_similarity": 0.12344405055046082,
-          "hybrid_score": 0.35587531328201294
-        }
-      ]
+    "assertion_position": [
+      1048,
+      1066
     ],
-    "eng_translation": [
-      "numbness on the right side of the face",
-      "Right facial numbness",
-      "Facial paresis on the right side"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh đầu, kèm cảm giác [ENTITY], đặc biệt vùng trán phải và da đầu phải từ sau lần ngã."
   },
   {
     "text": "tỉnh táo",
@@ -1235,45 +292,11 @@
       1175,
       1183
     ],
-    "sentence": "Ngày vào viện, buổi sáng bệnh nhân thức dậy [ENTITY], sinh hoạt bình thường, ăn sáng, đọc báo và sử dụng máy tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6749645471572876,
-          "sparse_similarity": 0.13318555057048798,
-          "hybrid_score": 0.4040750563144684
-        },
-        {
-          "id": "isFamily_020061",
-          "document": "má bệnh nhân được ghi nhận [ENTITY].",
-          "dense_similarity": 0.6776984930038452,
-          "sparse_similarity": 0.13029539585113525,
-          "hybrid_score": 0.40399694442749023
-        },
-        {
-          "id": "isFamily_024998",
-          "document": "thân nhân của người bệnh được ghi nhận [ENTITY].",
-          "dense_similarity": 0.6644539833068848,
-          "sparse_similarity": 0.14093297719955444,
-          "hybrid_score": 0.4026934802532196
-        }
-      ]
+    "assertion_position": [
+      1167,
+      1175
     ],
-    "eng_translation": [
-      "alert"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Ngày vào viện, buổi sáng bệnh nhân thức dậy [ENTITY], sinh hoạt bình thường, ăn sáng, đọc báo và sử dụng máy tính."
   },
   {
     "text": "mất định hướng",
@@ -1282,46 +305,11 @@
       1376,
       1390
     ],
-    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, [ENTITY], đi lại không vững và gần như ngất.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024987",
-          "document": "thân nhân của người bệnh có [ENTITY].",
-          "dense_similarity": 0.7627953886985779,
-          "sparse_similarity": 0.1880485862493515,
-          "hybrid_score": 0.4754219949245453
-        },
-        {
-          "id": "isFamily_021637",
-          "document": "người thân của bệnh nhân ghi nhận [ENTITY].",
-          "dense_similarity": 0.7654117941856384,
-          "sparse_similarity": 0.1785014420747757,
-          "hybrid_score": 0.47195661067962646
-        },
-        {
-          "id": "isFamily_024997",
-          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7808389663696289,
-          "sparse_similarity": 0.16138343513011932,
-          "hybrid_score": 0.4711112082004547
-        }
-      ]
+    "assertion_position": [
+      1367,
+      1381
     ],
-    "eng_translation": [
-      "loss of orientation",
-      "Disorientation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, [ENTITY], đi lại không vững và gần như ngất."
   },
   {
     "text": "đi lại không vững",
@@ -1330,46 +318,11 @@
       1392,
       1409
     ],
-    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, [ENTITY] và gần như ngất.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024985",
-          "document": "thân nhân của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.764351487159729,
-          "sparse_similarity": 0.20489658415317535,
-          "hybrid_score": 0.4846240282058716
-        },
-        {
-          "id": "isFamily_021647",
-          "document": "người thân của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.7681305408477783,
-          "sparse_similarity": 0.1953292191028595,
-          "hybrid_score": 0.4817298650741577
-        },
-        {
-          "id": "isFamily_024997",
-          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7788773775100708,
-          "sparse_similarity": 0.17281955480575562,
-          "hybrid_score": 0.4758484661579132
-        }
-      ]
+    "assertion_position": [
+      1383,
+      1400
     ],
-    "eng_translation": [
-      "unsteady gait",
-      "Ataxic gait"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, [ENTITY] và gần như ngất."
   },
   {
     "text": "ngất",
@@ -1378,46 +331,11 @@
       1421,
       1425
     ],
-    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, đi lại không vững và gần như [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024999",
-          "document": "thân nhân của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.7775331139564514,
-          "sparse_similarity": 0.22152815759181976,
-          "hybrid_score": 0.4995306432247162
-        },
-        {
-          "id": "isFamily_024985",
-          "document": "thân nhân của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.7789086103439331,
-          "sparse_similarity": 0.2106473743915558,
-          "hybrid_score": 0.49477797746658325
-        },
-        {
-          "id": "isFamily_021647",
-          "document": "người thân của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.7793350219726562,
-          "sparse_similarity": 0.2004954218864441,
-          "hybrid_score": 0.48991522192955017
-        }
-      ]
+    "assertion_position": [
+      1412,
+      1416
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, đi lại không vững và gần như [ENTITY]."
   },
   {
     "text": "mở mắt",
@@ -1426,45 +344,11 @@
       1442,
       1448
     ],
-    "sentence": "Bệnh nhân lúc [ENTITY], lúc nhắm mắt, nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_025018",
-          "document": "thân nhân đang mắc [ENTITY].",
-          "dense_similarity": 0.7039947509765625,
-          "sparse_similarity": 0.11951372027397156,
-          "hybrid_score": 0.4117542505264282
-        },
-        {
-          "id": "isFamily_025021",
-          "document": "thân nhân đã mắc [ENTITY].",
-          "dense_similarity": 0.6990739107131958,
-          "sparse_similarity": 0.11764192581176758,
-          "hybrid_score": 0.4083579182624817
-        },
-        {
-          "id": "isFamily_024981",
-          "document": "thân nhân của bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.700263261795044,
-          "sparse_similarity": 0.1127457395195961,
-          "hybrid_score": 0.4065045118331909
-        }
-      ]
+    "assertion_position": [
+      1432,
+      1438
     ],
-    "eng_translation": [
-      "open eyes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân lúc [ENTITY], lúc nhắm mắt, nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà."
   },
   {
     "text": "nhắm mắt",
@@ -1473,46 +357,11 @@
       1454,
       1462
     ],
-    "sentence": "Bệnh nhân lúc mở mắt, lúc [ENTITY], nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020094",
-          "document": "má của bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.7092958688735962,
-          "sparse_similarity": 0.10158464312553406,
-          "hybrid_score": 0.4054402709007263
-        },
-        {
-          "id": "isFamily_025018",
-          "document": "thân nhân đang mắc [ENTITY].",
-          "dense_similarity": 0.6981484889984131,
-          "sparse_similarity": 0.10934604704380035,
-          "hybrid_score": 0.4037472605705261
-        },
-        {
-          "id": "isFamily_020058",
-          "document": "má bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.7118905186653137,
-          "sparse_similarity": 0.09411095827817917,
-          "hybrid_score": 0.40300074219703674
-        }
-      ]
+    "assertion_position": [
+      1444,
+      1452
     ],
-    "eng_translation": [
-      "close eyes",
-      "Closing of the eyes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân lúc mở mắt, lúc [ENTITY], nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà."
   },
   {
     "text": "ngửa đầu ra sau",
@@ -1521,46 +370,11 @@
       1474,
       1489
     ],
-    "sentence": "Bệnh nhân lúc mở mắt, lúc nhắm mắt, nhiều lần [ENTITY] và không đáp ứng được các câu hỏi của người nhà.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_025022",
-          "document": "thân nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7099049091339111,
-          "sparse_similarity": 0.13202664256095886,
-          "hybrid_score": 0.4209657907485962
-        },
-        {
-          "id": "isFamily_025018",
-          "document": "thân nhân đang mắc [ENTITY].",
-          "dense_similarity": 0.7208714485168457,
-          "sparse_similarity": 0.12073416262865067,
-          "hybrid_score": 0.4208028018474579
-        },
-        {
-          "id": "isFamily_025021",
-          "document": "thân nhân đã mắc [ENTITY].",
-          "dense_similarity": 0.716389536857605,
-          "sparse_similarity": 0.11866971850395203,
-          "hybrid_score": 0.4175296425819397
-        }
-      ]
+    "assertion_position": [
+      1464,
+      1479
     ],
-    "eng_translation": [
-      "extension of the head backward",
-      "Cervical hyperextension"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân lúc mở mắt, lúc nhắm mắt, nhiều lần [ENTITY] và không đáp ứng được các câu hỏi của người nhà."
   },
   {
     "text": "tỉnh táo",
@@ -1569,45 +383,11 @@
       1802,
       1810
     ],
-    "sentence": "Khi nhân viên cấp cứu đến nơi, bệnh nhân bắt đầu [ENTITY] trở lại và hồi phục hoàn toàn về trạng thái ban đầu.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009840",
-          "document": "[ENTITY] đã hồi phục.",
-          "dense_similarity": 0.7612444162368774,
-          "sparse_similarity": 0.25595492124557495,
-          "hybrid_score": 0.5085996389389038
-        },
-        {
-          "id": "isHistorical_009842",
-          "document": "[ENTITY] đã phục hồi.",
-          "dense_similarity": 0.7573109269142151,
-          "sparse_similarity": 0.25701573491096497,
-          "hybrid_score": 0.5071633458137512
-        },
-        {
-          "id": "isFamily_005948",
-          "document": "bác của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.6836821436882019,
-          "sparse_similarity": 0.19483211636543274,
-          "hybrid_score": 0.4392571449279785
-        }
-      ]
+    "assertion_position": [
+      1789,
+      1797
     ],
-    "eng_translation": [
-      "alert"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khi nhân viên cấp cứu đến nơi, bệnh nhân bắt đầu [ENTITY] trở lại và hồi phục hoàn toàn về trạng thái ban đầu."
   },
   {
     "text": "run giật tay chân",
@@ -1616,45 +396,11 @@
       1889,
       1906
     ],
-    "sentence": "Bệnh nhân không ghi nhận [ENTITY], không cứng đờ, không cắn lưỡi và không tiểu tiện không tự chủ trong cơn.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không ghi nhận [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7472898960113525,
-          "sparse_similarity": 0.13372670114040375,
-          "hybrid_score": 0.44050830602645874
-        },
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.7053400278091431,
-          "sparse_similarity": 0.16195708513259888,
-          "hybrid_score": 0.43364855647087097
-        },
-        {
-          "id": "isNegated_000225",
-          "document": "không được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7299761772155762,
-          "sparse_similarity": 0.12969084084033966,
-          "hybrid_score": 0.4298335015773773
-        }
-      ]
+    "assertion_position": [
+      1876,
+      1893
     ],
-    "eng_translation": [
-      "Hyperekplexia (startle disease)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân không ghi nhận [ENTITY], không cứng đờ, không cắn lưỡi và không tiểu tiện không tự chủ trong cơn."
   },
   {
     "text": "cứng đờ",
@@ -1663,48 +409,11 @@
       1914,
       1921
     ],
-    "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không [ENTITY], không cắn lưỡi và không tiểu tiện không tự chủ trong cơn.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.723220944404602,
-          "sparse_similarity": 0.10992211848497391,
-          "hybrid_score": 0.4165715277194977
-        },
-        {
-          "id": "isNegated_000225",
-          "document": "không được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7021592855453491,
-          "sparse_similarity": 0.10300999134778976,
-          "hybrid_score": 0.40258464217185974
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.6948436498641968,
-          "sparse_similarity": 0.10638852417469025,
-          "hybrid_score": 0.4006160795688629
-        }
-      ]
+    "assertion_position": [
+      1901,
+      1908
     ],
-    "eng_translation": [
-      "Cứng đờ",
-      "Cứng đờ là một thuật ngữ không phải là thuật ngữ y khoa tiêu chuẩn. Nếu bạn đang mô tả tình trạng cứng đờ ở trẻ sơ sinh, thuật ngữ y khoa chính xác là \"cứng đờ sơ sinh\" (neonatal hypertonia). Nếu bạn có thêm thông tin chi tiết, tôi có thể giúp xác định chính xác hơn.",
-      "Cứng đờ is a Vietnamese term that translates to \"stiff neck\" in English. Since \"stiff neck\" is a common medical synonym for the condition described, the rewritten query would be: **Stiff neck**",
-      "Cứng đờ is not a standard medical abbreviation in English. If you meant to refer to a medical term in Vietnamese, please provide the English version of the query or clarify the context. If it's a typo or mistranslation, please let me know."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không [ENTITY], không cắn lưỡi và không tiểu tiện không tự chủ trong cơn."
   },
   {
     "text": "cắn lưỡi",
@@ -1713,47 +422,11 @@
       1929,
       1937
     ],
-    "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không [ENTITY] và không tiểu tiện không tự chủ trong cơn.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7338414788246155,
-          "sparse_similarity": 0.12444634735584259,
-          "hybrid_score": 0.42914390563964844
-        },
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.6694621443748474,
-          "sparse_similarity": 0.15055231750011444,
-          "hybrid_score": 0.4100072383880615
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.6963818073272705,
-          "sparse_similarity": 0.12002882361412048,
-          "hybrid_score": 0.4082053303718567
-        }
-      ]
+    "assertion_position": [
+      1916,
+      1924
     ],
-    "eng_translation": [
-      "lips biting",
-      "Biting of the lips",
-      "Lip biting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không [ENTITY] và không tiểu tiện không tự chủ trong cơn."
   },
   {
     "text": "tiểu tiện không tự chủ",
@@ -1762,46 +435,11 @@
       1947,
       1969
     ],
-    "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không cắn lưỡi và không [ENTITY] trong cơn.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7764102816581726,
-          "sparse_similarity": 0.14344248175621033,
-          "hybrid_score": 0.4599263668060303
-        },
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.7123681902885437,
-          "sparse_similarity": 0.1754409670829773,
-          "hybrid_score": 0.4439045786857605
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.7348307967185974,
-          "sparse_similarity": 0.13778597116470337,
-          "hybrid_score": 0.4363083839416504
-        }
-      ]
+    "assertion_position": [
+      1934,
+      1956
     ],
-    "eng_translation": [
-      "Incontinence of stool",
-      "Fecal incontinence"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không cắn lưỡi và không [ENTITY] trong cơn."
   },
   {
     "text": "Đau đầu vùng thái dương",
@@ -1810,46 +448,11 @@
       2008,
       2031
     ],
-    "sentence": "Triệu chứng khi nhập viện:\n[ENTITY] phải, đỉnh đầu, đôi khi lan ra sau mắt phải.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020149",
-          "document": "má người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7315477132797241,
-          "sparse_similarity": 0.0813692957162857,
-          "hybrid_score": 0.4064584970474243
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7270478010177612,
-          "sparse_similarity": 0.08040300756692886,
-          "hybrid_score": 0.40372541546821594
-        },
-        {
-          "id": "isFamily_020151",
-          "document": "má người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.721023440361023,
-          "sparse_similarity": 0.08503296971321106,
-          "hybrid_score": 0.4030281901359558
-        }
-      ]
+    "assertion_position": [
+      1995,
+      2018
     ],
-    "eng_translation": [
-      "Frontal headache",
-      "Frontal sinus headache"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] phải, đỉnh đầu, đôi khi lan ra sau mắt phải."
   },
   {
     "text": "Tê bì vùng trán",
@@ -1858,46 +461,11 @@
       2077,
       2092
     ],
-    "sentence": "[ENTITY] phải, da đầu phải và nửa mặt phải.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023726",
-          "document": "phía bên ngoại má có [ENTITY].",
-          "dense_similarity": 0.7663753628730774,
-          "sparse_similarity": 0.14348141849040985,
-          "hybrid_score": 0.4549283981323242
-        },
-        {
-          "id": "isFamily_000765",
-          "document": "[ENTITY] trên người má.",
-          "dense_similarity": 0.7552155256271362,
-          "sparse_similarity": 0.14900319278240204,
-          "hybrid_score": 0.45210936665534973
-        },
-        {
-          "id": "isFamily_024087",
-          "document": "phía bên nội có [ENTITY].",
-          "dense_similarity": 0.731242299079895,
-          "sparse_similarity": 0.15267355740070343,
-          "hybrid_score": 0.44195792078971863
-        }
-      ]
+    "assertion_position": [
+      2064,
+      2079
     ],
-    "eng_translation": [
-      "Tingling in the forehead area",
-      "Forehead numbness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] phải, da đầu phải và nửa mặt phải."
   },
   {
     "text": "đầu",
@@ -1906,45 +474,11 @@
       2102,
       2105
     ],
-    "sentence": "Tê bì vùng trán phải, da [ENTITY] phải và nửa mặt phải.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7115588188171387,
-          "sparse_similarity": 0.0731460452079773,
-          "hybrid_score": 0.392352432012558
-        },
-        {
-          "id": "isFamily_023738",
-          "document": "phía bên ngoại má được xác định mắc [ENTITY].",
-          "dense_similarity": 0.7104009389877319,
-          "sparse_similarity": 0.06471247971057892,
-          "hybrid_score": 0.38755670189857483
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7006465196609497,
-          "sparse_similarity": 0.071358323097229,
-          "hybrid_score": 0.38600242137908936
-        }
-      ]
+    "assertion_position": [
+      2089,
+      2092
     ],
-    "eng_translation": [
-      "Headache"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tê bì vùng trán phải, da [ENTITY] phải và nửa mặt phải."
   },
   {
     "text": "Cơn rối loạn ý thức",
@@ -1953,46 +487,11 @@
       2128,
       2147
     ],
-    "sentence": "[ENTITY] thoáng qua.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009843",
-          "document": "[ENTITY] đã qua.",
-          "dense_similarity": 0.8453249931335449,
-          "sparse_similarity": 0.3487715721130371,
-          "hybrid_score": 0.597048282623291
-        },
-        {
-          "id": "isHistorical_007813",
-          "document": "[ENTITY] trong qua khu.",
-          "dense_similarity": 0.8317044377326965,
-          "sparse_similarity": 0.2519091069698334,
-          "hybrid_score": 0.5418067574501038
-        },
-        {
-          "id": "isUncertain_000114",
-          "document": "dường như [ENTITY].",
-          "dense_similarity": 0.8069460391998291,
-          "sparse_similarity": 0.20432879030704498,
-          "hybrid_score": 0.5056374073028564
-        }
-      ]
+    "assertion_position": [
+      2115,
+      2134
     ],
-    "eng_translation": [
-      "Altered mental status",
-      "Altered level of consciousness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] thoáng qua."
   },
   {
     "text": "Mất định hướng",
@@ -2001,46 +500,11 @@
       2159,
       2173
     ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034239",
-          "document": "đã có [ENTITY].",
-          "dense_similarity": 0.8768635988235474,
-          "sparse_similarity": 0.26202908158302307,
-          "hybrid_score": 0.569446325302124
-        },
-        {
-          "id": "isFamily_009826",
-          "document": "chú có [ENTITY].",
-          "dense_similarity": 0.8590649366378784,
-          "sparse_similarity": 0.26176542043685913,
-          "hybrid_score": 0.5604151487350464
-        },
-        {
-          "id": "isFamily_000357",
-          "document": "[ENTITY] o me.",
-          "dense_similarity": 0.8685569167137146,
-          "sparse_similarity": 0.2289789468050003,
-          "hybrid_score": 0.5487679243087769
-        }
-      ]
+    "assertion_position": [
+      2146,
+      2160
     ],
-    "eng_translation": [
-      "Loss of orientation",
-      "Disorientation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Mất thăng bằng",
@@ -2049,46 +513,11 @@
       2175,
       2189
     ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034239",
-          "document": "đã có [ENTITY].",
-          "dense_similarity": 0.8768635988235474,
-          "sparse_similarity": 0.26202908158302307,
-          "hybrid_score": 0.569446325302124
-        },
-        {
-          "id": "isFamily_009826",
-          "document": "chú có [ENTITY].",
-          "dense_similarity": 0.8590649366378784,
-          "sparse_similarity": 0.26176542043685913,
-          "hybrid_score": 0.5604151487350464
-        },
-        {
-          "id": "isFamily_000357",
-          "document": "[ENTITY] o me.",
-          "dense_similarity": 0.8685569167137146,
-          "sparse_similarity": 0.2289789468050003,
-          "hybrid_score": 0.5487679243087769
-        }
-      ]
+    "assertion_position": [
+      2162,
+      2176
     ],
-    "eng_translation": [
-      "Loss of balance",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ngất",
@@ -2097,46 +526,11 @@
       2194,
       2198
     ],
-    "sentence": "Gần [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000114",
-          "document": "dường như [ENTITY].",
-          "dense_similarity": 0.8810516595840454,
-          "sparse_similarity": 0.19513140618801117,
-          "hybrid_score": 0.5380915403366089
-        },
-        {
-          "id": "isHistorical_034239",
-          "document": "đã có [ENTITY].",
-          "dense_similarity": 0.8399496078491211,
-          "sparse_similarity": 0.22321468591690063,
-          "hybrid_score": 0.5315821170806885
-        },
-        {
-          "id": "isUncertain_000105",
-          "document": "có vẻ [ENTITY].",
-          "dense_similarity": 0.8516395688056946,
-          "sparse_similarity": 0.18984685838222504,
-          "hybrid_score": 0.520743191242218
-        }
-      ]
+    "assertion_position": [
+      2181,
+      2185
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Gần [ENTITY]."
   },
   {
     "text": "táo",
@@ -2145,47 +539,11 @@
       2251,
       2254
     ],
-    "sentence": "Tình trạng trước nhập viện: Sau cơn bệnh nhân tỉnh [ENTITY] hoàn toàn, ý thức trở về mức nền ban đầu.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6940614581108093,
-          "sparse_similarity": 0.19408255815505981,
-          "hybrid_score": 0.44407200813293457
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6921709179878235,
-          "sparse_similarity": 0.18283838033676147,
-          "hybrid_score": 0.4375046491622925
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6904988884925842,
-          "sparse_similarity": 0.1807631105184555,
-          "hybrid_score": 0.43563100695610046
-        }
-      ]
+    "assertion_position": [
+      2238,
+      2241
     ],
-    "eng_translation": [
-      "Táo",
-      "Táo is not a valid medical query. Please provide a valid medical query in English.",
-      "Táo is not a medical abbreviation. The original query remains unchanged: Táo."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tình trạng trước nhập viện: Sau cơn bệnh nhân tỉnh [ENTITY] hoàn toàn, ý thức trở về mức nền ban đầu."
   },
   {
     "text": "mất định hướng",
@@ -2194,46 +552,11 @@
       2360,
       2374
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKhám lâm sàng:\nCó ghi nhận giai đoạn [ENTITY] và đi lại không vững theo lời kể người nhà.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000179",
-          "document": "lâm sàng nghi ngờ [ENTITY].",
-          "dense_similarity": 0.6987704634666443,
-          "sparse_similarity": 0.1535896360874176,
-          "hybrid_score": 0.42618006467819214
-        },
-        {
-          "id": "isFamily_024998",
-          "document": "thân nhân của người bệnh được ghi nhận [ENTITY].",
-          "dense_similarity": 0.673981785774231,
-          "sparse_similarity": 0.14059315621852875,
-          "hybrid_score": 0.40728747844696045
-        },
-        {
-          "id": "isFamily_024989",
-          "document": "thân nhân của người bệnh ghi nhận [ENTITY].",
-          "dense_similarity": 0.6750661730766296,
-          "sparse_similarity": 0.13428407907485962,
-          "hybrid_score": 0.40467512607574463
-        }
-      ]
+    "assertion_position": [
+      2345,
+      2359
     ],
-    "eng_translation": [
-      "loss of orientation",
-      "Disorientation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Có ghi nhận giai đoạn [ENTITY] và đi lại không vững theo lời kể người nhà."
   },
   {
     "text": "đi lại không vững",
@@ -2242,46 +565,11 @@
       2378,
       2395
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKhám lâm sàng:\nCó ghi nhận giai đoạn mất định hướng và [ENTITY] theo lời kể người nhà.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000176",
-          "document": "lâm sàng gợi ý [ENTITY].",
-          "dense_similarity": 0.68365478515625,
-          "sparse_similarity": 0.16656875610351562,
-          "hybrid_score": 0.4251117706298828
-        },
-        {
-          "id": "isUncertain_000179",
-          "document": "lâm sàng nghi ngờ [ENTITY].",
-          "dense_similarity": 0.6859451532363892,
-          "sparse_similarity": 0.15080533921718597,
-          "hybrid_score": 0.41837525367736816
-        },
-        {
-          "id": "isFamily_024997",
-          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6838396787643433,
-          "sparse_similarity": 0.10015586018562317,
-          "hybrid_score": 0.391997754573822
-        }
-      ]
+    "assertion_position": [
+      2363,
+      2380
     ],
-    "eng_translation": [
-      "unsteady gait",
-      "Ataxic gait"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Có ghi nhận giai đoạn mất định hướng và [ENTITY] theo lời kể người nhà."
   },
   {
     "text": "ngửa đầu ra sau",
@@ -2290,46 +578,11 @@
       2458,
       2473
     ],
-    "sentence": "Trong cơn có biểu hiện kích thích nhẹ, [ENTITY] và nhắm mắt từng lúc.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020139",
-          "document": "má người bệnh có [ENTITY].",
-          "dense_similarity": 0.6720462441444397,
-          "sparse_similarity": 0.09854310005903244,
-          "hybrid_score": 0.38529467582702637
-        },
-        {
-          "id": "isHistorical_009848",
-          "document": "[ENTITY] đã được điều trị.",
-          "dense_similarity": 0.6703083515167236,
-          "sparse_similarity": 0.09189415723085403,
-          "hybrid_score": 0.38110125064849854
-        },
-        {
-          "id": "isHistorical_031840",
-          "document": "đã 1 ngày mắc [ENTITY].",
-          "dense_similarity": 0.6747908592224121,
-          "sparse_similarity": 0.0778917670249939,
-          "hybrid_score": 0.376341313123703
-        }
-      ]
+    "assertion_position": [
+      2443,
+      2458
     ],
-    "eng_translation": [
-      "extension of the head backward",
-      "Cervical hyperextension"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Trong cơn có biểu hiện kích thích nhẹ, [ENTITY] và nhắm mắt từng lúc."
   },
   {
     "text": "nhắm mắt",
@@ -2338,46 +591,11 @@
       2477,
       2485
     ],
-    "sentence": "Trong cơn có biểu hiện kích thích nhẹ, ngửa đầu ra sau và [ENTITY] từng lúc.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034240",
-          "document": "đã có lần bị [ENTITY].",
-          "dense_similarity": 0.7019973993301392,
-          "sparse_similarity": 0.11234255880117416,
-          "hybrid_score": 0.40716996788978577
-        },
-        {
-          "id": "isHistorical_034241",
-          "document": "đã có lần mắc [ENTITY].",
-          "dense_similarity": 0.7015986442565918,
-          "sparse_similarity": 0.11177577823400497,
-          "hybrid_score": 0.4066872000694275
-        },
-        {
-          "id": "isFamily_007103",
-          "document": "bên nội có người đang mắc [ENTITY].",
-          "dense_similarity": 0.6836605072021484,
-          "sparse_similarity": 0.10466404259204865,
-          "hybrid_score": 0.39416226744651794
-        }
-      ]
+    "assertion_position": [
+      2462,
+      2470
     ],
-    "eng_translation": [
-      "close eyes",
-      "Closing of the eyes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Trong cơn có biểu hiện kích thích nhẹ, ngửa đầu ra sau và [ENTITY] từng lúc."
   },
   {
     "text": "co giật",
@@ -2386,46 +604,11 @@
       2511,
       2518
     ],
-    "sentence": "Không ghi nhận [ENTITY], cứng đờ, cắn lưỡi hoặc tiểu tiện không tự chủ.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không ghi nhận [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000027",
-          "document": "[ENTITY] không ghi nhận.",
-          "dense_similarity": 0.7009590268135071,
-          "sparse_similarity": 0.172492116689682,
-          "hybrid_score": 0.43672555685043335
-        },
-        {
-          "id": "isNegated_000130",
-          "document": "cấy nước tiểu không ghi nhận [ENTITY].",
-          "dense_similarity": 0.710802435874939,
-          "sparse_similarity": 0.15128657221794128,
-          "hybrid_score": 0.4310445189476013
-        },
-        {
-          "id": "isNegated_000212",
-          "document": "không ghi nhận [ENTITY].",
-          "dense_similarity": 0.6850161552429199,
-          "sparse_similarity": 0.15832144021987915,
-          "hybrid_score": 0.42166879773139954
-        }
-      ]
+    "assertion_position": [
+      2496,
+      2503
     ],
-    "eng_translation": [
-      "Seizure",
-      "Epileptic seizure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không ghi nhận [ENTITY], cứng đờ, cắn lưỡi hoặc tiểu tiện không tự chủ."
   },
   {
     "text": "cứng đờ",
@@ -2434,48 +617,11 @@
       2520,
       2527
     ],
-    "sentence": "Không ghi nhận co giật, [ENTITY], cắn lưỡi hoặc tiểu tiện không tự chủ.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7528827786445618,
-          "sparse_similarity": 0.08798940479755402,
-          "hybrid_score": 0.4204360842704773
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.7402535676956177,
-          "sparse_similarity": 0.08378024399280548,
-          "hybrid_score": 0.412016898393631
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.750317394733429,
-          "sparse_similarity": 0.06488852202892303,
-          "hybrid_score": 0.4076029658317566
-        }
-      ]
+    "assertion_position": [
+      2505,
+      2512
     ],
-    "eng_translation": [
-      "Cứng đờ",
-      "Cứng đờ là một thuật ngữ không phải là thuật ngữ y khoa tiêu chuẩn. Nếu bạn đang mô tả tình trạng cứng đờ ở trẻ sơ sinh, thuật ngữ y khoa chính xác là \"cứng đờ sơ sinh\" (neonatal hypertonia). Nếu bạn có thêm thông tin chi tiết, tôi có thể giúp xác định chính xác hơn.",
-      "Cứng đờ is a Vietnamese term that translates to \"stiff neck\" in English. Since \"stiff neck\" is a common medical synonym for the condition described, the rewritten query would be: **Stiff neck**",
-      "Cứng đờ is not a standard medical abbreviation in English. If you meant to refer to a medical term in Vietnamese, please provide the English version of the query or clarify the context. If it's a typo or mistranslation, please let me know."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không ghi nhận co giật, [ENTITY], cắn lưỡi hoặc tiểu tiện không tự chủ."
   },
   {
     "text": "cắn lưỡi",
@@ -2484,47 +630,11 @@
       2529,
       2537
     ],
-    "sentence": "Không ghi nhận co giật, cứng đờ, [ENTITY] hoặc tiểu tiện không tự chủ.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7567034959793091,
-          "sparse_similarity": 0.09110993146896362,
-          "hybrid_score": 0.42390671372413635
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.7381342053413391,
-          "sparse_similarity": 0.08603089302778244,
-          "hybrid_score": 0.4120825529098511
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7482084631919861,
-          "sparse_similarity": 0.0688801109790802,
-          "hybrid_score": 0.40854430198669434
-        }
-      ]
+    "assertion_position": [
+      2514,
+      2522
     ],
-    "eng_translation": [
-      "lips biting",
-      "Biting of the lips",
-      "Lip biting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không ghi nhận co giật, cứng đờ, [ENTITY] hoặc tiểu tiện không tự chủ."
   },
   {
     "text": "tiểu tiện không tự chủ",
@@ -2533,46 +643,11 @@
       2543,
       2565
     ],
-    "sentence": "Không ghi nhận co giật, cứng đờ, cắn lưỡi hoặc [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.8092696666717529,
-          "sparse_similarity": 0.10200383514165878,
-          "hybrid_score": 0.45563673973083496
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.8023366928100586,
-          "sparse_similarity": 0.09247629344463348,
-          "hybrid_score": 0.44740650057792664
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.7949875593185425,
-          "sparse_similarity": 0.0952262431383133,
-          "hybrid_score": 0.4451068937778473
-        }
-      ]
+    "assertion_position": [
+      2528,
+      2550
     ],
-    "eng_translation": [
-      "Incontinence of stool",
-      "Fecal incontinence"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không ghi nhận co giật, cứng đờ, cắn lưỡi hoặc [ENTITY]."
   },
   {
     "text": "CT",
@@ -2581,46 +656,11 @@
       2581,
       2583
     ],
-    "sentence": "Cận lâm sàng: [ENTITY] sọ não trước đó ghi nhận xuất huyết dưới nhện vùng trán phải.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7045514583587646,
-          "sparse_similarity": 0.061361294239759445,
-          "hybrid_score": 0.3829563856124878
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6989608407020569,
-          "sparse_similarity": 0.06619440019130707,
-          "hybrid_score": 0.3825776278972626
-        },
-        {
-          "id": "isFamily_006670",
-          "document": "bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6957191824913025,
-          "sparse_similarity": 0.06795238703489304,
-          "hybrid_score": 0.38183578848838806
-        }
-      ]
+    "assertion_position": [
+      2566,
+      2568
     ],
-    "eng_translation": [
-      "CT",
-      "Computed Tomography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Cận lâm sàng: [ENTITY] sọ não trước đó ghi nhận xuất huyết dưới nhện vùng trán phải."
   },
   {
     "text": "xuất huyết dưới nhện",
@@ -2629,62 +669,11 @@
       2609,
       2629
     ],
-    "sentence": "Cận lâm sàng: CT sọ não trước đó ghi nhận [ENTITY] vùng trán phải.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024172",
-          "document": "phía bên nội má được ghi nhận [ENTITY].",
-          "dense_similarity": 0.6893625259399414,
-          "sparse_similarity": 0.11981599032878876,
-          "hybrid_score": 0.4045892655849457
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7200644016265869,
-          "sparse_similarity": 0.08569848537445068,
-          "hybrid_score": 0.4028814435005188
-        },
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7160667181015015,
-          "sparse_similarity": 0.0798700600862503,
-          "hybrid_score": 0.3979683816432953
-        }
-      ]
+    "assertion_position": [
+      2594,
+      2614
     ],
-    "eng_translation": [
-      "subarachnoid hemorrhage",
-      "SAH"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I609": 0.779369,
-        "P103": 0.69536,
-        "I69093": 0.672027,
-        "P525": 0.657628,
-        "I607": 0.651628
-      },
-      "rapidfuzz": {
-        "P103": 0.9,
-        "I6010": 0.9,
-        "I6011": 0.9,
-        "A0223": 0.72,
-        "A0222": 0.72,
-        "D869": 0.72
-      }
-    },
-    "candidate": {
-      "code": "P103",
-      "confidence": 0.715824
-    }
+    "sentence": "Cận lâm sàng: CT sọ não trước đó ghi nhận [ENTITY] vùng trán phải."
   },
   {
     "text": "dập",
@@ -2693,47 +682,11 @@
       2649,
       2652
     ],
-    "sentence": "Bầm [ENTITY] nhu mô vùng trán phải và trán - thái dương phải.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024173",
-          "document": "phía bên nội má được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6782975792884827,
-          "sparse_similarity": 0.07318107783794403,
-          "hybrid_score": 0.37573933601379395
-        },
-        {
-          "id": "isFamily_023738",
-          "document": "phía bên ngoại má được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6746765971183777,
-          "sparse_similarity": 0.07251404225826263,
-          "hybrid_score": 0.37359532713890076
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6663942337036133,
-          "sparse_similarity": 0.07714879512786865,
-          "hybrid_score": 0.37177151441574097
-        }
-      ]
+    "assertion_position": [
+      2634,
+      2637
     ],
-    "eng_translation": [
-      "dập",
-      "Dampness",
-      "Trauma"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bầm [ENTITY] nhu mô vùng trán phải và trán - thái dương phải."
   },
   {
     "text": "nang màng nhện",
@@ -2742,58 +695,11 @@
       2760,
       2774
     ],
-    "sentence": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ đến [ENTITY] hoặc tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6554319858551025,
-          "sparse_similarity": 0.07078386843204498,
-          "hybrid_score": 0.36310791969299316
-        },
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6535923480987549,
-          "sparse_similarity": 0.07247266173362732,
-          "hybrid_score": 0.3630325198173523
-        },
-        {
-          "id": "isFamily_001062",
-          "document": "[ENTITY] ở má của người bệnh.",
-          "dense_similarity": 0.6521860361099243,
-          "sparse_similarity": 0.0649491474032402,
-          "hybrid_score": 0.35856759548187256
-        }
-      ]
+    "assertion_position": [
+      2745,
+      2759
     ],
-    "eng_translation": [
-      "arachnoid cyst"
-    ],
-    "retriever": {
-      "sapbert": {
-        "G930": 0.728069,
-        "M8550": 0.685989,
-        "K048": 0.668928,
-        "Q046": 0.657648,
-        "L720": 0.648508
-      },
-      "rapidfuzz": {
-        "H35349": 0.855,
-        "H35343": 0.855,
-        "M71359": 0.855
-      }
-    },
-    "candidate": {
-      "code": "G930",
-      "confidence": 0.655262
-    }
+    "sentence": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ đến [ENTITY] hoặc tụ máu dưới màng cứng mạn tính."
   },
   {
     "text": "tụ máu dưới màng cứng mạn tính",
@@ -2802,62 +708,11 @@
       2780,
       2810
     ],
-    "sentence": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ đến nang màng nhện hoặc [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023736",
-          "document": "phía bên ngoại má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6649317145347595,
-          "sparse_similarity": 0.07892948389053345,
-          "hybrid_score": 0.3719305992126465
-        },
-        {
-          "id": "isFamily_024173",
-          "document": "phía bên nội má được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6696719527244568,
-          "sparse_similarity": 0.07278475165367126,
-          "hybrid_score": 0.37122833728790283
-        },
-        {
-          "id": "isFamily_024171",
-          "document": "phía bên nội má được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6648800373077393,
-          "sparse_similarity": 0.0770232230424881,
-          "hybrid_score": 0.3709516227245331
-        }
-      ]
+    "assertion_position": [
+      2765,
+      2795
     ],
-    "eng_translation": [
-      "Chronic subdural hematoma",
-      "Chronic subdural effusion"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I6203": 0.870887,
-        "I6202": 0.733959,
-        "I6200": 0.721568,
-        "J9381": 0.675131,
-        "S065X0S": 0.672532
-      },
-      "rapidfuzz": {
-        "M12051": 0.855,
-        "I82501": 0.855,
-        "I82509": 0.855,
-        "M86521": 0.855,
-        "L97122": 0.855,
-        "L97123": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I6203",
-      "confidence": 0.783798
-    }
+    "sentence": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ đến nang màng nhện hoặc [ENTITY]."
   },
   {
     "text": "Tụ máu ngoài màng cứng phải",
@@ -2866,65 +721,10 @@
       2811,
       2838
     ],
-    "sentence": "[ENTITY] cấp tính trên nền tổn thương mạn tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_000668",
-          "document": "[ENTITY] trên chú ruột của bệnh nhân.",
-          "dense_similarity": 0.7511879205703735,
-          "sparse_similarity": 0.1600954234600067,
-          "hybrid_score": 0.4556416869163513
-        },
-        {
-          "id": "isFamily_000669",
-          "document": "[ENTITY] trên chú ruột của người bệnh.",
-          "dense_similarity": 0.7554215788841248,
-          "sparse_similarity": 0.15498220920562744,
-          "hybrid_score": 0.4552018940448761
-        },
-        {
-          "id": "isFamily_000623",
-          "document": "[ENTITY] trên ba của bệnh nhân.",
-          "dense_similarity": 0.7513030767440796,
-          "sparse_similarity": 0.154946431517601,
-          "hybrid_score": 0.4531247615814209
-        }
-      ]
+    "assertion_position": [
+      2796,
+      2823
     ],
-    "eng_translation": [
-      "Subdural hematoma, right side",
-      "Subdural hematoma, right-sided",
-      "Subdural hemorrhage, right side"
-    ],
-    "retriever": {
-      "sapbert": {
-        "M93251": 0.605993,
-        "R92331": 0.581396,
-        "M93241": 0.563238,
-        "I6202": 0.562993,
-        "I6200": 0.555067
-      },
-      "rapidfuzz": {
-        "S82201D": 0.855,
-        "S62521S": 0.855,
-        "T84190A": 0.855,
-        "S80241D": 0.855,
-        "S49141A": 0.855,
-        "S49141D": 0.855,
-        "S06347A": 0.855,
-        "S0461XA": 0.855,
-        "S0460XS": 0.855
-      }
-    },
-    "candidate": {
-      "code": "M93251",
-      "confidence": 0.545394
-    }
+    "sentence": "[ENTITY] cấp tính trên nền tổn thương mạn tính."
   }
 ]

@@ -6,62 +6,11 @@
       34,
       47
     ],
-    "sentence": "Tiền sử bệnh\nBệnh lý mãn tính: [ENTITY]\nThuốc trước khi nhập viện: aspirin 325mg hằng ngày\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6531401872634888,
-          "sparse_similarity": 0.23205578327178955,
-          "hybrid_score": 0.44259798526763916
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6479642987251282,
-          "sparse_similarity": 0.2270832359790802,
-          "hybrid_score": 0.4375237822532654
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6425815224647522,
-          "sparse_similarity": 0.2281673550605774,
-          "hybrid_score": 0.4353744387626648
-        }
-      ]
+    "assertion_position": [
+      32,
+      45
     ],
-    "eng_translation": [
-      "vascular disease",
-      "Cardiovascular disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I519": 0.861471,
-        "I739": 0.801571,
-        "I999": 0.745403,
-        "I679": 0.741166,
-        "I259": 0.66817
-      },
-      "rapidfuzz": {
-        "G468": 0.9,
-        "I69933": 0.9,
-        "I69934": 0.9,
-        "C946": 0.855,
-        "I289": 0.855,
-        "I279": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I519",
-      "confidence": 0.775324
-    }
+    "sentence": "Bệnh lý mãn tính: [ENTITY]."
   },
   {
     "text": "aspirin 325mg",
@@ -70,64 +19,11 @@
       75,
       88
     ],
-    "sentence": "Tiền sử bệnh\nBệnh lý mãn tính: bệnh mạch máu\nThuốc trước khi nhập viện: [ENTITY] hằng ngày\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6659924983978271,
-          "sparse_similarity": 0.238692507147789,
-          "hybrid_score": 0.45234251022338867
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6784878969192505,
-          "sparse_similarity": 0.18906472623348236,
-          "hybrid_score": 0.433776319026947
-        },
-        {
-          "id": "isHistorical_024918",
-          "document": "từ 2 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.674064576625824,
-          "sparse_similarity": 0.1407639980316162,
-          "hybrid_score": 0.4074142873287201
-        }
-      ]
+    "assertion_position": [
+      74,
+      87
     ],
-    "eng_translation": [
-      "aspirin 325mg",
-      "Aspirin 325 mg",
-      "Acetylsalicylic acid 325mg",
-      "aspirin 325 milligrams"
-    ],
-    "retriever": {
-      "sapbert": {
-        "572393": 0.974495,
-        "572203": 0.96399,
-        "572210": 0.962723,
-        "2563424": 0.96112,
-        "574308": 0.959
-      },
-      "rapidfuzz": {
-        "317300": 1.0,
-        "329295": 0.962963,
-        "335953": 0.928571,
-        "9525": 0.9,
-        "1437977": 0.855,
-        "1810999": 0.855
-      }
-    },
-    "candidate": {
-      "code": "572393",
-      "confidence": 0.877046
-    }
+    "sentence": "Thuốc trước khi nhập viện: [ENTITY] hằng ngày."
   },
   {
     "text": "chụp ct",
@@ -136,46 +32,11 @@
       224,
       231
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả khám thực thể: Không có rối loạn thần kinh\nKết quả chẩn đoán hình ảnh: [ENTITY] sọ não không thuốc cản quang Hình ảnh  khối máu tụ dưới màng cứng bán cấp hai bên\nCác thủ thuật đã thực hiện: chụp ct sọ não không thuốc cản quang",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5895900726318359,
-          "sparse_similarity": 0.1305963695049286,
-          "hybrid_score": 0.36009323596954346
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5836865305900574,
-          "sparse_similarity": 0.13576510548591614,
-          "hybrid_score": 0.35972583293914795
-        },
-        {
-          "id": "isFamily_007189",
-          "document": "bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5839141607284546,
-          "sparse_similarity": 0.13402481377124786,
-          "hybrid_score": 0.35896947979927063
-        }
-      ]
+    "assertion_position": [
+      221,
+      228
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] sọ não không thuốc cản quang Hình ảnh khối máu tụ dưới màng cứng bán cấp hai bên."
   },
   {
     "text": "chụp ct",
@@ -184,45 +45,10 @@
       342,
       349
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả khám thực thể: Không có rối loạn thần kinh\nKết quả chẩn đoán hình ảnh: chụp ct sọ não không thuốc cản quang Hình ảnh  khối máu tụ dưới màng cứng bán cấp hai bên\nCác thủ thuật đã thực hiện: [ENTITY] sọ não không thuốc cản quang",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5722041726112366,
-          "sparse_similarity": 0.12056535482406616,
-          "hybrid_score": 0.34638476371765137
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5785512924194336,
-          "sparse_similarity": 0.11414507776498795,
-          "hybrid_score": 0.34634819626808167
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5623985528945923,
-          "sparse_similarity": 0.12509208917617798,
-          "hybrid_score": 0.34374532103538513
-        }
-      ]
+    "assertion_position": [
+      339,
+      346
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các thủ thuật đã thực hiện: [ENTITY] sọ não không thuốc cản quang."
   }
 ]

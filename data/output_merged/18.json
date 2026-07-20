@@ -6,62 +6,11 @@
       63,
       96
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh mãn tính: nữ, nhiều lần [ENTITY] ở chân trái\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.7251602411270142,
-          "sparse_similarity": 0.2291731983423233,
-          "hybrid_score": 0.47716671228408813
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.726687490940094,
-          "sparse_similarity": 0.2195127308368683,
-          "hybrid_score": 0.47310012578964233
-        },
-        {
-          "id": "isFamily_007127",
-          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
-          "dense_similarity": 0.7008969783782959,
-          "sparse_similarity": 0.2089056372642517,
-          "hybrid_score": 0.4549013078212738
-        }
-      ]
+    "assertion_position": [
+      56,
+      89
     ],
-    "eng_translation": [
-      "Deep vein thrombosis of the lower limb",
-      "Lower limb deep vein thrombosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I80209": 0.737151,
-        "I80239": 0.731154,
-        "I82409": 0.725483,
-        "I803": 0.718297,
-        "I824Z9": 0.709198
-      },
-      "rapidfuzz": {
-        "Y021XXS": 0.855,
-        "S61210A": 0.855,
-        "S61210D": 0.855,
-        "I82499": 0.855,
-        "I824Y1": 0.855,
-        "T22192S": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I80209",
-      "confidence": 0.663436
-    }
+    "sentence": "Các bệnh mãn tính: nữ, nhiều lần [ENTITY] ở chân trái."
   },
   {
     "text": "đau ngực trái",
@@ -70,46 +19,11 @@
       156,
       169
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY] cấp tính và đau sau xương ức lan ra sau lưng\n    Thời điểm khởi phát triệu chứng: cấp tính\n    Triệu chứng hiện tại\n    - đau ngực trái\n    - đau sau xương ức\n    - đau lan ra sau lưng\n    Tình trạng ngay trước khi nhập viện: Vẫn còn đau ngực lan ra sau lưng khi đến\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5731900334358215,
-          "sparse_similarity": 0.1236044242978096,
-          "hybrid_score": 0.34839722514152527
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5732839107513428,
-          "sparse_similarity": 0.12274685502052307,
-          "hybrid_score": 0.34801536798477173
-        },
-        {
-          "id": "isHistorical_025192",
-          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5743284821510315,
-          "sparse_similarity": 0.11822555214166641,
-          "hybrid_score": 0.34627702832221985
-        }
-      ]
+    "assertion_position": [
+      143,
+      156
     ],
-    "eng_translation": [
-      "left chest pain",
-      "Left-sided chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY] cấp tính và đau sau xương ức lan ra sau lưng."
   },
   {
     "text": "đau sau xương ức",
@@ -118,46 +32,11 @@
       182,
       198
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau ngực trái cấp tính và [ENTITY] lan ra sau lưng\n    Thời điểm khởi phát triệu chứng: cấp tính\n    Triệu chứng hiện tại\n    - đau ngực trái\n    - đau sau xương ức\n    - đau lan ra sau lưng\n    Tình trạng ngay trước khi nhập viện: Vẫn còn đau ngực lan ra sau lưng khi đến\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025192",
-          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6223015785217285,
-          "sparse_similarity": 0.1466795951128006,
-          "hybrid_score": 0.38449057936668396
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6244668960571289,
-          "sparse_similarity": 0.14058679342269897,
-          "hybrid_score": 0.38252684473991394
-        },
-        {
-          "id": "isHistorical_026086",
-          "document": "từ 63 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6237941384315491,
-          "sparse_similarity": 0.1410624086856842,
-          "hybrid_score": 0.38242828845977783
-        }
-      ]
+    "assertion_position": [
+      169,
+      185
     ],
-    "eng_translation": [
-      "chest pain behind the sternum",
-      "retrosternal chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: đau ngực trái cấp tính và [ENTITY] lan ra sau lưng."
   },
   {
     "text": "ra sau lưng",
@@ -166,46 +45,11 @@
       203,
       214
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau ngực trái cấp tính và đau sau xương ức lan [ENTITY]\n    Thời điểm khởi phát triệu chứng: cấp tính\n    Triệu chứng hiện tại\n    - đau ngực trái\n    - đau sau xương ức\n    - đau lan ra sau lưng\n    Tình trạng ngay trước khi nhập viện: Vẫn còn đau ngực lan ra sau lưng khi đến\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5925956964492798,
-          "sparse_similarity": 0.13601432740688324,
-          "hybrid_score": 0.3643050193786621
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5930055379867554,
-          "sparse_similarity": 0.13438430428504944,
-          "hybrid_score": 0.3636949062347412
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5883389115333557,
-          "sparse_similarity": 0.13662417232990265,
-          "hybrid_score": 0.3624815344810486
-        }
-      ]
+    "assertion_position": [
+      190,
+      201
     ],
-    "eng_translation": [
-      "back pain",
-      "Low back pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: đau ngực trái cấp tính và đau sau xương ức lan [ENTITY]."
   },
   {
     "text": "đau ngực trái",
@@ -214,46 +58,11 @@
       292,
       305
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau ngực trái cấp tính và đau sau xương ức lan ra sau lưng\n    Thời điểm khởi phát triệu chứng: cấp tính\n    Triệu chứng hiện tại\n    - [ENTITY]\n    - đau sau xương ức\n    - đau lan ra sau lưng\n    Tình trạng ngay trước khi nhập viện: Vẫn còn đau ngực lan ra sau lưng khi đến\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025192",
-          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5847825407981873,
-          "sparse_similarity": 0.12695081532001495,
-          "hybrid_score": 0.3558666706085205
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.582410454750061,
-          "sparse_similarity": 0.1259421706199646,
-          "hybrid_score": 0.3541763126850128
-        },
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5815128684043884,
-          "sparse_similarity": 0.12664903700351715,
-          "hybrid_score": 0.3540809452533722
-        }
-      ]
+    "assertion_position": [
+      268,
+      281
     ],
-    "eng_translation": [
-      "left chest pain",
-      "Left-sided chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đau sau xương ức",
@@ -262,46 +71,11 @@
       312,
       328
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau ngực trái cấp tính và đau sau xương ức lan ra sau lưng\n    Thời điểm khởi phát triệu chứng: cấp tính\n    Triệu chứng hiện tại\n    - đau ngực trái\n    - [ENTITY]\n    - đau lan ra sau lưng\n    Tình trạng ngay trước khi nhập viện: Vẫn còn đau ngực lan ra sau lưng khi đến\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025192",
-          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5871751308441162,
-          "sparse_similarity": 0.12039431184530258,
-          "hybrid_score": 0.3537847101688385
-        },
-        {
-          "id": "isHistorical_026086",
-          "document": "từ 63 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5904722213745117,
-          "sparse_similarity": 0.11576776206493378,
-          "hybrid_score": 0.35311999917030334
-        },
-        {
-          "id": "isHistorical_021134",
-          "document": "khoảng 63 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5874448418617249,
-          "sparse_similarity": 0.1171593964099884,
-          "hybrid_score": 0.3523021340370178
-        }
-      ]
+    "assertion_position": [
+      283,
+      299
     ],
-    "eng_translation": [
-      "chest pain behind the sternum",
-      "retrosternal chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đau lan ra sau lưng",
@@ -310,46 +84,11 @@
       335,
       354
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau ngực trái cấp tính và đau sau xương ức lan ra sau lưng\n    Thời điểm khởi phát triệu chứng: cấp tính\n    Triệu chứng hiện tại\n    - đau ngực trái\n    - đau sau xương ức\n    - [ENTITY]\n    Tình trạng ngay trước khi nhập viện: Vẫn còn đau ngực lan ra sau lưng khi đến\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5861597657203674,
-          "sparse_similarity": 0.11848080158233643,
-          "hybrid_score": 0.35232028365135193
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5863763689994812,
-          "sparse_similarity": 0.11689497530460358,
-          "hybrid_score": 0.3516356647014618
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5822499394416809,
-          "sparse_similarity": 0.1195560172200203,
-          "hybrid_score": 0.3509029746055603
-        }
-      ]
+    "assertion_position": [
+      301,
+      320
     ],
-    "eng_translation": [
-      "pain radiating to the back",
-      "Radiating back pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đau ngực",
@@ -358,46 +97,11 @@
       404,
       412
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau ngực trái cấp tính và đau sau xương ức lan ra sau lưng\n    Thời điểm khởi phát triệu chứng: cấp tính\n    Triệu chứng hiện tại\n    - đau ngực trái\n    - đau sau xương ức\n    - đau lan ra sau lưng\n    Tình trạng ngay trước khi nhập viện: Vẫn còn [ENTITY] lan ra sau lưng khi đến\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.611093282699585,
-          "sparse_similarity": 0.15759047865867615,
-          "hybrid_score": 0.38434189558029175
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.610251247882843,
-          "sparse_similarity": 0.15756584703922272,
-          "hybrid_score": 0.38390854001045227
-        },
-        {
-          "id": "isHistorical_025192",
-          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6095798015594482,
-          "sparse_similarity": 0.14898480474948883,
-          "hybrid_score": 0.37928229570388794
-        }
-      ]
+    "assertion_position": [
+      367,
+      375
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tình trạng ngay trước khi nhập viện: Vẫn còn [ENTITY] lan ra sau lưng khi đến."
   },
   {
     "text": "ra sau lưng",
@@ -406,46 +110,11 @@
       417,
       428
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau ngực trái cấp tính và đau sau xương ức lan ra sau lưng\n    Thời điểm khởi phát triệu chứng: cấp tính\n    Triệu chứng hiện tại\n    - đau ngực trái\n    - đau sau xương ức\n    - đau lan ra sau lưng\n    Tình trạng ngay trước khi nhập viện: Vẫn còn đau ngực lan [ENTITY] khi đến\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.60338294506073,
-          "sparse_similarity": 0.14446426928043365,
-          "hybrid_score": 0.3739235997200012
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6043724417686462,
-          "sparse_similarity": 0.14255474507808685,
-          "hybrid_score": 0.37346360087394714
-        },
-        {
-          "id": "isHistorical_025192",
-          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6076562404632568,
-          "sparse_similarity": 0.1352417916059494,
-          "hybrid_score": 0.3714490234851837
-        }
-      ]
+    "assertion_position": [
+      380,
+      391
     ],
-    "eng_translation": [
-      "back pain",
-      "Low back pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tình trạng ngay trước khi nhập viện: Vẫn còn đau ngực lan [ENTITY] khi đến."
   },
   {
     "text": "chụp cắt lớp vi tính",
@@ -454,46 +123,11 @@
       486,
       506
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chụp ảnh: [ENTITY] mạch máu (ctma) ngực được thực hiện để đánh giá tắc mạch phổi, kết quả Không thấy hình ảnh thuyên tắc mạch phổi.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000239",
-          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.586526095867157,
-          "sparse_similarity": 0.07944562286138535,
-          "hybrid_score": 0.33298584818840027
-        },
-        {
-          "id": "isNegated_000127",
-          "document": "cấy máu không phát hiện [ENTITY].",
-          "dense_similarity": 0.5546431541442871,
-          "sparse_similarity": 0.09615325182676315,
-          "hybrid_score": 0.32539820671081543
-        },
-        {
-          "id": "isNegated_000238",
-          "document": "kết quả xét nghiệm không ghi nhận [ENTITY].",
-          "dense_similarity": 0.5879487991333008,
-          "sparse_similarity": 0.061695653945207596,
-          "hybrid_score": 0.32482221722602844
-        }
-      ]
+    "assertion_position": [
+      443,
+      463
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chụp ảnh: [ENTITY] mạch máu (ctma) ngực được thực hiện để đánh giá tắc mạch phổi, kết quả Không thấy hình ảnh thuyên tắc mạch phổi."
   },
   {
     "text": "tắc",
@@ -502,62 +136,11 @@
       555,
       558
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chụp ảnh: chụp cắt lớp vi tính mạch máu (ctma) ngực được thực hiện để đánh giá [ENTITY] mạch phổi, kết quả Không thấy hình ảnh thuyên tắc mạch phổi.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000239",
-          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.5713984966278076,
-          "sparse_similarity": 0.08944970369338989,
-          "hybrid_score": 0.33042410016059875
-        },
-        {
-          "id": "isNegated_000231",
-          "document": "kết quả kiểm tra không phát hiện [ENTITY].",
-          "dense_similarity": 0.5573663115501404,
-          "sparse_similarity": 0.0870874673128128,
-          "hybrid_score": 0.322226881980896
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5657479763031006,
-          "sparse_similarity": 0.07864093780517578,
-          "hybrid_score": 0.3221944570541382
-        }
-      ]
+    "assertion_position": [
+      512,
+      515
     ],
-    "eng_translation": [
-      "blockage",
-      "Obstruction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "O669": 0.671738,
-        "K56609": 0.633407,
-        "K56601": 0.603914,
-        "I4430": 0.602646,
-        "K222": 0.599769
-      },
-      "rapidfuzz": {
-        "H68129": 0.9,
-        "H68131": 0.9,
-        "H68132": 0.9,
-        "T470X4S": 0.732857,
-        "T470X6A": 0.732857,
-        "T461X6S": 0.732857
-      }
-    },
-    "candidate": {
-      "code": "O669",
-      "confidence": 0.604564
-    }
+    "sentence": "Kết quả chụp ảnh: chụp cắt lớp vi tính mạch máu (ctma) ngực được thực hiện để đánh giá [ENTITY] mạch phổi, kết quả Không thấy hình ảnh thuyên tắc mạch phổi."
   },
   {
     "text": "thuyên tắc",
@@ -566,70 +149,11 @@
       598,
       608
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chụp ảnh: chụp cắt lớp vi tính mạch máu (ctma) ngực được thực hiện để đánh giá tắc mạch phổi, kết quả Không thấy hình ảnh [ENTITY] mạch phổi.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000239",
-          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.5753526091575623,
-          "sparse_similarity": 0.06774283200502396,
-          "hybrid_score": 0.3215477168560028
-        },
-        {
-          "id": "isNegated_000238",
-          "document": "kết quả xét nghiệm không ghi nhận [ENTITY].",
-          "dense_similarity": 0.584731936454773,
-          "sparse_similarity": 0.05751416087150574,
-          "hybrid_score": 0.32112306356430054
-        },
-        {
-          "id": "isNegated_000283",
-          "document": "xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.5688284039497375,
-          "sparse_similarity": 0.05926218628883362,
-          "hybrid_score": 0.3140453100204468
-        }
-      ]
+    "assertion_position": [
+      555,
+      565
     ],
-    "eng_translation": [
-      "Thuyên tắc",
-      "Thuyên tắc (Thrombosis)",
-      "Thrombosis",
-      "Thuyên tắc is not a standard medical abbreviation in English. If you meant to refer to a medical term, please provide the correct term or clarify."
-    ],
-    "retriever": {
-      "sapbert": {
-        "I749": 0.660141,
-        "O8822": 0.622381,
-        "O88219": 0.600237,
-        "I821": 0.599612,
-        "I8290": 0.581354
-      },
-      "rapidfuzz": {
-        "I82C13": 0.9,
-        "I82C19": 0.9,
-        "I82701": 0.9,
-        "T82868A": 0.855,
-        "T82868D": 0.855,
-        "I82512": 0.855,
-        "Z15068": 0.855,
-        "T184XXD": 0.855,
-        "T184XXA": 0.855,
-        "T533X1S": 0.54,
-        "T533X1A": 0.54,
-        "T532X1D": 0.54
-      }
-    },
-    "candidate": {
-      "code": "I749",
-      "confidence": 0.594127
-    }
+    "sentence": "Kết quả chụp ảnh: chụp cắt lớp vi tính mạch máu (ctma) ngực được thực hiện để đánh giá tắc mạch phổi, kết quả Không thấy hình ảnh [ENTITY] mạch phổi."
   },
   {
     "text": "bóc tách động mạch chủ",
@@ -638,62 +162,11 @@
       641,
       663
     ],
-    "sentence": "Phát hiện tổn thương [ENTITY] Stanford loại B \n    Các thủ thuật đã thực hiện: chụp cắt lớp vi tính mạch máu (ctma) ngực được thực hiện\n    Các phát hiện chẩn đoán khác: bóc tách động mạch chủ loại B",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034244",
-          "document": "đã phẫu thuật [ENTITY].",
-          "dense_similarity": 0.6110304594039917,
-          "sparse_similarity": 0.12761761248111725,
-          "hybrid_score": 0.3693240284919739
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6094442009925842,
-          "sparse_similarity": 0.10406582057476044,
-          "hybrid_score": 0.35675501823425293
-        },
-        {
-          "id": "isHistorical_027029",
-          "document": "từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5939441919326782,
-          "sparse_similarity": 0.11623289436101913,
-          "hybrid_score": 0.3550885319709778
-        }
-      ]
+    "assertion_position": [
+      598,
+      620
     ],
-    "eng_translation": [
-      "aortic dissection",
-      "Acute aortic dissection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I7100": 0.916413,
-        "I7102": 0.876804,
-        "I71019": 0.831641,
-        "I71010": 0.831456,
-        "I71012": 0.795662
-      },
-      "rapidfuzz": {
-        "I71011": 0.95,
-        "Q230": 0.855,
-        "Q2521": 0.855,
-        "G0439": 0.855,
-        "N00B2": 0.855,
-        "N12": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I7100",
-      "confidence": 0.824772
-    }
+    "sentence": "Phát hiện tổn thương [ENTITY] Stanford loại B."
   },
   {
     "text": "chụp cắt lớp vi tính",
@@ -702,46 +175,11 @@
       713,
       733
     ],
-    "sentence": "Phát hiện tổn thương bóc tách động mạch chủ Stanford loại B \n    Các thủ thuật đã thực hiện: [ENTITY] mạch máu (ctma) ngực được thực hiện\n    Các phát hiện chẩn đoán khác: bóc tách động mạch chủ loại B",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034244",
-          "document": "đã phẫu thuật [ENTITY].",
-          "dense_similarity": 0.5797656774520874,
-          "sparse_similarity": 0.11482299119234085,
-          "hybrid_score": 0.34729433059692383
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5917234420776367,
-          "sparse_similarity": 0.09712252020835876,
-          "hybrid_score": 0.34442299604415894
-        },
-        {
-          "id": "isHistorical_027029",
-          "document": "từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5741044878959656,
-          "sparse_similarity": 0.10830151289701462,
-          "hybrid_score": 0.3412030041217804
-        }
-      ]
+    "assertion_position": [
+      666,
+      686
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các thủ thuật đã thực hiện: [ENTITY] mạch máu (ctma) ngực được thực hiện."
   },
   {
     "text": "bóc tách động mạch chủ",
@@ -750,61 +188,10 @@
       804,
       826
     ],
-    "sentence": "Phát hiện tổn thương bóc tách động mạch chủ Stanford loại B \n    Các thủ thuật đã thực hiện: chụp cắt lớp vi tính mạch máu (ctma) ngực được thực hiện\n    Các phát hiện chẩn đoán khác: [ENTITY] loại B",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034244",
-          "document": "đã phẫu thuật [ENTITY].",
-          "dense_similarity": 0.5933316946029663,
-          "sparse_similarity": 0.11716218292713165,
-          "hybrid_score": 0.3552469313144684
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6097698211669922,
-          "sparse_similarity": 0.09831398725509644,
-          "hybrid_score": 0.3540419042110443
-        },
-        {
-          "id": "isHistorical_027029",
-          "document": "từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5898371934890747,
-          "sparse_similarity": 0.10951307415962219,
-          "hybrid_score": 0.34967511892318726
-        }
-      ]
+    "assertion_position": [
+      754,
+      776
     ],
-    "eng_translation": [
-      "aortic dissection",
-      "Acute aortic dissection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I7100": 0.916413,
-        "I7102": 0.876804,
-        "I71019": 0.831641,
-        "I71010": 0.831456,
-        "I71012": 0.795662
-      },
-      "rapidfuzz": {
-        "I71011": 0.95,
-        "Q230": 0.855,
-        "Q2521": 0.855,
-        "G0439": 0.855,
-        "N00B2": 0.855,
-        "N12": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I7100",
-      "confidence": 0.824772
-    }
+    "sentence": "Các phát hiện chẩn đoán khác: [ENTITY] loại B."
   }
 ]

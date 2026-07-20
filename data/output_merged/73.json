@@ -6,46 +6,11 @@
       71,
       79
     ],
-    "sentence": "Tiền sử bệnh\n    Các tập tương tự trước đây: Nhập viện trước đó vì [ENTITY] (đau ngực), loại trừ Nhồi máu cơ tim và nghi ngờ thấp về Hội chứng mạch vành cấp.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6723396182060242,
-          "sparse_similarity": 0.15612423419952393,
-          "hybrid_score": 0.41423192620277405
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6662590503692627,
-          "sparse_similarity": 0.160018652677536,
-          "hybrid_score": 0.41313886642456055
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6694178581237793,
-          "sparse_similarity": 0.1548791527748108,
-          "hybrid_score": 0.41214850544929504
-        }
-      ]
+    "assertion_position": [
+      64,
+      72
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các tập tương tự trước đây: Nhập viện trước đó vì [ENTITY] (đau ngực), loại trừ Nhồi máu cơ tim và nghi ngờ thấp về Hội chứng mạch vành cấp."
   },
   {
     "text": "đau ngực",
@@ -54,46 +19,11 @@
       81,
       89
     ],
-    "sentence": "Tiền sử bệnh\n    Các tập tương tự trước đây: Nhập viện trước đó vì đau ngực ([ENTITY]), loại trừ Nhồi máu cơ tim và nghi ngờ thấp về Hội chứng mạch vành cấp.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6429736018180847,
-          "sparse_similarity": 0.13316786289215088,
-          "hybrid_score": 0.3880707323551178
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.640272855758667,
-          "sparse_similarity": 0.13253162801265717,
-          "hybrid_score": 0.3864022493362427
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6341054439544678,
-          "sparse_similarity": 0.13647402822971344,
-          "hybrid_score": 0.38528972864151
-        }
-      ]
+    "assertion_position": [
+      74,
+      82
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các tập tương tự trước đây: Nhập viện trước đó vì đau ngực ([ENTITY]), loại trừ Nhồi máu cơ tim và nghi ngờ thấp về Hội chứng mạch vành cấp."
   },
   {
     "text": "Nhồi máu cơ tim",
@@ -102,58 +32,11 @@
       101,
       116
     ],
-    "sentence": "Tiền sử bệnh\n    Các tập tương tự trước đây: Nhập viện trước đó vì đau ngực (đau ngực), loại trừ [ENTITY] và nghi ngờ thấp về Hội chứng mạch vành cấp.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "loại trừ [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.672083854675293,
-          "sparse_similarity": 0.1396419256925583,
-          "hybrid_score": 0.4058628976345062
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.667512059211731,
-          "sparse_similarity": 0.13888245820999146,
-          "hybrid_score": 0.4031972587108612
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6668263673782349,
-          "sparse_similarity": 0.13539163768291473,
-          "hybrid_score": 0.4011090099811554
-        }
-      ]
+    "assertion_position": [
+      94,
+      109
     ],
-    "eng_translation": [
-      "Myocardial infarction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I219": 0.851584,
-        "I21A1": 0.785121,
-        "I249": 0.769203,
-        "I252": 0.761003,
-        "I639": 0.728907
-      },
-      "rapidfuzz": {
-        "I21A1": 0.95,
-        "I252": 0.95,
-        "I2109": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I21A1",
-      "confidence": 0.801609
-    }
+    "sentence": "Các tập tương tự trước đây: Nhập viện trước đó vì đau ngực (đau ngực), loại trừ [ENTITY] và nghi ngờ thấp về Hội chứng mạch vành cấp."
   },
   {
     "text": "Hội chứng mạch vành cấp",
@@ -162,62 +45,11 @@
       137,
       160
     ],
-    "sentence": "Tiền sử bệnh\n    Các tập tương tự trước đây: Nhập viện trước đó vì đau ngực (đau ngực), loại trừ Nhồi máu cơ tim và nghi ngờ thấp về [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6781764030456543,
-          "sparse_similarity": 0.13412220776081085,
-          "hybrid_score": 0.406149297952652
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6784337162971497,
-          "sparse_similarity": 0.1333143264055252,
-          "hybrid_score": 0.40587401390075684
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6688075065612793,
-          "sparse_similarity": 0.13760286569595337,
-          "hybrid_score": 0.40320518612861633
-        }
-      ]
+    "assertion_position": [
+      130,
+      153
     ],
-    "eng_translation": [
-      "Acute coronary syndrome",
-      "Myocardial infarction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I219": 0.851584,
-        "I249": 0.80976,
-        "I21A1": 0.785121,
-        "I252": 0.761003,
-        "I639": 0.728907
-      },
-      "rapidfuzz": {
-        "I21A1": 0.95,
-        "I252": 0.95,
-        "I2109": 0.9,
-        "K281": 0.855,
-        "K279": 0.855,
-        "K273": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I21A1",
-      "confidence": 0.801609
-    }
+    "sentence": "Các tập tương tự trước đây: Nhập viện trước đó vì đau ngực (đau ngực), loại trừ Nhồi máu cơ tim và nghi ngờ thấp về [ENTITY]."
   },
   {
     "text": "tăng huyết áp vô căn",
@@ -226,61 +58,11 @@
       193,
       213
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - [ENTITY] (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6242422461509705,
-          "sparse_similarity": 0.25208744406700134,
-          "hybrid_score": 0.4381648302078247
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6270202994346619,
-          "sparse_similarity": 0.2323317527770996,
-          "hybrid_score": 0.42967602610588074
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6268550753593445,
-          "sparse_similarity": 0.23118582367897034,
-          "hybrid_score": 0.4290204644203186
-        }
-      ]
+    "assertion_position": [
+      177,
+      197
     ],
-    "eng_translation": [
-      "Essential hypertension",
-      "Primary hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.802756,
-        "I270": 0.741585,
-        "I160": 0.721417,
-        "I150": 0.70669
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "O10013": 0.9,
-        "O1002": 0.9,
-        "H40062": 0.855,
-        "G35B0": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY] (nguyên phát) (Tăng huyết áp)."
   },
   {
     "text": "Tăng huyết áp",
@@ -289,62 +71,11 @@
       229,
       242
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) ([ENTITY])\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5977340340614319,
-          "sparse_similarity": 0.23052474856376648,
-          "hybrid_score": 0.414129376411438
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5898575186729431,
-          "sparse_similarity": 0.2284509539604187,
-          "hybrid_score": 0.4091542363166809
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5984302759170532,
-          "sparse_similarity": 0.20398764312267303,
-          "hybrid_score": 0.4012089669704437
-        }
-      ]
+    "assertion_position": [
+      213,
+      226
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "tăng huyết áp vô căn (nguyên phát) ([ENTITY])."
   },
   {
     "text": "tăng lipid máu",
@@ -353,60 +84,11 @@
       250,
       264
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - [ENTITY], không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6070948839187622,
-          "sparse_similarity": 0.23987914621829987,
-          "hybrid_score": 0.42348700761795044
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.600106954574585,
-          "sparse_similarity": 0.23783305287361145,
-          "hybrid_score": 0.418969988822937
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6052316427230835,
-          "sparse_similarity": 0.21186324954032898,
-          "hybrid_score": 0.40854746103286743
-        }
-      ]
+    "assertion_position": [
+      229,
+      243
     ],
-    "eng_translation": [
-      "Hyperlipidemia",
-      "Dyslipidemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E785": 0.979012,
-        "E786": 0.784723,
-        "E7849": 0.765059,
-        "E782": 0.751965,
-        "E7841": 0.744404
-      },
-      "rapidfuzz": {
-        "E782": 0.95,
-        "E7849": 0.95,
-        "E785": 0.9,
-        "Z83438": 0.771429
-      }
-    },
-    "candidate": {
-      "code": "E785",
-      "confidence": 0.971111
-    }
+    "sentence": "[ENTITY], không đặc hiệu (tăng lipid máu, không đặc hiệu)."
   },
   {
     "text": "tăng lipid máu",
@@ -415,60 +97,11 @@
       282,
       296
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu ([ENTITY], không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.594413161277771,
-          "sparse_similarity": 0.2262311726808548,
-          "hybrid_score": 0.4103221595287323
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5868964195251465,
-          "sparse_similarity": 0.21799823641777039,
-          "hybrid_score": 0.40244734287261963
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5942378640174866,
-          "sparse_similarity": 0.19905419647693634,
-          "hybrid_score": 0.39664602279663086
-        }
-      ]
+    "assertion_position": [
+      261,
+      275
     ],
-    "eng_translation": [
-      "Hyperlipidemia",
-      "Dyslipidemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E785": 0.979012,
-        "E786": 0.784723,
-        "E7849": 0.765059,
-        "E782": 0.751965,
-        "E7841": 0.744404
-      },
-      "rapidfuzz": {
-        "E782": 0.95,
-        "E7849": 0.95,
-        "E785": 0.9,
-        "Z83438": 0.771429
-      }
-    },
-    "candidate": {
-      "code": "E785",
-      "confidence": 0.971111
-    }
+    "sentence": "tăng lipid máu, không đặc hiệu ([ENTITY], không đặc hiệu)."
   },
   {
     "text": "Đái tháo đường type 2",
@@ -477,62 +110,11 @@
       320,
       341
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - [ENTITY] (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6013672351837158,
-          "sparse_similarity": 0.2220771312713623,
-          "hybrid_score": 0.41172218322753906
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5922792553901672,
-          "sparse_similarity": 0.21360167860984802,
-          "hybrid_score": 0.40294045209884644
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6006140112876892,
-          "sparse_similarity": 0.17945756018161774,
-          "hybrid_score": 0.3900357782840729
-        }
-      ]
+    "assertion_position": [
+      294,
+      315
     ],
-    "eng_translation": [
-      "Type 2 diabetes mellitus",
-      "Diabetes mellitus type 2"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.844191,
-        "E119": 0.736971,
-        "E118": 0.725221,
-        "O24119": 0.724895,
-        "Z833": 0.724102
-      },
-      "rapidfuzz": {
-        "O24111": 0.9,
-        "O24112": 0.9,
-        "E1169": 0.9,
-        "S72362Q": 0.855,
-        "S72361M": 0.855,
-        "S72361N": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.759772
-    }
+    "sentence": "[ENTITY] (Đái tháo đường típ 2)."
   },
   {
     "text": "Đái tháo đường típ 2",
@@ -541,62 +123,11 @@
       343,
       363
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 ([ENTITY])\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5926940441131592,
-          "sparse_similarity": 0.2132156491279602,
-          "hybrid_score": 0.4029548466205597
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5838187336921692,
-          "sparse_similarity": 0.20769155025482178,
-          "hybrid_score": 0.3957551419734955
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5904324054718018,
-          "sparse_similarity": 0.1838434785604477,
-          "hybrid_score": 0.3871379494667053
-        }
-      ]
+    "assertion_position": [
+      317,
+      337
     ],
-    "eng_translation": [
-      "Type 2 diabetes mellitus",
-      "Diabetes mellitus type 2"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.844191,
-        "E119": 0.736971,
-        "E118": 0.725221,
-        "O24119": 0.724895,
-        "Z833": 0.724102
-      },
-      "rapidfuzz": {
-        "O24111": 0.9,
-        "O24112": 0.9,
-        "E1169": 0.9,
-        "S72362Q": 0.855,
-        "S72361M": 0.855,
-        "S72361N": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.759772
-    }
+    "sentence": "Đái tháo đường type 2 ([ENTITY])."
   },
   {
     "text": "bệnh phổi tắc nghẽn mạn tính",
@@ -605,62 +136,11 @@
       371,
       399
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - [ENTITY], không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5899426937103271,
-          "sparse_similarity": 0.22151032090187073,
-          "hybrid_score": 0.40572649240493774
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5820575952529907,
-          "sparse_similarity": 0.2161470204591751,
-          "hybrid_score": 0.3991023004055023
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5865570902824402,
-          "sparse_similarity": 0.1915404498577118,
-          "hybrid_score": 0.3890487551689148
-        }
-      ]
+    "assertion_position": [
+      340,
+      368
     ],
-    "eng_translation": [
-      "Chronic Obstructive Pulmonary Disease",
-      "Chronic Obstructive Lung Disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J449": 0.984133,
-        "J4489": 0.684525,
-        "J42": 0.652648,
-        "I2781": 0.644329,
-        "J849": 0.633067
-      },
-      "rapidfuzz": {
-        "J449": 0.95,
-        "J4489": 0.95,
-        "J441": 0.9,
-        "K8010": 0.855,
-        "K05319": 0.855,
-        "I6980": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J449",
-      "confidence": 0.98072
-    }
+    "sentence": "[ENTITY], không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)."
   },
   {
     "text": "bệnh phổi tắc nghẽn mạn tính",
@@ -669,62 +149,11 @@
       417,
       445
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định ([ENTITY], không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5878506302833557,
-          "sparse_similarity": 0.22222915291786194,
-          "hybrid_score": 0.40503990650177
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5794009566307068,
-          "sparse_similarity": 0.21137790381908417,
-          "hybrid_score": 0.3953894376754761
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5829454660415649,
-          "sparse_similarity": 0.18709582090377808,
-          "hybrid_score": 0.3850206434726715
-        }
-      ]
+    "assertion_position": [
+      386,
+      414
     ],
-    "eng_translation": [
-      "Chronic Obstructive Pulmonary Disease",
-      "Chronic Obstructive Lung Disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J449": 0.984133,
-        "J4489": 0.684525,
-        "J42": 0.652648,
-        "I2781": 0.644329,
-        "J849": 0.633067
-      },
-      "rapidfuzz": {
-        "J449": 0.95,
-        "J4489": 0.95,
-        "J441": 0.9,
-        "K8010": 0.855,
-        "K05319": 0.855,
-        "I6980": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J449",
-      "confidence": 0.98072
-    }
+    "sentence": "bệnh phổi tắc nghẽn mạn tính, không xác định ([ENTITY], không xác định)."
   },
   {
     "text": "bệnh tim mạch",
@@ -733,62 +162,11 @@
       469,
       482
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - [ENTITY] do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6057994961738586,
-          "sparse_similarity": 0.21950292587280273,
-          "hybrid_score": 0.4126512110233307
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6093870997428894,
-          "sparse_similarity": 0.20239099860191345,
-          "hybrid_score": 0.40588903427124023
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6075254678726196,
-          "sparse_similarity": 0.2006559669971466,
-          "hybrid_score": 0.4040907025337219
-        }
-      ]
+    "assertion_position": [
+      433,
+      446
     ],
-    "eng_translation": [
-      "cardiovascular disease",
-      "Cardiac disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I519": 0.955106,
-        "I5189": 0.746198,
-        "I429": 0.718682,
-        "I099": 0.705557,
-        "I679": 0.694969
-      },
-      "rapidfuzz": {
-        "C946": 0.855,
-        "I289": 0.855,
-        "I279": 0.855,
-        "R011": 0.855,
-        "T82120D": 0.855,
-        "T82129A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I519",
-      "confidence": 0.859595
-    }
+    "sentence": "[ENTITY] do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)."
   },
   {
     "text": "vữa",
@@ -797,62 +175,11 @@
       489,
       492
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ [ENTITY] động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.592964231967926,
-          "sparse_similarity": 0.22973598539829254,
-          "hybrid_score": 0.4113501012325287
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5834841132164001,
-          "sparse_similarity": 0.22009120881557465,
-          "hybrid_score": 0.401787668466568
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5913054943084717,
-          "sparse_similarity": 0.19977357983589172,
-          "hybrid_score": 0.3955395221710205
-        }
-      ]
+    "assertion_position": [
+      453,
+      456
     ],
-    "eng_translation": [
-      "Vascular disease",
-      "Vascular disorder"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I739": 0.801571,
-        "I999": 0.782732,
-        "I679": 0.741166,
-        "K559": 0.698475,
-        "I779": 0.673092
-      },
-      "rapidfuzz": {
-        "G468": 0.9,
-        "I69933": 0.9,
-        "I69934": 0.9,
-        "H93093": 0.9,
-        "H93099": 0.9,
-        "H93091": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I739",
-      "confidence": 0.721414
-    }
+    "sentence": "bệnh tim mạch do xơ [ENTITY] động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)."
   },
   {
     "text": "bệnh tim mạch",
@@ -861,62 +188,11 @@
       504,
       517
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch ([ENTITY] do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5980286598205566,
-          "sparse_similarity": 0.24264177680015564,
-          "hybrid_score": 0.42033523321151733
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6001319885253906,
-          "sparse_similarity": 0.21005560457706451,
-          "hybrid_score": 0.405093789100647
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5973004698753357,
-          "sparse_similarity": 0.21266523003578186,
-          "hybrid_score": 0.40498286485671997
-        }
-      ]
+    "assertion_position": [
+      468,
+      481
     ],
-    "eng_translation": [
-      "cardiovascular disease",
-      "Cardiac disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I519": 0.955106,
-        "I5189": 0.746198,
-        "I429": 0.718682,
-        "I099": 0.705557,
-        "I679": 0.694969
-      },
-      "rapidfuzz": {
-        "C946": 0.855,
-        "I289": 0.855,
-        "I279": 0.855,
-        "R011": 0.855,
-        "T82120D": 0.855,
-        "T82129A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I519",
-      "confidence": 0.859595
-    }
+    "sentence": "bệnh tim mạch do xơ vữa động mạch ([ENTITY] do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)."
   },
   {
     "text": "aspirin 81mg",
@@ -925,62 +201,11 @@
       760,
       772
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - [ENTITY] (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5974277853965759,
-          "sparse_similarity": 0.22357313334941864,
-          "hybrid_score": 0.4105004668235779
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5931591987609863,
-          "sparse_similarity": 0.2069840431213379,
-          "hybrid_score": 0.4000716209411621
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5891779661178589,
-          "sparse_similarity": 0.20968803763389587,
-          "hybrid_score": 0.3994330167770386
-        }
-      ]
+    "assertion_position": [
+      708,
+      720
     ],
-    "eng_translation": [
-      "aspirin 81mg",
-      "low-dose aspirin",
-      "aspirin 81 milligrams"
-    ],
-    "retriever": {
-      "sapbert": {
-        "832098": 1.0,
-        "315431": 0.961164,
-        "572163": 0.938508,
-        "724442": 0.934382,
-        "1189780": 0.933692
-      },
-      "rapidfuzz": {
-        "315431": 1.0,
-        "900469": 0.912,
-        "1052678": 0.9,
-        "825180": 0.9,
-        "1191": 0.9
-      }
-    },
-    "candidate": {
-      "code": "315431",
-      "confidence": 0.965048
-    }
+    "sentence": "[ENTITY] (asa81)."
   },
   {
     "text": "Đột quỵ",
@@ -989,62 +214,11 @@
       837,
       844
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do [ENTITY] gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5941066741943359,
-          "sparse_similarity": 0.22920788824558258,
-          "hybrid_score": 0.41165727376937866
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5950969457626343,
-          "sparse_similarity": 0.19987058639526367,
-          "hybrid_score": 0.397483766078949
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5919559001922607,
-          "sparse_similarity": 0.1961197555065155,
-          "hybrid_score": 0.3940378427505493
-        }
-      ]
+    "assertion_position": [
+      780,
+      787
     ],
-    "eng_translation": [
-      "Stroke",
-      "Cerebrovascular accident"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I679": 0.807886,
-        "I639": 0.785716,
-        "G464": 0.728182,
-        "I6782": 0.713341,
-        "I69993": 0.704568
-      },
-      "rapidfuzz": {
-        "T6701XA": 0.9,
-        "T6701XD": 0.9,
-        "T6701XS": 0.9,
-        "V9729XA": 0.855,
-        "V981XXA": 0.855,
-        "V980XXS": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I679",
-      "confidence": 0.727097
-    }
+    "sentence": "clopidogrel (prasugrel chuyển sang clopidogrel do [ENTITY] gần đây)."
   },
   {
     "text": "metoprolol succinate 100mg daily",
@@ -1053,63 +227,11 @@
       860,
       892
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - [ENTITY] (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.588019609451294,
-          "sparse_similarity": 0.2176322489976883,
-          "hybrid_score": 0.4028259217739105
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5805188417434692,
-          "sparse_similarity": 0.21075652539730072,
-          "hybrid_score": 0.3956376910209656
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5853736400604248,
-          "sparse_similarity": 0.1916811317205429,
-          "hybrid_score": 0.38852739334106445
-        }
-      ]
+    "assertion_position": [
+      798,
+      830
     ],
-    "eng_translation": [
-      "Metoprolol succinate 100mg daily",
-      "Metoprolol succinate 100 mg daily",
-      "Beta-blocker 100mg daily"
-    ],
-    "retriever": {
-      "sapbert": {
-        "688099": 0.766613,
-        "2656065": 0.731096,
-        "2648648": 0.727254,
-        "672671": 0.72553,
-        "221124": 0.715876
-      },
-      "rapidfuzz": {
-        "1370483": 0.95,
-        "1307106": 0.9,
-        "865575": 0.9,
-        "1482912": 0.855,
-        "2471100": 0.855,
-        "2669715": 0.855
-      }
-    },
-    "candidate": {
-      "code": "688099",
-      "confidence": 0.689952
-    }
+    "sentence": "[ENTITY] (tăng liều)."
   },
   {
     "text": "lasix 40mg daily",
@@ -1118,61 +240,11 @@
       911,
       927
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - [ENTITY] (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5935617685317993,
-          "sparse_similarity": 0.2147103250026703,
-          "hybrid_score": 0.404136061668396
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5872732400894165,
-          "sparse_similarity": 0.20608681440353394,
-          "hybrid_score": 0.3966800272464752
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5926069617271423,
-          "sparse_similarity": 0.1887291669845581,
-          "hybrid_score": 0.3906680643558502
-        }
-      ]
+    "assertion_position": [
+      844,
+      860
     ],
-    "eng_translation": [
-      "Lasix 40mg daily",
-      "Furosemide 40mg daily"
-    ],
-    "retriever": {
-      "sapbert": {
-        "313988": 0.793921,
-        "200809": 0.79163,
-        "261287": 0.632097,
-        "1990745": 0.620747
-      },
-      "rapidfuzz": {
-        "315971": 0.95,
-        "202991": 0.9,
-        "4603": 0.9,
-        "565458": 0.863636,
-        "2743365": 0.855,
-        "1245378": 0.855
-      }
-    },
-    "candidate": {
-      "code": "313988",
-      "confidence": 0.714529
-    }
+    "sentence": "[ENTITY] (tăng liều)."
   },
   {
     "text": "atorvastatin 80mg daily",
@@ -1181,55 +253,11 @@
       946,
       969
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - [ENTITY] (bắt đầu)\n    - lisinopril 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5916965007781982,
-          "sparse_similarity": 0.21179452538490295,
-          "hybrid_score": 0.4017454981803894
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.587772786617279,
-          "sparse_similarity": 0.21164441108703613,
-          "hybrid_score": 0.3997085988521576
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5844114422798157,
-          "sparse_similarity": 0.2073056399822235,
-          "hybrid_score": 0.3958585262298584
-        }
-      ]
+    "assertion_position": [
+      874,
+      897
     ],
-    "eng_translation": [
-      "atorvastatin 80mg daily",
-      "atorvastatin 80 mg daily"
-    ],
-    "retriever": {
-      "sapbert": {
-        "259255": 0.830441
-      },
-      "rapidfuzz": {
-        "329299": 0.95,
-        "83367": 0.9,
-        "10603": 0.9
-      }
-    },
-    "candidate": {
-      "code": "259255",
-      "confidence": 0.747397
-    }
+    "sentence": "[ENTITY] (bắt đầu)."
   },
   {
     "text": "lisinopril 2.5mg daily",
@@ -1238,55 +266,11 @@
       986,
       1008
     ],
-    "sentence": "Các bệnh lý mãn tính\n    - tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp)\n    - tăng lipid máu, không đặc hiệu (tăng lipid máu, không đặc hiệu)\n    - Đái tháo đường type 2 (Đái tháo đường típ 2)\n    - bệnh phổi tắc nghẽn mạn tính, không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định)\n    - bệnh tim mạch do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG)\n    - Nhập viện gần đây vì Đã tử vong (dced)\n    Tiền sử phẫu thuật / thủ thuật: Phẫu thuật bắc cầu chủ động mạch vành (CABG)\n    Thuốc trước khi nhập viện lần này\n    - aspirin 81mg (asa81)\n    - clopidogrel (prasugrel chuyển sang clopidogrel do Đột quỵ gần đây)\n    - metoprolol succinate 100mg daily (tăng liều)\n    - lasix 40mg daily (tăng liều)\n    - atorvastatin 80mg daily (bắt đầu)\n    - [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5912988185882568,
-          "sparse_similarity": 0.21857382357120514,
-          "hybrid_score": 0.4049363136291504
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.590785562992096,
-          "sparse_similarity": 0.19292843341827393,
-          "hybrid_score": 0.39185699820518494
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5870352983474731,
-          "sparse_similarity": 0.19612056016921997,
-          "hybrid_score": 0.39157792925834656
-        }
-      ]
+    "assertion_position": [
+      909,
+      931
     ],
-    "eng_translation": [
-      "Lisinopril 2.5 mg daily",
-      "Lisinopril 2.5 milligrams daily"
-    ],
-    "retriever": {
-      "sapbert": {
-        "311353": 0.901951
-      },
-      "rapidfuzz": {
-        "316152": 0.95,
-        "29046": 0.9,
-        "2743372": 0.855
-      }
-    },
-    "candidate": {
-      "code": "311353",
-      "confidence": 0.811756
-    }
+    "sentence": "[ENTITY]"
   },
   {
     "text": "ranexa 500mg daily",
@@ -1295,63 +279,11 @@
       1025,
       1043
     ],
-    "sentence": "5mg daily (bắt đầu)\n    - [ENTITY] (tiếp tục)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006262",
-          "document": "[ENTITY] cách đây 5 ngày.",
-          "dense_similarity": 0.7027738690376282,
-          "sparse_similarity": 0.11651922017335892,
-          "hybrid_score": 0.40964654088020325
-        },
-        {
-          "id": "isHistorical_005163",
-          "document": "[ENTITY] 5 ngày trước.",
-          "dense_similarity": 0.7040184140205383,
-          "sparse_similarity": 0.11357925832271576,
-          "hybrid_score": 0.40879884362220764
-        },
-        {
-          "id": "isHistorical_008408",
-          "document": "[ENTITY] từ 5 ngày trước.",
-          "dense_similarity": 0.697935163974762,
-          "sparse_similarity": 0.11546232551336288,
-          "hybrid_score": 0.40669873356819153
-        }
-      ]
+    "assertion_position": [
+      943,
+      961
     ],
-    "eng_translation": [
-      "Ranexa 500mg daily",
-      "Ranolazine 500mg daily",
-      "Ranexa 500 mg daily"
-    ],
-    "retriever": {
-      "sapbert": {
-        "616749": 0.869737,
-        "2724042": 0.847714,
-        "356778": 0.618345,
-        "1322489": 0.569748,
-        "220994": 0.534248
-      },
-      "rapidfuzz": {
-        "616490": 0.95,
-        "356778": 0.9,
-        "35829": 0.9,
-        "2102842": 0.855,
-        "2663917": 0.855,
-        "2743413": 0.855
-      }
-    },
-    "candidate": {
-      "code": "616749",
-      "confidence": 0.782763
-    }
+    "sentence": "[ENTITY] (tiếp tục)."
   },
   {
     "text": "đau ngực",
@@ -1360,46 +292,11 @@
       1103,
       1111
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY]\n    Thời điểm khởi phát triệu chứng: Lần cuối (khung thời gian không được chỉ định)\n    Diễn biến bệnh\n    - Tình trạng tốt trong quá trình phục hồi chức năng vào tuần đầu tiên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6895385384559631,
-          "sparse_similarity": 0.1899191439151764,
-          "hybrid_score": 0.43972885608673096
-        },
-        {
-          "id": "isHistorical_000046",
-          "document": "1 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6857262849807739,
-          "sparse_similarity": 0.1738157421350479,
-          "hybrid_score": 0.4297710061073303
-        },
-        {
-          "id": "isHistorical_031859",
-          "document": "đã 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6779170036315918,
-          "sparse_similarity": 0.18042223155498505,
-          "hybrid_score": 0.429169625043869
-        }
-      ]
+    "assertion_position": [
+      1014,
+      1022
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY]."
   },
   {
     "text": "đau ngực",
@@ -1408,46 +305,11 @@
       1315,
       1323
     ],
-    "sentence": "- Bắt đầu phát triển [ENTITY] vào ban đêm lần cuối (khung thời gian không được chỉ định).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022132",
-          "document": "lần trước [ENTITY].",
-          "dense_similarity": 0.6704205274581909,
-          "sparse_similarity": 0.15673834085464478,
-          "hybrid_score": 0.41357943415641785
-        },
-        {
-          "id": "isHistorical_009038",
-          "document": "[ENTITY] vào 1 ngày trước.",
-          "dense_similarity": 0.6730324029922485,
-          "sparse_similarity": 0.12755611538887024,
-          "hybrid_score": 0.4002942442893982
-        },
-        {
-          "id": "isHistorical_031838",
-          "document": "đã 1 ngày [ENTITY].",
-          "dense_similarity": 0.6981735825538635,
-          "sparse_similarity": 0.09212698042392731,
-          "hybrid_score": 0.3951502740383148
-        }
-      ]
+    "assertion_position": [
+      1209,
+      1217
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bắt đầu phát triển [ENTITY] vào ban đêm lần cuối (khung thời gian không được chỉ định)."
   },
   {
     "text": "đau ngực",
@@ -1456,46 +318,11 @@
       1410,
       1418
     ],
-    "sentence": "Triệu chứng hiện tại: [ENTITY]\n    Các sự kiện trước khi nhập viện: Đến trung tâm phục hồi chức năng sau khi xuất viện lần trước.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.7123388648033142,
-          "sparse_similarity": 0.2648635506629944,
-          "hybrid_score": 0.4886012077331543
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6933349370956421,
-          "sparse_similarity": 0.25301074981689453,
-          "hybrid_score": 0.4731728434562683
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.688930869102478,
-          "sparse_similarity": 0.25524380803108215,
-          "hybrid_score": 0.4720873236656189
-        }
-      ]
+    "assertion_position": [
+      1300,
+      1308
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng hiện tại: [ENTITY]."
   },
   {
     "text": "đau ngực",
@@ -1504,46 +331,11 @@
       1573,
       1581
     ],
-    "sentence": "Tình trạng ngay trước khi nhập viện\n    - Không có [ENTITY], khó thở, đánh trống ngực.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không có [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.7216677069664001,
-          "sparse_similarity": 0.18036417663097382,
-          "hybrid_score": 0.4510159492492676
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.7171938419342041,
-          "sparse_similarity": 0.18200238049030304,
-          "hybrid_score": 0.449598103761673
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6898961067199707,
-          "sparse_similarity": 0.18387743830680847,
-          "hybrid_score": 0.4368867874145508
-        }
-      ]
+    "assertion_position": [
+      1451,
+      1459
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có [ENTITY], khó thở, đánh trống ngực."
   },
   {
     "text": "khó thở",
@@ -1552,46 +344,11 @@
       1583,
       1590
     ],
-    "sentence": "Tình trạng ngay trước khi nhập viện\n    - Không có đau ngực, [ENTITY], đánh trống ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6821439266204834,
-          "sparse_similarity": 0.17431464791297913,
-          "hybrid_score": 0.42822927236557007
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6775577068328857,
-          "sparse_similarity": 0.17591789364814758,
-          "hybrid_score": 0.42673778533935547
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6546177864074707,
-          "sparse_similarity": 0.17571739852428436,
-          "hybrid_score": 0.41516759991645813
-        }
-      ]
+    "assertion_position": [
+      1461,
+      1468
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có đau ngực, [ENTITY], đánh trống ngực."
   },
   {
     "text": "đánh trống ngực",
@@ -1600,45 +357,10 @@
       1592,
       1607
     ],
-    "sentence": "Tình trạng ngay trước khi nhập viện\n    - Không có đau ngực, khó thở, [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.7096798419952393,
-          "sparse_similarity": 0.1873115450143814,
-          "hybrid_score": 0.44849568605422974
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.70634526014328,
-          "sparse_similarity": 0.18907703459262848,
-          "hybrid_score": 0.44771113991737366
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6869508624076843,
-          "sparse_similarity": 0.1873522400856018,
-          "hybrid_score": 0.43715155124664307
-        }
-      ]
+    "assertion_position": [
+      1470,
+      1485
     ],
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có đau ngực, khó thở, [ENTITY]."
   }
 ]

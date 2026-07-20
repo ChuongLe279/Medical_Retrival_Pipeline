@@ -6,47 +6,11 @@
       104,
       111
     ],
-    "sentence": "Tiền sử bệnh\n    Tiền sử phẫu thuật / thủ thuật: sp TLH (tình trạng sau phẫu thuật cắt tử cung bằng [ENTITY] toàn bộ)\n    Thuốc trước khi nhập viện lần này\n    - cipro\n    - bactrim\n    - Kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định (được bác sĩ chăm sóc chính kê đơn vào cuối tuần)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.605181872844696,
-          "sparse_similarity": 0.19390808045864105,
-          "hybrid_score": 0.39954498410224915
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5980496406555176,
-          "sparse_similarity": 0.19399121403694153,
-          "hybrid_score": 0.39602041244506836
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5827068090438843,
-          "sparse_similarity": 0.18270298838615417,
-          "hybrid_score": 0.3827049136161804
-        }
-      ]
+    "assertion_position": [
+      97,
+      104
     ],
-    "eng_translation": [
-      "Endoscopy",
-      "Gastrointestinal endoscopy",
-      "Endoscopic Examination"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tiền sử phẫu thuật / thủ thuật: sp TLH (tình trạng sau phẫu thuật cắt tử cung bằng [ENTITY] toàn bộ)."
   },
   {
     "text": "cipro",
@@ -55,64 +19,11 @@
       165,
       170
     ],
-    "sentence": "Tiền sử bệnh\n    Tiền sử phẫu thuật / thủ thuật: sp TLH (tình trạng sau phẫu thuật cắt tử cung bằng nội soi toàn bộ)\n    Thuốc trước khi nhập viện lần này\n    - [ENTITY]\n    - bactrim\n    - Kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định (được bác sĩ chăm sóc chính kê đơn vào cuối tuần)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6067894101142883,
-          "sparse_similarity": 0.19096732139587402,
-          "hybrid_score": 0.3988783657550812
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.598212480545044,
-          "sparse_similarity": 0.1897447109222412,
-          "hybrid_score": 0.3939785957336426
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6042388081550598,
-          "sparse_similarity": 0.1664147526025772,
-          "hybrid_score": 0.3853267729282379
-        }
-      ]
+    "assertion_position": [
+      150,
+      155
     ],
-    "eng_translation": [
-      "Cipro",
-      "Ciprofloxacin toxicity",
-      "Ciprofloxacin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "2551": 1.0,
-        "203563": 1.0,
-        "92167": 0.93847,
-        "2383036": 0.89755,
-        "404930": 0.795784
-      },
-      "rapidfuzz": {
-        "203563": 1.0,
-        "2551": 1.0,
-        "1152120": 0.95,
-        "315685": 0.9,
-        "1170896": 0.9,
-        "7623": 0.9,
-        "197511": 0.9
-      }
-    },
-    "candidate": {
-      "code": "203563",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "bactrim",
@@ -121,70 +32,11 @@
       177,
       184
     ],
-    "sentence": "Tiền sử bệnh\n    Tiền sử phẫu thuật / thủ thuật: sp TLH (tình trạng sau phẫu thuật cắt tử cung bằng nội soi toàn bộ)\n    Thuốc trước khi nhập viện lần này\n    - cipro\n    - [ENTITY]\n    - Kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định (được bác sĩ chăm sóc chính kê đơn vào cuối tuần)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5934549570083618,
-          "sparse_similarity": 0.1886773407459259,
-          "hybrid_score": 0.39106613397598267
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.586811363697052,
-          "sparse_similarity": 0.18809904158115387,
-          "hybrid_score": 0.38745519518852234
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5717865228652954,
-          "sparse_similarity": 0.18298448622226715,
-          "hybrid_score": 0.3773854970932007
-        }
-      ]
+    "assertion_position": [
+      157,
+      164
     ],
-    "eng_translation": [
-      "Bactrim",
-      "Bactrim is a brand name for the combination antibiotic sulfamethoxazole and trimethoprim. The canonical clinical term for this medication is: Sulfamethoxazole and trimethoprim",
-      "Trimethoprim-Sulfamethoxazole",
-      "Trimethoprim and Sulfamethoxazole"
-    ],
-    "retriever": {
-      "sapbert": {
-        "151399": 1.0,
-        "10831": 0.983957,
-        "91920": 0.962183,
-        "1427187": 0.925317,
-        "352965": 0.898259
-      },
-      "rapidfuzz": {
-        "151399": 1.0,
-        "1809082": 0.95,
-        "374234": 0.95,
-        "1162984": 0.95,
-        "10831": 0.95,
-        "1167959": 0.9,
-        "208416": 0.9,
-        "10180": 0.9,
-        "10829": 0.9,
-        "751987": 0.855,
-        "2743200": 0.855,
-        "2743199": 0.855
-      }
-    },
-    "candidate": {
-      "code": "151399",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "nhiễm khuẩn đường tiết niệu",
@@ -193,58 +45,11 @@
       206,
       233
     ],
-    "sentence": "Tiền sử bệnh\n    Tiền sử phẫu thuật / thủ thuật: sp TLH (tình trạng sau phẫu thuật cắt tử cung bằng nội soi toàn bộ)\n    Thuốc trước khi nhập viện lần này\n    - cipro\n    - bactrim\n    - Kháng sinh cho [ENTITY], vị trí không xác định (được bác sĩ chăm sóc chính kê đơn vào cuối tuần)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6055049896240234,
-          "sparse_similarity": 0.20033514499664307,
-          "hybrid_score": 0.40292006731033325
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6026300191879272,
-          "sparse_similarity": 0.2004367858171463,
-          "hybrid_score": 0.4015333950519562
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5923280715942383,
-          "sparse_similarity": 0.19060230255126953,
-          "hybrid_score": 0.3914651870727539
-        }
-      ]
+    "assertion_position": [
+      181,
+      208
     ],
-    "eng_translation": [
-      "Urinary tract infection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N390": 0.938475,
-        "P393": 0.729689,
-        "R8281": 0.726378,
-        "O8620": 0.722883,
-        "O2340": 0.716599
-      },
-      "rapidfuzz": {
-        "P393": 0.95,
-        "O2390": 0.9,
-        "O2392": 0.9
-      }
-    },
-    "candidate": {
-      "code": "N390",
-      "confidence": 0.844627
-    }
+    "sentence": "Kháng sinh cho [ENTITY], vị trí không xác định (được bác sĩ chăm sóc chính kê đơn vào cuối tuần)."
   },
   {
     "text": "đau bụng dưới",
@@ -253,46 +58,11 @@
       360,
       373
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: [ENTITY]\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6144979000091553,
-          "sparse_similarity": 0.16638070344924927,
-          "hybrid_score": 0.39043930172920227
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6100582480430603,
-          "sparse_similarity": 0.16810736060142517,
-          "hybrid_score": 0.38908278942108154
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6096426248550415,
-          "sparse_similarity": 0.1635829359292984,
-          "hybrid_score": 0.38661277294158936
-        }
-      ]
+    "assertion_position": [
+      328,
+      341
     ],
-    "eng_translation": [
-      "Lower abdominal pain",
-      "Abdominal pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY]."
   },
   {
     "text": "Đau",
@@ -301,45 +71,11 @@
       480,
       483
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - [ENTITY] tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.603864848613739,
-          "sparse_similarity": 0.15188099443912506,
-          "hybrid_score": 0.37787291407585144
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5991360545158386,
-          "sparse_similarity": 0.15232422947883606,
-          "hybrid_score": 0.37573015689849854
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5978879332542419,
-          "sparse_similarity": 0.1494802087545395,
-          "hybrid_score": 0.3736840784549713
-        }
-      ]
+    "assertion_position": [
+      432,
+      435
     ],
-    "eng_translation": [
-      "Pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)."
   },
   {
     "text": "buồn nôn",
@@ -348,46 +84,11 @@
       563,
       571
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có [ENTITY] nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6242572069168091,
-          "sparse_similarity": 0.16986249387264252,
-          "hybrid_score": 0.3970598578453064
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6207873225212097,
-          "sparse_similarity": 0.16987881064414978,
-          "hybrid_score": 0.39533305168151855
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6188114285469055,
-          "sparse_similarity": 0.16738112270832062,
-          "hybrid_score": 0.39309626817703247
-        }
-      ]
+    "assertion_position": [
+      510,
+      518
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Ban đầu có [ENTITY] nhưng đã thuyên giảm."
   },
   {
     "text": "toradol",
@@ -396,70 +97,11 @@
       661,
       668
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and [ENTITY]\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6252760291099548,
-          "sparse_similarity": 0.16112294793128967,
-          "hybrid_score": 0.39319950342178345
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6224237680435181,
-          "sparse_similarity": 0.16102422773838043,
-          "hybrid_score": 0.39172399044036865
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6205981373786926,
-          "sparse_similarity": 0.15865878760814667,
-          "hybrid_score": 0.38962846994400024
-        }
-      ]
+    "assertion_position": [
+      603,
+      610
     ],
-    "eng_translation": [
-      "Toradol",
-      "Toradol is a brand name for ketorolac, which is a non-opioid analgesic medication used for the short-term management of moderate to severe pain. It is typically used in hospital settings for postoperative pain relief.",
-      "Toradol is a non-opioid analgesic used for the management of moderate to severe pain. It is commonly prescribed for postoperative pain, musculoskeletal pain, and other acute pain conditions.",
-      "Torbutaline"
-    ],
-    "retriever": {
-      "sapbert": {
-        "57309": 1.0,
-        "10368": 0.858818,
-        "220349": 0.856448,
-        "35827": 0.825702,
-        "405162": 0.82065
-      },
-      "rapidfuzz": {
-        "10368": 0.909091,
-        "2656202": 0.9,
-        "2658647": 0.9,
-        "2639044": 0.855,
-        "1659183": 0.855,
-        "1659156": 0.855,
-        "849683": 0.855,
-        "2743209": 0.855,
-        "848949": 0.855,
-        "35215": 0.830769,
-        "2647983": 0.818182,
-        "817953": 0.818182
-      }
-    },
-    "candidate": {
-      "code": "57309",
-      "confidence": 0.9
-    }
+    "sentence": "đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and [ENTITY]."
   },
   {
     "text": "đau bụng dưới",
@@ -468,46 +110,11 @@
       700,
       713
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - [ENTITY]\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6078020334243774,
-          "sparse_similarity": 0.15536761283874512,
-          "hybrid_score": 0.3815848231315613
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6019529104232788,
-          "sparse_similarity": 0.15469224750995636,
-          "hybrid_score": 0.378322571516037
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.603161096572876,
-          "sparse_similarity": 0.1529192328453064,
-          "hybrid_score": 0.3780401647090912
-        }
-      ]
+    "assertion_position": [
+      634,
+      647
     ],
-    "eng_translation": [
-      "Lower abdominal pain",
-      "Abdominal pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ớn lạnh",
@@ -516,45 +123,11 @@
       720,
       727
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - [ENTITY]\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6061632037162781,
-          "sparse_similarity": 0.16008666157722473,
-          "hybrid_score": 0.3831249475479126
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6010007858276367,
-          "sparse_similarity": 0.1590069830417633,
-          "hybrid_score": 0.3800038695335388
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6014793515205383,
-          "sparse_similarity": 0.1575876772403717,
-          "hybrid_score": 0.3795335292816162
-        }
-      ]
+    "assertion_position": [
+      649,
+      656
     ],
-    "eng_translation": [
-      "chills"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó chịu khi đi tiểu",
@@ -563,45 +136,11 @@
       734,
       754
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - [ENTITY]\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6065388321876526,
-          "sparse_similarity": 0.1508854180574417,
-          "hybrid_score": 0.37871211767196655
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6018862128257751,
-          "sparse_similarity": 0.14852997660636902,
-          "hybrid_score": 0.3752080798149109
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6001911759376526,
-          "sparse_similarity": 0.14903515577316284,
-          "hybrid_score": 0.3746131658554077
-        }
-      ]
+    "assertion_position": [
+      658,
+      678
     ],
-    "eng_translation": [
-      "dysuria"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó chịu khi đại tiện",
@@ -610,46 +149,11 @@
       761,
       782
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - [ENTITY]\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.603919506072998,
-          "sparse_similarity": 0.15266203880310059,
-          "hybrid_score": 0.3782907724380493
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5983954071998596,
-          "sparse_similarity": 0.1504347026348114,
-          "hybrid_score": 0.3744150400161743
-        },
-        {
-          "id": "isHistorical_026236",
-          "document": "từ 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5953240990638733,
-          "sparse_similarity": 0.15124116837978363,
-          "hybrid_score": 0.37328264117240906
-        }
-      ]
+    "assertion_position": [
+      680,
+      701
     ],
-    "eng_translation": [
-      "Discomfort during defecation",
-      "Anal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "nhiễm khuẩn đường tiết niệu",
@@ -658,58 +162,11 @@
       895,
       922
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho [ENTITY], vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6255850195884705,
-          "sparse_similarity": 0.1695275604724884,
-          "hybrid_score": 0.3975563049316406
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6208007335662842,
-          "sparse_similarity": 0.16680482029914856,
-          "hybrid_score": 0.3938027620315552
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6192777752876282,
-          "sparse_similarity": 0.1683102250099182,
-          "hybrid_score": 0.3937940001487732
-        }
-      ]
+    "assertion_position": [
+      806,
+      833
     ],
-    "eng_translation": [
-      "Urinary tract infection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N390": 0.938475,
-        "P393": 0.729689,
-        "R8281": 0.726378,
-        "O8620": 0.722883,
-        "O2340": 0.716599
-      },
-      "rapidfuzz": {
-        "P393": 0.95,
-        "O2390": 0.9,
-        "O2392": 0.9
-      }
-    },
-    "candidate": {
-      "code": "N390",
-      "confidence": 0.844627
-    }
+    "sentence": "Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho [ENTITY], vị trí không xác định."
   },
   {
     "text": "cipro",
@@ -718,64 +175,11 @@
       1012,
       1017
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng [ENTITY] và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6353445649147034,
-          "sparse_similarity": 0.1705860197544098,
-          "hybrid_score": 0.4029653072357178
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6338623762130737,
-          "sparse_similarity": 0.1691754013299942,
-          "hybrid_score": 0.40151888132095337
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6306604743003845,
-          "sparse_similarity": 0.16794440150260925,
-          "hybrid_score": 0.3993024230003357
-        }
-      ]
+    "assertion_position": [
+      918,
+      923
     ],
-    "eng_translation": [
-      "Cipro",
-      "Ciprofloxacin toxicity",
-      "Ciprofloxacin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "2551": 1.0,
-        "203563": 1.0,
-        "92167": 0.93847,
-        "2383036": 0.89755,
-        "404930": 0.795784
-      },
-      "rapidfuzz": {
-        "203563": 1.0,
-        "2551": 1.0,
-        "1152120": 0.95,
-        "315685": 0.9,
-        "1170896": 0.9,
-        "7623": 0.9,
-        "197511": 0.9
-      }
-    },
-    "candidate": {
-      "code": "203563",
-      "confidence": 1.0
-    }
+    "sentence": "Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng [ENTITY] và bactrim."
   },
   {
     "text": "bactrim",
@@ -784,70 +188,11 @@
       1021,
       1028
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và [ENTITY]\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6134844422340393,
-          "sparse_similarity": 0.1657506674528122,
-          "hybrid_score": 0.38961756229400635
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6082509756088257,
-          "sparse_similarity": 0.1644458919763565,
-          "hybrid_score": 0.3863484263420105
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6089792251586914,
-          "sparse_similarity": 0.16316157579421997,
-          "hybrid_score": 0.3860704004764557
-        }
-      ]
+    "assertion_position": [
+      927,
+      934
     ],
-    "eng_translation": [
-      "Bactrim",
-      "Bactrim is a brand name for the combination antibiotic sulfamethoxazole and trimethoprim. The canonical clinical term for this medication is: Sulfamethoxazole and trimethoprim",
-      "Trimethoprim-Sulfamethoxazole",
-      "Trimethoprim and Sulfamethoxazole"
-    ],
-    "retriever": {
-      "sapbert": {
-        "151399": 1.0,
-        "10831": 0.983957,
-        "91920": 0.962183,
-        "1427187": 0.925317,
-        "352965": 0.898259
-      },
-      "rapidfuzz": {
-        "151399": 1.0,
-        "1809082": 0.95,
-        "374234": 0.95,
-        "1162984": 0.95,
-        "10831": 0.95,
-        "1167959": 0.9,
-        "208416": 0.9,
-        "10180": 0.9,
-        "10829": 0.9,
-        "751987": 0.855,
-        "2743200": 0.855,
-        "2743199": 0.855
-      }
-    },
-    "candidate": {
-      "code": "151399",
-      "confidence": 1.0
-    }
+    "sentence": "Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và [ENTITY]."
   },
   {
     "text": "đau",
@@ -856,45 +201,11 @@
       1075,
       1078
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - [ENTITY] tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6058514714241028,
-          "sparse_similarity": 0.16086027026176453,
-          "hybrid_score": 0.38335585594177246
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6008476614952087,
-          "sparse_similarity": 0.15839047729969025,
-          "hybrid_score": 0.3796190619468689
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5998550653457642,
-          "sparse_similarity": 0.15908527374267578,
-          "hybrid_score": 0.37947016954421997
-        }
-      ]
+    "assertion_position": [
+      973,
+      976
     ],
-    "eng_translation": [
-      "pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] tiến triển và lan vào sườn trái và LLQ."
   },
   {
     "text": "đau",
@@ -903,45 +214,11 @@
       1124,
       1127
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - [ENTITY] liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6197066903114319,
-          "sparse_similarity": 0.1609538495540619,
-          "hybrid_score": 0.3903302550315857
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6152786016464233,
-          "sparse_similarity": 0.15964701771736145,
-          "hybrid_score": 0.3874627947807312
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6149426698684692,
-          "sparse_similarity": 0.1584484875202179,
-          "hybrid_score": 0.3866955637931824
-        }
-      ]
+    "assertion_position": [
+      1017,
+      1020
     ],
-    "eng_translation": [
-      "pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] liên tục, lan tỏa ra lưng và có tính chất kéo."
   },
   {
     "text": "Đồng",
@@ -950,45 +227,11 @@
       1180,
       1184
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - [ENTITY] ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6017315983772278,
-          "sparse_similarity": 0.15325535833835602,
-          "hybrid_score": 0.3774934709072113
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5966078639030457,
-          "sparse_similarity": 0.15088658034801483,
-          "hybrid_score": 0.37374722957611084
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5950311422348022,
-          "sparse_similarity": 0.15138599276542664,
-          "hybrid_score": 0.37320858240127563
-        }
-      ]
+    "assertion_position": [
+      1068,
+      1072
     ],
-    "eng_translation": [
-      "Same"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện."
   },
   {
     "text": "ớn lạnh",
@@ -997,45 +240,11 @@
       1187,
       1194
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý [ENTITY] và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6061989068984985,
-          "sparse_similarity": 0.15263471007347107,
-          "hybrid_score": 0.379416823387146
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6014274954795837,
-          "sparse_similarity": 0.15027055144309998,
-          "hybrid_score": 0.37584900856018066
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6001359820365906,
-          "sparse_similarity": 0.1511431336402893,
-          "hybrid_score": 0.37563955783843994
-        }
-      ]
+    "assertion_position": [
+      1075,
+      1082
     ],
-    "eng_translation": [
-      "chills"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Đồng ý [ENTITY] và một số khó chịu khi đi tiểu và đại tiện."
   },
   {
     "text": "khó chịu",
@@ -1044,45 +253,11 @@
       1205,
       1213
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số [ENTITY] khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.602773904800415,
-          "sparse_similarity": 0.14817577600479126,
-          "hybrid_score": 0.37547484040260315
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5978094935417175,
-          "sparse_similarity": 0.14589263498783112,
-          "hybrid_score": 0.3718510568141937
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.595892071723938,
-          "sparse_similarity": 0.1460198312997818,
-          "hybrid_score": 0.3709559440612793
-        }
-      ]
+    "assertion_position": [
+      1093,
+      1101
     ],
-    "eng_translation": [
-      "discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Đồng ý ớn lạnh và một số [ENTITY] khi đi tiểu và đại tiện."
   },
   {
     "text": "tiểu",
@@ -1091,46 +266,11 @@
       1221,
       1225
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi [ENTITY] và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6098905801773071,
-          "sparse_similarity": 0.1493140310049057,
-          "hybrid_score": 0.379602313041687
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6049687266349792,
-          "sparse_similarity": 0.147002175450325,
-          "hybrid_score": 0.37598544359207153
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6035913228988647,
-          "sparse_similarity": 0.14746636152267456,
-          "hybrid_score": 0.37552884221076965
-        }
-      ]
+    "assertion_position": [
+      1109,
+      1113
     ],
-    "eng_translation": [
-      "urine",
-      "urine sample"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Đồng ý ớn lạnh và một số khó chịu khi đi [ENTITY] và đại tiện."
   },
   {
     "text": "đau đớn khi đi tiểu",
@@ -1139,46 +279,11 @@
       1284,
       1303
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, [ENTITY], tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6029233932495117,
-          "sparse_similarity": 0.1456882804632187,
-          "hybrid_score": 0.3743058443069458
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5976948142051697,
-          "sparse_similarity": 0.14341913163661957,
-          "hybrid_score": 0.3705569803714752
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.596279501914978,
-          "sparse_similarity": 0.1445082724094391,
-          "hybrid_score": 0.37039387226104736
-        }
-      ]
+    "assertion_position": [
+      1167,
+      1186
     ],
-    "eng_translation": [
-      "Painful urination",
-      "Dysuria"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có máu trong phân hoặc nước tiểu, [ENTITY], tiểu gấp hoặc các triệu chứng tiết niệu khác."
   },
   {
     "text": "tiểu gấp",
@@ -1187,46 +292,11 @@
       1305,
       1313
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, [ENTITY] hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6008507609367371,
-          "sparse_similarity": 0.14966802299022675,
-          "hybrid_score": 0.3752593994140625
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5958203077316284,
-          "sparse_similarity": 0.14734578132629395,
-          "hybrid_score": 0.3715830445289612
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5941556096076965,
-          "sparse_similarity": 0.14840857684612274,
-          "hybrid_score": 0.37128210067749023
-        }
-      ]
+    "assertion_position": [
+      1188,
+      1196
     ],
-    "eng_translation": [
-      "urinary urgency",
-      "Urinary urgency is a common symptom characterized by a sudden, compelling desire to urinate that is difficult to defer. It can be a manifestation of various underlying conditions, including urinary tract infections, interstitial cystitis, overactive bladder syndrome, or neurological disorders affecting bladder control. The symptom may be accompanied by other urinary symptoms such as frequency, nocturia, or dysuria. It is important to evaluate the patient's medical history, medication use, and potential contributing factors to determine the underlying cause and appropriate management."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, [ENTITY] hoặc các triệu chứng tiết niệu khác."
   },
   {
     "text": "đau ngực",
@@ -1235,46 +305,11 @@
       1372,
       1380
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB ([ENTITY], khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "phủ nhận cpsob ([entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6085236072540283,
-          "sparse_similarity": 0.1478380411863327,
-          "hybrid_score": 0.3781808316707611
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6034418940544128,
-          "sparse_similarity": 0.14551490545272827,
-          "hybrid_score": 0.37447839975357056
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.602280855178833,
-          "sparse_similarity": 0.14659324288368225,
-          "hybrid_score": 0.37443703413009644
-        }
-      ]
+    "assertion_position": [
+      1250,
+      1258
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phủ nhận CPSOB ([ENTITY], khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng."
   },
   {
     "text": "khó thở",
@@ -1283,46 +318,11 @@
       1382,
       1389
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, [ENTITY]), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "phủ nhận cpsob (đau ngực, [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6094161868095398,
-          "sparse_similarity": 0.14650140702724457,
-          "hybrid_score": 0.3779588043689728
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6036005616188049,
-          "sparse_similarity": 0.145420104265213,
-          "hybrid_score": 0.37451034784317017
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6045099496841431,
-          "sparse_similarity": 0.14426076412200928,
-          "hybrid_score": 0.37438535690307617
-        }
-      ]
+    "assertion_position": [
+      1260,
+      1267
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phủ nhận CPSOB (đau ngực, [ENTITY]), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng."
   },
   {
     "text": "buồn nôn",
@@ -1331,46 +331,11 @@
       1396,
       1404
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV ([ENTITY], nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "phủ nhận cpsob (đau ngực, khó thở), nv ([entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6042435765266418,
-          "sparse_similarity": 0.13637684285640717,
-          "hybrid_score": 0.3703102171421051
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5991641879081726,
-          "sparse_similarity": 0.13425642251968384,
-          "hybrid_score": 0.3667103052139282
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.59791499376297,
-          "sparse_similarity": 0.13470196723937988,
-          "hybrid_score": 0.3663084805011749
-        }
-      ]
+    "assertion_position": [
+      1274,
+      1282
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV ([ENTITY], nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng."
   },
   {
     "text": "nôn mửa",
@@ -1379,46 +344,11 @@
       1406,
       1413
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, [ENTITY]), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "phủ nhận cpsob (đau ngực, khó thở), nv (buồn nôn, [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6083260774612427,
-          "sparse_similarity": 0.14566664397716522,
-          "hybrid_score": 0.37699636816978455
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6035522222518921,
-          "sparse_similarity": 0.14340631663799286,
-          "hybrid_score": 0.37347927689552307
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.602414608001709,
-          "sparse_similarity": 0.14454205334186554,
-          "hybrid_score": 0.37347832322120667
-        }
-      ]
+    "assertion_position": [
+      1284,
+      1291
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, [ENTITY]), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng."
   },
   {
     "text": "chảy máu âm đạo",
@@ -1427,46 +357,11 @@
       1420,
       1435
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB ([ENTITY]), khí hư bất thường, thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "phủ nhận cpsob (đau ngực, khó thở), nv (buồn nôn, nôn mửa), vb ([entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6068694591522217,
-          "sparse_similarity": 0.14821591973304749,
-          "hybrid_score": 0.3775426745414734
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6008216142654419,
-          "sparse_similarity": 0.14707669615745544,
-          "hybrid_score": 0.37394917011260986
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6016743183135986,
-          "sparse_similarity": 0.14589938521385193,
-          "hybrid_score": 0.3737868666648865
-        }
-      ]
+    "assertion_position": [
+      1298,
+      1313
     ],
-    "eng_translation": [
-      "vaginal bleeding",
-      "Vaginal hemorrhage"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB ([ENTITY]), khí hư bất thường, thay đổi cân nặng."
   },
   {
     "text": "khí hư bất thường",
@@ -1475,46 +370,11 @@
       1438,
       1455
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\n    Lý do nhập viện: đau bụng dưới\n    Thời điểm khởi phát triệu chứng: 7 ngày\n    Diễn biến bệnh\n    - Triệu chứng trở nên tồi tệ hơn\n    - Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)\n    - Ban đầu có buồn nôn nhưng đã thuyên giảm\n    - đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and toradol\n    Triệu chứng hiện tại\n    - đau bụng dưới\n    - ớn lạnh\n    - khó chịu khi đi tiểu\n    - khó chịu khi đại tiện\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và bactrim\n    Tình trạng ngay trước khi nhập viện\n    - đau tiến triển và lan vào sườn trái và LLQ\n    - đau liên tục, lan tỏa ra lưng và có tính chất kéo\n    - Đồng ý ớn lạnh và một số khó chịu khi đi tiểu và đại tiện\n    - Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, tiểu gấp hoặc các triệu chứng tiết niệu khác\n    - Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), [ENTITY], thay đổi cân nặng\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003232",
-          "document": "7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6056570410728455,
-          "sparse_similarity": 0.145560622215271,
-          "hybrid_score": 0.3756088316440582
-        },
-        {
-          "id": "isHistorical_021284",
-          "document": "khoảng 7 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.600540280342102,
-          "sparse_similarity": 0.1433311551809311,
-          "hybrid_score": 0.37193572521209717
-        },
-        {
-          "id": "isHistorical_013946",
-          "document": "cách đây 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5992428064346313,
-          "sparse_similarity": 0.1438651978969574,
-          "hybrid_score": 0.37155401706695557
-        }
-      ]
+    "assertion_position": [
+      1316,
+      1333
     ],
-    "eng_translation": [
-      "Abnormal vaginal discharge",
-      "Abnormal vaginal secretion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), [ENTITY], thay đổi cân nặng."
   },
   {
     "text": "công thức máu (cbc)",
@@ -1523,46 +383,11 @@
       1527,
       1546
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm: [ENTITY] là 12 (tăng nhẹ))\n    Kết quả chẩn đoán hình ảnh: chụp cắt lớp vi tính (ct) bụng và chậu cho thấy một khoang chứa dịch phức tạp lớn kích thước 12x9x9cm nằm sâu trong vùng chậu\n    Các phát hiện chẩn đoán khác: Lo ngại về áp xe (Đã tư vấn Ngoại khoa Tổng hợp)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_000227",
-          "document": "12 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5923707485198975,
-          "sparse_similarity": 0.18788233399391174,
-          "hybrid_score": 0.3901265263557434
-        },
-        {
-          "id": "isHistorical_000239",
-          "document": "12 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.600588858127594,
-          "sparse_similarity": 0.17882978916168213,
-          "hybrid_score": 0.38970932364463806
-        },
-        {
-          "id": "isHistorical_012447",
-          "document": "cách đây 12 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5914766788482666,
-          "sparse_similarity": 0.18635092675685883,
-          "hybrid_score": 0.3889138102531433
-        }
-      ]
+    "assertion_position": [
+      1398,
+      1417
     ],
-    "eng_translation": [
-      "CBC (Complete Blood Count)",
-      "Full Blood Count"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả xét nghiệm: [ENTITY] là 12 (tăng nhẹ))."
   },
   {
     "text": "12",
@@ -1571,46 +396,11 @@
       1550,
       1552
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm: công thức máu (cbc) là [ENTITY] (tăng nhẹ))\n    Kết quả chẩn đoán hình ảnh: chụp cắt lớp vi tính (ct) bụng và chậu cho thấy một khoang chứa dịch phức tạp lớn kích thước 12x9x9cm nằm sâu trong vùng chậu\n    Các phát hiện chẩn đoán khác: Lo ngại về áp xe (Đã tư vấn Ngoại khoa Tổng hợp)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007122",
-          "document": "bên nội của bn được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6039473414421082,
-          "sparse_similarity": 0.10890816897153854,
-          "hybrid_score": 0.35642775893211365
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5990560054779053,
-          "sparse_similarity": 0.11068093031644821,
-          "hybrid_score": 0.35486847162246704
-        },
-        {
-          "id": "isFamily_007189",
-          "document": "bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5932626128196716,
-          "sparse_similarity": 0.11413931101560593,
-          "hybrid_score": 0.3537009656429291
-        }
-      ]
+    "assertion_position": [
+      1421,
+      1423
     ],
-    "eng_translation": [
-      "12",
-      "The query provided is \"12\" which does not contain any medical information or context. Therefore, no rewrite is possible."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả xét nghiệm: công thức máu (cbc) là [ENTITY] (tăng nhẹ))."
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
@@ -1619,46 +409,11 @@
       1597,
       1622
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm: công thức máu (cbc) là 12 (tăng nhẹ))\n    Kết quả chẩn đoán hình ảnh: [ENTITY] bụng và chậu cho thấy một khoang chứa dịch phức tạp lớn kích thước 12x9x9cm nằm sâu trong vùng chậu\n    Các phát hiện chẩn đoán khác: Lo ngại về áp xe (Đã tư vấn Ngoại khoa Tổng hợp)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007122",
-          "document": "bên nội của bn được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5871837139129639,
-          "sparse_similarity": 0.12211011350154877,
-          "hybrid_score": 0.3546469211578369
-        },
-        {
-          "id": "isFamily_007107",
-          "document": "bên nội có người được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.571689248085022,
-          "sparse_similarity": 0.1355627328157425,
-          "hybrid_score": 0.35362598299980164
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5775885581970215,
-          "sparse_similarity": 0.12348003685474396,
-          "hybrid_score": 0.3505342900753021
-        }
-      ]
+    "assertion_position": [
+      1465,
+      1490
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] bụng và chậu cho thấy một khoang chứa dịch phức tạp lớn kích thước 12x9x9cm nằm sâu trong vùng chậu."
   },
   {
     "text": "áp xe",
@@ -1667,61 +422,10 @@
       1768,
       1773
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm: công thức máu (cbc) là 12 (tăng nhẹ))\n    Kết quả chẩn đoán hình ảnh: chụp cắt lớp vi tính (ct) bụng và chậu cho thấy một khoang chứa dịch phức tạp lớn kích thước 12x9x9cm nằm sâu trong vùng chậu\n    Các phát hiện chẩn đoán khác: Lo ngại về [ENTITY] (Đã tư vấn Ngoại khoa Tổng hợp)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007122",
-          "document": "bên nội của bn được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5868584513664246,
-          "sparse_similarity": 0.10954288393259048,
-          "hybrid_score": 0.3482006788253784
-        },
-        {
-          "id": "isFamily_007107",
-          "document": "bên nội có người được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5714393854141235,
-          "sparse_similarity": 0.12147348374128342,
-          "hybrid_score": 0.3464564383029938
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5791674852371216,
-          "sparse_similarity": 0.11054204404354095,
-          "hybrid_score": 0.34485477209091187
-        }
-      ]
+    "assertion_position": [
+      1633,
+      1638
     ],
-    "eng_translation": [
-      "Abscess",
-      "Infected Cyst"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K614": 0.728806,
-        "L0291": 0.721136,
-        "N611": 0.66341,
-        "K6131": 0.655814,
-        "K630": 0.645236
-      },
-      "rapidfuzz": {
-        "A066": 0.9,
-        "A065": 0.9,
-        "L02612": 0.9,
-        "L0501": 0.855,
-        "L0591": 0.855,
-        "M85641": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K614",
-      "confidence": 0.655925
-    }
+    "sentence": "Các phát hiện chẩn đoán khác: Lo ngại về [ENTITY] (Đã tư vấn Ngoại khoa Tổng hợp)."
   }
 ]

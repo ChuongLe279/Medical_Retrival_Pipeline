@@ -6,62 +6,11 @@
       45,
       67
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Bệnh mạn tính: [ENTITY] niệu kháng thuốc\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6730925440788269,
-          "sparse_similarity": 0.18008437752723694,
-          "hybrid_score": 0.4265884757041931
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6774318814277649,
-          "sparse_similarity": 0.17560824751853943,
-          "hybrid_score": 0.42652004957199097
-        },
-        {
-          "id": "isFamily_007127",
-          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
-          "dense_similarity": 0.6615328788757324,
-          "sparse_similarity": 0.16811934113502502,
-          "hybrid_score": 0.41482609510421753
-        }
-      ]
+    "assertion_position": [
+      38,
+      60
     ],
-    "eng_translation": [
-      "Infection of the urinary tract",
-      "Urinary Tract Infection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N390": 0.938475,
-        "O2340": 0.731608,
-        "P393": 0.729689,
-        "R8281": 0.726378,
-        "O8620": 0.722883
-      },
-      "rapidfuzz": {
-        "P393": 0.95,
-        "O2390": 0.9,
-        "O2392": 0.9,
-        "V503XXS": 0.855,
-        "Z9715": 0.855,
-        "Z9716": 0.855
-      }
-    },
-    "candidate": {
-      "code": "N390",
-      "confidence": 0.844627
-    }
+    "sentence": "Bệnh mạn tính: [ENTITY] niệu kháng thuốc."
   },
   {
     "text": "chụp CT",
@@ -70,46 +19,11 @@
       295,
       302
     ],
-    "sentence": "Bệnh sử  hiện tại\n    Lý do nhập viện: theo dõi đại tràng giãn\n    - Vào đợt kiểm tra sức khoẻ định kỳ sau ngã đang hồi phục phát hiện xét nghiệm máu có tăng bạch cầuNgày nay xuất hiện ý thúc chậm hơn, đã [ENTITY] ở tuyến trước chưa phát hiện bất thường trên phim chụp,  vào viện\n    Tình trạng vào Khoa Cấp cứu.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6260473728179932,
-          "sparse_similarity": 0.16881388425827026,
-          "hybrid_score": 0.3974306285381317
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.619845449924469,
-          "sparse_similarity": 0.17393414676189423,
-          "hybrid_score": 0.3968898057937622
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.619048535823822,
-          "sparse_similarity": 0.16910487413406372,
-          "hybrid_score": 0.39407670497894287
-        }
-      ]
+    "assertion_position": [
+      275,
+      282
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Vào đợt kiểm tra sức khoẻ định kỳ sau ngã đang hồi phục phát hiện xét nghiệm máu có tăng bạch cầuNgày nay xuất hiện ý thúc chậm hơn, đã [ENTITY] ở tuyến trước chưa phát hiện bất thường trên phim chụp, vào viện."
   },
   {
     "text": "Bạch cầu",
@@ -118,45 +32,10 @@
       472,
       480
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm: [ENTITY] tăng\n    Kết quả chẩn đoán hình ảnh: chụp ctchưa phát hiện bất thường trên phim chụp\n    Các kết quả  khác: Theo dõi đại tràng giãn",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000029",
-          "document": "[ENTITY] cần làm thêm xét nghiệm.",
-          "dense_similarity": 0.644561231136322,
-          "sparse_similarity": 0.18586502969264984,
-          "hybrid_score": 0.41521313786506653
-        },
-        {
-          "id": "isUncertain_000108",
-          "document": "cần làm thêm xét nghiệm xác định [ENTITY].",
-          "dense_similarity": 0.6302297115325928,
-          "sparse_similarity": 0.169442817568779,
-          "hybrid_score": 0.3998362720012665
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6232795119285583,
-          "sparse_similarity": 0.1483869105577469,
-          "hybrid_score": 0.385833203792572
-        }
-      ]
+    "assertion_position": [
+      439,
+      447
     ],
-    "eng_translation": [
-      "White blood cells",
-      "Leukocytes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả xét nghiệm: [ENTITY] tăng."
   }
 ]

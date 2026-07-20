@@ -6,62 +6,11 @@
       48,
       62
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY]\n    - tăng huyết áp\n    Tiền sử phẫu thuật / thủ thuật: đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    Các yếu tố nguy cơ liên quan\n    - đái tháo đường\n    - tăng huyết áp\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_021132",
-          "document": "người cùng huyết thống của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.623367190361023,
-          "sparse_similarity": 0.1796766072511673,
-          "hybrid_score": 0.4015218913555145
-        },
-        {
-          "id": "isFamily_021118",
-          "document": "người cùng huyết thống của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6276291012763977,
-          "sparse_similarity": 0.17121294140815735,
-          "hybrid_score": 0.3994210362434387
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6231601238250732,
-          "sparse_similarity": 0.16303789615631104,
-          "hybrid_score": 0.39309900999069214
-        }
-      ]
+    "assertion_position": [
+      36,
+      50
     ],
-    "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
-        "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.757908
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "tăng huyết áp",
@@ -70,62 +19,11 @@
       69,
       82
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - đái tháo đường\n    - [ENTITY]\n    Tiền sử phẫu thuật / thủ thuật: đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    Các yếu tố nguy cơ liên quan\n    - đái tháo đường\n    - tăng huyết áp\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_021132",
-          "document": "người cùng huyết thống của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6258000731468201,
-          "sparse_similarity": 0.1750519871711731,
-          "hybrid_score": 0.4004260301589966
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6271923780441284,
-          "sparse_similarity": 0.16957323253154755,
-          "hybrid_score": 0.3983828127384186
-        },
-        {
-          "id": "isFamily_021118",
-          "document": "người cùng huyết thống của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6292814612388611,
-          "sparse_similarity": 0.16693340241909027,
-          "hybrid_score": 0.3981074392795563
-        }
-      ]
+    "assertion_position": [
+      52,
+      65
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đái tháo đường",
@@ -134,62 +32,11 @@
       209,
       223
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - đái tháo đường\n    - tăng huyết áp\n    Tiền sử phẫu thuật / thủ thuật: đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    Các yếu tố nguy cơ liên quan\n    - [ENTITY]\n    - tăng huyết áp\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_021132",
-          "document": "người cùng huyết thống của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6166286468505859,
-          "sparse_similarity": 0.16218358278274536,
-          "hybrid_score": 0.38940611481666565
-        },
-        {
-          "id": "isFamily_021118",
-          "document": "người cùng huyết thống của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6213886737823486,
-          "sparse_similarity": 0.15459348261356354,
-          "hybrid_score": 0.3879910707473755
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6154428124427795,
-          "sparse_similarity": 0.14413270354270935,
-          "hybrid_score": 0.37978774309158325
-        }
-      ]
+    "assertion_position": [
+      181,
+      195
     ],
-    "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
-        "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.757908
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "tăng huyết áp",
@@ -198,62 +45,11 @@
       230,
       243
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - đái tháo đường\n    - tăng huyết áp\n    Tiền sử phẫu thuật / thủ thuật: đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    Các yếu tố nguy cơ liên quan\n    - đái tháo đường\n    - [ENTITY]\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6260673999786377,
-          "sparse_similarity": 0.1626969426870346,
-          "hybrid_score": 0.39438217878341675
-        },
-        {
-          "id": "isFamily_006636",
-          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6205628514289856,
-          "sparse_similarity": 0.16797593235969543,
-          "hybrid_score": 0.3942694067955017
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6254492998123169,
-          "sparse_similarity": 0.15845029056072235,
-          "hybrid_score": 0.3919498026371002
-        }
-      ]
+    "assertion_position": [
+      197,
+      210
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "tai biến mạch máu não",
@@ -262,62 +58,11 @@
       364,
       385
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Thủ thuật điện chọn\n    Triệu chứng hiện tại: triệu chứng liên quan đến [ENTITY] từ vùng này\n    Các sự kiện trước khi nhập viện\n    - Gần đây được điều trị bằng cách đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    - Trong quá trình chụp mạch máu, ghi nhận tình trạng hẹp khoảng 65% của động mạch cảnh chung trái gần gốc với bằng chứng xơ vữa mảng loét\n    - Đã thảo luận với bệnh nhân khi bà nhập viện rằng có khả năng bà sẽ cần được điều trị tình trạng này bằng phẫu thuật nội mạch hóa động mạch cảnh\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "bà"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021026",
-          "document": "khoảng 6 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.580757737159729,
-          "sparse_similarity": 0.12551525235176086,
-          "hybrid_score": 0.35313647985458374
-        },
-        {
-          "id": "isHistorical_021032",
-          "document": "khoảng 6 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5798771381378174,
-          "sparse_similarity": 0.12638121843338013,
-          "hybrid_score": 0.35312917828559875
-        },
-        {
-          "id": "isHistorical_025990",
-          "document": "từ 6 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5727960467338562,
-          "sparse_similarity": 0.1313628852367401,
-          "hybrid_score": 0.35207945108413696
-        }
-      ]
+    "assertion_position": [
+      321,
+      342
     ],
-    "eng_translation": [
-      "Cerebrovascular accident",
-      "Stroke"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I679": 0.807886,
-        "I639": 0.785716,
-        "G464": 0.728182,
-        "I6782": 0.713341,
-        "I69993": 0.704568
-      },
-      "rapidfuzz": {
-        "T6701XA": 0.9,
-        "T6701XD": 0.9,
-        "T6701XS": 0.9,
-        "V9729XA": 0.855,
-        "V981XXA": 0.855,
-        "V980XXS": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I679",
-      "confidence": 0.727097
-    }
+    "sentence": "Triệu chứng hiện tại: triệu chứng liên quan đến [ENTITY] từ vùng này."
   },
   {
     "text": "xơ vữa mảng loét",
@@ -326,58 +71,11 @@
       648,
       664
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Thủ thuật điện chọn\n    Triệu chứng hiện tại: triệu chứng liên quan đến tai biến mạch máu não từ vùng này\n    Các sự kiện trước khi nhập viện\n    - Gần đây được điều trị bằng cách đặt stent hỗ trợ cuộn dây phình mạch ACom bên phải\n    - Trong quá trình chụp mạch máu, ghi nhận tình trạng hẹp khoảng 65% của động mạch cảnh chung trái gần gốc với bằng chứng [ENTITY]\n    - Đã thảo luận với bệnh nhân khi bà nhập viện rằng có khả năng bà sẽ cần được điều trị tình trạng này bằng phẫu thuật nội mạch hóa động mạch cảnh\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "bà"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025990",
-          "document": "từ 6 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5485435724258423,
-          "sparse_similarity": 0.12785910069942474,
-          "hybrid_score": 0.3382013440132141
-        },
-        {
-          "id": "isHistorical_025678",
-          "document": "từ 48 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5525892376899719,
-          "sparse_similarity": 0.12273958325386047,
-          "hybrid_score": 0.3376644253730774
-        },
-        {
-          "id": "isHistorical_021026",
-          "document": "khoảng 6 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.554021954536438,
-          "sparse_similarity": 0.12027508020401001,
-          "hybrid_score": 0.337148517370224
-        }
-      ]
+    "assertion_position": [
+      592,
+      608
     ],
-    "eng_translation": [
-      "Atheromatous ulceration"
-    ],
-    "retriever": {
-      "sapbert": {
-        "A690": 0.626437,
-        "H16059": 0.607218,
-        "I775": 0.587875,
-        "H16049": 0.581195,
-        "I2583": 0.569717
-      },
-      "rapidfuzz": {
-        "I70439": 0.855,
-        "I70443": 0.855,
-        "I70444": 0.855
-      }
-    },
-    "candidate": {
-      "code": "A690",
-      "confidence": 0.563793
-    }
+    "sentence": "Trong quá trình chụp mạch máu, ghi nhận tình trạng hẹp khoảng 65% của động mạch cảnh chung trái gần gốc với bằng chứng [ENTITY]."
   },
   {
     "text": "xơ vữa mảng loét",
@@ -386,57 +84,10 @@
       977,
       993
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: chụp mạch máu ghi nhận tình trạng hẹp khoảng 65% của động mạch cảnh chung trái gần gốc với bằng chứng [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5911508798599243,
-          "sparse_similarity": 0.09115266799926758,
-          "hybrid_score": 0.34115177392959595
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5689936876296997,
-          "sparse_similarity": 0.10686886310577393,
-          "hybrid_score": 0.3379312753677368
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5740181803703308,
-          "sparse_similarity": 0.10168690979480743,
-          "hybrid_score": 0.3378525376319885
-        }
-      ]
+    "assertion_position": [
+      909,
+      925
     ],
-    "eng_translation": [
-      "Atheromatous ulceration"
-    ],
-    "retriever": {
-      "sapbert": {
-        "A690": 0.626437,
-        "H16059": 0.607218,
-        "I775": 0.587875,
-        "H16049": 0.581195,
-        "I2583": 0.569717
-      },
-      "rapidfuzz": {
-        "I70439": 0.855,
-        "I70443": 0.855,
-        "I70444": 0.855
-      }
-    },
-    "candidate": {
-      "code": "A690",
-      "confidence": 0.563793
-    }
+    "sentence": "Kết quả chẩn đoán hình ảnh: chụp mạch máu ghi nhận tình trạng hẹp khoảng 65% của động mạch cảnh chung trái gần gốc với bằng chứng [ENTITY]."
   }
 ]

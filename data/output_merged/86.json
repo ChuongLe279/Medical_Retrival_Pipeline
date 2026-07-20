@@ -6,62 +6,11 @@
       34,
       53
     ],
-    "sentence": "Tiền sử bệnh\nBệnh lý mãn tính: [ENTITY], bệnh lý thần kinh ngoại biên\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006636",
-          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.7283403277397156,
-          "sparse_similarity": 0.24266843497753143,
-          "hybrid_score": 0.4855043888092041
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.7331773042678833,
-          "sparse_similarity": 0.23779615759849548,
-          "hybrid_score": 0.4854867458343506
-        },
-        {
-          "id": "isFamily_018989",
-          "document": "họ ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.7220240235328674,
-          "sparse_similarity": 0.21629412472248077,
-          "hybrid_score": 0.4691590666770935
-        }
-      ]
+    "assertion_position": [
+      32,
+      51
     ],
-    "eng_translation": [
-      "Coronary artery disease",
-      "Ischemic heart disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I249": 0.857469,
-        "I255": 0.827983,
-        "I259": 0.821557,
-        "I519": 0.804931,
-        "I209": 0.762008
-      },
-      "rapidfuzz": {
-        "I2489": 0.9,
-        "I249": 0.9,
-        "I2589": 0.9,
-        "I2542": 0.857143,
-        "S55112D": 0.855,
-        "S55191D": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I249",
-      "confidence": 0.861722
-    }
+    "sentence": "Bệnh lý mãn tính: [ENTITY], bệnh lý thần kinh ngoại biên."
   },
   {
     "text": "bệnh lý thần kinh ngoại biên",
@@ -70,58 +19,11 @@
       55,
       83
     ],
-    "sentence": "Tiền sử bệnh\nBệnh lý mãn tính: bệnh động mạch vành, [ENTITY]\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.75792396068573,
-          "sparse_similarity": 0.18083418905735016,
-          "hybrid_score": 0.4693790674209595
-        },
-        {
-          "id": "isFamily_007192",
-          "document": "bệnh sử gia đình [ENTITY].",
-          "dense_similarity": 0.7472203969955444,
-          "sparse_similarity": 0.1749628782272339,
-          "hybrid_score": 0.46109163761138916
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.7231248617172241,
-          "sparse_similarity": 0.19310487806797028,
-          "hybrid_score": 0.4581148624420166
-        }
-      ]
+    "assertion_position": [
+      53,
+      81
     ],
-    "eng_translation": [
-      "peripheral neuropathy"
-    ],
-    "retriever": {
-      "sapbert": {
-        "G629": 0.864758,
-        "G64": 0.713092,
-        "M792": 0.694097,
-        "G609": 0.693085,
-        "G589": 0.692573
-      },
-      "rapidfuzz": {
-        "Z9862": 0.855,
-        "E0952": 0.855,
-        "A182": 0.855
-      }
-    },
-    "candidate": {
-      "code": "G629",
-      "confidence": 0.778282
-    }
+    "sentence": "Bệnh lý mãn tính: bệnh động mạch vành, [ENTITY]."
   },
   {
     "text": "mệt mỏi",
@@ -130,45 +32,11 @@
       160,
       167
     ],
-    "sentence": "Bệnh sử hiện tại\n Trong vòng một năm qua bệnh nhân thi thoảng xuất hiện [ENTITY], nhất là khi vận động gắng sức khó thở tăng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012345",
-          "document": "cách đây 1 năm được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6910387873649597,
-          "sparse_similarity": 0.1309686303138733,
-          "hybrid_score": 0.4110037088394165
-        },
-        {
-          "id": "isHistorical_031846",
-          "document": "đã 1 năm mắc [ENTITY].",
-          "dense_similarity": 0.6735532283782959,
-          "sparse_similarity": 0.14217989146709442,
-          "hybrid_score": 0.40786656737327576
-        },
-        {
-          "id": "isHistorical_012343",
-          "document": "cách đây 1 năm mắc [ENTITY].",
-          "dense_similarity": 0.6797236800193787,
-          "sparse_similarity": 0.13424453139305115,
-          "hybrid_score": 0.4069840908050537
-        }
-      ]
+    "assertion_position": [
+      155,
+      162
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Trong vòng một năm qua bệnh nhân thi thoảng xuất hiện [ENTITY], nhất là khi vận động gắng sức khó thở tăng."
   },
   {
     "text": "khó thở",
@@ -177,46 +45,11 @@
       199,
       206
     ],
-    "sentence": "Bệnh sử hiện tại\n Trong vòng một năm qua bệnh nhân thi thoảng xuất hiện mệt mỏi, nhất là khi vận động gắng sức [ENTITY] tăng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031846",
-          "document": "đã 1 năm mắc [ENTITY].",
-          "dense_similarity": 0.6483078002929688,
-          "sparse_similarity": 0.12207090109586716,
-          "hybrid_score": 0.38518935441970825
-        },
-        {
-          "id": "isHistorical_031848",
-          "document": "đã 1 năm được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6538849472999573,
-          "sparse_similarity": 0.11453656852245331,
-          "hybrid_score": 0.3842107653617859
-        },
-        {
-          "id": "isHistorical_012345",
-          "document": "cách đây 1 năm được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6547728776931763,
-          "sparse_similarity": 0.11203217506408691,
-          "hybrid_score": 0.3834025263786316
-        }
-      ]
+    "assertion_position": [
+      194,
+      201
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Trong vòng một năm qua bệnh nhân thi thoảng xuất hiện mệt mỏi, nhất là khi vận động gắng sức [ENTITY] tăng."
   },
   {
     "text": "mệt mỏi",
@@ -225,45 +58,11 @@
       248,
       255
     ],
-    "sentence": "Lúc vào viện khám\nBệnh nhân tỉnh\n- [ENTITY]\n- Khó thở tăng khi vận động gắng sức\n- Đi lại khó khăn, cần dùng gậy hỗ trợ đi lại\n- Đau hai bàn chân do bệnh lý thần kinh ngoại biên \nCận lâm sàng:\nKết quả chẩn đoán hình ảnh\n- Đo sức bền cơ tim bằng đồng vị phóng xạ kết quả có dị tật cố định vùng trước vách và vách dưới với  giảm chức năng tâm thu thất trái nghiêm trọng kèm theo rối loạn chức năng thất trái.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5794320702552795,
-          "sparse_similarity": 0.10634833574295044,
-          "hybrid_score": 0.342890202999115
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5902780890464783,
-          "sparse_similarity": 0.09432629495859146,
-          "hybrid_score": 0.34230220317840576
-        },
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5808836221694946,
-          "sparse_similarity": 0.10198086500167847,
-          "hybrid_score": 0.34143224358558655
-        }
-      ]
+    "assertion_position": [
+      243,
+      250
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Khó thở",
@@ -272,46 +71,11 @@
       258,
       265
     ],
-    "sentence": "Lúc vào viện khám\nBệnh nhân tỉnh\n- mệt mỏi\n- [ENTITY] tăng khi vận động gắng sức\n- Đi lại khó khăn, cần dùng gậy hỗ trợ đi lại\n- Đau hai bàn chân do bệnh lý thần kinh ngoại biên \nCận lâm sàng:\nKết quả chẩn đoán hình ảnh\n- Đo sức bền cơ tim bằng đồng vị phóng xạ kết quả có dị tật cố định vùng trước vách và vách dưới với  giảm chức năng tâm thu thất trái nghiêm trọng kèm theo rối loạn chức năng thất trái.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5844414830207825,
-          "sparse_similarity": 0.10657981783151627,
-          "hybrid_score": 0.34551066160202026
-        },
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5877247452735901,
-          "sparse_similarity": 0.10184220224618912,
-          "hybrid_score": 0.3447834849357605
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5913504362106323,
-          "sparse_similarity": 0.092840775847435,
-          "hybrid_score": 0.34209561347961426
-        }
-      ]
+    "assertion_position": [
+      252,
+      259
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] tăng khi vận động gắng sức."
   },
   {
     "text": "Đi lại khó khăn",
@@ -320,47 +84,11 @@
       295,
       310
     ],
-    "sentence": "Lúc vào viện khám\nBệnh nhân tỉnh\n- mệt mỏi\n- Khó thở tăng khi vận động gắng sức\n- [ENTITY], cần dùng gậy hỗ trợ đi lại\n- Đau hai bàn chân do bệnh lý thần kinh ngoại biên \nCận lâm sàng:\nKết quả chẩn đoán hình ảnh\n- Đo sức bền cơ tim bằng đồng vị phóng xạ kết quả có dị tật cố định vùng trước vách và vách dưới với  giảm chức năng tâm thu thất trái nghiêm trọng kèm theo rối loạn chức năng thất trái.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5780537724494934,
-          "sparse_similarity": 0.09653885662555695,
-          "hybrid_score": 0.3372963070869446
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5746886134147644,
-          "sparse_similarity": 0.09840574860572815,
-          "hybrid_score": 0.33654719591140747
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5830795764923096,
-          "sparse_similarity": 0.08696731925010681,
-          "hybrid_score": 0.3350234627723694
-        }
-      ]
+    "assertion_position": [
+      288,
+      303
     ],
-    "eng_translation": [
-      "Difficulty with ambulation",
-      "Mobility impairment",
-      "Difficulty with walking"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], cần dùng gậy hỗ trợ đi lại."
   },
   {
     "text": "Đau hai bàn chân",
@@ -369,46 +97,11 @@
       341,
       357
     ],
-    "sentence": "Lúc vào viện khám\nBệnh nhân tỉnh\n- mệt mỏi\n- Khó thở tăng khi vận động gắng sức\n- Đi lại khó khăn, cần dùng gậy hỗ trợ đi lại\n- [ENTITY] do bệnh lý thần kinh ngoại biên \nCận lâm sàng:\nKết quả chẩn đoán hình ảnh\n- Đo sức bền cơ tim bằng đồng vị phóng xạ kết quả có dị tật cố định vùng trước vách và vách dưới với  giảm chức năng tâm thu thất trái nghiêm trọng kèm theo rối loạn chức năng thất trái.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5877878665924072,
-          "sparse_similarity": 0.10962533205747604,
-          "hybrid_score": 0.34870660305023193
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5843380093574524,
-          "sparse_similarity": 0.10965370386838913,
-          "hybrid_score": 0.34699586033821106
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5949063897132874,
-          "sparse_similarity": 0.09439194947481155,
-          "hybrid_score": 0.34464916586875916
-        }
-      ]
+    "assertion_position": [
+      333,
+      349
     ],
-    "eng_translation": [
-      "Foot pain",
-      "Plantar pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] do bệnh lý thần kinh ngoại biên."
   },
   {
     "text": "lý thần kinh ngoại biên",
@@ -417,58 +110,11 @@
       366,
       389
     ],
-    "sentence": "Lúc vào viện khám\nBệnh nhân tỉnh\n- mệt mỏi\n- Khó thở tăng khi vận động gắng sức\n- Đi lại khó khăn, cần dùng gậy hỗ trợ đi lại\n- Đau hai bàn chân do bệnh [ENTITY] \nCận lâm sàng:\nKết quả chẩn đoán hình ảnh\n- Đo sức bền cơ tim bằng đồng vị phóng xạ kết quả có dị tật cố định vùng trước vách và vách dưới với  giảm chức năng tâm thu thất trái nghiêm trọng kèm theo rối loạn chức năng thất trái.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5700922608375549,
-          "sparse_similarity": 0.09091514348983765,
-          "hybrid_score": 0.3305037021636963
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5671886801719666,
-          "sparse_similarity": 0.09299882501363754,
-          "hybrid_score": 0.33009374141693115
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5873081684112549,
-          "sparse_similarity": 0.06874091923236847,
-          "hybrid_score": 0.3280245363712311
-        }
-      ]
+    "assertion_position": [
+      358,
+      381
     ],
-    "eng_translation": [
-      "Peripheral neuropathy"
-    ],
-    "retriever": {
-      "sapbert": {
-        "G629": 0.864758,
-        "G64": 0.713092,
-        "M792": 0.694097,
-        "G609": 0.693085,
-        "G589": 0.692573
-      },
-      "rapidfuzz": {
-        "Z9862": 0.855,
-        "E0952": 0.855,
-        "A182": 0.855
-      }
-    },
-    "candidate": {
-      "code": "G629",
-      "confidence": 0.778282
-    }
+    "sentence": "Đau hai bàn chân do bệnh [ENTITY]."
   },
   {
     "text": "đồng",
@@ -477,45 +123,11 @@
       457,
       461
     ],
-    "sentence": "Lúc vào viện khám\nBệnh nhân tỉnh\n- mệt mỏi\n- Khó thở tăng khi vận động gắng sức\n- Đi lại khó khăn, cần dùng gậy hỗ trợ đi lại\n- Đau hai bàn chân do bệnh lý thần kinh ngoại biên \nCận lâm sàng:\nKết quả chẩn đoán hình ảnh\n- Đo sức bền cơ tim bằng [ENTITY] vị phóng xạ kết quả có dị tật cố định vùng trước vách và vách dưới với  giảm chức năng tâm thu thất trái nghiêm trọng kèm theo rối loạn chức năng thất trái.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.607655942440033,
-          "sparse_similarity": 0.12803864479064941,
-          "hybrid_score": 0.3678472936153412
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6152350306510925,
-          "sparse_similarity": 0.11785432696342468,
-          "hybrid_score": 0.3665446639060974
-        },
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6079232096672058,
-          "sparse_similarity": 0.12160463631153107,
-          "hybrid_score": 0.36476391553878784
-        }
-      ]
+    "assertion_position": [
+      448,
+      452
     ],
-    "eng_translation": [
-      "same"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Đo sức bền cơ tim bằng [ENTITY] vị phóng xạ kết quả có dị tật cố định vùng trước vách và vách dưới với giảm chức năng tâm thu thất trái nghiêm trọng kèm theo rối loạn chức năng thất trái."
   },
   {
     "text": "Chụp động mạch vành",
@@ -524,46 +136,11 @@
       621,
       640
     ],
-    "sentence": "- [ENTITY] cho thấy bệnh ba thân động mạch vành nghiêm trọng \nCác thủ thuật đã thực hiện\n- Chụp động mạch vành can thiệp\n- Can thiệp mạch vành qua da và đặt stent phủ thuốc (DES) vào đoạn giữa của động mạch liên thất trước (LAD)",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020234",
-          "document": "khoảng 3 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5951790809631348,
-          "sparse_similarity": 0.07858625054359436,
-          "hybrid_score": 0.33688265085220337
-        },
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5904020071029663,
-          "sparse_similarity": 0.08237121254205704,
-          "hybrid_score": 0.33638662099838257
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.589459240436554,
-          "sparse_similarity": 0.08240551501512527,
-          "hybrid_score": 0.3359323740005493
-        }
-      ]
+    "assertion_position": [
+      609,
+      628
     ],
-    "eng_translation": [
-      "Coronary angiography",
-      "Cardiac catheterization"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] cho thấy bệnh ba thân động mạch vành nghiêm trọng."
   },
   {
     "text": "bệnh ba thân động mạch vành",
@@ -572,62 +149,11 @@
       650,
       677
     ],
-    "sentence": "- Chụp động mạch vành cho thấy [ENTITY] nghiêm trọng \nCác thủ thuật đã thực hiện\n- Chụp động mạch vành can thiệp\n- Can thiệp mạch vành qua da và đặt stent phủ thuốc (DES) vào đoạn giữa của động mạch liên thất trước (LAD)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034244",
-          "document": "đã phẫu thuật [ENTITY].",
-          "dense_similarity": 0.5733100771903992,
-          "sparse_similarity": 0.13866710662841797,
-          "hybrid_score": 0.35598859190940857
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5818939208984375,
-          "sparse_similarity": 0.059598349034786224,
-          "hybrid_score": 0.32074612379074097
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5704939961433411,
-          "sparse_similarity": 0.06073853000998497,
-          "hybrid_score": 0.315616250038147
-        }
-      ]
+    "assertion_position": [
+      638,
+      665
     ],
-    "eng_translation": [
-      "Coronary artery disease",
-      "Ischemic heart disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I249": 0.857469,
-        "I255": 0.827983,
-        "I259": 0.821557,
-        "I519": 0.804931,
-        "I209": 0.762008
-      },
-      "rapidfuzz": {
-        "I2489": 0.9,
-        "I249": 0.9,
-        "I2589": 0.9,
-        "I2542": 0.857143,
-        "S55112D": 0.855,
-        "S55191D": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I249",
-      "confidence": 0.861722
-    }
+    "sentence": "Chụp động mạch vành cho thấy [ENTITY] nghiêm trọng."
   },
   {
     "text": "Chụp động mạch vành",
@@ -636,45 +162,10 @@
       721,
       740
     ],
-    "sentence": "- Chụp động mạch vành cho thấy bệnh ba thân động mạch vành nghiêm trọng \nCác thủ thuật đã thực hiện\n- [ENTITY] can thiệp\n- Can thiệp mạch vành qua da và đặt stent phủ thuốc (DES) vào đoạn giữa của động mạch liên thất trước (LAD)",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_030000",
-          "document": "vào 3 năm trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5412662625312805,
-          "sparse_similarity": 0.07991582155227661,
-          "hybrid_score": 0.31059104204177856
-        },
-        {
-          "id": "isHistorical_020234",
-          "document": "khoảng 3 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.551088273525238,
-          "sparse_similarity": 0.06870211660861969,
-          "hybrid_score": 0.30989518761634827
-        },
-        {
-          "id": "isHistorical_001127",
-          "document": "3 năm trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5413798689842224,
-          "sparse_similarity": 0.07837201654911041,
-          "hybrid_score": 0.3098759353160858
-        }
-      ]
+    "assertion_position": [
+      708,
+      727
     ],
-    "eng_translation": [
-      "Coronary angiography",
-      "Cardiac catheterization"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] can thiệp."
   }
 ]

@@ -6,62 +6,11 @@
       39,
       52
     ],
-    "sentence": "Tiền sử bệnh\nTiền sử bệnh nội khoa:\n[ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.7930259704589844,
-          "sparse_similarity": 0.2881297171115875,
-          "hybrid_score": 0.5405778288841248
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.8006338477134705,
-          "sparse_similarity": 0.2795983850955963,
-          "hybrid_score": 0.5401161313056946
-        },
-        {
-          "id": "isFamily_007127",
-          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
-          "dense_similarity": 0.7860114574432373,
-          "sparse_similarity": 0.265184611082077,
-          "hybrid_score": 0.5255980491638184
-        }
-      ]
+    "assertion_position": [
+      37,
+      50
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Đái tháo đường",
@@ -70,62 +19,11 @@
       54,
       68
     ],
-    "sentence": "[ENTITY], có biến chứng bệnh lý thần kinh ngoại biên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006621",
-          "document": "bên ngoại của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.7861435413360596,
-          "sparse_similarity": 0.27389371395111084,
-          "hybrid_score": 0.5300186276435852
-        },
-        {
-          "id": "isFamily_006635",
-          "document": "bên ngoại của người bệnh có [ENTITY].",
-          "dense_similarity": 0.7856970429420471,
-          "sparse_similarity": 0.273041695356369,
-          "hybrid_score": 0.5293693542480469
-        },
-        {
-          "id": "isFamily_006541",
-          "document": "bên ngoại có người từng mắc [ENTITY].",
-          "dense_similarity": 0.791085958480835,
-          "sparse_similarity": 0.22866372764110565,
-          "hybrid_score": 0.5098748207092285
-        }
-      ]
+    "assertion_position": [
+      52,
+      66
     ],
-    "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
-        "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.757908
-    }
+    "sentence": "[ENTITY], có biến chứng bệnh lý thần kinh ngoại biên."
   },
   {
     "text": "Suy tim",
@@ -134,62 +32,11 @@
       114,
       121
     ],
-    "sentence": "[ENTITY] không do thiếu máu cơ tim (theo chẩn đoán trước đây).",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "[entity] không do thiếu máu cơ tim (theo chẩn đoán trước đây"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000037",
-          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
-          "dense_similarity": 0.703148365020752,
-          "sparse_similarity": 0.26572185754776,
-          "hybrid_score": 0.484435111284256
-        },
-        {
-          "id": "isNegated_000225",
-          "document": "không được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7145462036132812,
-          "sparse_similarity": 0.2273625135421753,
-          "hybrid_score": 0.47095435857772827
-        },
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.7195097208023071,
-          "sparse_similarity": 0.2147538661956787,
-          "hybrid_score": 0.4671317934989929
-        }
-      ]
+    "assertion_position": [
+      112,
+      119
     ],
-    "eng_translation": [
-      "Heart failure",
-      "Congestive heart failure"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I509": 0.984625,
-        "I5084": 0.853405,
-        "I5020": 0.81339,
-        "I5089": 0.783642,
-        "I5022": 0.769411
-      },
-      "rapidfuzz": {
-        "I5089": 0.95,
-        "I110": 0.9,
-        "I0981": 0.9,
-        "I5041": 0.9,
-        "I5020": 0.9,
-        "I5021": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I509",
-      "confidence": 0.886162
-    }
+    "sentence": "[ENTITY] không do thiếu máu cơ tim (theo chẩn đoán trước đây)."
   },
   {
     "text": "thiếu máu cơ tim",
@@ -198,62 +45,11 @@
       131,
       147
     ],
-    "sentence": "Suy tim không do [ENTITY] (theo chẩn đoán trước đây).",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "[entity] (theo chẩn đoán trước đây"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000225",
-          "document": "không được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7615616321563721,
-          "sparse_similarity": 0.19057545065879822,
-          "hybrid_score": 0.47606855630874634
-        },
-        {
-          "id": "isNegated_000204",
-          "document": "không bị [ENTITY].",
-          "dense_similarity": 0.7560727000236511,
-          "sparse_similarity": 0.17293862998485565,
-          "hybrid_score": 0.464505672454834
-        },
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.739611029624939,
-          "sparse_similarity": 0.17420148849487305,
-          "hybrid_score": 0.456906259059906
-        }
-      ]
+    "assertion_position": [
+      129,
+      145
     ],
-    "eng_translation": [
-      "Myocardial ischemia",
-      "Cardiac ischemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I255": 0.828051,
-        "I6782": 0.801987,
-        "I256": 0.79642,
-        "I249": 0.777916,
-        "I21A1": 0.70956
-      },
-      "rapidfuzz": {
-        "I256": 0.95,
-        "P294": 0.9,
-        "I235": 0.855,
-        "O29192": 0.855,
-        "O29191": 0.855,
-        "O29129": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I256",
-      "confidence": 0.811778
-    }
+    "sentence": "Suy tim không do [ENTITY] (theo chẩn đoán trước đây)."
   },
   {
     "text": "Bệnh thận mạn tính",
@@ -262,62 +58,11 @@
       176,
       194
     ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034239",
-          "document": "đã có [ENTITY].",
-          "dense_similarity": 0.8768635988235474,
-          "sparse_similarity": 0.26202908158302307,
-          "hybrid_score": 0.569446325302124
-        },
-        {
-          "id": "isFamily_009826",
-          "document": "chú có [ENTITY].",
-          "dense_similarity": 0.8590649366378784,
-          "sparse_similarity": 0.26176542043685913,
-          "hybrid_score": 0.5604151487350464
-        },
-        {
-          "id": "isFamily_000357",
-          "document": "[ENTITY] o me.",
-          "dense_similarity": 0.8685569167137146,
-          "sparse_similarity": 0.2289789468050003,
-          "hybrid_score": 0.5487679243087769
-        }
-      ]
+    "assertion_position": [
+      174,
+      192
     ],
-    "eng_translation": [
-      "Chronic kidney disease",
-      "CKD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N189": 0.982146,
-        "N039": 0.781739,
-        "N186": 0.757736,
-        "N181": 0.744167,
-        "N1830": 0.681813
-      },
-      "rapidfuzz": {
-        "D631": 0.95,
-        "N181": 0.95,
-        "N1831": 0.95,
-        "I450": 0.72,
-        "I452": 0.72,
-        "I453": 0.72
-      }
-    },
-    "candidate": {
-      "code": "N189",
-      "confidence": 0.883931
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Torsemide",
@@ -326,60 +71,11 @@
       224,
       233
     ],
-    "sentence": "Thuốc trước khi nhập viện \n\n[ENTITY]: uống 1 viên/ngày, đôi khi 2 viên/ngày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019964",
-          "document": "khoảng 2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6776089668273926,
-          "sparse_similarity": 0.2750588655471802,
-          "hybrid_score": 0.4763339161872864
-        },
-        {
-          "id": "isHistorical_000594",
-          "document": "2 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.6888022422790527,
-          "sparse_similarity": 0.1714591681957245,
-          "hybrid_score": 0.4301307201385498
-        },
-        {
-          "id": "isHistorical_019678",
-          "document": "khoảng 1 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.6987622976303101,
-          "sparse_similarity": 0.1613209992647171,
-          "hybrid_score": 0.430041640996933
-        }
-      ]
+    "assertion_position": [
+      221,
+      230
     ],
-    "eng_translation": [
-      "Torsemide",
-      "Loop Diuretic"
-    ],
-    "retriever": {
-      "sapbert": {
-        "104215": 1.0,
-        "38413": 0.999999,
-        "3567": 0.759171,
-        "3569": 0.751101,
-        "91218": 0.737778
-      },
-      "rapidfuzz": {
-        "38413": 1.0,
-        "2682560": 0.9,
-        "2654838": 0.855,
-        "1300289": 0.72
-      }
-    },
-    "candidate": {
-      "code": "38413",
-      "confidence": 0.999999
-    }
+    "sentence": "[ENTITY]: uống 1 viên/ngày, đôi khi 2 viên/ngày."
   },
   {
     "text": "Insulin glargine",
@@ -388,62 +84,11 @@
       274,
       290
     ],
-    "sentence": "[ENTITY]: theo đơn 100 đơn vị x 2 lần/ngày, hiện đã ngừng sử dụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009446",
-          "document": "[ENTITY] đã 100 ngày.",
-          "dense_similarity": 0.6934385299682617,
-          "sparse_similarity": 0.264743447303772,
-          "hybrid_score": 0.47909098863601685
-        },
-        {
-          "id": "isHistorical_006540",
-          "document": "[ENTITY] da 100 ngay.",
-          "dense_similarity": 0.7007092833518982,
-          "sparse_similarity": 0.2303038239479065,
-          "hybrid_score": 0.46550655364990234
-        },
-        {
-          "id": "isHistorical_009486",
-          "document": "[ENTITY] đã 2 ngày.",
-          "dense_similarity": 0.7000638246536255,
-          "sparse_similarity": 0.23064996302127838,
-          "hybrid_score": 0.46535688638687134
-        }
-      ]
+    "assertion_position": [
+      271,
+      287
     ],
-    "eng_translation": [
-      "Insulin glargine",
-      "Long-acting insulin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "274783": 1.0,
-        "1430890": 0.909257,
-        "1429337": 0.792429,
-        "1430887": 0.704685,
-        "616865": 0.703775
-      },
-      "rapidfuzz": {
-        "274783": 1.0,
-        "2589006": 0.95,
-        "2563969": 0.95,
-        "10603": 0.9,
-        "1157462": 0.855,
-        "575679": 0.855
-      }
-    },
-    "candidate": {
-      "code": "274783",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY]: theo đơn 100 đơn vị x 2 lần/ngày, hiện đã ngừng sử dụng."
   },
   {
     "text": "Crestor",
@@ -452,60 +97,11 @@
       419,
       426
     ],
-    "sentence": "Rosuvastatin ([ENTITY]): đã hết thuốc khoảng 3 tuần trước nhập viện.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7671889066696167,
-          "sparse_similarity": 0.21996814012527466,
-          "hybrid_score": 0.4935785233974457
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7634739279747009,
-          "sparse_similarity": 0.21106582880020142,
-          "hybrid_score": 0.48726987838745117
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7607904076576233,
-          "sparse_similarity": 0.2074325531721115,
-          "hybrid_score": 0.484111487865448
-        }
-      ]
+    "assertion_position": [
+      416,
+      423
     ],
-    "eng_translation": [
-      "Crestor",
-      "Rosuvastatin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "320864": 1.0,
-        "301542": 0.999999,
-        "323828": 0.919367
-      },
-      "rapidfuzz": {
-        "320864": 1.0,
-        "301542": 1.0,
-        "1157992": 0.95,
-        "2167572": 0.95,
-        "859425": 0.9,
-        "859426": 0.9
-      }
-    },
-    "candidate": {
-      "code": "320864",
-      "confidence": 1.0
-    }
+    "sentence": "Rosuvastatin ([ENTITY]): đã hết thuốc khoảng 3 tuần trước nhập viện."
   },
   {
     "text": "Carvedilol",
@@ -514,62 +110,11 @@
       473,
       483
     ],
-    "sentence": "[ENTITY]: đã hết thuốc khoảng 3 tuần trước nhập viện.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.8543733954429626,
-          "sparse_similarity": 0.25874897837638855,
-          "hybrid_score": 0.5565611720085144
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.8528556227684021,
-          "sparse_similarity": 0.245212584733963,
-          "hybrid_score": 0.5490341186523438
-        },
-        {
-          "id": "isHistorical_032411",
-          "document": "đã 3 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.8368524312973022,
-          "sparse_similarity": 0.25500360131263733,
-          "hybrid_score": 0.5459280014038086
-        }
-      ]
+    "assertion_position": [
+      470,
+      480
     ],
-    "eng_translation": [
-      "Carvedilol",
-      "Beta-blocker"
-    ],
-    "retriever": {
-      "sapbert": {
-        "20352": 1.0,
-        "371": 0.992403,
-        "1427669": 0.948898,
-        "691779": 0.887482,
-        "91231": 0.854665
-      },
-      "rapidfuzz": {
-        "20352": 1.0,
-        "686924": 0.9,
-        "686925": 0.9,
-        "1792488": 0.855,
-        "1792490": 0.855,
-        "1792493": 0.855
-      }
-    },
-    "candidate": {
-      "code": "20352",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY]: đã hết thuốc khoảng 3 tuần trước nhập viện."
   },
   {
     "text": "kali",
@@ -578,47 +123,11 @@
       595,
       599
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: xét nghiệm bất thường - tăng [ENTITY] máu và Creatinine tăng\nCác sự kiện trước khi nhập viện\n- Đi khám bác sĩ chăm sóc chính (PCP) để tái khám hàng năm\n- Báo cáo đang dùng 1 viên Torsemide/ ngày , đôi khi 2 viên\n- Bác sĩ đề nghị ngừng sử dụng torsemide lâu dài\n- Bệnh nhân không kiểm tra đường huyết thường xuyên tại nhà do hết que thử đường máu.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6312754154205322,
-          "sparse_similarity": 0.2049608826637268,
-          "hybrid_score": 0.4181181490421295
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6345490217208862,
-          "sparse_similarity": 0.19729098677635193,
-          "hybrid_score": 0.4159200191497803
-        },
-        {
-          "id": "isHistorical_000022",
-          "document": "1 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6240193843841553,
-          "sparse_similarity": 0.2011895328760147,
-          "hybrid_score": 0.4126044511795044
-        }
-      ]
+    "assertion_position": [
+      590,
+      594
     ],
-    "eng_translation": [
-      "Kali",
-      "Hyperkalemia",
-      "Potassium"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: xét nghiệm bất thường - tăng [ENTITY] máu và Creatinine tăng."
   },
   {
     "text": "Creatinine",
@@ -627,46 +136,11 @@
       607,
       617
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: xét nghiệm bất thường - tăng kali máu và [ENTITY] tăng\nCác sự kiện trước khi nhập viện\n- Đi khám bác sĩ chăm sóc chính (PCP) để tái khám hàng năm\n- Báo cáo đang dùng 1 viên Torsemide/ ngày , đôi khi 2 viên\n- Bác sĩ đề nghị ngừng sử dụng torsemide lâu dài\n- Bệnh nhân không kiểm tra đường huyết thường xuyên tại nhà do hết que thử đường máu.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6338291168212891,
-          "sparse_similarity": 0.2249937504529953,
-          "hybrid_score": 0.4294114410877228
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6372224688529968,
-          "sparse_similarity": 0.21574696898460388,
-          "hybrid_score": 0.42648470401763916
-        },
-        {
-          "id": "isHistorical_024628",
-          "document": "từ 1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6292958855628967,
-          "sparse_similarity": 0.2185354381799698,
-          "hybrid_score": 0.42391565442085266
-        }
-      ]
+    "assertion_position": [
+      602,
+      612
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: xét nghiệm bất thường - tăng kali máu và [ENTITY] tăng."
   },
   {
     "text": "Torsemide",
@@ -675,60 +149,11 @@
       741,
       750
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: xét nghiệm bất thường - tăng kali máu và Creatinine tăng\nCác sự kiện trước khi nhập viện\n- Đi khám bác sĩ chăm sóc chính (PCP) để tái khám hàng năm\n- Báo cáo đang dùng 1 viên [ENTITY]/ ngày , đôi khi 2 viên\n- Bác sĩ đề nghị ngừng sử dụng torsemide lâu dài\n- Bệnh nhân không kiểm tra đường huyết thường xuyên tại nhà do hết que thử đường máu.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6562976241111755,
-          "sparse_similarity": 0.21849609911441803,
-          "hybrid_score": 0.4373968541622162
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6467585563659668,
-          "sparse_similarity": 0.22397136688232422,
-          "hybrid_score": 0.4353649616241455
-        },
-        {
-          "id": "isHistorical_024634",
-          "document": "từ 1 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6442632079124451,
-          "sparse_similarity": 0.21853068470954895,
-          "hybrid_score": 0.4313969612121582
-        }
-      ]
+    "assertion_position": [
+      735,
+      744
     ],
-    "eng_translation": [
-      "Torsemide",
-      "Loop Diuretic"
-    ],
-    "retriever": {
-      "sapbert": {
-        "104215": 1.0,
-        "38413": 0.999999,
-        "3567": 0.759171,
-        "3569": 0.751101,
-        "91218": 0.737778
-      },
-      "rapidfuzz": {
-        "38413": 1.0,
-        "2682560": 0.9,
-        "2654838": 0.855,
-        "1300289": 0.72
-      }
-    },
-    "candidate": {
-      "code": "38413",
-      "confidence": 0.999999
-    }
+    "sentence": "Báo cáo đang dùng 1 viên [ENTITY]/ ngày , đôi khi 2 viên."
   },
   {
     "text": "torsemide",
@@ -737,60 +162,11 @@
       805,
       814
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: xét nghiệm bất thường - tăng kali máu và Creatinine tăng\nCác sự kiện trước khi nhập viện\n- Đi khám bác sĩ chăm sóc chính (PCP) để tái khám hàng năm\n- Báo cáo đang dùng 1 viên Torsemide/ ngày , đôi khi 2 viên\n- Bác sĩ đề nghị ngừng sử dụng [ENTITY] lâu dài\n- Bệnh nhân không kiểm tra đường huyết thường xuyên tại nhà do hết que thử đường máu.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6286115646362305,
-          "sparse_similarity": 0.2097754031419754,
-          "hybrid_score": 0.41919347643852234
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6322741508483887,
-          "sparse_similarity": 0.2016466110944748,
-          "hybrid_score": 0.41696038842201233
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6280964016914368,
-          "sparse_similarity": 0.19998934864997864,
-          "hybrid_score": 0.4140428900718689
-        }
-      ]
+    "assertion_position": [
+      798,
+      807
     ],
-    "eng_translation": [
-      "Torsemide",
-      "Loop Diuretic"
-    ],
-    "retriever": {
-      "sapbert": {
-        "104215": 1.0,
-        "38413": 0.999999,
-        "3567": 0.759171,
-        "3569": 0.751101,
-        "91218": 0.737778
-      },
-      "rapidfuzz": {
-        "38413": 1.0,
-        "2682560": 0.9,
-        "2654838": 0.855,
-        "1300289": 0.72
-      }
-    },
-    "candidate": {
-      "code": "38413",
-      "confidence": 0.999999
-    }
+    "sentence": "Bác sĩ đề nghị ngừng sử dụng [ENTITY] lâu dài."
   },
   {
     "text": "đường huyết",
@@ -799,46 +175,11 @@
       850,
       861
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: xét nghiệm bất thường - tăng kali máu và Creatinine tăng\nCác sự kiện trước khi nhập viện\n- Đi khám bác sĩ chăm sóc chính (PCP) để tái khám hàng năm\n- Báo cáo đang dùng 1 viên Torsemide/ ngày , đôi khi 2 viên\n- Bác sĩ đề nghị ngừng sử dụng torsemide lâu dài\n- Bệnh nhân không kiểm tra [ENTITY] thường xuyên tại nhà do hết que thử đường máu.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6257941126823425,
-          "sparse_similarity": 0.20688605308532715,
-          "hybrid_score": 0.41634008288383484
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6281218528747559,
-          "sparse_similarity": 0.1984144151210785,
-          "hybrid_score": 0.41326814889907837
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6250438690185547,
-          "sparse_similarity": 0.19640107452869415,
-          "hybrid_score": 0.4107224643230438
-        }
-      ]
+    "assertion_position": [
+      842,
+      853
     ],
-    "eng_translation": [
-      "blood glucose",
-      "serum glucose"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân không kiểm tra [ENTITY] thường xuyên tại nhà do hết que thử đường máu."
   },
   {
     "text": "glucose",
@@ -847,46 +188,11 @@
       911,
       918
     ],
-    "sentence": "- [ENTITY] là thấp, nên ngừng dùng glargine\n- Báo cáo bị ngã gần đây\n- Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại\n- Các loại thuốc (isosorbide, crestor, carvedilol) đã hết khi đi khám PCP\n- Hết isosorbide, crestor, carvedilol khoảng 3 tuần trước\n- Các xét nghiệm xét nghiệm được kiểm tra bởi PCP: kali là 6.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013701",
-          "document": "cách đây 6 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5628063082695007,
-          "sparse_similarity": 0.0696461945772171,
-          "hybrid_score": 0.3162262439727783
-        },
-        {
-          "id": "isHistorical_013700",
-          "document": "cách đây 6 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5579010248184204,
-          "sparse_similarity": 0.06513308733701706,
-          "hybrid_score": 0.31151705980300903
-        },
-        {
-          "id": "isHistorical_002735",
-          "document": "6 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5569897294044495,
-          "sparse_similarity": 0.06557868421077728,
-          "hybrid_score": 0.31128421425819397
-        }
-      ]
+    "assertion_position": [
+      901,
+      908
     ],
-    "eng_translation": [
-      "Glucose",
-      "Blood sugar"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] là thấp, nên ngừng dùng glargine."
   },
   {
     "text": "crestor",
@@ -895,60 +201,11 @@
       1052,
       1059
     ],
-    "sentence": "- glucose là thấp, nên ngừng dùng glargine\n- Báo cáo bị ngã gần đây\n- Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại\n- Các loại thuốc (isosorbide, [ENTITY], carvedilol) đã hết khi đi khám PCP\n- Hết isosorbide, crestor, carvedilol khoảng 3 tuần trước\n- Các xét nghiệm xét nghiệm được kiểm tra bởi PCP: kali là 6.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013701",
-          "document": "cách đây 6 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5564689636230469,
-          "sparse_similarity": 0.044636085629463196,
-          "hybrid_score": 0.30055251717567444
-        },
-        {
-          "id": "isHistorical_002735",
-          "document": "6 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5505419969558716,
-          "sparse_similarity": 0.04526081308722496,
-          "hybrid_score": 0.2979013919830322
-        },
-        {
-          "id": "isHistorical_012909",
-          "document": "cách đây 3 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5450409054756165,
-          "sparse_similarity": 0.04622485116124153,
-          "hybrid_score": 0.29563286900520325
-        }
-      ]
+    "assertion_position": [
+      1039,
+      1046
     ],
-    "eng_translation": [
-      "Crestor",
-      "Rosuvastatin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "320864": 1.0,
-        "301542": 0.999999,
-        "323828": 0.919367
-      },
-      "rapidfuzz": {
-        "320864": 1.0,
-        "301542": 1.0,
-        "1157992": 0.95,
-        "2167572": 0.95,
-        "859425": 0.9,
-        "859426": 0.9
-      }
-    },
-    "candidate": {
-      "code": "320864",
-      "confidence": 1.0
-    }
+    "sentence": "Các loại thuốc (isosorbide, [ENTITY], carvedilol) đã hết khi đi khám PCP."
   },
   {
     "text": "carvedilol",
@@ -957,62 +214,11 @@
       1061,
       1071
     ],
-    "sentence": "- glucose là thấp, nên ngừng dùng glargine\n- Báo cáo bị ngã gần đây\n- Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại\n- Các loại thuốc (isosorbide, crestor, [ENTITY]) đã hết khi đi khám PCP\n- Hết isosorbide, crestor, carvedilol khoảng 3 tuần trước\n- Các xét nghiệm xét nghiệm được kiểm tra bởi PCP: kali là 6.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013701",
-          "document": "cách đây 6 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5637596249580383,
-          "sparse_similarity": 0.04691896587610245,
-          "hybrid_score": 0.3053393065929413
-        },
-        {
-          "id": "isHistorical_002735",
-          "document": "6 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5579338669776917,
-          "sparse_similarity": 0.04579833522439003,
-          "hybrid_score": 0.3018661141395569
-        },
-        {
-          "id": "isHistorical_012909",
-          "document": "cách đây 3 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5533211827278137,
-          "sparse_similarity": 0.048100877553224564,
-          "hybrid_score": 0.3007110357284546
-        }
-      ]
+    "assertion_position": [
+      1048,
+      1058
     ],
-    "eng_translation": [
-      "carvedilol",
-      "Beta-blocker"
-    ],
-    "retriever": {
-      "sapbert": {
-        "20352": 1.0,
-        "371": 0.992403,
-        "1427669": 0.948898,
-        "691779": 0.887482,
-        "91231": 0.854665
-      },
-      "rapidfuzz": {
-        "20352": 1.0,
-        "686924": 0.9,
-        "686925": 0.9,
-        "1792488": 0.855,
-        "1792490": 0.855,
-        "1792493": 0.855
-      }
-    },
-    "candidate": {
-      "code": "20352",
-      "confidence": 1.0
-    }
+    "sentence": "Các loại thuốc (isosorbide, crestor, [ENTITY]) đã hết khi đi khám PCP."
   },
   {
     "text": "crestor",
@@ -1021,60 +227,11 @@
       1114,
       1121
     ],
-    "sentence": "- glucose là thấp, nên ngừng dùng glargine\n- Báo cáo bị ngã gần đây\n- Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại\n- Các loại thuốc (isosorbide, crestor, carvedilol) đã hết khi đi khám PCP\n- Hết isosorbide, [ENTITY], carvedilol khoảng 3 tuần trước\n- Các xét nghiệm xét nghiệm được kiểm tra bởi PCP: kali là 6.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013701",
-          "document": "cách đây 6 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5580137372016907,
-          "sparse_similarity": 0.04707321524620056,
-          "hybrid_score": 0.3025434613227844
-        },
-        {
-          "id": "isHistorical_002735",
-          "document": "6 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5519081354141235,
-          "sparse_similarity": 0.050631847232580185,
-          "hybrid_score": 0.3012699782848358
-        },
-        {
-          "id": "isHistorical_021039",
-          "document": "khoảng 6 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5499655604362488,
-          "sparse_similarity": 0.04864070191979408,
-          "hybrid_score": 0.2993031442165375
-        }
-      ]
+    "assertion_position": [
+      1100,
+      1107
     ],
-    "eng_translation": [
-      "Crestor",
-      "Rosuvastatin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "320864": 1.0,
-        "301542": 0.999999,
-        "323828": 0.919367
-      },
-      "rapidfuzz": {
-        "320864": 1.0,
-        "301542": 1.0,
-        "1157992": 0.95,
-        "2167572": 0.95,
-        "859425": 0.9,
-        "859426": 0.9
-      }
-    },
-    "candidate": {
-      "code": "320864",
-      "confidence": 1.0
-    }
+    "sentence": "Hết isosorbide, [ENTITY], carvedilol khoảng 3 tuần trước."
   },
   {
     "text": "carvedilol",
@@ -1083,62 +240,11 @@
       1123,
       1133
     ],
-    "sentence": "- glucose là thấp, nên ngừng dùng glargine\n- Báo cáo bị ngã gần đây\n- Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại\n- Các loại thuốc (isosorbide, crestor, carvedilol) đã hết khi đi khám PCP\n- Hết isosorbide, crestor, [ENTITY] khoảng 3 tuần trước\n- Các xét nghiệm xét nghiệm được kiểm tra bởi PCP: kali là 6.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013701",
-          "document": "cách đây 6 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5675395131111145,
-          "sparse_similarity": 0.054105427116155624,
-          "hybrid_score": 0.310822457075119
-        },
-        {
-          "id": "isHistorical_002735",
-          "document": "6 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5615615844726562,
-          "sparse_similarity": 0.05357929691672325,
-          "hybrid_score": 0.3075704276561737
-        },
-        {
-          "id": "isHistorical_012909",
-          "document": "cách đây 3 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5568150877952576,
-          "sparse_similarity": 0.05438510328531265,
-          "hybrid_score": 0.305600106716156
-        }
-      ]
+    "assertion_position": [
+      1109,
+      1119
     ],
-    "eng_translation": [
-      "carvedilol",
-      "Beta-blocker"
-    ],
-    "retriever": {
-      "sapbert": {
-        "20352": 1.0,
-        "371": 0.992403,
-        "1427669": 0.948898,
-        "691779": 0.887482,
-        "91231": 0.854665
-      },
-      "rapidfuzz": {
-        "20352": 1.0,
-        "686924": 0.9,
-        "686925": 0.9,
-        "1792488": 0.855,
-        "1792490": 0.855,
-        "1792493": 0.855
-      }
-    },
-    "candidate": {
-      "code": "20352",
-      "confidence": 1.0
-    }
+    "sentence": "Hết isosorbide, crestor, [ENTITY] khoảng 3 tuần trước."
   },
   {
     "text": "kali",
@@ -1147,47 +253,11 @@
       1205,
       1209
     ],
-    "sentence": "- glucose là thấp, nên ngừng dùng glargine\n- Báo cáo bị ngã gần đây\n- Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại\n- Các loại thuốc (isosorbide, crestor, carvedilol) đã hết khi đi khám PCP\n- Hết isosorbide, crestor, carvedilol khoảng 3 tuần trước\n- Các xét nghiệm xét nghiệm được kiểm tra bởi PCP: [ENTITY] là 6.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013701",
-          "document": "cách đây 6 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5800891518592834,
-          "sparse_similarity": 0.05978446453809738,
-          "hybrid_score": 0.3199368119239807
-        },
-        {
-          "id": "isHistorical_002735",
-          "document": "6 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5744142532348633,
-          "sparse_similarity": 0.060442060232162476,
-          "hybrid_score": 0.3174281716346741
-        },
-        {
-          "id": "isHistorical_012909",
-          "document": "cách đây 3 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5720096826553345,
-          "sparse_similarity": 0.06170369312167168,
-          "hybrid_score": 0.3168566823005676
-        }
-      ]
+    "assertion_position": [
+      1190,
+      1194
     ],
-    "eng_translation": [
-      "Kali",
-      "Hyperkalemia",
-      "Potassium"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các xét nghiệm xét nghiệm được kiểm tra bởi PCP: [ENTITY] là 6."
   },
   {
     "text": "6.3",
@@ -1196,45 +266,11 @@
       1213,
       1216
     ],
-    "sentence": "- glucose là thấp, nên ngừng dùng glargine\n- Báo cáo bị ngã gần đây\n- Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại\n- Các loại thuốc (isosorbide, crestor, carvedilol) đã hết khi đi khám PCP\n- Hết isosorbide, crestor, carvedilol khoảng 3 tuần trước\n- Các xét nghiệm xét nghiệm được kiểm tra bởi PCP: kali là [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5578645467758179,
-          "sparse_similarity": 0.04768740385770798,
-          "hybrid_score": 0.3027759790420532
-        },
-        {
-          "id": "isHistorical_027029",
-          "document": "từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5517413020133972,
-          "sparse_similarity": 0.04872841387987137,
-          "hybrid_score": 0.300234854221344
-        },
-        {
-          "id": "isHistorical_012909",
-          "document": "cách đây 3 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5511156916618347,
-          "sparse_similarity": 0.04918792098760605,
-          "hybrid_score": 0.3001517951488495
-        }
-      ]
+    "assertion_position": [
+      1198,
+      1201
     ],
-    "eng_translation": [
-      "6.3"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các xét nghiệm xét nghiệm được kiểm tra bởi PCP: kali là [ENTITY]"
   },
   {
     "text": "kali",
@@ -1243,47 +279,11 @@
       1356,
       1360
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- [ENTITY] 6.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000109",
-          "document": "cần xét nghiệm xác nhận [ENTITY].",
-          "dense_similarity": 0.6963043808937073,
-          "sparse_similarity": 0.17705126106739044,
-          "hybrid_score": 0.43667781352996826
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6926514506340027,
-          "sparse_similarity": 0.08719423413276672,
-          "hybrid_score": 0.3899228572845459
-        },
-        {
-          "id": "isFamily_024983",
-          "document": "thân nhân của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.69097900390625,
-          "sparse_similarity": 0.08700516819953918,
-          "hybrid_score": 0.3889920711517334
-        }
-      ]
+    "assertion_position": [
+      1337,
+      1341
     ],
-    "eng_translation": [
-      "Kali",
-      "Hyperkalemia",
-      "Potassium"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 6."
   },
   {
     "text": "6.3",
@@ -1292,45 +292,11 @@
       1361,
       1364
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- kali [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000109",
-          "document": "cần xét nghiệm xác nhận [ENTITY].",
-          "dense_similarity": 0.6893072724342346,
-          "sparse_similarity": 0.15421725809574127,
-          "hybrid_score": 0.42176225781440735
-        },
-        {
-          "id": "isUncertain_000219",
-          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.682257890701294,
-          "sparse_similarity": 0.14687861502170563,
-          "hybrid_score": 0.4145682454109192
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7076491117477417,
-          "sparse_similarity": 0.07528361678123474,
-          "hybrid_score": 0.3914663791656494
-        }
-      ]
+    "assertion_position": [
+      1342,
+      1345
     ],
-    "eng_translation": [
-      "6.3"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "kali [ENTITY]"
   },
   {
     "text": "kali (k)",
@@ -1339,47 +305,11 @@
       1386,
       1394
     ],
-    "sentence": "3, mẫu không tan máu\n- [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000127",
-          "document": "cấy máu không phát hiện [ENTITY].",
-          "dense_similarity": 0.7514500617980957,
-          "sparse_similarity": 0.1647980809211731,
-          "hybrid_score": 0.4581240713596344
-        },
-        {
-          "id": "isNegated_000204",
-          "document": "không bị [ENTITY].",
-          "dense_similarity": 0.7477564215660095,
-          "sparse_similarity": 0.1606319546699524,
-          "hybrid_score": 0.45419418811798096
-        },
-        {
-          "id": "isNegated_000126",
-          "document": "cấy máu không ghi nhận [ENTITY].",
-          "dense_similarity": 0.7368972301483154,
-          "sparse_similarity": 0.16770856082439423,
-          "hybrid_score": 0.4523029029369354
-        }
-      ]
+    "assertion_position": [
+      1366,
+      1374
     ],
-    "eng_translation": [
-      "Kali (K)",
-      "Hypokalemia",
-      "Potassium (K)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ure (bun)",
@@ -1388,47 +318,11 @@
       1399,
       1408
     ],
-    "sentence": "8\n- [ENTITY] 83\n- creatinine 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_005457",
-          "document": "[ENTITY] 83 nam truoc.",
-          "dense_similarity": 0.6540964841842651,
-          "sparse_similarity": 0.14893731474876404,
-          "hybrid_score": 0.4015169143676758
-        },
-        {
-          "id": "isHistorical_006859",
-          "document": "[ENTITY] da 83 nam.",
-          "dense_similarity": 0.6424527764320374,
-          "sparse_similarity": 0.15487483143806458,
-          "hybrid_score": 0.39866381883621216
-        },
-        {
-          "id": "isHistorical_008150",
-          "document": "[ENTITY] tu 83 nam truoc.",
-          "dense_similarity": 0.6430900692939758,
-          "sparse_similarity": 0.15420947968959808,
-          "hybrid_score": 0.39864978194236755
-        }
-      ]
+    "assertion_position": [
+      1378,
+      1387
     ],
-    "eng_translation": [
-      "BUN",
-      "BUN (Blood Urea Nitrogen)",
-      "Blood Urea Nitrogen"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 83."
   },
   {
     "text": "83",
@@ -1437,45 +331,11 @@
       1409,
       1411
     ],
-    "sentence": "8\n- ure (bun) [ENTITY]\n- creatinine 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006712",
-          "document": "[ENTITY] da 5 ngay.",
-          "dense_similarity": 0.6521074771881104,
-          "sparse_similarity": 0.048998359590768814,
-          "hybrid_score": 0.35055291652679443
-        },
-        {
-          "id": "isHistorical_006711",
-          "document": "[ENTITY] da 5 nam.",
-          "dense_similarity": 0.6531378030776978,
-          "sparse_similarity": 0.044943638145923615,
-          "hybrid_score": 0.3490407168865204
-        },
-        {
-          "id": "isHistorical_005161",
-          "document": "[ENTITY] 5 nam truoc.",
-          "dense_similarity": 0.647881805896759,
-          "sparse_similarity": 0.043496955186128616,
-          "hybrid_score": 0.3456893861293793
-        }
-      ]
+    "assertion_position": [
+      1388,
+      1390
     ],
-    "eng_translation": [
-      "83"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ure (bun) [ENTITY]."
   },
   {
     "text": "creatinine",
@@ -1484,46 +344,11 @@
       1414,
       1424
     ],
-    "sentence": "8\n- ure (bun) 83\n- [ENTITY] 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006861",
-          "document": "[ENTITY] da 83 thang.",
-          "dense_similarity": 0.7171764969825745,
-          "sparse_similarity": 0.18536624312400818,
-          "hybrid_score": 0.4512713551521301
-        },
-        {
-          "id": "isHistorical_006862",
-          "document": "[ENTITY] da 83 tuan.",
-          "dense_similarity": 0.7190220355987549,
-          "sparse_similarity": 0.1835094392299652,
-          "hybrid_score": 0.45126575231552124
-        },
-        {
-          "id": "isHistorical_006859",
-          "document": "[ENTITY] da 83 nam.",
-          "dense_similarity": 0.7160825729370117,
-          "sparse_similarity": 0.17964667081832886,
-          "hybrid_score": 0.4478646218776703
-        }
-      ]
+    "assertion_position": [
+      1392,
+      1402
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 5."
   },
   {
     "text": "5.7",
@@ -1532,45 +357,11 @@
       1425,
       1428
     ],
-    "sentence": "8\n- ure (bun) 83\n- creatinine [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019199",
-          "document": "khoang 83 ngay truoc [ENTITY].",
-          "dense_similarity": 0.6433314085006714,
-          "sparse_similarity": 0.14011698961257935,
-          "hybrid_score": 0.39172419905662537
-        },
-        {
-          "id": "isHistorical_019200",
-          "document": "khoang 83 ngay truoc bi [ENTITY].",
-          "dense_similarity": 0.6432851552963257,
-          "sparse_similarity": 0.13683749735355377,
-          "hybrid_score": 0.39006131887435913
-        },
-        {
-          "id": "isHistorical_016760",
-          "document": "da 83 ngay bi [ENTITY].",
-          "dense_similarity": 0.6320191025733948,
-          "sparse_similarity": 0.14787743985652924,
-          "hybrid_score": 0.3899482786655426
-        }
-      ]
+    "assertion_position": [
+      1403,
+      1406
     ],
-    "eng_translation": [
-      "5.7"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "creatinine [ENTITY]"
   },
   {
     "text": "hemoglobin",
@@ -1579,45 +370,11 @@
       1431,
       1441
     ],
-    "sentence": "7\n- [ENTITY] 7.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006800",
-          "document": "[ENTITY] da 7 ngay.",
-          "dense_similarity": 0.831885576248169,
-          "sparse_similarity": 0.2161671370267868,
-          "hybrid_score": 0.5240263342857361
-        },
-        {
-          "id": "isHistorical_006799",
-          "document": "[ENTITY] da 7 nam.",
-          "dense_similarity": 0.8324387073516846,
-          "sparse_similarity": 0.19787435233592987,
-          "hybrid_score": 0.5151565074920654
-        },
-        {
-          "id": "isHistorical_005338",
-          "document": "[ENTITY] 7 ngay truoc.",
-          "dense_similarity": 0.806688666343689,
-          "sparse_similarity": 0.21172748506069183,
-          "hybrid_score": 0.509208083152771
-        }
-      ]
+    "assertion_position": [
+      1408,
+      1418
     ],
-    "eng_translation": [
-      "Hemoglobin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 7."
   },
   {
     "text": "7.8",
@@ -1626,45 +383,11 @@
       1442,
       1445
     ],
-    "sentence": "7\n- hemoglobin [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003229",
-          "document": "7 ngày trước [ENTITY].",
-          "dense_similarity": 0.6836075782775879,
-          "sparse_similarity": 0.14109551906585693,
-          "hybrid_score": 0.4123515486717224
-        },
-        {
-          "id": "isHistorical_003233",
-          "document": "7 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6885952949523926,
-          "sparse_similarity": 0.12990199029445648,
-          "hybrid_score": 0.4092486500740051
-        },
-        {
-          "id": "isHistorical_005339",
-          "document": "[ENTITY] 7 ngày trước.",
-          "dense_similarity": 0.6712805032730103,
-          "sparse_similarity": 0.14494720101356506,
-          "hybrid_score": 0.40811383724212646
-        }
-      ]
+    "assertion_position": [
+      1419,
+      1422
     ],
-    "eng_translation": [
-      "7.8"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "hemoglobin [ENTITY]"
   },
   {
     "text": "bnp",
@@ -1673,46 +396,11 @@
       1460,
       1463
     ],
-    "sentence": "5\n- [ENTITY] 21,000\n- tổng phân tích nước tiểu bình thường\n- cúm âm tính\nKết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, tim to\nCác thủ thuật đã thực hiện\n- Được dùng insulin và dextrose cho tăng kali máu\n- iv lasix 40 mg once",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013437",
-          "document": "cách đây 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5801084041595459,
-          "sparse_similarity": 0.13252197206020355,
-          "hybrid_score": 0.3563151955604553
-        },
-        {
-          "id": "isHistorical_002207",
-          "document": "5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5791163444519043,
-          "sparse_similarity": 0.12752528488636017,
-          "hybrid_score": 0.35332080721855164
-        },
-        {
-          "id": "isHistorical_020775",
-          "document": "khoảng 5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5772421956062317,
-          "sparse_similarity": 0.12518766522407532,
-          "hybrid_score": 0.3512149453163147
-        }
-      ]
+    "assertion_position": [
+      1435,
+      1438
     ],
-    "eng_translation": [
-      "BNP",
-      "Brain Natriuretic Peptide"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 21,000."
   },
   {
     "text": "21,000",
@@ -1721,45 +409,11 @@
       1464,
       1470
     ],
-    "sentence": "5\n- bnp [ENTITY]\n- tổng phân tích nước tiểu bình thường\n- cúm âm tính\nKết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, tim to\nCác thủ thuật đã thực hiện\n- Được dùng insulin và dextrose cho tăng kali máu\n- iv lasix 40 mg once",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013437",
-          "document": "cách đây 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5933814644813538,
-          "sparse_similarity": 0.13595855236053467,
-          "hybrid_score": 0.3646700084209442
-        },
-        {
-          "id": "isHistorical_002207",
-          "document": "5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5923835635185242,
-          "sparse_similarity": 0.1308145374059677,
-          "hybrid_score": 0.36159905791282654
-        },
-        {
-          "id": "isHistorical_020775",
-          "document": "khoảng 5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5873289108276367,
-          "sparse_similarity": 0.12840351462364197,
-          "hybrid_score": 0.35786622762680054
-        }
-      ]
+    "assertion_position": [
+      1439,
+      1445
     ],
-    "eng_translation": [
-      "21,000"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "bnp [ENTITY]."
   },
   {
     "text": "tổng phân tích nước tiểu",
@@ -1768,46 +422,11 @@
       1473,
       1497
     ],
-    "sentence": "5\n- bnp 21,000\n- [ENTITY] bình thường\n- cúm âm tính\nKết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, tim to\nCác thủ thuật đã thực hiện\n- Được dùng insulin và dextrose cho tăng kali máu\n- iv lasix 40 mg once",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013437",
-          "document": "cách đây 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5638707876205444,
-          "sparse_similarity": 0.12146075814962387,
-          "hybrid_score": 0.34266576170921326
-        },
-        {
-          "id": "isHistorical_002207",
-          "document": "5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5631283521652222,
-          "sparse_similarity": 0.11653603613376617,
-          "hybrid_score": 0.3398321866989136
-        },
-        {
-          "id": "isHistorical_012789",
-          "document": "cách đây 25 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5676836967468262,
-          "sparse_similarity": 0.09920615702867508,
-          "hybrid_score": 0.3334449231624603
-        }
-      ]
+    "assertion_position": [
+      1447,
+      1471
     ],
-    "eng_translation": [
-      "Urinalysis summary",
-      "Urinalysis results summary"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] bình thường."
   },
   {
     "text": "chụp x-quang",
@@ -1816,46 +435,11 @@
       1552,
       1564
     ],
-    "sentence": "5\n- bnp 21,000\n- tổng phân tích nước tiểu bình thường\n- cúm âm tính\nKết quả chẩn đoán hình ảnh: [ENTITY] ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, tim to\nCác thủ thuật đã thực hiện\n- Được dùng insulin và dextrose cho tăng kali máu\n- iv lasix 40 mg once",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013437",
-          "document": "cách đây 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5947967767715454,
-          "sparse_similarity": 0.158126100897789,
-          "hybrid_score": 0.3764614462852478
-        },
-        {
-          "id": "isHistorical_002207",
-          "document": "5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5942856073379517,
-          "sparse_similarity": 0.15197843313217163,
-          "hybrid_score": 0.37313202023506165
-        },
-        {
-          "id": "isHistorical_020775",
-          "document": "khoảng 5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5896855592727661,
-          "sparse_similarity": 0.14955294132232666,
-          "hybrid_score": 0.3696192502975464
-        }
-      ]
+    "assertion_position": [
+      1526,
+      1538
     ],
-    "eng_translation": [
-      "X-ray imaging",
-      "Radiographic imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, tim to."
   },
   {
     "text": "tràn dịch màng phổi",
@@ -1864,46 +448,11 @@
       1601,
       1620
     ],
-    "sentence": "5\n- bnp 21,000\n- tổng phân tích nước tiểu bình thường\n- cúm âm tính\nKết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, [ENTITY] hai bên nhẹ, tim to\nCác thủ thuật đã thực hiện\n- Được dùng insulin và dextrose cho tăng kali máu\n- iv lasix 40 mg once",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013437",
-          "document": "cách đây 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5784112215042114,
-          "sparse_similarity": 0.12859486043453217,
-          "hybrid_score": 0.3535030484199524
-        },
-        {
-          "id": "isHistorical_002207",
-          "document": "5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5766276717185974,
-          "sparse_similarity": 0.12317132204771042,
-          "hybrid_score": 0.3498995006084442
-        },
-        {
-          "id": "isHistorical_020775",
-          "document": "khoảng 5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5763837099075317,
-          "sparse_similarity": 0.1213247999548912,
-          "hybrid_score": 0.3488542437553406
-        }
-      ]
+    "assertion_position": [
+      1575,
+      1594
     ],
-    "eng_translation": [
-      "pleural effusion",
-      "Pleural fluid accumulation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, [ENTITY] hai bên nhẹ, tim to."
   },
   {
     "text": "tim to",
@@ -1912,47 +461,11 @@
       1634,
       1640
     ],
-    "sentence": "5\n- bnp 21,000\n- tổng phân tích nước tiểu bình thường\n- cúm âm tính\nKết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, [ENTITY]\nCác thủ thuật đã thực hiện\n- Được dùng insulin và dextrose cho tăng kali máu\n- iv lasix 40 mg once",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013437",
-          "document": "cách đây 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5717386603355408,
-          "sparse_similarity": 0.11474798619747162,
-          "hybrid_score": 0.3432433307170868
-        },
-        {
-          "id": "isHistorical_002207",
-          "document": "5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5682326555252075,
-          "sparse_similarity": 0.10995519161224365,
-          "hybrid_score": 0.3390939235687256
-        },
-        {
-          "id": "isHistorical_020775",
-          "document": "khoảng 5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5676515102386475,
-          "sparse_similarity": 0.10835535824298859,
-          "hybrid_score": 0.3380034267902374
-        }
-      ]
+    "assertion_position": [
+      1608,
+      1614
     ],
-    "eng_translation": [
-      "Heart enlarged",
-      "Enlarged heart",
-      "Cardiomegaly"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, [ENTITY]."
   },
   {
     "text": "dextrose",
@@ -1961,61 +474,11 @@
       1691,
       1699
     ],
-    "sentence": "5\n- bnp 21,000\n- tổng phân tích nước tiểu bình thường\n- cúm âm tính\nKết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, tim to\nCác thủ thuật đã thực hiện\n- Được dùng insulin và [ENTITY] cho tăng kali máu\n- iv lasix 40 mg once",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013437",
-          "document": "cách đây 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5845531821250916,
-          "sparse_similarity": 0.1380694955587387,
-          "hybrid_score": 0.3613113462924957
-        },
-        {
-          "id": "isHistorical_002207",
-          "document": "5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5836467742919922,
-          "sparse_similarity": 0.13260915875434875,
-          "hybrid_score": 0.3581279516220093
-        },
-        {
-          "id": "isHistorical_020775",
-          "document": "khoảng 5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5806593894958496,
-          "sparse_similarity": 0.13040855526924133,
-          "hybrid_score": 0.3555339574813843
-        }
-      ]
+    "assertion_position": [
+      1665,
+      1673
     ],
-    "eng_translation": [
-      "dextrose",
-      "Dextrose solution"
-    ],
-    "retriever": {
-      "sapbert": {
-        "4850": 1.0,
-        "2050170": 1.0,
-        "216547": 0.883061,
-        "674235": 0.872269,
-        "657349": 0.862528
-      },
-      "rapidfuzz": {
-        "244095": 0.9,
-        "800644": 0.9,
-        "847627": 0.9,
-        "2743526": 0.855,
-        "2743368": 0.855
-      }
-    },
-    "candidate": {
-      "code": "2050170",
-      "confidence": 0.9
-    }
+    "sentence": "Được dùng insulin và [ENTITY] cho tăng kali máu."
   },
   {
     "text": "kali",
@@ -2024,47 +487,11 @@
       1709,
       1713
     ],
-    "sentence": "5\n- bnp 21,000\n- tổng phân tích nước tiểu bình thường\n- cúm âm tính\nKết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, tim to\nCác thủ thuật đã thực hiện\n- Được dùng insulin và dextrose cho tăng [ENTITY] máu\n- iv lasix 40 mg once",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013437",
-          "document": "cách đây 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5715683698654175,
-          "sparse_similarity": 0.13148045539855957,
-          "hybrid_score": 0.3515244126319885
-        },
-        {
-          "id": "isHistorical_002207",
-          "document": "5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5705622434616089,
-          "sparse_similarity": 0.12607476115226746,
-          "hybrid_score": 0.34831851720809937
-        },
-        {
-          "id": "isHistorical_020775",
-          "document": "khoảng 5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5686988830566406,
-          "sparse_similarity": 0.12402433156967163,
-          "hybrid_score": 0.34636160731315613
-        }
-      ]
+    "assertion_position": [
+      1683,
+      1687
     ],
-    "eng_translation": [
-      "Kali",
-      "Hyperkalemia",
-      "Potassium"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Được dùng insulin và dextrose cho tăng [ENTITY] máu."
   },
   {
     "text": "lasix 40 mg once",
@@ -2073,58 +500,10 @@
       1723,
       1739
     ],
-    "sentence": "5\n- bnp 21,000\n- tổng phân tích nước tiểu bình thường\n- cúm âm tính\nKết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, tim to\nCác thủ thuật đã thực hiện\n- Được dùng insulin và dextrose cho tăng kali máu\n- iv [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013437",
-          "document": "cách đây 5 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5551843047142029,
-          "sparse_similarity": 0.10455925017595291,
-          "hybrid_score": 0.3298717737197876
-        },
-        {
-          "id": "isHistorical_002207",
-          "document": "5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5551047921180725,
-          "sparse_similarity": 0.10001515597105026,
-          "hybrid_score": 0.3275599777698517
-        },
-        {
-          "id": "isHistorical_020775",
-          "document": "khoảng 5 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.555942177772522,
-          "sparse_similarity": 0.098778136074543,
-          "hybrid_score": 0.3273601531982422
-        }
-      ]
+    "assertion_position": [
+      1696,
+      1712
     ],
-    "eng_translation": [
-      "Lasix 40 mg once",
-      "Furosemide 40 mg once"
-    ],
-    "retriever": {
-      "sapbert": {
-        "200809": 0.88942,
-        "313988": 0.853263
-      },
-      "rapidfuzz": {
-        "315971": 0.95,
-        "202991": 0.9,
-        "4603": 0.9,
-        "2743412": 0.855,
-        "2743365": 0.855,
-        "2675312": 0.855
-      }
-    },
-    "candidate": {
-      "code": "200809",
-      "confidence": 0.800478
-    }
+    "sentence": "iv [ENTITY]."
   }
 ]

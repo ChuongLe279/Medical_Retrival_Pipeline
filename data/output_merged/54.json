@@ -6,61 +6,11 @@
       48,
       63
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- tái phát [ENTITY]\n- ung thư biểu mô tế bào thận sau cắt bỏ một phần thận phải và tuyến thượng thận phải\n\nTiền sử phẫu thuật / thủ thuật\n- cắt bỏ một phần thận phải\n- cắt bỏ tuyến thượng thận phải\n- DC cardioversion\n\nThuốc trước khi nhập viện lần này\n- vancomycin\n- ceftazidime\n- amiodarone\n- thay thế bicarbonate\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mạn tính - tái phát [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6102362275123596,
-          "sparse_similarity": 0.19046533107757568,
-          "hybrid_score": 0.40035077929496765
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6156324744224548,
-          "sparse_similarity": 0.16394224762916565,
-          "hybrid_score": 0.38978737592697144
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6113503575325012,
-          "sparse_similarity": 0.163627028465271,
-          "hybrid_score": 0.3874886929988861
-        }
-      ]
+    "assertion_position": [
+      45,
+      60
     ],
-    "eng_translation": [
-      "Rectal cancer",
-      "Colorectal cancer"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C20": 0.915789,
-        "C189": 0.794747,
-        "C49A5": 0.72505,
-        "C180": 0.711332,
-        "C7A026": 0.705917
-      },
-      "rapidfuzz": {
-        "Z15060": 0.9,
-        "K6040": 0.855,
-        "K60421": 0.855,
-        "R971": 0.855,
-        "QA1790": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C20",
-      "confidence": 0.82421
-    }
+    "sentence": "tái phát [ENTITY]."
   },
   {
     "text": "ung thư biểu mô tế bào thận",
@@ -69,62 +19,11 @@
       66,
       93
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- tái phát u ác trực tràng\n- [ENTITY] sau cắt bỏ một phần thận phải và tuyến thượng thận phải\n\nTiền sử phẫu thuật / thủ thuật\n- cắt bỏ một phần thận phải\n- cắt bỏ tuyến thượng thận phải\n- DC cardioversion\n\nThuốc trước khi nhập viện lần này\n- vancomycin\n- ceftazidime\n- amiodarone\n- thay thế bicarbonate\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.596996545791626,
-          "sparse_similarity": 0.18124260008335114,
-          "hybrid_score": 0.38911956548690796
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6005185842514038,
-          "sparse_similarity": 0.16098862886428833,
-          "hybrid_score": 0.38075360655784607
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.612284243106842,
-          "sparse_similarity": 0.1385837197303772,
-          "hybrid_score": 0.3754339814186096
-        }
-      ]
+    "assertion_position": [
+      62,
+      89
     ],
-    "eng_translation": [
-      "Renal cell carcinoma",
-      "Kidney cancer"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C649": 0.773969,
-        "D49519": 0.758901,
-        "C220": 0.659502,
-        "D3000": 0.636588,
-        "C641": 0.634436
-      },
-      "rapidfuzz": {
-        "M1A3191": 0.855,
-        "N16": 0.855,
-        "N159": 0.855,
-        "A1811": 0.855,
-        "S37092A": 0.855,
-        "I7581": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C649",
-      "confidence": 0.696572
-    }
+    "sentence": "[ENTITY] sau cắt bỏ một phần thận phải và tuyến thượng thận phải."
   },
   {
     "text": "vancomycin",
@@ -133,61 +32,11 @@
       298,
       308
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- tái phát u ác trực tràng\n- ung thư biểu mô tế bào thận sau cắt bỏ một phần thận phải và tuyến thượng thận phải\n\nTiền sử phẫu thuật / thủ thuật\n- cắt bỏ một phần thận phải\n- cắt bỏ tuyến thượng thận phải\n- DC cardioversion\n\nThuốc trước khi nhập viện lần này\n- [ENTITY]\n- ceftazidime\n- amiodarone\n- thay thế bicarbonate\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6220290064811707,
-          "sparse_similarity": 0.22827862203121185,
-          "hybrid_score": 0.42515382170677185
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6139220595359802,
-          "sparse_similarity": 0.22752143442630768,
-          "hybrid_score": 0.42072173953056335
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6022918224334717,
-          "sparse_similarity": 0.22301200032234192,
-          "hybrid_score": 0.4126518964767456
-        }
-      ]
+    "assertion_position": [
+      290,
+      300
     ],
-    "eng_translation": [
-      "Vancomycin",
-      "Vancomycin is a glycopeptide antibiotic used to treat serious bacterial infections, particularly those caused by gram-positive organisms, including methicillin-resistant Staphylococcus aureus (MRSA). It works by inhibiting cell wall synthesis and is often reserved for severe infections due to its potential for nephrotoxicity and ototoxicity. Monitoring of serum levels and renal function is essential to ensure therapeutic efficacy and minimize adverse effects."
-    ],
-    "retriever": {
-      "sapbert": {
-        "11124": 1.0,
-        "997397": 0.734893,
-        "405388": 0.707967,
-        "66955": 0.700402
-      },
-      "rapidfuzz": {
-        "11124": 1.0,
-        "2387078": 0.9,
-        "2118449": 0.9,
-        "2677176": 0.855,
-        "2709234": 0.855,
-        "2709236": 0.855
-      }
-    },
-    "candidate": {
-      "code": "11124",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ceftazidime",
@@ -196,61 +45,11 @@
       311,
       322
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- tái phát u ác trực tràng\n- ung thư biểu mô tế bào thận sau cắt bỏ một phần thận phải và tuyến thượng thận phải\n\nTiền sử phẫu thuật / thủ thuật\n- cắt bỏ một phần thận phải\n- cắt bỏ tuyến thượng thận phải\n- DC cardioversion\n\nThuốc trước khi nhập viện lần này\n- vancomycin\n- [ENTITY]\n- amiodarone\n- thay thế bicarbonate\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6086682677268982,
-          "sparse_similarity": 0.20390458405017853,
-          "hybrid_score": 0.40628641843795776
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.61704421043396,
-          "sparse_similarity": 0.16762231290340424,
-          "hybrid_score": 0.3923332691192627
-        },
-        {
-          "id": "isFamily_005963",
-          "document": "bác của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.604404091835022,
-          "sparse_similarity": 0.16966639459133148,
-          "hybrid_score": 0.3870352506637573
-        }
-      ]
+    "assertion_position": [
+      302,
+      313
     ],
-    "eng_translation": [
-      "ceftazidime",
-      "Cephalosporin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "2074438": 1.0,
-        "2191": 1.0,
-        "91081": 0.881871,
-        "91079": 0.851607,
-        "693051": 0.847545
-      },
-      "rapidfuzz": {
-        "2191": 1.0,
-        "1659285": 0.9,
-        "1300289": 0.9,
-        "1925834": 0.864,
-        "1011993": 0.864
-      }
-    },
-    "candidate": {
-      "code": "2191",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "suy thận cấp",
@@ -259,62 +58,11 @@
       479,
       491
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: Không có lý do khám bệnh chính\nDiễn biến bệnh\n- Nhập viện từ cơ sở điều dưỡng với [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.686138927936554,
-          "sparse_similarity": 0.1948402374982834,
-          "hybrid_score": 0.44048959016799927
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.684455156326294,
-          "sparse_similarity": 0.18569782376289368,
-          "hybrid_score": 0.4350764751434326
-        },
-        {
-          "id": "isHistorical_034243",
-          "document": "đã nhập viện vì [ENTITY].",
-          "dense_similarity": 0.669246256351471,
-          "sparse_similarity": 0.19081491231918335,
-          "hybrid_score": 0.43003058433532715
-        }
-      ]
+    "assertion_position": [
+      466,
+      478
     ],
-    "eng_translation": [
-      "Acute kidney failure",
-      "Acute renal failure"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N179": 0.98538,
-        "N178": 0.80511,
-        "N170": 0.799319,
-        "N19": 0.783164,
-        "N171": 0.771706
-      },
-      "rapidfuzz": {
-        "N178": 0.95,
-        "N170": 0.9,
-        "N171": 0.9,
-        "M70049": 0.855,
-        "M93073": 0.855,
-        "M93072": 0.855
-      }
-    },
-    "candidate": {
-      "code": "N179",
-      "confidence": 0.886842
-    }
+    "sentence": "Nhập viện từ cơ sở điều dưỡng với [ENTITY]."
   },
   {
     "text": "u ác trực tràng",
@@ -323,61 +71,11 @@
       504,
       519
     ],
-    "sentence": "- Tái phát [ENTITY] được phát hiện trong quá trình điều trị.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009848",
-          "document": "[ENTITY] đã được điều trị.",
-          "dense_similarity": 0.8020610213279724,
-          "sparse_similarity": 0.29780495166778564,
-          "hybrid_score": 0.5499329566955566
-        },
-        {
-          "id": "isHistorical_009844",
-          "document": "[ENTITY] đã điều trị khỏi.",
-          "dense_similarity": 0.7707160115242004,
-          "sparse_similarity": 0.2653064727783203,
-          "hybrid_score": 0.518011212348938
-        },
-        {
-          "id": "isHistorical_009845",
-          "document": "[ENTITY] đã điều trị trước đây.",
-          "dense_similarity": 0.7750747799873352,
-          "sparse_similarity": 0.26017874479293823,
-          "hybrid_score": 0.5176267623901367
-        }
-      ]
+    "assertion_position": [
+      489,
+      504
     ],
-    "eng_translation": [
-      "Rectal cancer",
-      "Colorectal cancer"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C20": 0.915789,
-        "C189": 0.794747,
-        "C49A5": 0.72505,
-        "C180": 0.711332,
-        "C7A026": 0.705917
-      },
-      "rapidfuzz": {
-        "Z15060": 0.9,
-        "K6040": 0.855,
-        "K60421": 0.855,
-        "R971": 0.855,
-        "QA1790": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C20",
-      "confidence": 0.82421
-    }
+    "sentence": "Tái phát [ENTITY] được phát hiện trong quá trình điều trị."
   },
   {
     "text": "viêm phổi thuỳ",
@@ -386,62 +84,11 @@
       655,
       669
     ],
-    "sentence": "- Chẩn đoán [ENTITY], không đặc hiệu chụp x-quang.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000225",
-          "document": "không được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.8436487913131714,
-          "sparse_similarity": 0.24646833539009094,
-          "hybrid_score": 0.54505854845047
-        },
-        {
-          "id": "isNegated_000037",
-          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
-          "dense_similarity": 0.7824490666389465,
-          "sparse_similarity": 0.2803814113140106,
-          "hybrid_score": 0.5314152240753174
-        },
-        {
-          "id": "isNegated_000224",
-          "document": "không đáp ứng tiêu chuẩn chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7731017470359802,
-          "sparse_similarity": 0.23846672475337982,
-          "hybrid_score": 0.5057842135429382
-        }
-      ]
+    "assertion_position": [
+      636,
+      650
     ],
-    "eng_translation": [
-      "pneumonia of lobe",
-      "lobar pneumonia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J181": 0.962399,
-        "J189": 0.80583,
-        "J159": 0.744476,
-        "J151": 0.727057,
-        "J851": 0.695547
-      },
-      "rapidfuzz": {
-        "J181": 0.9,
-        "T486X5D": 0.855,
-        "S93125A": 0.855,
-        "S93124S": 0.855,
-        "J95851": 0.855,
-        "J852": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J181",
-      "confidence": 0.956159
-    }
+    "sentence": "Chẩn đoán [ENTITY], không đặc hiệu chụp x-quang."
   },
   {
     "text": "chụp x-quang",
@@ -450,46 +97,11 @@
       686,
       698
     ],
-    "sentence": "- Chẩn đoán viêm phổi thuỳ, không đặc hiệu [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000225",
-          "document": "không được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7349981069564819,
-          "sparse_similarity": 0.1573738008737564,
-          "hybrid_score": 0.4461859464645386
-        },
-        {
-          "id": "isNegated_000037",
-          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
-          "dense_similarity": 0.7169895768165588,
-          "sparse_similarity": 0.17239370942115784,
-          "hybrid_score": 0.44469165802001953
-        },
-        {
-          "id": "isUncertain_000094",
-          "document": "chẩn đoán tạm thời [ENTITY].",
-          "dense_similarity": 0.7608878016471863,
-          "sparse_similarity": 0.12349076569080353,
-          "hybrid_score": 0.4421892762184143
-        }
-      ]
+    "assertion_position": [
+      667,
+      679
     ],
-    "eng_translation": [
-      "X-ray imaging",
-      "Radiographic imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Chẩn đoán viêm phổi thuỳ, không đặc hiệu [ENTITY]."
   },
   {
     "text": "vancomycin",
@@ -498,61 +110,11 @@
       728,
       738
     ],
-    "sentence": "- Điều trị bằng Đã điều trị [ENTITY] trong 7 ngàyĐã điều trị vancomycinvà ceftazidime trong 7 ngày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_033451",
-          "document": "đã 7 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.7949239015579224,
-          "sparse_similarity": 0.28857913613319397,
-          "hybrid_score": 0.541751503944397
-        },
-        {
-          "id": "isHistorical_013948",
-          "document": "cách đây 7 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.7880988717079163,
-          "sparse_similarity": 0.2922179698944092,
-          "hybrid_score": 0.5401583909988403
-        },
-        {
-          "id": "isHistorical_026238",
-          "document": "từ 7 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.784680962562561,
-          "sparse_similarity": 0.2842608690261841,
-          "hybrid_score": 0.5344709157943726
-        }
-      ]
+    "assertion_position": [
+      707,
+      717
     ],
-    "eng_translation": [
-      "Vancomycin",
-      "Vancomycin is a glycopeptide antibiotic used to treat serious bacterial infections, particularly those caused by gram-positive organisms, including methicillin-resistant Staphylococcus aureus (MRSA). It works by inhibiting cell wall synthesis and is often reserved for severe infections due to its potential for nephrotoxicity and ototoxicity. Monitoring of serum levels and renal function is essential to ensure therapeutic efficacy and minimize adverse effects."
-    ],
-    "retriever": {
-      "sapbert": {
-        "11124": 1.0,
-        "997397": 0.734893,
-        "405388": 0.707967,
-        "66955": 0.700402
-      },
-      "rapidfuzz": {
-        "11124": 1.0,
-        "2387078": 0.9,
-        "2118449": 0.9,
-        "2677176": 0.855,
-        "2709234": 0.855,
-        "2709236": 0.855
-      }
-    },
-    "candidate": {
-      "code": "11124",
-      "confidence": 1.0
-    }
+    "sentence": "Điều trị bằng Đã điều trị [ENTITY] trong 7 ngàyĐã điều trị vancomycinvà ceftazidime trong 7 ngày."
   },
   {
     "text": "ceftazidime",
@@ -561,61 +123,11 @@
       776,
       787
     ],
-    "sentence": "- Điều trị bằng Đã điều trị vancomycin trong 7 ngàyĐã điều trị vancomycinvà [ENTITY] trong 7 ngày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013948",
-          "document": "cách đây 7 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.7916374206542969,
-          "sparse_similarity": 0.27102819085121155,
-          "hybrid_score": 0.531332790851593
-        },
-        {
-          "id": "isHistorical_033451",
-          "document": "đã 7 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.7934737205505371,
-          "sparse_similarity": 0.2675977647304535,
-          "hybrid_score": 0.5305357575416565
-        },
-        {
-          "id": "isHistorical_026238",
-          "document": "từ 7 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.7863338589668274,
-          "sparse_similarity": 0.26436468958854675,
-          "hybrid_score": 0.5253492593765259
-        }
-      ]
+    "assertion_position": [
+      755,
+      766
     ],
-    "eng_translation": [
-      "ceftazidime",
-      "Cephalosporin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "2074438": 1.0,
-        "2191": 1.0,
-        "91081": 0.881871,
-        "91079": 0.851607,
-        "693051": 0.847545
-      },
-      "rapidfuzz": {
-        "2191": 1.0,
-        "1659285": 0.9,
-        "1300289": 0.9,
-        "1925834": 0.864,
-        "1011993": 0.864
-      }
-    },
-    "candidate": {
-      "code": "2191",
-      "confidence": 1.0
-    }
+    "sentence": "Điều trị bằng Đã điều trị vancomycin trong 7 ngàyĐã điều trị vancomycinvà [ENTITY] trong 7 ngày."
   },
   {
     "text": "rung nhĩ",
@@ -624,62 +136,11 @@
       815,
       823
     ],
-    "sentence": "- Phát hiện  [ENTITY] điển hình kèm theo đáp ứng thất nhanh và rối loạn huyết động.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_025022",
-          "document": "thân nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6770355105400085,
-          "sparse_similarity": 0.08815494924783707,
-          "hybrid_score": 0.3825952410697937
-        },
-        {
-          "id": "isFamily_020062",
-          "document": "má bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6777730584144592,
-          "sparse_similarity": 0.08520154654979706,
-          "hybrid_score": 0.38148730993270874
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6755012273788452,
-          "sparse_similarity": 0.08125588297843933,
-          "hybrid_score": 0.37837857007980347
-        }
-      ]
+    "assertion_position": [
+      791,
+      799
     ],
-    "eng_translation": [
-      "Atrial fibrillation",
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I480": 1.0,
-        "I4891": 0.978406,
-        "I4821": 0.894503,
-        "I4820": 0.803449,
-        "I4901": 0.799594
-      },
-      "rapidfuzz": {
-        "I480": 1.0,
-        "I4820": 0.9,
-        "I4821": 0.9,
-        "I4891": 0.9,
-        "G44039": 0.855,
-        "I231": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I480",
-      "confidence": 1.0
-    }
+    "sentence": "Phát hiện [ENTITY] điển hình kèm theo đáp ứng thất nhanh và rối loạn huyết động."
   },
   {
     "text": "rối loạn huyết",
@@ -688,46 +149,11 @@
       865,
       879
     ],
-    "sentence": "- Phát hiện  rung nhĩ điển hình kèm theo đáp ứng thất nhanh và [ENTITY] động.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000164",
-          "document": "kết quả ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.6437402367591858,
-          "sparse_similarity": 0.06785853952169418,
-          "hybrid_score": 0.3557993769645691
-        },
-        {
-          "id": "isUncertain_000219",
-          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.6348186135292053,
-          "sparse_similarity": 0.06654839217662811,
-          "hybrid_score": 0.3506835103034973
-        },
-        {
-          "id": "isUncertain_000165",
-          "document": "kết quả ban đầu hướng đến [ENTITY].",
-          "dense_similarity": 0.6289560794830322,
-          "sparse_similarity": 0.06907771527767181,
-          "hybrid_score": 0.3490169048309326
-        }
-      ]
+    "assertion_position": [
+      841,
+      855
     ],
-    "eng_translation": [
-      "Hematological disorder",
-      "Blood disorder"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phát hiện rung nhĩ điển hình kèm theo đáp ứng thất nhanh và [ENTITY] động."
   },
   {
     "text": "đồng",
@@ -736,45 +162,11 @@
       924,
       928
     ],
-    "sentence": "- Tiến hành chuyển nhịp bằng sốc điện [ENTITY] bộ bắt đầu liệu pháp amiodarone.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009848",
-          "document": "[ENTITY] đã được điều trị.",
-          "dense_similarity": 0.6177564859390259,
-          "sparse_similarity": 0.07937388122081757,
-          "hybrid_score": 0.3485651910305023
-        },
-        {
-          "id": "isUncertain_000159",
-          "document": "kíp điều trị hướng đến [ENTITY].",
-          "dense_similarity": 0.6281729340553284,
-          "sparse_similarity": 0.06153635308146477,
-          "hybrid_score": 0.3448546528816223
-        },
-        {
-          "id": "isUncertain_000158",
-          "document": "kíp điều trị gợi ý [ENTITY].",
-          "dense_similarity": 0.6292015910148621,
-          "sparse_similarity": 0.060395196080207825,
-          "hybrid_score": 0.34479838609695435
-        }
-      ]
+    "assertion_position": [
+      898,
+      902
     ],
-    "eng_translation": [
-      "same"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tiến hành chuyển nhịp bằng sốc điện [ENTITY] bộ bắt đầu liệu pháp amiodarone."
   },
   {
     "text": "hct",
@@ -783,48 +175,11 @@
       1049,
       1052
     ],
-    "sentence": "- [ENTITY] vào ngày xuất viện là 24.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032249",
-          "document": "đã 24 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7627878785133362,
-          "sparse_similarity": 0.17989546060562134,
-          "hybrid_score": 0.47134166955947876
-        },
-        {
-          "id": "isHistorical_009506",
-          "document": "[ENTITY] đã 24 ngày.",
-          "dense_similarity": 0.76374751329422,
-          "sparse_similarity": 0.14493528008460999,
-          "hybrid_score": 0.45434141159057617
-        },
-        {
-          "id": "isHistorical_006150",
-          "document": "[ENTITY] cách đây 24 ngày.",
-          "dense_similarity": 0.7668325901031494,
-          "sparse_similarity": 0.13137179613113403,
-          "hybrid_score": 0.4491021931171417
-        }
-      ]
+    "assertion_position": [
+      1017,
+      1020
     ],
-    "eng_translation": [
-      "HCT",
-      "Hematocrit (HCT)",
-      "Hemoglobin Concentration",
-      "Hematocrit"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] vào ngày xuất viện là 24."
   },
   {
     "text": "hct",
@@ -833,48 +188,11 @@
       1231,
       1234
     ],
-    "sentence": "- xét nghiệm theo dõi được lấy tại cơ sở điều dưỡng, [ENTITY] trả về là 24.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032251",
-          "document": "đã 24 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.7650466561317444,
-          "sparse_similarity": 0.08218945562839508,
-          "hybrid_score": 0.42361804842948914
-        },
-        {
-          "id": "isHistorical_012748",
-          "document": "cách đây 24 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.7589294910430908,
-          "sparse_similarity": 0.08634607493877411,
-          "hybrid_score": 0.42263779044151306
-        },
-        {
-          "id": "isHistorical_032250",
-          "document": "đã 24 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7723941802978516,
-          "sparse_similarity": 0.06562839448451996,
-          "hybrid_score": 0.41901129484176636
-        }
-      ]
+    "assertion_position": [
+      1195,
+      1198
     ],
-    "eng_translation": [
-      "HCT",
-      "Hematocrit (HCT)",
-      "Hemoglobin Concentration",
-      "Hematocrit"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "xét nghiệm theo dõi được lấy tại cơ sở điều dưỡng, [ENTITY] trả về là 24."
   },
   {
     "text": "phân ít",
@@ -883,45 +201,11 @@
       1490,
       1497
     ],
-    "sentence": "- Báo cáo [ENTITY] và không có máu từ trực tràng kể từ khi xuất viện.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.755669355392456,
-          "sparse_similarity": 0.14055103063583374,
-          "hybrid_score": 0.4481101930141449
-        },
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7438536286354065,
-          "sparse_similarity": 0.14329777657985687,
-          "hybrid_score": 0.4435757100582123
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.705633819103241,
-          "sparse_similarity": 0.13875268399715424,
-          "hybrid_score": 0.4221932590007782
-        }
-      ]
+    "assertion_position": [
+      1444,
+      1451
     ],
-    "eng_translation": [
-      "passing small amounts of stool"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Báo cáo [ENTITY] và không có máu từ trực tràng kể từ khi xuất viện."
   },
   {
     "text": "sưng ở chân trái",
@@ -930,46 +214,11 @@
       1559,
       1575
     ],
-    "sentence": "- Báo cáo [ENTITY], sưng nhẹ, đau nhẹ (3 ngày).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032394",
-          "document": "đã 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.8006320595741272,
-          "sparse_similarity": 0.11298568546772003,
-          "hybrid_score": 0.456808865070343
-        },
-        {
-          "id": "isHistorical_032392",
-          "document": "đã 3 ngày mắc [ENTITY].",
-          "dense_similarity": 0.7907758951187134,
-          "sparse_similarity": 0.12245672941207886,
-          "hybrid_score": 0.4566163122653961
-        },
-        {
-          "id": "isHistorical_012891",
-          "document": "cách đây 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7931344509124756,
-          "sparse_similarity": 0.11097893118858337,
-          "hybrid_score": 0.4520567059516907
-        }
-      ]
+    "assertion_position": [
+      1511,
+      1527
     ],
-    "eng_translation": [
-      "swelling in the left foot",
-      "edema in the left foot"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Báo cáo [ENTITY], sưng nhẹ, đau nhẹ (3 ngày)."
   },
   {
     "text": "sưng nhẹ",
@@ -978,46 +227,11 @@
       1577,
       1585
     ],
-    "sentence": "- Báo cáo sưng ở chân trái, [ENTITY], đau nhẹ (3 ngày).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012891",
-          "document": "cách đây 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7395378351211548,
-          "sparse_similarity": 0.07200393080711365,
-          "hybrid_score": 0.4057708978652954
-        },
-        {
-          "id": "isHistorical_032394",
-          "document": "đã 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7293987274169922,
-          "sparse_similarity": 0.07356783002614975,
-          "hybrid_score": 0.4014832675457001
-        },
-        {
-          "id": "isHistorical_012892",
-          "document": "cách đây 3 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.7360034584999084,
-          "sparse_similarity": 0.06468161940574646,
-          "hybrid_score": 0.40034252405166626
-        }
-      ]
+    "assertion_position": [
+      1529,
+      1537
     ],
-    "eng_translation": [
-      "mild swelling",
-      "mild edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Báo cáo sưng ở chân trái, [ENTITY], đau nhẹ (3 ngày)."
   },
   {
     "text": "đau nhẹ",
@@ -1026,46 +240,11 @@
       1587,
       1594
     ],
-    "sentence": "- Báo cáo sưng ở chân trái, sưng nhẹ, [ENTITY] (3 ngày).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012891",
-          "document": "cách đây 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7558194994926453,
-          "sparse_similarity": 0.08286556601524353,
-          "hybrid_score": 0.4193425178527832
-        },
-        {
-          "id": "isHistorical_032394",
-          "document": "đã 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7502840161323547,
-          "sparse_similarity": 0.08497245609760284,
-          "hybrid_score": 0.4176282286643982
-        },
-        {
-          "id": "isHistorical_032392",
-          "document": "đã 3 ngày mắc [ENTITY].",
-          "dense_similarity": 0.7414376735687256,
-          "sparse_similarity": 0.09174245595932007,
-          "hybrid_score": 0.4165900647640228
-        }
-      ]
+    "assertion_position": [
+      1539,
+      1546
     ],
-    "eng_translation": [
-      "mild pain",
-      "mild discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Báo cáo sưng ở chân trái, sưng nhẹ, [ENTITY] (3 ngày)."
   },
   {
     "text": "thiếu",
@@ -1074,45 +253,11 @@
       1633,
       1638
     ],
-    "sentence": "Triệu chứng khi nhập viện\n- [ENTITY] máu\n- phân và máu trong trực tràng (thỉnh thoảng)\n- viêm phổi thuỳ, không đặc hiệu\n- rung cuống nhĩ với đáp ứng thất nhanh\n- suy giảm huyết động\n- rối loạn cân bằng kiềm toan phối hợp\n- sưng, sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày)\nCác sự kiện trước khi nhập viện\n- xét nghiệm theo dõi được lấy tại cơ sở điều dưỡng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6118142604827881,
-          "sparse_similarity": 0.20936712622642517,
-          "hybrid_score": 0.4105907082557678
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6006917357444763,
-          "sparse_similarity": 0.2075928896665573,
-          "hybrid_score": 0.4041423201560974
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6064203977584839,
-          "sparse_similarity": 0.19429968297481537,
-          "hybrid_score": 0.4003600478172302
-        }
-      ]
+    "assertion_position": [
+      1584,
+      1589
     ],
-    "eng_translation": [
-      "missing"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] máu."
   },
   {
     "text": "phân",
@@ -1121,46 +266,11 @@
       1645,
       1649
     ],
-    "sentence": "Triệu chứng khi nhập viện\n- thiếu máu\n- [ENTITY] và máu trong trực tràng (thỉnh thoảng)\n- viêm phổi thuỳ, không đặc hiệu\n- rung cuống nhĩ với đáp ứng thất nhanh\n- suy giảm huyết động\n- rối loạn cân bằng kiềm toan phối hợp\n- sưng, sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày)\nCác sự kiện trước khi nhập viện\n- xét nghiệm theo dõi được lấy tại cơ sở điều dưỡng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6158285140991211,
-          "sparse_similarity": 0.19791826605796814,
-          "hybrid_score": 0.4068734049797058
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.604105532169342,
-          "sparse_similarity": 0.19646650552749634,
-          "hybrid_score": 0.4002860188484192
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6078927516937256,
-          "sparse_similarity": 0.18506310880184174,
-          "hybrid_score": 0.39647793769836426
-        }
-      ]
+    "assertion_position": [
+      1595,
+      1599
     ],
-    "eng_translation": [
-      "phân",
-      "The query provided is in Vietnamese and does not contain any medical terms or concepts. Therefore, no rewrite is necessary. Original query: \"phân\" Result: \"phân\""
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] và máu trong trực tràng (thỉnh thoảng)."
   },
   {
     "text": "máu trong trực tràng",
@@ -1169,47 +279,11 @@
       1653,
       1673
     ],
-    "sentence": "Triệu chứng khi nhập viện\n- thiếu máu\n- phân và [ENTITY] (thỉnh thoảng)\n- viêm phổi thuỳ, không đặc hiệu\n- rung cuống nhĩ với đáp ứng thất nhanh\n- suy giảm huyết động\n- rối loạn cân bằng kiềm toan phối hợp\n- sưng, sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày)\nCác sự kiện trước khi nhập viện\n- xét nghiệm theo dõi được lấy tại cơ sở điều dưỡng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6179397702217102,
-          "sparse_similarity": 0.195083886384964,
-          "hybrid_score": 0.4065118432044983
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6105843186378479,
-          "sparse_similarity": 0.18516607582569122,
-          "hybrid_score": 0.39787518978118896
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6106452345848083,
-          "sparse_similarity": 0.1821134090423584,
-          "hybrid_score": 0.3963793218135834
-        }
-      ]
+    "assertion_position": [
+      1603,
+      1623
     ],
-    "eng_translation": [
-      "blood in the rectum",
-      "Hematochezia",
-      "Rectal bleeding"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "phân và [ENTITY] (thỉnh thoảng)."
   },
   {
     "text": "viêm phổi thuỳ",
@@ -1218,62 +292,11 @@
       1691,
       1705
     ],
-    "sentence": "Triệu chứng khi nhập viện\n- thiếu máu\n- phân và máu trong trực tràng (thỉnh thoảng)\n- [ENTITY], không đặc hiệu\n- rung cuống nhĩ với đáp ứng thất nhanh\n- suy giảm huyết động\n- rối loạn cân bằng kiềm toan phối hợp\n- sưng, sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày)\nCác sự kiện trước khi nhập viện\n- xét nghiệm theo dõi được lấy tại cơ sở điều dưỡng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6113588809967041,
-          "sparse_similarity": 0.19517765939235687,
-          "hybrid_score": 0.4032682776451111
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6091418862342834,
-          "sparse_similarity": 0.18848317861557007,
-          "hybrid_score": 0.39881253242492676
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.617626428604126,
-          "sparse_similarity": 0.1675289124250412,
-          "hybrid_score": 0.3925776779651642
-        }
-      ]
+    "assertion_position": [
+      1640,
+      1654
     ],
-    "eng_translation": [
-      "pneumonia of lobe",
-      "lobar pneumonia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J181": 0.962399,
-        "J189": 0.80583,
-        "J159": 0.744476,
-        "J151": 0.727057,
-        "J851": 0.695547
-      },
-      "rapidfuzz": {
-        "J181": 0.9,
-        "T486X5D": 0.855,
-        "S93125A": 0.855,
-        "S93124S": 0.855,
-        "J95851": 0.855,
-        "J852": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J181",
-      "confidence": 0.956159
-    }
+    "sentence": "[ENTITY], không đặc hiệu."
   },
   {
     "text": "rung cuống nhĩ",
@@ -1282,62 +305,11 @@
       1724,
       1738
     ],
-    "sentence": "Triệu chứng khi nhập viện\n- thiếu máu\n- phân và máu trong trực tràng (thỉnh thoảng)\n- viêm phổi thuỳ, không đặc hiệu\n- [ENTITY] với đáp ứng thất nhanh\n- suy giảm huyết động\n- rối loạn cân bằng kiềm toan phối hợp\n- sưng, sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày)\nCác sự kiện trước khi nhập viện\n- xét nghiệm theo dõi được lấy tại cơ sở điều dưỡng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6133606433868408,
-          "sparse_similarity": 0.1896391659975052,
-          "hybrid_score": 0.4014998972415924
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6130801439285278,
-          "sparse_similarity": 0.18493670225143433,
-          "hybrid_score": 0.3990084230899811
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6087571382522583,
-          "sparse_similarity": 0.1819254755973816,
-          "hybrid_score": 0.39534130692481995
-        }
-      ]
+    "assertion_position": [
+      1672,
+      1686
     ],
-    "eng_translation": [
-      "Atrial fibrillation",
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I480": 1.0,
-        "I4891": 0.978406,
-        "I4821": 0.894503,
-        "I4820": 0.803449,
-        "I4901": 0.799594
-      },
-      "rapidfuzz": {
-        "I480": 1.0,
-        "I4820": 0.9,
-        "I4821": 0.9,
-        "I4891": 0.9,
-        "G44039": 0.855,
-        "I231": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I480",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] với đáp ứng thất nhanh."
   },
   {
     "text": "sưng",
@@ -1346,46 +318,11 @@
       1825,
       1829
     ],
-    "sentence": "Triệu chứng khi nhập viện\n- thiếu máu\n- phân và máu trong trực tràng (thỉnh thoảng)\n- viêm phổi thuỳ, không đặc hiệu\n- rung cuống nhĩ với đáp ứng thất nhanh\n- suy giảm huyết động\n- rối loạn cân bằng kiềm toan phối hợp\n- [ENTITY], sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày)\nCác sự kiện trước khi nhập viện\n- xét nghiệm theo dõi được lấy tại cơ sở điều dưỡng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6116688251495361,
-          "sparse_similarity": 0.19535377621650696,
-          "hybrid_score": 0.40351128578186035
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6001557111740112,
-          "sparse_similarity": 0.19356141984462738,
-          "hybrid_score": 0.3968585729598999
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6046004891395569,
-          "sparse_similarity": 0.18297278881072998,
-          "hybrid_score": 0.39378663897514343
-        }
-      ]
+    "assertion_position": [
+      1770,
+      1774
     ],
-    "eng_translation": [
-      "swelling",
-      "Edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày)."
   },
   {
     "text": "sưng nhẹ",
@@ -1394,46 +331,11 @@
       1831,
       1839
     ],
-    "sentence": "Triệu chứng khi nhập viện\n- thiếu máu\n- phân và máu trong trực tràng (thỉnh thoảng)\n- viêm phổi thuỳ, không đặc hiệu\n- rung cuống nhĩ với đáp ứng thất nhanh\n- suy giảm huyết động\n- rối loạn cân bằng kiềm toan phối hợp\n- sưng, [ENTITY], đau nhẹ ở mắt cá chân trái (3 ngày)\nCác sự kiện trước khi nhập viện\n- xét nghiệm theo dõi được lấy tại cơ sở điều dưỡng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6134898066520691,
-          "sparse_similarity": 0.19763267040252686,
-          "hybrid_score": 0.405561238527298
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.602060079574585,
-          "sparse_similarity": 0.19566985964775085,
-          "hybrid_score": 0.3988649845123291
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6065350770950317,
-          "sparse_similarity": 0.1852732002735138,
-          "hybrid_score": 0.3959041237831116
-        }
-      ]
+    "assertion_position": [
+      1776,
+      1784
     ],
-    "eng_translation": [
-      "mild swelling",
-      "mild edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "sưng, [ENTITY], đau nhẹ ở mắt cá chân trái (3 ngày)."
   },
   {
     "text": "đau nhẹ ở mắt cá chân trái",
@@ -1442,46 +344,11 @@
       1841,
       1867
     ],
-    "sentence": "Triệu chứng khi nhập viện\n- thiếu máu\n- phân và máu trong trực tràng (thỉnh thoảng)\n- viêm phổi thuỳ, không đặc hiệu\n- rung cuống nhĩ với đáp ứng thất nhanh\n- suy giảm huyết động\n- rối loạn cân bằng kiềm toan phối hợp\n- sưng, sưng nhẹ, [ENTITY] (3 ngày)\nCác sự kiện trước khi nhập viện\n- xét nghiệm theo dõi được lấy tại cơ sở điều dưỡng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6134897470474243,
-          "sparse_similarity": 0.20395152270793915,
-          "hybrid_score": 0.40872064232826233
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6024283170700073,
-          "sparse_similarity": 0.20157846808433533,
-          "hybrid_score": 0.4020034074783325
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6041644811630249,
-          "sparse_similarity": 0.1908225566148758,
-          "hybrid_score": 0.39749351143836975
-        }
-      ]
+    "assertion_position": [
+      1786,
+      1812
     ],
-    "eng_translation": [
-      "mild pain in the left ankle",
-      "mild left ankle pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "sưng, sưng nhẹ, [ENTITY] (3 ngày)."
   },
   {
     "text": "hct",
@@ -1490,48 +357,11 @@
       1964,
       1967
     ],
-    "sentence": "- [ENTITY] trả về là 24.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006600",
-          "document": "[ENTITY] da 24 ngay.",
-          "dense_similarity": 0.8070403337478638,
-          "sparse_similarity": 0.0993693619966507,
-          "hybrid_score": 0.45320484042167664
-        },
-        {
-          "id": "isHistorical_006599",
-          "document": "[ENTITY] da 24 nam.",
-          "dense_similarity": 0.8118247389793396,
-          "sparse_similarity": 0.08981595933437347,
-          "hybrid_score": 0.45082035660743713
-        },
-        {
-          "id": "isHistorical_006602",
-          "document": "[ENTITY] da 24 tuan.",
-          "dense_similarity": 0.8099678158760071,
-          "sparse_similarity": 0.09010915458202362,
-          "hybrid_score": 0.45003849267959595
-        }
-      ]
+    "assertion_position": [
+      1907,
+      1910
     ],
-    "eng_translation": [
-      "HCT",
-      "Hematocrit (HCT)",
-      "Hemoglobin Concentration",
-      "Hematocrit"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] trả về là 24."
   },
   {
     "text": "phân",
@@ -1540,46 +370,11 @@
       2413,
       2417
     ],
-    "sentence": "- Báo cáo [ENTITY] ít và không có máu từ trực tràng kể từ khi xuất viện.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.7282136678695679,
-          "sparse_similarity": 0.1281653195619583,
-          "hybrid_score": 0.4281894862651825
-        },
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.6947928667068481,
-          "sparse_similarity": 0.12968525290489197,
-          "hybrid_score": 0.41223907470703125
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.6632616519927979,
-          "sparse_similarity": 0.12545961141586304,
-          "hybrid_score": 0.39436063170433044
-        }
-      ]
+    "assertion_position": [
+      2343,
+      2347
     ],
-    "eng_translation": [
-      "phân",
-      "The query provided is in Vietnamese and does not contain any medical terms or concepts. Therefore, no rewrite is necessary. Original query: \"phân\" Result: \"phân\""
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Báo cáo [ENTITY] ít và không có máu từ trực tràng kể từ khi xuất viện."
   },
   {
     "text": "sưng",
@@ -1588,46 +383,11 @@
       2482,
       2486
     ],
-    "sentence": "- Báo cáo [ENTITY], sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012891",
-          "document": "cách đây 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7355434894561768,
-          "sparse_similarity": 0.08669401705265045,
-          "hybrid_score": 0.411118745803833
-        },
-        {
-          "id": "isHistorical_032392",
-          "document": "đã 3 ngày mắc [ENTITY].",
-          "dense_similarity": 0.7203503847122192,
-          "sparse_similarity": 0.0945923924446106,
-          "hybrid_score": 0.4074713885784149
-        },
-        {
-          "id": "isHistorical_012889",
-          "document": "cách đây 3 ngày mắc [ENTITY].",
-          "dense_similarity": 0.7227338552474976,
-          "sparse_similarity": 0.09082788228988647,
-          "hybrid_score": 0.406780868768692
-        }
-      ]
+    "assertion_position": [
+      2410,
+      2414
     ],
-    "eng_translation": [
-      "swelling",
-      "Edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Báo cáo [ENTITY], sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày)."
   },
   {
     "text": "sưng nhẹ",
@@ -1636,46 +396,11 @@
       2488,
       2496
     ],
-    "sentence": "- Báo cáo sưng, [ENTITY], đau nhẹ ở mắt cá chân trái (3 ngày).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012891",
-          "document": "cách đây 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7296989560127258,
-          "sparse_similarity": 0.07618511468172073,
-          "hybrid_score": 0.402942031621933
-        },
-        {
-          "id": "isHistorical_032392",
-          "document": "đã 3 ngày mắc [ENTITY].",
-          "dense_similarity": 0.7169948220252991,
-          "sparse_similarity": 0.08342443406581879,
-          "hybrid_score": 0.4002096354961395
-        },
-        {
-          "id": "isHistorical_012889",
-          "document": "cách đây 3 ngày mắc [ENTITY].",
-          "dense_similarity": 0.7166340351104736,
-          "sparse_similarity": 0.07994072884321213,
-          "hybrid_score": 0.3982873857021332
-        }
-      ]
+    "assertion_position": [
+      2416,
+      2424
     ],
-    "eng_translation": [
-      "mild swelling",
-      "mild edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Báo cáo sưng, [ENTITY], đau nhẹ ở mắt cá chân trái (3 ngày)."
   },
   {
     "text": "đau nhẹ ở mắt cá chân trái",
@@ -1684,46 +409,11 @@
       2498,
       2524
     ],
-    "sentence": "- Báo cáo sưng, sưng nhẹ, [ENTITY] (3 ngày).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009530",
-          "document": "[ENTITY] đã 3 ngày.",
-          "dense_similarity": 0.8026956915855408,
-          "sparse_similarity": 0.1339399218559265,
-          "hybrid_score": 0.46831780672073364
-        },
-        {
-          "id": "isHistorical_032392",
-          "document": "đã 3 ngày mắc [ENTITY].",
-          "dense_similarity": 0.807945191860199,
-          "sparse_similarity": 0.12035085260868073,
-          "hybrid_score": 0.46414801478385925
-        },
-        {
-          "id": "isHistorical_032394",
-          "document": "đã 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.8149799704551697,
-          "sparse_similarity": 0.11136315017938614,
-          "hybrid_score": 0.4631715714931488
-        }
-      ]
+    "assertion_position": [
+      2426,
+      2452
     ],
-    "eng_translation": [
-      "mild pain in the left ankle",
-      "mild left ankle pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Báo cáo sưng, sưng nhẹ, [ENTITY] (3 ngày)."
   },
   {
     "text": "hct",
@@ -1732,48 +422,11 @@
       2556,
       2559
     ],
-    "sentence": "Kết quả xét nghiệm\n- [ENTITY] vào ngày xuất viện là 24.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032250",
-          "document": "đã 24 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.784639835357666,
-          "sparse_similarity": 0.1179928258061409,
-          "hybrid_score": 0.45131632685661316
-        },
-        {
-          "id": "isHistorical_000833",
-          "document": "24 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7826333045959473,
-          "sparse_similarity": 0.11799941956996918,
-          "hybrid_score": 0.4503163695335388
-        },
-        {
-          "id": "isHistorical_025037",
-          "document": "từ 24 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7830157279968262,
-          "sparse_similarity": 0.11422453820705414,
-          "hybrid_score": 0.44862014055252075
-        }
-      ]
+    "assertion_position": [
+      2483,
+      2486
     ],
-    "eng_translation": [
-      "HCT",
-      "Hematocrit (HCT)",
-      "Hemoglobin Concentration",
-      "Hematocrit"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] vào ngày xuất viện là 24."
   },
   {
     "text": "hct",
@@ -1782,48 +435,11 @@
       2589,
       2592
     ],
-    "sentence": "5\n- [ENTITY] lặp lại tại 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009114",
-          "document": "[ENTITY] vào 26 ngày trước.",
-          "dense_similarity": 0.7626672983169556,
-          "sparse_similarity": 0.0811227560043335,
-          "hybrid_score": 0.42189502716064453
-        },
-        {
-          "id": "isHistorical_008304",
-          "document": "[ENTITY] từ 26 ngày trước.",
-          "dense_similarity": 0.7575260996818542,
-          "sparse_similarity": 0.08325859904289246,
-          "hybrid_score": 0.42039233446121216
-        },
-        {
-          "id": "isHistorical_006608",
-          "document": "[ENTITY] da 26 ngay.",
-          "dense_similarity": 0.7523102760314941,
-          "sparse_similarity": 0.08479610830545425,
-          "hybrid_score": 0.4185532033443451
-        }
-      ]
+    "assertion_position": [
+      2515,
+      2518
     ],
-    "eng_translation": [
-      "HCT",
-      "Hematocrit (HCT)",
-      "Hemoglobin Concentration",
-      "Hematocrit"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] lặp lại tại 26."
   },
   {
     "text": "hct",
@@ -1832,48 +448,11 @@
       2612,
       2615
     ],
-    "sentence": "1\n- [ENTITY] trả về là 24.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009506",
-          "document": "[ENTITY] đã 24 ngày.",
-          "dense_similarity": 0.7807855010032654,
-          "sparse_similarity": 0.09518378227949142,
-          "hybrid_score": 0.4379846453666687
-        },
-        {
-          "id": "isHistorical_006599",
-          "document": "[ENTITY] da 24 nam.",
-          "dense_similarity": 0.7901624441146851,
-          "sparse_similarity": 0.08464565128087997,
-          "hybrid_score": 0.4374040365219116
-        },
-        {
-          "id": "isHistorical_015193",
-          "document": "da 24 nam [ENTITY].",
-          "dense_similarity": 0.800855815410614,
-          "sparse_similarity": 0.07288490235805511,
-          "hybrid_score": 0.43687036633491516
-        }
-      ]
+    "assertion_position": [
+      2537,
+      2540
     ],
-    "eng_translation": [
-      "HCT",
-      "Hematocrit (HCT)",
-      "Hemoglobin Concentration",
-      "Hematocrit"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] trả về là 24."
   },
   {
     "text": "viêm phổi thùy dưới trái",
@@ -1882,62 +461,11 @@
       2731,
       2755
     ],
-    "sentence": "7 (tại cơ sở điều dưỡng)\n- rối loạn cân bằng kiềm toan phối hợp\nKết quả chẩn đoán hình ảnh: chẩn đoán [ENTITY] bằng hình ảnh\nCác thủ thuật đã thực hiện\n- Chuyển nhịp bằng sốc điện đồng bộ\n- truyền máu\nCác phát hiện chẩn đoán khác\n- suy thận cấp\n- tái phát u ác trực tràng\n- rung cuống nhĩ với đáp ứng thất nhanh",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.612872838973999,
-          "sparse_similarity": 0.180540069937706,
-          "hybrid_score": 0.3967064619064331
-        },
-        {
-          "id": "isHistorical_003251",
-          "document": "7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6065699458122253,
-          "sparse_similarity": 0.18683436512947083,
-          "hybrid_score": 0.3967021703720093
-        },
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6037901043891907,
-          "sparse_similarity": 0.18944929540157318,
-          "hybrid_score": 0.3966197073459625
-        }
-      ]
+    "assertion_position": [
+      2656,
+      2680
     ],
-    "eng_translation": [
-      "left lower lobe pneumonia",
-      "left lower lobe infection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J181": 0.725605,
-        "M60004": 0.673161,
-        "J842": 0.645082,
-        "M60062": 0.629036,
-        "M60001": 0.624761
-      },
-      "rapidfuzz": {
-        "S89121S": 0.855,
-        "S89122A": 0.855,
-        "S89122D": 0.855,
-        "A043": 0.855,
-        "S92142K": 0.855,
-        "Z96632": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J181",
-      "confidence": 0.653045
-    }
+    "sentence": "Kết quả chẩn đoán hình ảnh: chẩn đoán [ENTITY] bằng hình ảnh."
   },
   {
     "text": "đồng",
@@ -1946,45 +474,11 @@
       2825,
       2829
     ],
-    "sentence": "7 (tại cơ sở điều dưỡng)\n- rối loạn cân bằng kiềm toan phối hợp\nKết quả chẩn đoán hình ảnh: chẩn đoán viêm phổi thùy dưới trái bằng hình ảnh\nCác thủ thuật đã thực hiện\n- Chuyển nhịp bằng sốc điện [ENTITY] bộ\n- truyền máu\nCác phát hiện chẩn đoán khác\n- suy thận cấp\n- tái phát u ác trực tràng\n- rung cuống nhĩ với đáp ứng thất nhanh",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5654453039169312,
-          "sparse_similarity": 0.1002846285700798,
-          "hybrid_score": 0.3328649699687958
-        },
-        {
-          "id": "isFamily_007189",
-          "document": "bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5582663416862488,
-          "sparse_similarity": 0.10319677740335464,
-          "hybrid_score": 0.3307315707206726
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.560962438583374,
-          "sparse_similarity": 0.09365583211183548,
-          "hybrid_score": 0.32730913162231445
-        }
-      ]
+    "assertion_position": [
+      2750,
+      2754
     ],
-    "eng_translation": [
-      "same"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Chuyển nhịp bằng sốc điện [ENTITY] bộ."
   },
   {
     "text": "suy thận cấp",
@@ -1993,62 +487,11 @@
       2877,
       2889
     ],
-    "sentence": "7 (tại cơ sở điều dưỡng)\n- rối loạn cân bằng kiềm toan phối hợp\nKết quả chẩn đoán hình ảnh: chẩn đoán viêm phổi thùy dưới trái bằng hình ảnh\nCác thủ thuật đã thực hiện\n- Chuyển nhịp bằng sốc điện đồng bộ\n- truyền máu\nCác phát hiện chẩn đoán khác\n- [ENTITY]\n- tái phát u ác trực tràng\n- rung cuống nhĩ với đáp ứng thất nhanh",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.569698691368103,
-          "sparse_similarity": 0.13330745697021484,
-          "hybrid_score": 0.35150307416915894
-        },
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.569362223148346,
-          "sparse_similarity": 0.12996706366539001,
-          "hybrid_score": 0.3496646285057068
-        },
-        {
-          "id": "isHistorical_003251",
-          "document": "7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5612877607345581,
-          "sparse_similarity": 0.1376544088125229,
-          "hybrid_score": 0.3494710922241211
-        }
-      ]
+    "assertion_position": [
+      2801,
+      2813
     ],
-    "eng_translation": [
-      "Acute kidney failure",
-      "Acute renal failure"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N179": 0.98538,
-        "N178": 0.80511,
-        "N170": 0.799319,
-        "N19": 0.783164,
-        "N171": 0.771706
-      },
-      "rapidfuzz": {
-        "N178": 0.95,
-        "N170": 0.9,
-        "N171": 0.9,
-        "M70049": 0.855,
-        "M93073": 0.855,
-        "M93072": 0.855
-      }
-    },
-    "candidate": {
-      "code": "N179",
-      "confidence": 0.886842
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "u ác trực tràng",
@@ -2057,61 +500,11 @@
       2901,
       2916
     ],
-    "sentence": "7 (tại cơ sở điều dưỡng)\n- rối loạn cân bằng kiềm toan phối hợp\nKết quả chẩn đoán hình ảnh: chẩn đoán viêm phổi thùy dưới trái bằng hình ảnh\nCác thủ thuật đã thực hiện\n- Chuyển nhịp bằng sốc điện đồng bộ\n- truyền máu\nCác phát hiện chẩn đoán khác\n- suy thận cấp\n- tái phát [ENTITY]\n- rung cuống nhĩ với đáp ứng thất nhanh",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5678955912590027,
-          "sparse_similarity": 0.09156205505132675,
-          "hybrid_score": 0.3297288119792938
-        },
-        {
-          "id": "isFamily_007189",
-          "document": "bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5597644448280334,
-          "sparse_similarity": 0.0938204675912857,
-          "hybrid_score": 0.326792448759079
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5616914629936218,
-          "sparse_similarity": 0.08588970452547073,
-          "hybrid_score": 0.323790580034256
-        }
-      ]
+    "assertion_position": [
+      2824,
+      2839
     ],
-    "eng_translation": [
-      "Rectal cancer",
-      "Colorectal cancer"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C20": 0.915789,
-        "C189": 0.794747,
-        "C49A5": 0.72505,
-        "C180": 0.711332,
-        "C7A026": 0.705917
-      },
-      "rapidfuzz": {
-        "Z15060": 0.9,
-        "K6040": 0.855,
-        "K60421": 0.855,
-        "R971": 0.855,
-        "QA1790": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C20",
-      "confidence": 0.82421
-    }
+    "sentence": "tái phát [ENTITY]."
   },
   {
     "text": "rung cuống nhĩ",
@@ -2120,61 +513,10 @@
       2919,
       2933
     ],
-    "sentence": "7 (tại cơ sở điều dưỡng)\n- rối loạn cân bằng kiềm toan phối hợp\nKết quả chẩn đoán hình ảnh: chẩn đoán viêm phổi thùy dưới trái bằng hình ảnh\nCác thủ thuật đã thực hiện\n- Chuyển nhịp bằng sốc điện đồng bộ\n- truyền máu\nCác phát hiện chẩn đoán khác\n- suy thận cấp\n- tái phát u ác trực tràng\n- [ENTITY] với đáp ứng thất nhanh",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.571773886680603,
-          "sparse_similarity": 0.12725315988063812,
-          "hybrid_score": 0.34951353073120117
-        },
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5622327923774719,
-          "sparse_similarity": 0.13359403610229492,
-          "hybrid_score": 0.3479134142398834
-        },
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5709928274154663,
-          "sparse_similarity": 0.12406586855649948,
-          "hybrid_score": 0.3475293517112732
-        }
-      ]
+    "assertion_position": [
+      2841,
+      2855
     ],
-    "eng_translation": [
-      "Atrial fibrillation",
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I480": 1.0,
-        "I4891": 0.978406,
-        "I4821": 0.894503,
-        "I4820": 0.803449,
-        "I4901": 0.799594
-      },
-      "rapidfuzz": {
-        "I480": 1.0,
-        "I4820": 0.9,
-        "I4821": 0.9,
-        "I4891": 0.9,
-        "G44039": 0.855,
-        "I231": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I480",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] với đáp ứng thất nhanh."
   }
 ]

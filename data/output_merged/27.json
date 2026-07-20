@@ -6,62 +6,11 @@
       48,
       64
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY], không đặc hiệu\n    - Tăng huyết áp\n    - Tiền sử phẫu thuật cắt bỏ đại tràng do Ung thư đại tràng\n    - Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử Thuyên tắc phổi đang dùng coumadin)\n    Tiền sử phẫu thuật / thủ thuật: Cắt đại tràng nhiều năm trước\n    Thuốc trước khi nhập viện: coumadin\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6057113409042358,
-          "sparse_similarity": 0.1603933572769165,
-          "hybrid_score": 0.38305234909057617
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6205154061317444,
-          "sparse_similarity": 0.14546947181224823,
-          "hybrid_score": 0.3829924464225769
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5978794097900391,
-          "sparse_similarity": 0.15385830402374268,
-          "hybrid_score": 0.37586885690689087
-        }
-      ]
+    "assertion_position": [
+      36,
+      52
     ],
-    "eng_translation": [
-      "Turner syndrome",
-      "Monosomy X syndrome"
-    ],
-    "retriever": {
-      "sapbert": {
-        "Q969": 0.972216,
-        "Q961": 0.821537,
-        "Q960": 0.791261,
-        "Q968": 0.772128,
-        "Q970": 0.763159
-      },
-      "rapidfuzz": {
-        "O3514X0": 0.9,
-        "O3514X1": 0.9,
-        "O3514X2": 0.9,
-        "K580": 0.855,
-        "M3507": 0.855,
-        "M3506": 0.855
-      }
-    },
-    "candidate": {
-      "code": "Q969",
-      "confidence": 0.874994
-    }
+    "sentence": "[ENTITY], không đặc hiệu."
   },
   {
     "text": "Tăng huyết áp",
@@ -70,62 +19,11 @@
       87,
       100
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - hội chứng turner, không đặc hiệu\n    - [ENTITY]\n    - Tiền sử phẫu thuật cắt bỏ đại tràng do Ung thư đại tràng\n    - Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử Thuyên tắc phổi đang dùng coumadin)\n    Tiền sử phẫu thuật / thủ thuật: Cắt đại tràng nhiều năm trước\n    Thuốc trước khi nhập viện: coumadin\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6284966468811035,
-          "sparse_similarity": 0.14316855370998383,
-          "hybrid_score": 0.38583260774612427
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6427254676818848,
-          "sparse_similarity": 0.1235312968492508,
-          "hybrid_score": 0.3831283748149872
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6114809513092041,
-          "sparse_similarity": 0.14536842703819275,
-          "hybrid_score": 0.3784247040748596
-        }
-      ]
+    "assertion_position": [
+      70,
+      83
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Ung thư đại tràng",
@@ -134,62 +32,11 @@
       146,
       163
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - hội chứng turner, không đặc hiệu\n    - Tăng huyết áp\n    - Tiền sử phẫu thuật cắt bỏ đại tràng do [ENTITY]\n    - Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử Thuyên tắc phổi đang dùng coumadin)\n    Tiền sử phẫu thuật / thủ thuật: Cắt đại tràng nhiều năm trước\n    Thuốc trước khi nhập viện: coumadin\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử phẫu thuật cắt bỏ đại tràng do [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6241881251335144,
-          "sparse_similarity": 0.14638599753379822,
-          "hybrid_score": 0.3852870464324951
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6384499073028564,
-          "sparse_similarity": 0.12624451518058777,
-          "hybrid_score": 0.3823472261428833
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.605107307434082,
-          "sparse_similarity": 0.14883357286453247,
-          "hybrid_score": 0.37697044014930725
-        }
-      ]
+    "assertion_position": [
+      124,
+      141
     ],
-    "eng_translation": [
-      "Colorectal Cancer",
-      "Colorectal Carcinoma"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C189": 0.794747,
-        "C20": 0.770835,
-        "C180": 0.711332,
-        "Z15060": 0.694299,
-        "C260": 0.672127
-      },
-      "rapidfuzz": {
-        "Z15060": 0.9,
-        "R971": 0.855,
-        "QA1790": 0.855,
-        "C7B1": 0.855,
-        "C44722": 0.855,
-        "C44711": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C189",
-      "confidence": 0.715272
-    }
+    "sentence": "Tiền sử phẫu thuật cắt bỏ đại tràng do [ENTITY]."
   },
   {
     "text": "Thuyên tắc phổi",
@@ -198,62 +45,11 @@
       178,
       193
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - hội chứng turner, không đặc hiệu\n    - Tăng huyết áp\n    - Tiền sử phẫu thuật cắt bỏ đại tràng do Ung thư đại tràng\n    - Tiền sử [ENTITY] đang dùng coumadin (tiền sử Thuyên tắc phổi đang dùng coumadin)\n    Tiền sử phẫu thuật / thủ thuật: Cắt đại tràng nhiều năm trước\n    Thuốc trước khi nhập viện: coumadin\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6363634467124939,
-          "sparse_similarity": 0.15560415387153625,
-          "hybrid_score": 0.39598381519317627
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6453878283500671,
-          "sparse_similarity": 0.1338987797498703,
-          "hybrid_score": 0.3896433115005493
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6164538264274597,
-          "sparse_similarity": 0.1574041247367859,
-          "hybrid_score": 0.3869289755821228
-        }
-      ]
+    "assertion_position": [
+      151,
+      166
     ],
-    "eng_translation": [
-      "Pulmonary embolism",
-      "Deep Vein Thrombosis Complication"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I2782": 0.730659,
-        "I82509": 0.718177,
-        "I825Z9": 0.700583,
-        "I82409": 0.691903,
-        "O047": 0.686062
-      },
-      "rapidfuzz": {
-        "I2782": 0.95,
-        "I2693": 0.9,
-        "I2601": 0.9,
-        "O749": 0.855,
-        "S45391S": 0.855,
-        "S45392A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I2782",
-      "confidence": 0.752593
-    }
+    "sentence": "Tiền sử [ENTITY] đang dùng coumadin (tiền sử Thuyên tắc phổi đang dùng coumadin)."
   },
   {
     "text": "coumadin",
@@ -262,62 +58,11 @@
       204,
       212
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - hội chứng turner, không đặc hiệu\n    - Tăng huyết áp\n    - Tiền sử phẫu thuật cắt bỏ đại tràng do Ung thư đại tràng\n    - Tiền sử Thuyên tắc phổi đang dùng [ENTITY] (tiền sử Thuyên tắc phổi đang dùng coumadin)\n    Tiền sử phẫu thuật / thủ thuật: Cắt đại tràng nhiều năm trước\n    Thuốc trước khi nhập viện: coumadin\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử thuyên tắc phổi đang dùng [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6159422993659973,
-          "sparse_similarity": 0.13693630695343018,
-          "hybrid_score": 0.37643930315971375
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6012962460517883,
-          "sparse_similarity": 0.15124505758285522,
-          "hybrid_score": 0.3762706518173218
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6315735578536987,
-          "sparse_similarity": 0.11823365837335587,
-          "hybrid_score": 0.3749036192893982
-        }
-      ]
+    "assertion_position": [
+      177,
+      185
     ],
-    "eng_translation": [
-      "Coumadin",
-      "Warfarin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "11289": 1.0,
-        "202421": 1.0,
-        "2048011": 0.969032,
-        "82118": 0.893789,
-        "2898": 0.880474
-      },
-      "rapidfuzz": {
-        "202421": 1.0,
-        "11289": 1.0,
-        "855340": 0.9,
-        "855339": 0.9,
-        "2656852": 0.9,
-        "2649084": 0.9
-      }
-    },
-    "candidate": {
-      "code": "11289",
-      "confidence": 1.0
-    }
+    "sentence": "Tiền sử Thuyên tắc phổi đang dùng [ENTITY] (tiền sử Thuyên tắc phổi đang dùng coumadin)."
   },
   {
     "text": "Thuyên tắc phổi",
@@ -326,62 +71,11 @@
       222,
       237
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - hội chứng turner, không đặc hiệu\n    - Tăng huyết áp\n    - Tiền sử phẫu thuật cắt bỏ đại tràng do Ung thư đại tràng\n    - Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử [ENTITY] đang dùng coumadin)\n    Tiền sử phẫu thuật / thủ thuật: Cắt đại tràng nhiều năm trước\n    Thuốc trước khi nhập viện: coumadin\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử thuyên tắc phổi đang dùng coumadin (tiền sử [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6435464024543762,
-          "sparse_similarity": 0.16001085937023163,
-          "hybrid_score": 0.4017786383628845
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.650469958782196,
-          "sparse_similarity": 0.13766248524188995,
-          "hybrid_score": 0.3940662145614624
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6239703297615051,
-          "sparse_similarity": 0.16185212135314941,
-          "hybrid_score": 0.39291122555732727
-        }
-      ]
+    "assertion_position": [
+      195,
+      210
     ],
-    "eng_translation": [
-      "Pulmonary embolism",
-      "Deep Vein Thrombosis Complication"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I2782": 0.730659,
-        "I82509": 0.718177,
-        "I825Z9": 0.700583,
-        "I82409": 0.691903,
-        "O047": 0.686062
-      },
-      "rapidfuzz": {
-        "I2782": 0.95,
-        "I2693": 0.9,
-        "I2601": 0.9,
-        "O749": 0.855,
-        "S45391S": 0.855,
-        "S45392A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I2782",
-      "confidence": 0.752593
-    }
+    "sentence": "Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử [ENTITY] đang dùng coumadin)."
   },
   {
     "text": "coumadin",
@@ -390,62 +84,11 @@
       248,
       256
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - hội chứng turner, không đặc hiệu\n    - Tăng huyết áp\n    - Tiền sử phẫu thuật cắt bỏ đại tràng do Ung thư đại tràng\n    - Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử Thuyên tắc phổi đang dùng [ENTITY])\n    Tiền sử phẫu thuật / thủ thuật: Cắt đại tràng nhiều năm trước\n    Thuốc trước khi nhập viện: coumadin\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử thuyên tắc phổi đang dùng [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5929918885231018,
-          "sparse_similarity": 0.14141122996807098,
-          "hybrid_score": 0.367201566696167
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6081129908561707,
-          "sparse_similarity": 0.12597666680812836,
-          "hybrid_score": 0.3670448362827301
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6214773654937744,
-          "sparse_similarity": 0.10895697772502899,
-          "hybrid_score": 0.3652171790599823
-        }
-      ]
+    "assertion_position": [
+      221,
+      229
     ],
-    "eng_translation": [
-      "Coumadin",
-      "Warfarin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "11289": 1.0,
-        "202421": 1.0,
-        "2048011": 0.969032,
-        "82118": 0.893789,
-        "2898": 0.880474
-      },
-      "rapidfuzz": {
-        "202421": 1.0,
-        "11289": 1.0,
-        "855340": 0.9,
-        "855339": 0.9,
-        "2656852": 0.9,
-        "2649084": 0.9
-      }
-    },
-    "candidate": {
-      "code": "11289",
-      "confidence": 1.0
-    }
+    "sentence": "Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử Thuyên tắc phổi đang dùng [ENTITY])."
   },
   {
     "text": "coumadin",
@@ -454,62 +97,11 @@
       355,
       363
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - hội chứng turner, không đặc hiệu\n    - Tăng huyết áp\n    - Tiền sử phẫu thuật cắt bỏ đại tràng do Ung thư đại tràng\n    - Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử Thuyên tắc phổi đang dùng coumadin)\n    Tiền sử phẫu thuật / thủ thuật: Cắt đại tràng nhiều năm trước\n    Thuốc trước khi nhập viện: [ENTITY]\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6242421269416809,
-          "sparse_similarity": 0.14903885126113892,
-          "hybrid_score": 0.3866404891014099
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6060264706611633,
-          "sparse_similarity": 0.16495177149772644,
-          "hybrid_score": 0.3854891061782837
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6415078639984131,
-          "sparse_similarity": 0.12857839465141296,
-          "hybrid_score": 0.3850431442260742
-        }
-      ]
+    "assertion_position": [
+      322,
+      330
     ],
-    "eng_translation": [
-      "Coumadin",
-      "Warfarin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "11289": 1.0,
-        "202421": 1.0,
-        "2048011": 0.969032,
-        "82118": 0.893789,
-        "2898": 0.880474
-      },
-      "rapidfuzz": {
-        "202421": 1.0,
-        "11289": 1.0,
-        "855340": 0.9,
-        "855339": 0.9,
-        "2656852": 0.9,
-        "2649084": 0.9
-      }
-    },
-    "candidate": {
-      "code": "11289",
-      "confidence": 1.0
-    }
+    "sentence": "Thuốc trước khi nhập viện: [ENTITY]."
   },
   {
     "text": "khó thở",
@@ -518,46 +110,11 @@
       412,
       419
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY]\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6026250123977661,
-          "sparse_similarity": 0.17473620176315308,
-          "hybrid_score": 0.3886806070804596
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6003002524375916,
-          "sparse_similarity": 0.17505185306072235,
-          "hybrid_score": 0.38767606019973755
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6006199717521667,
-          "sparse_similarity": 0.17413218319416046,
-          "hybrid_score": 0.387376070022583
-        }
-      ]
+    "assertion_position": [
+      372,
+      379
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY]."
   },
   {
     "text": "khó thở",
@@ -566,46 +123,11 @@
       455,
       462
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - [ENTITY] \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5872756838798523,
-          "sparse_similarity": 0.16899001598358154,
-          "hybrid_score": 0.3781328499317169
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.585347592830658,
-          "sparse_similarity": 0.16814124584197998,
-          "hybrid_score": 0.37674441933631897
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5842030644416809,
-          "sparse_similarity": 0.16919668018817902,
-          "hybrid_score": 0.37669986486434937
-        }
-      ]
+    "assertion_position": [
+      407,
+      414
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đờm ở cổ họng",
@@ -614,46 +136,11 @@
       482,
       495
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có [ENTITY]\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5811240077018738,
-          "sparse_similarity": 0.17699429392814636,
-          "hybrid_score": 0.3790591359138489
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5826247930526733,
-          "sparse_similarity": 0.17419326305389404,
-          "hybrid_score": 0.3784090280532837
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5789629220962524,
-          "sparse_similarity": 0.17756539583206177,
-          "hybrid_score": 0.3782641589641571
-        }
-      ]
+    "assertion_position": [
+      428,
+      441
     ],
-    "eng_translation": [
-      "Phlegm in the throat",
-      "Postnasal drip"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Cảm giác có [ENTITY]."
   },
   {
     "text": "sốt",
@@ -662,46 +149,11 @@
       532,
       535
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không [ENTITY]\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5796260237693787,
-          "sparse_similarity": 0.15529322624206543,
-          "hybrid_score": 0.36745962500572205
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5786851644515991,
-          "sparse_similarity": 0.15564215183258057,
-          "hybrid_score": 0.36716365814208984
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5790897607803345,
-          "sparse_similarity": 0.15492232143878937,
-          "hybrid_score": 0.3670060336589813
-        }
-      ]
+    "assertion_position": [
+      468,
+      471
     ],
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "ớn lạnh",
@@ -710,45 +162,11 @@
       548,
       555
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không [ENTITY]\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5771065354347229,
-          "sparse_similarity": 0.1542772799730301,
-          "hybrid_score": 0.3656919002532959
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5776073336601257,
-          "sparse_similarity": 0.15332260727882385,
-          "hybrid_score": 0.365464985370636
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5750014185905457,
-          "sparse_similarity": 0.1549854874610901,
-          "hybrid_score": 0.36499345302581787
-        }
-      ]
+    "assertion_position": [
+      479,
+      486
     ],
-    "eng_translation": [
-      "chills"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "đau ngực",
@@ -757,46 +175,11 @@
       568,
       576
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không [ENTITY]\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5714280009269714,
-          "sparse_similarity": 0.14950409531593323,
-          "hybrid_score": 0.3604660630226135
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5704764723777771,
-          "sparse_similarity": 0.15009041130542755,
-          "hybrid_score": 0.36028343439102173
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5709872841835022,
-          "sparse_similarity": 0.14894062280654907,
-          "hybrid_score": 0.35996395349502563
-        }
-      ]
+    "assertion_position": [
+      494,
+      502
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "khó thở",
@@ -805,46 +188,11 @@
       590,
       597
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  [ENTITY]\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.571773111820221,
-          "sparse_similarity": 0.1498400866985321,
-          "hybrid_score": 0.36080658435821533
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5706828832626343,
-          "sparse_similarity": 0.15038412809371948,
-          "hybrid_score": 0.3605335056781769
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5709607005119324,
-          "sparse_similarity": 0.1491973102092743,
-          "hybrid_score": 0.36007899045944214
-        }
-      ]
+    "assertion_position": [
+      510,
+      517
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "cơn đau",
@@ -853,45 +201,11 @@
       629,
       636
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất [ENTITY] khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5694343447685242,
-          "sparse_similarity": 0.15793979167938232,
-          "hybrid_score": 0.36368706822395325
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5703365206718445,
-          "sparse_similarity": 0.1567019522190094,
-          "hybrid_score": 0.36351925134658813
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5695794224739075,
-          "sparse_similarity": 0.15717530250549316,
-          "hybrid_score": 0.3633773624897003
-        }
-      ]
+    "assertion_position": [
+      544,
+      551
     ],
-    "eng_translation": [
-      "pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không thay đổi tính chất [ENTITY] khi thay đổi tư thế."
   },
   {
     "text": "khó thở",
@@ -900,46 +214,11 @@
       669,
       676
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không [ENTITY] khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5707037448883057,
-          "sparse_similarity": 0.15784403681755066,
-          "hybrid_score": 0.36427390575408936
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5710810422897339,
-          "sparse_similarity": 0.15708525478839874,
-          "hybrid_score": 0.3640831410884857
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5684353113174438,
-          "sparse_similarity": 0.1589217185974121,
-          "hybrid_score": 0.363678514957428
-        }
-      ]
+    "assertion_position": [
+      579,
+      586
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY] khi gắng sức."
   },
   {
     "text": "trống ngực",
@@ -948,46 +227,11 @@
       707,
       717
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh [ENTITY]\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5687698125839233,
-          "sparse_similarity": 0.153485968708992,
-          "hybrid_score": 0.3611278831958771
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5687270760536194,
-          "sparse_similarity": 0.15285612642765045,
-          "hybrid_score": 0.3607915937900543
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5662583708763123,
-          "sparse_similarity": 0.15503820776939392,
-          "hybrid_score": 0.3606482744216919
-        }
-      ]
+    "assertion_position": [
+      612,
+      622
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không đánh [ENTITY]."
   },
   {
     "text": "khó thở",
@@ -996,46 +240,11 @@
       730,
       737
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không [ENTITY] tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5782793164253235,
-          "sparse_similarity": 0.16028888523578644,
-          "hybrid_score": 0.36928409337997437
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5764632821083069,
-          "sparse_similarity": 0.16187557578086853,
-          "hybrid_score": 0.3691694140434265
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5739688277244568,
-          "sparse_similarity": 0.16372929513454437,
-          "hybrid_score": 0.3688490688800812
-        }
-      ]
+    "assertion_position": [
+      630,
+      637
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY] tăng lên khi xuất hiện Cơn nhịp nhanh."
   },
   {
     "text": "nhịp nhanh",
@@ -1044,46 +253,11 @@
       766,
       776
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn [ENTITY]\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5783289074897766,
-          "sparse_similarity": 0.15484173595905304,
-          "hybrid_score": 0.36658531427383423
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5765594840049744,
-          "sparse_similarity": 0.1564825475215912,
-          "hybrid_score": 0.3665210008621216
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5816713571548462,
-          "sparse_similarity": 0.1501433402299881,
-          "hybrid_score": 0.36590734124183655
-        }
-      ]
+    "assertion_position": [
+      665,
+      675
     ],
-    "eng_translation": [
-      "tachycardia",
-      "Fast heart rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không khó thở tăng lên khi xuất hiện Cơn [ENTITY]."
   },
   {
     "text": "đau ngực",
@@ -1092,46 +266,11 @@
       789,
       797
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không [ENTITY] \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  khó nuốt\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5732422471046448,
-          "sparse_similarity": 0.16504724323749542,
-          "hybrid_score": 0.3691447377204895
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5763369202613831,
-          "sparse_similarity": 0.16191138327121735,
-          "hybrid_score": 0.3691241443157196
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5745857357978821,
-          "sparse_similarity": 0.16326691210269928,
-          "hybrid_score": 0.3689263164997101
-        }
-      ]
+    "assertion_position": [
+      683,
+      691
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "khó nuốt",
@@ -1140,46 +279,11 @@
       945,
       953
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Các triệu chứng hiện tại\n    - khó thở \n    - Cảm giác có đờm ở cổ họng\n    - Cần phải ho nó ra\n    - Không sốt\n    - Không ớn lạnh\n    - Không đau ngực\n    - Không  khó thở\n    -Không  thay đổi tính chất cơn đau khi thay đổi tư thế\n    - Không khó thở khi gắng sức\n    - Không đánh trống ngực\n    - Không khó thở tăng lên khi xuất hiện  Cơn nhịp nhanh\n    - Không đau ngực \n    Các diễn biến trước khi nhập viện\n    - Gần đây nhập viện để đánh giá tổng quát về tiêu hóa\n    - đánh giá tổng quát về tiêu hóa vì cảm thấy  [ENTITY]\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5677382946014404,
-          "sparse_similarity": 0.1697273850440979,
-          "hybrid_score": 0.36873283982276917
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5676767826080322,
-          "sparse_similarity": 0.16976147890090942,
-          "hybrid_score": 0.3687191307544708
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5551750659942627,
-          "sparse_similarity": 0.17872102558612823,
-          "hybrid_score": 0.36694803833961487
-        }
-      ]
+    "assertion_position": [
+      824,
+      832
     ],
-    "eng_translation": [
-      "Dysphagia",
-      "Difficulty swallowing"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "đánh giá tổng quát về tiêu hóa vì cảm thấy [ENTITY]."
   },
   {
     "text": "metoprolol 5mg iv",
@@ -1188,56 +292,11 @@
       1053,
       1070
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - [ENTITY] x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 rr 14 spo2 100ra\n    - Bị kích hoạt để hr 140 khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019965",
-          "document": "khoảng 2 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5707764625549316,
-          "sparse_similarity": 0.09300094842910767,
-          "hybrid_score": 0.33188870549201965
-        },
-        {
-          "id": "isHistorical_019983",
-          "document": "khoảng 2 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5685349702835083,
-          "sparse_similarity": 0.08704360574483871,
-          "hybrid_score": 0.3277892768383026
-        },
-        {
-          "id": "isHistorical_032131",
-          "document": "đã 2 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.57145094871521,
-          "sparse_similarity": 0.04824918508529663,
-          "hybrid_score": 0.3098500669002533
-        }
-      ]
+    "assertion_position": [
+      916,
+      933
     ],
-    "eng_translation": [
-      "metoprolol 5mg IV",
-      "Metoprolol 5 mg IV"
-    ],
-    "retriever": {
-      "sapbert": {
-        "866508": 0.797697,
-        "1744259": 0.775937
-      },
-      "rapidfuzz": {
-        "865575": 0.9,
-        "6918": 0.9,
-        "2743345": 0.855
-      }
-    },
-    "candidate": {
-      "code": "866508",
-      "confidence": 0.717927
-    }
+    "sentence": "[ENTITY] x2."
   },
   {
     "text": "hr",
@@ -1246,46 +305,11 @@
       1149,
       1151
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - metoprolol 5mg iv x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c [ENTITY] 88 bp 13482 rr 14 spo2 100ra\n    - Bị kích hoạt để hr 140 khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019965",
-          "document": "khoảng 2 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5643754005432129,
-          "sparse_similarity": 0.08145708590745926,
-          "hybrid_score": 0.3229162395000458
-        },
-        {
-          "id": "isHistorical_032131",
-          "document": "đã 2 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5716822147369385,
-          "sparse_similarity": 0.04011806845664978,
-          "hybrid_score": 0.3059001564979553
-        },
-        {
-          "id": "isHistorical_019966",
-          "document": "khoảng 2 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5777942538261414,
-          "sparse_similarity": 0.02945619449019432,
-          "hybrid_score": 0.303625226020813
-        }
-      ]
+    "assertion_position": [
+      1004,
+      1006
     ],
-    "eng_translation": [
-      "HR",
-      "Heart Rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các chỉ số ban đầu vs là tc 37 độ c [ENTITY] 88 bp 13482 rr 14 spo2 100ra."
   },
   {
     "text": "88",
@@ -1294,46 +318,11 @@
       1152,
       1154
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - metoprolol 5mg iv x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c hr [ENTITY] bp 13482 rr 14 spo2 100ra\n    - Bị kích hoạt để hr 140 khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019965",
-          "document": "khoảng 2 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5629839301109314,
-          "sparse_similarity": 0.08340118825435638,
-          "hybrid_score": 0.3231925666332245
-        },
-        {
-          "id": "isHistorical_032131",
-          "document": "đã 2 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5705333352088928,
-          "sparse_similarity": 0.040169887244701385,
-          "hybrid_score": 0.3053516149520874
-        },
-        {
-          "id": "isHistorical_019966",
-          "document": "khoảng 2 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5769209861755371,
-          "sparse_similarity": 0.029745128005743027,
-          "hybrid_score": 0.303333044052124
-        }
-      ]
+    "assertion_position": [
+      1007,
+      1009
     ],
-    "eng_translation": [
-      "88",
-      "The query provided is \"88\" which does not contain any medical information or context. Therefore, no rewrite is possible."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các chỉ số ban đầu vs là tc 37 độ c hr [ENTITY] bp 13482 rr 14 spo2 100ra."
   },
   {
     "text": "bp",
@@ -1342,46 +331,11 @@
       1155,
       1157
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - metoprolol 5mg iv x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c hr 88 [ENTITY] 13482 rr 14 spo2 100ra\n    - Bị kích hoạt để hr 140 khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032131",
-          "document": "đã 2 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5766440629959106,
-          "sparse_similarity": 0.03484174981713295,
-          "hybrid_score": 0.30574291944503784
-        },
-        {
-          "id": "isHistorical_019984",
-          "document": "khoảng 2 tuần trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5845454335212708,
-          "sparse_similarity": 0.023127831518650055,
-          "hybrid_score": 0.3038366436958313
-        },
-        {
-          "id": "isHistorical_019966",
-          "document": "khoảng 2 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5825471878051758,
-          "sparse_similarity": 0.024808000773191452,
-          "hybrid_score": 0.30367758870124817
-        }
-      ]
+    "assertion_position": [
+      1010,
+      1012
     ],
-    "eng_translation": [
-      "BP",
-      "Blood Pressure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các chỉ số ban đầu vs là tc 37 độ c hr 88 [ENTITY] 13482 rr 14 spo2 100ra."
   },
   {
     "text": "13482",
@@ -1390,45 +344,11 @@
       1158,
       1163
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - metoprolol 5mg iv x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp [ENTITY] rr 14 spo2 100ra\n    - Bị kích hoạt để hr 140 khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019965",
-          "document": "khoảng 2 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5686814785003662,
-          "sparse_similarity": 0.08056819438934326,
-          "hybrid_score": 0.32462483644485474
-        },
-        {
-          "id": "isHistorical_032131",
-          "document": "đã 2 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5741762518882751,
-          "sparse_similarity": 0.03746921569108963,
-          "hybrid_score": 0.3058227300643921
-        },
-        {
-          "id": "isHistorical_019966",
-          "document": "khoảng 2 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5828304290771484,
-          "sparse_similarity": 0.028177864849567413,
-          "hybrid_score": 0.3055041432380676
-        }
-      ]
+    "assertion_position": [
+      1013,
+      1018
     ],
-    "eng_translation": [
-      "13482"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp [ENTITY] rr 14 spo2 100ra."
   },
   {
     "text": "rr",
@@ -1437,46 +357,11 @@
       1164,
       1166
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - metoprolol 5mg iv x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 [ENTITY] 14 spo2 100ra\n    - Bị kích hoạt để hr 140 khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019965",
-          "document": "khoảng 2 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5632250308990479,
-          "sparse_similarity": 0.07012400031089783,
-          "hybrid_score": 0.31667453050613403
-        },
-        {
-          "id": "isHistorical_032131",
-          "document": "đã 2 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5717399716377258,
-          "sparse_similarity": 0.02874170057475567,
-          "hybrid_score": 0.3002408444881439
-        },
-        {
-          "id": "isHistorical_019966",
-          "document": "khoảng 2 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5787144899368286,
-          "sparse_similarity": 0.019356537610292435,
-          "hybrid_score": 0.29903551936149597
-        }
-      ]
+    "assertion_position": [
+      1019,
+      1021
     ],
-    "eng_translation": [
-      "RR",
-      "Respiratory Rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 [ENTITY] 14 spo2 100ra."
   },
   {
     "text": "14",
@@ -1485,46 +370,11 @@
       1167,
       1169
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - metoprolol 5mg iv x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 rr [ENTITY] spo2 100ra\n    - Bị kích hoạt để hr 140 khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019965",
-          "document": "khoảng 2 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5628582239151001,
-          "sparse_similarity": 0.07309779524803162,
-          "hybrid_score": 0.31797802448272705
-        },
-        {
-          "id": "isHistorical_019983",
-          "document": "khoảng 2 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5601720213890076,
-          "sparse_similarity": 0.06833717226982117,
-          "hybrid_score": 0.3142545819282532
-        },
-        {
-          "id": "isHistorical_032131",
-          "document": "đã 2 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5709071159362793,
-          "sparse_similarity": 0.031006542965769768,
-          "hybrid_score": 0.3009568154811859
-        }
-      ]
+    "assertion_position": [
+      1022,
+      1024
     ],
-    "eng_translation": [
-      "14",
-      "The query provided is \"14\" which does not contain any medical information or context. Therefore, no rewrite is possible."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 rr [ENTITY] spo2 100ra."
   },
   {
     "text": "spo2",
@@ -1533,47 +383,11 @@
       1170,
       1174
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - metoprolol 5mg iv x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 rr 14 [ENTITY] 100ra\n    - Bị kích hoạt để hr 140 khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012406",
-          "document": "cách đây 100 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.5702246427536011,
-          "sparse_similarity": 0.05858428776264191,
-          "hybrid_score": 0.3144044578075409
-        },
-        {
-          "id": "isHistorical_019744",
-          "document": "khoảng 100 tuần trước được điều trị [ENTITY].",
-          "dense_similarity": 0.572086751461029,
-          "sparse_similarity": 0.05555976927280426,
-          "hybrid_score": 0.31382325291633606
-        },
-        {
-          "id": "isHistorical_019726",
-          "document": "khoảng 100 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5676788091659546,
-          "sparse_similarity": 0.05814404785633087,
-          "hybrid_score": 0.31291142106056213
-        }
-      ]
+    "assertion_position": [
+      1025,
+      1029
     ],
-    "eng_translation": [
-      "SpO₂",
-      "Oxygen saturation",
-      "Oxygen saturation in arterial blood"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 rr 14 [ENTITY] 100ra."
   },
   {
     "text": "100",
@@ -1582,45 +396,11 @@
       1175,
       1178
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - metoprolol 5mg iv x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 rr 14 spo2 [ENTITY]ra\n    - Bị kích hoạt để hr 140 khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019965",
-          "document": "khoảng 2 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5672410130500793,
-          "sparse_similarity": 0.0748635083436966,
-          "hybrid_score": 0.3210522532463074
-        },
-        {
-          "id": "isHistorical_032131",
-          "document": "đã 2 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5729774236679077,
-          "sparse_similarity": 0.03206627443432808,
-          "hybrid_score": 0.30252185463905334
-        },
-        {
-          "id": "isHistorical_019966",
-          "document": "khoảng 2 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5808069109916687,
-          "sparse_similarity": 0.021660201251506805,
-          "hybrid_score": 0.30123355984687805
-        }
-      ]
+    "assertion_position": [
+      1030,
+      1033
     ],
-    "eng_translation": [
-      "100"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 rr 14 spo2 [ENTITY]ra."
   },
   {
     "text": "hr",
@@ -1629,46 +409,11 @@
       1203,
       1205
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - metoprolol 5mg iv x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 rr 14 spo2 100ra\n    - Bị kích hoạt để [ENTITY] 140 khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019965",
-          "document": "khoảng 2 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.575281023979187,
-          "sparse_similarity": 0.0872262716293335,
-          "hybrid_score": 0.33125364780426025
-        },
-        {
-          "id": "isHistorical_019983",
-          "document": "khoảng 2 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5739423036575317,
-          "sparse_similarity": 0.08173555880784988,
-          "hybrid_score": 0.3278389275074005
-        },
-        {
-          "id": "isHistorical_032131",
-          "document": "đã 2 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5805436968803406,
-          "sparse_similarity": 0.04296872764825821,
-          "hybrid_score": 0.3117562234401703
-        }
-      ]
+    "assertion_position": [
+      1053,
+      1055
     ],
-    "eng_translation": [
-      "HR",
-      "Heart Rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bị kích hoạt để [ENTITY] 140 khoảng một giờ sau khi dùng ống xịt thứ hai."
   },
   {
     "text": "140",
@@ -1677,44 +422,10 @@
       1206,
       1209
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thủ thuật đã thực hiện\n    - albuterolipratropium nebs x2\n    - metoprolol 5mg iv x2\n    Các phát hiện chẩn đoán khác\n    - Các chỉ số ban đầu vs là tc 37 độ c hr 88 bp 13482 rr 14 spo2 100ra\n    - Bị kích hoạt để hr [ENTITY] khoảng một giờ sau khi dùng ống xịt thứ hai\n    - hr cải thiện lên mức 110 sau khi dùng metoprolol\n    - Bệnh nhân cho biết  cảm thấy khỏe khi đến phòng khám",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019965",
-          "document": "khoảng 2 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5822206139564514,
-          "sparse_similarity": 0.09915105253458023,
-          "hybrid_score": 0.3406858444213867
-        },
-        {
-          "id": "isHistorical_032131",
-          "document": "đã 2 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5874847173690796,
-          "sparse_similarity": 0.05160091072320938,
-          "hybrid_score": 0.3195428252220154
-        },
-        {
-          "id": "isHistorical_019966",
-          "document": "khoảng 2 ngày trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5952250957489014,
-          "sparse_similarity": 0.041678134351968765,
-          "hybrid_score": 0.3184516131877899
-        }
-      ]
+    "assertion_position": [
+      1056,
+      1059
     ],
-    "eng_translation": [
-      "140"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bị kích hoạt để hr [ENTITY] khoảng một giờ sau khi dùng ống xịt thứ hai."
   }
 ]

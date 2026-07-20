@@ -6,62 +6,11 @@
       59,
       72
     ],
-    "sentence": "Tiền sử bệnh\n    Bệnh lý mãn tính: tiền sử lâu dài của [ENTITY]\n    Tiền sử phẫu thuật / thủ thuật: đã thực hiện R BK-pop đến DP BPG\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử lâu dài của [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_005963",
-          "document": "bác của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6690418124198914,
-          "sparse_similarity": 0.24538983404636383,
-          "hybrid_score": 0.457215815782547
-        },
-        {
-          "id": "isFamily_005949",
-          "document": "bác của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6723988652229309,
-          "sparse_similarity": 0.24134565889835358,
-          "hybrid_score": 0.45687225461006165
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6781840324401855,
-          "sparse_similarity": 0.23491808772087097,
-          "hybrid_score": 0.45655107498168945
-        }
-      ]
+    "assertion_position": [
+      52,
+      65
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "Bệnh lý mãn tính: tiền sử lâu dài của [ENTITY]."
   },
   {
     "text": "đi khập khiễng cách",
@@ -70,47 +19,11 @@
       284,
       303
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Triệu chứng hiện tại\n    - khó khăn với hạ huyết áp, không đặc hiệu\n    - khó kiểm soát huyết áp đáng kể\n    - [ENTITY] quãng\n    Sự kiện trước khi nhập viện: chụp cắt lớp vi tính (ct) được thực hiện cho thấy tắc hẹp 80% động mạch thận trái L\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020234",
-          "document": "khoảng 3 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5829150080680847,
-          "sparse_similarity": 0.13856226205825806,
-          "hybrid_score": 0.3607386350631714
-        },
-        {
-          "id": "isHistorical_021650",
-          "document": "khoảng 83 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5735976696014404,
-          "sparse_similarity": 0.14544615149497986,
-          "hybrid_score": 0.35952192544937134
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5740081071853638,
-          "sparse_similarity": 0.14150524139404297,
-          "hybrid_score": 0.35775667428970337
-        }
-      ]
+    "assertion_position": [
+      252,
+      271
     ],
-    "eng_translation": [
-      "walks with a limp",
-      "Limp, gait abnormality",
-      "Gait abnormality with limp"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] quãng."
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
@@ -119,46 +32,11 @@
       343,
       368
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Triệu chứng hiện tại\n    - khó khăn với hạ huyết áp, không đặc hiệu\n    - khó kiểm soát huyết áp đáng kể\n    - đi khập khiễng cách quãng\n    Sự kiện trước khi nhập viện: [ENTITY] được thực hiện cho thấy tắc hẹp 80% động mạch thận trái L\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020234",
-          "document": "khoảng 3 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6075871586799622,
-          "sparse_similarity": 0.14913731813430786,
-          "hybrid_score": 0.378362238407135
-        },
-        {
-          "id": "isHistorical_021650",
-          "document": "khoảng 83 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5989319682121277,
-          "sparse_similarity": 0.15646789968013763,
-          "hybrid_score": 0.37769994139671326
-        },
-        {
-          "id": "isHistorical_021662",
-          "document": "khoảng 83 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6052267551422119,
-          "sparse_similarity": 0.14991331100463867,
-          "hybrid_score": 0.3775700330734253
-        }
-      ]
+    "assertion_position": [
+      308,
+      333
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Sự kiện trước khi nhập viện: [ENTITY] được thực hiện cho thấy tắc hẹp 80% động mạch thận trái L."
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
@@ -167,45 +45,10 @@
       487,
       512
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: [ENTITY] cho thấy tắc hẹp 80% động mạch thận trái L\n    Thủ thuật thực hiện\n    - chụp mạch máu thận\n    - stent",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_014247",
-          "document": "cách đây 80 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5957099199295044,
-          "sparse_similarity": 0.10290299355983734,
-          "hybrid_score": 0.34930646419525146
-        },
-        {
-          "id": "isHistorical_014253",
-          "document": "cách đây 80 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5997782945632935,
-          "sparse_similarity": 0.09813211858272552,
-          "hybrid_score": 0.3489552140235901
-        },
-        {
-          "id": "isHistorical_003827",
-          "document": "80 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5932066440582275,
-          "sparse_similarity": 0.10250871628522873,
-          "hybrid_score": 0.34785768389701843
-        }
-      ]
+    "assertion_position": [
+      445,
+      470
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] cho thấy tắc hẹp 80% động mạch thận trái L."
   }
 ]

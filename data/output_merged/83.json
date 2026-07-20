@@ -6,46 +6,11 @@
       59,
       66
     ],
-    "sentence": "Bệnh sử hiện tại\nKhoảng vài tuần trước đây bệnh nhân có [ENTITY] khi gắng sức.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "trước đây bệnh nhân có [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012355",
-          "document": "cách đây 1 tuần mắc [ENTITY].",
-          "dense_similarity": 0.7528748512268066,
-          "sparse_similarity": 0.17457669973373413,
-          "hybrid_score": 0.4637257754802704
-        },
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7607770562171936,
-          "sparse_similarity": 0.1608758270740509,
-          "hybrid_score": 0.46082645654678345
-        },
-        {
-          "id": "isHistorical_012354",
-          "document": "cách đây 1 tuần bị [ENTITY].",
-          "dense_similarity": 0.7427505254745483,
-          "sparse_similarity": 0.1744595766067505,
-          "hybrid_score": 0.4586050510406494
-        }
-      ]
+    "assertion_position": [
+      57,
+      64
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khoảng vài tuần trước đây bệnh nhân có [ENTITY] khi gắng sức."
   },
   {
     "text": "Khó thở",
@@ -54,46 +19,11 @@
       190,
       197
     ],
-    "sentence": "Sau đó không đỡ chuyển viện \nTình trạng lúc vào viện: \nBệnh nhân tỉnh\n[ENTITY] khi gắng sức\nCận lâm sàng:\nChẩn đoán hình ảnh\n-  siêu âm tim cho thấy hở van hai lá nặng\n- Chụp động mạch vành cho thấy không có bệnh động mạch vành \nĐiều trị:\n Dùng lợi tiểu, có cải thiện cải thiện triệu chứng tốt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020057",
-          "document": "má bệnh nhân đang điều trị [ENTITY].",
-          "dense_similarity": 0.5991121530532837,
-          "sparse_similarity": 0.10975457727909088,
-          "hybrid_score": 0.3544333577156067
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6053487062454224,
-          "sparse_similarity": 0.0960194543004036,
-          "hybrid_score": 0.3506840765476227
-        },
-        {
-          "id": "isHistorical_034243",
-          "document": "đã nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5929372906684875,
-          "sparse_similarity": 0.1078607439994812,
-          "hybrid_score": 0.3503990173339844
-        }
-      ]
+    "assertion_position": [
+      188,
+      195
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] khi gắng sức."
   },
   {
     "text": "siêu âm tim",
@@ -102,46 +32,11 @@
       247,
       258
     ],
-    "sentence": "Sau đó không đỡ chuyển viện \nTình trạng lúc vào viện: \nBệnh nhân tỉnh\nKhó thở khi gắng sức\nCận lâm sàng:\nChẩn đoán hình ảnh\n-  [ENTITY] cho thấy hở van hai lá nặng\n- Chụp động mạch vành cho thấy không có bệnh động mạch vành \nĐiều trị:\n Dùng lợi tiểu, có cải thiện cải thiện triệu chứng tốt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020057",
-          "document": "má bệnh nhân đang điều trị [ENTITY].",
-          "dense_similarity": 0.5880839228630066,
-          "sparse_similarity": 0.11368563771247864,
-          "hybrid_score": 0.3508847951889038
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5861969590187073,
-          "sparse_similarity": 0.10715004056692123,
-          "hybrid_score": 0.34667348861694336
-        },
-        {
-          "id": "isFamily_025019",
-          "document": "thân nhân đang điều trị [ENTITY].",
-          "dense_similarity": 0.5919294953346252,
-          "sparse_similarity": 0.1010778546333313,
-          "hybrid_score": 0.34650367498397827
-        }
-      ]
+    "assertion_position": [
+      244,
+      255
     ],
-    "eng_translation": [
-      "Echocardiogram",
-      "Cardiac ultrasound"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] cho thấy hở van hai lá nặng."
   },
   {
     "text": "hở van hai lá",
@@ -150,61 +45,11 @@
       268,
       281
     ],
-    "sentence": "Sau đó không đỡ chuyển viện \nTình trạng lúc vào viện: \nBệnh nhân tỉnh\nKhó thở khi gắng sức\nCận lâm sàng:\nChẩn đoán hình ảnh\n-  siêu âm tim cho thấy [ENTITY] nặng\n- Chụp động mạch vành cho thấy không có bệnh động mạch vành \nĐiều trị:\n Dùng lợi tiểu, có cải thiện cải thiện triệu chứng tốt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_025019",
-          "document": "thân nhân đang điều trị [ENTITY].",
-          "dense_similarity": 0.6082749366760254,
-          "sparse_similarity": 0.11082407087087631,
-          "hybrid_score": 0.35954949259757996
-        },
-        {
-          "id": "isFamily_020057",
-          "document": "má bệnh nhân đang điều trị [ENTITY].",
-          "dense_similarity": 0.5934677124023438,
-          "sparse_similarity": 0.12307357788085938,
-          "hybrid_score": 0.35827064514160156
-        },
-        {
-          "id": "isHistorical_034243",
-          "document": "đã nhập viện vì [ENTITY].",
-          "dense_similarity": 0.592344343662262,
-          "sparse_similarity": 0.11766280233860016,
-          "hybrid_score": 0.35500356554985046
-        }
-      ]
+    "assertion_position": [
+      265,
+      278
     ],
-    "eng_translation": [
-      "Mitral regurgitation",
-      "Mitral insufficiency"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I051": 0.882163,
-        "Q233": 0.834212,
-        "I340": 0.828191,
-        "I050": 0.802893,
-        "I059": 0.778081
-      },
-      "rapidfuzz": {
-        "I051": 0.9,
-        "Q233": 0.9,
-        "I052": 0.855,
-        "P921": 0.855,
-        "I058": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I051",
-      "confidence": 0.883947
-    }
+    "sentence": "siêu âm tim cho thấy [ENTITY] nặng."
   },
   {
     "text": "Chụp động mạch vành",
@@ -213,45 +58,10 @@
       289,
       308
     ],
-    "sentence": "Sau đó không đỡ chuyển viện \nTình trạng lúc vào viện: \nBệnh nhân tỉnh\nKhó thở khi gắng sức\nCận lâm sàng:\nChẩn đoán hình ảnh\n-  siêu âm tim cho thấy hở van hai lá nặng\n- [ENTITY] cho thấy không có bệnh động mạch vành \nĐiều trị:\n Dùng lợi tiểu, có cải thiện cải thiện triệu chứng tốt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020057",
-          "document": "má bệnh nhân đang điều trị [ENTITY].",
-          "dense_similarity": 0.5777023434638977,
-          "sparse_similarity": 0.1050066351890564,
-          "hybrid_score": 0.34135448932647705
-        },
-        {
-          "id": "isFamily_025019",
-          "document": "thân nhân đang điều trị [ENTITY].",
-          "dense_similarity": 0.5803200602531433,
-          "sparse_similarity": 0.09284213930368423,
-          "hybrid_score": 0.33658111095428467
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5767969489097595,
-          "sparse_similarity": 0.0927092507481575,
-          "hybrid_score": 0.3347530961036682
-        }
-      ]
+    "assertion_position": [
+      285,
+      304
     ],
-    "eng_translation": [
-      "Coronary angiography",
-      "Cardiac catheterization"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] cho thấy không có bệnh động mạch vành."
   }
 ]

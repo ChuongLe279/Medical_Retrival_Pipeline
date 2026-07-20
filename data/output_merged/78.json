@@ -6,62 +6,11 @@
       47,
       57
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    -[ENTITY]\n    - ung thư phổi gây ho khó thở kéo dài tại nhà\n    Trước khi nhập viện: thở oxy 3L/p tại nhà\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính -[entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5909219980239868,
-          "sparse_similarity": 0.13057418167591095,
-          "hybrid_score": 0.3607480823993683
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5884752869606018,
-          "sparse_similarity": 0.13148412108421326,
-          "hybrid_score": 0.35997968912124634
-        },
-        {
-          "id": "isHistorical_025192",
-          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5863147974014282,
-          "sparse_similarity": 0.13195638358592987,
-          "hybrid_score": 0.35913559794425964
-        }
-      ]
+    "assertion_position": [
+      36,
+      46
     ],
-    "eng_translation": [
-      "Breast cancer",
-      "Malignant breast neoplasm"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C50919": 0.840321,
-        "D493": 0.753635,
-        "C44501": 0.748881,
-        "C50929": 0.723584,
-        "C7981": 0.718847
-      },
-      "rapidfuzz": {
-        "S21042A": 0.855,
-        "S21039A": 0.855,
-        "S21001S": 0.855,
-        "D0500": 0.855,
-        "D105": 0.855,
-        "C8890": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C50919",
-      "confidence": 0.756289
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ung thư phổi",
@@ -70,62 +19,11 @@
       64,
       76
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    -ung thư vú\n    - [ENTITY] gây ho khó thở kéo dài tại nhà\n    Trước khi nhập viện: thở oxy 3L/p tại nhà\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính -ung thư vú - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6051568388938904,
-          "sparse_similarity": 0.14363284409046173,
-          "hybrid_score": 0.37439483404159546
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6041446924209595,
-          "sparse_similarity": 0.14442068338394165,
-          "hybrid_score": 0.37428268790245056
-        },
-        {
-          "id": "isHistorical_032405",
-          "document": "đã 3 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5984200835227966,
-          "sparse_similarity": 0.14939436316490173,
-          "hybrid_score": 0.373907208442688
-        }
-      ]
+    "assertion_position": [
+      48,
+      60
     ],
-    "eng_translation": [
-      "Lung cancer",
-      "Pulmonary carcinoma"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C7800": 0.677809,
-        "C3490": 0.664117,
-        "C399": 0.640092,
-        "C220": 0.628565,
-        "C761": 0.611513
-      },
-      "rapidfuzz": {
-        "A065": 0.855,
-        "A150": 0.855,
-        "D701": 0.855,
-        "S25412D": 0.855,
-        "J440": 0.855,
-        "J430": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C7800",
-      "confidence": 0.610028
-    }
+    "sentence": "[ENTITY] gây ho khó thở kéo dài tại nhà."
   },
   {
     "text": "ho",
@@ -134,48 +32,11 @@
       81,
       83
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    -ung thư vú\n    - ung thư phổi gây [ENTITY] khó thở kéo dài tại nhà\n    Trước khi nhập viện: thở oxy 3L/p tại nhà\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6098885536193848,
-          "sparse_similarity": 0.15813273191452026,
-          "hybrid_score": 0.3840106427669525
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.608232855796814,
-          "sparse_similarity": 0.15899954736232758,
-          "hybrid_score": 0.38361620903015137
-        },
-        {
-          "id": "isHistorical_025192",
-          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6056631803512573,
-          "sparse_similarity": 0.1599351316690445,
-          "hybrid_score": 0.3827991485595703
-        }
-      ]
+    "assertion_position": [
+      65,
+      67
     ],
-    "eng_translation": [
-      "Ho",
-      "Hoarseness",
-      "H/o",
-      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ung thư phổi gây [ENTITY] khó thở kéo dài tại nhà."
   },
   {
     "text": "khó thở",
@@ -184,46 +45,11 @@
       84,
       91
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    -ung thư vú\n    - ung thư phổi gây ho [ENTITY] kéo dài tại nhà\n    Trước khi nhập viện: thở oxy 3L/p tại nhà\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6004137992858887,
-          "sparse_similarity": 0.16807767748832703,
-          "hybrid_score": 0.38424575328826904
-        },
-        {
-          "id": "isHistorical_025192",
-          "document": "từ 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5956960320472717,
-          "sparse_similarity": 0.16999034583568573,
-          "hybrid_score": 0.3828431963920593
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5967556834220886,
-          "sparse_similarity": 0.1688377857208252,
-          "hybrid_score": 0.3827967345714569
-        }
-      ]
+    "assertion_position": [
+      68,
+      75
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ung thư phổi gây ho [ENTITY] kéo dài tại nhà."
   },
   {
     "text": "suy nhược toàn thân",
@@ -232,61 +58,11 @@
       197,
       216
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: [ENTITY]\nTheo lời kể bệnh nhân xuất hiện tình trạng khó thở  gần đây , liên tục, kể cả lúc nghỉ ngơi kèm theo  hồi hộp, đánh trống ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6589349508285522,
-          "sparse_similarity": 0.16911505162715912,
-          "hybrid_score": 0.4140250086784363
-        },
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6561567783355713,
-          "sparse_similarity": 0.15423646569252014,
-          "hybrid_score": 0.4051966071128845
-        },
-        {
-          "id": "isHistorical_012350",
-          "document": "cách đây 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6461567878723145,
-          "sparse_similarity": 0.16075098514556885,
-          "hybrid_score": 0.40345388650894165
-        }
-      ]
+    "assertion_position": [
+      171,
+      190
     ],
-    "eng_translation": [
-      "Systemic weakness",
-      "Generalized weakness"
-    ],
-    "retriever": {
-      "sapbert": {
-        "M6281": 0.899268,
-        "A5217": 0.87779,
-        "R531": 0.85115,
-        "G8220": 0.70398,
-        "R532": 0.687198
-      },
-      "rapidfuzz": {
-        "M6281": 0.95,
-        "R531": 0.9,
-        "M08232": 0.855,
-        "T458X4A": 0.855,
-        "H53482": 0.855
-      }
-    },
-    "candidate": {
-      "code": "M6281",
-      "confidence": 0.904341
-    }
+    "sentence": "Lý do nhập viện: [ENTITY]."
   },
   {
     "text": "khó thở",
@@ -295,46 +71,11 @@
       260,
       267
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: suy nhược toàn thân\nTheo lời kể bệnh nhân xuất hiện tình trạng [ENTITY]  gần đây , liên tục, kể cả lúc nghỉ ngơi kèm theo  hồi hộp, đánh trống ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6716116666793823,
-          "sparse_similarity": 0.19049321115016937,
-          "hybrid_score": 0.43105244636535645
-        },
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6720476150512695,
-          "sparse_similarity": 0.1739622801542282,
-          "hybrid_score": 0.42300495505332947
-        },
-        {
-          "id": "isHistorical_012350",
-          "document": "cách đây 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6631696820259094,
-          "sparse_similarity": 0.18105989694595337,
-          "hybrid_score": 0.4221147894859314
-        }
-      ]
+    "assertion_position": [
+      235,
+      242
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Theo lời kể bệnh nhân xuất hiện tình trạng [ENTITY] gần đây , liên tục, kể cả lúc nghỉ ngơi kèm theo hồi hộp, đánh trống ngực."
   },
   {
     "text": "đánh trống ngực",
@@ -343,46 +84,11 @@
       328,
       343
     ],
-    "sentence": "Bệnh sử hiện tại\n    Lý do nhập viện: suy nhược toàn thân\nTheo lời kể bệnh nhân xuất hiện tình trạng khó thở  gần đây , liên tục, kể cả lúc nghỉ ngơi kèm theo  hồi hộp, [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6405469179153442,
-          "sparse_similarity": 0.16070689260959625,
-          "hybrid_score": 0.40062689781188965
-        },
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6403690576553345,
-          "sparse_similarity": 0.14663945138454437,
-          "hybrid_score": 0.39350426197052
-        },
-        {
-          "id": "isHistorical_012350",
-          "document": "cách đây 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6310776472091675,
-          "sparse_similarity": 0.15278059244155884,
-          "hybrid_score": 0.39192911982536316
-        }
-      ]
+    "assertion_position": [
+      301,
+      316
     ],
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Theo lời kể bệnh nhân xuất hiện tình trạng khó thở gần đây , liên tục, kể cả lúc nghỉ ngơi kèm theo hồi hộp, [ENTITY]."
   },
   {
     "text": "suy nhược toàn thân",
@@ -391,61 +97,11 @@
       380,
       399
     ],
-    "sentence": "Triệu chứng lúc vào viện\n    - [ENTITY]\n    - khó thở liên tục, nhất là khi nằm\n    - ho\n    - hồi hộp (đánh trống ngực\n  Khám thấy\n    - chỉ số bão hòa oxy (đo độ bão hòa oxy dưới 90 %\nCận lâm sàng\n   Siêu âm tim: chèn ép tim",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6044103503227234,
-          "sparse_similarity": 0.1392291784286499,
-          "hybrid_score": 0.37181976437568665
-        },
-        {
-          "id": "isHistorical_020726",
-          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6072804927825928,
-          "sparse_similarity": 0.12396508455276489,
-          "hybrid_score": 0.36562278866767883
-        },
-        {
-          "id": "isHistorical_021590",
-          "document": "khoảng 80 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6039867997169495,
-          "sparse_similarity": 0.122622549533844,
-          "hybrid_score": 0.36330467462539673
-        }
-      ]
+    "assertion_position": [
+      344,
+      363
     ],
-    "eng_translation": [
-      "Systemic weakness",
-      "Generalized weakness"
-    ],
-    "retriever": {
-      "sapbert": {
-        "M6281": 0.899268,
-        "A5217": 0.87779,
-        "R531": 0.85115,
-        "G8220": 0.70398,
-        "R532": 0.687198
-      },
-      "rapidfuzz": {
-        "M6281": 0.95,
-        "R531": 0.9,
-        "M08232": 0.855,
-        "T458X4A": 0.855,
-        "H53482": 0.855
-      }
-    },
-    "candidate": {
-      "code": "M6281",
-      "confidence": 0.904341
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó thở",
@@ -454,46 +110,11 @@
       406,
       413
     ],
-    "sentence": "Triệu chứng lúc vào viện\n    - suy nhược toàn thân\n    - [ENTITY] liên tục, nhất là khi nằm\n    - ho\n    - hồi hộp (đánh trống ngực\n  Khám thấy\n    - chỉ số bão hòa oxy (đo độ bão hòa oxy dưới 90 %\nCận lâm sàng\n   Siêu âm tim: chèn ép tim",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021854",
-          "document": "khoảng 90 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6091651320457458,
-          "sparse_similarity": 0.13927839696407318,
-          "hybrid_score": 0.3742217719554901
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6065284609794617,
-          "sparse_similarity": 0.12656986713409424,
-          "hybrid_score": 0.36654916405677795
-        },
-        {
-          "id": "isHistorical_021590",
-          "document": "khoảng 80 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6117479801177979,
-          "sparse_similarity": 0.11261795461177826,
-          "hybrid_score": 0.36218297481536865
-        }
-      ]
+    "assertion_position": [
+      365,
+      372
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] liên tục, nhất là khi nằm."
   },
   {
     "text": "ho",
@@ -502,48 +123,11 @@
       446,
       448
     ],
-    "sentence": "Triệu chứng lúc vào viện\n    - suy nhược toàn thân\n    - khó thở liên tục, nhất là khi nằm\n    - [ENTITY]\n    - hồi hộp (đánh trống ngực\n  Khám thấy\n    - chỉ số bão hòa oxy (đo độ bão hòa oxy dưới 90 %\nCận lâm sàng\n   Siêu âm tim: chèn ép tim",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021848",
-          "document": "khoảng 90 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5974736213684082,
-          "sparse_similarity": 0.1465761661529541,
-          "hybrid_score": 0.37202489376068115
-        },
-        {
-          "id": "isHistorical_021854",
-          "document": "khoảng 90 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6001542210578918,
-          "sparse_similarity": 0.1415586918592453,
-          "hybrid_score": 0.37085646390914917
-        },
-        {
-          "id": "isHistorical_004366",
-          "document": "90 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5978540182113647,
-          "sparse_similarity": 0.13832809031009674,
-          "hybrid_score": 0.36809104681015015
-        }
-      ]
+    "assertion_position": [
+      400,
+      402
     ],
-    "eng_translation": [
-      "Ho",
-      "Hoarseness",
-      "H/o",
-      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "hộp",
@@ -552,46 +136,11 @@
       459,
       462
     ],
-    "sentence": "Triệu chứng lúc vào viện\n    - suy nhược toàn thân\n    - khó thở liên tục, nhất là khi nằm\n    - ho\n    - hồi [ENTITY] (đánh trống ngực\n  Khám thấy\n    - chỉ số bão hòa oxy (đo độ bão hòa oxy dưới 90 %\nCận lâm sàng\n   Siêu âm tim: chèn ép tim",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021854",
-          "document": "khoảng 90 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5931075811386108,
-          "sparse_similarity": 0.13802729547023773,
-          "hybrid_score": 0.3655674457550049
-        },
-        {
-          "id": "isHistorical_021062",
-          "document": "khoảng 60 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.597844123840332,
-          "sparse_similarity": 0.10820271074771881,
-          "hybrid_score": 0.3530234098434448
-        },
-        {
-          "id": "isHistorical_021056",
-          "document": "khoảng 60 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5930336117744446,
-          "sparse_similarity": 0.1117355152964592,
-          "hybrid_score": 0.3523845672607422
-        }
-      ]
+    "assertion_position": [
+      408,
+      411
     ],
-    "eng_translation": [
-      "box",
-      "No appropriate synonym exists."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "hồi [ENTITY] (đánh trống ngực."
   },
   {
     "text": "đánh trống ngực",
@@ -600,46 +149,11 @@
       464,
       479
     ],
-    "sentence": "Triệu chứng lúc vào viện\n    - suy nhược toàn thân\n    - khó thở liên tục, nhất là khi nằm\n    - ho\n    - hồi hộp ([ENTITY]\n  Khám thấy\n    - chỉ số bão hòa oxy (đo độ bão hòa oxy dưới 90 %\nCận lâm sàng\n   Siêu âm tim: chèn ép tim",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034001",
-          "document": "đã 90 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5894402265548706,
-          "sparse_similarity": 0.15728452801704407,
-          "hybrid_score": 0.37336236238479614
-        },
-        {
-          "id": "isHistorical_021848",
-          "document": "khoảng 90 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5907983183860779,
-          "sparse_similarity": 0.1537034511566162,
-          "hybrid_score": 0.37225088477134705
-        },
-        {
-          "id": "isHistorical_034019",
-          "document": "đã 90 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5891256332397461,
-          "sparse_similarity": 0.15380917489528656,
-          "hybrid_score": 0.3714674115180969
-        }
-      ]
+    "assertion_position": [
+      413,
+      428
     ],
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "hồi hộp ([ENTITY]."
   },
   {
     "text": "Siêu âm tim",
@@ -648,46 +162,11 @@
       562,
       573
     ],
-    "sentence": "Triệu chứng lúc vào viện\n    - suy nhược toàn thân\n    - khó thở liên tục, nhất là khi nằm\n    - ho\n    - hồi hộp (đánh trống ngực\n  Khám thấy\n    - chỉ số bão hòa oxy (đo độ bão hòa oxy dưới 90 %\nCận lâm sàng\n   [ENTITY]: chèn ép tim",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034001",
-          "document": "đã 90 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5959115624427795,
-          "sparse_similarity": 0.14723636209964752,
-          "hybrid_score": 0.37157395482063293
-        },
-        {
-          "id": "isHistorical_021854",
-          "document": "khoảng 90 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5947293043136597,
-          "sparse_similarity": 0.13943132758140564,
-          "hybrid_score": 0.36708033084869385
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5936896204948425,
-          "sparse_similarity": 0.12282467633485794,
-          "hybrid_score": 0.35825714468955994
-        }
-      ]
+    "assertion_position": [
+      504,
+      515
     ],
-    "eng_translation": [
-      "Echocardiogram",
-      "Cardiac ultrasound"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]: chèn ép tim."
   },
   {
     "text": "chèn",
@@ -696,45 +175,11 @@
       575,
       579
     ],
-    "sentence": "Triệu chứng lúc vào viện\n    - suy nhược toàn thân\n    - khó thở liên tục, nhất là khi nằm\n    - ho\n    - hồi hộp (đánh trống ngực\n  Khám thấy\n    - chỉ số bão hòa oxy (đo độ bão hòa oxy dưới 90 %\nCận lâm sàng\n   Siêu âm tim: [ENTITY] ép tim",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021590",
-          "document": "khoảng 80 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5913267731666565,
-          "sparse_similarity": 0.10438026487827301,
-          "hybrid_score": 0.34785351157188416
-        },
-        {
-          "id": "isHistorical_021584",
-          "document": "khoảng 80 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5871078968048096,
-          "sparse_similarity": 0.10812867432832718,
-          "hybrid_score": 0.3476182818412781
-        },
-        {
-          "id": "isHistorical_021062",
-          "document": "khoảng 60 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.59071284532547,
-          "sparse_similarity": 0.10382869094610214,
-          "hybrid_score": 0.34727075695991516
-        }
-      ]
+    "assertion_position": [
+      517,
+      521
     ],
-    "eng_translation": [
-      "Please provide the Vietnamese medical text you would like translated."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Siêu âm tim: [ENTITY] ép tim."
   },
   {
     "text": "tim",
@@ -743,45 +188,10 @@
       583,
       586
     ],
-    "sentence": "Triệu chứng lúc vào viện\n    - suy nhược toàn thân\n    - khó thở liên tục, nhất là khi nằm\n    - ho\n    - hồi hộp (đánh trống ngực\n  Khám thấy\n    - chỉ số bão hòa oxy (đo độ bão hòa oxy dưới 90 %\nCận lâm sàng\n   Siêu âm tim: chèn ép [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021848",
-          "document": "khoảng 90 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5869116187095642,
-          "sparse_similarity": 0.14019717276096344,
-          "hybrid_score": 0.3635543882846832
-        },
-        {
-          "id": "isHistorical_021854",
-          "document": "khoảng 90 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5885859727859497,
-          "sparse_similarity": 0.13537390530109406,
-          "hybrid_score": 0.3619799315929413
-        },
-        {
-          "id": "isHistorical_004366",
-          "document": "90 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5861695408821106,
-          "sparse_similarity": 0.13228358328342438,
-          "hybrid_score": 0.3592265546321869
-        }
-      ]
+    "assertion_position": [
+      525,
+      528
     ],
-    "eng_translation": [
-      "Heart",
-      "Cardiac"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Siêu âm tim: chèn ép [ENTITY]."
   }
 ]

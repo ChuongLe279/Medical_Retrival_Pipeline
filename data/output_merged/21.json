@@ -6,62 +6,11 @@
       48,
       61
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY]\n    - suy tim, không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    Tiền sử phẫu thuật / thủ thuật: Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị phình động mạch chủ ngực – bụng giai đoạn 1 (không rõ thời điểm).",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6148547530174255,
-          "sparse_similarity": 0.14021828770637512,
-          "hybrid_score": 0.3775365352630615
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6158077716827393,
-          "sparse_similarity": 0.13611815869808197,
-          "hybrid_score": 0.3759629726409912
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6092020273208618,
-          "sparse_similarity": 0.14006328582763672,
-          "hybrid_score": 0.37463265657424927
-        }
-      ]
+    "assertion_position": [
+      36,
+      49
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "suy tim",
@@ -70,62 +19,11 @@
       68,
       75
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - [ENTITY], không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    Tiền sử phẫu thuật / thủ thuật: Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị phình động mạch chủ ngực – bụng giai đoạn 1 (không rõ thời điểm).",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính - tăng huyết áp - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6103283166885376,
-          "sparse_similarity": 0.14170144498348236,
-          "hybrid_score": 0.3760148882865906
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6078497767448425,
-          "sparse_similarity": 0.13764137029647827,
-          "hybrid_score": 0.3727455735206604
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6018880009651184,
-          "sparse_similarity": 0.14163048565387726,
-          "hybrid_score": 0.37175923585891724
-        }
-      ]
+    "assertion_position": [
+      51,
+      58
     ],
-    "eng_translation": [
-      "Heart failure",
-      "Congestive heart failure"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I509": 0.984625,
-        "I5084": 0.853405,
-        "I5020": 0.81339,
-        "I5089": 0.783642,
-        "I5022": 0.769411
-      },
-      "rapidfuzz": {
-        "I5089": 0.95,
-        "I110": 0.9,
-        "I0981": 0.9,
-        "I5041": 0.9,
-        "I5020": 0.9,
-        "I5021": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I509",
-      "confidence": 0.886162
-    }
+    "sentence": "[ENTITY], không đặc hiệu."
   },
   {
     "text": "bệnh thận mạn",
@@ -134,62 +32,11 @@
       98,
       111
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - suy tim, không đặc hiệu\n    - [ENTITY], không đặc hiệu\n    Tiền sử phẫu thuật / thủ thuật: Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị phình động mạch chủ ngực – bụng giai đoạn 1 (không rõ thời điểm).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6146237850189209,
-          "sparse_similarity": 0.14464707672595978,
-          "hybrid_score": 0.37963542342185974
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.608930766582489,
-          "sparse_similarity": 0.14041604101657867,
-          "hybrid_score": 0.37467339634895325
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6236555576324463,
-          "sparse_similarity": 0.12489252537488937,
-          "hybrid_score": 0.37427404522895813
-        }
-      ]
+    "assertion_position": [
+      76,
+      89
     ],
-    "eng_translation": [
-      "Chronic kidney disease",
-      "CKD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N189": 0.982146,
-        "N039": 0.781739,
-        "N186": 0.757736,
-        "N181": 0.744167,
-        "N1830": 0.681813
-      },
-      "rapidfuzz": {
-        "D631": 0.95,
-        "N181": 0.95,
-        "N1831": 0.95,
-        "I450": 0.72,
-        "I452": 0.72,
-        "I453": 0.72
-      }
-    },
-    "candidate": {
-      "code": "N189",
-      "confidence": 0.883931
-    }
+    "sentence": "[ENTITY], không đặc hiệu."
   },
   {
     "text": "phình động mạch chủ ngực – bụng",
@@ -198,61 +45,10 @@
       231,
       262
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - suy tim, không đặc hiệu\n    - bệnh thận mạn, không đặc hiệu\n    Tiền sử phẫu thuật / thủ thuật: Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị [ENTITY] giai đoạn 1 (không rõ thời điểm).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6408751606941223,
-          "sparse_similarity": 0.16065707802772522,
-          "hybrid_score": 0.40076613426208496
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6392495036125183,
-          "sparse_similarity": 0.1558283418416977,
-          "hybrid_score": 0.3975389301776886
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6307257413864136,
-          "sparse_similarity": 0.16041596233844757,
-          "hybrid_score": 0.39557084441185
-        }
-      ]
+    "assertion_position": [
+      206,
+      237
     ],
-    "eng_translation": [
-      "Thoracic-abdominal aortic aneurysm",
-      "Thoracic aortic aneurysm with extension into the abdominal aorta"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I77811": 0.775381,
-        "I7160": 0.774385,
-        "I7409": 0.768775,
-        "I7120": 0.757622,
-        "I77812": 0.751058
-      },
-      "rapidfuzz": {
-        "S21259D": 0.855,
-        "S21342S": 0.855,
-        "S21342D": 0.855,
-        "S72144D": 0.855,
-        "S82431N": 0.855,
-        "S42472D": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I77811",
-      "confidence": 0.697843
-    }
+    "sentence": "Tiền sử phẫu thuật / thủ thuật: Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị [ENTITY] giai đoạn 1 (không rõ thời điểm)."
   }
 ]

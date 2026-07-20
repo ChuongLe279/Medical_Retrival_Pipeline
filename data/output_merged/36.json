@@ -6,62 +6,11 @@
       41,
       58
     ],
-    "sentence": "Tiền sử bệnh\n    *   Bệnh mạn tính:  [ENTITY] (tiền sử Bệnh thận đa nang)\n    *   Tiền sử phẫu thuật / thủ thuật: phẫu thuật tái tạo niệu quản trái.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6741654872894287,
-          "sparse_similarity": 0.14258642494678497,
-          "hybrid_score": 0.40837594866752625
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6707039475440979,
-          "sparse_similarity": 0.1454647183418274,
-          "hybrid_score": 0.40808433294296265
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6671749353408813,
-          "sparse_similarity": 0.1466233730316162,
-          "hybrid_score": 0.4068991541862488
-        }
-      ]
+    "assertion_position": [
+      29,
+      46
     ],
-    "eng_translation": [
-      "Polycystic kidney disease",
-      "Autosomal dominant polycystic kidney disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "Q613": 0.954305,
-        "Q612": 0.889119,
-        "Q6119": 0.772691,
-        "Z8271": 0.717421,
-        "Q619": 0.70066
-      },
-      "rapidfuzz": {
-        "M84669K": 0.855,
-        "M84563S": 0.855,
-        "M84564A": 0.855,
-        "B998": 0.855,
-        "M84541G": 0.855,
-        "M84541K": 0.855
-      }
-    },
-    "candidate": {
-      "code": "Q613",
-      "confidence": 0.858874
-    }
+    "sentence": "Bệnh mạn tính: [ENTITY] (tiền sử Bệnh thận đa nang)."
   },
   {
     "text": "Bệnh thận đa nang",
@@ -70,62 +19,11 @@
       68,
       85
     ],
-    "sentence": "Tiền sử bệnh\n    *   Bệnh mạn tính:  Bệnh thận đa nang (tiền sử [ENTITY])\n    *   Tiền sử phẫu thuật / thủ thuật: phẫu thuật tái tạo niệu quản trái.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6778795123100281,
-          "sparse_similarity": 0.15293718874454498,
-          "hybrid_score": 0.41540834307670593
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6803348064422607,
-          "sparse_similarity": 0.14903652667999268,
-          "hybrid_score": 0.4146856665611267
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.673906147480011,
-          "sparse_similarity": 0.15358099341392517,
-          "hybrid_score": 0.4137435555458069
-        }
-      ]
+    "assertion_position": [
+      56,
+      73
     ],
-    "eng_translation": [
-      "Polycystic kidney disease",
-      "Autosomal dominant polycystic kidney disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "Q613": 0.954305,
-        "Q612": 0.889119,
-        "Q6119": 0.772691,
-        "Z8271": 0.717421,
-        "Q619": 0.70066
-      },
-      "rapidfuzz": {
-        "M84669K": 0.855,
-        "M84563S": 0.855,
-        "M84564A": 0.855,
-        "B998": 0.855,
-        "M84541G": 0.855,
-        "M84541K": 0.855
-      }
-    },
-    "candidate": {
-      "code": "Q613",
-      "confidence": 0.858874
-    }
+    "sentence": "Bệnh mạn tính: Bệnh thận đa nang (tiền sử [ENTITY])."
   },
   {
     "text": "azathioprine",
@@ -134,55 +32,11 @@
       208,
       220
     ],
-    "sentence": "*   Thuốc trước khi nhập viện\n        *   [ENTITY]\n        *   prograf (dose decreased from 5mg bid to 1mg bid)\n        *   cellcept (bệnh nhân đang dùng cellcept)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6443683505058289,
-          "sparse_similarity": 0.2057865560054779,
-          "hybrid_score": 0.4250774383544922
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6440141797065735,
-          "sparse_similarity": 0.19009515643119812,
-          "hybrid_score": 0.4170546531677246
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6431914567947388,
-          "sparse_similarity": 0.19020934402942657,
-          "hybrid_score": 0.4167003929615021
-        }
-      ]
+    "assertion_position": [
+      170,
+      182
     ],
-    "eng_translation": [
-      "azathioprine"
-    ],
-    "retriever": {
-      "sapbert": {
-        "1256": 1.0,
-        "405118": 0.949759,
-        "267476": 0.905097
-      },
-      "rapidfuzz": {
-        "1256": 1.0,
-        "1155002": 0.95
-      }
-    },
-    "candidate": {
-      "code": "1256",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "prograf",
@@ -191,61 +45,11 @@
       233,
       240
     ],
-    "sentence": "*   Thuốc trước khi nhập viện\n        *   azathioprine\n        *   [ENTITY] (dose decreased from 5mg bid to 1mg bid)\n        *   cellcept (bệnh nhân đang dùng cellcept)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6610658168792725,
-          "sparse_similarity": 0.21404431760311127,
-          "hybrid_score": 0.43755507469177246
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6575518250465393,
-          "sparse_similarity": 0.21180349588394165,
-          "hybrid_score": 0.4346776604652405
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6595957279205322,
-          "sparse_similarity": 0.20467974245548248,
-          "hybrid_score": 0.43213772773742676
-        }
-      ]
+    "assertion_position": [
+      184,
+      191
     ],
-    "eng_translation": [
-      "Prograf",
-      "Tacrolimus"
-    ],
-    "retriever": {
-      "sapbert": {
-        "42316": 1.0,
-        "196463": 1.0,
-        "235991": 0.932283,
-        "261530": 0.677283,
-        "1437715": 0.670933
-      },
-      "rapidfuzz": {
-        "196463": 1.0,
-        "42316": 1.0,
-        "564557": 0.9,
-        "1180662": 0.9,
-        "313189": 0.9
-      }
-    },
-    "candidate": {
-      "code": "196463",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] (dose decreased from 5mg bid to 1mg bid)."
   },
   {
     "text": "cellcept",
@@ -254,62 +58,11 @@
       294,
       302
     ],
-    "sentence": "*   Thuốc trước khi nhập viện\n        *   azathioprine\n        *   prograf (dose decreased from 5mg bid to 1mg bid)\n        *   [ENTITY] (bệnh nhân đang dùng cellcept)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6441723108291626,
-          "sparse_similarity": 0.20018674433231354,
-          "hybrid_score": 0.42217952013015747
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6397503614425659,
-          "sparse_similarity": 0.19845525920391083,
-          "hybrid_score": 0.41910281777381897
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6433404684066772,
-          "sparse_similarity": 0.18853731453418732,
-          "hybrid_score": 0.4159388840198517
-        }
-      ]
+    "assertion_position": [
+      234,
+      242
     ],
-    "eng_translation": [
-      "CellCept",
-      "Mycophenolate Mofetil"
-    ],
-    "retriever": {
-      "sapbert": {
-        "68149": 1.0,
-        "152633": 1.0,
-        "265323": 0.91647,
-        "237112": 0.895381,
-        "408142": 0.715019
-      },
-      "rapidfuzz": {
-        "152633": 1.0,
-        "68149": 1.0,
-        "331587": 0.95,
-        "316316": 0.95,
-        "616434": 0.9,
-        "616433": 0.9
-      }
-    },
-    "candidate": {
-      "code": "68149",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] (bệnh nhân đang dùng cellcept)."
   },
   {
     "text": "cellcept",
@@ -318,62 +71,11 @@
       324,
       332
     ],
-    "sentence": "*   Thuốc trước khi nhập viện\n        *   azathioprine\n        *   prograf (dose decreased from 5mg bid to 1mg bid)\n        *   cellcept (bệnh nhân đang dùng [ENTITY])\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6473957896232605,
-          "sparse_similarity": 0.21057742834091187,
-          "hybrid_score": 0.4289866089820862
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6453678607940674,
-          "sparse_similarity": 0.19235259294509888,
-          "hybrid_score": 0.41886022686958313
-        },
-        {
-          "id": "isHistorical_019676",
-          "document": "khoảng 1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.646465003490448,
-          "sparse_similarity": 0.18892143666744232,
-          "hybrid_score": 0.41769322752952576
-        }
-      ]
+    "assertion_position": [
+      264,
+      272
     ],
-    "eng_translation": [
-      "CellCept",
-      "Mycophenolate Mofetil"
-    ],
-    "retriever": {
-      "sapbert": {
-        "68149": 1.0,
-        "152633": 1.0,
-        "265323": 0.91647,
-        "237112": 0.895381,
-        "408142": 0.715019
-      },
-      "rapidfuzz": {
-        "152633": 1.0,
-        "68149": 1.0,
-        "331587": 0.95,
-        "316316": 0.95,
-        "616434": 0.9,
-        "616433": 0.9
-      }
-    },
-    "candidate": {
-      "code": "68149",
-      "confidence": 1.0
-    }
+    "sentence": "cellcept (bệnh nhân đang dùng [ENTITY])."
   },
   {
     "text": "Suy thận",
@@ -382,62 +84,11 @@
       386,
       394
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    *   Lý do nhập viện: [ENTITY] ngày càng nặng\n    *   Thời điểm khởi phát triệu chứng: Muộn (creatinine  tăng cao)\n    *   Diễn biến bệnh\n        *   creatinine ổn định ở mức 1.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6596918702125549,
-          "sparse_similarity": 0.20270858705043793,
-          "hybrid_score": 0.431200236082077
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6744908690452576,
-          "sparse_similarity": 0.17941829562187195,
-          "hybrid_score": 0.42695456743240356
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6658070087432861,
-          "sparse_similarity": 0.18354806303977966,
-          "hybrid_score": 0.4246775507926941
-        }
-      ]
+    "assertion_position": [
+      315,
+      323
     ],
-    "eng_translation": [
-      "Chronic kidney disease",
-      "CKD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N189": 0.982146,
-        "N039": 0.781739,
-        "N186": 0.757736,
-        "N181": 0.744167,
-        "N1830": 0.681813
-      },
-      "rapidfuzz": {
-        "D631": 0.95,
-        "N181": 0.95,
-        "N1831": 0.95,
-        "I450": 0.72,
-        "I452": 0.72,
-        "I453": 0.72
-      }
-    },
-    "candidate": {
-      "code": "N189",
-      "confidence": 0.883931
-    }
+    "sentence": "Lý do nhập viện: [ENTITY] ngày càng nặng."
   },
   {
     "text": "creatinine",
@@ -446,46 +97,11 @@
       457,
       467
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    *   Lý do nhập viện: Suy thận ngày càng nặng\n    *   Thời điểm khởi phát triệu chứng: Muộn ([ENTITY]  tăng cao)\n    *   Diễn biến bệnh\n        *   creatinine ổn định ở mức 1.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6316940784454346,
-          "sparse_similarity": 0.13770928978919983,
-          "hybrid_score": 0.384701669216156
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6383090019226074,
-          "sparse_similarity": 0.12983649969100952,
-          "hybrid_score": 0.38407275080680847
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6351568698883057,
-          "sparse_similarity": 0.1312428116798401,
-          "hybrid_score": 0.3831998407840729
-        }
-      ]
+    "assertion_position": [
+      379,
+      389
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thời điểm khởi phát triệu chứng: Muộn ([ENTITY] tăng cao)."
   },
   {
     "text": "creatinine",
@@ -494,46 +110,11 @@
       514,
       524
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    *   Lý do nhập viện: Suy thận ngày càng nặng\n    *   Thời điểm khởi phát triệu chứng: Muộn (creatinine  tăng cao)\n    *   Diễn biến bệnh\n        *   [ENTITY] ổn định ở mức 1.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6419690251350403,
-          "sparse_similarity": 0.1468009650707245,
-          "hybrid_score": 0.3943849802017212
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6457502245903015,
-          "sparse_similarity": 0.13838492333889008,
-          "hybrid_score": 0.3920675814151764
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6429048180580139,
-          "sparse_similarity": 0.13986535370349884,
-          "hybrid_score": 0.3913850784301758
-        }
-      ]
+    "assertion_position": [
+      417,
+      427
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] ổn định ở mức 1."
   },
   {
     "text": "creatinine",
@@ -542,46 +123,11 @@
       573,
       583
     ],
-    "sentence": "*   [ENTITY] bắt đầu tăng muộn.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000031",
-          "document": "[ENTITY] cần xác nhận thêm.",
-          "dense_similarity": 0.7292810678482056,
-          "sparse_similarity": 0.15016017854213715,
-          "hybrid_score": 0.43972063064575195
-        },
-        {
-          "id": "isHistorical_009438",
-          "document": "[ENTITY] đã 1 ngày.",
-          "dense_similarity": 0.7203407287597656,
-          "sparse_similarity": 0.15759044885635376,
-          "hybrid_score": 0.4389655888080597
-        },
-        {
-          "id": "isUncertain_000055",
-          "document": "[ENTITY] được nghi ngờ.",
-          "dense_similarity": 0.7313745617866516,
-          "sparse_similarity": 0.14627718925476074,
-          "hybrid_score": 0.4388258755207062
-        }
-      ]
+    "assertion_position": [
+      464,
+      474
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] bắt đầu tăng muộn."
   },
   {
     "text": "tiêu chảy",
@@ -590,46 +136,11 @@
       626,
       635
     ],
-    "sentence": "*   Tình trạng [ENTITY] đáng kể khi dùng cellcept và uống kém.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000029",
-          "document": "[ENTITY] cần làm thêm xét nghiệm.",
-          "dense_similarity": 0.6678410172462463,
-          "sparse_similarity": 0.061707571148872375,
-          "hybrid_score": 0.36477428674697876
-        },
-        {
-          "id": "isNegated_000037",
-          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
-          "dense_similarity": 0.6494693160057068,
-          "sparse_similarity": 0.05950687825679779,
-          "hybrid_score": 0.3544881045818329
-        },
-        {
-          "id": "isNegated_000030",
-          "document": "[ENTITY] không phù hợp.",
-          "dense_similarity": 0.641104519367218,
-          "sparse_similarity": 0.060947492718696594,
-          "hybrid_score": 0.3510259985923767
-        }
-      ]
+    "assertion_position": [
+      505,
+      514
     ],
-    "eng_translation": [
-      "Diarrhea",
-      "Watery Stool"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tình trạng [ENTITY] đáng kể khi dùng cellcept và uống kém."
   },
   {
     "text": "cellcept",
@@ -638,62 +149,11 @@
       653,
       661
     ],
-    "sentence": "*   Tình trạng tiêu chảy đáng kể khi dùng [ENTITY] và uống kém.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011498",
-          "document": "con ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.668308436870575,
-          "sparse_similarity": 0.06943066418170929,
-          "hybrid_score": 0.3688695430755615
-        },
-        {
-          "id": "isFamily_011494",
-          "document": "con ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.6704612970352173,
-          "sparse_similarity": 0.06654004752635956,
-          "hybrid_score": 0.368500679731369
-        },
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.6646742820739746,
-          "sparse_similarity": 0.06971162557601929,
-          "hybrid_score": 0.36719295382499695
-        }
-      ]
+    "assertion_position": [
+      532,
+      540
     ],
-    "eng_translation": [
-      "CellCept",
-      "Mycophenolate Mofetil"
-    ],
-    "retriever": {
-      "sapbert": {
-        "68149": 1.0,
-        "152633": 1.0,
-        "265323": 0.91647,
-        "237112": 0.895381,
-        "408142": 0.715019
-      },
-      "rapidfuzz": {
-        "152633": 1.0,
-        "68149": 1.0,
-        "331587": 0.95,
-        "316316": 0.95,
-        "616434": 0.9,
-        "616433": 0.9
-      }
-    },
-    "candidate": {
-      "code": "68149",
-      "confidence": 1.0
-    }
+    "sentence": "Tình trạng tiêu chảy đáng kể khi dùng [ENTITY] và uống kém."
   },
   {
     "text": "creatinine",
@@ -702,46 +162,11 @@
       692,
       702
     ],
-    "sentence": "*   Tăng [ENTITY] ban đầu được cho là do nguyên nhân prerenal, ít nhất một phần.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000091",
-          "document": "chẩn đoán ban đầu [ENTITY].",
-          "dense_similarity": 0.6985787749290466,
-          "sparse_similarity": 0.1509091854095459,
-          "hybrid_score": 0.42474398016929626
-        },
-        {
-          "id": "isUncertain_000219",
-          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.6727499961853027,
-          "sparse_similarity": 0.1627914309501648,
-          "hybrid_score": 0.41777071356773376
-        },
-        {
-          "id": "isUncertain_000164",
-          "document": "kết quả ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.6706844568252563,
-          "sparse_similarity": 0.16017980873584747,
-          "hybrid_score": 0.4154321253299713
-        }
-      ]
+    "assertion_position": [
+      559,
+      569
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tăng [ENTITY] ban đầu được cho là do nguyên nhân prerenal, ít nhất một phần."
   },
   {
     "text": "creatinin",
@@ -750,46 +175,11 @@
       839,
       848
     ],
-    "sentence": "*   [ENTITY] tăng được cho là do bệnh lý BK.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_005932",
-          "document": "bác của bn được xác định mắc [ENTITY].",
-          "dense_similarity": 0.7367744445800781,
-          "sparse_similarity": 0.13630397617816925,
-          "hybrid_score": 0.4365392029285431
-        },
-        {
-          "id": "isFamily_012193",
-          "document": "cậu của bn được xác định mắc [ENTITY].",
-          "dense_similarity": 0.7177799940109253,
-          "sparse_similarity": 0.15004877746105194,
-          "hybrid_score": 0.4339143931865692
-        },
-        {
-          "id": "isFamily_005930",
-          "document": "bác của bn được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7396247386932373,
-          "sparse_similarity": 0.124081552028656,
-          "hybrid_score": 0.43185314536094666
-        }
-      ]
+    "assertion_position": [
+      682,
+      691
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] tăng được cho là do bệnh lý BK."
   },
   {
     "text": "prograf",
@@ -798,61 +188,11 @@
       893,
       900
     ],
-    "sentence": "*   [ENTITY] dose decreased from 5mg bid to 1mg bid.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012340",
-          "document": "cách đây 1 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.6876410841941833,
-          "sparse_similarity": 0.10094133764505386,
-          "hybrid_score": 0.3942912220954895
-        },
-        {
-          "id": "isHistorical_012352",
-          "document": "cách đây 1 tháng được điều trị [ENTITY].",
-          "dense_similarity": 0.6865140795707703,
-          "sparse_similarity": 0.09830031543970108,
-          "hybrid_score": 0.39240720868110657
-        },
-        {
-          "id": "isHistorical_024642",
-          "document": "từ 1 tháng trước được điều trị [ENTITY].",
-          "dense_similarity": 0.6853859424591064,
-          "sparse_similarity": 0.0970064252614975,
-          "hybrid_score": 0.39119619131088257
-        }
-      ]
+    "assertion_position": [
+      724,
+      731
     ],
-    "eng_translation": [
-      "Prograf",
-      "Tacrolimus"
-    ],
-    "retriever": {
-      "sapbert": {
-        "42316": 1.0,
-        "196463": 1.0,
-        "235991": 0.932283,
-        "261530": 0.677283,
-        "1437715": 0.670933
-      },
-      "rapidfuzz": {
-        "196463": 1.0,
-        "42316": 1.0,
-        "564557": 0.9,
-        "1180662": 0.9,
-        "313189": 0.9
-      }
-    },
-    "candidate": {
-      "code": "196463",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] dose decreased from 5mg bid to 1mg bid."
   },
   {
     "text": "creatinine",
@@ -861,46 +201,11 @@
       953,
       963
     ],
-    "sentence": "*   [ENTITY] tiếp tục tăng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034239",
-          "document": "đã có [ENTITY].",
-          "dense_similarity": 0.774803638458252,
-          "sparse_similarity": 0.20560118556022644,
-          "hybrid_score": 0.4902024269104004
-        },
-        {
-          "id": "isUncertain_000053",
-          "document": "[ENTITY] đang được theo dõi.",
-          "dense_similarity": 0.7847985625267029,
-          "sparse_similarity": 0.18611381947994232,
-          "hybrid_score": 0.4854561984539032
-        },
-        {
-          "id": "isUncertain_000031",
-          "document": "[ENTITY] cần xác nhận thêm.",
-          "dense_similarity": 0.7914189100265503,
-          "sparse_similarity": 0.16716966032981873,
-          "hybrid_score": 0.4792943000793457
-        }
-      ]
+    "assertion_position": [
+      772,
+      782
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] tiếp tục tăng."
   },
   {
     "text": "siêu âm",
@@ -909,46 +214,11 @@
       1024,
       1031
     ],
-    "sentence": "*   [ENTITY] thận cho thấy chỉ số kháng trở bình thường.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000201",
-          "document": "kháng thể âm tính với [ENTITY].",
-          "dense_similarity": 0.6717531681060791,
-          "sparse_similarity": 0.09029886871576309,
-          "hybrid_score": 0.381026029586792
-        },
-        {
-          "id": "isNegated_000198",
-          "document": "kháng thể cho kết quả âm tính với [ENTITY].",
-          "dense_similarity": 0.6689110398292542,
-          "sparse_similarity": 0.09300300478935242,
-          "hybrid_score": 0.3809570074081421
-        },
-        {
-          "id": "isNegated_000194",
-          "document": "kháng nguyên cho kết quả âm tính với [ENTITY].",
-          "dense_similarity": 0.6678004264831543,
-          "sparse_similarity": 0.09309405833482742,
-          "hybrid_score": 0.38044723868370056
-        }
-      ]
+    "assertion_position": [
+      819,
+      826
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] thận cho thấy chỉ số kháng trở bình thường."
   },
   {
     "text": "kháng thể",
@@ -957,46 +227,11 @@
       1138,
       1147
     ],
-    "sentence": "*   sinh thiết ghép thận không có bằng chứng đào thải [ENTITY] hữu hình cấp tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000178",
-          "document": "lâm sàng không loại trừ [ENTITY].",
-          "dense_similarity": 0.7112632989883423,
-          "sparse_similarity": 0.08140791952610016,
-          "hybrid_score": 0.3963356018066406
-        },
-        {
-          "id": "isNegated_000283",
-          "document": "xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.6976063847541809,
-          "sparse_similarity": 0.09041565656661987,
-          "hybrid_score": 0.3940110206604004
-        },
-        {
-          "id": "isNegated_000239",
-          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.6999719142913818,
-          "sparse_similarity": 0.08668071031570435,
-          "hybrid_score": 0.3933263123035431
-        }
-      ]
+    "assertion_position": [
+      921,
+      930
     ],
-    "eng_translation": [
-      "antibodies",
-      "Immunoglobulins"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "sinh thiết ghép thận không có bằng chứng đào thải [ENTITY] hữu hình cấp tính."
   },
   {
     "text": "creatinine",
@@ -1005,46 +240,11 @@
       1179,
       1189
     ],
-    "sentence": "*   [ENTITY] là 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006712",
-          "document": "[ENTITY] da 5 ngay.",
-          "dense_similarity": 0.8789271116256714,
-          "sparse_similarity": 0.1271549016237259,
-          "hybrid_score": 0.5030410289764404
-        },
-        {
-          "id": "isHistorical_006711",
-          "document": "[ENTITY] da 5 nam.",
-          "dense_similarity": 0.8697758913040161,
-          "sparse_similarity": 0.11554739624261856,
-          "hybrid_score": 0.49266165494918823
-        },
-        {
-          "id": "isHistorical_006713",
-          "document": "[ENTITY] da 5 thang.",
-          "dense_similarity": 0.8403400778770447,
-          "sparse_similarity": 0.11708235740661621,
-          "hybrid_score": 0.47871121764183044
-        }
-      ]
+    "assertion_position": [
+      950,
+      960
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] là 5."
   },
   {
     "text": "5.1",
@@ -1053,45 +253,11 @@
       1193,
       1196
     ],
-    "sentence": "*   creatinine là [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000102",
-          "document": "có khả năng là [ENTITY].",
-          "dense_similarity": 0.6646042466163635,
-          "sparse_similarity": 0.17565308511257172,
-          "hybrid_score": 0.4201286733150482
-        },
-        {
-          "id": "isNegated_000001",
-          "document": "[ENTITY] am tinh.",
-          "dense_similarity": 0.6865153312683105,
-          "sparse_similarity": 0.09120616316795349,
-          "hybrid_score": 0.3888607621192932
-        },
-        {
-          "id": "isHistorical_034239",
-          "document": "đã có [ENTITY].",
-          "dense_similarity": 0.6561542749404907,
-          "sparse_similarity": 0.10965903848409653,
-          "hybrid_score": 0.38290664553642273
-        }
-      ]
+    "assertion_position": [
+      964,
+      967
     ],
-    "eng_translation": [
-      "5.1"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "creatinine là [ENTITY]"
   },
   {
     "text": "k",
@@ -1100,46 +266,11 @@
       1218,
       1219
     ],
-    "sentence": "*   [ENTITY] là 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006712",
-          "document": "[ENTITY] da 5 ngay.",
-          "dense_similarity": 0.8789271116256714,
-          "sparse_similarity": 0.1271549016237259,
-          "hybrid_score": 0.5030410289764404
-        },
-        {
-          "id": "isHistorical_006711",
-          "document": "[ENTITY] da 5 nam.",
-          "dense_similarity": 0.8697758913040161,
-          "sparse_similarity": 0.11554739624261856,
-          "hybrid_score": 0.49266165494918823
-        },
-        {
-          "id": "isHistorical_006713",
-          "document": "[ENTITY] da 5 thang.",
-          "dense_similarity": 0.8403400778770447,
-          "sparse_similarity": 0.11708235740661621,
-          "hybrid_score": 0.47871121764183044
-        }
-      ]
+    "assertion_position": [
+      977,
+      978
     ],
-    "eng_translation": [
-      "k",
-      "The query is too short to determine a medical diagnosis or concept. Please provide a complete medical query."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] là 5."
   },
   {
     "text": "5.8",
@@ -1148,45 +279,11 @@
       1223,
       1226
     ],
-    "sentence": "*   k là [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000097",
-          "document": "co le [ENTITY].",
-          "dense_similarity": 0.7953302264213562,
-          "sparse_similarity": 0.1194106861948967,
-          "hybrid_score": 0.45737046003341675
-        },
-        {
-          "id": "isHistorical_034239",
-          "document": "đã có [ENTITY].",
-          "dense_similarity": 0.7614426612854004,
-          "sparse_similarity": 0.14971984922885895,
-          "hybrid_score": 0.4555812478065491
-        },
-        {
-          "id": "isFamily_012654",
-          "document": "dì có [ENTITY].",
-          "dense_similarity": 0.7705307602882385,
-          "sparse_similarity": 0.13063949346542358,
-          "hybrid_score": 0.45058512687683105
-        }
-      ]
+    "assertion_position": [
+      982,
+      985
     ],
-    "eng_translation": [
-      "5.8"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "k là [ENTITY]"
   },
   {
     "text": "Suy thận",
@@ -1195,62 +292,11 @@
       1271,
       1279
     ],
-    "sentence": "*   Triệu chứng khi nhập viện: [ENTITY] ngày càng nặng\n    *   Các sự kiện trước khi nhập viện\n        *   Tình trạng tiêu chảy đáng kể khi dùng cellcept và uống kém.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6908771991729736,
-          "sparse_similarity": 0.19273151457309723,
-          "hybrid_score": 0.44180434942245483
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6755817532539368,
-          "sparse_similarity": 0.1911536306142807,
-          "hybrid_score": 0.43336769938468933
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.681300163269043,
-          "sparse_similarity": 0.18309760093688965,
-          "hybrid_score": 0.4321988821029663
-        }
-      ]
+    "assertion_position": [
+      1022,
+      1030
     ],
-    "eng_translation": [
-      "Chronic kidney disease",
-      "CKD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N189": 0.982146,
-        "N039": 0.781739,
-        "N186": 0.757736,
-        "N181": 0.744167,
-        "N1830": 0.681813
-      },
-      "rapidfuzz": {
-        "D631": 0.95,
-        "N181": 0.95,
-        "N1831": 0.95,
-        "I450": 0.72,
-        "I452": 0.72,
-        "I453": 0.72
-      }
-    },
-    "candidate": {
-      "code": "N189",
-      "confidence": 0.883931
-    }
+    "sentence": "Triệu chứng khi nhập viện: [ENTITY] ngày càng nặng."
   },
   {
     "text": "tiêu chảy",
@@ -1259,46 +305,11 @@
       1358,
       1367
     ],
-    "sentence": "*   Triệu chứng khi nhập viện: Suy thận ngày càng nặng\n    *   Các sự kiện trước khi nhập viện\n        *   Tình trạng [ENTITY] đáng kể khi dùng cellcept và uống kém.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6679366827011108,
-          "sparse_similarity": 0.17385980486869812,
-          "hybrid_score": 0.4208982586860657
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6555377244949341,
-          "sparse_similarity": 0.17258968949317932,
-          "hybrid_score": 0.4140636920928955
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6550476551055908,
-          "sparse_similarity": 0.16458675265312195,
-          "hybrid_score": 0.4098172187805176
-        }
-      ]
+    "assertion_position": [
+      1091,
+      1100
     ],
-    "eng_translation": [
-      "Diarrhea",
-      "Watery Stool"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tình trạng [ENTITY] đáng kể khi dùng cellcept và uống kém."
   },
   {
     "text": "cellcept",
@@ -1307,62 +318,11 @@
       1385,
       1393
     ],
-    "sentence": "*   Triệu chứng khi nhập viện: Suy thận ngày càng nặng\n    *   Các sự kiện trước khi nhập viện\n        *   Tình trạng tiêu chảy đáng kể khi dùng [ENTITY] và uống kém.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6821670532226562,
-          "sparse_similarity": 0.2309987097978592,
-          "hybrid_score": 0.4565828740596771
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6692711114883423,
-          "sparse_similarity": 0.22766950726509094,
-          "hybrid_score": 0.4484702944755554
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6623525619506836,
-          "sparse_similarity": 0.22922256588935852,
-          "hybrid_score": 0.44578754901885986
-        }
-      ]
+    "assertion_position": [
+      1118,
+      1126
     ],
-    "eng_translation": [
-      "CellCept",
-      "Mycophenolate Mofetil"
-    ],
-    "retriever": {
-      "sapbert": {
-        "68149": 1.0,
-        "152633": 1.0,
-        "265323": 0.91647,
-        "237112": 0.895381,
-        "408142": 0.715019
-      },
-      "rapidfuzz": {
-        "152633": 1.0,
-        "68149": 1.0,
-        "331587": 0.95,
-        "316316": 0.95,
-        "616434": 0.9,
-        "616433": 0.9
-      }
-    },
-    "candidate": {
-      "code": "68149",
-      "confidence": 1.0
-    }
+    "sentence": "Tình trạng tiêu chảy đáng kể khi dùng [ENTITY] và uống kém."
   },
   {
     "text": "prograf",
@@ -1371,61 +331,11 @@
       1469,
       1476
     ],
-    "sentence": "*   [ENTITY] dose decreased from 5mg bid to 1mg bid.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012340",
-          "document": "cách đây 1 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.6876410841941833,
-          "sparse_similarity": 0.10094133764505386,
-          "hybrid_score": 0.3942912220954895
-        },
-        {
-          "id": "isHistorical_012352",
-          "document": "cách đây 1 tháng được điều trị [ENTITY].",
-          "dense_similarity": 0.6865140795707703,
-          "sparse_similarity": 0.09830031543970108,
-          "hybrid_score": 0.39240720868110657
-        },
-        {
-          "id": "isHistorical_024642",
-          "document": "từ 1 tháng trước được điều trị [ENTITY].",
-          "dense_similarity": 0.6853859424591064,
-          "sparse_similarity": 0.0970064252614975,
-          "hybrid_score": 0.39119619131088257
-        }
-      ]
+    "assertion_position": [
+      1178,
+      1185
     ],
-    "eng_translation": [
-      "Prograf",
-      "Tacrolimus"
-    ],
-    "retriever": {
-      "sapbert": {
-        "42316": 1.0,
-        "196463": 1.0,
-        "235991": 0.932283,
-        "261530": 0.677283,
-        "1437715": 0.670933
-      },
-      "rapidfuzz": {
-        "196463": 1.0,
-        "42316": 1.0,
-        "564557": 0.9,
-        "1180662": 0.9,
-        "313189": 0.9
-      }
-    },
-    "candidate": {
-      "code": "196463",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] dose decreased from 5mg bid to 1mg bid."
   },
   {
     "text": "siêu âm",
@@ -1434,46 +344,11 @@
       1529,
       1536
     ],
-    "sentence": "*   [ENTITY] thận cho thấy chỉ số kháng trở bình thường.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000201",
-          "document": "kháng thể âm tính với [ENTITY].",
-          "dense_similarity": 0.6717531681060791,
-          "sparse_similarity": 0.09029886871576309,
-          "hybrid_score": 0.381026029586792
-        },
-        {
-          "id": "isNegated_000198",
-          "document": "kháng thể cho kết quả âm tính với [ENTITY].",
-          "dense_similarity": 0.6689110398292542,
-          "sparse_similarity": 0.09300300478935242,
-          "hybrid_score": 0.3809570074081421
-        },
-        {
-          "id": "isNegated_000194",
-          "document": "kháng nguyên cho kết quả âm tính với [ENTITY].",
-          "dense_similarity": 0.6678004264831543,
-          "sparse_similarity": 0.09309405833482742,
-          "hybrid_score": 0.38044723868370056
-        }
-      ]
+    "assertion_position": [
+      1226,
+      1233
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] thận cho thấy chỉ số kháng trở bình thường."
   },
   {
     "text": "kháng thể",
@@ -1482,46 +357,11 @@
       1643,
       1652
     ],
-    "sentence": "*   sinh thiết ghép thận không có bằng chứng đào thải [ENTITY] hữu hình cấp tính.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000178",
-          "document": "lâm sàng không loại trừ [ENTITY].",
-          "dense_similarity": 0.7112632989883423,
-          "sparse_similarity": 0.08140791952610016,
-          "hybrid_score": 0.3963356018066406
-        },
-        {
-          "id": "isNegated_000283",
-          "document": "xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.6976063847541809,
-          "sparse_similarity": 0.09041565656661987,
-          "hybrid_score": 0.3940110206604004
-        },
-        {
-          "id": "isNegated_000239",
-          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.6999719142913818,
-          "sparse_similarity": 0.08668071031570435,
-          "hybrid_score": 0.3933263123035431
-        }
-      ]
+    "assertion_position": [
+      1328,
+      1337
     ],
-    "eng_translation": [
-      "antibodies",
-      "Immunoglobulins"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "sinh thiết ghép thận không có bằng chứng đào thải [ENTITY] hữu hình cấp tính."
   },
   {
     "text": "creatinine",
@@ -1530,46 +370,11 @@
       1736,
       1746
     ],
-    "sentence": "*   xét nghiệm được kiểm tra ngoại trú hôm nay cho thấy [ENTITY] 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006670",
-          "document": "bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7449290752410889,
-          "sparse_similarity": 0.16563397645950317,
-          "hybrid_score": 0.455281525850296
-        },
-        {
-          "id": "isHistorical_025709",
-          "document": "từ 5 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7661415338516235,
-          "sparse_similarity": 0.08862122148275375,
-          "hybrid_score": 0.42738136649131775
-        },
-        {
-          "id": "isHistorical_002177",
-          "document": "5 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7637795209884644,
-          "sparse_similarity": 0.08914583921432495,
-          "hybrid_score": 0.42646268010139465
-        }
-      ]
+    "assertion_position": [
+      1409,
+      1419
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "xét nghiệm được kiểm tra ngoại trú hôm nay cho thấy [ENTITY] 5."
   },
   {
     "text": "5.1",
@@ -1578,45 +383,11 @@
       1747,
       1750
     ],
-    "sentence": "*   xét nghiệm được kiểm tra ngoại trú hôm nay cho thấy creatinine [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006670",
-          "document": "bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.76106196641922,
-          "sparse_similarity": 0.14912688732147217,
-          "hybrid_score": 0.45509442687034607
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7430260181427002,
-          "sparse_similarity": 0.1408097743988037,
-          "hybrid_score": 0.44191789627075195
-        },
-        {
-          "id": "isFamily_006588",
-          "document": "bên ngoại có người được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7304648160934448,
-          "sparse_similarity": 0.15005850791931152,
-          "hybrid_score": 0.4402616620063782
-        }
-      ]
+    "assertion_position": [
+      1420,
+      1423
     ],
-    "eng_translation": [
-      "5.1"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "xét nghiệm được kiểm tra ngoại trú hôm nay cho thấy creatinine [ENTITY]"
   },
   {
     "text": "k",
@@ -1625,46 +396,11 @@
       1752,
       1753
     ],
-    "sentence": "1; [ENTITY] 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006712",
-          "document": "[ENTITY] da 5 ngay.",
-          "dense_similarity": 0.8322454690933228,
-          "sparse_similarity": 0.08685962110757828,
-          "hybrid_score": 0.4595525562763214
-        },
-        {
-          "id": "isHistorical_006711",
-          "document": "[ENTITY] da 5 nam.",
-          "dense_similarity": 0.8379151821136475,
-          "sparse_similarity": 0.07912835478782654,
-          "hybrid_score": 0.4585217833518982
-        },
-        {
-          "id": "isHistorical_015871",
-          "document": "da 5 ngay [ENTITY].",
-          "dense_similarity": 0.816434383392334,
-          "sparse_similarity": 0.07190047204494476,
-          "hybrid_score": 0.44416743516921997
-        }
-      ]
+    "assertion_position": [
+      1425,
+      1426
     ],
-    "eng_translation": [
-      "k",
-      "The query is too short to determine a medical diagnosis or concept. Please provide a complete medical query."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "1; [ENTITY] 5."
   },
   {
     "text": "5.8",
@@ -1673,45 +409,11 @@
       1754,
       1757
     ],
-    "sentence": "1; k [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006532",
-          "document": "[ENTITY] da 1 ngay.",
-          "dense_similarity": 0.7743415236473083,
-          "sparse_similarity": 0.1597561091184616,
-          "hybrid_score": 0.4670488238334656
-        },
-        {
-          "id": "isHistorical_014791",
-          "document": "da 1 ngay [ENTITY].",
-          "dense_similarity": 0.7757489681243896,
-          "sparse_similarity": 0.14619284868240356,
-          "hybrid_score": 0.4609709084033966
-        },
-        {
-          "id": "isHistorical_000007",
-          "document": "1 ngay truoc [ENTITY].",
-          "dense_similarity": 0.7737535238265991,
-          "sparse_similarity": 0.14393645524978638,
-          "hybrid_score": 0.45884498953819275
-        }
-      ]
+    "assertion_position": [
+      1427,
+      1430
     ],
-    "eng_translation": [
-      "5.8"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "1; k [ENTITY]"
   },
   {
     "text": "creatinine",
@@ -1720,46 +422,11 @@
       1936,
       1946
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    *   Kết quả xét nghiệm\n        *   [ENTITY] 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.714657187461853,
-          "sparse_similarity": 0.08187810331583023,
-          "hybrid_score": 0.3982676565647125
-        },
-        {
-          "id": "isHistorical_002177",
-          "document": "5 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7406168580055237,
-          "sparse_similarity": 0.05135851725935936,
-          "hybrid_score": 0.39598768949508667
-        },
-        {
-          "id": "isHistorical_032922",
-          "document": "đã 5 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7382941842079163,
-          "sparse_similarity": 0.04891706258058548,
-          "hybrid_score": 0.39360561966896057
-        }
-      ]
+    "assertion_position": [
+      1578,
+      1588
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 5."
   },
   {
     "text": "5.1",
@@ -1768,45 +435,11 @@
       1947,
       1950
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    *   Kết quả xét nghiệm\n        *   creatinine [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000109",
-          "document": "cần xét nghiệm xác nhận [ENTITY].",
-          "dense_similarity": 0.6878697872161865,
-          "sparse_similarity": 0.14123967289924622,
-          "hybrid_score": 0.4145547151565552
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7082934379577637,
-          "sparse_similarity": 0.07639875262975693,
-          "hybrid_score": 0.3923460841178894
-        },
-        {
-          "id": "isFamily_020149",
-          "document": "má người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6956798434257507,
-          "sparse_similarity": 0.07903909683227539,
-          "hybrid_score": 0.38735947012901306
-        }
-      ]
+    "assertion_position": [
+      1589,
+      1592
     ],
-    "eng_translation": [
-      "5.1"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "creatinine [ENTITY]"
   },
   {
     "text": "k",
@@ -1815,46 +448,11 @@
       1963,
       1964
     ],
-    "sentence": "1\n        *   [ENTITY] 5.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006712",
-          "document": "[ENTITY] da 5 ngay.",
-          "dense_similarity": 0.8410520553588867,
-          "sparse_similarity": 0.09645144641399384,
-          "hybrid_score": 0.4687517583370209
-        },
-        {
-          "id": "isHistorical_006711",
-          "document": "[ENTITY] da 5 nam.",
-          "dense_similarity": 0.8465330004692078,
-          "sparse_similarity": 0.0876871645450592,
-          "hybrid_score": 0.4671100974082947
-        },
-        {
-          "id": "isHistorical_005164",
-          "document": "[ENTITY] 5 năm trước.",
-          "dense_similarity": 0.81771320104599,
-          "sparse_similarity": 0.08887791633605957,
-          "hybrid_score": 0.4532955586910248
-        }
-      ]
+    "assertion_position": [
+      1594,
+      1595
     ],
-    "eng_translation": [
-      "k",
-      "The query is too short to determine a medical diagnosis or concept. Please provide a complete medical query."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 5."
   },
   {
     "text": "5.8",
@@ -1863,45 +461,11 @@
       1965,
       1968
     ],
-    "sentence": "1\n        *   k [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006532",
-          "document": "[ENTITY] da 1 ngay.",
-          "dense_similarity": 0.776805579662323,
-          "sparse_similarity": 0.17171525955200195,
-          "hybrid_score": 0.4742604196071625
-        },
-        {
-          "id": "isHistorical_014791",
-          "document": "da 1 ngay [ENTITY].",
-          "dense_similarity": 0.7804532051086426,
-          "sparse_similarity": 0.1566581428050995,
-          "hybrid_score": 0.4685556888580322
-        },
-        {
-          "id": "isHistorical_000007",
-          "document": "1 ngay truoc [ENTITY].",
-          "dense_similarity": 0.7772132158279419,
-          "sparse_similarity": 0.15412968397140503,
-          "hybrid_score": 0.46567144989967346
-        }
-      ]
+    "assertion_position": [
+      1596,
+      1599
     ],
-    "eng_translation": [
-      "5.8"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "k [ENTITY]"
   },
   {
     "text": "siêu âm",
@@ -1910,46 +474,11 @@
       2045,
       2052
     ],
-    "sentence": "8\n        *   pcr dương tính với virus bk\n    *   Kết quả chẩn đoán hình ảnh: [ENTITY] thận cho thấy chỉ số kháng trở bình thường\n    *   Thủ thuật đã thực hiện\n        *   Sinh thiết thận (vào chính ngày hôm đó)\n        *   Sinh thiết thận lại vào buổi sáng (dự kiến)\n    *   Các kết quả chẩn đoán khác\n        *   Bệnh lý thận do BK\n        *   Lo ngại về đào thải\n        *   Không có bằng chứng đào thải kháng thể hữu hình cấp tính (trong sinh thiết)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003761",
-          "document": "8 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6081085205078125,
-          "sparse_similarity": 0.10810043662786484,
-          "hybrid_score": 0.3581044673919678
-        },
-        {
-          "id": "isHistorical_014211",
-          "document": "cách đây 8 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.602141797542572,
-          "sparse_similarity": 0.10876453667879105,
-          "hybrid_score": 0.35545316338539124
-        },
-        {
-          "id": "isHistorical_026501",
-          "document": "từ 8 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5999042391777039,
-          "sparse_similarity": 0.10754667967557907,
-          "hybrid_score": 0.35372546315193176
-        }
-      ]
+    "assertion_position": [
+      1658,
+      1665
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] thận cho thấy chỉ số kháng trở bình thường."
   },
   {
     "text": "thận",
@@ -1958,62 +487,11 @@
       2290,
       2294
     ],
-    "sentence": "8\n        *   pcr dương tính với virus bk\n    *   Kết quả chẩn đoán hình ảnh: siêu âm thận cho thấy chỉ số kháng trở bình thường\n    *   Thủ thuật đã thực hiện\n        *   Sinh thiết thận (vào chính ngày hôm đó)\n        *   Sinh thiết thận lại vào buổi sáng (dự kiến)\n    *   Các kết quả chẩn đoán khác\n        *   Bệnh lý [ENTITY] do BK\n        *   Lo ngại về đào thải\n        *   Không có bằng chứng đào thải kháng thể hữu hình cấp tính (trong sinh thiết)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003761",
-          "document": "8 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5974502563476562,
-          "sparse_similarity": 0.09993787109851837,
-          "hybrid_score": 0.3486940562725067
-        },
-        {
-          "id": "isHistorical_014211",
-          "document": "cách đây 8 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5896377563476562,
-          "sparse_similarity": 0.10043017566204071,
-          "hybrid_score": 0.3450339734554291
-        },
-        {
-          "id": "isHistorical_026501",
-          "document": "từ 8 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5893660187721252,
-          "sparse_similarity": 0.09941919147968292,
-          "hybrid_score": 0.3443925976753235
-        }
-      ]
+    "assertion_position": [
+      1666,
+      1670
     ],
-    "eng_translation": [
-      "kidney",
-      "Renal"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D49519": 0.755548,
-        "D3000": 0.749832,
-        "D4100": 0.703881,
-        "C649": 0.647174,
-        "Q630": 0.61811
-      },
-      "rapidfuzz": {
-        "Z905": 0.9,
-        "D631": 0.9,
-        "Z524": 0.9,
-        "N186": 0.9,
-        "N269": 0.9,
-        "C651": 0.9
-      }
-    },
-    "candidate": {
-      "code": "D49519",
-      "confidence": 0.679993
-    }
+    "sentence": "Kết quả chẩn đoán hình ảnh: siêu âm [ENTITY] cho thấy chỉ số kháng trở bình thường."
   },
   {
     "text": "kháng thể",
@@ -2022,45 +500,10 @@
       2374,
       2383
     ],
-    "sentence": "8\n        *   pcr dương tính với virus bk\n    *   Kết quả chẩn đoán hình ảnh: siêu âm thận cho thấy chỉ số kháng trở bình thường\n    *   Thủ thuật đã thực hiện\n        *   Sinh thiết thận (vào chính ngày hôm đó)\n        *   Sinh thiết thận lại vào buổi sáng (dự kiến)\n    *   Các kết quả chẩn đoán khác\n        *   Bệnh lý thận do BK\n        *   Lo ngại về đào thải\n        *   Không có bằng chứng đào thải [ENTITY] hữu hình cấp tính (trong sinh thiết)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003761",
-          "document": "8 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5937860608100891,
-          "sparse_similarity": 0.0887407511472702,
-          "hybrid_score": 0.34126341342926025
-        },
-        {
-          "id": "isHistorical_026501",
-          "document": "từ 8 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5869244933128357,
-          "sparse_similarity": 0.08822701871395111,
-          "hybrid_score": 0.337575763463974
-        },
-        {
-          "id": "isHistorical_014211",
-          "document": "cách đây 8 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5856438875198364,
-          "sparse_similarity": 0.08911149948835373,
-          "hybrid_score": 0.3373776972293854
-        }
-      ]
+    "assertion_position": [
+      1918,
+      1927
     ],
-    "eng_translation": [
-      "antibodies",
-      "Immunoglobulins"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có bằng chứng đào thải [ENTITY] hữu hình cấp tính (trong sinh thiết)."
   }
 ]

@@ -6,62 +6,11 @@
       31,
       45
     ],
-    "sentence": "Các bệnh lý mãn tính\n- tiền sử [ENTITY] (tiền sử Đái tháo đường)\n- Tăng huyết áp (tăng huyết áp vô căn (nguyên phát))\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.708541750907898,
-          "sparse_similarity": 0.23095962405204773,
-          "hybrid_score": 0.46975070238113403
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6801183819770813,
-          "sparse_similarity": 0.2536998391151428,
-          "hybrid_score": 0.46690911054611206
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.681705117225647,
-          "sparse_similarity": 0.24945762753486633,
-          "hybrid_score": 0.46558135747909546
-        }
-      ]
+    "assertion_position": [
+      30,
+      44
     ],
-    "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
-        "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.757908
-    }
+    "sentence": "tiền sử [ENTITY] (tiền sử Đái tháo đường)."
   },
   {
     "text": "Đái tháo đường",
@@ -70,62 +19,11 @@
       55,
       69
     ],
-    "sentence": "Các bệnh lý mãn tính\n- tiền sử Đái tháo đường (tiền sử [ENTITY])\n- Tăng huyết áp (tăng huyết áp vô căn (nguyên phát))\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử đái tháo đường (tiền sử [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.6853629946708679,
-          "sparse_similarity": 0.21550679206848145,
-          "hybrid_score": 0.4504348933696747
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6608051657676697,
-          "sparse_similarity": 0.23821119964122772,
-          "hybrid_score": 0.4495081901550293
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6619640588760376,
-          "sparse_similarity": 0.23354487121105194,
-          "hybrid_score": 0.44775447249412537
-        }
-      ]
+    "assertion_position": [
+      54,
+      68
     ],
-    "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
-        "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.757908
-    }
+    "sentence": "tiền sử Đái tháo đường (tiền sử [ENTITY])."
   },
   {
     "text": "Tăng huyết áp",
@@ -134,62 +32,11 @@
       73,
       86
     ],
-    "sentence": "Các bệnh lý mãn tính\n- tiền sử Đái tháo đường (tiền sử Đái tháo đường)\n- [ENTITY] (tăng huyết áp vô căn (nguyên phát))\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử đái tháo đường (tiền sử đái tháo đường) - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.6827422976493835,
-          "sparse_similarity": 0.1988242119550705,
-          "hybrid_score": 0.4407832622528076
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6573748588562012,
-          "sparse_similarity": 0.21522074937820435,
-          "hybrid_score": 0.43629780411720276
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6520359516143799,
-          "sparse_similarity": 0.21937796473503113,
-          "hybrid_score": 0.4357069730758667
-        }
-      ]
+    "assertion_position": [
+      71,
+      84
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY] (tăng huyết áp vô căn (nguyên phát))."
   },
   {
     "text": "tăng huyết áp vô căn",
@@ -198,61 +45,11 @@
       88,
       108
     ],
-    "sentence": "Các bệnh lý mãn tính\n- tiền sử Đái tháo đường (tiền sử Đái tháo đường)\n- Tăng huyết áp ([ENTITY] (nguyên phát))\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử đái tháo đường) - tăng huyết áp ([entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6556420922279358,
-          "sparse_similarity": 0.21989445388317108,
-          "hybrid_score": 0.43776828050613403
-        },
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.6753067970275879,
-          "sparse_similarity": 0.1980607658624649,
-          "hybrid_score": 0.4366837739944458
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6543570756912231,
-          "sparse_similarity": 0.21498195827007294,
-          "hybrid_score": 0.43466952443122864
-        }
-      ]
+    "assertion_position": [
+      86,
+      106
     ],
-    "eng_translation": [
-      "Essential hypertension",
-      "Primary hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.802756,
-        "I270": 0.741585,
-        "I160": 0.721417,
-        "I150": 0.70669
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "O10013": 0.9,
-        "O1002": 0.9,
-        "H40062": 0.855,
-        "G35B0": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "Tăng huyết áp ([ENTITY] (nguyên phát))."
   },
   {
     "text": "khó chịu vùng ngực",
@@ -261,46 +58,11 @@
       294,
       312
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\nLý do nhập viện: xét nghiệm gắng sức bất thường\nThời điểm khởi phát triệu chứng: Hôm qua (không rõ ngày cụ thể)\nCác triệu chứng hiện tại\n- [ENTITY] gián đoạn\n- chóng mặt\n- khó thở (khó thở)\n- đổ mồ hôi\nĐặc điểm triệu chứng\n- Vị trí: Không rõ (ngụ ý vùng ngực)\n- Mức độ nghiêm trọng: Không rõ\n- Thời gian: Không rõ\n- Tần suất: Gián đoạn\n- Chiếu r xạ: Không rõ\n- Các yếu tố làm nặng thêm: Hoạt động gắng sức\n- Các yếu tố làm giảm bớt: Nghỉ ngơi\n- Các triệu chứng liên quan: chóng mặt, khó thở, đổ mồ hôi\nCác sự kiện trước khi nhập viện: xét nghiệm gắng sức bất thường\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6253617405891418,
-          "sparse_similarity": 0.15272413194179535,
-          "hybrid_score": 0.3890429437160492
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6239266395568848,
-          "sparse_similarity": 0.15156380832195282,
-          "hybrid_score": 0.3877452313899994
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6230489015579224,
-          "sparse_similarity": 0.1524086594581604,
-          "hybrid_score": 0.3877287805080414
-        }
-      ]
+    "assertion_position": [
+      291,
+      309
     ],
-    "eng_translation": [
-      "chest discomfort",
-      "Chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] gián đoạn."
   },
   {
     "text": "chóng mặt",
@@ -309,46 +71,11 @@
       325,
       334
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\nLý do nhập viện: xét nghiệm gắng sức bất thường\nThời điểm khởi phát triệu chứng: Hôm qua (không rõ ngày cụ thể)\nCác triệu chứng hiện tại\n- khó chịu vùng ngực gián đoạn\n- [ENTITY]\n- khó thở (khó thở)\n- đổ mồ hôi\nĐặc điểm triệu chứng\n- Vị trí: Không rõ (ngụ ý vùng ngực)\n- Mức độ nghiêm trọng: Không rõ\n- Thời gian: Không rõ\n- Tần suất: Gián đoạn\n- Chiếu r xạ: Không rõ\n- Các yếu tố làm nặng thêm: Hoạt động gắng sức\n- Các yếu tố làm giảm bớt: Nghỉ ngơi\n- Các triệu chứng liên quan: chóng mặt, khó thở, đổ mồ hôi\nCác sự kiện trước khi nhập viện: xét nghiệm gắng sức bất thường\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6178758144378662,
-          "sparse_similarity": 0.14091378450393677,
-          "hybrid_score": 0.3793947994709015
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.613919734954834,
-          "sparse_similarity": 0.1405540555715561,
-          "hybrid_score": 0.37723690271377563
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6211698651313782,
-          "sparse_similarity": 0.13324038684368134,
-          "hybrid_score": 0.37720513343811035
-        }
-      ]
+    "assertion_position": [
+      321,
+      330
     ],
-    "eng_translation": [
-      "Dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó thở",
@@ -357,46 +84,11 @@
       337,
       344
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\nLý do nhập viện: xét nghiệm gắng sức bất thường\nThời điểm khởi phát triệu chứng: Hôm qua (không rõ ngày cụ thể)\nCác triệu chứng hiện tại\n- khó chịu vùng ngực gián đoạn\n- chóng mặt\n- [ENTITY] (khó thở)\n- đổ mồ hôi\nĐặc điểm triệu chứng\n- Vị trí: Không rõ (ngụ ý vùng ngực)\n- Mức độ nghiêm trọng: Không rõ\n- Thời gian: Không rõ\n- Tần suất: Gián đoạn\n- Chiếu r xạ: Không rõ\n- Các yếu tố làm nặng thêm: Hoạt động gắng sức\n- Các yếu tố làm giảm bớt: Nghỉ ngơi\n- Các triệu chứng liên quan: chóng mặt, khó thở, đổ mồ hôi\nCác sự kiện trước khi nhập viện: xét nghiệm gắng sức bất thường\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6156172752380371,
-          "sparse_similarity": 0.13497796654701233,
-          "hybrid_score": 0.3752976059913635
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.620073139667511,
-          "sparse_similarity": 0.12832899391651154,
-          "hybrid_score": 0.37420105934143066
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6128891706466675,
-          "sparse_similarity": 0.1353372037410736,
-          "hybrid_score": 0.37411320209503174
-        }
-      ]
+    "assertion_position": [
+      332,
+      339
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] (khó thở)."
   },
   {
     "text": "khó thở",
@@ -405,46 +97,11 @@
       346,
       353
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\nLý do nhập viện: xét nghiệm gắng sức bất thường\nThời điểm khởi phát triệu chứng: Hôm qua (không rõ ngày cụ thể)\nCác triệu chứng hiện tại\n- khó chịu vùng ngực gián đoạn\n- chóng mặt\n- khó thở ([ENTITY])\n- đổ mồ hôi\nĐặc điểm triệu chứng\n- Vị trí: Không rõ (ngụ ý vùng ngực)\n- Mức độ nghiêm trọng: Không rõ\n- Thời gian: Không rõ\n- Tần suất: Gián đoạn\n- Chiếu r xạ: Không rõ\n- Các yếu tố làm nặng thêm: Hoạt động gắng sức\n- Các yếu tố làm giảm bớt: Nghỉ ngơi\n- Các triệu chứng liên quan: chóng mặt, khó thở, đổ mồ hôi\nCác sự kiện trước khi nhập viện: xét nghiệm gắng sức bất thường\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6180450320243835,
-          "sparse_similarity": 0.1455170065164566,
-          "hybrid_score": 0.3817810118198395
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6146718859672546,
-          "sparse_similarity": 0.14477679133415222,
-          "hybrid_score": 0.37972432374954224
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6213748455047607,
-          "sparse_similarity": 0.13730567693710327,
-          "hybrid_score": 0.379340261220932
-        }
-      ]
+    "assertion_position": [
+      341,
+      348
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "khó thở ([ENTITY])."
   },
   {
     "text": "đổ mồ hôi",
@@ -453,45 +110,11 @@
       357,
       366
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\nLý do nhập viện: xét nghiệm gắng sức bất thường\nThời điểm khởi phát triệu chứng: Hôm qua (không rõ ngày cụ thể)\nCác triệu chứng hiện tại\n- khó chịu vùng ngực gián đoạn\n- chóng mặt\n- khó thở (khó thở)\n- [ENTITY]\nĐặc điểm triệu chứng\n- Vị trí: Không rõ (ngụ ý vùng ngực)\n- Mức độ nghiêm trọng: Không rõ\n- Thời gian: Không rõ\n- Tần suất: Gián đoạn\n- Chiếu r xạ: Không rõ\n- Các yếu tố làm nặng thêm: Hoạt động gắng sức\n- Các yếu tố làm giảm bớt: Nghỉ ngơi\n- Các triệu chứng liên quan: chóng mặt, khó thở, đổ mồ hôi\nCác sự kiện trước khi nhập viện: xét nghiệm gắng sức bất thường\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6149839162826538,
-          "sparse_similarity": 0.14621558785438538,
-          "hybrid_score": 0.3805997371673584
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6124255657196045,
-          "sparse_similarity": 0.14603330194950104,
-          "hybrid_score": 0.37922942638397217
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6119887828826904,
-          "sparse_similarity": 0.14319513738155365,
-          "hybrid_score": 0.37759196758270264
-        }
-      ]
+    "assertion_position": [
+      351,
+      360
     ],
-    "eng_translation": [
-      "sweating"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "chóng mặt",
@@ -500,46 +123,11 @@
       637,
       646
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\nLý do nhập viện: xét nghiệm gắng sức bất thường\nThời điểm khởi phát triệu chứng: Hôm qua (không rõ ngày cụ thể)\nCác triệu chứng hiện tại\n- khó chịu vùng ngực gián đoạn\n- chóng mặt\n- khó thở (khó thở)\n- đổ mồ hôi\nĐặc điểm triệu chứng\n- Vị trí: Không rõ (ngụ ý vùng ngực)\n- Mức độ nghiêm trọng: Không rõ\n- Thời gian: Không rõ\n- Tần suất: Gián đoạn\n- Chiếu r xạ: Không rõ\n- Các yếu tố làm nặng thêm: Hoạt động gắng sức\n- Các yếu tố làm giảm bớt: Nghỉ ngơi\n- Các triệu chứng liên quan: [ENTITY], khó thở, đổ mồ hôi\nCác sự kiện trước khi nhập viện: xét nghiệm gắng sức bất thường\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6367826461791992,
-          "sparse_similarity": 0.15890946984291077,
-          "hybrid_score": 0.3978460431098938
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.63835209608078,
-          "sparse_similarity": 0.15667301416397095,
-          "hybrid_score": 0.3975125551223755
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6358921527862549,
-          "sparse_similarity": 0.15795624256134033,
-          "hybrid_score": 0.3969241976737976
-        }
-      ]
+    "assertion_position": [
+      624,
+      633
     ],
-    "eng_translation": [
-      "Dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: [ENTITY], khó thở, đổ mồ hôi."
   },
   {
     "text": "khó thở",
@@ -548,46 +136,11 @@
       648,
       655
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\nLý do nhập viện: xét nghiệm gắng sức bất thường\nThời điểm khởi phát triệu chứng: Hôm qua (không rõ ngày cụ thể)\nCác triệu chứng hiện tại\n- khó chịu vùng ngực gián đoạn\n- chóng mặt\n- khó thở (khó thở)\n- đổ mồ hôi\nĐặc điểm triệu chứng\n- Vị trí: Không rõ (ngụ ý vùng ngực)\n- Mức độ nghiêm trọng: Không rõ\n- Thời gian: Không rõ\n- Tần suất: Gián đoạn\n- Chiếu r xạ: Không rõ\n- Các yếu tố làm nặng thêm: Hoạt động gắng sức\n- Các yếu tố làm giảm bớt: Nghỉ ngơi\n- Các triệu chứng liên quan: chóng mặt, [ENTITY], đổ mồ hôi\nCác sự kiện trước khi nhập viện: xét nghiệm gắng sức bất thường\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6168658137321472,
-          "sparse_similarity": 0.14158324897289276,
-          "hybrid_score": 0.3792245388031006
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6134304404258728,
-          "sparse_similarity": 0.14171503484249115,
-          "hybrid_score": 0.3775727450847626
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.620429515838623,
-          "sparse_similarity": 0.1344929188489914,
-          "hybrid_score": 0.3774612247943878
-        }
-      ]
+    "assertion_position": [
+      635,
+      642
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: chóng mặt, [ENTITY], đổ mồ hôi."
   },
   {
     "text": "đổ mồ hôi",
@@ -596,45 +149,11 @@
       657,
       666
     ],
-    "sentence": "Tiền sử bệnh bệnh hiện tại\nLý do nhập viện: xét nghiệm gắng sức bất thường\nThời điểm khởi phát triệu chứng: Hôm qua (không rõ ngày cụ thể)\nCác triệu chứng hiện tại\n- khó chịu vùng ngực gián đoạn\n- chóng mặt\n- khó thở (khó thở)\n- đổ mồ hôi\nĐặc điểm triệu chứng\n- Vị trí: Không rõ (ngụ ý vùng ngực)\n- Mức độ nghiêm trọng: Không rõ\n- Thời gian: Không rõ\n- Tần suất: Gián đoạn\n- Chiếu r xạ: Không rõ\n- Các yếu tố làm nặng thêm: Hoạt động gắng sức\n- Các yếu tố làm giảm bớt: Nghỉ ngơi\n- Các triệu chứng liên quan: chóng mặt, khó thở, [ENTITY]\nCác sự kiện trước khi nhập viện: xét nghiệm gắng sức bất thường\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.606690526008606,
-          "sparse_similarity": 0.1397419273853302,
-          "hybrid_score": 0.3732162117958069
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6043146252632141,
-          "sparse_similarity": 0.14026176929473877,
-          "hybrid_score": 0.37228819727897644
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6097027063369751,
-          "sparse_similarity": 0.1331481635570526,
-          "hybrid_score": 0.37142544984817505
-        }
-      ]
+    "assertion_position": [
+      644,
+      653
     ],
-    "eng_translation": [
-      "sweating"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: chóng mặt, khó thở, [ENTITY]."
   },
   {
     "text": "điện tâm đồ",
@@ -643,46 +162,11 @@
       820,
       831
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả thăm khám lâm sàng\n- Không có đau tại phòng cấp cứu\n- [ENTITY] bình thường tại phòng cấp cứu\n- Các chỉ số ban đầu tại phòng cấp cứu: Nhiệt độ 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000176",
-          "document": "lâm sàng gợi ý [ENTITY].",
-          "dense_similarity": 0.5430110692977905,
-          "sparse_similarity": 0.1362735778093338,
-          "hybrid_score": 0.33964231610298157
-        },
-        {
-          "id": "isUncertain_000178",
-          "document": "lâm sàng không loại trừ [ENTITY].",
-          "dense_similarity": 0.5479257106781006,
-          "sparse_similarity": 0.13076643645763397,
-          "hybrid_score": 0.3393460810184479
-        },
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5659037828445435,
-          "sparse_similarity": 0.11258512735366821,
-          "hybrid_score": 0.33924445509910583
-        }
-      ]
+    "assertion_position": [
+      804,
+      815
     ],
-    "eng_translation": [
-      "ECG",
-      "Electrocardiogram"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] bình thường tại phòng cấp cứu."
   },
   {
     "text": "Nhiệt độ",
@@ -691,46 +175,11 @@
       902,
       910
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả thăm khám lâm sàng\n- Không có đau tại phòng cấp cứu\n- điện tâm đồ bình thường tại phòng cấp cứu\n- Các chỉ số ban đầu tại phòng cấp cứu: [ENTITY] 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5967395901679993,
-          "sparse_similarity": 0.11065693199634552,
-          "hybrid_score": 0.3536982536315918
-        },
-        {
-          "id": "isUncertain_000178",
-          "document": "lâm sàng không loại trừ [ENTITY].",
-          "dense_similarity": 0.5676665902137756,
-          "sparse_similarity": 0.13061241805553436,
-          "hybrid_score": 0.3491395115852356
-        },
-        {
-          "id": "isUncertain_000091",
-          "document": "chẩn đoán ban đầu [ENTITY].",
-          "dense_similarity": 0.5846583843231201,
-          "sparse_similarity": 0.09653332829475403,
-          "hybrid_score": 0.3405958414077759
-        }
-      ]
+    "assertion_position": [
+      885,
+      893
     ],
-    "eng_translation": [
-      "Temperature",
-      "Body Temperature"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các chỉ số ban đầu tại phòng cấp cứu: [ENTITY] 36."
   },
   {
     "text": "36.7",
@@ -739,47 +188,11 @@
       911,
       915
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả thăm khám lâm sàng\n- Không có đau tại phòng cấp cứu\n- điện tâm đồ bình thường tại phòng cấp cứu\n- Các chỉ số ban đầu tại phòng cấp cứu: Nhiệt độ [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000176",
-          "document": "lâm sàng gợi ý [ENTITY].",
-          "dense_similarity": 0.5551064014434814,
-          "sparse_similarity": 0.12151786684989929,
-          "hybrid_score": 0.33831214904785156
-        },
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5834689736366272,
-          "sparse_similarity": 0.0898304432630539,
-          "hybrid_score": 0.33664971590042114
-        },
-        {
-          "id": "isUncertain_000178",
-          "document": "lâm sàng không loại trừ [ENTITY].",
-          "dense_similarity": 0.554909348487854,
-          "sparse_similarity": 0.11785690486431122,
-          "hybrid_score": 0.3363831341266632
-        }
-      ]
+    "assertion_position": [
+      894,
+      898
     ],
-    "eng_translation": [
-      "36.7",
-      "36.7°C fever",
-      "36.7°C"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các chỉ số ban đầu tại phòng cấp cứu: Nhiệt độ [ENTITY]"
   },
   {
     "text": "Huyết áp",
@@ -788,46 +201,11 @@
       919,
       927
     ],
-    "sentence": "7°c, [ENTITY] 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_005314",
-          "document": "[ENTITY] 67 ngay truoc.",
-          "dense_similarity": 0.6050201654434204,
-          "sparse_similarity": 0.16025367379188538,
-          "hybrid_score": 0.3826369047164917
-        },
-        {
-          "id": "isHistorical_021225",
-          "document": "khoảng 67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6187117099761963,
-          "sparse_similarity": 0.14308501780033112,
-          "hybrid_score": 0.3808983564376831
-        },
-        {
-          "id": "isHistorical_003107",
-          "document": "67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6139624714851379,
-          "sparse_similarity": 0.14605483412742615,
-          "hybrid_score": 0.38000863790512085
-        }
-      ]
+    "assertion_position": [
+      902,
+      910
     ],
-    "eng_translation": [
-      "Blood pressure",
-      "Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, [ENTITY] 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36."
   },
   {
     "text": "139/68",
@@ -836,48 +214,11 @@
       928,
       934
     ],
-    "sentence": "7°c, Huyết áp [ENTITY] mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021225",
-          "document": "khoảng 67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6174092292785645,
-          "sparse_similarity": 0.156691774725914,
-          "hybrid_score": 0.3870505094528198
-        },
-        {
-          "id": "isHistorical_003107",
-          "document": "67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6138728260993958,
-          "sparse_similarity": 0.1596626490354538,
-          "hybrid_score": 0.38676774501800537
-        },
-        {
-          "id": "isHistorical_003119",
-          "document": "67 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6106788516044617,
-          "sparse_similarity": 0.15072008967399597,
-          "hybrid_score": 0.3806994557380676
-        }
-      ]
+    "assertion_position": [
+      911,
+      917
     ],
-    "eng_translation": [
-      "139/68",
-      "Hypertension, stage 1, isolated systolic",
-      "Hypertension",
-      "139 over 68"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, Huyết áp [ENTITY] mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36."
   },
   {
     "text": "Mạch",
@@ -886,46 +227,11 @@
       941,
       945
     ],
-    "sentence": "7°c, Huyết áp 139/68 mmhg, [ENTITY] 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021225",
-          "document": "khoảng 67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6148557662963867,
-          "sparse_similarity": 0.15231892466545105,
-          "hybrid_score": 0.3835873603820801
-        },
-        {
-          "id": "isHistorical_003107",
-          "document": "67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6103296279907227,
-          "sparse_similarity": 0.15506382286548615,
-          "hybrid_score": 0.3826967179775238
-        },
-        {
-          "id": "isHistorical_021231",
-          "document": "khoảng 67 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6155931949615479,
-          "sparse_similarity": 0.14345286786556244,
-          "hybrid_score": 0.37952303886413574
-        }
-      ]
+    "assertion_position": [
+      924,
+      928
     ],
-    "eng_translation": [
-      "Pulse",
-      "Heart rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, Huyết áp 139/68 mmhg, [ENTITY] 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36."
   },
   {
     "text": "67",
@@ -934,46 +240,11 @@
       946,
       948
     ],
-    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch [ENTITY] lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003251",
-          "document": "7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5923427939414978,
-          "sparse_similarity": 0.08768565207719803,
-          "hybrid_score": 0.3400142192840576
-        },
-        {
-          "id": "isHistorical_021465",
-          "document": "khoảng 76 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5968596935272217,
-          "sparse_similarity": 0.08238545805215836,
-          "hybrid_score": 0.3396225869655609
-        },
-        {
-          "id": "isHistorical_021297",
-          "document": "khoảng 7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5936189293861389,
-          "sparse_similarity": 0.08516688644886017,
-          "hybrid_score": 0.33939290046691895
-        }
-      ]
+    "assertion_position": [
+      929,
+      931
     ],
-    "eng_translation": [
-      "67",
-      "The query provided is \"67\" which does not contain any medical information or context. Therefore, no rewrite is possible."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch [ENTITY] lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36."
   },
   {
     "text": "Nhịp thở",
@@ -982,46 +253,11 @@
       959,
       967
     ],
-    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, [ENTITY] 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021225",
-          "document": "khoảng 67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6144495606422424,
-          "sparse_similarity": 0.14070314168930054,
-          "hybrid_score": 0.3775763511657715
-        },
-        {
-          "id": "isHistorical_003107",
-          "document": "67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6110314130783081,
-          "sparse_similarity": 0.14342239499092102,
-          "hybrid_score": 0.37722688913345337
-        },
-        {
-          "id": "isHistorical_021219",
-          "document": "khoảng 67 năm trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6005426645278931,
-          "sparse_similarity": 0.14710655808448792,
-          "hybrid_score": 0.3738245964050293
-        }
-      ]
+    "assertion_position": [
+      942,
+      950
     ],
-    "eng_translation": [
-      "Respiratory rate",
-      "Minute ventilation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, [ENTITY] 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36."
   },
   {
     "text": "16",
@@ -1030,46 +266,11 @@
       968,
       970
     ],
-    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở [ENTITY] lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021225",
-          "document": "khoảng 67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6091666221618652,
-          "sparse_similarity": 0.14990399777889252,
-          "hybrid_score": 0.3795353174209595
-        },
-        {
-          "id": "isHistorical_003107",
-          "document": "67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6054245829582214,
-          "sparse_similarity": 0.15294218063354492,
-          "hybrid_score": 0.3791833817958832
-        },
-        {
-          "id": "isHistorical_003119",
-          "document": "67 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6038221120834351,
-          "sparse_similarity": 0.14427974820137024,
-          "hybrid_score": 0.37405091524124146
-        }
-      ]
+    "assertion_position": [
+      951,
+      953
     ],
-    "eng_translation": [
-      "16",
-      "The query provided is \"16\" which does not contain any medical information or context. Therefore, no rewrite is possible."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở [ENTITY] lần/phút, SpO2 100% (không thở oxy) (nhiệt độ 36."
   },
   {
     "text": "SpO2",
@@ -1078,47 +279,11 @@
       981,
       985
     ],
-    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, [ENTITY] 100% (không thở oxy) (nhiệt độ 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003107",
-          "document": "67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6148322820663452,
-          "sparse_similarity": 0.13794371485710144,
-          "hybrid_score": 0.3763880133628845
-        },
-        {
-          "id": "isHistorical_021225",
-          "document": "khoảng 67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6163411736488342,
-          "sparse_similarity": 0.13534611463546753,
-          "hybrid_score": 0.3758436441421509
-        },
-        {
-          "id": "isHistorical_021219",
-          "document": "khoảng 67 năm trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6033896803855896,
-          "sparse_similarity": 0.14134061336517334,
-          "hybrid_score": 0.37236514687538147
-        }
-      ]
+    "assertion_position": [
+      964,
+      968
     ],
-    "eng_translation": [
-      "SpO2",
-      "Oxygen saturation",
-      "Oxygen saturation in arterial blood"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, [ENTITY] 100% (không thở oxy) (nhiệt độ 36."
   },
   {
     "text": "100",
@@ -1127,45 +292,11 @@
       986,
       989
     ],
-    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 [ENTITY]% (không thở oxy) (nhiệt độ 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021225",
-          "document": "khoảng 67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6014507412910461,
-          "sparse_similarity": 0.13388358056545258,
-          "hybrid_score": 0.36766716837882996
-        },
-        {
-          "id": "isHistorical_003107",
-          "document": "67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5961174368858337,
-          "sparse_similarity": 0.13648803532123566,
-          "hybrid_score": 0.3663027286529541
-        },
-        {
-          "id": "isHistorical_021231",
-          "document": "khoảng 67 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5972252488136292,
-          "sparse_similarity": 0.12603649497032166,
-          "hybrid_score": 0.3616308569908142
-        }
-      ]
+    "assertion_position": [
+      969,
+      972
     ],
-    "eng_translation": [
-      "100"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 [ENTITY]% (không thở oxy) (nhiệt độ 36."
   },
   {
     "text": "nhiệt độ",
@@ -1174,46 +305,11 @@
       1008,
       1016
     ],
-    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) ([ENTITY] 36.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021225",
-          "document": "khoảng 67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6161676645278931,
-          "sparse_similarity": 0.13503244519233704,
-          "hybrid_score": 0.37560003995895386
-        },
-        {
-          "id": "isHistorical_003107",
-          "document": "67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6110448837280273,
-          "sparse_similarity": 0.13765370845794678,
-          "hybrid_score": 0.37434929609298706
-        },
-        {
-          "id": "isHistorical_021219",
-          "document": "khoảng 67 năm trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6045687198638916,
-          "sparse_similarity": 0.14085644483566284,
-          "hybrid_score": 0.3727125823497772
-        }
-      ]
+    "assertion_position": [
+      991,
+      999
     ],
-    "eng_translation": [
-      "Temperature",
-      "Body Temperature"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) ([ENTITY] 36."
   },
   {
     "text": "36.7",
@@ -1222,47 +318,11 @@
       1017,
       1021
     ],
-    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003107",
-          "document": "67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5978617072105408,
-          "sparse_similarity": 0.13846823573112488,
-          "hybrid_score": 0.36816495656967163
-        },
-        {
-          "id": "isHistorical_021225",
-          "document": "khoảng 67 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5990291237831116,
-          "sparse_similarity": 0.13585545122623444,
-          "hybrid_score": 0.3674422800540924
-        },
-        {
-          "id": "isHistorical_003251",
-          "document": "7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6095188856124878,
-          "sparse_similarity": 0.07949163019657135,
-          "hybrid_score": 0.344505250453949
-        }
-      ]
+    "assertion_position": [
+      1000,
+      1004
     ],
-    "eng_translation": [
-      "36.7",
-      "36.7°C fever",
-      "36.7°C"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, Huyết áp 139/68 mmhg, Mạch 67 lần/phút, Nhịp thở 16 lần/phút, SpO2 100% (không thở oxy) (nhiệt độ [ENTITY]"
   },
   {
     "text": "huyết áp",
@@ -1271,46 +331,11 @@
       1025,
       1033
     ],
-    "sentence": "7°c, [ENTITY] 139/68 mmhg, nhịp tim 67 lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy 100% trên khí trời)\nCác thủ thuật đã thực hiện: ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)\nCác phát hiện chẩn đoán khác\nNghiệm pháp gắng sức dương tính với thiếu máu cơ tim cục bộ, biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5850011706352234,
-          "sparse_similarity": 0.11673595011234283,
-          "hybrid_score": 0.3508685529232025
-        },
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5848511457443237,
-          "sparse_similarity": 0.1164574921131134,
-          "hybrid_score": 0.3506543040275574
-        },
-        {
-          "id": "isHistorical_021297",
-          "document": "khoảng 7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5875265598297119,
-          "sparse_similarity": 0.11297931522130966,
-          "hybrid_score": 0.3502529263496399
-        }
-      ]
+    "assertion_position": [
+      1008,
+      1016
     ],
-    "eng_translation": [
-      "Blood pressure",
-      "Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, [ENTITY] 139/68 mmhg, nhịp tim 67 lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy 100% trên khí trời)."
   },
   {
     "text": "139/68",
@@ -1319,48 +344,11 @@
       1034,
       1040
     ],
-    "sentence": "7°c, huyết áp [ENTITY] mmhg, nhịp tim 67 lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy 100% trên khí trời)\nCác thủ thuật đã thực hiện: ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)\nCác phát hiện chẩn đoán khác\nNghiệm pháp gắng sức dương tính với thiếu máu cơ tim cục bộ, biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5861637592315674,
-          "sparse_similarity": 0.10538849979639053,
-          "hybrid_score": 0.34577614068984985
-        },
-        {
-          "id": "isHistorical_021297",
-          "document": "khoảng 7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.587760865688324,
-          "sparse_similarity": 0.10230530053377151,
-          "hybrid_score": 0.34503307938575745
-        },
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5833432078361511,
-          "sparse_similarity": 0.10569919645786285,
-          "hybrid_score": 0.3445211946964264
-        }
-      ]
+    "assertion_position": [
+      1017,
+      1023
     ],
-    "eng_translation": [
-      "139/68",
-      "Hypertension, stage 1, isolated systolic",
-      "Hypertension",
-      "139 over 68"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, huyết áp [ENTITY] mmhg, nhịp tim 67 lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy 100% trên khí trời)."
   },
   {
     "text": "nhịp tim",
@@ -1369,46 +357,11 @@
       1047,
       1055
     ],
-    "sentence": "7°c, huyết áp 139/68 mmhg, [ENTITY] 67 lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy 100% trên khí trời)\nCác thủ thuật đã thực hiện: ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)\nCác phát hiện chẩn đoán khác\nNghiệm pháp gắng sức dương tính với thiếu máu cơ tim cục bộ, biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5834850668907166,
-          "sparse_similarity": 0.10610830783843994,
-          "hybrid_score": 0.34479668736457825
-        },
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5829187631607056,
-          "sparse_similarity": 0.10637132823467255,
-          "hybrid_score": 0.34464505314826965
-        },
-        {
-          "id": "isHistorical_021297",
-          "document": "khoảng 7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5844341516494751,
-          "sparse_similarity": 0.10301513224840164,
-          "hybrid_score": 0.34372463822364807
-        }
-      ]
+    "assertion_position": [
+      1030,
+      1038
     ],
-    "eng_translation": [
-      "heart rate",
-      "pulse rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, huyết áp 139/68 mmhg, [ENTITY] 67 lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy 100% trên khí trời)."
   },
   {
     "text": "67",
@@ -1417,46 +370,11 @@
       1056,
       1058
     ],
-    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim [ENTITY] lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy 100% trên khí trời)\nCác thủ thuật đã thực hiện: ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)\nCác phát hiện chẩn đoán khác\nNghiệm pháp gắng sức dương tính với thiếu máu cơ tim cục bộ, biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5793695449829102,
-          "sparse_similarity": 0.09615780413150787,
-          "hybrid_score": 0.3377636671066284
-        },
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5782099962234497,
-          "sparse_similarity": 0.09642243385314941,
-          "hybrid_score": 0.33731621503829956
-        },
-        {
-          "id": "isHistorical_021297",
-          "document": "khoảng 7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5811892151832581,
-          "sparse_similarity": 0.0934329405426979,
-          "hybrid_score": 0.3373110890388489
-        }
-      ]
+    "assertion_position": [
+      1039,
+      1041
     ],
-    "eng_translation": [
-      "67",
-      "The query provided is \"67\" which does not contain any medical information or context. Therefore, no rewrite is possible."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim [ENTITY] lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy 100% trên khí trời)."
   },
   {
     "text": "nhịp thở",
@@ -1465,46 +383,11 @@
       1069,
       1077
     ],
-    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim 67 lần/phút, [ENTITY] 16 lần/phút, độ bão hòa oxy 100% trên khí trời)\nCác thủ thuật đã thực hiện: ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)\nCác phát hiện chẩn đoán khác\nNghiệm pháp gắng sức dương tính với thiếu máu cơ tim cục bộ, biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5776746273040771,
-          "sparse_similarity": 0.09914594143629074,
-          "hybrid_score": 0.33841028809547424
-        },
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5774745941162109,
-          "sparse_similarity": 0.09895665943622589,
-          "hybrid_score": 0.3382156193256378
-        },
-        {
-          "id": "isHistorical_021297",
-          "document": "khoảng 7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5794856548309326,
-          "sparse_similarity": 0.09614378213882446,
-          "hybrid_score": 0.33781471848487854
-        }
-      ]
+    "assertion_position": [
+      1052,
+      1060
     ],
-    "eng_translation": [
-      "respiratory rate",
-      "Minute ventilation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim 67 lần/phút, [ENTITY] 16 lần/phút, độ bão hòa oxy 100% trên khí trời)."
   },
   {
     "text": "16",
@@ -1513,46 +396,11 @@
       1078,
       1080
     ],
-    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim 67 lần/phút, nhịp thở [ENTITY] lần/phút, độ bão hòa oxy 100% trên khí trời)\nCác thủ thuật đã thực hiện: ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)\nCác phát hiện chẩn đoán khác\nNghiệm pháp gắng sức dương tính với thiếu máu cơ tim cục bộ, biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.580622673034668,
-          "sparse_similarity": 0.09801212698221207,
-          "hybrid_score": 0.3393174111843109
-        },
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.580739438533783,
-          "sparse_similarity": 0.09777183085680008,
-          "hybrid_score": 0.3392556309700012
-        },
-        {
-          "id": "isHistorical_021297",
-          "document": "khoảng 7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5826395750045776,
-          "sparse_similarity": 0.09500657021999359,
-          "hybrid_score": 0.3388230800628662
-        }
-      ]
+    "assertion_position": [
+      1061,
+      1063
     ],
-    "eng_translation": [
-      "16",
-      "The query provided is \"16\" which does not contain any medical information or context. Therefore, no rewrite is possible."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim 67 lần/phút, nhịp thở [ENTITY] lần/phút, độ bão hòa oxy 100% trên khí trời)."
   },
   {
     "text": "độ bão hòa oxy",
@@ -1561,46 +409,11 @@
       1091,
       1105
     ],
-    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim 67 lần/phút, nhịp thở 16 lần/phút, [ENTITY] 100% trên khí trời)\nCác thủ thuật đã thực hiện: ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)\nCác phát hiện chẩn đoán khác\nNghiệm pháp gắng sức dương tính với thiếu máu cơ tim cục bộ, biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.578066885471344,
-          "sparse_similarity": 0.10716382414102554,
-          "hybrid_score": 0.34261536598205566
-        },
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5753694176673889,
-          "sparse_similarity": 0.10751520842313766,
-          "hybrid_score": 0.3414423167705536
-        },
-        {
-          "id": "isHistorical_021297",
-          "document": "khoảng 7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5787855982780457,
-          "sparse_similarity": 0.10394488275051117,
-          "hybrid_score": 0.341365247964859
-        }
-      ]
+    "assertion_position": [
+      1074,
+      1088
     ],
-    "eng_translation": [
-      "oxygen saturation",
-      "SpO₂"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim 67 lần/phút, nhịp thở 16 lần/phút, [ENTITY] 100% trên khí trời)."
   },
   {
     "text": "100",
@@ -1609,45 +422,11 @@
       1106,
       1109
     ],
-    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim 67 lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy [ENTITY]% trên khí trời)\nCác thủ thuật đã thực hiện: ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)\nCác phát hiện chẩn đoán khác\nNghiệm pháp gắng sức dương tính với thiếu máu cơ tim cục bộ, biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5747693777084351,
-          "sparse_similarity": 0.08986885845661163,
-          "hybrid_score": 0.33231911063194275
-        },
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5741295218467712,
-          "sparse_similarity": 0.09003958851099014,
-          "hybrid_score": 0.3320845663547516
-        },
-        {
-          "id": "isHistorical_021297",
-          "document": "khoảng 7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5761928558349609,
-          "sparse_similarity": 0.0874205157160759,
-          "hybrid_score": 0.3318066895008087
-        }
-      ]
+    "assertion_position": [
+      1089,
+      1092
     ],
-    "eng_translation": [
-      "100"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim 67 lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy [ENTITY]% trên khí trời)."
   },
   {
     "text": "thiếu máu cơ tim cục bộ",
@@ -1656,57 +435,10 @@
       1276,
       1299
     ],
-    "sentence": "7°c, huyết áp 139/68 mmhg, nhịp tim 67 lần/phút, nhịp thở 16 lần/phút, độ bão hòa oxy 100% trên khí trời)\nCác thủ thuật đã thực hiện: ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)\nCác phát hiện chẩn đoán khác\nNghiệm pháp gắng sức dương tính với [ENTITY], biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6195545792579651,
-          "sparse_similarity": 0.12322236597537994,
-          "hybrid_score": 0.3713884651660919
-        },
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6183603405952454,
-          "sparse_similarity": 0.12291326373815536,
-          "hybrid_score": 0.37063679099082947
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6217144131660461,
-          "sparse_similarity": 0.11702650785446167,
-          "hybrid_score": 0.3693704605102539
-        }
-      ]
+    "assertion_position": [
+      1262,
+      1285
     ],
-    "eng_translation": [
-      "Myocardial infarction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I219": 0.851584,
-        "I21A1": 0.785121,
-        "I249": 0.769203,
-        "I252": 0.761003,
-        "I639": 0.728907
-      },
-      "rapidfuzz": {
-        "I21A1": 0.95,
-        "I252": 0.95,
-        "I2109": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I21A1",
-      "confidence": 0.801609
-    }
+    "sentence": "Nghiệm pháp gắng sức dương tính với [ENTITY], biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên."
   }
 ]

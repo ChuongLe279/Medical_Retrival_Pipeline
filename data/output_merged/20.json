@@ -6,62 +6,11 @@
       48,
       61
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY]\n    - bệnh thận mạn, không đặc hiệu\n    - bệnh tim mạch do xơ vữa động mạch với Nhồi máu cơ tim gần đây\n    - rung nhĩ kịch phát\n    - tăng sản tuyến tiền liệt\n    Tiền sử phẫu thuật / thủ thuật\n    - đã phẫu thuật TURP \n    - xạ hình tưới máu cơ tim mibi\n    Thuốc trước khi nhập viện\n    - metoprolol (reduced from 50mg to 25mg daily)\n    - desmopressin\n    Các yếu tố nguy cơ liên quan\n    - Cựu chiến binh Thế chiến II\n    - Rối loạn dáng đi với nhiều lần ngã\n    - thường xuyên luyện tập, đi bộ 20 phút mỗi ngày trên máy chạy bộ\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6156708598136902,
-          "sparse_similarity": 0.19135579466819763,
-          "hybrid_score": 0.4035133123397827
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6087584495544434,
-          "sparse_similarity": 0.19556939601898193,
-          "hybrid_score": 0.40216392278671265
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6133357286453247,
-          "sparse_similarity": 0.190662682056427,
-          "hybrid_score": 0.40199920535087585
-        }
-      ]
+    "assertion_position": [
+      36,
+      49
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "bệnh thận mạn",
@@ -70,62 +19,11 @@
       68,
       81
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - [ENTITY], không đặc hiệu\n    - bệnh tim mạch do xơ vữa động mạch với Nhồi máu cơ tim gần đây\n    - rung nhĩ kịch phát\n    - tăng sản tuyến tiền liệt\n    Tiền sử phẫu thuật / thủ thuật\n    - đã phẫu thuật TURP \n    - xạ hình tưới máu cơ tim mibi\n    Thuốc trước khi nhập viện\n    - metoprolol (reduced from 50mg to 25mg daily)\n    - desmopressin\n    Các yếu tố nguy cơ liên quan\n    - Cựu chiến binh Thế chiến II\n    - Rối loạn dáng đi với nhiều lần ngã\n    - thường xuyên luyện tập, đi bộ 20 phút mỗi ngày trên máy chạy bộ\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính - tăng huyết áp - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6033235192298889,
-          "sparse_similarity": 0.1855202317237854,
-          "hybrid_score": 0.39442187547683716
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5982394814491272,
-          "sparse_similarity": 0.18975311517715454,
-          "hybrid_score": 0.39399629831314087
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.595955491065979,
-          "sparse_similarity": 0.18517766892910004,
-          "hybrid_score": 0.3905665874481201
-        }
-      ]
+    "assertion_position": [
+      51,
+      64
     ],
-    "eng_translation": [
-      "Chronic kidney disease",
-      "CKD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N189": 0.982146,
-        "N039": 0.781739,
-        "N186": 0.757736,
-        "N181": 0.744167,
-        "N1830": 0.681813
-      },
-      "rapidfuzz": {
-        "D631": 0.95,
-        "N181": 0.95,
-        "N1831": 0.95,
-        "I450": 0.72,
-        "I452": 0.72,
-        "I453": 0.72
-      }
-    },
-    "candidate": {
-      "code": "N189",
-      "confidence": 0.883931
-    }
+    "sentence": "[ENTITY], không đặc hiệu."
   },
   {
     "text": "bệnh tim mạch",
@@ -134,62 +32,11 @@
       104,
       117
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - bệnh thận mạn, không đặc hiệu\n    - [ENTITY] do xơ vữa động mạch với Nhồi máu cơ tim gần đây\n    - rung nhĩ kịch phát\n    - tăng sản tuyến tiền liệt\n    Tiền sử phẫu thuật / thủ thuật\n    - đã phẫu thuật TURP \n    - xạ hình tưới máu cơ tim mibi\n    Thuốc trước khi nhập viện\n    - metoprolol (reduced from 50mg to 25mg daily)\n    - desmopressin\n    Các yếu tố nguy cơ liên quan\n    - Cựu chiến binh Thế chiến II\n    - Rối loạn dáng đi với nhiều lần ngã\n    - thường xuyên luyện tập, đi bộ 20 phút mỗi ngày trên máy chạy bộ\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6106991767883301,
-          "sparse_similarity": 0.19906669855117798,
-          "hybrid_score": 0.40488293766975403
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6045283079147339,
-          "sparse_similarity": 0.20250321924686432,
-          "hybrid_score": 0.4035157561302185
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6059597730636597,
-          "sparse_similarity": 0.19781151413917542,
-          "hybrid_score": 0.40188562870025635
-        }
-      ]
+    "assertion_position": [
+      82,
+      95
     ],
-    "eng_translation": [
-      "cardiovascular disease",
-      "Cardiac disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I519": 0.955106,
-        "I5189": 0.746198,
-        "I429": 0.718682,
-        "I099": 0.705557,
-        "I679": 0.694969
-      },
-      "rapidfuzz": {
-        "C946": 0.855,
-        "I289": 0.855,
-        "I279": 0.855,
-        "R011": 0.855,
-        "T82120D": 0.855,
-        "T82129A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I519",
-      "confidence": 0.859595
-    }
+    "sentence": "[ENTITY] do xơ vữa động mạch với Nhồi máu cơ tim gần đây."
   },
   {
     "text": "xơ vữa động mạch",
@@ -198,62 +45,11 @@
       121,
       137
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - bệnh thận mạn, không đặc hiệu\n    - bệnh tim mạch do [ENTITY] với Nhồi máu cơ tim gần đây\n    - rung nhĩ kịch phát\n    - tăng sản tuyến tiền liệt\n    Tiền sử phẫu thuật / thủ thuật\n    - đã phẫu thuật TURP \n    - xạ hình tưới máu cơ tim mibi\n    Thuốc trước khi nhập viện\n    - metoprolol (reduced from 50mg to 25mg daily)\n    - desmopressin\n    Các yếu tố nguy cơ liên quan\n    - Cựu chiến binh Thế chiến II\n    - Rối loạn dáng đi với nhiều lần ngã\n    - thường xuyên luyện tập, đi bộ 20 phút mỗi ngày trên máy chạy bộ\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6139589548110962,
-          "sparse_similarity": 0.21816730499267578,
-          "hybrid_score": 0.416063129901886
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6061495542526245,
-          "sparse_similarity": 0.22206079959869385,
-          "hybrid_score": 0.4141051769256592
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6081069707870483,
-          "sparse_similarity": 0.2164911925792694,
-          "hybrid_score": 0.41229909658432007
-        }
-      ]
+    "assertion_position": [
+      99,
+      115
     ],
-    "eng_translation": [
-      "Atherosclerosis",
-      "Arteriosclerosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I7090": 0.960917,
-        "I7091": 0.846441,
-        "I700": 0.836473,
-        "I672": 0.751668,
-        "I708": 0.727376
-      },
-      "rapidfuzz": {
-        "I70743": 0.9,
-        "I70291": 0.9,
-        "I70269": 0.9,
-        "I7090": 0.812903,
-        "I7091": 0.812903,
-        "I70735": 0.812903
-      }
-    },
-    "candidate": {
-      "code": "I7090",
-      "confidence": 0.946116
-    }
+    "sentence": "bệnh tim mạch do [ENTITY] với Nhồi máu cơ tim gần đây."
   },
   {
     "text": "Nhồi máu cơ tim",
@@ -262,58 +58,11 @@
       142,
       157
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - bệnh thận mạn, không đặc hiệu\n    - bệnh tim mạch do xơ vữa động mạch với [ENTITY] gần đây\n    - rung nhĩ kịch phát\n    - tăng sản tuyến tiền liệt\n    Tiền sử phẫu thuật / thủ thuật\n    - đã phẫu thuật TURP \n    - xạ hình tưới máu cơ tim mibi\n    Thuốc trước khi nhập viện\n    - metoprolol (reduced from 50mg to 25mg daily)\n    - desmopressin\n    Các yếu tố nguy cơ liên quan\n    - Cựu chiến binh Thế chiến II\n    - Rối loạn dáng đi với nhiều lần ngã\n    - thường xuyên luyện tập, đi bộ 20 phút mỗi ngày trên máy chạy bộ\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6207016110420227,
-          "sparse_similarity": 0.22512419521808624,
-          "hybrid_score": 0.4229128956794739
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6132267713546753,
-          "sparse_similarity": 0.22885018587112427,
-          "hybrid_score": 0.4210384786128998
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6128050684928894,
-          "sparse_similarity": 0.22288265824317932,
-          "hybrid_score": 0.41784387826919556
-        }
-      ]
+    "assertion_position": [
+      120,
+      135
     ],
-    "eng_translation": [
-      "Myocardial infarction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I219": 0.851584,
-        "I21A1": 0.785121,
-        "I249": 0.769203,
-        "I252": 0.761003,
-        "I639": 0.728907
-      },
-      "rapidfuzz": {
-        "I21A1": 0.95,
-        "I252": 0.95,
-        "I2109": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I21A1",
-      "confidence": 0.801609
-    }
+    "sentence": "bệnh tim mạch do xơ vữa động mạch với [ENTITY] gần đây."
   },
   {
     "text": "rung nhĩ kịch phát",
@@ -322,58 +71,11 @@
       172,
       190
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - bệnh thận mạn, không đặc hiệu\n    - bệnh tim mạch do xơ vữa động mạch với Nhồi máu cơ tim gần đây\n    - [ENTITY]\n    - tăng sản tuyến tiền liệt\n    Tiền sử phẫu thuật / thủ thuật\n    - đã phẫu thuật TURP \n    - xạ hình tưới máu cơ tim mibi\n    Thuốc trước khi nhập viện\n    - metoprolol (reduced from 50mg to 25mg daily)\n    - desmopressin\n    Các yếu tố nguy cơ liên quan\n    - Cựu chiến binh Thế chiến II\n    - Rối loạn dáng đi với nhiều lần ngã\n    - thường xuyên luyện tập, đi bộ 20 phút mỗi ngày trên máy chạy bộ\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5736416578292847,
-          "sparse_similarity": 0.17132946848869324,
-          "hybrid_score": 0.37248557806015015
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5700085759162903,
-          "sparse_similarity": 0.17073436081409454,
-          "hybrid_score": 0.3703714609146118
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5792171955108643,
-          "sparse_similarity": 0.16036397218704224,
-          "hybrid_score": 0.36979058384895325
-        }
-      ]
+    "assertion_position": [
+      145,
+      163
     ],
-    "eng_translation": [
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I480": 1.0,
-        "I4821": 0.894503,
-        "I4891": 0.78729,
-        "I4820": 0.756725,
-        "I4811": 0.753511
-      },
-      "rapidfuzz": {
-        "I480": 1.0,
-        "G44039": 0.855,
-        "I231": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I480",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "tăng sản tuyến tiền liệt",
@@ -382,58 +84,11 @@
       197,
       221
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - bệnh thận mạn, không đặc hiệu\n    - bệnh tim mạch do xơ vữa động mạch với Nhồi máu cơ tim gần đây\n    - rung nhĩ kịch phát\n    - [ENTITY]\n    Tiền sử phẫu thuật / thủ thuật\n    - đã phẫu thuật TURP \n    - xạ hình tưới máu cơ tim mibi\n    Thuốc trước khi nhập viện\n    - metoprolol (reduced from 50mg to 25mg daily)\n    - desmopressin\n    Các yếu tố nguy cơ liên quan\n    - Cựu chiến binh Thế chiến II\n    - Rối loạn dáng đi với nhiều lần ngã\n    - thường xuyên luyện tập, đi bộ 20 phút mỗi ngày trên máy chạy bộ\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6019031405448914,
-          "sparse_similarity": 0.15814007818698883,
-          "hybrid_score": 0.3800216019153595
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5962544679641724,
-          "sparse_similarity": 0.16256313025951385,
-          "hybrid_score": 0.3794088065624237
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5929921269416809,
-          "sparse_similarity": 0.15946096181869507,
-          "hybrid_score": 0.376226544380188
-        }
-      ]
+    "assertion_position": [
+      165,
+      189
     ],
-    "eng_translation": [
-      "Benign Prostatic Hyperplasia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N400": 0.819702,
-        "D291": 0.770737,
-        "N401": 0.741695,
-        "N4231": 0.690872,
-        "Z87430": 0.67855
-      },
-      "rapidfuzz": {
-        "N400": 0.9,
-        "N401": 0.9,
-        "D3A024": 0.855
-      }
-    },
-    "candidate": {
-      "code": "N400",
-      "confidence": 0.827732
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "loạn dáng đi",
@@ -442,46 +97,11 @@
       495,
       507
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Tăng huyết áp\n    - bệnh thận mạn, không đặc hiệu\n    - bệnh tim mạch do xơ vữa động mạch với Nhồi máu cơ tim gần đây\n    - rung nhĩ kịch phát\n    - tăng sản tuyến tiền liệt\n    Tiền sử phẫu thuật / thủ thuật\n    - đã phẫu thuật TURP \n    - xạ hình tưới máu cơ tim mibi\n    Thuốc trước khi nhập viện\n    - metoprolol (reduced from 50mg to 25mg daily)\n    - desmopressin\n    Các yếu tố nguy cơ liên quan\n    - Cựu chiến binh Thế chiến II\n    - Rối [ENTITY] với nhiều lần ngã\n    - thường xuyên luyện tập, đi bộ 20 phút mỗi ngày trên máy chạy bộ\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6132511496543884,
-          "sparse_similarity": 0.19533418118953705,
-          "hybrid_score": 0.40429267287254333
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6118505001068115,
-          "sparse_similarity": 0.1950557976961136,
-          "hybrid_score": 0.40345314145088196
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6057338118553162,
-          "sparse_similarity": 0.20012377202510834,
-          "hybrid_score": 0.40292879939079285
-        }
-      ]
+    "assertion_position": [
+      423,
+      435
     ],
-    "eng_translation": [
-      "gait disorder",
-      "Gait abnormality"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Rối [ENTITY] với nhiều lần ngã."
   },
   {
     "text": "gãy cổ xương đùi",
@@ -490,62 +110,11 @@
       651,
       667
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ngã với [ENTITY] di lệch\n    Thời điểm khởi phát triệu chứng: Hôm qua\n    Diễn biến bệnh\n    - ngã hôm qua\n    - Có thể tự đi lại và lái xe sau ngã\n    - Sáng nay không thể tự ra khỏi giường và tự đi lại\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch\n    Triệu chứng khi nhập viện: Đau ở hông phải khi cử động và thay đổi tư thế\n    Đặc điểm triệu chứng\n    - Vị trí: hông phải\n    - Yếu tố làm nặng thêm: cử động, thay đổi tư thế\n    Các sự kiện trước khi nhập viện\n    - ngã do cơ học hôm qua\n    - Chấn thương tù ở Chi dưới phải (RLE)\n    - vết thương hở phần khác của chi dưới\n    - Không có tiền sử chấn thương đầu hoặc mất ý thức (mất ý thức)\n    - có thể chịu trọng lượng và lái xe sau ngã\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch; mất vận động vùng đỉnh\n    - chụp x-quang ngực Hình ảnh mức nước - hơi vùng ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6109305024147034,
-          "sparse_similarity": 0.1881852149963379,
-          "hybrid_score": 0.39955785870552063
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6126330494880676,
-          "sparse_similarity": 0.1702510416507721,
-          "hybrid_score": 0.39144206047058105
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6112474799156189,
-          "sparse_similarity": 0.17024913430213928,
-          "hybrid_score": 0.3907483220100403
-        }
-      ]
+    "assertion_position": [
+      568,
+      584
     ],
-    "eng_translation": [
-      "fracture of the femoral neck",
-      "femoral neck fracture"
-    ],
-    "retriever": {
-      "sapbert": {
-        "S72009A": 0.66892,
-        "S72009B": 0.667719,
-        "S72009C": 0.653242,
-        "S72009E": 0.643909,
-        "S129XXA": 0.642331
-      },
-      "rapidfuzz": {
-        "S82845B": 0.855,
-        "S82845C": 0.855,
-        "S82845D": 0.855,
-        "S02670S": 0.855,
-        "S72466D": 0.855,
-        "S72466C": 0.855
-      }
-    },
-    "candidate": {
-      "code": "S72009A",
-      "confidence": 0.602028
-    }
+    "sentence": "Lý do nhập viện: ngã với [ENTITY] di lệch."
   },
   {
     "text": "lệch",
@@ -554,62 +123,11 @@
       671,
       675
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ngã với gãy cổ xương đùi di [ENTITY]\n    Thời điểm khởi phát triệu chứng: Hôm qua\n    Diễn biến bệnh\n    - ngã hôm qua\n    - Có thể tự đi lại và lái xe sau ngã\n    - Sáng nay không thể tự ra khỏi giường và tự đi lại\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch\n    Triệu chứng khi nhập viện: Đau ở hông phải khi cử động và thay đổi tư thế\n    Đặc điểm triệu chứng\n    - Vị trí: hông phải\n    - Yếu tố làm nặng thêm: cử động, thay đổi tư thế\n    Các sự kiện trước khi nhập viện\n    - ngã do cơ học hôm qua\n    - Chấn thương tù ở Chi dưới phải (RLE)\n    - vết thương hở phần khác của chi dưới\n    - Không có tiền sử chấn thương đầu hoặc mất ý thức (mất ý thức)\n    - có thể chịu trọng lượng và lái xe sau ngã\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch; mất vận động vùng đỉnh\n    - chụp x-quang ngực Hình ảnh mức nước - hơi vùng ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5779773592948914,
-          "sparse_similarity": 0.16177457571029663,
-          "hybrid_score": 0.369875967502594
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5843518972396851,
-          "sparse_similarity": 0.14723268151283264,
-          "hybrid_score": 0.36579227447509766
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5805343389511108,
-          "sparse_similarity": 0.14635908603668213,
-          "hybrid_score": 0.3634467124938965
-        }
-      ]
+    "assertion_position": [
+      588,
+      592
     ],
-    "eng_translation": [
-      "lệch",
-      "Lateral deviation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "H05219": 0.771104,
-        "M2633": 0.671548,
-        "M2634": 0.668177,
-        "H05213": 0.665002,
-        "H05211": 0.628634
-      },
-      "rapidfuzz": {
-        "S02849B": 0.855,
-        "S8265XG": 0.855,
-        "S8265XE": 0.855,
-        "Z993": 0.675,
-        "Q544": 0.675,
-        "Q672": 0.675
-      }
-    },
-    "candidate": {
-      "code": "H05219",
-      "confidence": 0.693994
-    }
+    "sentence": "Lý do nhập viện: ngã với gãy cổ xương đùi di [ENTITY]."
   },
   {
     "text": "gãy cổ xương đùi di lệch",
@@ -618,58 +136,11 @@
       898,
       922
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ngã với gãy cổ xương đùi di lệch\n    Thời điểm khởi phát triệu chứng: Hôm qua\n    Diễn biến bệnh\n    - ngã hôm qua\n    - Có thể tự đi lại và lái xe sau ngã\n    - Sáng nay không thể tự ra khỏi giường và tự đi lại\n    - Gọi xe cứu thương\n    - Phát hiện có [ENTITY]\n    Triệu chứng khi nhập viện: Đau ở hông phải khi cử động và thay đổi tư thế\n    Đặc điểm triệu chứng\n    - Vị trí: hông phải\n    - Yếu tố làm nặng thêm: cử động, thay đổi tư thế\n    Các sự kiện trước khi nhập viện\n    - ngã do cơ học hôm qua\n    - Chấn thương tù ở Chi dưới phải (RLE)\n    - vết thương hở phần khác của chi dưới\n    - Không có tiền sử chấn thương đầu hoặc mất ý thức (mất ý thức)\n    - có thể chịu trọng lượng và lái xe sau ngã\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch; mất vận động vùng đỉnh\n    - chụp x-quang ngực Hình ảnh mức nước - hơi vùng ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5888688564300537,
-          "sparse_similarity": 0.16552433371543884,
-          "hybrid_score": 0.37719660997390747
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5917023420333862,
-          "sparse_similarity": 0.14730286598205566,
-          "hybrid_score": 0.36950260400772095
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5821136236190796,
-          "sparse_similarity": 0.1553298532962799,
-          "hybrid_score": 0.36872172355651855
-        }
-      ]
+    "assertion_position": [
+      784,
+      808
     ],
-    "eng_translation": [
-      "fracture of the femoral neck with displacement"
-    ],
-    "retriever": {
-      "sapbert": {
-        "S7223XA": 0.632444,
-        "S7223XD": 0.630301,
-        "S7223XE": 0.629531,
-        "S7223XS": 0.628047,
-        "S72009G": 0.625128
-      },
-      "rapidfuzz": {
-        "M84550K": 0.855,
-        "V2041XA": 0.855,
-        "V2041XD": 0.855
-      }
-    },
-    "candidate": {
-      "code": "S7223XA",
-      "confidence": 0.5692
-    }
+    "sentence": "Phát hiện có [ENTITY]."
   },
   {
     "text": "Đau ở hông phải",
@@ -678,46 +149,11 @@
       954,
       969
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ngã với gãy cổ xương đùi di lệch\n    Thời điểm khởi phát triệu chứng: Hôm qua\n    Diễn biến bệnh\n    - ngã hôm qua\n    - Có thể tự đi lại và lái xe sau ngã\n    - Sáng nay không thể tự ra khỏi giường và tự đi lại\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch\n    Triệu chứng khi nhập viện: [ENTITY] khi cử động và thay đổi tư thế\n    Đặc điểm triệu chứng\n    - Vị trí: hông phải\n    - Yếu tố làm nặng thêm: cử động, thay đổi tư thế\n    Các sự kiện trước khi nhập viện\n    - ngã do cơ học hôm qua\n    - Chấn thương tù ở Chi dưới phải (RLE)\n    - vết thương hở phần khác của chi dưới\n    - Không có tiền sử chấn thương đầu hoặc mất ý thức (mất ý thức)\n    - có thể chịu trọng lượng và lái xe sau ngã\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch; mất vận động vùng đỉnh\n    - chụp x-quang ngực Hình ảnh mức nước - hơi vùng ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5953307151794434,
-          "sparse_similarity": 0.162013441324234,
-          "hybrid_score": 0.3786720633506775
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5970134735107422,
-          "sparse_similarity": 0.15643846988677979,
-          "hybrid_score": 0.376725971698761
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5960515737533569,
-          "sparse_similarity": 0.15616098046302795,
-          "hybrid_score": 0.37610626220703125
-        }
-      ]
+    "assertion_position": [
+      837,
+      852
     ],
-    "eng_translation": [
-      "Right hip pain",
-      "Hip pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng khi nhập viện: [ENTITY] khi cử động và thay đổi tư thế."
   },
   {
     "text": "ý thức",
@@ -726,45 +162,11 @@
       1301,
       1307
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ngã với gãy cổ xương đùi di lệch\n    Thời điểm khởi phát triệu chứng: Hôm qua\n    Diễn biến bệnh\n    - ngã hôm qua\n    - Có thể tự đi lại và lái xe sau ngã\n    - Sáng nay không thể tự ra khỏi giường và tự đi lại\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch\n    Triệu chứng khi nhập viện: Đau ở hông phải khi cử động và thay đổi tư thế\n    Đặc điểm triệu chứng\n    - Vị trí: hông phải\n    - Yếu tố làm nặng thêm: cử động, thay đổi tư thế\n    Các sự kiện trước khi nhập viện\n    - ngã do cơ học hôm qua\n    - Chấn thương tù ở Chi dưới phải (RLE)\n    - vết thương hở phần khác của chi dưới\n    - Không có tiền sử chấn thương đầu hoặc mất [ENTITY] (mất ý thức)\n    - có thể chịu trọng lượng và lái xe sau ngã\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch; mất vận động vùng đỉnh\n    - chụp x-quang ngực Hình ảnh mức nước - hơi vùng ngực.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử chấn thương đầu hoặc mất [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5671103596687317,
-          "sparse_similarity": 0.14800751209259033,
-          "hybrid_score": 0.357558935880661
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5721136331558228,
-          "sparse_similarity": 0.1341586709022522,
-          "hybrid_score": 0.3531361520290375
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5684095025062561,
-          "sparse_similarity": 0.13288170099258423,
-          "hybrid_score": 0.35064560174942017
-        }
-      ]
+    "assertion_position": [
+      1148,
+      1154
     ],
-    "eng_translation": [
-      "thức tỉnh"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có tiền sử chấn thương đầu hoặc mất [ENTITY] (mất ý thức)."
   },
   {
     "text": "mất ý thức",
@@ -773,46 +175,11 @@
       1309,
       1319
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ngã với gãy cổ xương đùi di lệch\n    Thời điểm khởi phát triệu chứng: Hôm qua\n    Diễn biến bệnh\n    - ngã hôm qua\n    - Có thể tự đi lại và lái xe sau ngã\n    - Sáng nay không thể tự ra khỏi giường và tự đi lại\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch\n    Triệu chứng khi nhập viện: Đau ở hông phải khi cử động và thay đổi tư thế\n    Đặc điểm triệu chứng\n    - Vị trí: hông phải\n    - Yếu tố làm nặng thêm: cử động, thay đổi tư thế\n    Các sự kiện trước khi nhập viện\n    - ngã do cơ học hôm qua\n    - Chấn thương tù ở Chi dưới phải (RLE)\n    - vết thương hở phần khác của chi dưới\n    - Không có tiền sử chấn thương đầu hoặc mất ý thức ([ENTITY])\n    - có thể chịu trọng lượng và lái xe sau ngã\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch; mất vận động vùng đỉnh\n    - chụp x-quang ngực Hình ảnh mức nước - hơi vùng ngực.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử chấn thương đầu hoặc mất ý thức ([entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5682082772254944,
-          "sparse_similarity": 0.15584895014762878,
-          "hybrid_score": 0.3620285987854004
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5731642842292786,
-          "sparse_similarity": 0.14153984189033508,
-          "hybrid_score": 0.357352077960968
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5692091584205627,
-          "sparse_similarity": 0.14062093198299408,
-          "hybrid_score": 0.354915052652359
-        }
-      ]
+    "assertion_position": [
+      1156,
+      1166
     ],
-    "eng_translation": [
-      "loss of consciousness",
-      "Syncope"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có tiền sử chấn thương đầu hoặc mất ý thức ([ENTITY])."
   },
   {
     "text": "gãy cổ xương đùi",
@@ -821,46 +188,11 @@
       1412,
       1428
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ngã với gãy cổ xương đùi di lệch\n    Thời điểm khởi phát triệu chứng: Hôm qua\n    Diễn biến bệnh\n    - ngã hôm qua\n    - Có thể tự đi lại và lái xe sau ngã\n    - Sáng nay không thể tự ra khỏi giường và tự đi lại\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch\n    Triệu chứng khi nhập viện: Đau ở hông phải khi cử động và thay đổi tư thế\n    Đặc điểm triệu chứng\n    - Vị trí: hông phải\n    - Yếu tố làm nặng thêm: cử động, thay đổi tư thế\n    Các sự kiện trước khi nhập viện\n    - ngã do cơ học hôm qua\n    - Chấn thương tù ở Chi dưới phải (RLE)\n    - vết thương hở phần khác của chi dưới\n    - Không có tiền sử chấn thương đầu hoặc mất ý thức (mất ý thức)\n    - có thể chịu trọng lượng và lái xe sau ngã\n    - Gọi xe cứu thương\n    - Phát hiện có [ENTITY] di lệch; mất vận động vùng đỉnh\n    - chụp x-quang ngực Hình ảnh mức nước - hơi vùng ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5772325396537781,
-          "sparse_similarity": 0.15842300653457642,
-          "hybrid_score": 0.36782777309417725
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5808493494987488,
-          "sparse_similarity": 0.14389699697494507,
-          "hybrid_score": 0.3623731732368469
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5772984027862549,
-          "sparse_similarity": 0.14317010343074799,
-          "hybrid_score": 0.36023426055908203
-        }
-      ]
+    "assertion_position": [
+      1244,
+      1260
     ],
-    "eng_translation": [
-      "fracture of the femoral neck",
-      "femoral neck fracture"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phát hiện có [ENTITY] di lệch; mất vận động vùng đỉnh."
   },
   {
     "text": "mất vận động vùng",
@@ -869,46 +201,11 @@
       1438,
       1455
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ngã với gãy cổ xương đùi di lệch\n    Thời điểm khởi phát triệu chứng: Hôm qua\n    Diễn biến bệnh\n    - ngã hôm qua\n    - Có thể tự đi lại và lái xe sau ngã\n    - Sáng nay không thể tự ra khỏi giường và tự đi lại\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch\n    Triệu chứng khi nhập viện: Đau ở hông phải khi cử động và thay đổi tư thế\n    Đặc điểm triệu chứng\n    - Vị trí: hông phải\n    - Yếu tố làm nặng thêm: cử động, thay đổi tư thế\n    Các sự kiện trước khi nhập viện\n    - ngã do cơ học hôm qua\n    - Chấn thương tù ở Chi dưới phải (RLE)\n    - vết thương hở phần khác của chi dưới\n    - Không có tiền sử chấn thương đầu hoặc mất ý thức (mất ý thức)\n    - có thể chịu trọng lượng và lái xe sau ngã\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch; [ENTITY] đỉnh\n    - chụp x-quang ngực Hình ảnh mức nước - hơi vùng ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.5688300132751465,
-          "sparse_similarity": 0.14701636135578156,
-          "hybrid_score": 0.3579231798648834
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5730750560760498,
-          "sparse_similarity": 0.13277097046375275,
-          "hybrid_score": 0.3529230058193207
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5690084099769592,
-          "sparse_similarity": 0.13154275715351105,
-          "hybrid_score": 0.35027557611465454
-        }
-      ]
+    "assertion_position": [
+      1270,
+      1287
     ],
-    "eng_translation": [
-      "loss of motor function in the region",
-      "Neurological deficit in the region"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phát hiện có gãy cổ xương đùi di lệch; [ENTITY] đỉnh."
   },
   {
     "text": "chụp x-quang",
@@ -917,46 +214,11 @@
       1467,
       1479
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ngã với gãy cổ xương đùi di lệch\n    Thời điểm khởi phát triệu chứng: Hôm qua\n    Diễn biến bệnh\n    - ngã hôm qua\n    - Có thể tự đi lại và lái xe sau ngã\n    - Sáng nay không thể tự ra khỏi giường và tự đi lại\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch\n    Triệu chứng khi nhập viện: Đau ở hông phải khi cử động và thay đổi tư thế\n    Đặc điểm triệu chứng\n    - Vị trí: hông phải\n    - Yếu tố làm nặng thêm: cử động, thay đổi tư thế\n    Các sự kiện trước khi nhập viện\n    - ngã do cơ học hôm qua\n    - Chấn thương tù ở Chi dưới phải (RLE)\n    - vết thương hở phần khác của chi dưới\n    - Không có tiền sử chấn thương đầu hoặc mất ý thức (mất ý thức)\n    - có thể chịu trọng lượng và lái xe sau ngã\n    - Gọi xe cứu thương\n    - Phát hiện có gãy cổ xương đùi di lệch; mất vận động vùng đỉnh\n    - [ENTITY] ngực Hình ảnh mức nước - hơi vùng ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.567736029624939,
-          "sparse_similarity": 0.1454043835401535,
-          "hybrid_score": 0.35657021403312683
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5723518133163452,
-          "sparse_similarity": 0.131902277469635,
-          "hybrid_score": 0.3521270453929901
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5684399604797363,
-          "sparse_similarity": 0.13069787621498108,
-          "hybrid_score": 0.3495689034461975
-        }
-      ]
+    "assertion_position": [
+      1294,
+      1306
     ],
-    "eng_translation": [
-      "X-ray imaging",
-      "Radiographic imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] ngực Hình ảnh mức nước - hơi vùng ngực."
   },
   {
     "text": "chụp ct",
@@ -965,46 +227,11 @@
       1526,
       1533
     ],
-    "sentence": "- [ENTITY] ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy\n    Tình trạng tiến triển nặng trước nhập viện, bệnh nhân nằm tại giường, không thể tự di chuyển và không chịu lực được khi đứng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007154",
-          "document": "bên nội của người bệnh có [ENTITY].",
-          "dense_similarity": 0.5563125014305115,
-          "sparse_similarity": 0.11162455379962921,
-          "hybrid_score": 0.33396852016448975
-        },
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5494353175163269,
-          "sparse_similarity": 0.11743082851171494,
-          "hybrid_score": 0.33343306183815
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5618142485618591,
-          "sparse_similarity": 0.10480783134698868,
-          "hybrid_score": 0.3333110511302948
-        }
-      ]
+    "assertion_position": [
+      1347,
+      1354
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy."
   },
   {
     "text": "tim to",
@@ -1013,47 +240,11 @@
       1570,
       1576
     ],
-    "sentence": "- chụp ct ngực không thuốc cản quang cho thấy [ENTITY], tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy\n    Tình trạng tiến triển nặng trước nhập viện, bệnh nhân nằm tại giường, không thể tự di chuyển và không chịu lực được khi đứng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6020345687866211,
-          "sparse_similarity": 0.1295991986989975,
-          "hybrid_score": 0.3658168911933899
-        },
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5914046168327332,
-          "sparse_similarity": 0.13847380876541138,
-          "hybrid_score": 0.36493921279907227
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5995475649833679,
-          "sparse_similarity": 0.1262729912996292,
-          "hybrid_score": 0.36291027069091797
-        }
-      ]
+    "assertion_position": [
+      1391,
+      1397
     ],
-    "eng_translation": [
-      "Heart enlarged",
-      "Enlarged heart",
-      "Cardiomegaly"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy [ENTITY], tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy."
   },
   {
     "text": "tràn dịch màng tim",
@@ -1062,46 +253,11 @@
       1578,
       1596
     ],
-    "sentence": "- chụp ct ngực không thuốc cản quang cho thấy tim to, [ENTITY], tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy\n    Tình trạng tiến triển nặng trước nhập viện, bệnh nhân nằm tại giường, không thể tự di chuyển và không chịu lực được khi đứng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5808058977127075,
-          "sparse_similarity": 0.12823477387428284,
-          "hybrid_score": 0.354520320892334
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5820862054824829,
-          "sparse_similarity": 0.12566547095775604,
-          "hybrid_score": 0.3538758456707001
-        },
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5723295211791992,
-          "sparse_similarity": 0.13509447872638702,
-          "hybrid_score": 0.3537119925022125
-        }
-      ]
+    "assertion_position": [
+      1399,
+      1417
     ],
-    "eng_translation": [
-      "pericardial effusion",
-      "Cardiac fluid accumulation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, [ENTITY], tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy."
   },
   {
     "text": "tràn dịch màng phổi",
@@ -1110,46 +266,11 @@
       1598,
       1617
     ],
-    "sentence": "- chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, [ENTITY] hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy\n    Tình trạng tiến triển nặng trước nhập viện, bệnh nhân nằm tại giường, không thể tự di chuyển và không chịu lực được khi đứng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5752207636833191,
-          "sparse_similarity": 0.13487163186073303,
-          "hybrid_score": 0.35504621267318726
-        },
-        {
-          "id": "isFamily_007154",
-          "document": "bên nội của người bệnh có [ENTITY].",
-          "dense_similarity": 0.5797088742256165,
-          "sparse_similarity": 0.12873007357120514,
-          "hybrid_score": 0.3542194664478302
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.583642840385437,
-          "sparse_similarity": 0.12453331798315048,
-          "hybrid_score": 0.35408806800842285
-        }
-      ]
+    "assertion_position": [
+      1419,
+      1438
     ],
-    "eng_translation": [
-      "pleural effusion",
-      "Pleural fluid accumulation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, [ENTITY] hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy."
   },
   {
     "text": "bên",
@@ -1158,46 +279,11 @@
       1622,
       1625
     ],
-    "sentence": "- chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai [ENTITY], thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy\n    Tình trạng tiến triển nặng trước nhập viện, bệnh nhân nằm tại giường, không thể tự di chuyển và không chịu lực được khi đứng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5722629427909851,
-          "sparse_similarity": 0.10335855931043625,
-          "hybrid_score": 0.337810754776001
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.574607789516449,
-          "sparse_similarity": 0.10058844834566116,
-          "hybrid_score": 0.33759811520576477
-        },
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.563662052154541,
-          "sparse_similarity": 0.10876763612031937,
-          "hybrid_score": 0.3362148404121399
-        }
-      ]
+    "assertion_position": [
+      1443,
+      1446
     ],
-    "eng_translation": [
-      "bên",
-      "The query provided is in Vietnamese and does not contain any medical content. Therefore, no rewrite is necessary."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai [ENTITY], thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy."
   },
   {
     "text": "thoát vị hoành nhỏ",
@@ -1206,45 +292,11 @@
       1627,
       1645
     ],
-    "sentence": "- chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, [ENTITY], thay đổi khí phế thủng, và xẹp phổi hai đáy\n    Tình trạng tiến triển nặng trước nhập viện, bệnh nhân nằm tại giường, không thể tự di chuyển và không chịu lực được khi đứng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007154",
-          "document": "bên nội của người bệnh có [ENTITY].",
-          "dense_similarity": 0.5725599527359009,
-          "sparse_similarity": 0.12528668344020844,
-          "hybrid_score": 0.34892332553863525
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5763629674911499,
-          "sparse_similarity": 0.12106266617774963,
-          "hybrid_score": 0.3487128019332886
-        },
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5678942799568176,
-          "sparse_similarity": 0.1293349713087082,
-          "hybrid_score": 0.3486146330833435
-        }
-      ]
+    "assertion_position": [
+      1448,
+      1466
     ],
-    "eng_translation": [
-      "hiatal hernia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, [ENTITY], thay đổi khí phế thủng, và xẹp phổi hai đáy."
   },
   {
     "text": "phế thủng",
@@ -1253,46 +305,11 @@
       1660,
       1669
     ],
-    "sentence": "- chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí [ENTITY], và xẹp phổi hai đáy\n    Tình trạng tiến triển nặng trước nhập viện, bệnh nhân nằm tại giường, không thể tự di chuyển và không chịu lực được khi đứng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5663356781005859,
-          "sparse_similarity": 0.11131218075752258,
-          "hybrid_score": 0.33882391452789307
-        },
-        {
-          "id": "isFamily_007154",
-          "document": "bên nội của người bệnh có [ENTITY].",
-          "dense_similarity": 0.5614616870880127,
-          "sparse_similarity": 0.11472883075475693,
-          "hybrid_score": 0.3380952477455139
-        },
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5558661818504333,
-          "sparse_similarity": 0.11944851279258728,
-          "hybrid_score": 0.3376573324203491
-        }
-      ]
+    "assertion_position": [
+      1481,
+      1490
     ],
-    "eng_translation": [
-      "Pulmonary perforation",
-      "Pneumothorax"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí [ENTITY], và xẹp phổi hai đáy."
   },
   {
     "text": "xẹp phổi hai đáy",
@@ -1301,46 +318,11 @@
       1674,
       1690
     ],
-    "sentence": "- chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và [ENTITY]\n    Tình trạng tiến triển nặng trước nhập viện, bệnh nhân nằm tại giường, không thể tự di chuyển và không chịu lực được khi đứng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5550382137298584,
-          "sparse_similarity": 0.11115018278360367,
-          "hybrid_score": 0.33309420943260193
-        },
-        {
-          "id": "isFamily_007154",
-          "document": "bên nội của người bệnh có [ENTITY].",
-          "dense_similarity": 0.559626579284668,
-          "sparse_similarity": 0.1061171144247055,
-          "hybrid_score": 0.33287185430526733
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5630659461021423,
-          "sparse_similarity": 0.09930799156427383,
-          "hybrid_score": 0.331186980009079
-        }
-      ]
+    "assertion_position": [
+      1495,
+      1511
     ],
-    "eng_translation": [
-      "Bilateral pulmonary collapse",
-      "Bilateral pulmonary atelectasis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và [ENTITY]."
   },
   {
     "text": "đau ở hông",
@@ -1349,46 +331,11 @@
       1921,
       1931
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền [ENTITY] phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6066102385520935,
-          "sparse_similarity": 0.11822673678398132,
-          "hybrid_score": 0.3624184727668762
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6049851179122925,
-          "sparse_similarity": 0.11478617787361145,
-          "hybrid_score": 0.35988563299179077
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5829825401306152,
-          "sparse_similarity": 0.1366613656282425,
-          "hybrid_score": 0.35982194542884827
-        }
-      ]
+    "assertion_position": [
+      1721,
+      1731
     ],
-    "eng_translation": [
-      "pain in the hip",
-      "Hip pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Than phiền [ENTITY] phải khi cử động và thay đổi tư thế."
   },
   {
     "text": "chụp x-quang",
@@ -1397,46 +344,11 @@
       2023,
       2035
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - [ENTITY] ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6002275943756104,
-          "sparse_similarity": 0.11329110711812973,
-          "hybrid_score": 0.35675933957099915
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5773849487304688,
-          "sparse_similarity": 0.13140836358070374,
-          "hybrid_score": 0.35439664125442505
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5959485769271851,
-          "sparse_similarity": 0.11197152733802795,
-          "hybrid_score": 0.3539600372314453
-        }
-      ]
+    "assertion_position": [
+      1815,
+      1827
     ],
-    "eng_translation": [
-      "X-ray imaging",
-      "Radiographic imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] ngực: mức nước-khí."
   },
   {
     "text": "chụp ct",
@@ -1445,46 +357,11 @@
       2061,
       2068
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - [ENTITY] ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5879170894622803,
-          "sparse_similarity": 0.10395228117704391,
-          "hybrid_score": 0.3459346890449524
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5866714119911194,
-          "sparse_similarity": 0.1013667955994606,
-          "hybrid_score": 0.3440191149711609
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5625070929527283,
-          "sparse_similarity": 0.12089335918426514,
-          "hybrid_score": 0.3417002260684967
-        }
-      ]
+    "assertion_position": [
+      1848,
+      1855
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy."
   },
   {
     "text": "tim to",
@@ -1493,47 +370,11 @@
       2097,
       2103
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: [ENTITY], tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5917966365814209,
-          "sparse_similarity": 0.11335939913988113,
-          "hybrid_score": 0.3525780141353607
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5897313356399536,
-          "sparse_similarity": 0.109611876308918,
-          "hybrid_score": 0.3496716022491455
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5678918957710266,
-          "sparse_similarity": 0.129087433218956,
-          "hybrid_score": 0.3484896719455719
-        }
-      ]
+    "assertion_position": [
+      1884,
+      1890
     ],
-    "eng_translation": [
-      "Heart enlarged",
-      "Enlarged heart",
-      "Cardiomegaly"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang: [ENTITY], tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy."
   },
   {
     "text": "tràn dịch màng tim",
@@ -1542,46 +383,11 @@
       2105,
       2123
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, [ENTITY], tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5408619046211243,
-          "sparse_similarity": 0.09346254914999008,
-          "hybrid_score": 0.3171622157096863
-        },
-        {
-          "id": "isHistorical_012933",
-          "document": "cách đây 30 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5393643379211426,
-          "sparse_similarity": 0.09454686939716339,
-          "hybrid_score": 0.3169555962085724
-        },
-        {
-          "id": "isHistorical_020721",
-          "document": "khoảng 48 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.538862407207489,
-          "sparse_similarity": 0.09307171404361725,
-          "hybrid_score": 0.31596705317497253
-        }
-      ]
+    "assertion_position": [
+      1892,
+      1910
     ],
-    "eng_translation": [
-      "pericardial effusion",
-      "Cardiac fluid accumulation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, [ENTITY], tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy."
   },
   {
     "text": "tràn dịch màng phổi",
@@ -1590,46 +396,11 @@
       2125,
       2144
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, [ENTITY] hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.588689386844635,
-          "sparse_similarity": 0.0954417958855629,
-          "hybrid_score": 0.34206560254096985
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5873978137969971,
-          "sparse_similarity": 0.0946880355477333,
-          "hybrid_score": 0.3410429358482361
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5653598308563232,
-          "sparse_similarity": 0.11361575871706009,
-          "hybrid_score": 0.33948779106140137
-        }
-      ]
+    "assertion_position": [
+      1912,
+      1931
     ],
-    "eng_translation": [
-      "pleural effusion",
-      "Pleural fluid accumulation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, [ENTITY] hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy."
   },
   {
     "text": "thoát vị hoành nhỏ",
@@ -1638,45 +409,11 @@
       2154,
       2172
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, [ENTITY], thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5859015583992004,
-          "sparse_similarity": 0.10008251667022705,
-          "hybrid_score": 0.34299203753471375
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.585766077041626,
-          "sparse_similarity": 0.0981270968914032,
-          "hybrid_score": 0.3419466018676758
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5631248950958252,
-          "sparse_similarity": 0.11827099323272705,
-          "hybrid_score": 0.3406979441642761
-        }
-      ]
+    "assertion_position": [
+      1941,
+      1959
     ],
-    "eng_translation": [
-      "hiatal hernia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, [ENTITY], thay đổi khí phế thủng, xẹp phổi hai đáy."
   },
   {
     "text": "thay",
@@ -1685,47 +422,11 @@
       2174,
       2178
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, [ENTITY] đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012933",
-          "document": "cách đây 30 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5490227937698364,
-          "sparse_similarity": 0.0847010612487793,
-          "hybrid_score": 0.31686192750930786
-        },
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5462275147438049,
-          "sparse_similarity": 0.08458101004362106,
-          "hybrid_score": 0.3154042661190033
-        },
-        {
-          "id": "isHistorical_012351",
-          "document": "cách đây 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5425470471382141,
-          "sparse_similarity": 0.08812500536441803,
-          "hybrid_score": 0.3153360188007355
-        }
-      ]
+    "assertion_position": [
+      1961,
+      1965
     ],
-    "eng_translation": [
-      "Replace with \"Doctor\" or \"Physician\" depending on context.",
-      "Doctor",
-      "Replace with \"Physician\" depending on context."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, [ENTITY] đổi khí phế thủng, xẹp phổi hai đáy."
   },
   {
     "text": "khí phế thủng",
@@ -1734,46 +435,11 @@
       2183,
       2196
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi [ENTITY], xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5832590460777283,
-          "sparse_similarity": 0.08808185160160065,
-          "hybrid_score": 0.33567044138908386
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5824193954467773,
-          "sparse_similarity": 0.08871939778327942,
-          "hybrid_score": 0.3355693817138672
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5599186420440674,
-          "sparse_similarity": 0.10662733018398285,
-          "hybrid_score": 0.3332729935646057
-        }
-      ]
+    "assertion_position": [
+      1970,
+      1983
     ],
-    "eng_translation": [
-      "pneumothorax",
-      "collapsed lung"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi [ENTITY], xẹp phổi hai đáy."
   },
   {
     "text": "xẹp phổi hai đáy",
@@ -1782,46 +448,11 @@
       2198,
       2214
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, [ENTITY]\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5870069265365601,
-          "sparse_similarity": 0.10680027306079865,
-          "hybrid_score": 0.34690359234809875
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5867380499839783,
-          "sparse_similarity": 0.10182096064090729,
-          "hybrid_score": 0.3442794978618622
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5615229606628418,
-          "sparse_similarity": 0.12440142035484314,
-          "hybrid_score": 0.34296220541000366
-        }
-      ]
+    "assertion_position": [
+      1985,
+      2001
     ],
-    "eng_translation": [
-      "Bilateral pulmonary collapse",
-      "Bilateral pulmonary atelectasis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, [ENTITY]."
   },
   {
     "text": "siêu âm tim",
@@ -1830,46 +461,11 @@
       2335,
       2346
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - [ENTITY] qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012933",
-          "document": "cách đây 30 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5503804683685303,
-          "sparse_similarity": 0.09592968225479126,
-          "hybrid_score": 0.32315507531166077
-        },
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5443958044052124,
-          "sparse_similarity": 0.09563934803009033,
-          "hybrid_score": 0.32001757621765137
-        },
-        {
-          "id": "isHistorical_012909",
-          "document": "cách đây 3 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5473452806472778,
-          "sparse_similarity": 0.0918850302696228,
-          "hybrid_score": 0.3196151554584503
-        }
-      ]
+    "assertion_position": [
+      2111,
+      2122
     ],
-    "eng_translation": [
-      "Echocardiogram",
-      "Cardiac ultrasound"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)."
   },
   {
     "text": "siêu âm tim",
@@ -1878,46 +474,11 @@
       2363,
       2374
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực ([ENTITY] qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012933",
-          "document": "cách đây 30 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5438008308410645,
-          "sparse_similarity": 0.08127603679895401,
-          "hybrid_score": 0.3125384449958801
-        },
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5397735834121704,
-          "sparse_similarity": 0.08107326179742813,
-          "hybrid_score": 0.31042343378067017
-        },
-        {
-          "id": "isHistorical_013197",
-          "document": "cách đây 40 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5408563613891602,
-          "sparse_similarity": 0.07852983474731445,
-          "hybrid_score": 0.3096930980682373
-        }
-      ]
+    "assertion_position": [
+      2139,
+      2150
     ],
-    "eng_translation": [
-      "Echocardiogram",
-      "Cardiac ultrasound"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "siêu âm tim qua thành ngực ([ENTITY] qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)."
   },
   {
     "text": "hở van ba lá",
@@ -1926,61 +487,11 @@
       2422,
       2434
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, [ENTITY] vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5392168760299683,
-          "sparse_similarity": 0.07849688082933426,
-          "hybrid_score": 0.30885687470436096
-        },
-        {
-          "id": "isHistorical_012351",
-          "document": "cách đây 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5335530042648315,
-          "sparse_similarity": 0.08191528916358948,
-          "hybrid_score": 0.3077341318130493
-        },
-        {
-          "id": "isHistorical_012933",
-          "document": "cách đây 30 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5357836484909058,
-          "sparse_similarity": 0.07861670106649399,
-          "hybrid_score": 0.307200163602829
-        }
-      ]
+    "assertion_position": [
+      2198,
+      2210
     ],
-    "eng_translation": [
-      "Mitral regurgitation",
-      "Mitral insufficiency"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I051": 0.882163,
-        "Q233": 0.834212,
-        "I340": 0.828191,
-        "I050": 0.802893,
-        "I059": 0.778081
-      },
-      "rapidfuzz": {
-        "I051": 0.9,
-        "Q233": 0.9,
-        "I052": 0.855,
-        "P921": 0.855,
-        "I058": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I051",
-      "confidence": 0.883947
-    }
+    "sentence": "siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, [ENTITY] vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)."
   },
   {
     "text": "hở van",
@@ -1989,62 +500,11 @@
       2463,
       2469
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và [ENTITY] hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5812416672706604,
-          "sparse_similarity": 0.08685258030891418,
-          "hybrid_score": 0.3340471386909485
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5813383460044861,
-          "sparse_similarity": 0.08395164459943771,
-          "hybrid_score": 0.3326449990272522
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5568867921829224,
-          "sparse_similarity": 0.10579825937747955,
-          "hybrid_score": 0.33134251832962036
-        }
-      ]
+    "assertion_position": [
+      2239,
+      2245
     ],
-    "eng_translation": [
-      "Valvular regurgitation",
-      "Valvular insufficiency"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I091": 0.678359,
-        "I051": 0.659651,
-        "Q231": 0.656856,
-        "I071": 0.655033,
-        "I351": 0.654668
-      },
-      "rapidfuzz": {
-        "P921": 0.855,
-        "I97110": 0.855,
-        "I97111": 0.855,
-        "I351": 0.855,
-        "R142": 0.675,
-        "R002": 0.663158
-      }
-    },
-    "candidate": {
-      "code": "I351",
-      "confidence": 0.674701
-    }
+    "sentence": "siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và [ENTITY] hai lá/van động mạch chủ nhẹ (mild ARMR)."
   },
   {
     "text": "gãy cổ xương",
@@ -2053,46 +513,11 @@
       2538,
       2550
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: [ENTITY] đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5816123485565186,
-          "sparse_similarity": 0.09385762363672256,
-          "hybrid_score": 0.33773499727249146
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5805190801620483,
-          "sparse_similarity": 0.0920342355966568,
-          "hybrid_score": 0.336276650428772
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5566311478614807,
-          "sparse_similarity": 0.11202727258205414,
-          "hybrid_score": 0.334329217672348
-        }
-      ]
+    "assertion_position": [
+      2309,
+      2321
     ],
-    "eng_translation": [
-      "Fracture of the neck of the femur",
-      "Hip fracture"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Gãy xương hông phải: [ENTITY] đùi phải, lún đầu dưới."
   },
   {
     "text": "lún đầu dưới",
@@ -2101,48 +526,11 @@
       2561,
       2573
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, [ENTITY]\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5836198329925537,
-          "sparse_similarity": 0.09810169041156769,
-          "hybrid_score": 0.3408607542514801
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5829627513885498,
-          "sparse_similarity": 0.09722138941287994,
-          "hybrid_score": 0.3400920629501343
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5595107078552246,
-          "sparse_similarity": 0.11691965162754059,
-          "hybrid_score": 0.338215172290802
-        }
-      ]
+    "assertion_position": [
+      2332,
+      2344
     ],
-    "eng_translation": [
-      "lún đầu dưới",
-      "Chấn thương đầu dưới",
-      "Basilar skull fracture",
-      "đầu dưới của lún"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Gãy xương hông phải: gãy cổ xương đùi phải, [ENTITY]."
   },
   {
     "text": "chụp ct",
@@ -2151,46 +539,11 @@
       2611,
       2618
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - [ENTITY] ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.582618236541748,
-          "sparse_similarity": 0.09888812899589539,
-          "hybrid_score": 0.3407531976699829
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5815660953521729,
-          "sparse_similarity": 0.09760375320911407,
-          "hybrid_score": 0.33958491683006287
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5563238859176636,
-          "sparse_similarity": 0.11583036184310913,
-          "hybrid_score": 0.33607712388038635
-        }
-      ]
+    "assertion_position": [
+      2374,
+      2381
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] ngực không thuốc cản quang."
   },
   {
     "text": "siêu âm tim",
@@ -2199,46 +552,11 @@
       2652,
       2663
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - [ENTITY] qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5820083022117615,
-          "sparse_similarity": 0.08277193456888199,
-          "hybrid_score": 0.3323901295661926
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5815294981002808,
-          "sparse_similarity": 0.08273179829120636,
-          "hybrid_score": 0.33213064074516296
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5570648312568665,
-          "sparse_similarity": 0.10141584277153015,
-          "hybrid_score": 0.3292403221130371
-        }
-      ]
+    "assertion_position": [
+      2410,
+      2421
     ],
-    "eng_translation": [
-      "Echocardiogram",
-      "Cardiac ultrasound"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] qua thành ngực (siêu âm tim qua thành ngực)."
   },
   {
     "text": "siêu âm tim",
@@ -2247,46 +565,11 @@
       2680,
       2691
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực ([ENTITY] qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5799421072006226,
-          "sparse_similarity": 0.08446990698575974,
-          "hybrid_score": 0.33220601081848145
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5794116258621216,
-          "sparse_similarity": 0.0849660187959671,
-          "hybrid_score": 0.33218881487846375
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.555668830871582,
-          "sparse_similarity": 0.10295078158378601,
-          "hybrid_score": 0.3293098211288452
-        }
-      ]
+    "assertion_position": [
+      2438,
+      2449
     ],
-    "eng_translation": [
-      "Echocardiogram",
-      "Cardiac ultrasound"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "siêu âm tim qua thành ngực ([ENTITY] qua thành ngực)."
   },
   {
     "text": "Nhồi máu cơ tim",
@@ -2295,58 +578,11 @@
       2847,
       2862
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - [ENTITY] vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5459941029548645,
-          "sparse_similarity": 0.09866935759782791,
-          "hybrid_score": 0.3223317265510559
-        },
-        {
-          "id": "isHistorical_012933",
-          "document": "cách đây 30 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5423692464828491,
-          "sparse_similarity": 0.09880286455154419,
-          "hybrid_score": 0.32058605551719666
-        },
-        {
-          "id": "isHistorical_012909",
-          "document": "cách đây 3 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5463207960128784,
-          "sparse_similarity": 0.09477795660495758,
-          "hybrid_score": 0.3205493688583374
-        }
-      ]
+    "assertion_position": [
+      2587,
+      2602
     ],
-    "eng_translation": [
-      "Myocardial infarction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I219": 0.851584,
-        "I21A1": 0.785121,
-        "I249": 0.769203,
-        "I252": 0.761003,
-        "I639": 0.728907
-      },
-      "rapidfuzz": {
-        "I21A1": 0.95,
-        "I252": 0.95,
-        "I2109": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I21A1",
-      "confidence": 0.801609
-    }
+    "sentence": "[ENTITY] vùng vách liên thất, mạn tính và đỉnh."
   },
   {
     "text": "rung nhĩ",
@@ -2355,62 +591,11 @@
       2907,
       2915
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - [ENTITY] kịch phát liên tục kể từ Nhồi máu cơ tim\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5880654454231262,
-          "sparse_similarity": 0.1092497706413269,
-          "hybrid_score": 0.34865760803222656
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5655351281166077,
-          "sparse_similarity": 0.12758727371692657,
-          "hybrid_score": 0.3465611934661865
-        },
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.584983229637146,
-          "sparse_similarity": 0.10430355370044708,
-          "hybrid_score": 0.34464338421821594
-        }
-      ]
+    "assertion_position": [
+      2642,
+      2650
     ],
-    "eng_translation": [
-      "Atrial fibrillation",
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I480": 1.0,
-        "I4891": 0.978406,
-        "I4821": 0.894503,
-        "I4820": 0.803449,
-        "I4901": 0.799594
-      },
-      "rapidfuzz": {
-        "I480": 1.0,
-        "I4820": 0.9,
-        "I4821": 0.9,
-        "I4891": 0.9,
-        "G44039": 0.855,
-        "I231": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I480",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] kịch phát liên tục kể từ Nhồi máu cơ tim."
   },
   {
     "text": "Nhồi máu cơ tim",
@@ -2419,57 +604,10 @@
       2941,
       2956
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả khám lâm sàng\n    - cảm thấy khỏe trên sàn\n    - Than phiền đau ở hông phải khi cử động và thay đổi tư thế\n    Kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh\n    - chụp x-quang ngực: mức nước-khí\n    - chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy\n    - xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)\n    - Gãy xương hông phải: gãy cổ xương đùi phải, lún đầu dưới\n    Các thủ thuật đã thực hiện\n    - chụp ct ngực không thuốc cản quang\n    - siêu âm tim qua thành ngực (siêu âm tim qua thành ngực)\n    - chụp xạ hình tim bằng mibi\n    - đã phẫu thuật TURP (Transurethral Resection of the Prostate)\n    Các phát hiện chẩn đoán khác\n    - Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh\n    - rung nhĩ kịch phát liên tục kể từ [ENTITY]\n    - tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.545168399810791,
-          "sparse_similarity": 0.08954788744449615,
-          "hybrid_score": 0.317358136177063
-        },
-        {
-          "id": "isHistorical_012351",
-          "document": "cách đây 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5399969816207886,
-          "sparse_similarity": 0.09325763583183289,
-          "hybrid_score": 0.3166273236274719
-        },
-        {
-          "id": "isHistorical_012909",
-          "document": "cách đây 3 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5458641052246094,
-          "sparse_similarity": 0.08604677021503448,
-          "hybrid_score": 0.31595543026924133
-        }
-      ]
+    "assertion_position": [
+      2676,
+      2691
     ],
-    "eng_translation": [
-      "Myocardial infarction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I219": 0.851584,
-        "I21A1": 0.785121,
-        "I249": 0.769203,
-        "I252": 0.761003,
-        "I639": 0.728907
-      },
-      "rapidfuzz": {
-        "I21A1": 0.95,
-        "I252": 0.95,
-        "I2109": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I21A1",
-      "confidence": 0.801609
-    }
+    "sentence": "rung nhĩ kịch phát liên tục kể từ [ENTITY]."
   }
 ]

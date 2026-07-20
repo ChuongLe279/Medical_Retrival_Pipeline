@@ -6,46 +6,11 @@
       110,
       135
     ],
-    "sentence": "Tiền sử bệnh\n    Các tập tương tự trước đây\n    - Nhập viện khoa Thần kinh từ [Date] với thông não so với [ENTITY] đầu từ [Date].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.665421187877655,
-          "sparse_similarity": 0.13105912506580353,
-          "hybrid_score": 0.3982401490211487
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6592963933944702,
-          "sparse_similarity": 0.13436762988567352,
-          "hybrid_score": 0.39683201909065247
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6613764762878418,
-          "sparse_similarity": 0.13084052503108978,
-          "hybrid_score": 0.3961085081100464
-        }
-      ]
+    "assertion_position": [
+      98,
+      123
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Nhập viện khoa Thần kinh từ [Date] với thông não so với [ENTITY] đầu từ [Date]."
   },
   {
     "text": "tăng đau đầu",
@@ -54,46 +19,11 @@
       160,
       172
     ],
-    "sentence": "- Bị [ENTITY] cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009848",
-          "document": "[ENTITY] đã được điều trị.",
-          "dense_similarity": 0.792363166809082,
-          "sparse_similarity": 0.12709693610668182,
-          "hybrid_score": 0.4597300589084625
-        },
-        {
-          "id": "isHistorical_009847",
-          "document": "[ENTITY] đã được chữa khỏi.",
-          "dense_similarity": 0.7631869316101074,
-          "sparse_similarity": 0.13148720562458038,
-          "hybrid_score": 0.4473370611667633
-        },
-        {
-          "id": "isHistorical_009846",
-          "document": "[ENTITY] đã điều trị ổn.",
-          "dense_similarity": 0.7729784250259399,
-          "sparse_similarity": 0.1202620416879654,
-          "hybrid_score": 0.44662022590637207
-        }
-      ]
+    "assertion_position": [
+      142,
+      154
     ],
-    "eng_translation": [
-      "Increased headache",
-      "Headache exacerbation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bị [ENTITY] cải thiện khi nằm ngửa."
   },
   {
     "text": "chứng đau đầu",
@@ -102,45 +32,11 @@
       257,
       270
     ],
-    "sentence": "- Nhập viện khoa Thần kinh vào thời điểm đó để điều trị [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034243",
-          "document": "đã nhập viện vì [ENTITY].",
-          "dense_similarity": 0.768470287322998,
-          "sparse_similarity": 0.1541663110256195,
-          "hybrid_score": 0.46131831407546997
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7672517895698547,
-          "sparse_similarity": 0.1536596119403839,
-          "hybrid_score": 0.4604557156562805
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.7679370045661926,
-          "sparse_similarity": 0.13767769932746887,
-          "hybrid_score": 0.45280736684799194
-        }
-      ]
+    "assertion_position": [
+      233,
+      246
     ],
-    "eng_translation": [
-      "Headache"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Nhập viện khoa Thần kinh vào thời điểm đó để điều trị [ENTITY]."
   },
   {
     "text": "phù gai thị",
@@ -149,62 +45,11 @@
       353,
       364
     ],
-    "sentence": "- Được bác sĩ nhãn khoa khám trong quá trình nhập viện đó và không phát hiện [ENTITY].",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không phát hiện [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000029",
-          "document": "[ENTITY] không phát hiện.",
-          "dense_similarity": 0.7105966806411743,
-          "sparse_similarity": 0.17860114574432373,
-          "hybrid_score": 0.444598913192749
-        },
-        {
-          "id": "isNegated_000283",
-          "document": "xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.7243607640266418,
-          "sparse_similarity": 0.14862018823623657,
-          "hybrid_score": 0.4364904761314392
-        },
-        {
-          "id": "isNegated_000239",
-          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.7221654653549194,
-          "sparse_similarity": 0.1439715325832367,
-          "hybrid_score": 0.43306851387023926
-        }
-      ]
+    "assertion_position": [
+      323,
+      334
     ],
-    "eng_translation": [
-      "Retinal detachment",
-      "Detachment of the retina"
-    ],
-    "retriever": {
-      "sapbert": {
-        "H33059": 0.839933,
-        "H3340": 0.793348,
-        "H338": 0.787458,
-        "H3570": 0.77717,
-        "H33009": 0.766542
-      },
-      "rapidfuzz": {
-        "H33041": 0.9,
-        "H33031": 0.9,
-        "H33033": 0.9,
-        "Z982": 0.855,
-        "S91112D": 0.855,
-        "S91112A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "H33059",
-      "confidence": 0.75594
-    }
+    "sentence": "Được bác sĩ nhãn khoa khám trong quá trình nhập viện đó và không phát hiện [ENTITY]."
   },
   {
     "text": "não úng thuỷ",
@@ -213,61 +58,11 @@
       388,
       400
     ],
-    "sentence": "Bệnh lý mãn tính: [ENTITY] khác từ thời kỳ sơ sinh\n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật đặt cảng để điều trị chứng tăng nhãn áp ở thời kỳ sơ sinh\n- Hệ thống dẫn lưu được chỉnh sửa/thay thế khi 3 tháng tuổi\n- Hệ thống dẫn lưu được chỉnh sửa/thay thế lại khi [Số] tuổi\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_024930",
-          "document": "từ 2 tháng trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5744238495826721,
-          "sparse_similarity": 0.16524071991443634,
-          "hybrid_score": 0.36983227729797363
-        },
-        {
-          "id": "isHistorical_026010",
-          "document": "từ 60 tháng trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5742327570915222,
-          "sparse_similarity": 0.16171693801879883,
-          "hybrid_score": 0.3679748475551605
-        },
-        {
-          "id": "isHistorical_012640",
-          "document": "cách đây 2 tháng được điều trị [ENTITY].",
-          "dense_similarity": 0.573413610458374,
-          "sparse_similarity": 0.14356982707977295,
-          "hybrid_score": 0.3584917187690735
-        }
-      ]
+    "assertion_position": [
+      354,
+      366
     ],
-    "eng_translation": [
-      "Brain edema",
-      "Cerebral edema"
-    ],
-    "retriever": {
-      "sapbert": {
-        "G936": 1.0,
-        "R609": 0.720573,
-        "R601": 0.671998,
-        "H3581": 0.666461,
-        "R600": 0.663075
-      },
-      "rapidfuzz": {
-        "G936": 1.0,
-        "S061XAD": 0.9,
-        "S061XAS": 0.9,
-        "S061XAA": 0.855,
-        "Z13850": 0.855
-      }
-    },
-    "candidate": {
-      "code": "G936",
-      "confidence": 1.0
-    }
+    "sentence": "Bệnh lý mãn tính: [ENTITY] khác từ thời kỳ sơ sinh."
   },
   {
     "text": "tăng nhãn áp",
@@ -276,62 +71,11 @@
       504,
       516
     ],
-    "sentence": "Bệnh lý mãn tính: não úng thuỷ khác từ thời kỳ sơ sinh\n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật đặt cảng để điều trị chứng [ENTITY] ở thời kỳ sơ sinh\n- Hệ thống dẫn lưu được chỉnh sửa/thay thế khi 3 tháng tuổi\n- Hệ thống dẫn lưu được chỉnh sửa/thay thế lại khi [Số] tuổi\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025194",
-          "document": "từ 3 tháng trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5710034966468811,
-          "sparse_similarity": 0.18010981380939484,
-          "hybrid_score": 0.3755566477775574
-        },
-        {
-          "id": "isHistorical_024930",
-          "document": "từ 2 tháng trước được điều trị [ENTITY].",
-          "dense_similarity": 0.576447606086731,
-          "sparse_similarity": 0.15909701585769653,
-          "hybrid_score": 0.36777231097221375
-        },
-        {
-          "id": "isHistorical_012640",
-          "document": "cách đây 2 tháng được điều trị [ENTITY].",
-          "dense_similarity": 0.5725570917129517,
-          "sparse_similarity": 0.13957706093788147,
-          "hybrid_score": 0.35606706142425537
-        }
-      ]
+    "assertion_position": [
+      462,
+      474
     ],
-    "eng_translation": [
-      "Increased intraocular pressure",
-      "Ocular hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "H40059": 0.962272,
-        "H40053": 0.749105,
-        "H40051": 0.696411,
-        "H35039": 0.660602,
-        "H40052": 0.643778
-      },
-      "rapidfuzz": {
-        "H40052": 0.95,
-        "H40053": 0.9,
-        "H40059": 0.9,
-        "L89509": 0.855,
-        "W9431XD": 0.855,
-        "W9431XS": 0.855
-      }
-    },
-    "candidate": {
-      "code": "H40059",
-      "confidence": 0.956045
-    }
+    "sentence": "Phẫu thuật đặt cảng để điều trị chứng [ENTITY] ở thời kỳ sơ sinh."
   },
   {
     "text": "nhãn áp",
@@ -340,45 +84,11 @@
       509,
       516
     ],
-    "sentence": "Bệnh lý mãn tính: não úng thuỷ khác từ thời kỳ sơ sinh\n    Tiền sử phẫu thuật / thủ thuật\n    - Phẫu thuật đặt cảng để điều trị chứng tăng [ENTITY] ở thời kỳ sơ sinh\n- Hệ thống dẫn lưu được chỉnh sửa/thay thế khi 3 tháng tuổi\n- Hệ thống dẫn lưu được chỉnh sửa/thay thế lại khi [Số] tuổi\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025194",
-          "document": "từ 3 tháng trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5666460990905762,
-          "sparse_similarity": 0.18102793395519257,
-          "hybrid_score": 0.37383702397346497
-        },
-        {
-          "id": "isHistorical_024930",
-          "document": "từ 2 tháng trước được điều trị [ENTITY].",
-          "dense_similarity": 0.570725679397583,
-          "sparse_similarity": 0.16052228212356567,
-          "hybrid_score": 0.36562398076057434
-        },
-        {
-          "id": "isHistorical_020242",
-          "document": "khoảng 3 tháng trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5662150382995605,
-          "sparse_similarity": 0.1552860289812088,
-          "hybrid_score": 0.3607505261898041
-        }
-      ]
+    "assertion_position": [
+      467,
+      474
     ],
-    "eng_translation": [
-      "Intraocular pressure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phẫu thuật đặt cảng để điều trị chứng tăng [ENTITY] ở thời kỳ sơ sinh."
   },
   {
     "text": "đau đầu kéo dài",
@@ -387,46 +97,11 @@
       703,
       718
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY] kèm theo mờ mắt\n    Thời điểm khởi phát triệu chứng: nhìn mờ tiến triển trong 2 tuần qua\n    Diễn biến bệnh\n    - Bệnh nhân bị não úng tuỷ từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt\n    - Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5738962888717651,
-          "sparse_similarity": 0.14107032120227814,
-          "hybrid_score": 0.35748329758644104
-        },
-        {
-          "id": "isHistorical_024934",
-          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.57373046875,
-          "sparse_similarity": 0.1310935616493225,
-          "hybrid_score": 0.35241201519966125
-        },
-        {
-          "id": "isHistorical_032147",
-          "document": "đã 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5697687864303589,
-          "sparse_similarity": 0.1270100623369217,
-          "hybrid_score": 0.3483894169330597
-        }
-      ]
+    "assertion_position": [
+      653,
+      668
     ],
-    "eng_translation": [
-      "Chronic headache",
-      "Chronic migraine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY] kèm theo mờ mắt."
   },
   {
     "text": "mờ mắt",
@@ -435,46 +110,11 @@
       728,
       734
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau đầu kéo dài kèm theo [ENTITY]\n    Thời điểm khởi phát triệu chứng: nhìn mờ tiến triển trong 2 tuần qua\n    Diễn biến bệnh\n    - Bệnh nhân bị não úng tuỷ từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt\n    - Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5581610798835754,
-          "sparse_similarity": 0.1264002025127411,
-          "hybrid_score": 0.34228062629699707
-        },
-        {
-          "id": "isHistorical_024934",
-          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5599440336227417,
-          "sparse_similarity": 0.11784263700246811,
-          "hybrid_score": 0.338893324136734
-        },
-        {
-          "id": "isHistorical_014228",
-          "document": "cách đây 8 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5579774975776672,
-          "sparse_similarity": 0.11876227706670761,
-          "hybrid_score": 0.33836987614631653
-        }
-      ]
+    "assertion_position": [
+      678,
+      684
     ],
-    "eng_translation": [
-      "Blurred vision",
-      "Visual acuity impairment"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: đau đầu kéo dài kèm theo [ENTITY]."
   },
   {
     "text": "nhìn mờ",
@@ -483,46 +123,11 @@
       772,
       779
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau đầu kéo dài kèm theo mờ mắt\n    Thời điểm khởi phát triệu chứng: [ENTITY] tiến triển trong 2 tuần qua\n    Diễn biến bệnh\n    - Bệnh nhân bị não úng tuỷ từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt\n    - Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5794267654418945,
-          "sparse_similarity": 0.1460224837064743,
-          "hybrid_score": 0.362724632024765
-        },
-        {
-          "id": "isHistorical_032147",
-          "document": "đã 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5877379179000854,
-          "sparse_similarity": 0.1310415416955948,
-          "hybrid_score": 0.3593897223472595
-        },
-        {
-          "id": "isHistorical_024934",
-          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5806972980499268,
-          "sparse_similarity": 0.13587674498558044,
-          "hybrid_score": 0.3582870364189148
-        }
-      ]
+    "assertion_position": [
+      719,
+      726
     ],
-    "eng_translation": [
-      "blurred vision",
-      "Visual impairment"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thời điểm khởi phát triệu chứng: [ENTITY] tiến triển trong 2 tuần qua."
   },
   {
     "text": "não úng tuỷ",
@@ -531,62 +136,11 @@
       846,
       857
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau đầu kéo dài kèm theo mờ mắt\n    Thời điểm khởi phát triệu chứng: nhìn mờ tiến triển trong 2 tuần qua\n    Diễn biến bệnh\n    - Bệnh nhân bị [ENTITY] từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt\n    - Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6323294043540955,
-          "sparse_similarity": 0.17313440144062042,
-          "hybrid_score": 0.40273189544677734
-        },
-        {
-          "id": "isHistorical_024934",
-          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6304787993431091,
-          "sparse_similarity": 0.15969005227088928,
-          "hybrid_score": 0.3950844407081604
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6230188608169556,
-          "sparse_similarity": 0.16413818299770355,
-          "hybrid_score": 0.39357852935791016
-        }
-      ]
+    "assertion_position": [
+      785,
+      796
     ],
-    "eng_translation": [
-      "spinal cord tumor",
-      "Spinal cord neoplasm"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C720": 0.795177,
-        "D334": 0.738249,
-        "D434": 0.732674,
-        "G959": 0.668166,
-        "Q069": 0.649009
-      },
-      "rapidfuzz": {
-        "C49A0": 0.855,
-        "C7A094": 0.855,
-        "C7A093": 0.855,
-        "A1781": 0.855,
-        "C676": 0.855,
-        "T85630S": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C720",
-      "confidence": 0.715659
-    }
+    "sentence": "Bệnh nhân bị [ENTITY] từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt."
   },
   {
     "text": "não úng thủy",
@@ -595,62 +149,11 @@
       968,
       980
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau đầu kéo dài kèm theo mờ mắt\n    Thời điểm khởi phát triệu chứng: nhìn mờ tiến triển trong 2 tuần qua\n    Diễn biến bệnh\n    - Bệnh nhân bị não úng tuỷ từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt\n    - Trước đây đã từng nhập viện với chẩn đoán [ENTITY], có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "đã từng nhập viện với chẩn đoán [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6065007448196411,
-          "sparse_similarity": 0.1617458313703537,
-          "hybrid_score": 0.384123295545578
-        },
-        {
-          "id": "isHistorical_024934",
-          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6047943830490112,
-          "sparse_similarity": 0.15162833034992218,
-          "hybrid_score": 0.3782113492488861
-        },
-        {
-          "id": "isHistorical_032147",
-          "document": "đã 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6073598861694336,
-          "sparse_similarity": 0.14676730334758759,
-          "hybrid_score": 0.3770636022090912
-        }
-      ]
+    "assertion_position": [
+      902,
+      914
     ],
-    "eng_translation": [
-      "Brain tumor",
-      "Neoplasia of the brain"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D496": 0.879741,
-        "C719": 0.813348,
-        "D332": 0.732337,
-        "D432": 0.731148,
-        "C729": 0.668
-      },
-      "rapidfuzz": {
-        "D496": 0.855,
-        "C7A025": 0.855,
-        "C7A026": 0.855,
-        "Z96691": 0.855,
-        "S76301D": 0.855,
-        "S76301A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D496",
-      "confidence": 0.877267
-    }
+    "sentence": "Trước đây đã từng nhập viện với chẩn đoán [ENTITY], có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa."
   },
   {
     "text": "tăng đau đầu",
@@ -659,46 +162,11 @@
       995,
       1007
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau đầu kéo dài kèm theo mờ mắt\n    Thời điểm khởi phát triệu chứng: nhìn mờ tiến triển trong 2 tuần qua\n    Diễn biến bệnh\n    - Bệnh nhân bị não úng tuỷ từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt\n    - Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện [ENTITY] , triệu chứng cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5789327621459961,
-          "sparse_similarity": 0.14448879659175873,
-          "hybrid_score": 0.361710786819458
-        },
-        {
-          "id": "isHistorical_024934",
-          "document": "từ 2 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5793644785881042,
-          "sparse_similarity": 0.13438911736011505,
-          "hybrid_score": 0.35687679052352905
-        },
-        {
-          "id": "isHistorical_032147",
-          "document": "đã 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5803872346878052,
-          "sparse_similarity": 0.12911128997802734,
-          "hybrid_score": 0.35474926233291626
-        }
-      ]
+    "assertion_position": [
+      929,
+      941
     ],
-    "eng_translation": [
-      "Increased headache",
-      "Headache exacerbation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện [ENTITY] , triệu chứng cải thiện khi nằm ngửa."
   },
   {
     "text": "đau đầu",
@@ -707,45 +175,11 @@
       1109,
       1116
     ],
-    "sentence": "- Nhập viện trước đây vào khoa Thần kinh để điều trị chứng [ENTITY].",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "trước đây vào khoa thần kinh để điều trị chứng [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009845",
-          "document": "[ENTITY] đã điều trị trước đây.",
-          "dense_similarity": 0.8169993162155151,
-          "sparse_similarity": 0.3062502145767212,
-          "hybrid_score": 0.5616247653961182
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.8240206241607666,
-          "sparse_similarity": 0.2140207588672638,
-          "hybrid_score": 0.519020676612854
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.8224586248397827,
-          "sparse_similarity": 0.21394109725952148,
-          "hybrid_score": 0.5181998610496521
-        }
-      ]
+    "assertion_position": [
+      1037,
+      1044
     ],
-    "eng_translation": [
-      "Headache"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Nhập viện trước đây vào khoa Thần kinh để điều trị chứng [ENTITY]."
   },
   {
     "text": "phù gai thị",
@@ -754,62 +188,11 @@
       1192,
       1203
     ],
-    "sentence": "- Khám nhãn khoa trong quá trình nhập viện trước đó cho thấy không có [ENTITY].",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không có [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.7237637042999268,
-          "sparse_similarity": 0.18778476119041443,
-          "hybrid_score": 0.4557742476463318
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.7209843397140503,
-          "sparse_similarity": 0.18535427749156952,
-          "hybrid_score": 0.4531693160533905
-        },
-        {
-          "id": "isNegated_000231",
-          "document": "kết quả kiểm tra không phát hiện [ENTITY].",
-          "dense_similarity": 0.7693847417831421,
-          "sparse_similarity": 0.11782341450452805,
-          "hybrid_score": 0.44360408186912537
-        }
-      ]
+    "assertion_position": [
+      1114,
+      1125
     ],
-    "eng_translation": [
-      "Retinal detachment",
-      "Detachment of the retina"
-    ],
-    "retriever": {
-      "sapbert": {
-        "H33059": 0.839933,
-        "H3340": 0.793348,
-        "H338": 0.787458,
-        "H3570": 0.77717,
-        "H33009": 0.766542
-      },
-      "rapidfuzz": {
-        "H33041": 0.9,
-        "H33031": 0.9,
-        "H33033": 0.9,
-        "Z982": 0.855,
-        "S91112D": 0.855,
-        "S91112A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "H33059",
-      "confidence": 0.75594
-    }
+    "sentence": "Khám nhãn khoa trong quá trình nhập viện trước đó cho thấy không có [ENTITY]."
   },
   {
     "text": "mờ mắt ở cả hai mắt",
@@ -818,46 +201,11 @@
       1237,
       1256
     ],
-    "sentence": "- Đến hôm nay, bệnh nhân bị [ENTITY], bên trái nặng hơn bên phải, tiến triển trong 2 tuần qua.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032148",
-          "document": "đã 2 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7949979305267334,
-          "sparse_similarity": 0.16170406341552734,
-          "hybrid_score": 0.47835099697113037
-        },
-        {
-          "id": "isHistorical_032146",
-          "document": "đã 2 tuần mắc [ENTITY].",
-          "dense_similarity": 0.7800793647766113,
-          "sparse_similarity": 0.17216074466705322,
-          "hybrid_score": 0.4761200547218323
-        },
-        {
-          "id": "isHistorical_012645",
-          "document": "cách đây 2 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7912809252738953,
-          "sparse_similarity": 0.15966910123825073,
-          "hybrid_score": 0.475475013256073
-        }
-      ]
+    "assertion_position": [
+      1153,
+      1172
     ],
-    "eng_translation": [
-      "blurred vision in both eyes",
-      "Visual acuity impairment in both eyes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Đến hôm nay, bệnh nhân bị [ENTITY], bên trái nặng hơn bên phải, tiến triển trong 2 tuần qua."
   },
   {
     "text": "đau đầu",
@@ -866,45 +214,11 @@
       1361,
       1368
     ],
-    "sentence": "- Đến hôm nay, bệnh nhân bị tăng tần suất [ENTITY] gián đoạn.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020049",
-          "document": "má bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.7241605520248413,
-          "sparse_similarity": 0.2005470246076584,
-          "hybrid_score": 0.46235379576683044
-        },
-        {
-          "id": "isFamily_024981",
-          "document": "thân nhân của bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.7261496782302856,
-          "sparse_similarity": 0.19590206444263458,
-          "hybrid_score": 0.4610258638858795
-        },
-        {
-          "id": "isFamily_020056",
-          "document": "má bệnh nhân đang mắc [ENTITY].",
-          "dense_similarity": 0.7283881902694702,
-          "sparse_similarity": 0.16911917924880981,
-          "hybrid_score": 0.44875368475914
-        }
-      ]
+    "assertion_position": [
+      1271,
+      1278
     ],
-    "eng_translation": [
-      "Headache"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Đến hôm nay, bệnh nhân bị tăng tần suất [ENTITY] gián đoạn."
   },
   {
     "text": "đau đầu kéo dài",
@@ -913,46 +227,11 @@
       1411,
       1426
     ],
-    "sentence": "Triệu chứng hiện tại\n    - [ENTITY]\n    - nhìn mờ ở cả hai mắt, bên trái nặng hơn bên phải\n    -  cơn  đau đầu nhiều hơn\n    Đặc điểm triệu chứng\n    - nhìn mờ: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải\n    - đau đầu: nhiều hơn\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ nhãn khoa [Name] khám ngoại trú hôm nay\n    - Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì phù gai thị, bên trái nặng hơn bên phải\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5988766551017761,
-          "sparse_similarity": 0.09823788702487946,
-          "hybrid_score": 0.3485572636127472
-        },
-        {
-          "id": "isHistorical_000622",
-          "document": "2 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5922492146492004,
-          "sparse_similarity": 0.10041965544223785,
-          "hybrid_score": 0.34633442759513855
-        },
-        {
-          "id": "isHistorical_019982",
-          "document": "khoảng 2 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5909878611564636,
-          "sparse_similarity": 0.10075287520885468,
-          "hybrid_score": 0.34587037563323975
-        }
-      ]
+    "assertion_position": [
+      1312,
+      1327
     ],
-    "eng_translation": [
-      "Chronic headache",
-      "Chronic migraine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "nhìn mờ ở cả hai mắt",
@@ -961,93 +240,24 @@
       1433,
       1453
     ],
-    "sentence": "Triệu chứng hiện tại\n    - đau đầu kéo dài\n    - [ENTITY], bên trái nặng hơn bên phải\n    -  cơn  đau đầu nhiều hơn\n    Đặc điểm triệu chứng\n    - nhìn mờ: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải\n    - đau đầu: nhiều hơn\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ nhãn khoa [Name] khám ngoại trú hôm nay\n    - Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì phù gai thị, bên trái nặng hơn bên phải\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012908",
-          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.610974907875061,
-          "sparse_similarity": 0.09317515790462494,
-          "hybrid_score": 0.3520750403404236
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6068150997161865,
-          "sparse_similarity": 0.09580188244581223,
-          "hybrid_score": 0.3513084948062897
-        },
-        {
-          "id": "isHistorical_032411",
-          "document": "đã 3 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6107229590415955,
-          "sparse_similarity": 0.09028039872646332,
-          "hybrid_score": 0.35050168633461
-        }
-      ]
+    "assertion_position": [
+      1329,
+      1349
     ],
-    "eng_translation": [
-      "blurred vision in both eyes",
-      "Visual acuity impairment in both eyes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], bên trái nặng hơn bên phải."
   },
   {
-    "text": "cơn  đau đầu",
+    "text": "cơn đau đầu",
     "type": "TRIỆU_CHỨNG",
     "pos": [
       1489,
       1501
     ],
-    "sentence": "Triệu chứng hiện tại\n    - đau đầu kéo dài\n    - nhìn mờ ở cả hai mắt, bên trái nặng hơn bên phải\n    -  [ENTITY] nhiều hơn\n    Đặc điểm triệu chứng\n    - nhìn mờ: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải\n    - đau đầu: nhiều hơn\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ nhãn khoa [Name] khám ngoại trú hôm nay\n    - Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì phù gai thị, bên trái nặng hơn bên phải\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6115132570266724,
-          "sparse_similarity": 0.09416128695011139,
-          "hybrid_score": 0.3528372645378113
-        },
-        {
-          "id": "isHistorical_032147",
-          "document": "đã 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6144283413887024,
-          "sparse_similarity": 0.09032869338989258,
-          "hybrid_score": 0.3523785173892975
-        },
-        {
-          "id": "isHistorical_000622",
-          "document": "2 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6066229343414307,
-          "sparse_similarity": 0.09692154079675674,
-          "hybrid_score": 0.3517722487449646
-        }
-      ]
+    "assertion_position": [
+      1379,
+      1390
     ],
-    "eng_translation": [
-      "Headache"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] nhiều hơn."
   },
   {
     "text": "nhìn mờ",
@@ -1056,46 +266,11 @@
       1543,
       1550
     ],
-    "sentence": "Triệu chứng hiện tại\n    - đau đầu kéo dài\n    - nhìn mờ ở cả hai mắt, bên trái nặng hơn bên phải\n    -  cơn  đau đầu nhiều hơn\n    Đặc điểm triệu chứng\n    - [ENTITY]: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải\n    - đau đầu: nhiều hơn\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ nhãn khoa [Name] khám ngoại trú hôm nay\n    - Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì phù gai thị, bên trái nặng hơn bên phải\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032147",
-          "document": "đã 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6284537315368652,
-          "sparse_similarity": 0.09682151675224304,
-          "hybrid_score": 0.36263763904571533
-        },
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6237384080886841,
-          "sparse_similarity": 0.10041222721338272,
-          "hybrid_score": 0.3620753288269043
-        },
-        {
-          "id": "isHistorical_000622",
-          "document": "2 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6200037002563477,
-          "sparse_similarity": 0.10346422344446182,
-          "hybrid_score": 0.36173397302627563
-        }
-      ]
+    "assertion_position": [
+      1424,
+      1431
     ],
-    "eng_translation": [
-      "blurred vision",
-      "Visual impairment"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải."
   },
   {
     "text": "đau đầu",
@@ -1104,45 +279,11 @@
       1614,
       1621
     ],
-    "sentence": "Triệu chứng hiện tại\n    - đau đầu kéo dài\n    - nhìn mờ ở cả hai mắt, bên trái nặng hơn bên phải\n    -  cơn  đau đầu nhiều hơn\n    Đặc điểm triệu chứng\n    - nhìn mờ: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải\n    - [ENTITY]: nhiều hơn\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ nhãn khoa [Name] khám ngoại trú hôm nay\n    - Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì phù gai thị, bên trái nặng hơn bên phải\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6145668029785156,
-          "sparse_similarity": 0.08832090348005295,
-          "hybrid_score": 0.3514438569545746
-        },
-        {
-          "id": "isHistorical_032147",
-          "document": "đã 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6180193424224854,
-          "sparse_similarity": 0.08438946306705475,
-          "hybrid_score": 0.35120439529418945
-        },
-        {
-          "id": "isHistorical_012908",
-          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6125141382217407,
-          "sparse_similarity": 0.0893525704741478,
-          "hybrid_score": 0.35093334317207336
-        }
-      ]
+    "assertion_position": [
+      1490,
+      1497
     ],
-    "eng_translation": [
-      "Headache"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]: nhiều hơn."
   },
   {
     "text": "phù gai thị",
@@ -1151,62 +292,11 @@
       1782,
       1793
     ],
-    "sentence": "Triệu chứng hiện tại\n    - đau đầu kéo dài\n    - nhìn mờ ở cả hai mắt, bên trái nặng hơn bên phải\n    -  cơn  đau đầu nhiều hơn\n    Đặc điểm triệu chứng\n    - nhìn mờ: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải\n    - đau đầu: nhiều hơn\n    Sự kiện trước khi nhập viện\n    - Được bác sĩ nhãn khoa [Name] khám ngoại trú hôm nay\n    - Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì [ENTITY], bên trái nặng hơn bên phải\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012908",
-          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6162548065185547,
-          "sparse_similarity": 0.1065293624997139,
-          "hybrid_score": 0.361392080783844
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6114745736122131,
-          "sparse_similarity": 0.10970687121152878,
-          "hybrid_score": 0.36059072613716125
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6094589829444885,
-          "sparse_similarity": 0.10904542356729507,
-          "hybrid_score": 0.3592522144317627
-        }
-      ]
+    "assertion_position": [
+      1645,
+      1656
     ],
-    "eng_translation": [
-      "Retinal detachment",
-      "Detachment of the retina"
-    ],
-    "retriever": {
-      "sapbert": {
-        "H33059": 0.839933,
-        "H3340": 0.793348,
-        "H338": 0.787458,
-        "H3570": 0.77717,
-        "H33009": 0.766542
-      },
-      "rapidfuzz": {
-        "H33041": 0.9,
-        "H33031": 0.9,
-        "H33033": 0.9,
-        "Z982": 0.855,
-        "S91112D": 0.855,
-        "S91112A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "H33059",
-      "confidence": 0.75594
-    }
+    "sentence": "Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì [ENTITY], bên trái nặng hơn bên phải."
   },
   {
     "text": "Phù gai thị",
@@ -1215,62 +305,11 @@
       1872,
       1883
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng: [ENTITY], bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa)\n    Các phát hiện chẩn đoán khác\n    - Tăng nhãn áp so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước)\n    - Phù gai thị (theo báo cáo của bác sĩ nhãn khoa)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6523026823997498,
-          "sparse_similarity": 0.16928696632385254,
-          "hybrid_score": 0.41079482436180115
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6521798372268677,
-          "sparse_similarity": 0.16299647092819214,
-          "hybrid_score": 0.4075881540775299
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.646892249584198,
-          "sparse_similarity": 0.16605380177497864,
-          "hybrid_score": 0.4064730405807495
-        }
-      ]
+    "assertion_position": [
+      1729,
+      1740
     ],
-    "eng_translation": [
-      "Cataract",
-      "Lens opacity"
-    ],
-    "retriever": {
-      "sapbert": {
-        "H269": 0.967056,
-        "H259": 0.859618,
-        "Q120": 0.848633,
-        "H2620": 0.800073,
-        "H25019": 0.781289
-      },
-      "rapidfuzz": {
-        "Z9849": 0.9,
-        "Z9842": 0.9,
-        "Z9841": 0.9,
-        "H59021": 0.855,
-        "H59022": 0.855,
-        "H59023": 0.855
-      }
-    },
-    "candidate": {
-      "code": "H269",
-      "confidence": 0.87035
-    }
+    "sentence": "Dấu hiệu lâm sàng: [ENTITY], bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa)."
   },
   {
     "text": "Tăng nhãn áp",
@@ -1279,62 +318,11 @@
       1987,
       1999
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng: Phù gai thị, bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa)\n    Các phát hiện chẩn đoán khác\n    - [ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước)\n    - Phù gai thị (theo báo cáo của bác sĩ nhãn khoa)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6345404386520386,
-          "sparse_similarity": 0.13568618893623352,
-          "hybrid_score": 0.38511329889297485
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6327903866767883,
-          "sparse_similarity": 0.13000793755054474,
-          "hybrid_score": 0.38139915466308594
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6278406977653503,
-          "sparse_similarity": 0.13307173550128937,
-          "hybrid_score": 0.38045620918273926
-        }
-      ]
+    "assertion_position": [
+      1836,
+      1848
     ],
-    "eng_translation": [
-      "Increased intraocular pressure",
-      "Ocular hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "H40059": 0.962272,
-        "H40053": 0.749105,
-        "H40051": 0.696411,
-        "H35039": 0.660602,
-        "H40052": 0.643778
-      },
-      "rapidfuzz": {
-        "H40052": 0.95,
-        "H40053": 0.9,
-        "H40059": 0.9,
-        "L89509": 0.855,
-        "W9431XD": 0.855,
-        "W9431XS": 0.855
-      }
-    },
-    "candidate": {
-      "code": "H40059",
-      "confidence": 0.956045
-    }
+    "sentence": "[ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước)."
   },
   {
     "text": "nhãn áp",
@@ -1343,45 +331,11 @@
       1992,
       1999
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng: Phù gai thị, bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa)\n    Các phát hiện chẩn đoán khác\n    - Tăng [ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước)\n    - Phù gai thị (theo báo cáo của bác sĩ nhãn khoa)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6373963356018066,
-          "sparse_similarity": 0.14327377080917358,
-          "hybrid_score": 0.3903350532054901
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6360036730766296,
-          "sparse_similarity": 0.13734668493270874,
-          "hybrid_score": 0.3866751790046692
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6299372315406799,
-          "sparse_similarity": 0.14048580825328827,
-          "hybrid_score": 0.3852115273475647
-        }
-      ]
+    "assertion_position": [
+      1841,
+      1848
     ],
-    "eng_translation": [
-      "Intraocular pressure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tăng [ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước)."
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
@@ -1390,46 +344,11 @@
       2007,
       2032
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng: Phù gai thị, bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa)\n    Các phát hiện chẩn đoán khác\n    - Tăng nhãn áp so với [ENTITY] đầu từ [Date] (từ lần nhập viện trước)\n    - Phù gai thị (theo báo cáo của bác sĩ nhãn khoa)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6109433174133301,
-          "sparse_similarity": 0.12929071485996246,
-          "hybrid_score": 0.3701170086860657
-        },
-        {
-          "id": "isFamily_020149",
-          "document": "má người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6296329498291016,
-          "sparse_similarity": 0.10811427235603333,
-          "hybrid_score": 0.36887359619140625
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6084492206573486,
-          "sparse_similarity": 0.12329009175300598,
-          "hybrid_score": 0.3658696413040161
-        }
-      ]
+    "assertion_position": [
+      1856,
+      1881
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tăng nhãn áp so với [ENTITY] đầu từ [Date] (từ lần nhập viện trước)."
   },
   {
     "text": "Phù gai thị",
@@ -1438,61 +357,10 @@
       2078,
       2089
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng: Phù gai thị, bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa)\n    Các phát hiện chẩn đoán khác\n    - Tăng nhãn áp so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước)\n    - [ENTITY] (theo báo cáo của bác sĩ nhãn khoa)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020149",
-          "document": "má người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6369990706443787,
-          "sparse_similarity": 0.1218915581703186,
-          "hybrid_score": 0.37944531440734863
-        },
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6175802946090698,
-          "sparse_similarity": 0.13750672340393066,
-          "hybrid_score": 0.37754350900650024
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6163021922111511,
-          "sparse_similarity": 0.13123999536037445,
-          "hybrid_score": 0.3737711012363434
-        }
-      ]
+    "assertion_position": [
+      1922,
+      1933
     ],
-    "eng_translation": [
-      "Cataract",
-      "Lens opacity"
-    ],
-    "retriever": {
-      "sapbert": {
-        "H269": 0.967056,
-        "H259": 0.859618,
-        "Q120": 0.848633,
-        "H2620": 0.800073,
-        "H25019": 0.781289
-      },
-      "rapidfuzz": {
-        "Z9849": 0.9,
-        "Z9842": 0.9,
-        "Z9841": 0.9,
-        "H59021": 0.855,
-        "H59022": 0.855,
-        "H59023": 0.855
-      }
-    },
-    "candidate": {
-      "code": "H269",
-      "confidence": 0.87035
-    }
+    "sentence": "[ENTITY] (theo báo cáo của bác sĩ nhãn khoa)."
   }
 ]

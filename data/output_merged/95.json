@@ -6,46 +6,11 @@
       51,
       59
     ],
-    "sentence": "Tiền sử bệnh\n   Trước đây bệnh nhân đã từng bị [ENTITY] sau khi uống sữa\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh trước đây bệnh nhân đã từng bị [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020054",
-          "document": "má bệnh nhân từng bị [ENTITY].",
-          "dense_similarity": 0.6995651721954346,
-          "sparse_similarity": 0.2625178098678589,
-          "hybrid_score": 0.48104149103164673
-        },
-        {
-          "id": "isFamily_007576",
-          "document": "bệnh sử gia đình từng bị [ENTITY].",
-          "dense_similarity": 0.7156948447227478,
-          "sparse_similarity": 0.2449602633714676,
-          "hybrid_score": 0.4803275465965271
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.7075324058532715,
-          "sparse_similarity": 0.21920090913772583,
-          "hybrid_score": 0.46336665749549866
-        }
-      ]
+    "assertion_position": [
+      45,
+      53
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Trước đây bệnh nhân đã từng bị [ENTITY] sau khi uống sữa."
   },
   {
     "text": "đau âm ỉ vùng quanh rốn",
@@ -54,46 +19,11 @@
       120,
       143
     ],
-    "sentence": "Bệnh sử  hin tại\n    Lý do nhập viện: [ENTITY]\n    Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân xuất hiện đau bụng âm ỉ quanh rốn sau khí uống sữa, ngày nay vẫn còn đau, vào viện.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6361708641052246,
-          "sparse_similarity": 0.1486137956380844,
-          "hybrid_score": 0.3923923373222351
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6381121873855591,
-          "sparse_similarity": 0.1412351429462433,
-          "hybrid_score": 0.38967365026474
-        },
-        {
-          "id": "isHistorical_024628",
-          "document": "từ 1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.632469117641449,
-          "sparse_similarity": 0.13635291159152985,
-          "hybrid_score": 0.3844110071659088
-        }
-      ]
+    "assertion_position": [
+      106,
+      129
     ],
-    "eng_translation": [
-      "dull pain around the umbilicus",
-      "periumbilical dull pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY]."
   },
   {
     "text": "đau bụng âm ỉ quanh rốn",
@@ -102,46 +32,11 @@
       207,
       230
     ],
-    "sentence": "Bệnh sử  hin tại\n    Lý do nhập viện: đau âm ỉ vùng quanh rốn\n    Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân xuất hiện [ENTITY] sau khí uống sữa, ngày nay vẫn còn đau, vào viện.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6198161244392395,
-          "sparse_similarity": 0.14822903275489807,
-          "hybrid_score": 0.38402259349823
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6199608445167542,
-          "sparse_similarity": 0.14173778891563416,
-          "hybrid_score": 0.38084930181503296
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6141291260719299,
-          "sparse_similarity": 0.13418148458003998,
-          "hybrid_score": 0.37415531277656555
-        }
-      ]
+    "assertion_position": [
+      190,
+      213
     ],
-    "eng_translation": [
-      "Crampy abdominal pain around the umbilicus",
-      "Periumbilical crampy abdominal pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân xuất hiện [ENTITY] sau khí uống sữa, ngày nay vẫn còn đau, vào viện."
   },
   {
     "text": "đau",
@@ -150,45 +45,11 @@
       266,
       269
     ],
-    "sentence": "Bệnh sử  hin tại\n    Lý do nhập viện: đau âm ỉ vùng quanh rốn\n    Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân xuất hiện đau bụng âm ỉ quanh rốn sau khí uống sữa, ngày nay vẫn còn [ENTITY], vào viện.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5948601961135864,
-          "sparse_similarity": 0.12578164041042328,
-          "hybrid_score": 0.36032092571258545
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5957891345024109,
-          "sparse_similarity": 0.11944466829299927,
-          "hybrid_score": 0.3576169013977051
-        },
-        {
-          "id": "isHistorical_024628",
-          "document": "từ 1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5902431011199951,
-          "sparse_similarity": 0.11335612833499908,
-          "hybrid_score": 0.3517996072769165
-        }
-      ]
+    "assertion_position": [
+      249,
+      252
     ],
-    "eng_translation": [
-      "pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Theo lời bệnh nhân kể, từ ngày hôm qua bệnh nhân xuất hiện đau bụng âm ỉ quanh rốn sau khí uống sữa, ngày nay vẫn còn [ENTITY], vào viện."
   },
   {
     "text": "xuất huyết dưới da",
@@ -197,46 +58,11 @@
       351,
       369
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông [ENTITY]\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không nôn\n    - Không sốt, không  ớn lạnh\n    - Đại tiện bình thường, không có nhầy máu\n    - Không đau ngực\n    - Không khó thở\nKhám bụng mềm, không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5999001860618591,
-          "sparse_similarity": 0.10704340040683746,
-          "hybrid_score": 0.3534717857837677
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6143214702606201,
-          "sparse_similarity": 0.08196670562028885,
-          "hybrid_score": 0.3481440842151642
-        },
-        {
-          "id": "isFamily_007151",
-          "document": "bên nội của bệnh nhân được ghi nhận [ENTITY].",
-          "dense_similarity": 0.6040416359901428,
-          "sparse_similarity": 0.08242394775152206,
-          "hybrid_score": 0.34323278069496155
-        }
-      ]
+    "assertion_position": [
+      334,
+      352
     ],
-    "eng_translation": [
-      "subcutaneous hemorrhage",
-      "Subcutaneous hematoma"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "đau âm ỉ vùng quanh rốn",
@@ -245,46 +71,11 @@
       376,
       399
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - [ENTITY], hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không nôn\n    - Không sốt, không  ớn lạnh\n    - Đại tiện bình thường, không có nhầy máu\n    - Không đau ngực\n    - Không khó thở\nKhám bụng mềm, không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5966777801513672,
-          "sparse_similarity": 0.094711072742939,
-          "hybrid_score": 0.3456944227218628
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5930581092834473,
-          "sparse_similarity": 0.09748395532369614,
-          "hybrid_score": 0.3452710211277008
-        },
-        {
-          "id": "isFamily_007151",
-          "document": "bên nội của bệnh nhân được ghi nhận [ENTITY].",
-          "dense_similarity": 0.5866474509239197,
-          "sparse_similarity": 0.08762294799089432,
-          "hybrid_score": 0.3371351957321167
-        }
-      ]
+    "assertion_position": [
+      354,
+      377
     ],
-    "eng_translation": [
-      "dull pain around the umbilicus",
-      "periumbilical dull pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], hạ sườn trái từng cơni."
   },
   {
     "text": "buồn nôn",
@@ -293,46 +84,11 @@
       430,
       438
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - [ENTITY] nhẹ, không nôn\n    - Không sốt, không  ớn lạnh\n    - Đại tiện bình thường, không có nhầy máu\n    - Không đau ngực\n    - Không khó thở\nKhám bụng mềm, không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng cơni - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5903276801109314,
-          "sparse_similarity": 0.10173080861568451,
-          "hybrid_score": 0.34602925181388855
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6063246130943298,
-          "sparse_similarity": 0.07630578428506851,
-          "hybrid_score": 0.34131520986557007
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.597306489944458,
-          "sparse_similarity": 0.07874135673046112,
-          "hybrid_score": 0.33802393078804016
-        }
-      ]
+    "assertion_position": [
+      403,
+      411
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] nhẹ, không nôn."
   },
   {
     "text": "nôn",
@@ -341,46 +97,11 @@
       450,
       453
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không [ENTITY]\n    - Không sốt, không  ớn lạnh\n    - Đại tiện bình thường, không có nhầy máu\n    - Không đau ngực\n    - Không khó thở\nKhám bụng mềm, không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5841453075408936,
-          "sparse_similarity": 0.09241002053022385,
-          "hybrid_score": 0.338277667760849
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6007141470909119,
-          "sparse_similarity": 0.06932796537876129,
-          "hybrid_score": 0.335021048784256
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5913838148117065,
-          "sparse_similarity": 0.0713977962732315,
-          "hybrid_score": 0.3313907980918884
-        }
-      ]
+    "assertion_position": [
+      423,
+      426
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "buồn nôn nhẹ, không [ENTITY]."
   },
   {
     "text": "sốt",
@@ -389,46 +110,11 @@
       466,
       469
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không nôn\n    - Không [ENTITY], không  ớn lạnh\n    - Đại tiện bình thường, không có nhầy máu\n    - Không đau ngực\n    - Không khó thở\nKhám bụng mềm, không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5875579118728638,
-          "sparse_similarity": 0.0954112783074379,
-          "hybrid_score": 0.34148460626602173
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6050567030906677,
-          "sparse_similarity": 0.07265965640544891,
-          "hybrid_score": 0.3388581871986389
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5949009656906128,
-          "sparse_similarity": 0.07483398914337158,
-          "hybrid_score": 0.3348674774169922
-        }
-      ]
+    "assertion_position": [
+      434,
+      437
     ],
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY], không ớn lạnh."
   },
   {
     "text": "ớn lạnh",
@@ -437,45 +123,11 @@
       478,
       485
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không nôn\n    - Không sốt, không  [ENTITY]\n    - Đại tiện bình thường, không có nhầy máu\n    - Không đau ngực\n    - Không khó thở\nKhám bụng mềm, không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5987495183944702,
-          "sparse_similarity": 0.06609870493412018,
-          "hybrid_score": 0.3324241042137146
-        },
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5832305550575256,
-          "sparse_similarity": 0.07738993316888809,
-          "hybrid_score": 0.33031025528907776
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5893069505691528,
-          "sparse_similarity": 0.06799166649580002,
-          "hybrid_score": 0.3286493122577667
-        }
-      ]
+    "assertion_position": [
+      445,
+      452
     ],
-    "eng_translation": [
-      "chills"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không sốt, không [ENTITY]."
   },
   {
     "text": "Đại tiện",
@@ -484,46 +136,11 @@
       492,
       500
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không nôn\n    - Không sốt, không  ớn lạnh\n    - [ENTITY] bình thường, không có nhầy máu\n    - Không đau ngực\n    - Không khó thở\nKhám bụng mềm, không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6062790751457214,
-          "sparse_similarity": 0.07536274194717407,
-          "hybrid_score": 0.34082090854644775
-        },
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5885801315307617,
-          "sparse_similarity": 0.09225336462259293,
-          "hybrid_score": 0.3404167592525482
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.594374418258667,
-          "sparse_similarity": 0.0776648297905922,
-          "hybrid_score": 0.3360196352005005
-        }
-      ]
+    "assertion_position": [
+      454,
+      462
     ],
-    "eng_translation": [
-      "Stool",
-      "Feces"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] bình thường, không có nhầy máu."
   },
   {
     "text": "máu",
@@ -532,45 +149,11 @@
       528,
       531
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không nôn\n    - Không sốt, không  ớn lạnh\n    - Đại tiện bình thường, không có nhầy [ENTITY]\n    - Không đau ngực\n    - Không khó thở\nKhám bụng mềm, không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6026899218559265,
-          "sparse_similarity": 0.07912126183509827,
-          "hybrid_score": 0.3409056067466736
-        },
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5858694314956665,
-          "sparse_similarity": 0.09208516031503677,
-          "hybrid_score": 0.33897730708122253
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5928716063499451,
-          "sparse_similarity": 0.08156557381153107,
-          "hybrid_score": 0.33721858263015747
-        }
-      ]
+    "assertion_position": [
+      490,
+      493
     ],
-    "eng_translation": [
-      "blood"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Đại tiện bình thường, không có nhầy [ENTITY]."
   },
   {
     "text": "đau ngực",
@@ -579,46 +162,11 @@
       544,
       552
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không nôn\n    - Không sốt, không  ớn lạnh\n    - Đại tiện bình thường, không có nhầy máu\n    - Không [ENTITY]\n    - Không khó thở\nKhám bụng mềm, không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6022011041641235,
-          "sparse_similarity": 0.07681607455015182,
-          "hybrid_score": 0.339508593082428
-        },
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5843095183372498,
-          "sparse_similarity": 0.08703503012657166,
-          "hybrid_score": 0.3356722593307495
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5916016697883606,
-          "sparse_similarity": 0.07914777100086212,
-          "hybrid_score": 0.33537471294403076
-        }
-      ]
+    "assertion_position": [
+      501,
+      509
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "khó thở",
@@ -627,46 +175,11 @@
       565,
       572
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không nôn\n    - Không sốt, không  ớn lạnh\n    - Đại tiện bình thường, không có nhầy máu\n    - Không đau ngực\n    - Không [ENTITY]\nKhám bụng mềm, không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5830897688865662,
-          "sparse_similarity": 0.09121137112379074,
-          "hybrid_score": 0.33715057373046875
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.59812992811203,
-          "sparse_similarity": 0.06691165268421173,
-          "hybrid_score": 0.3325207829475403
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.588107168674469,
-          "sparse_similarity": 0.06889542192220688,
-          "hybrid_score": 0.32850128412246704
-        }
-      ]
+    "assertion_position": [
+      517,
+      524
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "bụng mềm",
@@ -675,46 +188,11 @@
       578,
       586
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không nôn\n    - Không sốt, không  ớn lạnh\n    - Đại tiện bình thường, không có nhầy máu\n    - Không đau ngực\n    - Không khó thở\nKhám [ENTITY], không chướng\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6083459854125977,
-          "sparse_similarity": 0.07166458666324615,
-          "hybrid_score": 0.3400052785873413
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5984318256378174,
-          "sparse_similarity": 0.07389548420906067,
-          "hybrid_score": 0.33616364002227783
-        },
-        {
-          "id": "isFamily_007151",
-          "document": "bên nội của bệnh nhân được ghi nhận [ENTITY].",
-          "dense_similarity": 0.5962880849838257,
-          "sparse_similarity": 0.07091090083122253,
-          "hybrid_score": 0.3335995078086853
-        }
-      ]
+    "assertion_position": [
+      531,
+      539
     ],
-    "eng_translation": [
-      "soft abdomen",
-      "Abdominal softness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khám [ENTITY], không chướng."
   },
   {
     "text": "chướng",
@@ -723,46 +201,10 @@
       594,
       600
     ],
-    "sentence": "Tình trạng lúc vào viện:\nBệnh nhân tỉnh\nDa niêm mạc hồng nhạt\nKhông xuất huyết dưới da\n    - đau âm ỉ vùng quanh rốn, hạ sườn trái từng cơni\n    - buồn nôn nhẹ, không nôn\n    - Không sốt, không  ớn lạnh\n    - Đại tiện bình thường, không có nhầy máu\n    - Không đau ngực\n    - Không khó thở\nKhám bụng mềm, không [ENTITY]\n- Khám cơ quan khác chưa phát hiện bất thường\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007140",
-          "document": "bên nội của bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.5847004652023315,
-          "sparse_similarity": 0.08904554694890976,
-          "hybrid_score": 0.33687299489974976
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6022452712059021,
-          "sparse_similarity": 0.06608521193265915,
-          "hybrid_score": 0.3341652452945709
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5918429493904114,
-          "sparse_similarity": 0.06807515025138855,
-          "hybrid_score": 0.32995903491973877
-        }
-      ]
+    "assertion_position": [
+      547,
+      553
     ],
-    "eng_translation": [
-      "chướng",
-      "Chướng bụng",
-      "Chronic obstructive pulmonary disease (COPD) with acute exacerbation due to respiratory infection and hypercapnia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khám bụng mềm, không [ENTITY]."
   }
 ]

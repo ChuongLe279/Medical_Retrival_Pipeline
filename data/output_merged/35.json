@@ -6,62 +6,11 @@
       57,
       88
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - [ENTITY] đang dùng gleevec\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh nội khoa các bệnh lý mạn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.619510293006897,
-          "sparse_similarity": 0.2533451318740845,
-          "hybrid_score": 0.4364277124404907
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6232868432998657,
-          "sparse_similarity": 0.24620765447616577,
-          "hybrid_score": 0.43474724888801575
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6240891218185425,
-          "sparse_similarity": 0.20239606499671936,
-          "hybrid_score": 0.4132425785064697
-        }
-      ]
+    "assertion_position": [
+      45,
+      76
     ],
-    "eng_translation": [
-      "Chronic Myeloid Leukemia",
-      "Chronic Myelogenous Leukemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D471": 0.814773,
-        "C9312": 0.666095,
-        "C9292": 0.650754,
-        "C9211": 0.646788,
-        "C9212": 0.637444
-      },
-      "rapidfuzz": {
-        "C9210": 0.9,
-        "C9211": 0.9,
-        "C9212": 0.9,
-        "N990": 0.855,
-        "L98A398": 0.855,
-        "L98A224": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D471",
-      "confidence": 0.733296
-    }
+    "sentence": "[ENTITY] đang dùng gleevec."
   },
   {
     "text": "bạch cầu",
@@ -70,46 +19,11 @@
       62,
       70
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh [ENTITY] dòng tủy mãn tính đang dùng gleevec\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh nội khoa các bệnh lý mạn tính - bệnh [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6446170806884766,
-          "sparse_similarity": 0.26856642961502075,
-          "hybrid_score": 0.45659175515174866
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6496878266334534,
-          "sparse_similarity": 0.26115697622299194,
-          "hybrid_score": 0.45542240142822266
-        },
-        {
-          "id": "isFamily_007127",
-          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
-          "dense_similarity": 0.6202991604804993,
-          "sparse_similarity": 0.2501426041126251,
-          "hybrid_score": 0.4352208971977234
-        }
-      ]
+    "assertion_position": [
+      50,
+      58
     ],
-    "eng_translation": [
-      "White blood cells",
-      "Leukocytes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh [ENTITY] dòng tủy mãn tính đang dùng gleevec."
   },
   {
     "text": "gleevec",
@@ -118,64 +32,11 @@
       99,
       106
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng [ENTITY]\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6295397877693176,
-          "sparse_similarity": 0.25164881348609924,
-          "hybrid_score": 0.44059431552886963
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.633694052696228,
-          "sparse_similarity": 0.24378253519535065,
-          "hybrid_score": 0.43873828649520874
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6349198818206787,
-          "sparse_similarity": 0.20403984189033508,
-          "hybrid_score": 0.4194798469543457
-        }
-      ]
+    "assertion_position": [
+      87,
+      94
     ],
-    "eng_translation": [
-      "Gleevec",
-      "Imatinib",
-      "Imatinib Mesylate"
-    ],
-    "retriever": {
-      "sapbert": {
-        "282388": 1.0,
-        "284924": 1.0,
-        "282386": 1.0,
-        "1997267": 0.813729
-      },
-      "rapidfuzz": {
-        "282386": 1.0,
-        "282388": 1.0,
-        "284924": 1.0,
-        "404588": 0.9,
-        "404589": 0.9,
-        "576514": 0.9,
-        "10603": 0.9,
-        "2699831": 0.9
-      }
-    },
-    "candidate": {
-      "code": "284924",
-      "confidence": 1.0
-    }
+    "sentence": "Bệnh bạch cầu dòng tủy mãn tính đang dùng [ENTITY]."
   },
   {
     "text": "Tăng huyết áp",
@@ -184,62 +45,11 @@
       113,
       126
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec\n    - [ENTITY]\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6321984529495239,
-          "sparse_similarity": 0.2513851821422577,
-          "hybrid_score": 0.441791832447052
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6366491317749023,
-          "sparse_similarity": 0.24388112127780914,
-          "hybrid_score": 0.44026511907577515
-        },
-        {
-          "id": "isFamily_007127",
-          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
-          "dense_similarity": 0.6094192862510681,
-          "sparse_similarity": 0.23356275260448456,
-          "hybrid_score": 0.42149102687835693
-        }
-      ]
+    "assertion_position": [
+      96,
+      109
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "tăng lipid máu",
@@ -248,60 +58,11 @@
       133,
       147
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec\n    - Tăng huyết áp\n    - [ENTITY], không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.624108076095581,
-          "sparse_similarity": 0.24846266210079193,
-          "hybrid_score": 0.4362853765487671
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6278352737426758,
-          "sparse_similarity": 0.2404027283191681,
-          "hybrid_score": 0.43411898612976074
-        },
-        {
-          "id": "isFamily_007127",
-          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
-          "dense_similarity": 0.6009091734886169,
-          "sparse_similarity": 0.22997847199440002,
-          "hybrid_score": 0.4154438376426697
-        }
-      ]
+    "assertion_position": [
+      111,
+      125
     ],
-    "eng_translation": [
-      "Hyperlipidemia",
-      "Dyslipidemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E785": 0.979012,
-        "E786": 0.784723,
-        "E7849": 0.765059,
-        "E782": 0.751965,
-        "E7841": 0.744404
-      },
-      "rapidfuzz": {
-        "E782": 0.95,
-        "E7849": 0.95,
-        "E785": 0.9,
-        "Z83438": 0.771429
-      }
-    },
-    "candidate": {
-      "code": "E785",
-      "confidence": 0.971111
-    }
+    "sentence": "[ENTITY], không đặc hiệu."
   },
   {
     "text": "Đái tháo đường típ 2",
@@ -310,62 +71,11 @@
       170,
       190
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - [ENTITY]\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6271254420280457,
-          "sparse_similarity": 0.2312341034412384,
-          "hybrid_score": 0.4291797876358032
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.629939079284668,
-          "sparse_similarity": 0.22326193749904633,
-          "hybrid_score": 0.42660051584243774
-        },
-        {
-          "id": "isFamily_007127",
-          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
-          "dense_similarity": 0.6012943387031555,
-          "sparse_similarity": 0.2139119654893875,
-          "hybrid_score": 0.4076031446456909
-        }
-      ]
+    "assertion_position": [
+      143,
+      163
     ],
-    "eng_translation": [
-      "Type 2 diabetes mellitus",
-      "Diabetes mellitus type 2"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.844191,
-        "E119": 0.736971,
-        "E118": 0.725221,
-        "O24119": 0.724895,
-        "Z833": 0.724102
-      },
-      "rapidfuzz": {
-        "O24111": 0.9,
-        "O24112": 0.9,
-        "E1169": 0.9,
-        "S72362Q": 0.855,
-        "S72361M": 0.855,
-        "S72361N": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.759772
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "hẹp ống sống",
@@ -374,62 +84,11 @@
       197,
       209
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - [ENTITY]\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6166723966598511,
-          "sparse_similarity": 0.23060303926467896,
-          "hybrid_score": 0.423637717962265
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6196941137313843,
-          "sparse_similarity": 0.22233963012695312,
-          "hybrid_score": 0.4210168719291687
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6162386536598206,
-          "sparse_similarity": 0.18122003972530365,
-          "hybrid_score": 0.3987293541431427
-        }
-      ]
+    "assertion_position": [
+      165,
+      177
     ],
-    "eng_translation": [
-      "Spinal stenosis",
-      "Cervical spondylosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "M4800": 0.984485,
-        "M4312": 0.919032,
-        "M479": 0.849491,
-        "M4313": 0.821041,
-        "M4302": 0.818171
-      },
-      "rapidfuzz": {
-        "M48062": 0.9,
-        "M4805": 0.9,
-        "M48061": 0.9,
-        "M5080": 0.855,
-        "S12200G": 0.855,
-        "S12200K": 0.855
-      }
-    },
-    "candidate": {
-      "code": "M4800",
-      "confidence": 0.886037
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Giả gout",
@@ -438,62 +97,11 @@
       216,
       224
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - [ENTITY]\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6222463846206665,
-          "sparse_similarity": 0.2323491871356964,
-          "hybrid_score": 0.42729777097702026
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6257903575897217,
-          "sparse_similarity": 0.22433435916900635,
-          "hybrid_score": 0.425062358379364
-        },
-        {
-          "id": "isFamily_007127",
-          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
-          "dense_similarity": 0.5974023342132568,
-          "sparse_similarity": 0.2150997817516327,
-          "hybrid_score": 0.40625107288360596
-        }
-      ]
+    "assertion_position": [
+      179,
+      187
     ],
-    "eng_translation": [
-      "Pseudogout",
-      "Calcium Pyrophosphate Deposition Disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "M1100": 0.765383,
-        "M1109": 0.689372,
-        "M1108": 0.684906,
-        "M1118": 0.680705,
-        "M1110": 0.672732
-      },
-      "rapidfuzz": {
-        "O1022": 0.855,
-        "O352XX5": 0.855,
-        "O352XX9": 0.855,
-        "B0803": 0.7,
-        "L731": 0.7,
-        "F482": 0.7
-      }
-    },
-    "candidate": {
-      "code": "M1100",
-      "confidence": 0.688845
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "bệnh thận mạn",
@@ -502,62 +110,11 @@
       231,
       244
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - [ENTITY], không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6147841215133667,
-          "sparse_similarity": 0.23302143812179565,
-          "hybrid_score": 0.4239027798175812
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6177178025245667,
-          "sparse_similarity": 0.22508496046066284,
-          "hybrid_score": 0.42140138149261475
-        },
-        {
-          "id": "isFamily_007127",
-          "document": "bên nội của bệnh nhi có tiền sử [ENTITY].",
-          "dense_similarity": 0.590774655342102,
-          "sparse_similarity": 0.21581298112869263,
-          "hybrid_score": 0.40329381823539734
-        }
-      ]
+    "assertion_position": [
+      189,
+      202
     ],
-    "eng_translation": [
-      "Chronic kidney disease",
-      "CKD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N189": 0.982146,
-        "N039": 0.781739,
-        "N186": 0.757736,
-        "N181": 0.744167,
-        "N1830": 0.681813
-      },
-      "rapidfuzz": {
-        "D631": 0.95,
-        "N181": 0.95,
-        "N1831": 0.95,
-        "I450": 0.72,
-        "I452": 0.72,
-        "I453": 0.72
-      }
-    },
-    "candidate": {
-      "code": "N189",
-      "confidence": 0.883931
-    }
+    "sentence": "[ENTITY], không đặc hiệu Giai đoạn 4."
   },
   {
     "text": "tăng sản tuyến tiền liệt",
@@ -566,58 +123,11 @@
       279,
       303
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - [ENTITY]\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6178200244903564,
-          "sparse_similarity": 0.21878045797348022,
-          "hybrid_score": 0.41830024123191833
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6219241619110107,
-          "sparse_similarity": 0.21101993322372437,
-          "hybrid_score": 0.41647204756736755
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6200143098831177,
-          "sparse_similarity": 0.18447592854499817,
-          "hybrid_score": 0.40224510431289673
-        }
-      ]
+    "assertion_position": [
+      232,
+      256
     ],
-    "eng_translation": [
-      "Benign Prostatic Hyperplasia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N400": 0.819702,
-        "D291": 0.770737,
-        "N401": 0.741695,
-        "N4231": 0.690872,
-        "Z87430": 0.67855
-      },
-      "rapidfuzz": {
-        "N400": 0.9,
-        "N401": 0.9,
-        "D3A024": 0.855
-      }
-    },
-    "candidate": {
-      "code": "N400",
-      "confidence": 0.827732
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Ngã",
@@ -626,45 +136,11 @@
       332,
       335
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây [ENTITY]\n    - ảo giác\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.612869918346405,
-          "sparse_similarity": 0.23340386152267456,
-          "hybrid_score": 0.4231368899345398
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6154605746269226,
-          "sparse_similarity": 0.22553056478500366,
-          "hybrid_score": 0.42049556970596313
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6174805760383606,
-          "sparse_similarity": 0.19116519391536713,
-          "hybrid_score": 0.40432289242744446
-        }
-      ]
+    "assertion_position": [
+      280,
+      283
     ],
-    "eng_translation": [
-      "Fall"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Nhiều lần ngã gần đây [ENTITY]."
   },
   {
     "text": "ảo giác",
@@ -673,46 +149,11 @@
       342,
       349
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - [ENTITY]\n    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6225025653839111,
-          "sparse_similarity": 0.20783168077468872,
-          "hybrid_score": 0.4151671230792999
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.617171585559845,
-          "sparse_similarity": 0.21217888593673706,
-          "hybrid_score": 0.414675235748291
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6063249707221985,
-          "sparse_similarity": 0.211379736661911,
-          "hybrid_score": 0.40885233879089355
-        }
-      ]
+    "assertion_position": [
+      285,
+      292
     ],
-    "eng_translation": [
-      "hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "gleevec",
@@ -721,64 +162,11 @@
       381,
       388
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - Đái tháo đường típ 2\n    - hẹp ống sống\n    - Giả gout\n    - bệnh thận mạn, không đặc hiệu Giai đoạn 4\n    - tăng sản tuyến tiền liệt\n    - Nhiều lần ngã gần đây Ngã\n    - ảo giác\n    Thuốc trước khi nhập viện: [ENTITY] (dừng theo chỉ dẫn sau xuất viện)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6374950408935547,
-          "sparse_similarity": 0.2613009214401245,
-          "hybrid_score": 0.4493979811668396
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6411687731742859,
-          "sparse_similarity": 0.25345733761787415,
-          "hybrid_score": 0.4473130702972412
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6352051496505737,
-          "sparse_similarity": 0.20270228385925293,
-          "hybrid_score": 0.41895371675491333
-        }
-      ]
+    "assertion_position": [
+      321,
+      328
     ],
-    "eng_translation": [
-      "Gleevec",
-      "Imatinib",
-      "Imatinib Mesylate"
-    ],
-    "retriever": {
-      "sapbert": {
-        "282388": 1.0,
-        "284924": 1.0,
-        "282386": 1.0,
-        "1997267": 0.813729
-      },
-      "rapidfuzz": {
-        "282386": 1.0,
-        "282388": 1.0,
-        "284924": 1.0,
-        "404588": 0.9,
-        "404589": 0.9,
-        "576514": 0.9,
-        "10603": 0.9,
-        "2699831": 0.9
-      }
-    },
-    "candidate": {
-      "code": "284924",
-      "confidence": 1.0
-    }
+    "sentence": "Thuốc trước khi nhập viện: [ENTITY] (dừng theo chỉ dẫn sau xuất viện)."
   },
   {
     "text": "suy",
@@ -787,48 +175,11 @@
       487,
       490
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng [ENTITY] kiệt  kể từ khi xuất viện\n    - ảo giác dai dẳng\n    - Lú lẫn ngày càng nặng\n    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh hiện tại lý do nhập viện - toàn trạng [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007587",
-          "document": "bệnh sử gia đình vợ đã bị [ENTITY].",
-          "dense_similarity": 0.5921657085418701,
-          "sparse_similarity": 0.20984509587287903,
-          "hybrid_score": 0.4010053873062134
-        },
-        {
-          "id": "isFamily_007585",
-          "document": "bệnh sử gia đình vợ đang mắc [ENTITY].",
-          "dense_similarity": 0.5910651087760925,
-          "sparse_similarity": 0.2105868011713028,
-          "hybrid_score": 0.40082594752311707
-        },
-        {
-          "id": "isFamily_028692",
-          "document": "vợ bệnh nhân từng bị [ENTITY].",
-          "dense_similarity": 0.5933991074562073,
-          "sparse_similarity": 0.16784313321113586,
-          "hybrid_score": 0.38062113523483276
-        }
-      ]
+    "assertion_position": [
+      415,
+      418
     ],
-    "eng_translation": [
-      "suy",
-      "Suy is not a recognized medical term or condition. Please provide a more detailed or correctly spelled query.",
-      "Sudden unexpected death in infancy",
-      "Suy is not a recognized medical abbreviation. Please provide a valid medical query containing abbreviations for expansion."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Toàn trạng [ENTITY] kiệt kể từ khi xuất viện."
   },
   {
     "text": "ảo giác",
@@ -837,46 +188,11 @@
       523,
       530
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất viện\n    - [ENTITY] dai dẳng\n    - Lú lẫn ngày càng nặng\n    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032393",
-          "document": "đã 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5821899771690369,
-          "sparse_similarity": 0.1514223963022232,
-          "hybrid_score": 0.36680617928504944
-        },
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5803155303001404,
-          "sparse_similarity": 0.15260717272758484,
-          "hybrid_score": 0.3664613366127014
-        },
-        {
-          "id": "isHistorical_025996",
-          "document": "từ 60 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.583634078502655,
-          "sparse_similarity": 0.14838743209838867,
-          "hybrid_score": 0.36601075530052185
-        }
-      ]
+    "assertion_position": [
+      445,
+      452
     ],
-    "eng_translation": [
-      "hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] dai dẳng."
   },
   {
     "text": "lẫn",
@@ -885,46 +201,11 @@
       549,
       552
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất viện\n    - ảo giác dai dẳng\n    - Lú [ENTITY] ngày càng nặng\n    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031853",
-          "document": "đã 1 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6051542162895203,
-          "sparse_similarity": 0.16698233783245087,
-          "hybrid_score": 0.38606828451156616
-        },
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6040441989898682,
-          "sparse_similarity": 0.16742171347141266,
-          "hybrid_score": 0.3857329487800598
-        },
-        {
-          "id": "isHistorical_032393",
-          "document": "đã 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.604729950428009,
-          "sparse_similarity": 0.16590431332588196,
-          "hybrid_score": 0.3853171467781067
-        }
-      ]
+    "assertion_position": [
+      466,
+      469
     ],
-    "eng_translation": [
-      "lẫn",
-      "The query provided appears to be in Vietnamese and does not contain any English medical terminology. Since there is no English medical query to rewrite, I cannot perform the requested task. Please provide an English medical query for processing."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lú [ENTITY] ngày càng nặng."
   },
   {
     "text": "ảo giác",
@@ -933,46 +214,11 @@
       661,
       668
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất viện\n    - ảo giác dai dẳng\n    - Lú lẫn ngày càng nặng\n    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - [ENTITY] được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "vợ"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007585",
-          "document": "bệnh sử gia đình vợ đang mắc [ENTITY].",
-          "dense_similarity": 0.5929535031318665,
-          "sparse_similarity": 0.2067389339208603,
-          "hybrid_score": 0.39984622597694397
-        },
-        {
-          "id": "isFamily_007587",
-          "document": "bệnh sử gia đình vợ đã bị [ENTITY].",
-          "dense_similarity": 0.5931624174118042,
-          "sparse_similarity": 0.20628716051578522,
-          "hybrid_score": 0.3997247815132141
-        },
-        {
-          "id": "isFamily_028785",
-          "document": "vợ người bệnh đã bị [ENTITY].",
-          "dense_similarity": 0.5904120802879333,
-          "sparse_similarity": 0.17683632671833038,
-          "hybrid_score": 0.38362419605255127
-        }
-      ]
+    "assertion_position": [
+      567,
+      574
     ],
-    "eng_translation": [
-      "hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] được vợ nhận thấy."
   },
   {
     "text": "lẫn",
@@ -981,46 +227,11 @@
       696,
       699
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất viện\n    - ảo giác dai dẳng\n    - Lú lẫn ngày càng nặng\n    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú [ENTITY] ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "vợ"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007587",
-          "document": "bệnh sử gia đình vợ đã bị [ENTITY].",
-          "dense_similarity": 0.6027666330337524,
-          "sparse_similarity": 0.21609924733638763,
-          "hybrid_score": 0.40943294763565063
-        },
-        {
-          "id": "isFamily_007585",
-          "document": "bệnh sử gia đình vợ đang mắc [ENTITY].",
-          "dense_similarity": 0.601141095161438,
-          "sparse_similarity": 0.21602033078670502,
-          "hybrid_score": 0.4085807204246521
-        },
-        {
-          "id": "isFamily_028785",
-          "document": "vợ người bệnh đã bị [ENTITY].",
-          "dense_similarity": 0.5975136160850525,
-          "sparse_similarity": 0.1850169152021408,
-          "hybrid_score": 0.39126527309417725
-        }
-      ]
+    "assertion_position": [
+      597,
+      600
     ],
-    "eng_translation": [
-      "lẫn",
-      "The query provided appears to be in Vietnamese and does not contain any English medical terminology. Since there is no English medical query to rewrite, I cannot perform the requested task. Please provide an English medical query for processing."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lú [ENTITY] ngày càng nặng được vợ nhận thấy."
   },
   {
     "text": "suy kiệt",
@@ -1029,46 +240,11 @@
       808,
       816
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất viện\n    - ảo giác dai dẳng\n    - Lú lẫn ngày càng nặng\n    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng [ENTITY]\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "vợ"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007587",
-          "document": "bệnh sử gia đình vợ đã bị [ENTITY].",
-          "dense_similarity": 0.5910371541976929,
-          "sparse_similarity": 0.20272158086299896,
-          "hybrid_score": 0.3968793749809265
-        },
-        {
-          "id": "isFamily_007585",
-          "document": "bệnh sử gia đình vợ đang mắc [ENTITY].",
-          "dense_similarity": 0.589766800403595,
-          "sparse_similarity": 0.20307748019695282,
-          "hybrid_score": 0.3964221477508545
-        },
-        {
-          "id": "isFamily_007588",
-          "document": "bệnh sử gia đình vợ đã mắc [ENTITY].",
-          "dense_similarity": 0.5842113494873047,
-          "sparse_similarity": 0.20260566473007202,
-          "hybrid_score": 0.39340850710868835
-        }
-      ]
+    "assertion_position": [
+      696,
+      704
     ],
-    "eng_translation": [
-      "Weight loss",
-      "Unintentional weight loss"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "toàn trạng [ENTITY]."
   },
   {
     "text": "ảo giác",
@@ -1077,46 +253,11 @@
       823,
       830
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất viện\n    - ảo giác dai dẳng\n    - Lú lẫn ngày càng nặng\n    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - [ENTITY]\n    - Lú lẫn\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "vợ"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5809223055839539,
-          "sparse_similarity": 0.15031695365905762,
-          "hybrid_score": 0.36561962962150574
-        },
-        {
-          "id": "isHistorical_026008",
-          "document": "từ 60 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5851653814315796,
-          "sparse_similarity": 0.14595629274845123,
-          "hybrid_score": 0.3655608296394348
-        },
-        {
-          "id": "isHistorical_026800",
-          "document": "từ 90 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5796305537223816,
-          "sparse_similarity": 0.14984600245952606,
-          "hybrid_score": 0.3647382855415344
-        }
-      ]
+    "assertion_position": [
+      706,
+      713
     ],
-    "eng_translation": [
-      "hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Lú lẫn",
@@ -1125,46 +266,11 @@
       837,
       843
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất viện\n    - ảo giác dai dẳng\n    - Lú lẫn ngày càng nặng\n    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - [ENTITY]\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "vợ"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007587",
-          "document": "bệnh sử gia đình vợ đã bị [ENTITY].",
-          "dense_similarity": 0.5926523804664612,
-          "sparse_similarity": 0.19090725481510162,
-          "hybrid_score": 0.3917798101902008
-        },
-        {
-          "id": "isFamily_007585",
-          "document": "bệnh sử gia đình vợ đang mắc [ENTITY].",
-          "dense_similarity": 0.5897579789161682,
-          "sparse_similarity": 0.1912420243024826,
-          "hybrid_score": 0.390500009059906
-        },
-        {
-          "id": "isFamily_007588",
-          "document": "bệnh sử gia đình vợ đã mắc [ENTITY].",
-          "dense_similarity": 0.5850722193717957,
-          "sparse_similarity": 0.19084055721759796,
-          "hybrid_score": 0.3879563808441162
-        }
-      ]
+    "assertion_position": [
+      715,
+      721
     ],
-    "eng_translation": [
-      "Confusion",
-      "Cognitive impairment"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Ăn uống kém",
@@ -1173,46 +279,11 @@
       850,
       861
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất viện\n    - ảo giác dai dẳng\n    - Lú lẫn ngày càng nặng\n    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - [ENTITY], ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "vợ"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007587",
-          "document": "bệnh sử gia đình vợ đã bị [ENTITY].",
-          "dense_similarity": 0.5938600301742554,
-          "sparse_similarity": 0.19896730780601501,
-          "hybrid_score": 0.3964136838912964
-        },
-        {
-          "id": "isFamily_007585",
-          "document": "bệnh sử gia đình vợ đang mắc [ENTITY].",
-          "dense_similarity": 0.5918766856193542,
-          "sparse_similarity": 0.199354887008667,
-          "hybrid_score": 0.3956157863140106
-        },
-        {
-          "id": "isFamily_007588",
-          "document": "bệnh sử gia đình vợ đã mắc [ENTITY].",
-          "dense_similarity": 0.5871233344078064,
-          "sparse_similarity": 0.19894784688949585,
-          "hybrid_score": 0.3930355906486511
-        }
-      ]
+    "assertion_position": [
+      723,
+      734
     ],
-    "eng_translation": [
-      "Poor appetite",
-      "Decreased appetite"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], ăn vào dễ nôn."
   },
   {
     "text": "dễ nôn",
@@ -1221,47 +292,11 @@
       870,
       876
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện\n    - Toàn trạng suy kiệt  kể từ khi xuất viện\n    - ảo giác dai dẳng\n    - Lú lẫn ngày càng nặng\n    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện\n    Diễn biến bệnh\n    - ảo giác được vợ nhận thấy\n    - Lú lẫn ngày càng nặng được vợ nhận thấy\n    - yếu cơ dẫn đến ngã hôm nay\n    Triệu chứng hiện tại\n    - toàn trạng suy kiệt\n    - ảo giác\n    - Lú lẫn\n    - Ăn uống kém, ăn vào [ENTITY].",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "vợ"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_028689",
-          "document": "vợ bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5844326615333557,
-          "sparse_similarity": 0.2320656180381775,
-          "hybrid_score": 0.4082491397857666
-        },
-        {
-          "id": "isFamily_007587",
-          "document": "bệnh sử gia đình vợ đã bị [ENTITY].",
-          "dense_similarity": 0.593749463558197,
-          "sparse_similarity": 0.2042665183544159,
-          "hybrid_score": 0.39900797605514526
-        },
-        {
-          "id": "isFamily_007585",
-          "document": "bệnh sử gia đình vợ đang mắc [ENTITY].",
-          "dense_similarity": 0.5924830436706543,
-          "sparse_similarity": 0.20500251650810242,
-          "hybrid_score": 0.39874279499053955
-        }
-      ]
+    "assertion_position": [
+      743,
+      749
     ],
-    "eng_translation": [
-      "nauseated",
-      "Nausea",
-      "Nauseous"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Ăn uống kém, ăn vào [ENTITY]."
   },
   {
     "text": "Nôn không ra máu",
@@ -1270,46 +305,11 @@
       884,
       900
     ],
-    "sentence": "- [ENTITY], không ra dịch mật\n    Các sự kiện trước khi nhập viện\n    - Vừa được xuất viện sau  chẩn đoán cho ảo giác bình thường\n    - Được hướng dẫn ngừng gleevec\n    Tình trạng ngay trước khi nhập viện\n    - Toàn trạng suy kiệt\n    - trượt ngã xuống sàn do yếu cơ\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6423509120941162,
-          "sparse_similarity": 0.16962262988090515,
-          "hybrid_score": 0.4059867858886719
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6362623572349548,
-          "sparse_similarity": 0.16741538047790527,
-          "hybrid_score": 0.40183886885643005
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6246654987335205,
-          "sparse_similarity": 0.16854643821716309,
-          "hybrid_score": 0.3966059684753418
-        }
-      ]
+    "assertion_position": [
+      751,
+      767
     ],
-    "eng_translation": [
-      "Vomiting without blood",
-      "Vomiting without hematemesis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], không ra dịch mật."
   },
   {
     "text": "không ra dịch mật",
@@ -1318,46 +318,11 @@
       902,
       919
     ],
-    "sentence": "- Nôn không ra máu, [ENTITY]\n    Các sự kiện trước khi nhập viện\n    - Vừa được xuất viện sau  chẩn đoán cho ảo giác bình thường\n    - Được hướng dẫn ngừng gleevec\n    Tình trạng ngay trước khi nhập viện\n    - Toàn trạng suy kiệt\n    - trượt ngã xuống sàn do yếu cơ\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6015815138816833,
-          "sparse_similarity": 0.1226557046175003,
-          "hybrid_score": 0.36211860179901123
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.597878098487854,
-          "sparse_similarity": 0.12145625799894333,
-          "hybrid_score": 0.35966718196868896
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5853829979896545,
-          "sparse_similarity": 0.12391193211078644,
-          "hybrid_score": 0.3546474575996399
-        }
-      ]
+    "assertion_position": [
+      769,
+      786
     ],
-    "eng_translation": [
-      "No bile output",
-      "No bile flow"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Nôn không ra máu, [ENTITY]."
   },
   {
     "text": "ảo giác",
@@ -1366,46 +331,11 @@
       1000,
       1007
     ],
-    "sentence": "- Nôn không ra máu, không ra dịch mật\n    Các sự kiện trước khi nhập viện\n    - Vừa được xuất viện sau  chẩn đoán cho [ENTITY] bình thường\n    - Được hướng dẫn ngừng gleevec\n    Tình trạng ngay trước khi nhập viện\n    - Toàn trạng suy kiệt\n    - trượt ngã xuống sàn do yếu cơ\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5872650146484375,
-          "sparse_similarity": 0.14609959721565247,
-          "hybrid_score": 0.3666822910308838
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5800797343254089,
-          "sparse_similarity": 0.1441134214401245,
-          "hybrid_score": 0.3620965778827667
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.571808397769928,
-          "sparse_similarity": 0.1496521681547165,
-          "hybrid_score": 0.36073029041290283
-        }
-      ]
+    "assertion_position": [
+      858,
+      865
     ],
-    "eng_translation": [
-      "hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Vừa được xuất viện sau chẩn đoán cho [ENTITY] bình thường."
   },
   {
     "text": "gleevec",
@@ -1414,64 +344,11 @@
       1047,
       1054
     ],
-    "sentence": "- Nôn không ra máu, không ra dịch mật\n    Các sự kiện trước khi nhập viện\n    - Vừa được xuất viện sau  chẩn đoán cho ảo giác bình thường\n    - Được hướng dẫn ngừng [ENTITY]\n    Tình trạng ngay trước khi nhập viện\n    - Toàn trạng suy kiệt\n    - trượt ngã xuống sàn do yếu cơ\n    - Ăn uống kém, ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.580933690071106,
-          "sparse_similarity": 0.12029663473367691,
-          "hybrid_score": 0.35061517357826233
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5785353779792786,
-          "sparse_similarity": 0.11896965652704239,
-          "hybrid_score": 0.34875252842903137
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.561968207359314,
-          "sparse_similarity": 0.12350770831108093,
-          "hybrid_score": 0.34273797273635864
-        }
-      ]
+    "assertion_position": [
+      900,
+      907
     ],
-    "eng_translation": [
-      "Gleevec",
-      "Imatinib",
-      "Imatinib Mesylate"
-    ],
-    "retriever": {
-      "sapbert": {
-        "282388": 1.0,
-        "284924": 1.0,
-        "282386": 1.0,
-        "1997267": 0.813729
-      },
-      "rapidfuzz": {
-        "282386": 1.0,
-        "282388": 1.0,
-        "284924": 1.0,
-        "404588": 0.9,
-        "404589": 0.9,
-        "576514": 0.9,
-        "10603": 0.9,
-        "2699831": 0.9
-      }
-    },
-    "candidate": {
-      "code": "284924",
-      "confidence": 1.0
-    }
+    "sentence": "Được hướng dẫn ngừng [ENTITY]."
   },
   {
     "text": "Ăn uống kém",
@@ -1480,46 +357,11 @@
       1163,
       1174
     ],
-    "sentence": "- Nôn không ra máu, không ra dịch mật\n    Các sự kiện trước khi nhập viện\n    - Vừa được xuất viện sau  chẩn đoán cho ảo giác bình thường\n    - Được hướng dẫn ngừng gleevec\n    Tình trạng ngay trước khi nhập viện\n    - Toàn trạng suy kiệt\n    - trượt ngã xuống sàn do yếu cơ\n    - [ENTITY], ăn vào dễ nôn.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5819351673126221,
-          "sparse_similarity": 0.13234110176563263,
-          "hybrid_score": 0.35713812708854675
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5758804082870483,
-          "sparse_similarity": 0.13049228489398956,
-          "hybrid_score": 0.35318633913993835
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5696111917495728,
-          "sparse_similarity": 0.13475267589092255,
-          "hybrid_score": 0.35218194127082825
-        }
-      ]
+    "assertion_position": [
+      998,
+      1009
     ],
-    "eng_translation": [
-      "Poor appetite",
-      "Decreased appetite"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], ăn vào dễ nôn."
   },
   {
     "text": "dễ nôn",
@@ -1528,47 +370,11 @@
       1183,
       1189
     ],
-    "sentence": "- Nôn không ra máu, không ra dịch mật\n    Các sự kiện trước khi nhập viện\n    - Vừa được xuất viện sau  chẩn đoán cho ảo giác bình thường\n    - Được hướng dẫn ngừng gleevec\n    Tình trạng ngay trước khi nhập viện\n    - Toàn trạng suy kiệt\n    - trượt ngã xuống sàn do yếu cơ\n    - Ăn uống kém, ăn vào [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5820512771606445,
-          "sparse_similarity": 0.13981734216213226,
-          "hybrid_score": 0.360934317111969
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.576134204864502,
-          "sparse_similarity": 0.13763149082660675,
-          "hybrid_score": 0.35688284039497375
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5669397115707397,
-          "sparse_similarity": 0.14203765988349915,
-          "hybrid_score": 0.35448867082595825
-        }
-      ]
+    "assertion_position": [
+      1018,
+      1024
     ],
-    "eng_translation": [
-      "nauseated",
-      "Nausea",
-      "Nauseous"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Ăn uống kém, ăn vào [ENTITY]."
   },
   {
     "text": "Nôn không ra máu",
@@ -1577,46 +383,11 @@
       1197,
       1213
     ],
-    "sentence": "- [ENTITY], không ra dịch mật\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000205",
-          "document": "không có [ENTITY].",
-          "dense_similarity": 0.7413349151611328,
-          "sparse_similarity": 0.17125204205513,
-          "hybrid_score": 0.4562934637069702
-        },
-        {
-          "id": "isNegated_000204",
-          "document": "không bị [ENTITY].",
-          "dense_similarity": 0.7337701916694641,
-          "sparse_similarity": 0.16925495862960815,
-          "hybrid_score": 0.45151257514953613
-        },
-        {
-          "id": "isNegated_000029",
-          "document": "[ENTITY] không phát hiện.",
-          "dense_similarity": 0.7412401437759399,
-          "sparse_similarity": 0.1591368019580841,
-          "hybrid_score": 0.45018845796585083
-        }
-      ]
+    "assertion_position": [
+      1026,
+      1042
     ],
-    "eng_translation": [
-      "Vomiting without blood",
-      "Vomiting without hematemesis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], không ra dịch mật."
   },
   {
     "text": "dịch mật",
@@ -1625,46 +396,11 @@
       1224,
       1232
     ],
-    "sentence": "- Nôn không ra máu, không ra [ENTITY]\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000127",
-          "document": "cấy máu không phát hiện [ENTITY].",
-          "dense_similarity": 0.7320502996444702,
-          "sparse_similarity": 0.16370375454425812,
-          "hybrid_score": 0.44787701964378357
-        },
-        {
-          "id": "isNegated_000204",
-          "document": "không bị [ENTITY].",
-          "dense_similarity": 0.7252011895179749,
-          "sparse_similarity": 0.14373396337032318,
-          "hybrid_score": 0.4344675838947296
-        },
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.703796923160553,
-          "sparse_similarity": 0.14246509969234467,
-          "hybrid_score": 0.4231310188770294
-        }
-      ]
+    "assertion_position": [
+      1053,
+      1061
     ],
-    "eng_translation": [
-      "biliary drainage",
-      "Bile drainage"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Nôn không ra máu, không ra [ENTITY]."
   },
   {
     "text": "bạch cầu",
@@ -1673,46 +409,11 @@
       1290,
       1298
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - [ENTITY] tăng là 39.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001601",
-          "document": "39 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7455751299858093,
-          "sparse_similarity": 0.21142996847629547,
-          "hybrid_score": 0.4785025417804718
-        },
-        {
-          "id": "isHistorical_032634",
-          "document": "đã 39 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7426877021789551,
-          "sparse_similarity": 0.20987221598625183,
-          "hybrid_score": 0.47627997398376465
-        },
-        {
-          "id": "isHistorical_020469",
-          "document": "khoảng 39 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.746695876121521,
-          "sparse_similarity": 0.2058459222316742,
-          "hybrid_score": 0.4762709140777588
-        }
-      ]
+    "assertion_position": [
+      1107,
+      1115
     ],
-    "eng_translation": [
-      "White blood cells",
-      "Leukocytes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] tăng là 39."
   },
   {
     "text": "39.2",
@@ -1721,47 +422,11 @@
       1307,
       1311
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - bạch cầu tăng là [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000109",
-          "document": "cần xét nghiệm xác nhận [ENTITY].",
-          "dense_similarity": 0.6839563846588135,
-          "sparse_similarity": 0.19094225764274597,
-          "hybrid_score": 0.4374493360519409
-        },
-        {
-          "id": "isUncertain_000108",
-          "document": "cần làm thêm xét nghiệm xác định [ENTITY].",
-          "dense_similarity": 0.6841408014297485,
-          "sparse_similarity": 0.17720751464366913,
-          "hybrid_score": 0.43067416548728943
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6930500864982605,
-          "sparse_similarity": 0.10662835836410522,
-          "hybrid_score": 0.39983922243118286
-        }
-      ]
+    "assertion_position": [
+      1124,
+      1128
     ],
-    "eng_translation": [
-      "39.2",
-      "Fever, 39.2°C",
-      "39.2°C"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "bạch cầu tăng là [ENTITY]"
   },
   {
     "text": "creatinin",
@@ -1770,46 +435,11 @@
       1318,
       1327
     ],
-    "sentence": "2\n    - [ENTITY] là 3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006624",
-          "document": "[ENTITY] da 3 ngay.",
-          "dense_similarity": 0.8489386439323425,
-          "sparse_similarity": 0.11027819663286209,
-          "hybrid_score": 0.479608416557312
-        },
-        {
-          "id": "isHistorical_006623",
-          "document": "[ENTITY] da 3 nam.",
-          "dense_similarity": 0.8452076315879822,
-          "sparse_similarity": 0.0966060683131218,
-          "hybrid_score": 0.4709068536758423
-        },
-        {
-          "id": "isFamily_001093",
-          "document": "[ENTITY] ở người ba.",
-          "dense_similarity": 0.8239389657974243,
-          "sparse_similarity": 0.11231442540884018,
-          "hybrid_score": 0.46812668442726135
-        }
-      ]
+    "assertion_position": [
+      1130,
+      1139
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] là 3."
   },
   {
     "text": "3.0",
@@ -1818,45 +448,11 @@
       1331,
       1334
     ],
-    "sentence": "2\n    - creatinin là [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006580",
-          "document": "[ENTITY] da 2 ngay.",
-          "dense_similarity": 0.6719434261322021,
-          "sparse_similarity": 0.12218724191188812,
-          "hybrid_score": 0.39706534147262573
-        },
-        {
-          "id": "isHistorical_015079",
-          "document": "da 2 ngay [ENTITY].",
-          "dense_similarity": 0.6718255281448364,
-          "sparse_similarity": 0.11274215579032898,
-          "hybrid_score": 0.3922838568687439
-        },
-        {
-          "id": "isHistorical_015080",
-          "document": "da 2 ngay bi [ENTITY].",
-          "dense_similarity": 0.6717727184295654,
-          "sparse_similarity": 0.10939111560583115,
-          "hybrid_score": 0.3905819058418274
-        }
-      ]
+    "assertion_position": [
+      1143,
+      1146
     ],
-    "eng_translation": [
-      "3.0"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "creatinin là [ENTITY]"
   },
   {
     "text": "troponin",
@@ -1865,47 +461,11 @@
       1341,
       1349
     ],
-    "sentence": "0\n    - [ENTITY] là 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000028",
-          "document": "[ENTITY] không hiện diện.",
-          "dense_similarity": 0.7691945433616638,
-          "sparse_similarity": 0.1493697315454483,
-          "hybrid_score": 0.45928213000297546
-        },
-        {
-          "id": "isNegated_000033",
-          "document": "[ENTITY] không tồn tại.",
-          "dense_similarity": 0.7605280876159668,
-          "sparse_similarity": 0.15184159576892853,
-          "hybrid_score": 0.45618483424186707
-        },
-        {
-          "id": "isNegated_000038",
-          "document": "[ENTITY] kết quả âm tính.",
-          "dense_similarity": 0.8000074625015259,
-          "sparse_similarity": 0.10807677358388901,
-          "hybrid_score": 0.45404210686683655
-        }
-      ]
+    "assertion_position": [
+      1148,
+      1156
     ],
-    "eng_translation": [
-      "troponin",
-      "Troponin elevation",
-      "Cardiac troponin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] là 0."
   },
   {
     "text": "0.10",
@@ -1914,45 +474,11 @@
       1353,
       1357
     ],
-    "sentence": "0\n    - troponin là [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_007812",
-          "document": "[ENTITY] trong dot truoc.",
-          "dense_similarity": 0.6513586640357971,
-          "sparse_similarity": 0.08541615307331085,
-          "hybrid_score": 0.3683874011039734
-        },
-        {
-          "id": "isHistorical_017196",
-          "document": "dot truoc [ENTITY].",
-          "dense_similarity": 0.6600019931793213,
-          "sparse_similarity": 0.07370126247406006,
-          "hybrid_score": 0.3668516278266907
-        },
-        {
-          "id": "isHistorical_007825",
-          "document": "[ENTITY] tu 1 tuan truoc.",
-          "dense_similarity": 0.6542129516601562,
-          "sparse_similarity": 0.07632098346948624,
-          "hybrid_score": 0.36526697874069214
-        }
-      ]
+    "assertion_position": [
+      1160,
+      1164
     ],
-    "eng_translation": [
-      "0.10"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "troponin là [ENTITY]"
   },
   {
     "text": "inr",
@@ -1961,46 +487,11 @@
       1364,
       1367
     ],
-    "sentence": "10\n    - [ENTITY] là 1.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006536",
-          "document": "[ENTITY] da 10 ngay.",
-          "dense_similarity": 0.8222047686576843,
-          "sparse_similarity": 0.23815599083900452,
-          "hybrid_score": 0.5301803946495056
-        },
-        {
-          "id": "isHistorical_006535",
-          "document": "[ENTITY] da 10 nam.",
-          "dense_similarity": 0.8250820636749268,
-          "sparse_similarity": 0.21989421546459198,
-          "hybrid_score": 0.5224881172180176
-        },
-        {
-          "id": "isHistorical_006537",
-          "document": "[ENTITY] da 10 thang.",
-          "dense_similarity": 0.788010835647583,
-          "sparse_similarity": 0.22305123507976532,
-          "hybrid_score": 0.5055310130119324
-        }
-      ]
+    "assertion_position": [
+      1166,
+      1169
     ],
-    "eng_translation": [
-      "INR",
-      "International Normalized Ratio"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] là 1."
   },
   {
     "text": "1.4",
@@ -2009,45 +500,11 @@
       1371,
       1374
     ],
-    "sentence": "10\n    - inr là [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006536",
-          "document": "[ENTITY] da 10 ngay.",
-          "dense_similarity": 0.7905759811401367,
-          "sparse_similarity": 0.18047699332237244,
-          "hybrid_score": 0.48552650213241577
-        },
-        {
-          "id": "isHistorical_014815",
-          "document": "da 10 ngay [ENTITY].",
-          "dense_similarity": 0.8010209202766418,
-          "sparse_similarity": 0.15709704160690308,
-          "hybrid_score": 0.47905898094177246
-        },
-        {
-          "id": "isHistorical_006535",
-          "document": "[ENTITY] da 10 nam.",
-          "dense_similarity": 0.7820206880569458,
-          "sparse_similarity": 0.16687394678592682,
-          "hybrid_score": 0.4744473099708557
-        }
-      ]
+    "assertion_position": [
+      1173,
+      1176
     ],
-    "eng_translation": [
-      "1.4"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "inr là [ENTITY]"
   },
   {
     "text": "alt",
@@ -2056,46 +513,11 @@
       1399,
       1402
     ],
-    "sentence": "với [ENTITY] là 176 và ast là 287\n    - tổng phân tích nước tiểu có đái tháo đườngđái tháo đường\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực là bình thường\n    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5533142685890198,
-          "sparse_similarity": 0.1323920041322708,
-          "hybrid_score": 0.3428531289100647
-        },
-        {
-          "id": "isFamily_006670",
-          "document": "bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5309790372848511,
-          "sparse_similarity": 0.10849957168102264,
-          "hybrid_score": 0.31973931193351746
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5321888327598572,
-          "sparse_similarity": 0.10576055943965912,
-          "hybrid_score": 0.31897470355033875
-        }
-      ]
+    "assertion_position": [
+      1196,
+      1199
     ],
-    "eng_translation": [
-      "No translation provided. Please provide the Vietnamese medical text for translation.",
-      "Please provide the Vietnamese medical text for translation."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "với [ENTITY] là 176 và ast là 287."
   },
   {
     "text": "176",
@@ -2104,45 +526,11 @@
       1406,
       1409
     ],
-    "sentence": "với alt là [ENTITY] và ast là 287\n    - tổng phân tích nước tiểu có đái tháo đườngđái tháo đường\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực là bình thường\n    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5623794794082642,
-          "sparse_similarity": 0.12231177091598511,
-          "hybrid_score": 0.34234562516212463
-        },
-        {
-          "id": "isFamily_006670",
-          "document": "bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5367674827575684,
-          "sparse_similarity": 0.1018400564789772,
-          "hybrid_score": 0.3193037807941437
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5386691689491272,
-          "sparse_similarity": 0.09923212975263596,
-          "hybrid_score": 0.3189506530761719
-        }
-      ]
+    "assertion_position": [
+      1203,
+      1206
     ],
-    "eng_translation": [
-      "176"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "với alt là [ENTITY] và ast là 287."
   },
   {
     "text": "ast",
@@ -2151,46 +539,11 @@
       1413,
       1416
     ],
-    "sentence": "với alt là 176 và [ENTITY] là 287\n    - tổng phân tích nước tiểu có đái tháo đườngđái tháo đường\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực là bình thường\n    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5575283169746399,
-          "sparse_similarity": 0.12351848930120468,
-          "hybrid_score": 0.3405233919620514
-        },
-        {
-          "id": "isNegated_000110",
-          "document": "chẩn đoán loại trừ [ENTITY].",
-          "dense_similarity": 0.5428171157836914,
-          "sparse_similarity": 0.08862213045358658,
-          "hybrid_score": 0.3157196342945099
-        },
-        {
-          "id": "isFamily_006670",
-          "document": "bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5310357213020325,
-          "sparse_similarity": 0.10028588026762009,
-          "hybrid_score": 0.3156608045101166
-        }
-      ]
+    "assertion_position": [
+      1210,
+      1213
     ],
-    "eng_translation": [
-      "No translation provided.",
-      "The query provided is \"No translation provided.\" Since there is no medical content or diagnosis mentioned in the query, there is no applicable medical synonym to use. Therefore, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "với alt là 176 và [ENTITY] là 287."
   },
   {
     "text": "287",
@@ -2199,45 +552,11 @@
       1420,
       1423
     ],
-    "sentence": "với alt là 176 và ast là [ENTITY]\n    - tổng phân tích nước tiểu có đái tháo đườngđái tháo đường\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực là bình thường\n    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5560793876647949,
-          "sparse_similarity": 0.12980543076992035,
-          "hybrid_score": 0.34294241666793823
-        },
-        {
-          "id": "isFamily_006670",
-          "document": "bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5407346487045288,
-          "sparse_similarity": 0.10384907573461533,
-          "hybrid_score": 0.32229185104370117
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5412976741790771,
-          "sparse_similarity": 0.10118699818849564,
-          "hybrid_score": 0.3212423324584961
-        }
-      ]
+    "assertion_position": [
+      1217,
+      1220
     ],
-    "eng_translation": [
-      "287"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "với alt là 176 và ast là [ENTITY]."
   },
   {
     "text": "tổng phân tích nước tiểu",
@@ -2246,46 +565,11 @@
       1430,
       1454
     ],
-    "sentence": "với alt là 176 và ast là 287\n    - [ENTITY] có đái tháo đườngđái tháo đường\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực là bình thường\n    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5378842949867249,
-          "sparse_similarity": 0.14581869542598724,
-          "hybrid_score": 0.34185150265693665
-        },
-        {
-          "id": "isFamily_012888",
-          "document": "dì được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5409634113311768,
-          "sparse_similarity": 0.11487855762243271,
-          "hybrid_score": 0.32792097330093384
-        },
-        {
-          "id": "isFamily_025022",
-          "document": "thân nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.535620927810669,
-          "sparse_similarity": 0.11803498864173889,
-          "hybrid_score": 0.3268279433250427
-        }
-      ]
+    "assertion_position": [
+      1222,
+      1246
     ],
-    "eng_translation": [
-      "Urinalysis summary",
-      "Urinalysis results summary"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] có đái tháo đườngđái tháo đường."
   },
   {
     "text": "đái tháo đườngđái tháo đường",
@@ -2294,62 +578,11 @@
       1458,
       1486
     ],
-    "sentence": "với alt là 176 và ast là 287\n    - tổng phân tích nước tiểu có [ENTITY]\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực là bình thường\n    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5706640481948853,
-          "sparse_similarity": 0.13051937520503998,
-          "hybrid_score": 0.3505917191505432
-        },
-        {
-          "id": "isHistorical_001055",
-          "document": "28 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5510529279708862,
-          "sparse_similarity": 0.11841501295566559,
-          "hybrid_score": 0.3347339630126953
-        },
-        {
-          "id": "isHistorical_020199",
-          "document": "khoảng 28 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5542492270469666,
-          "sparse_similarity": 0.1151835098862648,
-          "hybrid_score": 0.3347163796424866
-        }
-      ]
+    "assertion_position": [
+      1250,
+      1278
     ],
-    "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
-        "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.757908
-    }
+    "sentence": "tổng phân tích nước tiểu có [ENTITY]."
   },
   {
     "text": "chụp x-quang",
@@ -2358,46 +591,11 @@
       1519,
       1531
     ],
-    "sentence": "với alt là 176 và ast là 287\n    - tổng phân tích nước tiểu có đái tháo đườngđái tháo đường\n    Kết quả chẩn đoán hình ảnh: [ENTITY] ngực là bình thường\n    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5577993988990784,
-          "sparse_similarity": 0.13787180185317993,
-          "hybrid_score": 0.34783560037612915
-        },
-        {
-          "id": "isFamily_006603",
-          "document": "bên ngoại của bn được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5367597341537476,
-          "sparse_similarity": 0.1107449159026146,
-          "hybrid_score": 0.3237523138523102
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5360008478164673,
-          "sparse_similarity": 0.10997003316879272,
-          "hybrid_score": 0.32298544049263
-        }
-      ]
+    "assertion_position": [
+      1308,
+      1320
     ],
-    "eng_translation": [
-      "X-ray imaging",
-      "Radiographic imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] ngực là bình thường."
   },
   {
     "text": "ung bướu",
@@ -2406,62 +604,11 @@
       1619,
       1627
     ],
-    "sentence": "với alt là 176 và ast là 287\n    - tổng phân tích nước tiểu có đái tháo đườngđái tháo đường\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực là bình thường\n    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - [ENTITY]: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5311566591262817,
-          "sparse_similarity": 0.09243842959403992,
-          "hybrid_score": 0.311797559261322
-        },
-        {
-          "id": "isNegated_000132",
-          "document": "cấy nước tiểu âm tính với [ENTITY].",
-          "dense_similarity": 0.4960198998451233,
-          "sparse_similarity": 0.12399062514305115,
-          "hybrid_score": 0.310005247592926
-        },
-        {
-          "id": "isNegated_000129",
-          "document": "cấy nước tiểu cho kết quả âm tính với [ENTITY].",
-          "dense_similarity": 0.5033243894577026,
-          "sparse_similarity": 0.11559109389781952,
-          "hybrid_score": 0.3094577491283417
-        }
-      ]
+    "assertion_position": [
+      1405,
+      1413
     ],
-    "eng_translation": [
-      "Cancer",
-      "Malignancy"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C801": 0.911124,
-        "C800": 0.717713,
-        "C799": 0.699041,
-        "D499": 0.653178,
-        "Z859": 0.64919
-      },
-      "rapidfuzz": {
-        "R971": 0.9,
-        "Z15060": 0.9,
-        "D701": 0.9,
-        "Z192": 0.9,
-        "Z191": 0.9,
-        "R85614": 0.9
-      }
-    },
-    "candidate": {
-      "code": "C801",
-      "confidence": 0.820012
-    }
+    "sentence": "Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - [ENTITY]: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec."
   },
   {
     "text": "gleevec",
@@ -2470,63 +617,10 @@
       1718,
       1725
     ],
-    "sentence": "với alt là 176 và ast là 287\n    - tổng phân tích nước tiểu có đái tháo đườngđái tháo đường\n    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực là bình thường\n    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5347466468811035,
-          "sparse_similarity": 0.08862300217151642,
-          "hybrid_score": 0.31168481707572937
-        },
-        {
-          "id": "isFamily_006603",
-          "document": "bên ngoại của bn được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5152710676193237,
-          "sparse_similarity": 0.07027512788772583,
-          "hybrid_score": 0.2927730977535248
-        },
-        {
-          "id": "isFamily_006670",
-          "document": "bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5134239792823792,
-          "sparse_similarity": 0.0720415785908699,
-          "hybrid_score": 0.29273277521133423
-        }
-      ]
+    "assertion_position": [
+      1504,
+      1511
     ],
-    "eng_translation": [
-      "Gleevec",
-      "Imatinib",
-      "Imatinib Mesylate"
-    ],
-    "retriever": {
-      "sapbert": {
-        "282388": 1.0,
-        "284924": 1.0,
-        "282386": 1.0,
-        "1997267": 0.813729
-      },
-      "rapidfuzz": {
-        "282386": 1.0,
-        "282388": 1.0,
-        "284924": 1.0,
-        "404588": 0.9,
-        "404589": 0.9,
-        "576514": 0.9,
-        "10603": 0.9,
-        "2699831": 0.9
-      }
-    },
-    "candidate": {
-      "code": "284924",
-      "confidence": 1.0
-    }
+    "sentence": "Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng [ENTITY]."
   }
 ]

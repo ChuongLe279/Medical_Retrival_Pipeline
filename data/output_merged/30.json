@@ -6,62 +6,11 @@
       57,
       88
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - [ENTITY]\n    - tăng cholesterol máu đơn thuần\n    - tăng huyết áp\n    Thuốc trước khi nhập viện lần này\n    - gleevec (ngừng uống cách nhập viện 5 ngày)\n    - allopurinol (ngừng uống \ncách nhập viện 5 ngày)\n    - Thuốc giảm đau (ngừng)\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh nội khoa các bệnh lý mạn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6451476812362671,
-          "sparse_similarity": 0.24093608558177948,
-          "hybrid_score": 0.4430418908596039
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6431742906570435,
-          "sparse_similarity": 0.24022933840751648,
-          "hybrid_score": 0.44170182943344116
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6228500604629517,
-          "sparse_similarity": 0.2295016050338745,
-          "hybrid_score": 0.4261758327484131
-        }
-      ]
+    "assertion_position": [
+      45,
+      76
     ],
-    "eng_translation": [
-      "Chronic Myeloid Leukemia",
-      "Chronic Myelogenous Leukemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D471": 0.814773,
-        "C9312": 0.666095,
-        "C9292": 0.650754,
-        "C9211": 0.646788,
-        "C9212": 0.637444
-      },
-      "rapidfuzz": {
-        "C9210": 0.9,
-        "C9211": 0.9,
-        "C9212": 0.9,
-        "N990": 0.855,
-        "L98A398": 0.855,
-        "L98A224": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D471",
-      "confidence": 0.733296
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "bạch cầu",
@@ -70,46 +19,11 @@
       62,
       70
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh [ENTITY] dòng tủy mãn tính\n    - tăng cholesterol máu đơn thuần\n    - tăng huyết áp\n    Thuốc trước khi nhập viện lần này\n    - gleevec (ngừng uống cách nhập viện 5 ngày)\n    - allopurinol (ngừng uống \ncách nhập viện 5 ngày)\n    - Thuốc giảm đau (ngừng)\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh nội khoa các bệnh lý mạn tính - bệnh [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6660860776901245,
-          "sparse_similarity": 0.2594800591468811,
-          "hybrid_score": 0.4627830684185028
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6629289388656616,
-          "sparse_similarity": 0.25875332951545715,
-          "hybrid_score": 0.4608411192893982
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6482987403869629,
-          "sparse_similarity": 0.249704971909523,
-          "hybrid_score": 0.44900184869766235
-        }
-      ]
+    "assertion_position": [
+      50,
+      58
     ],
-    "eng_translation": [
-      "White blood cells",
-      "Leukocytes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh [ENTITY] dòng tủy mãn tính."
   },
   {
     "text": "tăng cholesterol máu đơn thuần",
@@ -118,62 +32,11 @@
       95,
       125
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính\n    - [ENTITY]\n    - tăng huyết áp\n    Thuốc trước khi nhập viện lần này\n    - gleevec (ngừng uống cách nhập viện 5 ngày)\n    - allopurinol (ngừng uống \ncách nhập viện 5 ngày)\n    - Thuốc giảm đau (ngừng)\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6547482013702393,
-          "sparse_similarity": 0.2524404525756836,
-          "hybrid_score": 0.4535943269729614
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6506308317184448,
-          "sparse_similarity": 0.25160861015319824,
-          "hybrid_score": 0.45111972093582153
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6348206400871277,
-          "sparse_similarity": 0.24164965748786926,
-          "hybrid_score": 0.43823516368865967
-        }
-      ]
+    "assertion_position": [
+      78,
+      108
     ],
-    "eng_translation": [
-      "Simple hypercholesterolemia",
-      "Familial hypercholesterolemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E78019": 0.97897,
-        "E7800": 0.931361,
-        "E78010": 0.867486,
-        "E78011": 0.864117,
-        "Z8342": 0.825101
-      },
-      "rapidfuzz": {
-        "E78019": 0.95,
-        "Z8342": 0.9,
-        "E78010": 0.9,
-        "S42412G": 0.855,
-        "S42412D": 0.855,
-        "S42412B": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E78019",
-      "confidence": 0.976073
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "cholesterol",
@@ -182,47 +45,11 @@
       100,
       111
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính\n    - tăng [ENTITY] máu đơn thuần\n    - tăng huyết áp\n    Thuốc trước khi nhập viện lần này\n    - gleevec (ngừng uống cách nhập viện 5 ngày)\n    - allopurinol (ngừng uống \ncách nhập viện 5 ngày)\n    - Thuốc giảm đau (ngừng)\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6489269137382507,
-          "sparse_similarity": 0.2547389268875122,
-          "hybrid_score": 0.45183292031288147
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6449078321456909,
-          "sparse_similarity": 0.2542112469673157,
-          "hybrid_score": 0.4495595395565033
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6285022497177124,
-          "sparse_similarity": 0.24293819069862366,
-          "hybrid_score": 0.43572020530700684
-        }
-      ]
+    "assertion_position": [
+      83,
+      94
     ],
-    "eng_translation": [
-      "cholesterol",
-      "Hypercholesterolemia",
-      "lipid"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "tăng [ENTITY] máu đơn thuần."
   },
   {
     "text": "tăng huyết áp",
@@ -231,62 +58,11 @@
       132,
       145
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính\n    - tăng cholesterol máu đơn thuần\n    - [ENTITY]\n    Thuốc trước khi nhập viện lần này\n    - gleevec (ngừng uống cách nhập viện 5 ngày)\n    - allopurinol (ngừng uống \ncách nhập viện 5 ngày)\n    - Thuốc giảm đau (ngừng)\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6424514055252075,
-          "sparse_similarity": 0.2638525366783142,
-          "hybrid_score": 0.45315197110176086
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6386512517929077,
-          "sparse_similarity": 0.26176100969314575,
-          "hybrid_score": 0.45020613074302673
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6190332770347595,
-          "sparse_similarity": 0.2523501515388489,
-          "hybrid_score": 0.4356917142868042
-        }
-      ]
+    "assertion_position": [
+      110,
+      123
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "gleevec",
@@ -295,64 +71,11 @@
       190,
       197
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính\n    - tăng cholesterol máu đơn thuần\n    - tăng huyết áp\n    Thuốc trước khi nhập viện lần này\n    - [ENTITY] (ngừng uống cách nhập viện 5 ngày)\n    - allopurinol (ngừng uống \ncách nhập viện 5 ngày)\n    - Thuốc giảm đau (ngừng)\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6497607827186584,
-          "sparse_similarity": 0.25551801919937134,
-          "hybrid_score": 0.4526394009590149
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6476705074310303,
-          "sparse_similarity": 0.25489726662635803,
-          "hybrid_score": 0.45128387212753296
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6322216987609863,
-          "sparse_similarity": 0.24484877288341522,
-          "hybrid_score": 0.43853524327278137
-        }
-      ]
+    "assertion_position": [
+      160,
+      167
     ],
-    "eng_translation": [
-      "Gleevec",
-      "Imatinib",
-      "Imatinib Mesylate"
-    ],
-    "retriever": {
-      "sapbert": {
-        "282388": 1.0,
-        "284924": 1.0,
-        "282386": 1.0,
-        "1997267": 0.813729
-      },
-      "rapidfuzz": {
-        "282386": 1.0,
-        "282388": 1.0,
-        "284924": 1.0,
-        "404588": 0.9,
-        "404589": 0.9,
-        "576514": 0.9,
-        "10603": 0.9,
-        "2699831": 0.9
-      }
-    },
-    "candidate": {
-      "code": "284924",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] (ngừng uống cách nhập viện 5 ngày)."
   },
   {
     "text": "allopurinol",
@@ -361,62 +84,11 @@
       239,
       250
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - Bệnh bạch cầu dòng tủy mãn tính\n    - tăng cholesterol máu đơn thuần\n    - tăng huyết áp\n    Thuốc trước khi nhập viện lần này\n    - gleevec (ngừng uống cách nhập viện 5 ngày)\n    - [ENTITY] (ngừng uống \ncách nhập viện 5 ngày)\n    - Thuốc giảm đau (ngừng)\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6513736248016357,
-          "sparse_similarity": 0.25170931220054626,
-          "hybrid_score": 0.4515414834022522
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6469604969024658,
-          "sparse_similarity": 0.2516019642353058,
-          "hybrid_score": 0.4492812156677246
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6285565495491028,
-          "sparse_similarity": 0.23884479701519012,
-          "hybrid_score": 0.43370068073272705
-        }
-      ]
+    "assertion_position": [
+      204,
+      215
     ],
-    "eng_translation": [
-      "Allopurinol",
-      "Xanthine Oxidase Inhibitor"
-    ],
-    "retriever": {
-      "sapbert": {
-        "90184": 1.0,
-        "519": 1.0,
-        "7820": 0.855735,
-        "1473047": 0.778821,
-        "1430935": 0.734484
-      },
-      "rapidfuzz": {
-        "519": 1.0,
-        "1154942": 0.95,
-        "813995": 0.9,
-        "1311085": 0.9,
-        "2657597": 0.855,
-        "1661218": 0.855
-      }
-    },
-    "candidate": {
-      "code": "519",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] (ngừng uống."
   },
   {
     "text": "ảo giác",
@@ -425,46 +97,11 @@
       363,
       370
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY]\n    Thời điểm khởi phát triệu chứng: Khoảng một tháng trước\n    Diễn biến\n    - ảo giácxuất hiện khoảng một tháng trước.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019688",
-          "document": "khoảng 1 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7226905226707458,
-          "sparse_similarity": 0.2062198370695114,
-          "hybrid_score": 0.46445518732070923
-        },
-        {
-          "id": "isHistorical_000034",
-          "document": "1 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7189061045646667,
-          "sparse_similarity": 0.19724436104297638,
-          "hybrid_score": 0.45807522535324097
-        },
-        {
-          "id": "isHistorical_021032",
-          "document": "khoảng 6 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6994878649711609,
-          "sparse_similarity": 0.2129954993724823,
-          "hybrid_score": 0.4562416672706604
-        }
-      ]
+    "assertion_position": [
+      317,
+      324
     ],
-    "eng_translation": [
-      "hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY]."
   },
   {
     "text": "ảo giácxuất",
@@ -473,45 +110,11 @@
       451,
       462
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: ảo giác\n    Thời điểm khởi phát triệu chứng: Khoảng một tháng trước\n    Diễn biến\n    - [ENTITY] hiện khoảng một tháng trước.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019688",
-          "document": "khoảng 1 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7378371953964233,
-          "sparse_similarity": 0.24112127721309662,
-          "hybrid_score": 0.4894792437553406
-        },
-        {
-          "id": "isHistorical_021032",
-          "document": "khoảng 6 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7157368659973145,
-          "sparse_similarity": 0.24752409756183624,
-          "hybrid_score": 0.48163047432899475
-        },
-        {
-          "id": "isHistorical_000034",
-          "document": "1 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.737247109413147,
-          "sparse_similarity": 0.22377897799015045,
-          "hybrid_score": 0.4805130362510681
-        }
-      ]
+    "assertion_position": [
+      394,
+      405
     ],
-    "eng_translation": [
-      "No medical information provided."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] hiện khoảng một tháng trước."
   },
   {
     "text": "nhiễm khuẩn đường tiết niệu",
@@ -520,58 +123,11 @@
       515,
       542
     ],
-    "sentence": "- Đã được điều trị [ENTITY], vị trí không xác định.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009848",
-          "document": "[ENTITY] đã được điều trị.",
-          "dense_similarity": 0.8365934491157532,
-          "sparse_similarity": 0.32363125681877136,
-          "hybrid_score": 0.5801123380661011
-        },
-        {
-          "id": "isHistorical_034248",
-          "document": "đã điều trị [ENTITY].",
-          "dense_similarity": 0.8423088788986206,
-          "sparse_similarity": 0.24946752190589905,
-          "hybrid_score": 0.5458881855010986
-        },
-        {
-          "id": "isHistorical_009845",
-          "document": "[ENTITY] đã điều trị trước đây.",
-          "dense_similarity": 0.8123621940612793,
-          "sparse_similarity": 0.2727166414260864,
-          "hybrid_score": 0.5425394177436829
-        }
-      ]
+    "assertion_position": [
+      452,
+      479
     ],
-    "eng_translation": [
-      "Urinary tract infection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N390": 0.938475,
-        "P393": 0.729689,
-        "R8281": 0.726378,
-        "O8620": 0.722883,
-        "O2340": 0.716599
-      },
-      "rapidfuzz": {
-        "P393": 0.95,
-        "O2390": 0.9,
-        "O2392": 0.9
-      }
-    },
-    "candidate": {
-      "code": "N390",
-      "confidence": 0.844627
-    }
+    "sentence": "Đã được điều trị [ENTITY], vị trí không xác định."
   },
   {
     "text": "nhiễm khuẩn đường tiết niệu",
@@ -580,58 +136,11 @@
       664,
       691
     ],
-    "sentence": "- Không có thay đổi đáng kể về triệu chứng mặc dù đã điều trị [ENTITY], vị trí không xác định và ngừng thuốc giảm đau.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000101",
-          "document": "chưa có triệu chứng [ENTITY].",
-          "dense_similarity": 0.6948287487030029,
-          "sparse_similarity": 0.1382143348455429,
-          "hybrid_score": 0.4165215492248535
-        },
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.6614568829536438,
-          "sparse_similarity": 0.16651339828968048,
-          "hybrid_score": 0.41398513317108154
-        },
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.6468193531036377,
-          "sparse_similarity": 0.17411857843399048,
-          "hybrid_score": 0.4104689657688141
-        }
-      ]
+    "assertion_position": [
+      589,
+      616
     ],
-    "eng_translation": [
-      "Urinary tract infection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N390": 0.938475,
-        "P393": 0.729689,
-        "R8281": 0.726378,
-        "O8620": 0.722883,
-        "O2340": 0.716599
-      },
-      "rapidfuzz": {
-        "P393": 0.95,
-        "O2390": 0.9,
-        "O2392": 0.9
-      }
-    },
-    "candidate": {
-      "code": "N390",
-      "confidence": 0.844627
-    }
+    "sentence": "Không có thay đổi đáng kể về triệu chứng mặc dù đã điều trị [ENTITY], vị trí không xác định và ngừng thuốc giảm đau."
   },
   {
     "text": "gleevec",
@@ -640,64 +149,11 @@
       751,
       758
     ],
-    "sentence": "- Liều [ENTITY] đã ngừng cách nhập viện 5 ngày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032921",
-          "document": "đã 5 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.8007619380950928,
-          "sparse_similarity": 0.27143898606300354,
-          "hybrid_score": 0.536100447177887
-        },
-        {
-          "id": "isHistorical_009618",
-          "document": "[ENTITY] đã 5 ngày.",
-          "dense_similarity": 0.8053045272827148,
-          "sparse_similarity": 0.24171854555606842,
-          "hybrid_score": 0.523511528968811
-        },
-        {
-          "id": "isHistorical_032919",
-          "document": "đã 5 ngày bị [ENTITY].",
-          "dense_similarity": 0.8088677525520325,
-          "sparse_similarity": 0.21131381392478943,
-          "hybrid_score": 0.5100907683372498
-        }
-      ]
+    "assertion_position": [
+      670,
+      677
     ],
-    "eng_translation": [
-      "Gleevec",
-      "Imatinib",
-      "Imatinib Mesylate"
-    ],
-    "retriever": {
-      "sapbert": {
-        "282388": 1.0,
-        "284924": 1.0,
-        "282386": 1.0,
-        "1997267": 0.813729
-      },
-      "rapidfuzz": {
-        "282386": 1.0,
-        "282388": 1.0,
-        "284924": 1.0,
-        "404588": 0.9,
-        "404589": 0.9,
-        "576514": 0.9,
-        "10603": 0.9,
-        "2699831": 0.9
-      }
-    },
-    "candidate": {
-      "code": "284924",
-      "confidence": 1.0
-    }
+    "sentence": "Liều [ENTITY] đã ngừng cách nhập viện 5 ngày."
   },
   {
     "text": "allopurinol",
@@ -706,62 +162,11 @@
       797,
       808
     ],
-    "sentence": "- [ENTITY] đã ngừng cách nhập viện 5 ngày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032921",
-          "document": "đã 5 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.8249051570892334,
-          "sparse_similarity": 0.29381006956100464,
-          "hybrid_score": 0.5593576431274414
-        },
-        {
-          "id": "isHistorical_013418",
-          "document": "cách đây 5 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.8075542449951172,
-          "sparse_similarity": 0.2967921495437622,
-          "hybrid_score": 0.5521731972694397
-        },
-        {
-          "id": "isHistorical_009618",
-          "document": "[ENTITY] đã 5 ngày.",
-          "dense_similarity": 0.8324649333953857,
-          "sparse_similarity": 0.26741570234298706,
-          "hybrid_score": 0.5499403476715088
-        }
-      ]
+    "assertion_position": [
+      710,
+      721
     ],
-    "eng_translation": [
-      "Allopurinol",
-      "Xanthine Oxidase Inhibitor"
-    ],
-    "retriever": {
-      "sapbert": {
-        "90184": 1.0,
-        "519": 1.0,
-        "7820": 0.855735,
-        "1473047": 0.778821,
-        "1430935": 0.734484
-      },
-      "rapidfuzz": {
-        "519": 1.0,
-        "1154942": 0.95,
-        "813995": 0.9,
-        "1311085": 0.9,
-        "2657597": 0.855,
-        "1661218": 0.855
-      }
-    },
-    "candidate": {
-      "code": "519",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] đã ngừng cách nhập viện 5 ngày."
   },
   {
     "text": "ảo giác",
@@ -770,46 +175,11 @@
       847,
       854
     ],
-    "sentence": "- [ENTITY] xảy ra khoảng mỗi đêm lúc 2 giờ sáng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_007406",
-          "document": "[ENTITY] khoảng 2 ngày trước.",
-          "dense_similarity": 0.7342117428779602,
-          "sparse_similarity": 0.22452804446220398,
-          "hybrid_score": 0.4793698787689209
-        },
-        {
-          "id": "isHistorical_007408",
-          "document": "[ENTITY] khoảng 2 tháng trước.",
-          "dense_similarity": 0.7198469638824463,
-          "sparse_similarity": 0.2221774011850357,
-          "hybrid_score": 0.4710121750831604
-        },
-        {
-          "id": "isHistorical_007407",
-          "document": "[ENTITY] khoảng 2 năm trước.",
-          "dense_similarity": 0.7137761116027832,
-          "sparse_similarity": 0.21950402855873108,
-          "hybrid_score": 0.46664005517959595
-        }
-      ]
+    "assertion_position": [
+      754,
+      761
     ],
-    "eng_translation": [
-      "hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] xảy ra khoảng mỗi đêm lúc 2 giờ sáng."
   },
   {
     "text": "ảo giác",
@@ -818,46 +188,11 @@
       919,
       926
     ],
-    "sentence": "Triệu chứng hiện tại: [ENTITY]\n    Đặc điểm triệu chứng\n Bệnh nhân nhìn/nghe thấy có nhiều người (đôi khi tổng cộng khoảng 8 người).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_002485",
-          "document": "ba bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.6885399222373962,
-          "sparse_similarity": 0.20269757509231567,
-          "hybrid_score": 0.44561874866485596
-        },
-        {
-          "id": "isFamily_024997",
-          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6888618469238281,
-          "sparse_similarity": 0.20040291547775269,
-          "hybrid_score": 0.4446323812007904
-        },
-        {
-          "id": "isFamily_000833",
-          "document": "[ENTITY] ở ba người bệnh.",
-          "dense_similarity": 0.6923472285270691,
-          "sparse_similarity": 0.18338626623153687,
-          "hybrid_score": 0.437866747379303
-        }
-      ]
+    "assertion_position": [
+      822,
+      829
     ],
-    "eng_translation": [
-      "hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng hiện tại: [ENTITY]."
   },
   {
     "text": "Ảo giác không mang",
@@ -866,46 +201,11 @@
       1076,
       1094
     ],
-    "sentence": "[ENTITY] tính chất ra lệnh \nBệnh nhân thường hoang tưởng/lo sợ rằng họ sẽ chạm vào da của mình.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006620",
-          "document": "bên ngoại của bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.6490940451622009,
-          "sparse_similarity": 0.12214794754981995,
-          "hybrid_score": 0.38562101125717163
-        },
-        {
-          "id": "isFamily_006629",
-          "document": "bên ngoại của bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.6478259563446045,
-          "sparse_similarity": 0.12285184115171432,
-          "hybrid_score": 0.3853389024734497
-        },
-        {
-          "id": "isFamily_020059",
-          "document": "má bệnh nhân đã mắc [ENTITY].",
-          "dense_similarity": 0.6446901559829712,
-          "sparse_similarity": 0.11632248014211655,
-          "hybrid_score": 0.380506306886673
-        }
-      ]
+    "assertion_position": [
+      976,
+      994
     ],
-    "eng_translation": [
-      "Non-organic hallucination",
-      "Psychotic symptoms without an organic cause"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] tính chất ra lệnh."
   },
   {
     "text": "tưởng",
@@ -914,46 +214,11 @@
       1137,
       1142
     ],
-    "sentence": "Ảo giác không mang tính chất ra lệnh \nBệnh nhân thường hoang [ENTITY]/lo sợ rằng họ sẽ chạm vào da của mình.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020049",
-          "document": "má bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.6340610980987549,
-          "sparse_similarity": 0.0890645906329155,
-          "hybrid_score": 0.3615628480911255
-        },
-        {
-          "id": "isFamily_006620",
-          "document": "bên ngoại của bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.6231079697608948,
-          "sparse_similarity": 0.09536665678024292,
-          "hybrid_score": 0.35923731327056885
-        },
-        {
-          "id": "isFamily_020059",
-          "document": "má bệnh nhân đã mắc [ENTITY].",
-          "dense_similarity": 0.6264560222625732,
-          "sparse_similarity": 0.09057095646858215,
-          "hybrid_score": 0.3585134744644165
-        }
-      ]
+    "assertion_position": [
+      1037,
+      1042
     ],
-    "eng_translation": [
-      "tưởng",
-      "The query provided is in Vietnamese and appears to be incomplete or unclear. Since it does not contain a clear medical term or diagnosis, and no appropriate English medical synonym can be identified, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân thường hoang [ENTITY]/lo sợ rằng họ sẽ chạm vào da của mình."
   },
   {
     "text": "nhiễm khuẩn đường tiết niệu",
@@ -962,58 +227,11 @@
       1232,
       1259
     ],
-    "sentence": "Diễn biên  trước khi nhập viện\n    - Điều trị [ENTITY], vị trí không xác định\n    - Thuốc giảm đau đã ngừng\n    - Liều gleevec đã ngừng cách nhập viện 5 ngày\n    - allopurinol đã ngừng cách nhập viện 5 ngày\n    Tình trạng ngay trước khi nhập viện: ảo giác khoảng mỗi đêm lúc 2 giờ sáng\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019964",
-          "document": "khoảng 2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6444351673126221,
-          "sparse_similarity": 0.20220503211021423,
-          "hybrid_score": 0.42332011461257935
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6583635807037354,
-          "sparse_similarity": 0.18333841860294342,
-          "hybrid_score": 0.4208509922027588
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6430801153182983,
-          "sparse_similarity": 0.19777071475982666,
-          "hybrid_score": 0.4204254150390625
-        }
-      ]
+    "assertion_position": [
+      1122,
+      1149
     ],
-    "eng_translation": [
-      "Urinary tract infection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N390": 0.938475,
-        "P393": 0.729689,
-        "R8281": 0.726378,
-        "O8620": 0.722883,
-        "O2340": 0.716599
-      },
-      "rapidfuzz": {
-        "P393": 0.95,
-        "O2390": 0.9,
-        "O2392": 0.9
-      }
-    },
-    "candidate": {
-      "code": "N390",
-      "confidence": 0.844627
-    }
+    "sentence": "Điều trị [ENTITY], vị trí không xác định."
   },
   {
     "text": "gleevec",
@@ -1022,64 +240,11 @@
       1324,
       1331
     ],
-    "sentence": "Diễn biên  trước khi nhập viện\n    - Điều trị nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Thuốc giảm đau đã ngừng\n    - Liều [ENTITY] đã ngừng cách nhập viện 5 ngày\n    - allopurinol đã ngừng cách nhập viện 5 ngày\n    Tình trạng ngay trước khi nhập viện: ảo giác khoảng mỗi đêm lúc 2 giờ sáng\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019964",
-          "document": "khoảng 2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6386366486549377,
-          "sparse_similarity": 0.1832406222820282,
-          "hybrid_score": 0.4109386205673218
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6540398001670837,
-          "sparse_similarity": 0.16591884195804596,
-          "hybrid_score": 0.40997931361198425
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6397057771682739,
-          "sparse_similarity": 0.17382007837295532,
-          "hybrid_score": 0.4067629277706146
-        }
-      ]
+    "assertion_position": [
+      1204,
+      1211
     ],
-    "eng_translation": [
-      "Gleevec",
-      "Imatinib",
-      "Imatinib Mesylate"
-    ],
-    "retriever": {
-      "sapbert": {
-        "282388": 1.0,
-        "284924": 1.0,
-        "282386": 1.0,
-        "1997267": 0.813729
-      },
-      "rapidfuzz": {
-        "282386": 1.0,
-        "282388": 1.0,
-        "284924": 1.0,
-        "404588": 0.9,
-        "404589": 0.9,
-        "576514": 0.9,
-        "10603": 0.9,
-        "2699831": 0.9
-      }
-    },
-    "candidate": {
-      "code": "284924",
-      "confidence": 1.0
-    }
+    "sentence": "Liều [ENTITY] đã ngừng cách nhập viện 5 ngày."
   },
   {
     "text": "allopurinol",
@@ -1088,62 +253,11 @@
       1369,
       1380
     ],
-    "sentence": "Diễn biên  trước khi nhập viện\n    - Điều trị nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Thuốc giảm đau đã ngừng\n    - Liều gleevec đã ngừng cách nhập viện 5 ngày\n    - [ENTITY] đã ngừng cách nhập viện 5 ngày\n    Tình trạng ngay trước khi nhập viện: ảo giác khoảng mỗi đêm lúc 2 giờ sáng\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020756",
-          "document": "khoảng 5 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6502206921577454,
-          "sparse_similarity": 0.1747608333826065,
-          "hybrid_score": 0.41249075531959534
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6499716639518738,
-          "sparse_similarity": 0.16770707070827484,
-          "hybrid_score": 0.4088393747806549
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6400318145751953,
-          "sparse_similarity": 0.1743943989276886,
-          "hybrid_score": 0.40721309185028076
-        }
-      ]
+    "assertion_position": [
+      1244,
+      1255
     ],
-    "eng_translation": [
-      "Allopurinol",
-      "Xanthine Oxidase Inhibitor"
-    ],
-    "retriever": {
-      "sapbert": {
-        "90184": 1.0,
-        "519": 1.0,
-        "7820": 0.855735,
-        "1473047": 0.778821,
-        "1430935": 0.734484
-      },
-      "rapidfuzz": {
-        "519": 1.0,
-        "1154942": 0.95,
-        "813995": 0.9,
-        "1311085": 0.9,
-        "2657597": 0.855,
-        "1661218": 0.855
-      }
-    },
-    "candidate": {
-      "code": "519",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] đã ngừng cách nhập viện 5 ngày."
   },
   {
     "text": "ảo giác",
@@ -1152,45 +266,10 @@
       1453,
       1460
     ],
-    "sentence": "Diễn biên  trước khi nhập viện\n    - Điều trị nhiễm khuẩn đường tiết niệu, vị trí không xác định\n    - Thuốc giảm đau đã ngừng\n    - Liều gleevec đã ngừng cách nhập viện 5 ngày\n    - allopurinol đã ngừng cách nhập viện 5 ngày\n    Tình trạng ngay trước khi nhập viện: [ENTITY] khoảng mỗi đêm lúc 2 giờ sáng\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019964",
-          "document": "khoảng 2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.629795491695404,
-          "sparse_similarity": 0.21232512593269348,
-          "hybrid_score": 0.42106032371520996
-        },
-        {
-          "id": "isHistorical_020756",
-          "document": "khoảng 5 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6427184343338013,
-          "sparse_similarity": 0.19772569835186005,
-          "hybrid_score": 0.42022207379341125
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6435716152191162,
-          "sparse_similarity": 0.1945495903491974,
-          "hybrid_score": 0.4190605878829956
-        }
-      ]
+    "assertion_position": [
+      1325,
+      1332
     ],
-    "eng_translation": [
-      "hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tình trạng ngay trước khi nhập viện: [ENTITY] khoảng mỗi đêm lúc 2 giờ sáng."
   }
 ]

@@ -6,45 +6,11 @@
       52,
       60
     ],
-    "sentence": "Tiền sử bệnh\nCác tập tương tự trước đây: Từng bị [ENTITY] tương tự trong quá khứ, luôn thuyên giảm khi dùng thuốc\nThuốc trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi cơn đau dữ dội, thường 4 viên mỗi giờ\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n\n2.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "cô"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009845",
-          "document": "[ENTITY] đã điều trị trước đây.",
-          "dense_similarity": 0.6399896144866943,
-          "sparse_similarity": 0.19153892993927002,
-          "hybrid_score": 0.4157642722129822
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6229972839355469,
-          "sparse_similarity": 0.16924802958965302,
-          "hybrid_score": 0.39612266421318054
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6289347410202026,
-          "sparse_similarity": 0.1396588236093521,
-          "hybrid_score": 0.3842967748641968
-        }
-      ]
+    "assertion_position": [
+      50,
+      58
     ],
-    "eng_translation": [
-      "discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các tập tương tự trước đây: Từng bị [ENTITY] tương tự trong quá khứ, luôn thuyên giảm khi dùng thuốc."
   },
   {
     "text": "acetaminophen 500mg",
@@ -53,64 +19,11 @@
       171,
       190
     ],
-    "sentence": "Tiền sử bệnh\nCác tập tương tự trước đây: Từng bị khó chịu tương tự trong quá khứ, luôn thuyên giảm khi dùng thuốc\nThuốc trước khi nhập viện\n- Tự điều trị bằng liều cao [ENTITY], taking 10 pills at a time khi cơn đau dữ dội, thường 4 viên mỗi giờ\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n\n2.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "cô"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009845",
-          "document": "[ENTITY] đã điều trị trước đây.",
-          "dense_similarity": 0.6271225810050964,
-          "sparse_similarity": 0.20429304242134094,
-          "hybrid_score": 0.4157078266143799
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6276373863220215,
-          "sparse_similarity": 0.16846561431884766,
-          "hybrid_score": 0.39805150032043457
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6108416318893433,
-          "sparse_similarity": 0.1682737171649933,
-          "hybrid_score": 0.3895576596260071
-        }
-      ]
+    "assertion_position": [
+      169,
+      188
     ],
-    "eng_translation": [
-      "acetaminophen 500mg",
-      "Acetaminophen 500 mg",
-      "paracetamol 500mg",
-      "Acetaminophen 500 milligrams"
-    ],
-    "retriever": {
-      "sapbert": {
-        "315266": 1.0,
-        "1100003": 0.970029,
-        "570070": 0.967523,
-        "565623": 0.964835,
-        "570054": 0.962989
-      },
-      "rapidfuzz": {
-        "315266": 1.0,
-        "315259": 0.95,
-        "315264": 0.95,
-        "251454": 0.9,
-        "2743411": 0.855,
-        "1790533": 0.855
-      }
-    },
-    "candidate": {
-      "code": "315266",
-      "confidence": 1.0
-    }
+    "sentence": "Tự điều trị bằng liều cao [ENTITY], taking 10 pills at a time khi cơn đau dữ dội, thường 4 viên mỗi giờ."
   },
   {
     "text": "cơn đau dữ",
@@ -119,45 +32,11 @@
       222,
       232
     ],
-    "sentence": "Tiền sử bệnh\nCác tập tương tự trước đây: Từng bị khó chịu tương tự trong quá khứ, luôn thuyên giảm khi dùng thuốc\nThuốc trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi [ENTITY] dội, thường 4 viên mỗi giờ\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n\n2.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "cô"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009845",
-          "document": "[ENTITY] đã điều trị trước đây.",
-          "dense_similarity": 0.6231342554092407,
-          "sparse_similarity": 0.16865579783916473,
-          "hybrid_score": 0.3958950340747833
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6088709831237793,
-          "sparse_similarity": 0.1419825553894043,
-          "hybrid_score": 0.3754267692565918
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6135580539703369,
-          "sparse_similarity": 0.12271049618721008,
-          "hybrid_score": 0.3681342601776123
-        }
-      ]
+    "assertion_position": [
+      220,
+      230
     ],
-    "eng_translation": [
-      "severe pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi [ENTITY] dội, thường 4 viên mỗi giờ."
   },
   {
     "text": "đau bụng",
@@ -166,46 +45,11 @@
       376,
       384
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: [ENTITY] ngày càng nặng\nThời điểm khởi phát triệu chứng\n- Tiền sử 2 ngày đau bụng ngày càng nặng\n- Tiền sử 2 tháng đau bụng liên tục\nDiễn biến bệnh\n- Tiền sử 2 tháng đau bụng liên tục\n- 2 ngày trước khi nhập viện, đau bụng trở nên tồi tệ hơn\n- Diễn biến trong viện: tăng men gan bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_024928",
-          "document": "từ 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6321567296981812,
-          "sparse_similarity": 0.18343348801136017,
-          "hybrid_score": 0.40779510140419006
-        },
-        {
-          "id": "isHistorical_000610",
-          "document": "2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6317640542984009,
-          "sparse_similarity": 0.18351715803146362,
-          "hybrid_score": 0.40764060616493225
-        },
-        {
-          "id": "isHistorical_019976",
-          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6263628005981445,
-          "sparse_similarity": 0.1834835410118103,
-          "hybrid_score": 0.4049231708049774
-        }
-      ]
+    "assertion_position": [
+      371,
+      379
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY] ngày càng nặng."
   },
   {
     "text": "đau bụng",
@@ -214,46 +58,11 @@
       449,
       457
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng ngày càng nặng\nThời điểm khởi phát triệu chứng\n- Tiền sử 2 ngày [ENTITY] ngày càng nặng\n- Tiền sử 2 tháng đau bụng liên tục\nDiễn biến bệnh\n- Tiền sử 2 tháng đau bụng liên tục\n- 2 ngày trước khi nhập viện, đau bụng trở nên tồi tệ hơn\n- Diễn biến trong viện: tăng men gan bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử 2 ngày [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_024928",
-          "document": "từ 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6411691904067993,
-          "sparse_similarity": 0.19920125603675842,
-          "hybrid_score": 0.4201852083206177
-        },
-        {
-          "id": "isHistorical_000610",
-          "document": "2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6407049298286438,
-          "sparse_similarity": 0.19927167892456055,
-          "hybrid_score": 0.4199883043766022
-        },
-        {
-          "id": "isHistorical_032141",
-          "document": "đã 2 tháng nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6404568552970886,
-          "sparse_similarity": 0.19523358345031738,
-          "hybrid_score": 0.417845219373703
-        }
-      ]
+    "assertion_position": [
+      444,
+      452
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tiền sử 2 ngày [ENTITY] ngày càng nặng."
   },
   {
     "text": "đau bụng",
@@ -262,46 +71,11 @@
       491,
       499
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng ngày càng nặng\nThời điểm khởi phát triệu chứng\n- Tiền sử 2 ngày đau bụng ngày càng nặng\n- Tiền sử 2 tháng [ENTITY] liên tục\nDiễn biến bệnh\n- Tiền sử 2 tháng đau bụng liên tục\n- 2 ngày trước khi nhập viện, đau bụng trở nên tồi tệ hơn\n- Diễn biến trong viện: tăng men gan bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử 2 tháng [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_024928",
-          "document": "từ 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6255892515182495,
-          "sparse_similarity": 0.18531404435634613,
-          "hybrid_score": 0.4054516553878784
-        },
-        {
-          "id": "isHistorical_000610",
-          "document": "2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6249613165855408,
-          "sparse_similarity": 0.18557535111904144,
-          "hybrid_score": 0.4052683413028717
-        },
-        {
-          "id": "isHistorical_019976",
-          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.619926929473877,
-          "sparse_similarity": 0.18542565405368805,
-          "hybrid_score": 0.4026762843132019
-        }
-      ]
+    "assertion_position": [
+      485,
+      493
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tiền sử 2 tháng [ENTITY] liên tục."
   },
   {
     "text": "đau bụng",
@@ -310,46 +84,11 @@
       542,
       550
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng ngày càng nặng\nThời điểm khởi phát triệu chứng\n- Tiền sử 2 ngày đau bụng ngày càng nặng\n- Tiền sử 2 tháng đau bụng liên tục\nDiễn biến bệnh\n- Tiền sử 2 tháng [ENTITY] liên tục\n- 2 ngày trước khi nhập viện, đau bụng trở nên tồi tệ hơn\n- Diễn biến trong viện: tăng men gan bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử 2 tháng [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_024928",
-          "document": "từ 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6271088719367981,
-          "sparse_similarity": 0.1922316700220108,
-          "hybrid_score": 0.40967026352882385
-        },
-        {
-          "id": "isHistorical_000610",
-          "document": "2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6265903115272522,
-          "sparse_similarity": 0.19255150854587555,
-          "hybrid_score": 0.4095709025859833
-        },
-        {
-          "id": "isHistorical_019976",
-          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6214408278465271,
-          "sparse_similarity": 0.19235488772392273,
-          "hybrid_score": 0.4068978428840637
-        }
-      ]
+    "assertion_position": [
+      536,
+      544
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tiền sử 2 tháng [ENTITY] liên tục."
   },
   {
     "text": "đau bụng",
@@ -358,46 +97,11 @@
       590,
       598
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng ngày càng nặng\nThời điểm khởi phát triệu chứng\n- Tiền sử 2 ngày đau bụng ngày càng nặng\n- Tiền sử 2 tháng đau bụng liên tục\nDiễn biến bệnh\n- Tiền sử 2 tháng đau bụng liên tục\n- 2 ngày trước khi nhập viện, [ENTITY] trở nên tồi tệ hơn\n- Diễn biến trong viện: tăng men gan bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "2 ngày trước khi nhập viện, [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_024928",
-          "document": "từ 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6329782009124756,
-          "sparse_similarity": 0.19015060365200043,
-          "hybrid_score": 0.4115644097328186
-        },
-        {
-          "id": "isHistorical_000610",
-          "document": "2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6323189735412598,
-          "sparse_similarity": 0.19021989405155182,
-          "hybrid_score": 0.4112694263458252
-        },
-        {
-          "id": "isHistorical_019976",
-          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6276634335517883,
-          "sparse_similarity": 0.19019760191440582,
-          "hybrid_score": 0.4089305102825165
-        }
-      ]
+    "assertion_position": [
+      583,
+      591
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "2 ngày trước khi nhập viện, [ENTITY] trở nên tồi tệ hơn."
   },
   {
     "text": "men gan",
@@ -406,66 +110,11 @@
       647,
       654
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng ngày càng nặng\nThời điểm khởi phát triệu chứng\n- Tiền sử 2 ngày đau bụng ngày càng nặng\n- Tiền sử 2 tháng đau bụng liên tục\nDiễn biến bệnh\n- Tiền sử 2 tháng đau bụng liên tục\n- 2 ngày trước khi nhập viện, đau bụng trở nên tồi tệ hơn\n- Diễn biến trong viện: tăng [ENTITY] bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_000610",
-          "document": "2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6291487216949463,
-          "sparse_similarity": 0.1924276053905487,
-          "hybrid_score": 0.4107881784439087
-        },
-        {
-          "id": "isHistorical_024928",
-          "document": "từ 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6289415955543518,
-          "sparse_similarity": 0.19248461723327637,
-          "hybrid_score": 0.4107131063938141
-        },
-        {
-          "id": "isHistorical_019976",
-          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6253364682197571,
-          "sparse_similarity": 0.19242921471595764,
-          "hybrid_score": 0.40888285636901855
-        }
-      ]
+    "assertion_position": [
+      639,
+      646
     ],
-    "eng_translation": [
-      "Liver enlargement",
-      "Hepatomegaly",
-      "Enlarged liver"
-    ],
-    "retriever": {
-      "sapbert": {
-        "R160": 0.887478,
-        "K764": 0.770579,
-        "K741": 0.73588,
-        "Q186": 0.715451,
-        "R162": 0.701047
-      },
-      "rapidfuzz": {
-        "R162": 0.9,
-        "R160": 0.9,
-        "C787": 0.855,
-        "C7B02": 0.855,
-        "H05341": 0.855,
-        "O2662": 0.855,
-        "O26611": 0.855,
-        "O26612": 0.855,
-        "K767": 0.704348
-      }
-    },
-    "candidate": {
-      "code": "R160",
-      "confidence": 0.88873
-    }
+    "sentence": "Diễn biến trong viện: tăng [ENTITY] bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6."
   },
   {
     "text": "bilirubin",
@@ -474,46 +123,11 @@
       692,
       701
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: đau bụng ngày càng nặng\nThời điểm khởi phát triệu chứng\n- Tiền sử 2 ngày đau bụng ngày càng nặng\n- Tiền sử 2 tháng đau bụng liên tục\nDiễn biến bệnh\n- Tiền sử 2 tháng đau bụng liên tục\n- 2 ngày trước khi nhập viện, đau bụng trở nên tồi tệ hơn\n- Diễn biến trong viện: tăng men gan bắt đầu có xu hướng giảm mặc dù tổng [ENTITY] bắt đầu tăng lên đạt đỉnh 6.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_024928",
-          "document": "từ 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6283848285675049,
-          "sparse_similarity": 0.19181737303733826,
-          "hybrid_score": 0.41010111570358276
-        },
-        {
-          "id": "isHistorical_000610",
-          "document": "2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6262108683586121,
-          "sparse_similarity": 0.1916850060224533,
-          "hybrid_score": 0.4089479446411133
-        },
-        {
-          "id": "isHistorical_019976",
-          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6239175796508789,
-          "sparse_similarity": 0.1917596459388733,
-          "hybrid_score": 0.4078386127948761
-        }
-      ]
+    "assertion_position": [
+      684,
+      693
     ],
-    "eng_translation": [
-      "bilirubin",
-      "Total bilirubin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Diễn biến trong viện: tăng men gan bắt đầu có xu hướng giảm mặc dù tổng [ENTITY] bắt đầu tăng lên đạt đỉnh 6."
   },
   {
     "text": "đau bụng",
@@ -522,46 +136,11 @@
       775,
       783
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- [ENTITY] ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5627647042274475,
-          "sparse_similarity": 0.11246494948863983,
-          "hybrid_score": 0.33761483430862427
-        },
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5638712048530579,
-          "sparse_similarity": 0.10491307079792023,
-          "hybrid_score": 0.33439213037490845
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5697168111801147,
-          "sparse_similarity": 0.09394664317369461,
-          "hybrid_score": 0.3318317234516144
-        }
-      ]
+    "assertion_position": [
+      767,
+      775
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] ngày càng nặng."
   },
   {
     "text": "đau bụng",
@@ -570,46 +149,11 @@
       801,
       809
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- [ENTITY] liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5646072626113892,
-          "sparse_similarity": 0.11705172806978226,
-          "hybrid_score": 0.3408294916152954
-        },
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5672879219055176,
-          "sparse_similarity": 0.11053646355867386,
-          "hybrid_score": 0.3389121890068054
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5729745626449585,
-          "sparse_similarity": 0.09947396069765091,
-          "hybrid_score": 0.3362242579460144
-        }
-      ]
+    "assertion_position": [
+      792,
+      800
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] liên tục."
   },
   {
     "text": "mệt mỏi toàn thân",
@@ -618,46 +162,11 @@
       821,
       838
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- [ENTITY]\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_012046",
-          "document": "cô ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5698749423027039,
-          "sparse_similarity": 0.10859952867031097,
-          "hybrid_score": 0.339237242937088
-        },
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5760573148727417,
-          "sparse_similarity": 0.06331366300582886,
-          "hybrid_score": 0.3196854889392853
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5808839797973633,
-          "sparse_similarity": 0.05757506191730499,
-          "hybrid_score": 0.31922951340675354
-        }
-      ]
+    "assertion_position": [
+      811,
+      828
     ],
-    "eng_translation": [
-      "Generalized fatigue",
-      "Chronic fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "yếu sức",
@@ -666,46 +175,11 @@
       841,
       848
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- [ENTITY]\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_012046",
-          "document": "cô ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5720958709716797,
-          "sparse_similarity": 0.10924915969371796,
-          "hybrid_score": 0.3406725227832794
-        },
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5774083137512207,
-          "sparse_similarity": 0.06375731527805328,
-          "hybrid_score": 0.3205828070640564
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5815091729164124,
-          "sparse_similarity": 0.058128781616687775,
-          "hybrid_score": 0.31981897354125977
-        }
-      ]
+    "assertion_position": [
+      830,
+      837
     ],
-    "eng_translation": [
-      "Weakness",
-      "Neurological weakness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó thở khi",
@@ -714,45 +188,11 @@
       851,
       862
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- [ENTITY] gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_012046",
-          "document": "cô ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5697324872016907,
-          "sparse_similarity": 0.1066967025399208,
-          "hybrid_score": 0.33821460604667664
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5800661444664001,
-          "sparse_similarity": 0.055356644093990326,
-          "hybrid_score": 0.31771138310432434
-        },
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.574962854385376,
-          "sparse_similarity": 0.05975404009222984,
-          "hybrid_score": 0.31735843420028687
-        }
-      ]
+    "assertion_position": [
+      839,
+      850
     ],
-    "eng_translation": [
-      "dyspnea when"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] gắng sức."
   },
   {
     "text": "sức",
@@ -761,45 +201,11 @@
       868,
       871
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng [ENTITY]\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_012046",
-          "document": "cô ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5687296390533447,
-          "sparse_similarity": 0.11651904881000519,
-          "hybrid_score": 0.34262433648109436
-        },
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5731565952301025,
-          "sparse_similarity": 0.0700707882642746,
-          "hybrid_score": 0.32161369919776917
-        },
-        {
-          "id": "isFamily_011498",
-          "document": "con ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5743086338043213,
-          "sparse_similarity": 0.06704721599817276,
-          "hybrid_score": 0.3206779360771179
-        }
-      ]
+    "assertion_position": [
+      856,
+      859
     ],
-    "eng_translation": [
-      "sức"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "khó thở khi gắng [ENTITY]."
   },
   {
     "text": "ngứa toàn thân",
@@ -808,47 +214,11 @@
       874,
       888
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- [ENTITY]\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_012046",
-          "document": "cô ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5678486227989197,
-          "sparse_similarity": 0.1122618019580841,
-          "hybrid_score": 0.3400552272796631
-        },
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5717116594314575,
-          "sparse_similarity": 0.06687723100185394,
-          "hybrid_score": 0.31929445266723633
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5775927305221558,
-          "sparse_similarity": 0.06061861291527748,
-          "hybrid_score": 0.31910568475723267
-        }
-      ]
+    "assertion_position": [
+      861,
+      875
     ],
-    "eng_translation": [
-      "Pruritus throughout the body",
-      "Pruritus generalized",
-      "Generalized pruritus"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "tiểu ra máu",
@@ -857,46 +227,11 @@
       899,
       910
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần [ENTITY] không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_033449",
-          "document": "đã 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5677379965782166,
-          "sparse_similarity": 0.16929571330547333,
-          "hybrid_score": 0.36851686239242554
-        },
-        {
-          "id": "isHistorical_003262",
-          "document": "7 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.567635715007782,
-          "sparse_similarity": 0.16008469462394714,
-          "hybrid_score": 0.36386018991470337
-        },
-        {
-          "id": "isHistorical_033467",
-          "document": "đã 7 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5704436302185059,
-          "sparse_similarity": 0.15218359231948853,
-          "hybrid_score": 0.3613136112689972
-        }
-      ]
+    "assertion_position": [
+      885,
+      896
     ],
-    "eng_translation": [
-      "hematuria",
-      "Blood in urine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Vài lần [ENTITY] không đau."
   },
   {
     "text": "đau",
@@ -905,45 +240,11 @@
       917,
       920
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không [ENTITY]\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_012046",
-          "document": "cô ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5632237195968628,
-          "sparse_similarity": 0.10959868133068085,
-          "hybrid_score": 0.3364112079143524
-        },
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5648242235183716,
-          "sparse_similarity": 0.06202806532382965,
-          "hybrid_score": 0.31342613697052
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5692095160484314,
-          "sparse_similarity": 0.055882520973682404,
-          "hybrid_score": 0.3125460147857666
-        }
-      ]
+    "assertion_position": [
+      903,
+      906
     ],
-    "eng_translation": [
-      "pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Vài lần tiểu ra máu không [ENTITY]."
   },
   {
     "text": "Đau vùng gan",
@@ -952,47 +253,11 @@
       952,
       964
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: [ENTITY] phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "cô"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_033449",
-          "document": "đã 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5784651637077332,
-          "sparse_similarity": 0.1749916672706604,
-          "hybrid_score": 0.3767284154891968
-        },
-        {
-          "id": "isHistorical_033467",
-          "document": "đã 7 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5766566395759583,
-          "sparse_similarity": 0.157138854265213,
-          "hybrid_score": 0.3668977618217468
-        },
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5792168378829956,
-          "sparse_similarity": 0.11432912945747375,
-          "hybrid_score": 0.3467729687690735
-        }
-      ]
+    "assertion_position": [
+      938,
+      950
     ],
-    "eng_translation": [
-      "Pain in the liver region",
-      "Pain in the right upper quadrant of the abdomen",
-      "Right upper quadrant pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Vị trí: [ENTITY] phải (RUQ) và thượng vị lan ra sau lưng."
   },
   {
     "text": "buồn nôn",
@@ -1001,46 +266,11 @@
       1016,
       1024
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có [ENTITY]\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "cô"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_012046",
-          "document": "cô ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5645753741264343,
-          "sparse_similarity": 0.10727167129516602,
-          "hybrid_score": 0.33592352271080017
-        },
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5702897310256958,
-          "sparse_similarity": 0.06105245277285576,
-          "hybrid_score": 0.31567108631134033
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5755866765975952,
-          "sparse_similarity": 0.05480404943227768,
-          "hybrid_score": 0.31519535183906555
-        }
-      ]
+    "assertion_position": [
+      1001,
+      1009
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có [ENTITY]."
   },
   {
     "text": "nôn",
@@ -1049,46 +279,11 @@
       1036,
       1039
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có [ENTITY]\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "cô"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_033449",
-          "document": "đã 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5577065348625183,
-          "sparse_similarity": 0.16873176395893097,
-          "hybrid_score": 0.36321914196014404
-        },
-        {
-          "id": "isHistorical_033467",
-          "document": "đã 7 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5571413040161133,
-          "sparse_similarity": 0.151768758893013,
-          "hybrid_score": 0.35445502400398254
-        },
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5575439929962158,
-          "sparse_similarity": 0.10352268815040588,
-          "hybrid_score": 0.33053332567214966
-        }
-      ]
+    "assertion_position": [
+      1020,
+      1023
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có [ENTITY]."
   },
   {
     "text": "phân có máu",
@@ -1097,46 +292,11 @@
       1090,
       1101
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có [ENTITY], đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "cô"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_012046",
-          "document": "cô ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5726667642593384,
-          "sparse_similarity": 0.11000734567642212,
-          "hybrid_score": 0.34133705496788025
-        },
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5761151909828186,
-          "sparse_similarity": 0.06253217905759811,
-          "hybrid_score": 0.31932368874549866
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5810530185699463,
-          "sparse_similarity": 0.056466616690158844,
-          "hybrid_score": 0.31875982880592346
-        }
-      ]
+    "assertion_position": [
+      1072,
+      1083
     ],
-    "eng_translation": [
-      "Blood in stool",
-      "Hematochezia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có [ENTITY], đen hoặc nhựa đường."
   },
   {
     "text": "acetaminophen 500mg",
@@ -1145,64 +305,11 @@
       1183,
       1202
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao [ENTITY]\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "cô"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_012046",
-          "document": "cô ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5792412757873535,
-          "sparse_similarity": 0.1136862188577652,
-          "hybrid_score": 0.34646373987197876
-        },
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5825240612030029,
-          "sparse_similarity": 0.06738919764757156,
-          "hybrid_score": 0.32495662569999695
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5850355625152588,
-          "sparse_similarity": 0.06240682303905487,
-          "hybrid_score": 0.3237212002277374
-        }
-      ]
+    "assertion_position": [
+      1165,
+      1184
     ],
-    "eng_translation": [
-      "acetaminophen 500mg",
-      "Acetaminophen 500 mg",
-      "paracetamol 500mg",
-      "Acetaminophen 500 milligrams"
-    ],
-    "retriever": {
-      "sapbert": {
-        "315266": 1.0,
-        "1100003": 0.970029,
-        "570070": 0.967523,
-        "565623": 0.964835,
-        "570054": 0.962989
-      },
-      "rapidfuzz": {
-        "315266": 1.0,
-        "315259": 0.95,
-        "315264": 0.95,
-        "251454": 0.9,
-        "2743411": 0.855,
-        "1790533": 0.855
-      }
-    },
-    "candidate": {
-      "code": "315266",
-      "confidence": 1.0
-    }
+    "sentence": "Tự điều trị bằng liều cao [ENTITY]."
   },
   {
     "text": "bilirubin",
@@ -1211,46 +318,11 @@
       1334,
       1343
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng [ENTITY] máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "cô"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_033449",
-          "document": "đã 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5614306926727295,
-          "sparse_similarity": 0.15591038763523102,
-          "hybrid_score": 0.35867053270339966
-        },
-        {
-          "id": "isHistorical_033467",
-          "document": "đã 7 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5630359053611755,
-          "sparse_similarity": 0.13944846391677856,
-          "hybrid_score": 0.35124218463897705
-        },
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5667554140090942,
-          "sparse_similarity": 0.09080994129180908,
-          "hybrid_score": 0.32878267765045166
-        }
-      ]
+    "assertion_position": [
+      1314,
+      1323
     ],
-    "eng_translation": [
-      "bilirubin",
-      "Total bilirubin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng [ENTITY] máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0."
   },
   {
     "text": "ast",
@@ -1259,46 +331,11 @@
       1349,
       1352
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: [ENTITY] 421, alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5619300603866577,
-          "sparse_similarity": 0.08669274300336838,
-          "hybrid_score": 0.32431140542030334
-        },
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5583332777023315,
-          "sparse_similarity": 0.08822216093540192,
-          "hybrid_score": 0.32327771186828613
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5673132538795471,
-          "sparse_similarity": 0.07573878765106201,
-          "hybrid_score": 0.32152602076530457
-        }
-      ]
+    "assertion_position": [
+      1329,
+      1332
     ],
-    "eng_translation": [
-      "No translation provided.",
-      "The query provided is \"No translation provided.\" Since there is no medical content or diagnosis mentioned in the query, there is no applicable medical synonym to use. Therefore, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: [ENTITY] 421, alt 336, alp 185, bilirubin toàn phần 0."
   },
   {
     "text": "421",
@@ -1307,45 +344,11 @@
       1353,
       1356
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast [ENTITY], alt 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5590811371803284,
-          "sparse_similarity": 0.08446982502937317,
-          "hybrid_score": 0.32177549600601196
-        },
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5549769401550293,
-          "sparse_similarity": 0.08624092489480972,
-          "hybrid_score": 0.3206089437007904
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5645585060119629,
-          "sparse_similarity": 0.07348228245973587,
-          "hybrid_score": 0.3190203905105591
-        }
-      ]
+    "assertion_position": [
+      1333,
+      1336
     ],
-    "eng_translation": [
-      "421"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast [ENTITY], alt 336, alp 185, bilirubin toàn phần 0."
   },
   {
     "text": "alt",
@@ -1354,46 +357,11 @@
       1358,
       1361
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, [ENTITY] 336, alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5597580671310425,
-          "sparse_similarity": 0.08345728367567062,
-          "hybrid_score": 0.32160767912864685
-        },
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.555824875831604,
-          "sparse_similarity": 0.08553078770637512,
-          "hybrid_score": 0.32067781686782837
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5651756525039673,
-          "sparse_similarity": 0.0727497935295105,
-          "hybrid_score": 0.3189627230167389
-        }
-      ]
+    "assertion_position": [
+      1338,
+      1341
     ],
-    "eng_translation": [
-      "No translation provided. Please provide the Vietnamese medical text for translation.",
-      "Please provide the Vietnamese medical text for translation."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, [ENTITY] 336, alp 185, bilirubin toàn phần 0."
   },
   {
     "text": "336",
@@ -1402,45 +370,11 @@
       1362,
       1365
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt [ENTITY], alp 185, bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.558698832988739,
-          "sparse_similarity": 0.08140866458415985,
-          "hybrid_score": 0.32005375623703003
-        },
-        {
-          "id": "isHistorical_013947",
-          "document": "cách đây 7 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5545822381973267,
-          "sparse_similarity": 0.0829559713602066,
-          "hybrid_score": 0.31876909732818604
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5642204284667969,
-          "sparse_similarity": 0.07039646059274673,
-          "hybrid_score": 0.3173084557056427
-        }
-      ]
+    "assertion_position": [
+      1342,
+      1345
     ],
-    "eng_translation": [
-      "336"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt [ENTITY], alp 185, bilirubin toàn phần 0."
   },
   {
     "text": "bilirubin",
@@ -1449,46 +383,11 @@
       1376,
       1385
     ],
-    "sentence": "7 vào\nCác triệu chứng hiện tại triệu chứng\n- đau bụng ngày càng nặng\n- đau bụng liên tục\n- mệt mỏi toàn thân\n- yếu sức\n- khó thở khi gắng sức\n- ngứa toàn thân\n- Vài lần tiểu ra máu không đau\nĐặc điểm triệu chứng\n- Vị trí: Đau vùng gan phải (RUQ) và thượng vị lan ra sau lưng\n- Không có buồn nôn\n- Không có nôn\n- Không có thay đổi thói quen đại tiện\n- Không có phân có máu, đen hoặc nhựa đường\nCác sự kiện trước khi nhập viện\n- Tự điều trị bằng liều cao acetaminophen 500mg\n- làm hỏng dạ dày của cô ấy bằng cách uống 2 chai thuốc an thần trong quá khứ\n- Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, [ENTITY] toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_033449",
-          "document": "đã 7 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5602611303329468,
-          "sparse_similarity": 0.15858028829097748,
-          "hybrid_score": 0.3594207167625427
-        },
-        {
-          "id": "isHistorical_033467",
-          "document": "đã 7 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5611969232559204,
-          "sparse_similarity": 0.1420287936925888,
-          "hybrid_score": 0.3516128659248352
-        },
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5641559958457947,
-          "sparse_similarity": 0.09237316995859146,
-          "hybrid_score": 0.32826459407806396
-        }
-      ]
+    "assertion_position": [
+      1356,
+      1365
     ],
-    "eng_translation": [
-      "bilirubin",
-      "Total bilirubin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, [ENTITY] toàn phần 0."
   },
   {
     "text": "siêu âm",
@@ -1497,46 +396,11 @@
       1410,
       1417
     ],
-    "sentence": "9\n- âm tính [ENTITY] bụng có doppler\n- âm tính chụp hida\n- Chưa từng xét nghiệm nồng độ acetaminophen\n- Chưa từng dùng nac\n- Chuyển tạm thời để thực hiện ercp\n- ercp cho thấy túi mật giãn nở rõ rệt nhưng không có sỏi hoặc bệnh lý khác\n- Chuyển lại bệnh viện OSH và được cho là đã tống ra một viên sỏi mật\nTình trạng ngay trước khi nhập viện: tăng bilirubin máu và tăng men gan kéo dài\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_004307",
-          "document": "9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6112621426582336,
-          "sparse_similarity": 0.10189595818519592,
-          "hybrid_score": 0.356579065322876
-        },
-        {
-          "id": "isHistorical_026777",
-          "document": "từ 9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6053414344787598,
-          "sparse_similarity": 0.10146921873092651,
-          "hybrid_score": 0.35340532660484314
-        },
-        {
-          "id": "isHistorical_004319",
-          "document": "9 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6107603311538696,
-          "sparse_similarity": 0.09569887816905975,
-          "hybrid_score": 0.3532296121120453
-        }
-      ]
+    "assertion_position": [
+      1389,
+      1396
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "âm tính [ENTITY] bụng có doppler."
   },
   {
     "text": "acetaminophen",
@@ -1545,60 +409,11 @@
       1485,
       1498
     ],
-    "sentence": "9\n- âm tính siêu âm bụng có doppler\n- âm tính chụp hida\n- Chưa từng xét nghiệm nồng độ [ENTITY]\n- Chưa từng dùng nac\n- Chuyển tạm thời để thực hiện ercp\n- ercp cho thấy túi mật giãn nở rõ rệt nhưng không có sỏi hoặc bệnh lý khác\n- Chuyển lại bệnh viện OSH và được cho là đã tống ra một viên sỏi mật\nTình trạng ngay trước khi nhập viện: tăng bilirubin máu và tăng men gan kéo dài\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng xét nghiệm nồng độ [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_004307",
-          "document": "9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6069925427436829,
-          "sparse_similarity": 0.07759301364421844,
-          "hybrid_score": 0.34229278564453125
-        },
-        {
-          "id": "isHistorical_004319",
-          "document": "9 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6057336926460266,
-          "sparse_similarity": 0.07241017371416092,
-          "hybrid_score": 0.33907192945480347
-        },
-        {
-          "id": "isHistorical_026777",
-          "document": "từ 9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5995110869407654,
-          "sparse_similarity": 0.07706716656684875,
-          "hybrid_score": 0.33828914165496826
-        }
-      ]
+    "assertion_position": [
+      1462,
+      1475
     ],
-    "eng_translation": [
-      "Acetaminophen",
-      "Paracetamol"
-    ],
-    "retriever": {
-      "sapbert": {
-        "161": 1.0,
-        "707705": 0.97086,
-        "707438": 0.954853
-      },
-      "rapidfuzz": {
-        "161": 1.0,
-        "315270": 0.95,
-        "332815": 0.95,
-        "251454": 0.9,
-        "8351": 0.8,
-        "17939": 0.761905
-      }
-    },
-    "candidate": {
-      "code": "161",
-      "confidence": 1.0
-    }
+    "sentence": "Chưa từng xét nghiệm nồng độ [ENTITY]."
   },
   {
     "text": "nac",
@@ -1607,63 +422,11 @@
       1516,
       1519
     ],
-    "sentence": "9\n- âm tính siêu âm bụng có doppler\n- âm tính chụp hida\n- Chưa từng xét nghiệm nồng độ acetaminophen\n- Chưa từng dùng [ENTITY]\n- Chuyển tạm thời để thực hiện ercp\n- ercp cho thấy túi mật giãn nở rõ rệt nhưng không có sỏi hoặc bệnh lý khác\n- Chuyển lại bệnh viện OSH và được cho là đã tống ra một viên sỏi mật\nTình trạng ngay trước khi nhập viện: tăng bilirubin máu và tăng men gan kéo dài\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng dùng [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_004307",
-          "document": "9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.605650782585144,
-          "sparse_similarity": 0.08305010944604874,
-          "hybrid_score": 0.3443504571914673
-        },
-        {
-          "id": "isHistorical_004319",
-          "document": "9 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6042461395263672,
-          "sparse_similarity": 0.07768457382917404,
-          "hybrid_score": 0.3409653604030609
-        },
-        {
-          "id": "isHistorical_026777",
-          "document": "từ 9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5983889698982239,
-          "sparse_similarity": 0.08258607983589172,
-          "hybrid_score": 0.340487539768219
-        }
-      ]
+    "assertion_position": [
+      1492,
+      1495
     ],
-    "eng_translation": [
-      "NAC",
-      "N-acetylcysteine (NAC)",
-      "N-acetylcysteine"
-    ],
-    "retriever": {
-      "sapbert": {
-        "197": 1.0,
-        "607770": 1.0,
-        "1591923": 0.914741,
-        "545804": 0.816299
-      },
-      "rapidfuzz": {
-        "197": 0.95,
-        "1250207": 0.9,
-        "1250205": 0.9,
-        "1250210": 0.9,
-        "3024": 0.9,
-        "345086": 0.886667,
-        "1490795": 0.871795
-      }
-    },
-    "candidate": {
-      "code": "197",
-      "confidence": 0.995
-    }
+    "sentence": "Chưa từng dùng [ENTITY]."
   },
   {
     "text": "ercp",
@@ -1672,46 +435,11 @@
       1551,
       1555
     ],
-    "sentence": "9\n- âm tính siêu âm bụng có doppler\n- âm tính chụp hida\n- Chưa từng xét nghiệm nồng độ acetaminophen\n- Chưa từng dùng nac\n- Chuyển tạm thời để thực hiện [ENTITY]\n- ercp cho thấy túi mật giãn nở rõ rệt nhưng không có sỏi hoặc bệnh lý khác\n- Chuyển lại bệnh viện OSH và được cho là đã tống ra một viên sỏi mật\nTình trạng ngay trước khi nhập viện: tăng bilirubin máu và tăng men gan kéo dài\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng dùng nac - chuyển tạm thời để thực hiện [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_004307",
-          "document": "9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.608613908290863,
-          "sparse_similarity": 0.07746864855289459,
-          "hybrid_score": 0.3430412709712982
-        },
-        {
-          "id": "isHistorical_026777",
-          "document": "từ 9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6016443371772766,
-          "sparse_similarity": 0.0768994688987732,
-          "hybrid_score": 0.3392719030380249
-        },
-        {
-          "id": "isHistorical_004319",
-          "document": "9 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6046645641326904,
-          "sparse_similarity": 0.07222039997577667,
-          "hybrid_score": 0.33844247460365295
-        }
-      ]
+    "assertion_position": [
+      1526,
+      1530
     ],
-    "eng_translation": [
-      "ERCP",
-      "Endoscopic Retrograde Cholangiopancreatography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Chuyển tạm thời để thực hiện [ENTITY]."
   },
   {
     "text": "ercp",
@@ -1720,46 +448,11 @@
       1558,
       1562
     ],
-    "sentence": "9\n- âm tính siêu âm bụng có doppler\n- âm tính chụp hida\n- Chưa từng xét nghiệm nồng độ acetaminophen\n- Chưa từng dùng nac\n- Chuyển tạm thời để thực hiện ercp\n- [ENTITY] cho thấy túi mật giãn nở rõ rệt nhưng không có sỏi hoặc bệnh lý khác\n- Chuyển lại bệnh viện OSH và được cho là đã tống ra một viên sỏi mật\nTình trạng ngay trước khi nhập viện: tăng bilirubin máu và tăng men gan kéo dài\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_004307",
-          "document": "9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6178922057151794,
-          "sparse_similarity": 0.08801154792308807,
-          "hybrid_score": 0.35295188426971436
-        },
-        {
-          "id": "isHistorical_026777",
-          "document": "từ 9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6108753681182861,
-          "sparse_similarity": 0.08752269297838211,
-          "hybrid_score": 0.3491990268230438
-        },
-        {
-          "id": "isHistorical_004319",
-          "document": "9 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6147431135177612,
-          "sparse_similarity": 0.08235619217157364,
-          "hybrid_score": 0.34854966402053833
-        }
-      ]
+    "assertion_position": [
+      1532,
+      1536
     ],
-    "eng_translation": [
-      "ERCP",
-      "Endoscopic Retrograde Cholangiopancreatography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] cho thấy túi mật giãn nở rõ rệt nhưng không có sỏi hoặc bệnh lý khác."
   },
   {
     "text": "bilirubin",
@@ -1768,46 +461,11 @@
       1744,
       1753
     ],
-    "sentence": "9\n- âm tính siêu âm bụng có doppler\n- âm tính chụp hida\n- Chưa từng xét nghiệm nồng độ acetaminophen\n- Chưa từng dùng nac\n- Chuyển tạm thời để thực hiện ercp\n- ercp cho thấy túi mật giãn nở rõ rệt nhưng không có sỏi hoặc bệnh lý khác\n- Chuyển lại bệnh viện OSH và được cho là đã tống ra một viên sỏi mật\nTình trạng ngay trước khi nhập viện: tăng [ENTITY] máu và tăng men gan kéo dài\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_004307",
-          "document": "9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.608227014541626,
-          "sparse_similarity": 0.08258259296417236,
-          "hybrid_score": 0.34540480375289917
-        },
-        {
-          "id": "isHistorical_004319",
-          "document": "9 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6079275608062744,
-          "sparse_similarity": 0.07713520526885986,
-          "hybrid_score": 0.34253138303756714
-        },
-        {
-          "id": "isHistorical_026777",
-          "document": "từ 9 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6015317440032959,
-          "sparse_similarity": 0.08198918402194977,
-          "hybrid_score": 0.34176045656204224
-        }
-      ]
+    "assertion_position": [
+      1718,
+      1727
     ],
-    "eng_translation": [
-      "bilirubin",
-      "Total bilirubin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tình trạng ngay trước khi nhập viện: tăng [ENTITY] máu và tăng men gan kéo dài."
   },
   {
     "text": "ast",
@@ -1816,46 +474,11 @@
       1830,
       1833
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- [ENTITY] 421\n- alt 336\n- alp 185\n- bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000040",
-          "document": "[ENTITY] xét nghiệm âm tính.",
-          "dense_similarity": 0.6525698900222778,
-          "sparse_similarity": 0.20251645147800446,
-          "hybrid_score": 0.42754316329956055
-        },
-        {
-          "id": "isNegated_000240",
-          "document": "kết quả xét nghiệm âm tính với [ENTITY].",
-          "dense_similarity": 0.6423193216323853,
-          "sparse_similarity": 0.19581912457942963,
-          "hybrid_score": 0.41906923055648804
-        },
-        {
-          "id": "isNegated_000284",
-          "document": "xét nghiệm âm tính với [ENTITY].",
-          "dense_similarity": 0.6393476724624634,
-          "sparse_similarity": 0.17914439737796783,
-          "hybrid_score": 0.409246027469635
-        }
-      ]
+    "assertion_position": [
+      1801,
+      1804
     ],
-    "eng_translation": [
-      "No translation provided.",
-      "The query provided is \"No translation provided.\" Since there is no medical content or diagnosis mentioned in the query, there is no applicable medical synonym to use. Therefore, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 421."
   },
   {
     "text": "421",
@@ -1864,45 +487,11 @@
       1834,
       1837
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- ast [ENTITY]\n- alt 336\n- alp 185\n- bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000040",
-          "document": "[ENTITY] xét nghiệm âm tính.",
-          "dense_similarity": 0.6562702655792236,
-          "sparse_similarity": 0.20677374303340912,
-          "hybrid_score": 0.431522011756897
-        },
-        {
-          "id": "isNegated_000240",
-          "document": "kết quả xét nghiệm âm tính với [ENTITY].",
-          "dense_similarity": 0.6414722204208374,
-          "sparse_similarity": 0.20024172961711884,
-          "hybrid_score": 0.4208569824695587
-        },
-        {
-          "id": "isNegated_000284",
-          "document": "xét nghiệm âm tính với [ENTITY].",
-          "dense_similarity": 0.6370431780815125,
-          "sparse_similarity": 0.1831584870815277,
-          "hybrid_score": 0.4101008176803589
-        }
-      ]
+    "assertion_position": [
+      1805,
+      1808
     ],
-    "eng_translation": [
-      "421"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ast [ENTITY]."
   },
   {
     "text": "alt",
@@ -1911,46 +500,11 @@
       1840,
       1843
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- ast 421\n- [ENTITY] 336\n- alp 185\n- bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000040",
-          "document": "[ENTITY] xét nghiệm âm tính.",
-          "dense_similarity": 0.6437264084815979,
-          "sparse_similarity": 0.18286171555519104,
-          "hybrid_score": 0.41329407691955566
-        },
-        {
-          "id": "isNegated_000240",
-          "document": "kết quả xét nghiệm âm tính với [ENTITY].",
-          "dense_similarity": 0.6291396617889404,
-          "sparse_similarity": 0.17736868560314178,
-          "hybrid_score": 0.4032541811466217
-        },
-        {
-          "id": "isNegated_000284",
-          "document": "xét nghiệm âm tính với [ENTITY].",
-          "dense_similarity": 0.6262032985687256,
-          "sparse_similarity": 0.162895068526268,
-          "hybrid_score": 0.3945491909980774
-        }
-      ]
+    "assertion_position": [
+      1810,
+      1813
     ],
-    "eng_translation": [
-      "No translation provided. Please provide the Vietnamese medical text for translation.",
-      "Please provide the Vietnamese medical text for translation."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 336."
   },
   {
     "text": "336",
@@ -1959,45 +513,11 @@
       1844,
       1847
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- ast 421\n- alt [ENTITY]\n- alp 185\n- bilirubin toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000040",
-          "document": "[ENTITY] xét nghiệm âm tính.",
-          "dense_similarity": 0.6527364253997803,
-          "sparse_similarity": 0.1748359501361847,
-          "hybrid_score": 0.4137861728668213
-        },
-        {
-          "id": "isNegated_000240",
-          "document": "kết quả xét nghiệm âm tính với [ENTITY].",
-          "dense_similarity": 0.6373715400695801,
-          "sparse_similarity": 0.16881024837493896,
-          "hybrid_score": 0.4030908942222595
-        },
-        {
-          "id": "isNegated_000284",
-          "document": "xét nghiệm âm tính với [ENTITY].",
-          "dense_similarity": 0.6353833079338074,
-          "sparse_similarity": 0.15446756780147552,
-          "hybrid_score": 0.39492544531822205
-        }
-      ]
+    "assertion_position": [
+      1814,
+      1817
     ],
-    "eng_translation": [
-      "336"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "alt [ENTITY]."
   },
   {
     "text": "bilirubin",
@@ -2006,46 +526,11 @@
       1860,
       1869
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- ast 421\n- alt 336\n- alp 185\n- [ENTITY] toàn phần 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000040",
-          "document": "[ENTITY] xét nghiệm âm tính.",
-          "dense_similarity": 0.6780371069908142,
-          "sparse_similarity": 0.22350724041461945,
-          "hybrid_score": 0.45077216625213623
-        },
-        {
-          "id": "isNegated_000240",
-          "document": "kết quả xét nghiệm âm tính với [ENTITY].",
-          "dense_similarity": 0.6658453345298767,
-          "sparse_similarity": 0.21658091247081757,
-          "hybrid_score": 0.44121313095092773
-        },
-        {
-          "id": "isNegated_000281",
-          "document": "xét nghiệm cho kết quả âm tính với [ENTITY].",
-          "dense_similarity": 0.6667393445968628,
-          "sparse_similarity": 0.19393181800842285,
-          "hybrid_score": 0.4303355813026428
-        }
-      ]
+    "assertion_position": [
+      1828,
+      1837
     ],
-    "eng_translation": [
-      "bilirubin",
-      "Total bilirubin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] toàn phần 0."
   },
   {
     "text": "viêm gan virus",
@@ -2054,62 +539,11 @@
       1945,
       1959
     ],
-    "sentence": "7\n- bảng xét nghiệm [ENTITY] là âm tính\n- ferritin là bình thường\n- ceruloplasmin vẫn đang chờ kết quả đang chờ kết quả tại thời điểm chuyển viện\nKết quả chẩn đoán hình ảnh\n- siêu âm bụng có doppler âm tính âm tính\n- âm tính chụp hida\n- ercp cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác\nThủ thuật thực hiện: ercp\nCác phát hiện chẩn đoán khác\n- tăng men gan\n- tăng bilirubin máu",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000040",
-          "document": "[ENTITY] xét nghiệm âm tính.",
-          "dense_similarity": 0.6008696556091309,
-          "sparse_similarity": 0.2298038750886917,
-          "hybrid_score": 0.4153367578983307
-        },
-        {
-          "id": "isNegated_000281",
-          "document": "xét nghiệm cho kết quả âm tính với [ENTITY].",
-          "dense_similarity": 0.5804137587547302,
-          "sparse_similarity": 0.20539715886116028,
-          "hybrid_score": 0.39290547370910645
-        },
-        {
-          "id": "isNegated_000232",
-          "document": "kết quả kiểm tra âm tính với [ENTITY].",
-          "dense_similarity": 0.5830539464950562,
-          "sparse_similarity": 0.16007758677005768,
-          "hybrid_score": 0.3715657591819763
-        }
-      ]
+    "assertion_position": [
+      1911,
+      1925
     ],
-    "eng_translation": [
-      "Viral hepatitis",
-      "Hepatitis病毒感染"
-    ],
-    "retriever": {
-      "sapbert": {
-        "B179": 0.861242,
-        "B189": 0.795088,
-        "B0081": 0.768122,
-        "K752": 0.73457,
-        "K739": 0.728425
-      },
-      "rapidfuzz": {
-        "B189": 0.9,
-        "B188": 0.9,
-        "B1910": 0.9,
-        "A5145": 0.736364,
-        "B581": 0.736364,
-        "Z205": 0.736364
-      }
-    },
-    "candidate": {
-      "code": "B189",
-      "confidence": 0.805579
-    }
+    "sentence": "bảng xét nghiệm [ENTITY] là âm tính."
   },
   {
     "text": "ferritin",
@@ -2118,46 +552,11 @@
       1973,
       1981
     ],
-    "sentence": "7\n- bảng xét nghiệm viêm gan virus là âm tính\n- [ENTITY] là bình thường\n- ceruloplasmin vẫn đang chờ kết quả đang chờ kết quả tại thời điểm chuyển viện\nKết quả chẩn đoán hình ảnh\n- siêu âm bụng có doppler âm tính âm tính\n- âm tính chụp hida\n- ercp cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác\nThủ thuật thực hiện: ercp\nCác phát hiện chẩn đoán khác\n- tăng men gan\n- tăng bilirubin máu",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000040",
-          "document": "[ENTITY] xét nghiệm âm tính.",
-          "dense_similarity": 0.595944344997406,
-          "sparse_similarity": 0.21101418137550354,
-          "hybrid_score": 0.40347927808761597
-        },
-        {
-          "id": "isNegated_000284",
-          "document": "xét nghiệm âm tính với [ENTITY].",
-          "dense_similarity": 0.5743259787559509,
-          "sparse_similarity": 0.19944147765636444,
-          "hybrid_score": 0.3868837356567383
-        },
-        {
-          "id": "isNegated_000281",
-          "document": "xét nghiệm cho kết quả âm tính với [ENTITY].",
-          "dense_similarity": 0.5802522301673889,
-          "sparse_similarity": 0.1880977749824524,
-          "hybrid_score": 0.38417500257492065
-        }
-      ]
+    "assertion_position": [
+      1938,
+      1946
     ],
-    "eng_translation": [
-      "ferritin",
-      "serum ferritin level"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] là bình thường."
   },
   {
     "text": "siêu âm",
@@ -2166,46 +565,11 @@
       2106,
       2113
     ],
-    "sentence": "7\n- bảng xét nghiệm viêm gan virus là âm tính\n- ferritin là bình thường\n- ceruloplasmin vẫn đang chờ kết quả đang chờ kết quả tại thời điểm chuyển viện\nKết quả chẩn đoán hình ảnh\n- [ENTITY] bụng có doppler âm tính âm tính\n- âm tính chụp hida\n- ercp cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác\nThủ thuật thực hiện: ercp\nCác phát hiện chẩn đoán khác\n- tăng men gan\n- tăng bilirubin máu",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003251",
-          "document": "7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5628467798233032,
-          "sparse_similarity": 0.11432642489671707,
-          "hybrid_score": 0.33858659863471985
-        },
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.566032350063324,
-          "sparse_similarity": 0.10797466337680817,
-          "hybrid_score": 0.3370034992694855
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5623039603233337,
-          "sparse_similarity": 0.11073599755764008,
-          "hybrid_score": 0.3365199863910675
-        }
-      ]
+    "assertion_position": [
+      2070,
+      2077
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] bụng có doppler âm tính âm tính."
   },
   {
     "text": "ercp",
@@ -2214,46 +578,11 @@
       2168,
       2172
     ],
-    "sentence": "7\n- bảng xét nghiệm viêm gan virus là âm tính\n- ferritin là bình thường\n- ceruloplasmin vẫn đang chờ kết quả đang chờ kết quả tại thời điểm chuyển viện\nKết quả chẩn đoán hình ảnh\n- siêu âm bụng có doppler âm tính âm tính\n- âm tính chụp hida\n- [ENTITY] cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác\nThủ thuật thực hiện: ercp\nCác phát hiện chẩn đoán khác\n- tăng men gan\n- tăng bilirubin máu",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003251",
-          "document": "7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5785887241363525,
-          "sparse_similarity": 0.12003649771213531,
-          "hybrid_score": 0.34931260347366333
-        },
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5730645060539246,
-          "sparse_similarity": 0.12203817069530487,
-          "hybrid_score": 0.3475513458251953
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5754593014717102,
-          "sparse_similarity": 0.1162852942943573,
-          "hybrid_score": 0.34587228298187256
-        }
-      ]
+    "assertion_position": [
+      2130,
+      2134
     ],
-    "eng_translation": [
-      "ERCP",
-      "Endoscopic Retrograde Cholangiopancreatography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác."
   },
   {
     "text": "ercp",
@@ -2262,46 +591,11 @@
       2291,
       2295
     ],
-    "sentence": "7\n- bảng xét nghiệm viêm gan virus là âm tính\n- ferritin là bình thường\n- ceruloplasmin vẫn đang chờ kết quả đang chờ kết quả tại thời điểm chuyển viện\nKết quả chẩn đoán hình ảnh\n- siêu âm bụng có doppler âm tính âm tính\n- âm tính chụp hida\n- ercp cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác\nThủ thuật thực hiện: [ENTITY]\nCác phát hiện chẩn đoán khác\n- tăng men gan\n- tăng bilirubin máu",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003251",
-          "document": "7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5649174451828003,
-          "sparse_similarity": 0.11263725906610489,
-          "hybrid_score": 0.3387773633003235
-        },
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5597137808799744,
-          "sparse_similarity": 0.11440056562423706,
-          "hybrid_score": 0.3370571732521057
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5622525811195374,
-          "sparse_similarity": 0.10907487571239471,
-          "hybrid_score": 0.33566373586654663
-        }
-      ]
+    "assertion_position": [
+      2254,
+      2258
     ],
-    "eng_translation": [
-      "ERCP",
-      "Endoscopic Retrograde Cholangiopancreatography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thủ thuật thực hiện: [ENTITY]."
   },
   {
     "text": "tăng men gan",
@@ -2310,58 +604,11 @@
       2327,
       2339
     ],
-    "sentence": "7\n- bảng xét nghiệm viêm gan virus là âm tính\n- ferritin là bình thường\n- ceruloplasmin vẫn đang chờ kết quả đang chờ kết quả tại thời điểm chuyển viện\nKết quả chẩn đoán hình ảnh\n- siêu âm bụng có doppler âm tính âm tính\n- âm tính chụp hida\n- ercp cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác\nThủ thuật thực hiện: ercp\nCác phát hiện chẩn đoán khác\n- [ENTITY]\n- tăng bilirubin máu",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003251",
-          "document": "7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5657640695571899,
-          "sparse_similarity": 0.11226728558540344,
-          "hybrid_score": 0.3390156626701355
-        },
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5597283840179443,
-          "sparse_similarity": 0.11411765217781067,
-          "hybrid_score": 0.3369230031967163
-        },
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5670329332351685,
-          "sparse_similarity": 0.10601450502872467,
-          "hybrid_score": 0.33652371168136597
-        }
-      ]
+    "assertion_position": [
+      2290,
+      2302
     ],
-    "eng_translation": [
-      "Elevated liver enzymes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "R7401": 0.854283,
-        "R749": 0.662194,
-        "R748": 0.65027,
-        "D731": 0.602514,
-        "R830": 0.589791
-      },
-      "rapidfuzz": {
-        "D376": 0.855,
-        "Q4470": 0.855,
-        "P7884": 0.855
-      }
-    },
-    "candidate": {
-      "code": "R7401",
-      "confidence": 0.768855
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "bilirubin",
@@ -2370,45 +617,10 @@
       2347,
       2356
     ],
-    "sentence": "7\n- bảng xét nghiệm viêm gan virus là âm tính\n- ferritin là bình thường\n- ceruloplasmin vẫn đang chờ kết quả đang chờ kết quả tại thời điểm chuyển viện\nKết quả chẩn đoán hình ảnh\n- siêu âm bụng có doppler âm tính âm tính\n- âm tính chụp hida\n- ercp cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác\nThủ thuật thực hiện: ercp\nCác phát hiện chẩn đoán khác\n- tăng men gan\n- tăng [ENTITY] máu",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_003251",
-          "document": "7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5651668310165405,
-          "sparse_similarity": 0.11455260217189789,
-          "hybrid_score": 0.3398597240447998
-        },
-        {
-          "id": "isHistorical_013959",
-          "document": "cách đây 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5584672093391418,
-          "sparse_similarity": 0.11655408143997192,
-          "hybrid_score": 0.3375106453895569
-        },
-        {
-          "id": "isHistorical_003263",
-          "document": "7 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5660240054130554,
-          "sparse_similarity": 0.10804758220911026,
-          "hybrid_score": 0.33703580498695374
-        }
-      ]
+    "assertion_position": [
+      2309,
+      2318
     ],
-    "eng_translation": [
-      "bilirubin",
-      "Total bilirubin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "tăng [ENTITY] máu."
   }
 ]

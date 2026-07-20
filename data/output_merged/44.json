@@ -6,62 +6,11 @@
       39,
       47
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- [ENTITY]\n- tăng huyết áp\n- suy tim, không đặc hiệu\n- béo phì\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mạn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.6804666519165039,
-          "sparse_similarity": 0.16640418767929077,
-          "hybrid_score": 0.42343541979789734
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6615939140319824,
-          "sparse_similarity": 0.17795217037200928,
-          "hybrid_score": 0.41977304220199585
-        },
-        {
-          "id": "isFamily_024988",
-          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6563282012939453,
-          "sparse_similarity": 0.1823682188987732,
-          "hybrid_score": 0.41934821009635925
-        }
-      ]
+    "assertion_position": [
+      36,
+      44
     ],
-    "eng_translation": [
-      "Atrial fibrillation",
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I480": 1.0,
-        "I4891": 0.978406,
-        "I4821": 0.894503,
-        "I4820": 0.803449,
-        "I4901": 0.799594
-      },
-      "rapidfuzz": {
-        "I480": 1.0,
-        "I4820": 0.9,
-        "I4821": 0.9,
-        "I4891": 0.9,
-        "G44039": 0.855,
-        "I231": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I480",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "tăng huyết áp",
@@ -70,62 +19,11 @@
       50,
       63
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- rung nhĩ\n- [ENTITY]\n- suy tim, không đặc hiệu\n- béo phì\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mạn tính - rung nhĩ - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.6792696118354797,
-          "sparse_similarity": 0.15814019739627838,
-          "hybrid_score": 0.41870489716529846
-        },
-        {
-          "id": "isFamily_024988",
-          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6543942093849182,
-          "sparse_similarity": 0.1736070066690445,
-          "hybrid_score": 0.41400060057640076
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6561827063560486,
-          "sparse_similarity": 0.1696726679801941,
-          "hybrid_score": 0.41292768716812134
-        }
-      ]
+    "assertion_position": [
+      46,
+      59
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "suy tim",
@@ -134,62 +32,11 @@
       66,
       73
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- rung nhĩ\n- tăng huyết áp\n- [ENTITY], không đặc hiệu\n- béo phì\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6608114242553711,
-          "sparse_similarity": 0.17652291059494019,
-          "hybrid_score": 0.41866716742515564
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6562485694885254,
-          "sparse_similarity": 0.18069419264793396,
-          "hybrid_score": 0.41847139596939087
-        },
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.6717338562011719,
-          "sparse_similarity": 0.1648118793964386,
-          "hybrid_score": 0.41827285289764404
-        }
-      ]
+    "assertion_position": [
+      61,
+      68
     ],
-    "eng_translation": [
-      "Heart failure",
-      "Congestive heart failure"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I509": 0.984625,
-        "I5084": 0.853405,
-        "I5020": 0.81339,
-        "I5089": 0.783642,
-        "I5022": 0.769411
-      },
-      "rapidfuzz": {
-        "I5089": 0.95,
-        "I110": 0.9,
-        "I0981": 0.9,
-        "I5041": 0.9,
-        "I5020": 0.9,
-        "I5021": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I509",
-      "confidence": 0.886162
-    }
+    "sentence": "[ENTITY], không đặc hiệu."
   },
   {
     "text": "béo phì",
@@ -198,62 +45,11 @@
       92,
       99
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- rung nhĩ\n- tăng huyết áp\n- suy tim, không đặc hiệu\n- [ENTITY]\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6705070734024048,
-          "sparse_similarity": 0.18009690940380096,
-          "hybrid_score": 0.42530199885368347
-        },
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.6878939270973206,
-          "sparse_similarity": 0.16263973712921143,
-          "hybrid_score": 0.425266832113266
-        },
-        {
-          "id": "isFamily_024988",
-          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6703312397003174,
-          "sparse_similarity": 0.17938053607940674,
-          "hybrid_score": 0.42485588788986206
-        }
-      ]
+    "assertion_position": [
+      86,
+      93
     ],
-    "eng_translation": [
-      "Obesity",
-      "Excess body weight"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E669": 0.985618,
-        "E663": 0.883644,
-        "E66811": 0.865016,
-        "E66813": 0.861392,
-        "E66812": 0.832182
-      },
-      "rapidfuzz": {
-        "E8882": 0.9,
-        "O99211": 0.9,
-        "Z152": 0.9,
-        "S81832D": 0.855,
-        "H02814": 0.855,
-        "H02813": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E669",
-      "confidence": 0.887056
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Tăng khó thở",
@@ -262,45 +58,11 @@
       139,
       151
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- [ENTITY]\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6361643075942993,
-          "sparse_similarity": 0.17728735506534576,
-          "hybrid_score": 0.40672582387924194
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.633712887763977,
-          "sparse_similarity": 0.17723090946674347,
-          "hybrid_score": 0.40547189116477966
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6330538988113403,
-          "sparse_similarity": 0.17742758989334106,
-          "hybrid_score": 0.4052407443523407
-        }
-      ]
+    "assertion_position": [
+      130,
+      142
     ],
-    "eng_translation": [
-      "Increased dyspnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "phù chi dưới",
@@ -309,46 +71,11 @@
       154,
       166
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- [ENTITY]\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6178711652755737,
-          "sparse_similarity": 0.18733873963356018,
-          "hybrid_score": 0.40260493755340576
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6285027861595154,
-          "sparse_similarity": 0.17644163966178894,
-          "hybrid_score": 0.40247219800949097
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6192505359649658,
-          "sparse_similarity": 0.18565386533737183,
-          "hybrid_score": 0.4024522006511688
-        }
-      ]
+    "assertion_position": [
+      144,
+      156
     ],
-    "eng_translation": [
-      "Lower limb edema",
-      "Peripheral edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đau ngực",
@@ -357,46 +84,11 @@
       169,
       177
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- [ENTITY]\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6272740364074707,
-          "sparse_similarity": 0.1975802183151245,
-          "hybrid_score": 0.4124271273612976
-        },
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6262310743331909,
-          "sparse_similarity": 0.19849398732185364,
-          "hybrid_score": 0.4123625159263611
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6366530656814575,
-          "sparse_similarity": 0.18769241869449615,
-          "hybrid_score": 0.41217273473739624
-        }
-      ]
+    "assertion_position": [
+      158,
+      166
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Tăng khó thở",
@@ -405,45 +97,11 @@
       247,
       259
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- [ENTITY] và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6463295817375183,
-          "sparse_similarity": 0.19856096804141998,
-          "hybrid_score": 0.42244526743888855
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6431623101234436,
-          "sparse_similarity": 0.19909989833831787,
-          "hybrid_score": 0.42113110423088074
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6413123607635498,
-          "sparse_similarity": 0.19990910589694977,
-          "hybrid_score": 0.4206107258796692
-        }
-      ]
+    "assertion_position": [
+      237,
+      249
     ],
-    "eng_translation": [
-      "Increased dyspnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] và yếu trong vài tuần qua."
   },
   {
     "text": "cơn ngất xỉu",
@@ -452,46 +110,11 @@
       288,
       300
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- [ENTITY] 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6149462461471558,
-          "sparse_similarity": 0.18583333492279053,
-          "hybrid_score": 0.40038979053497314
-        },
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6142785549163818,
-          "sparse_similarity": 0.18533024191856384,
-          "hybrid_score": 0.39980441331863403
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6220078468322754,
-          "sparse_similarity": 0.17161133885383606,
-          "hybrid_score": 0.39680957794189453
-        }
-      ]
+    "assertion_position": [
+      277,
+      289
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 2 tháng trước."
   },
   {
     "text": "đau rát khi đi tiểu",
@@ -500,46 +123,11 @@
       317,
       336
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- [ENTITY], từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "2 tháng trước - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.64742511510849,
-          "sparse_similarity": 0.19008037447929382,
-          "hybrid_score": 0.4187527298927307
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6434655785560608,
-          "sparse_similarity": 0.19004371762275696,
-          "hybrid_score": 0.41675466299057007
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6424225568771362,
-          "sparse_similarity": 0.1906997561454773,
-          "hybrid_score": 0.41656115651130676
-        }
-      ]
+    "assertion_position": [
+      305,
+      324
     ],
-    "eng_translation": [
-      "painful urination",
-      "Dysuria"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], từng đợt, khoảng 2 tuần."
   },
   {
     "text": "chán ăn",
@@ -548,46 +136,11 @@
       364,
       371
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- [ENTITY] trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng đợt, khoảng 2 tuần - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6555249691009521,
-          "sparse_similarity": 0.20635512471199036,
-          "hybrid_score": 0.43094003200531006
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6512177586555481,
-          "sparse_similarity": 0.20806534588336945,
-          "hybrid_score": 0.4296415448188782
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6433419585227966,
-          "sparse_similarity": 0.2142781764268875,
-          "hybrid_score": 0.4288100600242615
-        }
-      ]
+    "assertion_position": [
+      351,
+      358
     ],
-    "eng_translation": [
-      "loss of appetite",
-      "Anorexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] trong 3 ngày qua."
   },
   {
     "text": "nôn",
@@ -596,46 +149,11 @@
       391,
       394
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- [ENTITY] từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6277403831481934,
-          "sparse_similarity": 0.207567036151886,
-          "hybrid_score": 0.4176537096500397
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6292911171913147,
-          "sparse_similarity": 0.204820454120636,
-          "hybrid_score": 0.41705578565597534
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.638482928276062,
-          "sparse_similarity": 0.19513456523418427,
-          "hybrid_score": 0.41680875420570374
-        }
-      ]
+    "assertion_position": [
+      377,
+      380
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] từng đợt sau khi ăn trong 3 ngày qua."
   },
   {
     "text": "Tăng khó thở",
@@ -644,45 +162,11 @@
       460,
       472
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- [ENTITY]\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6385758519172668,
-          "sparse_similarity": 0.189887136220932,
-          "hybrid_score": 0.41423147916793823
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6363546848297119,
-          "sparse_similarity": 0.19062870740890503,
-          "hybrid_score": 0.41349169611930847
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6337383985519409,
-          "sparse_similarity": 0.1909269094467163,
-          "hybrid_score": 0.4123326539993286
-        }
-      ]
+    "assertion_position": [
+      446,
+      458
     ],
-    "eng_translation": [
-      "Increased dyspnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "phù chi dưới",
@@ -691,46 +175,11 @@
       475,
       487
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- [ENTITY]\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6142632365226746,
-          "sparse_similarity": 0.18440383672714233,
-          "hybrid_score": 0.39933353662490845
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.623577356338501,
-          "sparse_similarity": 0.1742478907108307,
-          "hybrid_score": 0.39891260862350464
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6149123311042786,
-          "sparse_similarity": 0.1828698217868805,
-          "hybrid_score": 0.3988910913467407
-        }
-      ]
+    "assertion_position": [
+      460,
+      472
     ],
-    "eng_translation": [
-      "Lower limb edema",
-      "Peripheral edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đau ngực",
@@ -739,46 +188,11 @@
       490,
       498
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- [ENTITY]\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6216261386871338,
-          "sparse_similarity": 0.19702179729938507,
-          "hybrid_score": 0.40932396054267883
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6322128176689148,
-          "sparse_similarity": 0.18642477691173553,
-          "hybrid_score": 0.40931880474090576
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6226677894592285,
-          "sparse_similarity": 0.19439122080802917,
-          "hybrid_score": 0.40852952003479004
-        }
-      ]
+    "assertion_position": [
+      474,
+      482
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "mệt mỏi",
@@ -787,45 +201,11 @@
       501,
       508
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- [ENTITY] và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6217655539512634,
-          "sparse_similarity": 0.19502326846122742,
-          "hybrid_score": 0.40839439630508423
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6323543787002563,
-          "sparse_similarity": 0.1830902397632599,
-          "hybrid_score": 0.4077222943305969
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6291035413742065,
-          "sparse_similarity": 0.18581277132034302,
-          "hybrid_score": 0.4074581563472748
-        }
-      ]
+    "assertion_position": [
+      484,
+      491
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] và weak."
   },
   {
     "text": "weak",
@@ -834,46 +214,11 @@
       512,
       516
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và [ENTITY]\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6251341104507446,
-          "sparse_similarity": 0.19880695641040802,
-          "hybrid_score": 0.4119705259799957
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6354881525039673,
-          "sparse_similarity": 0.18733663856983185,
-          "hybrid_score": 0.41141238808631897
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6322984099388123,
-          "sparse_similarity": 0.18951627612113953,
-          "hybrid_score": 0.4109073281288147
-        }
-      ]
+    "assertion_position": [
+      495,
+      499
     ],
-    "eng_translation": [
-      "weak",
-      "Weakness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "mệt mỏi và [ENTITY]."
   },
   {
     "text": "ngủ quên",
@@ -882,46 +227,11 @@
       532,
       540
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên [ENTITY] hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6211933493614197,
-          "sparse_similarity": 0.19229987263679504,
-          "hybrid_score": 0.40674662590026855
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6315498352050781,
-          "sparse_similarity": 0.18134570121765137,
-          "hybrid_score": 0.40644776821136475
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6284845471382141,
-          "sparse_similarity": 0.18318918347358704,
-          "hybrid_score": 0.40583688020706177
-        }
-      ]
+    "assertion_position": [
+      514,
+      522
     ],
-    "eng_translation": [
-      "sleep apnea",
-      "Obstructive Sleep Apnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thường xuyên [ENTITY] hoặc có thể ngất xỉu."
   },
   {
     "text": "ngất xỉu",
@@ -930,46 +240,11 @@
       553,
       561
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể [ENTITY]\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": "isUncertain",
-      "confidence": 1.0,
-      "evidence": "có thể [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6323468685150146,
-          "sparse_similarity": 0.1756385713815689,
-          "hybrid_score": 0.4039927124977112
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6213648319244385,
-          "sparse_similarity": 0.18383486568927765,
-          "hybrid_score": 0.40259984135627747
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6291891932487488,
-          "sparse_similarity": 0.1753113716840744,
-          "hybrid_score": 0.4022502899169922
-        }
-      ]
+    "assertion_position": [
+      535,
+      543
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thường xuyên ngủ quên hoặc có thể [ENTITY]."
   },
   {
     "text": "Đau buốt khi đi tiểu",
@@ -978,46 +253,11 @@
       610,
       630
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- [ENTITY]\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.630806565284729,
-          "sparse_similarity": 0.1729578822851181,
-          "hybrid_score": 0.40188223123550415
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6205927133560181,
-          "sparse_similarity": 0.18182538449764252,
-          "hybrid_score": 0.4012090563774109
-        },
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6202070713043213,
-          "sparse_similarity": 0.1821345090866089,
-          "hybrid_score": 0.4011707901954651
-        }
-      ]
+    "assertion_position": [
+      590,
+      610
     ],
-    "eng_translation": [
-      "Painful urination",
-      "Dysuria"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "chán ăn",
@@ -1026,46 +266,11 @@
       633,
       640
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- [ENTITY]\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6152584552764893,
-          "sparse_similarity": 0.18695302307605743,
-          "hybrid_score": 0.40110573172569275
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6248892545700073,
-          "sparse_similarity": 0.17639140784740448,
-          "hybrid_score": 0.4006403386592865
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6161614656448364,
-          "sparse_similarity": 0.18455980718135834,
-          "hybrid_score": 0.400360643863678
-        }
-      ]
+    "assertion_position": [
+      612,
+      619
     ],
-    "eng_translation": [
-      "loss of appetite",
-      "Anorexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "nôn",
@@ -1074,46 +279,11 @@
       643,
       646
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- [ENTITY] từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6161354780197144,
-          "sparse_similarity": 0.1916620433330536,
-          "hybrid_score": 0.40389877557754517
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6253914833068848,
-          "sparse_similarity": 0.1804957389831543,
-          "hybrid_score": 0.40294361114501953
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.616915762424469,
-          "sparse_similarity": 0.18888027966022491,
-          "hybrid_score": 0.40289801359176636
-        }
-      ]
+    "assertion_position": [
+      621,
+      624
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] từng đợt sau khi ăn."
   },
   {
     "text": "đau ngực",
@@ -1122,46 +292,11 @@
       690,
       698
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- [ENTITY]:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng đợt sau khi ăn đặc điểm triệu chứng - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6323617696762085,
-          "sparse_similarity": 0.20515607297420502,
-          "hybrid_score": 0.41875892877578735
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6322653293609619,
-          "sparse_similarity": 0.2020520269870758,
-          "hybrid_score": 0.41715866327285767
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6382932066917419,
-          "sparse_similarity": 0.19554981589317322,
-          "hybrid_score": 0.4169214963912964
-        }
-      ]
+    "assertion_position": [
+      668,
+      676
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "nhói",
@@ -1170,45 +305,11 @@
       761,
       765
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- [ENTITY]\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6559197902679443,
-          "sparse_similarity": 0.20003484189510345,
-          "hybrid_score": 0.4279773235321045
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6529832482337952,
-          "sparse_similarity": 0.20089173316955566,
-          "hybrid_score": 0.4269374907016754
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6509644985198975,
-          "sparse_similarity": 0.20223106443881989,
-          "hybrid_score": 0.4265977740287781
-        }
-      ]
+    "assertion_position": [
+      736,
+      740
     ],
-    "eng_translation": [
-      "pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "tê bì ở cánh tay",
@@ -1217,46 +318,11 @@
       814,
       830
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo [ENTITY] trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6461944580078125,
-          "sparse_similarity": 0.18827331066131592,
-          "hybrid_score": 0.4172338843345642
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6417521834373474,
-          "sparse_similarity": 0.1906614601612091,
-          "hybrid_score": 0.41620683670043945
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6434603333473206,
-          "sparse_similarity": 0.18817725777626038,
-          "hybrid_score": 0.41581881046295166
-        }
-      ]
+    "assertion_position": [
+      786,
+      802
     ],
-    "eng_translation": [
-      "Numbness in the arm",
-      "Arm paresthesia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "kèm theo [ENTITY] trái trên và đau ở cánh tay trái dưới và bàn tay."
   },
   {
     "text": "đau ở cánh tay",
@@ -1265,46 +331,11 @@
       844,
       858
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và [ENTITY] trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6447285413742065,
-          "sparse_similarity": 0.1872681975364685,
-          "hybrid_score": 0.4159983694553375
-        },
-        {
-          "id": "isHistorical_020246",
-          "document": "khoảng 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6420672535896301,
-          "sparse_similarity": 0.18786711990833282,
-          "hybrid_score": 0.4149671792984009
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6401507258415222,
-          "sparse_similarity": 0.18953539431095123,
-          "hybrid_score": 0.41484305262565613
-        }
-      ]
+    "assertion_position": [
+      816,
+      830
     ],
-    "eng_translation": [
-      "pain in the arm",
-      "arm pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "kèm theo tê bì ở cánh tay trái trên và [ENTITY] trái dưới và bàn tay."
   },
   {
     "text": "đau rát khi đi tiểu",
@@ -1313,46 +344,11 @@
       1071,
       1090
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- [ENTITY]:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6323406100273132,
-          "sparse_similarity": 0.1739569902420044,
-          "hybrid_score": 0.4031488001346588
-        },
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6212427020072937,
-          "sparse_similarity": 0.18407315015792847,
-          "hybrid_score": 0.4026579260826111
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6217426061630249,
-          "sparse_similarity": 0.1830565482378006,
-          "hybrid_score": 0.40239956974983215
-        }
-      ]
+    "assertion_position": [
+      1033,
+      1052
     ],
-    "eng_translation": [
-      "painful urination",
-      "Dysuria"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Nôn mửa",
@@ -1361,46 +357,11 @@
       1154,
       1161
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- [ENTITY]:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6316378712654114,
-          "sparse_similarity": 0.18587882816791534,
-          "hybrid_score": 0.40875834226608276
-        },
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6210851073265076,
-          "sparse_similarity": 0.1962982565164566,
-          "hybrid_score": 0.4086916744709015
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6217473745346069,
-          "sparse_similarity": 0.19457024335861206,
-          "hybrid_score": 0.4081588089466095
-        }
-      ]
+    "assertion_position": [
+      1110,
+      1117
     ],
-    "eng_translation": [
-      "Vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ngất xỉu",
@@ -1409,46 +370,11 @@
       1208,
       1216
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn [ENTITY]:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng đợt sau khi ăn trong 3 ngày qua - cơn [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6243772506713867,
-          "sparse_similarity": 0.1742512732744217,
-          "hybrid_score": 0.3993142545223236
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6150714755058289,
-          "sparse_similarity": 0.1823696345090866,
-          "hybrid_score": 0.39872056245803833
-        },
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6142650246620178,
-          "sparse_similarity": 0.18311235308647156,
-          "hybrid_score": 0.3986886739730835
-        }
-      ]
+    "assertion_position": [
+      1161,
+      1169
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "cơn [ENTITY]."
   },
   {
     "text": "đánh trống ngực",
@@ -1457,46 +383,11 @@
       1335,
       1350
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị [ENTITY], chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6267402172088623,
-          "sparse_similarity": 0.18050654232501984,
-          "hybrid_score": 0.4036233723163605
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6360017657279968,
-          "sparse_similarity": 0.1708584874868393,
-          "hybrid_score": 0.40343013405799866
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6267774701118469,
-          "sparse_similarity": 0.17958424985408783,
-          "hybrid_score": 0.403180867433548
-        }
-      ]
+    "assertion_position": [
+      1283,
+      1298
     ],
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "không nhớ bị [ENTITY], chóng mặt trước khi bị ngã."
   },
   {
     "text": "chóng mặt",
@@ -1505,46 +396,11 @@
       1352,
       1361
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, [ENTITY] trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po lasix ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6195484399795532,
-          "sparse_similarity": 0.18055760860443115,
-          "hybrid_score": 0.4000530242919922
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6293063759803772,
-          "sparse_similarity": 0.17074373364448547,
-          "hybrid_score": 0.40002506971359253
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6200483441352844,
-          "sparse_similarity": 0.1791110336780548,
-          "hybrid_score": 0.3995797038078308
-        }
-      ]
+    "assertion_position": [
+      1300,
+      1309
     ],
-    "eng_translation": [
-      "Dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "không nhớ bị đánh trống ngực, [ENTITY] trước khi bị ngã."
   },
   {
     "text": "lasix",
@@ -1553,62 +409,11 @@
       1440,
       1445
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\nThời điểm khởi phát triệu chứng: bắt đầu từ tối qua\nDiễn biến bệnh\n- Tăng khó thở và yếu trong vài tuần qua\n- cơn ngất xỉu 2 tháng trước\n- đau rát khi đi tiểu, từng đợt, khoảng 2 tuần\n- chán ăn trong 3 ngày qua\n- nôn từng đợt sau khi ăn trong 3 ngày qua\nTriệu chứng khi nhập viện\n- Tăng khó thở\n- phù chi dưới\n- đau ngực\n- mệt mỏi và weak\n- Thường xuyên ngủ quên hoặc có thể ngất xỉu\n- giảm khả năng quan hệ tình dục với bạn tình\n- Đau buốt khi đi tiểu\n- chán ăn\n- nôn từng đợt sau khi ăn\nĐặc điểm triệu chứng\n- đau ngực:\n- xảy ra khoảng trước khi nhập viện khi bệnh nhân đang nằm\n- nhói\n- bên trái\n- lan xuống cánh tay trái\n- kèm theo tê bì ở cánh tay trái trên và đau ở cánh tay trái dưới và bàn tay\n- liên tục\n- không nặng hơn/giảm khi làm gì\n- không giảm khi dùng bất kỳ thuốc nào ở phòng cấp cứu\n- shortness of breath:\n- tăng dần trong vài tuần qua\n- yếu:\n- tăng dần trong vài tuần qua\n- đau rát khi đi tiểu:\n- từng đợt, khoảng 2 tuần\n- Ăn uống:\n- kém trong 3 ngày qua\n- Nôn mửa:\n- từng đợt sau khi ăn trong 3 ngày qua\n- cơn ngất xỉu:\n- 2 tháng trước\n- bệnh nhân không nhớ rõ\n- va phải cánh tay phải và bụng phải nhưng không nhớ đập đầu\n- không nhớ bị đánh trống ngực, chóng mặt trước khi bị ngã\nSự kiện trước khi nhập viện\n- Bệnh nhân đã dùng thêm 80mg po [ENTITY] ở nhà mà không có tác dụng\n- Bệnh nhân không được chăm sóc y tế thường xuyên trong những tháng gần đây; bác sĩ chăm sóc chính của anh ấy từ trần và anh ấy chưa theo dõi với ai khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021590",
-          "document": "khoảng 80 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6559405326843262,
-          "sparse_similarity": 0.2296651154756546,
-          "hybrid_score": 0.4428028166294098
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6611730456352234,
-          "sparse_similarity": 0.19558566808700562,
-          "hybrid_score": 0.4283793568611145
-        },
-        {
-          "id": "isHistorical_025198",
-          "document": "từ 3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6582203507423401,
-          "sparse_similarity": 0.1968829333782196,
-          "hybrid_score": 0.42755162715911865
-        }
-      ]
+    "assertion_position": [
+      1388,
+      1393
     ],
-    "eng_translation": [
-      "Lasix",
-      "Furosemide"
-    ],
-    "retriever": {
-      "sapbert": {
-        "4603": 1.0,
-        "202991": 1.0,
-        "2735130": 0.843701,
-        "2739320": 0.690308,
-        "1364397": 0.680973
-      },
-      "rapidfuzz": {
-        "202991": 1.0,
-        "4603": 1.0,
-        "565458": 0.9,
-        "1175645": 0.9,
-        "2725542": 0.9,
-        "2725545": 0.9
-      }
-    },
-    "candidate": {
-      "code": "4603",
-      "confidence": 1.0
-    }
+    "sentence": "Bệnh nhân đã dùng thêm 80mg po [ENTITY] ở nhà mà không có tác dụng."
   },
   {
     "text": "lasix",
@@ -1617,62 +422,11 @@
       1720,
       1725
     ],
-    "sentence": "Đánh giá tại bệnh viện\nCác thủ thuật đã thực hiện\n- Nhận 2 sl ntg\n- Nhận asa\n- Nhận 80mg [ENTITY] iv\n- Nhận 8mg morphine\n- Nhận 1mg dilaudid\n- Được cho po metoprolol\n- Được cho 10mg iv diltiazem\nCác phát hiện chẩn đoán khác\n- Với ntg khó thở cải thiện nhưng đau ngực vẫn còn\n- Với ntg khó thở cải thiện nhưng đau ngực vẫn còn\n- nhịp tim cải thiện thành",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_014254",
-          "document": "cách đây 80 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.591208279132843,
-          "sparse_similarity": 0.07347920536994934,
-          "hybrid_score": 0.3323437571525574
-        },
-        {
-          "id": "isHistorical_003840",
-          "document": "80 tuần trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5866641402244568,
-          "sparse_similarity": 0.07250237464904785,
-          "hybrid_score": 0.3295832574367523
-        },
-        {
-          "id": "isHistorical_014236",
-          "document": "cách đây 80 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5836868286132812,
-          "sparse_similarity": 0.07464375346899033,
-          "hybrid_score": 0.3291652798652649
-        }
-      ]
+    "assertion_position": [
+      1662,
+      1667
     ],
-    "eng_translation": [
-      "Lasix",
-      "Furosemide"
-    ],
-    "retriever": {
-      "sapbert": {
-        "4603": 1.0,
-        "202991": 1.0,
-        "2735130": 0.843701,
-        "2739320": 0.690308,
-        "1364397": 0.680973
-      },
-      "rapidfuzz": {
-        "202991": 1.0,
-        "4603": 1.0,
-        "565458": 0.9,
-        "1175645": 0.9,
-        "2725542": 0.9,
-        "2725545": 0.9
-      }
-    },
-    "candidate": {
-      "code": "4603",
-      "confidence": 1.0
-    }
+    "sentence": "Nhận 80mg [ENTITY] iv."
   },
   {
     "text": "dilaudid",
@@ -1681,64 +435,11 @@
       1760,
       1768
     ],
-    "sentence": "Đánh giá tại bệnh viện\nCác thủ thuật đã thực hiện\n- Nhận 2 sl ntg\n- Nhận asa\n- Nhận 80mg lasix iv\n- Nhận 8mg morphine\n- Nhận 1mg [ENTITY]\n- Được cho po metoprolol\n- Được cho 10mg iv diltiazem\nCác phát hiện chẩn đoán khác\n- Với ntg khó thở cải thiện nhưng đau ngực vẫn còn\n- Với ntg khó thở cải thiện nhưng đau ngực vẫn còn\n- nhịp tim cải thiện thành",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_014254",
-          "document": "cách đây 80 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.5808398723602295,
-          "sparse_similarity": 0.06890382617712021,
-          "hybrid_score": 0.32487183809280396
-        },
-        {
-          "id": "isHistorical_003840",
-          "document": "80 tuần trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5760962963104248,
-          "sparse_similarity": 0.06809888035058975,
-          "hybrid_score": 0.3220975995063782
-        },
-        {
-          "id": "isHistorical_014236",
-          "document": "cách đây 80 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.574155867099762,
-          "sparse_similarity": 0.0700124055147171,
-          "hybrid_score": 0.32208412885665894
-        }
-      ]
+    "assertion_position": [
+      1700,
+      1708
     ],
-    "eng_translation": [
-      "Dilaudid",
-      "Dilaudid is a brand name for the opioid analgesic hydromorphone.",
-      "Hydromorphone",
-      "Dilaudid is the brand name for the opioid analgesic hydromorphone."
-    ],
-    "retriever": {
-      "sapbert": {
-        "3423": 1.0,
-        "224913": 1.0,
-        "216611": 0.9358,
-        "216610": 0.926379,
-        "358355": 0.919615
-      },
-      "rapidfuzz": {
-        "224913": 1.0,
-        "3423": 1.0,
-        "1164621": 0.95,
-        "368895": 0.9,
-        "2657343": 0.9,
-        "1251196": 0.855
-      }
-    },
-    "candidate": {
-      "code": "224913",
-      "confidence": 1.0
-    }
+    "sentence": "Nhận 1mg [ENTITY]."
   },
   {
     "text": "khó thở",
@@ -1747,46 +448,11 @@
       1862,
       1869
     ],
-    "sentence": "Đánh giá tại bệnh viện\nCác thủ thuật đã thực hiện\n- Nhận 2 sl ntg\n- Nhận asa\n- Nhận 80mg lasix iv\n- Nhận 8mg morphine\n- Nhận 1mg dilaudid\n- Được cho po metoprolol\n- Được cho 10mg iv diltiazem\nCác phát hiện chẩn đoán khác\n- Với ntg [ENTITY] cải thiện nhưng đau ngực vẫn còn\n- Với ntg khó thở cải thiện nhưng đau ngực vẫn còn\n- nhịp tim cải thiện thành",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_014254",
-          "document": "cách đây 80 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.5811595916748047,
-          "sparse_similarity": 0.06823413819074631,
-          "hybrid_score": 0.3246968686580658
-        },
-        {
-          "id": "isHistorical_033757",
-          "document": "đã 80 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.5717803239822388,
-          "sparse_similarity": 0.07652927190065384,
-          "hybrid_score": 0.324154794216156
-        },
-        {
-          "id": "isHistorical_003840",
-          "document": "80 tuần trước được điều trị [ENTITY].",
-          "dense_similarity": 0.576431930065155,
-          "sparse_similarity": 0.06739626824855804,
-          "hybrid_score": 0.32191410660743713
-        }
-      ]
+    "assertion_position": [
+      1800,
+      1807
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Với ntg [ENTITY] cải thiện nhưng đau ngực vẫn còn."
   },
   {
     "text": "đau ngực",
@@ -1795,46 +461,11 @@
       1886,
       1894
     ],
-    "sentence": "Đánh giá tại bệnh viện\nCác thủ thuật đã thực hiện\n- Nhận 2 sl ntg\n- Nhận asa\n- Nhận 80mg lasix iv\n- Nhận 8mg morphine\n- Nhận 1mg dilaudid\n- Được cho po metoprolol\n- Được cho 10mg iv diltiazem\nCác phát hiện chẩn đoán khác\n- Với ntg khó thở cải thiện nhưng [ENTITY] vẫn còn\n- Với ntg khó thở cải thiện nhưng đau ngực vẫn còn\n- nhịp tim cải thiện thành",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_014254",
-          "document": "cách đây 80 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.5920738577842712,
-          "sparse_similarity": 0.08023697137832642,
-          "hybrid_score": 0.33615541458129883
-        },
-        {
-          "id": "isHistorical_033757",
-          "document": "đã 80 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.5825027227401733,
-          "sparse_similarity": 0.08879292756319046,
-          "hybrid_score": 0.3356478214263916
-        },
-        {
-          "id": "isHistorical_014236",
-          "document": "cách đây 80 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5852110981941223,
-          "sparse_similarity": 0.08155394345521927,
-          "hybrid_score": 0.3333825170993805
-        }
-      ]
+    "assertion_position": [
+      1824,
+      1832
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Với ntg khó thở cải thiện nhưng [ENTITY] vẫn còn."
   },
   {
     "text": "khó thở",
@@ -1843,46 +474,11 @@
       1913,
       1920
     ],
-    "sentence": "Đánh giá tại bệnh viện\nCác thủ thuật đã thực hiện\n- Nhận 2 sl ntg\n- Nhận asa\n- Nhận 80mg lasix iv\n- Nhận 8mg morphine\n- Nhận 1mg dilaudid\n- Được cho po metoprolol\n- Được cho 10mg iv diltiazem\nCác phát hiện chẩn đoán khác\n- Với ntg khó thở cải thiện nhưng đau ngực vẫn còn\n- Với ntg [ENTITY] cải thiện nhưng đau ngực vẫn còn\n- nhịp tim cải thiện thành",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_014254",
-          "document": "cách đây 80 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.5829178690910339,
-          "sparse_similarity": 0.06678541749715805,
-          "hybrid_score": 0.3248516321182251
-        },
-        {
-          "id": "isHistorical_003840",
-          "document": "80 tuần trước được điều trị [ENTITY].",
-          "dense_similarity": 0.5780739784240723,
-          "sparse_similarity": 0.06596033275127411,
-          "hybrid_score": 0.3220171630382538
-        },
-        {
-          "id": "isHistorical_014236",
-          "document": "cách đây 80 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5745270848274231,
-          "sparse_similarity": 0.06784418970346451,
-          "hybrid_score": 0.3211856484413147
-        }
-      ]
+    "assertion_position": [
+      1850,
+      1857
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Với ntg [ENTITY] cải thiện nhưng đau ngực vẫn còn."
   },
   {
     "text": "đau ngực",
@@ -1891,46 +487,11 @@
       1937,
       1945
     ],
-    "sentence": "Đánh giá tại bệnh viện\nCác thủ thuật đã thực hiện\n- Nhận 2 sl ntg\n- Nhận asa\n- Nhận 80mg lasix iv\n- Nhận 8mg morphine\n- Nhận 1mg dilaudid\n- Được cho po metoprolol\n- Được cho 10mg iv diltiazem\nCác phát hiện chẩn đoán khác\n- Với ntg khó thở cải thiện nhưng đau ngực vẫn còn\n- Với ntg khó thở cải thiện nhưng [ENTITY] vẫn còn\n- nhịp tim cải thiện thành",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_014254",
-          "document": "cách đây 80 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.5929742455482483,
-          "sparse_similarity": 0.08022331446409225,
-          "hybrid_score": 0.33659878373146057
-        },
-        {
-          "id": "isHistorical_033757",
-          "document": "đã 80 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.5827330946922302,
-          "sparse_similarity": 0.087725430727005,
-          "hybrid_score": 0.3352292776107788
-        },
-        {
-          "id": "isHistorical_014236",
-          "document": "cách đây 80 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5856304168701172,
-          "sparse_similarity": 0.08151037245988846,
-          "hybrid_score": 0.3335703909397125
-        }
-      ]
+    "assertion_position": [
+      1874,
+      1882
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Với ntg khó thở cải thiện nhưng [ENTITY] vẫn còn."
   },
   {
     "text": "nhịp",
@@ -1939,45 +500,10 @@
       1956,
       1960
     ],
-    "sentence": "Đánh giá tại bệnh viện\nCác thủ thuật đã thực hiện\n- Nhận 2 sl ntg\n- Nhận asa\n- Nhận 80mg lasix iv\n- Nhận 8mg morphine\n- Nhận 1mg dilaudid\n- Được cho po metoprolol\n- Được cho 10mg iv diltiazem\nCác phát hiện chẩn đoán khác\n- Với ntg khó thở cải thiện nhưng đau ngực vẫn còn\n- Với ntg khó thở cải thiện nhưng đau ngực vẫn còn\n- [ENTITY] tim cải thiện thành",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_014254",
-          "document": "cách đây 80 tuần được điều trị [ENTITY].",
-          "dense_similarity": 0.591001033782959,
-          "sparse_similarity": 0.07850304991006851,
-          "hybrid_score": 0.33475205302238464
-        },
-        {
-          "id": "isHistorical_003840",
-          "document": "80 tuần trước được điều trị [ENTITY].",
-          "dense_similarity": 0.586441695690155,
-          "sparse_similarity": 0.07724912464618683,
-          "hybrid_score": 0.33184540271759033
-        },
-        {
-          "id": "isHistorical_014236",
-          "document": "cách đây 80 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.5829991102218628,
-          "sparse_similarity": 0.07976333796977997,
-          "hybrid_score": 0.331381231546402
-        }
-      ]
+    "assertion_position": [
+      1892,
+      1896
     ],
-    "eng_translation": [
-      "Heart rate",
-      "Pulse rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] tim cải thiện thành."
   }
 ]

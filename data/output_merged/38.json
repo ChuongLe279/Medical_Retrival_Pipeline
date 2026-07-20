@@ -6,62 +6,11 @@
       48,
       68
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY]\n    - bệnh tim mạch do xơ vữa động mạch đặt stent\n    - Suy tim dãn tâm thu giữ nguyên trương lực\n    Tiền sử phẫu thuật / thủ thuật: đặt stent\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.642125129699707,
-          "sparse_similarity": 0.16911184787750244,
-          "hybrid_score": 0.40561848878860474
-        },
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.6499319076538086,
-          "sparse_similarity": 0.1567753404378891,
-          "hybrid_score": 0.40335363149642944
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6288884878158569,
-          "sparse_similarity": 0.17329788208007812,
-          "hybrid_score": 0.40109318494796753
-        }
-      ]
+    "assertion_position": [
+      36,
+      56
     ],
-    "eng_translation": [
-      "Type 2 diabetes mellitus",
-      "Diabetes mellitus type 2"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.844191,
-        "E119": 0.736971,
-        "E118": 0.725221,
-        "O24119": 0.724895,
-        "Z833": 0.724102
-      },
-      "rapidfuzz": {
-        "O24111": 0.9,
-        "O24112": 0.9,
-        "E1169": 0.9,
-        "S72362Q": 0.855,
-        "S72361M": 0.855,
-        "S72361N": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.759772
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "bệnh tim mạch",
@@ -70,62 +19,11 @@
       75,
       88
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Đái tháo đường típ 2\n    - [ENTITY] do xơ vữa động mạch đặt stent\n    - Suy tim dãn tâm thu giữ nguyên trương lực\n    Tiền sử phẫu thuật / thủ thuật: đặt stent\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6305113434791565,
-          "sparse_similarity": 0.1707558035850525,
-          "hybrid_score": 0.4006335735321045
-        },
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.6338940262794495,
-          "sparse_similarity": 0.15865746140480042,
-          "hybrid_score": 0.39627575874328613
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6108717322349548,
-          "sparse_similarity": 0.17429596185684204,
-          "hybrid_score": 0.39258384704589844
-        }
-      ]
+    "assertion_position": [
+      58,
+      71
     ],
-    "eng_translation": [
-      "cardiovascular disease",
-      "Cardiac disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I519": 0.955106,
-        "I5189": 0.746198,
-        "I429": 0.718682,
-        "I099": 0.705557,
-        "I679": 0.694969
-      },
-      "rapidfuzz": {
-        "C946": 0.855,
-        "I289": 0.855,
-        "I279": 0.855,
-        "R011": 0.855,
-        "T82120D": 0.855,
-        "T82129A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I519",
-      "confidence": 0.859595
-    }
+    "sentence": "[ENTITY] do xơ vữa động mạch đặt stent."
   },
   {
     "text": "xơ vữa động mạch",
@@ -134,62 +32,11 @@
       92,
       108
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Đái tháo đường típ 2\n    - bệnh tim mạch do [ENTITY] đặt stent\n    - Suy tim dãn tâm thu giữ nguyên trương lực\n    Tiền sử phẫu thuật / thủ thuật: đặt stent\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6273388862609863,
-          "sparse_similarity": 0.1599229872226715,
-          "hybrid_score": 0.3936309218406677
-        },
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.632282555103302,
-          "sparse_similarity": 0.14795975387096405,
-          "hybrid_score": 0.3901211619377136
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6091606020927429,
-          "sparse_similarity": 0.16426250338554382,
-          "hybrid_score": 0.3867115378379822
-        }
-      ]
+    "assertion_position": [
+      75,
+      91
     ],
-    "eng_translation": [
-      "Atherosclerosis",
-      "Arteriosclerosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I7090": 0.960917,
-        "I7091": 0.846441,
-        "I700": 0.836473,
-        "I672": 0.751668,
-        "I708": 0.727376
-      },
-      "rapidfuzz": {
-        "I70743": 0.9,
-        "I70291": 0.9,
-        "I70269": 0.9,
-        "I7090": 0.812903,
-        "I7091": 0.812903,
-        "I70735": 0.812903
-      }
-    },
-    "candidate": {
-      "code": "I7090",
-      "confidence": 0.946116
-    }
+    "sentence": "bệnh tim mạch do [ENTITY] đặt stent."
   },
   {
     "text": "Suy tim dãn tâm thu",
@@ -198,62 +45,11 @@
       125,
       144
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - Đái tháo đường típ 2\n    - bệnh tim mạch do xơ vữa động mạch đặt stent\n    - [ENTITY] giữ nguyên trương lực\n    Tiền sử phẫu thuật / thủ thuật: đặt stent\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6304675936698914,
-          "sparse_similarity": 0.1646762192249298,
-          "hybrid_score": 0.3975719213485718
-        },
-        {
-          "id": "isFamily_007461",
-          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
-          "dense_similarity": 0.6335173845291138,
-          "sparse_similarity": 0.15307053923606873,
-          "hybrid_score": 0.39329397678375244
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6097707152366638,
-          "sparse_similarity": 0.1674804836511612,
-          "hybrid_score": 0.3886255919933319
-        }
-      ]
+    "assertion_position": [
+      103,
+      122
     ],
-    "eng_translation": [
-      "Heart failure with systolic dysfunction",
-      "Heart failure with reduced ejection fraction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I5020": 0.909759,
-        "I5022": 0.863848,
-        "I5040": 0.813367,
-        "I5021": 0.804787,
-        "I509": 0.790721
-      },
-      "rapidfuzz": {
-        "S92199G": 0.855,
-        "Q875": 0.855,
-        "S62315D": 0.855,
-        "S31802A": 0.855,
-        "S31802D": 0.855,
-        "S72365G": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I5020",
-      "confidence": 0.818783
-    }
+    "sentence": "[ENTITY] giữ nguyên trương lực."
   },
   {
     "text": "đau họng",
@@ -262,46 +58,11 @@
       261,
       269
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY]\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo nuốt vướng\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc ho\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6160972118377686,
-          "sparse_similarity": 0.14346912503242493,
-          "hybrid_score": 0.37978315353393555
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6148046851158142,
-          "sparse_similarity": 0.14090976119041443,
-          "hybrid_score": 0.3778572082519531
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6102114915847778,
-          "sparse_similarity": 0.1427832841873169,
-          "hybrid_score": 0.37649738788604736
-        }
-      ]
+    "assertion_position": [
+      229,
+      237
     ],
-    "eng_translation": [
-      "Sore throat",
-      "Pharyngitis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY]."
   },
   {
     "text": "đau họng",
@@ -310,46 +71,11 @@
       369,
       377
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - [ENTITY] kèm theo nuốt vướng\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc ho\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "5 ngày trước khi nhập viện các triệu chứng hiện tại - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6154898405075073,
-          "sparse_similarity": 0.15287381410598755,
-          "hybrid_score": 0.38418182730674744
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6144445538520813,
-          "sparse_similarity": 0.15168091654777527,
-          "hybrid_score": 0.3830627202987671
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6249192357063293,
-          "sparse_similarity": 0.13660019636154175,
-          "hybrid_score": 0.38075971603393555
-        }
-      ]
+    "assertion_position": [
+      326,
+      334
     ],
-    "eng_translation": [
-      "Sore throat",
-      "Pharyngitis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] kèm theo nuốt vướng."
   },
   {
     "text": "nuốt vướng",
@@ -358,46 +84,11 @@
       387,
       397
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo [ENTITY]\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc ho\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6146472692489624,
-          "sparse_similarity": 0.16107656061649323,
-          "hybrid_score": 0.3878619074821472
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6085191369056702,
-          "sparse_similarity": 0.16427388787269592,
-          "hybrid_score": 0.38639652729034424
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6131365895271301,
-          "sparse_similarity": 0.15785714983940125,
-          "hybrid_score": 0.3854968547821045
-        }
-      ]
+    "assertion_position": [
+      344,
+      354
     ],
-    "eng_translation": [
-      "dysphagia",
-      "Difficulty swallowing"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "đau họng kèm theo [ENTITY]."
   },
   {
     "text": "buồn nôn",
@@ -406,46 +97,11 @@
       404,
       412
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo nuốt vướng\n    - [ENTITY]\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc ho\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6064856648445129,
-          "sparse_similarity": 0.14145347476005554,
-          "hybrid_score": 0.37396955490112305
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6059322953224182,
-          "sparse_similarity": 0.13932396471500397,
-          "hybrid_score": 0.3726281225681305
-        },
-        {
-          "id": "isHistorical_001150",
-          "document": "3 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6171053647994995,
-          "sparse_similarity": 0.12328755855560303,
-          "hybrid_score": 0.37019646167755127
-        }
-      ]
+    "assertion_position": [
+      356,
+      364
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "nuốt vướng",
@@ -454,46 +110,11 @@
       530,
       540
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo nuốt vướng\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: [ENTITY]\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc ho\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6146600246429443,
-          "sparse_similarity": 0.15516529977321625,
-          "hybrid_score": 0.3849126696586609
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6088792085647583,
-          "sparse_similarity": 0.15536800026893616,
-          "hybrid_score": 0.38212358951568604
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6128076910972595,
-          "sparse_similarity": 0.1512390822172165,
-          "hybrid_score": 0.3820233941078186
-        }
-      ]
+    "assertion_position": [
+      464,
+      474
     ],
-    "eng_translation": [
-      "dysphagia",
-      "Difficulty swallowing"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Yếu tố làm nặng thêm: [ENTITY]."
   },
   {
     "text": "buồn nôn",
@@ -502,46 +123,11 @@
       610,
       618
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo nuốt vướng\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: [ENTITY], tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc ho\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6427682638168335,
-          "sparse_similarity": 0.17399254441261292,
-          "hybrid_score": 0.408380389213562
-        },
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6392985582351685,
-          "sparse_similarity": 0.17426660656929016,
-          "hybrid_score": 0.4067825675010681
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6342762112617493,
-          "sparse_similarity": 0.1760067194700241,
-          "hybrid_score": 0.4051414728164673
-        }
-      ]
+    "assertion_position": [
+      534,
+      542
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: [ENTITY], tăng tăng cân 3 pound trong 7 ngày qua."
   },
   {
     "text": "cân",
@@ -550,46 +136,11 @@
       630,
       633
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo nuốt vướng\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng [ENTITY] 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc ho\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6113117337226868,
-          "sparse_similarity": 0.14637792110443115,
-          "hybrid_score": 0.37884482741355896
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6093365550041199,
-          "sparse_similarity": 0.14368493854999542,
-          "hybrid_score": 0.37651073932647705
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6058249473571777,
-          "sparse_similarity": 0.14550411701202393,
-          "hybrid_score": 0.37566453218460083
-        }
-      ]
+    "assertion_position": [
+      554,
+      557
     ],
-    "eng_translation": [
-      "weight",
-      "body mass"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: buồn nôn, tăng tăng [ENTITY] 3 pound trong 7 ngày qua."
   },
   {
     "text": "khó thở",
@@ -598,46 +149,11 @@
       760,
       767
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo nuốt vướng\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có [ENTITY] hoặc ho\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không có [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6120666265487671,
-          "sparse_similarity": 0.13704310357570648,
-          "hybrid_score": 0.3745548725128174
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.606941282749176,
-          "sparse_similarity": 0.13767139613628387,
-          "hybrid_score": 0.37230634689331055
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6099311709403992,
-          "sparse_similarity": 0.13355091214179993,
-          "hybrid_score": 0.37174105644226074
-        }
-      ]
+    "assertion_position": [
+      671,
+      678
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có [ENTITY] hoặc ho."
   },
   {
     "text": "ho",
@@ -646,48 +162,11 @@
       773,
       775
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo nuốt vướng\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc [ENTITY]\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6118563413619995,
-          "sparse_similarity": 0.14227795600891113,
-          "hybrid_score": 0.3770671486854553
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6069691181182861,
-          "sparse_similarity": 0.14688751101493835,
-          "hybrid_score": 0.37692832946777344
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6094620823860168,
-          "sparse_similarity": 0.13906055688858032,
-          "hybrid_score": 0.3742613196372986
-        }
-      ]
+    "assertion_position": [
+      679,
+      681
     ],
-    "eng_translation": [
-      "Ho",
-      "Hoarseness",
-      "H/o",
-      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có khó thở [ENTITY]ặc ho."
   },
   {
     "text": "đường huyết",
@@ -696,46 +175,11 @@
       796,
       807
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo nuốt vướng\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc ho\n    - Chưa kiểm tra [ENTITY]\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6071499586105347,
-          "sparse_similarity": 0.13345088064670563,
-          "hybrid_score": 0.37030041217803955
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6015966534614563,
-          "sparse_similarity": 0.13666261732578278,
-          "hybrid_score": 0.36912962794303894
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6046260595321655,
-          "sparse_similarity": 0.13049748539924622,
-          "hybrid_score": 0.3675617575645447
-        }
-      ]
+    "assertion_position": [
+      702,
+      713
     ],
-    "eng_translation": [
-      "blood glucose",
-      "serum glucose"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Chưa kiểm tra [ENTITY]."
   },
   {
     "text": "đau họng",
@@ -744,46 +188,11 @@
       864,
       872
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo nuốt vướng\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc ho\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo [ENTITY], nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6306900382041931,
-          "sparse_similarity": 0.16347694396972656,
-          "hybrid_score": 0.39708349108695984
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6315175890922546,
-          "sparse_similarity": 0.16264081001281738,
-          "hybrid_score": 0.397079199552536
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6256388425827026,
-          "sparse_similarity": 0.16404452919960022,
-          "hybrid_score": 0.39484167098999023
-        }
-      ]
+    "assertion_position": [
+      765,
+      773
     ],
-    "eng_translation": [
-      "Sore throat",
-      "Pharyngitis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo [ENTITY], nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu."
   },
   {
     "text": "viêm họng",
@@ -792,62 +201,11 @@
       915,
       924
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau họng\n    Thời điểm khởi phát triệu chứng: 5 ngày trước khi nhập viện\n    Các triệu chứng hiện tại\n    - đau họng kèm theo nuốt vướng\n    - buồn nôn\n    - Tăng tăng cân 3 pound trong 7 ngày qua\n    Đặc điểm triệu chứng\n    - Vị trí: họng\n    - Yếu tố làm nặng thêm: nuốt vướng\n    - Yếu tố làm giảm: đồ uống lạnh\n    - Các triệu chứng liên quan: buồn nôn, tăng tăng cân 3 pound trong 7 ngày qua\n    Các sự kiện trước khi nhập viện\n    - Tự đo từ temperate đến tmax 102 sốt tại nhà\n    - Không có khó thở hoặc ho\n    - Chưa kiểm tra đường huyết\n    - Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với [ENTITY] do liên cầu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6388090252876282,
-          "sparse_similarity": 0.16688154637813568,
-          "hybrid_score": 0.4028452932834625
-        },
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6402378082275391,
-          "sparse_similarity": 0.1647637039422989,
-          "hybrid_score": 0.4025007486343384
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6337987780570984,
-          "sparse_similarity": 0.1708638072013855,
-          "hybrid_score": 0.40233129262924194
-        }
-      ]
+    "assertion_position": [
+      816,
+      825
     ],
-    "eng_translation": [
-      "Pharyngitis",
-      "Tonsillitis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J029": 0.813456,
-        "J0390": 0.808577,
-        "R070": 0.75023,
-        "J3501": 0.748886,
-        "J0391": 0.692835
-      },
-      "rapidfuzz": {
-        "B085": 0.9,
-        "A5003": 0.9,
-        "J020": 0.9,
-        "J0301": 0.9,
-        "J0380": 0.9,
-        "J0381": 0.9
-      }
-    },
-    "candidate": {
-      "code": "J029",
-      "confidence": 0.73211
-    }
+    "sentence": "Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với [ENTITY] do liên cầu."
   },
   {
     "text": "glucose",
@@ -856,46 +214,11 @@
       994,
       1001
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - [ENTITY] 537\n    - glucose cải thiện thành 367\n    - bun (ure) 3\n    - cr (creatinine) 1.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000029",
-          "document": "[ENTITY] cần làm thêm xét nghiệm.",
-          "dense_similarity": 0.5941879749298096,
-          "sparse_similarity": 0.18663017451763153,
-          "hybrid_score": 0.39040908217430115
-        },
-        {
-          "id": "isHistorical_001121",
-          "document": "3 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6065701246261597,
-          "sparse_similarity": 0.09096550196409225,
-          "hybrid_score": 0.34876781702041626
-        },
-        {
-          "id": "isHistorical_032394",
-          "document": "đã 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6034971475601196,
-          "sparse_similarity": 0.09063626825809479,
-          "hybrid_score": 0.3470667004585266
-        }
-      ]
+    "assertion_position": [
+      883,
+      890
     ],
-    "eng_translation": [
-      "Glucose",
-      "Blood sugar"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 537."
   },
   {
     "text": "537",
@@ -904,45 +227,11 @@
       1002,
       1005
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - glucose [ENTITY]\n    - glucose cải thiện thành 367\n    - bun (ure) 3\n    - cr (creatinine) 1.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001121",
-          "document": "3 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6242654919624329,
-          "sparse_similarity": 0.10141332447528839,
-          "hybrid_score": 0.36283940076828003
-        },
-        {
-          "id": "isHistorical_032394",
-          "document": "đã 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6195951104164124,
-          "sparse_similarity": 0.1005825623869896,
-          "hybrid_score": 0.3600888252258301
-        },
-        {
-          "id": "isHistorical_020229",
-          "document": "khoảng 3 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6212252974510193,
-          "sparse_similarity": 0.09493675082921982,
-          "hybrid_score": 0.35808101296424866
-        }
-      ]
+    "assertion_position": [
+      891,
+      894
     ],
-    "eng_translation": [
-      "537"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "glucose [ENTITY]."
   },
   {
     "text": "glucose",
@@ -951,46 +240,11 @@
       1012,
       1019
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - glucose 537\n    - [ENTITY] cải thiện thành 367\n    - bun (ure) 3\n    - cr (creatinine) 1.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000029",
-          "document": "[ENTITY] cần làm thêm xét nghiệm.",
-          "dense_similarity": 0.5998855233192444,
-          "sparse_similarity": 0.1918196827173233,
-          "hybrid_score": 0.39585259556770325
-        },
-        {
-          "id": "isHistorical_001121",
-          "document": "3 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6090167164802551,
-          "sparse_similarity": 0.09616775065660477,
-          "hybrid_score": 0.35259222984313965
-        },
-        {
-          "id": "isHistorical_032394",
-          "document": "đã 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6033416986465454,
-          "sparse_similarity": 0.09553375840187073,
-          "hybrid_score": 0.3494377136230469
-        }
-      ]
+    "assertion_position": [
+      896,
+      903
     ],
-    "eng_translation": [
-      "Glucose",
-      "Blood sugar"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] cải thiện thành 367."
   },
   {
     "text": "bun (ure)",
@@ -999,47 +253,11 @@
       1046,
       1055
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - glucose 537\n    - glucose cải thiện thành 367\n    - [ENTITY] 3\n    - cr (creatinine) 1.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000029",
-          "document": "[ENTITY] cần làm thêm xét nghiệm.",
-          "dense_similarity": 0.5973336100578308,
-          "sparse_similarity": 0.1740502417087555,
-          "hybrid_score": 0.38569194078445435
-        },
-        {
-          "id": "isHistorical_001121",
-          "document": "3 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6007657051086426,
-          "sparse_similarity": 0.08741458505392075,
-          "hybrid_score": 0.34409013390541077
-        },
-        {
-          "id": "isHistorical_020229",
-          "document": "khoảng 3 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6008758544921875,
-          "sparse_similarity": 0.08228211104869843,
-          "hybrid_score": 0.34157899022102356
-        }
-      ]
+    "assertion_position": [
+      925,
+      934
     ],
-    "eng_translation": [
-      "BUN (urea)",
-      "Blood Urea Nitrogen (BUN)",
-      "Blood Urea Nitrogen (urea)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 3."
   },
   {
     "text": "3",
@@ -1048,45 +266,11 @@
       1056,
       1057
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - glucose 537\n    - glucose cải thiện thành 367\n    - bun (ure) [ENTITY]\n    - cr (creatinine) 1.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000029",
-          "document": "[ENTITY] cần làm thêm xét nghiệm.",
-          "dense_similarity": 0.5929253697395325,
-          "sparse_similarity": 0.1811007857322693,
-          "hybrid_score": 0.3870130777359009
-        },
-        {
-          "id": "isUncertain_000108",
-          "document": "cần làm thêm xét nghiệm xác định [ENTITY].",
-          "dense_similarity": 0.5829052925109863,
-          "sparse_similarity": 0.16422390937805176,
-          "hybrid_score": 0.37356460094451904
-        },
-        {
-          "id": "isFamily_003351",
-          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5845239758491516,
-          "sparse_similarity": 0.06555743515491486,
-          "hybrid_score": 0.32504069805145264
-        }
-      ]
+    "assertion_position": [
+      935,
+      936
     ],
-    "eng_translation": [
-      "3"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "bun (ure) [ENTITY]."
   },
   {
     "text": "creatinine",
@@ -1095,45 +279,10 @@
       1068,
       1078
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm\n    - glucose 537\n    - glucose cải thiện thành 367\n    - bun (ure) 3\n    - cr ([ENTITY]) 1.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000029",
-          "document": "[ENTITY] cần làm thêm xét nghiệm.",
-          "dense_similarity": 0.5874755382537842,
-          "sparse_similarity": 0.19168192148208618,
-          "hybrid_score": 0.3895787298679352
-        },
-        {
-          "id": "isHistorical_001121",
-          "document": "3 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5825158953666687,
-          "sparse_similarity": 0.0934615358710289,
-          "hybrid_score": 0.3379887044429779
-        },
-        {
-          "id": "isHistorical_032394",
-          "document": "đã 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5800250768661499,
-          "sparse_similarity": 0.09320878982543945,
-          "hybrid_score": 0.3366169333457947
-        }
-      ]
+    "assertion_position": [
+      942,
+      952
     ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "cr ([ENTITY]) 1."
   }
 ]

@@ -6,62 +6,11 @@
       183,
       200
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Tiền sử phẫu thuật / thủ thuật\n    - cắt bỏ ống dẫn mật chủ\n    - cắt bỏ phân đoạn bên trái gan\n    - Đã phẫu thuật nối ống gan - hỗng tràng vì nghi ngờ [ENTITY] không thể cắt bỏ\n    - Đã can thiệp chụp đường mật, đặt 3 stent đường mật lưu dài hạn\n\n2.",
-    "assertion_result": {
-      "tag": "isUncertain",
-      "confidence": 1.0,
-      "evidence": "nghi ngờ [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6281362175941467,
-          "sparse_similarity": 0.16929727792739868,
-          "hybrid_score": 0.3987167477607727
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6222329139709473,
-          "sparse_similarity": 0.1728949248790741,
-          "hybrid_score": 0.3975639343261719
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6495589017868042,
-          "sparse_similarity": 0.116480752825737,
-          "hybrid_score": 0.3830198347568512
-        }
-      ]
+    "assertion_position": [
+      161,
+      178
     ],
-    "eng_translation": [
-      "Biliary tract cancer",
-      "Cholangiocarcinoma"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C249": 0.925549,
-        "C221": 0.718005,
-        "K839": 0.694515,
-        "C23": 0.671658,
-        "C240": 0.629181
-      },
-      "rapidfuzz": {
-        "N99532": 0.855,
-        "P001": 0.855,
-        "P393": 0.855,
-        "R430": 0.654545,
-        "A665": 0.642857,
-        "L711": 0.635294
-      }
-    },
-    "candidate": {
-      "code": "C249",
-      "confidence": 0.832994
-    }
+    "sentence": "Đã phẫu thuật nối ống gan - hỗng tràng vì nghi ngờ [ENTITY] không thể cắt bỏ."
   },
   {
     "text": "run rẩy",
@@ -70,46 +19,11 @@
       401,
       408
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: Đêm trước khi nhập viện\n    Triệu chứng hiện tại: [ENTITY] kèm sốt kèm theo sốt\n    Các sự kiện trước khi nhập viện\n    - Gần đây nhập viện vì sốt và các ổ dịch trong ổ bụng được cho là áp xe\n    - Điều trị bằng kháng sinh tĩnh mạch trong thời gian nằm viện\n    - Ra viện với đơn Augmentin đường uống trong 10 ngày \n    - Tình trạng ổn định ở nhà cho đến đêm trước khi nhập viện\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6748927235603333,
-          "sparse_similarity": 0.19795146584510803,
-          "hybrid_score": 0.43642210960388184
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6752986311912537,
-          "sparse_similarity": 0.19212821125984192,
-          "hybrid_score": 0.433713436126709
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6551482677459717,
-          "sparse_similarity": 0.20920589566230774,
-          "hybrid_score": 0.4321770668029785
-        }
-      ]
+    "assertion_position": [
+      364,
+      371
     ],
-    "eng_translation": [
-      "Run rẩy",
-      "Rash"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng hiện tại: [ENTITY] kèm sốt kèm theo sốt."
   },
   {
     "text": "sốt",
@@ -118,46 +32,11 @@
       413,
       416
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: Đêm trước khi nhập viện\n    Triệu chứng hiện tại: run rẩy kèm [ENTITY] kèm theo sốt\n    Các sự kiện trước khi nhập viện\n    - Gần đây nhập viện vì sốt và các ổ dịch trong ổ bụng được cho là áp xe\n    - Điều trị bằng kháng sinh tĩnh mạch trong thời gian nằm viện\n    - Ra viện với đơn Augmentin đường uống trong 10 ngày \n    - Tình trạng ổn định ở nhà cho đến đêm trước khi nhập viện\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6579617261886597,
-          "sparse_similarity": 0.1844615936279297,
-          "hybrid_score": 0.4212116599082947
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6588858366012573,
-          "sparse_similarity": 0.17857412993907928,
-          "hybrid_score": 0.4187299907207489
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.645128607749939,
-          "sparse_similarity": 0.1904516965150833,
-          "hybrid_score": 0.41779014468193054
-        }
-      ]
+    "assertion_position": [
+      376,
+      379
     ],
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng hiện tại: run rẩy kèm [ENTITY] kèm theo sốt."
   },
   {
     "text": "sốt",
@@ -166,46 +45,11 @@
       426,
       429
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: Đêm trước khi nhập viện\n    Triệu chứng hiện tại: run rẩy kèm sốt kèm theo [ENTITY]\n    Các sự kiện trước khi nhập viện\n    - Gần đây nhập viện vì sốt và các ổ dịch trong ổ bụng được cho là áp xe\n    - Điều trị bằng kháng sinh tĩnh mạch trong thời gian nằm viện\n    - Ra viện với đơn Augmentin đường uống trong 10 ngày \n    - Tình trạng ổn định ở nhà cho đến đêm trước khi nhập viện\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6332033276557922,
-          "sparse_similarity": 0.17958888411521912,
-          "hybrid_score": 0.4063960909843445
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6358239650726318,
-          "sparse_similarity": 0.17166393995285034,
-          "hybrid_score": 0.4037439525127411
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6190342903137207,
-          "sparse_similarity": 0.18700377643108368,
-          "hybrid_score": 0.4030190408229828
-        }
-      ]
+    "assertion_position": [
+      389,
+      392
     ],
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng hiện tại: run rẩy kèm sốt kèm theo [ENTITY]."
   },
   {
     "text": "sốt",
@@ -214,46 +58,11 @@
       493,
       496
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: Đêm trước khi nhập viện\n    Triệu chứng hiện tại: run rẩy kèm sốt kèm theo sốt\n    Các sự kiện trước khi nhập viện\n    - Gần đây nhập viện vì [ENTITY] và các ổ dịch trong ổ bụng được cho là áp xe\n    - Điều trị bằng kháng sinh tĩnh mạch trong thời gian nằm viện\n    - Ra viện với đơn Augmentin đường uống trong 10 ngày \n    - Tình trạng ổn định ở nhà cho đến đêm trước khi nhập viện\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6633985042572021,
-          "sparse_similarity": 0.18414129316806793,
-          "hybrid_score": 0.42376989126205444
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6512260437011719,
-          "sparse_similarity": 0.1942356675863266,
-          "hybrid_score": 0.42273086309432983
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.665739893913269,
-          "sparse_similarity": 0.17872704565525055,
-          "hybrid_score": 0.4222334623336792
-        }
-      ]
+    "assertion_position": [
+      448,
+      451
     ],
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Gần đây nhập viện vì [ENTITY] và các ổ dịch trong ổ bụng được cho là áp xe."
   },
   {
     "text": "áp xe",
@@ -262,62 +71,11 @@
       536,
       541
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: Đêm trước khi nhập viện\n    Triệu chứng hiện tại: run rẩy kèm sốt kèm theo sốt\n    Các sự kiện trước khi nhập viện\n    - Gần đây nhập viện vì sốt và các ổ dịch trong ổ bụng được cho là [ENTITY]\n    - Điều trị bằng kháng sinh tĩnh mạch trong thời gian nằm viện\n    - Ra viện với đơn Augmentin đường uống trong 10 ngày \n    - Tình trạng ổn định ở nhà cho đến đêm trước khi nhập viện\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6339283585548401,
-          "sparse_similarity": 0.17629924416542053,
-          "hybrid_score": 0.4051138162612915
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6182134747505188,
-          "sparse_similarity": 0.1855611801147461,
-          "hybrid_score": 0.40188732743263245
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6344486474990845,
-          "sparse_similarity": 0.1691708266735077,
-          "hybrid_score": 0.4018097519874573
-        }
-      ]
+    "assertion_position": [
+      491,
+      496
     ],
-    "eng_translation": [
-      "Abscess",
-      "Infected Cyst"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K614": 0.728806,
-        "L0291": 0.721136,
-        "N611": 0.66341,
-        "K6131": 0.655814,
-        "K630": 0.645236
-      },
-      "rapidfuzz": {
-        "A066": 0.9,
-        "A065": 0.9,
-        "L02612": 0.9,
-        "L0501": 0.855,
-        "L0591": 0.855,
-        "M85641": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K614",
-      "confidence": 0.655925
-    }
+    "sentence": "Gần đây nhập viện vì sốt và các ổ dịch trong ổ bụng được cho là [ENTITY]."
   },
   {
     "text": "Augmentin",
@@ -326,66 +84,11 @@
       630,
       639
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Thời điểm khởi phát triệu chứng: Đêm trước khi nhập viện\n    Triệu chứng hiện tại: run rẩy kèm sốt kèm theo sốt\n    Các sự kiện trước khi nhập viện\n    - Gần đây nhập viện vì sốt và các ổ dịch trong ổ bụng được cho là áp xe\n    - Điều trị bằng kháng sinh tĩnh mạch trong thời gian nằm viện\n    - Ra viện với đơn [ENTITY] đường uống trong 10 ngày \n    - Tình trạng ổn định ở nhà cho đến đêm trước khi nhập viện\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6327968239784241,
-          "sparse_similarity": 0.17922931909561157,
-          "hybrid_score": 0.4060130715370178
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6344757676124573,
-          "sparse_similarity": 0.17170090973377228,
-          "hybrid_score": 0.4030883312225342
-        },
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6155378222465515,
-          "sparse_similarity": 0.18690863251686096,
-          "hybrid_score": 0.40122324228286743
-        }
-      ]
+    "assertion_position": [
+      575,
+      584
     ],
-    "eng_translation": [
-      "Augmentin",
-      "Amoxicillin-Clavulanate",
-      "Amoxicillin and Clavulanate Potassium"
-    ],
-    "retriever": {
-      "sapbert": {
-        "151392": 1.0,
-        "19711": 1.0,
-        "353427": 0.914316,
-        "994199": 0.895252,
-        "2056253": 0.789826
-      },
-      "rapidfuzz": {
-        "151392": 1.0,
-        "19711": 1.0,
-        "1152875": 0.95,
-        "824190": 0.9,
-        "824192": 0.9,
-        "2697445": 0.9,
-        "48203": 0.9,
-        "831418": 0.9,
-        "8588": 0.9
-      }
-    },
-    "candidate": {
-      "code": "19711",
-      "confidence": 1.0
-    }
+    "sentence": "Ra viện với đơn [ENTITY] đường uống trong 10 ngày."
   },
   {
     "text": "chụp cộng hưởng từ",
@@ -394,45 +97,10 @@
       804,
       822
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chụp chẩn đoán hình ảnh\n    - mrcp ([ENTITY] mật tụy) cho thấy nhiều nang tụy nhỏ\n    - ba stent mật kim loại đã được đặt\n    - một ổ dịch sau phẫu thuật giảm kích thước so với lần chụp chẩn đoán hình ảnh  trước",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023887",
-          "document": "phía bên nội ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5815192461013794,
-          "sparse_similarity": 0.11059784889221191,
-          "hybrid_score": 0.34605854749679565
-        },
-        {
-          "id": "isFamily_010060",
-          "document": "chú được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5949767827987671,
-          "sparse_similarity": 0.09297531843185425,
-          "hybrid_score": 0.34397605061531067
-        },
-        {
-          "id": "isFamily_003351",
-          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5801390409469604,
-          "sparse_similarity": 0.10267112404108047,
-          "hybrid_score": 0.34140509366989136
-        }
-      ]
+    "assertion_position": [
+      732,
+      750
     ],
-    "eng_translation": [
-      "MRI",
-      "Magnetic Resonance Imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "mrcp ([ENTITY] mật tụy) cho thấy nhiều nang tụy nhỏ."
   }
 ]

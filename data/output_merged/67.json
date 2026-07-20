@@ -6,46 +6,11 @@
       156,
       177
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: FNA của một nốt sần tuyến giáp phải có cấu trúc vi nang\n    Triệu chứng hiện tại: [ENTITY]\n    Các sự kiện trước khi nhập viện\n    - siêu âm cho thấy sỏi mật\n    - Đề nghị cắt túi mật nội soi cùng lúc với phẫu thuật cắt bỏ tuyến giáp toàn bộ\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5680249929428101,
-          "sparse_similarity": 0.164688378572464,
-          "hybrid_score": 0.36635667085647583
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5670682787895203,
-          "sparse_similarity": 0.1614939272403717,
-          "hybrid_score": 0.3642811179161072
-        },
-        {
-          "id": "isHistorical_021170",
-          "document": "khoảng 65 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5573027729988098,
-          "sparse_similarity": 0.1573689579963684,
-          "hybrid_score": 0.3573358654975891
-        }
-      ]
+    "assertion_position": [
+      142,
+      163
     ],
-    "eng_translation": [
-      "right hypochondriac pain",
-      "right upper quadrant pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng hiện tại: [ENTITY]."
   },
   {
     "text": "siêu âm",
@@ -54,46 +19,11 @@
       220,
       227
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: FNA của một nốt sần tuyến giáp phải có cấu trúc vi nang\n    Triệu chứng hiện tại: đau vùng hạ sườn phải\n    Các sự kiện trước khi nhập viện\n    - [ENTITY] cho thấy sỏi mật\n    - Đề nghị cắt túi mật nội soi cùng lúc với phẫu thuật cắt bỏ tuyến giáp toàn bộ\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5939630270004272,
-          "sparse_similarity": 0.1301565170288086,
-          "hybrid_score": 0.3620597720146179
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5950685143470764,
-          "sparse_similarity": 0.12790675461292267,
-          "hybrid_score": 0.36148762702941895
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5864626169204712,
-          "sparse_similarity": 0.1157376766204834,
-          "hybrid_score": 0.3511001467704773
-        }
-      ]
+    "assertion_position": [
+      198,
+      205
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] cho thấy sỏi mật."
   },
   {
     "text": "sỏi mật",
@@ -102,62 +32,11 @@
       237,
       244
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: FNA của một nốt sần tuyến giáp phải có cấu trúc vi nang\n    Triệu chứng hiện tại: đau vùng hạ sườn phải\n    Các sự kiện trước khi nhập viện\n    - siêu âm cho thấy [ENTITY]\n    - Đề nghị cắt túi mật nội soi cùng lúc với phẫu thuật cắt bỏ tuyến giáp toàn bộ\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5736347436904907,
-          "sparse_similarity": 0.12254098057746887,
-          "hybrid_score": 0.3480878472328186
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5751110315322876,
-          "sparse_similarity": 0.12102542817592621,
-          "hybrid_score": 0.3480682373046875
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.566215991973877,
-          "sparse_similarity": 0.10583659261465073,
-          "hybrid_score": 0.33602628111839294
-        }
-      ]
+    "assertion_position": [
+      215,
+      222
     ],
-    "eng_translation": [
-      "Gallstones",
-      "Cholelithiasis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K824": 0.760995,
-        "K563": 0.755106,
-        "K8080": 0.700366,
-        "K819": 0.690407,
-        "Q444": 0.682891
-      },
-      "rapidfuzz": {
-        "K9186": 0.9,
-        "K8080": 0.9,
-        "K8081": 0.9,
-        "K563": 0.852632,
-        "Z1342": 0.7,
-        "K226": 0.663158
-      }
-    },
-    "candidate": {
-      "code": "K563",
-      "confidence": 0.764859
-    }
+    "sentence": "siêu âm cho thấy [ENTITY]."
   },
   {
     "text": "nội soi",
@@ -166,47 +45,11 @@
       271,
       278
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: FNA của một nốt sần tuyến giáp phải có cấu trúc vi nang\n    Triệu chứng hiện tại: đau vùng hạ sườn phải\n    Các sự kiện trước khi nhập viện\n    - siêu âm cho thấy sỏi mật\n    - Đề nghị cắt túi mật [ENTITY] cùng lúc với phẫu thuật cắt bỏ tuyến giáp toàn bộ\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020240",
-          "document": "khoảng 3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5630441904067993,
-          "sparse_similarity": 0.13231107592582703,
-          "hybrid_score": 0.34767764806747437
-        },
-        {
-          "id": "isHistorical_001138",
-          "document": "3 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5625335574150085,
-          "sparse_similarity": 0.13159139454364777,
-          "hybrid_score": 0.34706246852874756
-        },
-        {
-          "id": "isHistorical_020234",
-          "document": "khoảng 3 năm trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5640537738800049,
-          "sparse_similarity": 0.1293119490146637,
-          "hybrid_score": 0.3466828465461731
-        }
-      ]
+    "assertion_position": [
+      244,
+      251
     ],
-    "eng_translation": [
-      "Endoscopy",
-      "Gastrointestinal endoscopy",
-      "Endoscopic Examination"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Đề nghị cắt túi mật [ENTITY] cùng lúc với phẫu thuật cắt bỏ tuyến giáp toàn bộ."
   },
   {
     "text": "siêu âm",
@@ -215,46 +58,11 @@
       389,
       396
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: [ENTITY] cho thấy sỏi mật\n    Các phát hiện chẩn đoán khác: FNA của một nốt sần tuyến giáp phải có cấu trúc vi nang",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011594",
-          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6212953329086304,
-          "sparse_similarity": 0.1281694620847702,
-          "hybrid_score": 0.3747324049472809
-        },
-        {
-          "id": "isFamily_011505",
-          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6215506196022034,
-          "sparse_similarity": 0.12162964791059494,
-          "hybrid_score": 0.37159013748168945
-        },
-        {
-          "id": "isFamily_009939",
-          "document": "chú ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.61258864402771,
-          "sparse_similarity": 0.12603607773780823,
-          "hybrid_score": 0.3693123459815979
-        }
-      ]
+    "assertion_position": [
+      355,
+      362
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] cho thấy sỏi mật."
   },
   {
     "text": "sỏi mật",
@@ -263,61 +71,10 @@
       406,
       413
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả chẩn đoán hình ảnh: siêu âm cho thấy [ENTITY]\n    Các phát hiện chẩn đoán khác: FNA của một nốt sần tuyến giáp phải có cấu trúc vi nang",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006603",
-          "document": "bên ngoại của bn được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5988562107086182,
-          "sparse_similarity": 0.15073111653327942,
-          "hybrid_score": 0.3747936487197876
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5998978614807129,
-          "sparse_similarity": 0.14566437900066376,
-          "hybrid_score": 0.3727811276912689
-        },
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5935337543487549,
-          "sparse_similarity": 0.1512918621301651,
-          "hybrid_score": 0.3724128007888794
-        }
-      ]
+    "assertion_position": [
+      372,
+      379
     ],
-    "eng_translation": [
-      "Gallstones",
-      "Cholelithiasis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K824": 0.760995,
-        "K563": 0.755106,
-        "K8080": 0.700366,
-        "K819": 0.690407,
-        "Q444": 0.682891
-      },
-      "rapidfuzz": {
-        "K9186": 0.9,
-        "K8080": 0.9,
-        "K8081": 0.9,
-        "K563": 0.852632,
-        "Z1342": 0.7,
-        "K226": 0.663158
-      }
-    },
-    "candidate": {
-      "code": "K563",
-      "confidence": 0.764859
-    }
+    "sentence": "Kết quả chẩn đoán hình ảnh: siêu âm cho thấy [ENTITY]."
   }
 ]

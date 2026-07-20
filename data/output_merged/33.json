@@ -6,62 +6,11 @@
       48,
       55
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - [ENTITY]\n    - đái tháo đường được kiểm soát bằng chế độ ăn\n    - ngừng thở khi ngủ\n    - tiền sử lâm sàng suy tim, không đặc hiệu\n    Dị ứng: Dị ứng furosemide\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6082487106323242,
-          "sparse_similarity": 0.2029547095298767,
-          "hybrid_score": 0.40560171008110046
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.610171377658844,
-          "sparse_similarity": 0.19903409481048584,
-          "hybrid_score": 0.4046027362346649
-        },
-        {
-          "id": "isFamily_024988",
-          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6043937802314758,
-          "sparse_similarity": 0.19990739226341248,
-          "hybrid_score": 0.40215057134628296
-        }
-      ]
+    "assertion_position": [
+      36,
+      43
     ],
-    "eng_translation": [
-      "Obesity",
-      "Excess body weight"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E669": 0.985618,
-        "E663": 0.883644,
-        "E66811": 0.865016,
-        "E66813": 0.861392,
-        "E66812": 0.832182
-      },
-      "rapidfuzz": {
-        "E8882": 0.9,
-        "O99211": 0.9,
-        "Z152": 0.9,
-        "S81832D": 0.855,
-        "H02814": 0.855,
-        "H02813": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E669",
-      "confidence": 0.887056
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đái tháo đường",
@@ -70,62 +19,11 @@
       62,
       76
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - béo phì\n    - [ENTITY] được kiểm soát bằng chế độ ăn\n    - ngừng thở khi ngủ\n    - tiền sử lâm sàng suy tim, không đặc hiệu\n    Dị ứng: Dị ứng furosemide\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mãn tính - béo phì - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6209854483604431,
-          "sparse_similarity": 0.2036277949810028,
-          "hybrid_score": 0.41230660676956177
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6171292066574097,
-          "sparse_similarity": 0.20653164386749268,
-          "hybrid_score": 0.41183042526245117
-        },
-        {
-          "id": "isFamily_024988",
-          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6140677332878113,
-          "sparse_similarity": 0.20434463024139404,
-          "hybrid_score": 0.40920618176460266
-        }
-      ]
+    "assertion_position": [
+      45,
+      59
     ],
-    "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
-        "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.757908
-    }
+    "sentence": "[ENTITY] được kiểm soát bằng chế độ ăn."
   },
   {
     "text": "ngừng thở",
@@ -134,45 +32,11 @@
       113,
       122
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - béo phì\n    - đái tháo đường được kiểm soát bằng chế độ ăn\n    - [ENTITY] khi ngủ\n    - tiền sử lâm sàng suy tim, không đặc hiệu\n    Dị ứng: Dị ứng furosemide\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.604676365852356,
-          "sparse_similarity": 0.20057331025600433,
-          "hybrid_score": 0.40262484550476074
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6078453063964844,
-          "sparse_similarity": 0.19712293148040771,
-          "hybrid_score": 0.40248411893844604
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6041383743286133,
-          "sparse_similarity": 0.19518032670021057,
-          "hybrid_score": 0.39965933561325073
-        }
-      ]
+    "assertion_position": [
+      91,
+      100
     ],
-    "eng_translation": [
-      "apnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] khi ngủ."
   },
   {
     "text": "suy tim",
@@ -181,62 +45,11 @@
       154,
       161
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - béo phì\n    - đái tháo đường được kiểm soát bằng chế độ ăn\n    - ngừng thở khi ngủ\n    - tiền sử lâm sàng [ENTITY], không đặc hiệu\n    Dị ứng: Dị ứng furosemide\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử lâm sàng [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5917909741401672,
-          "sparse_similarity": 0.19632785022258759,
-          "hybrid_score": 0.394059419631958
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5942795276641846,
-          "sparse_similarity": 0.19188141822814941,
-          "hybrid_score": 0.393080472946167
-        },
-        {
-          "id": "isFamily_024988",
-          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.582199215888977,
-          "sparse_similarity": 0.19262933731079102,
-          "hybrid_score": 0.38741427659988403
-        }
-      ]
+    "assertion_position": [
+      127,
+      134
     ],
-    "eng_translation": [
-      "Heart failure",
-      "Congestive heart failure"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I509": 0.984625,
-        "I5084": 0.853405,
-        "I5020": 0.81339,
-        "I5089": 0.783642,
-        "I5022": 0.769411
-      },
-      "rapidfuzz": {
-        "I5089": 0.95,
-        "I110": 0.9,
-        "I0981": 0.9,
-        "I5041": 0.9,
-        "I5020": 0.9,
-        "I5021": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I509",
-      "confidence": 0.886162
-    }
+    "sentence": "tiền sử lâm sàng [ENTITY], không đặc hiệu."
   },
   {
     "text": "furosemide",
@@ -245,61 +58,11 @@
       197,
       207
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mãn tính\n    - béo phì\n    - đái tháo đường được kiểm soát bằng chế độ ăn\n    - ngừng thở khi ngủ\n    - tiền sử lâm sàng suy tim, không đặc hiệu\n    Dị ứng: Dị ứng [ENTITY]\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6009165644645691,
-          "sparse_similarity": 0.21468456089496613,
-          "hybrid_score": 0.407800555229187
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.605534017086029,
-          "sparse_similarity": 0.20979921519756317,
-          "hybrid_score": 0.4076666235923767
-        },
-        {
-          "id": "isFamily_024988",
-          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5964264869689941,
-          "sparse_similarity": 0.21074670553207397,
-          "hybrid_score": 0.40358659625053406
-        }
-      ]
+    "assertion_position": [
+      167,
+      177
     ],
-    "eng_translation": [
-      "furosemide",
-      "Loop diuretic"
-    ],
-    "retriever": {
-      "sapbert": {
-        "4603": 1.0,
-        "104215": 1.0,
-        "3567": 0.759171,
-        "3569": 0.751101,
-        "91218": 0.737778
-      },
-      "rapidfuzz": {
-        "4603": 1.0,
-        "2725542": 0.9,
-        "2725545": 0.9,
-        "2654838": 0.855,
-        "1300289": 0.72
-      }
-    },
-    "candidate": {
-      "code": "4603",
-      "confidence": 1.0
-    }
+    "sentence": "Dị ứng: Dị ứng [ENTITY]."
   },
   {
     "text": "khó thở",
@@ -308,46 +71,11 @@
       256,
       263
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY]\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6220958232879639,
-          "sparse_similarity": 0.17191998660564423,
-          "hybrid_score": 0.39700791239738464
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6245179176330566,
-          "sparse_similarity": 0.16851937770843506,
-          "hybrid_score": 0.39651864767074585
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6203673481941223,
-          "sparse_similarity": 0.17072126269340515,
-          "hybrid_score": 0.39554429054260254
-        }
-      ]
+    "assertion_position": [
+      219,
+      226
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY]."
   },
   {
     "text": "khó thở",
@@ -356,46 +84,11 @@
       362,
       369
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy [ENTITY] khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6390973925590515,
-          "sparse_similarity": 0.20465482771396637,
-          "hybrid_score": 0.42187610268592834
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6410677433013916,
-          "sparse_similarity": 0.20053672790527344,
-          "hybrid_score": 0.4208022356033325
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.637411892414093,
-          "sparse_similarity": 0.20334087312221527,
-          "hybrid_score": 0.42037639021873474
-        }
-      ]
+    "assertion_position": [
+      311,
+      318
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "bắt đầu nhận thấy [ENTITY] khi xem TV lúc 11:00 sáng ba ngày trước."
   },
   {
     "text": "khó thở",
@@ -404,46 +97,11 @@
       441,
       448
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - [ENTITY]\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6272372603416443,
-          "sparse_similarity": 0.19730043411254883,
-          "hybrid_score": 0.41226884722709656
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6293742656707764,
-          "sparse_similarity": 0.19342830777168274,
-          "hybrid_score": 0.41140127182006836
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6266427040100098,
-          "sparse_similarity": 0.196119025349617,
-          "hybrid_score": 0.4113808572292328
-        }
-      ]
+    "assertion_position": [
+      382,
+      389
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó nằm vào ban đêm",
@@ -452,46 +110,11 @@
       455,
       474
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - [ENTITY] để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6367689967155457,
-          "sparse_similarity": 0.20517346262931824,
-          "hybrid_score": 0.42097121477127075
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.638954758644104,
-          "sparse_similarity": 0.20113225281238556,
-          "hybrid_score": 0.4200434982776642
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6360502243041992,
-          "sparse_similarity": 0.20396895706653595,
-          "hybrid_score": 0.420009583234787
-        }
-      ]
+    "assertion_position": [
+      391,
+      410
     ],
-    "eng_translation": [
-      "difficulty lying down at night",
-      "Orthopnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] để ngủ vì thở."
   },
   {
     "text": "căng cứng vai trái",
@@ -500,45 +123,11 @@
       495,
       513
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - [ENTITY] (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6347087621688843,
-          "sparse_similarity": 0.2009625881910324,
-          "hybrid_score": 0.41783568263053894
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6340819597244263,
-          "sparse_similarity": 0.19975487887859344,
-          "hybrid_score": 0.41691842675209045
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6359951496124268,
-          "sparse_similarity": 0.19696949422359467,
-          "hybrid_score": 0.4164823293685913
-        }
-      ]
+    "assertion_position": [
+      426,
+      444
     ],
-    "eng_translation": [
-      "Left shoulder stiffness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)."
   },
   {
     "text": "ho có đờm trắng",
@@ -547,47 +136,11 @@
       582,
       597
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử [ENTITY]\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6269400715827942,
-          "sparse_similarity": 0.1890190839767456,
-          "hybrid_score": 0.4079795777797699
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.628896951675415,
-          "sparse_similarity": 0.18519671261310577,
-          "hybrid_score": 0.4070468246936798
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6254182457923889,
-          "sparse_similarity": 0.18771842122077942,
-          "hybrid_score": 0.40656834840774536
-        }
-      ]
+    "assertion_position": [
+      508,
+      523
     ],
-    "eng_translation": [
-      "Patient has white sputum.",
-      "White sputum.",
-      "Patient has expectoration of white sputum."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "tiền sử [ENTITY]."
   },
   {
     "text": "sốt",
@@ -596,46 +149,11 @@
       613,
       616
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan [ENTITY]\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6202977895736694,
-          "sparse_similarity": 0.18154843151569366,
-          "hybrid_score": 0.40092310309410095
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6225980520248413,
-          "sparse_similarity": 0.1779201328754425,
-          "hybrid_score": 0.4002590775489807
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.619092583656311,
-          "sparse_similarity": 0.18033194541931152,
-          "hybrid_score": 0.3997122645378113
-        }
-      ]
+    "assertion_position": [
+      534,
+      537
     ],
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "chủ quan [ENTITY]."
   },
   {
     "text": "phù chi dưới",
@@ -644,46 +162,11 @@
       623,
       635
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - [ENTITY] (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "ba"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6248568892478943,
-          "sparse_similarity": 0.19107361137866974,
-          "hybrid_score": 0.4079652428627014
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6273517608642578,
-          "sparse_similarity": 0.18725056946277618,
-          "hybrid_score": 0.4073011577129364
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.623696506023407,
-          "sparse_similarity": 0.18980585038661957,
-          "hybrid_score": 0.40675118565559387
-        }
-      ]
+    "assertion_position": [
+      539,
+      551
     ],
-    "eng_translation": [
-      "Lower limb edema",
-      "Peripheral edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] (ổn định)."
   },
   {
     "text": "căng cứng vai trái",
@@ -692,45 +175,11 @@
       685,
       703
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: [ENTITY]\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6323693990707397,
-          "sparse_similarity": 0.19412927329540253,
-          "hybrid_score": 0.41324934363365173
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6346216201782227,
-          "sparse_similarity": 0.1901596486568451,
-          "hybrid_score": 0.41239064931869507
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6311590075492859,
-          "sparse_similarity": 0.1926422119140625,
-          "hybrid_score": 0.4119006097316742
-        }
-      ]
+    "assertion_position": [
+      593,
+      611
     ],
-    "eng_translation": [
-      "Left shoulder stiffness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Vị trí: [ENTITY]."
   },
   {
     "text": "căng cứng vai trái",
@@ -739,45 +188,11 @@
       737,
       755
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút ([ENTITY])\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6262851357460022,
-          "sparse_similarity": 0.19194917380809784,
-          "hybrid_score": 0.4091171622276306
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6287604570388794,
-          "sparse_similarity": 0.18804363906383514,
-          "hybrid_score": 0.40840205550193787
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.624782919883728,
-          "sparse_similarity": 0.19055435061454773,
-          "hybrid_score": 0.4076686501502991
-        }
-      ]
+    "assertion_position": [
+      640,
+      658
     ],
-    "eng_translation": [
-      "Left shoulder stiffness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thời gian: kéo dài 5 phút ([ENTITY])."
   },
   {
     "text": "căng cứng vai",
@@ -786,46 +201,11 @@
       798,
       811
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày ([ENTITY] trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6230209469795227,
-          "sparse_similarity": 0.18717506527900696,
-          "hybrid_score": 0.405098021030426
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6255171895027161,
-          "sparse_similarity": 0.18336525559425354,
-          "hybrid_score": 0.404441237449646
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6217734813690186,
-          "sparse_similarity": 0.18578563630580902,
-          "hybrid_score": 0.4037795662879944
-        }
-      ]
+    "assertion_position": [
+      696,
+      709
     ],
-    "eng_translation": [
-      "Shoulder stiffness",
-      "Frozen shoulder"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tần suất: xảy ra vài lần mỗi ngày ([ENTITY] trái)."
   },
   {
     "text": "khó nằm vào ban đêm",
@@ -834,46 +214,11 @@
       847,
       866
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: [ENTITY] để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6312286853790283,
-          "sparse_similarity": 0.210392028093338,
-          "hybrid_score": 0.420810341835022
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6310948729515076,
-          "sparse_similarity": 0.20918646454811096,
-          "hybrid_score": 0.42014068365097046
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6337605118751526,
-          "sparse_similarity": 0.20627237856388092,
-          "hybrid_score": 0.42001643776893616
-        }
-      ]
+    "assertion_position": [
+      740,
+      759
     ],
-    "eng_translation": [
-      "difficulty lying down at night",
-      "Orthopnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng liên quan: [ENTITY] để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới."
   },
   {
     "text": "ngủ",
@@ -882,46 +227,11 @@
       870,
       873
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để [ENTITY] vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6412782073020935,
-          "sparse_similarity": 0.20653121173381805,
-          "hybrid_score": 0.4239047169685364
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.640524685382843,
-          "sparse_similarity": 0.2054160237312317,
-          "hybrid_score": 0.42297035455703735
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6430564522743225,
-          "sparse_similarity": 0.20253123342990875,
-          "hybrid_score": 0.42279383540153503
-        }
-      ]
+    "assertion_position": [
+      763,
+      766
     ],
-    "eng_translation": [
-      "sleep",
-      "sleep apnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để [ENTITY] vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới."
   },
   {
     "text": "khó thở",
@@ -930,46 +240,11 @@
       877,
       884
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì [ENTITY], ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6414717435836792,
-          "sparse_similarity": 0.1988358348608017,
-          "hybrid_score": 0.42015379667282104
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6409491896629333,
-          "sparse_similarity": 0.19762775301933289,
-          "hybrid_score": 0.4192884564399719
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6436021327972412,
-          "sparse_similarity": 0.19487802684307098,
-          "hybrid_score": 0.4192400872707367
-        }
-      ]
+    "assertion_position": [
+      770,
+      777
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì [ENTITY], ho có đờm trắng, chủ quan sốt, phù chi dưới."
   },
   {
     "text": "ho có đờm trắng",
@@ -978,47 +253,11 @@
       886,
       901
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, [ENTITY], chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.62847900390625,
-          "sparse_similarity": 0.19041657447814941,
-          "hybrid_score": 0.4094477891921997
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6310291290283203,
-          "sparse_similarity": 0.18660522997379303,
-          "hybrid_score": 0.4088171720504761
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.627456545829773,
-          "sparse_similarity": 0.18914563953876495,
-          "hybrid_score": 0.40830108523368835
-        }
-      ]
+    "assertion_position": [
+      779,
+      794
     ],
-    "eng_translation": [
-      "Patient has white sputum.",
-      "White sputum.",
-      "Patient has expectoration of white sputum."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, [ENTITY], chủ quan sốt, phù chi dưới."
   },
   {
     "text": "sốt",
@@ -1027,46 +266,11 @@
       912,
       915
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan [ENTITY], phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6297077536582947,
-          "sparse_similarity": 0.1947331726551056,
-          "hybrid_score": 0.41222047805786133
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6320251226425171,
-          "sparse_similarity": 0.19088616967201233,
-          "hybrid_score": 0.4114556312561035
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6289747953414917,
-          "sparse_similarity": 0.19355237483978271,
-          "hybrid_score": 0.4112635850906372
-        }
-      ]
+    "assertion_position": [
+      805,
+      808
     ],
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan [ENTITY], phù chi dưới."
   },
   {
     "text": "phù chi dưới",
@@ -1075,46 +279,11 @@
       917,
       929
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, [ENTITY]\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6259374618530273,
-          "sparse_similarity": 0.20372095704078674,
-          "hybrid_score": 0.41482919454574585
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6285508871078491,
-          "sparse_similarity": 0.1996791660785675,
-          "hybrid_score": 0.4141150116920471
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6249494552612305,
-          "sparse_similarity": 0.20243562757968903,
-          "hybrid_score": 0.41369253396987915
-        }
-      ]
+    "assertion_position": [
+      810,
+      822
     ],
-    "eng_translation": [
-      "Lower limb edema",
-      "Peripheral edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, [ENTITY]."
   },
   {
     "text": "độ bão hòa oxy",
@@ -1123,46 +292,11 @@
       1097,
       1111
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với [ENTITY] là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6320553421974182,
-          "sparse_similarity": 0.1829807162284851,
-          "hybrid_score": 0.40751802921295166
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6345610618591309,
-          "sparse_similarity": 0.1792372316122055,
-          "hybrid_score": 0.4068991541862488
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6310224533081055,
-          "sparse_similarity": 0.18160411715507507,
-          "hybrid_score": 0.40631330013275146
-        }
-      ]
+    "assertion_position": [
+      972,
+      986
     ],
-    "eng_translation": [
-      "oxygen saturation",
-      "SpO₂"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "EMS phát hiện bệnh nhân thiếu oxy với [ENTITY] là 86 khi thở khí trời."
   },
   {
     "text": "86",
@@ -1171,45 +305,11 @@
       1115,
       1117
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là [ENTITY] khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6270492076873779,
-          "sparse_similarity": 0.18100601434707642,
-          "hybrid_score": 0.4040276110172272
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6295545697212219,
-          "sparse_similarity": 0.17736360430717468,
-          "hybrid_score": 0.4034590721130371
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6258135437965393,
-          "sparse_similarity": 0.17977871000766754,
-          "hybrid_score": 0.4027961194515228
-        }
-      ]
+    "assertion_position": [
+      990,
+      992
     ],
-    "eng_translation": [
-      "86"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là [ENTITY] khi thở khí trời."
   },
   {
     "text": "độ bão hòa oxy",
@@ -1218,46 +318,11 @@
       1293,
       1307
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với [ENTITY] là 86 khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6432030200958252,
-          "sparse_similarity": 0.20079657435417175,
-          "hybrid_score": 0.42199981212615967
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6458818316459656,
-          "sparse_similarity": 0.19673235714435577,
-          "hybrid_score": 0.4213070869445801
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6426922678947449,
-          "sparse_similarity": 0.19944076240062714,
-          "hybrid_score": 0.4210665225982666
-        }
-      ]
+    "assertion_position": [
+      1155,
+      1169
     ],
-    "eng_translation": [
-      "oxygen saturation",
-      "SpO₂"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tình trạng ngay trước khi nhập viện: thiếu oxy với [ENTITY] là 86 khi thở khí trời."
   },
   {
     "text": "86",
@@ -1266,45 +331,11 @@
       1311,
       1313
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: khó thở\n    Thời điểm khởi phát triệu chứng\n    - tiền sử trước vào viện  ba ngày\n    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước\n    Triệu chứng hiện tại\n    - khó thở\n    - khó nằm vào ban đêm để ngủ vì thở\n    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)\n    - tiền sử ho có đờm trắng\n    - chủ quan sốt\n    - phù chi dưới (ổn định)\n    Đặc điểm triệu chứng\n    - Vị trí: căng cứng vai trái\n    - Thời gian: kéo dài 5 phút (căng cứng vai trái)\n    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)\n    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới\n    Các sự kiện trước khi nhập viện\n    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)\n    - gọi EMS\n    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời\n    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)\n    - EMS đưa bệnh nhân đến khoa Cấp cứu\n    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là [ENTITY] khi thở khí trời\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001120",
-          "document": "3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6392889022827148,
-          "sparse_similarity": 0.1924063116312027,
-          "hybrid_score": 0.4158475995063782
-        },
-        {
-          "id": "isHistorical_020228",
-          "document": "khoảng 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6421855092048645,
-          "sparse_similarity": 0.18856003880500793,
-          "hybrid_score": 0.4153727889060974
-        },
-        {
-          "id": "isHistorical_025180",
-          "document": "từ 3 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6387311816215515,
-          "sparse_similarity": 0.1912095993757248,
-          "hybrid_score": 0.41497039794921875
-        }
-      ]
+    "assertion_position": [
+      1173,
+      1175
     ],
-    "eng_translation": [
-      "86"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là [ENTITY] khi thở khí trời."
   },
   {
     "text": "bumetanide 2mg iv",
@@ -1313,63 +344,11 @@
       1401,
       1418
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thuốc đã thực hiện\n    - được cho [ENTITY]\n    - được cho vancomycin 1 gram\n    - được cho levofloxacin 750mg iv\n    - được cho aspirin 325mg\n    - được cho albuterolipratropium nebulizer\n    - được cho methylprednisolone 125mg iv\n    - lợi tiểu 600cc",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009848",
-          "document": "[ENTITY] đã được điều trị.",
-          "dense_similarity": 0.6031732559204102,
-          "sparse_similarity": 0.13068661093711853,
-          "hybrid_score": 0.36692994832992554
-        },
-        {
-          "id": "isHistorical_031843",
-          "document": "đã 1 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.6214920878410339,
-          "sparse_similarity": 0.09873838722705841,
-          "hybrid_score": 0.3601152300834656
-        },
-        {
-          "id": "isHistorical_031855",
-          "document": "đã 1 tháng được điều trị [ENTITY].",
-          "dense_similarity": 0.6162877082824707,
-          "sparse_similarity": 0.09818142652511597,
-          "hybrid_score": 0.35723456740379333
-        }
-      ]
+    "assertion_position": [
+      1251,
+      1268
     ],
-    "eng_translation": [
-      "bumetanide 2mg IV",
-      "Furosemide 2mg IV",
-      "Bumetanide 2 mg IV"
-    ],
-    "retriever": {
-      "sapbert": {
-        "197419": 0.804348,
-        "105285": 0.552935,
-        "1303134": 0.545663,
-        "198324": 0.545335,
-        "848736": 0.533827
-      },
-      "rapidfuzz": {
-        "315502": 0.95,
-        "1808": 0.9,
-        "4603": 0.9,
-        "315970": 0.882353,
-        "315501": 0.882143,
-        "2743367": 0.855
-      }
-    },
-    "candidate": {
-      "code": "197419",
-      "confidence": 0.723913
-    }
+    "sentence": "được cho [ENTITY]."
   },
   {
     "text": "vancomycin",
@@ -1378,61 +357,11 @@
       1434,
       1444
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thuốc đã thực hiện\n    - được cho bumetanide 2mg iv\n    - được cho [ENTITY] 1 gram\n    - được cho levofloxacin 750mg iv\n    - được cho aspirin 325mg\n    - được cho albuterolipratropium nebulizer\n    - được cho methylprednisolone 125mg iv\n    - lợi tiểu 600cc",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031855",
-          "document": "đã 1 tháng được điều trị [ENTITY].",
-          "dense_similarity": 0.6271083354949951,
-          "sparse_similarity": 0.09394345432519913,
-          "hybrid_score": 0.360525906085968
-        },
-        {
-          "id": "isHistorical_031843",
-          "document": "đã 1 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.6264394521713257,
-          "sparse_similarity": 0.09404192119836807,
-          "hybrid_score": 0.3602406978607178
-        },
-        {
-          "id": "isHistorical_034248",
-          "document": "đã điều trị [ENTITY].",
-          "dense_similarity": 0.6251737475395203,
-          "sparse_similarity": 0.08788345009088516,
-          "hybrid_score": 0.3565286099910736
-        }
-      ]
+    "assertion_position": [
+      1279,
+      1289
     ],
-    "eng_translation": [
-      "Vancomycin",
-      "Vancomycin is a glycopeptide antibiotic used to treat serious bacterial infections, particularly those caused by gram-positive organisms, including methicillin-resistant Staphylococcus aureus (MRSA). It works by inhibiting cell wall synthesis and is often reserved for severe infections due to its potential for nephrotoxicity and ototoxicity. Monitoring of serum levels and renal function is essential to ensure therapeutic efficacy and minimize adverse effects."
-    ],
-    "retriever": {
-      "sapbert": {
-        "11124": 1.0,
-        "997397": 0.734893,
-        "405388": 0.707967,
-        "66955": 0.700402
-      },
-      "rapidfuzz": {
-        "11124": 1.0,
-        "2387078": 0.9,
-        "2118449": 0.9,
-        "2677176": 0.855,
-        "2709234": 0.855,
-        "2709236": 0.855
-      }
-    },
-    "candidate": {
-      "code": "11124",
-      "confidence": 1.0
-    }
+    "sentence": "được cho [ENTITY] 1 gram."
   },
   {
     "text": "levofloxacin 750mg iv",
@@ -1441,59 +370,11 @@
       1467,
       1488
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thuốc đã thực hiện\n    - được cho bumetanide 2mg iv\n    - được cho vancomycin 1 gram\n    - được cho [ENTITY]\n    - được cho aspirin 325mg\n    - được cho albuterolipratropium nebulizer\n    - được cho methylprednisolone 125mg iv\n    - lợi tiểu 600cc",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031843",
-          "document": "đã 1 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.6131747364997864,
-          "sparse_similarity": 0.0854332372546196,
-          "hybrid_score": 0.3493039906024933
-        },
-        {
-          "id": "isHistorical_031855",
-          "document": "đã 1 tháng được điều trị [ENTITY].",
-          "dense_similarity": 0.6118320822715759,
-          "sparse_similarity": 0.08565020561218262,
-          "hybrid_score": 0.3487411439418793
-        },
-        {
-          "id": "isHistorical_034248",
-          "document": "đã điều trị [ENTITY].",
-          "dense_similarity": 0.6085271835327148,
-          "sparse_similarity": 0.08006428927183151,
-          "hybrid_score": 0.3442957401275635
-        }
-      ]
+    "assertion_position": [
+      1307,
+      1328
     ],
-    "eng_translation": [
-      "Levofloxacin 750mg IV",
-      "Levofloxacin 750mg intravenous",
-      "Levofloxacin 750 milligrams intravenous"
-    ],
-    "retriever": {
-      "sapbert": {
-        "1665515": 0.8752,
-        "1665519": 0.856275,
-        "2738119": 0.823924,
-        "1665494": 0.803129,
-        "2182077": 0.803129
-      },
-      "rapidfuzz": {
-        "330371": 0.95,
-        "82122": 0.9
-      }
-    },
-    "candidate": {
-      "code": "1665515",
-      "confidence": 0.78768
-    }
+    "sentence": "được cho [ENTITY]."
   },
   {
     "text": "aspirin 325mg",
@@ -1502,64 +383,11 @@
       1504,
       1517
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thuốc đã thực hiện\n    - được cho bumetanide 2mg iv\n    - được cho vancomycin 1 gram\n    - được cho levofloxacin 750mg iv\n    - được cho [ENTITY]\n    - được cho albuterolipratropium nebulizer\n    - được cho methylprednisolone 125mg iv\n    - lợi tiểu 600cc",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031855",
-          "document": "đã 1 tháng được điều trị [ENTITY].",
-          "dense_similarity": 0.6148605942726135,
-          "sparse_similarity": 0.0795086994767189,
-          "hybrid_score": 0.3471846580505371
-        },
-        {
-          "id": "isHistorical_031843",
-          "document": "đã 1 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.6136963963508606,
-          "sparse_similarity": 0.07929696887731552,
-          "hybrid_score": 0.34649667143821716
-        },
-        {
-          "id": "isHistorical_034248",
-          "document": "đã điều trị [ENTITY].",
-          "dense_similarity": 0.6143857836723328,
-          "sparse_similarity": 0.07684939354658127,
-          "hybrid_score": 0.3456175923347473
-        }
-      ]
+    "assertion_position": [
+      1339,
+      1352
     ],
-    "eng_translation": [
-      "aspirin 325mg",
-      "Aspirin 325 mg",
-      "Acetylsalicylic acid 325mg",
-      "aspirin 325 milligrams"
-    ],
-    "retriever": {
-      "sapbert": {
-        "572393": 0.974495,
-        "572203": 0.96399,
-        "572210": 0.962723,
-        "2563424": 0.96112,
-        "574308": 0.959
-      },
-      "rapidfuzz": {
-        "317300": 1.0,
-        "329295": 0.962963,
-        "335953": 0.928571,
-        "9525": 0.9,
-        "1437977": 0.855,
-        "1810999": 0.855
-      }
-    },
-    "candidate": {
-      "code": "572393",
-      "confidence": 0.877046
-    }
+    "sentence": "được cho [ENTITY]."
   },
   {
     "text": "methylprednisolone 125mg iv",
@@ -1568,55 +396,10 @@
       1579,
       1606
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Các thuốc đã thực hiện\n    - được cho bumetanide 2mg iv\n    - được cho vancomycin 1 gram\n    - được cho levofloxacin 750mg iv\n    - được cho aspirin 325mg\n    - được cho albuterolipratropium nebulizer\n    - được cho [ENTITY]\n    - lợi tiểu 600cc",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031855",
-          "document": "đã 1 tháng được điều trị [ENTITY].",
-          "dense_similarity": 0.6078879833221436,
-          "sparse_similarity": 0.06988838315010071,
-          "hybrid_score": 0.33888816833496094
-        },
-        {
-          "id": "isHistorical_031843",
-          "document": "đã 1 ngày được điều trị [ENTITY].",
-          "dense_similarity": 0.6074008941650391,
-          "sparse_similarity": 0.06965677440166473,
-          "hybrid_score": 0.3385288417339325
-        },
-        {
-          "id": "isHistorical_034248",
-          "document": "đã điều trị [ENTITY].",
-          "dense_similarity": 0.6060657501220703,
-          "sparse_similarity": 0.06385921686887741,
-          "hybrid_score": 0.33496248722076416
-        }
-      ]
+    "assertion_position": [
+      1404,
+      1431
     ],
-    "eng_translation": [
-      "methylprednisolone 125mg IV",
-      "Methylprednisolone 125 milligrams intravenous"
-    ],
-    "retriever": {
-      "sapbert": {
-        "1743704": 0.975162,
-        "1743707": 0.939115
-      },
-      "rapidfuzz": {
-        "1743702": 0.95,
-        "316285": 0.906818,
-        "8638": 0.9
-      }
-    },
-    "candidate": {
-      "code": "1743704",
-      "confidence": 0.877646
-    }
+    "sentence": "được cho [ENTITY]."
   }
 ]
