@@ -2,662 +2,259 @@
   {
     "text": "viêm tủy xương",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M869"
+    ],
+    "assertions": [],
     "position": [
-      45,
-      59
-    ],
-    "assertion_position": [
-      45,
-      59
-    ],
-    "sentence": "Các bệnh lý mãn tính: [ENTITY] và bàng quang thần kinh có biến chứng liệt hai chi dưới.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Osteomyelitis",
-      "Osteomyelitis is a bone infection, typically caused by bacteria, which can lead to inflammation, pus formation, and destruction of bone tissue. It often occurs following trauma, surgery, or the spread of infection from another part of the body. Common symptoms include pain, swelling, redness, and fever. The condition can be acute or chronic and may require antibiotics, surgical drainage, or debridement for treatment."
-    ],
-    "retriever": {
-      "sapbert": {
-        "M869": 0.980384,
-        "M868X9": 0.832993,
-        "M868X89": 0.721278,
-        "M8620": 0.718941,
-        "M868X0": 0.701727
-      },
-      "rapidfuzz": {
-        "A0105": 0.9,
-        "A0224": 0.9,
-        "M86012": 0.9,
-        "S82461Q": 0.855,
-        "S82461R": 0.855,
-        "S82455S": 0.855
-      }
-    },
-    "candidate": {
-      "code": "M869",
-      "confidence": 0.882346
-    }
+      52,
+      66
+    ]
   },
   {
     "text": "liệt",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "A5217"
+    ],
+    "assertions": [],
     "position": [
-      98,
-      102
-    ],
-    "assertion_position": [
-      98,
-      102
-    ],
-    "sentence": "Các bệnh lý mãn tính: viêm tủy xương và bàng quang thần kinh có biến chứng [ENTITY] hai chi dưới.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "paralysis",
-      "Neurological deficit"
-    ],
-    "retriever": {
-      "sapbert": {
-        "A5217": 0.848614,
-        "G839": 0.832193,
-        "R531": 0.75619,
-        "G8220": 0.74971,
-        "R295": 0.721553
-      },
-      "rapidfuzz": {
-        "G723": 0.9,
-        "G8384": 0.9,
-        "G4753": 0.9,
-        "E0849": 0.855,
-        "E0942": 0.855,
-        "E0949": 0.855
-      }
-    },
-    "candidate": {
-      "code": "A5217",
-      "confidence": 0.763753
-    }
+      105,
+      109
+    ]
   },
   {
     "text": "hai chi dưới",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      103,
-      115
-    ],
-    "assertion_position": [
-      103,
-      115
-    ],
-    "sentence": "Các bệnh lý mãn tính: viêm tủy xương và bàng quang thần kinh có biến chứng liệt [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "both lower limbs",
-      "both lower extremities"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      110,
+      122
+    ]
   },
   {
     "text": "hạ thân nhiệt",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      177,
-      190
-    ],
-    "assertion_position": [
-      177,
-      190
-    ],
-    "sentence": "Lý do nhập viện: biến đổi ý thức kèm theo [ENTITY] và hạ huyết áp.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Hypothermia",
-      "Low body temperature"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      191,
+      204
+    ]
   },
   {
     "text": "hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      194,
-      205
-    ],
-    "assertion_position": [
-      194,
-      205
-    ],
-    "sentence": "Lý do nhập viện: biến đổi ý thức kèm theo hạ thân nhiệt và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Hypotension",
-      "Low blood pressure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      208,
+      219
+    ]
   },
   {
     "text": "hạ thân nhiệt",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      379,
-      392
-    ],
-    "assertion_position": [
-      379,
-      392
-    ],
-    "sentence": "Trước khi nhập viện, bệnh nhân được phát hiện trong tình trạng biến đổi ý thức, [ENTITY], hạ huyết áp với huyết áp tâm thu là 90.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Hypothermia",
-      "Low body temperature"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      395,
+      408
+    ]
   },
   {
     "text": "hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      394,
-      405
-    ],
-    "assertion_position": [
-      394,
-      405
-    ],
-    "sentence": "Trước khi nhập viện, bệnh nhân được phát hiện trong tình trạng biến đổi ý thức, hạ thân nhiệt, [ENTITY] với huyết áp tâm thu là 90.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Hypotension",
-      "Low blood pressure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      410,
+      421
+    ]
   },
   {
     "text": "biến đổi ý",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      460,
-      470
-    ],
-    "assertion_position": [
-      460,
-      470
-    ],
-    "sentence": "[ENTITY] thức.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "No change in the patient's condition.",
-      "No change in the patient's status."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      484,
+      494
+    ]
   },
   {
     "text": "hạ thân nhiệt",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      477,
-      490
-    ],
-    "assertion_position": [
-      477,
-      490
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Hypothermia",
-      "Low body temperature"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      506,
+      519
+    ]
   },
   {
     "text": "hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      492,
-      503
-    ],
-    "assertion_position": [
-      492,
-      503
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Hypotension",
-      "Low blood pressure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      526,
+      537
+    ]
   },
   {
     "text": "đau toàn thân ít",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      505,
-      521
-    ],
-    "assertion_position": [
-      505,
-      521
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "mild generalized pain",
-      "Mild generalized discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      544,
+      560
+    ]
   },
   {
     "text": "đau ngực ít",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      523,
-      534
-    ],
-    "assertion_position": [
-      523,
-      534
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "chest pain, minimal",
-      "Chest discomfort, minimal"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      567,
+      578
+    ]
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      536,
-      544
-    ],
-    "assertion_position": [
-      536,
-      544
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      586,
+      594
+    ]
   },
   {
     "text": "hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      585,
-      596
-    ],
-    "assertion_position": [
-      585,
-      596
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Hypotension",
-      "Low blood pressure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      646,
+      657
+    ]
   },
   {
     "text": "hạ thân nhiệt",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      598,
-      611
-    ],
-    "assertion_position": [
-      598,
-      611
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Hypothermia",
-      "Low body temperature"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      664,
+      677
+    ]
   },
   {
     "text": "kali",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      651,
-      655
-    ],
-    "eng_translation": [
-      "Kali",
-      "Hyperkalemia",
-      "Potassium"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      730,
+      734
+    ]
   },
   {
     "text": "6.6",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      659,
-      662
-    ],
-    "eng_translation": [
-      "6.6"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      738,
+      741
+    ]
   },
   {
     "text": "creatinin",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      671,
-      680
-    ],
-    "eng_translation": [
-      "Creatinine",
-      "Serum Creatinine"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      755,
+      764
+    ]
   },
   {
     "text": "1.9",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      684,
-      687
-    ],
-    "eng_translation": [
-      "1.9"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      768,
+      771
+    ]
   },
   {
     "text": "tiểu cầu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      696,
-      704
-    ],
-    "eng_translation": [
-      "Platelet",
-      "Platelet Count Decrease",
-      "Platelet Count"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      785,
+      793
+    ]
   },
   {
     "text": "81",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      708,
-      710
-    ],
-    "eng_translation": [
-      "81",
-      "The query provided is \"81\" which does not contain any medical information or context. Therefore, no rewrite is possible."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      797,
+      799
+    ]
   },
   {
     "text": "bạch cầu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      716,
-      724
-    ],
-    "eng_translation": [
-      "White blood cells",
-      "Leukocytes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      810,
+      818
+    ]
   },
   {
     "text": "10.9",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      728,
-      732
-    ],
-    "eng_translation": [
-      "10.9"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      822,
+      826
+    ]
   },
   {
     "text": "tổng phân tích nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      738,
-      762
-    ],
-    "eng_translation": [
-      "Urinalysis summary",
-      "Urinalysis results summary"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      837,
+      861
+    ]
   },
   {
     "text": "chụp x-quang",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      840,
-      852
-    ],
-    "eng_translation": [
-      "X-ray imaging",
-      "Radiographic imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      947,
+      959
+    ]
   },
   {
     "text": "chụp x-quang",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      917,
-      929
-    ],
-    "eng_translation": [
-      "X-ray imaging",
-      "Radiographic imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1024,
+      1036
+    ]
   },
   {
     "text": "điện tâm đồ",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1051,
-      1062
-    ],
-    "eng_translation": [
-      "ECG",
-      "Electrocardiogram"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1179,
+      1190
+    ]
   },
   {
     "text": "nhịp chậm xoang",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1072,
-      1087
-    ],
-    "assertion_position": [
-      1072,
-      1087
-    ],
-    "sentence": "điện tâm đồ cho thấy [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Sinus bradycardia",
-      "Bradycardia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1200,
+      1215
+    ]
   },
   {
     "text": "đường huyết",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1089,
-      1100
-    ],
-    "eng_translation": [
-      "blood glucose",
-      "serum glucose"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1219,
+      1230
+    ]
   }
 ]

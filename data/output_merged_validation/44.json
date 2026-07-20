@@ -2,1132 +2,404 @@
   {
     "text": "rung nhĩ",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I480"
+    ],
+    "assertions": [],
     "position": [
-      36,
-      44
-    ],
-    "assertion_position": [
-      36,
-      44
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Atrial fibrillation",
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I480": 1.0,
-        "I4891": 0.978406,
-        "I4821": 0.894503,
-        "I4820": 0.803449,
-        "I4901": 0.799594
-      },
-      "rapidfuzz": {
-        "I480": 1.0,
-        "I4820": 0.9,
-        "I4821": 0.9,
-        "I4891": 0.9,
-        "G44039": 0.855,
-        "I231": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I480",
-      "confidence": 1.0
-    }
+      39,
+      47
+    ]
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
     "position": [
-      46,
-      59
-    ],
-    "assertion_position": [
-      46,
-      59
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+      50,
+      63
+    ]
   },
   {
     "text": "suy tim",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I509"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      61,
-      68
-    ],
-    "assertion_position": [
-      61,
-      68
-    ],
-    "sentence": "[ENTITY], không đặc hiệu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Heart failure",
-      "Congestive heart failure"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I509": 0.984625,
-        "I5084": 0.853405,
-        "I5020": 0.81339,
-        "I5089": 0.783642,
-        "I5022": 0.769411
-      },
-      "rapidfuzz": {
-        "I5089": 0.95,
-        "I110": 0.9,
-        "I0981": 0.9,
-        "I5041": 0.9,
-        "I5020": 0.9,
-        "I5021": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I509",
-      "confidence": 0.886162
-    }
+      66,
+      73
+    ]
   },
   {
     "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E669"
+    ],
+    "assertions": [],
     "position": [
-      86,
-      93
-    ],
-    "assertion_position": [
-      86,
-      93
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Obesity",
-      "Excess body weight"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E669": 0.985618,
-        "E663": 0.883644,
-        "E66811": 0.865016,
-        "E66813": 0.861392,
-        "E66812": 0.832182
-      },
-      "rapidfuzz": {
-        "E8882": 0.9,
-        "O99211": 0.9,
-        "Z152": 0.9,
-        "S81832D": 0.855,
-        "H02814": 0.855,
-        "H02813": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E669",
-      "confidence": 0.887056
-    }
+      92,
+      99
+    ]
   },
   {
     "text": "Tăng khó thở",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      130,
-      142
-    ],
-    "assertion_position": [
-      130,
-      142
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Increased dyspnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      139,
+      151
+    ]
   },
   {
     "text": "phù chi dưới",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      144,
-      156
-    ],
-    "assertion_position": [
-      144,
-      156
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Lower limb edema",
-      "Peripheral edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      154,
+      166
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      158,
-      166
-    ],
-    "assertion_position": [
-      158,
-      166
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      169,
+      177
+    ]
   },
   {
     "text": "Tăng khó thở",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      237,
-      249
-    ],
-    "assertion_position": [
-      237,
-      249
-    ],
-    "sentence": "[ENTITY] và yếu trong vài tuần qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Increased dyspnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      247,
+      259
+    ]
   },
   {
     "text": "ngất xỉu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      281,
-      289
-    ],
-    "assertion_position": [
-      281,
-      289
-    ],
-    "sentence": "cơn [ENTITY] 2 tháng trước.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      292,
+      300
+    ]
   },
   {
     "text": "đau rát khi đi tiểu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      305,
-      324
-    ],
-    "assertion_position": [
-      305,
-      324
-    ],
-    "sentence": "[ENTITY], từng đợt, khoảng 2 tuần.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "painful urination",
-      "Dysuria"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      317,
+      336
+    ]
   },
   {
     "text": "chán ăn",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      351,
-      358
-    ],
-    "assertion_position": [
-      351,
-      358
-    ],
-    "sentence": "[ENTITY] trong 3 ngày qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "loss of appetite",
-      "Anorexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      364,
+      371
+    ]
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      377,
-      380
-    ],
-    "assertion_position": [
-      377,
-      380
-    ],
-    "sentence": "[ENTITY] từng đợt sau khi ăn trong 3 ngày qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      391,
+      394
+    ]
   },
   {
     "text": "Tăng khó thở",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      446,
-      458
-    ],
-    "assertion_position": [
-      446,
-      458
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Increased dyspnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      460,
+      472
+    ]
   },
   {
     "text": "phù chi dưới",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      460,
-      472
-    ],
-    "assertion_position": [
-      460,
-      472
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Lower limb edema",
-      "Peripheral edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      475,
+      487
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      474,
-      482
-    ],
-    "assertion_position": [
-      474,
-      482
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      490,
+      498
+    ]
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      484,
-      491
-    ],
-    "assertion_position": [
-      484,
-      491
-    ],
-    "sentence": "[ENTITY] và weak.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      501,
+      508
+    ]
   },
   {
     "text": "weak",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      495,
-      499
-    ],
-    "assertion_position": [
-      495,
-      499
-    ],
-    "sentence": "mệt mỏi và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "weak",
-      "Weakness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      512,
+      516
+    ]
   },
   {
     "text": "ngủ quên",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      514,
-      522
-    ],
-    "assertion_position": [
-      514,
-      522
-    ],
-    "sentence": "Thường xuyên [ENTITY] hoặc có thể ngất xỉu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "sleep apnea",
-      "Obstructive Sleep Apnea"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      532,
+      540
+    ]
   },
   {
     "text": "ngất xỉu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      535,
-      543
-    ],
-    "assertion_position": [
-      535,
-      543
-    ],
-    "sentence": "Thường xuyên ngủ quên hoặc có thể [ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      553,
+      561
+    ]
   },
   {
     "text": "Đau buốt khi đi tiểu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      590,
-      610
-    ],
-    "assertion_position": [
-      590,
-      610
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Painful urination",
-      "Dysuria"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      610,
+      630
+    ]
   },
   {
     "text": "chán ăn",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      612,
-      619
-    ],
-    "assertion_position": [
-      612,
-      619
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "loss of appetite",
-      "Anorexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      633,
+      640
+    ]
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      621,
-      624
-    ],
-    "assertion_position": [
-      621,
-      624
-    ],
-    "sentence": "[ENTITY] từng đợt sau khi ăn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      643,
+      646
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      668,
-      676
-    ],
-    "assertion_position": [
-      668,
-      676
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      690,
+      698
+    ]
   },
   {
     "text": "nhói",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      736,
-      740
-    ],
-    "assertion_position": [
-      736,
-      740
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      761,
+      765
+    ]
   },
   {
     "text": "tê bì ở cánh tay",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      786,
-      802
-    ],
-    "assertion_position": [
-      786,
-      802
-    ],
-    "sentence": "kèm theo [ENTITY] trái trên và đau ở cánh tay trái dưới và bàn tay.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Numbness in the arm",
-      "Arm paresthesia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      814,
+      830
+    ]
   },
   {
     "text": "đau ở cánh tay trái",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      816,
-      835
-    ],
-    "assertion_position": [
-      816,
-      835
-    ],
-    "sentence": "kèm theo tê bì ở cánh tay trái trên và [ENTITY] dưới và bàn tay.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "pain in the left arm",
-      "left arm pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      844,
+      863
+    ]
   },
   {
     "text": "đau rát khi đi tiểu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1033,
-      1052
-    ],
-    "assertion_position": [
-      1033,
-      1052
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "painful urination",
-      "Dysuria"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1071,
+      1090
+    ]
   },
   {
     "text": "Nôn mửa",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1110,
-      1117
-    ],
-    "assertion_position": [
-      1110,
-      1117
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1154,
+      1161
+    ]
   },
   {
     "text": "cơn ngất xỉu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1157,
-      1169
-    ],
-    "assertion_position": [
-      1157,
-      1169
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1204,
+      1216
+    ]
   },
   {
     "text": "đầu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1265,
-      1268
-    ],
-    "assertion_position": [
-      1265,
-      1268
-    ],
-    "sentence": "va phải cánh tay phải và bụng phải nhưng không nhớ đập [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Headache"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1316,
+      1319
+    ]
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1283,
-      1298
-    ],
-    "assertion_position": [
-      1283,
-      1298
-    ],
-    "sentence": "không nhớ bị [ENTITY], chóng mặt trước khi bị ngã.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1335,
+      1350
+    ]
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1300,
-      1309
-    ],
-    "assertion_position": [
-      1300,
-      1309
-    ],
-    "sentence": "không nhớ bị đánh trống ngực, [ENTITY] trước khi bị ngã.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1352,
+      1361
+    ]
   },
   {
     "text": "lasix",
     "type": "THUỐC",
+    "candidates": [
+      "202991"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      1388,
-      1393
-    ],
-    "assertion_position": [
-      1388,
-      1393
-    ],
-    "sentence": "Bệnh nhân đã dùng thêm 80mg po [ENTITY] ở nhà mà không có tác dụng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Lasix",
-      "Furosemide"
-    ],
-    "retriever": {
-      "sapbert": {
-        "4603": 1.0,
-        "202991": 1.0,
-        "2735130": 0.843701,
-        "2739320": 0.690308,
-        "1364397": 0.680973
-      },
-      "rapidfuzz": {
-        "202991": 1.0,
-        "4603": 1.0,
-        "565458": 0.9,
-        "1175645": 0.9,
-        "2725542": 0.9,
-        "2725545": 0.9
-      }
-    },
-    "candidate": {
-      "code": "202991",
-      "confidence": 1.0
-    }
+      1440,
+      1445
+    ]
   },
   {
     "text": "lasix",
     "type": "THUỐC",
+    "candidates": [
+      "202991"
+    ],
+    "assertions": [],
     "position": [
-      1662,
-      1667
-    ],
-    "assertion_position": [
-      1662,
-      1667
-    ],
-    "sentence": "Nhận 80mg [ENTITY] iv.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Lasix",
-      "Furosemide"
-    ],
-    "retriever": {
-      "sapbert": {
-        "4603": 1.0,
-        "202991": 1.0,
-        "2735130": 0.843701,
-        "2739320": 0.690308,
-        "1364397": 0.680973
-      },
-      "rapidfuzz": {
-        "202991": 1.0,
-        "4603": 1.0,
-        "565458": 0.9,
-        "1175645": 0.9,
-        "2725542": 0.9,
-        "2725545": 0.9
-      }
-    },
-    "candidate": {
-      "code": "202991",
-      "confidence": 1.0
-    }
+      1720,
+      1725
+    ]
   },
   {
     "text": "dilaudid",
     "type": "THUỐC",
+    "candidates": [
+      "3423"
+    ],
+    "assertions": [],
     "position": [
-      1700,
-      1708
-    ],
-    "assertion_position": [
-      1700,
-      1708
-    ],
-    "sentence": "Nhận 1mg [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Dilaudid",
-      "Dilaudid is a brand name for the opioid analgesic hydromorphone.",
-      "Hydromorphone",
-      "Dilaudid is the brand name for the opioid analgesic hydromorphone."
-    ],
-    "retriever": {
-      "sapbert": {
-        "3423": 1.0,
-        "224913": 1.0,
-        "216611": 0.9358,
-        "216610": 0.926379,
-        "358355": 0.919615
-      },
-      "rapidfuzz": {
-        "224913": 1.0,
-        "3423": 1.0,
-        "1164621": 0.95,
-        "368895": 0.9,
-        "2657343": 0.9,
-        "1251196": 0.855
-      }
-    },
-    "candidate": {
-      "code": "3423",
-      "confidence": 1.0
-    }
+      1760,
+      1768
+    ]
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      1800,
-      1807
-    ],
-    "assertion_position": [
-      1800,
-      1807
-    ],
-    "sentence": "Với ntg [ENTITY] cải thiện nhưng đau ngực vẫn còn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1862,
+      1869
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1824,
-      1832
-    ],
-    "assertion_position": [
-      1824,
-      1832
-    ],
-    "sentence": "Với ntg khó thở cải thiện nhưng [ENTITY] vẫn còn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1886,
+      1894
+    ]
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      1850,
-      1857
-    ],
-    "assertion_position": [
-      1850,
-      1857
-    ],
-    "sentence": "Với ntg [ENTITY] cải thiện nhưng đau ngực vẫn còn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1913,
+      1920
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1874,
-      1882
-    ],
-    "assertion_position": [
-      1874,
-      1882
-    ],
-    "sentence": "Với ntg khó thở cải thiện nhưng [ENTITY] vẫn còn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1937,
+      1945
+    ]
   },
   {
     "text": "nhịp tim",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1892,
-      1900
-    ],
-    "assertion_position": [
-      1892,
-      1900
-    ],
-    "sentence": "[ENTITY] cải thiện thành.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "heart rate",
-      "pulse rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1956,
+      1964
+    ]
   }
 ]

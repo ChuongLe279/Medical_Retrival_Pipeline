@@ -2,168 +2,55 @@
   {
     "text": "Tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
     "position": [
-      36,
-      49
-    ],
-    "assertion_position": [
-      36,
-      49
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+      48,
+      61
+    ]
   },
   {
     "text": "suy tim",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I509"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      51,
-      58
-    ],
-    "assertion_position": [
-      51,
-      58
-    ],
-    "sentence": "[ENTITY], không đặc hiệu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Heart failure",
-      "Congestive heart failure"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I509": 0.984625,
-        "I5084": 0.853405,
-        "I5020": 0.81339,
-        "I5089": 0.783642,
-        "I5022": 0.769411
-      },
-      "rapidfuzz": {
-        "I5089": 0.95,
-        "I110": 0.9,
-        "I0981": 0.9,
-        "I5041": 0.9,
-        "I5020": 0.9,
-        "I5021": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I509",
-      "confidence": 0.886162
-    }
+      68,
+      75
+    ]
   },
   {
     "text": "bệnh thận mạn",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N189"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      76,
-      89
-    ],
-    "assertion_position": [
-      76,
-      89
-    ],
-    "sentence": "[ENTITY], không đặc hiệu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Chronic kidney disease",
-      "CKD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N189": 0.982146,
-        "N039": 0.781739,
-        "N186": 0.757736,
-        "N181": 0.744167,
-        "N1830": 0.681813
-      },
-      "rapidfuzz": {
-        "D631": 0.95,
-        "N181": 0.95,
-        "N1831": 0.95,
-        "I450": 0.72,
-        "I452": 0.72,
-        "I453": 0.72
-      }
-    },
-    "candidate": {
-      "code": "N189",
-      "confidence": 0.883931
-    }
+      98,
+      111
+    ]
   },
   {
     "text": "phình động mạch chủ ngực – bụng",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I77811"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      206,
-      237
-    ],
-    "assertion_position": [
-      206,
-      237
-    ],
-    "sentence": "Tiền sử phẫu thuật / thủ thuật: Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị [ENTITY] giai đoạn 1 (không rõ thời điểm).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Thoracic-abdominal aortic aneurysm",
-      "Thoracic aortic aneurysm with extension into the abdominal aorta"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I77811": 0.775381,
-        "I7160": 0.774385,
-        "I7409": 0.768775,
-        "I7120": 0.757622,
-        "I77812": 0.751058
-      },
-      "rapidfuzz": {
-        "S21259D": 0.855,
-        "S21342S": 0.855,
-        "S21342D": 0.855,
-        "S72144D": 0.855,
-        "S82431N": 0.855,
-        "S42472D": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I77811",
-      "confidence": 0.697843
-    }
+      231,
+      262
+    ]
   }
 ]

@@ -2,542 +2,184 @@
   {
     "text": "loạn cảm xúc",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      179,
-      191
-    ],
-    "assertion_position": [
-      179,
-      191
-    ],
-    "sentence": "Rối [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "emotional lability",
-      "Mood lability"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      199,
+      211
+    ]
   },
   {
     "text": "loạn lưỡng",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      197,
-      207
-    ],
-    "assertion_position": [
-      197,
-      207
-    ],
-    "sentence": "Rối [ENTITY] cực.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "dual disorder",
-      "Dual Diagnosis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      223,
+      233
+    ]
   },
   {
     "text": "rối loạn lo âu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      213,
-      227
-    ],
-    "assertion_position": [
-      213,
-      227
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Anxiety disorder"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      244,
+      258
+    ]
   },
   {
     "text": "clonidine",
     "type": "THUỐC",
+    "candidates": [
+      "2599"
+    ],
+    "assertions": [],
     "position": [
-      349,
-      358
-    ],
-    "assertion_position": [
-      324,
-      333
-    ],
-    "sentence": "klonopin[ENTITY] (được kê đơn).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Clonidine",
-      "Alpha-2 Adrenergic Agonist"
-    ],
-    "retriever": {
-      "sapbert": {
-        "2599": 1.0,
-        "1024639": 0.980164,
-        "2277290": 0.882257,
-        "104499": 0.793657,
-        "91230": 0.780195
-      },
-      "rapidfuzz": {
-        "2599": 1.0,
-        "884198": 0.9,
-        "857395": 0.855,
-        "856719": 0.855,
-        "856706": 0.855
-      }
-    },
-    "candidate": {
-      "code": "2599",
-      "confidence": 1.0
-    }
+      398,
+      407
+    ]
   },
   {
     "text": "suboxone",
     "type": "THUỐC",
+    "candidates": [
+      "1819"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      381,
-      389
-    ],
-    "assertion_position": [
-      381,
-      389
-    ],
-    "sentence": "[ENTITY] (bắt đầu 3 tuần trước), không dùng đều 5-6 ngày, dừng thuốc trước nhập viện 01 ngày.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Suboxone",
-      "Buprenorphine",
-      "Suboxone is a brand name for a combination medication that contains buprenorphine and naloxone. It is used to treat opioid dependence."
-    ],
-    "retriever": {
-      "sapbert": {
-        "352990": 1.0,
-        "1819": 1.0,
-        "203841": 0.922897,
-        "352364": 0.856366,
-        "1988927": 0.817369
-      },
-      "rapidfuzz": {
-        "352990": 1.0,
-        "1819": 1.0,
-        "1307059": 0.95,
-        "353390": 0.95,
-        "2269596": 0.9,
-        "1307063": 0.9,
-        "313599": 0.855,
-        "313650": 0.855
-      }
-    },
-    "candidate": {
-      "code": "1819",
-      "confidence": 1.0
-    }
+      435,
+      443
+    ]
   },
   {
     "text": "trầm cảm",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "F32A"
+    ],
+    "assertions": [],
     "position": [
-      655,
-      663
-    ],
-    "assertion_position": [
-      655,
-      663
-    ],
-    "sentence": "Theo lời kể bệnh nhân bị [ENTITY] ngày càng nặng , vài tháng trước có các giai đoạn giống hưng cảm biểu hiện bằng tăng hoạt động và giảm nhu cầu ngủ 3-4 ngày, trong vài tuần nay và có ý định tự tử.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Depression",
-      "Major Depressive Disorder"
-    ],
-    "retriever": {
-      "sapbert": {
-        "F32A": 0.968795,
-        "F329": 0.810252,
-        "F339": 0.715773,
-        "F251": 0.684452,
-        "F341": 0.661285
-      },
-      "rapidfuzz": {
-        "Z1332": 0.9,
-        "P914": 0.9,
-        "Z1331": 0.9,
-        "F331": 0.9,
-        "F332": 0.9,
-        "F333": 0.9
-      }
-    },
-    "candidate": {
-      "code": "F32A",
-      "confidence": 0.871915
-    }
+      726,
+      734
+    ]
   },
   {
     "text": "hưng",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E8381"
+    ],
+    "assertions": [],
     "position": [
-      720,
-      724
-    ],
-    "assertion_position": [
-      720,
-      724
-    ],
-    "sentence": "Theo lời kể bệnh nhân bị trầm cảm ngày càng nặng , vài tháng trước có các giai đoạn giống [ENTITY] cảm biểu hiện bằng tăng hoạt động và giảm nhu cầu ngủ 3-4 ngày, trong vài tuần nay và có ý định tự tử.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Hưng"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E8381": 0.660223,
-        "E40": 0.552066,
-        "F50813": 0.523635,
-        "R6881": 0.523401,
-        "K901": 0.518098
-      },
-      "rapidfuzz": {
-        "I891": 0.675,
-        "J8481": 0.675,
-        "K007": 0.675
-      }
-    },
-    "candidate": {
-      "code": "E8381",
-      "confidence": 0.594201
-    }
+      791,
+      795
+    ]
   },
   {
     "text": "cảm",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      725,
-      728
-    ],
-    "assertion_position": [
-      725,
-      728
-    ],
-    "sentence": "Theo lời kể bệnh nhân bị trầm cảm ngày càng nặng , vài tháng trước có các giai đoạn giống hưng [ENTITY] biểu hiện bằng tăng hoạt động và giảm nhu cầu ngủ 3-4 ngày, trong vài tuần nay và có ý định tự tử.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "cảm",
-      "Cảm (common cold)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      796,
+      799
+    ]
   },
   {
     "text": "suboxone",
     "type": "THUỐC",
+    "candidates": [
+      "1819"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      884,
-      892
-    ],
-    "assertion_position": [
-      884,
-      892
-    ],
-    "sentence": "Thuốc kê đơn không dùng đều đặn x5-6 ngày, bắt đầu dùng [ENTITY] 3 tuần trước vì rẻ hơn, dừng dùng suboxone ngày hôm qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Suboxone",
-      "Buprenorphine",
-      "Suboxone is a brand name for a combination medication that contains buprenorphine and naloxone. It is used to treat opioid dependence."
-    ],
-    "retriever": {
-      "sapbert": {
-        "352990": 1.0,
-        "1819": 1.0,
-        "203841": 0.922897,
-        "352364": 0.856366,
-        "1988927": 0.817369
-      },
-      "rapidfuzz": {
-        "352990": 1.0,
-        "1819": 1.0,
-        "1307059": 0.95,
-        "353390": 0.95,
-        "2269596": 0.9,
-        "1307063": 0.9,
-        "313599": 0.855,
-        "313650": 0.855
-      }
-    },
-    "candidate": {
-      "code": "1819",
-      "confidence": 1.0
-    }
+      957,
+      965
+    ]
   },
   {
     "text": "suboxone",
     "type": "THUỐC",
+    "candidates": [
+      "1819"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      927,
-      935
-    ],
-    "assertion_position": [
-      927,
-      935
-    ],
-    "sentence": "Thuốc kê đơn không dùng đều đặn x5-6 ngày, bắt đầu dùng suboxone 3 tuần trước vì rẻ hơn, dừng dùng [ENTITY] ngày hôm qua.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "eng_translation": [
-      "Suboxone",
-      "Buprenorphine",
-      "Suboxone is a brand name for a combination medication that contains buprenorphine and naloxone. It is used to treat opioid dependence."
-    ],
-    "retriever": {
-      "sapbert": {
-        "352990": 1.0,
-        "1819": 1.0,
-        "203841": 0.922897,
-        "352364": 0.856366,
-        "1988927": 0.817369
-      },
-      "rapidfuzz": {
-        "352990": 1.0,
-        "1819": 1.0,
-        "1307059": 0.95,
-        "353390": 0.95,
-        "2269596": 0.9,
-        "1307063": 0.9,
-        "313599": 0.855,
-        "313650": 0.855
-      }
-    },
-    "candidate": {
-      "code": "1819",
-      "confidence": 1.0
-    }
+      1000,
+      1008
+    ]
   },
   {
     "text": "ý nghĩ tự tử",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      976,
-      988
-    ],
-    "assertion_position": [
-      976,
-      988
-    ],
-    "sentence": "[ENTITY], có nghĩ tự bắn vào đầu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "suicidal ideation",
-      "Self-harm intent"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1057,
+      1069
+    ]
   },
   {
     "text": "có",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      990,
-      992
-    ],
-    "assertion_position": [
-      990,
-      992
-    ],
-    "sentence": "ý nghĩ tự tử, [ENTITY] nghĩ tự bắn vào đầu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Yes.",
-      "No."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1071,
+      1073
+    ]
   },
   {
     "text": "bắn vào đầu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1001,
-      1012
-    ],
-    "assertion_position": [
-      1001,
-      1012
-    ],
-    "sentence": "ý nghĩ tự tử, có nghĩ tự [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "shot to the head",
-      "Traumatic injury to the head",
-      "Head injury"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1082,
+      1093
+    ]
   },
   {
     "text": "lo âu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1014,
-      1019
-    ],
-    "assertion_position": [
-      1014,
-      1019
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Anxiety",
-      "Anxiety Disorder"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1100,
+      1105
+    ]
   },
   {
     "text": "hoảng sợ",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1021,
-      1029
-    ],
-    "assertion_position": [
-      1021,
-      1029
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "fear",
-      "anxiety"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1106,
+      1114
+    ]
   },
   {
     "text": "hoang tưởng như",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1031,
-      1046
-    ],
-    "assertion_position": [
-      1031,
-      1046
-    ],
-    "sentence": "[ENTITY] đang chiếm khí oxy của người khác.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "hallucination like",
-      "Hallucination-like experience",
-      "Hallucinatory experience like"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1121,
+      1136
+    ]
   },
   {
     "text": "oxy",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1062,
-      1065
-    ],
-    "assertion_position": [
-      1062,
-      1065
-    ],
-    "sentence": "hoang tưởng như đang chiếm khí [ENTITY] của người khác.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Oxy",
-      "Oxy toxicity",
-      "Oxygen toxicity",
-      "Oxygen"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1152,
+      1155
+    ]
   }
 ]

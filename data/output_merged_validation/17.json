@@ -2,1035 +2,370 @@
   {
     "text": "bệnh trào ngược dạ dày- thực quản",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K219"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      38,
-      71
-    ],
-    "assertion_position": [
-      38,
-      71
-    ],
-    "sentence": "Bệnh mãn tính: [ENTITY] không có viêm thực quản.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Gastroesophageal reflux disease",
-      "GERD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K219": 0.805945,
-        "K2100": 0.736454,
-        "R12": 0.735888,
-        "K2101": 0.706403,
-        "P7883": 0.693847
-      },
-      "rapidfuzz": {
-        "K2101": 0.870968,
-        "K219": 0.870968,
-        "K2100": 0.870968,
-        "M65341": 0.771429,
-        "M65342": 0.771429,
-        "R454": 0.771429
-      }
-    },
-    "candidate": {
-      "code": "K219",
-      "confidence": 0.812447
-    }
+      40,
+      73
+    ]
   },
   {
     "text": "viêm thực quản",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K2970"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      81,
-      95
-    ],
-    "assertion_position": [
-      81,
-      95
-    ],
-    "sentence": "Bệnh mãn tính: bệnh trào ngược dạ dày- thực quản không có [ENTITY].",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "eng_translation": [
-      "Gastritis",
-      "Gastritis is the inflammation of the stomach lining."
-    ],
-    "retriever": {
-      "sapbert": {
-        "K2970": 0.749555,
-        "K2971": 0.686647,
-        "K30": 0.677284,
-        "K819": 0.65158,
-        "K31A0": 0.651304
-      },
-      "rapidfuzz": {
-        "K2970": 0.9,
-        "K2900": 0.9,
-        "K2930": 0.9,
-        "S32314A": 0.855,
-        "S21139S": 0.855,
-        "S21141A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K2970",
-      "confidence": 0.764599
-    }
+      83,
+      97
+    ]
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      132,
-      135
-    ],
-    "assertion_position": [
-      132,
-      135
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY] và đau cơ sau khi đi du lịch.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      135,
+      138
+    ]
   },
   {
     "text": "đau cơ",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      139,
-      145
-    ],
-    "assertion_position": [
-      139,
-      145
-    ],
-    "sentence": "Lý do nhập viện: sốt và [ENTITY] sau khi đi du lịch.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Muscle pain",
-      "Myalgia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      142,
+      148
+    ]
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      300,
-      303
-    ],
-    "assertion_position": [
-      300,
-      303
-    ],
-    "sentence": "Bắt đầu cảm thấy không khỏe kèm theo [ENTITY], mệt mỏi, đau cơ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      302,
+      305
+    ]
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      305,
-      312
-    ],
-    "assertion_position": [
-      305,
-      312
-    ],
-    "sentence": "Bắt đầu cảm thấy không khỏe kèm theo sốt, [ENTITY], đau cơ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      307,
+      314
+    ]
   },
   {
     "text": "đau cơ",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      314,
-      320
-    ],
-    "assertion_position": [
-      314,
-      320
-    ],
-    "sentence": "Bắt đầu cảm thấy không khỏe kèm theo sốt, mệt mỏi, [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Muscle pain",
-      "Myalgia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      316,
+      322
+    ]
   },
   {
     "text": "Sốt",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      322,
-      325
-    ],
-    "assertion_position": [
-      322,
-      325
-    ],
-    "sentence": "[ENTITY] cao nhất là 102.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      325,
+      328
+    ]
   },
   {
     "text": "tylenol",
     "type": "THUỐC",
+    "candidates": [
+      "202433"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      364,
-      371
-    ],
-    "assertion_position": [
-      364,
-      371
-    ],
-    "sentence": "9°F không đáp ứng với [ENTITY] và advil.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Tylenol",
-      "Acetaminophen toxicity",
-      "Acetaminophen"
-    ],
-    "retriever": {
-      "sapbert": {
-        "161": 1.0,
-        "202433": 1.0,
-        "707705": 0.97086,
-        "352523": 0.894457,
-        "220582": 0.889741
-      },
-      "rapidfuzz": {
-        "202433": 1.0,
-        "161": 1.0,
-        "220581": 0.95,
-        "315270": 0.95,
-        "332815": 0.95,
-        "209459": 0.9,
-        "2662988": 0.855,
-        "1996081": 0.855
-      }
-    },
-    "candidate": {
-      "code": "202433",
-      "confidence": 1.0
-    }
+      367,
+      374
+    ]
   },
   {
     "text": "advil",
     "type": "THUỐC",
+    "candidates": [
+      "5640"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      375,
-      380
-    ],
-    "assertion_position": [
-      375,
-      380
-    ],
-    "sentence": "9°F không đáp ứng với tylenol và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Advil",
-      "Advil is a brand name for ibuprofen, a nonsteroidal anti-inflammatory drug (NSAID) used to treat pain, inflammation, and fever. As a brand name, it is not a clinical diagnosis or standardized medical term. The canonical term would be ibuprofen.",
-      "Ibuprofen"
-    ],
-    "retriever": {
-      "sapbert": {
-        "5640": 1.0,
-        "153010": 1.0,
-        "215044": 0.907696,
-        "2698711": 0.864713,
-        "215040": 0.836101
-      },
-      "rapidfuzz": {
-        "153010": 1.0,
-        "5640": 1.0,
-        "365861": 0.9,
-        "1172038": 0.9,
-        "859317": 0.9,
-        "858838": 0.9,
-        "730866": 0.855,
-        "1791576": 0.855,
-        "208980": 0.855
-      }
-    },
-    "candidate": {
-      "code": "5640",
-      "confidence": 1.0
-    }
+      378,
+      383
+    ]
   },
   {
     "text": "đau cổ",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      390,
-      396
-    ],
-    "assertion_position": [
-      390,
-      396
-    ],
-    "sentence": "Báo cáo [ENTITY] và vai phải kèm theo sưng quanh khớp ức đòn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "neck pain",
-      "Cervical pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      394,
+      400
+    ]
   },
   {
     "text": "vai",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      400,
-      403
-    ],
-    "assertion_position": [
-      400,
-      403
-    ],
-    "sentence": "Báo cáo đau cổ và [ENTITY] phải kèm theo sưng quanh khớp ức đòn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "vai",
-      "Vasovagal syncope",
-      "Vasculitis",
-      "Ventricular Arrhythmia and Ischemia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      404,
+      407
+    ]
   },
   {
     "text": "sưng quanh khớp ức đòn",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      418,
-      440
-    ],
-    "assertion_position": [
-      418,
-      440
-    ],
-    "sentence": "Báo cáo đau cổ và vai phải kèm theo [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "swelling around the sternoclavicular joint",
-      "Swelling of the sternoclavicular joint",
-      "swelling at the sternoclavicular joint",
-      "Swelling around the sternocleidomastoid joint"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      422,
+      444
+    ]
   },
   {
     "text": "áp xe",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K614"
+    ],
+    "assertions": [],
     "position": [
-      554,
-      559
-    ],
-    "assertion_position": [
-      554,
-      559
-    ],
-    "sentence": "cảm thấy tốt hơn sau khi dẫn lưu [ENTITY], và lại thấy đỡ sốt và đau cổ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Abscess",
-      "Infected Cyst"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K614": 0.728806,
-        "L0291": 0.721136,
-        "N611": 0.66341,
-        "K6131": 0.655814,
-        "K630": 0.645236
-      },
-      "rapidfuzz": {
-        "A066": 0.9,
-        "A065": 0.9,
-        "L02612": 0.9,
-        "L0501": 0.855,
-        "L0591": 0.855,
-        "M85641": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K614",
-      "confidence": 0.655925
-    }
+      562,
+      567
+    ]
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      576,
-      579
-    ],
-    "assertion_position": [
-      576,
-      579
-    ],
-    "sentence": "cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ [ENTITY] và đau cổ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      585,
+      588
+    ]
   },
   {
     "text": "đau cổ",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      583,
-      589
-    ],
-    "assertion_position": [
-      583,
-      589
-    ],
-    "sentence": "cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ sốt và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "neck pain",
-      "Cervical pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      592,
+      598
+    ]
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      613,
-      616
-    ],
-    "assertion_position": [
-      613,
-      616
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      622,
+      625
+    ]
   },
   {
     "text": "đau cơ",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      618,
-      624
-    ],
-    "assertion_position": [
-      618,
-      624
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Muscle pain",
-      "Myalgia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      628,
+      634
+    ]
   },
   {
     "text": "đau cổ",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      626,
-      632
-    ],
-    "assertion_position": [
-      626,
-      632
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "neck pain",
-      "Cervical pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      637,
+      643
+    ]
   },
   {
     "text": "đau vai phải",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      634,
-      646
-    ],
-    "assertion_position": [
-      634,
-      646
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Right shoulder pain",
-      "Right shoulder impingement syndrome"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      646,
+      658
+    ]
   },
   {
     "text": "sưng quanh khớp ức đòn",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      648,
-      670
-    ],
-    "assertion_position": [
-      648,
-      670
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "swelling around the sternoclavicular joint",
-      "Swelling of the sternoclavicular joint",
-      "swelling at the sternoclavicular joint",
-      "Swelling around the sternocleidomastoid joint"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      661,
+      683
+    ]
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      672,
-      679
-    ],
-    "assertion_position": [
-      672,
-      679
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      686,
+      693
+    ]
   },
   {
     "text": "ho khan",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      681,
-      688
-    ],
-    "assertion_position": [
-      681,
-      688
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Cough",
-      "Coughing"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      696,
+      703
+    ]
   },
   {
     "text": "đau đầu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      690,
-      697
-    ],
-    "assertion_position": [
-      690,
-      697
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Headache"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      706,
+      713
+    ]
   },
   {
     "text": "sợ ánh sáng",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      699,
-      710
-    ],
-    "assertion_position": [
-      699,
-      710
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "fear of light",
-      "Photophobia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      716,
+      727
+    ]
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      862,
-      869
-    ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      882,
+      889
+    ]
   },
   {
     "text": "áp xe",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K614"
+    ],
+    "assertions": [],
     "position": [
-      901,
-      906
-    ],
-    "assertion_position": [
-      901,
-      906
-    ],
-    "sentence": "Đã thực hiện siêu âm vùng cổ phải cho có kết qủa là [ENTITY]/viêm khớp nhiễm trùng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Abscess",
-      "Infected Cyst"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K614": 0.728806,
-        "L0291": 0.721136,
-        "N611": 0.66341,
-        "K6131": 0.655814,
-        "K630": 0.645236
-      },
-      "rapidfuzz": {
-        "A066": 0.9,
-        "A065": 0.9,
-        "L02612": 0.9,
-        "L0501": 0.855,
-        "L0591": 0.855,
-        "M85641": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K614",
-      "confidence": 0.655925
-    }
+      923,
+      928
+    ]
   },
   {
     "text": "viêm khớp nhiễm trùng",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M009"
+    ],
+    "assertions": [],
     "position": [
-      907,
-      928
-    ],
-    "assertion_position": [
-      907,
-      928
-    ],
-    "sentence": "Đã thực hiện siêu âm vùng cổ phải cho có kết qủa là áp xe/[ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Infectious arthritis",
-      "Septic arthritis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "M009": 0.841469,
-        "M064": 0.734851,
-        "M0000": 0.706093,
-        "M0080": 0.691861,
-        "A0223": 0.674332
-      },
-      "rapidfuzz": {
-        "M08462": 0.855,
-        "M08461": 0.855,
-        "M08469": 0.855,
-        "M05242": 0.855,
-        "M05241": 0.855,
-        "M05222": 0.855
-      }
-    },
-    "candidate": {
-      "code": "M009",
-      "confidence": 0.757322
-    }
+      929,
+      950
+    ]
   },
   {
     "text": "mri",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      960,
-      963
-    ],
-    "eng_translation": [
-      "MRI",
-      "Magnetic Resonance Imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      984,
+      987
+    ]
   },
   {
     "text": "mri",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1039,
-      1042
-    ],
-    "eng_translation": [
-      "MRI",
-      "Magnetic Resonance Imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1065,
+      1068
+    ]
   },
   {
     "text": "Tim nhịp",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1279,
-      1287
-    ],
-    "assertion_position": [
-      1279,
-      1287
-    ],
-    "sentence": "[ENTITY] đều, không có tiếng tim bệnh lý.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Heart rate",
-      "Pulse rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1311,
+      1319
+    ]
   },
   {
     "text": "bạch cầu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1345,
-      1353
-    ],
-    "eng_translation": [
-      "White blood cells",
-      "Leukocytes"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1377,
+      1385
+    ]
   },
   {
     "text": "13.9",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      1354,
-      1358
-    ],
-    "eng_translation": [
-      "13.9"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1386,
+      1390
+    ]
   },
   {
     "text": "alt",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1417,
-      1420
-    ],
-    "eng_translation": [
-      "No translation provided. Please provide the Vietnamese medical text for translation.",
-      "Please provide the Vietnamese medical text for translation."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1454,
+      1457
+    ]
   },
   {
     "text": "92",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      1421,
-      1423
-    ],
-    "eng_translation": [
-      "92",
-      "The query provided is \"92\" which does not contain any medical information or context. Therefore, no rewrite is possible."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1458,
+      1460
+    ]
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1502,
-      1509
-    ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1541,
+      1548
+    ]
   },
   {
     "text": "sung huyết",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "D699"
+    ],
+    "assertions": [],
     "position": [
-      1780,
-      1790
-    ],
-    "assertion_position": [
-      1780,
-      1790
-    ],
-    "sentence": "[ENTITY] ngoại vi nhẹ nhưng không có mạch máu bên trong.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Hemorrhage",
-      "Bleeding"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D699": 0.854868,
-        "R58": 0.758272,
-        "K920": 0.707418,
-        "K922": 0.680014,
-        "N857": 0.658637
-      },
-      "rapidfuzz": {
-        "I69211": 0.9,
-        "S065XAS": 0.9,
-        "I69298": 0.9,
-        "N924": 0.9,
-        "N930": 0.9,
-        "N931": 0.9
-      }
-    },
-    "candidate": {
-      "code": "D699",
-      "confidence": 0.769381
-    }
+      1822,
+      1832
+    ]
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1867,
-      1874
-    ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1909,
+      1916
+    ]
   }
 ]

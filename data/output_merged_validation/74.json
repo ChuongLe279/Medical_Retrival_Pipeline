@@ -3,921 +3,325 @@
     "text": "nội soi",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      97,
-      104
-    ],
-    "eng_translation": [
-      "Endoscopy",
-      "Gastrointestinal endoscopy",
-      "Endoscopic Examination"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      104,
+      111
+    ]
   },
   {
     "text": "cipro",
     "type": "THUỐC",
+    "candidates": [
+      "203563"
+    ],
+    "assertions": [],
     "position": [
-      150,
-      155
-    ],
-    "assertion_position": [
-      150,
-      155
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Cipro",
-      "Ciprofloxacin toxicity",
-      "Ciprofloxacin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "2551": 1.0,
-        "203563": 1.0,
-        "92167": 0.93847,
-        "2383036": 0.89755,
-        "404930": 0.795784
-      },
-      "rapidfuzz": {
-        "203563": 1.0,
-        "2551": 1.0,
-        "1152120": 0.95,
-        "315685": 0.9,
-        "1170896": 0.9,
-        "7623": 0.9,
-        "197511": 0.9
-      }
-    },
-    "candidate": {
-      "code": "203563",
-      "confidence": 1.0
-    }
+      165,
+      170
+    ]
   },
   {
     "text": "bactrim",
     "type": "THUỐC",
+    "candidates": [
+      "151399"
+    ],
+    "assertions": [],
     "position": [
-      157,
-      164
-    ],
-    "assertion_position": [
-      157,
-      164
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Bactrim",
-      "Bactrim is a brand name for the combination antibiotic sulfamethoxazole and trimethoprim. The canonical clinical term for this medication is: Sulfamethoxazole and trimethoprim",
-      "Trimethoprim-Sulfamethoxazole",
-      "Trimethoprim and Sulfamethoxazole"
-    ],
-    "retriever": {
-      "sapbert": {
-        "151399": 1.0,
-        "10831": 0.983957,
-        "91920": 0.962183,
-        "1427187": 0.925317,
-        "352965": 0.898259
-      },
-      "rapidfuzz": {
-        "151399": 1.0,
-        "1809082": 0.95,
-        "374234": 0.95,
-        "1162984": 0.95,
-        "10831": 0.95,
-        "1167959": 0.9,
-        "208416": 0.9,
-        "10180": 0.9,
-        "10829": 0.9,
-        "751987": 0.855,
-        "2743200": 0.855,
-        "2743199": 0.855
-      }
-    },
-    "candidate": {
-      "code": "151399",
-      "confidence": 1.0
-    }
+      177,
+      184
+    ]
   },
   {
     "text": "khuẩn đường tiết niệu",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N390"
+    ],
+    "assertions": [],
     "position": [
-      187,
-      208
-    ],
-    "assertion_position": [
-      187,
-      208
-    ],
-    "sentence": "Kháng sinh cho nhiễm [ENTITY], vị trí không xác định (được bác sĩ chăm sóc chính kê đơn vào cuối tuần).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "urinary tract infection",
-      "UTI"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N390": 0.938475,
-        "P393": 0.729689,
-        "R8281": 0.726378,
-        "O8620": 0.722883,
-        "O2340": 0.716599
-      },
-      "rapidfuzz": {
-        "P393": 0.95,
-        "O2390": 0.9,
-        "O2392": 0.9,
-        "L574": 0.9,
-        "L853": 0.9,
-        "L942": 0.9
-      }
-    },
-    "candidate": {
-      "code": "N390",
-      "confidence": 0.844627
-    }
+      212,
+      233
+    ]
   },
   {
     "text": "đau bụng dưới",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      328,
-      341
-    ],
-    "assertion_position": [
-      328,
-      341
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Lower abdominal pain",
-      "Abdominal pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      360,
+      373
+    ]
   },
   {
     "text": "Đau",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      432,
-      435
-    ],
-    "assertion_position": [
-      432,
-      435
-    ],
-    "sentence": "[ENTITY] tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      480,
+      483
+    ]
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      510,
-      518
-    ],
-    "assertion_position": [
-      510,
-      518
-    ],
-    "sentence": "Ban đầu có [ENTITY] nhưng đã thuyên giảm.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      563,
+      571
+    ]
   },
   {
     "text": "toradol",
     "type": "THUỐC",
+    "candidates": [
+      "57309"
+    ],
+    "assertions": [],
     "position": [
-      603,
-      610
-    ],
-    "assertion_position": [
-      603,
-      610
-    ],
-    "sentence": "đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Toradol",
-      "Toradol is a brand name for ketorolac, which is a non-opioid analgesic medication used for the short-term management of moderate to severe pain. It is typically used in hospital settings for postoperative pain relief.",
-      "Toradol is a non-opioid analgesic used for the management of moderate to severe pain. It is commonly prescribed for postoperative pain, musculoskeletal pain, and other acute pain conditions.",
-      "Torbutaline"
-    ],
-    "retriever": {
-      "sapbert": {
-        "57309": 1.0,
-        "10368": 0.858818,
-        "220349": 0.856448,
-        "35827": 0.825702,
-        "405162": 0.82065
-      },
-      "rapidfuzz": {
-        "10368": 0.909091,
-        "2656202": 0.9,
-        "2658647": 0.9,
-        "2639044": 0.855,
-        "1659183": 0.855,
-        "1659156": 0.855,
-        "849683": 0.855,
-        "2743209": 0.855,
-        "848949": 0.855,
-        "35215": 0.830769,
-        "2647983": 0.818182,
-        "817953": 0.818182
-      }
-    },
-    "candidate": {
-      "code": "57309",
-      "confidence": 0.9
-    }
+      661,
+      668
+    ]
   },
   {
     "text": "đau bụng dưới",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      634,
-      647
-    ],
-    "assertion_position": [
-      634,
-      647
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Lower abdominal pain",
-      "Abdominal pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      700,
+      713
+    ]
   },
   {
     "text": "ớn lạnh",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      649,
-      656
-    ],
-    "assertion_position": [
-      649,
-      656
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "chills"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      720,
+      727
+    ]
   },
   {
     "text": "khó chịu khi đi tiểu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      658,
-      678
-    ],
-    "assertion_position": [
-      658,
-      678
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "dysuria"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      734,
+      754
+    ]
   },
   {
     "text": "khó chịu khi đại tiện",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      680,
-      701
-    ],
-    "assertion_position": [
-      680,
-      701
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Discomfort during defecation",
-      "Anal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      761,
+      782
+    ]
   },
   {
     "text": "nhiễm khuẩn đường tiết niệu",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N390"
+    ],
+    "assertions": [],
     "position": [
-      806,
-      833
-    ],
-    "assertion_position": [
-      806,
-      833
-    ],
-    "sentence": "Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho [ENTITY], vị trí không xác định.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Urinary tract infection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N390": 0.938475,
-        "P393": 0.729689,
-        "R8281": 0.726378,
-        "O8620": 0.722883,
-        "O2340": 0.716599
-      },
-      "rapidfuzz": {
-        "P393": 0.95,
-        "O2390": 0.9,
-        "O2392": 0.9
-      }
-    },
-    "candidate": {
-      "code": "N390",
-      "confidence": 0.844627
-    }
+      895,
+      922
+    ]
   },
   {
     "text": "cipro",
     "type": "THUỐC",
+    "candidates": [
+      "203563"
+    ],
+    "assertions": [],
     "position": [
-      918,
-      923
-    ],
-    "assertion_position": [
-      918,
-      923
-    ],
-    "sentence": "Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng [ENTITY] và bactrim.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Cipro",
-      "Ciprofloxacin toxicity",
-      "Ciprofloxacin"
-    ],
-    "retriever": {
-      "sapbert": {
-        "2551": 1.0,
-        "203563": 1.0,
-        "92167": 0.93847,
-        "2383036": 0.89755,
-        "404930": 0.795784
-      },
-      "rapidfuzz": {
-        "203563": 1.0,
-        "2551": 1.0,
-        "1152120": 0.95,
-        "315685": 0.9,
-        "1170896": 0.9,
-        "7623": 0.9,
-        "197511": 0.9
-      }
-    },
-    "candidate": {
-      "code": "203563",
-      "confidence": 1.0
-    }
+      1012,
+      1017
+    ]
   },
   {
     "text": "bactrim",
     "type": "THUỐC",
+    "candidates": [
+      "151399"
+    ],
+    "assertions": [],
     "position": [
-      927,
-      934
-    ],
-    "assertion_position": [
-      927,
-      934
-    ],
-    "sentence": "Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Bactrim",
-      "Bactrim is a brand name for the combination antibiotic sulfamethoxazole and trimethoprim. The canonical clinical term for this medication is: Sulfamethoxazole and trimethoprim",
-      "Trimethoprim-Sulfamethoxazole",
-      "Trimethoprim and Sulfamethoxazole"
-    ],
-    "retriever": {
-      "sapbert": {
-        "151399": 1.0,
-        "10831": 0.983957,
-        "91920": 0.962183,
-        "1427187": 0.925317,
-        "352965": 0.898259
-      },
-      "rapidfuzz": {
-        "151399": 1.0,
-        "1809082": 0.95,
-        "374234": 0.95,
-        "1162984": 0.95,
-        "10831": 0.95,
-        "1167959": 0.9,
-        "208416": 0.9,
-        "10180": 0.9,
-        "10829": 0.9,
-        "751987": 0.855,
-        "2743200": 0.855,
-        "2743199": 0.855
-      }
-    },
-    "candidate": {
-      "code": "151399",
-      "confidence": 1.0
-    }
+      1021,
+      1028
+    ]
   },
   {
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      973,
-      976
-    ],
-    "assertion_position": [
-      973,
-      976
-    ],
-    "sentence": "[ENTITY] tiến triển và lan vào sườn trái và LLQ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1075,
+      1078
+    ]
   },
   {
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1017,
-      1020
-    ],
-    "assertion_position": [
-      1017,
-      1020
-    ],
-    "sentence": "[ENTITY] liên tục, lan tỏa ra lưng và có tính chất kéo.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1124,
+      1127
+    ]
   },
   {
     "text": "Đồng",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1068,
-      1072
-    ],
-    "eng_translation": [
-      "Same"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1180,
+      1184
+    ]
   },
   {
     "text": "ớn lạnh",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1075,
-      1082
-    ],
-    "assertion_position": [
-      1075,
-      1082
-    ],
-    "sentence": "Đồng ý [ENTITY] và một số khó chịu khi đi tiểu và đại tiện.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "chills"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1187,
+      1194
+    ]
   },
   {
     "text": "khó chịu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1093,
-      1101
-    ],
-    "assertion_position": [
-      1093,
-      1101
-    ],
-    "sentence": "Đồng ý ớn lạnh và một số [ENTITY] khi đi tiểu và đại tiện.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1205,
+      1213
+    ]
   },
   {
     "text": "đau đớn khi đi tiểu",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1167,
-      1186
-    ],
-    "assertion_position": [
-      1167,
-      1186
-    ],
-    "sentence": "Không có máu trong phân hoặc nước tiểu, [ENTITY], tiểu gấp hoặc các triệu chứng tiết niệu khác.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Painful urination",
-      "Dysuria"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1284,
+      1303
+    ]
   },
   {
     "text": "tiểu gấp",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1188,
-      1196
-    ],
-    "assertion_position": [
-      1188,
-      1196
-    ],
-    "sentence": "Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, [ENTITY] hoặc các triệu chứng tiết niệu khác.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "urinary urgency",
-      "Urinary urgency is a common symptom characterized by a sudden, compelling desire to urinate that is difficult to defer. It can be a manifestation of various underlying conditions, including urinary tract infections, interstitial cystitis, overactive bladder syndrome, or neurological disorders affecting bladder control. The symptom may be accompanied by other urinary symptoms such as frequency, nocturia, or dysuria. It is important to evaluate the patient's medical history, medication use, and potential contributing factors to determine the underlying cause and appropriate management."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1305,
+      1313
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1250,
-      1258
-    ],
-    "assertion_position": [
-      1250,
-      1258
-    ],
-    "sentence": "Phủ nhận CPSOB ([ENTITY], khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1372,
+      1380
+    ]
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1260,
-      1267
-    ],
-    "assertion_position": [
-      1260,
-      1267
-    ],
-    "sentence": "Phủ nhận CPSOB (đau ngực, [ENTITY]), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1382,
+      1389
+    ]
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1274,
-      1282
-    ],
-    "assertion_position": [
-      1274,
-      1282
-    ],
-    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV ([ENTITY], nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1396,
+      1404
+    ]
   },
   {
     "text": "nôn mửa",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1284,
-      1291
-    ],
-    "assertion_position": [
-      1284,
-      1291
-    ],
-    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, [ENTITY]), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1406,
+      1413
+    ]
   },
   {
     "text": "chảy máu âm đạo",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1298,
-      1313
-    ],
-    "assertion_position": [
-      1298,
-      1313
-    ],
-    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB ([ENTITY]), khí hư bất thường, thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "eng_translation": [
-      "vaginal bleeding",
-      "Vaginal hemorrhage"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1420,
+      1435
+    ]
   },
   {
     "text": "khí hư bất thường",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1316,
-      1333
-    ],
-    "assertion_position": [
-      1316,
-      1333
-    ],
-    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), [ENTITY], thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Abnormal vaginal discharge",
-      "Abnormal vaginal secretion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1438,
+      1455
+    ]
   },
   {
     "text": "công thức máu (cbc)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1398,
-      1417
-    ],
-    "eng_translation": [
-      "CBC (Complete Blood Count)",
-      "Full Blood Count"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1527,
+      1546
+    ]
   },
   {
     "text": "12",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
     "position": [
-      1421,
-      1423
-    ],
-    "eng_translation": [
-      "12",
-      "The query provided is \"12\" which does not contain any medical information or context. Therefore, no rewrite is possible."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1550,
+      1552
+    ]
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1465,
-      1490
-    ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1597,
+      1622
+    ]
   },
   {
     "text": "áp xe",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K614"
+    ],
+    "assertions": [],
     "position": [
-      1633,
-      1638
-    ],
-    "assertion_position": [
-      1633,
-      1638
-    ],
-    "sentence": "Các phát hiện chẩn đoán khác: Lo ngại về [ENTITY] (Đã tư vấn Ngoại khoa Tổng hợp).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Abscess",
-      "Infected Cyst"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K614": 0.728806,
-        "L0291": 0.721136,
-        "N611": 0.66341,
-        "K6131": 0.655814,
-        "K630": 0.645236
-      },
-      "rapidfuzz": {
-        "A066": 0.9,
-        "A065": 0.9,
-        "L02612": 0.9,
-        "L0501": 0.855,
-        "L0591": 0.855,
-        "M85641": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K614",
-      "confidence": 0.655925
-    }
+      1768,
+      1773
+    ]
   }
 ]

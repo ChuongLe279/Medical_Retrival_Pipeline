@@ -2,1050 +2,344 @@
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      64,
-      72
-    ],
-    "assertion_position": [
-      64,
-      72
-    ],
-    "sentence": "Các tập tương tự trước đây: Nhập viện trước đó vì [ENTITY] (đau ngực), loại trừ Nhồi máu cơ tim và nghi ngờ thấp về Hội chứng mạch vành cấp.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      71,
+      79
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      74,
-      82
-    ],
-    "assertion_position": [
-      74,
-      82
-    ],
-    "sentence": "Các tập tương tự trước đây: Nhập viện trước đó vì đau ngực ([ENTITY]), loại trừ Nhồi máu cơ tim và nghi ngờ thấp về Hội chứng mạch vành cấp.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      81,
+      89
+    ]
   },
   {
     "text": "Nhồi máu cơ tim",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I21A1"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      94,
-      109
-    ],
-    "assertion_position": [
-      94,
-      109
-    ],
-    "sentence": "Các tập tương tự trước đây: Nhập viện trước đó vì đau ngực (đau ngực), loại trừ [ENTITY] và nghi ngờ thấp về Hội chứng mạch vành cấp.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "eng_translation": [
-      "Myocardial infarction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I219": 0.851584,
-        "I21A1": 0.785121,
-        "I249": 0.769203,
-        "I252": 0.761003,
-        "I639": 0.728907
-      },
-      "rapidfuzz": {
-        "I21A1": 0.95,
-        "I252": 0.95,
-        "I2109": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I21A1",
-      "confidence": 0.801609
-    }
+      101,
+      116
+    ]
   },
   {
     "text": "Hội chứng mạch vành cấp",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I21A1"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      130,
-      153
-    ],
-    "assertion_position": [
-      130,
-      153
-    ],
-    "sentence": "Các tập tương tự trước đây: Nhập viện trước đó vì đau ngực (đau ngực), loại trừ Nhồi máu cơ tim và nghi ngờ thấp về [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Acute coronary syndrome",
-      "Myocardial infarction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I219": 0.851584,
-        "I249": 0.80976,
-        "I21A1": 0.785121,
-        "I252": 0.761003,
-        "I639": 0.728907
-      },
-      "rapidfuzz": {
-        "I21A1": 0.95,
-        "I252": 0.95,
-        "I2109": 0.9,
-        "K281": 0.855,
-        "K279": 0.855,
-        "K273": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I21A1",
-      "confidence": 0.801609
-    }
+      137,
+      160
+    ]
   },
   {
     "text": "tăng huyết áp vô căn",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
     "position": [
-      177,
-      197
-    ],
-    "assertion_position": [
-      177,
-      197
-    ],
-    "sentence": "[ENTITY] (nguyên phát) (Tăng huyết áp).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Essential hypertension",
-      "Primary hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.802756,
-        "I270": 0.741585,
-        "I160": 0.721417,
-        "I150": 0.70669
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "O10013": 0.9,
-        "O1002": 0.9,
-        "H40062": 0.855,
-        "G35B0": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+      193,
+      213
+    ]
   },
   {
     "text": "Tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
     "position": [
-      213,
-      226
-    ],
-    "assertion_position": [
-      213,
-      226
-    ],
-    "sentence": "tăng huyết áp vô căn (nguyên phát) ([ENTITY]).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+      229,
+      242
+    ]
   },
   {
     "text": "tăng lipid máu",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E785"
+    ],
+    "assertions": [],
     "position": [
-      229,
-      243
-    ],
-    "assertion_position": [
-      229,
-      243
-    ],
-    "sentence": "[ENTITY], không đặc hiệu (tăng lipid máu, không đặc hiệu).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Hyperlipidemia",
-      "Dyslipidemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E785": 0.979012,
-        "E786": 0.784723,
-        "E7849": 0.765059,
-        "E782": 0.751965,
-        "E7841": 0.744404
-      },
-      "rapidfuzz": {
-        "E782": 0.95,
-        "E7849": 0.95,
-        "E785": 0.9,
-        "Z83438": 0.771429
-      }
-    },
-    "candidate": {
-      "code": "E785",
-      "confidence": 0.971111
-    }
+      250,
+      264
+    ]
   },
   {
     "text": "tăng lipid máu",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E785"
+    ],
+    "assertions": [],
     "position": [
-      261,
-      275
-    ],
-    "assertion_position": [
-      261,
-      275
-    ],
-    "sentence": "tăng lipid máu, không đặc hiệu ([ENTITY], không đặc hiệu).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Hyperlipidemia",
-      "Dyslipidemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E785": 0.979012,
-        "E786": 0.784723,
-        "E7849": 0.765059,
-        "E782": 0.751965,
-        "E7841": 0.744404
-      },
-      "rapidfuzz": {
-        "E782": 0.95,
-        "E7849": 0.95,
-        "E785": 0.9,
-        "Z83438": 0.771429
-      }
-    },
-    "candidate": {
-      "code": "E785",
-      "confidence": 0.971111
-    }
+      282,
+      296
+    ]
   },
   {
     "text": "Đái tháo đường type 2",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E1165"
+    ],
+    "assertions": [],
     "position": [
-      294,
-      315
-    ],
-    "assertion_position": [
-      294,
-      315
-    ],
-    "sentence": "[ENTITY] (Đái tháo đường típ 2).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Type 2 diabetes mellitus",
-      "Diabetes mellitus type 2"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.844191,
-        "E119": 0.736971,
-        "E118": 0.725221,
-        "O24119": 0.724895,
-        "Z833": 0.724102
-      },
-      "rapidfuzz": {
-        "O24111": 0.9,
-        "O24112": 0.9,
-        "E1169": 0.9,
-        "S72362Q": 0.855,
-        "S72361M": 0.855,
-        "S72361N": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.759772
-    }
+      320,
+      341
+    ]
   },
   {
     "text": "Đái tháo đường típ 2",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E1165"
+    ],
+    "assertions": [],
     "position": [
-      317,
-      337
-    ],
-    "assertion_position": [
-      317,
-      337
-    ],
-    "sentence": "Đái tháo đường type 2 ([ENTITY]).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Type 2 diabetes mellitus",
-      "Diabetes mellitus type 2"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.844191,
-        "E119": 0.736971,
-        "E118": 0.725221,
-        "O24119": 0.724895,
-        "Z833": 0.724102
-      },
-      "rapidfuzz": {
-        "O24111": 0.9,
-        "O24112": 0.9,
-        "E1169": 0.9,
-        "S72362Q": 0.855,
-        "S72361M": 0.855,
-        "S72361N": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.759772
-    }
+      343,
+      363
+    ]
   },
   {
     "text": "bệnh phổi tắc nghẽn mạn tính",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J449"
+    ],
+    "assertions": [],
     "position": [
-      340,
-      368
-    ],
-    "assertion_position": [
-      340,
-      368
-    ],
-    "sentence": "[ENTITY], không xác định (bệnh phổi tắc nghẽn mạn tính, không xác định).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Chronic Obstructive Pulmonary Disease",
-      "Chronic Obstructive Lung Disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J449": 0.984133,
-        "J4489": 0.684525,
-        "J42": 0.652648,
-        "I2781": 0.644329,
-        "J849": 0.633067
-      },
-      "rapidfuzz": {
-        "J449": 0.95,
-        "J4489": 0.95,
-        "J441": 0.9,
-        "K8010": 0.855,
-        "K05319": 0.855,
-        "I6980": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J449",
-      "confidence": 0.98072
-    }
+      371,
+      399
+    ]
   },
   {
     "text": "bệnh phổi tắc nghẽn mạn tính",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J449"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      386,
-      414
-    ],
-    "assertion_position": [
-      386,
-      414
-    ],
-    "sentence": "bệnh phổi tắc nghẽn mạn tính, không xác định ([ENTITY], không xác định).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Chronic Obstructive Pulmonary Disease",
-      "Chronic Obstructive Lung Disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J449": 0.984133,
-        "J4489": 0.684525,
-        "J42": 0.652648,
-        "I2781": 0.644329,
-        "J849": 0.633067
-      },
-      "rapidfuzz": {
-        "J449": 0.95,
-        "J4489": 0.95,
-        "J441": 0.9,
-        "K8010": 0.855,
-        "K05319": 0.855,
-        "I6980": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J449",
-      "confidence": 0.98072
-    }
+      417,
+      445
+    ]
   },
   {
     "text": "bệnh tim mạch",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I519"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      433,
-      446
-    ],
-    "assertion_position": [
-      433,
-      446
-    ],
-    "sentence": "[ENTITY] do xơ vữa động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "cardiovascular disease",
-      "Cardiac disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I519": 0.955106,
-        "I5189": 0.746198,
-        "I429": 0.718682,
-        "I099": 0.705557,
-        "I679": 0.694969
-      },
-      "rapidfuzz": {
-        "C946": 0.855,
-        "I289": 0.855,
-        "I279": 0.855,
-        "R011": 0.855,
-        "T82120D": 0.855,
-        "T82129A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I519",
-      "confidence": 0.859595
-    }
+      469,
+      482
+    ]
   },
   {
     "text": "vữa",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I739"
+    ],
+    "assertions": [],
     "position": [
-      453,
-      456
-    ],
-    "assertion_position": [
-      453,
-      456
-    ],
-    "sentence": "bệnh tim mạch do xơ [ENTITY] động mạch (bệnh tim mạch do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Vascular disease",
-      "Vascular disorder"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I739": 0.801571,
-        "I999": 0.782732,
-        "I679": 0.741166,
-        "K559": 0.698475,
-        "I779": 0.673092
-      },
-      "rapidfuzz": {
-        "G468": 0.9,
-        "I69933": 0.9,
-        "I69934": 0.9,
-        "H93093": 0.9,
-        "H93099": 0.9,
-        "H93091": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I739",
-      "confidence": 0.721414
-    }
+      489,
+      492
+    ]
   },
   {
     "text": "bệnh tim mạch",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I519"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      468,
-      481
-    ],
-    "assertion_position": [
-      468,
-      481
-    ],
-    "sentence": "bệnh tim mạch do xơ vữa động mạch ([ENTITY] do xơ vữa động mạch) đã phẫu thuật bắc cầu chủ động mạch vành (sp CABG).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "cardiovascular disease",
-      "Cardiac disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I519": 0.955106,
-        "I5189": 0.746198,
-        "I429": 0.718682,
-        "I099": 0.705557,
-        "I679": 0.694969
-      },
-      "rapidfuzz": {
-        "C946": 0.855,
-        "I289": 0.855,
-        "I279": 0.855,
-        "R011": 0.855,
-        "T82120D": 0.855,
-        "T82129A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I519",
-      "confidence": 0.859595
-    }
+      504,
+      517
+    ]
   },
   {
     "text": "aspirin 81mg",
     "type": "THUỐC",
+    "candidates": [
+      "315431"
+    ],
+    "assertions": [],
     "position": [
-      708,
-      720
-    ],
-    "assertion_position": [
-      708,
-      720
-    ],
-    "sentence": "[ENTITY] (asa81).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "aspirin 81mg",
-      "low-dose aspirin",
-      "aspirin 81 milligrams"
-    ],
-    "retriever": {
-      "sapbert": {
-        "832098": 1.0,
-        "315431": 0.961164,
-        "572163": 0.938508,
-        "724442": 0.934382,
-        "1189780": 0.933692
-      },
-      "rapidfuzz": {
-        "315431": 1.0,
-        "900469": 0.912,
-        "1052678": 0.9,
-        "825180": 0.9,
-        "1191": 0.9
-      }
-    },
-    "candidate": {
-      "code": "315431",
-      "confidence": 0.965048
-    }
+      760,
+      772
+    ]
   },
   {
     "text": "Đột quỵ",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I679"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      780,
-      787
-    ],
-    "assertion_position": [
-      780,
-      787
-    ],
-    "sentence": "clopidogrel (prasugrel chuyển sang clopidogrel do [ENTITY] gần đây).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Stroke",
-      "Cerebrovascular accident"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I679": 0.807886,
-        "I639": 0.785716,
-        "G464": 0.728182,
-        "I6782": 0.713341,
-        "I69993": 0.704568
-      },
-      "rapidfuzz": {
-        "T6701XA": 0.9,
-        "T6701XD": 0.9,
-        "T6701XS": 0.9,
-        "V9729XA": 0.855,
-        "V981XXA": 0.855,
-        "V980XXS": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I679",
-      "confidence": 0.727097
-    }
+      837,
+      844
+    ]
   },
   {
     "text": "metoprolol succinate 100mg daily",
     "type": "THUỐC",
+    "candidates": [
+      "688099"
+    ],
+    "assertions": [],
     "position": [
-      798,
-      830
-    ],
-    "assertion_position": [
-      798,
-      830
-    ],
-    "sentence": "[ENTITY] (tăng liều).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Metoprolol succinate 100mg daily",
-      "Metoprolol succinate 100 mg daily",
-      "Beta-blocker 100mg daily"
-    ],
-    "retriever": {
-      "sapbert": {
-        "688099": 0.766613,
-        "2656065": 0.731096,
-        "2648648": 0.727254,
-        "672671": 0.72553,
-        "221124": 0.715876
-      },
-      "rapidfuzz": {
-        "1370483": 0.95,
-        "1307106": 0.9,
-        "865575": 0.9,
-        "1482912": 0.855,
-        "2471100": 0.855,
-        "2669715": 0.855
-      }
-    },
-    "candidate": {
-      "code": "688099",
-      "confidence": 0.689952
-    }
+      860,
+      892
+    ]
   },
   {
     "text": "lasix 40mg daily",
     "type": "THUỐC",
+    "candidates": [
+      "313988"
+    ],
+    "assertions": [],
     "position": [
-      844,
-      860
-    ],
-    "assertion_position": [
-      844,
-      860
-    ],
-    "sentence": "[ENTITY] (tăng liều).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Lasix 40mg daily",
-      "Furosemide 40mg daily"
-    ],
-    "retriever": {
-      "sapbert": {
-        "313988": 0.793921,
-        "200809": 0.79163,
-        "261287": 0.632097,
-        "1990745": 0.620747
-      },
-      "rapidfuzz": {
-        "315971": 0.95,
-        "202991": 0.9,
-        "4603": 0.9,
-        "565458": 0.863636,
-        "2743365": 0.855,
-        "1245378": 0.855
-      }
-    },
-    "candidate": {
-      "code": "313988",
-      "confidence": 0.714529
-    }
+      911,
+      927
+    ]
   },
   {
     "text": "atorvastatin 80mg daily",
     "type": "THUỐC",
+    "candidates": [
+      "259255"
+    ],
+    "assertions": [],
     "position": [
-      874,
-      897
-    ],
-    "assertion_position": [
-      874,
-      897
-    ],
-    "sentence": "[ENTITY] (bắt đầu).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "atorvastatin 80mg daily",
-      "atorvastatin 80 mg daily"
-    ],
-    "retriever": {
-      "sapbert": {
-        "259255": 0.830441
-      },
-      "rapidfuzz": {
-        "329299": 0.95,
-        "83367": 0.9,
-        "10603": 0.9
-      }
-    },
-    "candidate": {
-      "code": "259255",
-      "confidence": 0.747397
-    }
+      946,
+      969
+    ]
   },
   {
     "text": "lisinopril 2.5mg daily",
     "type": "THUỐC",
+    "candidates": [
+      "311353"
+    ],
+    "assertions": [],
     "position": [
-      909,
-      931
-    ],
-    "assertion_position": [
-      909,
-      931
-    ],
-    "sentence": "[ENTITY]",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Lisinopril 2.5 mg daily",
-      "Lisinopril 2.5 milligrams daily"
-    ],
-    "retriever": {
-      "sapbert": {
-        "311353": 0.901951
-      },
-      "rapidfuzz": {
-        "316152": 0.95,
-        "29046": 0.9,
-        "2743372": 0.855
-      }
-    },
-    "candidate": {
-      "code": "311353",
-      "confidence": 0.811756
-    }
+      986,
+      1008
+    ]
   },
   {
     "text": "ranexa 500mg daily",
     "type": "THUỐC",
+    "candidates": [
+      "616749"
+    ],
+    "assertions": [],
     "position": [
-      943,
-      961
-    ],
-    "assertion_position": [
-      943,
-      961
-    ],
-    "sentence": "[ENTITY] (tiếp tục).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Ranexa 500mg daily",
-      "Ranolazine 500mg daily",
-      "Ranexa 500 mg daily"
-    ],
-    "retriever": {
-      "sapbert": {
-        "616749": 0.869737,
-        "2724042": 0.847714,
-        "356778": 0.618345,
-        "1322489": 0.569748,
-        "220994": 0.534248
-      },
-      "rapidfuzz": {
-        "616490": 0.95,
-        "356778": 0.9,
-        "35829": 0.9,
-        "2102842": 0.855,
-        "2663917": 0.855,
-        "2743413": 0.855
-      }
-    },
-    "candidate": {
-      "code": "616749",
-      "confidence": 0.782763
-    }
+      1025,
+      1043
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1014,
-      1022
-    ],
-    "assertion_position": [
-      1014,
-      1022
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1103,
+      1111
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1209,
-      1217
-    ],
-    "assertion_position": [
-      1209,
-      1217
-    ],
-    "sentence": "Bắt đầu phát triển [ENTITY] vào ban đêm lần cuối (khung thời gian không được chỉ định).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1315,
+      1323
+    ]
   },
   {
     "text": "đêm",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1226,
-      1229
-    ],
-    "assertion_position": [
-      1226,
-      1229
-    ],
-    "sentence": "Bắt đầu phát triển đau ngực vào ban [ENTITY] lần cuối (khung thời gian không được chỉ định).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "night",
-      "Nighttime hyperhidrosis affecting the palms and soles, with no known underlying medical condition."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1332,
+      1335
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1300,
-      1308
-    ],
-    "assertion_position": [
-      1300,
-      1308
-    ],
-    "sentence": "Triệu chứng hiện tại: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1410,
+      1418
+    ]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1451,
-      1459
-    ],
-    "assertion_position": [
-      1451,
-      1459
-    ],
-    "sentence": "Không có [ENTITY], khó thở, đánh trống ngực.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1573,
+      1581
+    ]
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1461,
-      1468
-    ],
-    "assertion_position": [
-      1461,
-      1468
-    ],
-    "sentence": "Không có đau ngực, [ENTITY], đánh trống ngực.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1583,
+      1590
+    ]
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      1470,
-      1485
-    ],
-    "assertion_position": [
-      1470,
-      1485
-    ],
-    "sentence": "Không có đau ngực, khó thở, [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1592,
+      1607
+    ]
   }
 ]

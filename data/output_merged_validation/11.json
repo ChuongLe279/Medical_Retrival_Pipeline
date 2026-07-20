@@ -2,319 +2,103 @@
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [],
     "position": [
-      45,
-      58
-    ],
-    "assertion_position": [
-      45,
-      58
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+      57,
+      70
+    ]
   },
   {
     "text": "bệnh gút",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "M109"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      60,
-      68
-    ],
-    "assertion_position": [
-      60,
-      68
-    ],
-    "sentence": "[ENTITY] không đặc hiệu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "gout",
-      "Hyperuricemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "M109": 0.97747,
-        "R82993": 0.878489,
-        "M1000": 0.845624,
-        "M1009": 0.739016,
-        "M1020": 0.72526
-      },
-      "rapidfuzz": {
-        "M109": 0.9,
-        "M10421": 0.9,
-        "M10422": 0.9,
-        "E790": 0.9,
-        "R82993": 0.785714,
-        "E8352": 0.769231
-      }
-    },
-    "candidate": {
-      "code": "M109",
-      "confidence": 0.969723
-    }
+      77,
+      85
+    ]
   },
   {
     "text": "bệnh thận mạn",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N189"
+    ],
+    "assertions": [
+      "isNegated"
+    ],
     "position": [
-      85,
-      98
-    ],
-    "assertion_position": [
-      85,
-      98
-    ],
-    "sentence": "[ENTITY], không đặc hiệu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated",
-    "eng_translation": [
-      "Chronic kidney disease",
-      "CKD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N189": 0.982146,
-        "N039": 0.781739,
-        "N186": 0.757736,
-        "N181": 0.744167,
-        "N1830": 0.681813
-      },
-      "rapidfuzz": {
-        "D631": 0.95,
-        "N181": 0.95,
-        "N1831": 0.95,
-        "I450": 0.72,
-        "I452": 0.72,
-        "I453": 0.72
-      }
-    },
-    "candidate": {
-      "code": "N189",
-      "confidence": 0.883931
-    }
+      107,
+      120
+    ]
   },
   {
     "text": "ung thư đại tràng",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "C189"
+    ],
+    "assertions": [],
     "position": [
-      116,
-      133
-    ],
-    "assertion_position": [
-      116,
-      133
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Colorectal cancer",
-      "Colorectal carcinoma"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C189": 0.794747,
-        "C20": 0.770835,
-        "C180": 0.711332,
-        "Z15060": 0.694299,
-        "C260": 0.672127
-      },
-      "rapidfuzz": {
-        "Z15060": 0.9,
-        "R971": 0.855,
-        "QA1790": 0.855,
-        "C7B1": 0.855,
-        "C44722": 0.855,
-        "C44711": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C189",
-      "confidence": 0.715272
-    }
+      143,
+      160
+    ]
   },
   {
     "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E669"
+    ],
+    "assertions": [],
     "position": [
-      135,
-      142
-    ],
-    "assertion_position": [
-      135,
-      142
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Obesity",
-      "Excess body weight"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E669": 0.985618,
-        "E663": 0.883644,
-        "E66811": 0.865016,
-        "E66813": 0.861392,
-        "E66812": 0.832182
-      },
-      "rapidfuzz": {
-        "E8882": 0.9,
-        "O99211": 0.9,
-        "Z152": 0.9,
-        "S81832D": 0.855,
-        "H02814": 0.855,
-        "H02813": 0.855
-      }
-    },
-    "candidate": {
-      "code": "E669",
-      "confidence": 0.887056
-    }
+      167,
+      174
+    ]
   },
   {
     "text": "xơ gan",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K7460"
+    ],
+    "assertions": [],
     "position": [
-      154,
-      160
-    ],
-    "assertion_position": [
-      154,
-      160
-    ],
-    "sentence": "Bệnh nhân [ENTITY] mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và tràn dịch màng phổi.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "cirrhosis",
-      "Liver disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K769": 0.982723,
-        "K7460": 0.924504,
-        "P7881": 0.813326,
-        "K759": 0.78242,
-        "K77": 0.780145
-      },
-      "rapidfuzz": {
-        "K7469": 0.9,
-        "K717": 0.9,
-        "K7460": 0.9,
-        "I27840": 0.9,
-        "K7151": 0.9,
-        "K716": 0.9
-      }
-    },
-    "candidate": {
-      "code": "K7460",
-      "confidence": 0.922054
-    }
+      191,
+      197
+    ]
   },
   {
     "text": "cổ trướng",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      198,
-      207
-    ],
-    "assertion_position": [
-      198,
-      207
-    ],
-    "sentence": "Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, [ENTITY] và tràn dịch màng phổi.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "ascites",
-      "Ascites is the accumulation of fluid in the peritoneal cavity."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      235,
+      244
+    ]
   },
   {
     "text": "tràn dịch màng phổi",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      211,
-      230
-    ],
-    "assertion_position": [
-      211,
-      230
-    ],
-    "sentence": "Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "pleural effusion",
-      "Pleural fluid accumulation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      248,
+      267
+    ]
   },
   {
     "text": "TIPS",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      446,
-      450
-    ],
-    "eng_translation": [
-      "TIPS",
-      "Transjugular Intrahepatic Portosystemic Shunt"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      510,
+      514
+    ]
   }
 ]

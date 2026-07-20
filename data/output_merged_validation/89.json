@@ -3,269 +3,101 @@
     "text": "nội soi",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      46,
-      53
-    ],
-    "eng_translation": [
-      "Endoscopy",
-      "Gastrointestinal endoscopy",
-      "Endoscopic Examination"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      53,
+      60
+    ]
   },
   {
     "text": "ERCP",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      74,
-      78
-    ],
-    "eng_translation": [
-      "ERCP",
-      "Endoscopic Retrograde Cholangiopancreatography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      81,
+      85
+    ]
   },
   {
     "text": "flagyl",
     "type": "THUỐC",
+    "candidates": [
+      "202866"
+    ],
+    "assertions": [],
     "position": [
-      202,
-      208
-    ],
-    "assertion_position": [
-      202,
-      208
-    ],
-    "sentence": "[ENTITY], chăm sóc vết thương tại chỗ, nhịn ăn đường miệng, dinh dưỡng tĩnh mạch.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "Flagyl",
-      "Metronidazole"
-    ],
-    "retriever": {
-      "sapbert": {
-        "6922": 1.0,
-        "202866": 1.0,
-        "92718": 0.921123,
-        "217133": 0.897875,
-        "904400": 0.874848
-      },
-      "rapidfuzz": {
-        "202866": 1.0,
-        "6922": 1.0,
-        "1164084": 0.95,
-        "687211": 0.9,
-        "687210": 0.9
-      }
-    },
-    "candidate": {
-      "code": "202866",
-      "confidence": 1.0
-    }
+      223,
+      229
+    ]
   },
   {
     "text": "rò",
     "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N3945"
+    ],
+    "assertions": [],
     "position": [
-      438,
-      440
-    ],
-    "assertion_position": [
-      438,
-      440
-    ],
-    "sentence": "Theo lời bệnh nhân kể, bệnh nhân đã phẫu thuật bóc tách u nội tiết từ thân tuỵ gây biến chứng [ENTITY] ống tuỵ mật.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "leak",
-      "Leakage"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N3945": 0.774686,
-        "G9600": 0.711584,
-        "R390": 0.623007,
-        "T82534D": 0.573233,
-        "R609": 0.568687
-      },
-      "rapidfuzz": {
-        "N3945": 0.9,
-        "J9382": 0.9,
-        "J95812": 0.9,
-        "T83031S": 0.9,
-        "T83032S": 0.9,
-        "T83032D": 0.9
-      }
-    },
-    "candidate": {
-      "code": "N3945",
-      "confidence": 0.787217
-    }
+      470,
+      472
+    ]
   },
   {
     "text": "ERCP",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      490,
-      494
-    ],
-    "eng_translation": [
-      "ERCP",
-      "Endoscopic Retrograde Cholangiopancreatography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      523,
+      527
+    ]
   },
   {
     "text": "flagyl",
     "type": "THUỐC",
+    "candidates": [
+      "202866"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
     "position": [
-      707,
-      713
-    ],
-    "assertion_position": [
-      707,
-      713
-    ],
-    "sentence": "Sử dụng ống dẫn lưu tại chỗ dò ( do ERCP không thể qua được chỗ gián đoạn ống dẫn, đặt stent vào ống dẫn tụy gần, không làm giảm đáng kể lượng dịch rò) , hậu phẫu bệnh nhân bị nhiễm Clostridioides difficile, và nhiễm trùng vết mổổ đã được điều trị bằng [ENTITY], chăm sóc vết thương tại chỗ, sau 23 ngày điều trị thì xuất viện.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical",
-    "eng_translation": [
-      "Flagyl",
-      "Metronidazole"
-    ],
-    "retriever": {
-      "sapbert": {
-        "6922": 1.0,
-        "202866": 1.0,
-        "92718": 0.921123,
-        "217133": 0.897875,
-        "904400": 0.874848
-      },
-      "rapidfuzz": {
-        "202866": 1.0,
-        "6922": 1.0,
-        "1164084": 0.95,
-        "687211": 0.9,
-        "687210": 0.9
-      }
-    },
-    "candidate": {
-      "code": "202866",
-      "confidence": 1.0
-    }
+      742,
+      748
+    ]
   },
   {
     "text": "sưng nề",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isFamily"
+    ],
     "position": [
-      894,
-      901
-    ],
-    "assertion_position": [
-      894,
-      901
-    ],
-    "sentence": "Đến sáng hôm sau xuất hiện chân sonde dẫn lưu [ENTITY], đỏ, chồng bệnh nhân thấy mũi chỉ khâu da cố định ống dẫn bị tuột ra, ống dẫn chỉ bị tuột ra khoảng 2,54 cm, xử trí cố định ống dẫn bằng băng dính và đến khám tại phòng cấp cứu.",
-    "assertion_result": {
-      "tag": "isFamily"
-    },
-    "eng_translation": [
-      "swelling",
-      "Edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      930,
+      937
+    ]
   },
   {
     "text": "đỏ",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isFamily"
+    ],
     "position": [
-      903,
-      905
-    ],
-    "assertion_position": [
-      903,
-      905
-    ],
-    "sentence": "Đến sáng hôm sau xuất hiện chân sonde dẫn lưu sưng nề, [ENTITY], chồng bệnh nhân thấy mũi chỉ khâu da cố định ống dẫn bị tuột ra, ống dẫn chỉ bị tuột ra khoảng 2,54 cm, xử trí cố định ống dẫn bằng băng dính và đến khám tại phòng cấp cứu.",
-    "assertion_result": {
-      "tag": "isFamily"
-    },
-    "eng_translation": [
-      "red",
-      "Redness"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      939,
+      941
+    ]
   },
   {
     "text": "sưng nề",
     "type": "TRIỆU_CHỨNG",
+    "assertions": [],
     "position": [
-      1135,
-      1142
-    ],
-    "assertion_position": [
-      1135,
-      1142
-    ],
-    "sentence": "Tại chân sonde dẫn lưu ổ bụng [ENTITY], đỏ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null,
-    "eng_translation": [
-      "swelling",
-      "Edema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1171,
+      1178
+    ]
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1290,
-      1297
-    ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+      1327,
+      1334
+    ]
   }
 ]
