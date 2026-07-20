@@ -1,9 +1,8 @@
 """
 Thêm trường "qwen_assertion".
 
-- Nếu rule-based đã phát hiện assertion hợp lệ:
-  sử dụng trực tiếp kết quả rule-based, không gọi Qwen.
-- Chỉ gọi Qwen3-8B khi assertion_result.tag == null.
+- Chỉ gọi Qwen3-8B khi entity có assertion_result.tag == null.
+- Nếu tag khác null hoặc thiếu assertion_result.tag thì bỏ qua entity.
 - Theo quy định cuộc thi, chỉ có 3 assertion hợp lệ:
   isNegated, isFamily, isHistorical.
 - Các trường hợp uncertain/suspected trả về None.
@@ -20,14 +19,9 @@ from transformers import (
     BitsAndBytesConfig,
 )
 
-
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
-
-
-JSON_PATH = PROJECT_ROOT / "data" / "output_merged"
+JSON_PATH = Path(
+    "/content/drive/MyDrive/json"
+)
 
 SUPPORTED_ENTITY_TYPES = {
     "CHẨN_ĐOÁN",
@@ -458,10 +452,7 @@ def parse_model_output(raw: str) -> str | None:
         return None
 
     if tag not in VALID_TAGS:
-        print(
-            f"    [WARN] Tag không hợp lệ: "
-            f"{tag!r} -> mặc định null"
-        )
+
         return None
 
     return tag
@@ -493,7 +484,7 @@ def classify_single_tag(
     )
 
     prompt_text = tokenizer.apply_chat_template( # type: ignore
-        messages, 
+        messages,
         tokenize=False,
         add_generation_prompt=True,
         enable_thinking=False,
@@ -530,12 +521,8 @@ def qwen_assertion(json_file: Path):
     Logic:
     - Type không hỗ trợ:
         xóa qwen_assertion nếu có.
-    - Rule-based có tag hợp lệ:
-        dùng tag rule-based, không gọi Qwen.
-    - Rule-based có isUncertain hoặc tag không hợp lệ:
-        chuyển thành None, không gọi Qwen.
-    - Rule-based tag là None:
-        gọi Qwen.
+    - Chỉ entity có assertion_result.tag == null mới được gọi Qwen.
+    - Tag khác null, thiếu tag hoặc assertion_result không hợp lệ: bỏ qua.
     """
     with json_file.open("r", encoding="utf-8") as file:
         data = json.load(file)
@@ -546,7 +533,7 @@ def qwen_assertion(json_file: Path):
         )
 
     qwen_call_count = 0
-    rule_based_count = 0
+    skipped_count = 0
     unsupported_count = 0
 
     for index, entity in enumerate(data):
@@ -563,32 +550,28 @@ def qwen_assertion(json_file: Path):
             unsupported_count += 1
             continue
 
-        assertion_result = entity.get("assertion_result") or {}
+        assertion_result = entity.get("assertion_result")
 
         if not isinstance(assertion_result, dict):
-            print(
-                f"    [WARN] assertion_result của entity thứ {index} "
-                f"không phải dictionary -> xem như null"
-            )
-            assertion_result = {}
-
-        rule_based_tag = assertion_result.get("tag")
-
-        # Rule-based đã phát hiện được một tag hợp lệ
-        if rule_based_tag in VALID_TAGS:
-            entity["qwen_assertion"] = rule_based_tag
-            rule_based_count += 1
+            skipped_count += 1
             continue
 
-        # Rule-based trả về tag không được BTC hỗ trợ,
-        # ví dụ isUncertain.
-        # Không gọi Qwen vì điều kiện gọi Qwen chỉ là tag == null.
-        if rule_based_tag is not None:
-            print(
-                f"    [WARN] Entity {index}: rule-based tag "
-                f"{rule_based_tag!r} không hợp lệ theo quy định -> null"
+        if "tag" not in assertion_result:
+            skipped_count += 1
+            continue
+
+        rule_based_tag = assertion_result["tag"]
+
+        # Chấp nhận cả JSON null (None trong Python) và chuỗi "null".
+        is_null_tag = (
+            rule_based_tag is None
+            or (
+                isinstance(rule_based_tag, str)
+                and rule_based_tag.strip().lower() == "null"
             )
-            entity["qwen_assertion"] = None
+        )
+        if not is_null_tag:
+            skipped_count += 1
             continue
 
         sentence = entity.get("sentence")
@@ -617,11 +600,6 @@ def qwen_assertion(json_file: Path):
         entity["qwen_assertion"] = predicted_tag
         qwen_call_count += 1
 
-        print(
-            f"    Entity {index}: "
-            f"{entity_text!r} -> {predicted_tag!r}"
-        )
-
     with json_file.open("w", encoding="utf-8") as file:
         json.dump(
             data,
@@ -636,8 +614,8 @@ def qwen_assertion(json_file: Path):
         )
 
     print(
-        f"    Rule-based: {rule_based_count} | "
-        f"Qwen calls: {qwen_call_count} | "
+        f"    Qwen calls: {qwen_call_count} | "
+        f"Skipped (tag != null/missing): {skipped_count} | "
         f"Unsupported types: {unsupported_count}"
     )
 

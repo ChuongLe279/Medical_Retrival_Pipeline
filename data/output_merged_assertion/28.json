@@ -1,0 +1,543 @@
+[
+  {
+    "text": "tụy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      60,
+      63
+    ],
+    "assertion_position": [
+      60,
+      63
+    ],
+    "sentence": "bệnh nhân có tiền sử nhập viện gần đây vìviêm [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    }
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      91,
+      99
+    ],
+    "assertion_position": [
+      91,
+      99
+    ],
+    "sentence": "tiền sử [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    }
+  },
+  {
+    "text": "eliquis",
+    "type": "THUỐC",
+    "position": [
+      327,
+      334
+    ],
+    "assertion_position": [
+      327,
+      334
+    ],
+    "sentence": "Thuốc trước khi nhập viện: đang dùng [ENTITY] (cho rung nhĩ).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical"
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      340,
+      348
+    ],
+    "assertion_position": [
+      340,
+      348
+    ],
+    "sentence": "Thuốc trước khi nhập viện: đang dùng eliquis (cho [ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical"
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      391,
+      394
+    ],
+    "assertion_position": [
+      391,
+      394
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY] và đau bụng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      398,
+      406
+    ],
+    "assertion_position": [
+      398,
+      406
+    ],
+    "sentence": "Lý do nhập viện: sốt và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "đau bụng trên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      451,
+      464
+    ],
+    "assertion_position": [
+      451,
+      464
+    ],
+    "sentence": "khởi phát [ENTITY] (lần nhập viện trước).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical"
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      510,
+      513
+    ],
+    "assertion_position": [
+      510,
+      513
+    ],
+    "sentence": "Hôm nay, bệnh nhân có [ENTITY] nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      538,
+      554
+    ],
+    "assertion_position": [
+      538,
+      554
+    ],
+    "sentence": "3°C kèm theo [ENTITY] tái phát, ngày càng nặng hơn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "đau bụng trên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      619,
+      632
+    ],
+    "assertion_position": [
+      619,
+      632
+    ],
+    "sentence": "Ban đầu xuất hiện [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      821,
+      824
+    ],
+    "assertion_position": [
+      821,
+      824
+    ],
+    "sentence": "Hôm nay, bệnh nhân có [ENTITY] nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      849,
+      865
+    ],
+    "assertion_position": [
+      849,
+      865
+    ],
+    "sentence": "3°C kèm theo [ENTITY] tái phát, ngày càng nặng hơn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      975,
+      978
+    ],
+    "assertion_position": [
+      975,
+      978
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    }
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      980,
+      988
+    ],
+    "assertion_position": [
+      980,
+      988
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    }
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      990,
+      1006
+    ],
+    "assertion_position": [
+      990,
+      1006
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    }
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1008,
+      1011
+    ],
+    "assertion_position": [
+      1008,
+      1011
+    ],
+    "sentence": "[ENTITY] nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1028,
+      1044
+    ],
+    "assertion_position": [
+      1028,
+      1044
+    ],
+    "sentence": "[ENTITY] tái phát, ngày càng nặng hơn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1075,
+      1091
+    ],
+    "assertion_position": [
+      1075,
+      1091
+    ],
+    "sentence": "[ENTITY] liên tục.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1247,
+      1255
+    ],
+    "assertion_position": [
+      1247,
+      1255
+    ],
+    "sentence": "Triệu chứng liên quan: không thấy [ENTITY], nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": "isNegated"
+    }
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1257,
+      1260
+    ],
+    "assertion_position": [
+      1257,
+      1260
+    ],
+    "sentence": "Triệu chứng liên quan: không thấy buồn nôn, [ENTITY], ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1262,
+      1269
+    ],
+    "assertion_position": [
+      1262,
+      1269
+    ],
+    "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, [ENTITY], thay đổi chức năng ruột, đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "ruột",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1290,
+      1294
+    ],
+    "assertion_position": [
+      1290,
+      1294
+    ],
+    "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, ớn lạnh, thay đổi chức năng [ENTITY], đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1296,
+      1304
+    ],
+    "assertion_position": [
+      1296,
+      1304
+    ],
+    "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, [ENTITY], khó thở.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1306,
+      1313
+    ],
+    "assertion_position": [
+      1306,
+      1313
+    ],
+    "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "AMA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1366,
+      1369
+    ]
+  },
+  {
+    "text": "cơn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1392,
+      1395
+    ],
+    "assertion_position": [
+      1392,
+      1395
+    ],
+    "sentence": "Tự ý rời bệnh viện (AMA) ngày hôm qua sau khi [ENTITY] đau đỡ hơn ở lần nhập viện trước.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical"
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1445,
+      1452
+    ]
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1538,
+      1554
+    ],
+    "assertion_position": [
+      1538,
+      1554
+    ],
+    "sentence": "Được thực hiện siêu âm vùng gan mật tại phòng cấp cứu cho thấy túi mật căng to với dịch quanh túi mật gợi ý [ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    }
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1881,
+      1888
+    ]
+  },
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1934,
+      1946
+    ],
+    "assertion_position": [
+      1934,
+      1946
+    ],
+    "sentence": "siêu âm vùng gan mật cho thấy sỏi mật nhưng không có [ENTITY] hoặc sỏi ống mật (lần nhập viện trước).",
+    "assertion_result": {
+      "tag": "isNegated"
+    }
+  },
+  {
+    "text": "sỏi ống mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1952,
+      1963
+    ],
+    "assertion_position": [
+      1952,
+      1963
+    ],
+    "sentence": "siêu âm vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc [ENTITY] (lần nhập viện trước).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical"
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1987,
+      1994
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2057,
+      2064
+    ]
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2141,
+      2157
+    ],
+    "assertion_position": [
+      2141,
+      2157
+    ],
+    "sentence": "siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý [ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    }
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2197,
+      2213
+    ],
+    "assertion_position": [
+      2197,
+      2213
+    ],
+    "sentence": "Các phát hiện chẩn đoán khác: lo ngại [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  }
+]

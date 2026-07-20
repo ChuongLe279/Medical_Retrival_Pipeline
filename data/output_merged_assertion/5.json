@@ -1,0 +1,357 @@
+[
+  {
+    "text": "bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      45,
+      58
+    ],
+    "assertion_position": [
+      45,
+      58
+    ],
+    "sentence": "[ENTITY] do xơ vữa động mạch.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      78
+    ],
+    "assertion_position": [
+      62,
+      78
+    ],
+    "sentence": "bệnh tim mạch do [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      80,
+      93
+    ],
+    "assertion_position": [
+      80,
+      93
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    }
+  },
+  {
+    "text": "lipid",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      100,
+      105
+    ],
+    "assertion_position": [
+      100,
+      105
+    ],
+    "sentence": "tăng [ENTITY] máu, không đặc hiệu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "bệnh trào ngược dạ dày- thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      127,
+      160
+    ],
+    "assertion_position": [
+      127,
+      160
+    ],
+    "sentence": "[ENTITY] không có viêm thực quản.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "viêm thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      170,
+      184
+    ],
+    "assertion_position": [
+      170,
+      184
+    ],
+    "sentence": "bệnh trào ngược dạ dày- thực quản không có [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    }
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      226,
+      234
+    ],
+    "assertion_position": [
+      226,
+      234
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  },
+  {
+    "text": "đau bụng vùng thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      332,
+      355
+    ],
+    "assertion_position": [
+      332,
+      355
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    }
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      357,
+      365
+    ],
+    "assertion_position": [
+      357,
+      365
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    }
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      403,
+      406
+    ],
+    "assertion_position": [
+      403,
+      406
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có [ENTITY], ớn lạnh, nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": "isNegated"
+    }
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      408,
+      415
+    ],
+    "assertion_position": [
+      408,
+      415
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có sốt, [ENTITY], nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      417,
+      420
+    ],
+    "assertion_position": [
+      417,
+      420
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, [ENTITY], táo bón, ho, tiểu khó, hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      422,
+      429
+    ],
+    "assertion_position": [
+      422,
+      429
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, [ENTITY], ho, tiểu khó, hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      431,
+      433
+    ],
+    "assertion_position": [
+      431,
+      433
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, [ENTITY], tiểu khó, hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "tiểu khó",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      435,
+      443
+    ],
+    "assertion_position": [
+      435,
+      443
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, ho, [ENTITY], hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated"
+  },
+  {
+    "text": "viêm gan do men",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      689,
+      704
+    ],
+    "assertion_position": [
+      689,
+      704
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    }
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      706,
+      709
+    ]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      747,
+      750
+    ]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      816,
+      825
+    ]
+  },
+  {
+    "text": "bạch cầu (wbc)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      852,
+      866
+    ]
+  },
+  {
+    "text": "11.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      867,
+      871
+    ]
+  },
+  {
+    "text": "Siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      917,
+      924
+    ]
+  },
+  {
+    "text": "Nội soi mật tụy ngược dòng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1058,
+      1084
+    ]
+  },
+  {
+    "text": "levophed",
+    "type": "THUỐC",
+    "position": [
+      1225,
+      1233
+    ],
+    "assertion_position": [
+      1225,
+      1233
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    }
+  },
+  {
+    "text": "propofol",
+    "type": "THUỐC",
+    "position": [
+      1235,
+      1243
+    ],
+    "assertion_position": [
+      1235,
+      1243
+    ],
+    "sentence": "[ENTITY] để an thần.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null
+  }
+]
