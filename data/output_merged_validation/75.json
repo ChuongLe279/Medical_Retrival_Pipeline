@@ -1,277 +1,799 @@
 [
-    {
-        "text": "bệnh động mạch vành",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            48,
-            67
-        ],
-        "candidates": [
-            "I249"
-        ]
+  {
+    "text": "bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      36,
+      55
+    ],
+    "assertion_position": [
+      36,
+      55
+    ],
+    "sentence": "[ENTITY] sau can thiệp bắc cầu nối.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "đau ngực",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            145,
-            153
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Coronary artery disease",
+      "Ischemic heart disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I249": 0.857469,
+        "I255": 0.827983,
+        "I259": 0.821557,
+        "I519": 0.804931,
+        "I209": 0.762008
+      },
+      "rapidfuzz": {
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9,
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855
+      }
     },
-    {
-        "text": "đau ngực trái dữ dội",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            640,
-            660
-        ]
-    },
-    {
-        "text": "đau",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            720,
-            723
-        ]
-    },
-    {
-        "text": "nitroglycerin",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            786,
-            799
-        ],
-        "candidates": [
-            "4917"
-        ]
-    },
-    {
-        "text": "cơn đau dữ dội",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            859,
-            873
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            885,
-            892
-        ]
-    },
-    {
-        "text": "nitroglycerin",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            909,
-            922
-        ],
-        "candidates": [
-            "4917"
-        ]
-    },
-    {
-        "text": "đau ngực",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            945,
-            953
-        ]
-    },
-    {
-        "text": "đau ngực trái dữ dội",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1032,
-            1052
-        ]
-    },
-    {
-        "text": "vã mồ hôi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1083,
-            1092
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1099,
-            1106
-        ]
-    },
-    {
-        "text": "điện tim",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1154,
-            1162
-        ]
-    },
-    {
-        "text": "aspirin",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1226,
-            1233
-        ],
-        "candidates": [
-            "1191"
-        ]
-    },
-    {
-        "text": "nitroglycerin",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1256,
-            1269
-        ],
-        "candidates": [
-            "4917"
-        ]
-    },
-    {
-        "text": "nitroglycerin",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1283,
-            1296
-        ],
-        "candidates": [
-            "4917"
-        ]
-    },
-    {
-        "text": "nitroglycerin",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1321,
-            1334
-        ],
-        "candidates": [
-            "4917"
-        ]
-    },
-    {
-        "text": "ativan",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1342,
-            1348
-        ],
-        "candidates": [
-            "6470"
-        ]
-    },
-    {
-        "text": "Lorazepam",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1351,
-            1360
-        ],
-        "candidates": [
-            "6470"
-        ]
-    },
-    {
-        "text": "lovenox",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1368,
-            1375
-        ],
-        "candidates": [
-            "225036"
-        ]
-    },
-    {
-        "text": "đau ngực",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1400,
-            1408
-        ]
-    },
-    {
-        "text": "điện tim",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1427,
-            1435
-        ]
-    },
-    {
-        "text": "vã mồ hôi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1569,
-            1578
-        ]
-    },
-    {
-        "text": "troponin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1603,
-            1611
-        ]
-    },
-    {
-        "text": "0.10",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1615,
-            1619
-        ]
-    },
-    {
-        "text": "điện tâm đồ",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1657,
-            1668
-        ]
-    },
-    {
-        "text": "điện tâm đồ",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1725,
-            1736
-        ]
+    "candidate": {
+      "code": "I249",
+      "confidence": 0.861722
     }
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      128,
+      136
+    ],
+    "assertion_position": [
+      128,
+      136
+    ],
+    "sentence": "Nhiều lần chụp mạch và can thiệp tim mạch do [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ngực trái dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      586,
+      606
+    ],
+    "assertion_position": [
+      586,
+      606
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY] lan xuống cánh tay trái.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Severe left-sided chest pain",
+      "Acute left-sided chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      662,
+      665
+    ],
+    "assertion_position": [
+      662,
+      665
+    ],
+    "sentence": "Theo lời kể bệnh nhân bắt đầu [ENTITY] trước khi đi ngủ vài đêm nay, đau đã được giảm đau bằng ngậm nitroglycerin dưới lưỡi 1 liều vào các đêm trước.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "position": [
+      727,
+      740
+    ],
+    "assertion_position": [
+      727,
+      740
+    ],
+    "sentence": "Theo lời kể bệnh nhân bắt đầu đau trước khi đi ngủ vài đêm nay, đau đã được giảm đau bằng ngậm [ENTITY] dưới lưỡi 1 liều vào các đêm trước.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cơn đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      800,
+      814
+    ],
+    "assertion_position": [
+      800,
+      814
+    ],
+    "sentence": "Đêm vào viện xuất hiện [ENTITY], kèm theo khó thở, dã dùng 3 viên nitroglycerin nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "severe pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      825,
+      832
+    ],
+    "assertion_position": [
+      825,
+      832
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội, kèm theo [ENTITY], dã dùng 3 viên nitroglycerin nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "position": [
+      849,
+      862
+    ],
+    "assertion_position": [
+      849,
+      862
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội, kèm theo khó thở, dã dùng 3 viên [ENTITY] nhưng không giảm đau, đau ngực hết trước khi chuyển viện, vào viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      885,
+      893
+    ],
+    "assertion_position": [
+      885,
+      893
+    ],
+    "sentence": "Đêm vào viện xuất hiện cơn đau dữ dội, kèm theo khó thở, dã dùng 3 viên nitroglycerin nhưng không giảm đau, [ENTITY] hết trước khi chuyển viện, vào viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ngực trái dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      964,
+      984
+    ],
+    "assertion_position": [
+      964,
+      984
+    ],
+    "sentence": "[ENTITY] lan xuống cánh tay trái.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Severe left-sided chest pain",
+      "Acute left-sided chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1010,
+      1019
+    ],
+    "assertion_position": [
+      1010,
+      1019
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Sweating",
+      "Diaphoresis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1021,
+      1028
+    ],
+    "assertion_position": [
+      1021,
+      1028
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "điện tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1067,
+      1075
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "aspirin",
+    "type": "THUỐC",
+    "position": [
+      1134,
+      1141
+    ],
+    "assertion_position": [
+      1134,
+      1141
+    ],
+    "sentence": "Được dùng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "aspirin",
+      "acetylsalicylic acid"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1191": 1.0,
+        "1858285": 0.918106,
+        "91101": 0.910793,
+        "215412": 0.87996
+      },
+      "rapidfuzz": {
+        "1191": 1.0,
+        "198471": 0.9,
+        "317297": 0.9,
+        "1803004": 0.9,
+        "891136": 0.9,
+        "2743257": 0.855
+      }
+    },
+    "candidate": {
+      "code": "1191",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "position": [
+      1165,
+      1178
+    ],
+    "assertion_position": [
+      1165,
+      1178
+    ],
+    "sentence": "Ngậm dưới lưỡi 4 liều [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "position": [
+      1186,
+      1199
+    ],
+    "assertion_position": [
+      1186,
+      1199
+    ],
+    "sentence": "Thuốc [ENTITY] dạng bôi/dán lên da (mỡ nitroglycerin).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "position": [
+      1224,
+      1237
+    ],
+    "assertion_position": [
+      1224,
+      1237
+    ],
+    "sentence": "Thuốc nitroglycerin dạng bôi/dán lên da (mỡ [ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Nitroglycerin",
+      "Nitroglycerin is a medication used to treat or prevent angina (chest pain) by dilating blood vessels and improving blood flow to the heart. It is also used in the management of acute coronary syndrome and can be administered sublingually, intravenously, or transdermally."
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165,
+        "285072": 0.699126,
+        "1805880": 0.658288,
+        "1868493": 0.653829
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95,
+        "2057212": 0.855,
+        "2693770": 0.855,
+        "795735": 0.855
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ativan",
+    "type": "THUỐC",
+    "position": [
+      1240,
+      1246
+    ],
+    "assertion_position": [
+      1240,
+      1246
+    ],
+    "sentence": "[ENTITY] ( Lorazepam).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Ativan",
+      "Lorazepam"
+    ],
+    "retriever": {
+      "sapbert": {
+        "6470": 1.0,
+        "202479": 1.0,
+        "28894": 0.968989
+      },
+      "rapidfuzz": {
+        "202479": 1.0,
+        "6470": 1.0,
+        "1665327": 0.9,
+        "372647": 0.9
+      }
+    },
+    "candidate": {
+      "code": "6470",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Lorazepam",
+    "type": "THUỐC",
+    "position": [
+      1249,
+      1258
+    ],
+    "assertion_position": [
+      1249,
+      1258
+    ],
+    "sentence": "ativan ( [ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Lorazepam",
+      "Alprazolam"
+    ],
+    "retriever": {
+      "sapbert": {
+        "6470": 1.0,
+        "596": 1.0,
+        "28894": 0.968989,
+        "404841": 0.949101,
+        "405117": 0.941322
+      },
+      "rapidfuzz": {
+        "6470": 1.0,
+        "596": 1.0,
+        "372647": 0.9,
+        "315314": 0.9
+      }
+    },
+    "candidate": {
+      "code": "596",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "lovenox",
+    "type": "THUỐC",
+    "position": [
+      1261,
+      1268
+    ],
+    "assertion_position": [
+      1261,
+      1268
+    ],
+    "sentence": "[ENTITY] lúc 0100.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Lovenox",
+      "Low molecular weight heparin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "5227": 1.0,
+        "225036": 1.0,
+        "606291": 0.916775,
+        "5224": 0.876634,
+        "235473": 0.876634
+      },
+      "rapidfuzz": {
+        "225036": 1.0,
+        "2657368": 0.9,
+        "2657818": 0.9,
+        "5224": 0.9,
+        "875812": 0.855,
+        "1166323": 0.855
+      }
+    },
+    "candidate": {
+      "code": "225036",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1294,
+      1302
+    ],
+    "assertion_position": [
+      1294,
+      1302
+    ],
+    "sentence": "Sau dùng thuốc [ENTITY] hết, sóng ST trên điện tim cải thiện không chênh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "điện tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1321,
+      1329
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1450,
+      1459
+    ],
+    "assertion_position": [
+      1450,
+      1459
+    ],
+    "sentence": "Dấu hiệu lâm sàng: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Sweating",
+      "Diaphoresis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1481,
+      1489
+    ],
+    "eng_translation": [
+      "troponin",
+      "Troponin elevation",
+      "Cardiac troponin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "0.10",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1493,
+      1497
+    ],
+    "eng_translation": [
+      "0.10"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1527,
+      1538
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1590,
+      1601
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

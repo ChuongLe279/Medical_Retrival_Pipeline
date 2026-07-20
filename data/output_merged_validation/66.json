@@ -1,349 +1,1022 @@
 [
-    {
-        "text": "Tiểu đường loại 1",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            54,
-            71
-        ],
-        "candidates": [
-            "E1065"
-        ]
+  {
+    "text": "Tiểu đường loại 1",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      42,
+      59
+    ],
+    "assertion_position": [
+      42,
+      59
+    ],
+    "sentence": "[ENTITY] đái tháo đường.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "đái tháo đường",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            72,
-            86
-        ],
-        "candidates": [
-            "E1165"
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Type 1 diabetes mellitus",
+      "Insulin-dependent diabetes mellitus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1065": 0.836582,
+        "E10A0": 0.777473,
+        "E109": 0.727095,
+        "E10A1": 0.725366,
+        "P702": 0.722598
+      },
+      "rapidfuzz": {
+        "E1041": 0.9,
+        "E1042": 0.9,
+        "E1043": 0.9,
+        "P700": 0.855,
+        "E1339": 0.855,
+        "E1340": 0.855
+      }
     },
-    {
-        "text": "tăng huyết áp",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            93,
-            106
-        ],
-        "candidates": [
-            "I10"
-        ]
-    },
-    {
-        "text": "tăng lipid máu",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            113,
-            127
-        ],
-        "candidates": [
-            "E785"
-        ]
-    },
-    {
-        "text": "béo phì",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            150,
-            157
-        ],
-        "candidates": [
-            "E669"
-        ]
-    },
-    {
-        "text": "Nhiễm trùng đường tiết niệu",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            164,
-            191
-        ],
-        "candidates": [
-            "N390"
-        ]
-    },
-    {
-        "text": "UTIs",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            193,
-            197
-        ],
-        "candidates": [
-            "N390"
-        ]
-    },
-    {
-        "text": "nhiễm khuẩn đường tiết niệu",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            208,
-            235
-        ],
-        "candidates": [
-            "N390"
-        ]
-    },
-    {
-        "text": "đau bàn chân phải",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            307,
-            324
-        ]
-    },
-    {
-        "text": "đau bàn chân phải",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            360,
-            377
-        ]
-    },
-    {
-        "text": "mất thăng bằng khi đi lại",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            384,
-            409
-        ]
-    },
-    {
-        "text": "viêm bể thận",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            473,
-            485
-        ],
-        "candidates": [
-            "N10"
-        ]
-    },
-    {
-        "text": "viêm phế quản",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            489,
-            502
-        ],
-        "candidates": [
-            "J209"
-        ]
-    },
-    {
-        "text": "ertapenem",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            587,
-            596
-        ],
-        "candidates": [
-            "325642"
-        ]
-    },
-    {
-        "text": "đau bàn chân phải",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            643,
-            660
-        ]
-    },
-    {
-        "text": "không vững khi đứng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            720,
-            739
-        ]
-    },
-    {
-        "text": "hct (hematocrit)",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            808,
-            824
-        ]
-    },
-    {
-        "text": "8.126",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            825,
-            830
-        ]
-    },
-    {
-        "text": "tiểu cầu (platelets)",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            839,
-            859
-        ]
-    },
-    {
-        "text": "478",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            860,
-            863
-        ]
-    },
-    {
-        "text": "bun",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            923,
-            926
-        ]
-    },
-    {
-        "text": "creatinine",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            927,
-            937
-        ]
-    },
-    {
-        "text": "ure",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            939,
-            942
-        ]
-    },
-    {
-        "text": "creatinine",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            943,
-            953
-        ]
-    },
-    {
-        "text": "glucose (đường huyết)",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            961,
-            982
-        ]
-    },
-    {
-        "text": "316",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            983,
-            986
-        ]
-    },
-    {
-        "text": "urinalysis",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1037,
-            1047
-        ]
-    },
-    {
-        "text": "tổng phân tích nước tiểu",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1050,
-            1074
-        ]
-    },
-    {
-        "text": "bạch cầu",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1080,
-            1088
-        ]
-    },
-    {
-        "text": "hồng cầu",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1108,
-            1116
-        ]
-    },
-    {
-        "text": "chụp x-quang",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1190,
-            1202
-        ]
-    },
-    {
-        "text": "chụp x-quang",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1286,
-            1298
-        ]
-    },
-    {
-        "text": "viêm xương tủy",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1344,
-            1358
-        ],
-        "candidates": [
-            "G0491"
-        ]
-    },
-    {
-        "text": "huyết khối tĩnh mạch sâu",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1386,
-            1410
-        ],
-        "candidates": [
-            "O8822"
-        ]
+    "candidate": {
+      "code": "E1065",
+      "confidence": 0.752924
     }
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      60,
+      74
+    ],
+    "assertion_position": [
+      60,
+      74
+    ],
+    "sentence": "Tiểu đường loại 1 [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Diabetes mellitus",
+      "Type 2 diabetes"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.84212,
+        "O24119": 0.714028,
+        "R7303": 0.712752,
+        "Z833": 0.710006,
+        "E119": 0.708696
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "O2412": 0.9,
+        "O24111": 0.9,
+        "O24112": 0.9
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.757908
+    }
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      76,
+      89
+    ],
+    "assertion_position": [
+      76,
+      89
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
+    }
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      91,
+      105
+    ],
+    "assertion_position": [
+      91,
+      105
+    ],
+    "sentence": "[ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Hyperlipidemia",
+      "Dyslipidemia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E785": 0.979012,
+        "E786": 0.784723,
+        "E7849": 0.765059,
+        "E782": 0.751965,
+        "E7841": 0.744404
+      },
+      "rapidfuzz": {
+        "E782": 0.95,
+        "E7849": 0.95,
+        "E785": 0.9,
+        "Z83438": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "E785",
+      "confidence": 0.971111
+    }
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      123,
+      130
+    ],
+    "assertion_position": [
+      123,
+      130
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Obesity",
+      "Excess body weight"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E669": 0.985618,
+        "E663": 0.883644,
+        "E66811": 0.865016,
+        "E66813": 0.861392,
+        "E66812": 0.832182
+      },
+      "rapidfuzz": {
+        "E8882": 0.9,
+        "O99211": 0.9,
+        "Z152": 0.9,
+        "S81832D": 0.855,
+        "H02814": 0.855,
+        "H02813": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E669",
+      "confidence": 0.887056
+    }
+  },
+  {
+    "text": "Nhiễm trùng đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      132,
+      159
+    ],
+    "assertion_position": [
+      132,
+      159
+    ],
+    "sentence": "[ENTITY] (UTIs) tái phát nhiễm khuẩn đường tiết niệu, vị trí không xác định.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Urinary tract infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.844627
+    }
+  },
+  {
+    "text": "UTIs",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      161,
+      165
+    ],
+    "assertion_position": [
+      161,
+      165
+    ],
+    "sentence": "Nhiễm trùng đường tiết niệu ([ENTITY]) tái phát nhiễm khuẩn đường tiết niệu, vị trí không xác định.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "UTIs",
+      "Urinary Tract Infections"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.932362,
+        "P393": 0.74356,
+        "R8281": 0.735932,
+        "O8620": 0.733757,
+        "O2340": 0.717126
+      },
+      "rapidfuzz": {
+        "Z1341": 0.9,
+        "L942": 0.9,
+        "L572": 0.9,
+        "Z87440": 0.9,
+        "N390": 0.880851,
+        "O8620": 0.880851
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.927211
+    }
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      176,
+      203
+    ],
+    "assertion_position": [
+      176,
+      203
+    ],
+    "sentence": "Nhiễm trùng đường tiết niệu (UTIs) tái phát [ENTITY], vị trí không xác định.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Urinary tract infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.844627
+    }
+  },
+  {
+    "text": "đau bàn chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      268,
+      285
+    ],
+    "assertion_position": [
+      268,
+      285
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Right foot pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bàn chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      313,
+      330
+    ],
+    "assertion_position": [
+      313,
+      330
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Right foot pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mất thăng bằng khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      332,
+      357
+    ],
+    "assertion_position": [
+      332,
+      357
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Loss of balance during ambulation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      413,
+      425
+    ],
+    "assertion_position": [
+      413,
+      425
+    ],
+    "sentence": "Gần đây nhập viện vì [ENTITY] và viêm phế quản.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Pyelonephritis",
+      "Renal infection",
+      "Pyelonephritis is a medical condition that involves inflammation of the kidney and the renal pelvis, typically caused by a bacterial infection. It is often a complication of a urinary tract infection (UTI) that has spread from the bladder to the kidneys. Symptoms may include fever, flank pain, nausea, vomiting, and dysuria. Diagnosis is usually confirmed through urine analysis and culture, and treatment typically involves antibiotics. In severe cases, hospitalization may be required."
+    ],
+    "retriever": {
+      "sapbert": {
+        "N136": 0.884019,
+        "N10": 0.838262,
+        "R8281": 0.786057,
+        "O2300": 0.743314,
+        "O8621": 0.741942
+      },
+      "rapidfuzz": {
+        "N10": 0.95,
+        "N111": 0.9,
+        "D8684": 0.9,
+        "A041": 0.855,
+        "T8140XD": 0.855,
+        "T8140XS": 0.855,
+        "T81710S": 0.855,
+        "T81599A": 0.855,
+        "T81599D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N10",
+      "confidence": 0.849436
+    }
+  },
+  {
+    "text": "viêm phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      429,
+      442
+    ],
+    "assertion_position": [
+      429,
+      442
+    ],
+    "sentence": "Gần đây nhập viện vì viêm bể thận và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Bronchitis",
+      "Acute bronchitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J209": 0.980011,
+        "J40": 0.926361,
+        "J42": 0.843378,
+        "J410": 0.808382,
+        "J219": 0.784178
+      },
+      "rapidfuzz": {
+        "J200": 0.9,
+        "J418": 0.9,
+        "J410": 0.9,
+        "J203": 0.9,
+        "J204": 0.9,
+        "J205": 0.9
+      }
+    },
+    "candidate": {
+      "code": "J209",
+      "confidence": 0.88201
+    }
+  },
+  {
+    "text": "ertapenem",
+    "type": "THUỐC",
+    "position": [
+      517,
+      526
+    ],
+    "assertion_position": [
+      517,
+      526
+    ],
+    "sentence": "Đang dùng một liệu trình 14 day course of [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "ertapenem",
+      "Carbapenem",
+      "Ertapenem is a carbapenem antibiotic used to treat a variety of bacterial infections. It works by inhibiting the synthesis of the bacterial cell wall, leading to the death of the bacteria. Ertapenem is effective against a broad spectrum of Gram-positive and Gram-negative bacteria, including both aerobic and anaerobic organisms. It is typically administered intravenously and is often used in the treatment of complicated intra-abdominal infections, community-acquired pneumonia, and skin and skin structure infections. Ertapenem is generally well-tolerated, but like all antibiotics, it can cause side effects such as gastrointestinal disturbances, allergic reactions, and, in rare cases, more serious adverse effects. It is important to use ertapenem only as prescribed by a healthcare provider to help prevent the development of antibiotic resistance."
+    ],
+    "retriever": {
+      "sapbert": {
+        "325642": 1.0,
+        "2009": 1.0,
+        "353107": 0.940429,
+        "5690": 0.713516
+      },
+      "rapidfuzz": {
+        "325642": 1.0,
+        "353107": 0.9,
+        "1734683": 0.9,
+        "2661883": 0.855,
+        "2677449": 0.855,
+        "2605093": 0.855,
+        "317678": 0.8,
+        "262123": 0.771429,
+        "20217": 0.75
+      }
+    },
+    "candidate": {
+      "code": "325642",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "đau bàn chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      565,
+      582
+    ],
+    "assertion_position": [
+      565,
+      582
+    ],
+    "sentence": "[ENTITY] đã hoàn toàn hết.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Right foot pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "không vững khi đứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      632,
+      651
+    ],
+    "assertion_position": [
+      632,
+      651
+    ],
+    "sentence": "Vẫn cảm thấy [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "unstable when standing",
+      "Unstable gait when standing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hct (hematocrit)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      708,
+      724
+    ],
+    "eng_translation": [
+      "HCT (Hematocrit)",
+      "Hematocrit",
+      "Hematocrit Level",
+      "Hematocrit (Hematocrit)"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "8.126",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      725,
+      730
+    ],
+    "eng_translation": [
+      "8.126"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tiểu cầu (platelets)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      734,
+      754
+    ],
+    "eng_translation": [
+      "platelets",
+      "Thrombocytes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "478",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      755,
+      758
+    ],
+    "eng_translation": [
+      "478"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bun",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      803,
+      806
+    ],
+    "eng_translation": [
+      "BUN",
+      "BUN (Blood Urea Nitrogen)",
+      "Blood Urea Nitrogen"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      807,
+      817
+    ],
+    "eng_translation": [
+      "Creatinine",
+      "Serum Creatinine"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      819,
+      822
+    ],
+    "eng_translation": [
+      "No translation provided. Please provide the Vietnamese medical text for translation.",
+      "Please provide the Vietnamese medical text for translation."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      823,
+      833
+    ],
+    "eng_translation": [
+      "Creatinine",
+      "Serum Creatinine"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "glucose (đường huyết)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      836,
+      857
+    ],
+    "eng_translation": [
+      "Glucose (blood sugar)",
+      "Hyperglycemia",
+      "Blood glucose"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "316",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      858,
+      861
+    ],
+    "eng_translation": [
+      "316"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "urinalysis",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      902,
+      912
+    ],
+    "eng_translation": [
+      "Urinalysis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      915,
+      939
+    ],
+    "eng_translation": [
+      "Urinalysis summary",
+      "Urinalysis results summary"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      945,
+      953
+    ],
+    "eng_translation": [
+      "White blood cells",
+      "Leukocytes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hồng cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      973,
+      981
+    ],
+    "eng_translation": [
+      "Red blood cells",
+      "Erythrocytes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1047,
+      1059
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1138,
+      1150
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gãy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1181,
+      1184
+    ],
+    "assertion_position": [
+      1181,
+      1184
+    ],
+    "sentence": "chụp x-quang bàn chân phải không phát hiện [ENTITY] xương hoặc viêm xương tủy.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "fracture",
+      "Broken bone"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K08539": 0.684385,
+        "M8950": 0.635182,
+        "M8440XA": 0.625189,
+        "Z8781": 0.590755,
+        "K08530": 0.58941
+      },
+      "rapidfuzz": {
+        "M84758S": 0.9,
+        "S62395S": 0.9,
+        "S62394S": 0.9,
+        "M85612": 0.855,
+        "M8559": 0.855,
+        "M8558": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K08539",
+      "confidence": 0.615947
+    }
+  },
+  {
+    "text": "viêm xương tủy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1196,
+      1210
+    ],
+    "assertion_position": [
+      1196,
+      1210
+    ],
+    "sentence": "chụp x-quang bàn chân phải không phát hiện gãy xương hoặc [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Bone marrow inflammation",
+      "Myelitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G0491": 0.988292,
+        "G0489": 0.790647,
+        "G054": 0.782539,
+        "D6182": 0.736664,
+        "M869": 0.667354
+      },
+      "rapidfuzz": {
+        "M86349": 0.9,
+        "M89669": 0.9,
+        "M89662": 0.9,
+        "H95112": 0.855,
+        "H95119": 0.855,
+        "S62323K": 0.855
+      }
+    },
+    "candidate": {
+      "code": "G0491",
+      "confidence": 0.889463
+    }
+  },
+  {
+    "text": "huyết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1233,
+      1238
+    ],
+    "assertion_position": [
+      1233,
+      1238
+    ],
+    "sentence": "Bên phải âm tính với [ENTITY] khối tĩnh mạch sâu (DVT).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "blood"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D759": 0.635389,
+        "R789": 0.622884,
+        "R7881": 0.62067,
+        "Z0183": 0.581029,
+        "Y847": 0.556951
+      },
+      "rapidfuzz": {
+        "Z6710": 0.9,
+        "Z6711": 0.9,
+        "Z6741": 0.9
+      }
+    },
+    "candidate": {
+      "code": "D759",
+      "confidence": 0.57185
+    }
+  },
+  {
+    "text": "tĩnh mạch sâu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1244,
+      1257
+    ],
+    "assertion_position": [
+      1244,
+      1257
+    ],
+    "sentence": "Bên phải âm tính với huyết khối [ENTITY] (DVT).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "deep vein",
+      "Deep vein thrombosis",
+      "Deep Venous Thrombosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I80209": 0.690482,
+        "O2230": 0.684459,
+        "I82409": 0.675465,
+        "I80239": 0.654683,
+        "I82509": 0.650935
+      },
+      "rapidfuzz": {
+        "I82621": 0.9,
+        "I82622": 0.9,
+        "I82721": 0.9,
+        "S65392S": 0.855,
+        "O2232": 0.855,
+        "O2233": 0.855,
+        "I82539": 0.855,
+        "I82461": 0.855,
+        "T85868D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I80209",
+      "confidence": 0.621434
+    }
+  }
 ]

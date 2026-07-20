@@ -1,52 +1,194 @@
 [
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            59,
-            66
-        ]
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      57,
+      64
+    ],
+    "assertion_position": [
+      57,
+      64
+    ],
+    "sentence": "Khoảng vài tuần trước đây bệnh nhân có [ENTITY] khi gắng sức.",
+    "assertion_result": {
+      "tag": "isHistorical"
     },
-    {
-        "text": "Khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            190,
-            197
-        ]
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "siêu âm tim",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            247,
-            258
-        ]
+    "candidate": null
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      188,
+      195
+    ],
+    "assertion_position": [
+      188,
+      195
+    ],
+    "sentence": "[ENTITY] khi gắng sức.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "hở van hai lá",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            268,
-            281
-        ],
-        "candidates": [
-            "I051"
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "Chụp động mạch vành",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            289,
-            308
-        ]
+    "candidate": null
+  },
+  {
+    "text": "gắng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      200,
+      204
+    ],
+    "assertion_position": [
+      200,
+      204
+    ],
+    "sentence": "Khó thở khi [ENTITY] sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "I'm ready to assist with your translation request. Please provide the Vietnamese medical text you'd like translated."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      244,
+      255
+    ],
+    "eng_translation": [
+      "Echocardiogram",
+      "Cardiac ultrasound"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hở van hai lá",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      265,
+      278
+    ],
+    "assertion_position": [
+      265,
+      278
+    ],
+    "sentence": "siêu âm tim cho thấy [ENTITY] nặng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Mitral regurgitation",
+      "Mitral insufficiency"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I051": 0.882163,
+        "Q233": 0.834212,
+        "I340": 0.828191,
+        "I050": 0.802893,
+        "I059": 0.778081
+      },
+      "rapidfuzz": {
+        "I051": 0.9,
+        "Q233": 0.9,
+        "I052": 0.855,
+        "P921": 0.855,
+        "I058": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I051",
+      "confidence": 0.883947
     }
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      285,
+      304
+    ],
+    "eng_translation": [
+      "Coronary angiography",
+      "Cardiac catheterization"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      323,
+      327
+    ],
+    "assertion_position": [
+      323,
+      327
+    ],
+    "sentence": "Chụp động mạch vành cho thấy không có [ENTITY] động mạch vành.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "disease",
+      "medical condition"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R69": 0.818083,
+        "F99": 0.673695,
+        "B999": 0.618864,
+        "Z789": 0.603077,
+        "F919": 0.595559
+      },
+      "rapidfuzz": {
+        "M84642S": 0.9,
+        "K9289": 0.9,
+        "K929": 0.9,
+        "G4701": 0.9,
+        "G4714": 0.9,
+        "U099": 0.855
+      }
+    },
+    "candidate": {
+      "code": "R69",
+      "confidence": 0.736275
+    }
+  }
 ]

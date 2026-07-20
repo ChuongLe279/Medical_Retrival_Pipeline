@@ -1,485 +1,1211 @@
 [
-    {
-        "text": "khó chịu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            52,
-            60
-        ]
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      50,
+      58
+    ],
+    "assertion_position": [
+      50,
+      58
+    ],
+    "sentence": "Các tập tương tự trước đây: Từng bị [ENTITY] tương tự trong quá khứ, luôn thuyên giảm khi dùng thuốc.",
+    "assertion_result": {
+      "tag": "isHistorical"
     },
-    {
-        "text": "acetaminophen 500mg",
-        "type": "THUỐC",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            171,
-            190
-        ],
-        "candidates": [
-            "315266"
-        ]
+    "eng_translation": [
+      "discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "cơn đau dữ",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            222,
-            232
-        ]
+    "candidate": null
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      169,
+      188
+    ],
+    "assertion_position": [
+      169,
+      188
+    ],
+    "sentence": "Tự điều trị bằng liều cao [ENTITY], taking 10 pills at a time khi cơn đau dữ dội, thường 4 viên mỗi giờ.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "đau bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            376,
-            384
-        ]
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "acetaminophen 500mg",
+      "Acetaminophen 500 mg",
+      "paracetamol 500mg",
+      "Acetaminophen 500 milligrams"
+    ],
+    "retriever": {
+      "sapbert": {
+        "315266": 1.0,
+        "1100003": 0.970029,
+        "570070": 0.967523,
+        "565623": 0.964835,
+        "570054": 0.962989
+      },
+      "rapidfuzz": {
+        "315266": 1.0,
+        "315259": 0.95,
+        "315264": 0.95,
+        "251454": 0.9,
+        "2743411": 0.855,
+        "1790533": 0.855
+      }
     },
-    {
-        "text": "đau bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            449,
-            457
-        ]
-    },
-    {
-        "text": "đau bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            491,
-            499
-        ]
-    },
-    {
-        "text": "đau bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            542,
-            550
-        ]
-    },
-    {
-        "text": "đau bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            590,
-            598
-        ]
-    },
-    {
-        "text": "men gan",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            647,
-            654
-        ],
-        "candidates": [
-            "R160"
-        ]
-    },
-    {
-        "text": "bilirubin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            692,
-            701
-        ]
-    },
-    {
-        "text": "đau bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            775,
-            783
-        ]
-    },
-    {
-        "text": "đau bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            801,
-            809
-        ]
-    },
-    {
-        "text": "mệt mỏi toàn thân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            821,
-            838
-        ]
-    },
-    {
-        "text": "yếu sức",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            841,
-            848
-        ]
-    },
-    {
-        "text": "khó thở khi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            851,
-            862
-        ]
-    },
-    {
-        "text": "sức",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            868,
-            871
-        ]
-    },
-    {
-        "text": "ngứa toàn thân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            874,
-            888
-        ]
-    },
-    {
-        "text": "tiểu ra máu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            899,
-            910
-        ]
-    },
-    {
-        "text": "đau",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            917,
-            920
-        ]
-    },
-    {
-        "text": "Đau vùng gan",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            952,
-            964
-        ]
-    },
-    {
-        "text": "buồn nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            1016,
-            1024
-        ]
-    },
-    {
-        "text": "nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            1036,
-            1039
-        ]
-    },
-    {
-        "text": "phân có máu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            1090,
-            1101
-        ]
-    },
-    {
-        "text": "acetaminophen 500mg",
-        "type": "THUỐC",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            1183,
-            1202
-        ],
-        "candidates": [
-            "315266"
-        ]
-    },
-    {
-        "text": "bilirubin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1334,
-            1343
-        ]
-    },
-    {
-        "text": "ast",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1349,
-            1352
-        ]
-    },
-    {
-        "text": "421",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1353,
-            1356
-        ]
-    },
-    {
-        "text": "alt",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1358,
-            1361
-        ]
-    },
-    {
-        "text": "336",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1362,
-            1365
-        ]
-    },
-    {
-        "text": "bilirubin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1376,
-            1385
-        ]
-    },
-    {
-        "text": "siêu âm",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1410,
-            1417
-        ]
-    },
-    {
-        "text": "acetaminophen",
-        "type": "THUỐC",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            1485,
-            1498
-        ],
-        "candidates": [
-            "161"
-        ]
-    },
-    {
-        "text": "nac",
-        "type": "THUỐC",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            1516,
-            1519
-        ],
-        "candidates": [
-            "197"
-        ]
-    },
-    {
-        "text": "ercp",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1551,
-            1555
-        ]
-    },
-    {
-        "text": "ercp",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1558,
-            1562
-        ]
-    },
-    {
-        "text": "bilirubin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1744,
-            1753
-        ]
-    },
-    {
-        "text": "ast",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1830,
-            1833
-        ]
-    },
-    {
-        "text": "421",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1834,
-            1837
-        ]
-    },
-    {
-        "text": "alt",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1840,
-            1843
-        ]
-    },
-    {
-        "text": "336",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1844,
-            1847
-        ]
-    },
-    {
-        "text": "bilirubin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1860,
-            1869
-        ]
-    },
-    {
-        "text": "viêm gan virus",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1945,
-            1959
-        ],
-        "candidates": [
-            "B189"
-        ]
-    },
-    {
-        "text": "ferritin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1973,
-            1981
-        ]
-    },
-    {
-        "text": "siêu âm",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2106,
-            2113
-        ]
-    },
-    {
-        "text": "ercp",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2168,
-            2172
-        ]
-    },
-    {
-        "text": "ercp",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2291,
-            2295
-        ]
-    },
-    {
-        "text": "tăng men gan",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            2327,
-            2339
-        ],
-        "candidates": [
-            "R7401"
-        ]
-    },
-    {
-        "text": "bilirubin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2347,
-            2356
-        ]
+    "candidate": {
+      "code": "315266",
+      "confidence": 1.0
     }
+  },
+  {
+    "text": "cơn đau dữ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      220,
+      230
+    ],
+    "assertion_position": [
+      220,
+      230
+    ],
+    "sentence": "Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi [ENTITY] dội, thường 4 viên mỗi giờ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "severe pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      371,
+      379
+    ],
+    "assertion_position": [
+      371,
+      379
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      444,
+      452
+    ],
+    "assertion_position": [
+      444,
+      452
+    ],
+    "sentence": "Tiền sử 2 ngày [ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      485,
+      493
+    ],
+    "assertion_position": [
+      485,
+      493
+    ],
+    "sentence": "Tiền sử 2 tháng [ENTITY] liên tục.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      536,
+      544
+    ],
+    "assertion_position": [
+      536,
+      544
+    ],
+    "sentence": "Tiền sử 2 tháng [ENTITY] liên tục.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      583,
+      591
+    ],
+    "assertion_position": [
+      583,
+      591
+    ],
+    "sentence": "2 ngày trước khi nhập viện, [ENTITY] trở nên tồi tệ hơn.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      639,
+      646
+    ],
+    "assertion_position": [
+      639,
+      646
+    ],
+    "sentence": "Diễn biến trong viện: tăng [ENTITY] bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Liver enlargement",
+      "Hepatomegaly",
+      "Enlarged liver"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R160": 0.887478,
+        "K764": 0.770579,
+        "K741": 0.73588,
+        "Q186": 0.715451,
+        "R162": 0.701047
+      },
+      "rapidfuzz": {
+        "R162": 0.9,
+        "R160": 0.9,
+        "C787": 0.855,
+        "C7B02": 0.855,
+        "H05341": 0.855,
+        "O2662": 0.855,
+        "O26611": 0.855,
+        "O26612": 0.855,
+        "K767": 0.704348
+      }
+    },
+    "candidate": {
+      "code": "R160",
+      "confidence": 0.88873
+    }
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      684,
+      693
+    ],
+    "eng_translation": [
+      "bilirubin",
+      "Total bilirubin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      767,
+      775
+    ],
+    "assertion_position": [
+      767,
+      775
+    ],
+    "sentence": "[ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng liên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      792,
+      805
+    ],
+    "assertion_position": [
+      792,
+      805
+    ],
+    "sentence": "[ENTITY] tục.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "abdominal pain, continuous",
+      "Continuous abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      811,
+      828
+    ],
+    "assertion_position": [
+      811,
+      828
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Generalized fatigue",
+      "Chronic fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      830,
+      837
+    ],
+    "assertion_position": [
+      830,
+      837
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Weakness",
+      "Neurological weakness"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở khi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      839,
+      850
+    ],
+    "assertion_position": [
+      839,
+      850
+    ],
+    "sentence": "[ENTITY] gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "dyspnea when"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      856,
+      859
+    ],
+    "assertion_position": [
+      856,
+      859
+    ],
+    "sentence": "khó thở khi gắng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "sức"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngứa toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      861,
+      875
+    ],
+    "assertion_position": [
+      861,
+      875
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Pruritus throughout the body",
+      "Pruritus generalized",
+      "Generalized pruritus"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tiểu ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      885,
+      896
+    ],
+    "assertion_position": [
+      885,
+      896
+    ],
+    "sentence": "Vài lần [ENTITY] không đau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "hematuria",
+      "Blood in urine"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      903,
+      906
+    ],
+    "assertion_position": [
+      903,
+      906
+    ],
+    "sentence": "Vài lần tiểu ra máu không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Đau vùng gan",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      938,
+      950
+    ],
+    "assertion_position": [
+      938,
+      950
+    ],
+    "sentence": "Vị trí: [ENTITY] phải (RUQ) và thượng vị lan ra sau lưng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Pain in the liver region",
+      "Pain in the right upper quadrant of the abdomen",
+      "Right upper quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1001,
+      1009
+    ],
+    "assertion_position": [
+      1001,
+      1009
+    ],
+    "sentence": "Không có [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1020,
+      1023
+    ],
+    "assertion_position": [
+      1020,
+      1023
+    ],
+    "sentence": "Không có [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phân có máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1072,
+      1083
+    ],
+    "assertion_position": [
+      1072,
+      1083
+    ],
+    "sentence": "Không có [ENTITY], đen hoặc nhựa đường.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Blood in stool",
+      "Hematochezia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      1165,
+      1184
+    ],
+    "assertion_position": [
+      1165,
+      1184
+    ],
+    "sentence": "Tự điều trị bằng liều cao [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "acetaminophen 500mg",
+      "Acetaminophen 500 mg",
+      "paracetamol 500mg",
+      "Acetaminophen 500 milligrams"
+    ],
+    "retriever": {
+      "sapbert": {
+        "315266": 1.0,
+        "1100003": 0.970029,
+        "570070": 0.967523,
+        "565623": 0.964835,
+        "570054": 0.962989
+      },
+      "rapidfuzz": {
+        "315266": 1.0,
+        "315259": 0.95,
+        "315264": 0.95,
+        "251454": 0.9,
+        "2743411": 0.855,
+        "1790533": 0.855
+      }
+    },
+    "candidate": {
+      "code": "315266",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1314,
+      1323
+    ],
+    "eng_translation": [
+      "bilirubin",
+      "Total bilirubin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1329,
+      1332
+    ],
+    "eng_translation": [
+      "No translation provided.",
+      "The query provided is \"No translation provided.\" Since there is no medical content or diagnosis mentioned in the query, there is no applicable medical synonym to use. Therefore, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1333,
+      1336
+    ],
+    "eng_translation": [
+      "421"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1338,
+      1341
+    ],
+    "eng_translation": [
+      "No translation provided. Please provide the Vietnamese medical text for translation.",
+      "Please provide the Vietnamese medical text for translation."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1342,
+      1345
+    ],
+    "eng_translation": [
+      "336"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1356,
+      1365
+    ],
+    "eng_translation": [
+      "bilirubin",
+      "Total bilirubin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1389,
+      1396
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "acetaminophen",
+    "type": "THUỐC",
+    "position": [
+      1462,
+      1475
+    ],
+    "assertion_position": [
+      1462,
+      1475
+    ],
+    "sentence": "Chưa từng xét nghiệm nồng độ [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Acetaminophen",
+      "Paracetamol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "707705": 0.97086,
+        "707438": 0.954853
+      },
+      "rapidfuzz": {
+        "161": 1.0,
+        "315270": 0.95,
+        "332815": 0.95,
+        "251454": 0.9,
+        "8351": 0.8,
+        "17939": 0.761905
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nac",
+    "type": "THUỐC",
+    "position": [
+      1492,
+      1495
+    ],
+    "assertion_position": [
+      1492,
+      1495
+    ],
+    "sentence": "Chưa từng dùng [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "NAC",
+      "N-acetylcysteine (NAC)",
+      "N-acetylcysteine"
+    ],
+    "retriever": {
+      "sapbert": {
+        "197": 1.0,
+        "607770": 1.0,
+        "1591923": 0.914741,
+        "545804": 0.816299
+      },
+      "rapidfuzz": {
+        "197": 0.95,
+        "1250207": 0.9,
+        "1250205": 0.9,
+        "1250210": 0.9,
+        "3024": 0.9,
+        "345086": 0.886667,
+        "1490795": 0.871795
+      }
+    },
+    "candidate": {
+      "code": "197",
+      "confidence": 0.995
+    }
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1526,
+      1530
+    ],
+    "eng_translation": [
+      "ERCP",
+      "Endoscopic Retrograde Cholangiopancreatography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1532,
+      1536
+    ],
+    "eng_translation": [
+      "ERCP",
+      "Endoscopic Retrograde Cholangiopancreatography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1718,
+      1727
+    ],
+    "eng_translation": [
+      "bilirubin",
+      "Total bilirubin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "men",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1740,
+      1743
+    ],
+    "assertion_position": [
+      1740,
+      1743
+    ],
+    "sentence": "Tình trạng ngay trước khi nhập viện: tăng bilirubin máu và tăng [ENTITY] gan kéo dài.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Male patient, 3 years old, admitted for evaluation of fever and cough. No history of immunization. No history of chronic illness. No history of recent travel. No history of contact with sick individuals. No history of antibiotic use. No history of vomiting or diarrhea. No history of seizures. No history of previous hospitalization. No history of allergy. No history of previous surgery. No history of previous blood transfusion. No history of previous chemotherapy. No history of previous radiation therapy. No history of previous organ transplantation. No history of previous psychiatric hospitalization. No history of previous substance abuse. No history of previous pregnancy. No history of previous miscarriage. No history of previous stillbirth. No history of previous neonatal intensive care unit admission. No history of previous neonatal resuscitation. No history of previous neonatal jaundice. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypoglycemia. No history of previous neonatal hypocalcemia. No history of previous neonatal hypomagnesemia. No history of previous neonatal hypokalemia. No history of previous neonatal hypoxia. No history of previous neonatal asphyxia. No history of previous neonatal respiratory distress syndrome. No history of previous neonatal meconium aspiration syndrome. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypoglycemia. No history of previous neonatal hypocalcemia. No history of previous neonatal hypomagnesemia. No history of previous neonatal hypokalemia. No history of previous neonatal hypoxia. No history of previous neonatal asphyxia. No history of previous neonatal respiratory distress syndrome. No history of previous neonatal meconium aspiration syndrome. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypoglycemia. No history of previous neonatal hypocalcemia. No history of previous neonatal hypomagnesemia. No history of previous neonatal hypokalemia. No history of previous neonatal hypoxia. No history of previous neonatal asphyxia. No history of previous neonatal respiratory distress syndrome. No history of previous neonatal meconium aspiration syndrome. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypoglycemia. No history of previous neonatal hypocalcemia. No history of previous neonatal hypomagnesemia. No history of previous neonatal hypokalemia. No history of previous neonatal hypoxia. No history of previous neonatal asphyxia. No history of previous neonatal respiratory distress syndrome. No history of previous neonatal meconium aspiration syndrome. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypoglycemia. No history of previous neonatal hypocalcemia. No history of previous neonatal hypomagnesemia. No history of previous neonatal hypokalemia. No history of previous neonatal hypoxia. No history of previous neonatal asphyxia. No history of previous neonatal respiratory distress syndrome. No history of previous neonatal meconium aspiration syndrome. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis",
+      "Male patient, 3 years old, admitted for evaluation of fever and cough. No history of immunization. No history of chronic illness. No history of recent travel. No history of contact with sick individuals. No history of antibiotic use. No history of vomiting or diarrhea. No history of seizures. No history of previous hospitalization. No history of allergy. No history of previous surgery. No history of previous blood transfusion. No history of previous chemotherapy. No history of previous radiation therapy. No history of previous organ transplantation. No history of previous psychiatric hospitalization. No history of previous substance abuse. No history of previous pregnancy. No history of previous miscarriage. No history of previous stillbirth. No history of previous neonatal intensive care unit admission. No history of previous neonatal resuscitation. No history of previous neonatal jaundice. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypogly"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1801,
+      1804
+    ],
+    "eng_translation": [
+      "No translation provided.",
+      "The query provided is \"No translation provided.\" Since there is no medical content or diagnosis mentioned in the query, there is no applicable medical synonym to use. Therefore, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1805,
+      1808
+    ],
+    "eng_translation": [
+      "421"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1810,
+      1813
+    ],
+    "eng_translation": [
+      "No translation provided. Please provide the Vietnamese medical text for translation.",
+      "Please provide the Vietnamese medical text for translation."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1814,
+      1817
+    ],
+    "eng_translation": [
+      "336"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1828,
+      1837
+    ],
+    "eng_translation": [
+      "bilirubin",
+      "Total bilirubin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm gan virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1911,
+      1925
+    ],
+    "assertion_position": [
+      1911,
+      1925
+    ],
+    "sentence": "bảng xét nghiệm [ENTITY] là âm tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Viral hepatitis",
+      "Hepatitis病毒感染"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B179": 0.861242,
+        "B189": 0.795088,
+        "B0081": 0.768122,
+        "K752": 0.73457,
+        "K739": 0.728425
+      },
+      "rapidfuzz": {
+        "B189": 0.9,
+        "B188": 0.9,
+        "B1910": 0.9,
+        "A5145": 0.736364,
+        "B581": 0.736364,
+        "Z205": 0.736364
+      }
+    },
+    "candidate": {
+      "code": "B189",
+      "confidence": 0.805579
+    }
+  },
+  {
+    "text": "ferritin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1938,
+      1946
+    ],
+    "eng_translation": [
+      "ferritin",
+      "serum ferritin level"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2070,
+      2077
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2130,
+      2134
+    ],
+    "eng_translation": [
+      "ERCP",
+      "Endoscopic Retrograde Cholangiopancreatography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2254,
+      2258
+    ],
+    "eng_translation": [
+      "ERCP",
+      "Endoscopic Retrograde Cholangiopancreatography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "men",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2295,
+      2298
+    ],
+    "assertion_position": [
+      2295,
+      2298
+    ],
+    "sentence": "tăng [ENTITY] gan.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Male patient, 3 years old, admitted for evaluation of fever and cough. No history of immunization. No history of chronic illness. No history of recent travel. No history of contact with sick individuals. No history of antibiotic use. No history of vomiting or diarrhea. No history of seizures. No history of previous hospitalization. No history of allergy. No history of previous surgery. No history of previous blood transfusion. No history of previous chemotherapy. No history of previous radiation therapy. No history of previous organ transplantation. No history of previous psychiatric hospitalization. No history of previous substance abuse. No history of previous pregnancy. No history of previous miscarriage. No history of previous stillbirth. No history of previous neonatal intensive care unit admission. No history of previous neonatal resuscitation. No history of previous neonatal jaundice. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypoglycemia. No history of previous neonatal hypocalcemia. No history of previous neonatal hypomagnesemia. No history of previous neonatal hypokalemia. No history of previous neonatal hypoxia. No history of previous neonatal asphyxia. No history of previous neonatal respiratory distress syndrome. No history of previous neonatal meconium aspiration syndrome. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypoglycemia. No history of previous neonatal hypocalcemia. No history of previous neonatal hypomagnesemia. No history of previous neonatal hypokalemia. No history of previous neonatal hypoxia. No history of previous neonatal asphyxia. No history of previous neonatal respiratory distress syndrome. No history of previous neonatal meconium aspiration syndrome. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypoglycemia. No history of previous neonatal hypocalcemia. No history of previous neonatal hypomagnesemia. No history of previous neonatal hypokalemia. No history of previous neonatal hypoxia. No history of previous neonatal asphyxia. No history of previous neonatal respiratory distress syndrome. No history of previous neonatal meconium aspiration syndrome. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypoglycemia. No history of previous neonatal hypocalcemia. No history of previous neonatal hypomagnesemia. No history of previous neonatal hypokalemia. No history of previous neonatal hypoxia. No history of previous neonatal asphyxia. No history of previous neonatal respiratory distress syndrome. No history of previous neonatal meconium aspiration syndrome. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypoglycemia. No history of previous neonatal hypocalcemia. No history of previous neonatal hypomagnesemia. No history of previous neonatal hypokalemia. No history of previous neonatal hypoxia. No history of previous neonatal asphyxia. No history of previous neonatal respiratory distress syndrome. No history of previous neonatal meconium aspiration syndrome. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis",
+      "Male patient, 3 years old, admitted for evaluation of fever and cough. No history of immunization. No history of chronic illness. No history of recent travel. No history of contact with sick individuals. No history of antibiotic use. No history of vomiting or diarrhea. No history of seizures. No history of previous hospitalization. No history of allergy. No history of previous surgery. No history of previous blood transfusion. No history of previous chemotherapy. No history of previous radiation therapy. No history of previous organ transplantation. No history of previous psychiatric hospitalization. No history of previous substance abuse. No history of previous pregnancy. No history of previous miscarriage. No history of previous stillbirth. No history of previous neonatal intensive care unit admission. No history of previous neonatal resuscitation. No history of previous neonatal jaundice. No history of previous neonatal sepsis. No history of previous neonatal meningitis. No history of previous neonatal pneumonia. No history of previous neonatal bronchiolitis. No history of previous neonatal bronchitis. No history of previous neonatal asthma. No history of previous neonatal wheezing. No history of previous neonatal apnea. No history of previous neonatal hypogly"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2299,
+      2302
+    ],
+    "assertion_position": [
+      2299,
+      2302
+    ],
+    "sentence": "tăng men [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Liver",
+      "Hepatic"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D134": 0.797415,
+        "K769": 0.727665,
+        "C229": 0.685573,
+        "D015": 0.676833,
+        "C228": 0.657026
+      },
+      "rapidfuzz": {
+        "T8642": 0.9,
+        "S36114S": 0.9,
+        "S36112A": 0.9,
+        "K7682": 0.9,
+        "C183": 0.9,
+        "C221": 0.9
+      }
+    },
+    "candidate": {
+      "code": "D134",
+      "confidence": 0.717673
+    }
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2309,
+      2318
+    ],
+    "eng_translation": [
+      "bilirubin",
+      "Total bilirubin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

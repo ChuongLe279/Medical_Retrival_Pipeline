@@ -1,352 +1,889 @@
 [
-    {
-        "text": "hội chứng turner",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            48,
-            64
-        ],
-        "candidates": [
-            "Q969"
-        ]
+  {
+    "text": "hội chứng turner",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      36,
+      52
+    ],
+    "assertion_position": [
+      36,
+      52
+    ],
+    "sentence": "[ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "Tăng huyết áp",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            87,
-            100
-        ],
-        "candidates": [
-            "I10"
-        ]
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Turner syndrome",
+      "Monosomy X syndrome"
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q969": 0.972216,
+        "Q961": 0.821537,
+        "Q960": 0.791261,
+        "Q968": 0.772128,
+        "Q970": 0.763159
+      },
+      "rapidfuzz": {
+        "O3514X0": 0.9,
+        "O3514X1": 0.9,
+        "O3514X2": 0.9,
+        "K580": 0.855,
+        "M3507": 0.855,
+        "M3506": 0.855
+      }
     },
-    {
-        "text": "Ung thư đại tràng",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            146,
-            163
-        ],
-        "candidates": [
-            "C189"
-        ]
-    },
-    {
-        "text": "Thuyên tắc phổi",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            178,
-            193
-        ],
-        "candidates": [
-            "I2782"
-        ]
-    },
-    {
-        "text": "coumadin",
-        "type": "THUỐC",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            204,
-            212
-        ],
-        "candidates": [
-            "11289"
-        ]
-    },
-    {
-        "text": "Thuyên tắc phổi",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            222,
-            237
-        ],
-        "candidates": [
-            "I2782"
-        ]
-    },
-    {
-        "text": "coumadin",
-        "type": "THUỐC",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            248,
-            256
-        ],
-        "candidates": [
-            "11289"
-        ]
-    },
-    {
-        "text": "coumadin",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            355,
-            363
-        ],
-        "candidates": [
-            "11289"
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            412,
-            419
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            455,
-            462
-        ]
-    },
-    {
-        "text": "đờm ở cổ họng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            482,
-            495
-        ]
-    },
-    {
-        "text": "sốt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            532,
-            535
-        ]
-    },
-    {
-        "text": "ớn lạnh",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            548,
-            555
-        ]
-    },
-    {
-        "text": "đau ngực",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            568,
-            576
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            590,
-            597
-        ]
-    },
-    {
-        "text": "cơn đau",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            629,
-            636
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            669,
-            676
-        ]
-    },
-    {
-        "text": "trống ngực",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            707,
-            717
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            730,
-            737
-        ]
-    },
-    {
-        "text": "nhịp nhanh",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            766,
-            776
-        ]
-    },
-    {
-        "text": "đau ngực",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            789,
-            797
-        ]
-    },
-    {
-        "text": "khó nuốt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            945,
-            953
-        ]
-    },
-    {
-        "text": "metoprolol 5mg iv",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1053,
-            1070
-        ],
-        "candidates": [
-            "866508"
-        ]
-    },
-    {
-        "text": "hr",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1149,
-            1151
-        ]
-    },
-    {
-        "text": "88",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1152,
-            1154
-        ]
-    },
-    {
-        "text": "bp",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1155,
-            1157
-        ]
-    },
-    {
-        "text": "13482",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1158,
-            1163
-        ]
-    },
-    {
-        "text": "rr",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1164,
-            1166
-        ]
-    },
-    {
-        "text": "14",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1167,
-            1169
-        ]
-    },
-    {
-        "text": "spo2",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1170,
-            1174
-        ]
-    },
-    {
-        "text": "100",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1175,
-            1178
-        ]
-    },
-    {
-        "text": "hr",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1203,
-            1205
-        ]
-    },
-    {
-        "text": "140",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1206,
-            1209
-        ]
+    "candidate": {
+      "code": "Q969",
+      "confidence": 0.874994
     }
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      70,
+      83
+    ],
+    "assertion_position": [
+      70,
+      83
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
+    }
+  },
+  {
+    "text": "Ung thư đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      124,
+      141
+    ],
+    "assertion_position": [
+      124,
+      141
+    ],
+    "sentence": "Tiền sử phẫu thuật cắt bỏ đại tràng do [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Colorectal Cancer",
+      "Colorectal Carcinoma"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C189": 0.794747,
+        "C20": 0.770835,
+        "C180": 0.711332,
+        "Z15060": 0.694299,
+        "C260": 0.672127
+      },
+      "rapidfuzz": {
+        "Z15060": 0.9,
+        "R971": 0.855,
+        "QA1790": 0.855,
+        "C7B1": 0.855,
+        "C44722": 0.855,
+        "C44711": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C189",
+      "confidence": 0.715272
+    }
+  },
+  {
+    "text": "Thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      151,
+      166
+    ],
+    "assertion_position": [
+      151,
+      166
+    ],
+    "sentence": "Tiền sử [ENTITY] đang dùng coumadin (tiền sử Thuyên tắc phổi đang dùng coumadin).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Pulmonary embolism",
+      "Deep Vein Thrombosis Complication"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I2782": 0.730659,
+        "I82509": 0.718177,
+        "I825Z9": 0.700583,
+        "I82409": 0.691903,
+        "O047": 0.686062
+      },
+      "rapidfuzz": {
+        "I2782": 0.95,
+        "I2693": 0.9,
+        "I2601": 0.9,
+        "O749": 0.855,
+        "S45391S": 0.855,
+        "S45392A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I2782",
+      "confidence": 0.752593
+    }
+  },
+  {
+    "text": "coumadin",
+    "type": "THUỐC",
+    "position": [
+      177,
+      185
+    ],
+    "assertion_position": [
+      177,
+      185
+    ],
+    "sentence": "Tiền sử Thuyên tắc phổi đang dùng [ENTITY] (tiền sử Thuyên tắc phổi đang dùng coumadin).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Coumadin",
+      "Warfarin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "11289": 1.0,
+        "202421": 1.0,
+        "2048011": 0.969032,
+        "82118": 0.893789,
+        "2898": 0.880474
+      },
+      "rapidfuzz": {
+        "202421": 1.0,
+        "11289": 1.0,
+        "855340": 0.9,
+        "855339": 0.9,
+        "2656852": 0.9,
+        "2649084": 0.9
+      }
+    },
+    "candidate": {
+      "code": "11289",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      195,
+      210
+    ],
+    "assertion_position": [
+      195,
+      210
+    ],
+    "sentence": "Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử [ENTITY] đang dùng coumadin).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Pulmonary embolism",
+      "Deep Vein Thrombosis Complication"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I2782": 0.730659,
+        "I82509": 0.718177,
+        "I825Z9": 0.700583,
+        "I82409": 0.691903,
+        "O047": 0.686062
+      },
+      "rapidfuzz": {
+        "I2782": 0.95,
+        "I2693": 0.9,
+        "I2601": 0.9,
+        "O749": 0.855,
+        "S45391S": 0.855,
+        "S45392A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I2782",
+      "confidence": 0.752593
+    }
+  },
+  {
+    "text": "coumadin",
+    "type": "THUỐC",
+    "position": [
+      221,
+      229
+    ],
+    "assertion_position": [
+      221,
+      229
+    ],
+    "sentence": "Tiền sử Thuyên tắc phổi đang dùng coumadin (tiền sử Thuyên tắc phổi đang dùng [ENTITY]).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Coumadin",
+      "Warfarin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "11289": 1.0,
+        "202421": 1.0,
+        "2048011": 0.969032,
+        "82118": 0.893789,
+        "2898": 0.880474
+      },
+      "rapidfuzz": {
+        "202421": 1.0,
+        "11289": 1.0,
+        "855340": 0.9,
+        "855339": 0.9,
+        "2656852": 0.9,
+        "2649084": 0.9
+      }
+    },
+    "candidate": {
+      "code": "11289",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "coumadin",
+    "type": "THUỐC",
+    "position": [
+      322,
+      330
+    ],
+    "assertion_position": [
+      322,
+      330
+    ],
+    "sentence": "Thuốc trước khi nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Coumadin",
+      "Warfarin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "11289": 1.0,
+        "202421": 1.0,
+        "2048011": 0.969032,
+        "82118": 0.893789,
+        "2898": 0.880474
+      },
+      "rapidfuzz": {
+        "202421": 1.0,
+        "11289": 1.0,
+        "855340": 0.9,
+        "855339": 0.9,
+        "2656852": 0.9,
+        "2649084": 0.9
+      }
+    },
+    "candidate": {
+      "code": "11289",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      372,
+      379
+    ],
+    "assertion_position": [
+      372,
+      379
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      407,
+      414
+    ],
+    "assertion_position": [
+      407,
+      414
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đờm ở cổ họng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      428,
+      441
+    ],
+    "assertion_position": [
+      428,
+      441
+    ],
+    "sentence": "Cảm giác có [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Phlegm in the throat",
+      "Postnasal drip"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      468,
+      471
+    ],
+    "assertion_position": [
+      468,
+      471
+    ],
+    "sentence": "Không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      479,
+      486
+    ],
+    "assertion_position": [
+      479,
+      486
+    ],
+    "sentence": "Không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "chills"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      494,
+      502
+    ],
+    "assertion_position": [
+      494,
+      502
+    ],
+    "sentence": "Không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      510,
+      517
+    ],
+    "assertion_position": [
+      510,
+      517
+    ],
+    "sentence": "Không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "cơn đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      544,
+      551
+    ],
+    "assertion_position": [
+      544,
+      551
+    ],
+    "sentence": "Không thay đổi tính chất [ENTITY] khi thay đổi tư thế.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      579,
+      586
+    ],
+    "assertion_position": [
+      579,
+      586
+    ],
+    "sentence": "Không [ENTITY] khi gắng sức.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      607,
+      622
+    ],
+    "assertion_position": [
+      607,
+      622
+    ],
+    "sentence": "Không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "palpitations",
+      "Arrhythmia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      630,
+      637
+    ],
+    "assertion_position": [
+      630,
+      637
+    ],
+    "sentence": "Không [ENTITY] tăng lên khi xuất hiện Cơn nhịp nhanh.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhịp nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      665,
+      675
+    ],
+    "assertion_position": [
+      665,
+      675
+    ],
+    "sentence": "Không khó thở tăng lên khi xuất hiện Cơn [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "tachycardia",
+      "Fast heart rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      683,
+      691
+    ],
+    "assertion_position": [
+      683,
+      691
+    ],
+    "sentence": "Không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó nuốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      824,
+      832
+    ],
+    "assertion_position": [
+      824,
+      832
+    ],
+    "sentence": "đánh giá tổng quát về tiêu hóa vì cảm thấy [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dysphagia",
+      "Difficulty swallowing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "metoprolol 5mg iv",
+    "type": "THUỐC",
+    "position": [
+      916,
+      933
+    ],
+    "assertion_position": [
+      916,
+      933
+    ],
+    "sentence": "[ENTITY] x2.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "metoprolol 5mg IV",
+      "Metoprolol 5 mg IV"
+    ],
+    "retriever": {
+      "sapbert": {
+        "866508": 0.797697,
+        "1744259": 0.775937
+      },
+      "rapidfuzz": {
+        "865575": 0.9,
+        "6918": 0.9,
+        "2743345": 0.855
+      }
+    },
+    "candidate": {
+      "code": "866508",
+      "confidence": 0.717927
+    }
+  },
+  {
+    "text": "hr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1004,
+      1006
+    ],
+    "eng_translation": [
+      "HR",
+      "Heart Rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "88",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1007,
+      1009
+    ],
+    "eng_translation": [
+      "88",
+      "The query provided is \"88\" which does not contain any medical information or context. Therefore, no rewrite is possible."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1010,
+      1012
+    ],
+    "eng_translation": [
+      "BP",
+      "Blood Pressure"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "13482",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1013,
+      1018
+    ],
+    "eng_translation": [
+      "13482"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "rr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1019,
+      1021
+    ],
+    "eng_translation": [
+      "RR",
+      "Respiratory Rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "14",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1022,
+      1024
+    ],
+    "eng_translation": [
+      "14",
+      "The query provided is \"14\" which does not contain any medical information or context. Therefore, no rewrite is possible."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1025,
+      1029
+    ],
+    "eng_translation": [
+      "SpO₂",
+      "Oxygen saturation",
+      "Oxygen saturation in arterial blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "100",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1030,
+      1033
+    ],
+    "eng_translation": [
+      "100"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1053,
+      1055
+    ],
+    "eng_translation": [
+      "HR",
+      "Heart Rate"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "140",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1056,
+      1059
+    ],
+    "eng_translation": [
+      "140"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

@@ -1,71 +1,172 @@
 [
-    {
-        "text": "đau vùng xương bánh chè",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            73,
-            96
-        ]
+  {
+    "text": "đau vùng xương bánh chè",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      66,
+      89
+    ],
+    "assertion_position": [
+      66,
+      89
+    ],
+    "sentence": "CGhi nhận triệu chứng tương tự trước đây: xuất hiện [ENTITY] – đùi phải dữ dội, xảy ra cách đây vài tháng.",
+    "assertion_result": {
+      "tag": "isHistorical"
     },
-    {
-        "text": "đùi phải dữ dội",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            99,
-            114
-        ]
+    "eng_translation": [
+      "pain in the fibular region",
+      "pain in the peroneal region",
+      "pain in the fibula region"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "đau đầu gối phải",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            202,
-            218
-        ]
+    "candidate": null
+  },
+  {
+    "text": "đùi phải dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      92,
+      107
+    ],
+    "assertion_position": [
+      92,
+      107
+    ],
+    "sentence": "CGhi nhận triệu chứng tương tự trước đây: xuất hiện đau vùng xương bánh chè – [ENTITY], xảy ra cách đây vài tháng.",
+    "assertion_result": {
+      "tag": "isHistorical"
     },
-    {
-        "text": "Đau bánh chè đùi phải dữ dội",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            434,
-            462
-        ]
+    "eng_translation": [
+      "Right thigh severe pain",
+      "Acute severe pain in the right thigh"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "đau đau dữ dội",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            495,
-            509
-        ]
+    "candidate": null
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      188,
+      204
+    ],
+    "assertion_position": [
+      188,
+      204
+    ],
+    "sentence": "Lý do nhập viện: Tái khám vì [ENTITY].",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "đau đầu gối phải",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            609,
-            625
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Right knee pain",
+      "Right knee osteoarthritis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "chụp cắt lớp vi tính",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1148,
-            1168
-        ]
-    }
+    "candidate": null
+  },
+  {
+    "text": "Đau bánh chè đùi phải dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      398,
+      426
+    ],
+    "assertion_position": [
+      398,
+      426
+    ],
+    "sentence": "Thứ tự phát triển triệu chứng: [ENTITY] cách đây vài tháng.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Severe right popliteal pain",
+      "Severe right posterior knee pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      459,
+      473
+    ],
+    "assertion_position": [
+      459,
+      473
+    ],
+    "sentence": "Tiếp tục bị [ENTITY] khi thực hiện hầu hết các hoạt động.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Severe pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      564,
+      580
+    ],
+    "assertion_position": [
+      564,
+      580
+    ],
+    "sentence": "Triệu chứng hiện tại: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Right knee pain",
+      "Right knee osteoarthritis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1043,
+      1063
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

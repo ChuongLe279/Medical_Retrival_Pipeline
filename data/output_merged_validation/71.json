@@ -1,246 +1,808 @@
 [
-    {
-        "text": "Tăng huyết áp",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            39,
-            52
-        ],
-        "candidates": [
-            "I10"
-        ]
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      36,
+      49
+    ],
+    "assertion_position": [
+      36,
+      49
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
     },
-    {
-        "text": "Tăng lipid máu",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            55,
-            69
-        ],
-        "candidates": [
-            "E785"
-        ]
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
     },
-    {
-        "text": "Đái tháo đường típ 2",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            72,
-            92
-        ],
-        "candidates": [
-            "E1165"
-        ]
-    },
-    {
-        "text": "bệnh tim mạch",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            95,
-            108
-        ],
-        "candidates": [
-            "I519"
-        ]
-    },
-    {
-        "text": "xơ vữa động mạch",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            112,
-            128
-        ],
-        "candidates": [
-            "I7090"
-        ]
-    },
-    {
-        "text": "suy tim",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            140,
-            147
-        ],
-        "candidates": [
-            "I509"
-        ]
-    },
-    {
-        "text": "Tăng huyết áp phổi",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            189,
-            207
-        ],
-        "candidates": [
-            "I270"
-        ]
-    },
-    {
-        "text": "lasix",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            272,
-            277
-        ],
-        "candidates": [
-            "4603"
-        ]
-    },
-    {
-        "text": "mệt mỏi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            342,
-            349
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            352,
-            359
-        ]
-    },
-    {
-        "text": "ho khan",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            379,
-            386
-        ]
-    },
-    {
-        "text": "ho",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            387,
-            389
-        ]
-    },
-    {
-        "text": "sưng phù hai mắt cá chân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            392,
-            416
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            419,
-            426
-        ]
-    },
-    {
-        "text": "phù",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            437,
-            440
-        ]
-    },
-    {
-        "text": "Suy tim sung huyết cấp",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            485,
-            507
-        ],
-        "candidates": [
-            "I5021"
-        ]
-    },
-    {
-        "text": "lasix",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            544,
-            549
-        ],
-        "candidates": [
-            "4603"
-        ]
-    },
-    {
-        "text": "mệt mỏi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            592,
-            599
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            603,
-            610
-        ]
-    },
-    {
-        "text": "ho khan",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            630,
-            637
-        ]
-    },
-    {
-        "text": "ho",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            638,
-            640
-        ]
-    },
-    {
-        "text": "sưng phù hai mắt cá chân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            643,
-            667
-        ]
-    },
-    {
-        "text": "Bệnh động mạch vành",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            852,
-            871
-        ],
-        "candidates": [
-            "I249"
-        ]
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
     }
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      67,
+      87
+    ],
+    "assertion_position": [
+      67,
+      87
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Type 2 diabetes mellitus",
+      "Diabetes mellitus type 2"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.844191,
+        "E119": 0.736971,
+        "E118": 0.725221,
+        "O24119": 0.724895,
+        "Z833": 0.724102
+      },
+      "rapidfuzz": {
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "E1169": 0.9,
+        "S72362Q": 0.855,
+        "S72361M": 0.855,
+        "S72361N": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.759772
+    }
+  },
+  {
+    "text": "bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      89,
+      102
+    ],
+    "assertion_position": [
+      89,
+      102
+    ],
+    "sentence": "[ENTITY] do xơ vữa động mạch sau CABG.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "cardiovascular disease",
+      "Cardiac disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I519": 0.955106,
+        "I5189": 0.746198,
+        "I429": 0.718682,
+        "I099": 0.705557,
+        "I679": 0.694969
+      },
+      "rapidfuzz": {
+        "C946": 0.855,
+        "I289": 0.855,
+        "I279": 0.855,
+        "R011": 0.855,
+        "T82120D": 0.855,
+        "T82129A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I519",
+      "confidence": 0.859595
+    }
+  },
+  {
+    "text": "xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      106,
+      122
+    ],
+    "assertion_position": [
+      106,
+      122
+    ],
+    "sentence": "bệnh tim mạch do [ENTITY] sau CABG.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Atherosclerosis",
+      "Arteriosclerosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I7090": 0.960917,
+        "I7091": 0.846441,
+        "I700": 0.836473,
+        "I672": 0.751668,
+        "I708": 0.727376
+      },
+      "rapidfuzz": {
+        "I70743": 0.9,
+        "I70291": 0.9,
+        "I70269": 0.9,
+        "I7090": 0.812903,
+        "I7091": 0.812903,
+        "I70735": 0.812903
+      }
+    },
+    "candidate": {
+      "code": "I7090",
+      "confidence": 0.946116
+    }
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      133,
+      140
+    ],
+    "assertion_position": [
+      133,
+      140
+    ],
+    "sentence": "[ENTITY], không đặc hiệu hệ số tống máu 50 inch.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Heart failure",
+      "Congestive heart failure"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I5084": 0.853405,
+        "I5020": 0.81339,
+        "I5089": 0.783642,
+        "I5022": 0.769411
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9,
+        "I5041": 0.9,
+        "I5020": 0.9,
+        "I5021": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I509",
+      "confidence": 0.886162
+    }
+  },
+  {
+    "text": "Tăng huyết áp phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      181,
+      199
+    ],
+    "assertion_position": [
+      181,
+      199
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Pulmonary hypertension",
+      "Pulmonary arterial hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I2720": 0.987534,
+        "I270": 0.906433,
+        "I2721": 0.82044,
+        "P2930": 0.810358,
+        "I2722": 0.74703
+      },
+      "rapidfuzz": {
+        "I270": 0.95,
+        "I2721": 0.95,
+        "I2722": 0.9,
+        "I2729": 0.9,
+        "S25412D": 0.855,
+        "S25411S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I270",
+      "confidence": 0.91079
+    }
+  },
+  {
+    "text": "lasix",
+    "type": "THUỐC",
+    "position": [
+      266,
+      271
+    ],
+    "assertion_position": [
+      266,
+      271
+    ],
+    "sentence": "Thuốc trước khi nhập viện: [ENTITY] (tăng liều gần đây).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Lasix",
+      "Furosemide"
+    ],
+    "retriever": {
+      "sapbert": {
+        "4603": 1.0,
+        "202991": 1.0,
+        "2735130": 0.843701,
+        "2739320": 0.690308,
+        "1364397": 0.680973
+      },
+      "rapidfuzz": {
+        "202991": 1.0,
+        "4603": 1.0,
+        "565458": 0.9,
+        "1175645": 0.9,
+        "2725542": 0.9,
+        "2725545": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202991",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      333,
+      340
+    ],
+    "assertion_position": [
+      333,
+      340
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      349
+    ],
+    "assertion_position": [
+      342,
+      349
+    ],
+    "sentence": "[ENTITY] khi gắng sức nhẹ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho khan",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      368,
+      375
+    ],
+    "assertion_position": [
+      368,
+      375
+    ],
+    "sentence": "[ENTITY] ho.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Cough",
+      "Coughing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      376,
+      378
+    ],
+    "assertion_position": [
+      376,
+      378
+    ],
+    "sentence": "ho khan [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng phù hai mắt cá chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      380,
+      404
+    ],
+    "assertion_position": [
+      380,
+      404
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "swelling and edema of both ankles",
+      "peripheral edema of both ankles"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      406,
+      421
+    ],
+    "assertion_position": [
+      406,
+      421
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "dyspnea when lying down",
+      "Orthopnea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      423,
+      426
+    ],
+    "assertion_position": [
+      423,
+      426
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "edema",
+      "Fluid retention"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Suy tim sung huyết cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      471,
+      493
+    ],
+    "assertion_position": [
+      471,
+      493
+    ],
+    "sentence": "đến ED vì [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Acute congestive heart failure",
+      "Acute decompensated heart failure"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I5021": 0.887032,
+        "I5041": 0.841212,
+        "I5084": 0.818084,
+        "I509": 0.805139,
+        "I5031": 0.79347
+      },
+      "rapidfuzz": {
+        "I5021": 0.95,
+        "I5031": 0.95,
+        "O10312": 0.855,
+        "I82C19": 0.855,
+        "I82C13": 0.855,
+        "I82C12": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I5021",
+      "confidence": 0.893329
+    }
+  },
+  {
+    "text": "lasix",
+    "type": "THUỐC",
+    "position": [
+      529,
+      534
+    ],
+    "assertion_position": [
+      529,
+      534
+    ],
+    "sentence": "được điều trị bằng cách tăng liều [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Lasix",
+      "Furosemide"
+    ],
+    "retriever": {
+      "sapbert": {
+        "4603": 1.0,
+        "202991": 1.0,
+        "2735130": 0.843701,
+        "2739320": 0.690308,
+        "1364397": 0.680973
+      },
+      "rapidfuzz": {
+        "202991": 1.0,
+        "4603": 1.0,
+        "565458": 0.9,
+        "1175645": 0.9,
+        "2725542": 0.9,
+        "2725545": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202991",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      577,
+      584
+    ],
+    "assertion_position": [
+      577,
+      584
+    ],
+    "sentence": "vẫn [ENTITY] và khó thở khi gắng sức nhẹ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      588,
+      595
+    ],
+    "assertion_position": [
+      588,
+      595
+    ],
+    "sentence": "vẫn mệt mỏi và [ENTITY] khi gắng sức nhẹ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho khan",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      614,
+      621
+    ],
+    "assertion_position": [
+      614,
+      621
+    ],
+    "sentence": "[ENTITY] ho.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Cough",
+      "Coughing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      622,
+      624
+    ],
+    "assertion_position": [
+      622,
+      624
+    ],
+    "sentence": "ho khan [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng phù hai mắt cá chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      626,
+      650
+    ],
+    "assertion_position": [
+      626,
+      650
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "swelling and edema of both ankles",
+      "peripheral edema of both ankles"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "thông",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      728,
+      733
+    ],
+    "assertion_position": [
+      704,
+      709
+    ],
+    "sentence": "[ENTITY] tim trái và phải.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "thông",
+      "The query provided is in Vietnamese and does not contain any medical content. Therefore, no rewrite is necessary."
+    ],
+    "retriever": {
+      "sapbert": {
+        "R467": 0.583345,
+        "Z711": 0.558535,
+        "A921": 0.552109,
+        "G4452": 0.540728,
+        "Y636": 0.526081
+      },
+      "rapidfuzz": {
+        "T20219S": 0.855,
+        "T2025XS": 0.855,
+        "T2025XD": 0.855,
+        "K007": 0.72,
+        "R069": 0.72,
+        "R0689": 0.72
+      }
+    },
+    "candidate": {
+      "code": "R467",
+      "confidence": 0.525011
+    }
+  },
+  {
+    "text": "Bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      828,
+      847
+    ],
+    "assertion_position": [
+      828,
+      847
+    ],
+    "sentence": "[ENTITY] phải nặng hơn với 60 RPL và 40 mid RCA.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Coronary artery disease",
+      "Ischemic heart disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I249": 0.857469,
+        "I255": 0.827983,
+        "I259": 0.821557,
+        "I519": 0.804931,
+        "I209": 0.762008
+      },
+      "rapidfuzz": {
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9,
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I249",
+      "confidence": 0.861722
+    }
+  },
+  {
+    "text": "Động",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      888,
+      892
+    ],
+    "assertion_position": [
+      888,
+      892
+    ],
+    "sentence": "[ENTITY] mạch vành trái bình thường.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Motion"
+    ],
+    "retriever": {
+      "sapbert": {
+        "Y939": 0.661443,
+        "Y93K1": 0.615877,
+        "R251": 0.61355,
+        "Y9341": 0.611162,
+        "Y93I9": 0.59034
+      },
+      "rapidfuzz": {
+        "Y93I9": 0.9,
+        "T753XXA": 0.9,
+        "T753XXS": 0.9
+      }
+    },
+    "candidate": {
+      "code": "Y93I9",
+      "confidence": 0.621306
+    }
+  }
 ]

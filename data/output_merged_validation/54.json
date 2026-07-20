@@ -1,412 +1,1241 @@
 [
-    {
-        "text": "u ác trực tràng",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            48,
-            63
-        ],
-        "candidates": [
-            "C20"
-        ]
+  {
+    "text": "u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      45,
+      60
+    ],
+    "assertion_position": [
+      45,
+      60
+    ],
+    "sentence": "tái phát [ENTITY].",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "ung thư biểu mô tế bào thận",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            66,
-            93
-        ],
-        "candidates": [
-            "C649"
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Rectal cancer",
+      "Colorectal cancer"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C20": 0.915789,
+        "C189": 0.794747,
+        "C49A5": 0.72505,
+        "C180": 0.711332,
+        "C7A026": 0.705917
+      },
+      "rapidfuzz": {
+        "Z15060": 0.9,
+        "K6040": 0.855,
+        "K60421": 0.855,
+        "R971": 0.855,
+        "QA1790": 0.855
+      }
     },
-    {
-        "text": "vancomycin",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            298,
-            308
-        ],
-        "candidates": [
-            "11124"
-        ]
-    },
-    {
-        "text": "ceftazidime",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            311,
-            322
-        ],
-        "candidates": [
-            "2191"
-        ]
-    },
-    {
-        "text": "suy thận cấp",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            479,
-            491
-        ],
-        "candidates": [
-            "N179"
-        ]
-    },
-    {
-        "text": "u ác trực tràng",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            504,
-            519
-        ],
-        "candidates": [
-            "C20"
-        ]
-    },
-    {
-        "text": "viêm phổi thuỳ",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            655,
-            669
-        ],
-        "candidates": [
-            "J181"
-        ]
-    },
-    {
-        "text": "chụp x-quang",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            686,
-            698
-        ]
-    },
-    {
-        "text": "vancomycin",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            728,
-            738
-        ],
-        "candidates": [
-            "11124"
-        ]
-    },
-    {
-        "text": "ceftazidime",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            776,
-            787
-        ],
-        "candidates": [
-            "2191"
-        ]
-    },
-    {
-        "text": "rung nhĩ",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            815,
-            823
-        ],
-        "candidates": [
-            "I480"
-        ]
-    },
-    {
-        "text": "rối loạn huyết",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            865,
-            879
-        ]
-    },
-    {
-        "text": "đồng",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            924,
-            928
-        ]
-    },
-    {
-        "text": "hct",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1049,
-            1052
-        ]
-    },
-    {
-        "text": "hct",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1231,
-            1234
-        ]
-    },
-    {
-        "text": "phân ít",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1490,
-            1497
-        ]
-    },
-    {
-        "text": "sưng ở chân trái",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1559,
-            1575
-        ]
-    },
-    {
-        "text": "sưng nhẹ",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1577,
-            1585
-        ]
-    },
-    {
-        "text": "đau nhẹ",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1587,
-            1594
-        ]
-    },
-    {
-        "text": "thiếu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1633,
-            1638
-        ]
-    },
-    {
-        "text": "phân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1645,
-            1649
-        ]
-    },
-    {
-        "text": "máu trong trực tràng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1653,
-            1673
-        ]
-    },
-    {
-        "text": "viêm phổi thuỳ",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1691,
-            1705
-        ],
-        "candidates": [
-            "J181"
-        ]
-    },
-    {
-        "text": "rung cuống nhĩ",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1724,
-            1738
-        ],
-        "candidates": [
-            "I480"
-        ]
-    },
-    {
-        "text": "sưng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1825,
-            1829
-        ]
-    },
-    {
-        "text": "sưng nhẹ",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1831,
-            1839
-        ]
-    },
-    {
-        "text": "đau nhẹ ở mắt cá chân trái",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1841,
-            1867
-        ]
-    },
-    {
-        "text": "hct",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1964,
-            1967
-        ]
-    },
-    {
-        "text": "phân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2413,
-            2417
-        ]
-    },
-    {
-        "text": "sưng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2482,
-            2486
-        ]
-    },
-    {
-        "text": "sưng nhẹ",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2488,
-            2496
-        ]
-    },
-    {
-        "text": "đau nhẹ ở mắt cá chân trái",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2498,
-            2524
-        ]
-    },
-    {
-        "text": "hct",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2556,
-            2559
-        ]
-    },
-    {
-        "text": "hct",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2589,
-            2592
-        ]
-    },
-    {
-        "text": "hct",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2612,
-            2615
-        ]
-    },
-    {
-        "text": "viêm phổi thùy dưới trái",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            2731,
-            2755
-        ],
-        "candidates": [
-            "J181"
-        ]
-    },
-    {
-        "text": "đồng",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2825,
-            2829
-        ]
-    },
-    {
-        "text": "suy thận cấp",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            2877,
-            2889
-        ],
-        "candidates": [
-            "N179"
-        ]
-    },
-    {
-        "text": "u ác trực tràng",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            2901,
-            2916
-        ],
-        "candidates": [
-            "C20"
-        ]
-    },
-    {
-        "text": "rung cuống nhĩ",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            2919,
-            2933
-        ],
-        "candidates": [
-            "I480"
-        ]
+    "candidate": {
+      "code": "C20",
+      "confidence": 0.82421
     }
+  },
+  {
+    "text": "ung thư biểu mô tế bào thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      89
+    ],
+    "assertion_position": [
+      62,
+      89
+    ],
+    "sentence": "[ENTITY] sau cắt bỏ một phần thận phải và tuyến thượng thận phải.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Renal cell carcinoma",
+      "Kidney cancer"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C649": 0.773969,
+        "D49519": 0.758901,
+        "C220": 0.659502,
+        "D3000": 0.636588,
+        "C641": 0.634436
+      },
+      "rapidfuzz": {
+        "M1A3191": 0.855,
+        "N16": 0.855,
+        "N159": 0.855,
+        "A1811": 0.855,
+        "S37092A": 0.855,
+        "I7581": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C649",
+      "confidence": 0.696572
+    }
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "position": [
+      290,
+      300
+    ],
+    "assertion_position": [
+      290,
+      300
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Vancomycin",
+      "Vancomycin is a glycopeptide antibiotic used to treat serious bacterial infections, particularly those caused by gram-positive organisms, including methicillin-resistant Staphylococcus aureus (MRSA). It works by inhibiting cell wall synthesis and is often reserved for severe infections due to its potential for nephrotoxicity and ototoxicity. Monitoring of serum levels and renal function is essential to ensure therapeutic efficacy and minimize adverse effects."
+    ],
+    "retriever": {
+      "sapbert": {
+        "11124": 1.0,
+        "997397": 0.734893,
+        "405388": 0.707967,
+        "66955": 0.700402
+      },
+      "rapidfuzz": {
+        "11124": 1.0,
+        "2387078": 0.9,
+        "2118449": 0.9,
+        "2677176": 0.855,
+        "2709234": 0.855,
+        "2709236": 0.855
+      }
+    },
+    "candidate": {
+      "code": "11124",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ceftazidime",
+    "type": "THUỐC",
+    "position": [
+      302,
+      313
+    ],
+    "assertion_position": [
+      302,
+      313
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "ceftazidime",
+      "Cephalosporin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "2074438": 1.0,
+        "2191": 1.0,
+        "91081": 0.881871,
+        "91079": 0.851607,
+        "693051": 0.847545
+      },
+      "rapidfuzz": {
+        "2191": 1.0,
+        "1659285": 0.9,
+        "1300289": 0.9,
+        "1925834": 0.864,
+        "1011993": 0.864
+      }
+    },
+    "candidate": {
+      "code": "2191",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "suy thận cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      466,
+      478
+    ],
+    "assertion_position": [
+      466,
+      478
+    ],
+    "sentence": "Nhập viện từ cơ sở điều dưỡng với [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Acute kidney failure",
+      "Acute renal failure"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N179": 0.98538,
+        "N178": 0.80511,
+        "N170": 0.799319,
+        "N19": 0.783164,
+        "N171": 0.771706
+      },
+      "rapidfuzz": {
+        "N178": 0.95,
+        "N170": 0.9,
+        "N171": 0.9,
+        "M70049": 0.855,
+        "M93073": 0.855,
+        "M93072": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N179",
+      "confidence": 0.886842
+    }
+  },
+  {
+    "text": "u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      489,
+      504
+    ],
+    "assertion_position": [
+      489,
+      504
+    ],
+    "sentence": "Tái phát [ENTITY] được phát hiện trong quá trình điều trị.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Rectal cancer",
+      "Colorectal cancer"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C20": 0.915789,
+        "C189": 0.794747,
+        "C49A5": 0.72505,
+        "C180": 0.711332,
+        "C7A026": 0.705917
+      },
+      "rapidfuzz": {
+        "Z15060": 0.9,
+        "K6040": 0.855,
+        "K60421": 0.855,
+        "R971": 0.855,
+        "QA1790": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C20",
+      "confidence": 0.82421
+    }
+  },
+  {
+    "text": "viêm phổi thuỳ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      636,
+      650
+    ],
+    "assertion_position": [
+      636,
+      650
+    ],
+    "sentence": "Chẩn đoán [ENTITY], không đặc hiệu chụp x-quang.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "pneumonia of lobe",
+      "lobar pneumonia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J181": 0.962399,
+        "J189": 0.80583,
+        "J159": 0.744476,
+        "J151": 0.727057,
+        "J851": 0.695547
+      },
+      "rapidfuzz": {
+        "J181": 0.9,
+        "T486X5D": 0.855,
+        "S93125A": 0.855,
+        "S93124S": 0.855,
+        "J95851": 0.855,
+        "J852": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J181",
+      "confidence": 0.956159
+    }
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      667,
+      679
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "position": [
+      707,
+      717
+    ],
+    "assertion_position": [
+      707,
+      717
+    ],
+    "sentence": "Điều trị bằng Đã điều trị [ENTITY] trong 7 ngàyĐã điều trị vancomycinvà ceftazidime trong 7 ngày.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Vancomycin",
+      "Vancomycin is a glycopeptide antibiotic used to treat serious bacterial infections, particularly those caused by gram-positive organisms, including methicillin-resistant Staphylococcus aureus (MRSA). It works by inhibiting cell wall synthesis and is often reserved for severe infections due to its potential for nephrotoxicity and ototoxicity. Monitoring of serum levels and renal function is essential to ensure therapeutic efficacy and minimize adverse effects."
+    ],
+    "retriever": {
+      "sapbert": {
+        "11124": 1.0,
+        "997397": 0.734893,
+        "405388": 0.707967,
+        "66955": 0.700402
+      },
+      "rapidfuzz": {
+        "11124": 1.0,
+        "2387078": 0.9,
+        "2118449": 0.9,
+        "2677176": 0.855,
+        "2709234": 0.855,
+        "2709236": 0.855
+      }
+    },
+    "candidate": {
+      "code": "11124",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ceftazidime",
+    "type": "THUỐC",
+    "position": [
+      755,
+      766
+    ],
+    "assertion_position": [
+      755,
+      766
+    ],
+    "sentence": "Điều trị bằng Đã điều trị vancomycin trong 7 ngàyĐã điều trị vancomycinvà [ENTITY] trong 7 ngày.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "ceftazidime",
+      "Cephalosporin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "2074438": 1.0,
+        "2191": 1.0,
+        "91081": 0.881871,
+        "91079": 0.851607,
+        "693051": 0.847545
+      },
+      "rapidfuzz": {
+        "2191": 1.0,
+        "1659285": 0.9,
+        "1300289": 0.9,
+        "1925834": 0.864,
+        "1011993": 0.864
+      }
+    },
+    "candidate": {
+      "code": "2191",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      791,
+      799
+    ],
+    "assertion_position": [
+      791,
+      799
+    ],
+    "sentence": "Phát hiện [ENTITY] điển hình kèm theo đáp ứng thất nhanh và rối loạn huyết động.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Atrial fibrillation",
+      "Paroxysmal atrial fibrillation"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I480": 1.0,
+        "I4891": 0.978406,
+        "I4821": 0.894503,
+        "I4820": 0.803449,
+        "I4901": 0.799594
+      },
+      "rapidfuzz": {
+        "I480": 1.0,
+        "I4820": 0.9,
+        "I4821": 0.9,
+        "I4891": 0.9,
+        "G44039": 0.855,
+        "I231": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I480",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "rối loạn huyết động",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      841,
+      860
+    ],
+    "assertion_position": [
+      841,
+      860
+    ],
+    "sentence": "Phát hiện rung nhĩ điển hình kèm theo đáp ứng thất nhanh và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Hemodynamic disorder",
+      "Cardiovascular dysfunction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đồng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      898,
+      902
+    ],
+    "eng_translation": [
+      "same"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1017,
+      1020
+    ],
+    "eng_translation": [
+      "HCT",
+      "Hematocrit (HCT)",
+      "Hemoglobin Concentration",
+      "Hematocrit"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1195,
+      1198
+    ],
+    "eng_translation": [
+      "HCT",
+      "Hematocrit (HCT)",
+      "Hemoglobin Concentration",
+      "Hematocrit"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1444,
+      1448
+    ],
+    "assertion_position": [
+      1444,
+      1448
+    ],
+    "sentence": "Báo cáo [ENTITY] ít và không có máu từ trực tràng kể từ khi xuất viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "phân",
+      "The query provided is in Vietnamese and does not contain any medical terms or concepts. Therefore, no rewrite is necessary. Original query: \"phân\" Result: \"phân\""
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng ở chân trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1511,
+      1527
+    ],
+    "assertion_position": [
+      1511,
+      1527
+    ],
+    "sentence": "Báo cáo [ENTITY], sưng nhẹ, đau nhẹ (3 ngày).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "swelling in the left foot",
+      "edema in the left foot"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1529,
+      1537
+    ],
+    "assertion_position": [
+      1529,
+      1537
+    ],
+    "sentence": "Báo cáo sưng ở chân trái, [ENTITY], đau nhẹ (3 ngày).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "mild swelling",
+      "mild edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1539,
+      1546
+    ],
+    "assertion_position": [
+      1539,
+      1546
+    ],
+    "sentence": "Báo cáo sưng ở chân trái, sưng nhẹ, [ENTITY] (3 ngày).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "mild pain",
+      "mild discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "thiếu máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1584,
+      1593
+    ],
+    "assertion_position": [
+      1584,
+      1593
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Anemia",
+      "Iron deficiency anemia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1595,
+      1599
+    ],
+    "assertion_position": [
+      1595,
+      1599
+    ],
+    "sentence": "[ENTITY] và máu trong trực tràng (thỉnh thoảng).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "phân",
+      "The query provided is in Vietnamese and does not contain any medical terms or concepts. Therefore, no rewrite is necessary. Original query: \"phân\" Result: \"phân\""
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "máu trong trực tràng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1603,
+      1623
+    ],
+    "assertion_position": [
+      1603,
+      1623
+    ],
+    "sentence": "phân và [ENTITY] (thỉnh thoảng).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "blood in the rectum",
+      "Hematochezia",
+      "Rectal bleeding"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm phổi thuỳ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1640,
+      1654
+    ],
+    "assertion_position": [
+      1640,
+      1654
+    ],
+    "sentence": "[ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "pneumonia of lobe",
+      "lobar pneumonia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J181": 0.962399,
+        "J189": 0.80583,
+        "J159": 0.744476,
+        "J151": 0.727057,
+        "J851": 0.695547
+      },
+      "rapidfuzz": {
+        "J181": 0.9,
+        "T486X5D": 0.855,
+        "S93125A": 0.855,
+        "S93124S": 0.855,
+        "J95851": 0.855,
+        "J852": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J181",
+      "confidence": 0.956159
+    }
+  },
+  {
+    "text": "rung cuống nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1672,
+      1686
+    ],
+    "assertion_position": [
+      1672,
+      1686
+    ],
+    "sentence": "[ENTITY] với đáp ứng thất nhanh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Atrial fibrillation",
+      "Paroxysmal atrial fibrillation"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I480": 1.0,
+        "I4891": 0.978406,
+        "I4821": 0.894503,
+        "I4820": 0.803449,
+        "I4901": 0.799594
+      },
+      "rapidfuzz": {
+        "I480": 1.0,
+        "I4820": 0.9,
+        "I4821": 0.9,
+        "I4891": 0.9,
+        "G44039": 0.855,
+        "I231": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I480",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "suy giảm huyết động",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1711,
+      1730
+    ],
+    "assertion_position": [
+      1711,
+      1730
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hemodynamic instability"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1770,
+      1774
+    ],
+    "assertion_position": [
+      1770,
+      1774
+    ],
+    "sentence": "[ENTITY], sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "swelling",
+      "Edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1776,
+      1784
+    ],
+    "assertion_position": [
+      1776,
+      1784
+    ],
+    "sentence": "sưng, [ENTITY], đau nhẹ ở mắt cá chân trái (3 ngày).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "mild swelling",
+      "mild edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau nhẹ ở mắt cá chân trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1786,
+      1812
+    ],
+    "assertion_position": [
+      1786,
+      1812
+    ],
+    "sentence": "sưng, sưng nhẹ, [ENTITY] (3 ngày).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "mild pain in the left ankle",
+      "mild left ankle pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1907,
+      1910
+    ],
+    "eng_translation": [
+      "HCT",
+      "Hematocrit (HCT)",
+      "Hemoglobin Concentration",
+      "Hematocrit"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2343,
+      2347
+    ],
+    "assertion_position": [
+      2343,
+      2347
+    ],
+    "sentence": "Báo cáo [ENTITY] ít và không có máu từ trực tràng kể từ khi xuất viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "phân",
+      "The query provided is in Vietnamese and does not contain any medical terms or concepts. Therefore, no rewrite is necessary. Original query: \"phân\" Result: \"phân\""
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2410,
+      2414
+    ],
+    "assertion_position": [
+      2410,
+      2414
+    ],
+    "sentence": "Báo cáo [ENTITY], sưng nhẹ, đau nhẹ ở mắt cá chân trái (3 ngày).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "swelling",
+      "Edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2416,
+      2424
+    ],
+    "assertion_position": [
+      2416,
+      2424
+    ],
+    "sentence": "Báo cáo sưng, [ENTITY], đau nhẹ ở mắt cá chân trái (3 ngày).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "mild swelling",
+      "mild edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau nhẹ ở mắt cá chân trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2426,
+      2452
+    ],
+    "assertion_position": [
+      2426,
+      2452
+    ],
+    "sentence": "Báo cáo sưng, sưng nhẹ, [ENTITY] (3 ngày).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "mild pain in the left ankle",
+      "mild left ankle pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2483,
+      2486
+    ],
+    "eng_translation": [
+      "HCT",
+      "Hematocrit (HCT)",
+      "Hemoglobin Concentration",
+      "Hematocrit"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2515,
+      2518
+    ],
+    "eng_translation": [
+      "HCT",
+      "Hematocrit (HCT)",
+      "Hemoglobin Concentration",
+      "Hematocrit"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2537,
+      2540
+    ],
+    "eng_translation": [
+      "HCT",
+      "Hematocrit (HCT)",
+      "Hemoglobin Concentration",
+      "Hematocrit"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm phổi thùy dưới trái",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2656,
+      2680
+    ],
+    "assertion_position": [
+      2656,
+      2680
+    ],
+    "sentence": "Kết quả chẩn đoán hình ảnh: chẩn đoán [ENTITY] bằng hình ảnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "left lower lobe pneumonia",
+      "left lower lobe infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J181": 0.725605,
+        "M60004": 0.673161,
+        "J842": 0.645082,
+        "M60062": 0.629036,
+        "M60001": 0.624761
+      },
+      "rapidfuzz": {
+        "S89121S": 0.855,
+        "S89122A": 0.855,
+        "S89122D": 0.855,
+        "A043": 0.855,
+        "S92142K": 0.855,
+        "Z96632": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J181",
+      "confidence": 0.653045
+    }
+  },
+  {
+    "text": "đồng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2750,
+      2754
+    ],
+    "eng_translation": [
+      "same"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "suy thận cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2801,
+      2813
+    ],
+    "assertion_position": [
+      2801,
+      2813
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Acute kidney failure",
+      "Acute renal failure"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N179": 0.98538,
+        "N178": 0.80511,
+        "N170": 0.799319,
+        "N19": 0.783164,
+        "N171": 0.771706
+      },
+      "rapidfuzz": {
+        "N178": 0.95,
+        "N170": 0.9,
+        "N171": 0.9,
+        "M70049": 0.855,
+        "M93073": 0.855,
+        "M93072": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N179",
+      "confidence": 0.886842
+    }
+  },
+  {
+    "text": "u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2824,
+      2839
+    ],
+    "assertion_position": [
+      2824,
+      2839
+    ],
+    "sentence": "tái phát [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Rectal cancer",
+      "Colorectal cancer"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C20": 0.915789,
+        "C189": 0.794747,
+        "C49A5": 0.72505,
+        "C180": 0.711332,
+        "C7A026": 0.705917
+      },
+      "rapidfuzz": {
+        "Z15060": 0.9,
+        "K6040": 0.855,
+        "K60421": 0.855,
+        "R971": 0.855,
+        "QA1790": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C20",
+      "confidence": 0.82421
+    }
+  },
+  {
+    "text": "rung cuống nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2841,
+      2855
+    ],
+    "assertion_position": [
+      2841,
+      2855
+    ],
+    "sentence": "[ENTITY] với đáp ứng thất nhanh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Atrial fibrillation",
+      "Paroxysmal atrial fibrillation"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I480": 1.0,
+        "I4891": 0.978406,
+        "I4821": 0.894503,
+        "I4820": 0.803449,
+        "I4901": 0.799594
+      },
+      "rapidfuzz": {
+        "I480": 1.0,
+        "I4820": 0.9,
+        "I4821": 0.9,
+        "I4891": 0.9,
+        "G44039": 0.855,
+        "I231": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I480",
+      "confidence": 1.0
+    }
+  }
 ]

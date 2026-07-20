@@ -1,112 +1,339 @@
 [
-    {
-        "text": "tăng huyết áp",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            53,
-            66
-        ],
-        "candidates": [
-            "I10"
-        ]
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      46,
+      59
+    ],
+    "assertion_position": [
+      46,
+      59
+    ],
+    "sentence": "Bệnh mãn tính: tiền sử [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
     },
-    {
-        "text": "ho",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            165,
-            167
-        ]
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
     },
-    {
-        "text": "đau lưng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            174,
-            182
-        ]
-    },
-    {
-        "text": "chụp CT",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            232,
-            239
-        ]
-    },
-    {
-        "text": "tiêu xương",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            260,
-            270
-        ],
-        "candidates": [
-            "M8950"
-        ]
-    },
-    {
-        "text": "đa u tuỷ xương",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            291,
-            305
-        ],
-        "candidates": [
-            "C9002"
-        ]
-    },
-    {
-        "text": "Định lượng IgA",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            325,
-            339
-        ]
-    },
-    {
-        "text": "bệnh đa u tuỷ xương",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            355,
-            374
-        ],
-        "candidates": [
-            "C9002"
-        ]
-    },
-    {
-        "text": "tiêu xương",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            451,
-            461
-        ],
-        "candidates": [
-            "M8950"
-        ]
-    },
-    {
-        "text": "Đa u tủy xương",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            485,
-            499
-        ],
-        "candidates": [
-            "C9002"
-        ]
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
     }
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      147,
+      149
+    ],
+    "assertion_position": [
+      147,
+      149
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      151,
+      159
+    ],
+    "assertion_position": [
+      151,
+      159
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "back pain",
+      "Low back pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      200,
+      207
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tiêu xương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      228,
+      238
+    ],
+    "assertion_position": [
+      228,
+      238
+    ],
+    "sentence": "phim chụp CT hình ảnh tổn thương [ENTITY] lan tỏa phù hợp với đa u tuỷ xương.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Osteolysis",
+      "Bone resorption"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M8950": 0.984946,
+        "K033": 0.754312,
+        "M8958": 0.746096,
+        "M8959": 0.700794,
+        "Q782": 0.696429
+      },
+      "rapidfuzz": {
+        "M89561": 0.9,
+        "M89571": 0.9,
+        "M89569": 0.9,
+        "S62307D": 0.855,
+        "S62252K": 0.855,
+        "S62252G": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M8950",
+      "confidence": 0.886451
+    }
+  },
+  {
+    "text": "đa u tuỷ xương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      259,
+      273
+    ],
+    "assertion_position": [
+      259,
+      273
+    ],
+    "sentence": "phim chụp CT hình ảnh tổn thương tiêu xương lan tỏa phù hợp với [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Multiple myeloma",
+      "Plasma cell neoplasm"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D472": 0.730878,
+        "D72822": 0.692704,
+        "C9002": 0.680446,
+        "C9001": 0.671863,
+        "G35D": 0.637286
+      },
+      "rapidfuzz": {
+        "C9002": 0.9,
+        "C9000": 0.9,
+        "C9001": 0.9,
+        "J84841": 0.855,
+        "D127": 0.855,
+        "C44310": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C9002",
+      "confidence": 0.702401
+    }
+  },
+  {
+    "text": "Định lượng IgA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      288,
+      302
+    ],
+    "eng_translation": [
+      "Quantitative IgA",
+      "Quantitative Immunoglobulin A"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đa u tuỷ xương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      323,
+      337
+    ],
+    "assertion_position": [
+      323,
+      337
+    ],
+    "sentence": "Xét nghiệm : Định lượng IgA tăng cao trong bệnh [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Multiple myeloma",
+      "Plasma cell neoplasm"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D472": 0.730878,
+        "D72822": 0.692704,
+        "C9002": 0.680446,
+        "C9001": 0.671863,
+        "G35D": 0.637286
+      },
+      "rapidfuzz": {
+        "C9002": 0.9,
+        "C9000": 0.9,
+        "C9001": 0.9,
+        "J84841": 0.855,
+        "D127": 0.855,
+        "C44310": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C9002",
+      "confidence": 0.702401
+    }
+  },
+  {
+    "text": "tiêu xương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      408,
+      418
+    ],
+    "assertion_position": [
+      408,
+      418
+    ],
+    "sentence": "Kết quả chẩn đoán hình ảnh: các tổn thương ổ [ENTITY] lan tỏa.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Osteolysis",
+      "Bone resorption"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M8950": 0.984946,
+        "K033": 0.754312,
+        "M8958": 0.746096,
+        "M8959": 0.700794,
+        "Q782": 0.696429
+      },
+      "rapidfuzz": {
+        "M89561": 0.9,
+        "M89571": 0.9,
+        "M89569": 0.9,
+        "S62307D": 0.855,
+        "S62252K": 0.855,
+        "S62252G": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M8950",
+      "confidence": 0.886451
+    }
+  },
+  {
+    "text": "Đa u tủy xương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      439,
+      453
+    ],
+    "assertion_position": [
+      439,
+      453
+    ],
+    "sentence": "Chẩn đoán: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Multiple myeloma",
+      "Plasma cell neoplasm"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D472": 0.730878,
+        "D72822": 0.692704,
+        "C9002": 0.680446,
+        "C9001": 0.671863,
+        "G35D": 0.637286
+      },
+      "rapidfuzz": {
+        "C9002": 0.9,
+        "C9000": 0.9,
+        "C9001": 0.9,
+        "J84841": 0.855,
+        "D127": 0.855,
+        "C44310": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C9002",
+      "confidence": 0.702401
+    }
+  }
 ]

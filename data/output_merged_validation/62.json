@@ -1,38 +1,104 @@
 [
-    {
-        "text": "loét mới ở ngón chân út",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            204,
-            227
-        ]
+  {
+    "text": "loét mới ở ngón chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      180,
+      200
+    ],
+    "assertion_position": [
+      180,
+      200
+    ],
+    "sentence": "Lý do nhập viện:[ENTITY] út bên phải.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "loét đau",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            268,
-            276
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "new ulcer on the toe",
+      "New plantar ulcer on the toe"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "loét đỏ",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            283,
-            290
-        ]
+    "candidate": null
+  },
+  {
+    "text": "loét đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      236,
+      244
+    ],
+    "assertion_position": [
+      236,
+      244
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
     },
-    {
-        "text": "loét sưng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            297,
-            306
-        ]
-    }
+    "eng_translation": [
+      "painful ulcer",
+      "Ulcer with pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "loét đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      246,
+      253
+    ],
+    "assertion_position": [
+      246,
+      253
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Redness",
+      "Erythema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "loét sưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      255,
+      264
+    ],
+    "assertion_position": [
+      255,
+      264
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "swollen ulcer",
+      "Ulcer, swollen",
+      "Ulcer with edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

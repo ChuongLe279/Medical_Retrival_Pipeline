@@ -1,513 +1,1343 @@
 [
-    {
-        "text": "ho",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            51,
-            53
-        ],
-        "candidates": [
-            "R490"
-        ]
+  {
+    "text": "ho",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      41
+    ],
+    "assertion_position": [
+      39,
+      41
+    ],
+    "sentence": "[ENTITY] đái tháo đường.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "đái tháo đường",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            54,
-            68
-        ],
-        "candidates": [
-            "E1165"
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {
+        "R490": 0.692303,
+        "R061": 0.651637,
+        "R491": 0.619986,
+        "Z9289": 0.607304,
+        "R4702": 0.601632
+      },
+      "rapidfuzz": {
+        "J941": 0.9,
+        "J942": 0.9,
+        "K653": 0.9,
+        "Z6741": 0.855,
+        "Z6740": 0.855,
+        "R058": 0.855,
+        "A001": 0.855,
+        "A0819": 0.855,
+        "A0811": 0.855,
+        "N3942": 0.741176,
+        "R404": 0.741176,
+        "R419": 0.741176
+      }
     },
-    {
-        "text": "tăng huyết áp",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            75,
-            88
-        ],
-        "candidates": [
-            "I10"
-        ]
-    },
-    {
-        "text": "béo phì",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            95,
-            102
-        ],
-        "candidates": [
-            "E669"
-        ]
-    },
-    {
-        "text": "ngưng thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            109,
-            118
-        ]
-    },
-    {
-        "text": "tylenol",
-        "type": "THUỐC",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            176,
-            183
-        ],
-        "candidates": [
-            "161"
-        ]
-    },
-    {
-        "text": "mucinex d",
-        "type": "THUỐC",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            190,
-            199
-        ],
-        "candidates": [
-            "2388175"
-        ]
-    },
-    {
-        "text": "tiêu chảy",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            219,
-            228
-        ]
-    },
-    {
-        "text": "ho",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            298,
-            300
-        ]
-    },
-    {
-        "text": "thiếu oxy",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            302,
-            311
-        ]
-    },
-    {
-        "text": "ho",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            407,
-            409
-        ]
-    },
-    {
-        "text": "nghẹt ngực",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            416,
-            426
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            433,
-            440
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            449,
-            456
-        ]
-    },
-    {
-        "text": "mệt mỏi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            476,
-            483
-        ]
-    },
-    {
-        "text": "mệt mỏi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            490,
-            497
-        ]
-    },
-    {
-        "text": "sốt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            504,
-            507
-        ]
-    },
-    {
-        "text": "tiêu chảy",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            539,
-            548
-        ]
-    },
-    {
-        "text": "đi tiểu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            576,
-            583
-        ]
-    },
-    {
-        "text": "đau buốt khi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            616,
-            628
-        ]
-    },
-    {
-        "text": "tiểu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            632,
-            636
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            668,
-            675
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            706,
-            713
-        ]
-    },
-    {
-        "text": "ho",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            743,
-            745
-        ]
-    },
-    {
-        "text": "sốt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            813,
-            816
-        ]
-    },
-    {
-        "text": "sốt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            826,
-            829
-        ]
-    },
-    {
-        "text": "tiêu chảy",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            848,
-            857
-        ],
-        "candidates": [
-            "R197"
-        ]
-    },
-    {
-        "text": "đau ngực",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            906,
-            914
-        ]
-    },
-    {
-        "text": "buồn nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            930,
-            938
-        ]
-    },
-    {
-        "text": "nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            939,
-            942
-        ]
-    },
-    {
-        "text": "đổ mồ hôi đêm",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            958,
-            971
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            987,
-            994
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            1018,
-            1025
-        ]
-    },
-    {
-        "text": "giãn phế quản",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            1175,
-            1188
-        ],
-        "candidates": [
-            "Q334"
-        ]
-    },
-    {
-        "text": "azithromycin",
-        "type": "THUỐC",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            1207,
-            1219
-        ],
-        "candidates": [
-            "18631"
-        ]
-    },
-    {
-        "text": "tylenol",
-        "type": "THUỐC",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            1243,
-            1250
-        ],
-        "candidates": [
-            "161"
-        ]
-    },
-    {
-        "text": "mucinex d",
-        "type": "THUỐC",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            1254,
-            1263
-        ],
-        "candidates": [
-            "2388175"
-        ]
-    },
-    {
-        "text": "spo2",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1361,
-            1365
-        ]
-    },
-    {
-        "text": "90",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1369,
-            1371
-        ]
-    },
-    {
-        "text": "số lượng bạch cầu",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1532,
-            1549
-        ]
-    },
-    {
-        "text": "12.5",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1553,
-            1557
-        ]
-    },
-    {
-        "text": "tổng phân tích nước tiểu",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1564,
-            1588
-        ]
-    },
-    {
-        "text": "troponin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1636,
-            1644
-        ]
-    },
-    {
-        "text": "chụp x-quang",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1688,
-            1700
-        ]
-    },
-    {
-        "text": "viêm phổi thùy dưới phải",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1718,
-            1742
-        ],
-        "candidates": [
-            "B0681"
-        ]
+    "candidate": {
+      "code": "R490",
+      "confidence": 0.623073
     }
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      42,
+      56
+    ],
+    "assertion_position": [
+      42,
+      56
+    ],
+    "sentence": "ho [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Diabetes mellitus",
+      "Type 2 diabetes"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.84212,
+        "O24119": 0.714028,
+        "R7303": 0.712752,
+        "Z833": 0.710006,
+        "E119": 0.708696
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "O2412": 0.9,
+        "O24111": 0.9,
+        "O24112": 0.9
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.757908
+    }
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      58,
+      71
+    ],
+    "assertion_position": [
+      58,
+      71
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
+    }
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      73,
+      80
+    ],
+    "assertion_position": [
+      73,
+      80
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Obesity",
+      "Excess body weight"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E669": 0.985618,
+        "E663": 0.883644,
+        "E66811": 0.865016,
+        "E66813": 0.861392,
+        "E66812": 0.832182
+      },
+      "rapidfuzz": {
+        "E8882": 0.9,
+        "O99211": 0.9,
+        "Z152": 0.9,
+        "S81832D": 0.855,
+        "H02814": 0.855,
+        "H02813": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E669",
+      "confidence": 0.887056
+    }
+  },
+  {
+    "text": "ngưng thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      82,
+      91
+    ],
+    "assertion_position": [
+      82,
+      91
+    ],
+    "sentence": "[ENTITY] khi ngủ do tắc nghẽn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Apnea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      141,
+      148
+    ],
+    "assertion_position": [
+      141,
+      148
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "202433",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mucinex d",
+    "type": "THUỐC",
+    "position": [
+      150,
+      159
+    ],
+    "assertion_position": [
+      150,
+      159
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Mucinex D",
+      "Mucinex D is a combination medication containing dextromethorphan and guaifenesin. It is used for the temporary relief of cough and chest congestion. Dextromethorphan is a cough suppressant, while guaifenesin is an expectorant that helps loosen mucus in the airways. It is typically used for acute respiratory conditions such as the common cold, bronchitis, or other upper respiratory infections. The medication is available over-the-counter and is generally considered safe when used as directed. It is not intended for long-term use and should be avoided in individuals with certain medical conditions or those taking specific medications that may interact with its components.",
+      "Mucinex with Decongestant",
+      "Mucinex with Dextromethorphan and Guaifenesin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "2388175": 1.0,
+        "352777": 0.891874,
+        "2641119": 0.889896,
+        "2591192": 0.866885,
+        "2383054": 0.862323
+      },
+      "rapidfuzz": {
+        "352777": 0.95,
+        "5032": 0.9,
+        "3289": 0.9,
+        "1011087": 0.855,
+        "1011086": 0.855,
+        "2662811": 0.855,
+        "2655069": 0.855,
+        "2646650": 0.855,
+        "1101349": 0.855,
+        "1998458": 0.855
+      }
+    },
+    "candidate": {
+      "code": "2388175",
+      "confidence": 0.9
+    }
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      174,
+      183
+    ],
+    "assertion_position": [
+      174,
+      183
+    ],
+    "sentence": "thỉnh thoảng [ENTITY] các thuốc của ông ấy.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      246,
+      248
+    ],
+    "assertion_position": [
+      246,
+      248
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY], thiếu oxy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "thiếu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      250,
+      255
+    ],
+    "assertion_position": [
+      250,
+      255
+    ],
+    "sentence": "Lý do nhập viện: ho, [ENTITY] oxy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "missing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      344,
+      346
+    ],
+    "assertion_position": [
+      344,
+      346
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      348,
+      358
+    ],
+    "assertion_position": [
+      348,
+      358
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "chest tightness",
+      "Chest discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      360,
+      367
+    ],
+    "assertion_position": [
+      360,
+      367
+    ],
+    "sentence": "[ENTITY] nhẹ-vừa khó thở khi gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      376,
+      383
+    ],
+    "assertion_position": [
+      376,
+      383
+    ],
+    "sentence": "khó thở nhẹ-vừa [ENTITY] khi gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      398,
+      405
+    ],
+    "assertion_position": [
+      398,
+      405
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      407,
+      414
+    ],
+    "assertion_position": [
+      407,
+      414
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      416,
+      419
+    ],
+    "assertion_position": [
+      416,
+      419
+    ],
+    "sentence": "[ENTITY] lên đến 101.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tiêu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      446,
+      450
+    ],
+    "assertion_position": [
+      446,
+      450
+    ],
+    "sentence": "thỉnh thoảng [ENTITY] chảy các thuốc của ông ấy.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "No translation provided. The input text is incomplete or non-medical.",
+      "The input text is incomplete or non-medical."
+    ],
+    "retriever": {
+      "sapbert": {
+        "R467": 0.608884,
+        "G3184": 0.56488,
+        "R922": 0.544529,
+        "Z289": 0.539153,
+        "Z5971": 0.534412
+      },
+      "rapidfuzz": {
+        "Z130": 0.855,
+        "V179XXS": 0.855,
+        "V179XXD": 0.855,
+        "V501XXD": 0.855,
+        "S7225XM": 0.855,
+        "T81320A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "R467",
+      "confidence": 0.547996
+    }
+  },
+  {
+    "text": "chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      451,
+      455
+    ],
+    "assertion_position": [
+      451,
+      455
+    ],
+    "sentence": "thỉnh thoảng tiêu [ENTITY] các thuốc của ông ấy.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "bleeding",
+      "Hemorrhage"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      478,
+      485
+    ],
+    "assertion_position": [
+      478,
+      485
+    ],
+    "sentence": "[ENTITY] nhiều lần vào ban đêm, không có đau buốt khi đi tiểu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "urination",
+      "Urinary elimination"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau buốt khi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      518,
+      530
+    ],
+    "assertion_position": [
+      518,
+      530
+    ],
+    "sentence": "đi tiểu nhiều lần vào ban đêm, không có [ENTITY] đi tiểu.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "pain when",
+      "pain when swallowing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      534,
+      538
+    ],
+    "assertion_position": [
+      534,
+      538
+    ],
+    "sentence": "đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "urine",
+      "urine sample"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      600,
+      607
+    ],
+    "assertion_position": [
+      562,
+      569
+    ],
+    "sentence": "[ENTITY] khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      632,
+      634
+    ],
+    "assertion_position": [
+      632,
+      634
+    ],
+    "sentence": "[ENTITY] đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      697,
+      700
+    ],
+    "assertion_position": [
+      697,
+      700
+    ],
+    "sentence": "[ENTITY] lần cuối sốt là vào ngày.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      710,
+      713
+    ],
+    "assertion_position": [
+      710,
+      713
+    ],
+    "sentence": "sốt lần cuối [ENTITY] là vào ngày.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tiêu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      727,
+      731
+    ],
+    "assertion_position": [
+      727,
+      731
+    ],
+    "sentence": "[ENTITY] chảy đã tự khỏi vào buổi sáng hôm sau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "No translation provided. The input text is incomplete or non-medical.",
+      "The input text is incomplete or non-medical."
+    ],
+    "retriever": {
+      "sapbert": {
+        "R467": 0.608884,
+        "G3184": 0.56488,
+        "R922": 0.544529,
+        "Z289": 0.539153,
+        "Z5971": 0.534412
+      },
+      "rapidfuzz": {
+        "Z130": 0.855,
+        "V179XXS": 0.855,
+        "V179XXD": 0.855,
+        "V501XXD": 0.855,
+        "S7225XM": 0.855,
+        "T81320A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "R467",
+      "confidence": 0.547996
+    }
+  },
+  {
+    "text": "chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      732,
+      736
+    ],
+    "assertion_position": [
+      732,
+      736
+    ],
+    "sentence": "tiêu [ENTITY] đã tự khỏi vào buổi sáng hôm sau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "bleeding",
+      "Hemorrhage"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      780,
+      788
+    ],
+    "assertion_position": [
+      780,
+      788
+    ],
+    "sentence": "Phủ nhận [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "chest pain",
+      "Cardiac chest pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      799,
+      807
+    ],
+    "assertion_position": [
+      799,
+      807
+    ],
+    "sentence": "Phủ nhận [ENTITY]/nôn.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      808,
+      811
+    ],
+    "assertion_position": [
+      808,
+      811
+    ],
+    "sentence": "Phủ nhận buồn nôn/[ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đổ mồ hôi đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      822,
+      835
+    ],
+    "assertion_position": [
+      822,
+      835
+    ],
+    "sentence": "Phủ nhận [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "night sweats",
+      "Nocturnal sweats"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      846,
+      853
+    ],
+    "assertion_position": [
+      846,
+      853
+    ],
+    "sentence": "Phủ nhận [ENTITY] khi nằm.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      872,
+      879
+    ],
+    "assertion_position": [
+      872,
+      879
+    ],
+    "sentence": "Phủ nhận [ENTITY] khi nằm đột ngột (paroxysmal nocturnal dyspnea).",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "giãn phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1021,
+      1034
+    ],
+    "assertion_position": [
+      1021,
+      1034
+    ],
+    "sentence": "Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là [ENTITY], phản ứng tốt với azithromycin.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "Bronchial dilation",
+      "Bronchiectasis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q334": 0.83292,
+        "J479": 0.819164,
+        "J471": 0.697708,
+        "J470": 0.693079,
+        "J9811": 0.653934
+      },
+      "rapidfuzz": {
+        "Q334": 0.9,
+        "J479": 0.9,
+        "J471": 0.9,
+        "Q2544": 0.855,
+        "Q87410": 0.855,
+        "J4481": 0.66
+      }
+    },
+    "candidate": {
+      "code": "Q334",
+      "confidence": 0.839628
+    }
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "position": [
+      1053,
+      1065
+    ],
+    "assertion_position": [
+      1053,
+      1065
+    ],
+    "sentence": "Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với [ENTITY].",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "azithromycin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "18631": 1.0,
+        "672606": 0.954285
+      },
+      "rapidfuzz": {
+        "18631": 1.0,
+        "1155012": 0.95,
+        "315450": 0.9
+      }
+    },
+    "candidate": {
+      "code": "18631",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      1084,
+      1091
+    ],
+    "assertion_position": [
+      1084,
+      1091
+    ],
+    "sentence": "Tự điều trị bằng [ENTITY] và mucinex d.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Tylenol",
+      "Acetaminophen toxicity",
+      "Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "202433",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mucinex d",
+    "type": "THUỐC",
+    "position": [
+      1095,
+      1104
+    ],
+    "assertion_position": [
+      1095,
+      1104
+    ],
+    "sentence": "Tự điều trị bằng tylenol và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Mucinex D",
+      "Mucinex D is a combination medication containing dextromethorphan and guaifenesin. It is used for the temporary relief of cough and chest congestion. Dextromethorphan is a cough suppressant, while guaifenesin is an expectorant that helps loosen mucus in the airways. It is typically used for acute respiratory conditions such as the common cold, bronchitis, or other upper respiratory infections. The medication is available over-the-counter and is generally considered safe when used as directed. It is not intended for long-term use and should be avoided in individuals with certain medical conditions or those taking specific medications that may interact with its components.",
+      "Mucinex with Decongestant",
+      "Mucinex with Dextromethorphan and Guaifenesin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "2388175": 1.0,
+        "352777": 0.891874,
+        "2641119": 0.889896,
+        "2591192": 0.866885,
+        "2383054": 0.862323
+      },
+      "rapidfuzz": {
+        "352777": 0.95,
+        "5032": 0.9,
+        "3289": 0.9,
+        "1011087": 0.855,
+        "1011086": 0.855,
+        "2662811": 0.855,
+        "2655069": 0.855,
+        "2646650": 0.855,
+        "1101349": 0.855,
+        "1998458": 0.855
+      }
+    },
+    "candidate": {
+      "code": "2388175",
+      "confidence": 0.9
+    }
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1192,
+      1196
+    ],
+    "eng_translation": [
+      "SpO₂",
+      "Oxygen saturation",
+      "Oxygen saturation in arterial blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "90",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1200,
+      1202
+    ],
+    "eng_translation": [
+      "90"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "số lượng bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1345,
+      1362
+    ],
+    "eng_translation": [
+      "White blood cell count"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "12.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1366,
+      1370
+    ],
+    "eng_translation": [
+      "12.5"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1372,
+      1396
+    ],
+    "eng_translation": [
+      "Urinalysis summary",
+      "Urinalysis results summary"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1436,
+      1444
+    ],
+    "eng_translation": [
+      "troponin",
+      "Troponin elevation",
+      "Cardiac troponin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1485,
+      1497
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm phổi thùy dưới phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1515,
+      1539
+    ],
+    "assertion_position": [
+      1515,
+      1539
+    ],
+    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực được cho là [ENTITY] (RLL PNA).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "right lower lobe pneumonia",
+      "right lower lobe infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B0681": 0.69301,
+        "J22": 0.691842,
+        "J181": 0.687599,
+        "M60003": 0.678122,
+        "A159": 0.669111
+      },
+      "rapidfuzz": {
+        "M61331": 0.855,
+        "T2631XD": 0.855,
+        "T2631XA": 0.855,
+        "S72456M": 0.855,
+        "S59201G": 0.855,
+        "S59201K": 0.855
+      }
+    },
+    "candidate": {
+      "code": "B0681",
+      "confidence": 0.623709
+    }
+  }
 ]

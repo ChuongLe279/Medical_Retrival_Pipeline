@@ -1,126 +1,353 @@
 [
-    {
-        "text": "Đờm",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            107,
-            110
-        ]
+  {
+    "text": "Đờm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      103,
+      106
+    ],
+    "assertion_position": [
+      103,
+      106
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
     },
-    {
-        "text": "ho",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            113,
-            115
-        ]
+    "eng_translation": [
+      "Sputum",
+      "Sputum Sample"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "đau bụng quặn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            126,
-            139
-        ]
+    "candidate": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      108,
+      110
+    ],
+    "assertion_position": [
+      108,
+      110
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
     },
-    {
-        "text": "tiêu chảy",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            142,
-            151
-        ]
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "đi ngoài ra máu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            162,
-            177
-        ]
+    "candidate": null
+  },
+  {
+    "text": "đau bụng quặn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      120,
+      133
+    ],
+    "assertion_position": [
+      120,
+      133
+    ],
+    "sentence": "đôi khi [ENTITY].",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "mri",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            325,
-            328
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "abdominal colic pain",
+      "Abdominal cramping pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "siêu âm",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            402,
-            409
-        ]
+    "candidate": null
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      135,
+      144
+    ],
+    "assertion_position": [
+      135,
+      144
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
     },
-    {
-        "text": "siêu âm",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            578,
-            585
-        ]
+    "eng_translation": [
+      "Diarrhea",
+      "Watery Stool"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "khối",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            625,
-            629
-        ],
-        "candidates": [
-            "R229"
-        ]
+    "candidate": null
+  },
+  {
+    "text": "đi ngoài ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      154,
+      169
+    ],
+    "assertion_position": [
+      154,
+      169
+    ],
+    "sentence": "đôi khi [ENTITY].",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "u trực tràng",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            630,
-            642
-        ],
-        "candidates": [
-            "Z1212"
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Passing blood in stool",
+      "Rectal bleeding"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "u ác trực tràng",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            664,
-            679
-        ],
-        "candidates": [
-            "C20"
-        ]
+    "candidate": null
+  },
+  {
+    "text": "mri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      315,
+      318
+    ],
+    "eng_translation": [
+      "MRI",
+      "Magnetic Resonance Imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "u tuyến",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            718,
-            725
-        ],
-        "candidates": [
-            "C55"
-        ]
+    "candidate": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      391,
+      398
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      566,
+      573
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khối",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      613,
+      617
+    ],
+    "assertion_position": [
+      613,
+      617
+    ],
+    "sentence": "[ENTITY] u trực tràng với hình ảnh của một u ác trực tràng đáng kể.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "mass"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R229": 0.574987,
+        "N630": 0.549435,
+        "Q184": 0.525351,
+        "Y92251": 0.521502,
+        "R920": 0.520885
+      },
+      "rapidfuzz": {
+        "R1906": 0.9,
+        "Y09": 0.771429,
+        "X961XXS": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "R229",
+      "confidence": 0.517488
     }
+  },
+  {
+    "text": "u trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      618,
+      630
+    ],
+    "assertion_position": [
+      618,
+      630
+    ],
+    "sentence": "khối [ENTITY] với hình ảnh của một u ác trực tràng đáng kể.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Rectal exam",
+      "Rectal examination",
+      "Digital Rectal Exam"
+    ],
+    "retriever": {
+      "sapbert": {
+        "Z1212": 0.667748,
+        "D128": 0.625523,
+        "D375": 0.62484,
+        "D012": 0.602885,
+        "R151": 0.579089
+      },
+      "rapidfuzz": {
+        "P542": 0.855,
+        "K51011": 0.855,
+        "K50911": 0.855,
+        "T81594A": 0.855,
+        "Z049": 0.855,
+        "Z0489": 0.855,
+        "S64497A": 0.855,
+        "S64497D": 0.855,
+        "S64497S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "Z1212",
+      "confidence": 0.600973
+    }
+  },
+  {
+    "text": "u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      652,
+      667
+    ],
+    "assertion_position": [
+      652,
+      667
+    ],
+    "sentence": "khối u trực tràng với hình ảnh của một [ENTITY] đáng kể.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Rectal cancer",
+      "Colorectal cancer"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C20": 0.915789,
+        "C189": 0.794747,
+        "C49A5": 0.72505,
+        "C180": 0.711332,
+        "C7A026": 0.705917
+      },
+      "rapidfuzz": {
+        "Z15060": 0.9,
+        "K6040": 0.855,
+        "K60421": 0.855,
+        "R971": 0.855,
+        "QA1790": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C20",
+      "confidence": 0.82421
+    }
+  },
+  {
+    "text": "u tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      705,
+      712
+    ],
+    "assertion_position": [
+      705,
+      712
+    ],
+    "sentence": "sinh thiết chỉ cho thấy một [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "U tuyến",
+      "U tuyến is not a standard or canonical medical term in English. If this refers to \"Ureteral tumor\" or \"Ureteral cancer,\" the canonical term would be: **Ureteral neoplasm** If more context is provided, a more specific diagnosis can be determined.",
+      "Uterine cancer"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C55": 0.857956,
+        "C549": 0.787841,
+        "C542": 0.713433,
+        "C541": 0.71091,
+        "D390": 0.676762
+      },
+      "rapidfuzz": {
+        "S91145S": 0.855,
+        "S91143S": 0.855,
+        "S91143D": 0.855,
+        "Z98891": 0.855,
+        "O3429": 0.855,
+        "QA1791": 0.855,
+        "Y230XXS": 0.610714,
+        "Y230XXA": 0.610714,
+        "L03329": 0.610714
+      }
+    },
+    "candidate": {
+      "code": "C55",
+      "confidence": 0.77216
+    }
+  }
 ]

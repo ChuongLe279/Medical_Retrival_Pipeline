@@ -1,480 +1,1483 @@
 [
-    {
-        "text": "Tăng huyết áp",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            48,
-            61
-        ],
-        "candidates": [
-            "I10"
-        ]
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      36,
+      49
+    ],
+    "assertion_position": [
+      36,
+      49
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
     },
-    {
-        "text": "bệnh thận mạn",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            68,
-            81
-        ],
-        "candidates": [
-            "N189"
-        ]
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
     },
-    {
-        "text": "bệnh tim mạch",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            104,
-            117
-        ],
-        "candidates": [
-            "I519"
-        ]
-    },
-    {
-        "text": "xơ vữa động mạch",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            121,
-            137
-        ],
-        "candidates": [
-            "I7090"
-        ]
-    },
-    {
-        "text": "Nhồi máu cơ tim",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            142,
-            157
-        ],
-        "candidates": [
-            "I21A1"
-        ]
-    },
-    {
-        "text": "rung nhĩ kịch phát",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            172,
-            190
-        ],
-        "candidates": [
-            "I480"
-        ]
-    },
-    {
-        "text": "tăng sản tuyến tiền liệt",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            197,
-            221
-        ],
-        "candidates": [
-            "N400"
-        ]
-    },
-    {
-        "text": "loạn dáng đi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            495,
-            507
-        ]
-    },
-    {
-        "text": "gãy cổ xương đùi",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            651,
-            667
-        ],
-        "candidates": [
-            "S72009A"
-        ]
-    },
-    {
-        "text": "lệch",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            671,
-            675
-        ],
-        "candidates": [
-            "H05219"
-        ]
-    },
-    {
-        "text": "gãy cổ xương đùi di lệch",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            898,
-            922
-        ],
-        "candidates": [
-            "S7223XA"
-        ]
-    },
-    {
-        "text": "Đau ở hông phải",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            954,
-            969
-        ]
-    },
-    {
-        "text": "ý thức",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            1301,
-            1307
-        ]
-    },
-    {
-        "text": "mất ý thức",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            1309,
-            1319
-        ]
-    },
-    {
-        "text": "gãy cổ xương đùi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1412,
-            1428
-        ]
-    },
-    {
-        "text": "mất vận động vùng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1438,
-            1455
-        ]
-    },
-    {
-        "text": "chụp x-quang",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1467,
-            1479
-        ]
-    },
-    {
-        "text": "chụp ct",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1526,
-            1533
-        ]
-    },
-    {
-        "text": "tim to",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1570,
-            1576
-        ]
-    },
-    {
-        "text": "tràn dịch màng tim",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1578,
-            1596
-        ]
-    },
-    {
-        "text": "tràn dịch màng phổi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1598,
-            1617
-        ]
-    },
-    {
-        "text": "bên",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1622,
-            1625
-        ]
-    },
-    {
-        "text": "thoát vị hoành nhỏ",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1627,
-            1645
-        ]
-    },
-    {
-        "text": "phế thủng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1660,
-            1669
-        ]
-    },
-    {
-        "text": "xẹp phổi hai đáy",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1674,
-            1690
-        ]
-    },
-    {
-        "text": "đau ở hông",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1921,
-            1931
-        ]
-    },
-    {
-        "text": "chụp x-quang",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2023,
-            2035
-        ]
-    },
-    {
-        "text": "chụp ct",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2061,
-            2068
-        ]
-    },
-    {
-        "text": "tim to",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2097,
-            2103
-        ]
-    },
-    {
-        "text": "tràn dịch màng tim",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2105,
-            2123
-        ]
-    },
-    {
-        "text": "tràn dịch màng phổi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2125,
-            2144
-        ]
-    },
-    {
-        "text": "thoát vị hoành nhỏ",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2154,
-            2172
-        ]
-    },
-    {
-        "text": "thay",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2174,
-            2178
-        ]
-    },
-    {
-        "text": "khí phế thủng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2183,
-            2196
-        ]
-    },
-    {
-        "text": "xẹp phổi hai đáy",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2198,
-            2214
-        ]
-    },
-    {
-        "text": "siêu âm tim",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2335,
-            2346
-        ]
-    },
-    {
-        "text": "siêu âm tim",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2363,
-            2374
-        ]
-    },
-    {
-        "text": "hở van ba lá",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            2422,
-            2434
-        ],
-        "candidates": [
-            "I051"
-        ]
-    },
-    {
-        "text": "hở van",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            2463,
-            2469
-        ],
-        "candidates": [
-            "I351"
-        ]
-    },
-    {
-        "text": "gãy cổ xương",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2538,
-            2550
-        ]
-    },
-    {
-        "text": "lún đầu dưới",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            2561,
-            2573
-        ]
-    },
-    {
-        "text": "chụp ct",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2611,
-            2618
-        ]
-    },
-    {
-        "text": "siêu âm tim",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2652,
-            2663
-        ]
-    },
-    {
-        "text": "siêu âm tim",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2680,
-            2691
-        ]
-    },
-    {
-        "text": "Nhồi máu cơ tim",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            2847,
-            2862
-        ],
-        "candidates": [
-            "I21A1"
-        ]
-    },
-    {
-        "text": "rung nhĩ",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            2907,
-            2915
-        ],
-        "candidates": [
-            "I480"
-        ]
-    },
-    {
-        "text": "Nhồi máu cơ tim",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            2941,
-            2956
-        ],
-        "candidates": [
-            "I21A1"
-        ]
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
     }
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      51,
+      64
+    ],
+    "assertion_position": [
+      51,
+      64
+    ],
+    "sentence": "[ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Chronic kidney disease",
+      "CKD"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N189": 0.982146,
+        "N039": 0.781739,
+        "N186": 0.757736,
+        "N181": 0.744167,
+        "N1830": 0.681813
+      },
+      "rapidfuzz": {
+        "D631": 0.95,
+        "N181": 0.95,
+        "N1831": 0.95,
+        "I450": 0.72,
+        "I452": 0.72,
+        "I453": 0.72
+      }
+    },
+    "candidate": {
+      "code": "N189",
+      "confidence": 0.883931
+    }
+  },
+  {
+    "text": "bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      82,
+      95
+    ],
+    "assertion_position": [
+      82,
+      95
+    ],
+    "sentence": "[ENTITY] do xơ vữa động mạch với Nhồi máu cơ tim gần đây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "cardiovascular disease",
+      "Cardiac disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I519": 0.955106,
+        "I5189": 0.746198,
+        "I429": 0.718682,
+        "I099": 0.705557,
+        "I679": 0.694969
+      },
+      "rapidfuzz": {
+        "C946": 0.855,
+        "I289": 0.855,
+        "I279": 0.855,
+        "R011": 0.855,
+        "T82120D": 0.855,
+        "T82129A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I519",
+      "confidence": 0.859595
+    }
+  },
+  {
+    "text": "xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      99,
+      115
+    ],
+    "assertion_position": [
+      99,
+      115
+    ],
+    "sentence": "bệnh tim mạch do [ENTITY] với Nhồi máu cơ tim gần đây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Atherosclerosis",
+      "Arteriosclerosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I7090": 0.960917,
+        "I7091": 0.846441,
+        "I700": 0.836473,
+        "I672": 0.751668,
+        "I708": 0.727376
+      },
+      "rapidfuzz": {
+        "I70743": 0.9,
+        "I70291": 0.9,
+        "I70269": 0.9,
+        "I7090": 0.812903,
+        "I7091": 0.812903,
+        "I70735": 0.812903
+      }
+    },
+    "candidate": {
+      "code": "I7090",
+      "confidence": 0.946116
+    }
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      120,
+      135
+    ],
+    "assertion_position": [
+      120,
+      135
+    ],
+    "sentence": "bệnh tim mạch do xơ vữa động mạch với [ENTITY] gần đây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Myocardial infarction"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.851584,
+        "I21A1": 0.785121,
+        "I249": 0.769203,
+        "I252": 0.761003,
+        "I639": 0.728907
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2109": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I21A1",
+      "confidence": 0.801609
+    }
+  },
+  {
+    "text": "rung nhĩ kịch phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      145,
+      163
+    ],
+    "assertion_position": [
+      145,
+      163
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Paroxysmal atrial fibrillation"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I480": 1.0,
+        "I4821": 0.894503,
+        "I4891": 0.78729,
+        "I4820": 0.756725,
+        "I4811": 0.753511
+      },
+      "rapidfuzz": {
+        "I480": 1.0,
+        "G44039": 0.855,
+        "I231": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I480",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      165,
+      189
+    ],
+    "assertion_position": [
+      165,
+      189
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Benign Prostatic Hyperplasia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N400": 0.819702,
+        "D291": 0.770737,
+        "N401": 0.741695,
+        "N4231": 0.690872,
+        "Z87430": 0.67855
+      },
+      "rapidfuzz": {
+        "N400": 0.9,
+        "N401": 0.9,
+        "D3A024": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N400",
+      "confidence": 0.827732
+    }
+  },
+  {
+    "text": "loạn dáng đi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      423,
+      435
+    ],
+    "assertion_position": [
+      423,
+      435
+    ],
+    "sentence": "Rối [ENTITY] với nhiều lần ngã.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "gait disorder",
+      "Gait abnormality"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gãy cổ xương đùi di lệch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      568,
+      592
+    ],
+    "assertion_position": [
+      568,
+      592
+    ],
+    "sentence": "Lý do nhập viện: ngã với [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "fracture of the femoral neck with displacement"
+    ],
+    "retriever": {
+      "sapbert": {
+        "S7223XA": 0.632444,
+        "S7223XD": 0.630301,
+        "S7223XE": 0.629531,
+        "S7223XS": 0.628047,
+        "S72009G": 0.625128
+      },
+      "rapidfuzz": {
+        "M84550K": 0.855,
+        "V2041XA": 0.855,
+        "V2041XD": 0.855
+      }
+    },
+    "candidate": {
+      "code": "S7223XA",
+      "confidence": 0.5692
+    }
+  },
+  {
+    "text": "gãy cổ xương đùi di lệch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      784,
+      808
+    ],
+    "assertion_position": [
+      784,
+      808
+    ],
+    "sentence": "Phát hiện có [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "fracture of the femoral neck with displacement"
+    ],
+    "retriever": {
+      "sapbert": {
+        "S7223XA": 0.632444,
+        "S7223XD": 0.630301,
+        "S7223XE": 0.629531,
+        "S7223XS": 0.628047,
+        "S72009G": 0.625128
+      },
+      "rapidfuzz": {
+        "M84550K": 0.855,
+        "V2041XA": 0.855,
+        "V2041XD": 0.855
+      }
+    },
+    "candidate": {
+      "code": "S7223XA",
+      "confidence": 0.5692
+    }
+  },
+  {
+    "text": "Đau ở hông phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      837,
+      852
+    ],
+    "assertion_position": [
+      837,
+      852
+    ],
+    "sentence": "Triệu chứng khi nhập viện: [ENTITY] khi cử động và thay đổi tư thế.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Right hip pain",
+      "Hip pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "cử động",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      857,
+      864
+    ],
+    "assertion_position": [
+      857,
+      864
+    ],
+    "sentence": "Triệu chứng khi nhập viện: Đau ở hông phải khi [ENTITY] và thay đổi tư thế.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "movement",
+      "Motor function"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mất ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1144,
+      1154
+    ],
+    "assertion_position": [
+      1144,
+      1154
+    ],
+    "sentence": "Không có tiền sử chấn thương đầu hoặc [ENTITY] (mất ý thức).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "loss of consciousness",
+      "Syncope"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mất ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1156,
+      1166
+    ],
+    "assertion_position": [
+      1156,
+      1166
+    ],
+    "sentence": "Không có tiền sử chấn thương đầu hoặc mất ý thức ([ENTITY]).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "loss of consciousness",
+      "Syncope"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gãy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1244,
+      1247
+    ],
+    "assertion_position": [
+      1244,
+      1247
+    ],
+    "sentence": "Phát hiện có [ENTITY] cổ xương đùi di lệch; mất vận động vùng đỉnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "fracture",
+      "Broken bone"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K08539": 0.684385,
+        "M8950": 0.635182,
+        "M8440XA": 0.625189,
+        "Z8781": 0.590755,
+        "K08530": 0.58941
+      },
+      "rapidfuzz": {
+        "M84758S": 0.9,
+        "S62395S": 0.9,
+        "S62394S": 0.9,
+        "M85612": 0.855,
+        "M8559": 0.855,
+        "M8558": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K08539",
+      "confidence": 0.615947
+    }
+  },
+  {
+    "text": "cổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1248,
+      1250
+    ],
+    "assertion_position": [
+      1248,
+      1250
+    ],
+    "sentence": "Phát hiện có gãy [ENTITY] xương đùi di lệch; mất vận động vùng đỉnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "neck",
+      "cervical region"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "xương đùi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1251,
+      1260
+    ],
+    "assertion_position": [
+      1251,
+      1260
+    ],
+    "sentence": "Phát hiện có gãy cổ [ENTITY] di lệch; mất vận động vùng đỉnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "femur",
+      "Femoral shaft fracture"
+    ],
+    "retriever": {
+      "sapbert": {
+        "S72309A": 0.712184,
+        "S72309B": 0.711589,
+        "S72309C": 0.694407,
+        "S72309E": 0.693606,
+        "S72309D": 0.671036
+      },
+      "rapidfuzz": {
+        "M21752": 0.9,
+        "M21751": 0.9,
+        "M87352": 0.9,
+        "S32132D": 0.855,
+        "S52243M": 0.855,
+        "S52241N": 0.855
+      }
+    },
+    "candidate": {
+      "code": "S72309A",
+      "confidence": 0.640966
+    }
+  },
+  {
+    "text": "mất vận động vùng đỉnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1270,
+      1292
+    ],
+    "assertion_position": [
+      1270,
+      1292
+    ],
+    "sentence": "Phát hiện có gãy cổ xương đùi di lệch; [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "loss of motor function in the parietal region",
+      "Loss of motor function in the parietal lobe"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1294,
+      1306
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1347,
+      1354
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tim to",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1391,
+      1397
+    ],
+    "assertion_position": [
+      1391,
+      1397
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy [ENTITY], tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Heart enlarged",
+      "Enlarged heart",
+      "Cardiomegaly"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tràn dịch màng tim",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1399,
+      1417
+    ],
+    "assertion_position": [
+      1399,
+      1417
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, [ENTITY], tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "pericardial effusion",
+      "Cardiac fluid accumulation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tràn dịch màng phổi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1419,
+      1438
+    ],
+    "assertion_position": [
+      1419,
+      1438
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, [ENTITY] hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "pleural effusion",
+      "Pleural fluid accumulation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "thoát vị hoành nhỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1448,
+      1466
+    ],
+    "assertion_position": [
+      1448,
+      1466
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, [ENTITY], thay đổi khí phế thủng, và xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "hiatal hernia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phế thủng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1481,
+      1490
+    ],
+    "assertion_position": [
+      1481,
+      1490
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí [ENTITY], và xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Pulmonary perforation",
+      "Pneumothorax"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "xẹp phổi hai đáy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1495,
+      1511
+    ],
+    "assertion_position": [
+      1495,
+      1511
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang cho thấy tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Bilateral pulmonary collapse",
+      "Bilateral pulmonary atelectasis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "không",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1609,
+      1614
+    ],
+    "assertion_position": [
+      1583,
+      1588
+    ],
+    "sentence": "Tình trạng tiến triển nặng trước nhập viện, bệnh nhân nằm tại giường, [ENTITY] thể tự di chuyển và không chịu lực được khi đứng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "no"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ở hông phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1721,
+      1736
+    ],
+    "assertion_position": [
+      1721,
+      1736
+    ],
+    "sentence": "Than phiền [ENTITY] khi cử động và thay đổi tư thế.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "pain in the right hip",
+      "right hip pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1815,
+      1827
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1848,
+      1855
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tim",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1884,
+      1887
+    ],
+    "assertion_position": [
+      1884,
+      1887
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang: [ENTITY] to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Heart",
+      "Cardiac"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tràn dịch màng tim",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1892,
+      1910
+    ],
+    "assertion_position": [
+      1892,
+      1910
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, [ENTITY], tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "pericardial effusion",
+      "Cardiac fluid accumulation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tràn dịch màng phổi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1912,
+      1931
+    ],
+    "assertion_position": [
+      1912,
+      1931
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, [ENTITY] hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "pleural effusion",
+      "Pleural fluid accumulation"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "thoát vị hoành nhỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1941,
+      1959
+    ],
+    "assertion_position": [
+      1941,
+      1959
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, [ENTITY], thay đổi khí phế thủng, xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "hiatal hernia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "thay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1961,
+      1965
+    ],
+    "assertion_position": [
+      1961,
+      1965
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, [ENTITY] đổi khí phế thủng, xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Replace with \"Doctor\" or \"Physician\" depending on context.",
+      "Doctor",
+      "Replace with \"Physician\" depending on context."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khí phế thủng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1970,
+      1983
+    ],
+    "assertion_position": [
+      1970,
+      1983
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi [ENTITY], xẹp phổi hai đáy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "pneumothorax",
+      "collapsed lung"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "xẹp phổi hai đáy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1985,
+      2001
+    ],
+    "assertion_position": [
+      1985,
+      2001
+    ],
+    "sentence": "chụp ct ngực không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Bilateral pulmonary collapse",
+      "Bilateral pulmonary atelectasis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2111,
+      2122
+    ],
+    "eng_translation": [
+      "Echocardiogram",
+      "Cardiac ultrasound"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2139,
+      2150
+    ],
+    "eng_translation": [
+      "Echocardiogram",
+      "Cardiac ultrasound"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hở van ba lá",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2198,
+      2210
+    ],
+    "assertion_position": [
+      2198,
+      2210
+    ],
+    "sentence": "siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, [ENTITY] vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Mitral regurgitation",
+      "Mitral insufficiency"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I051": 0.882163,
+        "Q233": 0.834212,
+        "I340": 0.828191,
+        "I050": 0.802893,
+        "I059": 0.778081
+      },
+      "rapidfuzz": {
+        "I051": 0.9,
+        "Q233": 0.9,
+        "I052": 0.855,
+        "P921": 0.855,
+        "I058": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I051",
+      "confidence": 0.883947
+    }
+  },
+  {
+    "text": "hở van hai lá",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2239,
+      2252
+    ],
+    "assertion_position": [
+      2239,
+      2252
+    ],
+    "sentence": "siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và [ENTITY]/van động mạch chủ nhẹ (mild ARMR).",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "Mitral regurgitation",
+      "Mitral insufficiency"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I051": 0.882163,
+        "Q233": 0.834212,
+        "I340": 0.828191,
+        "I050": 0.802893,
+        "I059": 0.778081
+      },
+      "rapidfuzz": {
+        "I051": 0.9,
+        "Q233": 0.9,
+        "I052": 0.855,
+        "P921": 0.855,
+        "I058": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I051",
+      "confidence": 0.883947
+    }
+  },
+  {
+    "text": "mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2262,
+      2266
+    ],
+    "assertion_position": [
+      2262,
+      2266
+    ],
+    "sentence": "siêu âm tim qua thành ngực (siêu âm tim qua thành ngực): EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động [ENTITY] chủ nhẹ (mild ARMR).",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "pulse",
+      "heart rate"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R002": 0.665923,
+        "R000": 0.63773,
+        "R011": 0.563979,
+        "H93A9": 0.555529,
+        "R009": 0.554672
+      },
+      "rapidfuzz": {
+        "F6389": 0.9,
+        "F639": 0.9,
+        "O76": 0.9,
+        "A0102": 0.855,
+        "T82532D": 0.855,
+        "H05269": 0.8
+      }
+    },
+    "candidate": {
+      "code": "R002",
+      "confidence": 0.599331
+    }
+  },
+  {
+    "text": "gãy cổ xương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2309,
+      2321
+    ],
+    "assertion_position": [
+      2309,
+      2321
+    ],
+    "sentence": "Gãy xương hông phải: [ENTITY] đùi phải, lún đầu dưới.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Fracture of the neck of the femur",
+      "Hip fracture"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lún đầu dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2332,
+      2344
+    ],
+    "assertion_position": [
+      2332,
+      2344
+    ],
+    "sentence": "Gãy xương hông phải: gãy cổ xương đùi phải, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "lún đầu dưới",
+      "Chấn thương đầu dưới",
+      "Basilar skull fracture",
+      "đầu dưới của lún"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2374,
+      2381
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2410,
+      2421
+    ],
+    "eng_translation": [
+      "Echocardiogram",
+      "Cardiac ultrasound"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2438,
+      2449
+    ],
+    "eng_translation": [
+      "Echocardiogram",
+      "Cardiac ultrasound"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2587,
+      2602
+    ],
+    "assertion_position": [
+      2587,
+      2602
+    ],
+    "sentence": "[ENTITY] vùng vách liên thất, mạn tính và đỉnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Myocardial infarction"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.851584,
+        "I21A1": 0.785121,
+        "I249": 0.769203,
+        "I252": 0.761003,
+        "I639": 0.728907
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2109": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I21A1",
+      "confidence": 0.801609
+    }
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2642,
+      2650
+    ],
+    "assertion_position": [
+      2642,
+      2650
+    ],
+    "sentence": "[ENTITY] kịch phát liên tục kể từ Nhồi máu cơ tim.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Atrial fibrillation",
+      "Paroxysmal atrial fibrillation"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I480": 1.0,
+        "I4891": 0.978406,
+        "I4821": 0.894503,
+        "I4820": 0.803449,
+        "I4901": 0.799594
+      },
+      "rapidfuzz": {
+        "I480": 1.0,
+        "I4820": 0.9,
+        "I4821": 0.9,
+        "I4891": 0.9,
+        "G44039": 0.855,
+        "I231": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I480",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2676,
+      2691
+    ],
+    "assertion_position": [
+      2676,
+      2691
+    ],
+    "sentence": "rung nhĩ kịch phát liên tục kể từ [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Myocardial infarction"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.851584,
+        "I21A1": 0.785121,
+        "I249": 0.769203,
+        "I252": 0.761003,
+        "I639": 0.728907
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2109": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I21A1",
+      "confidence": 0.801609
+    }
+  },
+  {
+    "text": "tiểu đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2693,
+      2701
+    ],
+    "assertion_position": [
+      2693,
+      2701
+    ],
+    "sentence": "[ENTITY] nhiều do tăng sản tuyến tiền liệt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "nocturia",
+      "Nocturnal polyuria"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

@@ -1,131 +1,365 @@
 [
-    {
-        "text": "bệnh động mạch vành",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            34,
-            53
-        ],
-        "candidates": [
-            "I249"
-        ]
+  {
+    "text": "bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      32,
+      51
+    ],
+    "assertion_position": [
+      32,
+      51
+    ],
+    "sentence": "Bệnh lý mãn tính: [ENTITY], bệnh lý thần kinh ngoại biên.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "bệnh lý thần kinh ngoại biên",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            55,
-            83
-        ],
-        "candidates": [
-            "G629"
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Coronary artery disease",
+      "Ischemic heart disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I249": 0.857469,
+        "I255": 0.827983,
+        "I259": 0.821557,
+        "I519": 0.804931,
+        "I209": 0.762008
+      },
+      "rapidfuzz": {
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9,
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855
+      }
     },
-    {
-        "text": "mệt mỏi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            160,
-            167
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            199,
-            206
-        ]
-    },
-    {
-        "text": "mệt mỏi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            248,
-            255
-        ]
-    },
-    {
-        "text": "Khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            258,
-            265
-        ]
-    },
-    {
-        "text": "Đi lại khó khăn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            295,
-            310
-        ]
-    },
-    {
-        "text": "Đau hai bàn chân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            341,
-            357
-        ]
-    },
-    {
-        "text": "lý thần kinh ngoại biên",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            366,
-            389
-        ],
-        "candidates": [
-            "G629"
-        ]
-    },
-    {
-        "text": "đồng",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            457,
-            461
-        ]
-    },
-    {
-        "text": "Chụp động mạch vành",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            621,
-            640
-        ]
-    },
-    {
-        "text": "bệnh ba thân động mạch vành",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            650,
-            677
-        ],
-        "candidates": [
-            "I249"
-        ]
-    },
-    {
-        "text": "Chụp động mạch vành",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            721,
-            740
-        ]
+    "candidate": {
+      "code": "I249",
+      "confidence": 0.861722
     }
+  },
+  {
+    "text": "bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      53,
+      81
+    ],
+    "assertion_position": [
+      53,
+      81
+    ],
+    "sentence": "Bệnh lý mãn tính: bệnh động mạch vành, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "peripheral neuropathy"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G629": 0.864758,
+        "G64": 0.713092,
+        "M792": 0.694097,
+        "G609": 0.693085,
+        "G589": 0.692573
+      },
+      "rapidfuzz": {
+        "Z9862": 0.855,
+        "E0952": 0.855,
+        "A182": 0.855
+      }
+    },
+    "candidate": {
+      "code": "G629",
+      "confidence": 0.778282
+    }
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      155,
+      162
+    ],
+    "assertion_position": [
+      155,
+      162
+    ],
+    "sentence": "Trong vòng một năm qua bệnh nhân thi thoảng xuất hiện [ENTITY], nhất là khi vận động gắng sức khó thở tăng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      194,
+      201
+    ],
+    "assertion_position": [
+      194,
+      201
+    ],
+    "sentence": "Trong vòng một năm qua bệnh nhân thi thoảng xuất hiện mệt mỏi, nhất là khi vận động gắng sức [ENTITY] tăng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      243,
+      250
+    ],
+    "assertion_position": [
+      243,
+      250
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "fatigue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      252,
+      259
+    ],
+    "assertion_position": [
+      252,
+      259
+    ],
+    "sentence": "[ENTITY] tăng khi vận động gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lại khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      291,
+      303
+    ],
+    "assertion_position": [
+      291,
+      303
+    ],
+    "sentence": "Đi [ENTITY], cần dùng gậy hỗ trợ đi lại.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "difficulty again",
+      "Recurrent difficulty"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Đau hai bàn chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      333,
+      349
+    ],
+    "assertion_position": [
+      333,
+      349
+    ],
+    "sentence": "[ENTITY] do bệnh lý thần kinh ngoại biên.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Foot pain",
+      "Plantar pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      358,
+      381
+    ],
+    "assertion_position": [
+      358,
+      381
+    ],
+    "sentence": "Đau hai bàn chân do bệnh [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Peripheral neuropathy"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G629": 0.864758,
+        "G64": 0.713092,
+        "M792": 0.694097,
+        "G609": 0.693085,
+        "G589": 0.692573
+      },
+      "rapidfuzz": {
+        "Z9862": 0.855,
+        "E0952": 0.855,
+        "A182": 0.855
+      }
+    },
+    "candidate": {
+      "code": "G629",
+      "confidence": 0.778282
+    }
+  },
+  {
+    "text": "đồng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      448,
+      452
+    ],
+    "eng_translation": [
+      "same"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      609,
+      628
+    ],
+    "eng_translation": [
+      "Coronary angiography",
+      "Cardiac catheterization"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh ba thân động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      638,
+      665
+    ],
+    "assertion_position": [
+      638,
+      665
+    ],
+    "sentence": "Chụp động mạch vành cho thấy [ENTITY] nghiêm trọng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Coronary artery disease",
+      "Ischemic heart disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I249": 0.857469,
+        "I255": 0.827983,
+        "I259": 0.821557,
+        "I519": 0.804931,
+        "I209": 0.762008
+      },
+      "rapidfuzz": {
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9,
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I249",
+      "confidence": 0.861722
+    }
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      708,
+      727
+    ],
+    "eng_translation": [
+      "Coronary angiography",
+      "Cardiac catheterization"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

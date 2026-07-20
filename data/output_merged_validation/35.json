@@ -1,494 +1,1275 @@
 [
-    {
-        "text": "Bệnh bạch cầu dòng tủy mãn tính",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            57,
-            88
-        ],
-        "candidates": [
-            "D471"
-        ]
+  {
+    "text": "Bệnh bạch cầu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      45,
+      58
+    ],
+    "assertion_position": [
+      45,
+      58
+    ],
+    "sentence": "[ENTITY] dòng tủy mãn tính đang dùng gleevec.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "bạch cầu",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            62,
-            70
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Leukemia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D72823": 0.722129,
+        "C9592": 0.682071,
+        "C9591": 0.647968,
+        "Z856": 0.642389,
+        "C9590": 0.625303
+      },
+      "rapidfuzz": {
+        "C9162": 0.9,
+        "C91Z0": 0.9,
+        "C9102": 0.9
+      }
     },
-    {
-        "text": "gleevec",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            99,
-            106
-        ],
-        "candidates": [
-            "284924"
-        ]
-    },
-    {
-        "text": "Tăng huyết áp",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            113,
-            126
-        ],
-        "candidates": [
-            "I10"
-        ]
-    },
-    {
-        "text": "tăng lipid máu",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            133,
-            147
-        ],
-        "candidates": [
-            "E785"
-        ]
-    },
-    {
-        "text": "Đái tháo đường típ 2",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            170,
-            190
-        ],
-        "candidates": [
-            "E1165"
-        ]
-    },
-    {
-        "text": "hẹp ống sống",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            197,
-            209
-        ],
-        "candidates": [
-            "M4800"
-        ]
-    },
-    {
-        "text": "Giả gout",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            216,
-            224
-        ],
-        "candidates": [
-            "M1100"
-        ]
-    },
-    {
-        "text": "bệnh thận mạn",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            231,
-            244
-        ],
-        "candidates": [
-            "N189"
-        ]
-    },
-    {
-        "text": "tăng sản tuyến tiền liệt",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            279,
-            303
-        ],
-        "candidates": [
-            "N400"
-        ]
-    },
-    {
-        "text": "Ngã",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            332,
-            335
-        ]
-    },
-    {
-        "text": "ảo giác",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            342,
-            349
-        ]
-    },
-    {
-        "text": "gleevec",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            381,
-            388
-        ],
-        "candidates": [
-            "284924"
-        ]
-    },
-    {
-        "text": "suy",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            487,
-            490
-        ]
-    },
-    {
-        "text": "ảo giác",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            523,
-            530
-        ]
-    },
-    {
-        "text": "lẫn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            549,
-            552
-        ]
-    },
-    {
-        "text": "ảo giác",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            661,
-            668
-        ]
-    },
-    {
-        "text": "lẫn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            696,
-            699
-        ]
-    },
-    {
-        "text": "suy kiệt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            808,
-            816
-        ]
-    },
-    {
-        "text": "ảo giác",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            823,
-            830
-        ]
-    },
-    {
-        "text": "Lú lẫn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            837,
-            843
-        ]
-    },
-    {
-        "text": "Ăn uống kém",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            850,
-            861
-        ]
-    },
-    {
-        "text": "dễ nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isFamily"
-        ],
-        "position": [
-            870,
-            876
-        ]
-    },
-    {
-        "text": "Nôn không ra máu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            884,
-            900
-        ]
-    },
-    {
-        "text": "không ra dịch mật",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            902,
-            919
-        ]
-    },
-    {
-        "text": "ảo giác",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1000,
-            1007
-        ]
-    },
-    {
-        "text": "gleevec",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1047,
-            1054
-        ],
-        "candidates": [
-            "284924"
-        ]
-    },
-    {
-        "text": "Ăn uống kém",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1163,
-            1174
-        ]
-    },
-    {
-        "text": "dễ nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1183,
-            1189
-        ]
-    },
-    {
-        "text": "Nôn không ra máu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1197,
-            1213
-        ]
-    },
-    {
-        "text": "dịch mật",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1224,
-            1232
-        ]
-    },
-    {
-        "text": "bạch cầu",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1290,
-            1298
-        ]
-    },
-    {
-        "text": "39.2",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1307,
-            1311
-        ]
-    },
-    {
-        "text": "creatinin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1318,
-            1327
-        ]
-    },
-    {
-        "text": "3.0",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1331,
-            1334
-        ]
-    },
-    {
-        "text": "troponin",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1341,
-            1349
-        ]
-    },
-    {
-        "text": "0.10",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1353,
-            1357
-        ]
-    },
-    {
-        "text": "inr",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1364,
-            1367
-        ]
-    },
-    {
-        "text": "1.4",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1371,
-            1374
-        ]
-    },
-    {
-        "text": "alt",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1399,
-            1402
-        ]
-    },
-    {
-        "text": "176",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1406,
-            1409
-        ]
-    },
-    {
-        "text": "ast",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1413,
-            1416
-        ]
-    },
-    {
-        "text": "287",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1420,
-            1423
-        ]
-    },
-    {
-        "text": "tổng phân tích nước tiểu",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1430,
-            1454
-        ]
-    },
-    {
-        "text": "đái tháo đườngđái tháo đường",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1458,
-            1486
-        ],
-        "candidates": [
-            "E1165"
-        ]
-    },
-    {
-        "text": "chụp x-quang",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1519,
-            1531
-        ]
-    },
-    {
-        "text": "ung bướu",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1619,
-            1627
-        ],
-        "candidates": [
-            "C801"
-        ]
-    },
-    {
-        "text": "gleevec",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1718,
-            1725
-        ],
-        "candidates": [
-            "284924"
-        ]
+    "candidate": {
+      "code": "D72823",
+      "confidence": 0.649916
     }
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      50,
+      58
+    ],
+    "eng_translation": [
+      "White blood cells",
+      "Leukocytes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      87,
+      94
+    ],
+    "assertion_position": [
+      87,
+      94
+    ],
+    "sentence": "Bệnh bạch cầu dòng tủy mãn tính đang dùng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Gleevec",
+      "Imatinib",
+      "Imatinib Mesylate"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282388": 1.0,
+        "284924": 1.0,
+        "282386": 1.0,
+        "1997267": 0.813729
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "282388": 1.0,
+        "284924": 1.0,
+        "404588": 0.9,
+        "404589": 0.9,
+        "576514": 0.9,
+        "10603": 0.9,
+        "2699831": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282388",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      96,
+      109
+    ],
+    "assertion_position": [
+      96,
+      109
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
+    }
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      111,
+      125
+    ],
+    "assertion_position": [
+      111,
+      125
+    ],
+    "sentence": "[ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Hyperlipidemia",
+      "Dyslipidemia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E785": 0.979012,
+        "E786": 0.784723,
+        "E7849": 0.765059,
+        "E782": 0.751965,
+        "E7841": 0.744404
+      },
+      "rapidfuzz": {
+        "E782": 0.95,
+        "E7849": 0.95,
+        "E785": 0.9,
+        "Z83438": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "E785",
+      "confidence": 0.971111
+    }
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      143,
+      163
+    ],
+    "assertion_position": [
+      143,
+      163
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Type 2 diabetes mellitus",
+      "Diabetes mellitus type 2"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.844191,
+        "E119": 0.736971,
+        "E118": 0.725221,
+        "O24119": 0.724895,
+        "Z833": 0.724102
+      },
+      "rapidfuzz": {
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "E1169": 0.9,
+        "S72362Q": 0.855,
+        "S72361M": 0.855,
+        "S72361N": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.759772
+    }
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      165,
+      177
+    ],
+    "assertion_position": [
+      165,
+      177
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Spinal stenosis",
+      "Cervical spondylosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M4800": 0.984485,
+        "M4312": 0.919032,
+        "M479": 0.849491,
+        "M4313": 0.821041,
+        "M4302": 0.818171
+      },
+      "rapidfuzz": {
+        "M48062": 0.9,
+        "M4805": 0.9,
+        "M48061": 0.9,
+        "M5080": 0.855,
+        "S12200G": 0.855,
+        "S12200K": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M4800",
+      "confidence": 0.886037
+    }
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      179,
+      187
+    ],
+    "assertion_position": [
+      179,
+      187
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Pseudogout",
+      "Calcium Pyrophosphate Deposition Disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M1100": 0.765383,
+        "M1109": 0.689372,
+        "M1108": 0.684906,
+        "M1118": 0.680705,
+        "M1110": 0.672732
+      },
+      "rapidfuzz": {
+        "O1022": 0.855,
+        "O352XX5": 0.855,
+        "O352XX9": 0.855,
+        "B0803": 0.7,
+        "L731": 0.7,
+        "F482": 0.7
+      }
+    },
+    "candidate": {
+      "code": "M1100",
+      "confidence": 0.688845
+    }
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      189,
+      202
+    ],
+    "assertion_position": [
+      189,
+      202
+    ],
+    "sentence": "[ENTITY], không đặc hiệu Giai đoạn 4.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Chronic kidney disease",
+      "CKD"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N189": 0.982146,
+        "N039": 0.781739,
+        "N186": 0.757736,
+        "N181": 0.744167,
+        "N1830": 0.681813
+      },
+      "rapidfuzz": {
+        "D631": 0.95,
+        "N181": 0.95,
+        "N1831": 0.95,
+        "I450": 0.72,
+        "I452": 0.72,
+        "I453": 0.72
+      }
+    },
+    "candidate": {
+      "code": "N189",
+      "confidence": 0.883931
+    }
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      232,
+      256
+    ],
+    "assertion_position": [
+      232,
+      256
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Benign Prostatic Hyperplasia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N400": 0.819702,
+        "D291": 0.770737,
+        "N401": 0.741695,
+        "N4231": 0.690872,
+        "Z87430": 0.67855
+      },
+      "rapidfuzz": {
+        "N400": 0.9,
+        "N401": 0.9,
+        "D3A024": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N400",
+      "confidence": 0.827732
+    }
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      285,
+      292
+    ],
+    "assertion_position": [
+      285,
+      292
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "hallucination",
+      "Illusion"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      321,
+      328
+    ],
+    "assertion_position": [
+      321,
+      328
+    ],
+    "sentence": "Thuốc trước khi nhập viện: [ENTITY] (dừng theo chỉ dẫn sau xuất viện).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Gleevec",
+      "Imatinib",
+      "Imatinib Mesylate"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282388": 1.0,
+        "284924": 1.0,
+        "282386": 1.0,
+        "1997267": 0.813729
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "282388": 1.0,
+        "284924": 1.0,
+        "404588": 0.9,
+        "404589": 0.9,
+        "576514": 0.9,
+        "10603": 0.9,
+        "2699831": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282388",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      445,
+      452
+    ],
+    "assertion_position": [
+      445,
+      452
+    ],
+    "sentence": "[ENTITY] dai dẳng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "hallucination",
+      "Illusion"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      466,
+      469
+    ],
+    "assertion_position": [
+      466,
+      469
+    ],
+    "sentence": "Lú [ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "lẫn",
+      "The query provided appears to be in Vietnamese and does not contain any English medical terminology. Since there is no English medical query to rewrite, I cannot perform the requested task. Please provide an English medical query for processing."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      567,
+      574
+    ],
+    "assertion_position": [
+      567,
+      574
+    ],
+    "sentence": "[ENTITY] được vợ nhận thấy.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "hallucination",
+      "Illusion"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      597,
+      600
+    ],
+    "assertion_position": [
+      597,
+      600
+    ],
+    "sentence": "Lú [ENTITY] ngày càng nặng được vợ nhận thấy.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "lẫn",
+      "The query provided appears to be in Vietnamese and does not contain any English medical terminology. Since there is no English medical query to rewrite, I cannot perform the requested task. Please provide an English medical query for processing."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "suy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      696,
+      699
+    ],
+    "assertion_position": [
+      696,
+      699
+    ],
+    "sentence": "toàn trạng [ENTITY] kiệt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "suy",
+      "Suy is not a recognized medical term or condition. Please provide a more detailed or correctly spelled query.",
+      "Sudden unexpected death in infancy",
+      "Suy is not a recognized medical abbreviation. Please provide a valid medical query containing abbreviations for expansion."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      706,
+      713
+    ],
+    "assertion_position": [
+      706,
+      713
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "hallucination",
+      "Illusion"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      715,
+      721
+    ],
+    "assertion_position": [
+      715,
+      721
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Confusion",
+      "Cognitive impairment"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      723,
+      734
+    ],
+    "assertion_position": [
+      723,
+      734
+    ],
+    "sentence": "[ENTITY], ăn vào dễ nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Poor appetite",
+      "Decreased appetite"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dễ nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      743,
+      749
+    ],
+    "assertion_position": [
+      743,
+      749
+    ],
+    "sentence": "Ăn uống kém, ăn vào [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "nauseated",
+      "Nausea",
+      "Nauseous"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Nôn không ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      751,
+      767
+    ],
+    "assertion_position": [
+      751,
+      767
+    ],
+    "sentence": "[ENTITY], không ra dịch mật.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Vomiting without blood",
+      "Vomiting without hematemesis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dịch mật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      778,
+      786
+    ],
+    "assertion_position": [
+      778,
+      786
+    ],
+    "sentence": "Nôn không ra máu, không ra [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "biliary drainage",
+      "Bile drainage"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      858,
+      860
+    ],
+    "assertion_position": [
+      858,
+      860
+    ],
+    "sentence": "Vừa được xuất viện sau chẩn đoán cho [ENTITY] giác bình thường.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "No information provided."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      900,
+      907
+    ],
+    "assertion_position": [
+      900,
+      907
+    ],
+    "sentence": "Được hướng dẫn ngừng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Gleevec",
+      "Imatinib",
+      "Imatinib Mesylate"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282388": 1.0,
+        "284924": 1.0,
+        "282386": 1.0,
+        "1997267": 0.813729
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "282388": 1.0,
+        "284924": 1.0,
+        "404588": 0.9,
+        "404589": 0.9,
+        "576514": 0.9,
+        "10603": 0.9,
+        "2699831": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282388",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ăn uống",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      998,
+      1005
+    ],
+    "assertion_position": [
+      998,
+      1005
+    ],
+    "sentence": "[ENTITY] kém, ăn vào dễ nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Eating and drinking",
+      "Nutrition and hydration"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dễ nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1018,
+      1024
+    ],
+    "assertion_position": [
+      1018,
+      1024
+    ],
+    "sentence": "Ăn uống kém, ăn vào [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "nauseated",
+      "Nausea",
+      "Nauseous"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Nôn không ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1026,
+      1042
+    ],
+    "assertion_position": [
+      1026,
+      1042
+    ],
+    "sentence": "[ENTITY], không ra dịch mật.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Vomiting without blood",
+      "Vomiting without hematemesis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dịch mật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1053,
+      1061
+    ],
+    "assertion_position": [
+      1053,
+      1061
+    ],
+    "sentence": "Nôn không ra máu, không ra [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "biliary drainage",
+      "Bile drainage"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1107,
+      1115
+    ],
+    "eng_translation": [
+      "White blood cells",
+      "Leukocytes"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "39.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1124,
+      1128
+    ],
+    "eng_translation": [
+      "39.2",
+      "Fever, 39.2°C",
+      "39.2°C"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1130,
+      1139
+    ],
+    "eng_translation": [
+      "Creatinine",
+      "Serum Creatinine"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "3.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1143,
+      1146
+    ],
+    "eng_translation": [
+      "3.0"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1148,
+      1156
+    ],
+    "eng_translation": [
+      "troponin",
+      "Troponin elevation",
+      "Cardiac troponin"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "0.10",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1160,
+      1164
+    ],
+    "eng_translation": [
+      "0.10"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1166,
+      1169
+    ],
+    "eng_translation": [
+      "INR",
+      "International Normalized Ratio"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "1.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1173,
+      1176
+    ],
+    "eng_translation": [
+      "1.4"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1196,
+      1199
+    ],
+    "eng_translation": [
+      "No translation provided. Please provide the Vietnamese medical text for translation.",
+      "Please provide the Vietnamese medical text for translation."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "176",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1203,
+      1206
+    ],
+    "eng_translation": [
+      "176"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1210,
+      1213
+    ],
+    "eng_translation": [
+      "No translation provided.",
+      "The query provided is \"No translation provided.\" Since there is no medical content or diagnosis mentioned in the query, there is no applicable medical synonym to use. Therefore, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "287",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1217,
+      1220
+    ],
+    "eng_translation": [
+      "287"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1222,
+      1246
+    ],
+    "eng_translation": [
+      "Urinalysis summary",
+      "Urinalysis results summary"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đái tháo đườngđái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1250,
+      1278
+    ],
+    "assertion_position": [
+      1250,
+      1278
+    ],
+    "sentence": "tổng phân tích nước tiểu có [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Diabetes mellitus",
+      "Type 2 diabetes"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.84212,
+        "O24119": 0.714028,
+        "R7303": 0.712752,
+        "Z833": 0.710006,
+        "E119": 0.708696
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "O2412": 0.9,
+        "O24111": 0.9,
+        "O24112": 0.9
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.757908
+    }
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1308,
+      1320
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ung bướu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1405,
+      1413
+    ],
+    "assertion_position": [
+      1405,
+      1413
+    ],
+    "sentence": "Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - [ENTITY]: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Cancer",
+      "Malignancy"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C801": 0.911124,
+        "C800": 0.717713,
+        "C799": 0.699041,
+        "D499": 0.653178,
+        "Z859": 0.64919
+      },
+      "rapidfuzz": {
+        "R971": 0.9,
+        "Z15060": 0.9,
+        "D701": 0.9,
+        "Z192": 0.9,
+        "Z191": 0.9,
+        "R85614": 0.9
+      }
+    },
+    "candidate": {
+      "code": "C801",
+      "confidence": 0.820012
+    }
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      1504,
+      1511
+    ],
+    "assertion_position": [
+      1504,
+      1511
+    ],
+    "sentence": "Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Gleevec",
+      "Imatinib",
+      "Imatinib Mesylate"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282388": 1.0,
+        "284924": 1.0,
+        "282386": 1.0,
+        "1997267": 0.813729
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "282388": 1.0,
+        "284924": 1.0,
+        "404588": 0.9,
+        "404589": 0.9,
+        "576514": 0.9,
+        "10603": 0.9,
+        "2699831": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282388",
+      "confidence": 1.0
+    }
+  }
 ]

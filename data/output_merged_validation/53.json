@@ -1,122 +1,378 @@
 [
-    {
-        "text": "bệnh tim mạch",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            131,
-            144
-        ],
-        "candidates": [
-            "I519"
-        ]
+  {
+    "text": "bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      116,
+      129
+    ],
+    "assertion_position": [
+      116,
+      129
+    ],
+    "sentence": "[ENTITY] do xơ vữa động mạch.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "xơ vữa động mạch",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            148,
-            164
-        ],
-        "candidates": [
-            "I7090"
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "cardiovascular disease",
+      "Cardiac disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I519": 0.955106,
+        "I5189": 0.746198,
+        "I429": 0.718682,
+        "I099": 0.705557,
+        "I679": 0.694969
+      },
+      "rapidfuzz": {
+        "C946": 0.855,
+        "I289": 0.855,
+        "I279": 0.855,
+        "R011": 0.855,
+        "T82120D": 0.855,
+        "T82129A": 0.855
+      }
     },
-    {
-        "text": "blốc nhĩ thất",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            171,
-            184
-        ],
-        "candidates": [
-            "I442"
-        ]
-    },
-    {
-        "text": "bệnh thận mạn",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            233,
-            246
-        ],
-        "candidates": [
-            "N189"
-        ]
-    },
-    {
-        "text": "Suy giảm nhận thức",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            269,
-            287
-        ]
-    },
-    {
-        "text": "suy giảm nhận thức",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            292,
-            310
-        ]
-    },
-    {
-        "text": "Cảm giác thắt chặt ngực",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            451,
-            474
-        ]
-    },
-    {
-        "text": "Cảm giác thắt chặt ngực dưới xương ức",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            622,
-            659
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            679,
-            686
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            952,
-            959
-        ]
-    },
-    {
-        "text": "Cơn đau thắt ngực không ổn định",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1048,
-            1079
-        ]
-    },
-    {
-        "text": "Cơn đau thắt ngực không ổn định",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1174,
-            1205
-        ]
+    "candidate": {
+      "code": "I519",
+      "confidence": 0.859595
     }
+  },
+  {
+    "text": "xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      133,
+      149
+    ],
+    "assertion_position": [
+      133,
+      149
+    ],
+    "sentence": "bệnh tim mạch do [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Atherosclerosis",
+      "Arteriosclerosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I7090": 0.960917,
+        "I7091": 0.846441,
+        "I700": 0.836473,
+        "I672": 0.751668,
+        "I708": 0.727376
+      },
+      "rapidfuzz": {
+        "I70743": 0.9,
+        "I70291": 0.9,
+        "I70269": 0.9,
+        "I7090": 0.812903,
+        "I7091": 0.812903,
+        "I70735": 0.812903
+      }
+    },
+    "candidate": {
+      "code": "I7090",
+      "confidence": 0.946116
+    }
+  },
+  {
+    "text": "nhĩ thất",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      156,
+      164
+    ],
+    "assertion_position": [
+      156,
+      164
+    ],
+    "sentence": "blốc [ENTITY], hoàn toàn sau khi đặt máy tạo nhịp (PPM).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Left atrium",
+      "Left atrial chamber"
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q242": 0.72341,
+        "Q206": 0.554728,
+        "I444": 0.538707,
+        "Q241": 0.528219,
+        "Q2110": 0.528089
+      },
+      "rapidfuzz": {
+        "S15302D": 0.855,
+        "S15302A": 0.855,
+        "S15292S": 0.855,
+        "S92812P": 0.855,
+        "Z96662": 0.855,
+        "T20412A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "Q242",
+      "confidence": 0.651069
+    }
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      208,
+      221
+    ],
+    "assertion_position": [
+      208,
+      221
+    ],
+    "sentence": "[ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Chronic kidney disease",
+      "CKD"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N189": 0.982146,
+        "N039": 0.781739,
+        "N186": 0.757736,
+        "N181": 0.744167,
+        "N1830": 0.681813
+      },
+      "rapidfuzz": {
+        "D631": 0.95,
+        "N181": 0.95,
+        "N1831": 0.95,
+        "I450": 0.72,
+        "I452": 0.72,
+        "I453": 0.72
+      }
+    },
+    "candidate": {
+      "code": "N189",
+      "confidence": 0.883931
+    }
+  },
+  {
+    "text": "Suy giảm nhận thức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      239,
+      257
+    ],
+    "assertion_position": [
+      239,
+      257
+    ],
+    "sentence": "[ENTITY] nhẹ suy giảm nhận thức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Cognitive impairment",
+      "Cognitive dysfunction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "suy giảm nhận thức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      262,
+      280
+    ],
+    "assertion_position": [
+      262,
+      280
+    ],
+    "sentence": "Suy giảm nhận thức nhẹ [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Cognitive impairment",
+      "Cognitive dysfunction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "giác thắt chặt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      415,
+      434
+    ],
+    "assertion_position": [
+      415,
+      434
+    ],
+    "sentence": "Lý do nhập viện: Các đợt Cảm [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "tight chest pain",
+      "Chest pain, tightness",
+      "Chest tightness"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Cảm giác thắt chặt ngực dưới xương ức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      560,
+      597
+    ],
+    "assertion_position": [
+      560,
+      597
+    ],
+    "sentence": "[ENTITY] nghiêm trọng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Discomfort under the sternum",
+      "Discomfort in the epigastric region"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      612,
+      619
+    ],
+    "assertion_position": [
+      612,
+      619
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      847,
+      854
+    ],
+    "assertion_position": [
+      847,
+      854
+    ],
+    "sentence": "Triệu chứng kèm theo: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      930,
+      961
+    ],
+    "assertion_position": [
+      930,
+      961
+    ],
+    "sentence": "Chuyển đến vì lo ngại [ENTITY] cần can thiệp mạch vành.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Unstable angina",
+      "Acute coronary syndrome"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1049,
+      1080
+    ],
+    "assertion_position": [
+      1049,
+      1080
+    ],
+    "sentence": "Các phát hiện chẩn đoán khác: Lo ngại [ENTITY] cần can thiệp mạch vành.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Unstable angina",
+      "Acute coronary syndrome"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

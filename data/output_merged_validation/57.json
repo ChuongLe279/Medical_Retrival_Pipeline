@@ -1,35 +1,111 @@
 [
-    {
-        "text": "bệnh rễ thần kinh tuỷ sống ở ngón tay",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            74,
-            111
-        ],
-        "candidates": [
-            "M89049"
-        ]
+  {
+    "text": "bệnh rễ thần kinh tuỷ sống ở ngón",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      63,
+      96
+    ],
+    "assertion_position": [
+      63,
+      96
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY] tay cái.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "bệnh rễ thần kinh tuỷ sống ở ngón tay cái",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            187,
-            228
-        ],
-        "candidates": [
-            "M65319"
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "spinal nerve root disease at the finger",
+      "Spinal nerve root disease at the finger level",
+      "Spinal nerve root disease at the hand"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M89049": 0.648304,
+        "G549": 0.627037,
+        "G544": 0.626061,
+        "M60046": 0.620782,
+        "M87046": 0.618539
+      },
+      "rapidfuzz": {
+        "Y92116": 0.855,
+        "S66326D": 0.855,
+        "S66326A": 0.855,
+        "S62636K": 0.855,
+        "S61240A": 0.855,
+        "Z8669": 0.855,
+        "L98A314": 0.855,
+        "L98A392": 0.855,
+        "L98A393": 0.855
+      }
     },
-    {
-        "text": "chụp cộng hưởng từ (mri)",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            279,
-            303
-        ]
+    "candidate": {
+      "code": "M89049",
+      "confidence": 0.583474
     }
+  },
+  {
+    "text": "bệnh rễ thần kinh tuỷ sống ở ngón tay",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      170,
+      207
+    ],
+    "assertion_position": [
+      170,
+      207
+    ],
+    "sentence": "Triệu chứng hiện tại: [ENTITY] cái.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "spinal nerve root disease at the finger",
+      "Spinal nerve root disease at the finger level",
+      "Spinal nerve root disease at the hand"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M89049": 0.648304,
+        "G549": 0.627037,
+        "G544": 0.626061,
+        "M60046": 0.620782,
+        "M87046": 0.618539
+      },
+      "rapidfuzz": {
+        "Y92116": 0.855,
+        "S66326D": 0.855,
+        "S66326A": 0.855,
+        "S62636K": 0.855,
+        "S61240A": 0.855,
+        "Z8669": 0.855,
+        "L98A314": 0.855,
+        "L98A392": 0.855,
+        "L98A393": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M89049",
+      "confidence": 0.583474
+    }
+  },
+  {
+    "text": "chụp cộng hưởng từ (mri)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      255,
+      279
+    ],
+    "eng_translation": [
+      "MRI",
+      "Magnetic Resonance Imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

@@ -1,182 +1,558 @@
 [
-    {
-        "text": "Đái tháo đường típ 1",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            48,
-            68
-        ],
-        "candidates": [
-            "E1065"
-        ]
+  {
+    "text": "Đái tháo đường típ 1",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      36,
+      56
+    ],
+    "assertion_position": [
+      36,
+      56
+    ],
+    "sentence": "[ENTITY] có biến chứng viêm thần kinh ngoại biên.",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "viêm thần kinh ngoại biên",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            83,
-            108
-        ],
-        "candidates": [
-            "G629"
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Type 1 Diabetes mellitus",
+      "Insulin-Dependent Diabetes Mellitus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1065": 0.836582,
+        "E10A0": 0.777473,
+        "E109": 0.727095,
+        "E10A1": 0.725366,
+        "P702": 0.722598
+      },
+      "rapidfuzz": {
+        "E1041": 0.9,
+        "E1042": 0.9,
+        "E1043": 0.9,
+        "P700": 0.855,
+        "E1339": 0.855,
+        "E1340": 0.855
+      }
     },
-    {
-        "text": "Viêm gan virus C",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            115,
-            131
-        ],
-        "candidates": [
-            "B182"
-        ]
-    },
-    {
-        "text": "Tăng áp động mạch phổi",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            143,
-            165
-        ],
-        "candidates": [
-            "I270"
-        ]
-    },
-    {
-        "text": "U lympho không hodgkin tế bàoB",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            190,
-            220
-        ],
-        "candidates": [
-            "C8510"
-        ]
-    },
-    {
-        "text": "Phù chân trái",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            454,
-            467
-        ]
-    },
-    {
-        "text": "hoại tử",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            471,
-            478
-        ]
-    },
-    {
-        "text": "Lasix",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            605,
-            610
-        ],
-        "candidates": [
-            "4603"
-        ]
-    },
-    {
-        "text": "lasix",
-        "type": "THUỐC",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            665,
-            670
-        ],
-        "candidates": [
-            "4603"
-        ]
-    },
-    {
-        "text": "phù chân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            700,
-            708
-        ]
-    },
-    {
-        "text": "phù chân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            719,
-            727
-        ]
-    },
-    {
-        "text": "hoại tử",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            731,
-            738
-        ]
-    },
-    {
-        "text": "Phù 2 chân nặng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            835,
-            850
-        ]
-    },
-    {
-        "text": "Loét 2 bàn chân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            852,
-            867
-        ]
-    },
-    {
-        "text": "chảy dịch vàng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            869,
-            883
-        ]
-    },
-    {
-        "text": "tử đen",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            895,
-            901
-        ]
-    },
-    {
-        "text": "bàn chân nhiễm trùng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            944,
-            964
-        ]
+    "candidate": {
+      "code": "E1065",
+      "confidence": 0.752924
     }
+  },
+  {
+    "text": "viêm thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      71,
+      96
+    ],
+    "assertion_position": [
+      71,
+      96
+    ],
+    "sentence": "Đái tháo đường típ 1 có biến chứng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Peripheral neuropathy"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G629": 0.864758,
+        "G64": 0.713092,
+        "M792": 0.694097,
+        "G609": 0.693085,
+        "G589": 0.692573
+      },
+      "rapidfuzz": {
+        "Z9862": 0.855,
+        "E0952": 0.855,
+        "A182": 0.855
+      }
+    },
+    "candidate": {
+      "code": "G629",
+      "confidence": 0.778282
+    }
+  },
+  {
+    "text": "Viêm gan virus C",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      98,
+      114
+    ],
+    "assertion_position": [
+      98,
+      114
+    ],
+    "sentence": "[ENTITY] và B.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Hepatitis C virus",
+      "Hepatitis C virus infection",
+      "HCV infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B182": 0.880806,
+        "B189": 0.771465,
+        "K739": 0.733027,
+        "P353": 0.713184,
+        "B188": 0.699252
+      },
+      "rapidfuzz": {
+        "Z114": 0.855,
+        "K753": 0.855,
+        "Z717": 0.855,
+        "T83510S": 0.855,
+        "A040": 0.855,
+        "A043": 0.855,
+        "A0220": 0.855,
+        "T8029XS": 0.855,
+        "T84625S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "B182",
+      "confidence": 0.792725
+    }
+  },
+  {
+    "text": "Tăng áp động mạch phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      121,
+      143
+    ],
+    "assertion_position": [
+      121,
+      143
+    ],
+    "sentence": "[ENTITY] mức độ trung bình.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Pulmonary artery hypertension",
+      "Pulmonary hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I2720": 0.987534,
+        "I270": 0.906433,
+        "P2930": 0.810358,
+        "I2721": 0.80767,
+        "I2722": 0.74703
+      },
+      "rapidfuzz": {
+        "I270": 0.95,
+        "I2722": 0.9,
+        "I2729": 0.9,
+        "Q263": 0.855,
+        "S45192A": 0.855,
+        "J8289": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I270",
+      "confidence": 0.91079
+    }
+  },
+  {
+    "text": "U lympho không hodgkin tế bàoB",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      163,
+      193
+    ],
+    "assertion_position": [
+      163,
+      193
+    ],
+    "sentence": "[ENTITY] lớn lan toả).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Non-Hodgkin B-cell lymphoma",
+      "B-cell non-Hodgkin lymphoma",
+      "Non-Hodgkin Lymphoma B-cell Lymphoma"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C8510": 0.908521,
+        "C8590": 0.813978,
+        "C8370": 0.774638,
+        "C8300": 0.771824,
+        "C8330": 0.748502
+      },
+      "rapidfuzz": {
+        "G9204": 0.855,
+        "G9201": 0.855,
+        "G9200": 0.855,
+        "W44E4XS": 0.855,
+        "C859A": 0.855,
+        "C8599": 0.855,
+        "C84A9": 0.855,
+        "C84A8": 0.855,
+        "C8475": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C8510",
+      "confidence": 0.817669
+    }
+  },
+  {
+    "text": "Phù chân trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      402,
+      415
+    ],
+    "assertion_position": [
+      402,
+      415
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY] và hoại tử ngày càng nặng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Edema of the left foot",
+      "Left foot edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hoại tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      419,
+      426
+    ],
+    "assertion_position": [
+      419,
+      426
+    ],
+    "sentence": "Lý do nhập viện: Phù chân trái và [ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "necrosis",
+      "Necrotic tissue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Lasix",
+    "type": "THUỐC",
+    "position": [
+      550,
+      555
+    ],
+    "assertion_position": [
+      550,
+      555
+    ],
+    "sentence": "Ttheo lời bệnh nhân kể, bệnh nhân có khó khăn trong việc tự chăm sóc bản thân tại nhà, bệnh nhân tự ý dừng [ENTITY] vì không muốn đi tiểu nhiều lần.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Furosemide",
+      "Loop Diuretic"
+    ],
+    "retriever": {
+      "sapbert": {
+        "4603": 1.0,
+        "104215": 1.0,
+        "3567": 0.759171,
+        "3569": 0.751101,
+        "91218": 0.737778
+      },
+      "rapidfuzz": {
+        "4603": 1.0,
+        "2725542": 0.9,
+        "2725545": 0.9,
+        "2654838": 0.855,
+        "1300289": 0.72
+      }
+    },
+    "candidate": {
+      "code": "4603",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "lasix",
+    "type": "THUỐC",
+    "position": [
+      610,
+      615
+    ],
+    "assertion_position": [
+      610,
+      615
+    ],
+    "sentence": "Sau khi dừng sử dụng [ENTITY] cách đây vài tuần, xuất hiện phù chân.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Lasix",
+      "Furosemide"
+    ],
+    "retriever": {
+      "sapbert": {
+        "4603": 1.0,
+        "202991": 1.0,
+        "2735130": 0.843701,
+        "2739320": 0.690308,
+        "1364397": 0.680973
+      },
+      "rapidfuzz": {
+        "202991": 1.0,
+        "4603": 1.0,
+        "565458": 0.9,
+        "1175645": 0.9,
+        "2725542": 0.9,
+        "2725545": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202991",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      645,
+      653
+    ],
+    "assertion_position": [
+      645,
+      653
+    ],
+    "sentence": "Sau khi dừng sử dụng lasix cách đây vài tuần, xuất hiện [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "edema of the feet",
+      "Peripheral edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      664,
+      672
+    ],
+    "assertion_position": [
+      664,
+      672
+    ],
+    "sentence": "Ngày nay [ENTITY] và hoại tử nặng lên, chưa xử trí gì, vào viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "edema of the feet",
+      "Peripheral edema"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hoại tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      676,
+      683
+    ],
+    "assertion_position": [
+      676,
+      683
+    ],
+    "sentence": "Ngày nay phù chân và [ENTITY] nặng lên, chưa xử trí gì, vào viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "necrosis",
+      "Necrotic tissue"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Phù 2 chân nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      781,
+      796
+    ],
+    "assertion_position": [
+      781,
+      796
+    ],
+    "sentence": "[ENTITY], Loét 2 bàn chân, chảy dịch vàng và có hoại tử đen kích thước 2*4 cm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Edema of both lower extremities, severe",
+      "Edematous lower extremities, severe"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Loét 2 bàn chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      798,
+      813
+    ],
+    "assertion_position": [
+      798,
+      813
+    ],
+    "sentence": "Phù 2 chân nặng, [ENTITY], chảy dịch vàng và có hoại tử đen kích thước 2*4 cm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Ulceration on both feet",
+      "Ulceration of both feet",
+      "Foot ulcers on both feet"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chảy dịch vàng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      815,
+      829
+    ],
+    "assertion_position": [
+      815,
+      829
+    ],
+    "sentence": "Phù 2 chân nặng, Loét 2 bàn chân, [ENTITY] và có hoại tử đen kích thước 2*4 cm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "purulent discharge",
+      "purulent secretion"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tử đen",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      841,
+      847
+    ],
+    "assertion_position": [
+      841,
+      847
+    ],
+    "sentence": "Phù 2 chân nặng, Loét 2 bàn chân, chảy dịch vàng và có hoại [ENTITY] kích thước 2*4 cm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Black stool",
+      "Melena"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bàn chân nhiễm trùng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      891,
+      911
+    ],
+    "assertion_position": [
+      891,
+      911
+    ],
+    "sentence": "Chẩn đoán: Theo dõiLoét [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Infection of the foot",
+      "Foot infection"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

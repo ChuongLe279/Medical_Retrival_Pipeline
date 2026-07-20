@@ -1,369 +1,997 @@
 [
-    {
-        "text": "đau đầu gối",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            77,
-            88
-        ]
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      65,
+      76
+    ],
+    "assertion_position": [
+      65,
+      76
+    ],
+    "sentence": "NSAID để điều trị [ENTITY] (đã ngừng).",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "omeprazole",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            106,
-            116
-        ],
-        "candidates": [
-            "7646"
-        ]
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "knee pain",
+      "Patellar pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    {
-        "text": "đau vùng hạ sườn phải",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            206,
-            227
-        ]
+    "candidate": null
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      89,
+      99
+    ],
+    "assertion_position": [
+      89,
+      99
+    ],
+    "sentence": "[ENTITY] (bắt đầu dùng).",
+    "assertion_result": {
+      "tag": null
     },
-    {
-        "text": "đau vùng hạ sườn phải",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            315,
-            336
-        ]
+    "qwen_assertion": null,
+    "eng_translation": [
+      "omeprazole",
+      "Omeprazole is a proton pump inhibitor (PPI) used to reduce stomach acid production. It is commonly prescribed for conditions such as gastroesophageal reflux disease (GERD), peptic ulcer disease, and Zollinger-Ellison syndrome. Omeprazole works by inhibiting the enzyme in the stomach wall that produces acid, thereby decreasing the amount of acid secreted into the stomach. It is available in both prescription and over-the-counter formulations and is typically taken once daily. Long-term use of PPIs may be associated with potential side effects, including nutrient deficiencies and an increased risk of certain infections.",
+      "Omeprazole is a medication used to reduce the amount of acid produced in the stomach. It is commonly prescribed for conditions such as gastroesophageal reflux disease (GERD), peptic ulcer disease, and Zollinger-Ellison syndrome. Omeprazole works by inhibiting the action of proton pumps in the stomach, which are responsible for acid secretion. It is available in both prescription and over-the-counter forms and is typically taken once daily. Common side effects may include headache, diarrhea, and abdominal pain, although many people do not experience significant side effects. It is important to follow the prescribed dosage and duration of treatment to ensure effectiveness and minimize potential side effects. If you have any questions or concerns about omeprazole, it is recommended to consult with a healthcare provider."
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "283742": 0.969087,
+        "2594977": 0.839895,
+        "1792108": 0.833847
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "283742": 0.909091,
+        "343355": 0.9,
+        "639888": 0.855,
+        "2722932": 0.855,
+        "401941": 0.855,
+        "1145110": 0.855,
+        "1145114": 0.855
+      }
     },
-    {
-        "text": "chướng bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            342,
-            353
-        ]
-    },
-    {
-        "text": "buồn nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            357,
-            365
-        ]
-    },
-    {
-        "text": "nôn ói",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            404,
-            410
-        ]
-    },
-    {
-        "text": "đau lưng kéo dài",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            442,
-            458
-        ]
-    },
-    {
-        "text": "Đau bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            551,
-            559
-        ]
-    },
-    {
-        "text": "sườn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            584,
-            588
-        ]
-    },
-    {
-        "text": "chướng bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            632,
-            643
-        ]
-    },
-    {
-        "text": "buồn nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            676,
-            684
-        ]
-    },
-    {
-        "text": "nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            703,
-            706
-        ]
-    },
-    {
-        "text": "đau lưng kéo dài",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            743,
-            759
-        ]
-    },
-    {
-        "text": "đau bụng vùng hạ sườn phải",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            871,
-            897
-        ]
-    },
-    {
-        "text": "đau bụng vùng hạ sườn phải",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            979,
-            1005
-        ]
-    },
-    {
-        "text": "chướng bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1012,
-            1023
-        ]
-    },
-    {
-        "text": "buồn nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1031,
-            1039
-        ]
-    },
-    {
-        "text": "Nôn mửa",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1057,
-            1064
-        ]
-    },
-    {
-        "text": "đau lưng âm ỉ",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1085,
-            1098
-        ]
-    },
-    {
-        "text": "đau bụng hạ sườn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1138,
-            1154
-        ]
-    },
-    {
-        "text": "đau lưng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1161,
-            1169
-        ]
-    },
-    {
-        "text": "đau bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1302,
-            1310
-        ]
-    },
-    {
-        "text": "chướng bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1312,
-            1323
-        ]
-    },
-    {
-        "text": "chướng bụng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1358,
-            1369
-        ]
-    },
-    {
-        "text": "buồn nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1372,
-            1380
-        ]
-    },
-    {
-        "text": "nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1393,
-            1396
-        ]
-    },
-    {
-        "text": "đau lưng kéo dài",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1398,
-            1414
-        ]
-    },
-    {
-        "text": "nội soi",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1467,
-            1474
-        ]
-    },
-    {
-        "text": "viêm dạ dày",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1533,
-            1544
-        ],
-        "candidates": [
-            "K2970"
-        ]
-    },
-    {
-        "text": "omeprazole",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1596,
-            1606
-        ],
-        "candidates": [
-            "7646"
-        ]
-    },
-    {
-        "text": "Chụp cộng hưởng từ",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1608,
-            1626
-        ]
-    },
-    {
-        "text": "Nội soi",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1901,
-            1908
-        ]
-    },
-    {
-        "text": "viêm dạ dày",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1940,
-            1951
-        ],
-        "candidates": [
-            "K2970"
-        ]
-    },
-    {
-        "text": "Nội soi mật tụy ngược dòng (ERCP)",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2032,
-            2065
-        ]
-    },
-    {
-        "text": "ERCP",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2083,
-            2087
-        ]
-    },
-    {
-        "text": "chụp cộng hưởng từ",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            2155,
-            2173
-        ]
-    },
-    {
-        "text": "sỏi ống dẫn mật",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            2214,
-            2229
-        ],
-        "candidates": [
-            "K824"
-        ]
+    "candidate": {
+      "code": "7646",
+      "confidence": 1.0
     }
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      183,
+      204
+    ],
+    "assertion_position": [
+      183,
+      204
+    ],
+    "sentence": "Tiền sử bệnh hiện tạiBệnh nhân nhập viện vì [ENTITY] kéo dài vài tuần nay.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "right hypochondriac pain",
+      "right upper quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      292,
+      313
+    ],
+    "assertion_position": [
+      292,
+      313
+    ],
+    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng [ENTITY], kèm chướng bụng và buồn nôn thoáng qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "right hypochondriac pain",
+      "right upper quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      319,
+      330
+    ],
+    "assertion_position": [
+      319,
+      330
+    ],
+    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng đau vùng hạ sườn phải, kèm [ENTITY] và buồn nôn thoáng qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal distension",
+      "Abdominal bloating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      334,
+      342
+    ],
+    "assertion_position": [
+      334,
+      342
+    ],
+    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng đau vùng hạ sườn phải, kèm chướng bụng và [ENTITY] thoáng qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn ói",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      380,
+      386
+    ],
+    "assertion_position": [
+      380,
+      386
+    ],
+    "sentence": "Bệnh nhân không ghi nhận [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      418,
+      434
+    ],
+    "assertion_position": [
+      418,
+      434
+    ],
+    "sentence": "Ngoài ra, bệnh nhân có tiền sử [ENTITY] từ lâu, khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Back pain lasting",
+      "Chronic back pain lasting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      527,
+      535
+    ],
+    "assertion_position": [
+      527,
+      535
+    ],
+    "sentence": "[ENTITY] chủ yếu khu trú vùng hạ sườn phải, xuất hiện nhiều sau ăn, kèm cảm giác chướng bụng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      608,
+      619
+    ],
+    "assertion_position": [
+      608,
+      619
+    ],
+    "sentence": "Đau bụng chủ yếu khu trú vùng hạ sườn phải, xuất hiện nhiều sau ăn, kèm cảm giác [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal distension",
+      "Abdominal bloating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      651,
+      659
+    ],
+    "assertion_position": [
+      651,
+      659
+    ],
+    "sentence": "Các triệu chứng liên quan gồm [ENTITY] thoáng qua, không nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      678,
+      681
+    ],
+    "assertion_position": [
+      678,
+      681
+    ],
+    "sentence": "Các triệu chứng liên quan gồm buồn nôn thoáng qua, không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      718,
+      734
+    ],
+    "assertion_position": [
+      718,
+      734
+    ],
+    "sentence": "Bệnh nhân cũng ghi nhận tình trạng [ENTITY] như trên.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Back pain lasting",
+      "Chronic back pain lasting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      842,
+      868
+    ],
+    "assertion_position": [
+      842,
+      868
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "right lower quadrant abdominal pain",
+      "Right lower quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      939,
+      965
+    ],
+    "assertion_position": [
+      939,
+      965
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "right lower quadrant abdominal pain",
+      "Right lower quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      967,
+      978
+    ],
+    "assertion_position": [
+      967,
+      978
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal distension",
+      "Abdominal bloating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn thoáng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      980,
+      995
+    ],
+    "assertion_position": [
+      980,
+      995
+    ],
+    "sentence": "[ENTITY] qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Episodic nausea",
+      "Intermittent nausea"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1001,
+      1008
+    ],
+    "assertion_position": [
+      1001,
+      1008
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1023,
+      1036
+    ],
+    "assertion_position": [
+      1023,
+      1036
+    ],
+    "sentence": "Bệnh nhân có [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "persistent low back pain",
+      "chronic low back pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1068,
+      1089
+    ],
+    "assertion_position": [
+      1068,
+      1089
+    ],
+    "sentence": "Vị trí: [ENTITY], đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "right lower quadrant abdominal pain",
+      "Right lower quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1091,
+      1099
+    ],
+    "assertion_position": [
+      1091,
+      1099
+    ],
+    "sentence": "Vị trí: đau bụng hạ sườn phải, [ENTITY] (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "back pain",
+      "Low back pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1227,
+      1235
+    ],
+    "assertion_position": [
+      1227,
+      1235
+    ],
+    "sentence": "Thời gian: Thường xuất hiện sau bữa ăn ([ENTITY], chướng bụng).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1237,
+      1248
+    ],
+    "assertion_position": [
+      1237,
+      1248
+    ],
+    "sentence": "Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, [ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal distension",
+      "Abdominal bloating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1278,
+      1289
+    ],
+    "assertion_position": [
+      1278,
+      1289
+    ],
+    "sentence": "Các triệu chứng liên quan: [ENTITY], buồn nôn thoáng qua, nôn, đau lưng kéo dài.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal distension",
+      "Abdominal bloating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1291,
+      1299
+    ],
+    "assertion_position": [
+      1291,
+      1299
+    ],
+    "sentence": "Các triệu chứng liên quan: chướng bụng, [ENTITY] thoáng qua, nôn, đau lưng kéo dài.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1312,
+      1315
+    ],
+    "assertion_position": [
+      1312,
+      1315
+    ],
+    "sentence": "Các triệu chứng liên quan: chướng bụng, buồn nôn thoáng qua, [ENTITY], đau lưng kéo dài.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1317,
+      1333
+    ],
+    "assertion_position": [
+      1317,
+      1333
+    ],
+    "sentence": "Các triệu chứng liên quan: chướng bụng, buồn nôn thoáng qua, nôn, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Back pain lasting",
+      "Chronic back pain lasting"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1383,
+      1390
+    ],
+    "eng_translation": [
+      "Endoscopy",
+      "Gastrointestinal endoscopy",
+      "Endoscopic Examination"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1449,
+      1460
+    ],
+    "assertion_position": [
+      1449,
+      1460
+    ],
+    "sentence": "Bệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Gastritis",
+      "Gastritis is the inflammation of the stomach lining."
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2970": 0.749555,
+        "K2971": 0.686647,
+        "K30": 0.677284,
+        "K819": 0.65158,
+        "K31A0": 0.651304
+      },
+      "rapidfuzz": {
+        "K2970": 0.9,
+        "K2900": 0.9,
+        "K2930": 0.9,
+        "S32314A": 0.855,
+        "S21139S": 0.855,
+        "S21141A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K2970",
+      "confidence": 0.764599
+    }
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      1512,
+      1522
+    ],
+    "assertion_position": [
+      1512,
+      1522
+    ],
+    "sentence": "Được điều trị bằng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "omeprazole",
+      "Omeprazole is a proton pump inhibitor (PPI) used to reduce stomach acid production. It is commonly prescribed for conditions such as gastroesophageal reflux disease (GERD), peptic ulcer disease, and Zollinger-Ellison syndrome. Omeprazole works by inhibiting the enzyme in the stomach wall that produces acid, thereby decreasing the amount of acid secreted into the stomach. It is available in both prescription and over-the-counter formulations and is typically taken once daily. Long-term use of PPIs may be associated with potential side effects, including nutrient deficiencies and an increased risk of certain infections.",
+      "Omeprazole is a medication used to reduce the amount of acid produced in the stomach. It is commonly prescribed for conditions such as gastroesophageal reflux disease (GERD), peptic ulcer disease, and Zollinger-Ellison syndrome. Omeprazole works by inhibiting the action of proton pumps in the stomach, which are responsible for acid secretion. It is available in both prescription and over-the-counter forms and is typically taken once daily. Common side effects may include headache, diarrhea, and abdominal pain, although many people do not experience significant side effects. It is important to follow the prescribed dosage and duration of treatment to ensure effectiveness and minimize potential side effects. If you have any questions or concerns about omeprazole, it is recommended to consult with a healthcare provider."
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "283742": 0.969087,
+        "2594977": 0.839895,
+        "1792108": 0.833847
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "283742": 0.909091,
+        "343355": 0.9,
+        "639888": 0.855,
+        "2722932": 0.855,
+        "401941": 0.855,
+        "1145110": 0.855,
+        "1145114": 0.855
+      }
+    },
+    "candidate": {
+      "code": "7646",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Chụp cộng hưởng từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1524,
+      1542
+    ],
+    "eng_translation": [
+      "MRI",
+      "Magnetic Resonance Imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1818,
+      1825
+    ],
+    "eng_translation": [
+      "Endoscopy",
+      "Gastrointestinal endoscopy",
+      "Endoscopic Examination"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1857,
+      1868
+    ],
+    "assertion_position": [
+      1857,
+      1868
+    ],
+    "sentence": "Chẩn đoán hình ảnh và thăm dò:Nội soi thực quản - dạ dày - tá tràng: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Gastritis",
+      "Gastritis is the inflammation of the stomach lining."
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2970": 0.749555,
+        "K2971": 0.686647,
+        "K30": 0.677284,
+        "K819": 0.65158,
+        "K31A0": 0.651304
+      },
+      "rapidfuzz": {
+        "K2970": 0.9,
+        "K2900": 0.9,
+        "K2930": 0.9,
+        "S32314A": 0.855,
+        "S21139S": 0.855,
+        "S21141A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K2970",
+      "confidence": 0.764599
+    }
+  },
+  {
+    "text": "Nội soi mật tụy ngược dòng (ERCP)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1947,
+      1980
+    ],
+    "eng_translation": [
+      "Endoscopic retrograde cholangiopancreatography (ERCP)",
+      "ERCP is a procedure used to examine the bile ducts and pancreatic ducts.",
+      "Endoscopic retrograde cholangiopancreatography (Endoscopic retrograde cholangiopancreatography)"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ERCP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1998,
+      2002
+    ],
+    "eng_translation": [
+      "ERCP",
+      "Endoscopic Retrograde Cholangiopancreatography"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp cộng hưởng từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2064,
+      2082
+    ],
+    "eng_translation": [
+      "MRI",
+      "Magnetic Resonance Imaging"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sỏi ống dẫn mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2123,
+      2138
+    ],
+    "assertion_position": [
+      2123,
+      2138
+    ],
+    "sentence": "chụp cộng hưởng từ mật tụy tụi mật được thực hiện cho thấy [ENTITY] chung đoạn cuối.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "bile duct stones",
+      "choledocholithiasis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K824": 0.726674,
+        "K8040": 0.712694,
+        "K563": 0.70802,
+        "Q444": 0.705738,
+        "K8030": 0.693456
+      },
+      "rapidfuzz": {
+        "H04533": 0.855,
+        "H04532": 0.855,
+        "H04531": 0.855,
+        "L632": 0.771429,
+        "B743": 0.75,
+        "K8080": 0.725455
+      }
+    },
+    "candidate": {
+      "code": "K824",
+      "confidence": 0.654007
+    }
+  }
 ]

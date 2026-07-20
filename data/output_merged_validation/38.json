@@ -1,221 +1,563 @@
 [
-    {
-        "text": "Đái tháo đường típ 2",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            48,
-            68
-        ],
-        "candidates": [
-            "E1165"
-        ]
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      36,
+      56
+    ],
+    "assertion_position": [
+      36,
+      56
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
     },
-    {
-        "text": "bệnh tim mạch",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            75,
-            88
-        ],
-        "candidates": [
-            "I519"
-        ]
+    "eng_translation": [
+      "Type 2 diabetes mellitus",
+      "Diabetes mellitus type 2"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.844191,
+        "E119": 0.736971,
+        "E118": 0.725221,
+        "O24119": 0.724895,
+        "Z833": 0.724102
+      },
+      "rapidfuzz": {
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "E1169": 0.9,
+        "S72362Q": 0.855,
+        "S72361M": 0.855,
+        "S72361N": 0.855
+      }
     },
-    {
-        "text": "xơ vữa động mạch",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            92,
-            108
-        ],
-        "candidates": [
-            "I7090"
-        ]
-    },
-    {
-        "text": "Suy tim dãn tâm thu",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            125,
-            144
-        ],
-        "candidates": [
-            "I5020"
-        ]
-    },
-    {
-        "text": "đau họng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            261,
-            269
-        ]
-    },
-    {
-        "text": "đau họng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            369,
-            377
-        ]
-    },
-    {
-        "text": "nuốt vướng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            387,
-            397
-        ]
-    },
-    {
-        "text": "buồn nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            404,
-            412
-        ]
-    },
-    {
-        "text": "nuốt vướng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            530,
-            540
-        ]
-    },
-    {
-        "text": "buồn nôn",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            610,
-            618
-        ]
-    },
-    {
-        "text": "cân",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            630,
-            633
-        ]
-    },
-    {
-        "text": "khó thở",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            760,
-            767
-        ]
-    },
-    {
-        "text": "ho",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            773,
-            775
-        ]
-    },
-    {
-        "text": "đường huyết",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            796,
-            807
-        ]
-    },
-    {
-        "text": "đau họng",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            864,
-            872
-        ]
-    },
-    {
-        "text": "viêm họng",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            915,
-            924
-        ],
-        "candidates": [
-            "J029"
-        ]
-    },
-    {
-        "text": "glucose",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            994,
-            1001
-        ]
-    },
-    {
-        "text": "537",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1002,
-            1005
-        ]
-    },
-    {
-        "text": "glucose",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1012,
-            1019
-        ]
-    },
-    {
-        "text": "bun (ure)",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1046,
-            1055
-        ]
-    },
-    {
-        "text": "3",
-        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1056,
-            1057
-        ]
-    },
-    {
-        "text": "creatinine",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1068,
-            1078
-        ]
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.759772
     }
+  },
+  {
+    "text": "bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      58,
+      71
+    ],
+    "assertion_position": [
+      58,
+      71
+    ],
+    "sentence": "[ENTITY] do xơ vữa động mạch đặt stent.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "cardiovascular disease",
+      "Cardiac disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I519": 0.955106,
+        "I5189": 0.746198,
+        "I429": 0.718682,
+        "I099": 0.705557,
+        "I679": 0.694969
+      },
+      "rapidfuzz": {
+        "C946": 0.855,
+        "I289": 0.855,
+        "I279": 0.855,
+        "R011": 0.855,
+        "T82120D": 0.855,
+        "T82129A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I519",
+      "confidence": 0.859595
+    }
+  },
+  {
+    "text": "xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      75,
+      91
+    ],
+    "assertion_position": [
+      75,
+      91
+    ],
+    "sentence": "bệnh tim mạch do [ENTITY] đặt stent.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Atherosclerosis",
+      "Arteriosclerosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I7090": 0.960917,
+        "I7091": 0.846441,
+        "I700": 0.836473,
+        "I672": 0.751668,
+        "I708": 0.727376
+      },
+      "rapidfuzz": {
+        "I70743": 0.9,
+        "I70291": 0.9,
+        "I70269": 0.9,
+        "I7090": 0.812903,
+        "I7091": 0.812903,
+        "I70735": 0.812903
+      }
+    },
+    "candidate": {
+      "code": "I7090",
+      "confidence": 0.946116
+    }
+  },
+  {
+    "text": "Suy tim dãn tâm thu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      103,
+      122
+    ],
+    "assertion_position": [
+      103,
+      122
+    ],
+    "sentence": "[ENTITY] giữ nguyên trương lực.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Heart failure with systolic dysfunction",
+      "Heart failure with reduced ejection fraction"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I5020": 0.909759,
+        "I5022": 0.863848,
+        "I5040": 0.813367,
+        "I5021": 0.804787,
+        "I509": 0.790721
+      },
+      "rapidfuzz": {
+        "S92199G": 0.855,
+        "Q875": 0.855,
+        "S62315D": 0.855,
+        "S31802A": 0.855,
+        "S31802D": 0.855,
+        "S72365G": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I5020",
+      "confidence": 0.818783
+    }
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      229,
+      237
+    ],
+    "assertion_position": [
+      229,
+      237
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Sore throat",
+      "Pharyngitis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      326,
+      334
+    ],
+    "assertion_position": [
+      326,
+      334
+    ],
+    "sentence": "[ENTITY] kèm theo nuốt vướng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Sore throat",
+      "Pharyngitis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nuốt vướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      344,
+      354
+    ],
+    "assertion_position": [
+      344,
+      354
+    ],
+    "sentence": "đau họng kèm theo [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "dysphagia",
+      "Difficulty swallowing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      356,
+      364
+    ],
+    "assertion_position": [
+      356,
+      364
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nuốt vướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      464,
+      474
+    ],
+    "assertion_position": [
+      464,
+      474
+    ],
+    "sentence": "Yếu tố làm nặng thêm: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "dysphagia",
+      "Difficulty swallowing"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      534,
+      542
+    ],
+    "assertion_position": [
+      534,
+      542
+    ],
+    "sentence": "Các triệu chứng liên quan: [ENTITY], tăng tăng cân 3 pound trong 7 ngày qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      671,
+      678
+    ],
+    "assertion_position": [
+      671,
+      678
+    ],
+    "sentence": "Không có [ENTITY] hoặc ho.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Dyspnea",
+      "Shortness of breath"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      684,
+      686
+    ],
+    "assertion_position": [
+      679,
+      681
+    ],
+    "sentence": "Không có khó thở [ENTITY]ặc ho.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      702,
+      713
+    ],
+    "eng_translation": [
+      "blood glucose",
+      "serum glucose"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      765,
+      773
+    ],
+    "assertion_position": [
+      765,
+      773
+    ],
+    "sentence": "Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo [ENTITY], nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isFamily",
+    "eng_translation": [
+      "Sore throat",
+      "Pharyngitis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm họng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      816,
+      825
+    ],
+    "assertion_position": [
+      816,
+      825
+    ],
+    "sentence": "Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với [ENTITY] do liên cầu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isFamily",
+    "eng_translation": [
+      "Pharyngitis",
+      "Tonsillitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J029": 0.813456,
+        "J0390": 0.808577,
+        "R070": 0.75023,
+        "J3501": 0.748886,
+        "J0391": 0.692835
+      },
+      "rapidfuzz": {
+        "B085": 0.9,
+        "A5003": 0.9,
+        "J020": 0.9,
+        "J0301": 0.9,
+        "J0380": 0.9,
+        "J0381": 0.9
+      }
+    },
+    "candidate": {
+      "code": "J029",
+      "confidence": 0.73211
+    }
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      883,
+      890
+    ],
+    "eng_translation": [
+      "Glucose",
+      "Blood sugar"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "537",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      891,
+      894
+    ],
+    "eng_translation": [
+      "537"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      896,
+      903
+    ],
+    "eng_translation": [
+      "Glucose",
+      "Blood sugar"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bun (ure)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      925,
+      934
+    ],
+    "eng_translation": [
+      "BUN (urea)",
+      "Blood Urea Nitrogen (BUN)",
+      "Blood Urea Nitrogen (urea)"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      935,
+      936
+    ],
+    "eng_translation": [
+      "3"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      942,
+      952
+    ],
+    "eng_translation": [
+      "Creatinine",
+      "Serum Creatinine"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
 ]

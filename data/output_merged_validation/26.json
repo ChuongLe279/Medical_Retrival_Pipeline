@@ -1,14 +1,44 @@
 [
-    {
-        "text": "béo phì",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            52,
-            59
-        ],
-        "candidates": [
-            "E669"
-        ]
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      45,
+      52
+    ],
+    "assertion_position": [
+      45,
+      52
+    ],
+    "sentence": "Các bệnh lý mãn tính: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Obesity",
+      "Excess body weight"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E669": 0.985618,
+        "E663": 0.883644,
+        "E66811": 0.865016,
+        "E66813": 0.861392,
+        "E66812": 0.832182
+      },
+      "rapidfuzz": {
+        "E8882": 0.9,
+        "O99211": 0.9,
+        "Z152": 0.9,
+        "S81832D": 0.855,
+        "H02814": 0.855,
+        "H02813": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E669",
+      "confidence": 0.887056
     }
+  }
 ]

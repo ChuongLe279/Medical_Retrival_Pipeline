@@ -1,333 +1,965 @@
 [
-    {
-        "text": "viêm túi mật",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            109,
-            121
-        ],
-        "candidates": [
-            "K819"
-        ]
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      97,
+      109
+    ],
+    "assertion_position": [
+      97,
+      109
+    ],
+    "sentence": "Nhiều lần nhập viện trước đây vào khoa nội để điều trị [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
     },
-    {
-        "text": "đau",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            188,
-            191
-        ]
+    "eng_translation": [
+      "Cholecystitis",
+      "Cholecystitis is the inflammation of the gallbladder, typically caused by gallstones blocking the cystic duct, leading to infection and potential complications such as gangrene or perforation. It is often associated with right upper quadrant pain, fever, and elevated white blood cell count. Diagnosis is usually confirmed with imaging studies like ultrasound, and treatment may involve antibiotics, pain management, and surgical removal of the gallbladder (cholecystectomy) if recurrent or severe."
+    ],
+    "retriever": {
+      "sapbert": {
+        "K819": 0.986,
+        "K810": 0.843182,
+        "K811": 0.795584,
+        "K829": 0.729062,
+        "K653": 0.724968
+      },
+      "rapidfuzz": {
+        "K810": 0.95,
+        "K8046": 0.9,
+        "K8000": 0.9,
+        "T84191D": 0.855,
+        "T84125S": 0.855,
+        "T84126A": 0.855
+      }
     },
-    {
-        "text": "percocet",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            273,
-            281
-        ],
-        "candidates": [
-            "42844"
-        ]
-    },
-    {
-        "text": "chụp cắt lớp vi tính",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            303,
-            323
-        ]
-    },
-    {
-        "text": "viêm túi mật",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            359,
-            371
-        ],
-        "candidates": [
-            "K819"
-        ]
-    },
-    {
-        "text": "bệnh túi thừa",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [
-            "isHistorical"
-        ],
-        "position": [
-            436,
-            449
-        ],
-        "candidates": [
-            "K5790"
-        ]
-    },
-    {
-        "text": "táo bón",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            508,
-            515
-        ]
-    },
-    {
-        "text": "percocet",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            582,
-            590
-        ],
-        "candidates": [
-            "42844"
-        ]
-    },
-    {
-        "text": "đau vùng hạ vị bên",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            662,
-            680
-        ]
-    },
-    {
-        "text": "đau bụng ở vùng bụng dưới",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            741,
-            766
-        ]
-    },
-    {
-        "text": "đau vùng hạ vị bên",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            830,
-            848
-        ]
-    },
-    {
-        "text": "vị",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            860,
-            862
-        ]
-    },
-    {
-        "text": "táo bón",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            878,
-            885
-        ]
-    },
-    {
-        "text": "đổ mồ hôi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            919,
-            928
-        ]
-    },
-    {
-        "text": "sốt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            958,
-            961
-        ]
-    },
-    {
-        "text": "chóng mặt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            974,
-            983
-        ]
-    },
-    {
-        "text": "hoa mắt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            996,
-            1003
-        ]
-    },
-    {
-        "text": "đi tiêu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1010,
-            1017
-        ]
-    },
-    {
-        "text": "máu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1040,
-            1043
-        ]
-    },
-    {
-        "text": "đau RLQLLQ",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1099,
-            1109
-        ]
-    },
-    {
-        "text": "đổ mồ hôi",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1206,
-            1215
-        ]
-    },
-    {
-        "text": "đau",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1315,
-            1318
-        ]
-    },
-    {
-        "text": "percocet",
-        "type": "THUỐC",
-        "assertions": [],
-        "position": [
-            1400,
-            1408
-        ],
-        "candidates": [
-            "42844"
-        ]
-    },
-    {
-        "text": "sốt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            1430,
-            1433
-        ]
-    },
-    {
-        "text": "chóng mặt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            1446,
-            1455
-        ]
-    },
-    {
-        "text": "hoa mắt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            1468,
-            1475
-        ]
-    },
-    {
-        "text": "đi tiêu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1482,
-            1489
-        ]
-    },
-    {
-        "text": "ra máu",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            1509,
-            1515
-        ]
-    },
-    {
-        "text": "đổ mồ hôi qua đêm",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [],
-        "position": [
-            1572,
-            1589
-        ]
-    },
-    {
-        "text": "sốt",
-        "type": "TRIỆU_CHỨNG",
-        "assertions": [
-            "isNegated"
-        ],
-        "position": [
-            1611,
-            1614
-        ]
-    },
-    {
-        "text": "chụp cắt lớp vi tính",
-        "type": "TÊN_XÉT_NGHIỆM",
-        "assertions": [],
-        "position": [
-            1662,
-            1682
-        ]
-    },
-    {
-        "text": "viêm túi mật",
-        "type": "CHẨN_ĐOÁN",
-        "assertions": [],
-        "position": [
-            1718,
-            1730
-        ],
-        "candidates": [
-            "K819"
-        ]
+    "candidate": {
+      "code": "K819",
+      "confidence": 0.8874
     }
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      166,
+      169
+    ],
+    "assertion_position": [
+      166,
+      169
+    ],
+    "sentence": "Tiếp tục [ENTITY] tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "position": [
+      251,
+      259
+    ],
+    "assertion_position": [
+      251,
+      259
+    ],
+    "sentence": "Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Percocet",
+      "Oxycodone with acetaminophen",
+      "Oxycodone and Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "42844": 1.0,
+        "1865234": 0.9746,
+        "214183": 0.95878,
+        "214965": 0.859266,
+        "1865233": 0.806059
+      },
+      "rapidfuzz": {
+        "42844": 1.0,
+        "214183": 0.95,
+        "2656148": 0.9,
+        "7804": 0.9,
+        "161": 0.9
+      }
+    },
+    "candidate": {
+      "code": "42844",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      276,
+      296
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      332,
+      344
+    ],
+    "assertion_position": [
+      332,
+      344
+    ],
+    "sentence": "Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy [ENTITY] không biến chứng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Cholecystitis",
+      "Cholecystitis is the inflammation of the gallbladder, typically caused by gallstones blocking the cystic duct, leading to infection and potential complications such as gangrene or perforation. It is often associated with right upper quadrant pain, fever, and elevated white blood cell count. Diagnosis is usually confirmed with imaging studies like ultrasound, and treatment may involve antibiotics, pain management, and surgical removal of the gallbladder (cholecystectomy) if recurrent or severe."
+    ],
+    "retriever": {
+      "sapbert": {
+        "K819": 0.986,
+        "K810": 0.843182,
+        "K811": 0.795584,
+        "K829": 0.729062,
+        "K653": 0.724968
+      },
+      "rapidfuzz": {
+        "K810": 0.95,
+        "K8046": 0.9,
+        "K8000": 0.9,
+        "T84191D": 0.855,
+        "T84125S": 0.855,
+        "T84126A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K819",
+      "confidence": 0.8874
+    }
+  },
+  {
+    "text": "bệnh túi thừa",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      401,
+      414
+    ],
+    "assertion_position": [
+      401,
+      414
+    ],
+    "sentence": "Tiền sử đã biết của [ENTITY] của cả ruột non và đại tràng, không thủng hay áp xe.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "diverticulosis",
+      "Diverticular disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K382": 0.739238,
+        "K5790": 0.7325,
+        "K5792": 0.723106,
+        "K5791": 0.715733,
+        "K5793": 0.706839
+      },
+      "rapidfuzz": {
+        "K5751": 0.9,
+        "K5791": 0.9,
+        "K5790": 0.9,
+        "M8468XK": 0.855,
+        "M8468XP": 0.855,
+        "Z8249": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K5790",
+      "confidence": 0.74925
+    }
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      468,
+      475
+    ],
+    "assertion_position": [
+      468,
+      475
+    ],
+    "sentence": "[ENTITY] trở nên tồi tệ hơn gần đây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "position": [
+      539,
+      547
+    ],
+    "assertion_position": [
+      539,
+      547
+    ],
+    "sentence": "Thuốc trước khi nhập viện lần này: [ENTITY] (để kiểm soát cơn đau).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Percocet",
+      "Oxycodone with acetaminophen",
+      "Oxycodone and Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "42844": 1.0,
+        "1865234": 0.9746,
+        "214183": 0.95878,
+        "214965": 0.859266,
+        "1865233": 0.806059
+      },
+      "rapidfuzz": {
+        "42844": 1.0,
+        "214183": 0.95,
+        "2656148": 0.9,
+        "7804": 0.9,
+        "161": 0.9
+      }
+    },
+    "candidate": {
+      "code": "42844",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "đau vùng hạ vị bên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      612,
+      630
+    ],
+    "assertion_position": [
+      612,
+      630
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY] phải và hạ vị bên trái.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "pain in the left lower quadrant",
+      "left lower quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      642,
+      644
+    ],
+    "assertion_position": [
+      642,
+      644
+    ],
+    "sentence": "Lý do nhập viện: đau vùng hạ vị bên phải và hạ [ENTITY] bên trái.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "vị",
+      "The query provided is in Vietnamese and does not contain any medical terms or concepts. Therefore, no rewrite is necessary. Result: vị"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng ở vùng bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      688,
+      713
+    ],
+    "assertion_position": [
+      688,
+      713
+    ],
+    "sentence": "Thời điểm khởi phát triệu chứng: [ENTITY] trở nên tồi tệ hơn trong 1 ngày.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "abdominal pain in the lower abdomen",
+      "Lower abdominal pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau vùng hạ vị bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      769,
+      792
+    ],
+    "assertion_position": [
+      769,
+      792
+    ],
+    "sentence": "[ENTITY] và hạ vị bên trái.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "pain in the right lower quadrant",
+      "Right lower quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vị bên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      799,
+      805
+    ],
+    "assertion_position": [
+      799,
+      805
+    ],
+    "sentence": "đau vùng hạ vị bên phải và hạ [ENTITY] trái.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "patient's side"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      812,
+      819
+    ],
+    "assertion_position": [
+      812,
+      819
+    ],
+    "sentence": "[ENTITY] trở nên tồi tệ hơn gần đây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      848,
+      865
+    ],
+    "assertion_position": [
+      848,
+      865
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Night sweats",
+      "Nocturnal sweats"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      882,
+      885
+    ],
+    "assertion_position": [
+      882,
+      885
+    ],
+    "sentence": "Không ghi nhận [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      893,
+      902
+    ],
+    "assertion_position": [
+      893,
+      902
+    ],
+    "sentence": "Không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      910,
+      917
+    ],
+    "assertion_position": [
+      910,
+      917
+    ],
+    "sentence": "Không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Blurred vision",
+      "Visual acuity impairment"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đi tiêu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      919,
+      926
+    ],
+    "assertion_position": [
+      919,
+      926
+    ],
+    "sentence": "[ENTITY] bình thường, không ra máu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "defecation",
+      "Bowel movement"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      949,
+      952
+    ],
+    "assertion_position": [
+      949,
+      952
+    ],
+    "sentence": "đi tiêu bình thường, không ra [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau RLQLLQ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1000,
+      1010
+    ],
+    "assertion_position": [
+      1000,
+      1010
+    ],
+    "sentence": "Vị trí: vùng bụng dưới ([ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "RLQLLQ pain",
+      "Right lower quadrant lower quadrant pain",
+      "Retroperitoneal Lymph Node Dissection Pain",
+      "Recurrent Left Quadrant Lower Left Quadrant pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1092,
+      1101
+    ],
+    "assertion_position": [
+      1092,
+      1101
+    ],
+    "sentence": "Các triệu chứng liên quan: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "sweating"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1188,
+      1191
+    ],
+    "assertion_position": [
+      1188,
+      1191
+    ],
+    "sentence": "Tiếp tục [ENTITY] tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng percocet.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "pain"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "position": [
+      1273,
+      1281
+    ],
+    "assertion_position": [
+      1273,
+      1281
+    ],
+    "sentence": "Tiếp tục đau tại thời điểm xuất viện khỏi lần nhập viện trước, được kiểm soát trung bình bằng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Percocet",
+      "Oxycodone with acetaminophen",
+      "Oxycodone and Acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "42844": 1.0,
+        "1865234": 0.9746,
+        "214183": 0.95878,
+        "214965": 0.859266,
+        "1865233": 0.806059
+      },
+      "rapidfuzz": {
+        "42844": 1.0,
+        "214183": 0.95,
+        "2656148": 0.9,
+        "7804": 0.9,
+        "161": 0.9
+      }
+    },
+    "candidate": {
+      "code": "42844",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1298,
+      1301
+    ],
+    "assertion_position": [
+      1298,
+      1301
+    ],
+    "sentence": "Không ghi nhận [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1309,
+      1318
+    ],
+    "assertion_position": [
+      1309,
+      1318
+    ],
+    "sentence": "Không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1326,
+      1333
+    ],
+    "assertion_position": [
+      1326,
+      1333
+    ],
+    "sentence": "Không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Blurred vision",
+      "Visual acuity impairment"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đi tiêu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1335,
+      1342
+    ],
+    "assertion_position": [
+      1335,
+      1342
+    ],
+    "sentence": "[ENTITY] bình thường, không ra máu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "defecation",
+      "Bowel movement"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "thường",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1348,
+      1354
+    ],
+    "assertion_position": [
+      1348,
+      1354
+    ],
+    "sentence": "đi tiêu bình [ENTITY], không ra máu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "usual"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1365,
+      1368
+    ],
+    "assertion_position": [
+      1365,
+      1368
+    ],
+    "sentence": "đi tiêu bình thường, không ra [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "blood"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1416,
+      1422
+    ],
+    "assertion_position": [
+      1416,
+      1422
+    ],
+    "sentence": "đổ [ENTITY] qua đêm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Sweating",
+      "Diaphoresis"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1447,
+      1450
+    ],
+    "assertion_position": [
+      1447,
+      1450
+    ],
+    "sentence": "Không ghi nhận [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1495,
+      1515
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1551,
+      1563
+    ],
+    "assertion_position": [
+      1551,
+      1563
+    ],
+    "sentence": "Kết quả chẩn đoán hình ảnh: Nhiều lần chụp chụp cắt lớp vi tính trong lần nhập viện trước cho thấy [ENTITY] không biến chứng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Cholecystitis",
+      "Cholecystitis is the inflammation of the gallbladder, typically caused by gallstones blocking the cystic duct, leading to infection and potential complications such as gangrene or perforation. It is often associated with right upper quadrant pain, fever, and elevated white blood cell count. Diagnosis is usually confirmed with imaging studies like ultrasound, and treatment may involve antibiotics, pain management, and surgical removal of the gallbladder (cholecystectomy) if recurrent or severe."
+    ],
+    "retriever": {
+      "sapbert": {
+        "K819": 0.986,
+        "K810": 0.843182,
+        "K811": 0.795584,
+        "K829": 0.729062,
+        "K653": 0.724968
+      },
+      "rapidfuzz": {
+        "K810": 0.95,
+        "K8046": 0.9,
+        "K8000": 0.9,
+        "T84191D": 0.855,
+        "T84125S": 0.855,
+        "T84126A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K819",
+      "confidence": 0.8874
+    }
+  }
 ]
