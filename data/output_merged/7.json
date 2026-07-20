@@ -6,48 +6,11 @@
       48,
       50
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - [ENTITY] Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu)\n    - hội chứng nghiện rượu\n    Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc)\n    Các yếu tố nguy cơ liên quan: hội chứng nghiện rượu\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mạn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6276082992553711,
-          "sparse_similarity": 0.1866329163312912,
-          "hybrid_score": 0.40712061524391174
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6172168254852295,
-          "sparse_similarity": 0.18638518452644348,
-          "hybrid_score": 0.4018009901046753
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6366512179374695,
-          "sparse_similarity": 0.16438770294189453,
-          "hybrid_score": 0.400519460439682
-        }
-      ]
+    "assertion_position": [
+      36,
+      38
     ],
-    "eng_translation": [
-      "Ho",
-      "Hoarseness",
-      "H/o",
-      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu)."
   },
   {
     "text": "trầm cảm",
@@ -56,62 +19,11 @@
       69,
       77
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - ho Rối loạn cảm xúc ([ENTITY]) (tiền sử giai đoạn trầm cảm không đặc hiệu)\n    - hội chứng nghiện rượu\n    Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc)\n    Các yếu tố nguy cơ liên quan: hội chứng nghiện rượu\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6415624022483826,
-          "sparse_similarity": 0.17581260204315186,
-          "hybrid_score": 0.4086875021457672
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6291342377662659,
-          "sparse_similarity": 0.18099062144756317,
-          "hybrid_score": 0.4050624370574951
-        },
-        {
-          "id": "isFamily_024988",
-          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6245155334472656,
-          "sparse_similarity": 0.17843769490718842,
-          "hybrid_score": 0.4014766216278076
-        }
-      ]
+    "assertion_position": [
+      57,
+      65
     ],
-    "eng_translation": [
-      "Depression",
-      "Major Depressive Disorder"
-    ],
-    "retriever": {
-      "sapbert": {
-        "F32A": 0.968795,
-        "F329": 0.810252,
-        "F339": 0.715773,
-        "F251": 0.684452,
-        "F341": 0.661285
-      },
-      "rapidfuzz": {
-        "Z1332": 0.9,
-        "P914": 0.9,
-        "Z1331": 0.9,
-        "F331": 0.9,
-        "F332": 0.9,
-        "F333": 0.9
-      }
-    },
-    "candidate": {
-      "code": "F32A",
-      "confidence": 0.871915
-    }
+    "sentence": "ho Rối loạn cảm xúc ([ENTITY]) (tiền sử giai đoạn trầm cảm không đặc hiệu)."
   },
   {
     "text": "trầm cảm",
@@ -120,62 +32,11 @@
       98,
       106
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn [ENTITY] không đặc hiệu)\n    - hội chứng nghiện rượu\n    Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc)\n    Các yếu tố nguy cơ liên quan: hội chứng nghiện rượu\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử giai đoạn [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6349875330924988,
-          "sparse_similarity": 0.19151632487773895,
-          "hybrid_score": 0.41325193643569946
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6452453136444092,
-          "sparse_similarity": 0.17434550821781158,
-          "hybrid_score": 0.4097954034805298
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6449092030525208,
-          "sparse_similarity": 0.17118631303310394,
-          "hybrid_score": 0.40804776549339294
-        }
-      ]
+    "assertion_position": [
+      86,
+      94
     ],
-    "eng_translation": [
-      "Depression",
-      "Major Depressive Disorder"
-    ],
-    "retriever": {
-      "sapbert": {
-        "F32A": 0.968795,
-        "F329": 0.810252,
-        "F339": 0.715773,
-        "F251": 0.684452,
-        "F341": 0.661285
-      },
-      "rapidfuzz": {
-        "Z1332": 0.9,
-        "P914": 0.9,
-        "Z1331": 0.9,
-        "F331": 0.9,
-        "F332": 0.9,
-        "F333": 0.9
-      }
-    },
-    "candidate": {
-      "code": "F32A",
-      "confidence": 0.871915
-    }
+    "sentence": "ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn [ENTITY] không đặc hiệu)."
   },
   {
     "text": "hội chứng nghiện rượu",
@@ -184,62 +45,11 @@
       129,
       150
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu)\n    - [ENTITY]\n    Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc)\n    Các yếu tố nguy cơ liên quan: hội chứng nghiện rượu\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử giai đoạn trầm cảm không đặc hiệu) - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6276161074638367,
-          "sparse_similarity": 0.21198943257331848,
-          "hybrid_score": 0.41980278491973877
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6200547218322754,
-          "sparse_similarity": 0.21196702122688293,
-          "hybrid_score": 0.41601085662841797
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6330294609069824,
-          "sparse_similarity": 0.1812601387500763,
-          "hybrid_score": 0.40714478492736816
-        }
-      ]
+    "assertion_position": [
+      112,
+      133
     ],
-    "eng_translation": [
-      "alcohol use disorder",
-      "Alcoholic dependence"
-    ],
-    "retriever": {
-      "sapbert": {
-        "F1029": 0.854022,
-        "F1099": 0.829724,
-        "F1020": 0.827634,
-        "F10229": 0.785975,
-        "F1019": 0.784137
-      },
-      "rapidfuzz": {
-        "H18822": 0.855,
-        "H6990": 0.855,
-        "H479": 0.855,
-        "Z9911": 0.855,
-        "Z9981": 0.855,
-        "Z9989": 0.855
-      }
-    },
-    "candidate": {
-      "code": "F1029",
-      "confidence": 0.76862
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "seroquel",
@@ -248,59 +58,11 @@
       190,
       198
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu)\n    - hội chứng nghiện rượu\n    Thuốc trước khi nhập viện lần này: [ENTITY] (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc)\n    Các yếu tố nguy cơ liên quan: hội chứng nghiện rượu\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6423158049583435,
-          "sparse_similarity": 0.1947639435529709,
-          "hybrid_score": 0.4185398817062378
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6332560777664185,
-          "sparse_similarity": 0.1945279985666275,
-          "hybrid_score": 0.4138920307159424
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6533679962158203,
-          "sparse_similarity": 0.16439548134803772,
-          "hybrid_score": 0.4088817238807678
-        }
-      ]
+    "assertion_position": [
+      170,
+      178
     ],
-    "eng_translation": [
-      "Seroquel",
-      "Quetiapine"
-    ],
-    "retriever": {
-      "sapbert": {
-        "51272": 1.0,
-        "83553": 1.0,
-        "221153": 0.933761,
-        "2633850": 0.91459
-      },
-      "rapidfuzz": {
-        "83553": 1.0,
-        "51272": 1.0,
-        "853202": 0.9,
-        "343201": 0.9
-      }
-    },
-    "candidate": {
-      "code": "83553",
-      "confidence": 1.0
-    }
+    "sentence": "Thuốc trước khi nhập viện lần này: [ENTITY] (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc)."
   },
   {
     "text": "lú lẫn",
@@ -309,46 +71,11 @@
       229,
       235
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu)\n    - hội chứng nghiện rượu\n    Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng [ENTITY], chóng mặt, khó nhìn gần có thể liên quan đến thuốc)\n    Các yếu tố nguy cơ liên quan: hội chứng nghiện rượu\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.650810182094574,
-          "sparse_similarity": 0.1834423542022705,
-          "hybrid_score": 0.41712626814842224
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6368817090988159,
-          "sparse_similarity": 0.1912839710712433,
-          "hybrid_score": 0.4140828251838684
-        },
-        {
-          "id": "isFamily_024988",
-          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6346961259841919,
-          "sparse_similarity": 0.18614451587200165,
-          "hybrid_score": 0.41042032837867737
-        }
-      ]
+    "assertion_position": [
+      209,
+      215
     ],
-    "eng_translation": [
-      "Confusion",
-      "Cognitive impairment"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng [ENTITY], chóng mặt, khó nhìn gần có thể liên quan đến thuốc)."
   },
   {
     "text": "chóng mặt",
@@ -357,46 +84,11 @@
       237,
       246
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu)\n    - hội chứng nghiện rượu\n    Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, [ENTITY], khó nhìn gần có thể liên quan đến thuốc)\n    Các yếu tố nguy cơ liên quan: hội chứng nghiện rượu\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6372662782669067,
-          "sparse_similarity": 0.18623296916484833,
-          "hybrid_score": 0.41174963116645813
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6283991932868958,
-          "sparse_similarity": 0.18628354370594025,
-          "hybrid_score": 0.4073413610458374
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6431879997253418,
-          "sparse_similarity": 0.1712750941514969,
-          "hybrid_score": 0.40723153948783875
-        }
-      ]
+    "assertion_position": [
+      217,
+      226
     ],
-    "eng_translation": [
-      "Dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, [ENTITY], khó nhìn gần có thể liên quan đến thuốc)."
   },
   {
     "text": "khó nhìn gần",
@@ -405,46 +97,11 @@
       248,
       260
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu)\n    - hội chứng nghiện rượu\n    Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, [ENTITY] có thể liên quan đến thuốc)\n    Các yếu tố nguy cơ liên quan: hội chứng nghiện rượu\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6447473168373108,
-          "sparse_similarity": 0.18191969394683838,
-          "hybrid_score": 0.4133335053920746
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.63579261302948,
-          "sparse_similarity": 0.1876370906829834,
-          "hybrid_score": 0.4117148518562317
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.625933825969696,
-          "sparse_similarity": 0.1873132288455963,
-          "hybrid_score": 0.4066235423088074
-        }
-      ]
+    "assertion_position": [
+      228,
+      240
     ],
-    "eng_translation": [
-      "difficulty with near vision",
-      "Presbyopia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, [ENTITY] có thể liên quan đến thuốc)."
   },
   {
     "text": "hội chứng nghiện rượu",
@@ -453,62 +110,11 @@
       323,
       344
     ],
-    "sentence": "Tiền sử bệnh\n    Các bệnh lý mạn tính\n    - ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu)\n    - hội chứng nghiện rượu\n    Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc)\n    Các yếu tố nguy cơ liên quan: [ENTITY]\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6537055373191833,
-          "sparse_similarity": 0.21720337867736816,
-          "hybrid_score": 0.43545445799827576
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6469742059707642,
-          "sparse_similarity": 0.21683305501937866,
-          "hybrid_score": 0.4319036304950714
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6641781330108643,
-          "sparse_similarity": 0.19367574155330658,
-          "hybrid_score": 0.428926944732666
-        }
-      ]
+    "assertion_position": [
+      300,
+      321
     ],
-    "eng_translation": [
-      "alcohol use disorder",
-      "Alcoholic dependence"
-    ],
-    "retriever": {
-      "sapbert": {
-        "F1029": 0.854022,
-        "F1099": 0.829724,
-        "F1020": 0.827634,
-        "F10229": 0.785975,
-        "F1019": 0.784137
-      },
-      "rapidfuzz": {
-        "H18822": 0.855,
-        "H6990": 0.855,
-        "H479": 0.855,
-        "Z9911": 0.855,
-        "Z9981": 0.855,
-        "Z9989": 0.855
-      }
-    },
-    "candidate": {
-      "code": "F1029",
-      "confidence": 0.76862
-    }
+    "sentence": "Các yếu tố nguy cơ liên quan: [ENTITY]."
   },
   {
     "text": "lẫn",
@@ -517,46 +123,11 @@
       480,
       483
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú [ENTITY] từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "con"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5853486657142639,
-          "sparse_similarity": 0.1903383433818817,
-          "hybrid_score": 0.3878434896469116
-        },
-        {
-          "id": "isHistorical_025216",
-          "document": "từ 30 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5781928300857544,
-          "sparse_similarity": 0.17948508262634277,
-          "hybrid_score": 0.3788389563560486
-        },
-        {
-          "id": "isHistorical_025222",
-          "document": "từ 30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5857274532318115,
-          "sparse_similarity": 0.17132140696048737,
-          "hybrid_score": 0.37852442264556885
-        }
-      ]
+    "assertion_position": [
+      437,
+      440
     ],
-    "eng_translation": [
-      "lẫn",
-      "The query provided appears to be in Vietnamese and does not contain any English medical terminology. Since there is no English medical query to rewrite, I cannot perform the requested task. Please provide an English medical query for processing."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lú [ENTITY] từng đợt gần đây."
   },
   {
     "text": "chóng mặt",
@@ -565,46 +136,11 @@
       516,
       525
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác [ENTITY]\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "con"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5862532258033752,
-          "sparse_similarity": 0.16910894215106964,
-          "hybrid_score": 0.37768107652664185
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5748395919799805,
-          "sparse_similarity": 0.1671692579984665,
-          "hybrid_score": 0.3710044324398041
-        },
-        {
-          "id": "isHistorical_020264",
-          "document": "khoảng 30 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5771772265434265,
-          "sparse_similarity": 0.1620827466249466,
-          "hybrid_score": 0.36962997913360596
-        }
-      ]
+    "assertion_position": [
+      468,
+      477
     ],
-    "eng_translation": [
-      "Dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "cảm giác [ENTITY]."
   },
   {
     "text": "khó khăn khi nhìn gần",
@@ -613,46 +149,11 @@
       532,
       553
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - [ENTITY]\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "con"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5800389647483826,
-          "sparse_similarity": 0.16863003373146057,
-          "hybrid_score": 0.37433451414108276
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5691174268722534,
-          "sparse_similarity": 0.16681671142578125,
-          "hybrid_score": 0.36796706914901733
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5644515752792358,
-          "sparse_similarity": 0.16712602972984314,
-          "hybrid_score": 0.3657888174057007
-        }
-      ]
+    "assertion_position": [
+      479,
+      500
     ],
-    "eng_translation": [
-      "difficulty with near vision",
-      "Presbyopia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "rối loạn thị giác",
@@ -661,46 +162,11 @@
       560,
       577
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - [ENTITY], nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "con"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5812236666679382,
-          "sparse_similarity": 0.16193287074565887,
-          "hybrid_score": 0.37157827615737915
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5705153346061707,
-          "sparse_similarity": 0.16022950410842896,
-          "hybrid_score": 0.3653724193572998
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5652154088020325,
-          "sparse_similarity": 0.16194462776184082,
-          "hybrid_score": 0.36358001828193665
-        }
-      ]
+    "assertion_position": [
+      502,
+      519
     ],
-    "eng_translation": [
-      "Visual disturbance",
-      "Visual impairment"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], nhìn thấy con cái mình ở góc mắt."
   },
   {
     "text": "nhìn thấy con cái mình ở góc mắt",
@@ -709,47 +175,11 @@
       579,
       611
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, [ENTITY]\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.595279335975647,
-          "sparse_similarity": 0.17559166252613068,
-          "hybrid_score": 0.3854354918003082
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5849019885063171,
-          "sparse_similarity": 0.1736389398574829,
-          "hybrid_score": 0.3792704641819
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5813198685646057,
-          "sparse_similarity": 0.17534635961055756,
-          "hybrid_score": 0.37833312153816223
-        }
-      ]
+    "assertion_position": [
+      521,
+      553
     ],
-    "eng_translation": [
-      "sees their children in the corner of their eye",
-      "peripheral vision of children in the corner of the eye",
-      "Sees their children in the periphery of their vision"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "rối loạn thị giác, [ENTITY]."
   },
   {
     "text": "ảo giác thị giác",
@@ -758,46 +188,11 @@
       618,
       634
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - [ENTITY] (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "con"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5876623392105103,
-          "sparse_similarity": 0.180136576294899,
-          "hybrid_score": 0.383899450302124
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5764526128768921,
-          "sparse_similarity": 0.17795395851135254,
-          "hybrid_score": 0.3772032856941223
-        },
-        {
-          "id": "isHistorical_020264",
-          "document": "khoảng 30 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5771803855895996,
-          "sparse_similarity": 0.17106817662715912,
-          "hybrid_score": 0.37412428855895996
-        }
-      ]
+    "assertion_position": [
+      555,
+      571
     ],
-    "eng_translation": [
-      "visual hallucination",
-      "Visual illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] (ảo giác thị giác)."
   },
   {
     "text": "ảo giác thị giác",
@@ -806,46 +201,11 @@
       636,
       652
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác ([ENTITY])\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "con"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5936897397041321,
-          "sparse_similarity": 0.19114674627780914,
-          "hybrid_score": 0.39241823554039
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5824820399284363,
-          "sparse_similarity": 0.18832769989967346,
-          "hybrid_score": 0.38540488481521606
-        },
-        {
-          "id": "isHistorical_020264",
-          "document": "khoảng 30 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5806621313095093,
-          "sparse_similarity": 0.1815859079360962,
-          "hybrid_score": 0.38112401962280273
-        }
-      ]
+    "assertion_position": [
+      573,
+      589
     ],
-    "eng_translation": [
-      "visual hallucination",
-      "Visual illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ảo giác thị giác ([ENTITY])."
   },
   {
     "text": "Ảo thanh",
@@ -854,46 +214,11 @@
       660,
       668
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - [ENTITY] (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "con"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5887792706489563,
-          "sparse_similarity": 0.1755627691745758,
-          "hybrid_score": 0.38217103481292725
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.578635573387146,
-          "sparse_similarity": 0.17346671223640442,
-          "hybrid_score": 0.376051127910614
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5746561288833618,
-          "sparse_similarity": 0.1741202175617218,
-          "hybrid_score": 0.3743881583213806
-        }
-      ]
+    "assertion_position": [
+      592,
+      600
     ],
-    "eng_translation": [
-      "Auditory hallucination",
-      "Auditory illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] (AH) (ảo giác thính giác)."
   },
   {
     "text": "ảo giác thính giác",
@@ -902,46 +227,11 @@
       675,
       693
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) ([ENTITY])\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "con"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5892176628112793,
-          "sparse_similarity": 0.17883341014385223,
-          "hybrid_score": 0.38402554392814636
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5780719518661499,
-          "sparse_similarity": 0.17642177641391754,
-          "hybrid_score": 0.3772468566894531
-        },
-        {
-          "id": "isHistorical_020264",
-          "document": "khoảng 30 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5757075548171997,
-          "sparse_similarity": 0.17228180170059204,
-          "hybrid_score": 0.3739946782588959
-        }
-      ]
+    "assertion_position": [
+      607,
+      625
     ],
-    "eng_translation": [
-      "auditory hallucination",
-      "Auditory illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Ảo thanh (AH) ([ENTITY])."
   },
   {
     "text": "Lú lẫn",
@@ -950,46 +240,11 @@
       817,
       823
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - [ENTITY]: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5763776302337646,
-          "sparse_similarity": 0.15448641777038574,
-          "hybrid_score": 0.3654320240020752
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5658473968505859,
-          "sparse_similarity": 0.15298986434936523,
-          "hybrid_score": 0.3594186305999756
-        },
-        {
-          "id": "isHistorical_020264",
-          "document": "khoảng 30 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5658875107765198,
-          "sparse_similarity": 0.1471933126449585,
-          "hybrid_score": 0.35654041171073914
-        }
-      ]
+    "assertion_position": [
+      736,
+      742
     ],
-    "eng_translation": [
-      "Confusion",
-      "Cognitive impairment"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]: từng đợt."
   },
   {
     "text": "chóng mặt",
@@ -998,46 +253,11 @@
       840,
       849
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - [ENTITY]\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng đợt - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5787883996963501,
-          "sparse_similarity": 0.1553119421005249,
-          "hybrid_score": 0.3670501708984375
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5675876140594482,
-          "sparse_similarity": 0.15381097793579102,
-          "hybrid_score": 0.36069929599761963
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5638587474822998,
-          "sparse_similarity": 0.15627700090408325,
-          "hybrid_score": 0.36006787419319153
-        }
-      ]
+    "assertion_position": [
+      754,
+      763
     ],
-    "eng_translation": [
-      "Dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Khó khăn về thị lực gần",
@@ -1046,46 +266,11 @@
       856,
       879
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - [ENTITY]\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng đợt - chóng mặt - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5812603235244751,
-          "sparse_similarity": 0.15673109889030457,
-          "hybrid_score": 0.368995726108551
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5697579383850098,
-          "sparse_similarity": 0.15524105727672577,
-          "hybrid_score": 0.36249950528144836
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5656761527061462,
-          "sparse_similarity": 0.15796968340873718,
-          "hybrid_score": 0.3618229031562805
-        }
-      ]
+    "assertion_position": [
+      765,
+      788
     ],
-    "eng_translation": [
-      "Difficulty with near vision",
-      "Presbyopia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "thị lực",
@@ -1094,46 +279,11 @@
       868,
       875
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về [ENTITY] gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng đợt - chóng mặt - khó khăn về [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5796692371368408,
-          "sparse_similarity": 0.15132668614387512,
-          "hybrid_score": 0.3654979467391968
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5688389539718628,
-          "sparse_similarity": 0.14996561408042908,
-          "hybrid_score": 0.35940229892730713
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5635896921157837,
-          "sparse_similarity": 0.15165312588214874,
-          "hybrid_score": 0.3576214015483856
-        }
-      ]
+    "assertion_position": [
+      777,
+      784
     ],
-    "eng_translation": [
-      "Visual acuity",
-      "Snellen chart testing"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khó khăn về [ENTITY] gần."
   },
   {
     "text": "rối loạn thị giác",
@@ -1142,46 +292,11 @@
       886,
       903
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - [ENTITY]: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "từng đợt - chóng mặt - khó khăn về thị lực gần - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5763161778450012,
-          "sparse_similarity": 0.157770037651062,
-          "hybrid_score": 0.3670431077480316
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5655838251113892,
-          "sparse_similarity": 0.1561959981918335,
-          "hybrid_score": 0.36088991165161133
-        },
-        {
-          "id": "isHistorical_020264",
-          "document": "khoảng 30 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5669885277748108,
-          "sparse_similarity": 0.15104131400585175,
-          "hybrid_score": 0.35901492834091187
-        }
-      ]
+    "assertion_position": [
+      790,
+      807
     ],
-    "eng_translation": [
-      "Visual disturbance",
-      "Visual impairment"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]: nhìn thấy con cái ở góc mắt."
   },
   {
     "text": "nhìn thấy con cái ở góc mắt",
@@ -1190,47 +305,11 @@
       905,
       932
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: [ENTITY]\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5895178914070129,
-          "sparse_similarity": 0.17178447544574738,
-          "hybrid_score": 0.38065117597579956
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5783287882804871,
-          "sparse_similarity": 0.16996164619922638,
-          "hybrid_score": 0.3741452097892761
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.574822723865509,
-          "sparse_similarity": 0.1708407700061798,
-          "hybrid_score": 0.3728317618370056
-        }
-      ]
+    "assertion_position": [
+      809,
+      836
     ],
-    "eng_translation": [
-      "seeing children at the corner of the eye",
-      "Epiphora in children",
-      "Periorbital vision of children"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "rối loạn thị giác: [ENTITY]."
   },
   {
     "text": "ảo giác thị giác",
@@ -1239,46 +318,11 @@
       939,
       955
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - [ENTITY], Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "con"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5772189497947693,
-          "sparse_similarity": 0.15938404202461243,
-          "hybrid_score": 0.36830151081085205
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.566551685333252,
-          "sparse_similarity": 0.15785008668899536,
-          "hybrid_score": 0.36220088601112366
-        },
-        {
-          "id": "isHistorical_020264",
-          "document": "khoảng 30 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5657440423965454,
-          "sparse_similarity": 0.15227419137954712,
-          "hybrid_score": 0.35900911688804626
-        }
-      ]
+    "assertion_position": [
+      838,
+      854
     ],
-    "eng_translation": [
-      "visual hallucination",
-      "Visual illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự."
   },
   {
     "text": "Ảo thanh",
@@ -1287,46 +331,11 @@
       957,
       965
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, [ENTITY] (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "con"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5788223147392273,
-          "sparse_similarity": 0.1609240621328354,
-          "hybrid_score": 0.36987319588661194
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5684577822685242,
-          "sparse_similarity": 0.15926684439182281,
-          "hybrid_score": 0.3638623058795929
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5634623169898987,
-          "sparse_similarity": 0.1608869433403015,
-          "hybrid_score": 0.3621746301651001
-        }
-      ]
+    "assertion_position": [
+      856,
+      864
     ],
-    "eng_translation": [
-      "Auditory hallucination",
-      "Auditory illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ảo giác thị giác, [ENTITY] (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự."
   },
   {
     "text": "ảo giác",
@@ -1335,46 +344,11 @@
       981,
       988
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là [ENTITY] hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "anh"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5794398784637451,
-          "sparse_similarity": 0.15629218518733978,
-          "hybrid_score": 0.36786603927612305
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.568615734577179,
-          "sparse_similarity": 0.15485085546970367,
-          "hybrid_score": 0.3617332875728607
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5632031559944153,
-          "sparse_similarity": 0.15506939589977264,
-          "hybrid_score": 0.35913628339767456
-        }
-      ]
+    "assertion_position": [
+      880,
+      887
     ],
-    "eng_translation": [
-      "hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ảo giác thị giác, Ảo thanh (AH): có vẻ là [ENTITY] hơn là ảo ảnh thực sự."
   },
   {
     "text": "ảo ảnh",
@@ -1383,46 +357,11 @@
       996,
       1002
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là [ENTITY] thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "anh"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5804194808006287,
-          "sparse_similarity": 0.15676429867744446,
-          "hybrid_score": 0.36859190464019775
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5694254040718079,
-          "sparse_similarity": 0.1552884727716446,
-          "hybrid_score": 0.36235693097114563
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5640564560890198,
-          "sparse_similarity": 0.15605467557907104,
-          "hybrid_score": 0.3600555658340454
-        }
-      ]
+    "assertion_position": [
+      895,
+      901
     ],
-    "eng_translation": [
-      "Illusion",
-      "Illusion is a perceptual experience that occurs when a stimulus is misinterpreted by the brain, leading to a false perception of something that is not actually present. It is distinct from hallucinations, which occur without an external stimulus. Illusions can affect any of the senses and are often influenced by context, expectation, and prior experience. They are commonly observed in neurological conditions, psychiatric disorders, and can also be induced by certain medications or sensory deprivation."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là [ENTITY] thực sự."
   },
   {
     "text": "mẫu đơn",
@@ -1431,46 +370,11 @@
       1149,
       1156
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một [ENTITY] cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "anh"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.586052417755127,
-          "sparse_similarity": 0.16955725848674774,
-          "hybrid_score": 0.37780484557151794
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5749609470367432,
-          "sparse_similarity": 0.1676371693611145,
-          "hybrid_score": 0.37129905819892883
-        },
-        {
-          "id": "isHistorical_020264",
-          "document": "khoảng 30 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5744569301605225,
-          "sparse_similarity": 0.1600356251001358,
-          "hybrid_score": 0.36724627017974854
-        }
-      ]
+    "assertion_position": [
+      1035,
+      1042
     ],
-    "eng_translation": [
-      "Prescription Form",
-      "Prescription Request Form"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Được yêu cầu ký một [ENTITY] cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được."
   },
   {
     "text": "cam",
@@ -1479,58 +383,11 @@
       1157,
       1160
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn [ENTITY] kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - chụp ct sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "anh"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5826837420463562,
-          "sparse_similarity": 0.16581685841083527,
-          "hybrid_score": 0.37425029277801514
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5709398984909058,
-          "sparse_similarity": 0.16401343047618866,
-          "hybrid_score": 0.3674766719341278
-        },
-        {
-          "id": "isHistorical_020264",
-          "document": "khoảng 30 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5710773468017578,
-          "sparse_similarity": 0.157344788312912,
-          "hybrid_score": 0.3642110824584961
-        }
-      ]
+    "assertion_position": [
+      1043,
+      1046
     ],
-    "eng_translation": [
-      "No information provided."
-    ],
-    "retriever": {
-      "sapbert": {
-        "485068": 0.846825,
-        "7442": 0.746706,
-        "710867": 0.67636,
-        "477124": 0.622278,
-        "2667821": 0.608245
-      },
-      "rapidfuzz": {
-        "261602": 0.9,
-        "202563": 0.855,
-        "569849": 0.855
-      }
-    },
-    "candidate": {
-      "code": "485068",
-      "confidence": 0.762143
-    }
+    "sentence": "Được yêu cầu ký một mẫu đơn [ENTITY] kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được."
   },
   {
     "text": "chụp ct",
@@ -1539,46 +396,11 @@
       1278,
       1285
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: Bày tỏ tự tử với nhân viên khi xuất viện\n    Triệu chứng hiện tại\n    - tự tử\n    - Lú lẫn từng đợt gần đây\n    - cảm giác chóng mặt\n    - khó khăn khi nhìn gần\n    - rối loạn thị giác, nhìn thấy con cái mình ở góc mắt\n    - ảo giác thị giác (ảo giác thị giác)\n    - Ảo thanh (AH) (ảo giác thính giác)\n    Đặc điểm triệu chứng\n    - tự tử: thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn\n    - Lú lẫn: từng đợt\n    - chóng mặt\n    - Khó khăn về thị lực gần\n    - rối loạn thị giác: nhìn thấy con cái ở góc mắt\n    - ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự\n    Các sự kiện trước khi nhập viện\n    - Được đưa đến Cấp cứu sau khi bày tỏ tự tử với nhân viên khi xuất viện\n    - Được yêu cầu ký một mẫu đơn cam kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được\n    - [ENTITY] sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng\n    - chọc dò dịch não tủy là không phát hiện bất thường\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Được bác sĩ khoa tâm thần cho nhập chỉ định viện tâm thần \n    Tình trạng ngay trước khi nhập viện: Phủ nhận tự tử chủ động, ý định, kế hoạch hiện tại khi đã lên tầng, cảm thấy an toàn\n\n3.",
-    "assertion_result": {
-      "tag": "isFamily",
-      "confidence": 1.0,
-      "evidence": "anh"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5812762379646301,
-          "sparse_similarity": 0.16116894781589508,
-          "hybrid_score": 0.371222585439682
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.5699349641799927,
-          "sparse_similarity": 0.1595398485660553,
-          "hybrid_score": 0.3647373914718628
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.5654192566871643,
-          "sparse_similarity": 0.16029685735702515,
-          "hybrid_score": 0.3628580570220947
-        }
-      ]
+    "assertion_position": [
+      1159,
+      1166
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] sọ được phát hiện tình cờ tại Cấp cứu; phát hiện bệnh lý chất trắng."
   },
   {
     "text": "chụp ct",
@@ -1587,46 +409,11 @@
       1818,
       1825
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm: chọc dò dịch não tủy là âm tính\n    Kết quả chẩn đoán hình ảnh: [ENTITY] sọ: phát hiện bệnh lý chất trắng (được phát hiện tình cờ)\n    Các thủ thuật đã thực hiện: chọc dò dịch não tủy (Đột sống thắt lưng)\n    Các phát hiện chẩn đoán khác\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Nguyên nhân chưa rõ (đối với phát hiện bệnh lý chất trắng)\n    - Sẽ không điển hình cho Bệnh đa xơ cứng theo ý kiến của bác sĩ thần kinh\n    - Ảo giác do rượu (suy nghĩ)\n    - Không được coi là thực sự loạn thần",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5831641554832458,
-          "sparse_similarity": 0.10510584712028503,
-          "hybrid_score": 0.34413498640060425
-        },
-        {
-          "id": "isHistorical_027029",
-          "document": "từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.575804591178894,
-          "sparse_similarity": 0.09958132356405258,
-          "hybrid_score": 0.3376929461956024
-        },
-        {
-          "id": "isHistorical_034247",
-          "document": "đã từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5758777856826782,
-          "sparse_similarity": 0.09897653013467789,
-          "hybrid_score": 0.33742716908454895
-        }
-      ]
+    "assertion_position": [
+      1665,
+      1672
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] sọ: phát hiện bệnh lý chất trắng (được phát hiện tình cờ)."
   },
   {
     "text": "Đột sống thắt lưng",
@@ -1635,66 +422,11 @@
       1938,
       1956
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm: chọc dò dịch não tủy là âm tính\n    Kết quả chẩn đoán hình ảnh: chụp ct sọ: phát hiện bệnh lý chất trắng (được phát hiện tình cờ)\n    Các thủ thuật đã thực hiện: chọc dò dịch não tủy ([ENTITY])\n    Các phát hiện chẩn đoán khác\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Nguyên nhân chưa rõ (đối với phát hiện bệnh lý chất trắng)\n    - Sẽ không điển hình cho Bệnh đa xơ cứng theo ý kiến của bác sĩ thần kinh\n    - Ảo giác do rượu (suy nghĩ)\n    - Không được coi là thực sự loạn thần",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5754566788673401,
-          "sparse_similarity": 0.08766834437847137,
-          "hybrid_score": 0.33156251907348633
-        },
-        {
-          "id": "isFamily_020032",
-          "document": "má bn được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5789706110954285,
-          "sparse_similarity": 0.07392656058073044,
-          "hybrid_score": 0.32644858956336975
-        },
-        {
-          "id": "isFamily_003502",
-          "document": "ba được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5757270455360413,
-          "sparse_similarity": 0.07588537037372589,
-          "hybrid_score": 0.325806200504303
-        }
-      ]
+    "assertion_position": [
+      1782,
+      1800
     ],
-    "eng_translation": [
-      "Lumbalgia",
-      "Low Back Pain",
-      "Lumbalgia is the full English form of the abbreviation. Since there are no other abbreviations in the query, the resulting English query is: Lumbalgia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "M5450": 0.987502,
-        "R1030": 0.791188,
-        "M5459": 0.7557,
-        "M549": 0.745985,
-        "M5417": 0.743086
-      },
-      "rapidfuzz": {
-        "M5459": 0.95,
-        "M5450": 0.9,
-        "M5451": 0.9,
-        "Z9886": 0.855,
-        "S63240A": 0.855,
-        "S63239S": 0.855,
-        "I7381": 0.72,
-        "M5440": 0.72,
-        "M5442": 0.72
-      }
-    },
-    "candidate": {
-      "code": "M5450",
-      "confidence": 0.978752
-    }
+    "sentence": "Các thủ thuật đã thực hiện: chọc dò dịch não tủy ([ENTITY])."
   },
   {
     "text": "Bệnh đa xơ cứng",
@@ -1703,62 +435,11 @@
       2185,
       2200
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm: chọc dò dịch não tủy là âm tính\n    Kết quả chẩn đoán hình ảnh: chụp ct sọ: phát hiện bệnh lý chất trắng (được phát hiện tình cờ)\n    Các thủ thuật đã thực hiện: chọc dò dịch não tủy (Đột sống thắt lưng)\n    Các phát hiện chẩn đoán khác\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Nguyên nhân chưa rõ (đối với phát hiện bệnh lý chất trắng)\n    - Sẽ không điển hình cho [ENTITY] theo ý kiến của bác sĩ thần kinh\n    - Ảo giác do rượu (suy nghĩ)\n    - Không được coi là thực sự loạn thần",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5943294763565063,
-          "sparse_similarity": 0.1098470538854599,
-          "hybrid_score": 0.3520882725715637
-        },
-        {
-          "id": "isFamily_025022",
-          "document": "thân nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5848296880722046,
-          "sparse_similarity": 0.10420005023479462,
-          "hybrid_score": 0.3445148766040802
-        },
-        {
-          "id": "isHistorical_027029",
-          "document": "từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5813544988632202,
-          "sparse_similarity": 0.10246331989765167,
-          "hybrid_score": 0.34190890192985535
-        }
-      ]
+    "assertion_position": [
+      2006,
+      2021
     ],
-    "eng_translation": [
-      "Multiple sclerosis",
-      "Demyelinating disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "G35D": 0.975326,
-        "G379": 0.85103,
-        "M349": 0.805708,
-        "G35B0": 0.774728,
-        "M340": 0.773053
-      },
-      "rapidfuzz": {
-        "G35B2": 0.9,
-        "G35B1": 0.9,
-        "G35A": 0.9,
-        "G373": 0.9,
-        "G3789": 0.9,
-        "G379": 0.9
-      }
-    },
-    "candidate": {
-      "code": "G35D",
-      "confidence": 0.877793
-    }
+    "sentence": "Sẽ không điển hình cho [ENTITY] theo ý kiến của bác sĩ thần kinh."
   },
   {
     "text": "Ảo giác",
@@ -1767,45 +448,10 @@
       2240,
       2247
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả xét nghiệm: chọc dò dịch não tủy là âm tính\n    Kết quả chẩn đoán hình ảnh: chụp ct sọ: phát hiện bệnh lý chất trắng (được phát hiện tình cờ)\n    Các thủ thuật đã thực hiện: chọc dò dịch não tủy (Đột sống thắt lưng)\n    Các phát hiện chẩn đoán khác\n    - đánh giá thần kinh để tìm bệnh lý chất trắng\n    - các băng nhóm oligoclonal đang chờ kết quả\n    - Nguyên nhân chưa rõ (đối với phát hiện bệnh lý chất trắng)\n    - Sẽ không điển hình cho Bệnh đa xơ cứng theo ý kiến của bác sĩ thần kinh\n    - [ENTITY] do rượu (suy nghĩ)\n    - Không được coi là thực sự loạn thần",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5719373226165771,
-          "sparse_similarity": 0.09608575701713562,
-          "hybrid_score": 0.3340115547180176
-        },
-        {
-          "id": "isHistorical_027029",
-          "document": "từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5717999935150146,
-          "sparse_similarity": 0.0917731523513794,
-          "hybrid_score": 0.331786572933197
-        },
-        {
-          "id": "isFamily_020032",
-          "document": "má bn được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5807712078094482,
-          "sparse_similarity": 0.08119024336338043,
-          "hybrid_score": 0.33098071813583374
-        }
-      ]
+    "assertion_position": [
+      2056,
+      2063
     ],
-    "eng_translation": [
-      "Hallucination",
-      "Illusion"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] do rượu (suy nghĩ)."
   }
 ]

@@ -6,46 +6,11 @@
       77,
       88
     ],
-    "sentence": "Tiền sử bệnh\n    Bệnh nhân có tiền sử dụng thuốc\n    - NSAID để điều trị [ENTITY] (đã ngừng)\n    - omeprazole (bắt đầu dùng)\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử dụng thuốc - nsaid để điều trị [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6943026781082153,
-          "sparse_similarity": 0.28384363651275635,
-          "hybrid_score": 0.48907315731048584
-        },
-        {
-          "id": "isFamily_021600",
-          "document": "người thân có tiền sử đang điều trị [ENTITY].",
-          "dense_similarity": 0.6737552881240845,
-          "sparse_similarity": 0.26642876863479614,
-          "hybrid_score": 0.4700920283794403
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6827414631843567,
-          "sparse_similarity": 0.25653019547462463,
-          "hybrid_score": 0.46963584423065186
-        }
-      ]
+    "assertion_position": [
+      65,
+      76
     ],
-    "eng_translation": [
-      "knee pain",
-      "Patellar pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "NSAID để điều trị [ENTITY] (đã ngừng)."
   },
   {
     "text": "omeprazole",
@@ -54,64 +19,11 @@
       106,
       116
     ],
-    "sentence": "Tiền sử bệnh\n    Bệnh nhân có tiền sử dụng thuốc\n    - NSAID để điều trị đau đầu gối (đã ngừng)\n    - [ENTITY] (bắt đầu dùng)\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6642937660217285,
-          "sparse_similarity": 0.25321516394615173,
-          "hybrid_score": 0.4587544798851013
-        },
-        {
-          "id": "isFamily_024974",
-          "document": "thân nhân của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6452940106391907,
-          "sparse_similarity": 0.24434110522270203,
-          "hybrid_score": 0.44481754302978516
-        },
-        {
-          "id": "isFamily_024988",
-          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.639896035194397,
-          "sparse_similarity": 0.24916857481002808,
-          "hybrid_score": 0.4445323050022125
-        }
-      ]
+    "assertion_position": [
+      89,
+      99
     ],
-    "eng_translation": [
-      "omeprazole",
-      "Omeprazole is a proton pump inhibitor (PPI) used to reduce stomach acid production. It is commonly prescribed for conditions such as gastroesophageal reflux disease (GERD), peptic ulcer disease, and Zollinger-Ellison syndrome. Omeprazole works by inhibiting the enzyme in the stomach wall that produces acid, thereby decreasing the amount of acid secreted into the stomach. It is available in both prescription and over-the-counter formulations and is typically taken once daily. Long-term use of PPIs may be associated with potential side effects, including nutrient deficiencies and an increased risk of certain infections.",
-      "Omeprazole is a medication used to reduce the amount of acid produced in the stomach. It is commonly prescribed for conditions such as gastroesophageal reflux disease (GERD), peptic ulcer disease, and Zollinger-Ellison syndrome. Omeprazole works by inhibiting the action of proton pumps in the stomach, which are responsible for acid secretion. It is available in both prescription and over-the-counter forms and is typically taken once daily. Common side effects may include headache, diarrhea, and abdominal pain, although many people do not experience significant side effects. It is important to follow the prescribed dosage and duration of treatment to ensure effectiveness and minimize potential side effects. If you have any questions or concerns about omeprazole, it is recommended to consult with a healthcare provider."
-    ],
-    "retriever": {
-      "sapbert": {
-        "7646": 1.0,
-        "283742": 0.969087,
-        "2594977": 0.839895,
-        "1792108": 0.833847
-      },
-      "rapidfuzz": {
-        "7646": 1.0,
-        "283742": 0.909091,
-        "343355": 0.9,
-        "639888": 0.855,
-        "2722932": 0.855,
-        "401941": 0.855,
-        "1145110": 0.855,
-        "1145114": 0.855
-      }
-    },
-    "candidate": {
-      "code": "7646",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] (bắt đầu dùng)."
   },
   {
     "text": "đau vùng hạ sườn phải",
@@ -120,46 +32,11 @@
       206,
       227
     ],
-    "sentence": "Tiền sử bệnh hiện tạiBệnh nhân nhập viện vì [ENTITY] kéo dài vài tuần nay.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh hiện tạibệnh nhân nhập viện vì [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.8488099575042725,
-          "sparse_similarity": 0.2999171018600464,
-          "hybrid_score": 0.5743635296821594
-        },
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.8312495946884155,
-          "sparse_similarity": 0.29263922572135925,
-          "hybrid_score": 0.5619444251060486
-        },
-        {
-          "id": "isHistorical_013700",
-          "document": "cách đây 6 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.8212206363677979,
-          "sparse_similarity": 0.30226340889930725,
-          "hybrid_score": 0.5617420077323914
-        }
-      ]
+    "assertion_position": [
+      183,
+      204
     ],
-    "eng_translation": [
-      "right hypochondriac pain",
-      "right upper quadrant pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tiền sử bệnh hiện tạiBệnh nhân nhập viện vì [ENTITY] kéo dài vài tuần nay."
   },
   {
     "text": "đau vùng hạ sườn phải",
@@ -168,46 +45,11 @@
       315,
       336
     ],
-    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng [ENTITY], kèm chướng bụng và buồn nôn thoáng qua.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7485722303390503,
-          "sparse_similarity": 0.21648931503295898,
-          "hybrid_score": 0.48253077268600464
-        },
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7398932576179504,
-          "sparse_similarity": 0.21228013932704926,
-          "hybrid_score": 0.47608670592308044
-        },
-        {
-          "id": "isHistorical_012908",
-          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7408621311187744,
-          "sparse_similarity": 0.2103079855442047,
-          "hybrid_score": 0.47558504343032837
-        }
-      ]
+    "assertion_position": [
+      292,
+      313
     ],
-    "eng_translation": [
-      "right hypochondriac pain",
-      "right upper quadrant pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng [ENTITY], kèm chướng bụng và buồn nôn thoáng qua."
   },
   {
     "text": "chướng bụng",
@@ -216,46 +58,11 @@
       342,
       353
     ],
-    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng đau vùng hạ sườn phải, kèm [ENTITY] và buồn nôn thoáng qua.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7025508284568787,
-          "sparse_similarity": 0.1844232678413391,
-          "hybrid_score": 0.4434870481491089
-        },
-        {
-          "id": "isHistorical_013964",
-          "document": "cách đây 7 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6955653429031372,
-          "sparse_similarity": 0.18616926670074463,
-          "hybrid_score": 0.4408673048019409
-        },
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6995103359222412,
-          "sparse_similarity": 0.18068969249725342,
-          "hybrid_score": 0.4401000142097473
-        }
-      ]
+    "assertion_position": [
+      319,
+      330
     ],
-    "eng_translation": [
-      "Abdominal distension",
-      "Abdominal bloating"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng đau vùng hạ sườn phải, kèm [ENTITY] và buồn nôn thoáng qua."
   },
   {
     "text": "buồn nôn",
@@ -264,46 +71,11 @@
       357,
       365
     ],
-    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng đau vùng hạ sườn phải, kèm chướng bụng và [ENTITY] thoáng qua.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7110403776168823,
-          "sparse_similarity": 0.20121054351329803,
-          "hybrid_score": 0.4561254680156708
-        },
-        {
-          "id": "isHistorical_012644",
-          "document": "cách đây 2 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7046626806259155,
-          "sparse_similarity": 0.19694627821445465,
-          "hybrid_score": 0.4508044719696045
-        },
-        {
-          "id": "isHistorical_012908",
-          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7053923606872559,
-          "sparse_similarity": 0.19514477252960205,
-          "hybrid_score": 0.45026856660842896
-        }
-      ]
+    "assertion_position": [
+      334,
+      342
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng đau vùng hạ sườn phải, kèm chướng bụng và [ENTITY] thoáng qua."
   },
   {
     "text": "nôn ói",
@@ -312,46 +84,11 @@
       404,
       410
     ],
-    "sentence": "Bệnh nhân không ghi nhận [ENTITY].",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không ghi nhận [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000027",
-          "document": "[ENTITY] không ghi nhận.",
-          "dense_similarity": 0.8693450689315796,
-          "sparse_similarity": 0.28263142704963684,
-          "hybrid_score": 0.575988233089447
-        },
-        {
-          "id": "isNegated_000212",
-          "document": "không ghi nhận [ENTITY].",
-          "dense_similarity": 0.8582948446273804,
-          "sparse_similarity": 0.2597070634365082,
-          "hybrid_score": 0.5590009689331055
-        },
-        {
-          "id": "isNegated_000282",
-          "document": "xét nghiệm không ghi nhận [ENTITY].",
-          "dense_similarity": 0.8611509799957275,
-          "sparse_similarity": 0.22711071372032166,
-          "hybrid_score": 0.5441308617591858
-        }
-      ]
+    "assertion_position": [
+      380,
+      386
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân không ghi nhận [ENTITY]."
   },
   {
     "text": "đau lưng kéo dài",
@@ -360,46 +97,11 @@
       442,
       458
     ],
-    "sentence": "Ngoài ra, bệnh nhân có tiền sử [ENTITY] từ lâu, khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.7690868377685547,
-          "sparse_similarity": 0.2861384451389313,
-          "hybrid_score": 0.5276126265525818
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.7604367136955261,
-          "sparse_similarity": 0.27968835830688477,
-          "hybrid_score": 0.5200625658035278
-        },
-        {
-          "id": "isFamily_006636",
-          "document": "bên ngoại của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.7682149410247803,
-          "sparse_similarity": 0.26369842886924744,
-          "hybrid_score": 0.515956699848175
-        }
-      ]
+    "assertion_position": [
+      418,
+      434
     ],
-    "eng_translation": [
-      "Back pain lasting",
-      "Chronic back pain lasting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Ngoài ra, bệnh nhân có tiền sử [ENTITY] từ lâu, khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng."
   },
   {
     "text": "Đau bụng",
@@ -408,46 +110,11 @@
       551,
       559
     ],
-    "sentence": "[ENTITY] chủ yếu khu trú vùng hạ sườn phải, xuất hiện nhiều sau ăn, kèm cảm giác chướng bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021297",
-          "document": "khoảng 7 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5677397847175598,
-          "sparse_similarity": 0.1277063488960266,
-          "hybrid_score": 0.3477230668067932
-        },
-        {
-          "id": "isHistorical_021291",
-          "document": "khoảng 7 năm trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5640549659729004,
-          "sparse_similarity": 0.13070791959762573,
-          "hybrid_score": 0.34738144278526306
-        },
-        {
-          "id": "isHistorical_013965",
-          "document": "cách đây 7 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5625025629997253,
-          "sparse_similarity": 0.12617127597332,
-          "hybrid_score": 0.34433692693710327
-        }
-      ]
+    "assertion_position": [
+      527,
+      535
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] chủ yếu khu trú vùng hạ sườn phải, xuất hiện nhiều sau ăn, kèm cảm giác chướng bụng."
   },
   {
     "text": "sườn",
@@ -456,46 +123,11 @@
       584,
       588
     ],
-    "sentence": "Đau bụng chủ yếu khu trú vùng hạ [ENTITY] phải, xuất hiện nhiều sau ăn, kèm cảm giác chướng bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_000842",
-          "document": "[ENTITY] ở ba ruột người bệnh.",
-          "dense_similarity": 0.5970364809036255,
-          "sparse_similarity": 0.059719350188970566,
-          "hybrid_score": 0.328377902507782
-        },
-        {
-          "id": "isFamily_000987",
-          "document": "[ENTITY] ở con ruột người bệnh.",
-          "dense_similarity": 0.5880078077316284,
-          "sparse_similarity": 0.06091403588652611,
-          "hybrid_score": 0.3244609236717224
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5969615578651428,
-          "sparse_similarity": 0.050077714025974274,
-          "hybrid_score": 0.32351964712142944
-        }
-      ]
+    "assertion_position": [
+      560,
+      564
     ],
-    "eng_translation": [
-      "rib",
-      "Rib fracture"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Đau bụng chủ yếu khu trú vùng hạ [ENTITY] phải, xuất hiện nhiều sau ăn, kèm cảm giác chướng bụng."
   },
   {
     "text": "chướng bụng",
@@ -504,46 +136,11 @@
       632,
       643
     ],
-    "sentence": "Đau bụng chủ yếu khu trú vùng hạ sườn phải, xuất hiện nhiều sau ăn, kèm cảm giác [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_000842",
-          "document": "[ENTITY] ở ba ruột người bệnh.",
-          "dense_similarity": 0.6157470345497131,
-          "sparse_similarity": 0.055221885442733765,
-          "hybrid_score": 0.33548444509506226
-        },
-        {
-          "id": "isFamily_000987",
-          "document": "[ENTITY] ở con ruột người bệnh.",
-          "dense_similarity": 0.6068660616874695,
-          "sparse_similarity": 0.05552436411380768,
-          "hybrid_score": 0.331195205450058
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.6152521371841431,
-          "sparse_similarity": 0.046276360750198364,
-          "hybrid_score": 0.3307642340660095
-        }
-      ]
+    "assertion_position": [
+      608,
+      619
     ],
-    "eng_translation": [
-      "Abdominal distension",
-      "Abdominal bloating"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Đau bụng chủ yếu khu trú vùng hạ sườn phải, xuất hiện nhiều sau ăn, kèm cảm giác [ENTITY]."
   },
   {
     "text": "buồn nôn",
@@ -552,46 +149,11 @@
       676,
       684
     ],
-    "sentence": "Các triệu chứng liên quan gồm [ENTITY] thoáng qua, không nôn.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.765708327293396,
-          "sparse_similarity": 0.281108021736145,
-          "hybrid_score": 0.5234081745147705
-        },
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7849759459495544,
-          "sparse_similarity": 0.2361050844192505,
-          "hybrid_score": 0.5105404853820801
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7732187509536743,
-          "sparse_similarity": 0.18105104565620422,
-          "hybrid_score": 0.4771348834037781
-        }
-      ]
+    "assertion_position": [
+      651,
+      659
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan gồm [ENTITY] thoáng qua, không nôn."
   },
   {
     "text": "nôn",
@@ -600,46 +162,11 @@
       703,
       706
     ],
-    "sentence": "Các triệu chứng liên quan gồm buồn nôn thoáng qua, không [ENTITY].",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.6687173843383789,
-          "sparse_similarity": 0.1946610063314438,
-          "hybrid_score": 0.43168920278549194
-        },
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.6926419734954834,
-          "sparse_similarity": 0.16596396267414093,
-          "hybrid_score": 0.42930296063423157
-        },
-        {
-          "id": "isNegated_000101",
-          "document": "chưa có triệu chứng [ENTITY].",
-          "dense_similarity": 0.6833179593086243,
-          "sparse_similarity": 0.1292509138584137,
-          "hybrid_score": 0.4062844514846802
-        }
-      ]
+    "assertion_position": [
+      678,
+      681
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan gồm buồn nôn thoáng qua, không [ENTITY]."
   },
   {
     "text": "đau lưng kéo dài",
@@ -648,46 +175,11 @@
       743,
       759
     ],
-    "sentence": "Bệnh nhân cũng ghi nhận tình trạng [ENTITY] như trên.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024975",
-          "document": "thân nhân của bệnh nhân ghi nhận [ENTITY].",
-          "dense_similarity": 0.8415656089782715,
-          "sparse_similarity": 0.20840439200401306,
-          "hybrid_score": 0.5249850153923035
-        },
-        {
-          "id": "isFamily_020061",
-          "document": "má bệnh nhân được ghi nhận [ENTITY].",
-          "dense_similarity": 0.8317346572875977,
-          "sparse_similarity": 0.2173749953508377,
-          "hybrid_score": 0.5245548486709595
-        },
-        {
-          "id": "isFamily_005950",
-          "document": "bác của bệnh nhân ghi nhận [ENTITY].",
-          "dense_similarity": 0.8324378132820129,
-          "sparse_similarity": 0.21040797233581543,
-          "hybrid_score": 0.5214228630065918
-        }
-      ]
+    "assertion_position": [
+      718,
+      734
     ],
-    "eng_translation": [
-      "Back pain lasting",
-      "Chronic back pain lasting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân cũng ghi nhận tình trạng [ENTITY] như trên."
   },
   {
     "text": "đau bụng vùng hạ sườn phải",
@@ -696,46 +188,11 @@
       871,
       897
     ],
-    "sentence": "Lý do nhập viện: [ENTITY]\n    Thời điểm khởi phát triệu chứng: Vài tuần\n    Các triệu chứng hiện tại\n    - đau bụng vùng hạ sườn phải\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: đau bụng hạ sườn phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020702",
-          "document": "khoảng 47 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.591153085231781,
-          "sparse_similarity": 0.16013546288013458,
-          "hybrid_score": 0.3756442666053772
-        },
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5908066034317017,
-          "sparse_similarity": 0.15990225970745087,
-          "hybrid_score": 0.37535443902015686
-        },
-        {
-          "id": "isHistorical_021302",
-          "document": "khoảng 7 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5934123992919922,
-          "sparse_similarity": 0.15418492257595062,
-          "hybrid_score": 0.373798668384552
-        }
-      ]
+    "assertion_position": [
+      842,
+      868
     ],
-    "eng_translation": [
-      "right lower quadrant abdominal pain",
-      "Right lower quadrant pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY]."
   },
   {
     "text": "đau bụng vùng hạ sườn phải",
@@ -744,46 +201,11 @@
       979,
       1005
     ],
-    "sentence": "Lý do nhập viện: đau bụng vùng hạ sườn phải\n    Thời điểm khởi phát triệu chứng: Vài tuần\n    Các triệu chứng hiện tại\n    - [ENTITY]\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: đau bụng hạ sườn phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5446329116821289,
-          "sparse_similarity": 0.12815237045288086,
-          "hybrid_score": 0.3363926410675049
-        },
-        {
-          "id": "isHistorical_020702",
-          "document": "khoảng 47 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5434038639068604,
-          "sparse_similarity": 0.12830370664596558,
-          "hybrid_score": 0.33585378527641296
-        },
-        {
-          "id": "isHistorical_021302",
-          "document": "khoảng 7 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5479039549827576,
-          "sparse_similarity": 0.12367425113916397,
-          "hybrid_score": 0.33578911423683167
-        }
-      ]
+    "assertion_position": [
+      939,
+      965
     ],
-    "eng_translation": [
-      "right lower quadrant abdominal pain",
-      "Right lower quadrant pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "chướng bụng",
@@ -792,46 +214,11 @@
       1012,
       1023
     ],
-    "sentence": "Lý do nhập viện: đau bụng vùng hạ sườn phải\n    Thời điểm khởi phát triệu chứng: Vài tuần\n    Các triệu chứng hiện tại\n    - đau bụng vùng hạ sườn phải\n    - [ENTITY] \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: đau bụng hạ sườn phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.53658527135849,
-          "sparse_similarity": 0.12409030646085739,
-          "hybrid_score": 0.330337792634964
-        },
-        {
-          "id": "isHistorical_021302",
-          "document": "khoảng 7 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5393111705780029,
-          "sparse_similarity": 0.12087888270616531,
-          "hybrid_score": 0.3300950229167938
-        },
-        {
-          "id": "isHistorical_020726",
-          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5383691787719727,
-          "sparse_similarity": 0.1196647584438324,
-          "hybrid_score": 0.3290169835090637
-        }
-      ]
+    "assertion_position": [
+      967,
+      978
     ],
-    "eng_translation": [
-      "Abdominal distension",
-      "Abdominal bloating"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "buồn nôn",
@@ -840,46 +227,11 @@
       1031,
       1039
     ],
-    "sentence": "Lý do nhập viện: đau bụng vùng hạ sườn phải\n    Thời điểm khởi phát triệu chứng: Vài tuần\n    Các triệu chứng hiện tại\n    - đau bụng vùng hạ sườn phải\n    - chướng bụng \n    - [ENTITY] thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: đau bụng hạ sườn phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021302",
-          "document": "khoảng 7 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.540176510810852,
-          "sparse_similarity": 0.1184144914150238,
-          "hybrid_score": 0.3292955160140991
-        },
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5358988642692566,
-          "sparse_similarity": 0.12121398746967316,
-          "hybrid_score": 0.3285564184188843
-        },
-        {
-          "id": "isHistorical_020702",
-          "document": "khoảng 47 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5333429574966431,
-          "sparse_similarity": 0.1233404129743576,
-          "hybrid_score": 0.32834169268608093
-        }
-      ]
+    "assertion_position": [
+      980,
+      988
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] thoáng qua."
   },
   {
     "text": "Nôn mửa",
@@ -888,46 +240,11 @@
       1057,
       1064
     ],
-    "sentence": "Lý do nhập viện: đau bụng vùng hạ sườn phải\n    Thời điểm khởi phát triệu chứng: Vài tuần\n    Các triệu chứng hiện tại\n    - đau bụng vùng hạ sườn phải\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - [ENTITY]\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: đau bụng hạ sườn phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021302",
-          "document": "khoảng 7 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5248417258262634,
-          "sparse_similarity": 0.10425775498151779,
-          "hybrid_score": 0.3145497441291809
-        },
-        {
-          "id": "isHistorical_020726",
-          "document": "khoảng 48 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5248165130615234,
-          "sparse_similarity": 0.1040232926607132,
-          "hybrid_score": 0.3144198954105377
-        },
-        {
-          "id": "isFamily_003340",
-          "document": "ba ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5402483344078064,
-          "sparse_similarity": 0.010270074009895325,
-          "hybrid_score": 0.27525919675827026
-        }
-      ]
+    "assertion_position": [
+      1001,
+      1008
     ],
-    "eng_translation": [
-      "Vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đau lưng âm ỉ",
@@ -936,46 +253,11 @@
       1085,
       1098
     ],
-    "sentence": "Lý do nhập viện: đau bụng vùng hạ sườn phải\n    Thời điểm khởi phát triệu chứng: Vài tuần\n    Các triệu chứng hiện tại\n    - đau bụng vùng hạ sườn phải\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  [ENTITY]\n    Đặc điểm triệu chứng\n    - Vị trí: đau bụng hạ sườn phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.534465491771698,
-          "sparse_similarity": 0.12321289628744125,
-          "hybrid_score": 0.32883918285369873
-        },
-        {
-          "id": "isHistorical_021302",
-          "document": "khoảng 7 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5375157594680786,
-          "sparse_similarity": 0.11965490877628326,
-          "hybrid_score": 0.32858532667160034
-        },
-        {
-          "id": "isHistorical_020558",
-          "document": "khoảng 41 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5311546921730042,
-          "sparse_similarity": 0.12566706538200378,
-          "hybrid_score": 0.3284108638763428
-        }
-      ]
+    "assertion_position": [
+      1023,
+      1036
     ],
-    "eng_translation": [
-      "persistent low back pain",
-      "chronic low back pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân có [ENTITY]."
   },
   {
     "text": "đau bụng hạ sườn",
@@ -984,46 +266,11 @@
       1138,
       1154
     ],
-    "sentence": "Lý do nhập viện: đau bụng vùng hạ sườn phải\n    Thời điểm khởi phát triệu chứng: Vài tuần\n    Các triệu chứng hiện tại\n    - đau bụng vùng hạ sườn phải\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: [ENTITY] phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5438519716262817,
-          "sparse_similarity": 0.13557031750679016,
-          "hybrid_score": 0.33971112966537476
-        },
-        {
-          "id": "isHistorical_020558",
-          "document": "khoảng 41 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5409325361251831,
-          "sparse_similarity": 0.13656780123710632,
-          "hybrid_score": 0.3387501835823059
-        },
-        {
-          "id": "isHistorical_021302",
-          "document": "khoảng 7 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.544948935508728,
-          "sparse_similarity": 0.13084040582180023,
-          "hybrid_score": 0.3378946781158447
-        }
-      ]
+    "assertion_position": [
+      1068,
+      1084
     ],
-    "eng_translation": [
-      "right lower quadrant abdominal pain",
-      "Right lower quadrant pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Vị trí: [ENTITY] phải, đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng."
   },
   {
     "text": "đau lưng",
@@ -1032,46 +279,11 @@
       1161,
       1169
     ],
-    "sentence": "Lý do nhập viện: đau bụng vùng hạ sườn phải\n    Thời điểm khởi phát triệu chứng: Vài tuần\n    Các triệu chứng hiện tại\n    - đau bụng vùng hạ sườn phải\n    - chướng bụng \n    - buồn nôn thoáng qua\n    - Nôn mửa\n    - Bệnh nhân có  đau lưng âm ỉ\n    Đặc điểm triệu chứng\n    - Vị trí: đau bụng hạ sườn phải, [ENTITY] (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012356",
-          "document": "cách đây 1 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5578001737594604,
-          "sparse_similarity": 0.13446278870105743,
-          "hybrid_score": 0.34613147377967834
-        },
-        {
-          "id": "isHistorical_021302",
-          "document": "khoảng 7 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5576599836349487,
-          "sparse_similarity": 0.13099825382232666,
-          "hybrid_score": 0.3443291187286377
-        },
-        {
-          "id": "isHistorical_020654",
-          "document": "khoảng 45 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5574233531951904,
-          "sparse_similarity": 0.12820112705230713,
-          "hybrid_score": 0.3428122401237488
-        }
-      ]
+    "assertion_position": [
+      1091,
+      1099
     ],
-    "eng_translation": [
-      "back pain",
-      "Low back pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Vị trí: đau bụng hạ sườn phải, [ENTITY] (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng."
   },
   {
     "text": "đau bụng",
@@ -1080,46 +292,11 @@
       1302,
       1310
     ],
-    "sentence": ")\n    - Thời gian: Thường xuất hiện sau bữa ăn ([ENTITY], chướng bụng)\n    - Các triệu chứng liên quan: chướng bụng,  buồn nôn thoáng qua, nôn, đau lưng kéo dài \n    Các sự kiện trước khi nhập viện\nBệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận viêm dạ dày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5910645723342896,
-          "sparse_similarity": 0.08732591569423676,
-          "hybrid_score": 0.33919525146484375
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5930651426315308,
-          "sparse_similarity": 0.07952792197465897,
-          "hybrid_score": 0.33629652857780457
-        },
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5895996689796448,
-          "sparse_similarity": 0.08187109977006912,
-          "hybrid_score": 0.33573538064956665
-        }
-      ]
+    "assertion_position": [
+      1227,
+      1235
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thời gian: Thường xuất hiện sau bữa ăn ([ENTITY], chướng bụng)."
   },
   {
     "text": "chướng bụng",
@@ -1128,46 +305,11 @@
       1312,
       1323
     ],
-    "sentence": ")\n    - Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, [ENTITY])\n    - Các triệu chứng liên quan: chướng bụng,  buồn nôn thoáng qua, nôn, đau lưng kéo dài \n    Các sự kiện trước khi nhập viện\nBệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận viêm dạ dày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5854215621948242,
-          "sparse_similarity": 0.07348126173019409,
-          "hybrid_score": 0.32945141196250916
-        },
-        {
-          "id": "isFamily_011498",
-          "document": "con ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.6059319972991943,
-          "sparse_similarity": 0.04614421725273132,
-          "hybrid_score": 0.326038122177124
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5867612957954407,
-          "sparse_similarity": 0.06347580254077911,
-          "hybrid_score": 0.3251185417175293
-        }
-      ]
+    "assertion_position": [
+      1237,
+      1248
     ],
-    "eng_translation": [
-      "Abdominal distension",
-      "Abdominal bloating"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, [ENTITY])."
   },
   {
     "text": "chướng bụng",
@@ -1176,46 +318,11 @@
       1358,
       1369
     ],
-    "sentence": ")\n    - Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, chướng bụng)\n    - Các triệu chứng liên quan: [ENTITY],  buồn nôn thoáng qua, nôn, đau lưng kéo dài \n    Các sự kiện trước khi nhập viện\nBệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận viêm dạ dày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6037566661834717,
-          "sparse_similarity": 0.09981386363506317,
-          "hybrid_score": 0.351785272359848
-        },
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6015255451202393,
-          "sparse_similarity": 0.0986659899353981,
-          "hybrid_score": 0.3500957787036896
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6041463017463684,
-          "sparse_similarity": 0.09023941308259964,
-          "hybrid_score": 0.3471928536891937
-        }
-      ]
+    "assertion_position": [
+      1278,
+      1289
     ],
-    "eng_translation": [
-      "Abdominal distension",
-      "Abdominal bloating"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: [ENTITY], buồn nôn thoáng qua, nôn, đau lưng kéo dài."
   },
   {
     "text": "buồn nôn",
@@ -1224,46 +331,11 @@
       1372,
       1380
     ],
-    "sentence": ")\n    - Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, chướng bụng)\n    - Các triệu chứng liên quan: chướng bụng,  [ENTITY] thoáng qua, nôn, đau lưng kéo dài \n    Các sự kiện trước khi nhập viện\nBệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận viêm dạ dày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5889582633972168,
-          "sparse_similarity": 0.09270104020833969,
-          "hybrid_score": 0.34082964062690735
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5907595157623291,
-          "sparse_similarity": 0.08286227285861969,
-          "hybrid_score": 0.3368108868598938
-        },
-        {
-          "id": "isFamily_011498",
-          "document": "con ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.6112836599349976,
-          "sparse_similarity": 0.05971093103289604,
-          "hybrid_score": 0.33549728989601135
-        }
-      ]
+    "assertion_position": [
+      1291,
+      1299
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: chướng bụng, [ENTITY] thoáng qua, nôn, đau lưng kéo dài."
   },
   {
     "text": "nôn",
@@ -1272,46 +344,11 @@
       1393,
       1396
     ],
-    "sentence": ")\n    - Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, chướng bụng)\n    - Các triệu chứng liên quan: chướng bụng,  buồn nôn thoáng qua, [ENTITY], đau lưng kéo dài \n    Các sự kiện trước khi nhập viện\nBệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận viêm dạ dày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011498",
-          "document": "con ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.6069449186325073,
-          "sparse_similarity": 0.05039653554558754,
-          "hybrid_score": 0.3286707401275635
-        },
-        {
-          "id": "isFamily_011505",
-          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.595217764377594,
-          "sparse_similarity": 0.05825096741318703,
-          "hybrid_score": 0.32673436403274536
-        },
-        {
-          "id": "isFamily_011494",
-          "document": "con ruột bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.6018954515457153,
-          "sparse_similarity": 0.04902392625808716,
-          "hybrid_score": 0.32545968890190125
-        }
-      ]
+    "assertion_position": [
+      1312,
+      1315
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: chướng bụng, buồn nôn thoáng qua, [ENTITY], đau lưng kéo dài."
   },
   {
     "text": "đau lưng kéo dài",
@@ -1320,46 +357,11 @@
       1398,
       1414
     ],
-    "sentence": ")\n    - Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, chướng bụng)\n    - Các triệu chứng liên quan: chướng bụng,  buồn nôn thoáng qua, nôn, [ENTITY] \n    Các sự kiện trước khi nhập viện\nBệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận viêm dạ dày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5749224424362183,
-          "sparse_similarity": 0.06318151950836182,
-          "hybrid_score": 0.31905198097229004
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5771732926368713,
-          "sparse_similarity": 0.05308784544467926,
-          "hybrid_score": 0.3151305615901947
-        },
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5700070261955261,
-          "sparse_similarity": 0.059248387813568115,
-          "hybrid_score": 0.3146277070045471
-        }
-      ]
+    "assertion_position": [
+      1317,
+      1333
     ],
-    "eng_translation": [
-      "Back pain lasting",
-      "Chronic back pain lasting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: chướng bụng, buồn nôn thoáng qua, nôn, [ENTITY]."
   },
   {
     "text": "nội soi",
@@ -1368,47 +370,11 @@
       1467,
       1474
     ],
-    "sentence": ")\n    - Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, chướng bụng)\n    - Các triệu chứng liên quan: chướng bụng,  buồn nôn thoáng qua, nôn, đau lưng kéo dài \n    Các sự kiện trước khi nhập viện\nBệnh nhân được [ENTITY] thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận viêm dạ dày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011505",
-          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5976136922836304,
-          "sparse_similarity": 0.056239981204271317,
-          "hybrid_score": 0.3269268274307251
-        },
-        {
-          "id": "isFamily_011498",
-          "document": "con ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.6085885763168335,
-          "sparse_similarity": 0.04323728382587433,
-          "hybrid_score": 0.3259129226207733
-        },
-        {
-          "id": "isFamily_011594",
-          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6009104251861572,
-          "sparse_similarity": 0.04861624538898468,
-          "hybrid_score": 0.32476332783699036
-        }
-      ]
+    "assertion_position": [
+      1383,
+      1390
     ],
-    "eng_translation": [
-      "Endoscopy",
-      "Gastrointestinal endoscopy",
-      "Endoscopic Examination"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân được [ENTITY] thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận viêm dạ dày."
   },
   {
     "text": "viêm dạ dày",
@@ -1417,62 +383,11 @@
       1533,
       1544
     ],
-    "sentence": ")\n    - Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, chướng bụng)\n    - Các triệu chứng liên quan: chướng bụng,  buồn nôn thoáng qua, nôn, đau lưng kéo dài \n    Các sự kiện trước khi nhập viện\nBệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5965806841850281,
-          "sparse_similarity": 0.09232212603092194,
-          "hybrid_score": 0.3444513976573944
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.597118616104126,
-          "sparse_similarity": 0.08404377847909927,
-          "hybrid_score": 0.3405812084674835
-        },
-        {
-          "id": "isFamily_007142",
-          "document": "bên nội của bệnh nhân ghi nhận [ENTITY].",
-          "dense_similarity": 0.5887966752052307,
-          "sparse_similarity": 0.09088931232690811,
-          "hybrid_score": 0.3398430049419403
-        }
-      ]
+    "assertion_position": [
+      1449,
+      1460
     ],
-    "eng_translation": [
-      "Gastritis",
-      "Gastritis is the inflammation of the stomach lining."
-    ],
-    "retriever": {
-      "sapbert": {
-        "K2970": 0.749555,
-        "K2971": 0.686647,
-        "K30": 0.677284,
-        "K819": 0.65158,
-        "K31A0": 0.651304
-      },
-      "rapidfuzz": {
-        "K2970": 0.9,
-        "K2900": 0.9,
-        "K2930": 0.9,
-        "S32314A": 0.855,
-        "S21139S": 0.855,
-        "S21141A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K2970",
-      "confidence": 0.764599
-    }
+    "sentence": "Bệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận [ENTITY]."
   },
   {
     "text": "omeprazole",
@@ -1481,64 +396,11 @@
       1596,
       1606
     ],
-    "sentence": "Được điều trị bằng [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_009848",
-          "document": "[ENTITY] đã được điều trị.",
-          "dense_similarity": 0.9361087083816528,
-          "sparse_similarity": 0.353328675031662,
-          "hybrid_score": 0.6447187066078186
-        },
-        {
-          "id": "isHistorical_034248",
-          "document": "đã điều trị [ENTITY].",
-          "dense_similarity": 0.9490838646888733,
-          "sparse_similarity": 0.30927571654319763,
-          "hybrid_score": 0.6291797757148743
-        },
-        {
-          "id": "isHistorical_009844",
-          "document": "[ENTITY] đã điều trị khỏi.",
-          "dense_similarity": 0.9016667008399963,
-          "sparse_similarity": 0.3482021391391754,
-          "hybrid_score": 0.6249344348907471
-        }
-      ]
+    "assertion_position": [
+      1512,
+      1522
     ],
-    "eng_translation": [
-      "omeprazole",
-      "Omeprazole is a proton pump inhibitor (PPI) used to reduce stomach acid production. It is commonly prescribed for conditions such as gastroesophageal reflux disease (GERD), peptic ulcer disease, and Zollinger-Ellison syndrome. Omeprazole works by inhibiting the enzyme in the stomach wall that produces acid, thereby decreasing the amount of acid secreted into the stomach. It is available in both prescription and over-the-counter formulations and is typically taken once daily. Long-term use of PPIs may be associated with potential side effects, including nutrient deficiencies and an increased risk of certain infections.",
-      "Omeprazole is a medication used to reduce the amount of acid produced in the stomach. It is commonly prescribed for conditions such as gastroesophageal reflux disease (GERD), peptic ulcer disease, and Zollinger-Ellison syndrome. Omeprazole works by inhibiting the action of proton pumps in the stomach, which are responsible for acid secretion. It is available in both prescription and over-the-counter forms and is typically taken once daily. Common side effects may include headache, diarrhea, and abdominal pain, although many people do not experience significant side effects. It is important to follow the prescribed dosage and duration of treatment to ensure effectiveness and minimize potential side effects. If you have any questions or concerns about omeprazole, it is recommended to consult with a healthcare provider."
-    ],
-    "retriever": {
-      "sapbert": {
-        "7646": 1.0,
-        "283742": 0.969087,
-        "2594977": 0.839895,
-        "1792108": 0.833847
-      },
-      "rapidfuzz": {
-        "7646": 1.0,
-        "283742": 0.909091,
-        "343355": 0.9,
-        "639888": 0.855,
-        "2722932": 0.855,
-        "401941": 0.855,
-        "1145110": 0.855,
-        "1145114": 0.855
-      }
-    },
-    "candidate": {
-      "code": "7646",
-      "confidence": 1.0
-    }
+    "sentence": "Được điều trị bằng [ENTITY]."
   },
   {
     "text": "Chụp cộng hưởng từ",
@@ -1547,46 +409,11 @@
       1608,
       1626
     ],
-    "sentence": "[ENTITY] mật tụy  ghi nhận sỏi đoạn cuối ống mật chủ.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_000034",
-          "document": "[ENTITY] ghi nhận ở ba ruột.",
-          "dense_similarity": 0.6607585549354553,
-          "sparse_similarity": 0.10418379306793213,
-          "hybrid_score": 0.3824711740016937
-        },
-        {
-          "id": "isFamily_003343",
-          "document": "ba ruột bệnh nhân ghi nhận [ENTITY].",
-          "dense_similarity": 0.6661217212677002,
-          "sparse_similarity": 0.08068932592868805,
-          "hybrid_score": 0.3734055161476135
-        },
-        {
-          "id": "isFamily_009931",
-          "document": "chú ruột bệnh nhân ghi nhận [ENTITY].",
-          "dense_similarity": 0.6616795063018799,
-          "sparse_similarity": 0.08500929176807404,
-          "hybrid_score": 0.37334439158439636
-        }
-      ]
+    "assertion_position": [
+      1524,
+      1542
     ],
-    "eng_translation": [
-      "MRI",
-      "Magnetic Resonance Imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] mật tụy ghi nhận sỏi đoạn cuối ống mật chủ."
   },
   {
     "text": "Nội soi",
@@ -1595,47 +422,11 @@
       1901,
       1908
     ],
-    "sentence": "Chẩn đoán hình ảnh và thăm dò:[ENTITY] thực quản - dạ dày - tá tràng: viêm dạ dày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011594",
-          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.670062780380249,
-          "sparse_similarity": 0.11730891466140747,
-          "hybrid_score": 0.39368584752082825
-        },
-        {
-          "id": "isFamily_011505",
-          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6681141257286072,
-          "sparse_similarity": 0.11203916370868683,
-          "hybrid_score": 0.3900766372680664
-        },
-        {
-          "id": "isFamily_020345",
-          "document": "mẹ ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6495663523674011,
-          "sparse_similarity": 0.11529863625764847,
-          "hybrid_score": 0.3824324905872345
-        }
-      ]
+    "assertion_position": [
+      1818,
+      1825
     ],
-    "eng_translation": [
-      "Endoscopy",
-      "Gastrointestinal endoscopy",
-      "Endoscopic Examination"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Chẩn đoán hình ảnh và thăm dò:[ENTITY] thực quản - dạ dày - tá tràng: viêm dạ dày."
   },
   {
     "text": "viêm dạ dày",
@@ -1644,62 +435,11 @@
       1940,
       1951
     ],
-    "sentence": "Chẩn đoán hình ảnh và thăm dò:Nội soi thực quản - dạ dày - tá tràng: [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6766154170036316,
-          "sparse_similarity": 0.136644646525383,
-          "hybrid_score": 0.4066300392150879
-        },
-        {
-          "id": "isFamily_007189",
-          "document": "bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6678488254547119,
-          "sparse_similarity": 0.1404140144586563,
-          "hybrid_score": 0.4041314125061035
-        },
-        {
-          "id": "isFamily_025022",
-          "document": "thân nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6556168794631958,
-          "sparse_similarity": 0.14737935364246368,
-          "hybrid_score": 0.40149810910224915
-        }
-      ]
+    "assertion_position": [
+      1857,
+      1868
     ],
-    "eng_translation": [
-      "Gastritis",
-      "Gastritis is the inflammation of the stomach lining."
-    ],
-    "retriever": {
-      "sapbert": {
-        "K2970": 0.749555,
-        "K2971": 0.686647,
-        "K30": 0.677284,
-        "K819": 0.65158,
-        "K31A0": 0.651304
-      },
-      "rapidfuzz": {
-        "K2970": 0.9,
-        "K2900": 0.9,
-        "K2930": 0.9,
-        "S32314A": 0.855,
-        "S21139S": 0.855,
-        "S21141A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K2970",
-      "confidence": 0.764599
-    }
+    "sentence": "Chẩn đoán hình ảnh và thăm dò:Nội soi thực quản - dạ dày - tá tràng: [ENTITY]."
   },
   {
     "text": "Nội soi mật tụy ngược dòng (ERCP)",
@@ -1708,47 +448,11 @@
       2032,
       2065
     ],
-    "sentence": "Thủ thuật được thực hiện   :[ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000054",
-          "document": "[ENTITY] được gợi ý.",
-          "dense_similarity": 0.7641826868057251,
-          "sparse_similarity": 0.19515588879585266,
-          "hybrid_score": 0.4796692728996277
-        },
-        {
-          "id": "isHistorical_034239",
-          "document": "đã có [ENTITY].",
-          "dense_similarity": 0.7849165201187134,
-          "sparse_similarity": 0.17284339666366577,
-          "hybrid_score": 0.4788799583911896
-        },
-        {
-          "id": "isUncertain_000053",
-          "document": "[ENTITY] đang được theo dõi.",
-          "dense_similarity": 0.7517660856246948,
-          "sparse_similarity": 0.19637475907802582,
-          "hybrid_score": 0.4740704298019409
-        }
-      ]
+    "assertion_position": [
+      1947,
+      1980
     ],
-    "eng_translation": [
-      "Endoscopic retrograde cholangiopancreatography (ERCP)",
-      "ERCP is a procedure used to examine the bile ducts and pancreatic ducts.",
-      "Endoscopic retrograde cholangiopancreatography (Endoscopic retrograde cholangiopancreatography)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thủ thuật được thực hiện :[ENTITY]."
   },
   {
     "text": "ERCP",
@@ -1757,46 +461,11 @@
       2083,
       2087
     ],
-    "sentence": "Trong quá trình [ENTITY], lấy thành công 02 viên sỏi tại đoạn cuối ống mật chủ (CBD).",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006130",
-          "document": "[ENTITY] cách đây 2 ngày.",
-          "dense_similarity": 0.6351436376571655,
-          "sparse_similarity": 0.07156790047883987,
-          "hybrid_score": 0.3533557653427124
-        },
-        {
-          "id": "isHistorical_012623",
-          "document": "cách đây 2 ngày [ENTITY].",
-          "dense_similarity": 0.6320594549179077,
-          "sparse_similarity": 0.07002420723438263,
-          "hybrid_score": 0.3510418236255646
-        },
-        {
-          "id": "isHistorical_006498",
-          "document": "[ENTITY] cách đây hai ngày.",
-          "dense_similarity": 0.6297919750213623,
-          "sparse_similarity": 0.06894045323133469,
-          "hybrid_score": 0.3493662178516388
-        }
-      ]
+    "assertion_position": [
+      1998,
+      2002
     ],
-    "eng_translation": [
-      "ERCP",
-      "Endoscopic Retrograde Cholangiopancreatography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Trong quá trình [ENTITY], lấy thành công 02 viên sỏi tại đoạn cuối ống mật chủ (CBD)."
   },
   {
     "text": "chụp cộng hưởng từ",
@@ -1805,46 +474,11 @@
       2155,
       2173
     ],
-    "sentence": "- [ENTITY] mật tụy tụi mật được thực hiện cho thấy sỏi ống dẫn mật chung đoạn cuối",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011505",
-          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.633966863155365,
-          "sparse_similarity": 0.03739438205957413,
-          "hybrid_score": 0.33568063378334045
-        },
-        {
-          "id": "isFamily_009941",
-          "document": "chú ruột bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6296082139015198,
-          "sparse_similarity": 0.03990412876009941,
-          "hybrid_score": 0.33475616574287415
-        },
-        {
-          "id": "isFamily_011507",
-          "document": "con ruột bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6299314498901367,
-          "sparse_similarity": 0.03942909091711044,
-          "hybrid_score": 0.3346802592277527
-        }
-      ]
+    "assertion_position": [
+      2064,
+      2082
     ],
-    "eng_translation": [
-      "MRI",
-      "Magnetic Resonance Imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] mật tụy tụi mật được thực hiện cho thấy sỏi ống dẫn mật chung đoạn cuối."
   },
   {
     "text": "sỏi ống dẫn mật",
@@ -1853,61 +487,10 @@
       2214,
       2229
     ],
-    "sentence": "- chụp cộng hưởng từ mật tụy tụi mật được thực hiện cho thấy [ENTITY] chung đoạn cuối",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011505",
-          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6577326059341431,
-          "sparse_similarity": 0.06183289736509323,
-          "hybrid_score": 0.35978275537490845
-        },
-        {
-          "id": "isFamily_011594",
-          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6529541015625,
-          "sparse_similarity": 0.06303482502698898,
-          "hybrid_score": 0.3579944670200348
-        },
-        {
-          "id": "isFamily_011507",
-          "document": "con ruột bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6500329971313477,
-          "sparse_similarity": 0.06527561694383621,
-          "hybrid_score": 0.35765430331230164
-        }
-      ]
+    "assertion_position": [
+      2123,
+      2138
     ],
-    "eng_translation": [
-      "bile duct stones",
-      "choledocholithiasis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K824": 0.726674,
-        "K8040": 0.712694,
-        "K563": 0.70802,
-        "Q444": 0.705738,
-        "K8030": 0.693456
-      },
-      "rapidfuzz": {
-        "H04533": 0.855,
-        "H04532": 0.855,
-        "H04531": 0.855,
-        "L632": 0.771429,
-        "B743": 0.75,
-        "K8080": 0.725455
-      }
-    },
-    "candidate": {
-      "code": "K824",
-      "confidence": 0.654007
-    }
+    "sentence": "chụp cộng hưởng từ mật tụy tụi mật được thực hiện cho thấy [ENTITY] chung đoạn cuối."
   }
 ]

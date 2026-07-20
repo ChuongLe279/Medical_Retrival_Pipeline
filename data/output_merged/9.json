@@ -6,62 +6,11 @@
       39,
       56
     ],
-    "sentence": "Tiền sử bệnh\n    Bệnh lý mãn tính: [ENTITY], không đặc hiệu\n    Thuốc trước khi nhập viện: iron\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.681068480014801,
-          "sparse_similarity": 0.2224956750869751,
-          "hybrid_score": 0.45178207755088806
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6673319339752197,
-          "sparse_similarity": 0.2197912335395813,
-          "hybrid_score": 0.4435615837574005
-        },
-        {
-          "id": "isHistorical_009850",
-          "document": "[ENTITY] ở lần nhập viện trước.",
-          "dense_similarity": 0.6604928970336914,
-          "sparse_similarity": 0.21440905332565308,
-          "hybrid_score": 0.43745097517967224
-        }
-      ]
+    "assertion_position": [
+      32,
+      49
     ],
-    "eng_translation": [
-      "uterine smooth muscle",
-      "Uterine leiomyoma"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D259": 0.970849,
-        "D251": 0.863666,
-        "D250": 0.859692,
-        "D252": 0.776149,
-        "C542": 0.654315
-      },
-      "rapidfuzz": {
-        "S96912D": 0.855,
-        "S66001S": 0.855,
-        "S66022D": 0.855,
-        "Z98891": 0.855,
-        "N938": 0.855,
-        "O3429": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D259",
-      "confidence": 0.873764
-    }
+    "sentence": "Bệnh lý mãn tính: [ENTITY], không đặc hiệu."
   },
   {
     "text": "iron",
@@ -70,61 +19,11 @@
       104,
       108
     ],
-    "sentence": "Tiền sử bệnh\n    Bệnh lý mãn tính: u cơ trơn tử cung, không đặc hiệu\n    Thuốc trước khi nhập viện: [ENTITY]\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6377373933792114,
-          "sparse_similarity": 0.1596197485923767,
-          "hybrid_score": 0.39867857098579407
-        },
-        {
-          "id": "isHistorical_022208",
-          "document": "trước khi nhập viện đã bị [ENTITY].",
-          "dense_similarity": 0.6218065023422241,
-          "sparse_similarity": 0.158267542719841,
-          "hybrid_score": 0.39003702998161316
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6254863142967224,
-          "sparse_similarity": 0.1510673314332962,
-          "hybrid_score": 0.3882768154144287
-        }
-      ]
+    "assertion_position": [
+      94,
+      98
     ],
-    "eng_translation": [
-      "Iron",
-      "Iron Deficiency Anemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "90176": 1.0,
-        "1551653": 1.0,
-        "1431589": 0.935833,
-        "601956": 0.920425,
-        "352913": 0.677951
-      },
-      "rapidfuzz": {
-        "90176": 1.0,
-        "1295240": 0.9,
-        "2672387": 0.9,
-        "1919588": 0.855,
-        "198624": 0.855
-      }
-    },
-    "candidate": {
-      "code": "90176",
-      "confidence": 1.0
-    }
+    "sentence": "Thuốc trước khi nhập viện: [ENTITY]."
   },
   {
     "text": "đau bụng dưới",
@@ -133,46 +32,11 @@
       165,
       178
     ],
-    "sentence": "Lịch sử bệnh hiện tại\n    Lý do nhập viện: Bắt đầu [ENTITY] và chảy máu nhiều\n    Triệu chứng hiện tại\n    - lower abdominal pain\n    - chảy máu nhiều\n    Các sự kiện trước khi nhập viện\n    - siêu âm được thực hiện vào [Date]\n    - huyết cầu tố là 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020222",
-          "document": "khoảng 29 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6361919641494751,
-          "sparse_similarity": 0.1891048699617386,
-          "hybrid_score": 0.41264840960502625
-        },
-        {
-          "id": "isHistorical_020192",
-          "document": "khoảng 28 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6335529685020447,
-          "sparse_similarity": 0.1888560652732849,
-          "hybrid_score": 0.4112045168876648
-        },
-        {
-          "id": "isHistorical_020024",
-          "document": "khoảng 21 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6348006129264832,
-          "sparse_similarity": 0.18632346391677856,
-          "hybrid_score": 0.41056203842163086
-        }
-      ]
+    "assertion_position": [
+      148,
+      161
     ],
-    "eng_translation": [
-      "Lower abdominal pain",
-      "Abdominal pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: Bắt đầu [ENTITY] và chảy máu nhiều."
   },
   {
     "text": "chảy máu nhiều",
@@ -181,46 +45,11 @@
       182,
       196
     ],
-    "sentence": "Lịch sử bệnh hiện tại\n    Lý do nhập viện: Bắt đầu đau bụng dưới và [ENTITY]\n    Triệu chứng hiện tại\n    - lower abdominal pain\n    - chảy máu nhiều\n    Các sự kiện trước khi nhập viện\n    - siêu âm được thực hiện vào [Date]\n    - huyết cầu tố là 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020222",
-          "document": "khoảng 29 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6395787596702576,
-          "sparse_similarity": 0.17817719280719757,
-          "hybrid_score": 0.408877968788147
-        },
-        {
-          "id": "isHistorical_020318",
-          "document": "khoảng 32 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.633978009223938,
-          "sparse_similarity": 0.18159767985343933,
-          "hybrid_score": 0.40778785943984985
-        },
-        {
-          "id": "isHistorical_020414",
-          "document": "khoảng 36 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6424195766448975,
-          "sparse_similarity": 0.17064252495765686,
-          "hybrid_score": 0.40653103590011597
-        }
-      ]
+    "assertion_position": [
+      165,
+      179
     ],
-    "eng_translation": [
-      "heavy bleeding",
-      "Excessive bleeding"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: Bắt đầu đau bụng dưới và [ENTITY]."
   },
   {
     "text": "lower",
@@ -229,62 +58,11 @@
       228,
       233
     ],
-    "sentence": "Lịch sử bệnh hiện tại\n    Lý do nhập viện: Bắt đầu đau bụng dưới và chảy máu nhiều\n    Triệu chứng hiện tại\n    - [ENTITY] abdominal pain\n    - chảy máu nhiều\n    Các sự kiện trước khi nhập viện\n    - siêu âm được thực hiện vào [Date]\n    - huyết cầu tố là 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020222",
-          "document": "khoảng 29 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.633620023727417,
-          "sparse_similarity": 0.18650303781032562,
-          "hybrid_score": 0.4100615382194519
-        },
-        {
-          "id": "isHistorical_020318",
-          "document": "khoảng 32 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6301232576370239,
-          "sparse_similarity": 0.18993371725082397,
-          "hybrid_score": 0.41002848744392395
-        },
-        {
-          "id": "isHistorical_020198",
-          "document": "khoảng 28 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6377689242362976,
-          "sparse_similarity": 0.1778695434331894,
-          "hybrid_score": 0.4078192412853241
-        }
-      ]
+    "assertion_position": [
+      203,
+      208
     ],
-    "eng_translation": [
-      "lower",
-      "Lower extremity deep vein thrombosis with associated pulmonary embolism"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I824Y9": 0.790749,
-        "I82409": 0.771395,
-        "I825Y9": 0.767179,
-        "I824Z9": 0.763442,
-        "I82499": 0.745517
-      },
-      "rapidfuzz": {
-        "L03126": 0.9,
-        "L043": 0.9,
-        "S82892S": 0.9,
-        "S62311D": 0.855,
-        "S92045G": 0.855,
-        "S92045D": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I824Y9",
-      "confidence": 0.711674
-    }
+    "sentence": "[ENTITY] abdominal pain."
   },
   {
     "text": "chảy máu nhiều",
@@ -293,46 +71,11 @@
       255,
       269
     ],
-    "sentence": "Lịch sử bệnh hiện tại\n    Lý do nhập viện: Bắt đầu đau bụng dưới và chảy máu nhiều\n    Triệu chứng hiện tại\n    - lower abdominal pain\n    - [ENTITY]\n    Các sự kiện trước khi nhập viện\n    - siêu âm được thực hiện vào [Date]\n    - huyết cầu tố là 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020222",
-          "document": "khoảng 29 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6288420557975769,
-          "sparse_similarity": 0.17831598222255707,
-          "hybrid_score": 0.4035790264606476
-        },
-        {
-          "id": "isHistorical_020318",
-          "document": "khoảng 32 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6250463724136353,
-          "sparse_similarity": 0.18136796355247498,
-          "hybrid_score": 0.4032071828842163
-        },
-        {
-          "id": "isHistorical_020414",
-          "document": "khoảng 36 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6323333978652954,
-          "sparse_similarity": 0.17153340578079224,
-          "hybrid_score": 0.4019334018230438
-        }
-      ]
+    "assertion_position": [
+      225,
+      239
     ],
-    "eng_translation": [
-      "heavy bleeding",
-      "Excessive bleeding"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "siêu âm",
@@ -341,46 +84,11 @@
       312,
       319
     ],
-    "sentence": "Lịch sử bệnh hiện tại\n    Lý do nhập viện: Bắt đầu đau bụng dưới và chảy máu nhiều\n    Triệu chứng hiện tại\n    - lower abdominal pain\n    - chảy máu nhiều\n    Các sự kiện trước khi nhập viện\n    - [ENTITY] được thực hiện vào [Date]\n    - huyết cầu tố là 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020222",
-          "document": "khoảng 29 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6255667209625244,
-          "sparse_similarity": 0.16729983687400818,
-          "hybrid_score": 0.3964332938194275
-        },
-        {
-          "id": "isHistorical_020192",
-          "document": "khoảng 28 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6232486963272095,
-          "sparse_similarity": 0.16710607707500458,
-          "hybrid_score": 0.3951773941516876
-        },
-        {
-          "id": "isHistorical_020198",
-          "document": "khoảng 28 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6297300457954407,
-          "sparse_similarity": 0.16000226140022278,
-          "hybrid_score": 0.3948661684989929
-        }
-      ]
+    "assertion_position": [
+      274,
+      281
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] được thực hiện vào [Date]."
   },
   {
     "text": "huyết cầu tố",
@@ -389,45 +97,11 @@
       352,
       364
     ],
-    "sentence": "Lịch sử bệnh hiện tại\n    Lý do nhập viện: Bắt đầu đau bụng dưới và chảy máu nhiều\n    Triệu chứng hiện tại\n    - lower abdominal pain\n    - chảy máu nhiều\n    Các sự kiện trước khi nhập viện\n    - siêu âm được thực hiện vào [Date]\n    - [ENTITY] là 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020300",
-          "document": "khoảng 32 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6308510899543762,
-          "sparse_similarity": 0.16283974051475525,
-          "hybrid_score": 0.39684540033340454
-        },
-        {
-          "id": "isHistorical_020318",
-          "document": "khoảng 32 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6313785314559937,
-          "sparse_similarity": 0.1601363718509674,
-          "hybrid_score": 0.39575743675231934
-        },
-        {
-          "id": "isHistorical_020222",
-          "document": "khoảng 29 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6319506168365479,
-          "sparse_similarity": 0.15724164247512817,
-          "hybrid_score": 0.394596129655838
-        }
-      ]
+    "assertion_position": [
+      309,
+      321
     ],
-    "eng_translation": [
-      "Hemoglobin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] là 26."
   },
   {
     "text": "26.1",
@@ -436,45 +110,11 @@
       368,
       372
     ],
-    "sentence": "Lịch sử bệnh hiện tại\n    Lý do nhập viện: Bắt đầu đau bụng dưới và chảy máu nhiều\n    Triệu chứng hiện tại\n    - lower abdominal pain\n    - chảy máu nhiều\n    Các sự kiện trước khi nhập viện\n    - siêu âm được thực hiện vào [Date]\n    - huyết cầu tố là [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_000016",
-          "document": "1 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5995420217514038,
-          "sparse_similarity": 0.16864389181137085,
-          "hybrid_score": 0.38409295678138733
-        },
-        {
-          "id": "isHistorical_024640",
-          "document": "từ 1 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6018003225326538,
-          "sparse_similarity": 0.16360178589820862,
-          "hybrid_score": 0.38270103931427
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6051762104034424,
-          "sparse_similarity": 0.15870478749275208,
-          "hybrid_score": 0.38194048404693604
-        }
-      ]
+    "assertion_position": [
+      325,
+      329
     ],
-    "eng_translation": [
-      "26.1"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "huyết cầu tố là [ENTITY]"
   },
   {
     "text": "u xơ tử cung",
@@ -483,65 +123,11 @@
       542,
       554
     ],
-    "sentence": "1 vào thời điểm đó\n    - Các lựa chọn điều trị được cân nhắc: điều trị bảo tồn, điều trị nội khoa, can thiệp x-quang và điều trị ngoại khoa\n    - Bệnh nhân yêu cầu cắt bỏ [ENTITY] qua đường bụng\n    - Tất cả các giấy tờ đồng ý đã được ký trước khi vào phòng mổ\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023875",
-          "document": "phía bên nội ba ruột đang điều trị [ENTITY].",
-          "dense_similarity": 0.6485034227371216,
-          "sparse_similarity": 0.13540609180927277,
-          "hybrid_score": 0.3919547498226166
-        },
-        {
-          "id": "isFamily_003348",
-          "document": "ba ruột bệnh nhân đang điều trị [ENTITY].",
-          "dense_similarity": 0.6555915474891663,
-          "sparse_similarity": 0.12406202405691147,
-          "hybrid_score": 0.38982677459716797
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6521638631820679,
-          "sparse_similarity": 0.11985750496387482,
-          "hybrid_score": 0.38601067662239075
-        }
-      ]
+    "assertion_position": [
+      489,
+      501
     ],
-    "eng_translation": [
-      "U xơ tử cung",
-      "Uterine fibroids",
-      "U xơ tử cung is a medical abbreviation. Let's expand it into its full English form: Uterine fibroid"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D259": 0.775751,
-        "D250": 0.709393,
-        "D251": 0.705039,
-        "N840": 0.667439,
-        "N8003": 0.636898
-      },
-      "rapidfuzz": {
-        "Z98891": 0.855,
-        "P036": 0.855,
-        "O624": 0.855,
-        "Z91118": 0.855,
-        "Z89429": 0.855,
-        "J8483": 0.525,
-        "Q763": 0.525,
-        "I2723": 0.525
-      }
-    },
-    "candidate": {
-      "code": "D259",
-      "confidence": 0.698176
-    }
+    "sentence": "Bệnh nhân yêu cầu cắt bỏ [ENTITY] qua đường bụng."
   },
   {
     "text": "đồng",
@@ -550,45 +136,11 @@
       595,
       599
     ],
-    "sentence": "1 vào thời điểm đó\n    - Các lựa chọn điều trị được cân nhắc: điều trị bảo tồn, điều trị nội khoa, can thiệp x-quang và điều trị ngoại khoa\n    - Bệnh nhân yêu cầu cắt bỏ u xơ tử cung qua đường bụng\n    - Tất cả các giấy tờ [ENTITY] ý đã được ký trước khi vào phòng mổ\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_023875",
-          "document": "phía bên nội ba ruột đang điều trị [ENTITY].",
-          "dense_similarity": 0.6013981103897095,
-          "sparse_similarity": 0.11179793626070023,
-          "hybrid_score": 0.35659801959991455
-        },
-        {
-          "id": "isFamily_007175",
-          "document": "bên nội của sản phụ đang điều trị [ENTITY].",
-          "dense_similarity": 0.599685549736023,
-          "sparse_similarity": 0.10983161628246307,
-          "hybrid_score": 0.3547585904598236
-        },
-        {
-          "id": "isFamily_003348",
-          "document": "ba ruột bệnh nhân đang điều trị [ENTITY].",
-          "dense_similarity": 0.596706211566925,
-          "sparse_similarity": 0.09854131191968918,
-          "hybrid_score": 0.3476237654685974
-        }
-      ]
+    "assertion_position": [
+      537,
+      541
     ],
-    "eng_translation": [
-      "same"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tất cả các giấy tờ [ENTITY] ý đã được ký trước khi vào phòng mổ."
   },
   {
     "text": "huyết cầu tố",
@@ -597,45 +149,11 @@
       694,
       706
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả phòng thí nghiệm: [ENTITY] 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_000929",
-          "document": "26 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7264325618743896,
-          "sparse_similarity": 0.07242759317159653,
-          "hybrid_score": 0.3994300663471222
-        },
-        {
-          "id": "isHistorical_012795",
-          "document": "cách đây 26 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.721556544303894,
-          "sparse_similarity": 0.07151195406913757,
-          "hybrid_score": 0.396534264087677
-        },
-        {
-          "id": "isHistorical_020133",
-          "document": "khoảng 26 ngày trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.7228356599807739,
-          "sparse_similarity": 0.06901196390390396,
-          "hybrid_score": 0.39592382311820984
-        }
-      ]
+    "assertion_position": [
+      629,
+      641
     ],
-    "eng_translation": [
-      "Hemoglobin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả phòng thí nghiệm: [ENTITY] 26."
   },
   {
     "text": "26.1",
@@ -644,45 +162,11 @@
       707,
       711
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Kết quả phòng thí nghiệm: huyết cầu tố [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000109",
-          "document": "cần xét nghiệm xác nhận [ENTITY].",
-          "dense_similarity": 0.6762399077415466,
-          "sparse_similarity": 0.12425602972507477,
-          "hybrid_score": 0.4002479612827301
-        },
-        {
-          "id": "isUncertain_000219",
-          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.6691913604736328,
-          "sparse_similarity": 0.12143145501613617,
-          "hybrid_score": 0.3953114151954651
-        },
-        {
-          "id": "isUncertain_000108",
-          "document": "cần làm thêm xét nghiệm xác định [ENTITY].",
-          "dense_similarity": 0.6681342124938965,
-          "sparse_similarity": 0.11752375960350037,
-          "hybrid_score": 0.3928290009498596
-        }
-      ]
+    "assertion_position": [
+      642,
+      646
     ],
-    "eng_translation": [
-      "26.1"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả phòng thí nghiệm: huyết cầu tố [ENTITY]"
   },
   {
     "text": "siêu âm",
@@ -691,45 +175,10 @@
       749,
       756
     ],
-    "sentence": "1\n    Kết quả chẩn đoán hình ảnh\n    - [ENTITY] tử cung vào [Date] cho thấy:\n    - Tử cung đo 14,2 x 8,8 x 7,5 cm\n    - U cơ trơn lớn nhất ở đoạn dưới của tử cung đo 4,1 x 4,8 x 4,1 cm\n    - Dải nội mạc tử cung không thể xác định được\n    - Cả hai buồng trứng đều có vẻ bình thường\n    - Không thấy dịch tự do trong túi cùng Douglas\n    - Không có giãn bể thận",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_007270",
-          "document": "[ENTITY] khoang 8 ngay truoc.",
-          "dense_similarity": 0.4720269441604614,
-          "sparse_similarity": 0.05069085955619812,
-          "hybrid_score": 0.26135891675949097
-        },
-        {
-          "id": "isHistorical_007271",
-          "document": "[ENTITY] khoang 8 thang truoc.",
-          "dense_similarity": 0.4670368432998657,
-          "sparse_similarity": 0.04682842642068863,
-          "hybrid_score": 0.25693264603614807
-        },
-        {
-          "id": "isHistorical_007269",
-          "document": "[ENTITY] khoang 8 nam truoc.",
-          "dense_similarity": 0.4659983515739441,
-          "sparse_similarity": 0.04704982787370682,
-          "hybrid_score": 0.25652408599853516
-        }
-      ]
+    "assertion_position": [
+      676,
+      683
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] tử cung vào [Date] cho thấy."
   }
 ]

@@ -6,58 +6,11 @@
       37,
       60
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: [ENTITY] do chấn thương, không đặc hiệu\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012890",
-          "document": "cách đây 3 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7468726634979248,
-          "sparse_similarity": 0.1973275989294052,
-          "hybrid_score": 0.4721001386642456
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7246202826499939,
-          "sparse_similarity": 0.20900855958461761,
-          "hybrid_score": 0.46681442856788635
-        },
-        {
-          "id": "isHistorical_012908",
-          "document": "cách đây 3 tuần nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7350906729698181,
-          "sparse_similarity": 0.18684980273246765,
-          "hybrid_score": 0.4609702229499817
-        }
-      ]
+    "assertion_position": [
+      35,
+      58
     ],
-    "eng_translation": [
-      "Intracranial hemorrhage, no"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I629": 0.867921,
-        "I619": 0.833573,
-        "I618": 0.753126,
-        "I612": 0.74249,
-        "P529": 0.738844
-      },
-      "rapidfuzz": {
-        "I629": 0.865385,
-        "T82837S": 0.855,
-        "T82838A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I629",
-      "confidence": 0.867667
-    }
+    "sentence": "Lý do nhập viện: [ENTITY] do chấn thương, không đặc hiệu."
   },
   {
     "text": "xuất huyết nội sọ",
@@ -66,61 +19,10 @@
       205,
       222
     ],
-    "sentence": "Đánh giá tại bệnh viện\nCác thủ thuật thực hiện: Truyền dịch yếu tố IX đậm đặc\nCác phát hiện chẩn đoán khác\n- [ENTITY] không do chấn thương, không đặc hiệu\n- Điều trị chống đông",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6163592338562012,
-          "sparse_similarity": 0.14348310232162476,
-          "hybrid_score": 0.37992116808891296
-        },
-        {
-          "id": "isUncertain_000092",
-          "document": "chẩn đoán phân biệt [ENTITY].",
-          "dense_similarity": 0.6299746632575989,
-          "sparse_similarity": 0.12349454313516617,
-          "hybrid_score": 0.3767346143722534
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6124561429023743,
-          "sparse_similarity": 0.1347745805978775,
-          "hybrid_score": 0.3736153542995453
-        }
-      ]
+    "assertion_position": [
+      201,
+      218
     ],
-    "eng_translation": [
-      "intracranial hemorrhage",
-      "Intracranial bleeding"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I629": 0.716825,
-        "I619": 0.652545,
-        "D699": 0.640445,
-        "R58": 0.615432,
-        "K922": 0.614839
-      },
-      "rapidfuzz": {
-        "I69269": 0.9,
-        "I69290": 0.9,
-        "I69291": 0.9,
-        "S06891S": 0.855,
-        "S06891D": 0.855,
-        "S06891A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I629",
-      "confidence": 0.645143
-    }
+    "sentence": "[ENTITY] không do chấn thương, không đặc hiệu."
   }
 ]

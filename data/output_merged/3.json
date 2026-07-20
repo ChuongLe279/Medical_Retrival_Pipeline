@@ -6,46 +6,11 @@
       67,
       75
     ],
-    "sentence": "Tiền sử bệnh\nCác tập kinh lâm sàng trước đây\n- Tái phát các cơn [ENTITY] trong khoảng vài năm nay.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "trước đây - tái phát các cơn [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019683",
-          "document": "khoảng 1 năm trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6778126955032349,
-          "sparse_similarity": 0.14743664860725403,
-          "hybrid_score": 0.41262465715408325
-        },
-        {
-          "id": "isHistorical_019969",
-          "document": "khoảng 2 năm trước mắc [ENTITY].",
-          "dense_similarity": 0.6736925840377808,
-          "sparse_similarity": 0.14973673224449158,
-          "hybrid_score": 0.41171467304229736
-        },
-        {
-          "id": "isHistorical_019707",
-          "document": "khoảng 10 năm trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6767010688781738,
-          "sparse_similarity": 0.14530952274799347,
-          "hybrid_score": 0.41100528836250305
-        }
-      ]
+    "assertion_position": [
+      64,
+      72
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tái phát các cơn [ENTITY] trong khoảng vài năm nay."
   },
   {
     "text": "bệnh tim mạch",
@@ -54,62 +19,11 @@
       217,
       230
     ],
-    "sentence": "Các bệnh lý nội khoa mạn tính\n- [ENTITY] do xơ vữa động mạch\n- tăng huyết áp\n- phình động mạch chủ nhỏ\nThuốc trước khi nhập viện lần này: không tuân thủ điều trị bằng thuốc\nCác yếu tố nguy cơ liên quan: Hiện đang  hút thuốc\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_024928",
-          "document": "từ 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6585180759429932,
-          "sparse_similarity": 0.17113211750984192,
-          "hybrid_score": 0.41482508182525635
-        },
-        {
-          "id": "isHistorical_019976",
-          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6560103893280029,
-          "sparse_similarity": 0.17153406143188477,
-          "hybrid_score": 0.41377222537994385
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6519762277603149,
-          "sparse_similarity": 0.17555949091911316,
-          "hybrid_score": 0.41376787424087524
-        }
-      ]
+    "assertion_position": [
+      211,
+      224
     ],
-    "eng_translation": [
-      "cardiovascular disease",
-      "Cardiac disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I519": 0.955106,
-        "I5189": 0.746198,
-        "I429": 0.718682,
-        "I099": 0.705557,
-        "I679": 0.694969
-      },
-      "rapidfuzz": {
-        "C946": 0.855,
-        "I289": 0.855,
-        "I279": 0.855,
-        "R011": 0.855,
-        "T82120D": 0.855,
-        "T82129A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I519",
-      "confidence": 0.859595
-    }
+    "sentence": "[ENTITY] do xơ vữa động mạch."
   },
   {
     "text": "xơ vữa động mạch",
@@ -118,62 +32,11 @@
       234,
       250
     ],
-    "sentence": "Các bệnh lý nội khoa mạn tính\n- bệnh tim mạch do [ENTITY]\n- tăng huyết áp\n- phình động mạch chủ nhỏ\nThuốc trước khi nhập viện lần này: không tuân thủ điều trị bằng thuốc\nCác yếu tố nguy cơ liên quan: Hiện đang  hút thuốc\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_024928",
-          "document": "từ 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6487760543823242,
-          "sparse_similarity": 0.16685643792152405,
-          "hybrid_score": 0.40781623125076294
-        },
-        {
-          "id": "isHistorical_019976",
-          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6456471681594849,
-          "sparse_similarity": 0.166983500123024,
-          "hybrid_score": 0.40631532669067383
-        },
-        {
-          "id": "isHistorical_000592",
-          "document": "2 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6409783363342285,
-          "sparse_similarity": 0.1706804633140564,
-          "hybrid_score": 0.40582939982414246
-        }
-      ]
+    "assertion_position": [
+      228,
+      244
     ],
-    "eng_translation": [
-      "Atherosclerosis",
-      "Arteriosclerosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I7090": 0.960917,
-        "I7091": 0.846441,
-        "I700": 0.836473,
-        "I672": 0.751668,
-        "I708": 0.727376
-      },
-      "rapidfuzz": {
-        "I70743": 0.9,
-        "I70291": 0.9,
-        "I70269": 0.9,
-        "I7090": 0.812903,
-        "I7091": 0.812903,
-        "I70735": 0.812903
-      }
-    },
-    "candidate": {
-      "code": "I7090",
-      "confidence": 0.946116
-    }
+    "sentence": "bệnh tim mạch do [ENTITY]."
   },
   {
     "text": "tăng huyết áp",
@@ -182,62 +45,11 @@
       253,
       266
     ],
-    "sentence": "Các bệnh lý nội khoa mạn tính\n- bệnh tim mạch do xơ vữa động mạch\n- [ENTITY]\n- phình động mạch chủ nhỏ\nThuốc trước khi nhập viện lần này: không tuân thủ điều trị bằng thuốc\nCác yếu tố nguy cơ liên quan: Hiện đang  hút thuốc\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6134266257286072,
-          "sparse_similarity": 0.17773786187171936,
-          "hybrid_score": 0.39558225870132446
-        },
-        {
-          "id": "isHistorical_022210",
-          "document": "trước lần nhập viện này bị [ENTITY].",
-          "dense_similarity": 0.6066951155662537,
-          "sparse_similarity": 0.17754961550235748,
-          "hybrid_score": 0.392122358083725
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6175296306610107,
-          "sparse_similarity": 0.14652985334396362,
-          "hybrid_score": 0.3820297420024872
-        }
-      ]
+    "assertion_position": [
+      246,
+      259
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "phình động mạch chủ nhỏ",
@@ -246,62 +58,11 @@
       269,
       292
     ],
-    "sentence": "Các bệnh lý nội khoa mạn tính\n- bệnh tim mạch do xơ vữa động mạch\n- tăng huyết áp\n- [ENTITY]\nThuốc trước khi nhập viện lần này: không tuân thủ điều trị bằng thuốc\nCác yếu tố nguy cơ liên quan: Hiện đang  hút thuốc\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.6107349395751953,
-          "sparse_similarity": 0.205535426735878,
-          "hybrid_score": 0.40813517570495605
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.6156632304191589,
-          "sparse_similarity": 0.17050501704216003,
-          "hybrid_score": 0.3930841088294983
-        },
-        {
-          "id": "isHistorical_019976",
-          "document": "khoảng 2 tháng trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6156809329986572,
-          "sparse_similarity": 0.15159271657466888,
-          "hybrid_score": 0.38363683223724365
-        }
-      ]
+    "assertion_position": [
+      261,
+      284
     ],
-    "eng_translation": [
-      "Small aortic aneurysm",
-      "Dilated aorta"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I77819": 0.802889,
-        "Q2544": 0.797265,
-        "I700": 0.734177,
-        "Q2542": 0.70365,
-        "I7100": 0.703618
-      },
-      "rapidfuzz": {
-        "A0819": 0.855,
-        "T82330D": 0.855,
-        "P052": 0.855,
-        "I4201": 0.855,
-        "I4209": 0.855,
-        "I4200": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I77819",
-      "confidence": 0.7226
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ngất xỉu",
@@ -310,46 +71,11 @@
       456,
       464
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn [ENTITY]\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_020270",
-          "document": "khoảng 30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6148166060447693,
-          "sparse_similarity": 0.1945854276418686,
-          "hybrid_score": 0.40470102429389954
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6129482984542847,
-          "sparse_similarity": 0.19603046774864197,
-          "hybrid_score": 0.4044893980026245
-        },
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6207452416419983,
-          "sparse_similarity": 0.1862228810787201,
-          "hybrid_score": 0.403484046459198
-        }
-      ]
+    "assertion_position": [
+      447,
+      455
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: cơn [ENTITY]."
   },
   {
     "text": "ngất xỉu trong xe",
@@ -358,46 +84,11 @@
       533,
       550
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- [ENTITY]\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011193",
-          "document": "con gái bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.603732705116272,
-          "sparse_similarity": 0.13978031277656555,
-          "hybrid_score": 0.37175649404525757
-        },
-        {
-          "id": "isFamily_011184",
-          "document": "con gái bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.5987250804901123,
-          "sparse_similarity": 0.1416822373867035,
-          "hybrid_score": 0.3702036738395691
-        },
-        {
-          "id": "isFamily_011238",
-          "document": "con gái của bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.6027880907058716,
-          "sparse_similarity": 0.1359391212463379,
-          "hybrid_score": 0.36936360597610474
-        }
-      ]
+    "assertion_position": [
+      525,
+      542
     ],
-    "eng_translation": [
-      "faint in the car",
-      "Syncope in the car"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "hét lên",
@@ -406,45 +97,11 @@
       576,
       583
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái [ENTITY]\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6218693852424622,
-          "sparse_similarity": 0.19173601269721985,
-          "hybrid_score": 0.4068027138710022
-        },
-        {
-          "id": "isHistorical_012914",
-          "document": "cách đây 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6140547394752502,
-          "sparse_similarity": 0.1964973360300064,
-          "hybrid_score": 0.40527603030204773
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6056036949157715,
-          "sparse_similarity": 0.2047109454870224,
-          "hybrid_score": 0.40515732765197754
-        }
-      ]
+    "assertion_position": [
+      567,
+      574
     ],
-    "eng_translation": [
-      "crying"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tỉnh dậy thấy cháu gái [ENTITY]."
   },
   {
     "text": "mất ý thức",
@@ -453,46 +110,11 @@
       595,
       605
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính [ENTITY] có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6250677108764648,
-          "sparse_similarity": 0.19010403752326965,
-          "hybrid_score": 0.40758585929870605
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6152222156524658,
-          "sparse_similarity": 0.19788561761379242,
-          "hybrid_score": 0.4065539240837097
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6095366477966309,
-          "sparse_similarity": 0.20350947976112366,
-          "hybrid_score": 0.40652304887771606
-        }
-      ]
+    "assertion_position": [
+      585,
+      595
     ],
-    "eng_translation": [
-      "loss of consciousness",
-      "Syncope"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ước tính [ENTITY] có thể trong 30 giây."
   },
   {
     "text": "đánh trống ngực",
@@ -501,46 +123,11 @@
       696,
       711
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không [ENTITY]\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6164790391921997,
-          "sparse_similarity": 0.18141129612922668,
-          "hybrid_score": 0.398945152759552
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6054054498672485,
-          "sparse_similarity": 0.18933464586734772,
-          "hybrid_score": 0.39737004041671753
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5998954176902771,
-          "sparse_similarity": 0.1945982724428177,
-          "hybrid_score": 0.3972468376159668
-        }
-      ]
+    "assertion_position": [
+      683,
+      698
     ],
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "quầng sáng",
@@ -549,46 +136,11 @@
       720,
       730
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không [ENTITY]\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.615795373916626,
-          "sparse_similarity": 0.17733125388622284,
-          "hybrid_score": 0.396563321352005
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6046096682548523,
-          "sparse_similarity": 0.18549369275569916,
-          "hybrid_score": 0.3950516879558563
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5984833836555481,
-          "sparse_similarity": 0.19077596068382263,
-          "hybrid_score": 0.39462965726852417
-        }
-      ]
+    "assertion_position": [
+      706,
+      716
     ],
-    "eng_translation": [
-      "optic disc",
-      "optic nerve head"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "chóng mặt",
@@ -597,46 +149,11 @@
       739,
       748
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không [ENTITY]\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6128422617912292,
-          "sparse_similarity": 0.17951937019824982,
-          "hybrid_score": 0.39618080854415894
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6026332974433899,
-          "sparse_similarity": 0.1871366798877716,
-          "hybrid_score": 0.39488500356674194
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5969998240470886,
-          "sparse_similarity": 0.19225046038627625,
-          "hybrid_score": 0.39462512731552124
-        }
-      ]
+    "assertion_position": [
+      724,
+      733
     ],
-    "eng_translation": [
-      "Dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "buồn nôn",
@@ -645,46 +162,11 @@
       757,
       765
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không [ENTITY]\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6141100525856018,
-          "sparse_similarity": 0.1755097508430481,
-          "hybrid_score": 0.39480990171432495
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6031984686851501,
-          "sparse_similarity": 0.18393465876579285,
-          "hybrid_score": 0.3935665488243103
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5973828434944153,
-          "sparse_similarity": 0.18918408453464508,
-          "hybrid_score": 0.3932834565639496
-        }
-      ]
+    "assertion_position": [
+      741,
+      749
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "đổ mồ hôi",
@@ -693,45 +175,11 @@
       774,
       783
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không [ENTITY]\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.61482173204422,
-          "sparse_similarity": 0.184400275349617,
-          "hybrid_score": 0.3996109962463379
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6054229736328125,
-          "sparse_similarity": 0.1917828619480133,
-          "hybrid_score": 0.3986029028892517
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5992732644081116,
-          "sparse_similarity": 0.1968647539615631,
-          "hybrid_score": 0.39806902408599854
-        }
-      ]
+    "assertion_position": [
+      757,
+      766
     ],
-    "eng_translation": [
-      "sweating"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không [ENTITY]."
   },
   {
     "text": "tiện",
@@ -740,46 +188,11 @@
       810,
       814
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại [ENTITY] hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6019885540008545,
-          "sparse_similarity": 0.18400315940380096,
-          "hybrid_score": 0.3929958641529083
-        },
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6102145314216614,
-          "sparse_similarity": 0.17549379169940948,
-          "hybrid_score": 0.39285415410995483
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5964400172233582,
-          "sparse_similarity": 0.1892431080341339,
-          "hybrid_score": 0.3928415775299072
-        }
-      ]
+    "assertion_position": [
+      792,
+      796
     ],
-    "eng_translation": [
-      "convenient",
-      "The query provided does not contain a medical term or concept. Therefore, the original query remains unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không mất kiểm soát đại [ENTITY] hoặc tiểu tiện."
   },
   {
     "text": "tiện",
@@ -788,46 +201,11 @@
       825,
       829
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu [ENTITY]\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011193",
-          "document": "con gái bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.5859794616699219,
-          "sparse_similarity": 0.12426434457302094,
-          "hybrid_score": 0.355121910572052
-        },
-        {
-          "id": "isFamily_011184",
-          "document": "con gái bệnh nhân bị [ENTITY].",
-          "dense_similarity": 0.582054078578949,
-          "sparse_similarity": 0.12581966817378998,
-          "hybrid_score": 0.3539368808269501
-        },
-        {
-          "id": "isFamily_011238",
-          "document": "con gái của bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.5846302509307861,
-          "sparse_similarity": 0.12053382396697998,
-          "hybrid_score": 0.35258203744888306
-        }
-      ]
+    "assertion_position": [
+      807,
+      811
     ],
-    "eng_translation": [
-      "convenient",
-      "The query provided does not contain a medical term or concept. Therefore, the original query remains unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không mất kiểm soát đại tiện hoặc tiểu [ENTITY]."
   },
   {
     "text": "đau chân",
@@ -836,46 +214,11 @@
       832,
       840
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- [ENTITY] sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6149024963378906,
-          "sparse_similarity": 0.18641479313373566,
-          "hybrid_score": 0.40065863728523254
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5990078449249268,
-          "sparse_similarity": 0.2009657621383667,
-          "hybrid_score": 0.39998680353164673
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6044195294380188,
-          "sparse_similarity": 0.19534532725811005,
-          "hybrid_score": 0.399882435798645
-        }
-      ]
+    "assertion_position": [
+      813,
+      821
     ],
-    "eng_translation": [
-      "Foot pain",
-      "Plantar pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] sau khi đi bộ vài chặng."
   },
   {
     "text": "đau ngực",
@@ -884,46 +227,11 @@
       867,
       875
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- [ENTITY]\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.613440215587616,
-          "sparse_similarity": 0.1815664917230606,
-          "hybrid_score": 0.3975033462047577
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5973085165023804,
-          "sparse_similarity": 0.19585706293582916,
-          "hybrid_score": 0.39658278226852417
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6027543544769287,
-          "sparse_similarity": 0.1903882622718811,
-          "hybrid_score": 0.3965713083744049
-        }
-      ]
+    "assertion_position": [
+      847,
+      855
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó thở",
@@ -932,46 +240,11 @@
       878,
       885
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- [ENTITY] khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6132135391235352,
-          "sparse_similarity": 0.1776956468820572,
-          "hybrid_score": 0.3954545855522156
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6030891537666321,
-          "sparse_similarity": 0.18634922802448273,
-          "hybrid_score": 0.3947191834449768
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5971564054489136,
-          "sparse_similarity": 0.19167567789554596,
-          "hybrid_score": 0.39441603422164917
-        }
-      ]
+    "assertion_position": [
+      857,
+      864
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] khi gắng sức."
   },
   {
     "text": "khó thở về đêm",
@@ -980,46 +253,11 @@
       901,
       915
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- [ENTITY]\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6163094639778137,
-          "sparse_similarity": 0.18061144649982452,
-          "hybrid_score": 0.3984604477882385
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.606207013130188,
-          "sparse_similarity": 0.18941305577754974,
-          "hybrid_score": 0.39781004190444946
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5996527075767517,
-          "sparse_similarity": 0.1948433816432953,
-          "hybrid_score": 0.3972480297088623
-        }
-      ]
+    "assertion_position": [
+      879,
+      893
     ],
-    "eng_translation": [
-      "nocturnal dyspnea",
-      "Nocturnal dyspnea is a common symptom that may indicate heart failure, particularly left-sided heart failure, as it often occurs due to fluid accumulation in the lungs when lying down. It can also be associated with other conditions such as asthma, chronic obstructive pulmonary disease (COPD), or pulmonary edema. The presence of nocturnal dyspnea should prompt further evaluation to determine the underlying cause and guide appropriate management."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó thở khi",
@@ -1028,45 +266,11 @@
       918,
       929
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- [ENTITY] nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6168105006217957,
-          "sparse_similarity": 0.18039903044700623,
-          "hybrid_score": 0.39860475063323975
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6057859659194946,
-          "sparse_similarity": 0.1888236105442047,
-          "hybrid_score": 0.3973047733306885
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.599880039691925,
-          "sparse_similarity": 0.19423797726631165,
-          "hybrid_score": 0.39705902338027954
-        }
-      ]
+    "assertion_position": [
+      895,
+      906
     ],
-    "eng_translation": [
-      "dyspnea when"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] nằm."
   },
   {
     "text": "phù mắt cá chân",
@@ -1075,46 +279,11 @@
       936,
       951
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- [ENTITY]\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6074922680854797,
-          "sparse_similarity": 0.19675515592098236,
-          "hybrid_score": 0.40212371945381165
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6015607714653015,
-          "sparse_similarity": 0.20265592634677887,
-          "hybrid_score": 0.4021083414554596
-        },
-        {
-          "id": "isHistorical_020270",
-          "document": "khoảng 30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6085395812988281,
-          "sparse_similarity": 0.19534768164157867,
-          "hybrid_score": 0.4019436240196228
-        }
-      ]
+    "assertion_position": [
+      912,
+      927
     ],
-    "eng_translation": [
-      "peripheral edema",
-      "Peripheral swelling"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đánh trống ngực",
@@ -1123,46 +292,11 @@
       954,
       969
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- [ENTITY]\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6060083508491516,
-          "sparse_similarity": 0.2043420821428299,
-          "hybrid_score": 0.40517520904541016
-        },
-        {
-          "id": "isHistorical_025204",
-          "document": "từ 30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6048344373703003,
-          "sparse_similarity": 0.20413930714130402,
-          "hybrid_score": 0.40448686480522156
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6106662154197693,
-          "sparse_similarity": 0.19827905297279358,
-          "hybrid_score": 0.4044726490974426
-        }
-      ]
+    "assertion_position": [
+      929,
+      944
     ],
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ngất xỉu",
@@ -1171,46 +305,11 @@
       972,
       980
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- [ENTITY]\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6052664518356323,
-          "sparse_similarity": 0.2054712325334549,
-          "hybrid_score": 0.405368834733963
-        },
-        {
-          "id": "isHistorical_025204",
-          "document": "từ 30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6038944125175476,
-          "sparse_similarity": 0.205266535282135,
-          "hybrid_score": 0.4045804738998413
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6094674468040466,
-          "sparse_similarity": 0.1990925371646881,
-          "hybrid_score": 0.40428000688552856
-        }
-      ]
+    "assertion_position": [
+      946,
+      954
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Xỉu trước",
@@ -1219,46 +318,11 @@
       983,
       992
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- [ENTITY]\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6110605001449585,
-          "sparse_similarity": 0.18711131811141968,
-          "hybrid_score": 0.3990859091281891
-        },
-        {
-          "id": "isHistorical_012914",
-          "document": "cách đây 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6013501286506653,
-          "sparse_similarity": 0.19185267388820648,
-          "hybrid_score": 0.3966014087200165
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5985762476921082,
-          "sparse_similarity": 0.19460265338420868,
-          "hybrid_score": 0.396589457988739
-        }
-      ]
+    "assertion_position": [
+      956,
+      965
     ],
-    "eng_translation": [
-      "Pre-existing condition",
-      "Pre-existing medical condition"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ngất xỉu",
@@ -1267,46 +331,11 @@
       1016,
       1024
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- [ENTITY]\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6220280528068542,
-          "sparse_similarity": 0.18722200393676758,
-          "hybrid_score": 0.4046250283718109
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6126060485839844,
-          "sparse_similarity": 0.19470009207725525,
-          "hybrid_score": 0.403653085231781
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6066164970397949,
-          "sparse_similarity": 0.20023083686828613,
-          "hybrid_score": 0.4034236669540405
-        }
-      ]
+    "assertion_position": [
+      989,
+      997
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó chịu",
@@ -1315,45 +344,11 @@
       1284,
       1292
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy [ENTITY]   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.625207781791687,
-          "sparse_similarity": 0.1970342993736267,
-          "hybrid_score": 0.41112104058265686
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.615371823310852,
-          "sparse_similarity": 0.20448845624923706,
-          "hybrid_score": 0.40993013978004456
-        },
-        {
-          "id": "isHistorical_020270",
-          "document": "khoảng 30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6165055632591248,
-          "sparse_similarity": 0.20310033857822418,
-          "hybrid_score": 0.40980294346809387
-        }
-      ]
+    "assertion_position": [
+      1249,
+      1257
     ],
-    "eng_translation": [
-      "discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy [ENTITY] cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực."
   },
   {
     "text": "khó chịu",
@@ -1362,45 +357,11 @@
       1304,
       1312
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy [ENTITY],không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6163599491119385,
-          "sparse_similarity": 0.186900332570076,
-          "hybrid_score": 0.40163013339042664
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6067959070205688,
-          "sparse_similarity": 0.195264995098114,
-          "hybrid_score": 0.40103045105934143
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6009083986282349,
-          "sparse_similarity": 0.20083633065223694,
-          "hybrid_score": 0.4008723497390747
-        }
-      ]
+    "assertion_position": [
+      1267,
+      1275
     ],
-    "eng_translation": [
-      "discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu cảm thấy [ENTITY],không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực."
   },
   {
     "text": "choáng váng",
@@ -1409,46 +370,11 @@
       1319,
       1330
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không [ENTITY], chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6150795221328735,
-          "sparse_similarity": 0.1786593794822693,
-          "hybrid_score": 0.3968694508075714
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6056295037269592,
-          "sparse_similarity": 0.1872556209564209,
-          "hybrid_score": 0.39644256234169006
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5992937088012695,
-          "sparse_similarity": 0.19259405136108398,
-          "hybrid_score": 0.39594388008117676
-        }
-      ]
+    "assertion_position": [
+      1282,
+      1293
     ],
-    "eng_translation": [
-      "dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu cảm thấy khó chịu,không [ENTITY], chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực."
   },
   {
     "text": "chóng mặt",
@@ -1457,46 +383,11 @@
       1332,
       1341
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, [ENTITY], buồn nôn, đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6139358282089233,
-          "sparse_similarity": 0.17739225924015045,
-          "hybrid_score": 0.3956640362739563
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6045447587966919,
-          "sparse_similarity": 0.18606971204280853,
-          "hybrid_score": 0.3953072428703308
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5984034538269043,
-          "sparse_similarity": 0.19137921929359436,
-          "hybrid_score": 0.39489132165908813
-        }
-      ]
+    "assertion_position": [
+      1295,
+      1304
     ],
-    "eng_translation": [
-      "Dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu cảm thấy khó chịu,không choáng váng, [ENTITY], buồn nôn, đánh trống ngực, hoặc đau ngực."
   },
   {
     "text": "buồn nôn",
@@ -1505,46 +396,11 @@
       1343,
       1351
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, [ENTITY], đánh trống ngực, hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6138346791267395,
-          "sparse_similarity": 0.1799686849117279,
-          "hybrid_score": 0.3969016671180725
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6043545007705688,
-          "sparse_similarity": 0.18855302035808563,
-          "hybrid_score": 0.39645376801490784
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5981737375259399,
-          "sparse_similarity": 0.19393731653690338,
-          "hybrid_score": 0.39605551958084106
-        }
-      ]
+    "assertion_position": [
+      1306,
+      1314
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu cảm thấy khó chịu,không choáng váng, chóng mặt, [ENTITY], đánh trống ngực, hoặc đau ngực."
   },
   {
     "text": "đánh trống ngực",
@@ -1553,46 +409,11 @@
       1353,
       1368
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, [ENTITY], hoặc đau ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6169648170471191,
-          "sparse_similarity": 0.1821538507938385,
-          "hybrid_score": 0.3995593190193176
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6072335243225098,
-          "sparse_similarity": 0.190527081489563,
-          "hybrid_score": 0.3988803029060364
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6013556122779846,
-          "sparse_similarity": 0.19595620036125183,
-          "hybrid_score": 0.39865589141845703
-        }
-      ]
+    "assertion_position": [
+      1316,
+      1331
     ],
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, [ENTITY], hoặc đau ngực."
   },
   {
     "text": "đau ngực",
@@ -1601,46 +422,11 @@
       1375,
       1383
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: cơn ngất xỉu\nThời điểm khởi phát triệu chứng: Hôm qua\nCác triệu chứng hiện tại\n- ngất xỉu trong xe\n- Tỉnh dậy thấy cháu gái hét lên\n- ước tính mất ý thức có thể trong 30 giây\n- Không có triệu chứng trước đó\n- Cảm thấy khỏe khi thức dậy\n- Không đánh trống ngực\n- Không quầng sáng\n- Không chóng mặt\n- Không buồn nôn\n- Không đổ mồ hôi\n- Không mất kiểm soát đại tiện hoặc tiểu tiện\n- đau chân sau khi đi bộ vài chặng\n- đau ngực\n- khó thở khi gắng sức\n- khó thở về đêm\n- khó thở khi nằm\n- phù mắt cá chân\n- đánh trống ngực\n- ngất xỉu\n- Xỉu trước\nĐặc điểm triệu chứng\n- ngất xỉu\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: 30 giây (ước tính)\n- Tần suất: Hơn một lần một tháng\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032417",
-          "document": "đã 30 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6214202642440796,
-          "sparse_similarity": 0.19250264763832092,
-          "hybrid_score": 0.40696144104003906
-        },
-        {
-          "id": "isHistorical_001198",
-          "document": "30 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6118409037590027,
-          "sparse_similarity": 0.20012600719928741,
-          "hybrid_score": 0.40598344802856445
-        },
-        {
-          "id": "isHistorical_001168",
-          "document": "30 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6058816313743591,
-          "sparse_similarity": 0.20580299198627472,
-          "hybrid_score": 0.40584230422973633
-        }
-      ]
+    "assertion_position": [
+      1338,
+      1346
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc [ENTITY]."
   },
   {
     "text": "ngất",
@@ -1649,46 +435,11 @@
       1425,
       1429
     ],
-    "sentence": "Không cảm nhận được triệu chứng sau cơn [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000101",
-          "document": "chưa có triệu chứng [ENTITY].",
-          "dense_similarity": 0.8563640117645264,
-          "sparse_similarity": 0.16747505962848663,
-          "hybrid_score": 0.5119195580482483
-        },
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.8295830488204956,
-          "sparse_similarity": 0.16804304718971252,
-          "hybrid_score": 0.49881303310394287
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.8239787817001343,
-          "sparse_similarity": 0.15970659255981445,
-          "hybrid_score": 0.49184268712997437
-        }
-      ]
+    "assertion_position": [
+      1388,
+      1392
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không cảm nhận được triệu chứng sau cơn [ENTITY]."
   },
   {
     "text": "đau chân",
@@ -1697,46 +448,11 @@
       1433,
       1441
     ],
-    "sentence": "- [ENTITY]:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- đau ngực:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi gắng sức:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở về đêm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi nằm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- phù mắt cá chân:\n- Vị trí: Mắt cá chân\n- đánh trống ngực:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- ngất xỉu:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_025018",
-          "document": "thân nhân đang mắc [ENTITY].",
-          "dense_similarity": 0.5734167695045471,
-          "sparse_similarity": 0.09245714545249939,
-          "hybrid_score": 0.33293694257736206
-        },
-        {
-          "id": "isFamily_025022",
-          "document": "thân nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5643938779830933,
-          "sparse_similarity": 0.08718424290418625,
-          "hybrid_score": 0.32578906416893005
-        },
-        {
-          "id": "isFamily_020139",
-          "document": "má người bệnh có [ENTITY].",
-          "dense_similarity": 0.5620357990264893,
-          "sparse_similarity": 0.08773352205753326,
-          "hybrid_score": 0.32488465309143066
-        }
-      ]
+    "assertion_position": [
+      1394,
+      1402
     ],
-    "eng_translation": [
-      "Foot pain",
-      "Plantar pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đau ngực",
@@ -1745,46 +461,11 @@
       1640,
       1648
     ],
-    "sentence": "- đau chân:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- [ENTITY]:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi gắng sức:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở về đêm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi nằm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- phù mắt cá chân:\n- Vị trí: Mắt cá chân\n- đánh trống ngực:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- ngất xỉu:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_026183",
-          "document": "từ 67 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.51082444190979,
-          "sparse_similarity": 0.061857834458351135,
-          "hybrid_score": 0.28634113073349
-        },
-        {
-          "id": "isHistorical_026375",
-          "document": "từ 74 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.513357400894165,
-          "sparse_similarity": 0.05848168581724167,
-          "hybrid_score": 0.28591954708099365
-        },
-        {
-          "id": "isHistorical_021231",
-          "document": "khoảng 67 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5119907855987549,
-          "sparse_similarity": 0.05976632982492447,
-          "hybrid_score": 0.28587856888771057
-        }
-      ]
+    "assertion_position": [
+      1591,
+      1599
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó thở",
@@ -1793,46 +474,11 @@
       1837,
       1844
     ],
-    "sentence": "- đau chân:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- đau ngực:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **[ENTITY] khi gắng sức:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở về đêm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi nằm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- phù mắt cá chân:\n- Vị trí: Mắt cá chân\n- đánh trống ngực:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- ngất xỉu:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5451048612594604,
-          "sparse_similarity": 0.06677018105983734,
-          "hybrid_score": 0.3059375286102295
-        },
-        {
-          "id": "isFamily_025022",
-          "document": "thân nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5388062596321106,
-          "sparse_similarity": 0.06991434097290039,
-          "hybrid_score": 0.3043603003025055
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5447096824645996,
-          "sparse_similarity": 0.061971601098775864,
-          "hybrid_score": 0.3033406436443329
-        }
-      ]
+    "assertion_position": [
+      1778,
+      1785
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "**[ENTITY] khi gắng sức:**."
   },
   {
     "text": "sức",
@@ -1841,45 +487,11 @@
       1854,
       1857
     ],
-    "sentence": "- đau chân:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- đau ngực:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi gắng [ENTITY]:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở về đêm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi nằm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- phù mắt cá chân:\n- Vị trí: Mắt cá chân\n- đánh trống ngực:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- ngất xỉu:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_025018",
-          "document": "thân nhân đang mắc [ENTITY].",
-          "dense_similarity": 0.5343310236930847,
-          "sparse_similarity": 0.07549212872982025,
-          "hybrid_score": 0.3049115836620331
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5398693084716797,
-          "sparse_similarity": 0.06505463272333145,
-          "hybrid_score": 0.30246198177337646
-        },
-        {
-          "id": "isFamily_025022",
-          "document": "thân nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5326052904129028,
-          "sparse_similarity": 0.069286048412323,
-          "hybrid_score": 0.3009456694126129
-        }
-      ]
+    "assertion_position": [
+      1795,
+      1798
     ],
-    "eng_translation": [
-      "sức"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "**khó thở khi gắng [ENTITY]:**."
   },
   {
     "text": "khó thở về đêm",
@@ -1888,46 +500,11 @@
       2052,
       2066
     ],
-    "sentence": "- đau chân:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- đau ngực:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi gắng sức:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **[ENTITY]:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi nằm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- phù mắt cá chân:\n- Vị trí: Mắt cá chân\n- đánh trống ngực:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- ngất xỉu:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021423",
-          "document": "khoảng 74 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5270036458969116,
-          "sparse_similarity": 0.04897789657115936,
-          "hybrid_score": 0.2879907786846161
-        },
-        {
-          "id": "isHistorical_025391",
-          "document": "từ 37 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5225740075111389,
-          "sparse_similarity": 0.0526210218667984,
-          "hybrid_score": 0.28759750723838806
-        },
-        {
-          "id": "isHistorical_020439",
-          "document": "khoảng 37 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5240647792816162,
-          "sparse_similarity": 0.051062315702438354,
-          "hybrid_score": 0.2875635623931885
-        }
-      ]
+    "assertion_position": [
+      1984,
+      1998
     ],
-    "eng_translation": [
-      "nocturnal dyspnea",
-      "Nocturnal dyspnea is a common symptom that may indicate heart failure, particularly left-sided heart failure, as it often occurs due to fluid accumulation in the lungs when lying down. It can also be associated with other conditions such as asthma, chronic obstructive pulmonary disease (COPD), or pulmonary edema. The presence of nocturnal dyspnea should prompt further evaluation to determine the underlying cause and guide appropriate management."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "**[ENTITY]:**."
   },
   {
     "text": "khó thở",
@@ -1936,46 +513,11 @@
       2256,
       2263
     ],
-    "sentence": "- đau chân:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- đau ngực:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi gắng sức:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở về đêm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **[ENTITY] khi nằm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- phù mắt cá chân:\n- Vị trí: Mắt cá chân\n- đánh trống ngực:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- ngất xỉu:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_025018",
-          "document": "thân nhân đang mắc [ENTITY].",
-          "dense_similarity": 0.5403845906257629,
-          "sparse_similarity": 0.0735488310456276,
-          "hybrid_score": 0.30696672201156616
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.545265257358551,
-          "sparse_similarity": 0.06682848930358887,
-          "hybrid_score": 0.30604687333106995
-        },
-        {
-          "id": "isFamily_025022",
-          "document": "thân nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.540073037147522,
-          "sparse_similarity": 0.07041347771883011,
-          "hybrid_score": 0.30524325370788574
-        }
-      ]
+    "assertion_position": [
+      2179,
+      2186
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "**[ENTITY] khi nằm:**."
   },
   {
     "text": "nằm",
@@ -1984,46 +526,11 @@
       2268,
       2271
     ],
-    "sentence": "- đau chân:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- đau ngực:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi gắng sức:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở về đêm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi [ENTITY]:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- phù mắt cá chân:\n- Vị trí: Mắt cá chân\n- đánh trống ngực:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- ngất xỉu:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_025018",
-          "document": "thân nhân đang mắc [ENTITY].",
-          "dense_similarity": 0.534629762172699,
-          "sparse_similarity": 0.06390739977359772,
-          "hybrid_score": 0.29926857352256775
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5386912226676941,
-          "sparse_similarity": 0.05940210074186325,
-          "hybrid_score": 0.29904666543006897
-        },
-        {
-          "id": "isFamily_025022",
-          "document": "thân nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5355397462844849,
-          "sparse_similarity": 0.062267810106277466,
-          "hybrid_score": 0.29890376329421997
-        }
-      ]
+    "assertion_position": [
+      2191,
+      2194
     ],
-    "eng_translation": [
-      "lying",
-      "Positioning"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "**khó thở khi [ENTITY]:**."
   },
   {
     "text": "phù mắt cá chân",
@@ -2032,46 +539,11 @@
       2459,
       2474
     ],
-    "sentence": "- đau chân:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- đau ngực:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi gắng sức:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở về đêm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi nằm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- [ENTITY]:\n- Vị trí: Mắt cá chân\n- đánh trống ngực:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- ngất xỉu:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_025019",
-          "document": "thân nhân đang điều trị [ENTITY].",
-          "dense_similarity": 0.5411597490310669,
-          "sparse_similarity": 0.03429423272609711,
-          "hybrid_score": 0.2877269983291626
-        },
-        {
-          "id": "isFamily_007153",
-          "document": "bên nội của người bệnh bị [ENTITY].",
-          "dense_similarity": 0.541058361530304,
-          "sparse_similarity": 0.03214699774980545,
-          "hybrid_score": 0.2866026759147644
-        },
-        {
-          "id": "isFamily_020139",
-          "document": "má người bệnh có [ENTITY].",
-          "dense_similarity": 0.5294477343559265,
-          "sparse_similarity": 0.04125937074422836,
-          "hybrid_score": 0.28535354137420654
-        }
-      ]
+    "assertion_position": [
+      2373,
+      2388
     ],
-    "eng_translation": [
-      "peripheral edema",
-      "Peripheral swelling"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "Mắt cá chân",
@@ -2080,46 +552,11 @@
       2486,
       2497
     ],
-    "sentence": "- đau chân:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- đau ngực:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi gắng sức:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở về đêm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi nằm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- phù mắt cá chân:\n- Vị trí: [ENTITY]\n- đánh trống ngực:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- ngất xỉu:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5350186824798584,
-          "sparse_similarity": 0.051209647208452225,
-          "hybrid_score": 0.29311415553092957
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5352122783660889,
-          "sparse_similarity": 0.0471581369638443,
-          "hybrid_score": 0.291185200214386
-        },
-        {
-          "id": "isFamily_007153",
-          "document": "bên nội của người bệnh bị [ENTITY].",
-          "dense_similarity": 0.5401663184165955,
-          "sparse_similarity": 0.041399434208869934,
-          "hybrid_score": 0.2907828688621521
-        }
-      ]
+    "assertion_position": [
+      2398,
+      2409
     ],
-    "eng_translation": [
-      "Foot ankle",
-      "Foot and Ankle"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Vị trí: [ENTITY]."
   },
   {
     "text": "đánh trống ngực",
@@ -2128,46 +565,11 @@
       2500,
       2515
     ],
-    "sentence": "- đau chân:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- đau ngực:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi gắng sức:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở về đêm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi nằm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- phù mắt cá chân:\n- Vị trí: Mắt cá chân\n- [ENTITY]:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- ngất xỉu:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020138",
-          "document": "má người bệnh bị [ENTITY].",
-          "dense_similarity": 0.5366120338439941,
-          "sparse_similarity": 0.040094248950481415,
-          "hybrid_score": 0.2883531451225281
-        },
-        {
-          "id": "isFamily_020139",
-          "document": "má người bệnh có [ENTITY].",
-          "dense_similarity": 0.5274044275283813,
-          "sparse_similarity": 0.04913756996393204,
-          "hybrid_score": 0.2882710099220276
-        },
-        {
-          "id": "isFamily_020058",
-          "document": "má bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.5344617962837219,
-          "sparse_similarity": 0.0416138656437397,
-          "hybrid_score": 0.28803783655166626
-        }
-      ]
+    "assertion_position": [
+      2411,
+      2426
     ],
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ngất xỉu",
@@ -2176,46 +578,11 @@
       2611,
       2619
     ],
-    "sentence": "- đau chân:\n- Vị trí: Chân\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Đi bộ vài chặng\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- đau ngực:\n- Vị trí: Ngực\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi gắng sức:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: Gắng sức\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở về đêm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **khó thở khi nằm:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- phù mắt cá chân:\n- Vị trí: Mắt cá chân\n- đánh trống ngực:\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- [ENTITY]:\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- các yếu tố làm nặng thêm: N/A\n- các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\n- **Xỉu trước:**\n- Vị trí: N/A\n- Mức độ nghiêm trọng: N/A\n- Thời gian: N/A\n- Tần suất: N/A\n- Chiếu xạ: N/A\n- Các yếu tố làm nặng thêm: N/A\n- Các yếu tố làm giảm: N/A\n- Các triệu chứng liên quan: N/A\nCác sự kiện trước khi nhập viện\n- Được đưa đến một bệnh viện OSH sau khi bị té ngã.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021423",
-          "document": "khoảng 74 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.525757908821106,
-          "sparse_similarity": 0.038675084710121155,
-          "hybrid_score": 0.28221648931503296
-        },
-        {
-          "id": "isHistorical_020439",
-          "document": "khoảng 37 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5240339636802673,
-          "sparse_similarity": 0.040361542254686356,
-          "hybrid_score": 0.2821977436542511
-        },
-        {
-          "id": "isHistorical_025391",
-          "document": "từ 37 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5223464965820312,
-          "sparse_similarity": 0.04110031947493553,
-          "hybrid_score": 0.28172340989112854
-        }
-      ]
+    "assertion_position": [
+      2517,
+      2525
     ],
-    "eng_translation": [
-      "Syncope",
-      "Fainting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "mạch",
@@ -2224,46 +591,11 @@
       3117,
       3121
     ],
-    "sentence": "- dấu hiệu sinh tồn ban đầu là [ENTITY] 83, huyết áp 159/72, nhịp thở 20, spo2 (độ bão hòa oxy) 94-95 RA.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000219",
-          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.6354164481163025,
-          "sparse_similarity": 0.19268999993801117,
-          "hybrid_score": 0.4140532314777374
-        },
-        {
-          "id": "isUncertain_000091",
-          "document": "chẩn đoán ban đầu [ENTITY].",
-          "dense_similarity": 0.6351639032363892,
-          "sparse_similarity": 0.1813841164112091,
-          "hybrid_score": 0.40827399492263794
-        },
-        {
-          "id": "isUncertain_000221",
-          "document": "xét nghiệm ban đầu không loại trừ [ENTITY].",
-          "dense_similarity": 0.6003370881080627,
-          "sparse_similarity": 0.17238864302635193,
-          "hybrid_score": 0.38636285066604614
-        }
-      ]
+    "assertion_position": [
+      3003,
+      3007
     ],
-    "eng_translation": [
-      "pulse",
-      "heart rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "dấu hiệu sinh tồn ban đầu là [ENTITY] 83, huyết áp 159/72, nhịp thở 20, spo2 (độ bão hòa oxy) 94-95 RA."
   },
   {
     "text": "83",
@@ -2272,45 +604,11 @@
       3122,
       3124
     ],
-    "sentence": "- dấu hiệu sinh tồn ban đầu là mạch [ENTITY], huyết áp 159/72, nhịp thở 20, spo2 (độ bão hòa oxy) 94-95 RA.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000219",
-          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.6163699626922607,
-          "sparse_similarity": 0.19381128251552582,
-          "hybrid_score": 0.4050906300544739
-        },
-        {
-          "id": "isUncertain_000091",
-          "document": "chẩn đoán ban đầu [ENTITY].",
-          "dense_similarity": 0.6224831342697144,
-          "sparse_similarity": 0.18170976638793945,
-          "hybrid_score": 0.4020964503288269
-        },
-        {
-          "id": "isUncertain_000221",
-          "document": "xét nghiệm ban đầu không loại trừ [ENTITY].",
-          "dense_similarity": 0.5870634317398071,
-          "sparse_similarity": 0.1709415316581726,
-          "hybrid_score": 0.37900248169898987
-        }
-      ]
+    "assertion_position": [
+      3008,
+      3010
     ],
-    "eng_translation": [
-      "83"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "dấu hiệu sinh tồn ban đầu là mạch [ENTITY], huyết áp 159/72, nhịp thở 20, spo2 (độ bão hòa oxy) 94-95 RA."
   },
   {
     "text": "huyết áp",
@@ -2319,46 +617,11 @@
       3126,
       3134
     ],
-    "sentence": "- dấu hiệu sinh tồn ban đầu là mạch 83, [ENTITY] 159/72, nhịp thở 20, spo2 (độ bão hòa oxy) 94-95 RA.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021663",
-          "document": "khoảng 83 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5730885863304138,
-          "sparse_similarity": 0.13747809827327728,
-          "hybrid_score": 0.35528334975242615
-        },
-        {
-          "id": "isHistorical_021951",
-          "document": "khoảng 94 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5734056234359741,
-          "sparse_similarity": 0.11707761883735657,
-          "hybrid_score": 0.34524160623550415
-        },
-        {
-          "id": "isHistorical_021633",
-          "document": "khoảng 82 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5786948800086975,
-          "sparse_similarity": 0.08197551965713501,
-          "hybrid_score": 0.33033519983291626
-        }
-      ]
+    "assertion_position": [
+      3012,
+      3020
     ],
-    "eng_translation": [
-      "Blood pressure",
-      "Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "dấu hiệu sinh tồn ban đầu là mạch 83, [ENTITY] 159/72, nhịp thở 20, spo2 (độ bão hòa oxy) 94-95 RA."
   },
   {
     "text": "159/72",
@@ -2367,48 +630,11 @@
       3135,
       3141
     ],
-    "sentence": "- dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp [ENTITY], nhịp thở 20, spo2 (độ bão hòa oxy) 94-95 RA.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021663",
-          "document": "khoảng 83 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5681833028793335,
-          "sparse_similarity": 0.15486235916614532,
-          "hybrid_score": 0.3615228235721588
-        },
-        {
-          "id": "isHistorical_021951",
-          "document": "khoảng 94 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5682660937309265,
-          "sparse_similarity": 0.1365508735179901,
-          "hybrid_score": 0.3524084687232971
-        },
-        {
-          "id": "isHistorical_021633",
-          "document": "khoảng 82 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5733312964439392,
-          "sparse_similarity": 0.09959683567285538,
-          "hybrid_score": 0.3364640772342682
-        }
-      ]
+    "assertion_position": [
+      3021,
+      3027
     ],
-    "eng_translation": [
-      "159/72",
-      "Hypertension, stage 1, isolated systolic",
-      "Hypertension",
-      "159 over 72"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp [ENTITY], nhịp thở 20, spo2 (độ bão hòa oxy) 94-95 RA."
   },
   {
     "text": "nhịp thở",
@@ -2417,46 +643,11 @@
       3143,
       3151
     ],
-    "sentence": "- dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp 159/72, [ENTITY] 20, spo2 (độ bão hòa oxy) 94-95 RA.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000219",
-          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.6008694767951965,
-          "sparse_similarity": 0.17107337713241577,
-          "hybrid_score": 0.38597142696380615
-        },
-        {
-          "id": "isUncertain_000091",
-          "document": "chẩn đoán ban đầu [ENTITY].",
-          "dense_similarity": 0.6080037951469421,
-          "sparse_similarity": 0.16222473978996277,
-          "hybrid_score": 0.38511425256729126
-        },
-        {
-          "id": "isUncertain_000221",
-          "document": "xét nghiệm ban đầu không loại trừ [ENTITY].",
-          "dense_similarity": 0.5710366368293762,
-          "sparse_similarity": 0.15426264703273773,
-          "hybrid_score": 0.3626496493816376
-        }
-      ]
+    "assertion_position": [
+      3029,
+      3037
     ],
-    "eng_translation": [
-      "respiratory rate",
-      "Minute ventilation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp 159/72, [ENTITY] 20, spo2 (độ bão hòa oxy) 94-95 RA."
   },
   {
     "text": "20",
@@ -2465,45 +656,11 @@
       3152,
       3154
     ],
-    "sentence": "- dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp 159/72, nhịp thở [ENTITY], spo2 (độ bão hòa oxy) 94-95 RA.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021663",
-          "document": "khoảng 83 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5625916719436646,
-          "sparse_similarity": 0.14840981364250183,
-          "hybrid_score": 0.3555007576942444
-        },
-        {
-          "id": "isHistorical_021633",
-          "document": "khoảng 82 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5723445415496826,
-          "sparse_similarity": 0.09398847818374634,
-          "hybrid_score": 0.3331665098667145
-        },
-        {
-          "id": "isHistorical_021627",
-          "document": "khoảng 82 năm trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.563422441482544,
-          "sparse_similarity": 0.10193755477666855,
-          "hybrid_score": 0.33267998695373535
-        }
-      ]
+    "assertion_position": [
+      3038,
+      3040
     ],
-    "eng_translation": [
-      "20"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp 159/72, nhịp thở [ENTITY], spo2 (độ bão hòa oxy) 94-95 RA."
   },
   {
     "text": "spo2 (độ bão hòa oxy)",
@@ -2512,46 +669,11 @@
       3156,
       3177
     ],
-    "sentence": "- dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp 159/72, nhịp thở 20, [ENTITY] 94-95 RA.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000219",
-          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.6113531589508057,
-          "sparse_similarity": 0.17714041471481323,
-          "hybrid_score": 0.39424678683280945
-        },
-        {
-          "id": "isUncertain_000091",
-          "document": "chẩn đoán ban đầu [ENTITY].",
-          "dense_similarity": 0.6103270649909973,
-          "sparse_similarity": 0.16691432893276215,
-          "hybrid_score": 0.3886207044124603
-        },
-        {
-          "id": "isUncertain_000221",
-          "document": "xét nghiệm ban đầu không loại trừ [ENTITY].",
-          "dense_similarity": 0.5743372440338135,
-          "sparse_similarity": 0.158432275056839,
-          "hybrid_score": 0.36638474464416504
-        }
-      ]
+    "assertion_position": [
+      3042,
+      3063
     ],
-    "eng_translation": [
-      "SpO2 (oxygen saturation)",
-      "Oxygen saturation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp 159/72, nhịp thở 20, [ENTITY] 94-95 RA."
   },
   {
     "text": "94-95",
@@ -2560,45 +682,11 @@
       3178,
       3183
     ],
-    "sentence": "- dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp 159/72, nhịp thở 20, spo2 (độ bão hòa oxy) [ENTITY] RA.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000219",
-          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.60345858335495,
-          "sparse_similarity": 0.18625956773757935,
-          "hybrid_score": 0.39485907554626465
-        },
-        {
-          "id": "isUncertain_000091",
-          "document": "chẩn đoán ban đầu [ENTITY].",
-          "dense_similarity": 0.6114335656166077,
-          "sparse_similarity": 0.17514851689338684,
-          "hybrid_score": 0.39329105615615845
-        },
-        {
-          "id": "isUncertain_000221",
-          "document": "xét nghiệm ban đầu không loại trừ [ENTITY].",
-          "dense_similarity": 0.5727626085281372,
-          "sparse_similarity": 0.16645634174346924,
-          "hybrid_score": 0.3696094751358032
-        }
-      ]
+    "assertion_position": [
+      3064,
+      3069
     ],
-    "eng_translation": [
-      "94-95"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp 159/72, nhịp thở 20, spo2 (độ bão hòa oxy) [ENTITY] RA."
   },
   {
     "text": "rung nhĩ",
@@ -2607,62 +695,11 @@
       3200,
       3208
     ],
-    "sentence": "- Phát hiện [ENTITY] kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000094",
-          "document": "chẩn đoán tạm thời [ENTITY].",
-          "dense_similarity": 0.6318240165710449,
-          "sparse_similarity": 0.07902204990386963,
-          "hybrid_score": 0.3554230332374573
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6266188621520996,
-          "sparse_similarity": 0.08164282143115997,
-          "hybrid_score": 0.3541308343410492
-        },
-        {
-          "id": "isHistorical_021447",
-          "document": "khoảng 75 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6361373066902161,
-          "sparse_similarity": 0.07083737850189209,
-          "hybrid_score": 0.3534873425960541
-        }
-      ]
+    "assertion_position": [
+      3084,
+      3092
     ],
-    "eng_translation": [
-      "Atrial fibrillation",
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I480": 1.0,
-        "I4891": 0.978406,
-        "I4821": 0.894503,
-        "I4820": 0.803449,
-        "I4901": 0.799594
-      },
-      "rapidfuzz": {
-        "I480": 1.0,
-        "I4820": 0.9,
-        "I4821": 0.9,
-        "I4891": 0.9,
-        "G44039": 0.855,
-        "I231": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I480",
-      "confidence": 1.0
-    }
+    "sentence": "Phát hiện [ENTITY] kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối."
   },
   {
     "text": "thất nhanh",
@@ -2671,46 +708,11 @@
       3221,
       3231
     ],
-    "sentence": "- Phát hiện rung nhĩ kèm đáp ứng [ENTITY] mới ở mức 130-150, sau đó là nhịp tim chậm tương đối.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021591",
-          "document": "khoảng 80 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6303820013999939,
-          "sparse_similarity": 0.061278000473976135,
-          "hybrid_score": 0.3458299934864044
-        },
-        {
-          "id": "isHistorical_021447",
-          "document": "khoảng 75 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6300858855247498,
-          "sparse_similarity": 0.06118146330118179,
-          "hybrid_score": 0.34563368558883667
-        },
-        {
-          "id": "isHistorical_019743",
-          "document": "khoảng 100 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6251130700111389,
-          "sparse_similarity": 0.06527353078126907,
-          "hybrid_score": 0.3451932966709137
-        }
-      ]
+    "assertion_position": [
+      3105,
+      3115
     ],
-    "eng_translation": [
-      "Sinus tachycardia",
-      "Tachycardia with sinus origin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phát hiện rung nhĩ kèm đáp ứng [ENTITY] mới ở mức 130-150, sau đó là nhịp tim chậm tương đối."
   },
   {
     "text": "nhịp tim chậm",
@@ -2719,46 +721,11 @@
       3261,
       3274
     ],
-    "sentence": "- Phát hiện rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là [ENTITY] tương đối.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019743",
-          "document": "khoảng 100 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6326504349708557,
-          "sparse_similarity": 0.0676645040512085,
-          "hybrid_score": 0.3501574695110321
-        },
-        {
-          "id": "isHistorical_021591",
-          "document": "khoảng 80 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6334885358810425,
-          "sparse_similarity": 0.06345118582248688,
-          "hybrid_score": 0.3484698534011841
-        },
-        {
-          "id": "isHistorical_021327",
-          "document": "khoảng 70 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.631132185459137,
-          "sparse_similarity": 0.06531769782304764,
-          "hybrid_score": 0.348224937915802
-        }
-      ]
+    "assertion_position": [
+      3145,
+      3158
     ],
-    "eng_translation": [
-      "bradycardia",
-      "Slow heart rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Phát hiện rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là [ENTITY] tương đối."
   },
   {
     "text": "điện tâm đồ (ecg)",
@@ -2767,47 +734,11 @@
       3288,
       3305
     ],
-    "sentence": "- [ENTITY] cho thấy bằng chứng có thể là nhồi máu cơ tim vùng dưới cũ và những thay đổi sóng T không đặc hiệu thay đổi sóng t.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.6148974895477295,
-          "sparse_similarity": 0.0922573134303093,
-          "hybrid_score": 0.3535774052143097
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6284152269363403,
-          "sparse_similarity": 0.07579377293586731,
-          "hybrid_score": 0.3521044850349426
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6223392486572266,
-          "sparse_similarity": 0.07364365458488464,
-          "hybrid_score": 0.3479914665222168
-        }
-      ]
+    "assertion_position": [
+      3170,
+      3187
     ],
-    "eng_translation": [
-      "Electrocardiogram (ECG)",
-      "Cardiac Electrocardiogram",
-      "Electrocardiogram (Electrocardiogram)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] cho thấy bằng chứng có thể là nhồi máu cơ tim vùng dưới cũ và những thay đổi sóng T không đặc hiệu thay đổi sóng t."
   },
   {
     "text": "nhồi máu cơ tim vùng dưới",
@@ -2816,61 +747,11 @@
       3336,
       3361
     ],
-    "sentence": "- điện tâm đồ (ecg) cho thấy bằng chứng có thể là [ENTITY] cũ và những thay đổi sóng T không đặc hiệu thay đổi sóng t.",
-    "assertion_result": {
-      "tag": "isUncertain",
-      "confidence": 1.0,
-      "evidence": "có thể là [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.6316786408424377,
-          "sparse_similarity": 0.10226230323314667,
-          "hybrid_score": 0.3669704794883728
-        },
-        {
-          "id": "isUncertain_000178",
-          "document": "lâm sàng không loại trừ [ENTITY].",
-          "dense_similarity": 0.6068448424339294,
-          "sparse_similarity": 0.0986841693520546,
-          "hybrid_score": 0.3527645170688629
-        },
-        {
-          "id": "isUncertain_000093",
-          "document": "chẩn đoán sơ bộ [ENTITY].",
-          "dense_similarity": 0.6260396838188171,
-          "sparse_similarity": 0.07205940783023834,
-          "hybrid_score": 0.34904953837394714
-        }
-      ]
+    "assertion_position": [
+      3218,
+      3243
     ],
-    "eng_translation": [
-      "Myocardial infarction, inferior wall",
-      "Inferior wall myocardial infarction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I21A1": 0.721071,
-        "I221": 0.674972,
-        "I252": 0.636067,
-        "I2119": 0.615789,
-        "I219": 0.614351
-      },
-      "rapidfuzz": {
-        "I252": 0.867391,
-        "W16831S": 0.855,
-        "S21212S": 0.855,
-        "S31639D": 0.855,
-        "S35349D": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I252",
-      "confidence": 0.659199
-    }
+    "sentence": "điện tâm đồ (ecg) cho thấy bằng chứng có thể là [ENTITY] cũ và những thay đổi sóng T không đặc hiệu thay đổi sóng t."
   },
   {
     "text": "công thức máu",
@@ -2879,46 +760,11 @@
       3465,
       3478
     ],
-    "sentence": "- bảng công thức sinh hóa máu cơ bản, bảng [ENTITY], bảng chức năng gan và bản phân tích nước tiểu đều bình thườngbình thườngbình thườngbình thường.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000091",
-          "document": "chẩn đoán ban đầu [ENTITY].",
-          "dense_similarity": 0.566344141960144,
-          "sparse_similarity": 0.0711313784122467,
-          "hybrid_score": 0.3187377452850342
-        },
-        {
-          "id": "isUncertain_000093",
-          "document": "chẩn đoán sơ bộ [ENTITY].",
-          "dense_similarity": 0.5662641525268555,
-          "sparse_similarity": 0.07030290365219116,
-          "hybrid_score": 0.3182835280895233
-        },
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5547911524772644,
-          "sparse_similarity": 0.07889477908611298,
-          "hybrid_score": 0.3168429732322693
-        }
-      ]
+    "assertion_position": [
+      3345,
+      3358
     ],
-    "eng_translation": [
-      "Complete blood count (CBC)",
-      "Full blood count (FBC)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "bảng công thức sinh hóa máu cơ bản, bảng [ENTITY], bảng chức năng gan và bản phân tích nước tiểu đều bình thườngbình thườngbình thườngbình thường."
   },
   {
     "text": "phân tích nước tiểu",
@@ -2927,45 +773,11 @@
       3506,
       3525
     ],
-    "sentence": "- bảng công thức sinh hóa máu cơ bản, bảng công thức máu, bảng chức năng gan và bản [ENTITY] đều bình thườngbình thườngbình thườngbình thường.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000126",
-          "document": "cấy máu không ghi nhận [ENTITY].",
-          "dense_similarity": 0.5214873552322388,
-          "sparse_similarity": 0.11613120138645172,
-          "hybrid_score": 0.31880927085876465
-        },
-        {
-          "id": "isUncertain_000093",
-          "document": "chẩn đoán sơ bộ [ENTITY].",
-          "dense_similarity": 0.5469090342521667,
-          "sparse_similarity": 0.07207851111888885,
-          "hybrid_score": 0.3094937801361084
-        },
-        {
-          "id": "isUncertain_000091",
-          "document": "chẩn đoán ban đầu [ENTITY].",
-          "dense_similarity": 0.5462968349456787,
-          "sparse_similarity": 0.07252677530050278,
-          "hybrid_score": 0.30941179394721985
-        }
-      ]
+    "assertion_position": [
+      3386,
+      3405
     ],
-    "eng_translation": [
-      "urinalysis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "bảng công thức sinh hóa máu cơ bản, bảng công thức máu, bảng chức năng gan và bản [ENTITY] đều bình thườngbình thườngbình thườngbình thường."
   },
   {
     "text": "troponin",
@@ -2974,47 +786,11 @@
       3578,
       3586
     ],
-    "sentence": "- [ENTITY] 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000205",
-          "document": "không có [ENTITY].",
-          "dense_similarity": 0.7801198959350586,
-          "sparse_similarity": 0.15705697238445282,
-          "hybrid_score": 0.4685884416103363
-        },
-        {
-          "id": "isFamily_000357",
-          "document": "[ENTITY] o me.",
-          "dense_similarity": 0.7623549699783325,
-          "sparse_similarity": 0.1706053614616394,
-          "hybrid_score": 0.46648016571998596
-        },
-        {
-          "id": "isFamily_000170",
-          "document": "[ENTITY] o bo.",
-          "dense_similarity": 0.7713315486907959,
-          "sparse_similarity": 0.15957197546958923,
-          "hybrid_score": 0.46545177698135376
-        }
-      ]
+    "assertion_position": [
+      3456,
+      3464
     ],
-    "eng_translation": [
-      "troponin",
-      "Troponin elevation",
-      "Cardiac troponin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 0."
   },
   {
     "text": "0.01",
@@ -3023,45 +799,11 @@
       3587,
       3591
     ],
-    "sentence": "- troponin [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_017196",
-          "document": "dot truoc [ENTITY].",
-          "dense_similarity": 0.7211414575576782,
-          "sparse_similarity": 0.07929667830467224,
-          "hybrid_score": 0.4002190828323364
-        },
-        {
-          "id": "isHistorical_000037",
-          "document": "1 tuan truoc [ENTITY].",
-          "dense_similarity": 0.6999551653862,
-          "sparse_similarity": 0.0750407874584198,
-          "hybrid_score": 0.3874979615211487
-        },
-        {
-          "id": "isHistorical_007812",
-          "document": "[ENTITY] trong dot truoc.",
-          "dense_similarity": 0.683053731918335,
-          "sparse_similarity": 0.08998112380504608,
-          "hybrid_score": 0.3865174353122711
-        }
-      ]
+    "assertion_position": [
+      3465,
+      3469
     ],
-    "eng_translation": [
-      "0.01"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "troponin [ENTITY]"
   },
   {
     "text": "chụp x-quang",
@@ -3070,46 +812,11 @@
       3595,
       3607
     ],
-    "sentence": "- [ENTITY] ngực cho thấy tim to nhưng không có bất thường nào khác.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.6556752324104309,
-          "sparse_similarity": 0.1289500743150711,
-          "hybrid_score": 0.3923126459121704
-        },
-        {
-          "id": "isHistorical_007758",
-          "document": "[ENTITY] không còn triệu chứng.",
-          "dense_similarity": 0.6329226493835449,
-          "sparse_similarity": 0.1427539438009262,
-          "hybrid_score": 0.38783830404281616
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.6471909284591675,
-          "sparse_similarity": 0.12360328435897827,
-          "hybrid_score": 0.3853971064090729
-        }
-      ]
+    "assertion_position": [
+      3471,
+      3483
     ],
-    "eng_translation": [
-      "X-ray imaging",
-      "Radiographic imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] ngực cho thấy tim to nhưng không có bất thường nào khác."
   },
   {
     "text": "chụp cắt lớp vi tính",
@@ -3118,46 +825,11 @@
       3667,
       3687
     ],
-    "sentence": "- [ENTITY] sọ não bình thường.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_000410",
-          "document": "[ENTITY] o ong noi.",
-          "dense_similarity": 0.7151845097541809,
-          "sparse_similarity": 0.11905477195978165,
-          "hybrid_score": 0.4171196520328522
-        },
-        {
-          "id": "isFamily_000124",
-          "document": "[ENTITY] o ba noi.",
-          "dense_similarity": 0.7025904655456543,
-          "sparse_similarity": 0.12219129502773285,
-          "hybrid_score": 0.41239088773727417
-        },
-        {
-          "id": "isFamily_000402",
-          "document": "[ENTITY] o ong noi bn.",
-          "dense_similarity": 0.713718056678772,
-          "sparse_similarity": 0.10689718276262283,
-          "hybrid_score": 0.4103076159954071
-        }
-      ]
+    "assertion_position": [
+      3541,
+      3561
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] sọ não bình thường."
   },
   {
     "text": "công thức máu",
@@ -3166,46 +838,11 @@
       4027,
       4040
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- bảng công thức sinh hóa máu cơ bản bình thường\n- bảng [ENTITY] bình thường\n- bảng chức năng gan bình thường\n- bản phân tích nước tiểu bình thường\n- troponin 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000040",
-          "document": "[ENTITY] xét nghiệm âm tính.",
-          "dense_similarity": 0.5838242769241333,
-          "sparse_similarity": 0.16687661409378052,
-          "hybrid_score": 0.3753504455089569
-        },
-        {
-          "id": "isNegated_000239",
-          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.5985662937164307,
-          "sparse_similarity": 0.14382362365722656,
-          "hybrid_score": 0.3711949586868286
-        },
-        {
-          "id": "isNegated_000238",
-          "document": "kết quả xét nghiệm không ghi nhận [ENTITY].",
-          "dense_similarity": 0.604792594909668,
-          "sparse_similarity": 0.13310064375400543,
-          "hybrid_score": 0.3689466118812561
-        }
-      ]
+    "assertion_position": [
+      3893,
+      3906
     ],
-    "eng_translation": [
-      "Complete blood count (CBC)",
-      "Full blood count (FBC)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "bảng [ENTITY] bình thường."
   },
   {
     "text": "phân tích nước tiểu",
@@ -3214,45 +851,11 @@
       4092,
       4111
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- bảng công thức sinh hóa máu cơ bản bình thường\n- bảng công thức máu bình thường\n- bảng chức năng gan bình thường\n- bản [ENTITY] bình thường\n- troponin 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000040",
-          "document": "[ENTITY] xét nghiệm âm tính.",
-          "dense_similarity": 0.5792263150215149,
-          "sparse_similarity": 0.16653412580490112,
-          "hybrid_score": 0.372880220413208
-        },
-        {
-          "id": "isNegated_000239",
-          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.6008912920951843,
-          "sparse_similarity": 0.14295202493667603,
-          "hybrid_score": 0.3719216585159302
-        },
-        {
-          "id": "isNegated_000238",
-          "document": "kết quả xét nghiệm không ghi nhận [ENTITY].",
-          "dense_similarity": 0.6075694561004639,
-          "sparse_similarity": 0.1322835087776184,
-          "hybrid_score": 0.36992648243904114
-        }
-      ]
+    "assertion_position": [
+      3956,
+      3975
     ],
-    "eng_translation": [
-      "urinalysis"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "bản [ENTITY] bình thường."
   },
   {
     "text": "troponin",
@@ -3261,47 +864,11 @@
       4126,
       4134
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- bảng công thức sinh hóa máu cơ bản bình thường\n- bảng công thức máu bình thường\n- bảng chức năng gan bình thường\n- bản phân tích nước tiểu bình thường\n- [ENTITY] 0.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000040",
-          "document": "[ENTITY] xét nghiệm âm tính.",
-          "dense_similarity": 0.5839462876319885,
-          "sparse_similarity": 0.16392609477043152,
-          "hybrid_score": 0.37393617630004883
-        },
-        {
-          "id": "isNegated_000238",
-          "document": "kết quả xét nghiệm không ghi nhận [ENTITY].",
-          "dense_similarity": 0.608687698841095,
-          "sparse_similarity": 0.13390766084194183,
-          "hybrid_score": 0.371297687292099
-        },
-        {
-          "id": "isNegated_000239",
-          "document": "kết quả xét nghiệm không phát hiện [ENTITY].",
-          "dense_similarity": 0.595137894153595,
-          "sparse_similarity": 0.14420942962169647,
-          "hybrid_score": 0.3696736693382263
-        }
-      ]
+    "assertion_position": [
+      3989,
+      3997
     ],
-    "eng_translation": [
-      "troponin",
-      "Troponin elevation",
-      "Cardiac troponin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 0."
   },
   {
     "text": "0.01",
@@ -3310,45 +877,11 @@
       4135,
       4139
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả xét nghiệm\n- bảng công thức sinh hóa máu cơ bản bình thường\n- bảng công thức máu bình thường\n- bảng chức năng gan bình thường\n- bản phân tích nước tiểu bình thường\n- troponin [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000109",
-          "document": "cần xét nghiệm xác nhận [ENTITY].",
-          "dense_similarity": 0.5777950286865234,
-          "sparse_similarity": 0.15836240351200104,
-          "hybrid_score": 0.36807870864868164
-        },
-        {
-          "id": "isUncertain_000029",
-          "document": "[ENTITY] cần làm thêm xét nghiệm.",
-          "dense_similarity": 0.5699211955070496,
-          "sparse_similarity": 0.15959857404232025,
-          "hybrid_score": 0.3647598922252655
-        },
-        {
-          "id": "isUncertain_000219",
-          "document": "xét nghiệm ban đầu gợi ý [ENTITY].",
-          "dense_similarity": 0.5741376280784607,
-          "sparse_similarity": 0.1491217017173767,
-          "hybrid_score": 0.3616296648979187
-        }
-      ]
+    "assertion_position": [
+      3998,
+      4002
     ],
-    "eng_translation": [
-      "0.01"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "troponin [ENTITY]"
   },
   {
     "text": "rung nhĩ",
@@ -3357,62 +890,11 @@
       4142,
       4150
     ],
-    "sentence": "01\n- [ENTITY] kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối\n- Có thể là nhồi máu cơ tim vùng dưới cũ (điện tâm đồ (ecg))\n- thay đổi sóng t không đặc hiệu (điện tâm đồ (ecg))\nKết quả hình ảnh\n- Tim to (chụp x-quang ngực)\n- chụp cắt lớp vi tính sọ não bình thường",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5443675518035889,
-          "sparse_similarity": 0.06008228659629822,
-          "hybrid_score": 0.30222493410110474
-        },
-        {
-          "id": "isHistorical_012525",
-          "document": "cách đây 15 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5421816110610962,
-          "sparse_similarity": 0.059391532093286514,
-          "hybrid_score": 0.3007865846157074
-        },
-        {
-          "id": "isHistorical_019695",
-          "document": "khoảng 1 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5448036789894104,
-          "sparse_similarity": 0.055627040565013885,
-          "hybrid_score": 0.30021536350250244
-        }
-      ]
+    "assertion_position": [
+      4004,
+      4012
     ],
-    "eng_translation": [
-      "Atrial fibrillation",
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I480": 1.0,
-        "I4891": 0.978406,
-        "I4821": 0.894503,
-        "I4820": 0.803449,
-        "I4901": 0.799594
-      },
-      "rapidfuzz": {
-        "I480": 1.0,
-        "I4820": 0.9,
-        "I4821": 0.9,
-        "I4891": 0.9,
-        "G44039": 0.855,
-        "I231": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I480",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối."
   },
   {
     "text": "thất nhanh",
@@ -3421,46 +903,11 @@
       4163,
       4173
     ],
-    "sentence": "01\n- rung nhĩ kèm đáp ứng [ENTITY] mới ở mức 130-150, sau đó là nhịp tim chậm tương đối\n- Có thể là nhồi máu cơ tim vùng dưới cũ (điện tâm đồ (ecg))\n- thay đổi sóng t không đặc hiệu (điện tâm đồ (ecg))\nKết quả hình ảnh\n- Tim to (chụp x-quang ngực)\n- chụp cắt lớp vi tính sọ não bình thường",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021591",
-          "document": "khoảng 80 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5631970167160034,
-          "sparse_similarity": 0.053971000015735626,
-          "hybrid_score": 0.3085840046405792
-        },
-        {
-          "id": "isHistorical_012357",
-          "document": "cách đây 1 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.557240903377533,
-          "sparse_similarity": 0.059441231191158295,
-          "hybrid_score": 0.30834105610847473
-        },
-        {
-          "id": "isHistorical_019695",
-          "document": "khoảng 1 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5602300763130188,
-          "sparse_similarity": 0.0550352968275547,
-          "hybrid_score": 0.3076326847076416
-        }
-      ]
+    "assertion_position": [
+      4025,
+      4035
     ],
-    "eng_translation": [
-      "Sinus tachycardia",
-      "Tachycardia with sinus origin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "rung nhĩ kèm đáp ứng [ENTITY] mới ở mức 130-150, sau đó là nhịp tim chậm tương đối."
   },
   {
     "text": "nhịp tim chậm",
@@ -3469,46 +916,11 @@
       4203,
       4216
     ],
-    "sentence": "01\n- rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là [ENTITY] tương đối\n- Có thể là nhồi máu cơ tim vùng dưới cũ (điện tâm đồ (ecg))\n- thay đổi sóng t không đặc hiệu (điện tâm đồ (ecg))\nKết quả hình ảnh\n- Tim to (chụp x-quang ngực)\n- chụp cắt lớp vi tính sọ não bình thường",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021591",
-          "document": "khoảng 80 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5731703639030457,
-          "sparse_similarity": 0.0539543479681015,
-          "hybrid_score": 0.3135623633861542
-        },
-        {
-          "id": "isHistorical_021585",
-          "document": "khoảng 80 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5647300481796265,
-          "sparse_similarity": 0.05766008049249649,
-          "hybrid_score": 0.3111950755119324
-        },
-        {
-          "id": "isHistorical_014253",
-          "document": "cách đây 80 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5649480819702148,
-          "sparse_similarity": 0.057123370468616486,
-          "hybrid_score": 0.31103572249412537
-        }
-      ]
+    "assertion_position": [
+      4065,
+      4078
     ],
-    "eng_translation": [
-      "bradycardia",
-      "Slow heart rate"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là [ENTITY] tương đối."
   },
   {
     "text": "nhồi máu cơ tim",
@@ -3517,58 +929,11 @@
       4239,
       4254
     ],
-    "sentence": "01\n- rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối\n- Có thể là [ENTITY] vùng dưới cũ (điện tâm đồ (ecg))\n- thay đổi sóng t không đặc hiệu (điện tâm đồ (ecg))\nKết quả hình ảnh\n- Tim to (chụp x-quang ngực)\n- chụp cắt lớp vi tính sọ não bình thường",
-    "assertion_result": {
-      "tag": "isUncertain",
-      "confidence": 1.0,
-      "evidence": "có thể là [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_019695",
-          "document": "khoảng 1 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.562760055065155,
-          "sparse_similarity": 0.05850934982299805,
-          "hybrid_score": 0.31063470244407654
-        },
-        {
-          "id": "isHistorical_021591",
-          "document": "khoảng 80 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5639171004295349,
-          "sparse_similarity": 0.05734030157327652,
-          "hybrid_score": 0.3106287121772766
-        },
-        {
-          "id": "isHistorical_021063",
-          "document": "khoảng 60 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5645520091056824,
-          "sparse_similarity": 0.05652246251702309,
-          "hybrid_score": 0.3105372488498688
-        }
-      ]
+    "assertion_position": [
+      4100,
+      4115
     ],
-    "eng_translation": [
-      "Myocardial infarction"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I219": 0.851584,
-        "I21A1": 0.785121,
-        "I249": 0.769203,
-        "I252": 0.761003,
-        "I639": 0.728907
-      },
-      "rapidfuzz": {
-        "I21A1": 0.95,
-        "I252": 0.95,
-        "I2109": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I21A1",
-      "confidence": 0.801609
-    }
+    "sentence": "Có thể là [ENTITY] vùng dưới cũ (điện tâm đồ (ecg))."
   },
   {
     "text": "điện tâm đồ (ecg)",
@@ -3577,47 +942,11 @@
       4269,
       4286
     ],
-    "sentence": "01\n- rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối\n- Có thể là nhồi máu cơ tim vùng dưới cũ ([ENTITY])\n- thay đổi sóng t không đặc hiệu (điện tâm đồ (ecg))\nKết quả hình ảnh\n- Tim to (chụp x-quang ngực)\n- chụp cắt lớp vi tính sọ não bình thường",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021591",
-          "document": "khoảng 80 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5483397245407104,
-          "sparse_similarity": 0.04161272943019867,
-          "hybrid_score": 0.29497623443603516
-        },
-        {
-          "id": "isHistorical_021585",
-          "document": "khoảng 80 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5433924794197083,
-          "sparse_similarity": 0.044454239308834076,
-          "hybrid_score": 0.29392334818840027
-        },
-        {
-          "id": "isHistorical_014253",
-          "document": "cách đây 80 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.540569543838501,
-          "sparse_similarity": 0.04404018074274063,
-          "hybrid_score": 0.2923048734664917
-        }
-      ]
+    "assertion_position": [
+      4130,
+      4147
     ],
-    "eng_translation": [
-      "Electrocardiogram (ECG)",
-      "Cardiac Electrocardiogram",
-      "Electrocardiogram (Electrocardiogram)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Có thể là nhồi máu cơ tim vùng dưới cũ ([ENTITY])."
   },
   {
     "text": "điện tâm đồ (ecg)",
@@ -3626,47 +955,11 @@
       4322,
       4339
     ],
-    "sentence": "01\n- rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối\n- Có thể là nhồi máu cơ tim vùng dưới cũ (điện tâm đồ (ecg))\n- thay đổi sóng t không đặc hiệu ([ENTITY])\nKết quả hình ảnh\n- Tim to (chụp x-quang ngực)\n- chụp cắt lớp vi tính sọ não bình thường",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021591",
-          "document": "khoảng 80 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5435326099395752,
-          "sparse_similarity": 0.03610851615667343,
-          "hybrid_score": 0.2898205518722534
-        },
-        {
-          "id": "isHistorical_021585",
-          "document": "khoảng 80 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5393540859222412,
-          "sparse_similarity": 0.038529347628355026,
-          "hybrid_score": 0.28894171118736267
-        },
-        {
-          "id": "isHistorical_021063",
-          "document": "khoảng 60 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5387465953826904,
-          "sparse_similarity": 0.035589464008808136,
-          "hybrid_score": 0.287168025970459
-        }
-      ]
+    "assertion_position": [
+      4182,
+      4199
     ],
-    "eng_translation": [
-      "Electrocardiogram (ECG)",
-      "Cardiac Electrocardiogram",
-      "Electrocardiogram (Electrocardiogram)"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "thay đổi sóng t không đặc hiệu ([ENTITY])."
   },
   {
     "text": "chụp x-quang",
@@ -3675,46 +968,11 @@
       4368,
       4380
     ],
-    "sentence": "01\n- rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối\n- Có thể là nhồi máu cơ tim vùng dưới cũ (điện tâm đồ (ecg))\n- thay đổi sóng t không đặc hiệu (điện tâm đồ (ecg))\nKết quả hình ảnh\n- Tim to ([ENTITY] ngực)\n- chụp cắt lớp vi tính sọ não bình thường",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021591",
-          "document": "khoảng 80 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5453023314476013,
-          "sparse_similarity": 0.03842127323150635,
-          "hybrid_score": 0.29186180233955383
-        },
-        {
-          "id": "isHistorical_019695",
-          "document": "khoảng 1 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5412483215332031,
-          "sparse_similarity": 0.03919655457139015,
-          "hybrid_score": 0.2902224361896515
-        },
-        {
-          "id": "isHistorical_021063",
-          "document": "khoảng 60 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5418010950088501,
-          "sparse_similarity": 0.037873655557632446,
-          "hybrid_score": 0.2898373603820801
-        }
-      ]
+    "assertion_position": [
+      4228,
+      4240
     ],
-    "eng_translation": [
-      "X-ray imaging",
-      "Radiographic imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Tim to ([ENTITY] ngực)."
   },
   {
     "text": "chụp cắt lớp vi tính",
@@ -3723,45 +981,10 @@
       4389,
       4409
     ],
-    "sentence": "01\n- rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối\n- Có thể là nhồi máu cơ tim vùng dưới cũ (điện tâm đồ (ecg))\n- thay đổi sóng t không đặc hiệu (điện tâm đồ (ecg))\nKết quả hình ảnh\n- Tim to (chụp x-quang ngực)\n- [ENTITY] sọ não bình thường",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_021591",
-          "document": "khoảng 80 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5449413061141968,
-          "sparse_similarity": 0.041376009583473206,
-          "hybrid_score": 0.2931586503982544
-        },
-        {
-          "id": "isHistorical_014253",
-          "document": "cách đây 80 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5380174517631531,
-          "sparse_similarity": 0.04378582537174225,
-          "hybrid_score": 0.29090163111686707
-        },
-        {
-          "id": "isHistorical_026543",
-          "document": "từ 80 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5383721590042114,
-          "sparse_similarity": 0.04280225187540054,
-          "hybrid_score": 0.2905872166156769
-        }
-      ]
+    "assertion_position": [
+      4248,
+      4268
     ],
-    "eng_translation": [
-      "CT scan",
-      "Computed Tomography Scan"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] sọ não bình thường."
   }
 ]

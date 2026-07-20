@@ -6,61 +6,11 @@
       39,
       70
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- [ENTITY]\n- bệnh phổi tắc nghẽn mạn tính, không xác định\n- Đái tháo đường\n- xơ gan do rượu\nTiền sử phẫu thuật / thủ thuật: Dựa trên tiền sử phẫu thuật mới được bổ sung: \"Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì ung thư tuyến đại tràng\nCác yếu tố nguy cơ liên quan: xơ gan do rượu\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh các bệnh lý mạn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6119319796562195,
-          "sparse_similarity": 0.1907440423965454,
-          "hybrid_score": 0.40133801102638245
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.60528564453125,
-          "sparse_similarity": 0.19520911574363708,
-          "hybrid_score": 0.40024739503860474
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.594624936580658,
-          "sparse_similarity": 0.18988583981990814,
-          "hybrid_score": 0.39225539565086365
-        }
-      ]
+    "assertion_position": [
+      36,
+      67
     ],
-    "eng_translation": [
-      "Colorectal adenocarcinoma",
-      "Colorectal cancer"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C189": 0.794747,
-        "C20": 0.770835,
-        "C180": 0.711332,
-        "Z15060": 0.694299,
-        "C260": 0.672127
-      },
-      "rapidfuzz": {
-        "Z15060": 0.9,
-        "R971": 0.855,
-        "QA1790": 0.855,
-        "R1083": 0.675,
-        "R430": 0.654545
-      }
-    },
-    "candidate": {
-      "code": "C189",
-      "confidence": 0.715272
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "bệnh phổi tắc nghẽn mạn tính",
@@ -69,62 +19,11 @@
       73,
       101
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- Ung thư biểu mô tuyến đại tràng\n- [ENTITY], không xác định\n- Đái tháo đường\n- xơ gan do rượu\nTiền sử phẫu thuật / thủ thuật: Dựa trên tiền sử phẫu thuật mới được bổ sung: \"Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì ung thư tuyến đại tràng\nCác yếu tố nguy cơ liên quan: xơ gan do rượu\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5917612910270691,
-          "sparse_similarity": 0.16470292210578918,
-          "hybrid_score": 0.37823212146759033
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5832273960113525,
-          "sparse_similarity": 0.16692233085632324,
-          "hybrid_score": 0.3750748634338379
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5987276434898376,
-          "sparse_similarity": 0.14249707758426666,
-          "hybrid_score": 0.37061235308647156
-        }
-      ]
+    "assertion_position": [
+      69,
+      97
     ],
-    "eng_translation": [
-      "Chronic Obstructive Pulmonary Disease",
-      "Chronic Obstructive Lung Disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J449": 0.984133,
-        "J4489": 0.684525,
-        "J42": 0.652648,
-        "I2781": 0.644329,
-        "J849": 0.633067
-      },
-      "rapidfuzz": {
-        "J449": 0.95,
-        "J4489": 0.95,
-        "J441": 0.9,
-        "K8010": 0.855,
-        "K05319": 0.855,
-        "I6980": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J449",
-      "confidence": 0.98072
-    }
+    "sentence": "[ENTITY], không xác định."
   },
   {
     "text": "Đái tháo đường",
@@ -133,62 +32,11 @@
       120,
       134
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- Ung thư biểu mô tuyến đại tràng\n- bệnh phổi tắc nghẽn mạn tính, không xác định\n- [ENTITY]\n- xơ gan do rượu\nTiền sử phẫu thuật / thủ thuật: Dựa trên tiền sử phẫu thuật mới được bổ sung: \"Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì ung thư tuyến đại tràng\nCác yếu tố nguy cơ liên quan: xơ gan do rượu\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5802556276321411,
-          "sparse_similarity": 0.15232452750205994,
-          "hybrid_score": 0.3662900924682617
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5744655728340149,
-          "sparse_similarity": 0.15454483032226562,
-          "hybrid_score": 0.36450520157814026
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5883734226226807,
-          "sparse_similarity": 0.13194513320922852,
-          "hybrid_score": 0.3601592779159546
-        }
-      ]
+    "assertion_position": [
+      115,
+      129
     ],
-    "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
-        "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E1165",
-      "confidence": 0.757908
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "xơ gan do rượu",
@@ -197,62 +45,11 @@
       137,
       151
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- Ung thư biểu mô tuyến đại tràng\n- bệnh phổi tắc nghẽn mạn tính, không xác định\n- Đái tháo đường\n- [ENTITY]\nTiền sử phẫu thuật / thủ thuật: Dựa trên tiền sử phẫu thuật mới được bổ sung: \"Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì ung thư tuyến đại tràng\nCác yếu tố nguy cơ liên quan: xơ gan do rượu\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6050138473510742,
-          "sparse_similarity": 0.17581507563591003,
-          "hybrid_score": 0.3904144763946533
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.597938060760498,
-          "sparse_similarity": 0.1785181164741516,
-          "hybrid_score": 0.38822808861732483
-        },
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5921199917793274,
-          "sparse_similarity": 0.1751180738210678,
-          "hybrid_score": 0.3836190402507782
-        }
-      ]
+    "assertion_position": [
+      131,
+      145
     ],
-    "eng_translation": [
-      "Alcoholic cirrhosis",
-      "Alcohol-related cirrhosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K702": 0.898218,
-        "K700": 0.849383,
-        "K709": 0.831754,
-        "K7030": 0.789299,
-        "K7031": 0.752923
-      },
-      "rapidfuzz": {
-        "K7030": 0.9,
-        "K7031": 0.9,
-        "K2921": 0.855,
-        "G40011": 0.855,
-        "O26893": 0.855,
-        "O26899": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K702",
-      "confidence": 0.808396
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ung thư tuyến đại tràng",
@@ -261,62 +58,11 @@
       283,
       306
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- Ung thư biểu mô tuyến đại tràng\n- bệnh phổi tắc nghẽn mạn tính, không xác định\n- Đái tháo đường\n- xơ gan do rượu\nTiền sử phẫu thuật / thủ thuật: Dựa trên tiền sử phẫu thuật mới được bổ sung: \"Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì [ENTITY]\nCác yếu tố nguy cơ liên quan: xơ gan do rượu\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.598298192024231,
-          "sparse_similarity": 0.16561810672283173,
-          "hybrid_score": 0.38195815682411194
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5916386246681213,
-          "sparse_similarity": 0.16871407628059387,
-          "hybrid_score": 0.3801763653755188
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.60764080286026,
-          "sparse_similarity": 0.143544003367424,
-          "hybrid_score": 0.3755924105644226
-        }
-      ]
+    "assertion_position": [
+      278,
+      301
     ],
-    "eng_translation": [
-      "Colorectal cancer",
-      "Colorectal carcinoma"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C189": 0.794747,
-        "C20": 0.770835,
-        "C180": 0.711332,
-        "Z15060": 0.694299,
-        "C260": 0.672127
-      },
-      "rapidfuzz": {
-        "Z15060": 0.9,
-        "R971": 0.855,
-        "QA1790": 0.855,
-        "C7B1": 0.855,
-        "C44722": 0.855,
-        "C44711": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C189",
-      "confidence": 0.715272
-    }
+    "sentence": "Tiền sử phẫu thuật / thủ thuật: Dựa trên tiền sử phẫu thuật mới được bổ sung: \"Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì [ENTITY]."
   },
   {
     "text": "xơ gan do rượu",
@@ -325,62 +71,11 @@
       337,
       351
     ],
-    "sentence": "Tiền sử bệnh\nCác bệnh lý mạn tính\n- Ung thư biểu mô tuyến đại tràng\n- bệnh phổi tắc nghẽn mạn tính, không xác định\n- Đái tháo đường\n- xơ gan do rượu\nTiền sử phẫu thuật / thủ thuật: Dựa trên tiền sử phẫu thuật mới được bổ sung: \"Phẫu thuật mở cắt nối trực tràng/đại tràng sigma vì ung thư tuyến đại tràng\nCác yếu tố nguy cơ liên quan: [ENTITY]\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6038663983345032,
-          "sparse_similarity": 0.16068530082702637,
-          "hybrid_score": 0.38227584958076477
-        },
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5955061316490173,
-          "sparse_similarity": 0.1638859659433365,
-          "hybrid_score": 0.3796960413455963
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6128880977630615,
-          "sparse_similarity": 0.13949541747570038,
-          "hybrid_score": 0.37619176506996155
-        }
-      ]
+    "assertion_position": [
+      333,
+      347
     ],
-    "eng_translation": [
-      "Alcoholic cirrhosis",
-      "Alcohol-related cirrhosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K702": 0.898218,
-        "K700": 0.849383,
-        "K709": 0.831754,
-        "K7030": 0.789299,
-        "K7031": 0.752923
-      },
-      "rapidfuzz": {
-        "K7030": 0.9,
-        "K7031": 0.9,
-        "K2921": 0.855,
-        "G40011": 0.855,
-        "O26893": 0.855,
-        "O26899": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K702",
-      "confidence": 0.808396
-    }
+    "sentence": "Các yếu tố nguy cơ liên quan: [ENTITY]."
   },
   {
     "text": "tụt huyết áp",
@@ -389,46 +84,11 @@
       390,
       402
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: [ENTITY] không rõ nguyên nhân và mệt mỏi\nThời điểm khởi phát triệu chứng: vài ngày mệt mỏi\nDiễn biến bệnh\n- Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và rung nhĩ và nhịp nhanh trên thất, sau đó xuất viện về trung tâm phục hồi chức năng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6275405287742615,
-          "sparse_similarity": 0.1627810150384903,
-          "hybrid_score": 0.3951607644557953
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6205176711082458,
-          "sparse_similarity": 0.169773131608963,
-          "hybrid_score": 0.3951454162597656
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.616642415523529,
-          "sparse_similarity": 0.16195599734783173,
-          "hybrid_score": 0.389299213886261
-        }
-      ]
+    "assertion_position": [
+      384,
+      396
     ],
-    "eng_translation": [
-      "Hypotension",
-      "Low blood pressure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY] không rõ nguyên nhân và mệt mỏi."
   },
   {
     "text": "mệt mỏi",
@@ -437,45 +97,11 @@
       427,
       434
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: tụt huyết áp không rõ nguyên nhân và [ENTITY]\nThời điểm khởi phát triệu chứng: vài ngày mệt mỏi\nDiễn biến bệnh\n- Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và rung nhĩ và nhịp nhanh trên thất, sau đó xuất viện về trung tâm phục hồi chức năng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6136115193367004,
-          "sparse_similarity": 0.15631316602230072,
-          "hybrid_score": 0.3849623501300812
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6124992370605469,
-          "sparse_similarity": 0.15013569593429565,
-          "hybrid_score": 0.38131746649742126
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.611068606376648,
-          "sparse_similarity": 0.14920294284820557,
-          "hybrid_score": 0.38013577461242676
-        }
-      ]
+    "assertion_position": [
+      421,
+      428
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: tụt huyết áp không rõ nguyên nhân và [ENTITY]."
   },
   {
     "text": "mệt mỏi",
@@ -484,45 +110,11 @@
       477,
       484
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: tụt huyết áp không rõ nguyên nhân và mệt mỏi\nThời điểm khởi phát triệu chứng: vài ngày [ENTITY]\nDiễn biến bệnh\n- Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và rung nhĩ và nhịp nhanh trên thất, sau đó xuất viện về trung tâm phục hồi chức năng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6121986508369446,
-          "sparse_similarity": 0.15842990577220917,
-          "hybrid_score": 0.38531428575515747
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6143599152565002,
-          "sparse_similarity": 0.15206891298294067,
-          "hybrid_score": 0.38321441411972046
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6102136373519897,
-          "sparse_similarity": 0.15118205547332764,
-          "hybrid_score": 0.3806978464126587
-        }
-      ]
+    "assertion_position": [
+      472,
+      479
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Thời điểm khởi phát triệu chứng: vài ngày [ENTITY]."
   },
   {
     "text": "Viêm phổi",
@@ -531,62 +123,11 @@
       557,
       566
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: tụt huyết áp không rõ nguyên nhân và mệt mỏi\nThời điểm khởi phát triệu chứng: vài ngày mệt mỏi\nDiễn biến bệnh\n- Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi [ENTITY] bệnh viện và rung nhĩ và nhịp nhanh trên thất, sau đó xuất viện về trung tâm phục hồi chức năng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.617663562297821,
-          "sparse_similarity": 0.1552431434392929,
-          "hybrid_score": 0.3864533603191376
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.621728777885437,
-          "sparse_similarity": 0.14888645708560944,
-          "hybrid_score": 0.3853076100349426
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6142189502716064,
-          "sparse_similarity": 0.14814169704914093,
-          "hybrid_score": 0.3811803162097931
-        }
-      ]
+    "assertion_position": [
+      552,
+      561
     ],
-    "eng_translation": [
-      "Pneumonia",
-      "Pulmonary infection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J189": 0.95392,
-        "J159": 0.839622,
-        "J129": 0.787309,
-        "J181": 0.781404,
-        "J188": 0.781283
-      },
-      "rapidfuzz": {
-        "A0103": 0.9,
-        "P238": 0.9,
-        "P236": 0.9,
-        "T80218D": 0.855,
-        "S25402D": 0.855,
-        "S25402S": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J189",
-      "confidence": 0.858528
-    }
+    "sentence": "Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi [ENTITY] bệnh viện và rung nhĩ và nhịp nhanh trên thất, sau đó xuất viện về trung tâm phục hồi chức năng."
   },
   {
     "text": "rung nhĩ",
@@ -595,62 +136,11 @@
       580,
       588
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: tụt huyết áp không rõ nguyên nhân và mệt mỏi\nThời điểm khởi phát triệu chứng: vài ngày mệt mỏi\nDiễn biến bệnh\n- Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và [ENTITY] và nhịp nhanh trên thất, sau đó xuất viện về trung tâm phục hồi chức năng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6371971964836121,
-          "sparse_similarity": 0.16892075538635254,
-          "hybrid_score": 0.4030589759349823
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6381813883781433,
-          "sparse_similarity": 0.16238431632518768,
-          "hybrid_score": 0.4002828598022461
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6337987184524536,
-          "sparse_similarity": 0.16128231585025787,
-          "hybrid_score": 0.39754050970077515
-        }
-      ]
+    "assertion_position": [
+      575,
+      583
     ],
-    "eng_translation": [
-      "Atrial fibrillation",
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I480": 1.0,
-        "I4891": 0.978406,
-        "I4821": 0.894503,
-        "I4820": 0.803449,
-        "I4901": 0.799594
-      },
-      "rapidfuzz": {
-        "I480": 1.0,
-        "I4820": 0.9,
-        "I4821": 0.9,
-        "I4891": 0.9,
-        "G44039": 0.855,
-        "I231": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I480",
-      "confidence": 1.0
-    }
+    "sentence": "Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và [ENTITY] và nhịp nhanh trên thất, sau đó xuất viện về trung tâm phục hồi chức năng."
   },
   {
     "text": "nhịp nhanh trên",
@@ -659,46 +149,11 @@
       592,
       607
     ],
-    "sentence": "Bệnh sử hiện tại\nLý do nhập viện: tụt huyết áp không rõ nguyên nhân và mệt mỏi\nThời điểm khởi phát triệu chứng: vài ngày mệt mỏi\nDiễn biến bệnh\n- Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và rung nhĩ và [ENTITY] thất, sau đó xuất viện về trung tâm phục hồi chức năng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6303129196166992,
-          "sparse_similarity": 0.16792136430740356,
-          "hybrid_score": 0.3991171419620514
-        },
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6330702304840088,
-          "sparse_similarity": 0.16146939992904663,
-          "hybrid_score": 0.3972698152065277
-        },
-        {
-          "id": "isHistorical_012626",
-          "document": "cách đây 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.6275988817214966,
-          "sparse_similarity": 0.16035732626914978,
-          "hybrid_score": 0.3939781188964844
-        }
-      ]
+    "assertion_position": [
+      587,
+      602
     ],
-    "eng_translation": [
-      "supraventricular tachycardia",
-      "SVT"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và rung nhĩ và [ENTITY] thất, sau đó xuất viện về trung tâm phục hồi chức năng."
   },
   {
     "text": "mệt mỏi",
@@ -707,45 +162,11 @@
       826,
       833
     ],
-    "sentence": "- Hôm nay, bệnh nhân đến khoa Cấp cứu khám vì tình trạng [ENTITY] kéo dài trong vài ngày, kèm theo khó khăn khi ra khỏi giường vào sáng nay.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031841",
-          "document": "đã 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7692380547523499,
-          "sparse_similarity": 0.14197435975074768,
-          "hybrid_score": 0.45560622215270996
-        },
-        {
-          "id": "isHistorical_012338",
-          "document": "cách đây 1 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7588670253753662,
-          "sparse_similarity": 0.14027562737464905,
-          "hybrid_score": 0.44957131147384644
-        },
-        {
-          "id": "isHistorical_032129",
-          "document": "đã 2 ngày nhập viện vì [ENTITY].",
-          "dense_similarity": 0.7426305413246155,
-          "sparse_similarity": 0.13472232222557068,
-          "hybrid_score": 0.4386764168739319
-        }
-      ]
+    "assertion_position": [
+      817,
+      824
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Hôm nay, bệnh nhân đến khoa Cấp cứu khám vì tình trạng [ENTITY] kéo dài trong vài ngày, kèm theo khó khăn khi ra khỏi giường vào sáng nay."
   },
   {
     "text": "đau bụng",
@@ -754,46 +175,11 @@
       927,
       935
     ],
-    "sentence": "- Bệnh nhân đã có [ENTITY] gián đoạn kể từ khi phẫu thuật.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034244",
-          "document": "đã phẫu thuật [ENTITY].",
-          "dense_similarity": 0.7820720672607422,
-          "sparse_similarity": 0.305658221244812,
-          "hybrid_score": 0.5438651442527771
-        },
-        {
-          "id": "isFamily_024981",
-          "document": "thân nhân của bệnh nhân đã bị [ENTITY].",
-          "dense_similarity": 0.7763218879699707,
-          "sparse_similarity": 0.16817879676818848,
-          "hybrid_score": 0.4722503423690796
-        },
-        {
-          "id": "isFamily_020059",
-          "document": "má bệnh nhân đã mắc [ENTITY].",
-          "dense_similarity": 0.7632208466529846,
-          "sparse_similarity": 0.17581304907798767,
-          "hybrid_score": 0.46951693296432495
-        }
-      ]
+    "assertion_position": [
+      916,
+      924
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân đã có [ENTITY] gián đoạn kể từ khi phẫu thuật."
   },
   {
     "text": "hạ huyết áp",
@@ -802,46 +188,11 @@
       991,
       1002
     ],
-    "sentence": "Triệu chứng hiện tại\n- [ENTITY], không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_033196",
-          "document": "đã 6 tháng mắc [ENTITY].",
-          "dense_similarity": 0.5515930652618408,
-          "sparse_similarity": 0.13298630714416504,
-          "hybrid_score": 0.34228968620300293
-        },
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5593385696411133,
-          "sparse_similarity": 0.12502504885196686,
-          "hybrid_score": 0.3421818017959595
-        },
-        {
-          "id": "isHistorical_033198",
-          "document": "đã 6 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5576490163803101,
-          "sparse_similarity": 0.12597794830799103,
-          "hybrid_score": 0.34181347489356995
-        }
-      ]
+    "assertion_position": [
+      979,
+      990
     ],
-    "eng_translation": [
-      "Hypotension",
-      "Low blood pressure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], không đặc hiệu."
   },
   {
     "text": "mệt mỏi",
@@ -850,45 +201,11 @@
       1021,
       1028
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- [ENTITY]\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5526025295257568,
-          "sparse_similarity": 0.07134336978197098,
-          "hybrid_score": 0.3119729459285736
-        },
-        {
-          "id": "isFamily_011590",
-          "document": "con ruột người bệnh đang mắc [ENTITY].",
-          "dense_similarity": 0.5509854555130005,
-          "sparse_similarity": 0.06808865070343018,
-          "hybrid_score": 0.30953705310821533
-        },
-        {
-          "id": "isFamily_011498",
-          "document": "con ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5466395616531372,
-          "sparse_similarity": 0.07100467383861542,
-          "hybrid_score": 0.3088221251964569
-        }
-      ]
+    "assertion_position": [
+      1008,
+      1015
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "mệt mỏi",
@@ -897,45 +214,11 @@
       1031,
       1038
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- [ENTITY]\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5499763488769531,
-          "sparse_similarity": 0.07027167081832886,
-          "hybrid_score": 0.310124009847641
-        },
-        {
-          "id": "isFamily_011590",
-          "document": "con ruột người bệnh đang mắc [ENTITY].",
-          "dense_similarity": 0.54831463098526,
-          "sparse_similarity": 0.06701992452144623,
-          "hybrid_score": 0.3076672852039337
-        },
-        {
-          "id": "isFamily_011498",
-          "document": "con ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5443251132965088,
-          "sparse_similarity": 0.06991316378116608,
-          "hybrid_score": 0.30711913108825684
-        }
-      ]
+    "assertion_position": [
+      1017,
+      1024
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó khăn",
@@ -944,45 +227,11 @@
       1041,
       1049
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- [ENTITY] khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5283052921295166,
-          "sparse_similarity": 0.10762969404459,
-          "hybrid_score": 0.3179675042629242
-        },
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5290654301643372,
-          "sparse_similarity": 0.10096846520900726,
-          "hybrid_score": 0.3150169551372528
-        },
-        {
-          "id": "isHistorical_033198",
-          "document": "đã 6 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5210855603218079,
-          "sparse_similarity": 0.1081600934267044,
-          "hybrid_score": 0.31462281942367554
-        }
-      ]
+    "assertion_position": [
+      1026,
+      1034
     ],
-    "eng_translation": [
-      "difficulty"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] khi ra khỏi giường."
   },
   {
     "text": "ra",
@@ -991,45 +240,11 @@
       1054,
       1056
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi [ENTITY] khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5547008514404297,
-          "sparse_similarity": 0.0762450322508812,
-          "hybrid_score": 0.31547293066978455
-        },
-        {
-          "id": "isFamily_011498",
-          "document": "con ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5489649176597595,
-          "sparse_similarity": 0.07578660547733307,
-          "hybrid_score": 0.3123757541179657
-        },
-        {
-          "id": "isFamily_011590",
-          "document": "con ruột người bệnh đang mắc [ENTITY].",
-          "dense_similarity": 0.5521376729011536,
-          "sparse_similarity": 0.07258760929107666,
-          "hybrid_score": 0.3123626410961151
-        }
-      ]
+    "assertion_position": [
+      1039,
+      1041
     ],
-    "eng_translation": [
-      "No response provided."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "khó khăn khi [ENTITY] khỏi giường."
   },
   {
     "text": "đau bụng gián",
@@ -1038,47 +253,11 @@
       1071,
       1084
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- [ENTITY] đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5347738862037659,
-          "sparse_similarity": 0.12112869322299957,
-          "hybrid_score": 0.3279512822628021
-        },
-        {
-          "id": "isHistorical_033462",
-          "document": "đã 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5265256762504578,
-          "sparse_similarity": 0.12730154395103455,
-          "hybrid_score": 0.32691359519958496
-        },
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5382542014122009,
-          "sparse_similarity": 0.1139533594250679,
-          "hybrid_score": 0.3261037766933441
-        }
-      ]
+    "assertion_position": [
+      1055,
+      1068
     ],
-    "eng_translation": [
-      "abdominal pain, intermittent",
-      "Intermittent abdominal pain",
-      "Abdominal pain, recurrent"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] đoạn."
   },
   {
     "text": "khó thở",
@@ -1087,46 +266,11 @@
       1092,
       1099
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- [ENTITY] khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5370805263519287,
-          "sparse_similarity": 0.1140524223446846,
-          "hybrid_score": 0.32556647062301636
-        },
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5394598245620728,
-          "sparse_similarity": 0.107233427464962,
-          "hybrid_score": 0.3233466148376465
-        },
-        {
-          "id": "isHistorical_033462",
-          "document": "đã 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5264509916305542,
-          "sparse_similarity": 0.12021709978580475,
-          "hybrid_score": 0.3233340382575989
-        }
-      ]
+    "assertion_position": [
+      1075,
+      1082
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] khi gắng sức."
   },
   {
     "text": "gắng sức",
@@ -1135,46 +279,11 @@
       1104,
       1112
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi [ENTITY]\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011587",
-          "document": "con ruột người bệnh mắc [ENTITY].",
-          "dense_similarity": 0.5516033172607422,
-          "sparse_similarity": 0.07990750670433044,
-          "hybrid_score": 0.3157554268836975
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.5351920127868652,
-          "sparse_similarity": 0.09385059028863907,
-          "hybrid_score": 0.31452131271362305
-        },
-        {
-          "id": "isFamily_011498",
-          "document": "con ruột bệnh nhân mắc [ENTITY].",
-          "dense_similarity": 0.5468477606773376,
-          "sparse_similarity": 0.07939671725034714,
-          "hybrid_score": 0.3131222426891327
-        }
-      ]
+    "assertion_position": [
+      1087,
+      1095
     ],
-    "eng_translation": [
-      "effort to breathe",
-      "Respiratory effort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "khó thở khi [ENTITY]."
   },
   {
     "text": "ho mạn tính",
@@ -1183,46 +292,11 @@
       1115,
       1126
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- [ENTITY] có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5319973230361938,
-          "sparse_similarity": 0.11676330119371414,
-          "hybrid_score": 0.3243803083896637
-        },
-        {
-          "id": "isHistorical_033462",
-          "document": "đã 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5245076417922974,
-          "sparse_similarity": 0.12232254445552826,
-          "hybrid_score": 0.3234151005744934
-        },
-        {
-          "id": "isHistorical_033198",
-          "document": "đã 6 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5287768244743347,
-          "sparse_similarity": 0.11720989644527435,
-          "hybrid_score": 0.32299336791038513
-        }
-      ]
+    "assertion_position": [
+      1097,
+      1108
     ],
-    "eng_translation": [
-      "Chronic cough",
-      "Persistent cough"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] có đờm vàng loãng."
   },
   {
     "text": "đờm vàng loãng",
@@ -1231,46 +305,11 @@
       1130,
       1144
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có [ENTITY]\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5284768342971802,
-          "sparse_similarity": 0.11410212516784668,
-          "hybrid_score": 0.3212894797325134
-        },
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.530116617679596,
-          "sparse_similarity": 0.10690336674451828,
-          "hybrid_score": 0.3185099959373474
-        },
-        {
-          "id": "isHistorical_031852",
-          "document": "đã 1 tháng mắc [ENTITY].",
-          "dense_similarity": 0.5132896304130554,
-          "sparse_similarity": 0.12328372150659561,
-          "hybrid_score": 0.3182866871356964
-        }
-      ]
+    "assertion_position": [
+      1112,
+      1126
     ],
-    "eng_translation": [
-      "yellow, watery sputum",
-      "Purulent, watery sputum"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ho mạn tính có [ENTITY]."
   },
   {
     "text": "chán ăn",
@@ -1279,46 +318,11 @@
       1147,
       1154
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- [ENTITY] trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5372676849365234,
-          "sparse_similarity": 0.1116417944431305,
-          "hybrid_score": 0.32445472478866577
-        },
-        {
-          "id": "isHistorical_033462",
-          "document": "đã 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5277002453804016,
-          "sparse_similarity": 0.1177699863910675,
-          "hybrid_score": 0.32273513078689575
-        },
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5378599762916565,
-          "sparse_similarity": 0.10498929023742676,
-          "hybrid_score": 0.3214246332645416
-        }
-      ]
+    "assertion_position": [
+      1128,
+      1135
     ],
-    "eng_translation": [
-      "loss of appetite",
-      "Anorexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] trong vài tháng."
   },
   {
     "text": "đi tiêu",
@@ -1327,46 +331,11 @@
       1194,
       1201
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- [ENTITY] không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5412817597389221,
-          "sparse_similarity": 0.11628984659910202,
-          "hybrid_score": 0.32878580689430237
-        },
-        {
-          "id": "isFamily_024997",
-          "document": "thân nhân của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5432186722755432,
-          "sparse_similarity": 0.10604634881019592,
-          "hybrid_score": 0.32463252544403076
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.548143208026886,
-          "sparse_similarity": 0.09873996675014496,
-          "hybrid_score": 0.32344159483909607
-        }
-      ]
+    "assertion_position": [
+      1175,
+      1182
     ],
-    "eng_translation": [
-      "defecation",
-      "Bowel movement"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc táo bón."
   },
   {
     "text": "đau bụng",
@@ -1375,46 +344,11 @@
       1222,
       1230
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến [ENTITY], buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5493625998497009,
-          "sparse_similarity": 0.1337060183286667,
-          "hybrid_score": 0.3415343165397644
-        },
-        {
-          "id": "isHistorical_031852",
-          "document": "đã 1 tháng mắc [ENTITY].",
-          "dense_similarity": 0.5362229347229004,
-          "sparse_similarity": 0.14279790222644806,
-          "hybrid_score": 0.33951041102409363
-        },
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5498142838478088,
-          "sparse_similarity": 0.1259632110595703,
-          "hybrid_score": 0.3378887474536896
-        }
-      ]
+    "assertion_position": [
+      1203,
+      1211
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "đi tiêu không liên quan đến [ENTITY], buồn nôn, nôn, tiêu chảy, hoặc táo bón."
   },
   {
     "text": "buồn nôn",
@@ -1423,46 +357,11 @@
       1232,
       1240
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, [ENTITY], nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5238903164863586,
-          "sparse_similarity": 0.11428143084049225,
-          "hybrid_score": 0.31908586621284485
-        },
-        {
-          "id": "isHistorical_033198",
-          "document": "đã 6 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5187109112739563,
-          "sparse_similarity": 0.11501003801822662,
-          "hybrid_score": 0.31686046719551086
-        },
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5262700319290161,
-          "sparse_similarity": 0.10714660584926605,
-          "hybrid_score": 0.3167083263397217
-        }
-      ]
+    "assertion_position": [
+      1213,
+      1221
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "đi tiêu không liên quan đến đau bụng, [ENTITY], nôn, tiêu chảy, hoặc táo bón."
   },
   {
     "text": "nôn",
@@ -1471,46 +370,11 @@
       1242,
       1245
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, [ENTITY], tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5291258692741394,
-          "sparse_similarity": 0.11140625923871994,
-          "hybrid_score": 0.32026606798171997
-        },
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5311661958694458,
-          "sparse_similarity": 0.10445408523082733,
-          "hybrid_score": 0.31781014800071716
-        },
-        {
-          "id": "isHistorical_033198",
-          "document": "đã 6 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5227530002593994,
-          "sparse_similarity": 0.11199253052473068,
-          "hybrid_score": 0.31737276911735535
-        }
-      ]
+    "assertion_position": [
+      1223,
+      1226
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "đi tiêu không liên quan đến đau bụng, buồn nôn, [ENTITY], tiêu chảy, hoặc táo bón."
   },
   {
     "text": "tiêu chảy",
@@ -1519,46 +383,11 @@
       1247,
       1256
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, [ENTITY], hoặc táo bón.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.525446355342865,
-          "sparse_similarity": 0.10746181011199951,
-          "hybrid_score": 0.31645408272743225
-        },
-        {
-          "id": "isHistorical_033462",
-          "document": "đã 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5150414109230042,
-          "sparse_similarity": 0.11348170787096024,
-          "hybrid_score": 0.3142615556716919
-        },
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5274348855018616,
-          "sparse_similarity": 0.10042044520378113,
-          "hybrid_score": 0.31392765045166016
-        }
-      ]
+    "assertion_position": [
+      1228,
+      1237
     ],
-    "eng_translation": [
-      "Diarrhea",
-      "Watery Stool"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, [ENTITY], hoặc táo bón."
   },
   {
     "text": "táo bón",
@@ -1567,46 +396,11 @@
       1263,
       1270
     ],
-    "sentence": "Triệu chứng hiện tại\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó khăn khi ra khỏi giường\n- đau bụng gián đoạn\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- chán ăn trong vài tháng\nĐặc điểm triệu chứng\n- đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_031854",
-          "document": "đã 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5370773673057556,
-          "sparse_similarity": 0.1172654926776886,
-          "hybrid_score": 0.3271714448928833
-        },
-        {
-          "id": "isHistorical_033462",
-          "document": "đã 7 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5251985788345337,
-          "sparse_similarity": 0.12323713302612305,
-          "hybrid_score": 0.32421785593032837
-        },
-        {
-          "id": "isHistorical_032406",
-          "document": "đã 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5380808115005493,
-          "sparse_similarity": 0.11018603295087814,
-          "hybrid_score": 0.32413342595100403
-        }
-      ]
+    "assertion_position": [
+      1244,
+      1251
     ],
-    "eng_translation": [
-      "Constipation",
-      "Fecal impaction"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, hoặc [ENTITY]."
   },
   {
     "text": "đi tiêu",
@@ -1615,46 +409,11 @@
       1292,
       1299
     ],
-    "sentence": "- Bệnh nhân đang có [ENTITY] mỗi ngày.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_025018",
-          "document": "thân nhân đang mắc [ENTITY].",
-          "dense_similarity": 0.8155849575996399,
-          "sparse_similarity": 0.26623693108558655,
-          "hybrid_score": 0.5409109592437744
-        },
-        {
-          "id": "isHistorical_009438",
-          "document": "[ENTITY] đã 1 ngày.",
-          "dense_similarity": 0.8083773255348206,
-          "sparse_similarity": 0.2501954734325409,
-          "hybrid_score": 0.5292863845825195
-        },
-        {
-          "id": "isFamily_020050",
-          "document": "má bệnh nhân có [ENTITY].",
-          "dense_similarity": 0.8082043528556824,
-          "sparse_similarity": 0.248252272605896,
-          "hybrid_score": 0.5282282829284668
-        }
-      ]
+    "assertion_position": [
+      1271,
+      1278
     ],
-    "eng_translation": [
-      "defecation",
-      "Bowel movement"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Bệnh nhân đang có [ENTITY] mỗi ngày."
   },
   {
     "text": "sốt",
@@ -1663,46 +422,11 @@
       1321,
       1324
     ],
-    "sentence": "- Không có [ENTITY], đau ngực, chóng mặt, đánh trống ngực.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không có [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7707293629646301,
-          "sparse_similarity": 0.11418373137712479,
-          "hybrid_score": 0.44245654344558716
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7620020508766174,
-          "sparse_similarity": 0.10646717995405197,
-          "hybrid_score": 0.434234619140625
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.7532256245613098,
-          "sparse_similarity": 0.10879434645175934,
-          "hybrid_score": 0.431009978055954
-        }
-      ]
+    "assertion_position": [
+      1298,
+      1301
     ],
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có [ENTITY], đau ngực, chóng mặt, đánh trống ngực."
   },
   {
     "text": "đau ngực",
@@ -1711,46 +435,11 @@
       1326,
       1334
     ],
-    "sentence": "- Không có sốt, [ENTITY], chóng mặt, đánh trống ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7919272184371948,
-          "sparse_similarity": 0.13139057159423828,
-          "hybrid_score": 0.46165889501571655
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7829033136367798,
-          "sparse_similarity": 0.12185897678136826,
-          "hybrid_score": 0.4523811340332031
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.7622893452644348,
-          "sparse_similarity": 0.12245330959558487,
-          "hybrid_score": 0.44237133860588074
-        }
-      ]
+    "assertion_position": [
+      1303,
+      1311
     ],
-    "eng_translation": [
-      "chest pain",
-      "Cardiac chest pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có sốt, [ENTITY], chóng mặt, đánh trống ngực."
   },
   {
     "text": "chóng mặt",
@@ -1759,46 +448,11 @@
       1336,
       1345
     ],
-    "sentence": "- Không có sốt, đau ngực, [ENTITY], đánh trống ngực.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7938753962516785,
-          "sparse_similarity": 0.12413343042135239,
-          "hybrid_score": 0.45900440216064453
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7798738479614258,
-          "sparse_similarity": 0.11544225364923477,
-          "hybrid_score": 0.44765806198120117
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.756301760673523,
-          "sparse_similarity": 0.11629097908735275,
-          "hybrid_score": 0.43629637360572815
-        }
-      ]
+    "assertion_position": [
+      1313,
+      1322
     ],
-    "eng_translation": [
-      "Dizziness",
-      "Vertigo"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có sốt, đau ngực, [ENTITY], đánh trống ngực."
   },
   {
     "text": "đánh trống ngực",
@@ -1807,46 +461,11 @@
       1347,
       1362
     ],
-    "sentence": "- Không có sốt, đau ngực, chóng mặt, [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.8319664597511292,
-          "sparse_similarity": 0.14695993065834045,
-          "hybrid_score": 0.489463210105896
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.8156664967536926,
-          "sparse_similarity": 0.1359357088804245,
-          "hybrid_score": 0.47580111026763916
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.7904120683670044,
-          "sparse_similarity": 0.13669872283935547,
-          "hybrid_score": 0.46355539560317993
-        }
-      ]
+    "assertion_position": [
+      1324,
+      1339
     ],
-    "eng_translation": [
-      "palpitations",
-      "Arrhythmia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có sốt, đau ngực, chóng mặt, [ENTITY]."
   },
   {
     "text": "đau bụng",
@@ -1855,46 +474,11 @@
       1375,
       1383
     ],
-    "sentence": "- Không có [ENTITY] hoặc dịch từ vết mổ.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không có [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.8312714695930481,
-          "sparse_similarity": 0.14204829931259155,
-          "hybrid_score": 0.4866598844528198
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.8364518284797668,
-          "sparse_similarity": 0.1318778395652771,
-          "hybrid_score": 0.484164834022522
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.8218100070953369,
-          "sparse_similarity": 0.13303011655807495,
-          "hybrid_score": 0.47742006182670593
-        }
-      ]
+    "assertion_position": [
+      1350,
+      1358
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có [ENTITY] hoặc dịch từ vết mổ."
   },
   {
     "text": "đỏ da",
@@ -1903,46 +487,11 @@
       1416,
       1421
     ],
-    "sentence": "- Không có [ENTITY], hoặc bục chỉ khâu bụng.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không có [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000205",
-          "document": "không có [ENTITY].",
-          "dense_similarity": 0.7934994101524353,
-          "sparse_similarity": 0.1467393934726715,
-          "hybrid_score": 0.4701194167137146
-        },
-        {
-          "id": "isNegated_000113",
-          "document": "chẳng có [ENTITY].",
-          "dense_similarity": 0.7907711863517761,
-          "sparse_similarity": 0.13832712173461914,
-          "hybrid_score": 0.46454915404319763
-        },
-        {
-          "id": "isNegated_000208",
-          "document": "không có dấu hiệu [ENTITY].",
-          "dense_similarity": 0.7790670394897461,
-          "sparse_similarity": 0.11298897862434387,
-          "hybrid_score": 0.4460279941558838
-        }
-      ]
+    "assertion_position": [
+      1389,
+      1394
     ],
-    "eng_translation": [
-      "Red skin",
-      "Erythema"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có [ENTITY], hoặc bục chỉ khâu bụng."
   },
   {
     "text": "bục",
@@ -1951,46 +500,11 @@
       1428,
       1431
     ],
-    "sentence": "- Không có đỏ da, hoặc [ENTITY] chỉ khâu bụng.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.751220166683197,
-          "sparse_similarity": 0.09352283924818039,
-          "hybrid_score": 0.422371506690979
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7463269233703613,
-          "sparse_similarity": 0.08744128048419952,
-          "hybrid_score": 0.41688409447669983
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.7336850166320801,
-          "sparse_similarity": 0.08830220252275467,
-          "hybrid_score": 0.4109936058521271
-        }
-      ]
+    "assertion_position": [
+      1401,
+      1404
     ],
-    "eng_translation": [
-      "buccal",
-      "Buccal mucosa"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có đỏ da, hoặc [ENTITY] chỉ khâu bụng."
   },
   {
     "text": "bụng",
@@ -1999,45 +513,11 @@
       1441,
       1445
     ],
-    "sentence": "- Không có đỏ da, hoặc bục chỉ khâu [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000211",
-          "document": "không có triệu chứng [ENTITY].",
-          "dense_similarity": 0.785797655582428,
-          "sparse_similarity": 0.10984300822019577,
-          "hybrid_score": 0.4478203356266022
-        },
-        {
-          "id": "isNegated_000206",
-          "document": "không có biểu hiện [ENTITY].",
-          "dense_similarity": 0.7879525423049927,
-          "sparse_similarity": 0.10328634828329086,
-          "hybrid_score": 0.4456194341182709
-        },
-        {
-          "id": "isNegated_000117",
-          "document": "chẳng có triệu chứng [ENTITY].",
-          "dense_similarity": 0.7845618724822998,
-          "sparse_similarity": 0.10234589129686356,
-          "hybrid_score": 0.4434538781642914
-        }
-      ]
+    "assertion_position": [
+      1414,
+      1418
     ],
-    "eng_translation": [
-      "Abdomen"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Không có đỏ da, hoặc bục chỉ khâu [ENTITY]."
   },
   {
     "text": "ran nổ",
@@ -2046,47 +526,11 @@
       1507,
       1513
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả khám thực thể\n- Khám thấy [ENTITY], phù phù, dịch rỉ huyết thanh từ vết mổ, và phân nâu dương tính guaiac.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6337955594062805,
-          "sparse_similarity": 0.09151500463485718,
-          "hybrid_score": 0.36265528202056885
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6265425086021423,
-          "sparse_similarity": 0.09327813237905502,
-          "hybrid_score": 0.3599103093147278
-        },
-        {
-          "id": "isFamily_007164",
-          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6294677257537842,
-          "sparse_similarity": 0.08712656795978546,
-          "hybrid_score": 0.3582971394062042
-        }
-      ]
+    "assertion_position": [
+      1477,
+      1483
     ],
-    "eng_translation": [
-      "Ran nổ",
-      "Nổ ruột",
-      "Ran nổ is not a recognized medical term in English. The original query appears to be in Vietnamese. If the intended query was \"Ran nổ\" referring to a medical condition, it may be a mistranslation or a term not commonly used in English medical terminology. Without further context or clarification, the original query cannot be accurately translated or rewritten with a suitable medical synonym. Therefore, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khám thấy [ENTITY], phù phù, dịch rỉ huyết thanh từ vết mổ, và phân nâu dương tính guaiac."
   },
   {
     "text": "phù phù",
@@ -2095,46 +539,11 @@
       1515,
       1522
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả khám thực thể\n- Khám thấy ran nổ, [ENTITY], dịch rỉ huyết thanh từ vết mổ, và phân nâu dương tính guaiac.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.619038462638855,
-          "sparse_similarity": 0.07923172414302826,
-          "hybrid_score": 0.3491351008415222
-        },
-        {
-          "id": "isFamily_011594",
-          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6268333196640015,
-          "sparse_similarity": 0.06993863731622696,
-          "hybrid_score": 0.3483859896659851
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6204575896263123,
-          "sparse_similarity": 0.0727713406085968,
-          "hybrid_score": 0.3466144800186157
-        }
-      ]
+    "assertion_position": [
+      1485,
+      1492
     ],
-    "eng_translation": [
-      "edema",
-      "Fluid retention"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khám thấy ran nổ, [ENTITY], dịch rỉ huyết thanh từ vết mổ, và phân nâu dương tính guaiac."
   },
   {
     "text": "dịch rỉ huyết thanh",
@@ -2143,46 +552,11 @@
       1524,
       1543
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả khám thực thể\n- Khám thấy ran nổ, phù phù, [ENTITY] từ vết mổ, và phân nâu dương tính guaiac.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6228111386299133,
-          "sparse_similarity": 0.08127667009830475,
-          "hybrid_score": 0.35204389691352844
-        },
-        {
-          "id": "isFamily_011594",
-          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6327853202819824,
-          "sparse_similarity": 0.07127510011196136,
-          "hybrid_score": 0.3520302176475525
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6243144869804382,
-          "sparse_similarity": 0.07445705682039261,
-          "hybrid_score": 0.3493857681751251
-        }
-      ]
+    "assertion_position": [
+      1494,
+      1513
     ],
-    "eng_translation": [
-      "serous effusion",
-      "ascites"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khám thấy ran nổ, phù phù, [ENTITY] từ vết mổ, và phân nâu dương tính guaiac."
   },
   {
     "text": "phân nâu",
@@ -2191,46 +565,11 @@
       1558,
       1566
     ],
-    "sentence": "Đánh giá tại bệnh viện\nKết quả khám thực thể\n- Khám thấy ran nổ, phù phù, dịch rỉ huyết thanh từ vết mổ, và [ENTITY] dương tính guaiac.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007152",
-          "document": "bên nội của bệnh nhân được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6328670978546143,
-          "sparse_similarity": 0.0994240865111351,
-          "hybrid_score": 0.3661455810070038
-        },
-        {
-          "id": "isFamily_007166",
-          "document": "bên nội của người bệnh được xác định mắc [ENTITY].",
-          "dense_similarity": 0.6241968870162964,
-          "sparse_similarity": 0.10117296874523163,
-          "hybrid_score": 0.3626849353313446
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6260559558868408,
-          "sparse_similarity": 0.09112787991762161,
-          "hybrid_score": 0.3585919141769409
-        }
-      ]
+    "assertion_position": [
+      1528,
+      1536
     ],
-    "eng_translation": [
-      "Brown stool",
-      "Melena"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Khám thấy ran nổ, phù phù, dịch rỉ huyết thanh từ vết mổ, và [ENTITY] dương tính guaiac."
   },
   {
     "text": "hạ huyết áp",
@@ -2239,46 +578,11 @@
       1732,
       1743
     ],
-    "sentence": "6 70 10356 17 962LNC (khi đến MICU)\nDấu hiệu lâm sàng\n- [ENTITY], không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- ran\n- phù phù\n- dịch thanh dịch lẫn máu từ vết mổ\n- phân nâu dương tính guaiac\nKết quả xét nghiệm: huyết khối 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025367",
-          "document": "từ 36 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.571019172668457,
-          "sparse_similarity": 0.07290621846914291,
-          "hybrid_score": 0.3219626843929291
-        },
-        {
-          "id": "isHistorical_025103",
-          "document": "từ 26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5725345611572266,
-          "sparse_similarity": 0.07118790596723557,
-          "hybrid_score": 0.32186123728752136
-        },
-        {
-          "id": "isHistorical_000959",
-          "document": "26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5800034999847412,
-          "sparse_similarity": 0.06295041739940643,
-          "hybrid_score": 0.3214769661426544
-        }
-      ]
+    "assertion_position": [
+      1699,
+      1710
     ],
-    "eng_translation": [
-      "Hypotension",
-      "Low blood pressure"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY], không đặc hiệu."
   },
   {
     "text": "mệt mỏi",
@@ -2287,45 +591,11 @@
       1762,
       1769
     ],
-    "sentence": "6 70 10356 17 962LNC (khi đến MICU)\nDấu hiệu lâm sàng\n- hạ huyết áp, không đặc hiệu\n- [ENTITY]\n- mệt mỏi\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- ran\n- phù phù\n- dịch thanh dịch lẫn máu từ vết mổ\n- phân nâu dương tính guaiac\nKết quả xét nghiệm: huyết khối 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012813",
-          "document": "cách đây 26 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5513011813163757,
-          "sparse_similarity": 0.058590326458215714,
-          "hybrid_score": 0.30494576692581177
-        },
-        {
-          "id": "isHistorical_000959",
-          "document": "26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5513225793838501,
-          "sparse_similarity": 0.05844802409410477,
-          "hybrid_score": 0.30488529801368713
-        },
-        {
-          "id": "isHistorical_025103",
-          "document": "từ 26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5445595383644104,
-          "sparse_similarity": 0.06502427160739899,
-          "hybrid_score": 0.3047918975353241
-        }
-      ]
+    "assertion_position": [
+      1728,
+      1735
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "mệt mỏi",
@@ -2334,45 +604,11 @@
       1772,
       1779
     ],
-    "sentence": "6 70 10356 17 962LNC (khi đến MICU)\nDấu hiệu lâm sàng\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- [ENTITY]\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- ran\n- phù phù\n- dịch thanh dịch lẫn máu từ vết mổ\n- phân nâu dương tính guaiac\nKết quả xét nghiệm: huyết khối 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000176",
-          "document": "lâm sàng gợi ý [ENTITY].",
-          "dense_similarity": 0.5549803972244263,
-          "sparse_similarity": 0.1438724249601364,
-          "hybrid_score": 0.34942641854286194
-        },
-        {
-          "id": "isFamily_020060",
-          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5488384366035461,
-          "sparse_similarity": 0.05889789015054703,
-          "hybrid_score": 0.3038681745529175
-        },
-        {
-          "id": "isFamily_020149",
-          "document": "má người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.548980176448822,
-          "sparse_similarity": 0.05779602378606796,
-          "hybrid_score": 0.3033880889415741
-        }
-      ]
+    "assertion_position": [
+      1737,
+      1744
     ],
-    "eng_translation": [
-      "fatigue"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "khó thở",
@@ -2381,46 +617,11 @@
       1782,
       1789
     ],
-    "sentence": "6 70 10356 17 962LNC (khi đến MICU)\nDấu hiệu lâm sàng\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- [ENTITY] khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- ran\n- phù phù\n- dịch thanh dịch lẫn máu từ vết mổ\n- phân nâu dương tính guaiac\nKết quả xét nghiệm: huyết khối 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025103",
-          "document": "từ 26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5562971830368042,
-          "sparse_similarity": 0.05584220960736275,
-          "hybrid_score": 0.3060697019100189
-        },
-        {
-          "id": "isHistorical_000959",
-          "document": "26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5621411800384521,
-          "sparse_similarity": 0.049221914261579514,
-          "hybrid_score": 0.3056815564632416
-        },
-        {
-          "id": "isHistorical_012813",
-          "document": "cách đây 26 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5614327788352966,
-          "sparse_similarity": 0.04937617853283882,
-          "hybrid_score": 0.3054044842720032
-        }
-      ]
+    "assertion_position": [
+      1746,
+      1753
     ],
-    "eng_translation": [
-      "Dyspnea",
-      "Shortness of breath"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] khi gắng sức."
   },
   {
     "text": "sức",
@@ -2429,45 +630,11 @@
       1799,
       1802
     ],
-    "sentence": "6 70 10356 17 962LNC (khi đến MICU)\nDấu hiệu lâm sàng\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó thở khi gắng [ENTITY]\n- ho mạn tính có đờm vàng loãng\n- ran\n- phù phù\n- dịch thanh dịch lẫn máu từ vết mổ\n- phân nâu dương tính guaiac\nKết quả xét nghiệm: huyết khối 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025103",
-          "document": "từ 26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5537685751914978,
-          "sparse_similarity": 0.06519830226898193,
-          "hybrid_score": 0.30948343873023987
-        },
-        {
-          "id": "isHistorical_025367",
-          "document": "từ 36 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5509000420570374,
-          "sparse_similarity": 0.0668044164776802,
-          "hybrid_score": 0.3088522255420685
-        },
-        {
-          "id": "isHistorical_000959",
-          "document": "26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5591811537742615,
-          "sparse_similarity": 0.0578591451048851,
-          "hybrid_score": 0.3085201382637024
-        }
-      ]
+    "assertion_position": [
+      1763,
+      1766
     ],
-    "eng_translation": [
-      "sức"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "khó thở khi gắng [ENTITY]."
   },
   {
     "text": "ho mạn tính",
@@ -2476,46 +643,11 @@
       1805,
       1816
     ],
-    "sentence": "6 70 10356 17 962LNC (khi đến MICU)\nDấu hiệu lâm sàng\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó thở khi gắng sức\n- [ENTITY] có đờm vàng loãng\n- ran\n- phù phù\n- dịch thanh dịch lẫn máu từ vết mổ\n- phân nâu dương tính guaiac\nKết quả xét nghiệm: huyết khối 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025103",
-          "document": "từ 26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5549907088279724,
-          "sparse_similarity": 0.056596897542476654,
-          "hybrid_score": 0.30579379200935364
-        },
-        {
-          "id": "isHistorical_000959",
-          "document": "26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5618267059326172,
-          "sparse_similarity": 0.049656499177217484,
-          "hybrid_score": 0.3057416081428528
-        },
-        {
-          "id": "isHistorical_012813",
-          "document": "cách đây 26 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5609710812568665,
-          "sparse_similarity": 0.04992828145623207,
-          "hybrid_score": 0.3054496943950653
-        }
-      ]
+    "assertion_position": [
+      1768,
+      1779
     ],
-    "eng_translation": [
-      "Chronic cough",
-      "Persistent cough"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] có đờm vàng loãng."
   },
   {
     "text": "đờm vàng loãng",
@@ -2524,46 +656,11 @@
       1820,
       1834
     ],
-    "sentence": "6 70 10356 17 962LNC (khi đến MICU)\nDấu hiệu lâm sàng\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó thở khi gắng sức\n- ho mạn tính có [ENTITY]\n- ran\n- phù phù\n- dịch thanh dịch lẫn máu từ vết mổ\n- phân nâu dương tính guaiac\nKết quả xét nghiệm: huyết khối 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_000959",
-          "document": "26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5561594367027283,
-          "sparse_similarity": 0.04459014907479286,
-          "hybrid_score": 0.3003748059272766
-        },
-        {
-          "id": "isHistorical_025103",
-          "document": "từ 26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5500596761703491,
-          "sparse_similarity": 0.050058018416166306,
-          "hybrid_score": 0.30005884170532227
-        },
-        {
-          "id": "isHistorical_012813",
-          "document": "cách đây 26 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5551955699920654,
-          "sparse_similarity": 0.04459177330136299,
-          "hybrid_score": 0.29989367723464966
-        }
-      ]
+    "assertion_position": [
+      1783,
+      1797
     ],
-    "eng_translation": [
-      "yellow, watery sputum",
-      "Purulent, watery sputum"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "ho mạn tính có [ENTITY]."
   },
   {
     "text": "phù phù",
@@ -2572,46 +669,11 @@
       1843,
       1850
     ],
-    "sentence": "6 70 10356 17 962LNC (khi đến MICU)\nDấu hiệu lâm sàng\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- ran\n- [ENTITY]\n- dịch thanh dịch lẫn máu từ vết mổ\n- phân nâu dương tính guaiac\nKết quả xét nghiệm: huyết khối 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025103",
-          "document": "từ 26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.54732346534729,
-          "sparse_similarity": 0.05079343169927597,
-          "hybrid_score": 0.2990584373474121
-        },
-        {
-          "id": "isHistorical_000959",
-          "document": "26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5525197982788086,
-          "sparse_similarity": 0.04341728240251541,
-          "hybrid_score": 0.2979685366153717
-        },
-        {
-          "id": "isHistorical_012813",
-          "document": "cách đây 26 tuần được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5518063306808472,
-          "sparse_similarity": 0.04337029904127121,
-          "hybrid_score": 0.2975883185863495
-        }
-      ]
+    "assertion_position": [
+      1804,
+      1811
     ],
-    "eng_translation": [
-      "edema",
-      "Fluid retention"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "phân nâu",
@@ -2620,46 +682,11 @@
       1889,
       1897
     ],
-    "sentence": "6 70 10356 17 962LNC (khi đến MICU)\nDấu hiệu lâm sàng\n- hạ huyết áp, không đặc hiệu\n- mệt mỏi\n- mệt mỏi\n- khó thở khi gắng sức\n- ho mạn tính có đờm vàng loãng\n- ran\n- phù phù\n- dịch thanh dịch lẫn máu từ vết mổ\n- [ENTITY] dương tính guaiac\nKết quả xét nghiệm: huyết khối 26.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_025103",
-          "document": "từ 26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5621805191040039,
-          "sparse_similarity": 0.07708141952753067,
-          "hybrid_score": 0.3196309804916382
-        },
-        {
-          "id": "isHistorical_025367",
-          "document": "từ 36 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5578581094741821,
-          "sparse_similarity": 0.07892172038555145,
-          "hybrid_score": 0.3183899223804474
-        },
-        {
-          "id": "isHistorical_000959",
-          "document": "26 tuần trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.568182647228241,
-          "sparse_similarity": 0.06815747916698456,
-          "hybrid_score": 0.31817007064819336
-        }
-      ]
+    "assertion_position": [
+      1848,
+      1856
     ],
-    "eng_translation": [
-      "Brown stool",
-      "Melena"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] dương tính guaiac."
   },
   {
     "text": "chụp x-quang",
@@ -2668,46 +695,11 @@
       2046,
       2058
     ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] ngực có xẹp phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6438702344894409,
-          "sparse_similarity": 0.0893307477235794,
-          "hybrid_score": 0.36660048365592957
-        },
-        {
-          "id": "isFamily_007189",
-          "document": "bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.634383499622345,
-          "sparse_similarity": 0.09124641120433807,
-          "hybrid_score": 0.3628149628639221
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6343011260032654,
-          "sparse_similarity": 0.08422765880823135,
-          "hybrid_score": 0.35926440358161926
-        }
-      ]
+    "assertion_position": [
+      2006,
+      2018
     ],
-    "eng_translation": [
-      "X-ray imaging",
-      "Radiographic imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] ngực có xẹp phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi."
   },
   {
     "text": "xẹp",
@@ -2716,62 +708,11 @@
       2067,
       2070
     ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực có [ENTITY] phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6456945538520813,
-          "sparse_similarity": 0.09464307129383087,
-          "hybrid_score": 0.3701688051223755
-        },
-        {
-          "id": "isFamily_007189",
-          "document": "bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.634676992893219,
-          "sparse_similarity": 0.096543088555336,
-          "hybrid_score": 0.3656100332736969
-        },
-        {
-          "id": "isFamily_007150",
-          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6341806650161743,
-          "sparse_similarity": 0.08948536962270737,
-          "hybrid_score": 0.36183300614356995
-        }
-      ]
+    "assertion_position": [
+      2027,
+      2030
     ],
-    "eng_translation": [
-      "collapsed",
-      "Collapsed Lung"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J9811": 0.769925,
-        "Q332": 0.725916,
-        "J939": 0.718757,
-        "Z902": 0.686589,
-        "J9819": 0.68048
-      },
-      "rapidfuzz": {
-        "Z983": 0.855,
-        "C7801": 0.855,
-        "C7800": 0.855,
-        "J9819": 0.847059,
-        "X360XXS": 0.847059,
-        "R55": 0.847059
-      }
-    },
-    "candidate": {
-      "code": "J9819",
-      "confidence": 0.697138
-    }
+    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực có [ENTITY] phổi thùy dưới phải do chèn ép kèm tràn dịch màng phổi."
   },
   {
     "text": "phổi",
@@ -2780,46 +721,11 @@
       2071,
       2075
     ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực có xẹp [ENTITY] thùy dưới phải do chèn ép kèm tràn dịch màng phổi.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6385605931282043,
-          "sparse_similarity": 0.09247374534606934,
-          "hybrid_score": 0.36551716923713684
-        },
-        {
-          "id": "isFamily_007189",
-          "document": "bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6238501071929932,
-          "sparse_similarity": 0.09436830878257751,
-          "hybrid_score": 0.35910922288894653
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6200917959213257,
-          "sparse_similarity": 0.09371164441108704,
-          "hybrid_score": 0.35690170526504517
-        }
-      ]
+    "assertion_position": [
+      2031,
+      2035
     ],
-    "eng_translation": [
-      "Lungs",
-      "Respiratory system"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực có xẹp [ENTITY] thùy dưới phải do chèn ép kèm tràn dịch màng phổi."
   },
   {
     "text": "tràn dịch màng phổi",
@@ -2828,46 +734,11 @@
       2106,
       2125
     ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực có xẹp phổi thùy dưới phải do chèn ép kèm [ENTITY].",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.654017984867096,
-          "sparse_similarity": 0.08759398013353348,
-          "hybrid_score": 0.3708059787750244
-        },
-        {
-          "id": "isFamily_007189",
-          "document": "bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6434777975082397,
-          "sparse_similarity": 0.08928327262401581,
-          "hybrid_score": 0.3663805425167084
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6381657123565674,
-          "sparse_similarity": 0.08876825869083405,
-          "hybrid_score": 0.3634669780731201
-        }
-      ]
+    "assertion_position": [
+      2066,
+      2085
     ],
-    "eng_translation": [
-      "pleural effusion",
-      "Pleural fluid accumulation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực có xẹp phổi thùy dưới phải do chèn ép kèm [ENTITY]."
   },
   {
     "text": "Viêm phổi",
@@ -2876,62 +747,11 @@
       2231,
       2240
     ],
-    "sentence": "Các thủ thuật đã thực hiện\n- Truyền dịch tĩnh mạch 750cc\n- Xông khí dung\nCác phát hiện chẩn đoán khác\n- [ENTITY] bệnh viện\n- Rung nhĩ kèm nhịp nhanh trên thất",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034244",
-          "document": "đã phẫu thuật [ENTITY].",
-          "dense_similarity": 0.6019246578216553,
-          "sparse_similarity": 0.12158230692148209,
-          "hybrid_score": 0.3617534935474396
-        },
-        {
-          "id": "isHistorical_034247",
-          "document": "đã từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.60094153881073,
-          "sparse_similarity": 0.12077836692333221,
-          "hybrid_score": 0.3608599603176117
-        },
-        {
-          "id": "isHistorical_027029",
-          "document": "từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6109179258346558,
-          "sparse_similarity": 0.10295847058296204,
-          "hybrid_score": 0.3569381833076477
-        }
-      ]
+    "assertion_position": [
+      2189,
+      2198
     ],
-    "eng_translation": [
-      "Pneumonia",
-      "Pulmonary infection"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J189": 0.95392,
-        "J159": 0.839622,
-        "J129": 0.787309,
-        "J181": 0.781404,
-        "J188": 0.781283
-      },
-      "rapidfuzz": {
-        "A0103": 0.9,
-        "P238": 0.9,
-        "P236": 0.9,
-        "T80218D": 0.855,
-        "S25402D": 0.855,
-        "S25402S": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J189",
-      "confidence": 0.858528
-    }
+    "sentence": "[ENTITY] bệnh viện."
   },
   {
     "text": "Rung nhĩ",
@@ -2940,46 +760,11 @@
       2253,
       2261
     ],
-    "sentence": "Các thủ thuật đã thực hiện\n- Truyền dịch tĩnh mạch 750cc\n- Xông khí dung\nCác phát hiện chẩn đoán khác\n- Viêm phổi bệnh viện\n- [ENTITY] kèm nhịp nhanh trên thất",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012351",
-          "document": "cách đây 1 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6129952669143677,
-          "sparse_similarity": 0.10513962060213089,
-          "hybrid_score": 0.359067440032959
-        },
-        {
-          "id": "isHistorical_019689",
-          "document": "khoảng 1 tháng trước được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6109507083892822,
-          "sparse_similarity": 0.1011214554309845,
-          "hybrid_score": 0.35603606700897217
-        },
-        {
-          "id": "isHistorical_012639",
-          "document": "cách đây 2 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6061668395996094,
-          "sparse_similarity": 0.1029074490070343,
-          "hybrid_score": 0.35453712940216064
-        }
-      ]
+    "assertion_position": [
+      2210,
+      2218
     ],
-    "eng_translation": [
-      "Atrial fibrillation",
-      "Paroxysmal atrial fibrillation"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] kèm nhịp nhanh trên thất."
   },
   {
     "text": "nhịp nhanh trên",
@@ -2988,45 +773,10 @@
       2266,
       2281
     ],
-    "sentence": "Các thủ thuật đã thực hiện\n- Truyền dịch tĩnh mạch 750cc\n- Xông khí dung\nCác phát hiện chẩn đoán khác\n- Viêm phổi bệnh viện\n- Rung nhĩ kèm [ENTITY] thất",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034244",
-          "document": "đã phẫu thuật [ENTITY].",
-          "dense_similarity": 0.6147164702415466,
-          "sparse_similarity": 0.1375553458929062,
-          "hybrid_score": 0.376135915517807
-        },
-        {
-          "id": "isHistorical_034247",
-          "document": "đã từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6137766242027283,
-          "sparse_similarity": 0.1302778422832489,
-          "hybrid_score": 0.3720272183418274
-        },
-        {
-          "id": "isHistorical_027029",
-          "document": "từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6237350702285767,
-          "sparse_similarity": 0.10863175243139267,
-          "hybrid_score": 0.36618340015411377
-        }
-      ]
+    "assertion_position": [
+      2223,
+      2238
     ],
-    "eng_translation": [
-      "supraventricular tachycardia",
-      "SVT"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Rung nhĩ kèm [ENTITY] thất."
   }
 ]

@@ -6,46 +6,11 @@
       107,
       110
     ],
-    "sentence": "Tiền sử bệnh hiện tại\nTriệu chứng hiện tại\n- [ENTITY]\n- ho\n- đôi khi đau bụng quặn\n- tiêu chảy\n- đôi khi đi ngoài ra máu\n- không tăng cân nhiều\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh hiện tại triệu chứng hiện tại - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_006622",
-          "document": "bên ngoại của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5880299210548401,
-          "sparse_similarity": 0.18161046504974365,
-          "hybrid_score": 0.38482019305229187
-        },
-        {
-          "id": "isFamily_002486",
-          "document": "ba bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5912109613418579,
-          "sparse_similarity": 0.17326666414737701,
-          "hybrid_score": 0.38223880529403687
-        },
-        {
-          "id": "isFamily_011496",
-          "document": "con ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.60113525390625,
-          "sparse_similarity": 0.16223998367786407,
-          "hybrid_score": 0.38168761134147644
-        }
-      ]
+    "assertion_position": [
+      103,
+      106
     ],
-    "eng_translation": [
-      "Sputum",
-      "Sputum Sample"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "ho",
@@ -54,48 +19,11 @@
       113,
       115
     ],
-    "sentence": "Tiền sử bệnh hiện tại\nTriệu chứng hiện tại\n- Đờm\n- [ENTITY]\n- đôi khi đau bụng quặn\n- tiêu chảy\n- đôi khi đi ngoài ra máu\n- không tăng cân nhiều\n3.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh hiện tại triệu chứng hiện tại - đờm - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_012903",
-          "document": "cách đây 3 tháng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5964156985282898,
-          "sparse_similarity": 0.08510296791791916,
-          "hybrid_score": 0.3407593369483948
-        },
-        {
-          "id": "isHistorical_027029",
-          "document": "từng được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5821212530136108,
-          "sparse_similarity": 0.09747962653636932,
-          "hybrid_score": 0.3398004472255707
-        },
-        {
-          "id": "isHistorical_012891",
-          "document": "cách đây 3 ngày được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5924930572509766,
-          "sparse_similarity": 0.0849228948354721,
-          "hybrid_score": 0.33870798349380493
-        }
-      ]
+    "assertion_position": [
+      108,
+      110
     ],
-    "eng_translation": [
-      "Ho",
-      "Hoarseness",
-      "H/o",
-      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đau bụng quặn",
@@ -104,46 +32,11 @@
       126,
       139
     ],
-    "sentence": "Tiền sử bệnh hiện tại\nTriệu chứng hiện tại\n- Đờm\n- ho\n- đôi khi [ENTITY]\n- tiêu chảy\n- đôi khi đi ngoài ra máu\n- không tăng cân nhiều\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_020140",
-          "document": "má người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5887271165847778,
-          "sparse_similarity": 0.18250922858715057,
-          "hybrid_score": 0.3856181800365448
-        },
-        {
-          "id": "isFamily_002486",
-          "document": "ba bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5916004180908203,
-          "sparse_similarity": 0.16925117373466492,
-          "hybrid_score": 0.3804258108139038
-        },
-        {
-          "id": "isFamily_011496",
-          "document": "con ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5991791486740112,
-          "sparse_similarity": 0.15847890079021454,
-          "hybrid_score": 0.3788290321826935
-        }
-      ]
+    "assertion_position": [
+      120,
+      133
     ],
-    "eng_translation": [
-      "abdominal colic pain",
-      "Abdominal cramping pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "đôi khi [ENTITY]."
   },
   {
     "text": "tiêu chảy",
@@ -152,46 +45,11 @@
       142,
       151
     ],
-    "sentence": "Tiền sử bệnh hiện tại\nTriệu chứng hiện tại\n- Đờm\n- ho\n- đôi khi đau bụng quặn\n- [ENTITY]\n- đôi khi đi ngoài ra máu\n- không tăng cân nhiều\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011496",
-          "document": "con ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5995728373527527,
-          "sparse_similarity": 0.15543846786022186,
-          "hybrid_score": 0.37750566005706787
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6026136875152588,
-          "sparse_similarity": 0.1497916877269745,
-          "hybrid_score": 0.37620270252227783
-        },
-        {
-          "id": "isFamily_003387",
-          "document": "ba ruột của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5994256138801575,
-          "sparse_similarity": 0.15006642043590546,
-          "hybrid_score": 0.37474602460861206
-        }
-      ]
+    "assertion_position": [
+      135,
+      144
     ],
-    "eng_translation": [
-      "Diarrhea",
-      "Watery Stool"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "đi ngoài ra máu",
@@ -200,46 +58,11 @@
       162,
       177
     ],
-    "sentence": "Tiền sử bệnh hiện tại\nTriệu chứng hiện tại\n- Đờm\n- ho\n- đôi khi đau bụng quặn\n- tiêu chảy\n- đôi khi [ENTITY]\n- không tăng cân nhiều\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_002486",
-          "document": "ba bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5812705755233765,
-          "sparse_similarity": 0.17193646728992462,
-          "hybrid_score": 0.37660351395606995
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5930997729301453,
-          "sparse_similarity": 0.15495596826076508,
-          "hybrid_score": 0.37402787804603577
-        },
-        {
-          "id": "isFamily_011496",
-          "document": "con ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5846067667007446,
-          "sparse_similarity": 0.16085875034332275,
-          "hybrid_score": 0.3727327585220337
-        }
-      ]
+    "assertion_position": [
+      154,
+      169
     ],
-    "eng_translation": [
-      "Passing blood in stool",
-      "Rectal bleeding"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "đôi khi [ENTITY]."
   },
   {
     "text": "mri",
@@ -248,46 +71,11 @@
       325,
       328
     ],
-    "sentence": "9\nKết quả chẩn đoán hình ảnh\n- [ENTITY] vùng chậu thực tế không chẩn đoán được do không có mỡ nào trong cơ thể\n- siêu âm hôm nay cũng rất khó khăn, nhưng cho thấy có thể có một tổn thương t2 tốt nhất, nhưng một số vùng không thể đánh giá tốt\nThủ thuật thực hiện\n- sinh thiết (trước đây)\n- siêu âm hôm nay\nCác phát hiện chẩn đoán khác\n- khối u trực tràng với hình ảnh của một u ác trực tràng đáng kể\n- sinh thiết chỉ cho thấy một u tuyến\n- đến khám để phân giai đoạn phẫu thuật với tem (viết tắt)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5771632194519043,
-          "sparse_similarity": 0.16645772755146027,
-          "hybrid_score": 0.3718104660511017
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5726543664932251,
-          "sparse_similarity": 0.1675644814968109,
-          "hybrid_score": 0.3701094388961792
-        },
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5718245506286621,
-          "sparse_similarity": 0.16446299850940704,
-          "hybrid_score": 0.368143767118454
-        }
-      ]
+    "assertion_position": [
+      315,
+      318
     ],
-    "eng_translation": [
-      "MRI",
-      "Magnetic Resonance Imaging"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] vùng chậu thực tế không chẩn đoán được do không có mỡ nào trong cơ thể."
   },
   {
     "text": "siêu âm",
@@ -296,46 +84,11 @@
       402,
       409
     ],
-    "sentence": "9\nKết quả chẩn đoán hình ảnh\n- mri vùng chậu thực tế không chẩn đoán được do không có mỡ nào trong cơ thể\n- [ENTITY] hôm nay cũng rất khó khăn, nhưng cho thấy có thể có một tổn thương t2 tốt nhất, nhưng một số vùng không thể đánh giá tốt\nThủ thuật thực hiện\n- sinh thiết (trước đây)\n- siêu âm hôm nay\nCác phát hiện chẩn đoán khác\n- khối u trực tràng với hình ảnh của một u ác trực tràng đáng kể\n- sinh thiết chỉ cho thấy một u tuyến\n- đến khám để phân giai đoạn phẫu thuật với tem (viết tắt)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5533283948898315,
-          "sparse_similarity": 0.13814973831176758,
-          "hybrid_score": 0.34573906660079956
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5455743074417114,
-          "sparse_similarity": 0.1390375941991806,
-          "hybrid_score": 0.3423059582710266
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5506018996238708,
-          "sparse_similarity": 0.1325327306985855,
-          "hybrid_score": 0.3415673077106476
-        }
-      ]
+    "assertion_position": [
+      391,
+      398
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] hôm nay cũng rất khó khăn, nhưng cho thấy có thể có một tổn thương t2 tốt nhất, nhưng một số vùng không thể đánh giá tốt."
   },
   {
     "text": "siêu âm",
@@ -344,46 +97,11 @@
       578,
       585
     ],
-    "sentence": "9\nKết quả chẩn đoán hình ảnh\n- mri vùng chậu thực tế không chẩn đoán được do không có mỡ nào trong cơ thể\n- siêu âm hôm nay cũng rất khó khăn, nhưng cho thấy có thể có một tổn thương t2 tốt nhất, nhưng một số vùng không thể đánh giá tốt\nThủ thuật thực hiện\n- sinh thiết (trước đây)\n- [ENTITY] hôm nay\nCác phát hiện chẩn đoán khác\n- khối u trực tràng với hình ảnh của một u ác trực tràng đáng kể\n- sinh thiết chỉ cho thấy một u tuyến\n- đến khám để phân giai đoạn phẫu thuật với tem (viết tắt)",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "trước đây) - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5536671280860901,
-          "sparse_similarity": 0.12454141676425934,
-          "hybrid_score": 0.3391042649745941
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5474131107330322,
-          "sparse_similarity": 0.12522342801094055,
-          "hybrid_score": 0.3363182544708252
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5514935255050659,
-          "sparse_similarity": 0.12013780325651169,
-          "hybrid_score": 0.3358156681060791
-        }
-      ]
+    "assertion_position": [
+      566,
+      573
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] hôm nay."
   },
   {
     "text": "khối",
@@ -392,58 +110,11 @@
       625,
       629
     ],
-    "sentence": "9\nKết quả chẩn đoán hình ảnh\n- mri vùng chậu thực tế không chẩn đoán được do không có mỡ nào trong cơ thể\n- siêu âm hôm nay cũng rất khó khăn, nhưng cho thấy có thể có một tổn thương t2 tốt nhất, nhưng một số vùng không thể đánh giá tốt\nThủ thuật thực hiện\n- sinh thiết (trước đây)\n- siêu âm hôm nay\nCác phát hiện chẩn đoán khác\n- [ENTITY] u trực tràng với hình ảnh của một u ác trực tràng đáng kể\n- sinh thiết chỉ cho thấy một u tuyến\n- đến khám để phân giai đoạn phẫu thuật với tem (viết tắt)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5589072108268738,
-          "sparse_similarity": 0.14221885800361633,
-          "hybrid_score": 0.35056304931640625
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5577841997146606,
-          "sparse_similarity": 0.13793665170669556,
-          "hybrid_score": 0.3478604257106781
-        },
-        {
-          "id": "isFamily_006645",
-          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5521848201751709,
-          "sparse_similarity": 0.14230264723300934,
-          "hybrid_score": 0.3472437262535095
-        }
-      ]
+    "assertion_position": [
+      613,
+      617
     ],
-    "eng_translation": [
-      "mass"
-    ],
-    "retriever": {
-      "sapbert": {
-        "R229": 0.574987,
-        "N630": 0.549435,
-        "Q184": 0.525351,
-        "Y92251": 0.521502,
-        "R920": 0.520885
-      },
-      "rapidfuzz": {
-        "R1906": 0.9,
-        "Y09": 0.771429,
-        "X961XXS": 0.771429
-      }
-    },
-    "candidate": {
-      "code": "R229",
-      "confidence": 0.517488
-    }
+    "sentence": "[ENTITY] u trực tràng với hình ảnh của một u ác trực tràng đáng kể."
   },
   {
     "text": "u trực tràng",
@@ -452,66 +123,11 @@
       630,
       642
     ],
-    "sentence": "9\nKết quả chẩn đoán hình ảnh\n- mri vùng chậu thực tế không chẩn đoán được do không có mỡ nào trong cơ thể\n- siêu âm hôm nay cũng rất khó khăn, nhưng cho thấy có thể có một tổn thương t2 tốt nhất, nhưng một số vùng không thể đánh giá tốt\nThủ thuật thực hiện\n- sinh thiết (trước đây)\n- siêu âm hôm nay\nCác phát hiện chẩn đoán khác\n- khối [ENTITY] với hình ảnh của một u ác trực tràng đáng kể\n- sinh thiết chỉ cho thấy một u tuyến\n- đến khám để phân giai đoạn phẫu thuật với tem (viết tắt)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5620185732841492,
-          "sparse_similarity": 0.13666249811649323,
-          "hybrid_score": 0.3493405282497406
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5562665462493896,
-          "sparse_similarity": 0.1375875025987625,
-          "hybrid_score": 0.3469270169734955
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5606708526611328,
-          "sparse_similarity": 0.13171371817588806,
-          "hybrid_score": 0.34619230031967163
-        }
-      ]
+    "assertion_position": [
+      618,
+      630
     ],
-    "eng_translation": [
-      "Rectal exam",
-      "Rectal examination",
-      "Digital Rectal Exam"
-    ],
-    "retriever": {
-      "sapbert": {
-        "Z1212": 0.667748,
-        "D128": 0.625523,
-        "D375": 0.62484,
-        "D012": 0.602885,
-        "R151": 0.579089
-      },
-      "rapidfuzz": {
-        "P542": 0.855,
-        "K51011": 0.855,
-        "K50911": 0.855,
-        "T81594A": 0.855,
-        "Z049": 0.855,
-        "Z0489": 0.855,
-        "S64497A": 0.855,
-        "S64497D": 0.855,
-        "S64497S": 0.855
-      }
-    },
-    "candidate": {
-      "code": "Z1212",
-      "confidence": 0.600973
-    }
+    "sentence": "khối [ENTITY] với hình ảnh của một u ác trực tràng đáng kể."
   },
   {
     "text": "u ác trực tràng",
@@ -520,61 +136,11 @@
       664,
       679
     ],
-    "sentence": "9\nKết quả chẩn đoán hình ảnh\n- mri vùng chậu thực tế không chẩn đoán được do không có mỡ nào trong cơ thể\n- siêu âm hôm nay cũng rất khó khăn, nhưng cho thấy có thể có một tổn thương t2 tốt nhất, nhưng một số vùng không thể đánh giá tốt\nThủ thuật thực hiện\n- sinh thiết (trước đây)\n- siêu âm hôm nay\nCác phát hiện chẩn đoán khác\n- khối u trực tràng với hình ảnh của một [ENTITY] đáng kể\n- sinh thiết chỉ cho thấy một u tuyến\n- đến khám để phân giai đoạn phẫu thuật với tem (viết tắt)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5495412945747375,
-          "sparse_similarity": 0.14320072531700134,
-          "hybrid_score": 0.34637099504470825
-        },
-        {
-          "id": "isFamily_010452",
-          "document": "chị gái được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5521754026412964,
-          "sparse_similarity": 0.1360032856464386,
-          "hybrid_score": 0.3440893292427063
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5488095283508301,
-          "sparse_similarity": 0.13767975568771362,
-          "hybrid_score": 0.34324464201927185
-        }
-      ]
+    "assertion_position": [
+      652,
+      667
     ],
-    "eng_translation": [
-      "Rectal cancer",
-      "Colorectal cancer"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C20": 0.915789,
-        "C189": 0.794747,
-        "C49A5": 0.72505,
-        "C180": 0.711332,
-        "C7A026": 0.705917
-      },
-      "rapidfuzz": {
-        "Z15060": 0.9,
-        "K6040": 0.855,
-        "K60421": 0.855,
-        "R971": 0.855,
-        "QA1790": 0.855
-      }
-    },
-    "candidate": {
-      "code": "C20",
-      "confidence": 0.82421
-    }
+    "sentence": "khối u trực tràng với hình ảnh của một [ENTITY] đáng kể."
   },
   {
     "text": "u tuyến",
@@ -583,65 +149,10 @@
       718,
       725
     ],
-    "sentence": "9\nKết quả chẩn đoán hình ảnh\n- mri vùng chậu thực tế không chẩn đoán được do không có mỡ nào trong cơ thể\n- siêu âm hôm nay cũng rất khó khăn, nhưng cho thấy có thể có một tổn thương t2 tốt nhất, nhưng một số vùng không thể đánh giá tốt\nThủ thuật thực hiện\n- sinh thiết (trước đây)\n- siêu âm hôm nay\nCác phát hiện chẩn đoán khác\n- khối u trực tràng với hình ảnh của một u ác trực tràng đáng kể\n- sinh thiết chỉ cho thấy một [ENTITY]\n- đến khám để phân giai đoạn phẫu thuật với tem (viết tắt)",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.556165337562561,
-          "sparse_similarity": 0.13744717836380005,
-          "hybrid_score": 0.34680625796318054
-        },
-        {
-          "id": "isFamily_006631",
-          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.555603563785553,
-          "sparse_similarity": 0.13286462426185608,
-          "hybrid_score": 0.3442341089248657
-        },
-        {
-          "id": "isFamily_023816",
-          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.5497539639472961,
-          "sparse_similarity": 0.13846541941165924,
-          "hybrid_score": 0.3441096842288971
-        }
-      ]
+    "assertion_position": [
+      705,
+      712
     ],
-    "eng_translation": [
-      "U tuyến",
-      "U tuyến is not a standard or canonical medical term in English. If this refers to \"Ureteral tumor\" or \"Ureteral cancer,\" the canonical term would be: **Ureteral neoplasm** If more context is provided, a more specific diagnosis can be determined.",
-      "Uterine cancer"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C55": 0.857956,
-        "C549": 0.787841,
-        "C542": 0.713433,
-        "C541": 0.71091,
-        "D390": 0.676762
-      },
-      "rapidfuzz": {
-        "S91145S": 0.855,
-        "S91143S": 0.855,
-        "S91143D": 0.855,
-        "Z98891": 0.855,
-        "O3429": 0.855,
-        "QA1791": 0.855,
-        "Y230XXS": 0.610714,
-        "Y230XXA": 0.610714,
-        "L03329": 0.610714
-      }
-    },
-    "candidate": {
-      "code": "C55",
-      "confidence": 0.77216
-    }
+    "sentence": "sinh thiết chỉ cho thấy một [ENTITY]."
   }
 ]

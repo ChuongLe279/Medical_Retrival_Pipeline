@@ -6,62 +6,11 @@
       57,
       70
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - [ENTITY] do xơ vữa động mạch\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - bệnh trào ngược dạ dày- thực quản không có viêm thực quản\n\n2.",
-    "assertion_result": {
-      "tag": "isHistorical",
-      "confidence": 1.0,
-      "evidence": "tiền sử bệnh nội khoa các bệnh lý mạn tính - [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6399580240249634,
-          "sparse_similarity": 0.2525077760219574,
-          "hybrid_score": 0.4462329149246216
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6453953385353088,
-          "sparse_similarity": 0.24540987610816956,
-          "hybrid_score": 0.4454026222229004
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6336947679519653,
-          "sparse_similarity": 0.20334957540035248,
-          "hybrid_score": 0.4185221791267395
-        }
-      ]
+    "assertion_position": [
+      45,
+      58
     ],
-    "eng_translation": [
-      "cardiovascular disease",
-      "Cardiac disease"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I519": 0.955106,
-        "I5189": 0.746198,
-        "I429": 0.718682,
-        "I099": 0.705557,
-        "I679": 0.694969
-      },
-      "rapidfuzz": {
-        "C946": 0.855,
-        "I289": 0.855,
-        "I279": 0.855,
-        "R011": 0.855,
-        "T82120D": 0.855,
-        "T82129A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "I519",
-      "confidence": 0.859595
-    }
+    "sentence": "[ENTITY] do xơ vữa động mạch."
   },
   {
     "text": "xơ vữa động mạch",
@@ -70,62 +19,11 @@
       74,
       90
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - bệnh tim mạch do [ENTITY]\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - bệnh trào ngược dạ dày- thực quản không có viêm thực quản\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6420453190803528,
-          "sparse_similarity": 0.253269225358963,
-          "hybrid_score": 0.4476572871208191
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6471133828163147,
-          "sparse_similarity": 0.24558940529823303,
-          "hybrid_score": 0.44635140895843506
-        },
-        {
-          "id": "isFamily_007608",
-          "document": "bệnh sử gia đình ông nội có tiền sử [ENTITY].",
-          "dense_similarity": 0.6245456337928772,
-          "sparse_similarity": 0.21950726211071014,
-          "hybrid_score": 0.42202645540237427
-        }
-      ]
+    "assertion_position": [
+      62,
+      78
     ],
-    "eng_translation": [
-      "Atherosclerosis",
-      "Arteriosclerosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I7090": 0.960917,
-        "I7091": 0.846441,
-        "I700": 0.836473,
-        "I672": 0.751668,
-        "I708": 0.727376
-      },
-      "rapidfuzz": {
-        "I70743": 0.9,
-        "I70291": 0.9,
-        "I70269": 0.9,
-        "I7090": 0.812903,
-        "I7091": 0.812903,
-        "I70735": 0.812903
-      }
-    },
-    "candidate": {
-      "code": "I7090",
-      "confidence": 0.946116
-    }
+    "sentence": "bệnh tim mạch do [ENTITY]."
   },
   {
     "text": "Tăng huyết áp",
@@ -134,62 +32,11 @@
       97,
       110
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - bệnh tim mạch do xơ vữa động mạch\n    - [ENTITY]\n    - tăng lipid máu, không đặc hiệu\n    - bệnh trào ngược dạ dày- thực quản không có viêm thực quản\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6246064305305481,
-          "sparse_similarity": 0.23229597508907318,
-          "hybrid_score": 0.42845121026039124
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6278346180915833,
-          "sparse_similarity": 0.22477422654628754,
-          "hybrid_score": 0.426304429769516
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6110495328903198,
-          "sparse_similarity": 0.1828981339931488,
-          "hybrid_score": 0.3969738483428955
-        }
-      ]
+    "assertion_position": [
+      80,
+      93
     ],
-    "eng_translation": [
-      "Hypertension",
-      "Essential Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.966856,
-        "I159": 0.757279,
-        "I160": 0.721417,
-        "I150": 0.702525,
-        "I161": 0.684796
-      },
-      "rapidfuzz": {
-        "I10": 0.95,
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9,
-        "O10013": 0.9,
-        "O1002": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.96517
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "tăng lipid máu",
@@ -198,60 +45,11 @@
       117,
       131
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - bệnh tim mạch do xơ vữa động mạch\n    - Tăng huyết áp\n    - [ENTITY], không đặc hiệu\n    - bệnh trào ngược dạ dày- thực quản không có viêm thực quản\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6218685507774353,
-          "sparse_similarity": 0.24225445091724396,
-          "hybrid_score": 0.43206149339675903
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.625419020652771,
-          "sparse_similarity": 0.23471477627754211,
-          "hybrid_score": 0.43006688356399536
-        },
-        {
-          "id": "isFamily_019522",
-          "document": "họ nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.601158618927002,
-          "sparse_similarity": 0.2233523726463318,
-          "hybrid_score": 0.41225549578666687
-        }
-      ]
+    "assertion_position": [
+      95,
+      109
     ],
-    "eng_translation": [
-      "Hyperlipidemia",
-      "Dyslipidemia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E785": 0.979012,
-        "E786": 0.784723,
-        "E7849": 0.765059,
-        "E782": 0.751965,
-        "E7841": 0.744404
-      },
-      "rapidfuzz": {
-        "E782": 0.95,
-        "E7849": 0.95,
-        "E785": 0.9,
-        "Z83438": 0.771429
-      }
-    },
-    "candidate": {
-      "code": "E785",
-      "confidence": 0.971111
-    }
+    "sentence": "[ENTITY], không đặc hiệu."
   },
   {
     "text": "bệnh trào ngược dạ dày- thực quản",
@@ -260,62 +58,11 @@
       154,
       187
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - bệnh tim mạch do xơ vữa động mạch\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - [ENTITY] không có viêm thực quản\n\n2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6347835063934326,
-          "sparse_similarity": 0.21735304594039917,
-          "hybrid_score": 0.4260682761669159
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6282739639282227,
-          "sparse_similarity": 0.2233770191669464,
-          "hybrid_score": 0.42582547664642334
-        },
-        {
-          "id": "isFamily_020051",
-          "document": "má bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6195265650749207,
-          "sparse_similarity": 0.17953872680664062,
-          "hybrid_score": 0.39953264594078064
-        }
-      ]
+    "assertion_position": [
+      127,
+      160
     ],
-    "eng_translation": [
-      "Gastroesophageal reflux disease",
-      "GERD"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K219": 0.805945,
-        "K2100": 0.736454,
-        "R12": 0.735888,
-        "K2101": 0.706403,
-        "P7883": 0.693847
-      },
-      "rapidfuzz": {
-        "K2101": 0.870968,
-        "K219": 0.870968,
-        "K2100": 0.870968,
-        "M65341": 0.771429,
-        "M65342": 0.771429,
-        "R454": 0.771429
-      }
-    },
-    "candidate": {
-      "code": "K219",
-      "confidence": 0.812447
-    }
+    "sentence": "[ENTITY] không có viêm thực quản."
   },
   {
     "text": "viêm thực quản",
@@ -324,62 +71,11 @@
       197,
       211
     ],
-    "sentence": "Tiền sử bệnh nội khoa\n    Các bệnh lý mạn tính\n    - bệnh tim mạch do xơ vữa động mạch\n    - Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu\n    - bệnh trào ngược dạ dày- thực quản không có [ENTITY]\n\n2.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không có [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6177871823310852,
-          "sparse_similarity": 0.21842806041240692,
-          "hybrid_score": 0.41810762882232666
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6182613968849182,
-          "sparse_similarity": 0.21041744947433472,
-          "hybrid_score": 0.41433942317962646
-        },
-        {
-          "id": "isFamily_007608",
-          "document": "bệnh sử gia đình ông nội có tiền sử [ENTITY].",
-          "dense_similarity": 0.5980096459388733,
-          "sparse_similarity": 0.191090926527977,
-          "hybrid_score": 0.39455029368400574
-        }
-      ]
+    "assertion_position": [
+      170,
+      184
     ],
-    "eng_translation": [
-      "Gastritis",
-      "Gastritis is the inflammation of the stomach lining."
-    ],
-    "retriever": {
-      "sapbert": {
-        "K2970": 0.749555,
-        "K2971": 0.686647,
-        "K30": 0.677284,
-        "K819": 0.65158,
-        "K31A0": 0.651304
-      },
-      "rapidfuzz": {
-        "K2970": 0.9,
-        "K2900": 0.9,
-        "K2930": 0.9,
-        "S32314A": 0.855,
-        "S21139S": 0.855,
-        "S21141A": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K2970",
-      "confidence": 0.764599
-    }
+    "sentence": "bệnh trào ngược dạ dày- thực quản không có [ENTITY]."
   },
   {
     "text": "đau bụng",
@@ -388,46 +84,11 @@
       260,
       268
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: [ENTITY]\n    Thời điểm khởi phát triệu chứng\n    - Tiền sử 1 ngày\n    - Khởi phát trong khi ăn tối\n    Triệu chứng chính\n    - đau bụng vùng thượng vị\n    - buồn nôn\n    Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6042732000350952,
-          "sparse_similarity": 0.17802177369594574,
-          "hybrid_score": 0.3911474943161011
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6076694130897522,
-          "sparse_similarity": 0.1723126322031021,
-          "hybrid_score": 0.38999101519584656
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6252349615097046,
-          "sparse_similarity": 0.15320080518722534,
-          "hybrid_score": 0.38921788334846497
-        }
-      ]
+    "assertion_position": [
+      226,
+      234
     ],
-    "eng_translation": [
-      "Abdominal pain",
-      "Abdominal discomfort"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Lý do nhập viện: [ENTITY]."
   },
   {
     "text": "đau bụng vùng thượng vị",
@@ -436,46 +97,11 @@
       387,
       410
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng\n    - Tiền sử 1 ngày\n    - Khởi phát trong khi ăn tối\n    Triệu chứng chính\n    - [ENTITY]\n    - buồn nôn\n    Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6249765753746033,
-          "sparse_similarity": 0.15889814496040344,
-          "hybrid_score": 0.39193737506866455
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6022322177886963,
-          "sparse_similarity": 0.17950929701328278,
-          "hybrid_score": 0.39087074995040894
-        },
-        {
-          "id": "isFamily_011496",
-          "document": "con ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6154483556747437,
-          "sparse_similarity": 0.1645117998123169,
-          "hybrid_score": 0.3899800777435303
-        }
-      ]
+    "assertion_position": [
+      332,
+      355
     ],
-    "eng_translation": [
-      "upper abdominal pain",
-      "epigastric pain"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "buồn nôn",
@@ -484,46 +110,11 @@
       417,
       425
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng\n    - Tiền sử 1 ngày\n    - Khởi phát trong khi ăn tối\n    Triệu chứng chính\n    - đau bụng vùng thượng vị\n    - [ENTITY]\n    Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6020945906639099,
-          "sparse_similarity": 0.13486218452453613,
-          "hybrid_score": 0.368478387594223
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5737698078155518,
-          "sparse_similarity": 0.15646550059318542,
-          "hybrid_score": 0.3651176691055298
-        },
-        {
-          "id": "isFamily_011496",
-          "document": "con ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5906579494476318,
-          "sparse_similarity": 0.139548197388649,
-          "hybrid_score": 0.3651030659675598
-        }
-      ]
+    "assertion_position": [
+      357,
+      365
     ],
-    "eng_translation": [
-      "nausea",
-      "Gastrointestinal distress"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY]."
   },
   {
     "text": "sốt",
@@ -532,46 +123,11 @@
       466,
       469
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng\n    - Tiền sử 1 ngày\n    - Khởi phát trong khi ăn tối\n    Triệu chứng chính\n    - đau bụng vùng thượng vị\n    - buồn nôn\n    Các triệu chứng liên quan: Không có [ENTITY], ớn lạnh, nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác\n\n3.",
-    "assertion_result": {
-      "tag": "isNegated",
-      "confidence": 1.0,
-      "evidence": "không có [entity]"
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6275490522384644,
-          "sparse_similarity": 0.13832826912403107,
-          "hybrid_score": 0.3829386532306671
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.6051916480064392,
-          "sparse_similarity": 0.16059264540672302,
-          "hybrid_score": 0.3828921318054199
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6094682812690735,
-          "sparse_similarity": 0.155685156583786,
-          "hybrid_score": 0.38257670402526855
-        }
-      ]
+    "assertion_position": [
+      403,
+      406
     ],
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: Không có [ENTITY], ớn lạnh, nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác."
   },
   {
     "text": "ớn lạnh",
@@ -580,45 +136,11 @@
       471,
       478
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng\n    - Tiền sử 1 ngày\n    - Khởi phát trong khi ăn tối\n    Triệu chứng chính\n    - đau bụng vùng thượng vị\n    - buồn nôn\n    Các triệu chứng liên quan: Không có sốt, [ENTITY], nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6141666173934937,
-          "sparse_similarity": 0.14665894210338593,
-          "hybrid_score": 0.3804127871990204
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5880404114723206,
-          "sparse_similarity": 0.17037956416606903,
-          "hybrid_score": 0.3792099952697754
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5913720726966858,
-          "sparse_similarity": 0.16489797830581665,
-          "hybrid_score": 0.3781350255012512
-        }
-      ]
+    "assertion_position": [
+      408,
+      415
     ],
-    "eng_translation": [
-      "chills"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: Không có sốt, [ENTITY], nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác."
   },
   {
     "text": "nôn",
@@ -627,46 +149,11 @@
       480,
       483
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng\n    - Tiền sử 1 ngày\n    - Khởi phát trong khi ăn tối\n    Triệu chứng chính\n    - đau bụng vùng thượng vị\n    - buồn nôn\n    Các triệu chứng liên quan: Không có sốt, ớn lạnh, [ENTITY], táo bón, ho, tiểu khó, hoặc các triệu chứng khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6175898313522339,
-          "sparse_similarity": 0.13773930072784424,
-          "hybrid_score": 0.37766456604003906
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5890136361122131,
-          "sparse_similarity": 0.15990570187568665,
-          "hybrid_score": 0.3744596838951111
-        },
-        {
-          "id": "isFamily_011496",
-          "document": "con ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6048675179481506,
-          "sparse_similarity": 0.14256206154823303,
-          "hybrid_score": 0.373714804649353
-        }
-      ]
+    "assertion_position": [
+      417,
+      420
     ],
-    "eng_translation": [
-      "vomiting",
-      "Nausea and vomiting"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, [ENTITY], táo bón, ho, tiểu khó, hoặc các triệu chứng khác."
   },
   {
     "text": "táo bón",
@@ -675,46 +162,11 @@
       485,
       492
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng\n    - Tiền sử 1 ngày\n    - Khởi phát trong khi ăn tối\n    Triệu chứng chính\n    - đau bụng vùng thượng vị\n    - buồn nôn\n    Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, [ENTITY], ho, tiểu khó, hoặc các triệu chứng khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5928329825401306,
-          "sparse_similarity": 0.16458144783973694,
-          "hybrid_score": 0.37870723009109497
-        },
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6150941848754883,
-          "sparse_similarity": 0.14171677827835083,
-          "hybrid_score": 0.37840548157691956
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5960739850997925,
-          "sparse_similarity": 0.15946519374847412,
-          "hybrid_score": 0.3777695894241333
-        }
-      ]
+    "assertion_position": [
+      422,
+      429
     ],
-    "eng_translation": [
-      "Constipation",
-      "Fecal impaction"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, [ENTITY], ho, tiểu khó, hoặc các triệu chứng khác."
   },
   {
     "text": "ho",
@@ -723,48 +175,11 @@
       494,
       496
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng\n    - Tiền sử 1 ngày\n    - Khởi phát trong khi ăn tối\n    Triệu chứng chính\n    - đau bụng vùng thượng vị\n    - buồn nôn\n    Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, [ENTITY], tiểu khó, hoặc các triệu chứng khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6168599724769592,
-          "sparse_similarity": 0.14582133293151855,
-          "hybrid_score": 0.3813406527042389
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5913331508636475,
-          "sparse_similarity": 0.16908198595046997,
-          "hybrid_score": 0.3802075684070587
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5947228074073792,
-          "sparse_similarity": 0.16414278745651245,
-          "hybrid_score": 0.3794327974319458
-        }
-      ]
+    "assertion_position": [
+      431,
+      433
     ],
-    "eng_translation": [
-      "Ho",
-      "Hoarseness",
-      "H/o",
-      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, [ENTITY], tiểu khó, hoặc các triệu chứng khác."
   },
   {
     "text": "tiểu khó",
@@ -773,47 +188,11 @@
       498,
       506
     ],
-    "sentence": "Tiền sử bệnh hiện tại\n    Lý do nhập viện: đau bụng\n    Thời điểm khởi phát triệu chứng\n    - Tiền sử 1 ngày\n    - Khởi phát trong khi ăn tối\n    Triệu chứng chính\n    - đau bụng vùng thượng vị\n    - buồn nôn\n    Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, ho, [ENTITY], hoặc các triệu chứng khác\n\n3.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_003342",
-          "document": "ba ruột bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.6198617219924927,
-          "sparse_similarity": 0.14624260365962982,
-          "hybrid_score": 0.38305217027664185
-        },
-        {
-          "id": "isFamily_007155",
-          "document": "bên nội của người bệnh có tiền sử [ENTITY].",
-          "dense_similarity": 0.5958403944969177,
-          "sparse_similarity": 0.1697998195886612,
-          "hybrid_score": 0.38282009959220886
-        },
-        {
-          "id": "isFamily_007141",
-          "document": "bên nội của bệnh nhân có tiền sử [ENTITY].",
-          "dense_similarity": 0.5999082326889038,
-          "sparse_similarity": 0.16489651799201965,
-          "hybrid_score": 0.38240236043930054
-        }
-      ]
+    "assertion_position": [
+      435,
+      443
     ],
-    "eng_translation": [
-      "difficulty urinating",
-      "Dysuria",
-      "Urinary retention"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, ho, [ENTITY], hoặc các triệu chứng khác."
   },
   {
     "text": "sốt",
@@ -822,46 +201,11 @@
       590,
       593
     ],
-    "sentence": "Đánh giá tại bệnh viện\n    Dấu hiệu lâm sàng\n    - [ENTITY] đến 101.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000176",
-          "document": "lâm sàng gợi ý [ENTITY].",
-          "dense_similarity": 0.6974759101867676,
-          "sparse_similarity": 0.18041867017745972,
-          "hybrid_score": 0.43894729018211365
-        },
-        {
-          "id": "isUncertain_000179",
-          "document": "lâm sàng nghi ngờ [ENTITY].",
-          "dense_similarity": 0.6700457334518433,
-          "sparse_similarity": 0.16214650869369507,
-          "hybrid_score": 0.41609612107276917
-        },
-        {
-          "id": "isHistorical_009872",
-          "document": "bệnh sử ghi nhận [ENTITY].",
-          "dense_similarity": 0.6698669195175171,
-          "sparse_similarity": 0.11095435172319412,
-          "hybrid_score": 0.3904106318950653
-        }
-      ]
+    "assertion_position": [
+      515,
+      518
     ],
-    "eng_translation": [
-      "Fever",
-      "Pyrexia"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] đến 101."
   },
   {
     "text": "viêm gan",
@@ -870,62 +214,11 @@
       787,
       795
     ],
-    "sentence": "8 trước thủ thuật\n    - hạ huyết áp, không đặc hiệu trong khi thủ thuật\n    - chỉ số huyết áp tâm thu trên đường A-line (khi đến MICU)\n    Kết quả xét nghiệm\n    - [ENTITY] do men\n    - ast (aspartate aminotransferase) là 319\n    - alt (alanine aminotransferase) là 690\n    - phosphatase kiềm (ap) là 983\n    - bilirubin toàn phần (tbili) là 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isUncertain_000029",
-          "document": "[ENTITY] cần làm thêm xét nghiệm.",
-          "dense_similarity": 0.5272340178489685,
-          "sparse_similarity": 0.1631225347518921,
-          "hybrid_score": 0.3451782763004303
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5383719801902771,
-          "sparse_similarity": 0.11886914074420929,
-          "hybrid_score": 0.3286205530166626
-        },
-        {
-          "id": "isNegated_000037",
-          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
-          "dense_similarity": 0.5478043556213379,
-          "sparse_similarity": 0.10867369174957275,
-          "hybrid_score": 0.3282390236854553
-        }
-      ]
+    "assertion_position": [
+      689,
+      697
     ],
-    "eng_translation": [
-      "Hepatitis",
-      "Liver inflammation"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K759": 0.900093,
-        "B179": 0.802121,
-        "K752": 0.790674,
-        "K739": 0.770126,
-        "B0081": 0.749258
-      },
-      "rapidfuzz": {
-        "B0081": 0.9,
-        "B159": 0.9,
-        "K7010": 0.9,
-        "K709": 0.855,
-        "K710": 0.855,
-        "K7110": 0.855
-      }
-    },
-    "candidate": {
-      "code": "K759",
-      "confidence": 0.810084
-    }
+    "sentence": "[ENTITY] do men."
   },
   {
     "text": "ast",
@@ -934,46 +227,11 @@
       809,
       812
     ],
-    "sentence": "8 trước thủ thuật\n    - hạ huyết áp, không đặc hiệu trong khi thủ thuật\n    - chỉ số huyết áp tâm thu trên đường A-line (khi đến MICU)\n    Kết quả xét nghiệm\n    - viêm gan do men\n    - [ENTITY] (aspartate aminotransferase) là 319\n    - alt (alanine aminotransferase) là 690\n    - phosphatase kiềm (ap) là 983\n    - bilirubin toàn phần (tbili) là 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isNegated_000037",
-          "document": "[ENTITY] không đủ tiêu chuẩn chẩn đoán.",
-          "dense_similarity": 0.5519024729728699,
-          "sparse_similarity": 0.08941219747066498,
-          "hybrid_score": 0.320657342672348
-        },
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5412693619728088,
-          "sparse_similarity": 0.09805123507976532,
-          "hybrid_score": 0.3196603059768677
-        },
-        {
-          "id": "isUncertain_000018",
-          "document": "[ENTITY] chỉ là chẩn đoán sơ bộ.",
-          "dense_similarity": 0.5258586406707764,
-          "sparse_similarity": 0.11154454201459885,
-          "hybrid_score": 0.3187015950679779
-        }
-      ]
+    "assertion_position": [
+      706,
+      709
     ],
-    "eng_translation": [
-      "No translation provided.",
-      "The query provided is \"No translation provided.\" Since there is no medical content or diagnosis mentioned in the query, there is no applicable medical synonym to use. Therefore, the original query is returned unchanged."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] (aspartate aminotransferase) là 319."
   },
   {
     "text": "alt",
@@ -982,46 +240,11 @@
       855,
       858
     ],
-    "sentence": "8 trước thủ thuật\n    - hạ huyết áp, không đặc hiệu trong khi thủ thuật\n    - chỉ số huyết áp tâm thu trên đường A-line (khi đến MICU)\n    Kết quả xét nghiệm\n    - viêm gan do men\n    - ast (aspartate aminotransferase) là 319\n    - [ENTITY] (alanine aminotransferase) là 690\n    - phosphatase kiềm (ap) là 983\n    - bilirubin toàn phần (tbili) là 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5413922071456909,
-          "sparse_similarity": 0.09464756399393082,
-          "hybrid_score": 0.31801989674568176
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5412864685058594,
-          "sparse_similarity": 0.08922706544399261,
-          "hybrid_score": 0.3152567744255066
-        },
-        {
-          "id": "isHistorical_021548",
-          "document": "khoảng 8 ngày trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5201466083526611,
-          "sparse_similarity": 0.10968083888292313,
-          "hybrid_score": 0.31491371989250183
-        }
-      ]
+    "assertion_position": [
+      747,
+      750
     ],
-    "eng_translation": [
-      "No translation provided. Please provide the Vietnamese medical text for translation.",
-      "Please provide the Vietnamese medical text for translation."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] (alanine aminotransferase) là 690."
   },
   {
     "text": "bilirubin",
@@ -1030,46 +253,11 @@
       934,
       943
     ],
-    "sentence": "8 trước thủ thuật\n    - hạ huyết áp, không đặc hiệu trong khi thủ thuật\n    - chỉ số huyết áp tâm thu trên đường A-line (khi đến MICU)\n    Kết quả xét nghiệm\n    - viêm gan do men\n    - ast (aspartate aminotransferase) là 319\n    - alt (alanine aminotransferase) là 690\n    - phosphatase kiềm (ap) là 983\n    - [ENTITY] toàn phần (tbili) là 2.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_022209",
-          "document": "trước khi nhập viện đã mắc [ENTITY].",
-          "dense_similarity": 0.5381494760513306,
-          "sparse_similarity": 0.09815111756324768,
-          "hybrid_score": 0.31815028190612793
-        },
-        {
-          "id": "isHistorical_022211",
-          "document": "trước lần nhập viện này mắc [ENTITY].",
-          "dense_similarity": 0.5384799838066101,
-          "sparse_similarity": 0.09224861860275269,
-          "hybrid_score": 0.3153643012046814
-        },
-        {
-          "id": "isHistorical_021566",
-          "document": "khoảng 8 tuần trước nhập viện vì [ENTITY].",
-          "dense_similarity": 0.5228538513183594,
-          "sparse_similarity": 0.10585207492113113,
-          "hybrid_score": 0.31435295939445496
-        }
-      ]
+    "assertion_position": [
+      816,
+      825
     ],
-    "eng_translation": [
-      "bilirubin",
-      "Total bilirubin"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] toàn phần (tbili) là 2."
   },
   {
     "text": "bạch cầu (wbc)",
@@ -1078,46 +266,11 @@
       975,
       989
     ],
-    "sentence": "4\n    - [ENTITY] 11.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006543",
-          "document": "[ENTITY] da 11 nam.",
-          "dense_similarity": 0.8115307092666626,
-          "sparse_similarity": 0.07887005060911179,
-          "hybrid_score": 0.4452003836631775
-        },
-        {
-          "id": "isHistorical_006544",
-          "document": "[ENTITY] da 11 ngay.",
-          "dense_similarity": 0.7944793701171875,
-          "sparse_similarity": 0.08636283129453659,
-          "hybrid_score": 0.44042110443115234
-        },
-        {
-          "id": "isHistorical_006545",
-          "document": "[ENTITY] da 11 thang.",
-          "dense_similarity": 0.791996955871582,
-          "sparse_similarity": 0.07885853201150894,
-          "hybrid_score": 0.4354277551174164
-        }
-      ]
+    "assertion_position": [
+      852,
+      866
     ],
-    "eng_translation": [
-      "WBC",
-      "White Blood Cell Count"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] 11."
   },
   {
     "text": "11.6",
@@ -1126,45 +279,11 @@
       990,
       994
     ],
-    "sentence": "4\n    - bạch cầu (wbc) [ENTITY]",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_006668",
-          "document": "[ENTITY] da 4 ngay.",
-          "dense_similarity": 0.6770381331443787,
-          "sparse_similarity": 0.15871702134609222,
-          "hybrid_score": 0.41787758469581604
-        },
-        {
-          "id": "isHistorical_006667",
-          "document": "[ENTITY] da 4 nam.",
-          "dense_similarity": 0.6887579560279846,
-          "sparse_similarity": 0.14169326424598694,
-          "hybrid_score": 0.415225625038147
-        },
-        {
-          "id": "isHistorical_015607",
-          "document": "da 4 ngay [ENTITY].",
-          "dense_similarity": 0.6894387006759644,
-          "sparse_similarity": 0.13610662519931793,
-          "hybrid_score": 0.41277265548706055
-        }
-      ]
+    "assertion_position": [
+      867,
+      871
     ],
-    "eng_translation": [
-      "11.6"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "bạch cầu (wbc) [ENTITY]"
   },
   {
     "text": "Siêu âm",
@@ -1173,46 +292,11 @@
       1046,
       1053
     ],
-    "sentence": "6\n    - Đã lấy cấy máu\n Kết quả chẩn đoán hình ảnh: \n[ENTITY] gan mật  ghi nhận tình trạng giãn đường mật, gợi ý tắc nghẽn đường mật cần tiếp tục đánh giá và can thiệp.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_011594",
-          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6138890385627747,
-          "sparse_similarity": 0.08732297271490097,
-          "hybrid_score": 0.3506059944629669
-        },
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.598723828792572,
-          "sparse_similarity": 0.10041333734989166,
-          "hybrid_score": 0.34956857562065125
-        },
-        {
-          "id": "isFamily_011505",
-          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6116555333137512,
-          "sparse_similarity": 0.08430877327919006,
-          "hybrid_score": 0.34798216819763184
-        }
-      ]
+    "assertion_position": [
+      917,
+      924
     ],
-    "eng_translation": [
-      "Ultrasound",
-      "Sonography"
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "[ENTITY] gan mật ghi nhận tình trạng giãn đường mật, gợi ý tắc nghẽn đường mật cần tiếp tục đánh giá và can thiệp."
   },
   {
     "text": "Nội soi mật tụy ngược dòng",
@@ -1221,47 +305,11 @@
       1188,
       1214
     ],
-    "sentence": "Các thủ thuật đã thực hiện:[ENTITY] \nĐặt stent đường mật để dẫn lưu và giải áp đường mật.",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isHistorical_034244",
-          "document": "đã phẫu thuật [ENTITY].",
-          "dense_similarity": 0.6472274661064148,
-          "sparse_similarity": 0.20823270082473755,
-          "hybrid_score": 0.42773008346557617
-        },
-        {
-          "id": "isHistorical_009848",
-          "document": "[ENTITY] đã được điều trị.",
-          "dense_similarity": 0.629043459892273,
-          "sparse_similarity": 0.176137313246727,
-          "hybrid_score": 0.40259039402008057
-        },
-        {
-          "id": "isHistorical_009845",
-          "document": "[ENTITY] đã điều trị trước đây.",
-          "dense_similarity": 0.6376912593841553,
-          "sparse_similarity": 0.16367867588996887,
-          "hybrid_score": 0.4006849527359009
-        }
-      ]
+    "assertion_position": [
+      1058,
+      1084
     ],
-    "eng_translation": [
-      "ERCP (Endoscopic Retrograde Cholangiopancreatography)",
-      "Endoscopic Retrograde Cholangiopancreatography",
-      "ERCP is Endoscopic Retrograde Cholangiopancreatography."
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "sentence": "Các thủ thuật đã thực hiện:[ENTITY]."
   },
   {
     "text": "levophed",
@@ -1270,65 +318,11 @@
       1360,
       1368
     ],
-    "sentence": "Đặt nội khí quản nhằm \nĐặt catheter động mạch (\nĐặt đường truyền tĩnh mạch ngoại vi \n    - [ENTITY]\n    - propofol để an thần\n    - Đã đặt phentolamine",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_007186",
-          "document": "bên nội đang điều trị [ENTITY].",
-          "dense_similarity": 0.6201127171516418,
-          "sparse_similarity": 0.08686695992946625,
-          "hybrid_score": 0.35348984599113464
-        },
-        {
-          "id": "isFamily_024248",
-          "document": "phía bên nội đang điều trị [ENTITY].",
-          "dense_similarity": 0.6213436126708984,
-          "sparse_similarity": 0.08418703824281693,
-          "hybrid_score": 0.3527653217315674
-        },
-        {
-          "id": "isFamily_007104",
-          "document": "bên nội có người đang điều trị [ENTITY].",
-          "dense_similarity": 0.613944947719574,
-          "sparse_similarity": 0.08711470663547516,
-          "hybrid_score": 0.35052981972694397
-        }
-      ]
+    "assertion_position": [
+      1225,
+      1233
     ],
-    "eng_translation": [
-      "Levophed",
-      "Norepinephrine infusion",
-      "Levophed is the brand name for the medication levonordefrin, which is a sympathomimetic amine used in the treatment of hypotension. However, the query only contains the abbreviation \"Levophed,\" which should be expanded as follows: Levophed is the brand name for the medication levonordefrin."
-    ],
-    "retriever": {
-      "sapbert": {
-        "227559": 1.0,
-        "1745276": 0.952484,
-        "1745278": 0.892561,
-        "2182136": 0.861102,
-        "262519": 0.857251
-      },
-      "rapidfuzz": {
-        "227559": 1.0,
-        "1745278": 0.9,
-        "569844": 0.9,
-        "3992": 0.9,
-        "7512": 0.9,
-        "1000024": 0.855,
-        "855911": 0.855,
-        "2535243": 0.855
-      }
-    },
-    "candidate": {
-      "code": "227559",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY]."
   },
   {
     "text": "propofol",
@@ -1337,59 +331,10 @@
       1375,
       1383
     ],
-    "sentence": "Đặt nội khí quản nhằm \nĐặt catheter động mạch (\nĐặt đường truyền tĩnh mạch ngoại vi \n    - levophed\n    - [ENTITY] để an thần\n    - Đã đặt phentolamine",
-    "assertion_result": {
-      "tag": null,
-      "confidence": 1.0,
-      "evidence": null
-    },
-    "assertion": [
-      [
-        {
-          "id": "isFamily_024251",
-          "document": "phía bên nội được chẩn đoán [ENTITY].",
-          "dense_similarity": 0.6186016798019409,
-          "sparse_similarity": 0.08445822447538376,
-          "hybrid_score": 0.35152995586395264
-        },
-        {
-          "id": "isFamily_024248",
-          "document": "phía bên nội đang điều trị [ENTITY].",
-          "dense_similarity": 0.6224612593650818,
-          "sparse_similarity": 0.08051997423171997,
-          "hybrid_score": 0.3514906167984009
-        },
-        {
-          "id": "isFamily_007186",
-          "document": "bên nội đang điều trị [ENTITY].",
-          "dense_similarity": 0.6193459033966064,
-          "sparse_similarity": 0.08308330178260803,
-          "hybrid_score": 0.35121458768844604
-        }
-      ]
+    "assertion_position": [
+      1235,
+      1243
     ],
-    "eng_translation": [
-      "Propofol",
-      "Propofol-induced hypnosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "8782": 1.0,
-        "2559907": 0.790559,
-        "1808216": 0.720908,
-        "2646072": 0.666019
-      },
-      "rapidfuzz": {
-        "8782": 1.0,
-        "828683": 0.9,
-        "1188475": 0.9,
-        "1188478": 0.855,
-        "2648913": 0.855
-      }
-    },
-    "candidate": {
-      "code": "8782",
-      "confidence": 1.0
-    }
+    "sentence": "[ENTITY] để an thần."
   }
 ]
