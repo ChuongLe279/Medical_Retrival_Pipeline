@@ -14,6 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
 NORMALIZED_TEXT_PATH = PROJECT_ROOT / "data" / "test_normalized"
 JSON_PATH = PROJECT_ROOT / "data" / "output_merged"
 ENTITY_PLACEHOLDER = "[ENTITY]"
+SUPPORTED_ENTITY_TYPES = {"CHẨN_ĐOÁN", "THUỐC", "TRIỆU_CHỨNG"}
 
 
 def normalized_ner_entity(entity_text: str) -> str:
@@ -41,9 +42,8 @@ def find_position(entity_text: str, input_text: str, start_at: int = 0) -> tuple
 
 def calculating_assertion_pos(json_file, text_file):
     """
-    For every entity in `json_file`, locate its text inside the NORMALIZED
-    text file `text_file` and store the new offsets under a new
-    "assertion_position" key.
+    Locate every entity in the NORMALIZED text file `text_file`, but only
+    store "assertion_position" for supported assertion entity types.
 
     Overlap-aware: uses each entity's ORIGINAL "pos" span to detect nesting
     (entity B is "nested" in entity A if A's original span contains B's
@@ -91,9 +91,7 @@ def calculating_assertion_pos(json_file, text_file):
         orig_start, orig_end = entity["pos"]
 
         # Apply the same whitespace normalization used for normalized text.
-        # Keeping the stored entity text in sync also makes the later
-        # assertion-position validation compare like with like.
-        entity["text"] = normalized_ner_entity(entity["text"])
+        normalized_entity_text = normalized_ner_entity(entity["text"])
 
         # Close out ancestor frames that have fully ended before this
         # entity starts (no overlap -> not actually an ancestor), pushing
@@ -109,8 +107,17 @@ def calculating_assertion_pos(json_file, text_file):
 
         search_from = stack[-1]["last_norm_end"] if stack else root_last_end
 
-        norm_start, norm_end = find_position(entity["text"], normalized_text, search_from)
-        entity["assertion_position"] = [norm_start, norm_end]
+        norm_start, norm_end = find_position(
+            normalized_entity_text, normalized_text, search_from
+        )
+        if entity.get("type") in SUPPORTED_ENTITY_TYPES:
+            # Keep the stored target text in sync so the later assertion-
+            # position validation compares like with like.
+            entity["text"] = normalized_entity_text
+            entity["assertion_position"] = [norm_start, norm_end]
+        else:
+            entity.pop("assertion_position", None)
+            entity.pop("sentence", None)
 
         # Push this entity as a new (potential) ancestor frame for any
         # entities nested inside it.
@@ -192,8 +199,8 @@ def add_sentence_to_entities(txt_path, json_path):
     """
     Read a Vietnamese clinical .txt file (the NORMALIZED version) and its
     corresponding NER .json entity file, attach the full sentence containing
-    each entity (with that entity's own text replaced by "[ENTITY]"), and
-    write the enriched entities back to `json_path`.
+    each supported assertion entity (with that entity's own text replaced by
+    "[ENTITY]"), and write the entities back to `json_path`.
 
     Parameters
     ----------
@@ -202,8 +209,9 @@ def add_sentence_to_entities(txt_path, json_path):
     json_path : str or Path
         Path to the .json file containing a list of entities, each with
         "text", "type", "pos" (offsets in the original raw text) and
-        "assertion_position" (offsets in the normalized text, computed by
-        calculating_assertion_pos). This file is overwritten in place.
+        "assertion_position" for supported types (offsets in the normalized
+        text, computed by calculating_assertion_pos). This file is overwritten
+        in place.
 
     Notes
     -----
@@ -226,6 +234,14 @@ def add_sentence_to_entities(txt_path, json_path):
     # --- 4. Process each entity ---
     enriched_entities = []
     for entity in entities:
+        if entity.get("type") not in SUPPORTED_ENTITY_TYPES:
+            enriched_entities.append({
+                'text': entity['text'],
+                'type': entity['type'],
+                'pos': entity['pos'],
+            })
+            continue
+
         start, end = entity['assertion_position']
         expected_text = entity['text']
         actual_text = full_text[start:end]
