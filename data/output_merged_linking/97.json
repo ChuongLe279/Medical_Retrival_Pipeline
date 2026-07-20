@@ -1,0 +1,486 @@
+[
+  {
+    "text": "viêm tủy xương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      45,
+      59
+    ],
+    "assertion_position": [
+      45,
+      59
+    ],
+    "sentence": "Các bệnh lý mãn tính: [ENTITY] và bàng quang thần kinh có biến chứng liệt hai chi dưới.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Osteomyelitis",
+      "Osteomyelitis is a bone infection, typically caused by bacteria, which can lead to inflammation, pus formation, and destruction of bone tissue. It often occurs following trauma, surgery, or the spread of infection from another part of the body. Common symptoms include pain, swelling, redness, and fever. The condition can be acute or chronic and may require antibiotics, surgical drainage, or debridement for treatment."
+    ]
+  },
+  {
+    "text": "liệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      98,
+      102
+    ],
+    "assertion_position": [
+      98,
+      102
+    ],
+    "sentence": "Các bệnh lý mãn tính: viêm tủy xương và bàng quang thần kinh có biến chứng [ENTITY] hai chi dưới.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "paralysis",
+      "Neurological deficit"
+    ]
+  },
+  {
+    "text": "hai chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      103,
+      115
+    ],
+    "assertion_position": [
+      103,
+      115
+    ],
+    "sentence": "Các bệnh lý mãn tính: viêm tủy xương và bàng quang thần kinh có biến chứng liệt [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "both lower limbs",
+      "both lower extremities"
+    ]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      177,
+      190
+    ],
+    "assertion_position": [
+      177,
+      190
+    ],
+    "sentence": "Lý do nhập viện: biến đổi ý thức kèm theo [ENTITY] và hạ huyết áp.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Hypothermia",
+      "Low body temperature"
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      194,
+      205
+    ],
+    "assertion_position": [
+      194,
+      205
+    ],
+    "sentence": "Lý do nhập viện: biến đổi ý thức kèm theo hạ thân nhiệt và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Hypotension",
+      "Low blood pressure"
+    ]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      379,
+      392
+    ],
+    "assertion_position": [
+      379,
+      392
+    ],
+    "sentence": "Trước khi nhập viện, bệnh nhân được phát hiện trong tình trạng biến đổi ý thức, [ENTITY], hạ huyết áp với huyết áp tâm thu là 90.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Hypothermia",
+      "Low body temperature"
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      394,
+      405
+    ],
+    "assertion_position": [
+      394,
+      405
+    ],
+    "sentence": "Trước khi nhập viện, bệnh nhân được phát hiện trong tình trạng biến đổi ý thức, hạ thân nhiệt, [ENTITY] với huyết áp tâm thu là 90.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Hypotension",
+      "Low blood pressure"
+    ]
+  },
+  {
+    "text": "biến đổi ý",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      460,
+      470
+    ],
+    "assertion_position": [
+      460,
+      470
+    ],
+    "sentence": "[ENTITY] thức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "No change in the patient's condition.",
+      "No change in the patient's status."
+    ]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      477,
+      490
+    ],
+    "assertion_position": [
+      477,
+      490
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hypothermia",
+      "Low body temperature"
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      492,
+      503
+    ],
+    "assertion_position": [
+      492,
+      503
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hypotension",
+      "Low blood pressure"
+    ]
+  },
+  {
+    "text": "đau toàn thân ít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      505,
+      521
+    ],
+    "assertion_position": [
+      505,
+      521
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "mild generalized pain",
+      "Mild generalized discomfort"
+    ]
+  },
+  {
+    "text": "đau ngực ít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      523,
+      534
+    ],
+    "assertion_position": [
+      523,
+      534
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "chest pain, minimal",
+      "Chest discomfort, minimal"
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      536,
+      544
+    ],
+    "assertion_position": [
+      536,
+      544
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      585,
+      596
+    ],
+    "assertion_position": [
+      585,
+      596
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hypotension",
+      "Low blood pressure"
+    ]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      598,
+      611
+    ],
+    "assertion_position": [
+      598,
+      611
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hypothermia",
+      "Low body temperature"
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      651,
+      655
+    ],
+    "eng_translation": [
+      "Kali",
+      "Hyperkalemia",
+      "Potassium"
+    ]
+  },
+  {
+    "text": "6.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      659,
+      662
+    ],
+    "eng_translation": [
+      "6.6"
+    ]
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      671,
+      680
+    ],
+    "eng_translation": [
+      "Creatinine",
+      "Serum Creatinine"
+    ]
+  },
+  {
+    "text": "1.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      684,
+      687
+    ],
+    "eng_translation": [
+      "1.9"
+    ]
+  },
+  {
+    "text": "tiểu cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      696,
+      704
+    ],
+    "eng_translation": [
+      "Platelet",
+      "Platelet Count Decrease",
+      "Platelet Count"
+    ]
+  },
+  {
+    "text": "81",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      708,
+      710
+    ],
+    "eng_translation": [
+      "81",
+      "The query provided is \"81\" which does not contain any medical information or context. Therefore, no rewrite is possible."
+    ]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      716,
+      724
+    ],
+    "eng_translation": [
+      "White blood cells",
+      "Leukocytes"
+    ]
+  },
+  {
+    "text": "10.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      728,
+      732
+    ],
+    "eng_translation": [
+      "10.9"
+    ]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      738,
+      762
+    ],
+    "eng_translation": [
+      "Urinalysis summary",
+      "Urinalysis results summary"
+    ]
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      840,
+      852
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ]
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      917,
+      929
+    ],
+    "eng_translation": [
+      "X-ray imaging",
+      "Radiographic imaging"
+    ]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1051,
+      1062
+    ],
+    "eng_translation": [
+      "ECG",
+      "Electrocardiogram"
+    ]
+  },
+  {
+    "text": "nhịp chậm xoang",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1072,
+      1087
+    ],
+    "assertion_position": [
+      1072,
+      1087
+    ],
+    "sentence": "điện tâm đồ cho thấy [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Sinus bradycardia",
+      "Bradycardia"
+    ]
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1089,
+      1100
+    ],
+    "eng_translation": [
+      "blood glucose",
+      "serum glucose"
+    ]
+  }
+]

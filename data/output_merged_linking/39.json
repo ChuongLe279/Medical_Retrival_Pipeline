@@ -1,0 +1,322 @@
+[
+  {
+    "text": "đau bụng dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      35,
+      50
+    ],
+    "assertion_position": [
+      35,
+      50
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Severe abdominal pain",
+      "Acute abdominal pain"
+    ]
+  },
+  {
+    "text": "đau bụng dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      117,
+      132
+    ],
+    "assertion_position": [
+      117,
+      132
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Severe abdominal pain",
+      "Acute abdominal pain"
+    ]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      134,
+      145
+    ],
+    "assertion_position": [
+      134,
+      145
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Abdominal distension",
+      "Abdominal bloating"
+    ]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      147,
+      154
+    ],
+    "assertion_position": [
+      147,
+      154
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "chills"
+    ]
+  },
+  {
+    "text": "mất ăn ngon",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      156,
+      167
+    ],
+    "assertion_position": [
+      156,
+      167
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Loss of appetite",
+      "Anorexia"
+    ]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      296,
+      307
+    ],
+    "assertion_position": [
+      296,
+      307
+    ],
+    "sentence": "Triệu chứng kèm theo: [ENTITY], ớn lạnh, mất ăn ngon.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal distension",
+      "Abdominal bloating"
+    ]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      309,
+      316
+    ],
+    "assertion_position": [
+      309,
+      316
+    ],
+    "sentence": "Triệu chứng kèm theo: chướng bụng, [ENTITY], mất ăn ngon.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "chills"
+    ]
+  },
+  {
+    "text": "mất ăn ngon",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      318,
+      329
+    ],
+    "assertion_position": [
+      318,
+      329
+    ],
+    "sentence": "Triệu chứng kèm theo: chướng bụng, ớn lạnh, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Loss of appetite",
+      "Anorexia"
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      340,
+      348
+    ],
+    "assertion_position": [
+      340,
+      348
+    ],
+    "sentence": "Không có [ENTITY] hoặc nôn.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      354,
+      357
+    ],
+    "assertion_position": [
+      354,
+      357
+    ],
+    "sentence": "Không có buồn nôn hoặc [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      402,
+      405
+    ],
+    "assertion_position": [
+      402,
+      405
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ]
+  },
+  {
+    "text": "nhịp tim nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      407,
+      421
+    ],
+    "assertion_position": [
+      407,
+      421
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "tachycardia",
+      "Fast heart rate"
+    ]
+  },
+  {
+    "text": "công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      443,
+      456
+    ],
+    "eng_translation": [
+      "Complete blood count (CBC)",
+      "Full blood count (FBC)"
+    ]
+  },
+  {
+    "text": "32",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      460,
+      462
+    ],
+    "eng_translation": [
+      "32",
+      "The query provided is \"32\" which does not contain any medical information or context. Therefore, no rewrite is possible."
+    ]
+  },
+  {
+    "text": "suy thận cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      464,
+      476
+    ],
+    "assertion_position": [
+      464,
+      476
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Acute kidney failure",
+      "Acute renal failure"
+    ]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      536,
+      556
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ]
+  },
+  {
+    "text": "viêm túi mật thủng cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      566,
+      588
+    ],
+    "assertion_position": [
+      566,
+      588
+    ],
+    "sentence": "Kết quả chẩn đoán hình ảnh: Kết quả chụp cắt lớp vi tính cho thấy [ENTITY] tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Acute perforated cholecystitis",
+      "Acute gangrenous cholecystitis"
+    ]
+  }
+]

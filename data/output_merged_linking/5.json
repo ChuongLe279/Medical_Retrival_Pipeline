@@ -1,0 +1,461 @@
+[
+  {
+    "text": "bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      45,
+      58
+    ],
+    "assertion_position": [
+      45,
+      58
+    ],
+    "sentence": "[ENTITY] do xơ vữa động mạch.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "cardiovascular disease",
+      "Cardiac disease"
+    ]
+  },
+  {
+    "text": "xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      78
+    ],
+    "assertion_position": [
+      62,
+      78
+    ],
+    "sentence": "bệnh tim mạch do [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Atherosclerosis",
+      "Arteriosclerosis"
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      80,
+      93
+    ],
+    "assertion_position": [
+      80,
+      93
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hypertension",
+      "Essential Hypertension"
+    ]
+  },
+  {
+    "text": "lipid",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      100,
+      105
+    ],
+    "assertion_position": [
+      100,
+      105
+    ],
+    "sentence": "tăng [ENTITY] máu, không đặc hiệu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Lipid",
+      "Lipid disorder",
+      "Fatty substance"
+    ]
+  },
+  {
+    "text": "bệnh trào ngược dạ dày- thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      127,
+      160
+    ],
+    "assertion_position": [
+      127,
+      160
+    ],
+    "sentence": "[ENTITY] không có viêm thực quản.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Gastroesophageal reflux disease",
+      "GERD"
+    ]
+  },
+  {
+    "text": "viêm thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      170,
+      184
+    ],
+    "assertion_position": [
+      170,
+      184
+    ],
+    "sentence": "bệnh trào ngược dạ dày- thực quản không có [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Gastritis",
+      "Gastritis is the inflammation of the stomach lining."
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      226,
+      234
+    ],
+    "assertion_position": [
+      226,
+      234
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Abdominal pain",
+      "Abdominal discomfort"
+    ]
+  },
+  {
+    "text": "đau bụng vùng thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      332,
+      355
+    ],
+    "assertion_position": [
+      332,
+      355
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "upper abdominal pain",
+      "epigastric pain"
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      357,
+      365
+    ],
+    "assertion_position": [
+      357,
+      365
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "nausea",
+      "Gastrointestinal distress"
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      403,
+      406
+    ],
+    "assertion_position": [
+      403,
+      406
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có [ENTITY], ớn lạnh, nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Fever",
+      "Pyrexia"
+    ]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      408,
+      415
+    ],
+    "assertion_position": [
+      408,
+      415
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có sốt, [ENTITY], nôn, táo bón, ho, tiểu khó, hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "chills"
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      417,
+      420
+    ],
+    "assertion_position": [
+      417,
+      420
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, [ENTITY], táo bón, ho, tiểu khó, hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "vomiting",
+      "Nausea and vomiting"
+    ]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      422,
+      429
+    ],
+    "assertion_position": [
+      422,
+      429
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, [ENTITY], ho, tiểu khó, hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Constipation",
+      "Fecal impaction"
+    ]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      431,
+      433
+    ],
+    "assertion_position": [
+      431,
+      433
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, [ENTITY], tiểu khó, hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ]
+  },
+  {
+    "text": "tiểu khó",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      435,
+      443
+    ],
+    "assertion_position": [
+      435,
+      443
+    ],
+    "sentence": "Các triệu chứng liên quan: Không có sốt, ớn lạnh, nôn, táo bón, ho, [ENTITY], hoặc các triệu chứng khác.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "difficulty urinating",
+      "Dysuria",
+      "Urinary retention"
+    ]
+  },
+  {
+    "text": "viêm gan do men",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      689,
+      704
+    ],
+    "assertion_position": [
+      689,
+      704
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Liver disease due to enzymes",
+      "Liver disease due to enzyme dysfunction"
+    ]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      706,
+      709
+    ],
+    "eng_translation": [
+      "No translation provided.",
+      "The query provided is \"No translation provided.\" Since there is no medical content or diagnosis mentioned in the query, there is no applicable medical synonym to use. Therefore, the original query is returned unchanged."
+    ]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      747,
+      750
+    ],
+    "eng_translation": [
+      "No translation provided. Please provide the Vietnamese medical text for translation.",
+      "Please provide the Vietnamese medical text for translation."
+    ]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      816,
+      825
+    ],
+    "eng_translation": [
+      "bilirubin",
+      "Total bilirubin"
+    ]
+  },
+  {
+    "text": "bạch cầu (wbc)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      852,
+      866
+    ],
+    "eng_translation": [
+      "WBC",
+      "White Blood Cell Count"
+    ]
+  },
+  {
+    "text": "11.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      867,
+      871
+    ],
+    "eng_translation": [
+      "11.6"
+    ]
+  },
+  {
+    "text": "Siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      917,
+      924
+    ],
+    "eng_translation": [
+      "Ultrasound",
+      "Sonography"
+    ]
+  },
+  {
+    "text": "Nội soi mật tụy ngược dòng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1058,
+      1084
+    ],
+    "eng_translation": [
+      "ERCP (Endoscopic Retrograde Cholangiopancreatography)",
+      "Endoscopic Retrograde Cholangiopancreatography",
+      "ERCP is Endoscopic Retrograde Cholangiopancreatography."
+    ]
+  },
+  {
+    "text": "levophed",
+    "type": "THUỐC",
+    "position": [
+      1225,
+      1233
+    ],
+    "assertion_position": [
+      1225,
+      1233
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Levophed",
+      "Norepinephrine infusion",
+      "Levophed is the brand name for the medication levonordefrin, which is a sympathomimetic amine used in the treatment of hypotension. However, the query only contains the abbreviation \"Levophed,\" which should be expanded as follows: Levophed is the brand name for the medication levonordefrin."
+    ]
+  },
+  {
+    "text": "propofol",
+    "type": "THUỐC",
+    "position": [
+      1235,
+      1243
+    ],
+    "assertion_position": [
+      1235,
+      1243
+    ],
+    "sentence": "[ENTITY] để an thần.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Propofol",
+      "Propofol-induced hypnosis"
+    ]
+  }
+]

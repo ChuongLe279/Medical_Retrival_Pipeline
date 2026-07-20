@@ -17,7 +17,7 @@ import unicodedata
 
 RXNORM_CHROMA_DIR = PROJECT_ROOT / "data" / "db" / "RxNorm_chroma"
 ICD10_CHROMA_DIR = PROJECT_ROOT / "data" / "db" / "ICD10_chroma"
-JSON_FOLDER_PATH = PROJECT_ROOT / "data" / "output_merged"  # File JSON test
+JSON_FOLDER_PATH = PROJECT_ROOT / "data" / "output_merged_linking"  # File JSON test
 
 K = 5 # LẤY 5 THẰNG ĐẦU TIÊN
 embeddings = create_sapbert_embeddings()

@@ -1,0 +1,719 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      36,
+      38
+    ],
+    "assertion_position": [
+      36,
+      38
+    ],
+    "sentence": "[ENTITY] Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Ho",
+      "Hoarseness",
+      "H/o",
+      "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
+    ]
+  },
+  {
+    "text": "loạn cảm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      43,
+      51
+    ],
+    "assertion_position": [
+      43,
+      51
+    ],
+    "sentence": "ho Rối [ENTITY] xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Affective disorder",
+      "Mood disorder"
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      65
+    ],
+    "assertion_position": [
+      57,
+      65
+    ],
+    "sentence": "ho Rối loạn cảm xúc ([ENTITY]) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Depression",
+      "Major Depressive Disorder"
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      86,
+      94
+    ],
+    "assertion_position": [
+      86,
+      94
+    ],
+    "sentence": "ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn [ENTITY] không đặc hiệu).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Depression",
+      "Major Depressive Disorder"
+    ]
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      112,
+      133
+    ],
+    "assertion_position": [
+      112,
+      133
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "alcohol use disorder",
+      "Alcoholic dependence"
+    ]
+  },
+  {
+    "text": "seroquel",
+    "type": "THUỐC",
+    "position": [
+      170,
+      178
+    ],
+    "assertion_position": [
+      170,
+      178
+    ],
+    "sentence": "Thuốc trước khi nhập viện lần này: [ENTITY] (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Seroquel",
+      "Quetiapine"
+    ]
+  },
+  {
+    "text": "lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      209,
+      215
+    ],
+    "assertion_position": [
+      209,
+      215
+    ],
+    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng [ENTITY], chóng mặt, khó nhìn gần có thể liên quan đến thuốc).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Confusion",
+      "Cognitive impairment"
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      217,
+      226
+    ],
+    "assertion_position": [
+      217,
+      226
+    ],
+    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, [ENTITY], khó nhìn gần có thể liên quan đến thuốc).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ]
+  },
+  {
+    "text": "khó nhìn gần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      228,
+      240
+    ],
+    "assertion_position": [
+      228,
+      240
+    ],
+    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, [ENTITY] có thể liên quan đến thuốc).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "difficulty with near vision",
+      "Presbyopia"
+    ]
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      300,
+      321
+    ],
+    "assertion_position": [
+      300,
+      321
+    ],
+    "sentence": "Các yếu tố nguy cơ liên quan: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "alcohol use disorder",
+      "Alcoholic dependence"
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      434,
+      440
+    ],
+    "assertion_position": [
+      434,
+      440
+    ],
+    "sentence": "[ENTITY] từng đợt gần đây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Confusion",
+      "Cognitive impairment"
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      468,
+      477
+    ],
+    "assertion_position": [
+      468,
+      477
+    ],
+    "sentence": "cảm giác [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ]
+  },
+  {
+    "text": "khó khăn khi nhìn gần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      479,
+      500
+    ],
+    "assertion_position": [
+      479,
+      500
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "difficulty with near vision",
+      "Presbyopia"
+    ]
+  },
+  {
+    "text": "rối loạn thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      502,
+      519
+    ],
+    "assertion_position": [
+      502,
+      519
+    ],
+    "sentence": "[ENTITY], nhìn thấy con cái mình ở góc mắt.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "Visual disturbance",
+      "Visual impairment"
+    ]
+  },
+  {
+    "text": "nhìn thấy con cái mình ở góc mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      521,
+      553
+    ],
+    "assertion_position": [
+      521,
+      553
+    ],
+    "sentence": "rối loạn thị giác, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "sees their children in the corner of their eye",
+      "peripheral vision of children in the corner of the eye",
+      "Sees their children in the periphery of their vision"
+    ]
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      555,
+      571
+    ],
+    "assertion_position": [
+      555,
+      571
+    ],
+    "sentence": "[ENTITY] (ảo giác thị giác).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "visual hallucination",
+      "Visual illusion"
+    ]
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      573,
+      589
+    ],
+    "assertion_position": [
+      573,
+      589
+    ],
+    "sentence": "ảo giác thị giác ([ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "visual hallucination",
+      "Visual illusion"
+    ]
+  },
+  {
+    "text": "Ảo thanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      592,
+      600
+    ],
+    "assertion_position": [
+      592,
+      600
+    ],
+    "sentence": "[ENTITY] (AH) (ảo giác thính giác).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Auditory hallucination",
+      "Auditory illusion"
+    ]
+  },
+  {
+    "text": "ảo giác thính giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      607,
+      625
+    ],
+    "assertion_position": [
+      607,
+      625
+    ],
+    "sentence": "Ảo thanh (AH) ([ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "auditory hallucination",
+      "Auditory illusion"
+    ]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      736,
+      742
+    ],
+    "assertion_position": [
+      736,
+      742
+    ],
+    "sentence": "[ENTITY]: từng đợt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Confusion",
+      "Cognitive impairment"
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      754,
+      763
+    ],
+    "assertion_position": [
+      754,
+      763
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Dizziness",
+      "Vertigo"
+    ]
+  },
+  {
+    "text": "Khó khăn về thị lực gần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      765,
+      788
+    ],
+    "assertion_position": [
+      765,
+      788
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Difficulty with near vision",
+      "Presbyopia"
+    ]
+  },
+  {
+    "text": "thị lực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      777,
+      784
+    ],
+    "eng_translation": [
+      "Visual acuity",
+      "Snellen chart testing"
+    ]
+  },
+  {
+    "text": "rối loạn thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      790,
+      807
+    ],
+    "assertion_position": [
+      790,
+      807
+    ],
+    "sentence": "[ENTITY]: nhìn thấy con cái ở góc mắt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Visual disturbance",
+      "Visual impairment"
+    ]
+  },
+  {
+    "text": "nhìn thấy con cái ở góc mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      809,
+      836
+    ],
+    "assertion_position": [
+      809,
+      836
+    ],
+    "sentence": "rối loạn thị giác: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "seeing children at the corner of the eye",
+      "Epiphora in children",
+      "Periorbital vision of children"
+    ]
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      838,
+      854
+    ],
+    "assertion_position": [
+      838,
+      854
+    ],
+    "sentence": "[ENTITY], Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "visual hallucination",
+      "Visual illusion"
+    ]
+  },
+  {
+    "text": "Ảo thanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      856,
+      864
+    ],
+    "assertion_position": [
+      856,
+      864
+    ],
+    "sentence": "ảo giác thị giác, [ENTITY] (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Auditory hallucination",
+      "Auditory illusion"
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      880,
+      887
+    ],
+    "assertion_position": [
+      880,
+      887
+    ],
+    "sentence": "ảo giác thị giác, Ảo thanh (AH): có vẻ là [ENTITY] hơn là ảo ảnh thực sự.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "hallucination",
+      "Illusion"
+    ]
+  },
+  {
+    "text": "ảo ảnh thực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      895,
+      906
+    ],
+    "assertion_position": [
+      895,
+      906
+    ],
+    "sentence": "ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là [ENTITY] sự.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Illusion",
+      "Illusion is a perceptual experience that occurs when a stimulus is misinterpreted by the brain, leading to a false perception of something that is not actually present. It is distinct from hallucinations, which occur without an external stimulus. Illusions can affect any of the senses and are often influenced by context, expectation, and prior experience. They are commonly observed in neurological conditions, psychiatric disorders, and can also be induced by certain medications or sensory deprivation."
+    ]
+  },
+  {
+    "text": "mẫu đơn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1035,
+      1042
+    ],
+    "eng_translation": [
+      "Prescription Form",
+      "Prescription Request Form"
+    ]
+  },
+  {
+    "text": "cam",
+    "type": "THUỐC",
+    "position": [
+      1043,
+      1046
+    ],
+    "assertion_position": [
+      1043,
+      1046
+    ],
+    "sentence": "Được yêu cầu ký một mẫu đơn [ENTITY] kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "No information provided."
+    ]
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1159,
+      1166
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ]
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1665,
+      1672
+    ],
+    "eng_translation": [
+      "CT scan",
+      "Computed Tomography Scan"
+    ]
+  },
+  {
+    "text": "Đột sống thắt lưng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1782,
+      1800
+    ],
+    "assertion_position": [
+      1782,
+      1800
+    ],
+    "sentence": "Các thủ thuật đã thực hiện: chọc dò dịch não tủy ([ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isHistorical",
+    "eng_translation": [
+      "Lumbalgia",
+      "Low Back Pain",
+      "Lumbalgia is the full English form of the abbreviation. Since there are no other abbreviations in the query, the resulting English query is: Lumbalgia"
+    ]
+  },
+  {
+    "text": "Bệnh đa xơ cứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2006,
+      2021
+    ],
+    "assertion_position": [
+      2006,
+      2021
+    ],
+    "sentence": "Sẽ không điển hình cho [ENTITY] theo ý kiến của bác sĩ thần kinh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": "isNegated",
+    "eng_translation": [
+      "Multiple sclerosis",
+      "Demyelinating disease"
+    ]
+  },
+  {
+    "text": "Ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2056,
+      2063
+    ],
+    "assertion_position": [
+      2056,
+      2063
+    ],
+    "sentence": "[ENTITY] do rượu (suy nghĩ).",
+    "assertion_result": {
+      "tag": null
+    },
+    "qwen_assertion": null,
+    "eng_translation": [
+      "Hallucination",
+      "Illusion"
+    ]
+  }
+]
