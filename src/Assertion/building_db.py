@@ -19,8 +19,8 @@ OUTPUT_DIR = PROJECT_ROOT / "src" / "Assertion" / "data" / "json"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 ADD_UNACCENTED = True
-MAX_TIME_NUMBER = 100
 ENTITY_TOKEN = "[ENTITY]"
+PERIOD_TOKEN = "[PERIOD]"
 
 
 # =========================================================
@@ -32,6 +32,8 @@ def normalize_text(text: str) -> str:
     text = unicodedata.normalize("NFKC", text)
     text = text.lower().strip()
     text = re.sub(r"\s+", " ", text)
+    # Placeholder là token có phân biệt hoa/thường trong dữ liệu đầu ra.
+    text = text.replace(PERIOD_TOKEN.lower(), PERIOD_TOKEN)
     return text
 
 
@@ -447,33 +449,30 @@ time_units = [
     "năm",
 ]
 
-# Sinh:
-# cách đây 3 năm
-# 3 năm trước
-# từ 3 năm trước
-# khoảng 3 năm trước
-for number in range(1, MAX_TIME_NUMBER + 1):
-    for unit in time_units:
-        expressions = [
-            f"cách đây {number} {unit}",
-            f"{number} {unit} trước",
-            f"từ {number} {unit} trước",
-            f"khoảng {number} {unit} trước",
-            f"vào {number} {unit} trước",
-            f"đã {number} {unit}",
-        ]
+# Mọi giá trị thời gian dạng số dùng chung [PERIOD]. Sinh trực tiếp token
+# thay vì tạo 1..100 rồi mới thay thế để không tạo hàng loạt record trùng.
+# Ví dụ: "cách đây 3 năm" -> "cách đây [PERIOD] năm".
+for unit in time_units:
+    expressions = [
+        f"cách đây {PERIOD_TOKEN} {unit}",
+        f"{PERIOD_TOKEN} {unit} trước",
+        f"từ {PERIOD_TOKEN} {unit} trước",
+        f"khoảng {PERIOD_TOKEN} {unit} trước",
+        f"vào {PERIOD_TOKEN} {unit} trước",
+        f"đã {PERIOD_TOKEN} {unit}",
+    ]
 
-        historical_left_high.update(expressions)
-        historical_right_high.update(expressions)
+    historical_left_high.update(expressions)
+    historical_right_high.update(expressions)
 
-        for expression in expressions:
-            historical_left_expanded.update([
-                f"{expression} bị",
-                f"{expression} mắc",
-                f"{expression} được chẩn đoán",
-                f"{expression} được điều trị",
-                f"{expression} nhập viện vì",
-            ])
+    for expression in expressions:
+        historical_left_expanded.update([
+            f"{expression} bị",
+            f"{expression} mắc",
+            f"{expression} được chẩn đoán",
+            f"{expression} được điều trị",
+            f"{expression} nhập viện vì",
+        ])
 
 year_words = [
     "một",

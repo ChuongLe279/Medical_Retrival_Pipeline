@@ -16,6 +16,7 @@ if str(PROJECT_ROOT) not in sys.path:
 ASSERTION_CHROMA_DIR = PROJECT_ROOT / "src" / "Assertion" / "data" / "assertion_chroma"
 JSON_FOLDER_PATH = PROJECT_ROOT / "src" / "Assertion" / "data" / "json" # Chứa example phrases
 MODEL_NAME = "BAAI/bge-m3"
+
 model = BGEM3FlagModel(
     MODEL_NAME,
     use_fp16=torch.cuda.is_available()
@@ -44,7 +45,7 @@ def get_documents(json_file) -> tuple[list[str], list[str], list[dict]]:
         metadatas.append(entity.get("metadata", {}))
     return documents, ids, metadatas
 
-def assertion_embedding(json_folder, chroma_folder, batch_size: int = 32):
+def assertion_embedding(json_folder, chroma_folder, batch_size: int = 100):
     # Initialize Local Chroma Client ONCE
     client = chromadb.PersistentClient(path=chroma_folder)
     collection = client.get_or_create_collection(
