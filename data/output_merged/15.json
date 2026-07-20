@@ -10,7 +10,37 @@
       35,
       58
     ],
-    "sentence": "Lý do nhập viện: [ENTITY] do chấn thương, không đặc hiệu."
+    "sentence": "Lý do nhập viện: [ENTITY] do chấn thương, không đặc hiệu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000979",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7910289168357849,
+          "sparse_similarity": 0.2309504747390747,
+          "hybrid_score": 0.5109896659851074
+        },
+        {
+          "id": "isHistorical_000953",
+          "document": "đã [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.755007803440094,
+          "sparse_similarity": 0.21264566481113434,
+          "hybrid_score": 0.48382672667503357
+        },
+        {
+          "id": "isHistorical_000458",
+          "document": "cách đây [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7501028776168823,
+          "sparse_similarity": 0.21578170359134674,
+          "hybrid_score": 0.48294228315353394
+        }
+      ]
+    ]
   },
   {
     "text": "xuất huyết nội sọ",
@@ -23,6 +53,36 @@
       201,
       218
     ],
-    "sentence": "[ENTITY] không do chấn thương, không đặc hiệu."
+    "sentence": "[ENTITY] không do chấn thương, không đặc hiệu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000204",
+          "document": "không bị [ENTITY].",
+          "dense_similarity": 0.8325996994972229,
+          "sparse_similarity": 0.22246147692203522,
+          "hybrid_score": 0.5275306105613708
+        },
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.8539031744003296,
+          "sparse_similarity": 0.1862538456916809,
+          "hybrid_score": 0.5200785398483276
+        },
+        {
+          "id": "isHistorical_000186",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.8010563254356384,
+          "sparse_similarity": 0.2361813336610794,
+          "hybrid_score": 0.5186188220977783
+        }
+      ]
+    ]
   }
 ]

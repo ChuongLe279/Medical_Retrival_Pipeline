@@ -10,7 +10,37 @@
       98,
       123
     ],
-    "sentence": "Nhập viện khoa Thần kinh từ [Date] với thông não so với [ENTITY] đầu từ [Date]."
+    "sentence": "Nhập viện khoa Thần kinh từ [Date] với thông não so với [ENTITY] đầu từ [Date].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000868",
+          "document": "từ [PERIOD] ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7645752429962158,
+          "sparse_similarity": 0.14956387877464294,
+          "hybrid_score": 0.4570695757865906
+        },
+        {
+          "id": "isHistorical_000874",
+          "document": "từ [PERIOD] năm trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7447671890258789,
+          "sparse_similarity": 0.14159733057022095,
+          "hybrid_score": 0.4431822597980499
+        },
+        {
+          "id": "isHistorical_000880",
+          "document": "từ [PERIOD] tháng trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7378073930740356,
+          "sparse_similarity": 0.14652933180332184,
+          "hybrid_score": 0.44216835498809814
+        }
+      ]
+    ]
   },
   {
     "text": "tăng đau đầu",
@@ -23,7 +53,37 @@
       142,
       154
     ],
-    "sentence": "Bị [ENTITY] cải thiện khi nằm ngửa."
+    "sentence": "Bị [ENTITY] cải thiện khi nằm ngửa.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000296",
+          "document": "[ENTITY] đã được điều trị.",
+          "dense_similarity": 0.8093161582946777,
+          "sparse_similarity": 0.15416589379310608,
+          "hybrid_score": 0.4817410111427307
+        },
+        {
+          "id": "isHistorical_000295",
+          "document": "[ENTITY] đã được chữa khỏi.",
+          "dense_similarity": 0.7865899205207825,
+          "sparse_similarity": 0.15940755605697632,
+          "hybrid_score": 0.4729987382888794
+        },
+        {
+          "id": "isHistorical_000290",
+          "document": "[ENTITY] đã phục hồi.",
+          "dense_similarity": 0.773955225944519,
+          "sparse_similarity": 0.16596928238868713,
+          "hybrid_score": 0.4699622392654419
+        }
+      ]
+    ]
   },
   {
     "text": "chứng đau đầu",
@@ -36,7 +96,37 @@
       233,
       246
     ],
-    "sentence": "Nhập viện khoa Thần kinh vào thời điểm đó để điều trị [ENTITY]."
+    "sentence": "Nhập viện khoa Thần kinh vào thời điểm đó để điều trị [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000458",
+          "document": "cách đây [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.796143651008606,
+          "sparse_similarity": 0.14399980008602142,
+          "hybrid_score": 0.4700717329978943
+        },
+        {
+          "id": "isHistorical_000979",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7759904861450195,
+          "sparse_similarity": 0.16047407686710358,
+          "hybrid_score": 0.46823227405548096
+        },
+        {
+          "id": "isHistorical_000826",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.7893701195716858,
+          "sparse_similarity": 0.14290612936019897,
+          "hybrid_score": 0.4661381244659424
+        }
+      ]
+    ]
   },
   {
     "text": "phù gai thị",
@@ -49,7 +139,37 @@
       323,
       334
     ],
-    "sentence": "Được bác sĩ nhãn khoa khám trong quá trình nhập viện đó và không phát hiện [ENTITY]."
+    "sentence": "Được bác sĩ nhãn khoa khám trong quá trình nhập viện đó và không phát hiện [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không phát hiện [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000029",
+          "document": "[ENTITY] không phát hiện.",
+          "dense_similarity": 0.7124241590499878,
+          "sparse_similarity": 0.18116337060928345,
+          "hybrid_score": 0.4467937648296356
+        },
+        {
+          "id": "isNegated_000283",
+          "document": "xét nghiệm không phát hiện [ENTITY].",
+          "dense_similarity": 0.7313941121101379,
+          "sparse_similarity": 0.15110597014427185,
+          "hybrid_score": 0.4412500262260437
+        },
+        {
+          "id": "isNegated_000225",
+          "document": "không được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7771334648132324,
+          "sparse_similarity": 0.100980743765831,
+          "hybrid_score": 0.4390571117401123
+        }
+      ]
+    ]
   },
   {
     "text": "não úng thuỷ",
@@ -62,7 +182,37 @@
       354,
       366
     ],
-    "sentence": "Bệnh lý mãn tính: [ENTITY] khác từ thời kỳ sơ sinh."
+    "sentence": "Bệnh lý mãn tính: [ENTITY] khác từ thời kỳ sơ sinh.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007192",
+          "document": "bệnh sử gia đình [ENTITY].",
+          "dense_similarity": 0.7042514085769653,
+          "sparse_similarity": 0.10400911420583725,
+          "hybrid_score": 0.4041302502155304
+        },
+        {
+          "id": "isFamily_007461",
+          "document": "bệnh sử gia đình có tiền sử [ENTITY].",
+          "dense_similarity": 0.6999784111976624,
+          "sparse_similarity": 0.10405642539262772,
+          "hybrid_score": 0.40201741456985474
+        },
+        {
+          "id": "isFamily_020054",
+          "document": "má bệnh nhân từng bị [ENTITY].",
+          "dense_similarity": 0.7013116478919983,
+          "sparse_similarity": 0.10093128681182861,
+          "hybrid_score": 0.40112146735191345
+        }
+      ]
+    ]
   },
   {
     "text": "tăng nhãn áp",
@@ -75,7 +225,37 @@
       462,
       474
     ],
-    "sentence": "Phẫu thuật đặt cảng để điều trị chứng [ENTITY] ở thời kỳ sơ sinh."
+    "sentence": "Phẫu thuật đặt cảng để điều trị chứng [ENTITY] ở thời kỳ sơ sinh.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011933",
+          "document": "con đang điều trị [ENTITY].",
+          "dense_similarity": 0.6889858245849609,
+          "sparse_similarity": 0.14775612950325012,
+          "hybrid_score": 0.41837096214294434
+        },
+        {
+          "id": "isFamily_007133",
+          "document": "bên nội của bệnh nhi đang điều trị [ENTITY].",
+          "dense_similarity": 0.6928032040596008,
+          "sparse_similarity": 0.12136447429656982,
+          "hybrid_score": 0.4070838391780853
+        },
+        {
+          "id": "isFamily_001068",
+          "document": "[ENTITY] ở mẹ bệnh nhi.",
+          "dense_similarity": 0.6973772048950195,
+          "sparse_similarity": 0.08503582328557968,
+          "hybrid_score": 0.3912065029144287
+        }
+      ]
+    ]
   },
   {
     "text": "nhãn áp",
@@ -88,7 +268,37 @@
       467,
       474
     ],
-    "sentence": "Phẫu thuật đặt cảng để điều trị chứng tăng [ENTITY] ở thời kỳ sơ sinh."
+    "sentence": "Phẫu thuật đặt cảng để điều trị chứng tăng [ENTITY] ở thời kỳ sơ sinh.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011933",
+          "document": "con đang điều trị [ENTITY].",
+          "dense_similarity": 0.661459743976593,
+          "sparse_similarity": 0.14143413305282593,
+          "hybrid_score": 0.4014469385147095
+        },
+        {
+          "id": "isFamily_010945",
+          "document": "con của bệnh nhi đang điều trị [ENTITY].",
+          "dense_similarity": 0.646685779094696,
+          "sparse_similarity": 0.11545097827911377,
+          "hybrid_score": 0.3810683786869049
+        },
+        {
+          "id": "isFamily_007133",
+          "document": "bên nội của bệnh nhi đang điều trị [ENTITY].",
+          "dense_similarity": 0.645433247089386,
+          "sparse_similarity": 0.11629246175289154,
+          "hybrid_score": 0.38086286187171936
+        }
+      ]
+    ]
   },
   {
     "text": "đau đầu kéo dài",
@@ -101,7 +311,37 @@
       653,
       668
     ],
-    "sentence": "Lý do nhập viện: [ENTITY] kèm theo mờ mắt."
+    "sentence": "Lý do nhập viện: [ENTITY] kèm theo mờ mắt.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000979",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.829133927822113,
+          "sparse_similarity": 0.226179838180542,
+          "hybrid_score": 0.5276569128036499
+        },
+        {
+          "id": "isHistorical_000458",
+          "document": "cách đây [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7985138893127441,
+          "sparse_similarity": 0.21006327867507935,
+          "hybrid_score": 0.5042885541915894
+        },
+        {
+          "id": "isHistorical_000953",
+          "document": "đã [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7943992614746094,
+          "sparse_similarity": 0.2077742964029312,
+          "hybrid_score": 0.5010867714881897
+        }
+      ]
+    ]
   },
   {
     "text": "mờ mắt",
@@ -114,7 +354,37 @@
       678,
       684
     ],
-    "sentence": "Lý do nhập viện: đau đầu kéo dài kèm theo [ENTITY]."
+    "sentence": "Lý do nhập viện: đau đầu kéo dài kèm theo [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000979",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8127601742744446,
+          "sparse_similarity": 0.18568049371242523,
+          "hybrid_score": 0.4992203414440155
+        },
+        {
+          "id": "isHistorical_000953",
+          "document": "đã [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7951562404632568,
+          "sparse_similarity": 0.17248764634132385,
+          "hybrid_score": 0.48382192850112915
+        },
+        {
+          "id": "isHistorical_000458",
+          "document": "cách đây [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.78629070520401,
+          "sparse_similarity": 0.17467966675758362,
+          "hybrid_score": 0.480485200881958
+        }
+      ]
+    ]
   },
   {
     "text": "nhìn mờ",
@@ -127,7 +397,37 @@
       719,
       726
     ],
-    "sentence": "Thời điểm khởi phát triệu chứng: [ENTITY] tiến triển trong 2 tuần qua."
+    "sentence": "Thời điểm khởi phát triệu chứng: [ENTITY] tiến triển trong 2 tuần qua.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000117",
+          "document": "[ENTITY] cách đây hai tuần.",
+          "dense_similarity": 0.8054125308990479,
+          "sparse_similarity": 0.17584824562072754,
+          "hybrid_score": 0.4906303882598877
+        },
+        {
+          "id": "isHistorical_000498",
+          "document": "cách đây hai tuần [ENTITY].",
+          "dense_similarity": 0.7973716855049133,
+          "sparse_similarity": 0.17133685946464539,
+          "hybrid_score": 0.48435425758361816
+        },
+        {
+          "id": "isHistorical_000129",
+          "document": "[ENTITY] cách đây nhiều tuần.",
+          "dense_similarity": 0.7735639810562134,
+          "sparse_similarity": 0.1907486915588379,
+          "hybrid_score": 0.48215633630752563
+        }
+      ]
+    ]
   },
   {
     "text": "não úng tuỷ",
@@ -140,7 +440,37 @@
       785,
       796
     ],
-    "sentence": "Bệnh nhân bị [ENTITY] từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt."
+    "sentence": "Bệnh nhân bị [ENTITY] từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024966",
+          "document": "thân nhân của bệnh nhi đang điều trị [ENTITY].",
+          "dense_similarity": 0.7157803177833557,
+          "sparse_similarity": 0.2158706784248352,
+          "hybrid_score": 0.46582549810409546
+        },
+        {
+          "id": "isFamily_011933",
+          "document": "con đang điều trị [ENTITY].",
+          "dense_similarity": 0.7133333683013916,
+          "sparse_similarity": 0.21679659187793732,
+          "hybrid_score": 0.46506497263908386
+        },
+        {
+          "id": "isFamily_024963",
+          "document": "thân nhân của bệnh nhi từng bị [ENTITY].",
+          "dense_similarity": 0.7329275608062744,
+          "sparse_similarity": 0.1869955062866211,
+          "hybrid_score": 0.45996153354644775
+        }
+      ]
+    ]
   },
   {
     "text": "não úng thủy",
@@ -153,7 +483,37 @@
       902,
       914
     ],
-    "sentence": "Trước đây đã từng nhập viện với chẩn đoán [ENTITY], có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa."
+    "sentence": "Trước đây đã từng nhập viện với chẩn đoán [ENTITY], có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "đã từng nhập viện với chẩn đoán [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000983",
+          "document": "đã từng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7453928589820862,
+          "sparse_similarity": 0.2640855610370636,
+          "hybrid_score": 0.5047392249107361
+        },
+        {
+          "id": "isHistorical_000893",
+          "document": "từng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7487567663192749,
+          "sparse_similarity": 0.24675941467285156,
+          "hybrid_score": 0.49775809049606323
+        },
+        {
+          "id": "isHistorical_000825",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.7388087511062622,
+          "sparse_similarity": 0.19901816546916962,
+          "hybrid_score": 0.4689134657382965
+        }
+      ]
+    ]
   },
   {
     "text": "tăng đau đầu",
@@ -166,7 +526,37 @@
       929,
       941
     ],
-    "sentence": "Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện [ENTITY] , triệu chứng cải thiện khi nằm ngửa."
+    "sentence": "Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện [ENTITY] , triệu chứng cải thiện khi nằm ngửa.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000983",
+          "document": "đã từng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6915338635444641,
+          "sparse_similarity": 0.19985686242580414,
+          "hybrid_score": 0.4456953704357147
+        },
+        {
+          "id": "isHistorical_000893",
+          "document": "từng được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6907355785369873,
+          "sparse_similarity": 0.18500575423240662,
+          "hybrid_score": 0.43787068128585815
+        },
+        {
+          "id": "isHistorical_000825",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.687023937702179,
+          "sparse_similarity": 0.1676388382911682,
+          "hybrid_score": 0.4273313879966736
+        }
+      ]
+    ]
   },
   {
     "text": "đau đầu",
@@ -179,7 +569,37 @@
       1037,
       1044
     ],
-    "sentence": "Nhập viện trước đây vào khoa Thần kinh để điều trị chứng [ENTITY]."
+    "sentence": "Nhập viện trước đây vào khoa Thần kinh để điều trị chứng [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "trước đây vào khoa thần kinh để điều trị chứng [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000293",
+          "document": "[ENTITY] đã điều trị trước đây.",
+          "dense_similarity": 0.8246951699256897,
+          "sparse_similarity": 0.300078809261322,
+          "hybrid_score": 0.5623869895935059
+        },
+        {
+          "id": "isHistorical_000827",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.8479196429252625,
+          "sparse_similarity": 0.20605520904064178,
+          "hybrid_score": 0.5269874334335327
+        },
+        {
+          "id": "isHistorical_000826",
+          "document": "trước lần nhập viện này bị [ENTITY].",
+          "dense_similarity": 0.8459643125534058,
+          "sparse_similarity": 0.20199716091156006,
+          "hybrid_score": 0.5239807367324829
+        }
+      ]
+    ]
   },
   {
     "text": "phù gai thị",
@@ -192,7 +612,37 @@
       1114,
       1125
     ],
-    "sentence": "Khám nhãn khoa trong quá trình nhập viện trước đó cho thấy không có [ENTITY]."
+    "sentence": "Khám nhãn khoa trong quá trình nhập viện trước đó cho thấy không có [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000825",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.7417407631874084,
+          "sparse_similarity": 0.1995859593153,
+          "hybrid_score": 0.4706633687019348
+        },
+        {
+          "id": "isHistorical_000824",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.7399078607559204,
+          "sparse_similarity": 0.19700047373771667,
+          "hybrid_score": 0.46845418214797974
+        },
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.7413343787193298,
+          "sparse_similarity": 0.16710026562213898,
+          "hybrid_score": 0.4542173147201538
+        }
+      ]
+    ]
   },
   {
     "text": "mờ mắt ở cả hai mắt",
@@ -205,7 +655,37 @@
       1153,
       1172
     ],
-    "sentence": "Đến hôm nay, bệnh nhân bị [ENTITY], bên trái nặng hơn bên phải, tiến triển trong 2 tuần qua."
+    "sentence": "Đến hôm nay, bệnh nhân bị [ENTITY], bên trái nặng hơn bên phải, tiến triển trong 2 tuần qua.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006629",
+          "document": "bên ngoại của bệnh nhân đã bị [ENTITY].",
+          "dense_similarity": 0.7788137197494507,
+          "sparse_similarity": 0.2552339434623718,
+          "hybrid_score": 0.5170238018035889
+        },
+        {
+          "id": "isFamily_007148",
+          "document": "bên nội của bệnh nhân đã bị [ENTITY].",
+          "dense_similarity": 0.7743213176727295,
+          "sparse_similarity": 0.2468685507774353,
+          "hybrid_score": 0.5105949640274048
+        },
+        {
+          "id": "isFamily_006620",
+          "document": "bên ngoại của bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.7644917368888855,
+          "sparse_similarity": 0.2537176012992859,
+          "hybrid_score": 0.5091046690940857
+        }
+      ]
+    ]
   },
   {
     "text": "đau đầu",
@@ -218,7 +698,37 @@
       1271,
       1278
     ],
-    "sentence": "Đến hôm nay, bệnh nhân bị tăng tần suất [ENTITY] gián đoạn."
+    "sentence": "Đến hôm nay, bệnh nhân bị tăng tần suất [ENTITY] gián đoạn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020049",
+          "document": "má bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.725581169128418,
+          "sparse_similarity": 0.20600232481956482,
+          "hybrid_score": 0.4657917618751526
+        },
+        {
+          "id": "isFamily_024981",
+          "document": "thân nhân của bệnh nhân đã bị [ENTITY].",
+          "dense_similarity": 0.7278887629508972,
+          "sparse_similarity": 0.20125165581703186,
+          "hybrid_score": 0.46457022428512573
+        },
+        {
+          "id": "isFamily_005956",
+          "document": "bác của bệnh nhân đã bị [ENTITY].",
+          "dense_similarity": 0.7204898595809937,
+          "sparse_similarity": 0.19222389161586761,
+          "hybrid_score": 0.45635688304901123
+        }
+      ]
+    ]
   },
   {
     "text": "đau đầu kéo dài",
@@ -231,7 +741,37 @@
       1312,
       1327
     ],
-    "sentence": "[ENTITY]."
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.2620290517807007,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789617061615,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ]
   },
   {
     "text": "nhìn mờ ở cả hai mắt",
@@ -244,7 +784,37 @@
       1329,
       1349
     ],
-    "sentence": "[ENTITY], bên trái nặng hơn bên phải."
+    "sentence": "[ENTITY], bên trái nặng hơn bên phải.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_023652",
+          "document": "phía bên ngoại có [ENTITY].",
+          "dense_similarity": 0.7777013778686523,
+          "sparse_similarity": 0.19223016500473022,
+          "hybrid_score": 0.4849657714366913
+        },
+        {
+          "id": "isFamily_006155",
+          "document": "bên ngoại có [ENTITY].",
+          "dense_similarity": 0.7624751329421997,
+          "sparse_similarity": 0.20250459015369415,
+          "hybrid_score": 0.48248985409736633
+        },
+        {
+          "id": "isFamily_000789",
+          "document": "[ENTITY] về phía bên ngoại.",
+          "dense_similarity": 0.777074933052063,
+          "sparse_similarity": 0.16567036509513855,
+          "hybrid_score": 0.47137266397476196
+        }
+      ]
+    ]
   },
   {
     "text": "cơn đau đầu",
@@ -257,7 +827,37 @@
       1379,
       1390
     ],
-    "sentence": "[ENTITY] nhiều hơn."
+    "sentence": "[ENTITY] nhiều hơn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000051",
+          "document": "[ENTITY] nhiều khả năng.",
+          "dense_similarity": 0.8397638201713562,
+          "sparse_similarity": 0.32951104640960693,
+          "hybrid_score": 0.5846374034881592
+        },
+        {
+          "id": "isUncertain_000195",
+          "document": "nhiều khả năng [ENTITY].",
+          "dense_similarity": 0.831591010093689,
+          "sparse_similarity": 0.3030942678451538,
+          "hybrid_score": 0.5673426389694214
+        },
+        {
+          "id": "isHistorical_000214",
+          "document": "[ENTITY] nhiều ngày trước.",
+          "dense_similarity": 0.8192052841186523,
+          "sparse_similarity": 0.3049294352531433,
+          "hybrid_score": 0.5620673894882202
+        }
+      ]
+    ]
   },
   {
     "text": "nhìn mờ",
@@ -270,7 +870,37 @@
       1424,
       1431
     ],
-    "sentence": "[ENTITY]: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải."
+    "sentence": "[ENTITY]: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000117",
+          "document": "[ENTITY] cách đây hai tuần.",
+          "dense_similarity": 0.7757783532142639,
+          "sparse_similarity": 0.15409712493419647,
+          "hybrid_score": 0.4649377465248108
+        },
+        {
+          "id": "isHistorical_000170",
+          "document": "[ENTITY] hai tuần trước.",
+          "dense_similarity": 0.7722356915473938,
+          "sparse_similarity": 0.14910930395126343,
+          "hybrid_score": 0.4606724977493286
+        },
+        {
+          "id": "isHistorical_000129",
+          "document": "[ENTITY] cách đây nhiều tuần.",
+          "dense_similarity": 0.7510023713111877,
+          "sparse_similarity": 0.16763941943645477,
+          "hybrid_score": 0.45932090282440186
+        }
+      ]
+    ]
   },
   {
     "text": "đau đầu",
@@ -283,7 +913,37 @@
       1490,
       1497
     ],
-    "sentence": "[ENTITY]: nhiều hơn."
+    "sentence": "[ENTITY]: nhiều hơn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000051",
+          "document": "[ENTITY] nhiều khả năng.",
+          "dense_similarity": 0.8284543752670288,
+          "sparse_similarity": 0.3119726777076721,
+          "hybrid_score": 0.5702135562896729
+        },
+        {
+          "id": "isUncertain_000195",
+          "document": "nhiều khả năng [ENTITY].",
+          "dense_similarity": 0.8110249042510986,
+          "sparse_similarity": 0.2883659303188324,
+          "hybrid_score": 0.5496954321861267
+        },
+        {
+          "id": "isHistorical_000214",
+          "document": "[ENTITY] nhiều ngày trước.",
+          "dense_similarity": 0.8001599311828613,
+          "sparse_similarity": 0.288918137550354,
+          "hybrid_score": 0.5445390343666077
+        }
+      ]
+    ]
   },
   {
     "text": "phù gai thị",
@@ -296,7 +956,37 @@
       1645,
       1656
     ],
-    "sentence": "Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì [ENTITY], bên trái nặng hơn bên phải."
+    "sentence": "Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì [ENTITY], bên trái nặng hơn bên phải.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_023816",
+          "document": "phía bên ngoại được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7203275561332703,
+          "sparse_similarity": 0.10370828956365585,
+          "hybrid_score": 0.41201791167259216
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7202000021934509,
+          "sparse_similarity": 0.1030290275812149,
+          "hybrid_score": 0.4116145074367523
+        },
+        {
+          "id": "isHistorical_000979",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.723729133605957,
+          "sparse_similarity": 0.0950154960155487,
+          "hybrid_score": 0.40937232971191406
+        }
+      ]
+    ]
   },
   {
     "text": "Phù gai thị",
@@ -309,7 +999,37 @@
       1729,
       1740
     ],
-    "sentence": "Dấu hiệu lâm sàng: [ENTITY], bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa)."
+    "sentence": "Dấu hiệu lâm sàng: [ENTITY], bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006645",
+          "document": "bên ngoại của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7453325986862183,
+          "sparse_similarity": 0.14085455238819122,
+          "hybrid_score": 0.44309356808662415
+        },
+        {
+          "id": "isFamily_006631",
+          "document": "bên ngoại của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7453601956367493,
+          "sparse_similarity": 0.1407310962677002,
+          "hybrid_score": 0.44304564595222473
+        },
+        {
+          "id": "isFamily_006633",
+          "document": "bên ngoại của bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.7348410487174988,
+          "sparse_similarity": 0.15101481974124908,
+          "hybrid_score": 0.44292792677879333
+        }
+      ]
+    ]
   },
   {
     "text": "Tăng nhãn áp",
@@ -322,7 +1042,37 @@
       1836,
       1848
     ],
-    "sentence": "[ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước)."
+    "sentence": "[ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000298",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.7859447002410889,
+          "sparse_similarity": 0.24035876989364624,
+          "hybrid_score": 0.5131517648696899
+        },
+        {
+          "id": "isHistorical_000827",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.7562716603279114,
+          "sparse_similarity": 0.23069611191749573,
+          "hybrid_score": 0.49348390102386475
+        },
+        {
+          "id": "isHistorical_000986",
+          "document": "ở lần nhập viện trước [ENTITY].",
+          "dense_similarity": 0.77128005027771,
+          "sparse_similarity": 0.20838338136672974,
+          "hybrid_score": 0.48983171582221985
+        }
+      ]
+    ]
   },
   {
     "text": "nhãn áp",
@@ -335,7 +1085,37 @@
       1841,
       1848
     ],
-    "sentence": "Tăng [ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước)."
+    "sentence": "Tăng [ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000298",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.7414494752883911,
+          "sparse_similarity": 0.2305901199579239,
+          "hybrid_score": 0.4860197901725769
+        },
+        {
+          "id": "isHistorical_000827",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.7202407121658325,
+          "sparse_similarity": 0.2234058380126953,
+          "hybrid_score": 0.4718232750892639
+        },
+        {
+          "id": "isHistorical_000986",
+          "document": "ở lần nhập viện trước [ENTITY].",
+          "dense_similarity": 0.7330917119979858,
+          "sparse_similarity": 0.20337042212486267,
+          "hybrid_score": 0.46823108196258545
+        }
+      ]
+    ]
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
@@ -348,7 +1128,37 @@
       1856,
       1881
     ],
-    "sentence": "Tăng nhãn áp so với [ENTITY] đầu từ [Date] (từ lần nhập viện trước)."
+    "sentence": "Tăng nhãn áp so với [ENTITY] đầu từ [Date] (từ lần nhập viện trước).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000298",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.7777337431907654,
+          "sparse_similarity": 0.24137359857559204,
+          "hybrid_score": 0.5095536708831787
+        },
+        {
+          "id": "isHistorical_000868",
+          "document": "từ [PERIOD] ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7778583765029907,
+          "sparse_similarity": 0.22854866087436676,
+          "hybrid_score": 0.5032035112380981
+        },
+        {
+          "id": "isHistorical_000827",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.7646415829658508,
+          "sparse_similarity": 0.234031543135643,
+          "hybrid_score": 0.4993365705013275
+        }
+      ]
+    ]
   },
   {
     "text": "Phù gai thị",
@@ -361,6 +1171,36 @@
       1922,
       1933
     ],
-    "sentence": "[ENTITY] (theo báo cáo của bác sĩ nhãn khoa)."
+    "sentence": "[ENTITY] (theo báo cáo của bác sĩ nhãn khoa).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000064",
+          "document": "bác sĩ gợi ý [ENTITY].",
+          "dense_similarity": 0.804523229598999,
+          "sparse_similarity": 0.19640591740608215,
+          "hybrid_score": 0.5004645586013794
+        },
+        {
+          "id": "isFamily_005948",
+          "document": "bác của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.8064815998077393,
+          "sparse_similarity": 0.1842823475599289,
+          "hybrid_score": 0.4953819811344147
+        },
+        {
+          "id": "isFamily_005958",
+          "document": "bác của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.8133631348609924,
+          "sparse_similarity": 0.1580648422241211,
+          "hybrid_score": 0.48571398854255676
+        }
+      ]
+    ]
   }
 ]

@@ -10,7 +10,37 @@
       61,
       69
     ],
-    "sentence": "Tái phát [ENTITY] và tiêu chảy cách đây vài năm."
+    "sentence": "Tái phát [ENTITY] và tiêu chảy cách đây vài năm.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "[entity] và tiêu chảy cách đây"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000143",
+          "document": "[ENTITY] cách đây vài năm.",
+          "dense_similarity": 0.7811510562896729,
+          "sparse_similarity": 0.29202699661254883,
+          "hybrid_score": 0.5365890264511108
+        },
+        {
+          "id": "isHistorical_000524",
+          "document": "cách đây vài năm [ENTITY].",
+          "dense_similarity": 0.7760225534439087,
+          "sparse_similarity": 0.27390390634536743,
+          "hybrid_score": 0.5249632596969604
+        },
+        {
+          "id": "isHistorical_000127",
+          "document": "[ENTITY] cách đây nhiều năm.",
+          "dense_similarity": 0.7503476142883301,
+          "sparse_similarity": 0.25849243998527527,
+          "hybrid_score": 0.5044200420379639
+        }
+      ]
+    ]
   },
   {
     "text": "tiêu chảy",
@@ -23,7 +53,37 @@
       73,
       82
     ],
-    "sentence": "Tái phát buồn nôn và [ENTITY] cách đây vài năm."
+    "sentence": "Tái phát buồn nôn và [ENTITY] cách đây vài năm.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "[entity] cách đây"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000143",
+          "document": "[ENTITY] cách đây vài năm.",
+          "dense_similarity": 0.7594660520553589,
+          "sparse_similarity": 0.2574671804904938,
+          "hybrid_score": 0.5084666013717651
+        },
+        {
+          "id": "isHistorical_000524",
+          "document": "cách đây vài năm [ENTITY].",
+          "dense_similarity": 0.7697961330413818,
+          "sparse_similarity": 0.2433684766292572,
+          "hybrid_score": 0.5065823197364807
+        },
+        {
+          "id": "isHistorical_000508",
+          "document": "cách đây nhiều năm [ENTITY].",
+          "dense_similarity": 0.7526818513870239,
+          "sparse_similarity": 0.2135545164346695,
+          "hybrid_score": 0.4831181764602661
+        }
+      ]
+    ]
   },
   {
     "text": "Nôn ra máu",
@@ -36,7 +96,37 @@
       101,
       111
     ],
-    "sentence": "[ENTITY] 2 tuần sau tập viêm dạ dày ruột do virus."
+    "sentence": "[ENTITY] 2 tuần sau tập viêm dạ dày ruột do virus.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6634441614151001,
+          "sparse_similarity": 0.09028211981058121,
+          "hybrid_score": 0.37686315178871155
+        },
+        {
+          "id": "isFamily_011504",
+          "document": "con ruột bệnh nhân đã mắc [ENTITY].",
+          "dense_similarity": 0.6615532636642456,
+          "sparse_similarity": 0.0894770547747612,
+          "hybrid_score": 0.3755151629447937
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6611613631248474,
+          "sparse_similarity": 0.08904320746660233,
+          "hybrid_score": 0.37510228157043457
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột do",
@@ -49,7 +139,37 @@
       127,
       146
     ],
-    "sentence": "Nôn ra máu 2 tuần sau tập [ENTITY] virus."
+    "sentence": "Nôn ra máu 2 tuần sau tập [ENTITY] virus.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000498",
+          "document": "cách đây hai tuần [ENTITY].",
+          "dense_similarity": 0.6801364421844482,
+          "sparse_similarity": 0.12442398816347122,
+          "hybrid_score": 0.40228021144866943
+        },
+        {
+          "id": "isHistorical_000117",
+          "document": "[ENTITY] cách đây hai tuần.",
+          "dense_similarity": 0.6682512164115906,
+          "sparse_similarity": 0.12573227286338806,
+          "hybrid_score": 0.3969917297363281
+        },
+        {
+          "id": "isHistorical_000971",
+          "document": "đã [PERIOD] tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6907342076301575,
+          "sparse_similarity": 0.10224898159503937,
+          "hybrid_score": 0.3964915871620178
+        }
+      ]
+    ]
   },
   {
     "text": "Nôn ra máu",
@@ -62,7 +182,37 @@
       154,
       164
     ],
-    "sentence": "[ENTITY] trong 2 ngày qua."
+    "sentence": "[ENTITY] trong 2 ngày qua.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000114",
+          "document": "[ENTITY] cách đây hai ngày.",
+          "dense_similarity": 0.9325537085533142,
+          "sparse_similarity": 0.20655326545238495,
+          "hybrid_score": 0.5695534944534302
+        },
+        {
+          "id": "isHistorical_000165",
+          "document": "[ENTITY] hai ngày trước.",
+          "dense_similarity": 0.9277228713035583,
+          "sparse_similarity": 0.21014215052127838,
+          "hybrid_score": 0.5689325332641602
+        },
+        {
+          "id": "isHistorical_000495",
+          "document": "cách đây hai ngày [ENTITY].",
+          "dense_similarity": 0.9256584644317627,
+          "sparse_similarity": 0.20043858885765076,
+          "hybrid_score": 0.5630485415458679
+        }
+      ]
+    ]
   },
   {
     "text": "hội chứng ruột kích thích",
@@ -75,7 +225,37 @@
       201,
       226
     ],
-    "sentence": "Bệnh lý mãn tính: [ENTITY] (được chẩn đoán hội chứng ruột kích thích cách đây vài năm)."
+    "sentence": "Bệnh lý mãn tính: [ENTITY] (được chẩn đoán hội chứng ruột kích thích cách đây vài năm).",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "[entity] (được chẩn đoán hội chứng ruột kích thích cách đây"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000465",
+          "document": "cách đây [PERIOD] năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7534829378128052,
+          "sparse_similarity": 0.1963016390800476,
+          "hybrid_score": 0.4748922884464264
+        },
+        {
+          "id": "isHistorical_000321",
+          "document": "[PERIOD] năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7652314901351929,
+          "sparse_similarity": 0.17266935110092163,
+          "hybrid_score": 0.46895042061805725
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7545796632766724,
+          "sparse_similarity": 0.18277572095394135,
+          "hybrid_score": 0.46867769956588745
+        }
+      ]
+    ]
   },
   {
     "text": "hội chứng ruột kích thích",
@@ -88,7 +268,37 @@
       243,
       268
     ],
-    "sentence": "Bệnh lý mãn tính: hội chứng ruột kích thích (được chẩn đoán [ENTITY] cách đây vài năm)."
+    "sentence": "Bệnh lý mãn tính: hội chứng ruột kích thích (được chẩn đoán [ENTITY] cách đây vài năm).",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "[entity] cách đây"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000465",
+          "document": "cách đây [PERIOD] năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7459306716918945,
+          "sparse_similarity": 0.21724331378936768,
+          "hybrid_score": 0.4815869927406311
+        },
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7512307167053223,
+          "sparse_similarity": 0.19077852368354797,
+          "hybrid_score": 0.4710046052932739
+        },
+        {
+          "id": "isHistorical_000321",
+          "document": "[PERIOD] năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.752117395401001,
+          "sparse_similarity": 0.1898171305656433,
+          "hybrid_score": 0.47096726298332214
+        }
+      ]
+    ]
   },
   {
     "text": "Nội soi",
@@ -101,7 +311,37 @@
       320,
       327
     ],
-    "sentence": "[ENTITY] (cách đây vài năm, phát hiện loét tá tràng)."
+    "sentence": "[ENTITY] (cách đây vài năm, phát hiện loét tá tràng).",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "[entity] (cách đây"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000143",
+          "document": "[ENTITY] cách đây vài năm.",
+          "dense_similarity": 0.7726446986198425,
+          "sparse_similarity": 0.22989611327648163,
+          "hybrid_score": 0.5012704133987427
+        },
+        {
+          "id": "isHistorical_000524",
+          "document": "cách đây vài năm [ENTITY].",
+          "dense_similarity": 0.7753878831863403,
+          "sparse_similarity": 0.21619607508182526,
+          "hybrid_score": 0.4957919716835022
+        },
+        {
+          "id": "isHistorical_000275",
+          "document": "[ENTITY] vài năm trước.",
+          "dense_similarity": 0.7614283561706543,
+          "sparse_similarity": 0.19748498499393463,
+          "hybrid_score": 0.47945666313171387
+        }
+      ]
+    ]
   },
   {
     "text": "Nội soi",
@@ -114,7 +354,37 @@
       373,
       380
     ],
-    "sentence": "[ENTITY] (cho thấy nhiều loét tá tràng và hồi tràng)."
+    "sentence": "[ENTITY] (cho thấy nhiều loét tá tràng và hồi tràng).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_000981",
+          "document": "[ENTITY] ở con ruột bệnh nhân.",
+          "dense_similarity": 0.7399932146072388,
+          "sparse_similarity": 0.09447141736745834,
+          "hybrid_score": 0.41723230481147766
+        },
+        {
+          "id": "isFamily_000836",
+          "document": "[ENTITY] ở ba ruột bệnh nhân.",
+          "dense_similarity": 0.7369327545166016,
+          "sparse_similarity": 0.09543533623218536,
+          "hybrid_score": 0.41618403792381287
+        },
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7370526194572449,
+          "sparse_similarity": 0.09447004646062851,
+          "hybrid_score": 0.4157613217830658
+        }
+      ]
+    ]
   },
   {
     "text": "nội soi",
@@ -127,7 +397,37 @@
       426,
       433
     ],
-    "sentence": "[ENTITY] (Viêm thực quản độ C, loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm)."
+    "sentence": "[ENTITY] (Viêm thực quản độ C, loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.5832017660140991,
+          "sparse_similarity": 0.08117631822824478,
+          "hybrid_score": 0.33218905329704285
+        },
+        {
+          "id": "isUncertain_000091",
+          "document": "chẩn đoán ban đầu [ENTITY].",
+          "dense_similarity": 0.5877124071121216,
+          "sparse_similarity": 0.07483271509408951,
+          "hybrid_score": 0.33127257227897644
+        },
+        {
+          "id": "isFamily_000980",
+          "document": "[ENTITY] ở con ruột bệnh nhi.",
+          "dense_similarity": 0.5890522003173828,
+          "sparse_similarity": 0.07061224430799484,
+          "hybrid_score": 0.3298322260379791
+        }
+      ]
+    ]
   },
   {
     "text": "Viêm thực quản",
@@ -140,7 +440,37 @@
       435,
       449
     ],
-    "sentence": "nội soi ([ENTITY] độ C, loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm)."
+    "sentence": "nội soi ([ENTITY] độ C, loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.639853835105896,
+          "sparse_similarity": 0.12441127747297287,
+          "hybrid_score": 0.38213256001472473
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6429803967475891,
+          "sparse_similarity": 0.12085510045289993,
+          "hybrid_score": 0.3819177448749542
+        },
+        {
+          "id": "isFamily_007164",
+          "document": "bên nội của người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6406508684158325,
+          "sparse_similarity": 0.12212972342967987,
+          "hybrid_score": 0.3813903033733368
+        }
+      ]
+    ]
   },
   {
     "text": "omeprazole",
@@ -153,7 +483,37 @@
       579,
       589
     ],
-    "sentence": "Thuốc trước khi nhập viện: [ENTITY] (vừa ngừng để làm test hơi thở h."
+    "sentence": "Thuốc trước khi nhập viện: [ENTITY] (vừa ngừng để làm test hơi thở h.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000825",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.7797483205795288,
+          "sparse_similarity": 0.20235738158226013,
+          "hybrid_score": 0.49105286598205566
+        },
+        {
+          "id": "isHistorical_000824",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.7766458988189697,
+          "sparse_similarity": 0.20015250146389008,
+          "hybrid_score": 0.4883992075920105
+        },
+        {
+          "id": "isHistorical_000298",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.7637771368026733,
+          "sparse_similarity": 0.19856610894203186,
+          "hybrid_score": 0.4811716079711914
+        }
+      ]
+    ]
   },
   {
     "text": "Nôn ra máu",
@@ -166,7 +526,37 @@
       673,
       683
     ],
-    "sentence": "Lý do nhập viện: [ENTITY]."
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000979",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.9305343627929688,
+          "sparse_similarity": 0.26689520478248596,
+          "hybrid_score": 0.5987147688865662
+        },
+        {
+          "id": "isHistorical_000953",
+          "document": "đã [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8897477388381958,
+          "sparse_similarity": 0.24374210834503174,
+          "hybrid_score": 0.5667449235916138
+        },
+        {
+          "id": "isHistorical_000458",
+          "document": "cách đây [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8826110363006592,
+          "sparse_similarity": 0.24627162516117096,
+          "hybrid_score": 0.5644413232803345
+        }
+      ]
+    ]
   },
   {
     "text": "buồn nôn",
@@ -179,7 +569,37 @@
       748,
       756
     ],
-    "sentence": "Triệu chứng cách đây vài năm ([ENTITY] và tiêu chảy)."
+    "sentence": "Triệu chứng cách đây vài năm ([ENTITY] và tiêu chảy).",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "cách đây vài năm ([entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000143",
+          "document": "[ENTITY] cách đây vài năm.",
+          "dense_similarity": 0.7449233531951904,
+          "sparse_similarity": 0.26558613777160645,
+          "hybrid_score": 0.5052547454833984
+        },
+        {
+          "id": "isHistorical_000524",
+          "document": "cách đây vài năm [ENTITY].",
+          "dense_similarity": 0.7481560707092285,
+          "sparse_similarity": 0.24768367409706116,
+          "hybrid_score": 0.49791985750198364
+        },
+        {
+          "id": "isHistorical_000465",
+          "document": "cách đây [PERIOD] năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7809725403785706,
+          "sparse_similarity": 0.1759655475616455,
+          "hybrid_score": 0.47846904397010803
+        }
+      ]
+    ]
   },
   {
     "text": "tiêu chảy",
@@ -192,7 +612,37 @@
       760,
       769
     ],
-    "sentence": "Triệu chứng cách đây vài năm (buồn nôn và [ENTITY])."
+    "sentence": "Triệu chứng cách đây vài năm (buồn nôn và [ENTITY]).",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "cách đây vài năm (buồn nôn và [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000143",
+          "document": "[ENTITY] cách đây vài năm.",
+          "dense_similarity": 0.7925712466239929,
+          "sparse_similarity": 0.2742656469345093,
+          "hybrid_score": 0.5334184169769287
+        },
+        {
+          "id": "isHistorical_000524",
+          "document": "cách đây vài năm [ENTITY].",
+          "dense_similarity": 0.8066376447677612,
+          "sparse_similarity": 0.2584209740161896,
+          "hybrid_score": 0.5325292944908142
+        },
+        {
+          "id": "isHistorical_000465",
+          "document": "cách đây [PERIOD] năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.815365731716156,
+          "sparse_similarity": 0.20367901027202606,
+          "hybrid_score": 0.5095223784446716
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột",
@@ -205,7 +655,37 @@
       776,
       792
     ],
-    "sentence": "Tập [ENTITY] do virus (trong năm nay)."
+    "sentence": "Tập [ENTITY] do virus (trong năm nay).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000958",
+          "document": "đã [PERIOD] năm mắc [ENTITY].",
+          "dense_similarity": 0.7567002773284912,
+          "sparse_similarity": 0.16222038865089417,
+          "hybrid_score": 0.4594603180885315
+        },
+        {
+          "id": "isHistorical_000319",
+          "document": "[PERIOD] năm trước mắc [ENTITY].",
+          "dense_similarity": 0.7423176169395447,
+          "sparse_similarity": 0.15858308970928192,
+          "hybrid_score": 0.4504503607749939
+        },
+        {
+          "id": "isHistorical_000957",
+          "document": "đã [PERIOD] năm bị [ENTITY].",
+          "dense_similarity": 0.7380967736244202,
+          "sparse_similarity": 0.16247782111167908,
+          "hybrid_score": 0.4502872824668884
+        }
+      ]
+    ]
   },
   {
     "text": "buồn nôn",
@@ -218,7 +698,37 @@
       866,
       874
     ],
-    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, [ENTITY] và tiêu chảy (2 tuần sau tập viêm dạ dày ruột do virus)."
+    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, [ENTITY] và tiêu chảy (2 tuần sau tập viêm dạ dày ruột do virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6417330503463745,
+          "sparse_similarity": 0.08233807981014252,
+          "hybrid_score": 0.3620355725288391
+        },
+        {
+          "id": "isFamily_011587",
+          "document": "con ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.6343753933906555,
+          "sparse_similarity": 0.08290687203407288,
+          "hybrid_score": 0.3586411476135254
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6306670308113098,
+          "sparse_similarity": 0.08133342862129211,
+          "hybrid_score": 0.35600024461746216
+        }
+      ]
+    ]
   },
   {
     "text": "tiêu chảy",
@@ -231,7 +741,37 @@
       878,
       887
     ],
-    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus)."
+    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6524226665496826,
+          "sparse_similarity": 0.09127048403024673,
+          "hybrid_score": 0.37184658646583557
+        },
+        {
+          "id": "isFamily_011587",
+          "document": "con ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.6427614688873291,
+          "sparse_similarity": 0.0918632447719574,
+          "hybrid_score": 0.36731237173080444
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6430134773254395,
+          "sparse_similarity": 0.08985580503940582,
+          "hybrid_score": 0.36643463373184204
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột do virus",
@@ -244,7 +784,37 @@
       904,
       929
     ],
-    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và tiêu chảy (2 tuần sau tập [ENTITY])."
+    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và tiêu chảy (2 tuần sau tập [ENTITY]).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000971",
+          "document": "đã [PERIOD] tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6259264945983887,
+          "sparse_similarity": 0.09377003461122513,
+          "hybrid_score": 0.3598482608795166
+        },
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6478099226951599,
+          "sparse_similarity": 0.05546625331044197,
+          "hybrid_score": 0.3516380786895752
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6440016627311707,
+          "sparse_similarity": 0.053594861179590225,
+          "hybrid_score": 0.3487982749938965
+        }
+      ]
+    ]
   },
   {
     "text": "Nôn ra máu",
@@ -257,7 +827,37 @@
       932,
       942
     ],
-    "sentence": "[ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus)."
+    "sentence": "[ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000117",
+          "document": "[ENTITY] cách đây hai tuần.",
+          "dense_similarity": 0.6986293196678162,
+          "sparse_similarity": 0.1204386055469513,
+          "hybrid_score": 0.4095339775085449
+        },
+        {
+          "id": "isHistorical_000498",
+          "document": "cách đây hai tuần [ENTITY].",
+          "dense_similarity": 0.696135401725769,
+          "sparse_similarity": 0.11832257360219955,
+          "hybrid_score": 0.4072289764881134
+        },
+        {
+          "id": "isHistorical_000170",
+          "document": "[ENTITY] hai tuần trước.",
+          "dense_similarity": 0.69340980052948,
+          "sparse_similarity": 0.11587010324001312,
+          "hybrid_score": 0.40463995933532715
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột do virus",
@@ -270,7 +870,37 @@
       959,
       984
     ],
-    "sentence": "Nôn ra máu (2 tuần sau tập [ENTITY])."
+    "sentence": "Nôn ra máu (2 tuần sau tập [ENTITY]).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000498",
+          "document": "cách đây hai tuần [ENTITY].",
+          "dense_similarity": 0.7334566116333008,
+          "sparse_similarity": 0.13711783289909363,
+          "hybrid_score": 0.4352872371673584
+        },
+        {
+          "id": "isHistorical_000574",
+          "document": "hai tuần trước [ENTITY].",
+          "dense_similarity": 0.7334747910499573,
+          "sparse_similarity": 0.12624181807041168,
+          "hybrid_score": 0.4298582971096039
+        },
+        {
+          "id": "isHistorical_000117",
+          "document": "[ENTITY] cách đây hai tuần.",
+          "dense_similarity": 0.7192399501800537,
+          "sparse_similarity": 0.13617147505283356,
+          "hybrid_score": 0.42770570516586304
+        }
+      ]
+    ]
   },
   {
     "text": "Nôn ra máu",
@@ -283,7 +913,37 @@
       987,
       997
     ],
-    "sentence": "[ENTITY] (trong 2 ngày qua)."
+    "sentence": "[ENTITY] (trong 2 ngày qua).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000165",
+          "document": "[ENTITY] hai ngày trước.",
+          "dense_similarity": 0.9242697954177856,
+          "sparse_similarity": 0.18852415680885315,
+          "hybrid_score": 0.5563969612121582
+        },
+        {
+          "id": "isHistorical_000114",
+          "document": "[ENTITY] cách đây hai ngày.",
+          "dense_similarity": 0.9255793690681458,
+          "sparse_similarity": 0.1867235153913498,
+          "hybrid_score": 0.5561514496803284
+        },
+        {
+          "id": "isHistorical_000495",
+          "document": "cách đây hai ngày [ENTITY].",
+          "dense_similarity": 0.9265296459197998,
+          "sparse_similarity": 0.18471786379814148,
+          "hybrid_score": 0.5556237697601318
+        }
+      ]
+    ]
   },
   {
     "text": "đau bụng",
@@ -296,7 +956,37 @@
       1029,
       1037
     ],
-    "sentence": "Tình trạng [ENTITY] và nôn ra máu trở nên tồi tệ hơn (khi ngừng omeprazole)."
+    "sentence": "Tình trạng [ENTITY] và nôn ra máu trở nên tồi tệ hơn (khi ngừng omeprazole).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020059",
+          "document": "má bệnh nhân đã mắc [ENTITY].",
+          "dense_similarity": 0.6288275122642517,
+          "sparse_similarity": 0.06735924631357193,
+          "hybrid_score": 0.3480933904647827
+        },
+        {
+          "id": "isFamily_020058",
+          "document": "má bệnh nhân đã bị [ENTITY].",
+          "dense_similarity": 0.6307708621025085,
+          "sparse_similarity": 0.0652899444103241,
+          "hybrid_score": 0.3480303883552551
+        },
+        {
+          "id": "isFamily_020138",
+          "document": "má người bệnh bị [ENTITY].",
+          "dense_similarity": 0.6302560567855835,
+          "sparse_similarity": 0.06335722655057907,
+          "hybrid_score": 0.3468066453933716
+        }
+      ]
+    ]
   },
   {
     "text": "nôn ra máu",
@@ -309,7 +999,37 @@
       1041,
       1051
     ],
-    "sentence": "Tình trạng đau bụng và [ENTITY] trở nên tồi tệ hơn (khi ngừng omeprazole)."
+    "sentence": "Tình trạng đau bụng và [ENTITY] trở nên tồi tệ hơn (khi ngừng omeprazole).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6853251457214355,
+          "sparse_similarity": 0.057570844888687134,
+          "hybrid_score": 0.37144798040390015
+        },
+        {
+          "id": "isFamily_003340",
+          "document": "ba ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6800539493560791,
+          "sparse_similarity": 0.05719102546572685,
+          "hybrid_score": 0.36862248182296753
+        },
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6734649538993835,
+          "sparse_similarity": 0.05974786728620529,
+          "hybrid_score": 0.3666064143180847
+        }
+      ]
+    ]
   },
   {
     "text": "omeprazole",
@@ -322,7 +1042,37 @@
       1082,
       1092
     ],
-    "sentence": "Tình trạng đau bụng và nôn ra máu trở nên tồi tệ hơn (khi ngừng [ENTITY])."
+    "sentence": "Tình trạng đau bụng và nôn ra máu trở nên tồi tệ hơn (khi ngừng [ENTITY]).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6985390186309814,
+          "sparse_similarity": 0.03848755359649658,
+          "hybrid_score": 0.368513286113739
+        },
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6837533712387085,
+          "sparse_similarity": 0.039831265807151794,
+          "hybrid_score": 0.36179232597351074
+        },
+        {
+          "id": "isFamily_011583",
+          "document": "con ruột người bệnh bị [ENTITY].",
+          "dense_similarity": 0.6830823421478271,
+          "sparse_similarity": 0.03813055902719498,
+          "hybrid_score": 0.36060646176338196
+        }
+      ]
+    ]
   },
   {
     "text": "buồn nôn",
@@ -335,7 +1085,37 @@
       1150,
       1158
     ],
-    "sentence": "Triệu chứng cách đây vài năm: tái phát [ENTITY] và tiêu chảy, chẩn đoán hội chứng ruột kích thích, phát hiện loét tá tràng khi nội soi."
+    "sentence": "Triệu chứng cách đây vài năm: tái phát [ENTITY] và tiêu chảy, chẩn đoán hội chứng ruột kích thích, phát hiện loét tá tràng khi nội soi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6437111496925354,
+          "sparse_similarity": 0.11025748401880264,
+          "hybrid_score": 0.3769843280315399
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6427827477455139,
+          "sparse_similarity": 0.10886872559785843,
+          "hybrid_score": 0.3758257329463959
+        },
+        {
+          "id": "isFamily_003353",
+          "document": "ba ruột bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6536726951599121,
+          "sparse_similarity": 0.09623885899782181,
+          "hybrid_score": 0.37495577335357666
+        }
+      ]
+    ]
   },
   {
     "text": "tiêu chảy",
@@ -348,7 +1128,37 @@
       1162,
       1171
     ],
-    "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và [ENTITY], chẩn đoán hội chứng ruột kích thích, phát hiện loét tá tràng khi nội soi."
+    "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và [ENTITY], chẩn đoán hội chứng ruột kích thích, phát hiện loét tá tràng khi nội soi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6530648469924927,
+          "sparse_similarity": 0.11312684416770935,
+          "hybrid_score": 0.3830958604812622
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6521328091621399,
+          "sparse_similarity": 0.11117216944694519,
+          "hybrid_score": 0.38165247440338135
+        },
+        {
+          "id": "isFamily_003351",
+          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6568019390106201,
+          "sparse_similarity": 0.10437518358230591,
+          "hybrid_score": 0.380588561296463
+        }
+      ]
+    ]
   },
   {
     "text": "hội chứng ruột kích thích",
@@ -361,7 +1171,37 @@
       1183,
       1208
     ],
-    "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và tiêu chảy, chẩn đoán [ENTITY], phát hiện loét tá tràng khi nội soi."
+    "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và tiêu chảy, chẩn đoán [ENTITY], phát hiện loét tá tràng khi nội soi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000465",
+          "document": "cách đây [PERIOD] năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6392393112182617,
+          "sparse_similarity": 0.1272093653678894,
+          "hybrid_score": 0.38322433829307556
+        },
+        {
+          "id": "isHistorical_000321",
+          "document": "[PERIOD] năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6386690139770508,
+          "sparse_similarity": 0.11869610100984573,
+          "hybrid_score": 0.37868255376815796
+        },
+        {
+          "id": "isHistorical_000675",
+          "document": "khoảng [PERIOD] năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.630375862121582,
+          "sparse_similarity": 0.11999975144863129,
+          "hybrid_score": 0.37518781423568726
+        }
+      ]
+    ]
   },
   {
     "text": "loét tá",
@@ -374,7 +1214,37 @@
       1220,
       1227
     ],
-    "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và tiêu chảy, chẩn đoán hội chứng ruột kích thích, phát hiện [ENTITY] tràng khi nội soi."
+    "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và tiêu chảy, chẩn đoán hội chứng ruột kích thích, phát hiện [ENTITY] tràng khi nội soi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.647171676158905,
+          "sparse_similarity": 0.11280199885368347,
+          "hybrid_score": 0.37998682260513306
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6458040475845337,
+          "sparse_similarity": 0.11143296957015991,
+          "hybrid_score": 0.3786185085773468
+        },
+        {
+          "id": "isFamily_003353",
+          "document": "ba ruột bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6505582928657532,
+          "sparse_similarity": 0.10150476545095444,
+          "hybrid_score": 0.3760315179824829
+        }
+      ]
+    ]
   },
   {
     "text": "tràng",
@@ -387,7 +1257,37 @@
       1228,
       1233
     ],
-    "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và tiêu chảy, chẩn đoán hội chứng ruột kích thích, phát hiện loét tá [ENTITY] khi nội soi."
+    "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và tiêu chảy, chẩn đoán hội chứng ruột kích thích, phát hiện loét tá [ENTITY] khi nội soi.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6567674875259399,
+          "sparse_similarity": 0.11466816067695618,
+          "hybrid_score": 0.38571780920028687
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6542253494262695,
+          "sparse_similarity": 0.1132482960820198,
+          "hybrid_score": 0.38373681902885437
+        },
+        {
+          "id": "isFamily_003353",
+          "document": "ba ruột bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.664454460144043,
+          "sparse_similarity": 0.10198590904474258,
+          "hybrid_score": 0.38322019577026367
+        }
+      ]
+    ]
   },
   {
     "text": "nội soi",
@@ -400,7 +1300,37 @@
       1238,
       1245
     ],
-    "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và tiêu chảy, chẩn đoán hội chứng ruột kích thích, phát hiện loét tá tràng khi [ENTITY]."
+    "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và tiêu chảy, chẩn đoán hội chứng ruột kích thích, phát hiện loét tá tràng khi [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011594",
+          "document": "con ruột người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6499992609024048,
+          "sparse_similarity": 0.11451665312051773,
+          "hybrid_score": 0.38225796818733215
+        },
+        {
+          "id": "isFamily_003351",
+          "document": "ba ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6576846241950989,
+          "sparse_similarity": 0.10518103092908859,
+          "hybrid_score": 0.38143283128738403
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6502789855003357,
+          "sparse_similarity": 0.11242132633924484,
+          "hybrid_score": 0.38135015964508057
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột",
@@ -413,7 +1343,37 @@
       1306,
       1322
     ],
-    "sentence": "Trong năm nay: không thể giữ được bất cứ thứ gì, chẩn đoán [ENTITY] do virus."
+    "sentence": "Trong năm nay: không thể giữ được bất cứ thứ gì, chẩn đoán [ENTITY] do virus.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000960",
+          "document": "đã [PERIOD] năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7019540071487427,
+          "sparse_similarity": 0.23801462352275848,
+          "hybrid_score": 0.4699843227863312
+        },
+        {
+          "id": "isHistorical_000875",
+          "document": "từ [PERIOD] năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6969997882843018,
+          "sparse_similarity": 0.23887813091278076,
+          "hybrid_score": 0.46793895959854126
+        },
+        {
+          "id": "isHistorical_000321",
+          "document": "[PERIOD] năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6809505224227905,
+          "sparse_similarity": 0.24421876668930054,
+          "hybrid_score": 0.46258464455604553
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột",
@@ -426,7 +1386,37 @@
       1353,
       1369
     ],
-    "sentence": "2 tuần sau điều trị [ENTITY] do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, tiêu chảy, nôn ra máu."
+    "sentence": "2 tuần sau điều trị [ENTITY] do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, tiêu chảy, nôn ra máu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000971",
+          "document": "đã [PERIOD] tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6077538132667542,
+          "sparse_similarity": 0.09946373105049133,
+          "hybrid_score": 0.35360878705978394
+        },
+        {
+          "id": "isHistorical_000476",
+          "document": "cách đây [PERIOD] tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6082808375358582,
+          "sparse_similarity": 0.09533154219388962,
+          "hybrid_score": 0.3518061935901642
+        },
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6218082904815674,
+          "sparse_similarity": 0.06366724520921707,
+          "hybrid_score": 0.34273776412010193
+        }
+      ]
+    ]
   },
   {
     "text": "buồn nôn",
@@ -439,7 +1429,37 @@
       1427,
       1435
     ],
-    "sentence": "2 tuần sau điều trị viêm dạ dày ruột do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, [ENTITY], tiêu chảy, nôn ra máu."
+    "sentence": "2 tuần sau điều trị viêm dạ dày ruột do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, [ENTITY], tiêu chảy, nôn ra máu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.623790442943573,
+          "sparse_similarity": 0.07556809484958649,
+          "hybrid_score": 0.34967926144599915
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.619550347328186,
+          "sparse_similarity": 0.07480423152446747,
+          "hybrid_score": 0.34717729687690735
+        },
+        {
+          "id": "isFamily_011587",
+          "document": "con ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.615982174873352,
+          "sparse_similarity": 0.07611581683158875,
+          "hybrid_score": 0.3460490107536316
+        }
+      ]
+    ]
   },
   {
     "text": "tiêu chảy",
@@ -452,7 +1472,37 @@
       1437,
       1446
     ],
-    "sentence": "2 tuần sau điều trị viêm dạ dày ruột do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, [ENTITY], nôn ra máu."
+    "sentence": "2 tuần sau điều trị viêm dạ dày ruột do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, [ENTITY], nôn ra máu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6204769611358643,
+          "sparse_similarity": 0.07301771640777588,
+          "hybrid_score": 0.34674733877182007
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6177315711975098,
+          "sparse_similarity": 0.07220736145973206,
+          "hybrid_score": 0.3449694514274597
+        },
+        {
+          "id": "isFamily_011587",
+          "document": "con ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.6123749613761902,
+          "sparse_similarity": 0.07354123145341873,
+          "hybrid_score": 0.34295809268951416
+        }
+      ]
+    ]
   },
   {
     "text": "nôn ra máu",
@@ -465,7 +1515,37 @@
       1448,
       1458
     ],
-    "sentence": "2 tuần sau điều trị viêm dạ dày ruột do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, tiêu chảy, [ENTITY]."
+    "sentence": "2 tuần sau điều trị viêm dạ dày ruột do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, tiêu chảy, [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.63658607006073,
+          "sparse_similarity": 0.0816754400730133,
+          "hybrid_score": 0.35913074016571045
+        },
+        {
+          "id": "isFamily_011587",
+          "document": "con ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.629392683506012,
+          "sparse_similarity": 0.0822426974773407,
+          "hybrid_score": 0.35581767559051514
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.62864089012146,
+          "sparse_similarity": 0.08068821579217911,
+          "hybrid_score": 0.35466456413269043
+        }
+      ]
+    ]
   },
   {
     "text": "nội soi",
@@ -478,7 +1558,37 @@
       1460,
       1467
     ],
-    "sentence": "[ENTITY] cho thấy nhiều loét tá tràng và hồi tràng."
+    "sentence": "[ENTITY] cho thấy nhiều loét tá tràng và hồi tràng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7309529781341553,
+          "sparse_similarity": 0.10940181463956833,
+          "hybrid_score": 0.4201774001121521
+        },
+        {
+          "id": "isFamily_003341",
+          "document": "ba ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7183975577354431,
+          "sparse_similarity": 0.10657348483800888,
+          "hybrid_score": 0.4124855101108551
+        },
+        {
+          "id": "isFamily_000836",
+          "document": "[ENTITY] ở ba ruột bệnh nhân.",
+          "dense_similarity": 0.7129448652267456,
+          "sparse_similarity": 0.10965928435325623,
+          "hybrid_score": 0.4113020896911621
+        }
+      ]
+    ]
   },
   {
     "text": "tá",
@@ -491,7 +1601,37 @@
       1488,
       1490
     ],
-    "sentence": "nội soi cho thấy nhiều loét [ENTITY] tràng và hồi tràng."
+    "sentence": "nội soi cho thấy nhiều loét [ENTITY] tràng và hồi tràng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7072557210922241,
+          "sparse_similarity": 0.11271914839744568,
+          "hybrid_score": 0.4099874496459961
+        },
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7089700698852539,
+          "sparse_similarity": 0.10782225430011749,
+          "hybrid_score": 0.4083961546421051
+        },
+        {
+          "id": "isFamily_007107",
+          "document": "bên nội có người được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6949522495269775,
+          "sparse_similarity": 0.11629565060138702,
+          "hybrid_score": 0.4056239426136017
+        }
+      ]
+    ]
   },
   {
     "text": "omeprazole",
@@ -504,7 +1644,37 @@
       1582,
       1592
     ],
-    "sentence": "Gần đây: ngừng sử dụng [ENTITY] để làm test hơi thở h."
+    "sentence": "Gần đây: ngừng sử dụng [ENTITY] để làm test hơi thở h.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000272",
+          "document": "test âm tính với [ENTITY].",
+          "dense_similarity": 0.7050496339797974,
+          "sparse_similarity": 0.1455085724592209,
+          "hybrid_score": 0.4252791106700897
+        },
+        {
+          "id": "isNegated_000271",
+          "document": "test không phát hiện [ENTITY].",
+          "dense_similarity": 0.7016361355781555,
+          "sparse_similarity": 0.14787760376930237,
+          "hybrid_score": 0.42475688457489014
+        },
+        {
+          "id": "isNegated_000267",
+          "document": "test cho kết quả âm tính với [ENTITY].",
+          "dense_similarity": 0.7075549364089966,
+          "sparse_similarity": 0.1383821666240692,
+          "hybrid_score": 0.4229685664176941
+        }
+      ]
+    ]
   },
   {
     "text": "omeprazole",
@@ -517,7 +1687,37 @@
       1634,
       1644
     ],
-    "sentence": "Khi ngừng [ENTITY]: phát triển đau bụng và nôn ra máu trở nên tồi tệ hơn."
+    "sentence": "Khi ngừng [ENTITY]: phát triển đau bụng và nôn ra máu trở nên tồi tệ hơn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.665073573589325,
+          "sparse_similarity": 0.04671023041009903,
+          "hybrid_score": 0.3558919131755829
+        },
+        {
+          "id": "isFamily_011473",
+          "document": "con ruột bn đang mắc [ENTITY].",
+          "dense_similarity": 0.6414082646369934,
+          "sparse_similarity": 0.062314558774232864,
+          "hybrid_score": 0.3518614172935486
+        },
+        {
+          "id": "isFamily_011583",
+          "document": "con ruột người bệnh bị [ENTITY].",
+          "dense_similarity": 0.6553112864494324,
+          "sparse_similarity": 0.04626193642616272,
+          "hybrid_score": 0.35078662633895874
+        }
+      ]
+    ]
   },
   {
     "text": "đau bụng",
@@ -530,7 +1730,37 @@
       1657,
       1665
     ],
-    "sentence": "Khi ngừng omeprazole: phát triển [ENTITY] và nôn ra máu trở nên tồi tệ hơn."
+    "sentence": "Khi ngừng omeprazole: phát triển [ENTITY] và nôn ra máu trở nên tồi tệ hơn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011473",
+          "document": "con ruột bn đang mắc [ENTITY].",
+          "dense_similarity": 0.5613630414009094,
+          "sparse_similarity": 0.06016575172543526,
+          "hybrid_score": 0.3107644021511078
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.5707880854606628,
+          "sparse_similarity": 0.042060449719429016,
+          "hybrid_score": 0.30642426013946533
+        },
+        {
+          "id": "isFamily_020138",
+          "document": "má người bệnh bị [ENTITY].",
+          "dense_similarity": 0.5623307824134827,
+          "sparse_similarity": 0.047981344163417816,
+          "hybrid_score": 0.30515605211257935
+        }
+      ]
+    ]
   },
   {
     "text": "nôn ra máu",
@@ -543,7 +1773,37 @@
       1669,
       1679
     ],
-    "sentence": "Khi ngừng omeprazole: phát triển đau bụng và [ENTITY] trở nên tồi tệ hơn."
+    "sentence": "Khi ngừng omeprazole: phát triển đau bụng và [ENTITY] trở nên tồi tệ hơn.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6147788166999817,
+          "sparse_similarity": 0.044068582355976105,
+          "hybrid_score": 0.3294236958026886
+        },
+        {
+          "id": "isFamily_003340",
+          "document": "ba ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6107211112976074,
+          "sparse_similarity": 0.04391356557607651,
+          "hybrid_score": 0.32731732726097107
+        },
+        {
+          "id": "isFamily_011587",
+          "document": "con ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.6079911589622498,
+          "sparse_similarity": 0.04580003023147583,
+          "hybrid_score": 0.3268955945968628
+        }
+      ]
+    ]
   },
   {
     "text": "nôn ra máu",
@@ -556,7 +1816,37 @@
       1721,
       1731
     ],
-    "sentence": "2 ngày qua: tiếp tục [ENTITY]."
+    "sentence": "2 ngày qua: tiếp tục [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000165",
+          "document": "[ENTITY] hai ngày trước.",
+          "dense_similarity": 0.8477595448493958,
+          "sparse_similarity": 0.18377678096294403,
+          "hybrid_score": 0.5157681703567505
+        },
+        {
+          "id": "isHistorical_000495",
+          "document": "cách đây hai ngày [ENTITY].",
+          "dense_similarity": 0.852702796459198,
+          "sparse_similarity": 0.1773228943347931,
+          "hybrid_score": 0.5150128602981567
+        },
+        {
+          "id": "isHistorical_000569",
+          "document": "hai ngày trước [ENTITY].",
+          "dense_similarity": 0.8573750257492065,
+          "sparse_similarity": 0.17143316566944122,
+          "hybrid_score": 0.5144041180610657
+        }
+      ]
+    ]
   },
   {
     "text": "Nôn ra máu",
@@ -569,7 +1859,37 @@
       1760,
       1770
     ],
-    "sentence": "[ENTITY]."
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.2620290517807007,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789617061615,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ]
   },
   {
     "text": "Ăn uống kém",
@@ -582,7 +1902,37 @@
       1772,
       1783
     ],
-    "sentence": "[ENTITY]."
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.2620290517807007,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789617061615,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột do virus",
@@ -595,7 +1945,37 @@
       1862,
       1887
     ],
-    "sentence": "Chẩn đoán [ENTITY] (trong năm nay)."
+    "sentence": "Chẩn đoán [ENTITY] (trong năm nay).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000321",
+          "document": "[PERIOD] năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.8764575123786926,
+          "sparse_similarity": 0.33731743693351746,
+          "hybrid_score": 0.6068874597549438
+        },
+        {
+          "id": "isHistorical_000960",
+          "document": "đã [PERIOD] năm được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.8592426776885986,
+          "sparse_similarity": 0.32543379068374634,
+          "hybrid_score": 0.5923382043838501
+        },
+        {
+          "id": "isHistorical_000875",
+          "document": "từ [PERIOD] năm trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.8495444059371948,
+          "sparse_similarity": 0.32921531796455383,
+          "hybrid_score": 0.5893798470497131
+        }
+      ]
+    ]
   },
   {
     "text": "buồn nôn",
@@ -608,7 +1988,37 @@
       1952,
       1960
     ],
-    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, [ENTITY] và tiêu chảy (2 tuần sau tập viêm dạ dày ruột do virus)."
+    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, [ENTITY] và tiêu chảy (2 tuần sau tập viêm dạ dày ruột do virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6417330503463745,
+          "sparse_similarity": 0.08233807981014252,
+          "hybrid_score": 0.3620355725288391
+        },
+        {
+          "id": "isFamily_011587",
+          "document": "con ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.6343753933906555,
+          "sparse_similarity": 0.08290687203407288,
+          "hybrid_score": 0.3586411476135254
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6306670308113098,
+          "sparse_similarity": 0.08133342862129211,
+          "hybrid_score": 0.35600024461746216
+        }
+      ]
+    ]
   },
   {
     "text": "tiêu chảy",
@@ -621,7 +2031,37 @@
       1964,
       1973
     ],
-    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus)."
+    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6524226665496826,
+          "sparse_similarity": 0.09127048403024673,
+          "hybrid_score": 0.37184658646583557
+        },
+        {
+          "id": "isFamily_011587",
+          "document": "con ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.6427614688873291,
+          "sparse_similarity": 0.0918632447719574,
+          "hybrid_score": 0.36731237173080444
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6430134773254395,
+          "sparse_similarity": 0.08985580503940582,
+          "hybrid_score": 0.36643463373184204
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột do virus",
@@ -634,7 +2074,37 @@
       1990,
       2015
     ],
-    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và tiêu chảy (2 tuần sau tập [ENTITY])."
+    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và tiêu chảy (2 tuần sau tập [ENTITY]).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000971",
+          "document": "đã [PERIOD] tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6259264945983887,
+          "sparse_similarity": 0.09377003461122513,
+          "hybrid_score": 0.3598482608795166
+        },
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6478099226951599,
+          "sparse_similarity": 0.05546625331044197,
+          "hybrid_score": 0.3516380786895752
+        },
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6440016627311707,
+          "sparse_similarity": 0.053594861179590225,
+          "hybrid_score": 0.3487982749938965
+        }
+      ]
+    ]
   },
   {
     "text": "nôn ra máu",
@@ -647,7 +2117,37 @@
       2031,
       2041
     ],
-    "sentence": "Nhập viện vì [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus)."
+    "sentence": "Nhập viện vì [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000971",
+          "document": "đã [PERIOD] tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7784311175346375,
+          "sparse_similarity": 0.1619884967803955,
+          "hybrid_score": 0.4702098071575165
+        },
+        {
+          "id": "isHistorical_000476",
+          "document": "cách đây [PERIOD] tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7770406603813171,
+          "sparse_similarity": 0.16306143999099731,
+          "hybrid_score": 0.4700510501861572
+        },
+        {
+          "id": "isHistorical_000686",
+          "document": "khoảng [PERIOD] tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7669299840927124,
+          "sparse_similarity": 0.15233151614665985,
+          "hybrid_score": 0.4596307575702667
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột do",
@@ -660,7 +2160,37 @@
       2058,
       2077
     ],
-    "sentence": "Nhập viện vì nôn ra máu (2 tuần sau tập [ENTITY] virus)."
+    "sentence": "Nhập viện vì nôn ra máu (2 tuần sau tập [ENTITY] virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000971",
+          "document": "đã [PERIOD] tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7820321917533875,
+          "sparse_similarity": 0.1634715348482132,
+          "hybrid_score": 0.4727518558502197
+        },
+        {
+          "id": "isHistorical_000476",
+          "document": "cách đây [PERIOD] tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7805919051170349,
+          "sparse_similarity": 0.16426147520542145,
+          "hybrid_score": 0.4724266827106476
+        },
+        {
+          "id": "isHistorical_000686",
+          "document": "khoảng [PERIOD] tuần trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7684388160705566,
+          "sparse_similarity": 0.1532667577266693,
+          "hybrid_score": 0.46085280179977417
+        }
+      ]
+    ]
   },
   {
     "text": "nội soi",
@@ -673,7 +2203,37 @@
       2086,
       2093
     ],
-    "sentence": "[ENTITY] cho thấy nhiều loét tá tràng và hồi tràng (2 tuần sau tập viêm dạ dày ruột do virus)."
+    "sentence": "[ENTITY] cho thấy nhiều loét tá tràng và hồi tràng (2 tuần sau tập viêm dạ dày ruột do virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6734145879745483,
+          "sparse_similarity": 0.10745164752006531,
+          "hybrid_score": 0.390433132648468
+        },
+        {
+          "id": "isFamily_011507",
+          "document": "con ruột bệnh nhân được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6661006212234497,
+          "sparse_similarity": 0.11391505599021912,
+          "hybrid_score": 0.3900078535079956
+        },
+        {
+          "id": "isFamily_011505",
+          "document": "con ruột bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6714662313461304,
+          "sparse_similarity": 0.10850436985492706,
+          "hybrid_score": 0.3899852931499481
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột",
@@ -686,7 +2246,37 @@
       2152,
       2168
     ],
-    "sentence": "nội soi cho thấy nhiều loét tá tràng và hồi tràng (2 tuần sau tập [ENTITY] do virus)."
+    "sentence": "nội soi cho thấy nhiều loét tá tràng và hồi tràng (2 tuần sau tập [ENTITY] do virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6678109169006348,
+          "sparse_similarity": 0.1028420478105545,
+          "hybrid_score": 0.38532647490501404
+        },
+        {
+          "id": "isHistorical_000972",
+          "document": "đã [PERIOD] tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6780979037284851,
+          "sparse_similarity": 0.08842576295137405,
+          "hybrid_score": 0.3832618296146393
+        },
+        {
+          "id": "isHistorical_000971",
+          "document": "đã [PERIOD] tuần nhập viện vì [ENTITY].",
+          "dense_similarity": 0.6803513765335083,
+          "sparse_similarity": 0.08346229791641235,
+          "hybrid_score": 0.3819068372249603
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột",
@@ -699,7 +2289,37 @@
       2243,
       2259
     ],
-    "sentence": "dương tính xét nghiệm phân tìm cryptosporidium (2 tuần sau tập [ENTITY] do virus)."
+    "sentence": "dương tính xét nghiệm phân tìm cryptosporidium (2 tuần sau tập [ENTITY] do virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000972",
+          "document": "đã [PERIOD] tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7194570899009705,
+          "sparse_similarity": 0.09619271755218506,
+          "hybrid_score": 0.40782490372657776
+        },
+        {
+          "id": "isHistorical_000477",
+          "document": "cách đây [PERIOD] tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7120962142944336,
+          "sparse_similarity": 0.09294453263282776,
+          "hybrid_score": 0.4025203585624695
+        },
+        {
+          "id": "isHistorical_000887",
+          "document": "từ [PERIOD] tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7083746790885925,
+          "sparse_similarity": 0.08900529146194458,
+          "hybrid_score": 0.39868998527526855
+        }
+      ]
+    ]
   },
   {
     "text": "omeprazole",
@@ -712,7 +2332,37 @@
       2285,
       2295
     ],
-    "sentence": "Ngừng sử dụng [ENTITY] để làm test hơi thở h."
+    "sentence": "Ngừng sử dụng [ENTITY] để làm test hơi thở h.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000271",
+          "document": "test không phát hiện [ENTITY].",
+          "dense_similarity": 0.7361322641372681,
+          "sparse_similarity": 0.15411698818206787,
+          "hybrid_score": 0.44512462615966797
+        },
+        {
+          "id": "isNegated_000270",
+          "document": "test không ghi nhận [ENTITY].",
+          "dense_similarity": 0.7388666868209839,
+          "sparse_similarity": 0.14947094023227692,
+          "hybrid_score": 0.4441688060760498
+        },
+        {
+          "id": "isNegated_000272",
+          "document": "test âm tính với [ENTITY].",
+          "dense_similarity": 0.7111160755157471,
+          "sparse_similarity": 0.1520276963710785,
+          "hybrid_score": 0.431571900844574
+        }
+      ]
+    ]
   },
   {
     "text": "đau bụng",
@@ -725,7 +2375,37 @@
       2348,
       2356
     ],
-    "sentence": "Phát triển [ENTITY] và nôn ra máu trở nên tồi tệ hơn (khi ngừng omeprazole)."
+    "sentence": "Phát triển [ENTITY] và nôn ra máu trở nên tồi tệ hơn (khi ngừng omeprazole).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000029",
+          "document": "[ENTITY] cần làm thêm xét nghiệm.",
+          "dense_similarity": 0.6022449135780334,
+          "sparse_similarity": 0.07512663304805756,
+          "hybrid_score": 0.3386857807636261
+        },
+        {
+          "id": "isNegated_000110",
+          "document": "chẩn đoán loại trừ [ENTITY].",
+          "dense_similarity": 0.601866602897644,
+          "sparse_similarity": 0.07494807988405228,
+          "hybrid_score": 0.33840733766555786
+        },
+        {
+          "id": "isFamily_011473",
+          "document": "con ruột bn đang mắc [ENTITY].",
+          "dense_similarity": 0.6014403104782104,
+          "sparse_similarity": 0.07478941977024078,
+          "hybrid_score": 0.338114857673645
+        }
+      ]
+    ]
   },
   {
     "text": "nôn ra máu",
@@ -738,7 +2418,37 @@
       2360,
       2370
     ],
-    "sentence": "Phát triển đau bụng và [ENTITY] trở nên tồi tệ hơn (khi ngừng omeprazole)."
+    "sentence": "Phát triển đau bụng và [ENTITY] trở nên tồi tệ hơn (khi ngừng omeprazole).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6706261038780212,
+          "sparse_similarity": 0.055726081132888794,
+          "hybrid_score": 0.3631761074066162
+        },
+        {
+          "id": "isFamily_003340",
+          "document": "ba ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6649661064147949,
+          "sparse_similarity": 0.05541292577981949,
+          "hybrid_score": 0.3601895272731781
+        },
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6607059836387634,
+          "sparse_similarity": 0.05778661370277405,
+          "hybrid_score": 0.35924631357192993
+        }
+      ]
+    ]
   },
   {
     "text": "omeprazole",
@@ -751,7 +2461,37 @@
       2401,
       2411
     ],
-    "sentence": "Phát triển đau bụng và nôn ra máu trở nên tồi tệ hơn (khi ngừng [ENTITY])."
+    "sentence": "Phát triển đau bụng và nôn ra máu trở nên tồi tệ hơn (khi ngừng [ENTITY]).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011494",
+          "document": "con ruột bệnh nhân bị [ENTITY].",
+          "dense_similarity": 0.6808844804763794,
+          "sparse_similarity": 0.03788873925805092,
+          "hybrid_score": 0.3593866229057312
+        },
+        {
+          "id": "isFamily_011498",
+          "document": "con ruột bệnh nhân mắc [ENTITY].",
+          "dense_similarity": 0.6676086783409119,
+          "sparse_similarity": 0.03921154886484146,
+          "hybrid_score": 0.35341012477874756
+        },
+        {
+          "id": "isFamily_011587",
+          "document": "con ruột người bệnh mắc [ENTITY].",
+          "dense_similarity": 0.666318953037262,
+          "sparse_similarity": 0.03936369717121124,
+          "hybrid_score": 0.352841317653656
+        }
+      ]
+    ]
   },
   {
     "text": "nôn ra máu",
@@ -764,7 +2504,37 @@
       2460,
       2470
     ],
-    "sentence": "Tình trạng ngay trước khi nhập viện: Tiếp tục [ENTITY] trong 2 ngày qua."
+    "sentence": "Tình trạng ngay trước khi nhập viện: Tiếp tục [ENTITY] trong 2 ngày qua.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000314",
+          "document": "[PERIOD] ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7970516085624695,
+          "sparse_similarity": 0.2542571425437927,
+          "hybrid_score": 0.5256543755531311
+        },
+        {
+          "id": "isHistorical_000668",
+          "document": "khoảng [PERIOD] ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8095687031745911,
+          "sparse_similarity": 0.24081206321716309,
+          "hybrid_score": 0.5251903533935547
+        },
+        {
+          "id": "isHistorical_000825",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.8204159736633301,
+          "sparse_similarity": 0.22674120962619781,
+          "hybrid_score": 0.5235785841941833
+        }
+      ]
+    ]
   },
   {
     "text": "viêm dạ dày ruột",
@@ -777,7 +2547,37 @@
       2598,
       2614
     ],
-    "sentence": "dương tính xét nghiệm phân tìm cryptosporidium (2 tuần sau tập [ENTITY] do virus)."
+    "sentence": "dương tính xét nghiệm phân tìm cryptosporidium (2 tuần sau tập [ENTITY] do virus).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000972",
+          "document": "đã [PERIOD] tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7194570899009705,
+          "sparse_similarity": 0.09619271755218506,
+          "hybrid_score": 0.40782490372657776
+        },
+        {
+          "id": "isHistorical_000477",
+          "document": "cách đây [PERIOD] tuần được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7120962142944336,
+          "sparse_similarity": 0.09294453263282776,
+          "hybrid_score": 0.4025203585624695
+        },
+        {
+          "id": "isHistorical_000887",
+          "document": "từ [PERIOD] tuần trước được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7083746790885925,
+          "sparse_similarity": 0.08900529146194458,
+          "hybrid_score": 0.39868998527526855
+        }
+      ]
+    ]
   },
   {
     "text": "omeprazole",
@@ -790,7 +2590,37 @@
       2662,
       2672
     ],
-    "sentence": "pylori (lý do ngừng [ENTITY])."
+    "sentence": "pylori (lý do ngừng [ENTITY]).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000978",
+          "document": "đã mắc [ENTITY].",
+          "dense_similarity": 0.7004674077033997,
+          "sparse_similarity": 0.09325795620679855,
+          "hybrid_score": 0.3968626856803894
+        },
+        {
+          "id": "isNegated_000046",
+          "document": "[ENTITY] được loại trừ.",
+          "dense_similarity": 0.6988615393638611,
+          "sparse_similarity": 0.0911560207605362,
+          "hybrid_score": 0.39500877261161804
+        },
+        {
+          "id": "isUncertain_000104",
+          "document": "có thể [ENTITY].",
+          "dense_similarity": 0.6976637840270996,
+          "sparse_similarity": 0.09151013940572739,
+          "hybrid_score": 0.3945869505405426
+        }
+      ]
+    ]
   },
   {
     "text": "nội soi",
@@ -803,7 +2633,37 @@
       2703,
       2710
     ],
-    "sentence": "[ENTITY] (cách đây vài năm)."
+    "sentence": "[ENTITY] (cách đây vài năm).",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "[entity] (cách đây"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000143",
+          "document": "[ENTITY] cách đây vài năm.",
+          "dense_similarity": 0.9707680940628052,
+          "sparse_similarity": 0.34669631719589233,
+          "hybrid_score": 0.6587321758270264
+        },
+        {
+          "id": "isHistorical_000524",
+          "document": "cách đây vài năm [ENTITY].",
+          "dense_similarity": 0.9655659198760986,
+          "sparse_similarity": 0.32516273856163025,
+          "hybrid_score": 0.6453643441200256
+        },
+        {
+          "id": "isHistorical_000275",
+          "document": "[ENTITY] vài năm trước.",
+          "dense_similarity": 0.9700781106948853,
+          "sparse_similarity": 0.29057779908180237,
+          "hybrid_score": 0.6303279399871826
+        }
+      ]
+    ]
   },
   {
     "text": "nội soi",
@@ -816,7 +2676,37 @@
       2731,
       2738
     ],
-    "sentence": "[ENTITY] (cho thấy nhiều loét tá tràng và hồi tràng)."
+    "sentence": "[ENTITY] (cho thấy nhiều loét tá tràng và hồi tràng).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_000981",
+          "document": "[ENTITY] ở con ruột bệnh nhân.",
+          "dense_similarity": 0.7399932146072388,
+          "sparse_similarity": 0.09447141736745834,
+          "hybrid_score": 0.41723230481147766
+        },
+        {
+          "id": "isFamily_000836",
+          "document": "[ENTITY] ở ba ruột bệnh nhân.",
+          "dense_similarity": 0.7369327545166016,
+          "sparse_similarity": 0.09543533623218536,
+          "hybrid_score": 0.41618403792381287
+        },
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7370526194572449,
+          "sparse_similarity": 0.09447004646062851,
+          "hybrid_score": 0.4157613217830658
+        }
+      ]
+    ]
   },
   {
     "text": "nội soi",
@@ -829,7 +2719,37 @@
       2784,
       2791
     ],
-    "sentence": "[ENTITY] (Viêm thực quản độ C, loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm)."
+    "sentence": "[ENTITY] (Viêm thực quản độ C, loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.5832017660140991,
+          "sparse_similarity": 0.08117631822824478,
+          "hybrid_score": 0.33218905329704285
+        },
+        {
+          "id": "isUncertain_000091",
+          "document": "chẩn đoán ban đầu [ENTITY].",
+          "dense_similarity": 0.5877124071121216,
+          "sparse_similarity": 0.07483271509408951,
+          "hybrid_score": 0.33127257227897644
+        },
+        {
+          "id": "isFamily_000980",
+          "document": "[ENTITY] ở con ruột bệnh nhi.",
+          "dense_similarity": 0.5890522003173828,
+          "sparse_similarity": 0.07061224430799484,
+          "hybrid_score": 0.3298322260379791
+        }
+      ]
+    ]
   },
   {
     "text": "Viêm thực quản độ C",
@@ -842,7 +2762,37 @@
       2793,
       2812
     ],
-    "sentence": "nội soi ([ENTITY], loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm)."
+    "sentence": "nội soi ([ENTITY], loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6631780862808228,
+          "sparse_similarity": 0.13238389790058136,
+          "hybrid_score": 0.39778098464012146
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6370461583137512,
+          "sparse_similarity": 0.156921848654747,
+          "hybrid_score": 0.3969840109348297
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6638314723968506,
+          "sparse_similarity": 0.12866836786270142,
+          "hybrid_score": 0.396249920129776
+        }
+      ]
+    ]
   },
   {
     "text": "loét thực quản",
@@ -855,7 +2805,37 @@
       2814,
       2828
     ],
-    "sentence": "nội soi (Viêm thực quản độ C, [ENTITY] dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm)."
+    "sentence": "nội soi (Viêm thực quản độ C, [ENTITY] dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6383635997772217,
+          "sparse_similarity": 0.11115190386772156,
+          "hybrid_score": 0.3747577667236328
+        },
+        {
+          "id": "isFamily_007150",
+          "document": "bên nội của bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6408957839012146,
+          "sparse_similarity": 0.10816515982151031,
+          "hybrid_score": 0.37453046441078186
+        },
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6323538422584534,
+          "sparse_similarity": 0.11502840369939804,
+          "hybrid_score": 0.3736911118030548
+        }
+      ]
+    ]
   },
   {
     "text": "Viêm thực quản độ C",
@@ -868,7 +2848,37 @@
       2940,
       2959
     ],
-    "sentence": "[ENTITY] ở thực quản dưới."
+    "sentence": "[ENTITY] ở thực quản dưới.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_000844",
+          "document": "[ENTITY] ở ba ruột.",
+          "dense_similarity": 0.8073136210441589,
+          "sparse_similarity": 0.21184322237968445,
+          "hybrid_score": 0.5095784068107605
+        },
+        {
+          "id": "isFamily_000981",
+          "document": "[ENTITY] ở con ruột bệnh nhân.",
+          "dense_similarity": 0.823019802570343,
+          "sparse_similarity": 0.17724621295928955,
+          "hybrid_score": 0.5001330375671387
+        },
+        {
+          "id": "isFamily_000987",
+          "document": "[ENTITY] ở con ruột người bệnh.",
+          "dense_similarity": 0.8227491974830627,
+          "sparse_similarity": 0.1740361452102661,
+          "hybrid_score": 0.49839267134666443
+        }
+      ]
+    ]
   },
   {
     "text": "loét thực",
@@ -881,7 +2891,37 @@
       2983,
       2992
     ],
-    "sentence": "Loét [ENTITY] quản 6 mm có điểm sắc tố."
+    "sentence": "Loét [ENTITY] quản 6 mm có điểm sắc tố.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_023726",
+          "document": "phía bên ngoại má có [ENTITY].",
+          "dense_similarity": 0.6052253246307373,
+          "sparse_similarity": 0.12860624492168427,
+          "hybrid_score": 0.3669157922267914
+        },
+        {
+          "id": "isFamily_024173",
+          "document": "phía bên nội má được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6243528127670288,
+          "sparse_similarity": 0.08276738971471786,
+          "hybrid_score": 0.35356009006500244
+        },
+        {
+          "id": "isFamily_023738",
+          "document": "phía bên ngoại má được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6222739219665527,
+          "sparse_similarity": 0.0821399986743927,
+          "hybrid_score": 0.3522069454193115
+        }
+      ]
+    ]
   },
   {
     "text": "quản",
@@ -894,6 +2934,36 @@
       2993,
       2997
     ],
-    "sentence": "Loét loét thực [ENTITY] 6 mm có điểm sắc tố."
+    "sentence": "Loét loét thực [ENTITY] 6 mm có điểm sắc tố.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006621",
+          "document": "bên ngoại của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.5759789347648621,
+          "sparse_similarity": 0.12985903024673462,
+          "hybrid_score": 0.35291898250579834
+        },
+        {
+          "id": "isFamily_020109",
+          "document": "má của người bệnh có [ENTITY].",
+          "dense_similarity": 0.5816489458084106,
+          "sparse_similarity": 0.12095582485198975,
+          "hybrid_score": 0.3513023853302002
+        },
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.578765869140625,
+          "sparse_similarity": 0.11585026234388351,
+          "hybrid_score": 0.34730806946754456
+        }
+      ]
+    ]
   }
 ]

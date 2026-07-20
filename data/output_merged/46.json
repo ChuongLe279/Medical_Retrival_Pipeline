@@ -10,7 +10,37 @@
       52,
       65
     ],
-    "sentence": "Bệnh lý mãn tính: tiền sử lâu dài của [ENTITY]."
+    "sentence": "Bệnh lý mãn tính: tiền sử lâu dài của [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử lâu dài của [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024974",
+          "document": "thân nhân của bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.8096195459365845,
+          "sparse_similarity": 0.25023165345191956,
+          "hybrid_score": 0.5299255847930908
+        },
+        {
+          "id": "isFamily_020051",
+          "document": "má bệnh nhân có tiền sử [ENTITY].",
+          "dense_similarity": 0.8209688067436218,
+          "sparse_similarity": 0.2333221584558487,
+          "hybrid_score": 0.527145504951477
+        },
+        {
+          "id": "isFamily_024988",
+          "document": "thân nhân của người bệnh có tiền sử [ENTITY].",
+          "dense_similarity": 0.8074382543563843,
+          "sparse_similarity": 0.24532103538513184,
+          "hybrid_score": 0.5263796448707581
+        }
+      ]
+    ]
   },
   {
     "text": "đi khập khiễng cách",
@@ -23,7 +53,37 @@
       252,
       271
     ],
-    "sentence": "[ENTITY] quãng."
+    "sentence": "[ENTITY] quãng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_000236",
+          "document": "[ENTITY] o chong.",
+          "dense_similarity": 0.8331195116043091,
+          "sparse_similarity": 0.2824994921684265,
+          "hybrid_score": 0.5578094720840454
+        },
+        {
+          "id": "isFamily_000373",
+          "document": "[ENTITY] o nguoi chong.",
+          "dense_similarity": 0.8072934746742249,
+          "sparse_similarity": 0.2563514709472656,
+          "hybrid_score": 0.5318224430084229
+        },
+        {
+          "id": "isHistorical_000162",
+          "document": "[ENTITY] da qua.",
+          "dense_similarity": 0.8407946825027466,
+          "sparse_similarity": 0.18936565518379211,
+          "hybrid_score": 0.5150801539421082
+        }
+      ]
+    ]
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
@@ -36,7 +96,37 @@
       308,
       333
     ],
-    "sentence": "Sự kiện trước khi nhập viện: [ENTITY] được thực hiện cho thấy tắc hẹp 80% động mạch thận trái L."
+    "sentence": "Sự kiện trước khi nhập viện: [ENTITY] được thực hiện cho thấy tắc hẹp 80% động mạch thận trái L.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000825",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.6849720478057861,
+          "sparse_similarity": 0.16678917407989502,
+          "hybrid_score": 0.4258806109428406
+        },
+        {
+          "id": "isHistorical_000824",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.6753689646720886,
+          "sparse_similarity": 0.1647607386112213,
+          "hybrid_score": 0.42006486654281616
+        },
+        {
+          "id": "isHistorical_000827",
+          "document": "trước lần nhập viện này mắc [ENTITY].",
+          "dense_similarity": 0.6757131814956665,
+          "sparse_similarity": 0.16243045032024384,
+          "hybrid_score": 0.41907182335853577
+        }
+      ]
+    ]
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
@@ -49,6 +139,36 @@
       445,
       470
     ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] cho thấy tắc hẹp 80% động mạch thận trái L."
+    "sentence": "Kết quả chẩn đoán hình ảnh: [ENTITY] cho thấy tắc hẹp 80% động mạch thận trái L.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024251",
+          "document": "phía bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.629560112953186,
+          "sparse_similarity": 0.10948485881090164,
+          "hybrid_score": 0.36952248215675354
+        },
+        {
+          "id": "isFamily_007189",
+          "document": "bên nội được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6187636256217957,
+          "sparse_similarity": 0.11234399676322937,
+          "hybrid_score": 0.3655537962913513
+        },
+        {
+          "id": "isFamily_025022",
+          "document": "thân nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.607934296131134,
+          "sparse_similarity": 0.11884504556655884,
+          "hybrid_score": 0.36338967084884644
+        }
+      ]
+    ]
   }
 ]

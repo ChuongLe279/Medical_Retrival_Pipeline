@@ -10,7 +10,37 @@
       50,
       58
     ],
-    "sentence": "Các tập tương tự trước đây: Từng bị [ENTITY] tương tự trong quá khứ, luôn thuyên giảm khi dùng thuốc."
+    "sentence": "Các tập tương tự trước đây: Từng bị [ENTITY] tương tự trong quá khứ, luôn thuyên giảm khi dùng thuốc.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "từng bị [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000811",
+          "document": "trong quá khứ bị [ENTITY].",
+          "dense_similarity": 0.690937876701355,
+          "sparse_similarity": 0.2018730193376541,
+          "hybrid_score": 0.44640544056892395
+        },
+        {
+          "id": "isHistorical_000828",
+          "document": "trước đây bị [ENTITY].",
+          "dense_similarity": 0.6656505465507507,
+          "sparse_similarity": 0.1916411817073822,
+          "hybrid_score": 0.4286458492279053
+        },
+        {
+          "id": "isHistorical_000293",
+          "document": "[ENTITY] đã điều trị trước đây.",
+          "dense_similarity": 0.70860755443573,
+          "sparse_similarity": 0.13211625814437866,
+          "hybrid_score": 0.4203619062900543
+        }
+      ]
+    ]
   },
   {
     "text": "acetaminophen 500mg",
@@ -23,7 +53,37 @@
       169,
       188
     ],
-    "sentence": "Tự điều trị bằng liều cao [ENTITY], taking 10 pills at a time khi cơn đau dữ dội, thường 4 viên mỗi giờ."
+    "sentence": "Tự điều trị bằng liều cao [ENTITY], taking 10 pills at a time khi cơn đau dữ dội, thường 4 viên mỗi giờ.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000984",
+          "document": "đã điều trị [ENTITY].",
+          "dense_similarity": 0.5984466075897217,
+          "sparse_similarity": 0.2039114087820053,
+          "hybrid_score": 0.4011790156364441
+        },
+        {
+          "id": "isFamily_025019",
+          "document": "thân nhân đang điều trị [ENTITY].",
+          "dense_similarity": 0.6079220175743103,
+          "sparse_similarity": 0.18596555292606354,
+          "hybrid_score": 0.3969437777996063
+        },
+        {
+          "id": "isFamily_007104",
+          "document": "bên nội có người đang điều trị [ENTITY].",
+          "dense_similarity": 0.599500298500061,
+          "sparse_similarity": 0.1908561885356903,
+          "hybrid_score": 0.39517825841903687
+        }
+      ]
+    ]
   },
   {
     "text": "cơn đau dữ",
@@ -36,7 +96,37 @@
       220,
       230
     ],
-    "sentence": "Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi [ENTITY] dội, thường 4 viên mỗi giờ."
+    "sentence": "Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi [ENTITY] dội, thường 4 viên mỗi giờ.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000984",
+          "document": "đã điều trị [ENTITY].",
+          "dense_similarity": 0.5968844294548035,
+          "sparse_similarity": 0.21613368391990662,
+          "hybrid_score": 0.40650904178619385
+        },
+        {
+          "id": "isHistorical_000670",
+          "document": "khoảng [PERIOD] ngày trước được điều trị [ENTITY].",
+          "dense_similarity": 0.6137306094169617,
+          "sparse_similarity": 0.17338863015174866,
+          "hybrid_score": 0.39355963468551636
+        },
+        {
+          "id": "isHistorical_000460",
+          "document": "cách đây [PERIOD] ngày được điều trị [ENTITY].",
+          "dense_similarity": 0.6064543128013611,
+          "sparse_similarity": 0.17813923954963684,
+          "hybrid_score": 0.39229679107666016
+        }
+      ]
+    ]
   },
   {
     "text": "đau bụng",
@@ -49,7 +139,37 @@
       371,
       379
     ],
-    "sentence": "Lý do nhập viện: [ENTITY] ngày càng nặng."
+    "sentence": "Lý do nhập viện: [ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000953",
+          "document": "đã [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8401182293891907,
+          "sparse_similarity": 0.27938908338546753,
+          "hybrid_score": 0.5597536563873291
+        },
+        {
+          "id": "isHistorical_000979",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8465865850448608,
+          "sparse_similarity": 0.2524147033691406,
+          "hybrid_score": 0.5495006442070007
+        },
+        {
+          "id": "isHistorical_000458",
+          "document": "cách đây [PERIOD] ngày nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8067635893821716,
+          "sparse_similarity": 0.27921250462532043,
+          "hybrid_score": 0.5429880619049072
+        }
+      ]
+    ]
   },
   {
     "text": "đau bụng",
@@ -62,7 +182,37 @@
       444,
       452
     ],
-    "sentence": "Tiền sử 2 ngày [ENTITY] ngày càng nặng."
+    "sentence": "Tiền sử 2 ngày [ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử 2 ngày [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000282",
+          "document": "[ENTITY] đã [PERIOD] ngày.",
+          "dense_similarity": 0.7261660099029541,
+          "sparse_similarity": 0.2265011966228485,
+          "hybrid_score": 0.4763336181640625
+        },
+        {
+          "id": "isHistorical_000239",
+          "document": "[ENTITY] thuộc tiền sử.",
+          "dense_similarity": 0.7290001511573792,
+          "sparse_similarity": 0.22352924942970276,
+          "hybrid_score": 0.47626471519470215
+        },
+        {
+          "id": "isHistorical_000214",
+          "document": "[ENTITY] nhiều ngày trước.",
+          "dense_similarity": 0.7313066720962524,
+          "sparse_similarity": 0.20162610709667206,
+          "hybrid_score": 0.46646639704704285
+        }
+      ]
+    ]
   },
   {
     "text": "đau bụng",
@@ -75,7 +225,37 @@
       485,
       493
     ],
-    "sentence": "Tiền sử 2 tháng [ENTITY] liên tục."
+    "sentence": "Tiền sử 2 tháng [ENTITY] liên tục.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử 2 tháng [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000284",
+          "document": "[ENTITY] đã [PERIOD] tháng.",
+          "dense_similarity": 0.759692907333374,
+          "sparse_similarity": 0.25882625579833984,
+          "hybrid_score": 0.5092595815658569
+        },
+        {
+          "id": "isHistorical_000168",
+          "document": "[ENTITY] hai tháng trước.",
+          "dense_similarity": 0.7963004112243652,
+          "sparse_similarity": 0.20730715990066528,
+          "hybrid_score": 0.5018037557601929
+        },
+        {
+          "id": "isHistorical_000116",
+          "document": "[ENTITY] cách đây hai tháng.",
+          "dense_similarity": 0.7912408113479614,
+          "sparse_similarity": 0.20896147191524506,
+          "hybrid_score": 0.5001011490821838
+        }
+      ]
+    ]
   },
   {
     "text": "đau bụng",
@@ -88,7 +268,37 @@
       536,
       544
     ],
-    "sentence": "Tiền sử 2 tháng [ENTITY] liên tục."
+    "sentence": "Tiền sử 2 tháng [ENTITY] liên tục.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "tiền sử 2 tháng [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000284",
+          "document": "[ENTITY] đã [PERIOD] tháng.",
+          "dense_similarity": 0.759692907333374,
+          "sparse_similarity": 0.25882625579833984,
+          "hybrid_score": 0.5092595815658569
+        },
+        {
+          "id": "isHistorical_000168",
+          "document": "[ENTITY] hai tháng trước.",
+          "dense_similarity": 0.7963004112243652,
+          "sparse_similarity": 0.20730715990066528,
+          "hybrid_score": 0.5018037557601929
+        },
+        {
+          "id": "isHistorical_000116",
+          "document": "[ENTITY] cách đây hai tháng.",
+          "dense_similarity": 0.7912408113479614,
+          "sparse_similarity": 0.20896147191524506,
+          "hybrid_score": 0.5001011490821838
+        }
+      ]
+    ]
   },
   {
     "text": "đau bụng",
@@ -101,7 +311,37 @@
       583,
       591
     ],
-    "sentence": "2 ngày trước khi nhập viện, [ENTITY] trở nên tồi tệ hơn."
+    "sentence": "2 ngày trước khi nhập viện, [ENTITY] trở nên tồi tệ hơn.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "2 ngày trước khi nhập viện, [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000314",
+          "document": "[PERIOD] ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7957267165184021,
+          "sparse_similarity": 0.2573296129703522,
+          "hybrid_score": 0.5265281796455383
+        },
+        {
+          "id": "isHistorical_000668",
+          "document": "khoảng [PERIOD] ngày trước nhập viện vì [ENTITY].",
+          "dense_similarity": 0.8092181086540222,
+          "sparse_similarity": 0.24317607283592224,
+          "hybrid_score": 0.526197075843811
+        },
+        {
+          "id": "isHistorical_000824",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.8088652491569519,
+          "sparse_similarity": 0.23711945116519928,
+          "hybrid_score": 0.5229923725128174
+        }
+      ]
+    ]
   },
   {
     "text": "men gan",
@@ -114,7 +354,37 @@
       639,
       646
     ],
-    "sentence": "Diễn biến trong viện: tăng [ENTITY] bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6."
+    "sentence": "Diễn biến trong viện: tăng [ENTITY] bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000165",
+          "document": "kết quả ban đầu hướng đến [ENTITY].",
+          "dense_similarity": 0.6240893602371216,
+          "sparse_similarity": 0.15966159105300903,
+          "hybrid_score": 0.3918754756450653
+        },
+        {
+          "id": "isUncertain_000177",
+          "document": "lâm sàng hướng đến [ENTITY].",
+          "dense_similarity": 0.6391400098800659,
+          "sparse_similarity": 0.12390376627445221,
+          "hybrid_score": 0.38152188062667847
+        },
+        {
+          "id": "isUncertain_000204",
+          "document": "nhóm điều trị hướng đến [ENTITY].",
+          "dense_similarity": 0.6297762989997864,
+          "sparse_similarity": 0.13040286302566528,
+          "hybrid_score": 0.38008958101272583
+        }
+      ]
+    ]
   },
   {
     "text": "bilirubin",
@@ -127,7 +397,37 @@
       684,
       693
     ],
-    "sentence": "Diễn biến trong viện: tăng men gan bắt đầu có xu hướng giảm mặc dù tổng [ENTITY] bắt đầu tăng lên đạt đỉnh 6."
+    "sentence": "Diễn biến trong viện: tăng men gan bắt đầu có xu hướng giảm mặc dù tổng [ENTITY] bắt đầu tăng lên đạt đỉnh 6.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000165",
+          "document": "kết quả ban đầu hướng đến [ENTITY].",
+          "dense_similarity": 0.6082218289375305,
+          "sparse_similarity": 0.13695068657398224,
+          "hybrid_score": 0.3725862503051758
+        },
+        {
+          "id": "isUncertain_000177",
+          "document": "lâm sàng hướng đến [ENTITY].",
+          "dense_similarity": 0.6154465675354004,
+          "sparse_similarity": 0.1064918041229248,
+          "hybrid_score": 0.3609691858291626
+        },
+        {
+          "id": "isUncertain_000204",
+          "document": "nhóm điều trị hướng đến [ENTITY].",
+          "dense_similarity": 0.6089411973953247,
+          "sparse_similarity": 0.11191970854997635,
+          "hybrid_score": 0.36043044924736023
+        }
+      ]
+    ]
   },
   {
     "text": "đau bụng",
@@ -140,7 +440,37 @@
       767,
       775
     ],
-    "sentence": "[ENTITY] ngày càng nặng."
+    "sentence": "[ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000053",
+          "document": "[ENTITY] đang được theo dõi.",
+          "dense_similarity": 0.7715401649475098,
+          "sparse_similarity": 0.18850913643836975,
+          "hybrid_score": 0.48002463579177856
+        },
+        {
+          "id": "isHistorical_000978",
+          "document": "đã mắc [ENTITY].",
+          "dense_similarity": 0.7685425877571106,
+          "sparse_similarity": 0.17174746096134186,
+          "hybrid_score": 0.47014501690864563
+        },
+        {
+          "id": "isFamily_025018",
+          "document": "thân nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.7727658748626709,
+          "sparse_similarity": 0.16127638518810272,
+          "hybrid_score": 0.4670211374759674
+        }
+      ]
+    ]
   },
   {
     "text": "đau bụng",
@@ -153,7 +483,37 @@
       792,
       800
     ],
-    "sentence": "[ENTITY] liên tục."
+    "sentence": "[ENTITY] liên tục.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000053",
+          "document": "[ENTITY] đang được theo dõi.",
+          "dense_similarity": 0.8037917613983154,
+          "sparse_similarity": 0.19389253854751587,
+          "hybrid_score": 0.49884214997291565
+        },
+        {
+          "id": "isUncertain_000030",
+          "document": "[ENTITY] cần theo dõi.",
+          "dense_similarity": 0.8146326541900635,
+          "sparse_similarity": 0.18174582719802856,
+          "hybrid_score": 0.498189240694046
+        },
+        {
+          "id": "isUncertain_000210",
+          "document": "theo dõi [ENTITY].",
+          "dense_similarity": 0.8344607353210449,
+          "sparse_similarity": 0.15611857175827026,
+          "hybrid_score": 0.4952896535396576
+        }
+      ]
+    ]
   },
   {
     "text": "mệt mỏi toàn thân",
@@ -166,7 +526,37 @@
       811,
       828
     ],
-    "sentence": "[ENTITY]."
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.2620290517807007,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789617061615,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ]
   },
   {
     "text": "yếu sức",
@@ -179,7 +569,37 @@
       830,
       837
     ],
-    "sentence": "[ENTITY]."
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.2620290517807007,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789617061615,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ]
   },
   {
     "text": "khó thở khi",
@@ -192,7 +612,37 @@
       839,
       850
     ],
-    "sentence": "[ENTITY] gắng sức."
+    "sentence": "[ENTITY] gắng sức.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000026",
+          "document": "[ENTITY] có khả năng.",
+          "dense_similarity": 0.7970729470252991,
+          "sparse_similarity": 0.20313295722007751,
+          "hybrid_score": 0.5001029372215271
+        },
+        {
+          "id": "isUncertain_000056",
+          "document": "[ENTITY] được nghĩ đến.",
+          "dense_similarity": 0.7825087308883667,
+          "sparse_similarity": 0.1912294626235962,
+          "hybrid_score": 0.48686909675598145
+        },
+        {
+          "id": "isUncertain_000051",
+          "document": "[ENTITY] nhiều khả năng.",
+          "dense_similarity": 0.77329021692276,
+          "sparse_similarity": 0.18548355996608734,
+          "hybrid_score": 0.4793868958950043
+        }
+      ]
+    ]
   },
   {
     "text": "sức",
@@ -205,7 +655,37 @@
       856,
       859
     ],
-    "sentence": "khó thở khi gắng [ENTITY]."
+    "sentence": "khó thở khi gắng [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_025018",
+          "document": "thân nhân đang mắc [ENTITY].",
+          "dense_similarity": 0.7570223212242126,
+          "sparse_similarity": 0.09023179858922958,
+          "hybrid_score": 0.4236270487308502
+        },
+        {
+          "id": "isFamily_021680",
+          "document": "người thân đang mắc [ENTITY].",
+          "dense_similarity": 0.7475172281265259,
+          "sparse_similarity": 0.08767419308423996,
+          "hybrid_score": 0.4175957143306732
+        },
+        {
+          "id": "isFamily_007185",
+          "document": "bên nội đang mắc [ENTITY].",
+          "dense_similarity": 0.7491428852081299,
+          "sparse_similarity": 0.08147328346967697,
+          "hybrid_score": 0.4153080880641937
+        }
+      ]
+    ]
   },
   {
     "text": "ngứa toàn thân",
@@ -218,7 +698,37 @@
       861,
       875
     ],
-    "sentence": "[ENTITY]."
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.2620290517807007,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789617061615,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ]
   },
   {
     "text": "tiểu ra máu",
@@ -231,7 +741,37 @@
       885,
       896
     ],
-    "sentence": "Vài lần [ENTITY] không đau."
+    "sentence": "Vài lần [ENTITY] không đau.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000186",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.7856423854827881,
+          "sparse_similarity": 0.21817578375339508,
+          "hybrid_score": 0.501909077167511
+        },
+        {
+          "id": "isNegated_000204",
+          "document": "không bị [ENTITY].",
+          "dense_similarity": 0.7699711322784424,
+          "sparse_similarity": 0.20725031197071075,
+          "hybrid_score": 0.48861071467399597
+        },
+        {
+          "id": "isHistorical_000289",
+          "document": "[ENTITY] đã khỏi.",
+          "dense_similarity": 0.7920268774032593,
+          "sparse_similarity": 0.17093950510025024,
+          "hybrid_score": 0.48148319125175476
+        }
+      ]
+    ]
   },
   {
     "text": "đau",
@@ -244,7 +784,37 @@
       903,
       906
     ],
-    "sentence": "Vài lần tiểu ra máu không [ENTITY]."
+    "sentence": "Vài lần tiểu ra máu không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000977",
+          "document": "đã có lần mắc [ENTITY].",
+          "dense_similarity": 0.7686933875083923,
+          "sparse_similarity": 0.1532188057899475,
+          "hybrid_score": 0.4609560966491699
+        },
+        {
+          "id": "isHistorical_000976",
+          "document": "đã có lần bị [ENTITY].",
+          "dense_similarity": 0.7662984132766724,
+          "sparse_similarity": 0.15264862775802612,
+          "hybrid_score": 0.45947352051734924
+        },
+        {
+          "id": "isHistorical_000891",
+          "document": "từng bị [ENTITY].",
+          "dense_similarity": 0.7166951894760132,
+          "sparse_similarity": 0.09247777611017227,
+          "hybrid_score": 0.4045864939689636
+        }
+      ]
+    ]
   },
   {
     "text": "Đau vùng gan",
@@ -257,7 +827,37 @@
       938,
       950
     ],
-    "sentence": "Vị trí: [ENTITY] phải (RUQ) và thượng vị lan ra sau lưng."
+    "sentence": "Vị trí: [ENTITY] phải (RUQ) và thượng vị lan ra sau lưng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024087",
+          "document": "phía bên nội có [ENTITY].",
+          "dense_similarity": 0.7108128070831299,
+          "sparse_similarity": 0.13271655142307281,
+          "hybrid_score": 0.42176467180252075
+        },
+        {
+          "id": "isFamily_023652",
+          "document": "phía bên ngoại có [ENTITY].",
+          "dense_similarity": 0.7056624293327332,
+          "sparse_similarity": 0.13301672041416168,
+          "hybrid_score": 0.4193395674228668
+        },
+        {
+          "id": "isFamily_023934",
+          "document": "phía bên nội bố có [ENTITY].",
+          "dense_similarity": 0.6980462074279785,
+          "sparse_similarity": 0.1301640123128891,
+          "hybrid_score": 0.4141051173210144
+        }
+      ]
+    ]
   },
   {
     "text": "buồn nôn",
@@ -270,7 +870,37 @@
       1001,
       1009
     ],
-    "sentence": "Không có [ENTITY]."
+    "sentence": "Không có [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000205",
+          "document": "không có [ENTITY].",
+          "dense_similarity": 0.9972789883613586,
+          "sparse_similarity": 0.2450014054775238,
+          "hybrid_score": 0.62114018201828
+        },
+        {
+          "id": "isNegated_000113",
+          "document": "chẳng có [ENTITY].",
+          "dense_similarity": 0.9812204837799072,
+          "sparse_similarity": 0.22804179787635803,
+          "hybrid_score": 0.6046311259269714
+        },
+        {
+          "id": "isNegated_000097",
+          "document": "chưa có [ENTITY].",
+          "dense_similarity": 0.9217842817306519,
+          "sparse_similarity": 0.2485663890838623,
+          "hybrid_score": 0.5851753354072571
+        }
+      ]
+    ]
   },
   {
     "text": "nôn",
@@ -283,7 +913,37 @@
       1020,
       1023
     ],
-    "sentence": "Không có [ENTITY]."
+    "sentence": "Không có [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000205",
+          "document": "không có [ENTITY].",
+          "dense_similarity": 0.9972789883613586,
+          "sparse_similarity": 0.2450014054775238,
+          "hybrid_score": 0.62114018201828
+        },
+        {
+          "id": "isNegated_000113",
+          "document": "chẳng có [ENTITY].",
+          "dense_similarity": 0.9812204837799072,
+          "sparse_similarity": 0.22804179787635803,
+          "hybrid_score": 0.6046311259269714
+        },
+        {
+          "id": "isNegated_000097",
+          "document": "chưa có [ENTITY].",
+          "dense_similarity": 0.9217842817306519,
+          "sparse_similarity": 0.2485663890838623,
+          "hybrid_score": 0.5851753354072571
+        }
+      ]
+    ]
   },
   {
     "text": "phân có máu",
@@ -296,7 +956,37 @@
       1072,
       1083
     ],
-    "sentence": "Không có [ENTITY], đen hoặc nhựa đường."
+    "sentence": "Không có [ENTITY], đen hoặc nhựa đường.",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "không có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000205",
+          "document": "không có [ENTITY].",
+          "dense_similarity": 0.7836189866065979,
+          "sparse_similarity": 0.21192768216133118,
+          "hybrid_score": 0.49777334928512573
+        },
+        {
+          "id": "isNegated_000113",
+          "document": "chẳng có [ENTITY].",
+          "dense_similarity": 0.7730018496513367,
+          "sparse_similarity": 0.19740790128707886,
+          "hybrid_score": 0.48520487546920776
+        },
+        {
+          "id": "isNegated_000033",
+          "document": "[ENTITY] không tồn tại.",
+          "dense_similarity": 0.7545082569122314,
+          "sparse_similarity": 0.16901841759681702,
+          "hybrid_score": 0.46176332235336304
+        }
+      ]
+    ]
   },
   {
     "text": "acetaminophen 500mg",
@@ -309,7 +999,37 @@
       1165,
       1184
     ],
-    "sentence": "Tự điều trị bằng liều cao [ENTITY]."
+    "sentence": "Tự điều trị bằng liều cao [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000984",
+          "document": "đã điều trị [ENTITY].",
+          "dense_similarity": 0.7760334014892578,
+          "sparse_similarity": 0.21826079487800598,
+          "hybrid_score": 0.4971470832824707
+        },
+        {
+          "id": "isHistorical_000296",
+          "document": "[ENTITY] đã được điều trị.",
+          "dense_similarity": 0.7494291067123413,
+          "sparse_similarity": 0.244185671210289,
+          "hybrid_score": 0.49680739641189575
+        },
+        {
+          "id": "isHistorical_000293",
+          "document": "[ENTITY] đã điều trị trước đây.",
+          "dense_similarity": 0.7471614480018616,
+          "sparse_similarity": 0.23692351579666138,
+          "hybrid_score": 0.4920424818992615
+        }
+      ]
+    ]
   },
   {
     "text": "bilirubin",
@@ -322,7 +1042,37 @@
       1314,
       1323
     ],
-    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng [ENTITY] máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0."
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng [ENTITY] máu: ast 421, alt 336, alp 185, bilirubin toàn phần 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6305936574935913,
+          "sparse_similarity": 0.10331017524003983,
+          "hybrid_score": 0.36695191264152527
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6291413307189941,
+          "sparse_similarity": 0.10019846260547638,
+          "hybrid_score": 0.36466988921165466
+        },
+        {
+          "id": "isFamily_020151",
+          "document": "má người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.6155256628990173,
+          "sparse_similarity": 0.1074443981051445,
+          "hybrid_score": 0.3614850342273712
+        }
+      ]
+    ]
   },
   {
     "text": "ast",
@@ -335,7 +1085,37 @@
       1329,
       1332
     ],
-    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: [ENTITY] 421, alt 336, alp 185, bilirubin toàn phần 0."
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: [ENTITY] 421, alt 336, alp 185, bilirubin toàn phần 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5972751379013062,
+          "sparse_similarity": 0.08542725443840027,
+          "hybrid_score": 0.3413512110710144
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5922278165817261,
+          "sparse_similarity": 0.08193256705999374,
+          "hybrid_score": 0.337080180644989
+        },
+        {
+          "id": "isFamily_020151",
+          "document": "má người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5810384750366211,
+          "sparse_similarity": 0.08889007568359375,
+          "hybrid_score": 0.3349642753601074
+        }
+      ]
+    ]
   },
   {
     "text": "421",
@@ -348,7 +1128,37 @@
       1333,
       1336
     ],
-    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast [ENTITY], alt 336, alp 185, bilirubin toàn phần 0."
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast [ENTITY], alt 336, alp 185, bilirubin toàn phần 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6026611328125,
+          "sparse_similarity": 0.090792715549469,
+          "hybrid_score": 0.3467269241809845
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5953706502914429,
+          "sparse_similarity": 0.08732371777296066,
+          "hybrid_score": 0.34134718775749207
+        },
+        {
+          "id": "isFamily_020151",
+          "document": "má người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5877791047096252,
+          "sparse_similarity": 0.09444229304790497,
+          "hybrid_score": 0.3411107063293457
+        }
+      ]
+    ]
   },
   {
     "text": "alt",
@@ -361,7 +1171,37 @@
       1338,
       1341
     ],
-    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, [ENTITY] 336, alp 185, bilirubin toàn phần 0."
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, [ENTITY] 336, alp 185, bilirubin toàn phần 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5983051657676697,
+          "sparse_similarity": 0.08442866057157516,
+          "hybrid_score": 0.3413669168949127
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5920766592025757,
+          "sparse_similarity": 0.08073453605175018,
+          "hybrid_score": 0.33640560507774353
+        },
+        {
+          "id": "isFamily_020151",
+          "document": "má người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5828434228897095,
+          "sparse_similarity": 0.08782779425382614,
+          "hybrid_score": 0.3353356122970581
+        }
+      ]
+    ]
   },
   {
     "text": "336",
@@ -374,7 +1214,37 @@
       1342,
       1345
     ],
-    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt [ENTITY], alp 185, bilirubin toàn phần 0."
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt [ENTITY], alp 185, bilirubin toàn phần 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.597438395023346,
+          "sparse_similarity": 0.0784832090139389,
+          "hybrid_score": 0.337960809469223
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.5921593904495239,
+          "sparse_similarity": 0.07506607472896576,
+          "hybrid_score": 0.33361274003982544
+        },
+        {
+          "id": "isFamily_020151",
+          "document": "má người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5817321538925171,
+          "sparse_similarity": 0.08164753764867783,
+          "hybrid_score": 0.33168983459472656
+        }
+      ]
+    ]
   },
   {
     "text": "bilirubin",
@@ -387,7 +1257,37 @@
       1356,
       1365
     ],
-    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, [ENTITY] toàn phần 0."
+    "sentence": "Tại bệnh viện OSH, phát hiện tăng men gan với tăng bilirubin máu: ast 421, alt 336, alp 185, [ENTITY] toàn phần 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_020149",
+          "document": "má người bệnh được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6109656691551208,
+          "sparse_similarity": 0.10052712261676788,
+          "hybrid_score": 0.35574638843536377
+        },
+        {
+          "id": "isFamily_020060",
+          "document": "má bệnh nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.6071847081184387,
+          "sparse_similarity": 0.09697926789522171,
+          "hybrid_score": 0.3520819842815399
+        },
+        {
+          "id": "isFamily_020151",
+          "document": "má người bệnh được xác định mắc [ENTITY].",
+          "dense_similarity": 0.5953493118286133,
+          "sparse_similarity": 0.10459054261445999,
+          "hybrid_score": 0.34996992349624634
+        }
+      ]
+    ]
   },
   {
     "text": "siêu âm",
@@ -400,7 +1300,37 @@
       1389,
       1396
     ],
-    "sentence": "âm tính [ENTITY] bụng có doppler."
+    "sentence": "âm tính [ENTITY] bụng có doppler.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7279789447784424,
+          "sparse_similarity": 0.12040998041629791,
+          "hybrid_score": 0.42419445514678955
+        },
+        {
+          "id": "isFamily_007107",
+          "document": "bên nội có người được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7242582440376282,
+          "sparse_similarity": 0.12371935695409775,
+          "hybrid_score": 0.42398878931999207
+        },
+        {
+          "id": "isFamily_007140",
+          "document": "bên nội của bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.7132413983345032,
+          "sparse_similarity": 0.1314999759197235,
+          "hybrid_score": 0.42237067222595215
+        }
+      ]
+    ]
   },
   {
     "text": "acetaminophen",
@@ -413,7 +1343,37 @@
       1462,
       1475
     ],
-    "sentence": "Chưa từng xét nghiệm nồng độ [ENTITY]."
+    "sentence": "Chưa từng xét nghiệm nồng độ [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "từng xét nghiệm nồng độ [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000283",
+          "document": "xét nghiệm không phát hiện [ENTITY].",
+          "dense_similarity": 0.8185302019119263,
+          "sparse_similarity": 0.16707073152065277,
+          "hybrid_score": 0.4928004741668701
+        },
+        {
+          "id": "isNegated_000282",
+          "document": "xét nghiệm không ghi nhận [ENTITY].",
+          "dense_similarity": 0.8043261766433716,
+          "sparse_similarity": 0.1602741777896881,
+          "hybrid_score": 0.48230016231536865
+        },
+        {
+          "id": "isNegated_000103",
+          "document": "chưa hề [ENTITY].",
+          "dense_similarity": 0.8563026189804077,
+          "sparse_similarity": 0.1063075140118599,
+          "hybrid_score": 0.4813050627708435
+        }
+      ]
+    ]
   },
   {
     "text": "nac",
@@ -426,7 +1386,37 @@
       1492,
       1495
     ],
-    "sentence": "Chưa từng dùng [ENTITY]."
+    "sentence": "Chưa từng dùng [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "từng dùng [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000103",
+          "document": "chưa hề [ENTITY].",
+          "dense_similarity": 0.9280842542648315,
+          "sparse_similarity": 0.16070544719696045,
+          "hybrid_score": 0.544394850730896
+        },
+        {
+          "id": "isNegated_000097",
+          "document": "chưa có [ENTITY].",
+          "dense_similarity": 0.8572512269020081,
+          "sparse_similarity": 0.17203488945960999,
+          "hybrid_score": 0.5146430730819702
+        },
+        {
+          "id": "isNegated_000094",
+          "document": "chưa [ENTITY].",
+          "dense_similarity": 0.840587854385376,
+          "sparse_similarity": 0.17059877514839172,
+          "hybrid_score": 0.5055932998657227
+        }
+      ]
+    ]
   },
   {
     "text": "ercp",
@@ -439,7 +1429,37 @@
       1526,
       1530
     ],
-    "sentence": "Chuyển tạm thời để thực hiện [ENTITY]."
+    "sentence": "Chuyển tạm thời để thực hiện [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000765",
+          "document": "một thời gian trước [ENTITY].",
+          "dense_similarity": 0.7523745894432068,
+          "sparse_similarity": 0.21225935220718384,
+          "hybrid_score": 0.4823169708251953
+        },
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.7555000185966492,
+          "sparse_similarity": 0.17483028769493103,
+          "hybrid_score": 0.4651651382446289
+        },
+        {
+          "id": "isUncertain_000019",
+          "document": "[ENTITY] chờ xác nhận.",
+          "dense_similarity": 0.7731080055236816,
+          "sparse_similarity": 0.1453273445367813,
+          "hybrid_score": 0.4592176675796509
+        }
+      ]
+    ]
   },
   {
     "text": "ercp",
@@ -452,7 +1472,37 @@
       1532,
       1536
     ],
-    "sentence": "[ENTITY] cho thấy túi mật giãn nở rõ rệt nhưng không có sỏi hoặc bệnh lý khác."
+    "sentence": "[ENTITY] cho thấy túi mật giãn nở rõ rệt nhưng không có sỏi hoặc bệnh lý khác.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6321468353271484,
+          "sparse_similarity": 0.10655978322029114,
+          "hybrid_score": 0.3693532943725586
+        },
+        {
+          "id": "isFamily_003341",
+          "document": "ba ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.628027617931366,
+          "sparse_similarity": 0.10452692210674286,
+          "hybrid_score": 0.366277277469635
+        },
+        {
+          "id": "isFamily_011584",
+          "document": "con ruột người bệnh có [ENTITY].",
+          "dense_similarity": 0.6232901215553284,
+          "sparse_similarity": 0.10754687339067459,
+          "hybrid_score": 0.3654184937477112
+        }
+      ]
+    ]
   },
   {
     "text": "bilirubin",
@@ -465,7 +1515,37 @@
       1718,
       1727
     ],
-    "sentence": "Tình trạng ngay trước khi nhập viện: tăng [ENTITY] máu và tăng men gan kéo dài."
+    "sentence": "Tình trạng ngay trước khi nhập viện: tăng [ENTITY] máu và tăng men gan kéo dài.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000825",
+          "document": "trước khi nhập viện đã mắc [ENTITY].",
+          "dense_similarity": 0.7310034036636353,
+          "sparse_similarity": 0.21542608737945557,
+          "hybrid_score": 0.4732147455215454
+        },
+        {
+          "id": "isHistorical_000824",
+          "document": "trước khi nhập viện đã bị [ENTITY].",
+          "dense_similarity": 0.716404378414154,
+          "sparse_similarity": 0.2137889415025711,
+          "hybrid_score": 0.465096652507782
+        },
+        {
+          "id": "isHistorical_000298",
+          "document": "[ENTITY] ở lần nhập viện trước.",
+          "dense_similarity": 0.7066932916641235,
+          "sparse_similarity": 0.21130728721618652,
+          "hybrid_score": 0.45900028944015503
+        }
+      ]
+    ]
   },
   {
     "text": "ast",
@@ -478,7 +1558,37 @@
       1801,
       1804
     ],
-    "sentence": "[ENTITY] 421."
+    "sentence": "[ENTITY] 421.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000093",
+          "document": "[ENTITY] cu.",
+          "dense_similarity": 0.7654589414596558,
+          "sparse_similarity": 0.13921695947647095,
+          "hybrid_score": 0.45233795046806335
+        },
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.7232985496520996,
+          "sparse_similarity": 0.1708475947380066,
+          "hybrid_score": 0.4470730721950531
+        },
+        {
+          "id": "isUncertain_000026",
+          "document": "[ENTITY] có khả năng.",
+          "dense_similarity": 0.7185296416282654,
+          "sparse_similarity": 0.1617780327796936,
+          "hybrid_score": 0.4401538372039795
+        }
+      ]
+    ]
   },
   {
     "text": "421",
@@ -491,7 +1601,37 @@
       1805,
       1808
     ],
-    "sentence": "ast [ENTITY]."
+    "sentence": "ast [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8358035087585449,
+          "sparse_similarity": 0.23031291365623474,
+          "hybrid_score": 0.533058226108551
+        },
+        {
+          "id": "isUncertain_000097",
+          "document": "co le [ENTITY].",
+          "dense_similarity": 0.8481904864311218,
+          "sparse_similarity": 0.18667861819267273,
+          "hybrid_score": 0.5174345374107361
+        },
+        {
+          "id": "isFamily_012415",
+          "document": "di bi [ENTITY].",
+          "dense_similarity": 0.8412991166114807,
+          "sparse_similarity": 0.191897451877594,
+          "hybrid_score": 0.5165982842445374
+        }
+      ]
+    ]
   },
   {
     "text": "alt",
@@ -504,7 +1644,37 @@
       1810,
       1813
     ],
-    "sentence": "[ENTITY] 336."
+    "sentence": "[ENTITY] 336.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000093",
+          "document": "[ENTITY] cu.",
+          "dense_similarity": 0.736583948135376,
+          "sparse_similarity": 0.14157988131046295,
+          "hybrid_score": 0.43908190727233887
+        },
+        {
+          "id": "isFamily_000846",
+          "document": "[ENTITY] ở ba.",
+          "dense_similarity": 0.7328392267227173,
+          "sparse_similarity": 0.14368446171283722,
+          "hybrid_score": 0.43826183676719666
+        },
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.6971967220306396,
+          "sparse_similarity": 0.1733444631099701,
+          "hybrid_score": 0.43527060747146606
+        }
+      ]
+    ]
   },
   {
     "text": "336",
@@ -517,7 +1687,37 @@
       1814,
       1817
     ],
-    "sentence": "alt [ENTITY]."
+    "sentence": "alt [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8193933367729187,
+          "sparse_similarity": 0.22994555532932281,
+          "hybrid_score": 0.5246694684028625
+        },
+        {
+          "id": "isUncertain_000097",
+          "document": "co le [ENTITY].",
+          "dense_similarity": 0.833919882774353,
+          "sparse_similarity": 0.18535059690475464,
+          "hybrid_score": 0.5096352100372314
+        },
+        {
+          "id": "isFamily_012654",
+          "document": "dì có [ENTITY].",
+          "dense_similarity": 0.8088103532791138,
+          "sparse_similarity": 0.20084452629089355,
+          "hybrid_score": 0.5048274397850037
+        }
+      ]
+    ]
   },
   {
     "text": "bilirubin",
@@ -530,7 +1730,37 @@
       1828,
       1837
     ],
-    "sentence": "[ENTITY] toàn phần 0."
+    "sentence": "[ENTITY] toàn phần 0.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000145",
+          "document": "hoàn toàn không [ENTITY].",
+          "dense_similarity": 0.8089470863342285,
+          "sparse_similarity": 0.1559617668390274,
+          "hybrid_score": 0.48245441913604736
+        },
+        {
+          "id": "isNegated_000028",
+          "document": "[ENTITY] không hiện diện.",
+          "dense_similarity": 0.7538084387779236,
+          "sparse_similarity": 0.15632687509059906,
+          "hybrid_score": 0.4550676643848419
+        },
+        {
+          "id": "isHistorical_000287",
+          "document": "[ENTITY] đã hết.",
+          "dense_similarity": 0.7339841723442078,
+          "sparse_similarity": 0.17354850471019745,
+          "hybrid_score": 0.4537663459777832
+        }
+      ]
+    ]
   },
   {
     "text": "viêm gan virus",
@@ -543,7 +1773,37 @@
       1911,
       1925
     ],
-    "sentence": "bảng xét nghiệm [ENTITY] là âm tính."
+    "sentence": "bảng xét nghiệm [ENTITY] là âm tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000040",
+          "document": "[ENTITY] xét nghiệm âm tính.",
+          "dense_similarity": 0.9258996248245239,
+          "sparse_similarity": 0.41682493686676025,
+          "hybrid_score": 0.6713622808456421
+        },
+        {
+          "id": "isNegated_000284",
+          "document": "xét nghiệm âm tính với [ENTITY].",
+          "dense_similarity": 0.9007803201675415,
+          "sparse_similarity": 0.3861740231513977,
+          "hybrid_score": 0.643477201461792
+        },
+        {
+          "id": "isNegated_000240",
+          "document": "kết quả xét nghiệm âm tính với [ENTITY].",
+          "dense_similarity": 0.8975563049316406,
+          "sparse_similarity": 0.37793704867362976,
+          "hybrid_score": 0.6377466917037964
+        }
+      ]
+    ]
   },
   {
     "text": "ferritin",
@@ -556,7 +1816,37 @@
       1938,
       1946
     ],
-    "sentence": "[ENTITY] là bình thường."
+    "sentence": "[ENTITY] là bình thường.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000297",
+          "document": "[ENTITY] đã ổn định.",
+          "dense_similarity": 0.8194518089294434,
+          "sparse_similarity": 0.21300187706947327,
+          "hybrid_score": 0.5162268280982971
+        },
+        {
+          "id": "isHistorical_000174",
+          "document": "[ENTITY] hiện đã ổn định.",
+          "dense_similarity": 0.8060871958732605,
+          "sparse_similarity": 0.21269851922988892,
+          "hybrid_score": 0.5093928575515747
+        },
+        {
+          "id": "isHistorical_000289",
+          "document": "[ENTITY] đã khỏi.",
+          "dense_similarity": 0.7853118777275085,
+          "sparse_similarity": 0.2248724102973938,
+          "hybrid_score": 0.5050921440124512
+        }
+      ]
+    ]
   },
   {
     "text": "siêu âm",
@@ -569,7 +1859,37 @@
       2070,
       2077
     ],
-    "sentence": "[ENTITY] bụng có doppler âm tính âm tính."
+    "sentence": "[ENTITY] bụng có doppler âm tính âm tính.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000041",
+          "document": "[ENTITY] âm tính.",
+          "dense_similarity": 0.7642174959182739,
+          "sparse_similarity": 0.18122445046901703,
+          "hybrid_score": 0.4727209806442261
+        },
+        {
+          "id": "isNegated_000040",
+          "document": "[ENTITY] xét nghiệm âm tính.",
+          "dense_similarity": 0.7680138945579529,
+          "sparse_similarity": 0.1738690435886383,
+          "hybrid_score": 0.4709414839744568
+        },
+        {
+          "id": "isNegated_000003",
+          "document": "[ENTITY] cho kết quả âm tính.",
+          "dense_similarity": 0.7650574445724487,
+          "sparse_similarity": 0.16494198143482208,
+          "hybrid_score": 0.4649997055530548
+        }
+      ]
+    ]
   },
   {
     "text": "ercp",
@@ -582,7 +1902,37 @@
       2130,
       2134
     ],
-    "sentence": "[ENTITY] cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác."
+    "sentence": "[ENTITY] cho thấy túi mật giãn nở rõ rệt túi mật giãn nhưng không có sỏi hoặc bệnh lý giải phẫu bệnh khác.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_011495",
+          "document": "con ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.6063752770423889,
+          "sparse_similarity": 0.08328557014465332,
+          "hybrid_score": 0.3448304235935211
+        },
+        {
+          "id": "isFamily_011584",
+          "document": "con ruột người bệnh có [ENTITY].",
+          "dense_similarity": 0.6003615260124207,
+          "sparse_similarity": 0.08450283110141754,
+          "hybrid_score": 0.3424321711063385
+        },
+        {
+          "id": "isFamily_003341",
+          "document": "ba ruột bệnh nhân có [ENTITY].",
+          "dense_similarity": 0.5990636944770813,
+          "sparse_similarity": 0.08164209127426147,
+          "hybrid_score": 0.3403528928756714
+        }
+      ]
+    ]
   },
   {
     "text": "ercp",
@@ -595,7 +1945,37 @@
       2254,
       2258
     ],
-    "sentence": "Thủ thuật thực hiện: [ENTITY]."
+    "sentence": "Thủ thuật thực hiện: [ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.7898145914077759,
+          "sparse_similarity": 0.21533340215682983,
+          "hybrid_score": 0.5025739669799805
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.7704117298126221,
+          "sparse_similarity": 0.21472406387329102,
+          "hybrid_score": 0.49256789684295654
+        },
+        {
+          "id": "isUncertain_000026",
+          "document": "[ENTITY] có khả năng.",
+          "dense_similarity": 0.7705410122871399,
+          "sparse_similarity": 0.19981376826763153,
+          "hybrid_score": 0.4851773977279663
+        }
+      ]
+    ]
   },
   {
     "text": "tăng men gan",
@@ -608,7 +1988,37 @@
       2290,
       2302
     ],
-    "sentence": "[ENTITY]."
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.2620290517807007,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789617061615,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ]
   },
   {
     "text": "bilirubin",
@@ -621,6 +2031,36 @@
       2309,
       2318
     ],
-    "sentence": "tăng [ENTITY] máu."
+    "sentence": "tăng [ENTITY] máu.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isUncertain_000029",
+          "document": "[ENTITY] cần làm thêm xét nghiệm.",
+          "dense_similarity": 0.7520281672477722,
+          "sparse_similarity": 0.13028398156166077,
+          "hybrid_score": 0.4411560893058777
+        },
+        {
+          "id": "isUncertain_000046",
+          "document": "[ENTITY] khả năng cao.",
+          "dense_similarity": 0.7302792072296143,
+          "sparse_similarity": 0.14521819353103638,
+          "hybrid_score": 0.4377487003803253
+        },
+        {
+          "id": "isUncertain_000026",
+          "document": "[ENTITY] có khả năng.",
+          "dense_similarity": 0.7119907736778259,
+          "sparse_similarity": 0.1626971811056137,
+          "hybrid_score": 0.4373439848423004
+        }
+      ]
+    ]
   }
 ]

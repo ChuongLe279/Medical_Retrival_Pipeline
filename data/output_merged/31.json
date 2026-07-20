@@ -10,7 +10,37 @@
       143,
       158
     ],
-    "sentence": "chưa [ENTITY] (VB -), chưa vỡ ối/rỉ ối (LOF -)."
+    "sentence": "chưa [ENTITY] (VB -), chưa vỡ ối/rỉ ối (LOF -).",
+    "assertion_result": {
+      "tag": "isNegated",
+      "confidence": 1.0,
+      "evidence": "chưa [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000094",
+          "document": "chưa [ENTITY].",
+          "dense_similarity": 0.7722947597503662,
+          "sparse_similarity": 0.23866499960422516,
+          "hybrid_score": 0.5054798722267151
+        },
+        {
+          "id": "isNegated_000096",
+          "document": "chưa bị [ENTITY].",
+          "dense_similarity": 0.7762227058410645,
+          "sparse_similarity": 0.2188539057970047,
+          "hybrid_score": 0.497538298368454
+        },
+        {
+          "id": "isNegated_000104",
+          "document": "chưa mắc [ENTITY].",
+          "dense_similarity": 0.764137327671051,
+          "sparse_similarity": 0.21943415701389313,
+          "hybrid_score": 0.4917857348918915
+        }
+      ]
+    ]
   },
   {
     "text": "rỉ ối",
@@ -23,6 +53,36 @@
       178,
       183
     ],
-    "sentence": "chưa ra huyết âm đạo (VB -), chưa vỡ ối/[ENTITY] (LOF -)."
+    "sentence": "chưa ra huyết âm đạo (VB -), chưa vỡ ối/[ENTITY] (LOF -).",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000096",
+          "document": "chưa bị [ENTITY].",
+          "dense_similarity": 0.6905888319015503,
+          "sparse_similarity": 0.17720063030719757,
+          "hybrid_score": 0.43389472365379333
+        },
+        {
+          "id": "isUncertain_000016",
+          "document": "[ENTITY] chưa xác định.",
+          "dense_similarity": 0.6785837411880493,
+          "sparse_similarity": 0.18276739120483398,
+          "hybrid_score": 0.43067556619644165
+        },
+        {
+          "id": "isUncertain_000017",
+          "document": "[ENTITY] chưa được xác nhận.",
+          "dense_similarity": 0.6780509352684021,
+          "sparse_similarity": 0.17245350778102875,
+          "hybrid_score": 0.425252228975296
+        }
+      ]
+    ]
   }
 ]

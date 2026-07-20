@@ -10,7 +10,37 @@
       57,
       64
     ],
-    "sentence": "Khoảng vài tuần trước đây bệnh nhân có [ENTITY] khi gắng sức."
+    "sentence": "Khoảng vài tuần trước đây bệnh nhân có [ENTITY] khi gắng sức.",
+    "assertion_result": {
+      "tag": "isHistorical",
+      "confidence": 1.0,
+      "evidence": "trước đây bệnh nhân có [entity]"
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000145",
+          "document": "[ENTITY] cách đây vài tuần.",
+          "dense_similarity": 0.8258873820304871,
+          "sparse_similarity": 0.2574651837348938,
+          "hybrid_score": 0.5416762828826904
+        },
+        {
+          "id": "isHistorical_000526",
+          "document": "cách đây vài tuần [ENTITY].",
+          "dense_similarity": 0.8270712494850159,
+          "sparse_similarity": 0.24285374581813812,
+          "hybrid_score": 0.5349624752998352
+        },
+        {
+          "id": "isHistorical_000129",
+          "document": "[ENTITY] cách đây nhiều tuần.",
+          "dense_similarity": 0.8216160535812378,
+          "sparse_similarity": 0.22259745001792908,
+          "hybrid_score": 0.5221067667007446
+        }
+      ]
+    ]
   },
   {
     "text": "Khó thở",
@@ -23,7 +53,37 @@
       188,
       195
     ],
-    "sentence": "[ENTITY] khi gắng sức."
+    "sentence": "[ENTITY] khi gắng sức.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000587",
+          "document": "khi con nho bi [ENTITY].",
+          "dense_similarity": 0.768591046333313,
+          "sparse_similarity": 0.19399318099021912,
+          "hybrid_score": 0.48129212856292725
+        },
+        {
+          "id": "isUncertain_000026",
+          "document": "[ENTITY] có khả năng.",
+          "dense_similarity": 0.7657739520072937,
+          "sparse_similarity": 0.18097949028015137,
+          "hybrid_score": 0.47337672114372253
+        },
+        {
+          "id": "isUncertain_000056",
+          "document": "[ENTITY] được nghĩ đến.",
+          "dense_similarity": 0.7553805112838745,
+          "sparse_similarity": 0.17095336318016052,
+          "hybrid_score": 0.4631669521331787
+        }
+      ]
+    ]
   },
   {
     "text": "siêu âm tim",
@@ -36,7 +96,37 @@
       244,
       255
     ],
-    "sentence": "[ENTITY] cho thấy hở van hai lá nặng."
+    "sentence": "[ENTITY] cho thấy hở van hai lá nặng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_006155",
+          "document": "bên ngoại có [ENTITY].",
+          "dense_similarity": 0.70909583568573,
+          "sparse_similarity": 0.12062554061412811,
+          "hybrid_score": 0.41486069560050964
+        },
+        {
+          "id": "isFamily_023652",
+          "document": "phía bên ngoại có [ENTITY].",
+          "dense_similarity": 0.7041260600090027,
+          "sparse_similarity": 0.11863414943218231,
+          "hybrid_score": 0.4113801121711731
+        },
+        {
+          "id": "isFamily_023815",
+          "document": "phía bên ngoại đã mắc [ENTITY].",
+          "dense_similarity": 0.7175720930099487,
+          "sparse_similarity": 0.09161574393510818,
+          "hybrid_score": 0.40459391474723816
+        }
+      ]
+    ]
   },
   {
     "text": "hở van hai lá",
@@ -49,7 +139,37 @@
       265,
       278
     ],
-    "sentence": "siêu âm tim cho thấy [ENTITY] nặng."
+    "sentence": "siêu âm tim cho thấy [ENTITY] nặng.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_025022",
+          "document": "thân nhân được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7443034648895264,
+          "sparse_similarity": 0.10920993238687515,
+          "hybrid_score": 0.42675670981407166
+        },
+        {
+          "id": "isFamily_025021",
+          "document": "thân nhân đã mắc [ENTITY].",
+          "dense_similarity": 0.7293082475662231,
+          "sparse_similarity": 0.11416471004486084,
+          "hybrid_score": 0.421736478805542
+        },
+        {
+          "id": "isFamily_007107",
+          "document": "bên nội có người được chẩn đoán [ENTITY].",
+          "dense_similarity": 0.7382068634033203,
+          "sparse_similarity": 0.10425885021686554,
+          "hybrid_score": 0.42123284935951233
+        }
+      ]
+    ]
   },
   {
     "text": "Chụp động mạch vành",
@@ -62,6 +182,36 @@
       285,
       304
     ],
-    "sentence": "[ENTITY] cho thấy không có bệnh động mạch vành."
+    "sentence": "[ENTITY] cho thấy không có bệnh động mạch vành.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isNegated_000211",
+          "document": "không có triệu chứng [ENTITY].",
+          "dense_similarity": 0.8250330686569214,
+          "sparse_similarity": 0.2236291766166687,
+          "hybrid_score": 0.5243310928344727
+        },
+        {
+          "id": "isHistorical_000186",
+          "document": "[ENTITY] không còn triệu chứng.",
+          "dense_similarity": 0.7934576272964478,
+          "sparse_similarity": 0.239373117685318,
+          "hybrid_score": 0.5164153575897217
+        },
+        {
+          "id": "isNegated_000206",
+          "document": "không có biểu hiện [ENTITY].",
+          "dense_similarity": 0.7864705920219421,
+          "sparse_similarity": 0.21172583103179932,
+          "hybrid_score": 0.4990982115268707
+        }
+      ]
+    ]
   }
 ]

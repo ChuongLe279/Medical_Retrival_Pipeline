@@ -10,7 +10,37 @@
       35,
       45
     ],
-    "sentence": "Lý do khám bệnh: [ENTITY] do tổn thương dây thanh quản."
+    "sentence": "Lý do khám bệnh: [ENTITY] do tổn thương dây thanh quản.",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isFamily_024981",
+          "document": "thân nhân của bệnh nhân đã bị [ENTITY].",
+          "dense_similarity": 0.6987789273262024,
+          "sparse_similarity": 0.12539634108543396,
+          "hybrid_score": 0.412087619304657
+        },
+        {
+          "id": "isFamily_007148",
+          "document": "bên nội của bệnh nhân đã bị [ENTITY].",
+          "dense_similarity": 0.6977814435958862,
+          "sparse_similarity": 0.11659169942140579,
+          "hybrid_score": 0.4071865677833557
+        },
+        {
+          "id": "isHistorical_000979",
+          "document": "đã nhập viện vì [ENTITY].",
+          "dense_similarity": 0.7337144613265991,
+          "sparse_similarity": 0.08032963424921036,
+          "hybrid_score": 0.40702205896377563
+        }
+      ]
+    ]
   },
   {
     "text": "giọng khàn",
@@ -23,6 +53,36 @@
       98,
       108
     ],
-    "sentence": "[ENTITY]."
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": null,
+      "confidence": 1.0,
+      "evidence": null
+    },
+    "assertion": [
+      [
+        {
+          "id": "isHistorical_000975",
+          "document": "đã có [ENTITY].",
+          "dense_similarity": 0.8768635988235474,
+          "sparse_similarity": 0.2620290517807007,
+          "hybrid_score": 0.569446325302124
+        },
+        {
+          "id": "isFamily_009826",
+          "document": "chú có [ENTITY].",
+          "dense_similarity": 0.8590649366378784,
+          "sparse_similarity": 0.26176542043685913,
+          "hybrid_score": 0.5604151487350464
+        },
+        {
+          "id": "isFamily_000357",
+          "document": "[ENTITY] o me.",
+          "dense_similarity": 0.8685569167137146,
+          "sparse_similarity": 0.2289789617061615,
+          "hybrid_score": 0.5487679243087769
+        }
+      ]
+    ]
   }
 ]
