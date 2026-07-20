@@ -14,6 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
 ASSERTION_CHROMA_DIR = PROJECT_ROOT / "src" / "Assertion" / "data" / "assertion_chroma"
 NER_FOLDER_PATH = PROJECT_ROOT / "data" / "output_merged" 
 MODEL_NAME = "BAAI/bge-m3"
+SUPPORTED_ENTITY_TYPES = {"CHẨN_ĐOÁN", "THUỐC", "TRIỆU_CHỨNG"}
 
 def check_folder_exist(path):
     if not path.exists():
@@ -26,6 +27,10 @@ def hybrid_assertion_retrieval(ner_json, top_k = 5, alpha = 0.5):
         data = json.load(file)
     
     for entity in data:
+        if entity.get("type") not in SUPPORTED_ENTITY_TYPES:
+            entity.pop("assertion", None)
+            continue
+
         query_text  = entity["sentence"]
         # Encoding query
         query_outputs = model.encode([query_text], return_dense=True, return_sparse=True)
@@ -114,7 +119,7 @@ if __name__ == "__main__":
         print("Error: Could not find collection. Did you run ingest.py first?")
         print(f"Details: {e}")
         sys.exit(1)
-        
+
     json_files = sorted(
         NER_FOLDER_PATH.glob("*.json"),
         key=lambda path: int(path.stem)
@@ -123,7 +128,3 @@ if __name__ == "__main__":
     for file_path in json_files:
         print(f"Processing {file_path.name}")
         hybrid_assertion_retrieval(file_path)
-        
-        
-        
-            

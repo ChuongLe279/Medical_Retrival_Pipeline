@@ -16,6 +16,7 @@ from pathlib import Path
 ENTITY = "[ENTITY]"
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_INPUT_PATH = PROJECT_ROOT / "data" / "output_merged"
+SUPPORTED_ENTITY_TYPES = {"CHẨN_ĐOÁN", "THUỐC", "TRIỆU_CHỨNG"}
 
 
 def _normalise(text: str) -> str:
@@ -97,7 +98,10 @@ def classify_assertion(sentence: str) -> dict:
 def process_file(input_path: Path, output_path: Path | None = None) -> Path:
     data = json.loads(input_path.read_text(encoding="utf-8"))
     for entity in data:
-        entity["assertion_result"] = classify_assertion(entity["sentence"])
+        if entity.get("type") in SUPPORTED_ENTITY_TYPES:
+            entity["assertion_result"] = classify_assertion(entity["sentence"])
+        else:
+            entity.pop("assertion_result", None)
 
     # Unless an explicit output is supplied, update the input JSON in place.
     destination = output_path or input_path
