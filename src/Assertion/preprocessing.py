@@ -114,7 +114,8 @@ def add_sentence_to_entities(txt_path, json_path):
     # --- 4. Process each entity ---
     enriched_entities = []
     for entity in entities:
-        start, end = entity['position']
+        #start, end = entity['position']
+        start, end = entity['pos']
         expected_text = entity['text']
         actual_text = full_text[start:end]
 
@@ -143,7 +144,7 @@ def add_sentence_to_entities(txt_path, json_path):
         enriched_entities.append({
             'text': entity['text'],
             'type': entity['type'],
-            'pos': entity['position'],
+            'pos': entity['pos'],
             'sentence': sentence,
         })
 
@@ -168,3 +169,6 @@ if __name__ == '__main__':
         print(f"Processing: {json_path.name}")
         text_path = TEXT_PATH / json_path.with_suffix(".txt").name
         add_sentence_to_entities(text_path, json_path)
+        print(f"Adding entities {json_path.name}")
+    
+    print("Preprocessing is done.")
