@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 
@@ -21,6 +22,19 @@ SUPPORTED_ENTITY_TYPES = {"CHẨN_ĐOÁN", "THUỐC", "TRIỆU_CHỨNG"}
 
 def _normalise(text: str) -> str:
     return re.sub(r"\s+", " ", text.lower()).strip()
+
+
+def _contains_only_entity(sentence: str) -> bool:
+    """Return True when only one entity, whitespace, and punctuation remain."""
+    text = sentence.lower()
+    if text.count("[entity]") != 1:
+        return False
+
+    remainder = text.replace("[entity]", "", 1)
+    return all(
+        character.isspace() or unicodedata.category(character).startswith("P")
+        for character in remainder
+    )
 
 
 def _clause_around_entity(sentence: str) -> str:
@@ -69,17 +83,20 @@ def _first_match(patterns: tuple[re.Pattern[str], ...], text: str):
 
 
 def classify_assertion(sentence: str) -> dict:
-    """Return one assertion tag or None, plus auditable evidence."""
+    """Return only one assertion tag (or None)."""
     clause = _clause_around_entity(sentence)
     if "[entity]" not in clause:
         raise ValueError(f"Sentence does not contain {ENTITY}: {sentence!r}")
+
+    if _contains_only_entity(sentence):
+        return {"tag": "isUncertain"}
 
     # Experiencer is checked first because a family mention describes someone
     # other than the patient. With a one-tag schema, that distinction is the
     # most important one to preserve.
     family_match = FAMILY.search(clause)
     if family_match and not re.search(r"\bbệnh (?:nhân|nhi)\b", family_match.group(0)):
-        return {"tag": "isFamily", "confidence": 1.0, "evidence": family_match.group(0)}
+        return {"tag": "isFamily"}
 
     for tag, patterns in (
         # "chưa/không thể loại trừ" is uncertainty, not negation, so it is
@@ -88,11 +105,10 @@ def classify_assertion(sentence: str) -> dict:
         ("isNegated", NEGATED),
         ("isHistorical", HISTORICAL),
     ):
-        evidence = _first_match(patterns, clause)
-        if evidence:
-            return {"tag": tag, "confidence": 1.0, "evidence": evidence}
+        if _first_match(patterns, clause):
+            return {"tag": tag}
 
-    return {"tag": None, "confidence": 1.0, "evidence": None}
+    return {"tag": None}
 
 
 def process_file(input_path: Path, output_path: Path | None = None) -> Path:
@@ -130,11 +146,14 @@ if __name__ == "__main__":
         if args.output is not None:
             parser.error("--output can only be used when processing one JSON file")
 
-        input_files = sorted(args.input.glob("*.json"))
-        if not input_files:
+        json_files = sorted(
+            args.input.glob("*.json"),
+            key=lambda path: int(path.stem),
+        )
+        if not json_files:
             parser.error(f"No source JSON files found in {args.input}")
 
-        for input_file in input_files:
+        for input_file in json_files:
             print(f"Processing {input_file.name}")
             print(f"Saved {process_file(input_file)}")
     else:
