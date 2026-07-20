@@ -18,7 +18,12 @@
     "eng_translation": [
       "chest pain with discomfort",
       "Chest discomfort with pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -39,7 +44,12 @@
     "eng_translation": [
       "Dyspnea",
       "Shortness of breath"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực trái",
@@ -59,7 +69,12 @@
     "eng_translation": [
       "left chest pain",
       "Left-sided chest pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -79,7 +94,12 @@
     "eng_translation": [
       "Dyspnea",
       "Shortness of breath"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
@@ -99,7 +119,12 @@
     "eng_translation": [
       "Dizziness",
       "Vertigo"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực trái",
@@ -120,7 +145,12 @@
     "eng_translation": [
       "left chest pain",
       "Left-sided chest pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -141,7 +171,12 @@
     "eng_translation": [
       "Dyspnea",
       "Shortness of breath"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
@@ -162,7 +197,12 @@
     "eng_translation": [
       "Dizziness",
       "Vertigo"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thiếu",
@@ -182,7 +222,25 @@
     "qwen_assertion": null,
     "eng_translation": [
       "missing"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R430": 0.604419,
+        "Q730": 0.595633,
+        "K08109": 0.595209,
+        "Z6332": 0.588735,
+        "Z899": 0.585303
+      },
+      "rapidfuzz": {
+        "M4827": 0.771429,
+        "F1421": 0.771429,
+        "M4820": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "R430",
+      "confidence": 0.543977
+    }
   },
   {
     "text": "tim",
@@ -203,7 +261,28 @@
     "eng_translation": [
       "Heart",
       "Cardiac"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C380": 0.79304,
+        "D151": 0.779626,
+        "I519": 0.776001,
+        "C160": 0.664252,
+        "I429": 0.632389
+      },
+      "rapidfuzz": {
+        "D151": 0.9,
+        "Z952": 0.9,
+        "Z953": 0.9,
+        "T82120D": 0.9,
+        "T82120A": 0.9,
+        "T82121S": 0.9
+      }
+    },
+    "candidate": {
+      "code": "D151",
+      "confidence": 0.791663
+    }
   },
   {
     "text": "Chụp động mạch vành",
@@ -215,7 +294,12 @@
     "eng_translation": [
       "Coronary angiography",
       "Cardiac catheterization"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Bệnh động mạch vành mạn tính",
@@ -236,7 +320,28 @@
     "eng_translation": [
       "Chronic coronary artery disease",
       "Coronary artery disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I259": 0.843307,
+        "I209": 0.762008,
+        "I249": 0.730043,
+        "I519": 0.723818,
+        "I2584": 0.718261
+      },
+      "rapidfuzz": {
+        "I2542": 0.857143,
+        "I63321": 0.855,
+        "L98421": 0.855,
+        "L98422": 0.855,
+        "S55112D": 0.855,
+        "S55191D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I259",
+      "confidence": 0.758976
+    }
   },
   {
     "text": "thiếu máu cơ tim",
@@ -257,6 +362,27 @@
     "eng_translation": [
       "Myocardial ischemia",
       "Cardiac ischemia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I255": 0.828051,
+        "I6782": 0.801987,
+        "I256": 0.79642,
+        "I249": 0.777916,
+        "I21A1": 0.70956
+      },
+      "rapidfuzz": {
+        "I256": 0.95,
+        "P294": 0.9,
+        "I235": 0.855,
+        "O29192": 0.855,
+        "O29191": 0.855,
+        "O29129": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I256",
+      "confidence": 0.811778
+    }
   }
 ]

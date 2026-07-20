@@ -1,454 +1,541 @@
 [
-  {
-    "text": "chụp cắt lớp vi tính (ct)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      98,
-      123
-    ]
-  },
-  {
-    "text": "tăng đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      142,
-      154
-    ],
-    "assertion_position": [
-      142,
-      154
-    ],
-    "sentence": "Bị [ENTITY] cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "chụp cắt lớp vi tính (ct)",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            98,
+            123
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "chứng đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      233,
-      246
-    ],
-    "assertion_position": [
-      233,
-      246
-    ],
-    "sentence": "Nhập viện khoa Thần kinh vào thời điểm đó để điều trị [ENTITY].",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "tăng đau đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            142,
+            154
+        ],
+        "assertion_position": [
+            142,
+            154
+        ],
+        "sentence": "Bị [ENTITY] cải thiện khi nằm ngửa.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "phù gai thị",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      323,
-      334
-    ],
-    "assertion_position": [
-      323,
-      334
-    ],
-    "sentence": "Được bác sĩ nhãn khoa khám trong quá trình nhập viện đó và không phát hiện [ENTITY].",
-    "assertion_result": {
-      "tag": "isNegated"
+    {
+        "text": "chứng đau đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            233,
+            246
+        ],
+        "assertion_position": [
+            233,
+            246
+        ],
+        "sentence": "Nhập viện khoa Thần kinh vào thời điểm đó để điều trị [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "phù gai thị",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            323,
+            334
+        ],
+        "assertion_position": [
+            323,
+            334
+        ],
+        "sentence": "Được bác sĩ nhãn khoa khám trong quá trình nhập viện đó và không phát hiện [ENTITY].",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "não úng thuỷ",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            354,
+            366
+        ],
+        "assertion_position": [
+            354,
+            366
+        ],
+        "sentence": "Bệnh lý mãn tính: [ENTITY] khác từ thời kỳ sơ sinh.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tăng nhãn áp",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            462,
+            474
+        ],
+        "assertion_position": [
+            462,
+            474
+        ],
+        "sentence": "Phẫu thuật đặt cảng để điều trị chứng [ENTITY] ở thời kỳ sơ sinh.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhãn áp",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            467,
+            474
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            653,
+            660
+        ],
+        "assertion_position": [
+            653,
+            660
+        ],
+        "sentence": "Lý do nhập viện: [ENTITY] kéo dài kèm theo mờ mắt.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "dài",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            665,
+            668
+        ],
+        "assertion_position": [
+            665,
+            668
+        ],
+        "sentence": "Lý do nhập viện: đau đầu kéo [ENTITY] kèm theo mờ mắt.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mờ mắt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            678,
+            684
+        ],
+        "assertion_position": [
+            678,
+            684
+        ],
+        "sentence": "Lý do nhập viện: đau đầu kéo dài kèm theo [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhìn mờ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            719,
+            726
+        ],
+        "assertion_position": [
+            719,
+            726
+        ],
+        "sentence": "Thời điểm khởi phát triệu chứng: [ENTITY] tiến triển trong 2 tuần qua.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "não úng tuỷ",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            785,
+            796
+        ],
+        "assertion_position": [
+            785,
+            796
+        ],
+        "sentence": "Bệnh nhân bị [ENTITY] từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "não úng thủy",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            902,
+            914
+        ],
+        "assertion_position": [
+            902,
+            914
+        ],
+        "sentence": "Trước đây đã từng nhập viện với chẩn đoán [ENTITY], có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tăng đau đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            929,
+            941
+        ],
+        "assertion_position": [
+            929,
+            941
+        ],
+        "sentence": "Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện [ENTITY] , triệu chứng cải thiện khi nằm ngửa.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1037,
+            1044
+        ],
+        "assertion_position": [
+            1037,
+            1044
+        ],
+        "sentence": "Nhập viện trước đây vào khoa Thần kinh để điều trị chứng [ENTITY].",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "phù gai thị",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1114,
+            1125
+        ],
+        "assertion_position": [
+            1114,
+            1125
+        ],
+        "sentence": "Khám nhãn khoa trong quá trình nhập viện trước đó cho thấy không có [ENTITY].",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mờ mắt ở cả hai mắt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1153,
+            1172
+        ],
+        "assertion_position": [
+            1153,
+            1172
+        ],
+        "sentence": "Đến hôm nay, bệnh nhân bị [ENTITY], bên trái nặng hơn bên phải, tiến triển trong 2 tuần qua.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1271,
+            1278
+        ],
+        "assertion_position": [
+            1271,
+            1278
+        ],
+        "sentence": "Đến hôm nay, bệnh nhân bị tăng tần suất [ENTITY] gián đoạn.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau đầu kéo dài",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1312,
+            1327
+        ],
+        "assertion_position": [
+            1312,
+            1327
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhìn mờ ở cả hai mắt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1329,
+            1349
+        ],
+        "assertion_position": [
+            1329,
+            1349
+        ],
+        "sentence": "[ENTITY], bên trái nặng hơn bên phải.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "cơn đau đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1379,
+            1390
+        ],
+        "assertion_position": [
+            1379,
+            1390
+        ],
+        "sentence": "[ENTITY] nhiều hơn.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhìn mờ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1424,
+            1431
+        ],
+        "assertion_position": [
+            1424,
+            1431
+        ],
+        "sentence": "[ENTITY]: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1490,
+            1497
+        ],
+        "assertion_position": [
+            1490,
+            1497
+        ],
+        "sentence": "[ENTITY]: nhiều hơn.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "phù gai thị",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1645,
+            1656
+        ],
+        "assertion_position": [
+            1645,
+            1656
+        ],
+        "sentence": "Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì [ENTITY], bên trái nặng hơn bên phải.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Phù gai thị",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1729,
+            1740
+        ],
+        "assertion_position": [
+            1729,
+            1740
+        ],
+        "sentence": "Dấu hiệu lâm sàng: [ENTITY], bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Tăng nhãn áp",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1836,
+            1848
+        ],
+        "assertion_position": [
+            1836,
+            1848
+        ],
+        "sentence": "[ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhãn áp",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1841,
+            1848
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp cắt lớp vi tính (ct)",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1856,
+            1881
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Phù gai thị",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1922,
+            1933
+        ],
+        "assertion_position": [
+            1922,
+            1933
+        ],
+        "sentence": "[ENTITY] (theo báo cáo của bác sĩ nhãn khoa).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "não úng thuỷ",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      354,
-      366
-    ],
-    "assertion_position": [
-      354,
-      366
-    ],
-    "sentence": "Bệnh lý mãn tính: [ENTITY] khác từ thời kỳ sơ sinh.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "tăng nhãn áp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      462,
-      474
-    ],
-    "assertion_position": [
-      462,
-      474
-    ],
-    "sentence": "Phẫu thuật đặt cảng để điều trị chứng [ENTITY] ở thời kỳ sơ sinh.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "nhãn áp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      467,
-      474
-    ]
-  },
-  {
-    "text": "đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      653,
-      660
-    ],
-    "assertion_position": [
-      653,
-      660
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY] kéo dài kèm theo mờ mắt.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "dài",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      665,
-      668
-    ],
-    "assertion_position": [
-      665,
-      668
-    ],
-    "sentence": "Lý do nhập viện: đau đầu kéo [ENTITY] kèm theo mờ mắt.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "mờ mắt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      678,
-      684
-    ],
-    "assertion_position": [
-      678,
-      684
-    ],
-    "sentence": "Lý do nhập viện: đau đầu kéo dài kèm theo [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "nhìn mờ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      719,
-      726
-    ],
-    "assertion_position": [
-      719,
-      726
-    ],
-    "sentence": "Thời điểm khởi phát triệu chứng: [ENTITY] tiến triển trong 2 tuần qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "não úng tuỷ",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      785,
-      796
-    ],
-    "assertion_position": [
-      785,
-      796
-    ],
-    "sentence": "Bệnh nhân bị [ENTITY] từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "não úng thủy",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      902,
-      914
-    ],
-    "assertion_position": [
-      902,
-      914
-    ],
-    "sentence": "Trước đây đã từng nhập viện với chẩn đoán [ENTITY], có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    }
-  },
-  {
-    "text": "tăng đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      929,
-      941
-    ],
-    "assertion_position": [
-      929,
-      941
-    ],
-    "sentence": "Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện [ENTITY] , triệu chứng cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1037,
-      1044
-    ],
-    "assertion_position": [
-      1037,
-      1044
-    ],
-    "sentence": "Nhập viện trước đây vào khoa Thần kinh để điều trị chứng [ENTITY].",
-    "assertion_result": {
-      "tag": "isHistorical"
-    }
-  },
-  {
-    "text": "phù gai thị",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1114,
-      1125
-    ],
-    "assertion_position": [
-      1114,
-      1125
-    ],
-    "sentence": "Khám nhãn khoa trong quá trình nhập viện trước đó cho thấy không có [ENTITY].",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "mờ mắt ở cả hai mắt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1153,
-      1172
-    ],
-    "assertion_position": [
-      1153,
-      1172
-    ],
-    "sentence": "Đến hôm nay, bệnh nhân bị [ENTITY], bên trái nặng hơn bên phải, tiến triển trong 2 tuần qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1271,
-      1278
-    ],
-    "assertion_position": [
-      1271,
-      1278
-    ],
-    "sentence": "Đến hôm nay, bệnh nhân bị tăng tần suất [ENTITY] gián đoạn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau đầu kéo dài",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1312,
-      1327
-    ],
-    "assertion_position": [
-      1312,
-      1327
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "nhìn mờ ở cả hai mắt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1329,
-      1349
-    ],
-    "assertion_position": [
-      1329,
-      1349
-    ],
-    "sentence": "[ENTITY], bên trái nặng hơn bên phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "cơn đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1379,
-      1390
-    ],
-    "assertion_position": [
-      1379,
-      1390
-    ],
-    "sentence": "[ENTITY] nhiều hơn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "nhìn mờ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1424,
-      1431
-    ],
-    "assertion_position": [
-      1424,
-      1431
-    ],
-    "sentence": "[ENTITY]: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1490,
-      1497
-    ],
-    "assertion_position": [
-      1490,
-      1497
-    ],
-    "sentence": "[ENTITY]: nhiều hơn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "phù gai thị",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1645,
-      1656
-    ],
-    "assertion_position": [
-      1645,
-      1656
-    ],
-    "sentence": "Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì [ENTITY], bên trái nặng hơn bên phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Phù gai thị",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1729,
-      1740
-    ],
-    "assertion_position": [
-      1729,
-      1740
-    ],
-    "sentence": "Dấu hiệu lâm sàng: [ENTITY], bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Tăng nhãn áp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1836,
-      1848
-    ],
-    "assertion_position": [
-      1836,
-      1848
-    ],
-    "sentence": "[ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "nhãn áp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1841,
-      1848
-    ]
-  },
-  {
-    "text": "chụp cắt lớp vi tính (ct)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1856,
-      1881
-    ]
-  },
-  {
-    "text": "Phù gai thị",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1922,
-      1933
-    ],
-    "assertion_position": [
-      1922,
-      1933
-    ],
-    "sentence": "[ENTITY] (theo báo cáo của bác sĩ nhãn khoa).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  }
 ]

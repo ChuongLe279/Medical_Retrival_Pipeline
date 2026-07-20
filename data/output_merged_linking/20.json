@@ -17,7 +17,28 @@
     "eng_translation": [
       "Hypertension",
       "Essential Hypertension"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
+    }
   },
   {
     "text": "bệnh thận mạn",
@@ -38,7 +59,28 @@
     "eng_translation": [
       "Chronic kidney disease",
       "CKD"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N189": 0.982146,
+        "N039": 0.781739,
+        "N186": 0.757736,
+        "N181": 0.744167,
+        "N1830": 0.681813
+      },
+      "rapidfuzz": {
+        "D631": 0.95,
+        "N181": 0.95,
+        "N1831": 0.95,
+        "I450": 0.72,
+        "I452": 0.72,
+        "I453": 0.72
+      }
+    },
+    "candidate": {
+      "code": "N189",
+      "confidence": 0.883931
+    }
   },
   {
     "text": "bệnh tim mạch",
@@ -59,7 +101,28 @@
     "eng_translation": [
       "cardiovascular disease",
       "Cardiac disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I519": 0.955106,
+        "I5189": 0.746198,
+        "I429": 0.718682,
+        "I099": 0.705557,
+        "I679": 0.694969
+      },
+      "rapidfuzz": {
+        "C946": 0.855,
+        "I289": 0.855,
+        "I279": 0.855,
+        "R011": 0.855,
+        "T82120D": 0.855,
+        "T82129A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I519",
+      "confidence": 0.859595
+    }
   },
   {
     "text": "xơ vữa động mạch",
@@ -80,7 +143,28 @@
     "eng_translation": [
       "Atherosclerosis",
       "Arteriosclerosis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I7090": 0.960917,
+        "I7091": 0.846441,
+        "I700": 0.836473,
+        "I672": 0.751668,
+        "I708": 0.727376
+      },
+      "rapidfuzz": {
+        "I70743": 0.9,
+        "I70291": 0.9,
+        "I70269": 0.9,
+        "I7090": 0.812903,
+        "I7091": 0.812903,
+        "I70735": 0.812903
+      }
+    },
+    "candidate": {
+      "code": "I7090",
+      "confidence": 0.946116
+    }
   },
   {
     "text": "Nhồi máu cơ tim",
@@ -100,7 +184,25 @@
     "qwen_assertion": "isHistorical",
     "eng_translation": [
       "Myocardial infarction"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.851584,
+        "I21A1": 0.785121,
+        "I249": 0.769203,
+        "I252": 0.761003,
+        "I639": 0.728907
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2109": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I21A1",
+      "confidence": 0.801609
+    }
   },
   {
     "text": "rung nhĩ kịch phát",
@@ -119,7 +221,25 @@
     },
     "eng_translation": [
       "Paroxysmal atrial fibrillation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I480": 1.0,
+        "I4821": 0.894503,
+        "I4891": 0.78729,
+        "I4820": 0.756725,
+        "I4811": 0.753511
+      },
+      "rapidfuzz": {
+        "I480": 1.0,
+        "G44039": 0.855,
+        "I231": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I480",
+      "confidence": 1.0
+    }
   },
   {
     "text": "tăng sản tuyến tiền liệt",
@@ -138,7 +258,25 @@
     },
     "eng_translation": [
       "Benign Prostatic Hyperplasia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N400": 0.819702,
+        "D291": 0.770737,
+        "N401": 0.741695,
+        "N4231": 0.690872,
+        "Z87430": 0.67855
+      },
+      "rapidfuzz": {
+        "N400": 0.9,
+        "N401": 0.9,
+        "D3A024": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N400",
+      "confidence": 0.827732
+    }
   },
   {
     "text": "loạn dáng đi",
@@ -159,7 +297,12 @@
     "eng_translation": [
       "gait disorder",
       "Gait abnormality"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "gãy cổ xương đùi di lệch",
@@ -179,7 +322,25 @@
     "qwen_assertion": null,
     "eng_translation": [
       "fracture of the femoral neck with displacement"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "S7223XA": 0.632444,
+        "S7223XD": 0.630301,
+        "S7223XE": 0.629531,
+        "S7223XS": 0.628047,
+        "S72009G": 0.625128
+      },
+      "rapidfuzz": {
+        "M84550K": 0.855,
+        "V2041XA": 0.855,
+        "V2041XD": 0.855
+      }
+    },
+    "candidate": {
+      "code": "S7223XA",
+      "confidence": 0.5692
+    }
   },
   {
     "text": "gãy cổ xương đùi di lệch",
@@ -199,7 +360,25 @@
     "qwen_assertion": null,
     "eng_translation": [
       "fracture of the femoral neck with displacement"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "S7223XA": 0.632444,
+        "S7223XD": 0.630301,
+        "S7223XE": 0.629531,
+        "S7223XS": 0.628047,
+        "S72009G": 0.625128
+      },
+      "rapidfuzz": {
+        "M84550K": 0.855,
+        "V2041XA": 0.855,
+        "V2041XD": 0.855
+      }
+    },
+    "candidate": {
+      "code": "S7223XA",
+      "confidence": 0.5692
+    }
   },
   {
     "text": "Đau ở hông phải",
@@ -220,7 +399,12 @@
     "eng_translation": [
       "Right hip pain",
       "Hip pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cử động",
@@ -241,7 +425,12 @@
     "eng_translation": [
       "movement",
       "Motor function"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất ý thức",
@@ -261,7 +450,12 @@
     "eng_translation": [
       "loss of consciousness",
       "Syncope"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất ý thức",
@@ -281,7 +475,12 @@
     "eng_translation": [
       "loss of consciousness",
       "Syncope"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "gãy",
@@ -302,7 +501,28 @@
     "eng_translation": [
       "fracture",
       "Broken bone"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K08539": 0.684385,
+        "M8950": 0.635182,
+        "M8440XA": 0.625189,
+        "Z8781": 0.590755,
+        "K08530": 0.58941
+      },
+      "rapidfuzz": {
+        "M84758S": 0.9,
+        "S62395S": 0.9,
+        "S62394S": 0.9,
+        "M85612": 0.855,
+        "M8559": 0.855,
+        "M8558": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K08539",
+      "confidence": 0.615947
+    }
   },
   {
     "text": "cổ",
@@ -323,7 +543,12 @@
     "eng_translation": [
       "neck",
       "cervical region"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xương đùi",
@@ -344,7 +569,28 @@
     "eng_translation": [
       "femur",
       "Femoral shaft fracture"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "S72309A": 0.712184,
+        "S72309B": 0.711589,
+        "S72309C": 0.694407,
+        "S72309E": 0.693606,
+        "S72309D": 0.671036
+      },
+      "rapidfuzz": {
+        "M21752": 0.9,
+        "M21751": 0.9,
+        "M87352": 0.9,
+        "S32132D": 0.855,
+        "S52243M": 0.855,
+        "S52241N": 0.855
+      }
+    },
+    "candidate": {
+      "code": "S72309A",
+      "confidence": 0.640966
+    }
   },
   {
     "text": "mất vận động vùng đỉnh",
@@ -365,7 +611,12 @@
     "eng_translation": [
       "loss of motor function in the parietal region",
       "Loss of motor function in the parietal lobe"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp x-quang",
@@ -377,7 +628,12 @@
     "eng_translation": [
       "X-ray imaging",
       "Radiographic imaging"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -389,7 +645,12 @@
     "eng_translation": [
       "CT scan",
       "Computed Tomography Scan"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tim to",
@@ -411,7 +672,12 @@
       "Heart enlarged",
       "Enlarged heart",
       "Cardiomegaly"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tràn dịch màng tim",
@@ -432,7 +698,12 @@
     "eng_translation": [
       "pericardial effusion",
       "Cardiac fluid accumulation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tràn dịch màng phổi",
@@ -453,7 +724,12 @@
     "eng_translation": [
       "pleural effusion",
       "Pleural fluid accumulation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thoát vị hoành nhỏ",
@@ -473,7 +749,12 @@
     "qwen_assertion": null,
     "eng_translation": [
       "hiatal hernia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phế thủng",
@@ -494,7 +775,12 @@
     "eng_translation": [
       "Pulmonary perforation",
       "Pneumothorax"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xẹp phổi hai đáy",
@@ -515,7 +801,12 @@
     "eng_translation": [
       "Bilateral pulmonary collapse",
       "Bilateral pulmonary atelectasis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "không",
@@ -535,7 +826,12 @@
     "qwen_assertion": "isNegated",
     "eng_translation": [
       "no"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ở hông phải",
@@ -556,7 +852,12 @@
     "eng_translation": [
       "pain in the right hip",
       "right hip pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp x-quang",
@@ -568,7 +869,12 @@
     "eng_translation": [
       "X-ray imaging",
       "Radiographic imaging"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -580,7 +886,12 @@
     "eng_translation": [
       "CT scan",
       "Computed Tomography Scan"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tim",
@@ -601,7 +912,12 @@
     "eng_translation": [
       "Heart",
       "Cardiac"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tràn dịch màng tim",
@@ -622,7 +938,12 @@
     "eng_translation": [
       "pericardial effusion",
       "Cardiac fluid accumulation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tràn dịch màng phổi",
@@ -643,7 +964,12 @@
     "eng_translation": [
       "pleural effusion",
       "Pleural fluid accumulation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thoát vị hoành nhỏ",
@@ -663,7 +989,12 @@
     "qwen_assertion": null,
     "eng_translation": [
       "hiatal hernia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thay",
@@ -685,7 +1016,12 @@
       "Replace with \"Doctor\" or \"Physician\" depending on context.",
       "Doctor",
       "Replace with \"Physician\" depending on context."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khí phế thủng",
@@ -706,7 +1042,12 @@
     "eng_translation": [
       "pneumothorax",
       "collapsed lung"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xẹp phổi hai đáy",
@@ -727,7 +1068,12 @@
     "eng_translation": [
       "Bilateral pulmonary collapse",
       "Bilateral pulmonary atelectasis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm tim",
@@ -739,7 +1085,12 @@
     "eng_translation": [
       "Echocardiogram",
       "Cardiac ultrasound"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm tim",
@@ -751,7 +1102,12 @@
     "eng_translation": [
       "Echocardiogram",
       "Cardiac ultrasound"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hở van ba lá",
@@ -772,7 +1128,27 @@
     "eng_translation": [
       "Mitral regurgitation",
       "Mitral insufficiency"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I051": 0.882163,
+        "Q233": 0.834212,
+        "I340": 0.828191,
+        "I050": 0.802893,
+        "I059": 0.778081
+      },
+      "rapidfuzz": {
+        "I051": 0.9,
+        "Q233": 0.9,
+        "I052": 0.855,
+        "P921": 0.855,
+        "I058": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I051",
+      "confidence": 0.883947
+    }
   },
   {
     "text": "hở van hai lá",
@@ -792,7 +1168,27 @@
     "eng_translation": [
       "Mitral regurgitation",
       "Mitral insufficiency"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I051": 0.882163,
+        "Q233": 0.834212,
+        "I340": 0.828191,
+        "I050": 0.802893,
+        "I059": 0.778081
+      },
+      "rapidfuzz": {
+        "I051": 0.9,
+        "Q233": 0.9,
+        "I052": 0.855,
+        "P921": 0.855,
+        "I058": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I051",
+      "confidence": 0.883947
+    }
   },
   {
     "text": "mạch",
@@ -812,7 +1208,28 @@
     "eng_translation": [
       "pulse",
       "heart rate"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R002": 0.665923,
+        "R000": 0.63773,
+        "R011": 0.563979,
+        "H93A9": 0.555529,
+        "R009": 0.554672
+      },
+      "rapidfuzz": {
+        "F6389": 0.9,
+        "F639": 0.9,
+        "O76": 0.9,
+        "A0102": 0.855,
+        "T82532D": 0.855,
+        "H05269": 0.8
+      }
+    },
+    "candidate": {
+      "code": "R002",
+      "confidence": 0.599331
+    }
   },
   {
     "text": "gãy cổ xương",
@@ -833,7 +1250,12 @@
     "eng_translation": [
       "Fracture of the neck of the femur",
       "Hip fracture"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "lún đầu dưới",
@@ -856,7 +1278,12 @@
       "Chấn thương đầu dưới",
       "Basilar skull fracture",
       "đầu dưới của lún"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -868,7 +1295,12 @@
     "eng_translation": [
       "CT scan",
       "Computed Tomography Scan"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm tim",
@@ -880,7 +1312,12 @@
     "eng_translation": [
       "Echocardiogram",
       "Cardiac ultrasound"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm tim",
@@ -892,7 +1329,12 @@
     "eng_translation": [
       "Echocardiogram",
       "Cardiac ultrasound"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhồi máu cơ tim",
@@ -912,7 +1354,25 @@
     "qwen_assertion": null,
     "eng_translation": [
       "Myocardial infarction"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.851584,
+        "I21A1": 0.785121,
+        "I249": 0.769203,
+        "I252": 0.761003,
+        "I639": 0.728907
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2109": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I21A1",
+      "confidence": 0.801609
+    }
   },
   {
     "text": "rung nhĩ",
@@ -933,7 +1393,28 @@
     "eng_translation": [
       "Atrial fibrillation",
       "Paroxysmal atrial fibrillation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I480": 1.0,
+        "I4891": 0.978406,
+        "I4821": 0.894503,
+        "I4820": 0.803449,
+        "I4901": 0.799594
+      },
+      "rapidfuzz": {
+        "I480": 1.0,
+        "I4820": 0.9,
+        "I4821": 0.9,
+        "I4891": 0.9,
+        "G44039": 0.855,
+        "I231": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I480",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Nhồi máu cơ tim",
@@ -953,7 +1434,25 @@
     "qwen_assertion": "isHistorical",
     "eng_translation": [
       "Myocardial infarction"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.851584,
+        "I21A1": 0.785121,
+        "I249": 0.769203,
+        "I252": 0.761003,
+        "I639": 0.728907
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2109": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I21A1",
+      "confidence": 0.801609
+    }
   },
   {
     "text": "tiểu đêm",
@@ -974,6 +1473,11 @@
     "eng_translation": [
       "nocturia",
       "Nocturnal polyuria"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

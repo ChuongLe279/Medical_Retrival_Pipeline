@@ -18,7 +18,28 @@
     "eng_translation": [
       "Depression",
       "Major Depressive Disorder"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "F32A": 0.968795,
+        "F329": 0.810252,
+        "F339": 0.715773,
+        "F251": 0.684452,
+        "F341": 0.661285
+      },
+      "rapidfuzz": {
+        "Z1332": 0.9,
+        "P914": 0.9,
+        "Z1331": 0.9,
+        "F331": 0.9,
+        "F332": 0.9,
+        "F333": 0.9
+      }
+    },
+    "candidate": {
+      "code": "F32A",
+      "confidence": 0.871915
+    }
   },
   {
     "text": "buồn",
@@ -39,7 +60,12 @@
     "eng_translation": [
       "sad",
       "The query provided does not contain a medical term or diagnosis and cannot be rewritten with a medical synonym. Return the original query unchanged."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sa",
@@ -52,7 +78,12 @@
       "sa",
       "Sudden arterial occlusion of the left middle cerebral artery resulting in acute ischemic stroke with severe neurological deficits and potential complications including cerebral edema and hemorrhagic transformation.",
       "SA stands for \"Systolic Arterial Pressure\" in medical contexts, but since the query is simply \"sa\" and there is no clear medical abbreviation in the query, the original query remains unchanged."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "trầm cảm",
@@ -73,7 +104,28 @@
     "eng_translation": [
       "Depression",
       "Major Depressive Disorder"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "F32A": 0.968795,
+        "F329": 0.810252,
+        "F339": 0.715773,
+        "F251": 0.684452,
+        "F341": 0.661285
+      },
+      "rapidfuzz": {
+        "Z1332": 0.9,
+        "P914": 0.9,
+        "Z1331": 0.9,
+        "F331": 0.9,
+        "F332": 0.9,
+        "F333": 0.9
+      }
+    },
+    "candidate": {
+      "code": "F32A",
+      "confidence": 0.871915
+    }
   },
   {
     "text": "thuyên tắc phổi hai bên",
@@ -93,7 +145,25 @@
     "qwen_assertion": null,
     "eng_translation": [
       "Bilateral pulmonary embolism"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I63433": 0.794114,
+        "I63443": 0.727866,
+        "I75023": 0.714933,
+        "I63423": 0.697535,
+        "I82813": 0.694335
+      },
+      "rapidfuzz": {
+        "I825Z3": 0.855,
+        "I825Z9": 0.855,
+        "I82601": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I63433",
+      "confidence": 0.714703
+    }
   },
   {
     "text": "nhiễm trùng chi dưới",
@@ -114,7 +184,28 @@
     "eng_translation": [
       "Lower limb infection",
       "Lower extremity infection"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M60069": 0.802686,
+        "M60005": 0.781837,
+        "M868X69": 0.698265,
+        "J22": 0.67105,
+        "T8740": 0.663788
+      },
+      "rapidfuzz": {
+        "T84199A": 0.855,
+        "S49112G": 0.855,
+        "S49112D": 0.855,
+        "A042": 0.855,
+        "S82854N": 0.855,
+        "S82854P": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M60069",
+      "confidence": 0.722417
+    }
   },
   {
     "text": "vancomycin",
@@ -135,6 +226,26 @@
     "eng_translation": [
       "Vancomycin",
       "Vancomycin is a glycopeptide antibiotic used to treat serious bacterial infections, particularly those caused by gram-positive organisms, including methicillin-resistant Staphylococcus aureus (MRSA). It works by inhibiting cell wall synthesis and is often reserved for severe infections due to its potential for nephrotoxicity and ototoxicity. Monitoring of serum levels and renal function is essential to ensure therapeutic efficacy and minimize adverse effects."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "11124": 1.0,
+        "997397": 0.734893,
+        "405388": 0.707967,
+        "66955": 0.700402
+      },
+      "rapidfuzz": {
+        "11124": 1.0,
+        "2387078": 0.9,
+        "2118449": 0.9,
+        "2677176": 0.855,
+        "2709234": 0.855,
+        "2709236": 0.855
+      }
+    },
+    "candidate": {
+      "code": "11124",
+      "confidence": 1.0
+    }
   }
 ]

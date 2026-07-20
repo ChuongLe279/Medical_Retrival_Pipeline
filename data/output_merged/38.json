@@ -1,293 +1,356 @@
 [
-  {
-    "text": "Đái tháo đường típ 2",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      36,
-      56
-    ],
-    "assertion_position": [
-      36,
-      56
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
+    {
+        "text": "Đái tháo đường típ 2",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            36,
+            56
+        ],
+        "assertion_position": [
+            36,
+            56
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bệnh tim mạch",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            58,
+            71
+        ],
+        "assertion_position": [
+            58,
+            71
+        ],
+        "sentence": "[ENTITY] do xơ vữa động mạch đặt stent.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "xơ vữa động mạch",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            75,
+            91
+        ],
+        "assertion_position": [
+            75,
+            91
+        ],
+        "sentence": "bệnh tim mạch do [ENTITY] đặt stent.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Suy tim dãn tâm thu",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            103,
+            122
+        ],
+        "assertion_position": [
+            103,
+            122
+        ],
+        "sentence": "[ENTITY] giữ nguyên trương lực.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau họng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            229,
+            237
+        ],
+        "assertion_position": [
+            229,
+            237
+        ],
+        "sentence": "Lý do nhập viện: [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau họng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            326,
+            334
+        ],
+        "assertion_position": [
+            326,
+            334
+        ],
+        "sentence": "[ENTITY] kèm theo nuốt vướng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nuốt vướng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            344,
+            354
+        ],
+        "assertion_position": [
+            344,
+            354
+        ],
+        "sentence": "đau họng kèm theo [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "buồn nôn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            356,
+            364
+        ],
+        "assertion_position": [
+            356,
+            364
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nuốt vướng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            464,
+            474
+        ],
+        "assertion_position": [
+            464,
+            474
+        ],
+        "sentence": "Yếu tố làm nặng thêm: [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "buồn nôn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            534,
+            542
+        ],
+        "assertion_position": [
+            534,
+            542
+        ],
+        "sentence": "Các triệu chứng liên quan: [ENTITY], tăng tăng cân 3 pound trong 7 ngày qua.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khó thở",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            671,
+            678
+        ],
+        "assertion_position": [
+            671,
+            678
+        ],
+        "sentence": "Không có [ENTITY] hoặc ho.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            684,
+            686
+        ],
+        "assertion_position": [
+            679,
+            681
+        ],
+        "sentence": "Không có khó thở [ENTITY]ặc ho.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đường huyết",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            702,
+            713
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau họng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            765,
+            773
+        ],
+        "assertion_position": [
+            765,
+            773
+        ],
+        "sentence": "Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo [ENTITY], nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isFamily",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "viêm họng",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            816,
+            825
+        ],
+        "assertion_position": [
+            816,
+            825
+        ],
+        "sentence": "Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với [ENTITY] do liên cầu.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isFamily",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "glucose",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            883,
+            890
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "537",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            891,
+            894
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "glucose",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            896,
+            903
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bun (ure)",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            925,
+            934
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "3",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            935,
+            936
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "creatinine",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            942,
+            952
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "bệnh tim mạch",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      58,
-      71
-    ],
-    "assertion_position": [
-      58,
-      71
-    ],
-    "sentence": "[ENTITY] do xơ vữa động mạch đặt stent.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "xơ vữa động mạch",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      75,
-      91
-    ],
-    "assertion_position": [
-      75,
-      91
-    ],
-    "sentence": "bệnh tim mạch do [ENTITY] đặt stent.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Suy tim dãn tâm thu",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      103,
-      122
-    ],
-    "assertion_position": [
-      103,
-      122
-    ],
-    "sentence": "[ENTITY] giữ nguyên trương lực.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau họng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      229,
-      237
-    ],
-    "assertion_position": [
-      229,
-      237
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau họng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      326,
-      334
-    ],
-    "assertion_position": [
-      326,
-      334
-    ],
-    "sentence": "[ENTITY] kèm theo nuốt vướng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "nuốt vướng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      344,
-      354
-    ],
-    "assertion_position": [
-      344,
-      354
-    ],
-    "sentence": "đau họng kèm theo [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "buồn nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      356,
-      364
-    ],
-    "assertion_position": [
-      356,
-      364
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "nuốt vướng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      464,
-      474
-    ],
-    "assertion_position": [
-      464,
-      474
-    ],
-    "sentence": "Yếu tố làm nặng thêm: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "buồn nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      534,
-      542
-    ],
-    "assertion_position": [
-      534,
-      542
-    ],
-    "sentence": "Các triệu chứng liên quan: [ENTITY], tăng tăng cân 3 pound trong 7 ngày qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      671,
-      678
-    ],
-    "assertion_position": [
-      671,
-      678
-    ],
-    "sentence": "Không có [ENTITY] hoặc ho.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      684,
-      686
-    ],
-    "assertion_position": [
-      679,
-      681
-    ],
-    "sentence": "Không có khó thở [ENTITY]ặc ho.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "đường huyết",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      702,
-      713
-    ]
-  },
-  {
-    "text": "đau họng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      765,
-      773
-    ],
-    "assertion_position": [
-      765,
-      773
-    ],
-    "sentence": "Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo [ENTITY], nhưng được cho là xét nghiệm âm tính với viêm họng do liên cầu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isFamily"
-  },
-  {
-    "text": "viêm họng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      816,
-      825
-    ],
-    "assertion_position": [
-      816,
-      825
-    ],
-    "sentence": "Cháu gái xét nghiệm tuổi gần đây bị bệnh kèm theo đau họng, nhưng được cho là xét nghiệm âm tính với [ENTITY] do liên cầu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isFamily"
-  },
-  {
-    "text": "glucose",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      883,
-      890
-    ]
-  },
-  {
-    "text": "537",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      891,
-      894
-    ]
-  },
-  {
-    "text": "glucose",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      896,
-      903
-    ]
-  },
-  {
-    "text": "bun (ure)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      925,
-      934
-    ]
-  },
-  {
-    "text": "3",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      935,
-      936
-    ]
-  },
-  {
-    "text": "creatinine",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      942,
-      952
-    ]
-  }
 ]

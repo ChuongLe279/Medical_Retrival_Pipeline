@@ -1,444 +1,540 @@
 [
-  {
-    "text": "hen suyễn",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      42,
-      51
-    ],
-    "assertion_position": [
-      42,
-      51
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "âu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      65,
-      67
-    ],
-    "assertion_position": [
-      65,
-      67
-    ],
-    "sentence": "rối loạn lo [ENTITY].",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "hen suyễn",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            42,
+            51
+        ],
+        "assertion_position": [
+            42,
+            51
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "tăng huyết áp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      69,
-      82
-    ],
-    "assertion_position": [
-      69,
-      82
-    ],
-    "sentence": "[ENTITY] (tăng huyết áp).",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "âu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            65,
+            67
+        ],
+        "assertion_position": [
+            65,
+            67
+        ],
+        "sentence": "rối loạn lo [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tăng huyết áp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      84,
-      97
-    ],
-    "assertion_position": [
-      84,
-      97
-    ],
-    "sentence": "tăng huyết áp ([ENTITY]).",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "tăng huyết áp",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            69,
+            82
+        ],
+        "assertion_position": [
+            69,
+            82
+        ],
+        "sentence": "[ENTITY] (tăng huyết áp).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Táo bón mãn tính",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      100,
-      116
-    ],
-    "assertion_position": [
-      100,
-      116
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "ngưng thở khi ngủ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      118,
-      135
-    ],
-    "assertion_position": [
-      118,
-      135
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "nhịp thở nhanh",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      172,
-      186
-    ],
-    "assertion_position": [
-      172,
-      186
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY] và thiếu oxy.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "tăng huyết áp",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            84,
+            97
+        ],
+        "assertion_position": [
+            84,
+            97
+        ],
+        "sentence": "tăng huyết áp ([ENTITY]).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "thiếu oxy",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      190,
-      199
-    ],
-    "assertion_position": [
-      190,
-      199
-    ],
-    "sentence": "Lý do nhập viện: nhịp thở nhanh và [ENTITY].",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "Táo bón mãn tính",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            100,
+            116
+        ],
+        "assertion_position": [
+            100,
+            116
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "mệt mỏi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      269,
-      276
-    ],
-    "assertion_position": [
-      269,
-      276
-    ],
-    "sentence": "Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện [ENTITY], ho và chảy nước mũi.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    }
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      278,
-      280
-    ],
-    "assertion_position": [
-      278,
-      280
-    ],
-    "sentence": "Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, [ENTITY] và chảy nước mũi.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    }
-  },
-  {
-    "text": "chảy nước mũi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      284,
-      297
-    ],
-    "assertion_position": [
-      284,
-      297
-    ],
-    "sentence": "Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, ho và [ENTITY].",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "ngưng thở khi ngủ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            118,
+            135
+        ],
+        "assertion_position": [
+            118,
+            135
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "nhiễm trùng đường hô hấp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      417,
-      441
-    ],
-    "assertion_position": [
-      417,
-      441
-    ],
-    "sentence": "Bệnh nhân đã được bác sĩ gia đình khám vì các triệu chứng [ENTITY] trên.",
-    "assertion_result": {
-      "tag": "isFamily"
-    }
-  },
-  {
-    "text": "nhịp thở nhanh",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      544,
-      558
-    ],
-    "assertion_position": [
-      544,
-      558
-    ],
-    "sentence": "Tại phòng khám, bệnh nhân được ghi nhận có độ bão hòa oxy (SPO2) từ 88-92 % khi thở khí trời và [ENTITY].",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "nhịp thở nhanh",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            172,
+            186
+        ],
+        "assertion_position": [
+            172,
+            186
+        ],
+        "sentence": "Lý do nhập viện: [ENTITY] và thiếu oxy.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "mệt mỏi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      670,
-      677
-    ],
-    "assertion_position": [
-      670,
-      677
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      679,
-      681
-    ],
-    "assertion_position": [
-      679,
-      681
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "chảy nước mũi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      683,
-      696
-    ],
-    "assertion_position": [
-      683,
-      696
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "nhịp thở nhanh",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      698,
-      712
-    ],
-    "assertion_position": [
-      698,
-      712
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "Thiếu oxy",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      714,
-      723
-    ],
-    "assertion_position": [
-      714,
-      723
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      725,
-      728
-    ],
-    "assertion_position": [
-      725,
-      728
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "bạch cầu",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      750,
-      758
-    ]
-  },
-  {
-    "text": "26.7",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      759,
-      763
-    ]
-  },
-  {
-    "text": "bnp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      765,
-      768
-    ]
-  },
-  {
-    "text": "4227",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      769,
-      773
-    ]
-  },
-  {
-    "text": "kali",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      775,
-      779
-    ]
-  },
-  {
-    "text": "3.2",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      780,
-      783
-    ]
-  },
-  {
-    "text": "troponin",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      785,
-      793
-    ]
-  },
-  {
-    "text": "0.01",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      794,
-      798
-    ]
-  },
-  {
-    "text": "tổng phân tích nước tiểu",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      813,
-      837
-    ]
-  },
-  {
-    "text": "chụp x-quang",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1020,
-      1032
-    ]
-  },
-  {
-    "text": "viêm phổi kẽ",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1050,
-      1062
-    ],
-    "assertion_position": [
-      1050,
-      1062
-    ],
-    "sentence": "chụp x-quang ngực phù hợp với [ENTITY].",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "thiếu oxy",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            190,
+            199
+        ],
+        "assertion_position": [
+            190,
+            199
+        ],
+        "sentence": "Lý do nhập viện: nhịp thở nhanh và [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Albuterol",
-    "type": "THUỐC",
-    "position": [
-      1112,
-      1121
-    ],
-    "assertion_position": [
-      1112,
-      1121
-    ],
-    "sentence": "Khí dung phối hợp [ENTITY] và Ipratropium 1 lần.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "mệt mỏi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            269,
+            276
+        ],
+        "assertion_position": [
+            269,
+            276
+        ],
+        "sentence": "Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện [ENTITY], ho và chảy nước mũi.",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Tylenol",
-    "type": "THUỐC",
-    "position": [
-      1181,
-      1188
-    ],
-    "assertion_position": [
-      1181,
-      1188
-    ],
-    "sentence": "Uống [ENTITY] 1 gram, 1 liều duy nhất.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            278,
+            280
+        ],
+        "assertion_position": [
+            278,
+            280
+        ],
+        "sentence": "Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, [ENTITY] và chảy nước mũi.",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  }
+    {
+        "text": "chảy nước mũi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            284,
+            297
+        ],
+        "assertion_position": [
+            284,
+            297
+        ],
+        "sentence": "Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, ho và [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhiễm trùng đường hô hấp",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            417,
+            441
+        ],
+        "assertion_position": [
+            417,
+            441
+        ],
+        "sentence": "Bệnh nhân đã được bác sĩ gia đình khám vì các triệu chứng [ENTITY] trên.",
+        "assertion_result": {
+            "tag": "isFamily"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhịp thở nhanh",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            544,
+            558
+        ],
+        "assertion_position": [
+            544,
+            558
+        ],
+        "sentence": "Tại phòng khám, bệnh nhân được ghi nhận có độ bão hòa oxy (SPO2) từ 88-92 % khi thở khí trời và [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mệt mỏi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            670,
+            677
+        ],
+        "assertion_position": [
+            670,
+            677
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            679,
+            681
+        ],
+        "assertion_position": [
+            679,
+            681
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chảy nước mũi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            683,
+            696
+        ],
+        "assertion_position": [
+            683,
+            696
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhịp thở nhanh",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            698,
+            712
+        ],
+        "assertion_position": [
+            698,
+            712
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Thiếu oxy",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            714,
+            723
+        ],
+        "assertion_position": [
+            714,
+            723
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            725,
+            728
+        ],
+        "assertion_position": [
+            725,
+            728
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bạch cầu",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            750,
+            758
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "26.7",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            759,
+            763
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bnp",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            765,
+            768
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "4227",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            769,
+            773
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "kali",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            775,
+            779
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "3.2",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            780,
+            783
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "troponin",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            785,
+            793
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "0.01",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            794,
+            798
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tổng phân tích nước tiểu",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            813,
+            837
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp x-quang",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1020,
+            1032
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "viêm phổi kẽ",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1050,
+            1062
+        ],
+        "assertion_position": [
+            1050,
+            1062
+        ],
+        "sentence": "chụp x-quang ngực phù hợp với [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Albuterol",
+        "type": "THUỐC",
+        "position": [
+            1112,
+            1121
+        ],
+        "assertion_position": [
+            1112,
+            1121
+        ],
+        "sentence": "Khí dung phối hợp [ENTITY] và Ipratropium 1 lần.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Tylenol",
+        "type": "THUỐC",
+        "position": [
+            1181,
+            1188
+        ],
+        "assertion_position": [
+            1181,
+            1188
+        ],
+        "sentence": "Uống [ENTITY] 1 gram, 1 liều duy nhất.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    }
 ]

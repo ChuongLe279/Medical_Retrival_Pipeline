@@ -1,418 +1,502 @@
 [
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      118,
-      120
-    ],
-    "assertion_position": [
-      18,
-      20
-    ],
-    "sentence": "Tiền sử bệnh nội k[ENTITY]a.",
-    "assertion_result": {
-      "tag": "isHistorical"
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            118,
+            120
+        ],
+        "assertion_position": [
+            18,
+            20
+        ],
+        "sentence": "Tiền sử bệnh nội k[ENTITY]a.",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho ra máu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            141,
+            150
+        ],
+        "assertion_position": [
+            141,
+            150
+        ],
+        "sentence": "Lý do nhập viện: ho x1 ngày và kèm theo [ENTITY] cỡ đồng xu x3 đêm qua.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đồng",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            154,
+            158
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            207,
+            209
+        ],
+        "assertion_position": [
+            207,
+            209
+        ],
+        "sentence": "[ENTITY] x1 ngày.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho ra máu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            219,
+            228
+        ],
+        "assertion_position": [
+            219,
+            228
+        ],
+        "sentence": "[ENTITY] x3 đêm qua.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            285,
+            287
+        ],
+        "assertion_position": [
+            285,
+            287
+        ],
+        "sentence": "Các triệu chứng bắt đầu với [ENTITY] và mệt mỏi.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mệt mỏi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            291,
+            298
+        ],
+        "assertion_position": [
+            291,
+            298
+        ],
+        "sentence": "Các triệu chứng bắt đầu với ho và [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            331,
+            333
+        ],
+        "assertion_position": [
+            331,
+            333
+        ],
+        "sentence": "Tối qua tiến triển thành 3 cơn [ENTITY] đánh thức bệnh nhân khỏi giấc ngủ và có đờm có màu hồng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đờm có",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            374,
+            380
+        ],
+        "assertion_position": [
+            374,
+            380
+        ],
+        "sentence": "Tối qua tiến triển thành 3 cơn ho đánh thức bệnh nhân khỏi giấc ngủ và có [ENTITY] màu hồng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            415,
+            418
+        ],
+        "assertion_position": [
+            415,
+            418
+        ],
+        "sentence": "Sau đó 2 giờ, bệnh nhân [ENTITY] đến 38.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho ra máu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            455,
+            464
+        ],
+        "assertion_position": [
+            455,
+            464
+        ],
+        "sentence": "Không có thêm [ENTITY] kể từ sáng nay.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            503,
+            505
+        ],
+        "assertion_position": [
+            503,
+            505
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mệt mỏi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            507,
+            514
+        ],
+        "assertion_position": [
+            507,
+            514
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho ra máu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            516,
+            525
+        ],
+        "assertion_position": [
+            516,
+            525
+        ],
+        "sentence": "[ENTITY] cỡ đồng xu x3 đêm qua.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đồng",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            529,
+            533
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Đờm pha màu hồng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            549,
+            565
+        ],
+        "assertion_position": [
+            549,
+            565
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            584,
+            587
+        ],
+        "assertion_position": [
+            584,
+            587
+        ],
+        "sentence": "fever (trở thành [ENTITY] đến 38.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Đau bụng âm ỉ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            601,
+            614
+        ],
+        "assertion_position": [
+            601,
+            614
+        ],
+        "sentence": "[ENTITY] trong tháng qua.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "levofloxacin",
+        "type": "THUỐC",
+        "position": [
+            769,
+            781
+        ],
+        "assertion_position": [
+            769,
+            781
+        ],
+        "sentence": "Được cho dùng [ENTITY] vì nghi ngờ viêm phế quản do viêm phổi mắc phải cộng đồng ở bệnh nhân phức tạp, cùng tylenol.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "viêm phế quản",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            794,
+            807
+        ],
+        "assertion_position": [
+            794,
+            807
+        ],
+        "sentence": "Được cho dùng levofloxacin vì nghi ngờ [ENTITY] do viêm phổi mắc phải cộng đồng ở bệnh nhân phức tạp, cùng tylenol.",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "viêm phổi",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            811,
+            820
+        ],
+        "assertion_position": [
+            811,
+            820
+        ],
+        "sentence": "Được cho dùng levofloxacin vì nghi ngờ viêm phế quản do [ENTITY] mắc phải cộng đồng ở bệnh nhân phức tạp, cùng tylenol.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đồng",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            835,
+            839
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tylenol",
+        "type": "THUỐC",
+        "position": [
+            867,
+            874
+        ],
+        "assertion_position": [
+            867,
+            874
+        ],
+        "sentence": "Được cho dùng levofloxacin vì nghi ngờ viêm phế quản do viêm phổi mắc phải cộng đồng ở bệnh nhân phức tạp, cùng [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "công thức máu (cbc)",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            920,
+            939
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "11.3",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            953,
+            957
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp x-quang",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            987,
+            999
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "viêm phổi",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1021,
+            1030
+        ],
+        "assertion_position": [
+            1021,
+            1030
+        ],
+        "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực không phát hiện [ENTITY] hoặc phù phổi.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "phù phổi",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1036,
+            1044
+        ],
+        "assertion_position": [
+            1036,
+            1044
+        ],
+        "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực không phát hiện viêm phổi hoặc [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "ho ra máu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      141,
-      150
-    ],
-    "assertion_position": [
-      141,
-      150
-    ],
-    "sentence": "Lý do nhập viện: ho x1 ngày và kèm theo [ENTITY] cỡ đồng xu x3 đêm qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đồng",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      154,
-      158
-    ]
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      207,
-      209
-    ],
-    "assertion_position": [
-      207,
-      209
-    ],
-    "sentence": "[ENTITY] x1 ngày.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ho ra máu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      219,
-      228
-    ],
-    "assertion_position": [
-      219,
-      228
-    ],
-    "sentence": "[ENTITY] x3 đêm qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      285,
-      287
-    ],
-    "assertion_position": [
-      285,
-      287
-    ],
-    "sentence": "Các triệu chứng bắt đầu với [ENTITY] và mệt mỏi.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "mệt mỏi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      291,
-      298
-    ],
-    "assertion_position": [
-      291,
-      298
-    ],
-    "sentence": "Các triệu chứng bắt đầu với ho và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      331,
-      333
-    ],
-    "assertion_position": [
-      331,
-      333
-    ],
-    "sentence": "Tối qua tiến triển thành 3 cơn [ENTITY] đánh thức bệnh nhân khỏi giấc ngủ và có đờm có màu hồng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "đờm có",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      374,
-      380
-    ],
-    "assertion_position": [
-      374,
-      380
-    ],
-    "sentence": "Tối qua tiến triển thành 3 cơn ho đánh thức bệnh nhân khỏi giấc ngủ và có [ENTITY] màu hồng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      415,
-      418
-    ],
-    "assertion_position": [
-      415,
-      418
-    ],
-    "sentence": "Sau đó 2 giờ, bệnh nhân [ENTITY] đến 38.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ho ra máu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      455,
-      464
-    ],
-    "assertion_position": [
-      455,
-      464
-    ],
-    "sentence": "Không có thêm [ENTITY] kể từ sáng nay.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      503,
-      505
-    ],
-    "assertion_position": [
-      503,
-      505
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "mệt mỏi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      507,
-      514
-    ],
-    "assertion_position": [
-      507,
-      514
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "ho ra máu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      516,
-      525
-    ],
-    "assertion_position": [
-      516,
-      525
-    ],
-    "sentence": "[ENTITY] cỡ đồng xu x3 đêm qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đồng",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      529,
-      533
-    ]
-  },
-  {
-    "text": "Đờm pha màu hồng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      549,
-      565
-    ],
-    "assertion_position": [
-      549,
-      565
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      584,
-      587
-    ],
-    "assertion_position": [
-      584,
-      587
-    ],
-    "sentence": "fever (trở thành [ENTITY] đến 38.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Đau bụng âm ỉ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      601,
-      614
-    ],
-    "assertion_position": [
-      601,
-      614
-    ],
-    "sentence": "[ENTITY] trong tháng qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "levofloxacin",
-    "type": "THUỐC",
-    "position": [
-      769,
-      781
-    ],
-    "assertion_position": [
-      769,
-      781
-    ],
-    "sentence": "Được cho dùng [ENTITY] vì nghi ngờ viêm phế quản do viêm phổi mắc phải cộng đồng ở bệnh nhân phức tạp, cùng tylenol.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "viêm phế quản",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      794,
-      807
-    ],
-    "assertion_position": [
-      794,
-      807
-    ],
-    "sentence": "Được cho dùng levofloxacin vì nghi ngờ [ENTITY] do viêm phổi mắc phải cộng đồng ở bệnh nhân phức tạp, cùng tylenol.",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "viêm phổi",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      811,
-      820
-    ],
-    "assertion_position": [
-      811,
-      820
-    ],
-    "sentence": "Được cho dùng levofloxacin vì nghi ngờ viêm phế quản do [ENTITY] mắc phải cộng đồng ở bệnh nhân phức tạp, cùng tylenol.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đồng",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      835,
-      839
-    ]
-  },
-  {
-    "text": "tylenol",
-    "type": "THUỐC",
-    "position": [
-      867,
-      874
-    ],
-    "assertion_position": [
-      867,
-      874
-    ],
-    "sentence": "Được cho dùng levofloxacin vì nghi ngờ viêm phế quản do viêm phổi mắc phải cộng đồng ở bệnh nhân phức tạp, cùng [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "công thức máu (cbc)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      920,
-      939
-    ]
-  },
-  {
-    "text": "11.3",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      953,
-      957
-    ]
-  },
-  {
-    "text": "chụp x-quang",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      987,
-      999
-    ]
-  },
-  {
-    "text": "viêm phổi",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1021,
-      1030
-    ],
-    "assertion_position": [
-      1021,
-      1030
-    ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực không phát hiện [ENTITY] hoặc phù phổi.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "phù phổi",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1036,
-      1044
-    ],
-    "assertion_position": [
-      1036,
-      1044
-    ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực không phát hiện viêm phổi hoặc [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  }
 ]

@@ -1,68 +1,80 @@
 [
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      40,
-      43
-    ],
-    "assertion_position": [
-      40,
-      43
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY], đau quanh vết mổ.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            40,
+            43
+        ],
+        "assertion_position": [
+            40,
+            43
+        ],
+        "sentence": "Lý do nhập viện: [ENTITY], đau quanh vết mổ.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau quanh vết mổ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      45,
-      61
-    ],
-    "assertion_position": [
-      45,
-      61
-    ],
-    "sentence": "Lý do nhập viện: sốt, [ENTITY].",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "đau quanh vết mổ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            45,
+            61
+        ],
+        "assertion_position": [
+            45,
+            61
+        ],
+        "sentence": "Lý do nhập viện: sốt, [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      85,
-      88
-    ],
-    "assertion_position": [
-      85,
-      88
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            85,
+            88
+        ],
+        "assertion_position": [
+            85,
+            88
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau quanh vết mổ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            90,
+            106
+        ],
+        "assertion_position": [
+            90,
+            106
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "đau quanh vết mổ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      90,
-      106
-    ],
-    "assertion_position": [
-      90,
-      106
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  }
 ]

@@ -20,7 +20,34 @@
       "Hoarseness",
       "H/o",
       "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R490": 0.692303,
+        "R061": 0.651637,
+        "R491": 0.619986,
+        "Z9289": 0.607304,
+        "R4702": 0.601632
+      },
+      "rapidfuzz": {
+        "J941": 0.9,
+        "J942": 0.9,
+        "K653": 0.9,
+        "Z6741": 0.855,
+        "Z6740": 0.855,
+        "R058": 0.855,
+        "A001": 0.855,
+        "A0819": 0.855,
+        "A0811": 0.855,
+        "N3942": 0.741176,
+        "R404": 0.741176,
+        "R419": 0.741176
+      }
+    },
+    "candidate": {
+      "code": "R490",
+      "confidence": 0.623073
+    }
   },
   {
     "text": "đái tháo đường",
@@ -41,7 +68,28 @@
     "eng_translation": [
       "Diabetes mellitus",
       "Type 2 diabetes"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.84212,
+        "O24119": 0.714028,
+        "R7303": 0.712752,
+        "Z833": 0.710006,
+        "E119": 0.708696
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "O2412": 0.9,
+        "O24111": 0.9,
+        "O24112": 0.9
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.757908
+    }
   },
   {
     "text": "tăng huyết áp",
@@ -61,7 +109,28 @@
     "eng_translation": [
       "Hypertension",
       "Essential Hypertension"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
+    }
   },
   {
     "text": "béo phì",
@@ -81,7 +150,28 @@
     "eng_translation": [
       "Obesity",
       "Excess body weight"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E669": 0.985618,
+        "E663": 0.883644,
+        "E66811": 0.865016,
+        "E66813": 0.861392,
+        "E66812": 0.832182
+      },
+      "rapidfuzz": {
+        "E8882": 0.9,
+        "O99211": 0.9,
+        "Z152": 0.9,
+        "S81832D": 0.855,
+        "H02814": 0.855,
+        "H02813": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E669",
+      "confidence": 0.887056
+    }
   },
   {
     "text": "ngưng thở",
@@ -101,7 +191,12 @@
     "qwen_assertion": null,
     "eng_translation": [
       "Apnea"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tylenol",
@@ -122,7 +217,30 @@
       "Tylenol",
       "Acetaminophen toxicity",
       "Acetaminophen"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "202433",
+      "confidence": 1.0
+    }
   },
   {
     "text": "mucinex d",
@@ -144,7 +262,32 @@
       "Mucinex D is a combination medication containing dextromethorphan and guaifenesin. It is used for the temporary relief of cough and chest congestion. Dextromethorphan is a cough suppressant, while guaifenesin is an expectorant that helps loosen mucus in the airways. It is typically used for acute respiratory conditions such as the common cold, bronchitis, or other upper respiratory infections. The medication is available over-the-counter and is generally considered safe when used as directed. It is not intended for long-term use and should be avoided in individuals with certain medical conditions or those taking specific medications that may interact with its components.",
       "Mucinex with Decongestant",
       "Mucinex with Dextromethorphan and Guaifenesin"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "2388175": 1.0,
+        "352777": 0.891874,
+        "2641119": 0.889896,
+        "2591192": 0.866885,
+        "2383054": 0.862323
+      },
+      "rapidfuzz": {
+        "352777": 0.95,
+        "5032": 0.9,
+        "3289": 0.9,
+        "1011087": 0.855,
+        "1011086": 0.855,
+        "2662811": 0.855,
+        "2655069": 0.855,
+        "2646650": 0.855,
+        "1101349": 0.855,
+        "1998458": 0.855
+      }
+    },
+    "candidate": {
+      "code": "2388175",
+      "confidence": 0.9
+    }
   },
   {
     "text": "tiêu chảy",
@@ -164,7 +307,12 @@
     "eng_translation": [
       "Diarrhea",
       "Watery Stool"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
@@ -187,7 +335,12 @@
       "Hoarseness",
       "H/o",
       "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thiếu",
@@ -207,7 +360,12 @@
     "qwen_assertion": null,
     "eng_translation": [
       "missing"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
@@ -229,7 +387,12 @@
       "Hoarseness",
       "H/o",
       "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nghẹt ngực",
@@ -249,7 +412,12 @@
     "eng_translation": [
       "chest tightness",
       "Chest discomfort"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -270,7 +438,12 @@
     "eng_translation": [
       "Dyspnea",
       "Shortness of breath"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -291,7 +464,12 @@
     "eng_translation": [
       "Dyspnea",
       "Shortness of breath"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
@@ -310,7 +488,12 @@
     },
     "eng_translation": [
       "fatigue"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
@@ -329,7 +512,12 @@
     },
     "eng_translation": [
       "fatigue"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -350,7 +538,12 @@
     "eng_translation": [
       "Fever",
       "Pyrexia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu",
@@ -370,7 +563,28 @@
     "eng_translation": [
       "No translation provided. The input text is incomplete or non-medical.",
       "The input text is incomplete or non-medical."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R467": 0.608884,
+        "G3184": 0.56488,
+        "R922": 0.544529,
+        "Z289": 0.539153,
+        "Z5971": 0.534412
+      },
+      "rapidfuzz": {
+        "Z130": 0.855,
+        "V179XXS": 0.855,
+        "V179XXD": 0.855,
+        "V501XXD": 0.855,
+        "S7225XM": 0.855,
+        "T81320A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "R467",
+      "confidence": 0.547996
+    }
   },
   {
     "text": "chảy",
@@ -390,7 +604,12 @@
     "eng_translation": [
       "bleeding",
       "Hemorrhage"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đi tiểu",
@@ -411,7 +630,12 @@
     "eng_translation": [
       "urination",
       "Urinary elimination"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau buốt khi",
@@ -431,7 +655,12 @@
     "eng_translation": [
       "pain when",
       "pain when swallowing"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiểu",
@@ -452,7 +681,12 @@
     "eng_translation": [
       "urine",
       "urine sample"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -473,7 +707,12 @@
     "eng_translation": [
       "Dyspnea",
       "Shortness of breath"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho",
@@ -496,7 +735,12 @@
       "Hoarseness",
       "H/o",
       "Ho is an abbreviation for \"Hoarse\" or \"Honey\" depending on context, but in a medical query, it is most commonly \"Hoarse.\" However, since the query is too short to determine the exact meaning, the original query is returned unchanged."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -517,7 +761,12 @@
     "eng_translation": [
       "Fever",
       "Pyrexia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -538,7 +787,12 @@
     "eng_translation": [
       "Fever",
       "Pyrexia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu",
@@ -559,7 +813,28 @@
     "eng_translation": [
       "No translation provided. The input text is incomplete or non-medical.",
       "The input text is incomplete or non-medical."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R467": 0.608884,
+        "G3184": 0.56488,
+        "R922": 0.544529,
+        "Z289": 0.539153,
+        "Z5971": 0.534412
+      },
+      "rapidfuzz": {
+        "Z130": 0.855,
+        "V179XXS": 0.855,
+        "V179XXD": 0.855,
+        "V501XXD": 0.855,
+        "S7225XM": 0.855,
+        "T81320A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "R467",
+      "confidence": 0.547996
+    }
   },
   {
     "text": "chảy",
@@ -580,7 +855,12 @@
     "eng_translation": [
       "bleeding",
       "Hemorrhage"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
@@ -600,7 +880,12 @@
     "eng_translation": [
       "chest pain",
       "Cardiac chest pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -620,7 +905,12 @@
     "eng_translation": [
       "nausea",
       "Gastrointestinal distress"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -640,7 +930,12 @@
     "eng_translation": [
       "vomiting",
       "Nausea and vomiting"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đổ mồ hôi đêm",
@@ -660,7 +955,12 @@
     "eng_translation": [
       "night sweats",
       "Nocturnal sweats"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -680,7 +980,12 @@
     "eng_translation": [
       "Dyspnea",
       "Shortness of breath"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -700,7 +1005,12 @@
     "eng_translation": [
       "Dyspnea",
       "Shortness of breath"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "giãn phế quản",
@@ -720,7 +1030,28 @@
     "eng_translation": [
       "Bronchial dilation",
       "Bronchiectasis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q334": 0.83292,
+        "J479": 0.819164,
+        "J471": 0.697708,
+        "J470": 0.693079,
+        "J9811": 0.653934
+      },
+      "rapidfuzz": {
+        "Q334": 0.9,
+        "J479": 0.9,
+        "J471": 0.9,
+        "Q2544": 0.855,
+        "Q87410": 0.855,
+        "J4481": 0.66
+      }
+    },
+    "candidate": {
+      "code": "Q334",
+      "confidence": 0.839628
+    }
   },
   {
     "text": "azithromycin",
@@ -739,7 +1070,22 @@
     },
     "eng_translation": [
       "azithromycin"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "18631": 1.0,
+        "672606": 0.954285
+      },
+      "rapidfuzz": {
+        "18631": 1.0,
+        "1155012": 0.95,
+        "315450": 0.9
+      }
+    },
+    "candidate": {
+      "code": "18631",
+      "confidence": 1.0
+    }
   },
   {
     "text": "tylenol",
@@ -761,7 +1107,30 @@
       "Tylenol",
       "Acetaminophen toxicity",
       "Acetaminophen"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "707705": 0.97086,
+        "352523": 0.894457,
+        "220582": 0.889741
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "161": 1.0,
+        "220581": 0.95,
+        "315270": 0.95,
+        "332815": 0.95,
+        "209459": 0.9,
+        "2662988": 0.855,
+        "1996081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "202433",
+      "confidence": 1.0
+    }
   },
   {
     "text": "mucinex d",
@@ -784,7 +1153,32 @@
       "Mucinex D is a combination medication containing dextromethorphan and guaifenesin. It is used for the temporary relief of cough and chest congestion. Dextromethorphan is a cough suppressant, while guaifenesin is an expectorant that helps loosen mucus in the airways. It is typically used for acute respiratory conditions such as the common cold, bronchitis, or other upper respiratory infections. The medication is available over-the-counter and is generally considered safe when used as directed. It is not intended for long-term use and should be avoided in individuals with certain medical conditions or those taking specific medications that may interact with its components.",
       "Mucinex with Decongestant",
       "Mucinex with Dextromethorphan and Guaifenesin"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "2388175": 1.0,
+        "352777": 0.891874,
+        "2641119": 0.889896,
+        "2591192": 0.866885,
+        "2383054": 0.862323
+      },
+      "rapidfuzz": {
+        "352777": 0.95,
+        "5032": 0.9,
+        "3289": 0.9,
+        "1011087": 0.855,
+        "1011086": 0.855,
+        "2662811": 0.855,
+        "2655069": 0.855,
+        "2646650": 0.855,
+        "1101349": 0.855,
+        "1998458": 0.855
+      }
+    },
+    "candidate": {
+      "code": "2388175",
+      "confidence": 0.9
+    }
   },
   {
     "text": "spo2",
@@ -797,7 +1191,12 @@
       "SpO₂",
       "Oxygen saturation",
       "Oxygen saturation in arterial blood"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "90",
@@ -808,7 +1207,12 @@
     ],
     "eng_translation": [
       "90"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "số lượng bạch cầu",
@@ -819,7 +1223,12 @@
     ],
     "eng_translation": [
       "White blood cell count"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "12.5",
@@ -830,7 +1239,12 @@
     ],
     "eng_translation": [
       "12.5"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tổng phân tích nước tiểu",
@@ -842,7 +1256,12 @@
     "eng_translation": [
       "Urinalysis summary",
       "Urinalysis results summary"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "troponin",
@@ -855,7 +1274,12 @@
       "troponin",
       "Troponin elevation",
       "Cardiac troponin"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp x-quang",
@@ -867,7 +1291,12 @@
     "eng_translation": [
       "X-ray imaging",
       "Radiographic imaging"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm phổi thùy dưới phải",
@@ -888,6 +1317,27 @@
     "eng_translation": [
       "right lower lobe pneumonia",
       "right lower lobe infection"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "B0681": 0.69301,
+        "J22": 0.691842,
+        "J181": 0.687599,
+        "M60003": 0.678122,
+        "A159": 0.669111
+      },
+      "rapidfuzz": {
+        "M61331": 0.855,
+        "T2631XD": 0.855,
+        "T2631XA": 0.855,
+        "S72456M": 0.855,
+        "S59201G": 0.855,
+        "S59201K": 0.855
+      }
+    },
+    "candidate": {
+      "code": "B0681",
+      "confidence": 0.623709
+    }
   }
 ]

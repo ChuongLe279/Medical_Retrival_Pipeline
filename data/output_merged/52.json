@@ -1,145 +1,172 @@
 [
-  {
-    "text": "ung thư đường mật",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      161,
-      178
-    ],
-    "assertion_position": [
-      161,
-      178
-    ],
-    "sentence": "Đã phẫu thuật nối ống gan - hỗng tràng vì nghi ngờ [ENTITY] không thể cắt bỏ.",
-    "assertion_result": {
-      "tag": "isUncertain"
+    {
+        "text": "ung thư đường mật",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            161,
+            178
+        ],
+        "assertion_position": [
+            161,
+            178
+        ],
+        "sentence": "Đã phẫu thuật nối ống gan - hỗng tràng vì nghi ngờ [ENTITY] không thể cắt bỏ.",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "run rẩy",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            364,
+            371
+        ],
+        "assertion_position": [
+            364,
+            371
+        ],
+        "sentence": "Triệu chứng hiện tại: [ENTITY] kèm sốt kèm theo sốt.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            376,
+            379
+        ],
+        "assertion_position": [
+            376,
+            379
+        ],
+        "sentence": "Triệu chứng hiện tại: run rẩy kèm [ENTITY] kèm theo sốt.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            389,
+            392
+        ],
+        "assertion_position": [
+            389,
+            392
+        ],
+        "sentence": "Triệu chứng hiện tại: run rẩy kèm sốt kèm theo [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            448,
+            451
+        ],
+        "assertion_position": [
+            448,
+            451
+        ],
+        "sentence": "Gần đây nhập viện vì [ENTITY] và các ổ dịch trong ổ bụng được cho là áp xe.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "áp xe",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            491,
+            496
+        ],
+        "assertion_position": [
+            491,
+            496
+        ],
+        "sentence": "Gần đây nhập viện vì sốt và các ổ dịch trong ổ bụng được cho là [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Augmentin",
+        "type": "THUỐC",
+        "position": [
+            575,
+            584
+        ],
+        "assertion_position": [
+            575,
+            584
+        ],
+        "sentence": "Ra viện với đơn [ENTITY] đường uống trong 10 ngày.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp cộng hưởng từ",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            732,
+            750
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nang tụy",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            775,
+            783
+        ],
+        "assertion_position": [
+            775,
+            783
+        ],
+        "sentence": "mrcp (chụp cộng hưởng từ mật tụy) cho thấy nhiều [ENTITY] nhỏ.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "run rẩy",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      364,
-      371
-    ],
-    "assertion_position": [
-      364,
-      371
-    ],
-    "sentence": "Triệu chứng hiện tại: [ENTITY] kèm sốt kèm theo sốt.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      376,
-      379
-    ],
-    "assertion_position": [
-      376,
-      379
-    ],
-    "sentence": "Triệu chứng hiện tại: run rẩy kèm [ENTITY] kèm theo sốt.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      389,
-      392
-    ],
-    "assertion_position": [
-      389,
-      392
-    ],
-    "sentence": "Triệu chứng hiện tại: run rẩy kèm sốt kèm theo [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      448,
-      451
-    ],
-    "assertion_position": [
-      448,
-      451
-    ],
-    "sentence": "Gần đây nhập viện vì [ENTITY] và các ổ dịch trong ổ bụng được cho là áp xe.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "áp xe",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      491,
-      496
-    ],
-    "assertion_position": [
-      491,
-      496
-    ],
-    "sentence": "Gần đây nhập viện vì sốt và các ổ dịch trong ổ bụng được cho là [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Augmentin",
-    "type": "THUỐC",
-    "position": [
-      575,
-      584
-    ],
-    "assertion_position": [
-      575,
-      584
-    ],
-    "sentence": "Ra viện với đơn [ENTITY] đường uống trong 10 ngày.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "chụp cộng hưởng từ",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      732,
-      750
-    ]
-  },
-  {
-    "text": "nang tụy",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      775,
-      783
-    ],
-    "assertion_position": [
-      775,
-      783
-    ],
-    "sentence": "mrcp (chụp cộng hưởng từ mật tụy) cho thấy nhiều [ENTITY] nhỏ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  }
 ]

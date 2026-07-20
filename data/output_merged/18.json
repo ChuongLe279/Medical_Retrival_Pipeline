@@ -1,185 +1,221 @@
 [
-  {
-    "text": "Thuyên tắc tĩnh mạch sâu chi dưới",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      56,
-      89
-    ],
-    "assertion_position": [
-      56,
-      89
-    ],
-    "sentence": "Các bệnh mãn tính: nữ, nhiều lần [ENTITY] ở chân trái.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "Thuyên tắc tĩnh mạch sâu chi dưới",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            56,
+            89
+        ],
+        "assertion_position": [
+            56,
+            89
+        ],
+        "sentence": "Các bệnh mãn tính: nữ, nhiều lần [ENTITY] ở chân trái.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau ngực trái cấp",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      143,
-      160
-    ],
-    "assertion_position": [
-      143,
-      160
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY] tính và đau sau xương ức lan ra sau lưng.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "đau ngực trái cấp",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            143,
+            160
+        ],
+        "assertion_position": [
+            143,
+            160
+        ],
+        "sentence": "Lý do nhập viện: [ENTITY] tính và đau sau xương ức lan ra sau lưng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau sau xương ức lan ra sau lưng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      169,
-      201
-    ],
-    "assertion_position": [
-      169,
-      201
-    ],
-    "sentence": "Lý do nhập viện: đau ngực trái cấp tính và [ENTITY].",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "đau sau xương ức lan ra sau lưng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            169,
+            201
+        ],
+        "assertion_position": [
+            169,
+            201
+        ],
+        "sentence": "Lý do nhập viện: đau ngực trái cấp tính và [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau ngực trái",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      268,
-      281
-    ],
-    "assertion_position": [
-      268,
-      281
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
+    {
+        "text": "đau ngực trái",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            268,
+            281
+        ],
+        "assertion_position": [
+            268,
+            281
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau sau xương ức",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            283,
+            299
+        ],
+        "assertion_position": [
+            283,
+            299
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau lan ra sau lưng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            301,
+            320
+        ],
+        "assertion_position": [
+            301,
+            320
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau ngực lan ra sau lưng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            367,
+            391
+        ],
+        "assertion_position": [
+            367,
+            391
+        ],
+        "sentence": "Tình trạng ngay trước khi nhập viện: Vẫn còn [ENTITY] khi đến.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp cắt lớp vi tính",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            443,
+            463
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "thuyên tắc mạch phổi",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            555,
+            575
+        ],
+        "assertion_position": [
+            555,
+            575
+        ],
+        "sentence": "Kết quả chụp ảnh: chụp cắt lớp vi tính mạch máu (ctma) ngực được thực hiện để đánh giá tắc mạch phổi, kết quả Không thấy hình ảnh [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bóc tách động mạch chủ",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            598,
+            620
+        ],
+        "assertion_position": [
+            598,
+            620
+        ],
+        "sentence": "Phát hiện tổn thương [ENTITY] Stanford loại B.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp cắt lớp vi tính",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            666,
+            686
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bóc tách động mạch chủ",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            754,
+            776
+        ],
+        "assertion_position": [
+            754,
+            776
+        ],
+        "sentence": "Các phát hiện chẩn đoán khác: [ENTITY] loại B.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "đau sau xương ức",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      283,
-      299
-    ],
-    "assertion_position": [
-      283,
-      299
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "đau lan ra sau lưng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      301,
-      320
-    ],
-    "assertion_position": [
-      301,
-      320
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "đau ngực lan ra sau lưng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      367,
-      391
-    ],
-    "assertion_position": [
-      367,
-      391
-    ],
-    "sentence": "Tình trạng ngay trước khi nhập viện: Vẫn còn [ENTITY] khi đến.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "chụp cắt lớp vi tính",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      443,
-      463
-    ]
-  },
-  {
-    "text": "thuyên tắc mạch phổi",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      555,
-      575
-    ],
-    "assertion_position": [
-      555,
-      575
-    ],
-    "sentence": "Kết quả chụp ảnh: chụp cắt lớp vi tính mạch máu (ctma) ngực được thực hiện để đánh giá tắc mạch phổi, kết quả Không thấy hình ảnh [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "bóc tách động mạch chủ",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      598,
-      620
-    ],
-    "assertion_position": [
-      598,
-      620
-    ],
-    "sentence": "Phát hiện tổn thương [ENTITY] Stanford loại B.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "chụp cắt lớp vi tính",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      666,
-      686
-    ]
-  },
-  {
-    "text": "bóc tách động mạch chủ",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      754,
-      776
-    ],
-    "assertion_position": [
-      754,
-      776
-    ],
-    "sentence": "Các phát hiện chẩn đoán khác: [ENTITY] loại B.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  }
 ]

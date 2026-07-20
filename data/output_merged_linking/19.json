@@ -18,7 +18,28 @@
     "eng_translation": [
       "Non-small cell lung cancer",
       "Lung adenocarcinoma"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C220": 0.663093,
+        "C7800": 0.573703,
+        "C3490": 0.546832,
+        "C228": 0.537541,
+        "C229": 0.532087
+      },
+      "rapidfuzz": {
+        "C9502": 0.855,
+        "I69953": 0.855,
+        "W44G0XD": 0.855,
+        "Z983": 0.855,
+        "Z85110": 0.855,
+        "T8639": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C220",
+      "confidence": 0.596784
+    }
   },
   {
     "text": "Tắc",
@@ -39,7 +60,28 @@
     "eng_translation": [
       "Obstruction",
       "Obstructive disorder"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "O669": 0.671738,
+        "N139": 0.637633,
+        "K56609": 0.633407,
+        "J449": 0.607336,
+        "K56601": 0.603914
+      },
+      "rapidfuzz": {
+        "H68129": 0.9,
+        "H68131": 0.9,
+        "H68132": 0.9,
+        "N289": 0.855,
+        "N509": 0.855,
+        "J349": 0.855
+      }
+    },
+    "candidate": {
+      "code": "O669",
+      "confidence": 0.604564
+    }
   },
   {
     "text": "SVC",
@@ -52,7 +94,12 @@
       "SVC",
       "Superior Vena Cava Syndrome",
       "Superior Vena Cava"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tăng huyết áp",
@@ -72,7 +119,28 @@
     "eng_translation": [
       "Hypertension",
       "Essential Hypertension"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
+    }
   },
   {
     "text": "Sa",
@@ -85,7 +153,12 @@
       "SA",
       "Subarachnoid hemorrhage",
       "Sudden Arrhythmia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Sa van hai lá",
@@ -105,7 +178,28 @@
     "eng_translation": [
       "Mitral stenosis",
       "Mitral valve stenosis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I050": 0.845615,
+        "Q232": 0.81762,
+        "I342": 0.805097,
+        "I051": 0.772051,
+        "I052": 0.748835
+      },
+      "rapidfuzz": {
+        "Q232": 0.9,
+        "I052": 0.9,
+        "I050": 0.9,
+        "I342": 0.9,
+        "T82222A": 0.855,
+        "T82858S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I050",
+      "confidence": 0.851054
+    }
   },
   {
     "text": "vicodin",
@@ -128,7 +222,32 @@
       "Vicodin is a brand name for a combination medication containing hydrocodone and acetaminophen, used for the relief of moderate to severe pain. It is an opioid analgesic and is typically prescribed for short-term use due to the risk of dependence and potential for liver damage from acetaminophen.",
       "Acetaminophen with codeine",
       "Hydrocodone and Acetaminophen"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "128793": 1.0,
+        "2672835": 0.967589,
+        "817579": 0.95938,
+        "214182": 0.955657,
+        "220822": 0.890161
+      },
+      "rapidfuzz": {
+        "817579": 0.95,
+        "214182": 0.95,
+        "2656712": 0.9,
+        "161": 0.9,
+        "2670": 0.9,
+        "5489": 0.9,
+        "966747": 0.855,
+        "2657134": 0.855,
+        "1791560": 0.855,
+        "2655124": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "817579",
+      "confidence": 0.958442
+    }
   },
   {
     "text": "đau bẹn trái",
@@ -149,7 +268,12 @@
     "eng_translation": [
       "Left groin pain",
       "Left inguinal pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
@@ -169,7 +293,12 @@
     "qwen_assertion": "isHistorical",
     "eng_translation": [
       "pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
@@ -189,7 +318,12 @@
     "qwen_assertion": null,
     "eng_translation": [
       "pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
@@ -208,7 +342,12 @@
     },
     "eng_translation": [
       "pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bẹn trái",
@@ -229,7 +368,12 @@
     "eng_translation": [
       "Left groin pain",
       "Left inguinal pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau dữ dội",
@@ -249,7 +393,12 @@
     "qwen_assertion": null,
     "eng_translation": [
       "severe pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vicodin",
@@ -272,7 +421,32 @@
       "Vicodin is a brand name for a combination medication containing hydrocodone and acetaminophen, used for the relief of moderate to severe pain. It is an opioid analgesic and is typically prescribed for short-term use due to the risk of dependence and potential for liver damage from acetaminophen.",
       "Acetaminophen with codeine",
       "Hydrocodone and Acetaminophen"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "128793": 1.0,
+        "2672835": 0.967589,
+        "817579": 0.95938,
+        "214182": 0.955657,
+        "220822": 0.890161
+      },
+      "rapidfuzz": {
+        "817579": 0.95,
+        "214182": 0.95,
+        "2656712": 0.9,
+        "161": 0.9,
+        "2670": 0.9,
+        "5489": 0.9,
+        "966747": 0.855,
+        "2657134": 0.855,
+        "1791560": 0.855,
+        "2655124": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "817579",
+      "confidence": 0.958442
+    }
   },
   {
     "text": "tê",
@@ -293,7 +467,12 @@
     "eng_translation": [
       "numbness",
       "Loss of sensation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cảm giác châm chích",
@@ -314,7 +493,12 @@
     "eng_translation": [
       "tingling sensation",
       "paresthesia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu",
@@ -335,7 +519,12 @@
     "eng_translation": [
       "weak",
       "Weakness"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cảm giác nặng ở chân trái",
@@ -357,7 +546,12 @@
       "feeling of heaviness in the left foot",
       "Heaviness in the left foot",
       "Left foot heaviness sensation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vicodin",
@@ -380,7 +574,32 @@
       "Vicodin is a brand name for a combination medication containing hydrocodone and acetaminophen, used for the relief of moderate to severe pain. It is an opioid analgesic and is typically prescribed for short-term use due to the risk of dependence and potential for liver damage from acetaminophen.",
       "Acetaminophen with codeine",
       "Hydrocodone and Acetaminophen"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "128793": 1.0,
+        "2672835": 0.967589,
+        "817579": 0.95938,
+        "214182": 0.955657,
+        "220822": 0.890161
+      },
+      "rapidfuzz": {
+        "817579": 0.95,
+        "214182": 0.95,
+        "2656712": 0.9,
+        "161": 0.9,
+        "2670": 0.9,
+        "5489": 0.9,
+        "966747": 0.855,
+        "2657134": 0.855,
+        "1791560": 0.855,
+        "2655124": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "817579",
+      "confidence": 0.958442
+    }
   },
   {
     "text": "Bầm máu vùng bẹn trái",
@@ -402,6 +621,11 @@
       "Ecchymosis in the left groin area",
       "Ecchymosis of the left groin area",
       "Bruising in the left groin area"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

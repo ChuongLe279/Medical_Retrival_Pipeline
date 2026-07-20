@@ -1,481 +1,598 @@
 [
-  {
-    "text": "Tăng huyết áp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      37,
-      50
-    ],
-    "assertion_position": [
-      37,
-      50
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
+    {
+        "text": "Tăng huyết áp",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            37,
+            50
+        ],
+        "assertion_position": [
+            37,
+            50
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Đái tháo đường",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            52,
+            66
+        ],
+        "assertion_position": [
+            52,
+            66
+        ],
+        "sentence": "[ENTITY], có biến chứng bệnh lý thần kinh ngoại biên.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Suy tim",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            112,
+            119
+        ],
+        "assertion_position": [
+            112,
+            119
+        ],
+        "sentence": "[ENTITY] không do thiếu máu cơ tim (theo chẩn đoán trước đây).",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "thiếu máu cơ tim",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            129,
+            145
+        ],
+        "assertion_position": [
+            129,
+            145
+        ],
+        "sentence": "Suy tim không do [ENTITY] (theo chẩn đoán trước đây).",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Bệnh thận mạn tính",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            174,
+            192
+        ],
+        "assertion_position": [
+            174,
+            192
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Torsemide",
+        "type": "THUỐC",
+        "position": [
+            221,
+            230
+        ],
+        "assertion_position": [
+            221,
+            230
+        ],
+        "sentence": "[ENTITY]: uống 1 viên/ngày, đôi khi 2 viên/ngày.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Insulin glargine",
+        "type": "THUỐC",
+        "position": [
+            271,
+            287
+        ],
+        "assertion_position": [
+            271,
+            287
+        ],
+        "sentence": "[ENTITY]: theo đơn 100 đơn vị x 2 lần/ngày, hiện đã ngừng sử dụng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Crestor",
+        "type": "THUỐC",
+        "position": [
+            416,
+            423
+        ],
+        "assertion_position": [
+            416,
+            423
+        ],
+        "sentence": "Rosuvastatin ([ENTITY]): đã hết thuốc khoảng 3 tuần trước nhập viện.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Carvedilol",
+        "type": "THUỐC",
+        "position": [
+            470,
+            480
+        ],
+        "assertion_position": [
+            470,
+            480
+        ],
+        "sentence": "[ENTITY]: đã hết thuốc khoảng 3 tuần trước nhập viện.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "kali",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            590,
+            594
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Creatinine",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            602,
+            612
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Torsemide",
+        "type": "THUỐC",
+        "position": [
+            735,
+            744
+        ],
+        "assertion_position": [
+            735,
+            744
+        ],
+        "sentence": "Báo cáo đang dùng 1 viên [ENTITY]/ ngày , đôi khi 2 viên.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "torsemide",
+        "type": "THUỐC",
+        "position": [
+            798,
+            807
+        ],
+        "assertion_position": [
+            798,
+            807
+        ],
+        "sentence": "Bác sĩ đề nghị ngừng sử dụng [ENTITY] lâu dài.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đường huyết",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            842,
+            853
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "glucose",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            901,
+            908
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "crestor",
+        "type": "THUỐC",
+        "position": [
+            1039,
+            1046
+        ],
+        "assertion_position": [
+            1039,
+            1046
+        ],
+        "sentence": "Các loại thuốc (isosorbide, [ENTITY], carvedilol) đã hết khi đi khám PCP.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "carvedilol",
+        "type": "THUỐC",
+        "position": [
+            1048,
+            1058
+        ],
+        "assertion_position": [
+            1048,
+            1058
+        ],
+        "sentence": "Các loại thuốc (isosorbide, crestor, [ENTITY]) đã hết khi đi khám PCP.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "crestor",
+        "type": "THUỐC",
+        "position": [
+            1100,
+            1107
+        ],
+        "assertion_position": [
+            1100,
+            1107
+        ],
+        "sentence": "Hết isosorbide, [ENTITY], carvedilol khoảng 3 tuần trước.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "carvedilol",
+        "type": "THUỐC",
+        "position": [
+            1109,
+            1119
+        ],
+        "assertion_position": [
+            1109,
+            1119
+        ],
+        "sentence": "Hết isosorbide, crestor, [ENTITY] khoảng 3 tuần trước.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "kali",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1190,
+            1194
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "6.3",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1198,
+            1201
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "kali",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1337,
+            1341
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "6.3",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1342,
+            1345
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "kali (k)",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1366,
+            1374
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ure (bun)",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1378,
+            1387
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "83",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1388,
+            1390
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "creatinine",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1392,
+            1402
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "5.7",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1403,
+            1406
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "hemoglobin",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1408,
+            1418
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "7.8",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1419,
+            1422
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bnp",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1435,
+            1438
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "21,000",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1439,
+            1445
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tổng phân tích nước tiểu",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1447,
+            1471
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp x-quang",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1526,
+            1538
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tràn dịch màng phổi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1575,
+            1594
+        ],
+        "assertion_position": [
+            1575,
+            1594
+        ],
+        "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, [ENTITY] hai bên nhẹ, tim to.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tim to",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1608,
+            1614
+        ],
+        "assertion_position": [
+            1608,
+            1614
+        ],
+        "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "dextrose",
+        "type": "THUỐC",
+        "position": [
+            1665,
+            1673
+        ],
+        "assertion_position": [
+            1665,
+            1673
+        ],
+        "sentence": "Được dùng insulin và [ENTITY] cho tăng kali máu.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "kali",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1683,
+            1687
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "lasix 40 mg once",
+        "type": "THUỐC",
+        "position": [
+            1696,
+            1712
+        ],
+        "assertion_position": [
+            1696,
+            1712
+        ],
+        "sentence": "iv [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "Đái tháo đường",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      52,
-      66
-    ],
-    "assertion_position": [
-      52,
-      66
-    ],
-    "sentence": "[ENTITY], có biến chứng bệnh lý thần kinh ngoại biên.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Suy tim",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      112,
-      119
-    ],
-    "assertion_position": [
-      112,
-      119
-    ],
-    "sentence": "[ENTITY] không do thiếu máu cơ tim (theo chẩn đoán trước đây).",
-    "assertion_result": {
-      "tag": "isHistorical"
-    }
-  },
-  {
-    "text": "thiếu máu cơ tim",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      129,
-      145
-    ],
-    "assertion_position": [
-      129,
-      145
-    ],
-    "sentence": "Suy tim không do [ENTITY] (theo chẩn đoán trước đây).",
-    "assertion_result": {
-      "tag": "isHistorical"
-    }
-  },
-  {
-    "text": "Bệnh thận mạn tính",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      174,
-      192
-    ],
-    "assertion_position": [
-      174,
-      192
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "Torsemide",
-    "type": "THUỐC",
-    "position": [
-      221,
-      230
-    ],
-    "assertion_position": [
-      221,
-      230
-    ],
-    "sentence": "[ENTITY]: uống 1 viên/ngày, đôi khi 2 viên/ngày.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Insulin glargine",
-    "type": "THUỐC",
-    "position": [
-      271,
-      287
-    ],
-    "assertion_position": [
-      271,
-      287
-    ],
-    "sentence": "[ENTITY]: theo đơn 100 đơn vị x 2 lần/ngày, hiện đã ngừng sử dụng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "Crestor",
-    "type": "THUỐC",
-    "position": [
-      416,
-      423
-    ],
-    "assertion_position": [
-      416,
-      423
-    ],
-    "sentence": "Rosuvastatin ([ENTITY]): đã hết thuốc khoảng 3 tuần trước nhập viện.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "Carvedilol",
-    "type": "THUỐC",
-    "position": [
-      470,
-      480
-    ],
-    "assertion_position": [
-      470,
-      480
-    ],
-    "sentence": "[ENTITY]: đã hết thuốc khoảng 3 tuần trước nhập viện.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "kali",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      590,
-      594
-    ]
-  },
-  {
-    "text": "Creatinine",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      602,
-      612
-    ]
-  },
-  {
-    "text": "Torsemide",
-    "type": "THUỐC",
-    "position": [
-      735,
-      744
-    ],
-    "assertion_position": [
-      735,
-      744
-    ],
-    "sentence": "Báo cáo đang dùng 1 viên [ENTITY]/ ngày , đôi khi 2 viên.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "torsemide",
-    "type": "THUỐC",
-    "position": [
-      798,
-      807
-    ],
-    "assertion_position": [
-      798,
-      807
-    ],
-    "sentence": "Bác sĩ đề nghị ngừng sử dụng [ENTITY] lâu dài.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "đường huyết",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      842,
-      853
-    ]
-  },
-  {
-    "text": "glucose",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      901,
-      908
-    ]
-  },
-  {
-    "text": "crestor",
-    "type": "THUỐC",
-    "position": [
-      1039,
-      1046
-    ],
-    "assertion_position": [
-      1039,
-      1046
-    ],
-    "sentence": "Các loại thuốc (isosorbide, [ENTITY], carvedilol) đã hết khi đi khám PCP.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "carvedilol",
-    "type": "THUỐC",
-    "position": [
-      1048,
-      1058
-    ],
-    "assertion_position": [
-      1048,
-      1058
-    ],
-    "sentence": "Các loại thuốc (isosorbide, crestor, [ENTITY]) đã hết khi đi khám PCP.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "crestor",
-    "type": "THUỐC",
-    "position": [
-      1100,
-      1107
-    ],
-    "assertion_position": [
-      1100,
-      1107
-    ],
-    "sentence": "Hết isosorbide, [ENTITY], carvedilol khoảng 3 tuần trước.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "carvedilol",
-    "type": "THUỐC",
-    "position": [
-      1109,
-      1119
-    ],
-    "assertion_position": [
-      1109,
-      1119
-    ],
-    "sentence": "Hết isosorbide, crestor, [ENTITY] khoảng 3 tuần trước.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "kali",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1190,
-      1194
-    ]
-  },
-  {
-    "text": "6.3",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1198,
-      1201
-    ]
-  },
-  {
-    "text": "kali",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1337,
-      1341
-    ]
-  },
-  {
-    "text": "6.3",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1342,
-      1345
-    ]
-  },
-  {
-    "text": "kali (k)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1366,
-      1374
-    ]
-  },
-  {
-    "text": "ure (bun)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1378,
-      1387
-    ]
-  },
-  {
-    "text": "83",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1388,
-      1390
-    ]
-  },
-  {
-    "text": "creatinine",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1392,
-      1402
-    ]
-  },
-  {
-    "text": "5.7",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1403,
-      1406
-    ]
-  },
-  {
-    "text": "hemoglobin",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1408,
-      1418
-    ]
-  },
-  {
-    "text": "7.8",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1419,
-      1422
-    ]
-  },
-  {
-    "text": "bnp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1435,
-      1438
-    ]
-  },
-  {
-    "text": "21,000",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1439,
-      1445
-    ]
-  },
-  {
-    "text": "tổng phân tích nước tiểu",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1447,
-      1471
-    ]
-  },
-  {
-    "text": "chụp x-quang",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1526,
-      1538
-    ]
-  },
-  {
-    "text": "tràn dịch màng phổi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1575,
-      1594
-    ],
-    "assertion_position": [
-      1575,
-      1594
-    ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, [ENTITY] hai bên nhẹ, tim to.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tim to",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1608,
-      1614
-    ],
-    "assertion_position": [
-      1608,
-      1614
-    ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: chụp x-quang ngực: Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "dextrose",
-    "type": "THUỐC",
-    "position": [
-      1665,
-      1673
-    ],
-    "assertion_position": [
-      1665,
-      1673
-    ],
-    "sentence": "Được dùng insulin và [ENTITY] cho tăng kali máu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "kali",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1683,
-      1687
-    ]
-  },
-  {
-    "text": "lasix 40 mg once",
-    "type": "THUỐC",
-    "position": [
-      1696,
-      1712
-    ],
-    "assertion_position": [
-      1696,
-      1712
-    ],
-    "sentence": "iv [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  }
 ]

@@ -1,557 +1,671 @@
 [
-  {
-    "text": "bệnh trào ngược dạ dày- thực quản",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      38,
-      71
-    ],
-    "assertion_position": [
-      38,
-      71
-    ],
-    "sentence": "Bệnh mãn tính: [ENTITY] không có viêm thực quản.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "bệnh trào ngược dạ dày- thực quản",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            38,
+            71
+        ],
+        "assertion_position": [
+            38,
+            71
+        ],
+        "sentence": "Bệnh mãn tính: [ENTITY] không có viêm thực quản.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "viêm thực quản",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      81,
-      95
-    ],
-    "assertion_position": [
-      81,
-      95
-    ],
-    "sentence": "Bệnh mãn tính: bệnh trào ngược dạ dày- thực quản không có [ENTITY].",
-    "assertion_result": {
-      "tag": "isNegated"
+    {
+        "text": "viêm thực quản",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            81,
+            95
+        ],
+        "assertion_position": [
+            81,
+            95
+        ],
+        "sentence": "Bệnh mãn tính: bệnh trào ngược dạ dày- thực quản không có [ENTITY].",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            132,
+            135
+        ],
+        "assertion_position": [
+            132,
+            135
+        ],
+        "sentence": "Lý do nhập viện: [ENTITY] và đau cơ sau khi đi du lịch.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau cơ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            139,
+            145
+        ],
+        "assertion_position": [
+            139,
+            145
+        ],
+        "sentence": "Lý do nhập viện: sốt và [ENTITY] sau khi đi du lịch.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            300,
+            303
+        ],
+        "assertion_position": [
+            300,
+            303
+        ],
+        "sentence": "Bắt đầu cảm thấy không khỏe kèm theo [ENTITY], mệt mỏi, đau cơ.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mệt mỏi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            305,
+            312
+        ],
+        "assertion_position": [
+            305,
+            312
+        ],
+        "sentence": "Bắt đầu cảm thấy không khỏe kèm theo sốt, [ENTITY], đau cơ.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau cơ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            314,
+            320
+        ],
+        "assertion_position": [
+            314,
+            320
+        ],
+        "sentence": "Bắt đầu cảm thấy không khỏe kèm theo sốt, mệt mỏi, [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            322,
+            325
+        ],
+        "assertion_position": [
+            322,
+            325
+        ],
+        "sentence": "[ENTITY] cao nhất là 102.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tylenol",
+        "type": "THUỐC",
+        "position": [
+            364,
+            371
+        ],
+        "assertion_position": [
+            364,
+            371
+        ],
+        "sentence": "9°F không đáp ứng với [ENTITY] và advil.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "advil",
+        "type": "THUỐC",
+        "position": [
+            375,
+            380
+        ],
+        "assertion_position": [
+            375,
+            380
+        ],
+        "sentence": "9°F không đáp ứng với tylenol và [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau cổ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            390,
+            396
+        ],
+        "assertion_position": [
+            390,
+            396
+        ],
+        "sentence": "Báo cáo [ENTITY] và vai phải kèm theo sưng quanh khớp ức đòn.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "vai",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            400,
+            403
+        ],
+        "assertion_position": [
+            400,
+            403
+        ],
+        "sentence": "Báo cáo đau cổ và [ENTITY] phải kèm theo sưng quanh khớp ức đòn.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sưng quanh khớp ức đòn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            418,
+            440
+        ],
+        "assertion_position": [
+            418,
+            440
+        ],
+        "sentence": "Báo cáo đau cổ và vai phải kèm theo [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "áp xe",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            554,
+            559
+        ],
+        "assertion_position": [
+            554,
+            559
+        ],
+        "sentence": "cảm thấy tốt hơn sau khi dẫn lưu [ENTITY], và lại thấy đỡ sốt và đau cổ.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            576,
+            579
+        ],
+        "assertion_position": [
+            576,
+            579
+        ],
+        "sentence": "cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ [ENTITY] và đau cổ.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau cổ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            583,
+            589
+        ],
+        "assertion_position": [
+            583,
+            589
+        ],
+        "sentence": "cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ sốt và [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            613,
+            616
+        ],
+        "assertion_position": [
+            613,
+            616
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau cơ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            618,
+            624
+        ],
+        "assertion_position": [
+            618,
+            624
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau cổ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            626,
+            632
+        ],
+        "assertion_position": [
+            626,
+            632
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau vai phải",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            634,
+            646
+        ],
+        "assertion_position": [
+            634,
+            646
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sưng quanh khớp ức đòn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            648,
+            670
+        ],
+        "assertion_position": [
+            648,
+            670
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mệt mỏi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            672,
+            679
+        ],
+        "assertion_position": [
+            672,
+            679
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho khan",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            681,
+            688
+        ],
+        "assertion_position": [
+            681,
+            688
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            690,
+            697
+        ],
+        "assertion_position": [
+            690,
+            697
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sợ ánh sáng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            699,
+            710
+        ],
+        "assertion_position": [
+            699,
+            710
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "siêu âm",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            862,
+            869
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "áp xe",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            901,
+            906
+        ],
+        "assertion_position": [
+            901,
+            906
+        ],
+        "sentence": "Đã thực hiện siêu âm vùng cổ phải cho có kết qủa là [ENTITY]/viêm khớp nhiễm trùng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "viêm khớp nhiễm trùng",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            907,
+            928
+        ],
+        "assertion_position": [
+            907,
+            928
+        ],
+        "sentence": "Đã thực hiện siêu âm vùng cổ phải cho có kết qủa là áp xe/[ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mri",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            960,
+            963
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mri",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1039,
+            1042
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Tim nhịp",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1279,
+            1287
+        ],
+        "assertion_position": [
+            1279,
+            1287
+        ],
+        "sentence": "[ENTITY] đều, không có tiếng tim bệnh lý.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bạch cầu",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1345,
+            1353
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "13.9",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1354,
+            1358
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "alt",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1417,
+            1420
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "92",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1421,
+            1423
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "siêu âm",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1502,
+            1509
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "sung huyết",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1780,
+            1790
+        ],
+        "assertion_position": [
+            1780,
+            1790
+        ],
+        "sentence": "[ENTITY] ngoại vi nhẹ nhưng không có mạch máu bên trong.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "siêu âm",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1867,
+            1874
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      132,
-      135
-    ],
-    "assertion_position": [
-      132,
-      135
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY] và đau cơ sau khi đi du lịch.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau cơ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      139,
-      145
-    ],
-    "assertion_position": [
-      139,
-      145
-    ],
-    "sentence": "Lý do nhập viện: sốt và [ENTITY] sau khi đi du lịch.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      300,
-      303
-    ],
-    "assertion_position": [
-      300,
-      303
-    ],
-    "sentence": "Bắt đầu cảm thấy không khỏe kèm theo [ENTITY], mệt mỏi, đau cơ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "mệt mỏi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      305,
-      312
-    ],
-    "assertion_position": [
-      305,
-      312
-    ],
-    "sentence": "Bắt đầu cảm thấy không khỏe kèm theo sốt, [ENTITY], đau cơ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau cơ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      314,
-      320
-    ],
-    "assertion_position": [
-      314,
-      320
-    ],
-    "sentence": "Bắt đầu cảm thấy không khỏe kèm theo sốt, mệt mỏi, [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      322,
-      325
-    ],
-    "assertion_position": [
-      322,
-      325
-    ],
-    "sentence": "[ENTITY] cao nhất là 102.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tylenol",
-    "type": "THUỐC",
-    "position": [
-      364,
-      371
-    ],
-    "assertion_position": [
-      364,
-      371
-    ],
-    "sentence": "9°F không đáp ứng với [ENTITY] và advil.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "advil",
-    "type": "THUỐC",
-    "position": [
-      375,
-      380
-    ],
-    "assertion_position": [
-      375,
-      380
-    ],
-    "sentence": "9°F không đáp ứng với tylenol và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "đau cổ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      390,
-      396
-    ],
-    "assertion_position": [
-      390,
-      396
-    ],
-    "sentence": "Báo cáo [ENTITY] và vai phải kèm theo sưng quanh khớp ức đòn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "vai",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      400,
-      403
-    ],
-    "assertion_position": [
-      400,
-      403
-    ],
-    "sentence": "Báo cáo đau cổ và [ENTITY] phải kèm theo sưng quanh khớp ức đòn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "sưng quanh khớp ức đòn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      418,
-      440
-    ],
-    "assertion_position": [
-      418,
-      440
-    ],
-    "sentence": "Báo cáo đau cổ và vai phải kèm theo [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "áp xe",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      554,
-      559
-    ],
-    "assertion_position": [
-      554,
-      559
-    ],
-    "sentence": "cảm thấy tốt hơn sau khi dẫn lưu [ENTITY], và lại thấy đỡ sốt và đau cổ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      576,
-      579
-    ],
-    "assertion_position": [
-      576,
-      579
-    ],
-    "sentence": "cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ [ENTITY] và đau cổ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "đau cổ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      583,
-      589
-    ],
-    "assertion_position": [
-      583,
-      589
-    ],
-    "sentence": "cảm thấy tốt hơn sau khi dẫn lưu áp xe, và lại thấy đỡ sốt và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      613,
-      616
-    ],
-    "assertion_position": [
-      613,
-      616
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "đau cơ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      618,
-      624
-    ],
-    "assertion_position": [
-      618,
-      624
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "đau cổ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      626,
-      632
-    ],
-    "assertion_position": [
-      626,
-      632
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "đau vai phải",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      634,
-      646
-    ],
-    "assertion_position": [
-      634,
-      646
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "sưng quanh khớp ức đòn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      648,
-      670
-    ],
-    "assertion_position": [
-      648,
-      670
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "mệt mỏi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      672,
-      679
-    ],
-    "assertion_position": [
-      672,
-      679
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "ho khan",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      681,
-      688
-    ],
-    "assertion_position": [
-      681,
-      688
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      690,
-      697
-    ],
-    "assertion_position": [
-      690,
-      697
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "sợ ánh sáng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      699,
-      710
-    ],
-    "assertion_position": [
-      699,
-      710
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "siêu âm",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      862,
-      869
-    ]
-  },
-  {
-    "text": "áp xe",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      901,
-      906
-    ],
-    "assertion_position": [
-      901,
-      906
-    ],
-    "sentence": "Đã thực hiện siêu âm vùng cổ phải cho có kết qủa là [ENTITY]/viêm khớp nhiễm trùng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "viêm khớp nhiễm trùng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      907,
-      928
-    ],
-    "assertion_position": [
-      907,
-      928
-    ],
-    "sentence": "Đã thực hiện siêu âm vùng cổ phải cho có kết qủa là áp xe/[ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "mri",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      960,
-      963
-    ]
-  },
-  {
-    "text": "mri",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1039,
-      1042
-    ]
-  },
-  {
-    "text": "Tim nhịp",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1279,
-      1287
-    ],
-    "assertion_position": [
-      1279,
-      1287
-    ],
-    "sentence": "[ENTITY] đều, không có tiếng tim bệnh lý.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "bạch cầu",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1345,
-      1353
-    ]
-  },
-  {
-    "text": "13.9",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1354,
-      1358
-    ]
-  },
-  {
-    "text": "alt",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1417,
-      1420
-    ]
-  },
-  {
-    "text": "92",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1421,
-      1423
-    ]
-  },
-  {
-    "text": "siêu âm",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1502,
-      1509
-    ]
-  },
-  {
-    "text": "sung huyết",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1780,
-      1790
-    ],
-    "assertion_position": [
-      1780,
-      1790
-    ],
-    "sentence": "[ENTITY] ngoại vi nhẹ nhưng không có mạch máu bên trong.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "siêu âm",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1867,
-      1874
-    ]
-  }
 ]

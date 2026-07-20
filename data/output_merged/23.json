@@ -1,907 +1,1075 @@
 [
-  {
-    "text": "Bệnh tim mạch",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      17,
-      30
-    ],
-    "assertion_position": [
-      17,
-      30
-    ],
-    "sentence": "[ENTITY] do xơ vữa động mạch.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "Bệnh tim mạch",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            17,
+            30
+        ],
+        "assertion_position": [
+            17,
+            30
+        ],
+        "sentence": "[ENTITY] do xơ vữa động mạch.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "xơ vữa",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      34,
-      40
-    ],
-    "assertion_position": [
-      34,
-      40
-    ],
-    "sentence": "Bệnh tim mạch do [ENTITY] động mạch.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "xơ vữa",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            34,
+            40
+        ],
+        "assertion_position": [
+            34,
+            40
+        ],
+        "sentence": "Bệnh tim mạch do [ENTITY] động mạch.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ăng huyết áp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      52,
-      64
-    ],
-    "assertion_position": [
-      52,
-      64
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
+    {
+        "text": "ăng huyết áp",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            52,
+            64
+        ],
+        "assertion_position": [
+            52,
+            64
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Đái tháo đường",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            85,
+            99
+        ],
+        "assertion_position": [
+            85,
+            99
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Cơn rối loạn ý thức",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            128,
+            147
+        ],
+        "assertion_position": [
+            128,
+            147
+        ],
+        "sentence": "Lý do vào viện: [ENTITY] thoáng qua, nghi ngờ cơn co giật.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "co giật",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            173,
+            180
+        ],
+        "assertion_position": [
+            173,
+            180
+        ],
+        "sentence": "Lý do vào viện: Cơn rối loạn ý thức thoáng qua, nghi ngờ cơn [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "xuất huyết dưới nhện",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            249,
+            269
+        ],
+        "assertion_position": [
+            249,
+            269
+        ],
+        "sentence": "Khoảng 1 tháng trước nhập viện, bệnh nhân bị ngã và được chẩn đoán [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Chụp cắt lớp vi tính",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            271,
+            291
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "xuất huyết dưới nhện",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            312,
+            332
+        ],
+        "assertion_position": [
+            312,
+            332
+        ],
+        "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh [ENTITY] vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nang màng nhện",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            479,
+            493
+        ],
+        "assertion_position": [
+            479,
+            493
+        ],
+        "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến [ENTITY] hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tụ dịch",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            499,
+            506
+        ],
+        "assertion_position": [
+            499,
+            506
+        ],
+        "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc [ENTITY]/tụ máu dưới màng cứng mạn tính.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tụ máu dưới màng cứng mạn tính",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            507,
+            537
+        ],
+        "assertion_position": [
+            507,
+            537
+        ],
+        "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/[ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp CT",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            547,
+            554
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau đầu kéo dài",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            705,
+            720
+        ],
+        "assertion_position": [
+            705,
+            720
+        ],
+        "sentence": "Sau xuất viện, bệnh nhân từng quay lại khoa Cấp cứu vì [ENTITY].",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tụ máu ngoài màng cứng",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            745,
+            767
+        ],
+        "assertion_position": [
+            745,
+            767
+        ],
+        "sentence": "Chụp kiểm tra ghi nhận [ENTITY] phải cấp tính trên nền tổn thương mạn tính.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp CT",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            854,
+            861
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau đầu vùng thái dương",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            993,
+            1016
+        ],
+        "assertion_position": [
+            993,
+            1016
+        ],
+        "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn [ENTITY] phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1030,
+            1033
+        ],
+        "assertion_position": [
+            1030,
+            1033
+        ],
+        "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh [ENTITY], kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tê bì nửa mặt phải",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1048,
+            1066
+        ],
+        "assertion_position": [
+            1048,
+            1066
+        ],
+        "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh đầu, kèm cảm giác [ENTITY], đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tỉnh táo",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1167,
+            1175
+        ],
+        "assertion_position": [
+            1167,
+            1175
+        ],
+        "sentence": "Ngày vào viện, buổi sáng bệnh nhân thức dậy [ENTITY], sinh hoạt bình thường, ăn sáng, đọc báo và sử dụng máy tính.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mất định hướng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1367,
+            1381
+        ],
+        "assertion_position": [
+            1367,
+            1381
+        ],
+        "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, [ENTITY], đi lại không vững và gần như ngất.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đi lại không vững",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1383,
+            1400
+        ],
+        "assertion_position": [
+            1383,
+            1400
+        ],
+        "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, [ENTITY] và gần như ngất.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ngất",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1412,
+            1416
+        ],
+        "assertion_position": [
+            1412,
+            1416
+        ],
+        "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, đi lại không vững và gần như [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mở mắt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1432,
+            1438
+        ],
+        "assertion_position": [
+            1432,
+            1438
+        ],
+        "sentence": "Bệnh nhân lúc [ENTITY], lúc nhắm mắt, nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhắm mắt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1444,
+            1452
+        ],
+        "assertion_position": [
+            1444,
+            1452
+        ],
+        "sentence": "Bệnh nhân lúc mở mắt, lúc [ENTITY], nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đầu ra",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1469,
+            1475
+        ],
+        "assertion_position": [
+            1469,
+            1475
+        ],
+        "sentence": "Bệnh nhân lúc mở mắt, lúc nhắm mắt, nhiều lần ngửa [ENTITY] sau và không đáp ứng được các câu hỏi của người nhà.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "thích",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1590,
+            1595
+        ],
+        "assertion_position": [
+            1590,
+            1595
+        ],
+        "sentence": "Trong cơn, bệnh nhân kích [ENTITY] nhẹ, liên tục cố gắng đứng dậy và tỏ ra không hiểu tình trạng đang xảy ra.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tỉnh táo",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1789,
+            1797
+        ],
+        "assertion_position": [
+            1789,
+            1797
+        ],
+        "sentence": "Khi nhân viên cấp cứu đến nơi, bệnh nhân bắt đầu [ENTITY] trở lại và hồi phục hoàn toàn về trạng thái ban đầu.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "run giật tay chân",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1876,
+            1893
+        ],
+        "assertion_position": [
+            1876,
+            1893
+        ],
+        "sentence": "Bệnh nhân không ghi nhận [ENTITY], không cứng đờ, không cắn lưỡi và không tiểu tiện không tự chủ trong cơn.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "cứng đờ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1901,
+            1908
+        ],
+        "assertion_position": [
+            1901,
+            1908
+        ],
+        "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không [ENTITY], không cắn lưỡi và không tiểu tiện không tự chủ trong cơn.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "cắn lưỡi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1916,
+            1924
+        ],
+        "assertion_position": [
+            1916,
+            1924
+        ],
+        "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không [ENTITY] và không tiểu tiện không tự chủ trong cơn.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tiểu tiện không tự chủ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1934,
+            1956
+        ],
+        "assertion_position": [
+            1934,
+            1956
+        ],
+        "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không cắn lưỡi và không [ENTITY] trong cơn.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Đau đầu vùng thái dương phải",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1995,
+            2023
+        ],
+        "assertion_position": [
+            1995,
+            2023
+        ],
+        "sentence": "[ENTITY], đỉnh đầu, đôi khi lan ra sau mắt phải.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Tê bì vùng trán",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2064,
+            2079
+        ],
+        "assertion_position": [
+            2064,
+            2079
+        ],
+        "sentence": "[ENTITY] phải, da đầu phải và nửa mặt phải.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đầu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2089,
+            2092
+        ],
+        "assertion_position": [
+            2089,
+            2092
+        ],
+        "sentence": "Tê bì vùng trán phải, da [ENTITY] phải và nửa mặt phải.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mặt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2105,
+            2108
+        ],
+        "assertion_position": [
+            2105,
+            2108
+        ],
+        "sentence": "Tê bì vùng trán phải, da đầu phải và nửa [ENTITY] phải.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Cơn rối loạn ý thức",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2115,
+            2134
+        ],
+        "assertion_position": [
+            2115,
+            2134
+        ],
+        "sentence": "[ENTITY] thoáng qua.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Mất định hướng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2146,
+            2160
+        ],
+        "assertion_position": [
+            2146,
+            2160
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Mất thăng bằng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2162,
+            2176
+        ],
+        "assertion_position": [
+            2162,
+            2176
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ngất",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2181,
+            2185
+        ],
+        "assertion_position": [
+            2181,
+            2185
+        ],
+        "sentence": "Gần [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tỉnh táo",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2233,
+            2241
+        ],
+        "assertion_position": [
+            2233,
+            2241
+        ],
+        "sentence": "Tình trạng trước nhập viện: Sau cơn bệnh nhân [ENTITY] hoàn toàn, ý thức trở về mức nền ban đầu.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mất định hướng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2345,
+            2359
+        ],
+        "assertion_position": [
+            2345,
+            2359
+        ],
+        "sentence": "Có ghi nhận giai đoạn [ENTITY] và đi lại không vững theo lời kể người nhà.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isFamily",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đi lại không vững",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2363,
+            2380
+        ],
+        "assertion_position": [
+            2363,
+            2380
+        ],
+        "sentence": "Có ghi nhận giai đoạn mất định hướng và [ENTITY] theo lời kể người nhà.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isFamily",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "kích thích",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2427,
+            2437
+        ],
+        "assertion_position": [
+            2427,
+            2437
+        ],
+        "sentence": "Trong cơn có biểu hiện [ENTITY] nhẹ, ngửa đầu ra sau và nhắm mắt từng lúc.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ngửa đầu ra",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2443,
+            2454
+        ],
+        "assertion_position": [
+            2443,
+            2454
+        ],
+        "sentence": "Trong cơn có biểu hiện kích thích nhẹ, [ENTITY] sau và nhắm mắt từng lúc.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhắm mắt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2462,
+            2470
+        ],
+        "assertion_position": [
+            2462,
+            2470
+        ],
+        "sentence": "Trong cơn có biểu hiện kích thích nhẹ, ngửa đầu ra sau và [ENTITY] từng lúc.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "co giật",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2496,
+            2503
+        ],
+        "assertion_position": [
+            2496,
+            2503
+        ],
+        "sentence": "Không ghi nhận [ENTITY], cứng đờ, cắn lưỡi hoặc tiểu tiện không tự chủ.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "cứng đờ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2505,
+            2512
+        ],
+        "assertion_position": [
+            2505,
+            2512
+        ],
+        "sentence": "Không ghi nhận co giật, [ENTITY], cắn lưỡi hoặc tiểu tiện không tự chủ.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "cắn lưỡi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2514,
+            2522
+        ],
+        "assertion_position": [
+            2514,
+            2522
+        ],
+        "sentence": "Không ghi nhận co giật, cứng đờ, [ENTITY] hoặc tiểu tiện không tự chủ.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tiểu tiện không tự chủ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2528,
+            2550
+        ],
+        "assertion_position": [
+            2528,
+            2550
+        ],
+        "sentence": "Không ghi nhận co giật, cứng đờ, cắn lưỡi hoặc [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "CT",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            2566,
+            2568
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "xuất huyết dưới nhện",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            2594,
+            2614
+        ],
+        "assertion_position": [
+            2594,
+            2614
+        ],
+        "sentence": "Cận lâm sàng: CT sọ não trước đó ghi nhận [ENTITY] vùng trán phải.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "dập nhu mô",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2634,
+            2644
+        ],
+        "assertion_position": [
+            2634,
+            2644
+        ],
+        "sentence": "Bầm [ENTITY] vùng trán phải và trán - thái dương phải.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nang màng nhện",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            2745,
+            2759
+        ],
+        "assertion_position": [
+            2745,
+            2759
+        ],
+        "sentence": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ đến [ENTITY] hoặc tụ máu dưới màng cứng mạn tính.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tụ máu dưới màng cứng mạn tính",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            2765,
+            2795
+        ],
+        "assertion_position": [
+            2765,
+            2795
+        ],
+        "sentence": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ đến nang màng nhện hoặc [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Tụ máu ngoài màng cứng",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            2796,
+            2818
+        ],
+        "assertion_position": [
+            2796,
+            2818
+        ],
+        "sentence": "[ENTITY] phải cấp tính trên nền tổn thương mạn tính.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "Đái tháo đường",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      85,
-      99
-    ],
-    "assertion_position": [
-      85,
-      99
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "Cơn rối loạn ý thức",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      128,
-      147
-    ],
-    "assertion_position": [
-      128,
-      147
-    ],
-    "sentence": "Lý do vào viện: [ENTITY] thoáng qua, nghi ngờ cơn co giật.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "co giật",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      173,
-      180
-    ],
-    "assertion_position": [
-      173,
-      180
-    ],
-    "sentence": "Lý do vào viện: Cơn rối loạn ý thức thoáng qua, nghi ngờ cơn [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "xuất huyết dưới nhện",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      249,
-      269
-    ],
-    "assertion_position": [
-      249,
-      269
-    ],
-    "sentence": "Khoảng 1 tháng trước nhập viện, bệnh nhân bị ngã và được chẩn đoán [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "Chụp cắt lớp vi tính",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      271,
-      291
-    ]
-  },
-  {
-    "text": "xuất huyết dưới nhện",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      312,
-      332
-    ],
-    "assertion_position": [
-      312,
-      332
-    ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh [ENTITY] vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "nang màng nhện",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      479,
-      493
-    ],
-    "assertion_position": [
-      479,
-      493
-    ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến [ENTITY] hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "tụ dịch",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      499,
-      506
-    ],
-    "assertion_position": [
-      499,
-      506
-    ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc [ENTITY]/tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tụ máu dưới màng cứng mạn tính",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      507,
-      537
-    ],
-    "assertion_position": [
-      507,
-      537
-    ],
-    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/[ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "chụp CT",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      547,
-      554
-    ]
-  },
-  {
-    "text": "đau đầu kéo dài",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      705,
-      720
-    ],
-    "assertion_position": [
-      705,
-      720
-    ],
-    "sentence": "Sau xuất viện, bệnh nhân từng quay lại khoa Cấp cứu vì [ENTITY].",
-    "assertion_result": {
-      "tag": "isHistorical"
-    }
-  },
-  {
-    "text": "tụ máu ngoài màng cứng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      745,
-      767
-    ],
-    "assertion_position": [
-      745,
-      767
-    ],
-    "sentence": "Chụp kiểm tra ghi nhận [ENTITY] phải cấp tính trên nền tổn thương mạn tính.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "chụp CT",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      854,
-      861
-    ]
-  },
-  {
-    "text": "đau đầu vùng thái dương",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      993,
-      1016
-    ],
-    "assertion_position": [
-      993,
-      1016
-    ],
-    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn [ENTITY] phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1030,
-      1033
-    ],
-    "assertion_position": [
-      1030,
-      1033
-    ],
-    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh [ENTITY], kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tê bì nửa mặt phải",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1048,
-      1066
-    ],
-    "assertion_position": [
-      1048,
-      1066
-    ],
-    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh đầu, kèm cảm giác [ENTITY], đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tỉnh táo",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1167,
-      1175
-    ],
-    "assertion_position": [
-      1167,
-      1175
-    ],
-    "sentence": "Ngày vào viện, buổi sáng bệnh nhân thức dậy [ENTITY], sinh hoạt bình thường, ăn sáng, đọc báo và sử dụng máy tính.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "mất định hướng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1367,
-      1381
-    ],
-    "assertion_position": [
-      1367,
-      1381
-    ],
-    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, [ENTITY], đi lại không vững và gần như ngất.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đi lại không vững",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1383,
-      1400
-    ],
-    "assertion_position": [
-      1383,
-      1400
-    ],
-    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, [ENTITY] và gần như ngất.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ngất",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1412,
-      1416
-    ],
-    "assertion_position": [
-      1412,
-      1416
-    ],
-    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, đi lại không vững và gần như [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "mở mắt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1432,
-      1438
-    ],
-    "assertion_position": [
-      1432,
-      1438
-    ],
-    "sentence": "Bệnh nhân lúc [ENTITY], lúc nhắm mắt, nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "nhắm mắt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1444,
-      1452
-    ],
-    "assertion_position": [
-      1444,
-      1452
-    ],
-    "sentence": "Bệnh nhân lúc mở mắt, lúc [ENTITY], nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đầu ra",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1469,
-      1475
-    ],
-    "assertion_position": [
-      1469,
-      1475
-    ],
-    "sentence": "Bệnh nhân lúc mở mắt, lúc nhắm mắt, nhiều lần ngửa [ENTITY] sau và không đáp ứng được các câu hỏi của người nhà.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "thích",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1590,
-      1595
-    ],
-    "assertion_position": [
-      1590,
-      1595
-    ],
-    "sentence": "Trong cơn, bệnh nhân kích [ENTITY] nhẹ, liên tục cố gắng đứng dậy và tỏ ra không hiểu tình trạng đang xảy ra.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tỉnh táo",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1789,
-      1797
-    ],
-    "assertion_position": [
-      1789,
-      1797
-    ],
-    "sentence": "Khi nhân viên cấp cứu đến nơi, bệnh nhân bắt đầu [ENTITY] trở lại và hồi phục hoàn toàn về trạng thái ban đầu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "run giật tay chân",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1876,
-      1893
-    ],
-    "assertion_position": [
-      1876,
-      1893
-    ],
-    "sentence": "Bệnh nhân không ghi nhận [ENTITY], không cứng đờ, không cắn lưỡi và không tiểu tiện không tự chủ trong cơn.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "cứng đờ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1901,
-      1908
-    ],
-    "assertion_position": [
-      1901,
-      1908
-    ],
-    "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không [ENTITY], không cắn lưỡi và không tiểu tiện không tự chủ trong cơn.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "cắn lưỡi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1916,
-      1924
-    ],
-    "assertion_position": [
-      1916,
-      1924
-    ],
-    "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không [ENTITY] và không tiểu tiện không tự chủ trong cơn.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "tiểu tiện không tự chủ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1934,
-      1956
-    ],
-    "assertion_position": [
-      1934,
-      1956
-    ],
-    "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không cắn lưỡi và không [ENTITY] trong cơn.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "Đau đầu vùng thái dương phải",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1995,
-      2023
-    ],
-    "assertion_position": [
-      1995,
-      2023
-    ],
-    "sentence": "[ENTITY], đỉnh đầu, đôi khi lan ra sau mắt phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Tê bì vùng trán",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2064,
-      2079
-    ],
-    "assertion_position": [
-      2064,
-      2079
-    ],
-    "sentence": "[ENTITY] phải, da đầu phải và nửa mặt phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2089,
-      2092
-    ],
-    "assertion_position": [
-      2089,
-      2092
-    ],
-    "sentence": "Tê bì vùng trán phải, da [ENTITY] phải và nửa mặt phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "mặt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2105,
-      2108
-    ],
-    "assertion_position": [
-      2105,
-      2108
-    ],
-    "sentence": "Tê bì vùng trán phải, da đầu phải và nửa [ENTITY] phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Cơn rối loạn ý thức",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2115,
-      2134
-    ],
-    "assertion_position": [
-      2115,
-      2134
-    ],
-    "sentence": "[ENTITY] thoáng qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Mất định hướng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2146,
-      2160
-    ],
-    "assertion_position": [
-      2146,
-      2160
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "Mất thăng bằng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2162,
-      2176
-    ],
-    "assertion_position": [
-      2162,
-      2176
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "ngất",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2181,
-      2185
-    ],
-    "assertion_position": [
-      2181,
-      2185
-    ],
-    "sentence": "Gần [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tỉnh táo",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2233,
-      2241
-    ],
-    "assertion_position": [
-      2233,
-      2241
-    ],
-    "sentence": "Tình trạng trước nhập viện: Sau cơn bệnh nhân [ENTITY] hoàn toàn, ý thức trở về mức nền ban đầu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "mất định hướng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2345,
-      2359
-    ],
-    "assertion_position": [
-      2345,
-      2359
-    ],
-    "sentence": "Có ghi nhận giai đoạn [ENTITY] và đi lại không vững theo lời kể người nhà.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isFamily"
-  },
-  {
-    "text": "đi lại không vững",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2363,
-      2380
-    ],
-    "assertion_position": [
-      2363,
-      2380
-    ],
-    "sentence": "Có ghi nhận giai đoạn mất định hướng và [ENTITY] theo lời kể người nhà.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isFamily"
-  },
-  {
-    "text": "kích thích",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2427,
-      2437
-    ],
-    "assertion_position": [
-      2427,
-      2437
-    ],
-    "sentence": "Trong cơn có biểu hiện [ENTITY] nhẹ, ngửa đầu ra sau và nhắm mắt từng lúc.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ngửa đầu ra",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2443,
-      2454
-    ],
-    "assertion_position": [
-      2443,
-      2454
-    ],
-    "sentence": "Trong cơn có biểu hiện kích thích nhẹ, [ENTITY] sau và nhắm mắt từng lúc.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "nhắm mắt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2462,
-      2470
-    ],
-    "assertion_position": [
-      2462,
-      2470
-    ],
-    "sentence": "Trong cơn có biểu hiện kích thích nhẹ, ngửa đầu ra sau và [ENTITY] từng lúc.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "co giật",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2496,
-      2503
-    ],
-    "assertion_position": [
-      2496,
-      2503
-    ],
-    "sentence": "Không ghi nhận [ENTITY], cứng đờ, cắn lưỡi hoặc tiểu tiện không tự chủ.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "cứng đờ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2505,
-      2512
-    ],
-    "assertion_position": [
-      2505,
-      2512
-    ],
-    "sentence": "Không ghi nhận co giật, [ENTITY], cắn lưỡi hoặc tiểu tiện không tự chủ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "cắn lưỡi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2514,
-      2522
-    ],
-    "assertion_position": [
-      2514,
-      2522
-    ],
-    "sentence": "Không ghi nhận co giật, cứng đờ, [ENTITY] hoặc tiểu tiện không tự chủ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "tiểu tiện không tự chủ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2528,
-      2550
-    ],
-    "assertion_position": [
-      2528,
-      2550
-    ],
-    "sentence": "Không ghi nhận co giật, cứng đờ, cắn lưỡi hoặc [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "CT",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      2566,
-      2568
-    ]
-  },
-  {
-    "text": "xuất huyết dưới nhện",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2594,
-      2614
-    ],
-    "assertion_position": [
-      2594,
-      2614
-    ],
-    "sentence": "Cận lâm sàng: CT sọ não trước đó ghi nhận [ENTITY] vùng trán phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "dập nhu mô",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2634,
-      2644
-    ],
-    "assertion_position": [
-      2634,
-      2644
-    ],
-    "sentence": "Bầm [ENTITY] vùng trán phải và trán - thái dương phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "nang màng nhện",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2745,
-      2759
-    ],
-    "assertion_position": [
-      2745,
-      2759
-    ],
-    "sentence": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ đến [ENTITY] hoặc tụ máu dưới màng cứng mạn tính.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tụ máu dưới màng cứng mạn tính",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2765,
-      2795
-    ],
-    "assertion_position": [
-      2765,
-      2795
-    ],
-    "sentence": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ đến nang màng nhện hoặc [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Tụ máu ngoài màng cứng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2796,
-      2818
-    ],
-    "assertion_position": [
-      2796,
-      2818
-    ],
-    "sentence": "[ENTITY] phải cấp tính trên nền tổn thương mạn tính.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  }
 ]

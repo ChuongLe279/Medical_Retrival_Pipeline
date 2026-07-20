@@ -18,7 +18,12 @@
     "eng_translation": [
       "chest pain",
       "Cardiac chest pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
@@ -39,7 +44,12 @@
     "eng_translation": [
       "chest pain",
       "Cardiac chest pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhồi máu cơ tim",
@@ -58,7 +68,25 @@
     },
     "eng_translation": [
       "Myocardial infarction"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.851584,
+        "I21A1": 0.785121,
+        "I249": 0.769203,
+        "I252": 0.761003,
+        "I639": 0.728907
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2109": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I21A1",
+      "confidence": 0.801609
+    }
   },
   {
     "text": "Hội chứng mạch vành cấp",
@@ -79,7 +107,28 @@
     "eng_translation": [
       "Acute coronary syndrome",
       "Myocardial infarction"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.851584,
+        "I249": 0.80976,
+        "I21A1": 0.785121,
+        "I252": 0.761003,
+        "I639": 0.728907
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2109": 0.9,
+        "K281": 0.855,
+        "K279": 0.855,
+        "K273": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I21A1",
+      "confidence": 0.801609
+    }
   },
   {
     "text": "tăng huyết áp vô căn",
@@ -100,7 +149,27 @@
     "eng_translation": [
       "Essential hypertension",
       "Primary hypertension"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.802756,
+        "I270": 0.741585,
+        "I160": 0.721417,
+        "I150": 0.70669
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "O10013": 0.9,
+        "O1002": 0.9,
+        "H40062": 0.855,
+        "G35B0": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
+    }
   },
   {
     "text": "Tăng huyết áp",
@@ -121,7 +190,28 @@
     "eng_translation": [
       "Hypertension",
       "Essential Hypertension"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
+    }
   },
   {
     "text": "tăng lipid máu",
@@ -142,7 +232,26 @@
     "eng_translation": [
       "Hyperlipidemia",
       "Dyslipidemia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E785": 0.979012,
+        "E786": 0.784723,
+        "E7849": 0.765059,
+        "E782": 0.751965,
+        "E7841": 0.744404
+      },
+      "rapidfuzz": {
+        "E782": 0.95,
+        "E7849": 0.95,
+        "E785": 0.9,
+        "Z83438": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "E785",
+      "confidence": 0.971111
+    }
   },
   {
     "text": "tăng lipid máu",
@@ -163,7 +272,26 @@
     "eng_translation": [
       "Hyperlipidemia",
       "Dyslipidemia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E785": 0.979012,
+        "E786": 0.784723,
+        "E7849": 0.765059,
+        "E782": 0.751965,
+        "E7841": 0.744404
+      },
+      "rapidfuzz": {
+        "E782": 0.95,
+        "E7849": 0.95,
+        "E785": 0.9,
+        "Z83438": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "E785",
+      "confidence": 0.971111
+    }
   },
   {
     "text": "Đái tháo đường type 2",
@@ -184,7 +312,28 @@
     "eng_translation": [
       "Type 2 diabetes mellitus",
       "Diabetes mellitus type 2"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.844191,
+        "E119": 0.736971,
+        "E118": 0.725221,
+        "O24119": 0.724895,
+        "Z833": 0.724102
+      },
+      "rapidfuzz": {
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "E1169": 0.9,
+        "S72362Q": 0.855,
+        "S72361M": 0.855,
+        "S72361N": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.759772
+    }
   },
   {
     "text": "Đái tháo đường típ 2",
@@ -205,7 +354,28 @@
     "eng_translation": [
       "Type 2 diabetes mellitus",
       "Diabetes mellitus type 2"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.844191,
+        "E119": 0.736971,
+        "E118": 0.725221,
+        "O24119": 0.724895,
+        "Z833": 0.724102
+      },
+      "rapidfuzz": {
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "E1169": 0.9,
+        "S72362Q": 0.855,
+        "S72361M": 0.855,
+        "S72361N": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.759772
+    }
   },
   {
     "text": "bệnh phổi tắc nghẽn mạn tính",
@@ -226,7 +396,28 @@
     "eng_translation": [
       "Chronic Obstructive Pulmonary Disease",
       "Chronic Obstructive Lung Disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J449": 0.984133,
+        "J4489": 0.684525,
+        "J42": 0.652648,
+        "I2781": 0.644329,
+        "J849": 0.633067
+      },
+      "rapidfuzz": {
+        "J449": 0.95,
+        "J4489": 0.95,
+        "J441": 0.9,
+        "K8010": 0.855,
+        "K05319": 0.855,
+        "I6980": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J449",
+      "confidence": 0.98072
+    }
   },
   {
     "text": "bệnh phổi tắc nghẽn mạn tính",
@@ -247,7 +438,28 @@
     "eng_translation": [
       "Chronic Obstructive Pulmonary Disease",
       "Chronic Obstructive Lung Disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J449": 0.984133,
+        "J4489": 0.684525,
+        "J42": 0.652648,
+        "I2781": 0.644329,
+        "J849": 0.633067
+      },
+      "rapidfuzz": {
+        "J449": 0.95,
+        "J4489": 0.95,
+        "J441": 0.9,
+        "K8010": 0.855,
+        "K05319": 0.855,
+        "I6980": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J449",
+      "confidence": 0.98072
+    }
   },
   {
     "text": "bệnh tim mạch",
@@ -268,7 +480,28 @@
     "eng_translation": [
       "cardiovascular disease",
       "Cardiac disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I519": 0.955106,
+        "I5189": 0.746198,
+        "I429": 0.718682,
+        "I099": 0.705557,
+        "I679": 0.694969
+      },
+      "rapidfuzz": {
+        "C946": 0.855,
+        "I289": 0.855,
+        "I279": 0.855,
+        "R011": 0.855,
+        "T82120D": 0.855,
+        "T82129A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I519",
+      "confidence": 0.859595
+    }
   },
   {
     "text": "vữa",
@@ -289,7 +522,28 @@
     "eng_translation": [
       "Vascular disease",
       "Vascular disorder"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I739": 0.801571,
+        "I999": 0.782732,
+        "I679": 0.741166,
+        "K559": 0.698475,
+        "I779": 0.673092
+      },
+      "rapidfuzz": {
+        "G468": 0.9,
+        "I69933": 0.9,
+        "I69934": 0.9,
+        "H93093": 0.9,
+        "H93099": 0.9,
+        "H93091": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I739",
+      "confidence": 0.721414
+    }
   },
   {
     "text": "bệnh tim mạch",
@@ -310,7 +564,28 @@
     "eng_translation": [
       "cardiovascular disease",
       "Cardiac disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I519": 0.955106,
+        "I5189": 0.746198,
+        "I429": 0.718682,
+        "I099": 0.705557,
+        "I679": 0.694969
+      },
+      "rapidfuzz": {
+        "C946": 0.855,
+        "I289": 0.855,
+        "I279": 0.855,
+        "R011": 0.855,
+        "T82120D": 0.855,
+        "T82129A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I519",
+      "confidence": 0.859595
+    }
   },
   {
     "text": "aspirin 81mg",
@@ -332,7 +607,27 @@
       "aspirin 81mg",
       "low-dose aspirin",
       "aspirin 81 milligrams"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "832098": 1.0,
+        "315431": 0.961164,
+        "572163": 0.938508,
+        "724442": 0.934382,
+        "1189780": 0.933692
+      },
+      "rapidfuzz": {
+        "315431": 1.0,
+        "900469": 0.912,
+        "1052678": 0.9,
+        "825180": 0.9,
+        "1191": 0.9
+      }
+    },
+    "candidate": {
+      "code": "315431",
+      "confidence": 0.965048
+    }
   },
   {
     "text": "Đột quỵ",
@@ -353,7 +648,28 @@
     "eng_translation": [
       "Stroke",
       "Cerebrovascular accident"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I679": 0.807886,
+        "I639": 0.785716,
+        "G464": 0.728182,
+        "I6782": 0.713341,
+        "I69993": 0.704568
+      },
+      "rapidfuzz": {
+        "T6701XA": 0.9,
+        "T6701XD": 0.9,
+        "T6701XS": 0.9,
+        "V9729XA": 0.855,
+        "V981XXA": 0.855,
+        "V980XXS": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I679",
+      "confidence": 0.727097
+    }
   },
   {
     "text": "metoprolol succinate 100mg daily",
@@ -375,7 +691,28 @@
       "Metoprolol succinate 100mg daily",
       "Metoprolol succinate 100 mg daily",
       "Beta-blocker 100mg daily"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "688099": 0.766613,
+        "2656065": 0.731096,
+        "2648648": 0.727254,
+        "672671": 0.72553,
+        "221124": 0.715876
+      },
+      "rapidfuzz": {
+        "1370483": 0.95,
+        "1307106": 0.9,
+        "865575": 0.9,
+        "1482912": 0.855,
+        "2471100": 0.855,
+        "2669715": 0.855
+      }
+    },
+    "candidate": {
+      "code": "688099",
+      "confidence": 0.689952
+    }
   },
   {
     "text": "lasix 40mg daily",
@@ -396,7 +733,27 @@
     "eng_translation": [
       "Lasix 40mg daily",
       "Furosemide 40mg daily"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "313988": 0.793921,
+        "200809": 0.79163,
+        "261287": 0.632097,
+        "1990745": 0.620747
+      },
+      "rapidfuzz": {
+        "315971": 0.95,
+        "202991": 0.9,
+        "4603": 0.9,
+        "565458": 0.863636,
+        "2743365": 0.855,
+        "1245378": 0.855
+      }
+    },
+    "candidate": {
+      "code": "313988",
+      "confidence": 0.714529
+    }
   },
   {
     "text": "atorvastatin 80mg daily",
@@ -417,7 +774,21 @@
     "eng_translation": [
       "atorvastatin 80mg daily",
       "atorvastatin 80 mg daily"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "259255": 0.830441
+      },
+      "rapidfuzz": {
+        "329299": 0.95,
+        "83367": 0.9,
+        "10603": 0.9
+      }
+    },
+    "candidate": {
+      "code": "259255",
+      "confidence": 0.747397
+    }
   },
   {
     "text": "lisinopril 2.5mg daily",
@@ -437,7 +808,21 @@
     "eng_translation": [
       "Lisinopril 2.5 mg daily",
       "Lisinopril 2.5 milligrams daily"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "311353": 0.901951
+      },
+      "rapidfuzz": {
+        "316152": 0.95,
+        "29046": 0.9,
+        "2743372": 0.855
+      }
+    },
+    "candidate": {
+      "code": "311353",
+      "confidence": 0.811756
+    }
   },
   {
     "text": "ranexa 500mg daily",
@@ -459,7 +844,28 @@
       "Ranexa 500mg daily",
       "Ranolazine 500mg daily",
       "Ranexa 500 mg daily"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "616749": 0.869737,
+        "2724042": 0.847714,
+        "356778": 0.618345,
+        "1322489": 0.569748,
+        "220994": 0.534248
+      },
+      "rapidfuzz": {
+        "616490": 0.95,
+        "356778": 0.9,
+        "35829": 0.9,
+        "2102842": 0.855,
+        "2663917": 0.855,
+        "2743413": 0.855
+      }
+    },
+    "candidate": {
+      "code": "616749",
+      "confidence": 0.782763
+    }
   },
   {
     "text": "đau ngực",
@@ -480,7 +886,12 @@
     "eng_translation": [
       "chest pain",
       "Cardiac chest pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
@@ -501,7 +912,12 @@
     "eng_translation": [
       "chest pain",
       "Cardiac chest pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đêm",
@@ -522,7 +938,12 @@
     "eng_translation": [
       "night",
       "Nighttime hyperhidrosis affecting the palms and soles, with no known underlying medical condition."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
@@ -543,7 +964,12 @@
     "eng_translation": [
       "chest pain",
       "Cardiac chest pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
@@ -563,7 +989,12 @@
     "eng_translation": [
       "chest pain",
       "Cardiac chest pain"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -584,7 +1015,12 @@
     "eng_translation": [
       "Dyspnea",
       "Shortness of breath"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đánh trống ngực",
@@ -605,6 +1041,11 @@
     "eng_translation": [
       "palpitations",
       "Arrhythmia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

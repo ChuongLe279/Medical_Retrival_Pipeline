@@ -18,7 +18,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 RXNORM_TEXT_DIR = PROJECT_ROOT / "src" / "Linking" / "text_list" / "rxnorm_text.json"
 ICD10_TEXT_DIR = PROJECT_ROOT / "src" / "Linking" / "text_list" / "icd10_text.json"
-JSON_FOLDER_PATH = PROJECT_ROOT / "data" / "output_merged"  # File JSON test
+JSON_FOLDER_PATH = PROJECT_ROOT / "data" / "output_merged_linking"  # File JSON test
 
 def loading_object(path):
     with open(path, "r", encoding="utf-8") as file:

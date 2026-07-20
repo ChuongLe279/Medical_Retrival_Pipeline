@@ -1,70 +1,82 @@
 [
-  {
-    "text": "chèn ép vùng cổ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      545,
-      560
-    ],
-    "assertion_position": [
-      545,
-      560
-    ],
-    "sentence": "Tại thời điểm nhập viện, bệnh nhân không ghi nhận triệu chứng [ENTITY] như khó nuốt, khó thở hoặc khàn tiếng.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "chèn ép vùng cổ",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            545,
+            560
+        ],
+        "assertion_position": [
+            545,
+            560
+        ],
+        "sentence": "Tại thời điểm nhập viện, bệnh nhân không ghi nhận triệu chứng [ENTITY] như khó nuốt, khó thở hoặc khàn tiếng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "khó nuốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      565,
-      573
-    ],
-    "assertion_position": [
-      565,
-      573
-    ],
-    "sentence": "Tại thời điểm nhập viện, bệnh nhân không ghi nhận triệu chứng chèn ép vùng cổ như [ENTITY], khó thở hoặc khàn tiếng.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "khó nuốt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            565,
+            573
+        ],
+        "assertion_position": [
+            565,
+            573
+        ],
+        "sentence": "Tại thời điểm nhập viện, bệnh nhân không ghi nhận triệu chứng chèn ép vùng cổ như [ENTITY], khó thở hoặc khàn tiếng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      575,
-      582
-    ],
-    "assertion_position": [
-      575,
-      582
-    ],
-    "sentence": "Tại thời điểm nhập viện, bệnh nhân không ghi nhận triệu chứng chèn ép vùng cổ như khó nuốt, [ENTITY] hoặc khàn tiếng.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "khó thở",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            575,
+            582
+        ],
+        "assertion_position": [
+            575,
+            582
+        ],
+        "sentence": "Tại thời điểm nhập viện, bệnh nhân không ghi nhận triệu chứng chèn ép vùng cổ như khó nuốt, [ENTITY] hoặc khàn tiếng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "khàn tiếng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      588,
-      598
-    ],
-    "assertion_position": [
-      588,
-      598
-    ],
-    "sentence": "Tại thời điểm nhập viện, bệnh nhân không ghi nhận triệu chứng chèn ép vùng cổ như khó nuốt, khó thở hoặc [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  }
+    {
+        "text": "khàn tiếng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            588,
+            598
+        ],
+        "assertion_position": [
+            588,
+            598
+        ],
+        "sentence": "Tại thời điểm nhập viện, bệnh nhân không ghi nhận triệu chứng chèn ép vùng cổ như khó nuốt, khó thở hoặc [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    }
 ]

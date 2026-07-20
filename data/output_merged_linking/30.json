@@ -17,7 +17,28 @@
     "eng_translation": [
       "Chronic Myeloid Leukemia",
       "Chronic Myelogenous Leukemia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "D471": 0.814773,
+        "C9312": 0.666095,
+        "C9292": 0.650754,
+        "C9211": 0.646788,
+        "C9212": 0.637444
+      },
+      "rapidfuzz": {
+        "C9210": 0.9,
+        "C9211": 0.9,
+        "C9212": 0.9,
+        "N990": 0.855,
+        "L98A398": 0.855,
+        "L98A224": 0.855
+      }
+    },
+    "candidate": {
+      "code": "D471",
+      "confidence": 0.733296
+    }
   },
   {
     "text": "bạch cầu",
@@ -29,7 +50,12 @@
     "eng_translation": [
       "White blood cells",
       "Leukocytes"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng cholesterol máu đơn thuần",
@@ -49,7 +75,28 @@
     "eng_translation": [
       "Simple hypercholesterolemia",
       "Familial hypercholesterolemia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E78019": 0.97897,
+        "E7800": 0.931361,
+        "E78010": 0.867486,
+        "E78011": 0.864117,
+        "Z8342": 0.825101
+      },
+      "rapidfuzz": {
+        "E78019": 0.95,
+        "Z8342": 0.9,
+        "E78010": 0.9,
+        "S42412G": 0.855,
+        "S42412D": 0.855,
+        "S42412B": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E78019",
+      "confidence": 0.976073
+    }
   },
   {
     "text": "cholesterol",
@@ -62,7 +109,12 @@
       "cholesterol",
       "Hypercholesterolemia",
       "lipid"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng huyết áp",
@@ -82,7 +134,28 @@
     "eng_translation": [
       "Hypertension",
       "Essential Hypertension"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.757279,
+        "I160": 0.721417,
+        "I150": 0.702525,
+        "I161": 0.684796
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "O10013": 0.9,
+        "O1002": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.96517
+    }
   },
   {
     "text": "gleevec",
@@ -104,7 +177,29 @@
       "Gleevec",
       "Imatinib",
       "Imatinib Mesylate"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "282388": 1.0,
+        "284924": 1.0,
+        "282386": 1.0,
+        "1997267": 0.813729
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "282388": 1.0,
+        "284924": 1.0,
+        "404588": 0.9,
+        "404589": 0.9,
+        "576514": 0.9,
+        "10603": 0.9,
+        "2699831": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282388",
+      "confidence": 1.0
+    }
   },
   {
     "text": "allopurinol",
@@ -125,7 +220,28 @@
     "eng_translation": [
       "Allopurinol",
       "Xanthine Oxidase Inhibitor"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "90184": 1.0,
+        "519": 1.0,
+        "7820": 0.855735,
+        "1473047": 0.778821,
+        "1430935": 0.734484
+      },
+      "rapidfuzz": {
+        "519": 1.0,
+        "1154942": 0.95,
+        "813995": 0.9,
+        "1311085": 0.9,
+        "2657597": 0.855,
+        "1661218": 0.855
+      }
+    },
+    "candidate": {
+      "code": "519",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ảo giác",
@@ -146,7 +262,12 @@
     "eng_translation": [
       "hallucination",
       "Illusion"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ảo giácxuất",
@@ -166,7 +287,12 @@
     "qwen_assertion": "isHistorical",
     "eng_translation": [
       "No medical information provided."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhiễm khuẩn đường tiết niệu",
@@ -186,7 +312,25 @@
     "qwen_assertion": "isHistorical",
     "eng_translation": [
       "Urinary tract infection"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.844627
+    }
   },
   {
     "text": "nhiễm khuẩn đường tiết niệu",
@@ -206,7 +350,25 @@
     "qwen_assertion": "isNegated",
     "eng_translation": [
       "Urinary tract infection"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.844627
+    }
   },
   {
     "text": "gleevec",
@@ -228,7 +390,29 @@
       "Gleevec",
       "Imatinib",
       "Imatinib Mesylate"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "282388": 1.0,
+        "284924": 1.0,
+        "282386": 1.0,
+        "1997267": 0.813729
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "282388": 1.0,
+        "284924": 1.0,
+        "404588": 0.9,
+        "404589": 0.9,
+        "576514": 0.9,
+        "10603": 0.9,
+        "2699831": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282388",
+      "confidence": 1.0
+    }
   },
   {
     "text": "allopurinol",
@@ -249,7 +433,28 @@
     "eng_translation": [
       "Allopurinol",
       "Xanthine Oxidase Inhibitor"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "90184": 1.0,
+        "519": 1.0,
+        "7820": 0.855735,
+        "1473047": 0.778821,
+        "1430935": 0.734484
+      },
+      "rapidfuzz": {
+        "519": 1.0,
+        "1154942": 0.95,
+        "813995": 0.9,
+        "1311085": 0.9,
+        "2657597": 0.855,
+        "1661218": 0.855
+      }
+    },
+    "candidate": {
+      "code": "519",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ảo giác",
@@ -270,7 +475,12 @@
     "eng_translation": [
       "hallucination",
       "Illusion"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ảo giác",
@@ -291,7 +501,12 @@
     "eng_translation": [
       "hallucination",
       "Illusion"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ảo giác",
@@ -312,7 +527,12 @@
     "eng_translation": [
       "Hallucination",
       "Illusion"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tưởng",
@@ -333,7 +553,12 @@
     "eng_translation": [
       "tưởng",
       "The query provided is in Vietnamese and appears to be incomplete or unclear. Since it does not contain a clear medical term or diagnosis, and no appropriate English medical synonym can be identified, the original query is returned unchanged."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "lo",
@@ -355,7 +580,12 @@
       "lo",
       "Low blood pressure",
       "The query provided is too brief and lacks sufficient clinical detail to determine an appropriate medical synonym or to identify the main diagnosis or medical concept. Please provide a complete and detailed medical query for accurate processing."
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhiễm khuẩn đường tiết niệu",
@@ -375,7 +605,25 @@
     "qwen_assertion": null,
     "eng_translation": [
       "Urinary tract infection"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.844627
+    }
   },
   {
     "text": "gleevec",
@@ -397,7 +645,29 @@
       "Gleevec",
       "Imatinib",
       "Imatinib Mesylate"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "282388": 1.0,
+        "284924": 1.0,
+        "282386": 1.0,
+        "1997267": 0.813729
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "282388": 1.0,
+        "284924": 1.0,
+        "404588": 0.9,
+        "404589": 0.9,
+        "576514": 0.9,
+        "10603": 0.9,
+        "2699831": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282388",
+      "confidence": 1.0
+    }
   },
   {
     "text": "allopurinol",
@@ -418,7 +688,28 @@
     "eng_translation": [
       "Allopurinol",
       "Xanthine Oxidase Inhibitor"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "90184": 1.0,
+        "519": 1.0,
+        "7820": 0.855735,
+        "1473047": 0.778821,
+        "1430935": 0.734484
+      },
+      "rapidfuzz": {
+        "519": 1.0,
+        "1154942": 0.95,
+        "813995": 0.9,
+        "1311085": 0.9,
+        "2657597": 0.855,
+        "1661218": 0.855
+      }
+    },
+    "candidate": {
+      "code": "519",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ảo giác",
@@ -439,6 +730,11 @@
     "eng_translation": [
       "hallucination",
       "Illusion"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

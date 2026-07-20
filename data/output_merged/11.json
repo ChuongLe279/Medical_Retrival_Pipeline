@@ -1,143 +1,170 @@
 [
-  {
-    "text": "tăng huyết áp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      45,
-      58
-    ],
-    "assertion_position": [
-      45,
-      58
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
+    {
+        "text": "tăng huyết áp",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            45,
+            58
+        ],
+        "assertion_position": [
+            45,
+            58
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bệnh gút",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            60,
+            68
+        ],
+        "assertion_position": [
+            60,
+            68
+        ],
+        "sentence": "[ENTITY] không đặc hiệu.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bệnh thận mạn",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            85,
+            98
+        ],
+        "assertion_position": [
+            85,
+            98
+        ],
+        "sentence": "[ENTITY], không đặc hiệu.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ung thư đại tràng",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            116,
+            133
+        ],
+        "assertion_position": [
+            116,
+            133
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "béo phì",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            135,
+            142
+        ],
+        "assertion_position": [
+            135,
+            142
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "xơ gan",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            154,
+            160
+        ],
+        "assertion_position": [
+            154,
+            160
+        ],
+        "sentence": "Bệnh nhân [ENTITY] mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và tràn dịch màng phổi.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "cổ trướng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            198,
+            207
+        ],
+        "assertion_position": [
+            198,
+            207
+        ],
+        "sentence": "Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, [ENTITY] và tràn dịch màng phổi.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tràn dịch màng phổi",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            211,
+            230
+        ],
+        "assertion_position": [
+            211,
+            230
+        ],
+        "sentence": "Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "TIPS",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            446,
+            450
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "bệnh gút",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      60,
-      68
-    ],
-    "assertion_position": [
-      60,
-      68
-    ],
-    "sentence": "[ENTITY] không đặc hiệu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "bệnh thận mạn",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      85,
-      98
-    ],
-    "assertion_position": [
-      85,
-      98
-    ],
-    "sentence": "[ENTITY], không đặc hiệu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "ung thư đại tràng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      116,
-      133
-    ],
-    "assertion_position": [
-      116,
-      133
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "béo phì",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      135,
-      142
-    ],
-    "assertion_position": [
-      135,
-      142
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "xơ gan",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      154,
-      160
-    ],
-    "assertion_position": [
-      154,
-      160
-    ],
-    "sentence": "Bệnh nhân [ENTITY] mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và tràn dịch màng phổi.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "cổ trướng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      198,
-      207
-    ],
-    "assertion_position": [
-      198,
-      207
-    ],
-    "sentence": "Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, [ENTITY] và tràn dịch màng phổi.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tràn dịch màng phổi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      211,
-      230
-    ],
-    "assertion_position": [
-      211,
-      230
-    ],
-    "sentence": "Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "TIPS",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      446,
-      450
-    ]
-  }
 ]

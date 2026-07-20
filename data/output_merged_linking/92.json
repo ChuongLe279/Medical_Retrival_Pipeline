@@ -17,7 +17,25 @@
     "qwen_assertion": null,
     "eng_translation": [
       "Urinary tract infection"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.844627
+    }
   },
   {
     "text": "chụp CT",
@@ -29,7 +47,12 @@
     "eng_translation": [
       "CT scan",
       "Computed Tomography Scan"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Bạch cầu",
@@ -41,6 +64,11 @@
     "eng_translation": [
       "White blood cells",
       "Leukocytes"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

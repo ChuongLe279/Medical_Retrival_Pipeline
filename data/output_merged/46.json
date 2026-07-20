@@ -1,51 +1,63 @@
 [
-  {
-    "text": "tăng huyết áp",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      52,
-      65
-    ],
-    "assertion_position": [
-      52,
-      65
-    ],
-    "sentence": "Bệnh lý mãn tính: tiền sử lâu dài của [ENTITY].",
-    "assertion_result": {
-      "tag": "isHistorical"
-    }
-  },
-  {
-    "text": "khập khiễng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      255,
-      266
-    ],
-    "assertion_position": [
-      255,
-      266
-    ],
-    "sentence": "đi [ENTITY] cách quãng.",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "tăng huyết áp",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            52,
+            65
+        ],
+        "assertion_position": [
+            52,
+            65
+        ],
+        "sentence": "Bệnh lý mãn tính: tiền sử lâu dài của [ENTITY].",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "chụp cắt lớp vi tính (ct)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      308,
-      333
-    ]
-  },
-  {
-    "text": "chụp cắt lớp vi tính (ct)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      445,
-      470
-    ]
-  }
+    {
+        "text": "khập khiễng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            255,
+            266
+        ],
+        "assertion_position": [
+            255,
+            266
+        ],
+        "sentence": "đi [ENTITY] cách quãng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp cắt lớp vi tính (ct)",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            308,
+            333
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp cắt lớp vi tính (ct)",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            445,
+            470
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    }
 ]

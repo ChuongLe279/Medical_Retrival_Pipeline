@@ -1,534 +1,648 @@
 [
-  {
-    "text": "Bệnh túi thừa",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      46,
-      59
-    ],
-    "assertion_position": [
-      46,
-      59
-    ],
-    "sentence": "Bệnh mãn tính: tiền sử [ENTITY] ở cả ruột non và đại tràng, chưa có biến chứng thủng hoặc áp xe.",
-    "assertion_result": {
-      "tag": "isHistorical"
+    {
+        "text": "Bệnh túi thừa",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            46,
+            59
+        ],
+        "assertion_position": [
+            46,
+            59
+        ],
+        "sentence": "Bệnh mãn tính: tiền sử [ENTITY] ở cả ruột non và đại tràng, chưa có biến chứng thủng hoặc áp xe.",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "colace",
+        "type": "THUỐC",
+        "position": [
+            164,
+            170
+        ],
+        "assertion_position": [
+            164,
+            170
+        ],
+        "sentence": "Thuốc trước khi nhập viện: thường dùng [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau bụng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            212,
+            220
+        ],
+        "assertion_position": [
+            212,
+            220
+        ],
+        "sentence": "Lý do nhập viện: [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau hố chậu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            274,
+            285
+        ],
+        "assertion_position": [
+            274,
+            285
+        ],
+        "sentence": "Thời điểm khởi phát triệu chứng: khởi phát đột ngột [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "táo bón",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            326,
+            333
+        ],
+        "assertion_position": [
+            326,
+            333
+        ],
+        "sentence": "Bệnh nhân cảm thấy rất [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đi đại tiện",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            390,
+            401
+        ],
+        "assertion_position": [
+            390,
+            401
+        ],
+        "sentence": "ban đêm, bệnh nhân có thể [ENTITY] vài lần liên tục, phân có vẻ thành khuôn.",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "phân có",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            420,
+            427
+        ],
+        "assertion_position": [
+            420,
+            427
+        ],
+        "sentence": "ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, [ENTITY] vẻ thành khuôn.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khuôn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            437,
+            442
+        ],
+        "assertion_position": [
+            437,
+            442
+        ],
+        "sentence": "ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau hố chậu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            491,
+            502
+        ],
+        "assertion_position": [
+            491,
+            502
+        ],
+        "sentence": "Sau đó, bệnh nhân nhận thấy khởi phát đột ngột [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tylenol",
+        "type": "THUỐC",
+        "position": [
+            564,
+            571
+        ],
+        "assertion_position": [
+            564,
+            571
+        ],
+        "sentence": "Bác sĩ PCP khuyên dùng [ENTITY] cho đau.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tylenol",
+        "type": "THUỐC",
+        "position": [
+            596,
+            603
+        ],
+        "assertion_position": [
+            596,
+            603
+        ],
+        "sentence": "bệnh nhân dùng [ENTITY] nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            636,
+            639
+        ],
+        "assertion_position": [
+            636,
+            639
+        ],
+        "sentence": "bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì [ENTITY] vẫn tiếp tục.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau bụng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            676,
+            684
+        ],
+        "assertion_position": [
+            676,
+            684
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "táo bón",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            686,
+            693
+        ],
+        "assertion_position": [
+            686,
+            693
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "buồn nôn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            695,
+            703
+        ],
+        "assertion_position": [
+            695,
+            703
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau hố chậu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            735,
+            746
+        ],
+        "assertion_position": [
+            735,
+            746
+        ],
+        "sentence": "Vị trí: [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "cơn đau",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            769,
+            776
+        ],
+        "assertion_position": [
+            769,
+            776
+        ],
+        "sentence": "Mức độ nghiêm trọng: [ENTITY] vẫn tiếp diễn mặc dù đã dùng tylenol.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tylenol",
+        "type": "THUỐC",
+        "position": [
+            806,
+            813
+        ],
+        "assertion_position": [
+            806,
+            813
+        ],
+        "sentence": "Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "buồn nôn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            838,
+            846
+        ],
+        "assertion_position": [
+            838,
+            846
+        ],
+        "sentence": "Triệu chứng liên quan: [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tylenol",
+        "type": "THUỐC",
+        "position": [
+            910,
+            917
+        ],
+        "assertion_position": [
+            910,
+            917
+        ],
+        "sentence": "đã dùng [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tylenol",
+        "type": "THUỐC",
+        "position": [
+            962,
+            969
+        ],
+        "assertion_position": [
+            962,
+            969
+        ],
+        "sentence": "Bác sĩ PCP khuyên dùng [ENTITY] cho đau.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1016,
+            1019
+        ],
+        "assertion_position": [
+            974,
+            977
+        ],
+        "sentence": "Bác sĩ PCP khuyên dùng tylenol cho [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhịp tim",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1132,
+            1140
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "84",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1141,
+            1143
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "huyết",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1145,
+            1150
+        ],
+        "assertion_position": [
+            1145,
+            1150
+        ],
+        "sentence": "8, nhịp tim 84, [ENTITY] áp 15670, nhịp thở 20, độ bão hòa oxy 99 khi thở khí trời.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "huyết áp",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1145,
+            1153
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "15670",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1154,
+            1159
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhịp thở",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1161,
+            1169
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "20",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1170,
+            1172
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "độ bão hòa oxy",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1174,
+            1188
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "99",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1189,
+            1191
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "hồng cầu",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1240,
+            1248
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bun",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1262,
+            1265
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "creatinine",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1266,
+            1276
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp ct",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1306,
+            1313
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "quai",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1396,
+            1400
+        ],
+        "assertion_position": [
+            1396,
+            1400
+        ],
+        "sentence": "Kết quả chẩn đoán hình ảnh: chụp ct bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một [ENTITY] ruột kết sigma, gợi ý viêm túi mật cấp tính không biến chứng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "viêm túi mật cấp tính",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1423,
+            1444
+        ],
+        "assertion_position": [
+            1423,
+            1444
+        ],
+        "sentence": "Kết quả chẩn đoán hình ảnh: chụp ct bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một quai ruột kết sigma, gợi ý [ENTITY] không biến chứng.",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "viêm túi mật cấp tính",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1491,
+            1512
+        ],
+        "assertion_position": [
+            1491,
+            1512
+        ],
+        "sentence": "Các kết quả chẩn đoán khác: [ENTITY] không biến chứng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "colace",
-    "type": "THUỐC",
-    "position": [
-      164,
-      170
-    ],
-    "assertion_position": [
-      164,
-      170
-    ],
-    "sentence": "Thuốc trước khi nhập viện: thường dùng [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "đau bụng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      212,
-      220
-    ],
-    "assertion_position": [
-      212,
-      220
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau hố chậu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      274,
-      285
-    ],
-    "assertion_position": [
-      274,
-      285
-    ],
-    "sentence": "Thời điểm khởi phát triệu chứng: khởi phát đột ngột [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "táo bón",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      326,
-      333
-    ],
-    "assertion_position": [
-      326,
-      333
-    ],
-    "sentence": "Bệnh nhân cảm thấy rất [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đi đại tiện",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      390,
-      401
-    ],
-    "assertion_position": [
-      390,
-      401
-    ],
-    "sentence": "ban đêm, bệnh nhân có thể [ENTITY] vài lần liên tục, phân có vẻ thành khuôn.",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "phân có",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      420,
-      427
-    ],
-    "assertion_position": [
-      420,
-      427
-    ],
-    "sentence": "ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, [ENTITY] vẻ thành khuôn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "khuôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      437,
-      442
-    ],
-    "assertion_position": [
-      437,
-      442
-    ],
-    "sentence": "ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau hố chậu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      491,
-      502
-    ],
-    "assertion_position": [
-      491,
-      502
-    ],
-    "sentence": "Sau đó, bệnh nhân nhận thấy khởi phát đột ngột [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tylenol",
-    "type": "THUỐC",
-    "position": [
-      564,
-      571
-    ],
-    "assertion_position": [
-      564,
-      571
-    ],
-    "sentence": "Bác sĩ PCP khuyên dùng [ENTITY] cho đau.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tylenol",
-    "type": "THUỐC",
-    "position": [
-      596,
-      603
-    ],
-    "assertion_position": [
-      596,
-      603
-    ],
-    "sentence": "bệnh nhân dùng [ENTITY] nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      636,
-      639
-    ],
-    "assertion_position": [
-      636,
-      639
-    ],
-    "sentence": "bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì [ENTITY] vẫn tiếp tục.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau bụng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      676,
-      684
-    ],
-    "assertion_position": [
-      676,
-      684
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "táo bón",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      686,
-      693
-    ],
-    "assertion_position": [
-      686,
-      693
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "buồn nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      695,
-      703
-    ],
-    "assertion_position": [
-      695,
-      703
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "đau hố chậu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      735,
-      746
-    ],
-    "assertion_position": [
-      735,
-      746
-    ],
-    "sentence": "Vị trí: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "cơn đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      769,
-      776
-    ],
-    "assertion_position": [
-      769,
-      776
-    ],
-    "sentence": "Mức độ nghiêm trọng: [ENTITY] vẫn tiếp diễn mặc dù đã dùng tylenol.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "tylenol",
-    "type": "THUỐC",
-    "position": [
-      806,
-      813
-    ],
-    "assertion_position": [
-      806,
-      813
-    ],
-    "sentence": "Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "buồn nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      838,
-      846
-    ],
-    "assertion_position": [
-      838,
-      846
-    ],
-    "sentence": "Triệu chứng liên quan: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "tylenol",
-    "type": "THUỐC",
-    "position": [
-      910,
-      917
-    ],
-    "assertion_position": [
-      910,
-      917
-    ],
-    "sentence": "đã dùng [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "tylenol",
-    "type": "THUỐC",
-    "position": [
-      962,
-      969
-    ],
-    "assertion_position": [
-      962,
-      969
-    ],
-    "sentence": "Bác sĩ PCP khuyên dùng [ENTITY] cho đau.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1016,
-      1019
-    ],
-    "assertion_position": [
-      974,
-      977
-    ],
-    "sentence": "Bác sĩ PCP khuyên dùng tylenol cho [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "nhịp tim",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1132,
-      1140
-    ]
-  },
-  {
-    "text": "84",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1141,
-      1143
-    ]
-  },
-  {
-    "text": "huyết",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1145,
-      1150
-    ],
-    "assertion_position": [
-      1145,
-      1150
-    ],
-    "sentence": "8, nhịp tim 84, [ENTITY] áp 15670, nhịp thở 20, độ bão hòa oxy 99 khi thở khí trời.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "huyết áp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1145,
-      1153
-    ]
-  },
-  {
-    "text": "15670",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1154,
-      1159
-    ]
-  },
-  {
-    "text": "nhịp thở",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1161,
-      1169
-    ]
-  },
-  {
-    "text": "20",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1170,
-      1172
-    ]
-  },
-  {
-    "text": "độ bão hòa oxy",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1174,
-      1188
-    ]
-  },
-  {
-    "text": "99",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1189,
-      1191
-    ]
-  },
-  {
-    "text": "hồng cầu",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1240,
-      1248
-    ]
-  },
-  {
-    "text": "bun",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1262,
-      1265
-    ]
-  },
-  {
-    "text": "creatinine",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1266,
-      1276
-    ]
-  },
-  {
-    "text": "chụp ct",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1306,
-      1313
-    ]
-  },
-  {
-    "text": "quai",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1396,
-      1400
-    ],
-    "assertion_position": [
-      1396,
-      1400
-    ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: chụp ct bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một [ENTITY] ruột kết sigma, gợi ý viêm túi mật cấp tính không biến chứng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "viêm túi mật cấp tính",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1423,
-      1444
-    ],
-    "assertion_position": [
-      1423,
-      1444
-    ],
-    "sentence": "Kết quả chẩn đoán hình ảnh: chụp ct bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một quai ruột kết sigma, gợi ý [ENTITY] không biến chứng.",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "viêm túi mật cấp tính",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1491,
-      1512
-    ],
-    "assertion_position": [
-      1491,
-      1512
-    ],
-    "sentence": "Các kết quả chẩn đoán khác: [ENTITY] không biến chứng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  }
 ]

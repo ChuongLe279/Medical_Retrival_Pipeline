@@ -1,571 +1,679 @@
 [
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      36,
-      38
-    ],
-    "assertion_position": [
-      36,
-      38
-    ],
-    "sentence": "[ENTITY] Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            36,
+            38
+        ],
+        "assertion_position": [
+            36,
+            38
+        ],
+        "sentence": "[ENTITY] Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": null
-  },
-  {
-    "text": "loạn cảm",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      43,
-      51
-    ],
-    "assertion_position": [
-      43,
-      51
-    ],
-    "sentence": "ho Rối [ENTITY] xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "loạn cảm",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            43,
+            51
+        ],
+        "assertion_position": [
+            43,
+            51
+        ],
+        "sentence": "ho Rối [ENTITY] xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "trầm cảm",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      57,
-      65
-    ],
-    "assertion_position": [
-      57,
-      65
-    ],
-    "sentence": "ho Rối loạn cảm xúc ([ENTITY]) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
-    "assertion_result": {
-      "tag": null
+    {
+        "text": "trầm cảm",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            57,
+            65
+        ],
+        "assertion_position": [
+            57,
+            65
+        ],
+        "sentence": "ho Rối loạn cảm xúc ([ENTITY]) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
     },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "trầm cảm",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      86,
-      94
-    ],
-    "assertion_position": [
-      86,
-      94
-    ],
-    "sentence": "ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn [ENTITY] không đặc hiệu).",
-    "assertion_result": {
-      "tag": "isHistorical"
+    {
+        "text": "trầm cảm",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            86,
+            94
+        ],
+        "assertion_position": [
+            86,
+            94
+        ],
+        "sentence": "ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn [ENTITY] không đặc hiệu).",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "hội chứng nghiện rượu",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            112,
+            133
+        ],
+        "assertion_position": [
+            112,
+            133
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "seroquel",
+        "type": "THUỐC",
+        "position": [
+            170,
+            178
+        ],
+        "assertion_position": [
+            170,
+            178
+        ],
+        "sentence": "Thuốc trước khi nhập viện lần này: [ENTITY] (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "lú lẫn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            209,
+            215
+        ],
+        "assertion_position": [
+            209,
+            215
+        ],
+        "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng [ENTITY], chóng mặt, khó nhìn gần có thể liên quan đến thuốc).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chóng mặt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            217,
+            226
+        ],
+        "assertion_position": [
+            217,
+            226
+        ],
+        "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, [ENTITY], khó nhìn gần có thể liên quan đến thuốc).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khó nhìn gần",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            228,
+            240
+        ],
+        "assertion_position": [
+            228,
+            240
+        ],
+        "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, [ENTITY] có thể liên quan đến thuốc).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "hội chứng nghiện rượu",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            300,
+            321
+        ],
+        "assertion_position": [
+            300,
+            321
+        ],
+        "sentence": "Các yếu tố nguy cơ liên quan: [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Lú lẫn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            434,
+            440
+        ],
+        "assertion_position": [
+            434,
+            440
+        ],
+        "sentence": "[ENTITY] từng đợt gần đây.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chóng mặt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            468,
+            477
+        ],
+        "assertion_position": [
+            468,
+            477
+        ],
+        "sentence": "cảm giác [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khó khăn khi nhìn gần",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            479,
+            500
+        ],
+        "assertion_position": [
+            479,
+            500
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "rối loạn thị giác",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            502,
+            519
+        ],
+        "assertion_position": [
+            502,
+            519
+        ],
+        "sentence": "[ENTITY], nhìn thấy con cái mình ở góc mắt.",
+        "assertion_result": {
+            "tag": "isFamily"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhìn thấy con cái mình ở góc mắt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            521,
+            553
+        ],
+        "assertion_position": [
+            521,
+            553
+        ],
+        "sentence": "rối loạn thị giác, [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ảo giác thị giác",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            555,
+            571
+        ],
+        "assertion_position": [
+            555,
+            571
+        ],
+        "sentence": "[ENTITY] (ảo giác thị giác).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ảo giác thị giác",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            573,
+            589
+        ],
+        "assertion_position": [
+            573,
+            589
+        ],
+        "sentence": "ảo giác thị giác ([ENTITY]).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Ảo thanh",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            592,
+            600
+        ],
+        "assertion_position": [
+            592,
+            600
+        ],
+        "sentence": "[ENTITY] (AH) (ảo giác thính giác).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ảo giác thính giác",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            607,
+            625
+        ],
+        "assertion_position": [
+            607,
+            625
+        ],
+        "sentence": "Ảo thanh (AH) ([ENTITY]).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Lú lẫn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            736,
+            742
+        ],
+        "assertion_position": [
+            736,
+            742
+        ],
+        "sentence": "[ENTITY]: từng đợt.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chóng mặt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            754,
+            763
+        ],
+        "assertion_position": [
+            754,
+            763
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Khó khăn về thị lực gần",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            765,
+            788
+        ],
+        "assertion_position": [
+            765,
+            788
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "thị lực",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            777,
+            784
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "rối loạn thị giác",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            790,
+            807
+        ],
+        "assertion_position": [
+            790,
+            807
+        ],
+        "sentence": "[ENTITY]: nhìn thấy con cái ở góc mắt.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhìn thấy con cái ở góc mắt",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            809,
+            836
+        ],
+        "assertion_position": [
+            809,
+            836
+        ],
+        "sentence": "rối loạn thị giác: [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ảo giác thị giác",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            838,
+            854
+        ],
+        "assertion_position": [
+            838,
+            854
+        ],
+        "sentence": "[ENTITY], Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Ảo thanh",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            856,
+            864
+        ],
+        "assertion_position": [
+            856,
+            864
+        ],
+        "sentence": "ảo giác thị giác, [ENTITY] (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ảo giác",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            880,
+            887
+        ],
+        "assertion_position": [
+            880,
+            887
+        ],
+        "sentence": "ảo giác thị giác, Ảo thanh (AH): có vẻ là [ENTITY] hơn là ảo ảnh thực sự.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ảo ảnh thực",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            895,
+            906
+        ],
+        "assertion_position": [
+            895,
+            906
+        ],
+        "sentence": "ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là [ENTITY] sự.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "mẫu đơn",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1035,
+            1042
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "cam",
+        "type": "THUỐC",
+        "position": [
+            1043,
+            1046
+        ],
+        "assertion_position": [
+            1043,
+            1046
+        ],
+        "sentence": "Được yêu cầu ký một mẫu đơn [ENTITY] kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được.",
+        "assertion_result": {
+            "tag": "isFamily"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp ct",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1159,
+            1166
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp ct",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1665,
+            1672
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Đột sống thắt lưng",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1782,
+            1800
+        ],
+        "assertion_position": [
+            1782,
+            1800
+        ],
+        "sentence": "Các thủ thuật đã thực hiện: chọc dò dịch não tủy ([ENTITY]).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Bệnh đa xơ cứng",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            2006,
+            2021
+        ],
+        "assertion_position": [
+            2006,
+            2021
+        ],
+        "sentence": "Sẽ không điển hình cho [ENTITY] theo ý kiến của bác sĩ thần kinh.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Ảo giác",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            2056,
+            2063
+        ],
+        "assertion_position": [
+            2056,
+            2063
+        ],
+        "sentence": "[ENTITY] do rượu (suy nghĩ).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "hội chứng nghiện rượu",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      112,
-      133
-    ],
-    "assertion_position": [
-      112,
-      133
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "seroquel",
-    "type": "THUỐC",
-    "position": [
-      170,
-      178
-    ],
-    "assertion_position": [
-      170,
-      178
-    ],
-    "sentence": "Thuốc trước khi nhập viện lần này: [ENTITY] (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "lú lẫn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      209,
-      215
-    ],
-    "assertion_position": [
-      209,
-      215
-    ],
-    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng [ENTITY], chóng mặt, khó nhìn gần có thể liên quan đến thuốc).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "chóng mặt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      217,
-      226
-    ],
-    "assertion_position": [
-      217,
-      226
-    ],
-    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, [ENTITY], khó nhìn gần có thể liên quan đến thuốc).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "khó nhìn gần",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      228,
-      240
-    ],
-    "assertion_position": [
-      228,
-      240
-    ],
-    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, [ENTITY] có thể liên quan đến thuốc).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "hội chứng nghiện rượu",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      300,
-      321
-    ],
-    "assertion_position": [
-      300,
-      321
-    ],
-    "sentence": "Các yếu tố nguy cơ liên quan: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Lú lẫn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      434,
-      440
-    ],
-    "assertion_position": [
-      434,
-      440
-    ],
-    "sentence": "[ENTITY] từng đợt gần đây.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "chóng mặt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      468,
-      477
-    ],
-    "assertion_position": [
-      468,
-      477
-    ],
-    "sentence": "cảm giác [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "khó khăn khi nhìn gần",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      479,
-      500
-    ],
-    "assertion_position": [
-      479,
-      500
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "rối loạn thị giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      502,
-      519
-    ],
-    "assertion_position": [
-      502,
-      519
-    ],
-    "sentence": "[ENTITY], nhìn thấy con cái mình ở góc mắt.",
-    "assertion_result": {
-      "tag": "isFamily"
-    }
-  },
-  {
-    "text": "nhìn thấy con cái mình ở góc mắt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      521,
-      553
-    ],
-    "assertion_position": [
-      521,
-      553
-    ],
-    "sentence": "rối loạn thị giác, [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ảo giác thị giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      555,
-      571
-    ],
-    "assertion_position": [
-      555,
-      571
-    ],
-    "sentence": "[ENTITY] (ảo giác thị giác).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ảo giác thị giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      573,
-      589
-    ],
-    "assertion_position": [
-      573,
-      589
-    ],
-    "sentence": "ảo giác thị giác ([ENTITY]).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Ảo thanh",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      592,
-      600
-    ],
-    "assertion_position": [
-      592,
-      600
-    ],
-    "sentence": "[ENTITY] (AH) (ảo giác thính giác).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ảo giác thính giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      607,
-      625
-    ],
-    "assertion_position": [
-      607,
-      625
-    ],
-    "sentence": "Ảo thanh (AH) ([ENTITY]).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Lú lẫn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      736,
-      742
-    ],
-    "assertion_position": [
-      736,
-      742
-    ],
-    "sentence": "[ENTITY]: từng đợt.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "chóng mặt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      754,
-      763
-    ],
-    "assertion_position": [
-      754,
-      763
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "Khó khăn về thị lực gần",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      765,
-      788
-    ],
-    "assertion_position": [
-      765,
-      788
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "thị lực",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      777,
-      784
-    ]
-  },
-  {
-    "text": "rối loạn thị giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      790,
-      807
-    ],
-    "assertion_position": [
-      790,
-      807
-    ],
-    "sentence": "[ENTITY]: nhìn thấy con cái ở góc mắt.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "nhìn thấy con cái ở góc mắt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      809,
-      836
-    ],
-    "assertion_position": [
-      809,
-      836
-    ],
-    "sentence": "rối loạn thị giác: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ảo giác thị giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      838,
-      854
-    ],
-    "assertion_position": [
-      838,
-      854
-    ],
-    "sentence": "[ENTITY], Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Ảo thanh",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      856,
-      864
-    ],
-    "assertion_position": [
-      856,
-      864
-    ],
-    "sentence": "ảo giác thị giác, [ENTITY] (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ảo giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      880,
-      887
-    ],
-    "assertion_position": [
-      880,
-      887
-    ],
-    "sentence": "ảo giác thị giác, Ảo thanh (AH): có vẻ là [ENTITY] hơn là ảo ảnh thực sự.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ảo ảnh thực",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      895,
-      906
-    ],
-    "assertion_position": [
-      895,
-      906
-    ],
-    "sentence": "ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là [ENTITY] sự.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "mẫu đơn",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1035,
-      1042
-    ]
-  },
-  {
-    "text": "cam",
-    "type": "THUỐC",
-    "position": [
-      1043,
-      1046
-    ],
-    "assertion_position": [
-      1043,
-      1046
-    ],
-    "sentence": "Được yêu cầu ký một mẫu đơn [ENTITY] kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được.",
-    "assertion_result": {
-      "tag": "isFamily"
-    }
-  },
-  {
-    "text": "chụp ct",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1159,
-      1166
-    ]
-  },
-  {
-    "text": "chụp ct",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1665,
-      1672
-    ]
-  },
-  {
-    "text": "Đột sống thắt lưng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1782,
-      1800
-    ],
-    "assertion_position": [
-      1782,
-      1800
-    ],
-    "sentence": "Các thủ thuật đã thực hiện: chọc dò dịch não tủy ([ENTITY]).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "Bệnh đa xơ cứng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2006,
-      2021
-    ],
-    "assertion_position": [
-      2006,
-      2021
-    ],
-    "sentence": "Sẽ không điển hình cho [ENTITY] theo ý kiến của bác sĩ thần kinh.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "Ảo giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2056,
-      2063
-    ],
-    "assertion_position": [
-      2056,
-      2063
-    ],
-    "sentence": "[ENTITY] do rượu (suy nghĩ).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  }
 ]

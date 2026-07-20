@@ -1,101 +1,122 @@
 [
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      57,
-      64
-    ],
-    "assertion_position": [
-      57,
-      64
-    ],
-    "sentence": "Khoảng vài tuần trước đây bệnh nhân có [ENTITY] khi gắng sức.",
-    "assertion_result": {
-      "tag": "isHistorical"
+    {
+        "text": "khó thở",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            57,
+            64
+        ],
+        "assertion_position": [
+            57,
+            64
+        ],
+        "sentence": "Khoảng vài tuần trước đây bệnh nhân có [ENTITY] khi gắng sức.",
+        "assertion_result": {
+            "tag": "isHistorical"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Khó thở",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            188,
+            195
+        ],
+        "assertion_position": [
+            188,
+            195
+        ],
+        "sentence": "[ENTITY] khi gắng sức.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "gắng",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            200,
+            204
+        ],
+        "assertion_position": [
+            200,
+            204
+        ],
+        "sentence": "Khó thở khi [ENTITY] sức.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "siêu âm tim",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            244,
+            255
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "hở van hai lá",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            265,
+            278
+        ],
+        "assertion_position": [
+            265,
+            278
+        ],
+        "sentence": "siêu âm tim cho thấy [ENTITY] nặng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Chụp động mạch vành",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            285,
+            304
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bệnh",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            323,
+            327
+        ],
+        "assertion_position": [
+            323,
+            327
+        ],
+        "sentence": "Chụp động mạch vành cho thấy không có [ENTITY] động mạch vành.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "Khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      188,
-      195
-    ],
-    "assertion_position": [
-      188,
-      195
-    ],
-    "sentence": "[ENTITY] khi gắng sức.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "gắng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      200,
-      204
-    ],
-    "assertion_position": [
-      200,
-      204
-    ],
-    "sentence": "Khó thở khi [ENTITY] sức.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "siêu âm tim",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      244,
-      255
-    ]
-  },
-  {
-    "text": "hở van hai lá",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      265,
-      278
-    ],
-    "assertion_position": [
-      265,
-      278
-    ],
-    "sentence": "siêu âm tim cho thấy [ENTITY] nặng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Chụp động mạch vành",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      285,
-      304
-    ]
-  },
-  {
-    "text": "bệnh",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      323,
-      327
-    ],
-    "assertion_position": [
-      323,
-      327
-    ],
-    "sentence": "Chụp động mạch vành cho thấy không có [ENTITY] động mạch vành.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  }
 ]

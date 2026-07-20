@@ -1,194 +1,230 @@
 [
-  {
-    "text": "ung thư vú",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      36,
-      46
-    ],
-    "assertion_position": [
-      36,
-      46
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
+    {
+        "text": "ung thư vú",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            36,
+            46
+        ],
+        "assertion_position": [
+            36,
+            46
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ung thư phổi",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            48,
+            60
+        ],
+        "assertion_position": [
+            48,
+            60
+        ],
+        "sentence": "[ENTITY] gây ho khó thở kéo dài tại nhà.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            65,
+            67
+        ],
+        "assertion_position": [
+            65,
+            67
+        ],
+        "sentence": "ung thư phổi gây [ENTITY] khó thở kéo dài tại nhà.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khó thở",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            68,
+            75
+        ],
+        "assertion_position": [
+            68,
+            75
+        ],
+        "sentence": "ung thư phổi gây ho [ENTITY] kéo dài tại nhà.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "suy nhược toàn thân",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            171,
+            190
+        ],
+        "assertion_position": [
+            171,
+            190
+        ],
+        "sentence": "Lý do nhập viện: [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khó thở",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            235,
+            242
+        ],
+        "assertion_position": [
+            235,
+            242
+        ],
+        "sentence": "Theo lời kể bệnh nhân xuất hiện tình trạng [ENTITY] gần đây , liên tục, kể cả lúc nghỉ ngơi kèm theo hồi hộp, đánh trống ngực.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đánh trống ngực",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            301,
+            316
+        ],
+        "assertion_position": [
+            301,
+            316
+        ],
+        "sentence": "Theo lời kể bệnh nhân xuất hiện tình trạng khó thở gần đây , liên tục, kể cả lúc nghỉ ngơi kèm theo hồi hộp, [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "suy nhược toàn thân",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            344,
+            363
+        ],
+        "assertion_position": [
+            344,
+            363
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khó thở",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            365,
+            372
+        ],
+        "assertion_position": [
+            365,
+            372
+        ],
+        "sentence": "[ENTITY] liên tục, nhất là khi nằm.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ho",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            400,
+            402
+        ],
+        "assertion_position": [
+            400,
+            402
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đánh trống ngực",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            413,
+            428
+        ],
+        "assertion_position": [
+            413,
+            428
+        ],
+        "sentence": "hồi hộp ([ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Siêu âm tim",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            504,
+            515
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "ung thư phổi",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      48,
-      60
-    ],
-    "assertion_position": [
-      48,
-      60
-    ],
-    "sentence": "[ENTITY] gây ho khó thở kéo dài tại nhà.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      65,
-      67
-    ],
-    "assertion_position": [
-      65,
-      67
-    ],
-    "sentence": "ung thư phổi gây [ENTITY] khó thở kéo dài tại nhà.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      68,
-      75
-    ],
-    "assertion_position": [
-      68,
-      75
-    ],
-    "sentence": "ung thư phổi gây ho [ENTITY] kéo dài tại nhà.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "suy nhược toàn thân",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      171,
-      190
-    ],
-    "assertion_position": [
-      171,
-      190
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      235,
-      242
-    ],
-    "assertion_position": [
-      235,
-      242
-    ],
-    "sentence": "Theo lời kể bệnh nhân xuất hiện tình trạng [ENTITY] gần đây , liên tục, kể cả lúc nghỉ ngơi kèm theo hồi hộp, đánh trống ngực.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đánh trống ngực",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      301,
-      316
-    ],
-    "assertion_position": [
-      301,
-      316
-    ],
-    "sentence": "Theo lời kể bệnh nhân xuất hiện tình trạng khó thở gần đây , liên tục, kể cả lúc nghỉ ngơi kèm theo hồi hộp, [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "suy nhược toàn thân",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      344,
-      363
-    ],
-    "assertion_position": [
-      344,
-      363
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      365,
-      372
-    ],
-    "assertion_position": [
-      365,
-      372
-    ],
-    "sentence": "[ENTITY] liên tục, nhất là khi nằm.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      400,
-      402
-    ],
-    "assertion_position": [
-      400,
-      402
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "đánh trống ngực",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      413,
-      428
-    ],
-    "assertion_position": [
-      413,
-      428
-    ],
-    "sentence": "hồi hộp ([ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Siêu âm tim",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      504,
-      515
-    ]
-  }
 ]

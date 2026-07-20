@@ -12,7 +12,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 import json
 
-JSON_FOLDER_PATH = PROJECT_ROOT / "data" / "output_merged"  # File JSON test
+JSON_FOLDER_PATH = PROJECT_ROOT / "data" / "output_merged_linking"  # File JSON test
 
 
 SAPBERT_WEIGHT = 0.9

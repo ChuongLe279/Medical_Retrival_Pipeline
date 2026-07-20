@@ -1,490 +1,586 @@
 [
-  {
-    "text": "nội soi",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      97,
-      104
-    ]
-  },
-  {
-    "text": "cipro",
-    "type": "THUỐC",
-    "position": [
-      150,
-      155
-    ],
-    "assertion_position": [
-      150,
-      155
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
+    {
+        "text": "nội soi",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            97,
+            104
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "cipro",
+        "type": "THUỐC",
+        "position": [
+            150,
+            155
+        ],
+        "assertion_position": [
+            150,
+            155
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bactrim",
+        "type": "THUỐC",
+        "position": [
+            157,
+            164
+        ],
+        "assertion_position": [
+            157,
+            164
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khuẩn đường tiết niệu",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            187,
+            208
+        ],
+        "assertion_position": [
+            187,
+            208
+        ],
+        "sentence": "Kháng sinh cho nhiễm [ENTITY], vị trí không xác định (được bác sĩ chăm sóc chính kê đơn vào cuối tuần).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau bụng dưới",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            328,
+            341
+        ],
+        "assertion_position": [
+            328,
+            341
+        ],
+        "sentence": "Lý do nhập viện: [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Đau",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            432,
+            435
+        ],
+        "assertion_position": [
+            432,
+            435
+        ],
+        "sentence": "[ENTITY] tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "buồn nôn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            510,
+            518
+        ],
+        "assertion_position": [
+            510,
+            518
+        ],
+        "sentence": "Ban đầu có [ENTITY] nhưng đã thuyên giảm.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isHistorical",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "toradol",
+        "type": "THUỐC",
+        "position": [
+            603,
+            610
+        ],
+        "assertion_position": [
+            603,
+            610
+        ],
+        "sentence": "đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau bụng dưới",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            634,
+            647
+        ],
+        "assertion_position": [
+            634,
+            647
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ớn lạnh",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            649,
+            656
+        ],
+        "assertion_position": [
+            649,
+            656
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khó chịu khi đi tiểu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            658,
+            678
+        ],
+        "assertion_position": [
+            658,
+            678
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khó chịu khi đại tiện",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            680,
+            701
+        ],
+        "assertion_position": [
+            680,
+            701
+        ],
+        "sentence": "[ENTITY].",
+        "assertion_result": {
+            "tag": "isUncertain"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nhiễm khuẩn đường tiết niệu",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            806,
+            833
+        ],
+        "assertion_position": [
+            806,
+            833
+        ],
+        "sentence": "Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho [ENTITY], vị trí không xác định.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "cipro",
+        "type": "THUỐC",
+        "position": [
+            918,
+            923
+        ],
+        "assertion_position": [
+            918,
+            923
+        ],
+        "sentence": "Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng [ENTITY] và bactrim.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "bactrim",
+        "type": "THUỐC",
+        "position": [
+            927,
+            934
+        ],
+        "assertion_position": [
+            927,
+            934
+        ],
+        "sentence": "Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và [ENTITY].",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            973,
+            976
+        ],
+        "assertion_position": [
+            973,
+            976
+        ],
+        "sentence": "[ENTITY] tiến triển và lan vào sườn trái và LLQ.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1017,
+            1020
+        ],
+        "assertion_position": [
+            1017,
+            1020
+        ],
+        "sentence": "[ENTITY] liên tục, lan tỏa ra lưng và có tính chất kéo.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "Đồng",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1068,
+            1072
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "ớn lạnh",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1075,
+            1082
+        ],
+        "assertion_position": [
+            1075,
+            1082
+        ],
+        "sentence": "Đồng ý [ENTITY] và một số khó chịu khi đi tiểu và đại tiện.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khó chịu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1093,
+            1101
+        ],
+        "assertion_position": [
+            1093,
+            1101
+        ],
+        "sentence": "Đồng ý ớn lạnh và một số [ENTITY] khi đi tiểu và đại tiện.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau đớn khi đi tiểu",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1167,
+            1186
+        ],
+        "assertion_position": [
+            1167,
+            1186
+        ],
+        "sentence": "Không có máu trong phân hoặc nước tiểu, [ENTITY], tiểu gấp hoặc các triệu chứng tiết niệu khác.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "tiểu gấp",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1188,
+            1196
+        ],
+        "assertion_position": [
+            1188,
+            1196
+        ],
+        "sentence": "Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, [ENTITY] hoặc các triệu chứng tiết niệu khác.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "đau ngực",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1250,
+            1258
+        ],
+        "assertion_position": [
+            1250,
+            1258
+        ],
+        "sentence": "Phủ nhận CPSOB ([ENTITY], khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khó thở",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1260,
+            1267
+        ],
+        "assertion_position": [
+            1260,
+            1267
+        ],
+        "sentence": "Phủ nhận CPSOB (đau ngực, [ENTITY]), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "buồn nôn",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1274,
+            1282
+        ],
+        "assertion_position": [
+            1274,
+            1282
+        ],
+        "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV ([ENTITY], nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "nôn mửa",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1284,
+            1291
+        ],
+        "assertion_position": [
+            1284,
+            1291
+        ],
+        "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, [ENTITY]), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chảy máu âm đạo",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1298,
+            1313
+        ],
+        "assertion_position": [
+            1298,
+            1313
+        ],
+        "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB ([ENTITY]), khí hư bất thường, thay đổi cân nặng.",
+        "assertion_result": {
+            "tag": "isNegated"
+        },
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "khí hư bất thường",
+        "type": "TRIỆU_CHỨNG",
+        "position": [
+            1316,
+            1333
+        ],
+        "assertion_position": [
+            1316,
+            1333
+        ],
+        "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), [ENTITY], thay đổi cân nặng.",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": "isNegated",
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "công thức máu (cbc)",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1398,
+            1417
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "12",
+        "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+        "position": [
+            1421,
+            1423
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "chụp cắt lớp vi tính (ct)",
+        "type": "TÊN_XÉT_NGHIỆM",
+        "position": [
+            1465,
+            1490
+        ],
+        "retriever": {
+            "rapidfuzz": {}
+        }
+    },
+    {
+        "text": "áp xe",
+        "type": "CHẨN_ĐOÁN",
+        "position": [
+            1633,
+            1638
+        ],
+        "assertion_position": [
+            1633,
+            1638
+        ],
+        "sentence": "Các phát hiện chẩn đoán khác: Lo ngại về [ENTITY] (Đã tư vấn Ngoại khoa Tổng hợp).",
+        "assertion_result": {
+            "tag": null
+        },
+        "qwen_assertion": null,
+        "retriever": {
+            "rapidfuzz": {}
+        }
     }
-  },
-  {
-    "text": "bactrim",
-    "type": "THUỐC",
-    "position": [
-      157,
-      164
-    ],
-    "assertion_position": [
-      157,
-      164
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "khuẩn đường tiết niệu",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      187,
-      208
-    ],
-    "assertion_position": [
-      187,
-      208
-    ],
-    "sentence": "Kháng sinh cho nhiễm [ENTITY], vị trí không xác định (được bác sĩ chăm sóc chính kê đơn vào cuối tuần).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau bụng dưới",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      328,
-      341
-    ],
-    "assertion_position": [
-      328,
-      341
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      432,
-      435
-    ],
-    "assertion_position": [
-      432,
-      435
-    ],
-    "sentence": "[ENTITY] tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "buồn nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      510,
-      518
-    ],
-    "assertion_position": [
-      510,
-      518
-    ],
-    "sentence": "Ban đầu có [ENTITY] nhưng đã thuyên giảm.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isHistorical"
-  },
-  {
-    "text": "toradol",
-    "type": "THUỐC",
-    "position": [
-      603,
-      610
-    ],
-    "assertion_position": [
-      603,
-      610
-    ],
-    "sentence": "đau cải thiện đáng kể sau khi dùng iv morphineiv morphine and [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau bụng dưới",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      634,
-      647
-    ],
-    "assertion_position": [
-      634,
-      647
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "ớn lạnh",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      649,
-      656
-    ],
-    "assertion_position": [
-      649,
-      656
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "khó chịu khi đi tiểu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      658,
-      678
-    ],
-    "assertion_position": [
-      658,
-      678
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "khó chịu khi đại tiện",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      680,
-      701
-    ],
-    "assertion_position": [
-      680,
-      701
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    }
-  },
-  {
-    "text": "nhiễm khuẩn đường tiết niệu",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      806,
-      833
-    ],
-    "assertion_position": [
-      806,
-      833
-    ],
-    "sentence": "Được bác sĩ chăm sóc chính khám vào cuối tuần, được kê đơn kháng sinh cho [ENTITY], vị trí không xác định.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "cipro",
-    "type": "THUỐC",
-    "position": [
-      918,
-      923
-    ],
-    "assertion_position": [
-      918,
-      923
-    ],
-    "sentence": "Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng [ENTITY] và bactrim.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "bactrim",
-    "type": "THUỐC",
-    "position": [
-      927,
-      934
-    ],
-    "assertion_position": [
-      927,
-      934
-    ],
-    "sentence": "Đi khám lại bác sĩ chăm sóc chính vào hôm qua, bắt đầu dùng cipro và [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      973,
-      976
-    ],
-    "assertion_position": [
-      973,
-      976
-    ],
-    "sentence": "[ENTITY] tiến triển và lan vào sườn trái và LLQ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1017,
-      1020
-    ],
-    "assertion_position": [
-      1017,
-      1020
-    ],
-    "sentence": "[ENTITY] liên tục, lan tỏa ra lưng và có tính chất kéo.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "Đồng",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1068,
-      1072
-    ]
-  },
-  {
-    "text": "ớn lạnh",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1075,
-      1082
-    ],
-    "assertion_position": [
-      1075,
-      1082
-    ],
-    "sentence": "Đồng ý [ENTITY] và một số khó chịu khi đi tiểu và đại tiện.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "khó chịu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1093,
-      1101
-    ],
-    "assertion_position": [
-      1093,
-      1101
-    ],
-    "sentence": "Đồng ý ớn lạnh và một số [ENTITY] khi đi tiểu và đại tiện.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  },
-  {
-    "text": "đau đớn khi đi tiểu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1167,
-      1186
-    ],
-    "assertion_position": [
-      1167,
-      1186
-    ],
-    "sentence": "Không có máu trong phân hoặc nước tiểu, [ENTITY], tiểu gấp hoặc các triệu chứng tiết niệu khác.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "tiểu gấp",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1188,
-      1196
-    ],
-    "assertion_position": [
-      1188,
-      1196
-    ],
-    "sentence": "Không có máu trong phân hoặc nước tiểu, đau đớn khi đi tiểu, [ENTITY] hoặc các triệu chứng tiết niệu khác.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "đau ngực",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1250,
-      1258
-    ],
-    "assertion_position": [
-      1250,
-      1258
-    ],
-    "sentence": "Phủ nhận CPSOB ([ENTITY], khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1260,
-      1267
-    ],
-    "assertion_position": [
-      1260,
-      1267
-    ],
-    "sentence": "Phủ nhận CPSOB (đau ngực, [ENTITY]), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "buồn nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1274,
-      1282
-    ],
-    "assertion_position": [
-      1274,
-      1282
-    ],
-    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV ([ENTITY], nôn mửa), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "nôn mửa",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1284,
-      1291
-    ],
-    "assertion_position": [
-      1284,
-      1291
-    ],
-    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, [ENTITY]), VB (chảy máu âm đạo), khí hư bất thường, thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "chảy máu âm đạo",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1298,
-      1313
-    ],
-    "assertion_position": [
-      1298,
-      1313
-    ],
-    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB ([ENTITY]), khí hư bất thường, thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    }
-  },
-  {
-    "text": "khí hư bất thường",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1316,
-      1333
-    ],
-    "assertion_position": [
-      1316,
-      1333
-    ],
-    "sentence": "Phủ nhận CPSOB (đau ngực, khó thở), NV (buồn nôn, nôn mửa), VB (chảy máu âm đạo), [ENTITY], thay đổi cân nặng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": "isNegated"
-  },
-  {
-    "text": "công thức máu (cbc)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1398,
-      1417
-    ]
-  },
-  {
-    "text": "12",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1421,
-      1423
-    ]
-  },
-  {
-    "text": "chụp cắt lớp vi tính (ct)",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1465,
-      1490
-    ]
-  },
-  {
-    "text": "áp xe",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1633,
-      1638
-    ],
-    "assertion_position": [
-      1633,
-      1638
-    ],
-    "sentence": "Các phát hiện chẩn đoán khác: Lo ngại về [ENTITY] (Đã tư vấn Ngoại khoa Tổng hợp).",
-    "assertion_result": {
-      "tag": null
-    },
-    "qwen_assertion": null
-  }
 ]
