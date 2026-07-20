@@ -45,7 +45,7 @@ def calculating_assertion_pos(json_file, text_file):
     Locate every entity in the NORMALIZED text file `text_file`, but only
     store "assertion_position" for supported assertion entity types.
 
-    Overlap-aware: uses each entity's ORIGINAL "pos" span to detect nesting
+    Overlap-aware: uses each entity's ORIGINAL "position" span to detect nesting
     (entity B is "nested" in entity A if A's original span contains B's
     original start). This matters because normalize_text_file() reshapes
     the raw text, so we can't assume entities occur strictly left-to-right
@@ -72,12 +72,12 @@ def calculating_assertion_pos(json_file, text_file):
     order = sorted(
         range(len(entities)),
         key=lambda i: (
-            entities[i]["pos"][0],
-            -(entities[i]["pos"][1] - entities[i]["pos"][0]),
+            entities[i]["position"][0],
+            -(entities[i]["position"][1] - entities[i]["position"][0]),
         ),
     )
 
-    # Each stack frame represents an "open" ancestor span (by original pos):
+    # Each stack frame represents an "open" ancestor span (by original position):
     #   orig_end     - original end offset, used to know when it's fully closed
     #   norm_end     - this entity's own normalized end offset
     #   last_norm_end- normalized cursor for the *next* thing found inside
@@ -88,7 +88,7 @@ def calculating_assertion_pos(json_file, text_file):
 
     for idx in order:
         entity = entities[idx]
-        orig_start, orig_end = entity["pos"]
+        orig_start, orig_end = entity["position"]
 
         # Apply the same whitespace normalization used for normalized text.
         normalized_entity_text = normalized_ner_entity(entity["text"])
@@ -208,7 +208,7 @@ def add_sentence_to_entities(txt_path, json_path):
         Path to the UTF-8 NORMALIZED .txt file with the full clinical document.
     json_path : str or Path
         Path to the .json file containing a list of entities, each with
-        "text", "type", "pos" (offsets in the original raw text) and
+        "text", "type", "position" (offsets in the original raw text) and
         "assertion_position" for supported types (offsets in the normalized
         text, computed by calculating_assertion_pos). This file is overwritten
         in place.
@@ -238,7 +238,7 @@ def add_sentence_to_entities(txt_path, json_path):
             enriched_entities.append({
                 'text': entity['text'],
                 'type': entity['type'],
-                'pos': entity['pos'],
+                'position': entity['position'],
             })
             continue
 
@@ -271,7 +271,7 @@ def add_sentence_to_entities(txt_path, json_path):
         enriched_entities.append({
             'text': entity['text'],
             'type': entity['type'],
-            'pos': entity['pos'],
+            'position': entity['position'],
             'assertion_position': entity['assertion_position'],
             'sentence': sentence,
         })
