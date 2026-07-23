@@ -15,8 +15,8 @@ import json
 JSON_FOLDER_PATH = PROJECT_ROOT / "data" / "output_merged_linking"  # File JSON test
 
 
-SAPBERT_WEIGHT = 0.9
-RAPIDFUZZ_WEIGHT = 0.1
+SAPBERT_WEIGHT = 0.8
+RAPIDFUZZ_WEIGHT = 0.2
 
 
 def fuse_entity_result(entity: dict) -> None:
