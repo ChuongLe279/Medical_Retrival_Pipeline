@@ -7,7 +7,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 
-TEST_FOLDER_DIR = PROJECT_ROOT / "data" / "test" 
+TEST_FOLDER_DIR = PROJECT_ROOT / "data" / "new_test_input"
 NORMALIZED_TEST_FOLDER = PROJECT_ROOT / "data" / "test_normalized"
 
 
