@@ -11,6 +11,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+from src.preprocessing.string_matching import string_matching_pos
+
 TEST_INPUT_PATH = PROJECT_ROOT / "data" / "new_test_input"
 NORMALIZED_TEXT_PATH = PROJECT_ROOT / "data" / "test_normalized"
 JSON_PATH = PROJECT_ROOT / "data" / "new_ner_output"
@@ -22,6 +24,13 @@ def normalized_ner_entity(entity_text: str) -> str:
     """Collapse repeated whitespace and trim an NER entity's text."""
     return re.sub(r"\s+", " ", entity_text).strip()
 
+
+def calculating_raw_pos(json_file, raw_text_file):
+    """Recalculate ``position`` against the corresponding raw test input."""
+    string_matching_pos(json_file, raw_text_file)
+    with Path(json_file).open("r", encoding="utf-8") as file:
+        return json.load(file)
+
 def find_position(entity_text: str, input_text: str, start_at: int = 0) -> tuple[int, int]:
     """
     Find the position of `entity_text` within `input_text`, searching from
@@ -29,7 +38,10 @@ def find_position(entity_text: str, input_text: str, start_at: int = 0) -> tuple
 
     Raises ValueError if the entity text cannot be found from that point on.
     """
-    pattern = re.compile(re.escape(entity_text))
+    # Match case-insensitively from the start. A case-sensitive first pass can
+    # skip an earlier uppercase occurrence and select a much later lowercase
+    # duplicate, which corrupts the forward search cursor for later entities.
+    pattern = re.compile(re.escape(entity_text), re.IGNORECASE)
     match = pattern.search(input_text, start_at)
 
     # The NER representation collapses whitespace, while raw test input can
@@ -73,8 +85,12 @@ def find_position(entity_text: str, input_text: str, start_at: int = 0) -> tuple
 
 def calculating_assertion_pos(json_file, text_file):
     """
-    Locate every entity in the raw test input file `text_file`, but only
+    Locate every entity in the normalized test file `text_file`, but only
     store "assertion_position" for supported assertion entity types.
+
+    The existing ``position`` field is preserved as an offset into the raw
+    ``new_test_input`` document. Only ``assertion_position`` uses offsets from
+    ``test_normalized``.
 
     Overlap-aware: uses each entity's ORIGINAL "position" span to detect nesting
     (entity B is "nested" in entity A if A's original span contains B's
@@ -141,8 +157,7 @@ def calculating_assertion_pos(json_file, text_file):
             entity_text, input_text, search_from
         )
         if entity.get("type") in SUPPORTED_ENTITY_TYPES:
-            # Use the exact raw substring. This is important when the NER text
-            # contains punctuation that was absent from the source document.
+            # Keep entity text aligned with the normalized assertion span.
             entity["text"] = input_text[norm_start:norm_end]
             entity["assertion_position"] = [norm_start, norm_end]
         else:
@@ -225,52 +240,6 @@ def _build_sentence_with_masked_entity(full_text, sent_start, sent_end, ent_star
     return masked.strip()
 
 
-def _find_normalized_assertion_positions(entities, normalized_text):
-    """Locate supported entities in normalized text without changing raw offsets."""
-    supported_indices = [
-        i for i, entity in enumerate(entities)
-        if entity.get("type") in SUPPORTED_ENTITY_TYPES
-    ]
-    order = sorted(
-        supported_indices,
-        key=lambda i: (
-            entities[i]["position"][0],
-            -(entities[i]["position"][1] - entities[i]["position"][0]),
-        ),
-    )
-    positions = {}
-    stack = []
-    root_last_end = 0
-
-    for idx in order:
-        entity = entities[idx]
-        orig_start, orig_end = entity["position"]
-
-        while stack and stack[-1]["orig_end"] <= orig_start:
-            closed = stack.pop()
-            bound = max(closed["text_end"], closed["last_text_end"])
-            if stack:
-                stack[-1]["last_text_end"] = max(
-                    stack[-1]["last_text_end"], bound
-                )
-            else:
-                root_last_end = max(root_last_end, bound)
-
-        search_from = stack[-1]["last_text_end"] if stack else root_last_end
-        normalized_entity_text = normalized_ner_entity(entity["text"])
-        start, end = find_position(
-            normalized_entity_text, normalized_text, search_from
-        )
-        positions[idx] = (start, end)
-        stack.append({
-            "orig_end": orig_end,
-            "text_end": end,
-            "last_text_end": start,
-        })
-
-    return positions
-
-
 def add_sentence_to_entities(txt_path, json_path):
     """
     Read a normalized Vietnamese clinical .txt file and its
@@ -306,8 +275,6 @@ def add_sentence_to_entities(txt_path, json_path):
 
     # --- 3. Pre-compute sentence spans once for the whole document ---
     spans = _split_sentences_with_spans(full_text)
-    normalized_positions = _find_normalized_assertion_positions(entities, full_text)
-
     # --- 4. Process each entity ---
     enriched_entities = []
     for entity_index, entity in enumerate(entities):
@@ -319,10 +286,15 @@ def add_sentence_to_entities(txt_path, json_path):
             })
             continue
 
-        # assertion_position belongs to the raw input. Locate a separate span
-        # in normalized text solely for sentence extraction and masking.
-        start, end = normalized_positions[entity_index]
-        expected_text = normalized_ner_entity(entity['text'])
+        start, end = entity['assertion_position']
+        expected_text = entity['text']
+        actual_text = full_text[start:end]
+        if actual_text != expected_text:
+            raise ValueError(
+                f"Entity/text mismatch at assertion_position [{start}, {end}]: "
+                f"expected {expected_text!r} but found {actual_text!r} "
+                f"in the normalized document ({txt_path})."
+            )
 
         sent_span = _find_sentence_span(spans, start, end)
         if sent_span is None:
@@ -374,8 +346,11 @@ if __name__ == '__main__':
         raw_text_path = TEST_INPUT_PATH / json_path.with_suffix(".txt").name
         normalized_text_path = NORMALIZED_TEXT_PATH / json_path.with_suffix(".txt").name
 
+        print(f"Calculating raw position for {json_path.name}")
+        calculating_raw_pos(json_path, raw_text_path)
+
         print(f"Calculating assertion_position for {json_path.name}")
-        calculating_assertion_pos(json_path, raw_text_path)
+        calculating_assertion_pos(json_path, normalized_text_path)
 
         print(f"Adding entities {json_path.name}")
         add_sentence_to_entities(normalized_text_path, json_path)
