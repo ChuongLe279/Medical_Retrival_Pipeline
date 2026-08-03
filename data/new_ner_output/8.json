@@ -13,7 +13,12 @@
     "sentence": "[ENTITY] Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loạn cảm",
@@ -29,7 +34,12 @@
     "sentence": "ho Rối [ENTITY] xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "trầm cảm",
@@ -51,7 +61,32 @@
       "Major depressive episode",
       "Clinical depression",
       "Depression"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "F32A": 0.968795,
+        "F329": 0.815084,
+        "F339": 0.755196,
+        "F39": 0.729299,
+        "F0631": 0.710479
+      },
+      "rapidfuzz": {
+        "F329": 0.9,
+        "F330": 0.9,
+        "F331": 0.9,
+        "Z1331": 0.9,
+        "Z1332": 0.9,
+        "P914": 0.9,
+        "M89779": 0.855,
+        "M89759": 0.855,
+        "M89761": 0.855,
+        "Z006": 0.855
+      }
+    },
+    "candidate": {
+      "code": "F329",
+      "confidence": 0.832067
+    }
   },
   {
     "text": "trầm cảm",
@@ -73,7 +108,32 @@
       "Major depressive episode",
       "Clinical depression",
       "Depression"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "F32A": 0.968795,
+        "F329": 0.815084,
+        "F339": 0.755196,
+        "F39": 0.729299,
+        "F0631": 0.710479
+      },
+      "rapidfuzz": {
+        "F329": 0.9,
+        "F330": 0.9,
+        "F331": 0.9,
+        "Z1331": 0.9,
+        "Z1332": 0.9,
+        "P914": 0.9,
+        "M89779": 0.855,
+        "M89759": 0.855,
+        "M89761": 0.855,
+        "Z006": 0.855
+      }
+    },
+    "candidate": {
+      "code": "F329",
+      "confidence": 0.832067
+    }
   },
   {
     "text": "hội chứng nghiện rượu",
@@ -95,7 +155,34 @@
       "Alcohol dependence syndrome",
       "Chronic alcohol abuse",
       "Alcohol addiction"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "F1029": 0.872136,
+        "F1099": 0.829724,
+        "F1020": 0.819201,
+        "F10229": 0.796509,
+        "F1019": 0.784137
+      },
+      "rapidfuzz": {
+        "H18822": 0.855,
+        "H6990": 0.855,
+        "H479": 0.855,
+        "F10181": 0.855,
+        "F10151": 0.855,
+        "F10150": 0.855,
+        "M12079": 0.855,
+        "L97311": 0.855,
+        "L97312": 0.855,
+        "Q860": 0.855,
+        "Z811": 0.855,
+        "T5192XA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "F1029",
+      "confidence": 0.697709
+    }
   },
   {
     "text": "seroquel",
@@ -117,7 +204,30 @@
       "quetiapine",
       "quetiapine fumarate",
       "quetiapine 50 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "51272": 1.0,
+        "221153": 1.0,
+        "83553": 1.0,
+        "616487": 0.996988,
+        "2633850": 0.91459
+      },
+      "rapidfuzz": {
+        "83553": 1.0,
+        "51272": 1.0,
+        "221153": 1.0,
+        "616487": 0.95,
+        "616486": 0.95,
+        "853202": 0.9,
+        "343201": 0.9,
+        "284509": 0.9
+      }
+    },
+    "candidate": {
+      "code": "83553",
+      "confidence": 1.0
+    }
   },
   {
     "text": "lú lẫn",
@@ -133,7 +243,12 @@
     "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng [ENTITY], chóng mặt, khó nhìn gần có thể liên quan đến thuốc).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
@@ -149,7 +264,12 @@
     "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, [ENTITY], khó nhìn gần có thể liên quan đến thuốc).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó nhìn gần",
@@ -165,7 +285,12 @@
     "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, [ENTITY] có thể liên quan đến thuốc).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hội chứng nghiện rượu",
@@ -187,7 +312,34 @@
       "Alcohol dependence syndrome",
       "Chronic alcohol abuse",
       "Alcohol addiction"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "F1029": 0.872136,
+        "F1099": 0.829724,
+        "F1020": 0.819201,
+        "F10229": 0.796509,
+        "F1019": 0.784137
+      },
+      "rapidfuzz": {
+        "H18822": 0.855,
+        "H6990": 0.855,
+        "H479": 0.855,
+        "F10181": 0.855,
+        "F10151": 0.855,
+        "F10150": 0.855,
+        "M12079": 0.855,
+        "L97311": 0.855,
+        "L97312": 0.855,
+        "Q860": 0.855,
+        "Z811": 0.855,
+        "T5192XA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "F1029",
+      "confidence": 0.697709
+    }
   },
   {
     "text": "Lú lẫn",
@@ -203,7 +355,12 @@
     "sentence": "[ENTITY] từng đợt gần đây.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
@@ -219,7 +376,12 @@
     "sentence": "cảm giác [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó khăn khi nhìn gần",
@@ -235,7 +397,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rối loạn thị giác",
@@ -251,7 +418,12 @@
     "sentence": "[ENTITY], nhìn thấy con cái mình ở góc mắt.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhìn thấy con cái mình ở góc mắt",
@@ -267,7 +439,12 @@
     "sentence": "rối loạn thị giác, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ảo giác thị giác",
@@ -283,7 +460,12 @@
     "sentence": "[ENTITY] (ảo giác thị giác).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ảo giác thị giác",
@@ -299,7 +481,12 @@
     "sentence": "ảo giác thị giác ([ENTITY]).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ảo thanh",
@@ -315,7 +502,12 @@
     "sentence": "[ENTITY] (AH) (ảo giác thính giác).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ảo giác thính giác",
@@ -331,7 +523,12 @@
     "sentence": "Ảo thanh (AH) ([ENTITY]).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Lú lẫn",
@@ -347,7 +544,12 @@
     "sentence": "[ENTITY]: từng đợt.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
@@ -363,7 +565,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Khó khăn về thị lực gần",
@@ -379,7 +586,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thị lực",
@@ -387,7 +599,12 @@
     "position": [
       868,
       875
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rối loạn thị giác",
@@ -403,7 +620,12 @@
     "sentence": "[ENTITY]: nhìn thấy con cái ở góc mắt.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhìn thấy con cái ở góc mắt",
@@ -419,7 +641,12 @@
     "sentence": "rối loạn thị giác: [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ảo giác thị giác",
@@ -435,7 +662,12 @@
     "sentence": "[ENTITY], Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ảo thanh",
@@ -451,7 +683,12 @@
     "sentence": "ảo giác thị giác, [ENTITY] (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ảo giác",
@@ -467,7 +704,12 @@
     "sentence": "[ENTITY] thị giác (ảo giác thị giác).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ảo ảnh thực",
@@ -483,7 +725,12 @@
     "sentence": "ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là [ENTITY] sự.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mẫu đơn",
@@ -491,7 +738,12 @@
     "position": [
       1149,
       1156
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cam",
@@ -508,7 +760,12 @@
     "assertion_result": {
       "tag": "isFamily"
     },
-    "eng_translation": []
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -516,7 +773,12 @@
     "position": [
       1278,
       1285
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -524,7 +786,12 @@
     "position": [
       1818,
       1825
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sống thắt lưng",
@@ -540,7 +807,12 @@
     "sentence": "Các thủ thuật đã thực hiện: chọc dò dịch não tủy (Đột [ENTITY]).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hạch cổ",
@@ -556,7 +828,12 @@
     "sentence": "Sưng [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Kawasaki",
@@ -578,7 +855,34 @@
       "Mucocutaneous lymph node syndrome",
       "Systemic vasculitis in children",
       "Acute febrile illness with rash and lymphadenopathy"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M350B": 0.678957,
+        "I7782": 0.663176,
+        "A91": 0.65198,
+        "L040": 0.647902
+      },
+      "rapidfuzz": {
+        "M303": 0.95,
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855,
+        "C8525": 0.855,
+        "S14149D": 0.855,
+        "V505XXA": 0.855,
+        "V511XXA": 0.855,
+        "V510XXS": 0.855,
+        "S89139K": 0.855,
+        "S89141P": 0.855,
+        "S89141K": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.8619
+    }
   },
   {
     "text": "sốt",
@@ -600,7 +904,34 @@
       "Unspecified fever",
       "Generalized fever",
       "Acute fever"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R509": 0.993021,
+        "R502": 0.751246,
+        "R5081": 0.729487,
+        "R6883": 0.711775,
+        "A790": 0.70287
+      },
+      "rapidfuzz": {
+        "A78": 0.95,
+        "A0100": 0.95,
+        "A959": 0.95,
+        "A779": 0.95,
+        "A0109": 0.9,
+        "R5083": 0.9,
+        "A014": 0.855,
+        "G40409": 0.855,
+        "G40401": 0.855,
+        "K8511": 0.855,
+        "L0332A": 0.855,
+        "L03329": 0.855
+      }
+    },
+    "candidate": {
+      "code": "R509",
+      "confidence": 0.794417
+    }
   },
   {
     "text": "vi",
@@ -619,7 +950,25 @@
     },
     "eng_translation": [
       "Ventricular septal defect"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q210": 1.0,
+        "Q2110": 0.805708,
+        "Q2116": 0.781044,
+        "Q2120": 0.779082,
+        "Q2123": 0.778924
+      },
+      "rapidfuzz": {
+        "Q210": 1.0,
+        "Q2122": 0.9,
+        "Q2121": 0.9
+      }
+    },
+    "candidate": {
+      "code": "Q210",
+      "confidence": 1.0
+    }
   },
   {
     "text": "sốt phát ban",
@@ -635,7 +984,12 @@
     "sentence": "Các triệu chứng của Kawasaki dễ nhầm với sốt siêu vi, [ENTITY], nhiễm trùng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhiễm trùng",
@@ -657,7 +1011,34 @@
       "Infectious process",
       "Infection without specified site",
       "Infection, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "B999": 0.916389,
+        "A499": 0.819386,
+        "A419": 0.78894,
+        "B998": 0.772783,
+        "R69": 0.765575
+      },
+      "rapidfuzz": {
+        "B719": 0.95,
+        "B669": 0.95,
+        "B349": 0.95,
+        "T8643": 0.9,
+        "J069": 0.9,
+        "A5400": 0.9,
+        "S52024S": 0.855,
+        "S52024P": 0.855,
+        "S52024K": 0.855,
+        "N9489": 0.855,
+        "S72451R": 0.855,
+        "S72451Q": 0.855
+      }
+    },
+    "candidate": {
+      "code": "B999",
+      "confidence": 0.733111
+    }
   },
   {
     "text": "sốt cao",
@@ -673,7 +1054,12 @@
     "sentence": "Nếu trẻ [ENTITY] 3–4 ngày + đỏ mắt + phát ban + môi đỏ hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đỏ mắt",
@@ -689,7 +1075,12 @@
     "sentence": "Nếu trẻ sốt cao 3–4 ngày + [ENTITY] + phát ban + môi đỏ hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phát ban",
@@ -705,7 +1096,12 @@
     "sentence": "Các triệu chứng của Kawasaki dễ nhầm với sốt siêu vi, sốt [ENTITY], nhiễm trùng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "môi đỏ",
@@ -721,7 +1117,12 @@
     "sentence": "Nếu trẻ sốt cao 3–4 ngày + đỏ mắt + phát ban + [ENTITY] hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "lưỡi đỏ",
@@ -737,7 +1138,12 @@
     "sentence": "Nếu trẻ sốt cao 3–4 ngày + đỏ mắt + phát ban + môi đỏ hoặc [ENTITY] → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Kawasaki",
@@ -759,7 +1165,34 @@
       "Mucocutaneous lymph node syndrome",
       "Systemic vasculitis in children",
       "Acute febrile illness with rash and lymphadenopathy"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M350B": 0.678957,
+        "I7782": 0.663176,
+        "A91": 0.65198,
+        "L040": 0.647902
+      },
+      "rapidfuzz": {
+        "M303": 0.95,
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855,
+        "C8525": 0.855,
+        "S14149D": 0.855,
+        "V505XXA": 0.855,
+        "V511XXA": 0.855,
+        "V510XXS": 0.855,
+        "S89139K": 0.855,
+        "S89141P": 0.855,
+        "S89141K": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.8619
+    }
   },
   {
     "text": "bệnh Kawasaki",
@@ -781,7 +1214,34 @@
       "acute mucocutaneous lymph node syndrome",
       "vasculitis of unknown cause",
       "systemic vasculitis in children"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "L959": 0.717737,
+        "M350B": 0.678957,
+        "L042": 0.677554,
+        "M319": 0.677035
+      },
+      "rapidfuzz": {
+        "M303": 0.870833,
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855,
+        "D6941": 0.855,
+        "K35209": 0.855,
+        "Z98871": 0.855,
+        "Z975": 0.855,
+        "Y0759": 0.855,
+        "V505XXA": 0.855,
+        "V511XXA": 0.855,
+        "V510XXS": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.846067
+    }
   },
   {
     "text": "giãn động",
@@ -798,7 +1258,12 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": []
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mạch vành",
@@ -820,7 +1285,34 @@
       "Vascular disease",
       "Coronary vessel disease",
       "Cardiac vascular pathology"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I739": 0.801571,
+        "I209": 0.762008,
+        "I999": 0.745403,
+        "I679": 0.741166,
+        "I249": 0.730043
+      },
+      "rapidfuzz": {
+        "G468": 0.9,
+        "I69933": 0.9,
+        "I69934": 0.9,
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855,
+        "T463X2S": 0.855,
+        "I69891": 0.855,
+        "I69892": 0.855,
+        "T82847A": 0.855,
+        "I97110": 0.855,
+        "D57813": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I739",
+      "confidence": 0.641257
+    }
   },
   {
     "text": "Thiếu máu cơ",
@@ -836,7 +1328,12 @@
     "sentence": "[ENTITY] tim.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tim",
@@ -855,7 +1352,25 @@
     },
     "eng_translation": [
       "Tim"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J9584": 0.520327,
+        "B742": 0.47352,
+        "Y92252": 0.462391,
+        "D807": 0.459536,
+        "Y9344": 0.458692
+      },
+      "rapidfuzz": {
+        "L0100": 0.72,
+        "L291": 0.72,
+        "K011": 0.72
+      }
+    },
+    "candidate": {
+      "code": "J9584",
+      "confidence": 0.416262
+    }
   },
   {
     "text": "máu cơ",
@@ -871,7 +1386,12 @@
     "sentence": "Thiếu [ENTITY] tim.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tim",
@@ -890,7 +1410,25 @@
     },
     "eng_translation": [
       "Tim"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J9584": 0.520327,
+        "B742": 0.47352,
+        "Y92252": 0.462391,
+        "D807": 0.459536,
+        "Y9344": 0.458692
+      },
+      "rapidfuzz": {
+        "L0100": 0.72,
+        "L291": 0.72,
+        "K011": 0.72
+      }
+    },
+    "candidate": {
+      "code": "J9584",
+      "confidence": 0.416262
+    }
   },
   {
     "text": "Suy vành",
@@ -912,7 +1450,34 @@
       "Ischemic heart disease",
       "Ventricular dysfunction",
       "Myocardial infarction"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I249": 0.857469,
+        "I219": 0.851584,
+        "I255": 0.827983,
+        "I259": 0.821557,
+        "I519": 0.804931
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9,
+        "I2109": 0.9,
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855,
+        "E233": 0.855,
+        "M9905": 0.855,
+        "M9904": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I249",
+      "confidence": 0.865975
+    }
   },
   {
     "text": "Viêm",
@@ -934,7 +1499,34 @@
       "Inflammatory process",
       "Inflammatory condition",
       "Inflammatory disorder"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M049": 0.68922,
+        "R69": 0.687556,
+        "A419": 0.684718,
+        "D899": 0.676101,
+        "M3581": 0.669298
+      },
+      "rapidfuzz": {
+        "I83223": 0.9,
+        "I83224": 0.9,
+        "I83225": 0.9,
+        "N909": 0.9,
+        "N9089": 0.9,
+        "N839": 0.9,
+        "T84624S": 0.855,
+        "T84612A": 0.855,
+        "T84625S": 0.855,
+        "T84624D": 0.855,
+        "H47511": 0.855,
+        "H47512": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M049",
+      "confidence": 0.551376
+    }
   },
   {
     "text": "cơ",
@@ -950,7 +1542,12 @@
     "sentence": "Các yếu tố nguy [ENTITY] liên quan: hội chứng nghiện rượu.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tim",
@@ -969,7 +1566,25 @@
     },
     "eng_translation": [
       "Tim"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J9584": 0.520327,
+        "B742": 0.47352,
+        "Y92252": 0.462391,
+        "D807": 0.459536,
+        "Y9344": 0.458692
+      },
+      "rapidfuzz": {
+        "L0100": 0.72,
+        "L291": 0.72,
+        "K011": 0.72
+      }
+    },
+    "candidate": {
+      "code": "J9584",
+      "confidence": 0.416262
+    }
   },
   {
     "text": "dịch màng tim",
@@ -985,7 +1600,12 @@
     "sentence": "Tràn [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tăng men gan",
@@ -1001,7 +1621,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loạn",
@@ -1017,7 +1642,12 @@
     "sentence": "ho Rối [ENTITY] cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh Kawasaki",
@@ -1039,7 +1669,34 @@
       "acute mucocutaneous lymph node syndrome",
       "vasculitis of unknown cause",
       "systemic vasculitis in children"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "L959": 0.717737,
+        "M350B": 0.678957,
+        "L042": 0.677554,
+        "M319": 0.677035
+      },
+      "rapidfuzz": {
+        "M303": 0.870833,
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855,
+        "D6941": 0.855,
+        "K35209": 0.855,
+        "Z98871": 0.855,
+        "Z975": 0.855,
+        "Y0759": 0.855,
+        "V505XXA": 0.855,
+        "V511XXA": 0.855,
+        "V510XXS": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.846067
+    }
   },
   {
     "text": "sốt",
@@ -1055,7 +1712,12 @@
     "sentence": "Các triệu chứng của Kawasaki dễ nhầm với [ENTITY] siêu vi, sốt phát ban, nhiễm trùng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Viêm kết mạc 2",
@@ -1071,7 +1733,12 @@
     "sentence": "[ENTITY] bên không ghèn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "môi",
@@ -1087,7 +1754,12 @@
     "sentence": "Nếu trẻ sốt cao 3–4 ngày + đỏ mắt + phát ban + [ENTITY] đỏ hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "miệng",
@@ -1103,7 +1775,12 @@
     "sentence": "Môi – [ENTITY] thay đổi (nứt, đỏ, lưỡi dâu tây).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nứt",
@@ -1119,7 +1796,12 @@
     "sentence": "Môi – miệng thay đổi ([ENTITY], đỏ, lưỡi dâu tây).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đỏ",
@@ -1135,7 +1817,12 @@
     "sentence": "Nếu trẻ sốt cao 3–4 ngày + [ENTITY] mắt + phát ban + môi đỏ hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "lưỡi dâu tây",
@@ -1151,7 +1838,12 @@
     "sentence": "Môi – miệng thay đổi (nứt, đỏ, [ENTITY]).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phù",
@@ -1167,7 +1859,12 @@
     "sentence": "Tổn thương đầu chi ([ENTITY], đỏ, bong da).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đỏ",
@@ -1183,7 +1880,12 @@
     "sentence": "Nếu trẻ sốt cao 3–4 ngày + đỏ mắt + phát ban + môi [ENTITY] hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bong da",
@@ -1199,7 +1901,12 @@
     "sentence": "Tổn thương đầu chi (phù, đỏ, [ENTITY]).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ban đỏ toàn thân",
@@ -1215,7 +1922,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Hạch cổ to",
@@ -1231,6 +1943,11 @@
     "sentence": "[ENTITY] ≥1,5 cm.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

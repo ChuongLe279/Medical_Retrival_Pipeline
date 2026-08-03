@@ -19,7 +19,34 @@
       "Type 2 diabetes",
       "Common clinical synonym",
       "Expanded abbreviation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.84212,
+        "O24119": 0.714028,
+        "R7303": 0.712752,
+        "Z833": 0.710006,
+        "E119": 0.708696
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "O2412": 0.9,
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "T485X6S": 0.855,
+        "D831": 0.855,
+        "D832": 0.855,
+        "O200": 0.65,
+        "L80": 0.6,
+        "R002": 0.6
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.673696
+    }
   },
   {
     "text": "Đái tháo đường",
@@ -41,7 +68,34 @@
       "Type 2 diabetes",
       "Common clinical synonym",
       "Expanded abbreviation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.84212,
+        "O24119": 0.714028,
+        "R7303": 0.712752,
+        "Z833": 0.710006,
+        "E119": 0.708696
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "O2412": 0.9,
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "T485X6S": 0.855,
+        "D831": 0.855,
+        "D832": 0.855,
+        "O200": 0.65,
+        "L80": 0.6,
+        "R002": 0.6
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.673696
+    }
   },
   {
     "text": "Tăng huyết áp",
@@ -63,7 +117,34 @@
       "Hypertension",
       "High blood pressure",
       "HTN"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.699688,
+        "R030": 0.694782,
+        "I169": 0.692033
+      },
+      "rapidfuzz": {
+        "R030": 0.9,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "L89816": 0.855,
+        "D72829": 0.855,
+        "L98A214": 0.855,
+        "S3599XS": 0.855,
+        "L98A298": 0.855,
+        "R636": 0.72,
+        "R29890": 0.72,
+        "E663": 0.72
+      }
+    },
+    "candidate": {
+      "code": "R030",
+      "confidence": 0.735826
+    }
   },
   {
     "text": "tăng huyết áp vô căn",
@@ -85,7 +166,33 @@
       "Idiopathic hypertension",
       "Primary hypertension",
       "Uncomplicated essential hypertension"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.966856,
+        "I159": 0.802756,
+        "I270": 0.741585,
+        "I150": 0.733076,
+        "I160": 0.721417
+      },
+      "rapidfuzz": {
+        "I10": 0.95,
+        "I950": 0.933333,
+        "O10013": 0.9,
+        "O1002": 0.9,
+        "M1A0611": 0.855,
+        "M1A0610": 0.855,
+        "H40062": 0.855,
+        "G35B0": 0.855,
+        "O131": 0.855,
+        "O132": 0.855,
+        "O133": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.963485
+    }
   },
   {
     "text": "khó chịu vùng ngực",
@@ -101,7 +208,12 @@
     "sentence": "[ENTITY] gián đoạn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
@@ -117,7 +229,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -133,7 +250,12 @@
     "sentence": "[ENTITY] (khó thở).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -149,7 +271,12 @@
     "sentence": "khó thở ([ENTITY]).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đổ mồ hôi",
@@ -165,7 +292,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
@@ -181,7 +313,12 @@
     "sentence": "Các triệu chứng liên quan: [ENTITY], khó thở, đổ mồ hôi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -197,7 +334,12 @@
     "sentence": "Các triệu chứng liên quan: chóng mặt, [ENTITY], đổ mồ hôi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đổ mồ hôi",
@@ -213,7 +355,12 @@
     "sentence": "Các triệu chứng liên quan: chóng mặt, khó thở, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "điện tâm đồ",
@@ -221,7 +368,12 @@
     "position": [
       820,
       831
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhiệt độ",
@@ -229,7 +381,12 @@
     "position": [
       902,
       910
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "36.7",
@@ -237,7 +394,12 @@
     "position": [
       911,
       915
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Huyết áp",
@@ -245,7 +407,12 @@
     "position": [
       78,
       86
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "139/68",
@@ -253,7 +420,12 @@
     "position": [
       928,
       934
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Mạch",
@@ -261,7 +433,12 @@
     "position": [
       941,
       945
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "67",
@@ -269,7 +446,12 @@
     "position": [
       946,
       948
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhịp thở",
@@ -277,7 +459,12 @@
     "position": [
       959,
       967
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "16",
@@ -285,7 +472,12 @@
     "position": [
       968,
       970
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "SpO2",
@@ -293,7 +485,12 @@
     "position": [
       981,
       985
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "100",
@@ -301,7 +498,12 @@
     "position": [
       986,
       989
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhiệt độ",
@@ -309,7 +511,12 @@
     "position": [
       1008,
       1016
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "36.7",
@@ -317,7 +524,12 @@
     "position": [
       1017,
       1021
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "huyết áp",
@@ -325,7 +537,12 @@
     "position": [
       93,
       101
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "139/68",
@@ -333,7 +550,12 @@
     "position": [
       1034,
       1040
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp tim",
@@ -341,7 +563,12 @@
     "position": [
       1047,
       1055
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "67",
@@ -349,7 +576,12 @@
     "position": [
       1056,
       1058
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp thở",
@@ -357,7 +589,12 @@
     "position": [
       1069,
       1077
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "16",
@@ -365,7 +602,12 @@
     "position": [
       1078,
       1080
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "độ bão hòa oxy",
@@ -373,7 +615,12 @@
     "position": [
       1091,
       1105
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "100",
@@ -381,6 +628,11 @@
     "position": [
       1106,
       1109
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

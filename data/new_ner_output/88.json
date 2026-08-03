@@ -19,7 +19,34 @@
       "Biliary tract cancer",
       "Malignancy of bile ducts",
       "Cancer of the biliary system"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C249": 0.973896,
+        "C240": 0.764298,
+        "C221": 0.752051,
+        "C23": 0.740587,
+        "K839": 0.69786
+      },
+      "rapidfuzz": {
+        "C249": 0.95,
+        "K8512": 0.855,
+        "K8511": 0.855,
+        "N99532": 0.855,
+        "P001": 0.855,
+        "P393": 0.855,
+        "Z9716": 0.855,
+        "T23272A": 0.855,
+        "T23271S": 0.855,
+        "T2621XA": 0.855,
+        "S72141S": 0.855,
+        "Z9710": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C249",
+      "confidence": 0.969117
+    }
   },
   {
     "text": "run rẩy",
@@ -35,7 +62,12 @@
     "sentence": "Triệu chứng hiện tại: [ENTITY] kèm sốt kèm theo sốt.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -51,7 +83,12 @@
     "sentence": "Triệu chứng hiện tại: run rẩy kèm [ENTITY] kèm theo sốt.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -67,7 +104,12 @@
     "sentence": "Triệu chứng hiện tại: run rẩy kèm sốt kèm theo [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -83,7 +125,12 @@
     "sentence": "Gần đây nhập viện vì [ENTITY] và các ổ dịch trong ổ bụng được cho là áp xe.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "áp xe",
@@ -105,7 +152,33 @@
       "Liver abscess",
       "Infectious liver abscess",
       "Acute liver abscess"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K750": 0.993522,
+        "A064": 0.799132,
+        "K763": 0.725561,
+        "D733": 0.702808,
+        "K615": 0.674809
+      },
+      "rapidfuzz": {
+        "K750": 0.95,
+        "A064": 0.9,
+        "Z98871": 0.855,
+        "S86992S": 0.855,
+        "M7109": 0.855,
+        "L02212": 0.855,
+        "P7884": 0.855,
+        "H20033": 0.855,
+        "G9511": 0.855,
+        "N002": 0.855,
+        "N001": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K750",
+      "confidence": 0.984818
+    }
   },
   {
     "text": "Augmentin",
@@ -127,7 +200,33 @@
       "amoxicillin clavulanate potassium",
       "augmentin",
       "amoxicillin clavulanate potassium 625 mg"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "151392": 1.0,
+        "19711": 0.923788,
+        "353427": 0.914316,
+        "617303": 0.858251,
+        "618037": 0.851513
+      },
+      "rapidfuzz": {
+        "19711": 1.0,
+        "151392": 1.0,
+        "1152875": 0.95,
+        "2697445": 0.9,
+        "723": 0.9,
+        "48203": 0.9,
+        "824190": 0.9,
+        "824192": 0.9,
+        "831418": 0.9,
+        "617296": 0.9,
+        "1810273": 0.9
+      }
+    },
+    "candidate": {
+      "code": "151392",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ra mồ hôi",
@@ -143,7 +242,12 @@
     "sentence": "Do cơ địa người bé [ENTITY] nhiều hơn trẻ khác.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "calcium",
@@ -151,7 +255,12 @@
     "position": [
       1052,
       1059
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sắt",
@@ -159,7 +268,12 @@
     "position": [
       1061,
       1064
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kẽm",
@@ -167,6 +281,11 @@
     "position": [
       1066,
       1069
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

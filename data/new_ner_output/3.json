@@ -13,7 +13,12 @@
     "sentence": "nhưng hiện tượng [ENTITY] không khỏi hẳn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "run tay",
@@ -29,7 +34,12 @@
     "sentence": "Em muốn hỏi có phải [ENTITY] là phản ứng phụ của thuốc không và mẹ em nên làm gì để cải thiện tình trạng này.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hội chứng Parkinson",
@@ -51,7 +61,34 @@
       "Parkinson disease",
       "Parkinson's disorder",
       "Parkinson syndrome"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "G20C": 0.898024,
+        "G20B2": 0.767174,
+        "G214": 0.762806,
+        "G219": 0.755236,
+        "G20A2": 0.743159
+      },
+      "rapidfuzz": {
+        "M20001": 0.855,
+        "S90425D": 0.855,
+        "S90425S": 0.855,
+        "C8831": 0.855,
+        "M84639S": 0.855,
+        "M84642K": 0.855,
+        "S92521A": 0.855,
+        "S91225S": 0.855,
+        "S91225D": 0.855,
+        "M4035": 0.855,
+        "R6511": 0.855,
+        "I7300": 0.855
+      }
+    },
+    "candidate": {
+      "code": "G20C",
+      "confidence": 0.718419
+    }
   },
   {
     "text": "run tay chân",
@@ -67,7 +104,12 @@
     "sentence": "như làm nặng hơn hội chứng Parkinson, gây [ENTITY], mất thăng bằng khi đi hoặc run rấy toàn thân.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất thăng bằng khi đi",
@@ -83,7 +125,12 @@
     "sentence": "như làm nặng hơn hội chứng Parkinson, gây run tay chân, [ENTITY] hoặc run rấy toàn thân.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "run rấy toàn thân",
@@ -99,7 +146,12 @@
     "sentence": "như làm nặng hơn hội chứng Parkinson, gây run tay chân, mất thăng bằng khi đi hoặc [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau thắt ngực ổn",
@@ -115,7 +167,12 @@
     "sentence": "Chính vì vậy mà thuốc bị giới hạn chỉ định \"điều trị triệu chứng [ENTITY] địnhkhi bệnh nhân.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
@@ -131,7 +188,12 @@
     "sentence": "Thuốc này chống chỉ định ở người bị [ENTITY], ù tai, rối loạn thị lực, đặc biệt không dùng thuốc ở người bị Parkinson.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ù tai",
@@ -147,7 +209,12 @@
     "sentence": "Thuốc này chống chỉ định ở người bị chóng mặt, [ENTITY], rối loạn thị lực, đặc biệt không dùng thuốc ở người bị Parkinson.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rối loạn thị lực",
@@ -163,7 +230,12 @@
     "sentence": "Thuốc này chống chỉ định ở người bị chóng mặt, ù tai, [ENTITY], đặc biệt không dùng thuốc ở người bị Parkinson.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thị lực",
@@ -171,7 +243,12 @@
     "position": [
       835,
       842
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Parkinson",
@@ -193,7 +270,34 @@
       "Parkinsonism",
       "Idiopathic Parkinson disease",
       "Progressive parkinsonism"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "G20C": 0.981035,
+        "G20B2": 0.750224,
+        "G219": 0.746539,
+        "G20A2": 0.745537,
+        "G214": 0.744219
+      },
+      "rapidfuzz": {
+        "T428X6S": 0.9,
+        "T428X3S": 0.9,
+        "T428X5S": 0.9,
+        "C8831": 0.855,
+        "M84639S": 0.855,
+        "M84642K": 0.855,
+        "M84639K": 0.855,
+        "M84675D": 0.855,
+        "M84675G": 0.855,
+        "N014": 0.855,
+        "I673": 0.855,
+        "N013": 0.855
+      }
+    },
+    "candidate": {
+      "code": "G20C",
+      "confidence": 0.784828
+    }
   },
   {
     "text": "yếu sức nửa người bên phải",
@@ -209,7 +313,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tình",
@@ -225,7 +334,12 @@
     "sentence": "Em muốn hỏi có phải run tay là phản ứng phụ của thuốc không và mẹ em nên làm gì để cải thiện [ENTITY] trạng này.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tri giác giảm sút",
@@ -241,7 +355,12 @@
     "sentence": "tình trạng [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhìn song thị",
@@ -257,7 +376,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tự đứng dậy",
@@ -273,7 +397,12 @@
     "sentence": "Than phiền về không thể [ENTITY] do yếu sức chân phải.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu sức chân",
@@ -289,7 +418,12 @@
     "sentence": "Than phiền về không thể tự đứng dậy do [ENTITY] phải.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "không thể chịu lực ở chân phải",
@@ -305,7 +439,12 @@
     "sentence": "[ENTITY], liên tục khuỵu chân khi được giúp đỡ đứng dậy.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khuỵu chân",
@@ -321,7 +460,12 @@
     "sentence": "không thể chịu lực ở chân phải, liên tục [ENTITY] khi được giúp đỡ đứng dậy.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -329,7 +473,12 @@
     "position": [
       1485,
       1492
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cơn",
@@ -345,7 +494,12 @@
     "sentence": "Bị một [ENTITY] nhịp tim chậm nặng và hạ huyết áp ngay sau khi study.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp tim chậm",
@@ -361,7 +515,12 @@
     "sentence": "Bị một cơn [ENTITY] nặng và hạ huyết áp ngay sau khi study.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hạ huyết áp",
@@ -377,7 +536,12 @@
     "sentence": "Bị một cơn nhịp tim chậm nặng và [ENTITY] ngay sau khi study.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -385,7 +549,12 @@
     "position": [
       1710,
       1717
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tai biến mạch máu não",
@@ -407,7 +576,34 @@
       "Stroke",
       "Cerebral vascular accident",
       "Brain vascular event"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I679": 0.807886,
+        "I639": 0.785716,
+        "G464": 0.728182,
+        "I6782": 0.713341,
+        "I69993": 0.704568
+      },
+      "rapidfuzz": {
+        "T6701XA": 0.9,
+        "T6701XD": 0.9,
+        "T6701XS": 0.9,
+        "V9729XA": 0.855,
+        "V981XXA": 0.855,
+        "V980XXS": 0.855,
+        "Z95828": 0.855,
+        "V529XXS": 0.855,
+        "V545XXA": 0.855,
+        "Z9862": 0.855,
+        "H02875": 0.855,
+        "H02874": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I679",
+      "confidence": 0.646309
+    }
   },
   {
     "text": "đầu",
@@ -423,7 +619,12 @@
     "sentence": "Ban [ENTITY] tỉnh chậm phản xạ kém.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh chậm",
@@ -439,7 +640,12 @@
     "sentence": "Ban đầu [ENTITY] phản xạ kém.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xạ kém",
@@ -455,7 +661,12 @@
     "sentence": "Ban đầu tỉnh chậm phản [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh táo",
@@ -471,7 +682,12 @@
     "sentence": "Dần dần [ENTITY] hơn tỉnh táo và tỉnh khi gọi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh táo",
@@ -487,7 +703,12 @@
     "sentence": "Dần dần tỉnh táo hơn [ENTITY] và tỉnh khi gọi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh khi gọi",
@@ -503,7 +724,12 @@
     "sentence": "Dần dần tỉnh táo hơn tỉnh táo và [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tai biến mạch máu não",
@@ -525,7 +751,34 @@
       "Stroke",
       "Cerebral vascular accident",
       "Brain vascular event"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I679": 0.807886,
+        "I639": 0.785716,
+        "G464": 0.728182,
+        "I6782": 0.713341,
+        "I69993": 0.704568
+      },
+      "rapidfuzz": {
+        "T6701XA": 0.9,
+        "T6701XD": 0.9,
+        "T6701XS": 0.9,
+        "V9729XA": 0.855,
+        "V981XXA": 0.855,
+        "V980XXS": 0.855,
+        "Z95828": 0.855,
+        "V529XXS": 0.855,
+        "V545XXA": 0.855,
+        "Z9862": 0.855,
+        "H02875": 0.855,
+        "H02874": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I679",
+      "confidence": 0.646309
+    }
   },
   {
     "text": "co",
@@ -541,7 +794,12 @@
     "sentence": "Được [ENTITY]n trai phát hiện tại nhà lúc khoảng 11:00 sáng, nằm sải trên sàn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "giật",
@@ -563,7 +821,33 @@
       "Epileptic seizure",
       "Convulsion",
       "Sudden onset seizure"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R569": 0.947871,
+        "G4089": 0.770455,
+        "R5601": 0.707456,
+        "R5600": 0.700721,
+        "F445": 0.656852
+      },
+      "rapidfuzz": {
+        "R561": 0.9,
+        "F445": 0.9,
+        "G4089": 0.9,
+        "G40501": 0.9,
+        "G40509": 0.9,
+        "P90": 0.9,
+        "R5600": 0.9,
+        "G40A11": 0.855,
+        "O7100": 0.855,
+        "O42911": 0.855,
+        "O4290": 0.855
+      }
+    },
+    "candidate": {
+      "code": "G4089",
+      "confidence": 0.796364
+    }
   },
   {
     "text": "yếu sức nửa người bên phải",
@@ -579,7 +863,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tri giác giảm sút",
@@ -595,7 +884,12 @@
     "sentence": "tình trạng [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhìn song thị",
@@ -611,7 +905,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
@@ -627,7 +926,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu chân phải",
@@ -643,7 +947,12 @@
     "sentence": "Vị trí: [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
@@ -659,7 +968,12 @@
     "sentence": "Triệu chứng liên quan: [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu sức chân phải",
@@ -675,7 +989,12 @@
     "sentence": "Than phiền về không thể tự đứng dậy do [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -683,7 +1002,12 @@
     "position": [
       2706,
       2713
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp tim chậm",
@@ -699,7 +1023,12 @@
     "sentence": "Bị [ENTITY] nặng và hạ huyết áp, không đặc hiệu.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hạ huyết áp",
@@ -715,7 +1044,12 @@
     "sentence": "Bị nhịp tim chậm nặng và [ENTITY], không đặc hiệu.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -723,7 +1057,12 @@
     "position": [
       2907,
       2914
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "trùng răng miệng",
@@ -745,7 +1084,34 @@
       "Dental caries in mouth",
       "Caries of the teeth",
       "Tooth decay in oral cavity"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K029": 0.963343,
+        "K027": 0.816252,
+        "K023": 0.73598,
+        "Z91849": 0.733082,
+        "K08139": 0.724212
+      },
+      "rapidfuzz": {
+        "Z98818": 0.855,
+        "Z972": 0.855,
+        "Z91842": 0.855,
+        "V389XXS": 0.855,
+        "T1512XD": 0.855,
+        "T1501XD": 0.855,
+        "Z98870": 0.855,
+        "S92314G": 0.855,
+        "S92314D": 0.855,
+        "V80720D": 0.855,
+        "V8603XA": 0.855,
+        "M2635": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K029",
+      "confidence": 0.770674
+    }
   },
   {
     "text": "nằm sải trên",
@@ -761,7 +1127,12 @@
     "sentence": "Được con trai phát hiện tại nhà lúc khoảng 11:00 sáng, [ENTITY] sàn.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "không thể tự đứng dậy",
@@ -777,7 +1148,12 @@
     "sentence": "Than phiền về [ENTITY] do yếu sức chân phải.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu sức chân phải",
@@ -793,7 +1169,12 @@
     "sentence": "Than phiền về [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "không thể chịu lực ở chân phải",
@@ -809,7 +1190,12 @@
     "sentence": "[ENTITY], liên tục khuỵu chân.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khuỵu chân",
@@ -825,7 +1211,12 @@
     "sentence": "không thể chịu lực ở chân phải, liên tục [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh chậm",
@@ -841,7 +1232,12 @@
     "sentence": "[ENTITY], phản xạ kém.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu nửa người bên phải",
@@ -857,7 +1253,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy giảm tri giác",
@@ -873,7 +1274,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhìn song thị",
@@ -889,7 +1295,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhịp tim chậm",
@@ -905,7 +1316,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hạ huyết áp",
@@ -921,7 +1337,12 @@
     "sentence": "[ENTITY], không đặc hiệu.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "không nhấc chân",
@@ -937,7 +1358,12 @@
     "sentence": "[ENTITY] phải khỏi mặt giường.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chân",
@@ -953,7 +1379,12 @@
     "sentence": "như làm nặng hơn hội chứng Parkinson, gây run tay [ENTITY], mất thăng bằng khi đi hoặc run rấy toàn thân.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khuỵ xuống",
@@ -969,7 +1400,12 @@
     "sentence": "chân phải liên tục [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh chậm",
@@ -985,7 +1421,12 @@
     "sentence": "[ENTITY], phản xạ kém.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phản xạ kém",
@@ -1001,7 +1442,12 @@
     "sentence": "Ban đầu tỉnh chậm [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -1009,7 +1455,12 @@
     "position": [
       3555,
       3562
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -1017,7 +1468,12 @@
     "position": [
       3594,
       3601
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp ct",
@@ -1025,6 +1481,11 @@
     "position": [
       3655,
       3662
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

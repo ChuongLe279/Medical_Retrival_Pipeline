@@ -13,7 +13,12 @@
     "sentence": "NSAID để điều trị [ENTITY] (đã ngừng).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "omeprazole",
@@ -35,7 +40,31 @@
       "omeprazole generic",
       "prilosec",
       "omeprazole 20 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.996872,
+        "283742": 0.969087,
+        "2594977": 0.933831
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.95,
+        "316408": 0.95,
+        "283742": 0.909091,
+        "343355": 0.9,
+        "1855336": 0.9,
+        "2625142": 0.855,
+        "1161025": 0.855
+      }
+    },
+    "candidate": {
+      "code": "203345",
+      "confidence": 1.0
+    }
   },
   {
     "text": "giãn thừng tinh 2",
@@ -57,7 +86,33 @@
       "Dilated epididymis",
       "Epididymal distension",
       "Epididymal swelling"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N451": 0.725051,
+        "N4340": 0.716564,
+        "N503": 0.698629,
+        "N453": 0.669899,
+        "N4342": 0.654075
+      },
+      "rapidfuzz": {
+        "Q87410": 0.855,
+        "C6300": 0.855,
+        "Q554": 0.855,
+        "C6302": 0.855,
+        "R2231": 0.855,
+        "R2232": 0.855,
+        "R2233": 0.855,
+        "N451": 0.72,
+        "S83136S": 0.681081,
+        "G44219": 0.632432,
+        "G44211": 0.632432
+      }
+    },
+    "candidate": {
+      "code": "N451",
+      "confidence": 0.724041
+    }
   },
   {
     "text": "đau nhẹ",
@@ -73,7 +128,12 @@
     "sentence": "5mm 1 bên, đã khám và điều trị thuốc uống 5 tuần, độ giãn không giảm, thỉnh thoảng [ENTITY], cảm thấy nóng phần tinh hoàn, đã ngừng dùng thuốc, vì tình hình covid không thể vào hcm để vào chuyên khoa khám , nhờ quý bác sĩ tư vấn được không ạ, để lâu em sợ ảnh hưởng tinh trùng ảnh hưởng sinh sản ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nóng phần tinh hoàn",
@@ -89,7 +149,12 @@
     "sentence": "5mm 1 bên, đã khám và điều trị thuốc uống 5 tuần, độ giãn không giảm, thỉnh thoảng đau nhẹ, cảm thấy [ENTITY], đã ngừng dùng thuốc, vì tình hình covid không thể vào hcm để vào chuyên khoa khám , nhờ quý bác sĩ tư vấn được không ạ, để lâu em sợ ảnh hưởng tinh trùng ảnh hưởng sinh sản ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "giãn thừng tinh",
@@ -111,7 +176,33 @@
       "Scrotal dilation",
       "Epididymal swelling",
       "Dilated epididymis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q5523": 0.761878,
+        "N451": 0.725051,
+        "N4340": 0.716564,
+        "I861": 0.70708,
+        "N503": 0.698629
+      },
+      "rapidfuzz": {
+        "Q87410": 0.855,
+        "Q5323": 0.855,
+        "Q2544": 0.855,
+        "R2231": 0.855,
+        "R2232": 0.855,
+        "R2233": 0.855,
+        "C6300": 0.855,
+        "Q554": 0.855,
+        "C6302": 0.855,
+        "N451": 0.72,
+        "S83136S": 0.681081
+      }
+    },
+    "candidate": {
+      "code": "N451",
+      "confidence": 0.724041
+    }
   },
   {
     "text": "vô sinh thứ phát",
@@ -133,7 +224,34 @@
       "Secondary infertility diagnosis",
       "Infertility, secondary",
       "Secondary infertility condition"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N979": 0.719208,
+        "N914": 0.707821,
+        "N978": 0.697268,
+        "N469": 0.69703,
+        "N911": 0.690842
+      },
+      "rapidfuzz": {
+        "C7B01": 0.855,
+        "C772": 0.855,
+        "C773": 0.855,
+        "C229": 0.855,
+        "G212": 0.855,
+        "M1A4611": 0.855,
+        "Y389X1S": 0.855,
+        "M1A4710": 0.855,
+        "M1A4691": 0.855,
+        "E0810": 0.855,
+        "M1A4720": 0.855,
+        "M1A4711": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N979",
+      "confidence": 0.575366
+    }
   },
   {
     "text": "Giãn thừng tinh",
@@ -155,7 +273,33 @@
       "Scrotal dilation",
       "Epididymal swelling",
       "Dilated epididymis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q5523": 0.761878,
+        "N451": 0.725051,
+        "N4340": 0.716564,
+        "I861": 0.70708,
+        "N503": 0.698629
+      },
+      "rapidfuzz": {
+        "Q87410": 0.855,
+        "Q5323": 0.855,
+        "Q2544": 0.855,
+        "R2231": 0.855,
+        "R2232": 0.855,
+        "R2233": 0.855,
+        "C6300": 0.855,
+        "Q554": 0.855,
+        "C6302": 0.855,
+        "N451": 0.72,
+        "S83136S": 0.681081
+      }
+    },
+    "candidate": {
+      "code": "N451",
+      "confidence": 0.724041
+    }
   },
   {
     "text": "đau bụng vùng hạ sườn phải",
@@ -171,7 +315,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chướng bụng",
@@ -187,7 +336,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn thoáng",
@@ -203,7 +357,12 @@
     "sentence": "[ENTITY] qua.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nôn mửa",
@@ -219,7 +378,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau lưng âm ỉ",
@@ -235,7 +399,12 @@
     "sentence": "Bệnh nhân có [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng hạ sườn phải",
@@ -251,7 +420,12 @@
     "sentence": "Vị trí: [ENTITY], đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau lưng",
@@ -267,7 +441,12 @@
     "sentence": "Bệnh nhân có [ENTITY] âm ỉ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -283,7 +462,12 @@
     "sentence": "[ENTITY] vùng hạ sườn phải.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chướng bụng",
@@ -299,7 +483,12 @@
     "sentence": "Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, [ENTITY]).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chướng bụng",
@@ -315,7 +504,12 @@
     "sentence": "Các triệu chứng liên quan: [ENTITY], buồn nôn thoáng qua, nôn, đau lưng kéo dài.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn thoáng",
@@ -331,7 +525,12 @@
     "sentence": "Các triệu chứng liên quan: chướng bụng, [ENTITY] qua, nôn, đau lưng kéo dài.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -347,7 +546,12 @@
     "sentence": "buồn [ENTITY] thoáng qua.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau lưng kéo dài",
@@ -363,7 +567,12 @@
     "sentence": "Các triệu chứng liên quan: chướng bụng, buồn nôn thoáng qua, nôn, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nội soi",
@@ -371,7 +580,12 @@
     "position": [
       1446,
       1453
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày",
@@ -393,7 +607,32 @@
       "Chronic gastritis",
       "Acute gastritis",
       "Gastritis unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2900": 0.79039,
+        "K2901": 0.782795,
+        "K2950": 0.779421,
+        "K2970": 0.777139,
+        "K2930": 0.74892
+      },
+      "rapidfuzz": {
+        "I776": 0.904762,
+        "K2970": 0.9,
+        "K2900": 0.9,
+        "K2930": 0.9,
+        "K2951": 0.9,
+        "K2950": 0.9,
+        "K2901": 0.9,
+        "K2971": 0.9,
+        "L98A115": 0.855,
+        "J200": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K2900",
+      "confidence": 0.812312
+    }
   },
   {
     "text": "omeprazole",
@@ -415,7 +654,31 @@
       "omeprazole generic",
       "prilosec",
       "omeprazole 20 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.996872,
+        "283742": 0.969087,
+        "2594977": 0.933831
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.95,
+        "316408": 0.95,
+        "283742": 0.909091,
+        "343355": 0.9,
+        "1855336": 0.9,
+        "2625142": 0.855,
+        "1161025": 0.855
+      }
+    },
+    "candidate": {
+      "code": "203345",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Chụp cộng hưởng từ",
@@ -423,7 +686,12 @@
     "position": [
       1587,
       1605
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nội soi",
@@ -431,7 +699,12 @@
     "position": [
       1880,
       1887
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày",
@@ -453,7 +726,32 @@
       "Chronic gastritis",
       "Acute gastritis",
       "Gastritis unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2900": 0.79039,
+        "K2901": 0.782795,
+        "K2950": 0.779421,
+        "K2970": 0.777139,
+        "K2930": 0.74892
+      },
+      "rapidfuzz": {
+        "I776": 0.904762,
+        "K2970": 0.9,
+        "K2900": 0.9,
+        "K2930": 0.9,
+        "K2951": 0.9,
+        "K2950": 0.9,
+        "K2901": 0.9,
+        "K2971": 0.9,
+        "L98A115": 0.855,
+        "J200": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K2900",
+      "confidence": 0.812312
+    }
   },
   {
     "text": "Nội soi mật tụy ngược dòng (ERCP)",
@@ -461,7 +759,12 @@
     "position": [
       2011,
       2044
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ERCP",
@@ -469,7 +772,12 @@
     "position": [
       2039,
       2043
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chụp cộng hưởng từ",
@@ -477,7 +785,12 @@
     "position": [
       2134,
       2152
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sỏi ống dẫn mật",
@@ -499,6 +812,33 @@
       "Expanded abbreviation: CBD stone",
       "Direct English translation: bile duct stone",
       "Canonical diagnosis: choledocholithiasis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K824": 0.719661,
+        "K115": 0.686737,
+        "Q444": 0.682409,
+        "K8040": 0.674768,
+        "K563": 0.674317
+      },
+      "rapidfuzz": {
+        "T485X2S": 0.855,
+        "T485X2D": 0.855,
+        "Z006": 0.855,
+        "H35439": 0.855,
+        "C787": 0.855,
+        "T85510D": 0.855,
+        "Y37510D": 0.855,
+        "R030": 0.855,
+        "Z711": 0.855,
+        "L632": 0.771429,
+        "O021": 0.6,
+        "Q6261": 0.583784
+      }
+    },
+    "candidate": {
+      "code": "K824",
+      "confidence": 0.575729
+    }
   }
 ]

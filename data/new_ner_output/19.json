@@ -13,7 +13,12 @@
     "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu [ENTITY] và ngứa khắp người, bạn em bị nổi quanh năm luôn ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngứa khắp người",
@@ -29,7 +34,12 @@
     "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và [ENTITY], bạn em bị nổi quanh năm luôn ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mề đay nổi rất khó chịu",
@@ -45,7 +55,12 @@
     "sentence": "Những dấu [ENTITY] và ngứa, được biết bạn em có từng đi chữa trị và sử dụng rất nhiều thuốc nhưng không đỡ ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngứa",
@@ -61,7 +76,12 @@
     "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và [ENTITY] khắp người, bạn em bị nổi quanh năm luôn ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "dị",
@@ -80,7 +100,25 @@
     },
     "eng_translation": [
       "Dysphagia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R1310": 0.981499,
+        "R1311": 0.850093,
+        "R1312": 0.84398,
+        "R1313": 0.828031,
+        "R1319": 0.778349
+      },
+      "rapidfuzz": {
+        "I69191": 0.9,
+        "I69091": 0.9,
+        "I69991": 0.9
+      }
+    },
+    "candidate": {
+      "code": "R1310",
+      "confidence": 0.785199
+    }
   },
   {
     "text": "tylenol",
@@ -102,7 +140,34 @@
       "Tylenol",
       "APAP",
       "Acetaminophen 325 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "313782": 0.995208,
+        "707705": 0.97086,
+        "352523": 0.894457
+      },
+      "rapidfuzz": {
+        "161": 1.0,
+        "202433": 1.0,
+        "315270": 0.95,
+        "332815": 0.95,
+        "220581": 0.95,
+        "1358837": 0.95,
+        "1235462": 0.95,
+        "2264779": 0.95,
+        "209459": 0.9,
+        "665056": 0.9,
+        "425723": 0.9,
+        "422626": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202433",
+      "confidence": 1.0
+    }
   },
   {
     "text": "tylenol",
@@ -124,7 +189,34 @@
       "Tylenol",
       "APAP",
       "Acetaminophen 325 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "313782": 0.995208,
+        "707705": 0.97086,
+        "352523": 0.894457
+      },
+      "rapidfuzz": {
+        "161": 1.0,
+        "202433": 1.0,
+        "315270": 0.95,
+        "332815": 0.95,
+        "220581": 0.95,
+        "1358837": 0.95,
+        "1235462": 0.95,
+        "2264779": 0.95,
+        "209459": 0.9,
+        "665056": 0.9,
+        "425723": 0.9,
+        "422626": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202433",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau",
@@ -140,7 +232,12 @@
     "sentence": "Bác sĩ PCP khuyên dùng tylenol cho [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -156,7 +253,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "táo bón",
@@ -172,7 +274,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -188,7 +295,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hố chậu",
@@ -204,7 +316,12 @@
     "sentence": "Vị trí: [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cơn đau",
@@ -220,7 +337,12 @@
     "sentence": "Mức độ nghiêm trọng: [ENTITY] vẫn tiếp diễn mặc dù đã dùng tylenol.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tylenol",
@@ -242,7 +364,34 @@
       "Tylenol",
       "APAP",
       "Acetaminophen 325 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "313782": 0.995208,
+        "707705": 0.97086,
+        "352523": 0.894457
+      },
+      "rapidfuzz": {
+        "161": 1.0,
+        "202433": 1.0,
+        "315270": 0.95,
+        "332815": 0.95,
+        "220581": 0.95,
+        "1358837": 0.95,
+        "1235462": 0.95,
+        "2264779": 0.95,
+        "209459": 0.9,
+        "665056": 0.9,
+        "425723": 0.9,
+        "422626": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202433",
+      "confidence": 1.0
+    }
   },
   {
     "text": "buồn nôn",
@@ -258,7 +407,12 @@
     "sentence": "Triệu chứng liên quan: [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tylenol",
@@ -280,7 +434,34 @@
       "Tylenol",
       "APAP",
       "Acetaminophen 325 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "202433": 1.0,
+        "313782": 0.995208,
+        "707705": 0.97086,
+        "352523": 0.894457
+      },
+      "rapidfuzz": {
+        "161": 1.0,
+        "202433": 1.0,
+        "315270": 0.95,
+        "332815": 0.95,
+        "220581": 0.95,
+        "1358837": 0.95,
+        "1235462": 0.95,
+        "2264779": 0.95,
+        "209459": 0.9,
+        "665056": 0.9,
+        "425723": 0.9,
+        "422626": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202433",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Ca",
@@ -288,7 +469,12 @@
     "position": [
       1417,
       1419
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sa",
@@ -296,7 +482,12 @@
     "position": [
       1444,
       1446
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ca",
@@ -304,7 +495,12 @@
     "position": [
       1538,
       1540
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ca",
@@ -312,7 +508,12 @@
     "position": [
       1592,
       1594
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sa",
@@ -320,7 +521,12 @@
     "position": [
       1641,
       1643
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ca",
@@ -328,7 +534,12 @@
     "position": [
       1753,
       1755
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "MÀY ĐAY VÔ CĂN",
@@ -350,7 +561,32 @@
       "Urticaria, unspecified",
       "Allergic urticaria, unspecified",
       "Chronic urticaria, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.985941,
+        "L506": 0.806308,
+        "L508": 0.770095
+      },
+      "rapidfuzz": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.9,
+        "G4734": 0.855,
+        "M41123": 0.855,
+        "U099": 0.855,
+        "A0220": 0.855,
+        "S32613B": 0.855,
+        "S35401D": 0.855,
+        "T2220XA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L501",
+      "confidence": 1.0
+    }
   },
   {
     "text": "mày đay vô căn",
@@ -372,7 +608,32 @@
       "Urticaria, unspecified",
       "Allergic urticaria, unspecified",
       "Chronic urticaria, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.985941,
+        "L506": 0.806308,
+        "L508": 0.770095
+      },
+      "rapidfuzz": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.9,
+        "G4734": 0.855,
+        "M41123": 0.855,
+        "U099": 0.855,
+        "A0220": 0.855,
+        "S32613B": 0.855,
+        "S35401D": 0.855,
+        "T2220XA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L501",
+      "confidence": 1.0
+    }
   },
   {
     "text": "u trị phu",
@@ -392,7 +653,28 @@
     "eng_translation": [
       "Treatment of pharyngitis",
       "Pharyngitis management"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J312": 0.622562,
+        "J029": 0.566026,
+        "T280XXA": 0.560927,
+        "A545": 0.554263,
+        "Z293": 0.538146
+      },
+      "rapidfuzz": {
+        "T85890D": 0.855,
+        "S72442F": 0.855,
+        "S72442E": 0.855,
+        "Z739": 0.855,
+        "J028": 0.855,
+        "Z4589": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J312",
+      "confidence": 0.49805
+    }
   },
   {
     "text": "trị kiê",
@@ -413,7 +695,31 @@
       "Treatment of kiê",
       "Kiê management",
       "Kiê therapy"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "T494X6A": 0.54415,
+        "M931": 0.536281,
+        "T494X6S": 0.52997,
+        "Y93E5": 0.529368,
+        "T503X6A": 0.524042
+      },
+      "rapidfuzz": {
+        "S82141G": 0.855,
+        "S82141F": 0.855,
+        "S82141E": 0.855,
+        "Z319": 0.855,
+        "Z31448": 0.855,
+        "Z3189": 0.855,
+        "Y632": 0.855,
+        "Y634": 0.855,
+        "T8082XA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "T494X6A",
+      "confidence": 0.43532
+    }
   },
   {
     "text": "chư",
@@ -432,7 +738,25 @@
     },
     "eng_translation": [
       "Chur"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M301": 0.695095,
+        "M352": 0.56971,
+        "I675": 0.550229,
+        "M941": 0.548252,
+        "M310": 0.542122
+      },
+      "rapidfuzz": {
+        "B79": 0.9,
+        "L751": 0.771429,
+        "B182": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "M301",
+      "confidence": 0.556076
+    }
   },
   {
     "text": "trị",
@@ -451,7 +775,25 @@
     },
     "eng_translation": [
       "Treatment for acute cholecystitis with complications"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K812": 0.708429,
+        "K8012": 0.678212,
+        "K8066": 0.677741,
+        "K8062": 0.677622,
+        "K8067": 0.675023
+      },
+      "rapidfuzz": {
+        "K810": 0.9,
+        "T3297": 0.855,
+        "O365995": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K812",
+      "confidence": 0.566743
+    }
   },
   {
     "text": "ca",
@@ -459,7 +801,12 @@
     "position": [
       2415,
       2417
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chậ",
@@ -478,6 +825,24 @@
     },
     "eng_translation": [
       "Chronic cholecystitis with complications"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K812": 0.842606,
+        "K811": 0.819223,
+        "K8010": 0.799975,
+        "K8064": 0.791764,
+        "K8011": 0.769089
+      },
+      "rapidfuzz": {
+        "K811": 0.9,
+        "S12491D": 0.855,
+        "S12491G": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K811",
+      "confidence": 0.835378
+    }
   }
 ]

@@ -19,7 +19,34 @@
       "hyperuricemia with acute arthritis",
       "acute inflammatory arthritis due to urate crystals",
       "gouty arthritis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M109": 0.97747,
+        "M1000": 0.845624,
+        "E790": 0.803774,
+        "M1009": 0.739016,
+        "M10069": 0.726942
+      },
+      "rapidfuzz": {
+        "M109": 0.9,
+        "M10421": 0.9,
+        "M10422": 0.9,
+        "S82832E": 0.855,
+        "O3680X9": 0.855,
+        "S72121H": 0.855,
+        "O355XX0": 0.855,
+        "A0104": 0.855,
+        "A060": 0.855,
+        "M05549": 0.855,
+        "M05522": 0.855,
+        "M05459": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M109",
+      "confidence": 0.961976
+    }
   },
   {
     "text": "da",
@@ -35,7 +62,12 @@
     "sentence": "Chào bác sĩ, ông em năm nay 70 tuổi, bị bệnh gút hai năm nay, cũng điều trị mấy tháng khỏi đau rồi không uống thuốc nữa, mà gần đây xuất hiện hạt nhỏ màu trắng trên [ENTITY] chỗ mấy khớp ngón tay với ngón chân.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh gout mạn tính",
@@ -57,7 +89,34 @@
       "Chronic gout disease",
       "Chronic hyperuricemia with gout",
       "Long-standing gout"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E790": 0.840615,
+        "M1A9XX0": 0.820199,
+        "M1000": 0.809269,
+        "M1A00X0": 0.785348,
+        "M109": 0.778763
+      },
+      "rapidfuzz": {
+        "M1A1521": 0.9,
+        "M1A2120": 0.9,
+        "M1A1311": 0.9,
+        "M84561P": 0.855,
+        "M84542G": 0.855,
+        "M84542D": 0.855,
+        "V174XXA": 0.855,
+        "S06317A": 0.855,
+        "S92501P": 0.855,
+        "M10169": 0.855,
+        "V00842A": 0.855,
+        "V00841S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E790",
+      "confidence": 0.672492
+    }
   },
   {
     "text": "sưng",
@@ -73,7 +132,12 @@
     "sentence": "Tại vùng nổi hạt tophi có hiện tượng [ENTITY], tấy đỏ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tấy đỏ",
@@ -89,7 +153,12 @@
     "sentence": "Tại vùng nổi hạt tophi có hiện tượng sưng, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xơ gan",
@@ -111,7 +180,34 @@
       "Chronic liver disease",
       "Cirrhosis of liver",
       "Liver scarring"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K7460": 0.976819,
+        "P7881": 0.870981,
+        "K739": 0.822823,
+        "K769": 0.787234,
+        "K7469": 0.782659
+      },
+      "rapidfuzz": {
+        "K7469": 0.95,
+        "P7881": 0.9,
+        "K7460": 0.9,
+        "T8642": 0.855,
+        "T8641": 0.855,
+        "O26611": 0.855,
+        "M05371": 0.855,
+        "N036": 0.855,
+        "M05322": 0.855,
+        "D376": 0.855,
+        "C224": 0.855,
+        "K7030": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K7460",
+      "confidence": 0.961455
+    }
   },
   {
     "text": "cổ trướng",
@@ -127,7 +223,12 @@
     "sentence": "Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, [ENTITY] và tràn dịch màng phổi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tràn dịch màng phổi",
@@ -143,6 +244,11 @@
     "sentence": "Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

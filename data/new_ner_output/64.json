@@ -19,7 +19,33 @@
       "Ischemic heart disease",
       "CAD",
       "Coronary vascular disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I249": 0.857469,
+        "I255": 0.827983,
+        "I259": 0.821557,
+        "I519": 0.804931,
+        "I209": 0.762008
+      },
+      "rapidfuzz": {
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9,
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855,
+        "I120": 0.855,
+        "I119": 0.855,
+        "F5102": 0.72,
+        "A851": 0.72,
+        "A835": 0.72
+      }
+    },
+    "candidate": {
+      "code": "I249",
+      "confidence": 0.865975
+    }
   },
   {
     "text": "run tay",
@@ -35,7 +61,12 @@
     "sentence": "Tuy nhiên sau nhiều năm sử dụng thuốc thì mẹ em bị [ENTITY] và mẹ em đã ngừng sử dụng thuốc Vastarel.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh Graves",
@@ -57,7 +88,34 @@
       "Autoimmune hyperthyroidism",
       "Toxic diffuse goiter",
       "Hyperthyroidism due to Graves"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E063": 0.852127,
+        "E010": 0.766295,
+        "E0500": 0.75098,
+        "E040": 0.747118,
+        "E0501": 0.744674
+      },
+      "rapidfuzz": {
+        "E040": 0.930233,
+        "E20812": 0.909091,
+        "I69812": 0.855,
+        "I69820": 0.855,
+        "I69821": 0.855,
+        "D590": 0.855,
+        "D8982": 0.855,
+        "T561X3S": 0.855,
+        "T5803XA": 0.855,
+        "Z1503": 0.855,
+        "H4030X4": 0.855,
+        "H4030X3": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E040",
+      "confidence": 0.783741
+    }
   },
   {
     "text": "tăng lipid máu",
@@ -79,7 +137,31 @@
       "Elevated blood lipids",
       "Increased serum lipids",
       "Lipidemia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E785": 0.979012,
+        "E7849": 0.765059,
+        "E786": 0.760039,
+        "E782": 0.751965,
+        "E7841": 0.744404
+      },
+      "rapidfuzz": {
+        "E782": 0.95,
+        "E7849": 0.95,
+        "E785": 0.9,
+        "T372X1A": 0.855,
+        "S159XXD": 0.855,
+        "Z862": 0.855,
+        "T8069XA": 0.855,
+        "T8069XD": 0.855,
+        "T8062XS": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E785",
+      "confidence": 0.96321
+    }
   },
   {
     "text": "run rẩy tay chân",
@@ -95,7 +177,12 @@
     "sentence": "hoặc [ENTITY], mất thăng bằng khi đi đứng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất thăng bằng khi đi đứng",
@@ -111,7 +198,12 @@
     "sentence": "hoặc run rẩy tay chân, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "run tay",
@@ -127,7 +219,12 @@
     "sentence": "Như vậy Mẹ của bạn đã bắt đầu bị [ENTITY], đó có thể do tác dụng phụ của thuốc.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "run tay",
@@ -143,7 +240,12 @@
     "sentence": "Chờ đến sau 4 tháng nếu không đỡ hiện tượng [ENTITY] thì nên.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nitroglycerin",
@@ -165,7 +267,31 @@
       "Nitroglycerin 0.4 mg sublingual tablet",
       "Nitro 0.4 mg sublingual tablet",
       "Nitroglycerin sublingual tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "198039": 1.0,
+        "4917": 1.0,
+        "373106": 1.0,
+        "237098": 0.98165,
+        "370344": 0.899615
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "198039": 1.0,
+        "373106": 1.0,
+        "249767": 0.973684,
+        "198038": 0.973684,
+        "316377": 0.95,
+        "316370": 0.95,
+        "207346": 0.9375,
+        "207331": 0.90625
+      }
+    },
+    "candidate": {
+      "code": "198039",
+      "confidence": 1.0
+    }
   },
   {
     "text": "cơn đau thắt ngực",
@@ -181,7 +307,12 @@
     "sentence": "Đối với thuốc Nitramyl 2,5 mg/viên (nitroglycerin) thì tác dụng chủ yếu của thuốc là làm giãn mạch vành, gây tăng tưới máu cho cơ tim, dùng để ngừa [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh mạch vành",
@@ -203,7 +334,33 @@
       "Ischemic heart disease",
       "CAD",
       "Coronary vascular disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I249": 0.857469,
+        "I255": 0.827983,
+        "I259": 0.821557,
+        "I519": 0.804931,
+        "I209": 0.762008
+      },
+      "rapidfuzz": {
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9,
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855,
+        "I120": 0.855,
+        "I119": 0.855,
+        "F5102": 0.72,
+        "A851": 0.72,
+        "A835": 0.72
+      }
+    },
+    "candidate": {
+      "code": "I249",
+      "confidence": 0.865975
+    }
   },
   {
     "text": "đau đầu",
@@ -219,7 +376,12 @@
     "sentence": "[ENTITY], chóng mặt, buồn nôn, đỏ mặt, và tác dụng tụt huyết áp thế đứng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chóng mặt",
@@ -235,7 +397,12 @@
     "sentence": "đau đầu, [ENTITY], buồn nôn, đỏ mặt, và tác dụng tụt huyết áp thế đứng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -251,7 +418,12 @@
     "sentence": "đau đầu, chóng mặt, [ENTITY], đỏ mặt, và tác dụng tụt huyết áp thế đứng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đỏ mặt",
@@ -267,7 +439,12 @@
     "sentence": "đau đầu, chóng mặt, buồn nôn, [ENTITY], và tác dụng tụt huyết áp thế đứng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tụt huyết áp thế đứng",
@@ -283,7 +460,12 @@
     "sentence": "đau đầu, chóng mặt, buồn nôn, đỏ mặt, và tác dụng [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tham",
@@ -300,6 +482,11 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": []
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

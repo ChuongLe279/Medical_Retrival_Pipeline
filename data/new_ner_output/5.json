@@ -19,7 +19,34 @@
       "Carcinoma of bile duct epithelium",
       "Bile duct epithelial cell carcinoma",
       "Malignant bile duct tumor"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C249": 0.836224,
+        "C221": 0.820455,
+        "C240": 0.751565,
+        "C23": 0.68155,
+        "C220": 0.680344
+      },
+      "rapidfuzz": {
+        "T426X6A": 0.855,
+        "S52243F": 0.855,
+        "S52243G": 0.855,
+        "T43225S": 0.855,
+        "Z98870": 0.855,
+        "T43296A": 0.855,
+        "C84Z2": 0.855,
+        "K8031": 0.855,
+        "K833": 0.855,
+        "C44709": 0.855,
+        "H04553": 0.855,
+        "H04559": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C249",
+      "confidence": 0.668979
+    }
   },
   {
     "text": "tinh dịch đồ",
@@ -27,7 +54,12 @@
     "position": [
       530,
       542
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
@@ -35,7 +67,12 @@
     "position": [
       616,
       623
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Hội chứng buồng trứng đa nang",
@@ -57,7 +94,33 @@
       "PCOS",
       "Polycystic ovarian syndrome",
       "Hyperandrogenic ovarian syndrome"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E282": 1.0,
+        "E281": 0.690246,
+        "E290": 0.671705,
+        "Q613": 0.665828,
+        "E3451": 0.652147
+      },
+      "rapidfuzz": {
+        "E282": 1.0,
+        "O43021": 0.855,
+        "O43029": 0.855,
+        "I69263": 0.855,
+        "G90512": 0.855,
+        "E3120": 0.855,
+        "Q87A": 0.855,
+        "Q8582": 0.855,
+        "K915": 0.771429,
+        "N3943": 0.771429,
+        "N39492": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "E282",
+      "confidence": 1.0
+    }
   },
   {
     "text": "rậm lông",
@@ -73,7 +136,12 @@
     "sentence": "Rất có thể bạn bị Hội chứng buồng trứng đa nang (bao gồm [ENTITY], béo phì, siêu âm buồng trứng có nhiều nang …) và đây cũng là nguyên nhân gây vô sinh.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "béo phì",
@@ -95,7 +163,34 @@
       "Overweight",
       "Excessive body weight",
       "Adiposity"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E663": 1.0,
+        "E669": 0.985618,
+        "E66811": 0.865016,
+        "E66813": 0.861392,
+        "E66812": 0.832182
+      },
+      "rapidfuzz": {
+        "E663": 1.0,
+        "E8882": 0.9,
+        "O99211": 0.9,
+        "Z152": 0.9,
+        "E65": 0.9,
+        "T148XXA": 0.855,
+        "S41142D": 0.855,
+        "S41142A": 0.855,
+        "R636": 0.761905,
+        "O2601": 0.72,
+        "QA1798": 0.7,
+        "K036": 0.675
+      }
+    },
+    "candidate": {
+      "code": "E663",
+      "confidence": 1.0
+    }
   },
   {
     "text": "siêu âm",
@@ -103,7 +198,12 @@
     "position": [
       1040,
       1047
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -119,7 +219,12 @@
     "sentence": "- Bà ấy phủ nhận bất kỳ [ENTITY], nôn, sốt, ớn lạnh, hoặc dịch rò rỉ quanh ống thông.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -135,7 +240,12 @@
     "sentence": "- Bà ấy phủ nhận bất kỳ buồn [ENTITY], nôn, sốt, ớn lạnh, hoặc dịch rò rỉ quanh ống thông.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -151,7 +261,12 @@
     "sentence": "- Bà ấy phủ nhận bất kỳ buồn nôn, nôn, [ENTITY], ớn lạnh, hoặc dịch rò rỉ quanh ống thông.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ớn lạnh",
@@ -167,7 +282,12 @@
     "sentence": "- Bà ấy phủ nhận bất kỳ buồn nôn, nôn, sốt, [ENTITY], hoặc dịch rò rỉ quanh ống thông.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "dịch rò rỉ quanh",
@@ -183,7 +303,12 @@
     "sentence": "- Bà ấy phủ nhận bất kỳ buồn nôn, nôn, sốt, ớn lạnh, hoặc [ENTITY] ống thông.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư biểu mô tuyến",
@@ -205,7 +330,34 @@
       "Cancer of glandular origin",
       "Malignant neoplasm, glandular",
       "Adenocarcinoma, unspecified site"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C801": 0.638702,
+        "C759": 0.604474,
+        "C7A00": 0.591791,
+        "C459": 0.581585,
+        "C169": 0.581056
+      },
+      "rapidfuzz": {
+        "Z98891": 0.855,
+        "S99041K": 0.855,
+        "S99041G": 0.855,
+        "Z86000": 0.855,
+        "D1739": 0.855,
+        "D1030": 0.855,
+        "T5894XD": 0.855,
+        "S32486D": 0.855,
+        "S32486B": 0.855,
+        "D0581": 0.707143,
+        "D0580": 0.707143,
+        "D0590": 0.707143
+      }
+    },
+    "candidate": {
+      "code": "C801",
+      "confidence": 0.510962
+    }
   },
   {
     "text": "buồn nôn",
@@ -221,7 +373,12 @@
     "sentence": "Sau thủ thuật, bệnh nhân phủ nhận bất kỳ [ENTITY], nôn, đau ngực, hoặc khó thở.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -237,7 +394,12 @@
     "sentence": "- Bà ấy phủ nhận bất kỳ buồn nôn, [ENTITY], sốt, ớn lạnh, hoặc dịch rò rỉ quanh ống thông.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
@@ -253,7 +415,12 @@
     "sentence": "Sau thủ thuật, bệnh nhân phủ nhận bất kỳ buồn nôn, nôn, [ENTITY], hoặc khó thở.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -269,7 +436,12 @@
     "sentence": "Sau thủ thuật, bệnh nhân phủ nhận bất kỳ buồn nôn, nôn, đau ngực, hoặc [ENTITY].",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
@@ -285,7 +457,12 @@
     "sentence": "Sau thủ thuật, bệnh nhân phủ nhận bất kỳ buồn nôn, nôn, [ENTITY] ngực, hoặc khó thở.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -301,7 +478,12 @@
     "sentence": "Phủ nhận [ENTITY], nôn, sốt, ớn lạnh, hoặc dịch rò rỉ quanh ống thông.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -317,7 +499,12 @@
     "sentence": "Sau thủ thuật, bệnh nhân phủ nhận bất kỳ buồn [ENTITY], nôn, đau ngực, hoặc khó thở.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -333,7 +520,12 @@
     "sentence": "Phủ nhận buồn nôn, nôn, [ENTITY], ớn lạnh, hoặc dịch rò rỉ quanh ống thông.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ớn lạnh",
@@ -349,7 +541,12 @@
     "sentence": "Phủ nhận buồn nôn, nôn, sốt, [ENTITY], hoặc dịch rò rỉ quanh ống thông.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "dịch rò rỉ",
@@ -365,7 +562,12 @@
     "sentence": "- Bà ấy phủ nhận bất kỳ buồn nôn, nôn, sốt, ớn lạnh, hoặc [ENTITY] quanh ống thông.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư biểu mô tuyến",
@@ -387,7 +589,34 @@
       "Cancer of glandular origin",
       "Malignant neoplasm, glandular",
       "Adenocarcinoma, unspecified site"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C801": 0.638702,
+        "C759": 0.604474,
+        "C7A00": 0.591791,
+        "C459": 0.581585,
+        "C169": 0.581056
+      },
+      "rapidfuzz": {
+        "Z98891": 0.855,
+        "S99041K": 0.855,
+        "S99041G": 0.855,
+        "Z86000": 0.855,
+        "D1739": 0.855,
+        "D1030": 0.855,
+        "T5894XD": 0.855,
+        "S32486D": 0.855,
+        "S32486B": 0.855,
+        "D0581": 0.707143,
+        "D0580": 0.707143,
+        "D0590": 0.707143
+      }
+    },
+    "candidate": {
+      "code": "C801",
+      "confidence": 0.510962
+    }
   },
   {
     "text": "đau",
@@ -403,7 +632,12 @@
     "sentence": "Bà ấy cho biết có một chút [ENTITY] khi sờ nắn xung quanh vị trí đặt ống dẫn, đặc biệt là khi hít thở sâu.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ung thư biểu mô tuyến",
@@ -425,6 +659,33 @@
       "Cancer of glandular origin",
       "Malignant neoplasm, glandular",
       "Adenocarcinoma, unspecified site"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C801": 0.638702,
+        "C759": 0.604474,
+        "C7A00": 0.591791,
+        "C459": 0.581585,
+        "C169": 0.581056
+      },
+      "rapidfuzz": {
+        "Z98891": 0.855,
+        "S99041K": 0.855,
+        "S99041G": 0.855,
+        "Z86000": 0.855,
+        "D1739": 0.855,
+        "D1030": 0.855,
+        "T5894XD": 0.855,
+        "S32486D": 0.855,
+        "S32486B": 0.855,
+        "D0581": 0.707143,
+        "D0580": 0.707143,
+        "D0590": 0.707143
+      }
+    },
+    "candidate": {
+      "code": "C801",
+      "confidence": 0.510962
+    }
   }
 ]

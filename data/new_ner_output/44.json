@@ -5,7 +5,12 @@
     "position": [
       53,
       62
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ast",
@@ -13,7 +18,12 @@
     "position": [
       68,
       71
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "421",
@@ -21,7 +31,12 @@
     "position": [
       72,
       75
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "alt",
@@ -29,7 +44,12 @@
     "position": [
       77,
       80
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "336",
@@ -37,7 +57,12 @@
     "position": [
       81,
       84
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bilirubin",
@@ -45,7 +70,12 @@
     "position": [
       95,
       104
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
@@ -53,7 +83,12 @@
     "position": [
       129,
       136
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "acetaminophen",
@@ -75,7 +110,33 @@
       "Acetaminophen 325 mg tablet",
       "Acetaminophen 500 mg tablet",
       "APAP"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "313782": 0.995208,
+        "198440": 0.993822,
+        "2563918": 0.993822,
+        "707705": 0.97086
+      },
+      "rapidfuzz": {
+        "161": 1.0,
+        "315270": 0.95,
+        "332815": 0.95,
+        "1358837": 0.95,
+        "1235462": 0.95,
+        "2264779": 0.95,
+        "665056": 0.95,
+        "315266": 0.95,
+        "209443": 0.95,
+        "425723": 0.9,
+        "422626": 0.9
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
   },
   {
     "text": "nac",
@@ -92,7 +153,12 @@
     "assertion_result": {
       "tag": "isHistorical"
     },
-    "eng_translation": []
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ercp",
@@ -100,7 +166,12 @@
     "position": [
       270,
       274
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ercp",
@@ -108,7 +179,12 @@
     "position": [
       277,
       281
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bilirubin",
@@ -116,7 +192,12 @@
     "position": [
       463,
       472
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đay",
@@ -132,7 +213,12 @@
     "sentence": "Câu trả lời của bác sĩ: Chào bạn,mình xin trả lời câu hỏi của bạn như sau Như bạn đã mô tả, trường hợp này bạn thuộc MÀY [ENTITY] VÔ CĂN.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đay",
@@ -148,7 +234,12 @@
     "sentence": "Đây là tình trạng hay gặp nhất của MÀY [ENTITY] MẠN.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "MÀY đay VÔ CĂN",
@@ -170,7 +261,32 @@
       "Urticaria, unspecified",
       "Allergic urticaria, unspecified",
       "Chronic urticaria, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.985941,
+        "L506": 0.806308,
+        "L508": 0.770095
+      },
+      "rapidfuzz": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.9,
+        "G4734": 0.855,
+        "M41123": 0.855,
+        "U099": 0.855,
+        "A0220": 0.855,
+        "S32613B": 0.855,
+        "S35401D": 0.855,
+        "T2220XA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L501",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đay VÔ CĂN",
@@ -190,7 +306,28 @@
     "eng_translation": [
       "Gastric outlet obstruction without known cause",
       "Gastric outlet obstruction, unspecified etiology"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K222": 0.693087,
+        "K313": 0.671068,
+        "Z903": 0.651795,
+        "K5902": 0.645634,
+        "N320": 0.618211
+      },
+      "rapidfuzz": {
+        "S21129S": 0.855,
+        "S2699XS": 0.855,
+        "S2610XA": 0.855,
+        "V409XXD": 0.855,
+        "S62606B": 0.855,
+        "S62606A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K222",
+      "confidence": 0.55447
+    }
   },
   {
     "text": "buồn ngủ",
@@ -206,6 +343,11 @@
     "sentence": "*************** có thể hệ sau không gây [ENTITY] là đơn hàng đầu sau đó đến *************** có thể hệ 1, ********* bậc thấp cách ngày hoặc hàng ngày và giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

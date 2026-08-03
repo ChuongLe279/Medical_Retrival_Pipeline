@@ -16,7 +16,25 @@
     },
     "eng_translation": [
       "Có"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Y93E4": 0.508348,
+        "Y92810": 0.504135,
+        "Y9385": 0.503244,
+        "Y93G3": 0.500415,
+        "Y9364": 0.494467
+      },
+      "rapidfuzz": {
+        "A074": 0.6,
+        "H3121": 0.6,
+        "U071": 0.6
+      }
+    },
+    "candidate": {
+      "code": "Y93E4",
+      "confidence": 0.406678
+    }
   },
   {
     "text": "ca",
@@ -24,7 +42,12 @@
     "position": [
       702,
       704
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thrombophilia",
@@ -46,7 +69,33 @@
       "Hypercoagulable state",
       "Inherited thrombophilia",
       "Acquired thrombophilia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "D6869": 0.808812,
+        "D6859": 0.789335,
+        "D684": 0.773881,
+        "D68311": 0.750291,
+        "R791": 0.679726
+      },
+      "rapidfuzz": {
+        "D6869": 0.95,
+        "D6859": 0.9,
+        "D68311": 0.878049,
+        "O99824": 0.855,
+        "O99834": 0.855,
+        "Z418": 0.855,
+        "QA1798": 0.855,
+        "G121": 0.855,
+        "Z89619": 0.855,
+        "Z89622": 0.855,
+        "I821": 0.782609
+      }
+    },
+    "candidate": {
+      "code": "D6869",
+      "confidence": 0.83705
+    }
   },
   {
     "text": "bệnh tăng đông máu",
@@ -68,7 +117,34 @@
       "DIC",
       "Consumptive coagulopathy",
       "Hypercoagulable state with thrombosis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "D65": 0.805634,
+        "P60": 0.766459,
+        "D6832": 0.70642,
+        "D684": 0.696112,
+        "D6869": 0.683809
+      },
+      "rapidfuzz": {
+        "P60": 0.95,
+        "O46029": 0.9,
+        "O46023": 0.9,
+        "K048": 0.9,
+        "B852": 0.9,
+        "B662": 0.9,
+        "S72354N": 0.855,
+        "S92423D": 0.855,
+        "S4292XP": 0.855,
+        "A5143": 0.618182,
+        "G9349": 0.590909,
+        "I674": 0.588235
+      }
+    },
+    "candidate": {
+      "code": "P60",
+      "confidence": 0.803167
+    }
   },
   {
     "text": "tiền sản giật",
@@ -90,7 +166,34 @@
       "Preeclampsia with severe features",
       "Hypertensive disorder in pregnancy",
       "Preeclampsia with complications"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "O1410": 0.881123,
+        "O1414": 0.86353,
+        "O1415": 0.832922,
+        "O159": 0.831288,
+        "O1412": 0.817641
+      },
+      "rapidfuzz": {
+        "S11014D": 0.855,
+        "O6020X1": 0.855,
+        "O6020X2": 0.855,
+        "V2111XA": 0.855,
+        "V417XXA": 0.855,
+        "V416XXS": 0.855,
+        "S99132K": 0.855,
+        "S72063Q": 0.855,
+        "S72063P": 0.855,
+        "O1400": 0.825,
+        "O1402": 0.825,
+        "O1403": 0.825
+      }
+    },
+    "candidate": {
+      "code": "O1410",
+      "confidence": 0.704898
+    }
   },
   {
     "text": "ra máu bất thường",
@@ -106,7 +209,12 @@
     "sentence": "Thuốc chống đông này cần chú ý phải dừng ngay khi có dấu hiệu [ENTITY] hoặc nên dừng trước tuần thai 36 để tránh tình trạng chảy máu khó cầm (việc này bạn nên theo hướng dẫn của bác sỹ sản khoa).",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu khó cầm",
@@ -122,6 +230,11 @@
     "sentence": "Thuốc chống đông này cần chú ý phải dừng ngay khi có dấu hiệu ra máu bất thường hoặc nên dừng trước tuần thai 36 để tránh tình trạng [ENTITY] (việc này bạn nên theo hướng dẫn của bác sỹ sản khoa).",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

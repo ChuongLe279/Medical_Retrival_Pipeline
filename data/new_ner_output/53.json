@@ -13,7 +13,12 @@
     "sentence": "Bệnh nhân nữ 62 tuổi, vào viện với lý do: [ENTITY], gầy sút cân.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "gầy sút cân",
@@ -29,7 +34,12 @@
     "sentence": "Bệnh nhân nữ 62 tuổi, vào viện với lý do: mệt mỏi, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ăn nhiều",
@@ -45,7 +55,12 @@
     "sentence": "[ENTITY], khát nước, uống nhiều, đi tiểu nhiều, gầy sút cân (3kg/tháng), người mệt mỏi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khát nước",
@@ -61,7 +76,12 @@
     "sentence": "Ăn nhiều, [ENTITY], uống nhiều, đi tiểu nhiều, gầy sút cân (3kg/tháng), người mệt mỏi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "uống nhiều",
@@ -77,7 +97,12 @@
     "sentence": "Ăn nhiều, khát nước, [ENTITY], đi tiểu nhiều, gầy sút cân (3kg/tháng), người mệt mỏi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đi tiểu nhiều",
@@ -93,7 +118,12 @@
     "sentence": "Ăn nhiều, khát nước, uống nhiều, [ENTITY], gầy sút cân (3kg/tháng), người mệt mỏi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "gầy sút cân",
@@ -109,7 +139,12 @@
     "sentence": "Ăn nhiều, khát nước, uống nhiều, đi tiểu nhiều, [ENTITY] (3kg/tháng), người mệt mỏi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "người mệt mỏi",
@@ -125,7 +160,12 @@
     "sentence": "Ăn nhiều, khát nước, uống nhiều, đi tiểu nhiều, gầy sút cân (3kg/tháng), [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Mạch",
@@ -133,7 +173,12 @@
     "position": [
       276,
       280
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "89",
@@ -141,7 +186,12 @@
     "position": [
       282,
       284
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "HA",
@@ -149,7 +199,12 @@
     "position": [
       295,
       297
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "180/100",
@@ -157,7 +212,12 @@
     "position": [
       299,
       306
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Glucose",
@@ -165,7 +225,12 @@
     "position": [
       337,
       344
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rốn phổi đậm",
@@ -181,7 +246,12 @@
     "sentence": "XQ: Quai ĐMC vồng cao, chỉ số tim/LN < ½, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ĐTD",
@@ -203,7 +273,34 @@
       "Type 2 diabetes mellitus",
       "T2DM",
       "Non-insulin-dependent diabetes mellitus"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.844191,
+        "P702": 0.787525,
+        "E119": 0.736971,
+        "E118": 0.725221,
+        "O24119": 0.724895
+      },
+      "rapidfuzz": {
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "E1169": 0.9,
+        "S72362Q": 0.855,
+        "S72361M": 0.855,
+        "S72361N": 0.855,
+        "I69153": 0.855,
+        "E133541": 0.855,
+        "E133539": 0.855,
+        "D68022": 0.6,
+        "F1420": 0.514286,
+        "Q242": 0.514286
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.675353
+    }
   },
   {
     "text": "Torsemide",
@@ -225,7 +322,30 @@
       "Torsemide 20 mg tablet",
       "Torsemide 40 mg tablet",
       "Torsemide 80 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "38413": 0.999999,
+        "198371": 0.995881,
+        "2589881": 0.995439,
+        "2589883": 0.927986,
+        "105590": 0.679177
+      },
+      "rapidfuzz": {
+        "38413": 1.0,
+        "317521": 0.95,
+        "198371": 0.95,
+        "2589880": 0.95,
+        "2589881": 0.95,
+        "2682560": 0.9,
+        "250044": 0.880488,
+        "2589885": 0.880488
+      }
+    },
+    "candidate": {
+      "code": "38413",
+      "confidence": 0.999999
+    }
   },
   {
     "text": "Insulin glargine",
@@ -247,7 +367,30 @@
       "Insulin glargine injection",
       "Lantus injection",
       "Insulin glargine 100 u per ml"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "2182037": 1.0,
+        "343226": 0.987539,
+        "311041": 0.985243,
+        "2673280": 0.962027,
+        "2563971": 0.935616
+      },
+      "rapidfuzz": {
+        "274783": 0.9,
+        "1649574": 0.9,
+        "261551": 0.9,
+        "343226": 0.892857,
+        "1653497": 0.872727,
+        "1604538": 0.857143,
+        "1423307": 0.855,
+        "2167163": 0.855
+      }
+    },
+    "candidate": {
+      "code": "343226",
+      "confidence": 0.968603
+    }
   },
   {
     "text": "Crestor",
@@ -269,7 +412,31 @@
       "rosuvastatin",
       "rosuvastatin calcium",
       "rosuvastatin 10 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "320864": 1.0,
+        "323828": 1.0,
+        "301542": 0.999999,
+        "859747": 0.997652
+      },
+      "rapidfuzz": {
+        "320864": 1.0,
+        "301542": 1.0,
+        "323828": 1.0,
+        "1157992": 0.95,
+        "2167572": 0.95,
+        "859418": 0.95,
+        "859746": 0.95,
+        "2167555": 0.95,
+        "859425": 0.9,
+        "859426": 0.9
+      }
+    },
+    "candidate": {
+      "code": "323828",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Carvedilol",
@@ -291,7 +458,32 @@
       "Carvedilol 12.5mg tablet",
       "Carvedilol 25mg tablet",
       "Carvedilol 50mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "20352": 1.0,
+        "200032": 0.998123,
+        "200033": 0.998013,
+        "668310": 0.824347,
+        "242462": 0.682544
+      },
+      "rapidfuzz": {
+        "20352": 1.0,
+        "315575": 0.95,
+        "212389": 0.95,
+        "200032": 0.95,
+        "315576": 0.95,
+        "212390": 0.95,
+        "200033": 0.95,
+        "686924": 0.9,
+        "686925": 0.9,
+        "200031": 0.883721
+      }
+    },
+    "candidate": {
+      "code": "20352",
+      "confidence": 1.0
+    }
   },
   {
     "text": "kali",
@@ -299,7 +491,12 @@
     "position": [
       925,
       929
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Creatinine",
@@ -307,7 +504,12 @@
     "position": [
       937,
       947
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Torsemide",
@@ -329,7 +531,30 @@
       "Torsemide 20 mg tablet",
       "Torsemide 40 mg tablet",
       "Torsemide 80 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "38413": 0.999999,
+        "198371": 0.995881,
+        "2589881": 0.995439,
+        "2589883": 0.927986,
+        "105590": 0.679177
+      },
+      "rapidfuzz": {
+        "38413": 1.0,
+        "317521": 0.95,
+        "198371": 0.95,
+        "2589880": 0.95,
+        "2589881": 0.95,
+        "2682560": 0.9,
+        "250044": 0.880488,
+        "2589885": 0.880488
+      }
+    },
+    "candidate": {
+      "code": "38413",
+      "confidence": 0.999999
+    }
   },
   {
     "text": "torsemide",
@@ -351,7 +576,30 @@
       "Torsemide 20 mg tablet",
       "Torsemide 40 mg tablet",
       "Torsemide 80 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "38413": 0.999999,
+        "198371": 0.995881,
+        "2589881": 0.995439,
+        "2589883": 0.927986,
+        "105590": 0.679177
+      },
+      "rapidfuzz": {
+        "38413": 1.0,
+        "317521": 0.95,
+        "198371": 0.95,
+        "2589880": 0.95,
+        "2589881": 0.95,
+        "2682560": 0.9,
+        "250044": 0.880488,
+        "2589885": 0.880488
+      }
+    },
+    "candidate": {
+      "code": "38413",
+      "confidence": 0.999999
+    }
   },
   {
     "text": "đường huyết",
@@ -359,7 +607,12 @@
     "position": [
       1180,
       1191
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "glucose",
@@ -367,6 +620,11 @@
     "position": [
       1241,
       1248
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

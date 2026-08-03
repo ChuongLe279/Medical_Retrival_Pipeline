@@ -5,7 +5,12 @@
     "position": [
       14,
       31
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Troponin",
@@ -13,7 +18,12 @@
     "position": [
       101,
       109
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhồi",
@@ -35,7 +45,34 @@
       "Acute myocardial infarction",
       "Heart attack",
       "Cardiac infarction"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.987287,
+        "I249": 0.850784,
+        "I21A1": 0.785121,
+        "I252": 0.761003,
+        "I639": 0.756395
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I219": 0.95,
+        "I2109": 0.9,
+        "I230": 0.9,
+        "I231": 0.9,
+        "A0102": 0.855,
+        "I2722": 0.855,
+        "T82512S": 0.855,
+        "T460X6A": 0.855,
+        "T827XXA": 0.855,
+        "T827XXD": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I219",
+      "confidence": 0.97983
+    }
   },
   {
     "text": "CK-MB",
@@ -43,7 +80,12 @@
     "position": [
       140,
       145
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Siêu âm tim",
@@ -51,7 +93,12 @@
     "position": [
       149,
       160
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thiếu máu cơ tim",
@@ -73,7 +120,34 @@
       "Ischemic heart disease",
       "Cardiac ischemia",
       "Myocardial hypoperfusion"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I249": 0.857469,
+        "I255": 0.828051,
+        "I259": 0.821557,
+        "I519": 0.804931,
+        "I6782": 0.801987
+      },
+      "rapidfuzz": {
+        "I256": 0.95,
+        "P294": 0.9,
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9,
+        "I235": 0.855,
+        "O29192": 0.855,
+        "O29191": 0.855,
+        "O29129": 0.855,
+        "I5A": 0.855,
+        "I220": 0.855,
+        "I2109": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I249",
+      "confidence": 0.865975
+    }
   },
   {
     "text": "bệnh mạch vành",
@@ -95,7 +169,33 @@
       "Ischemic heart disease",
       "CAD",
       "Coronary vascular disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I249": 0.857469,
+        "I255": 0.827983,
+        "I259": 0.821557,
+        "I519": 0.804931,
+        "I209": 0.762008
+      },
+      "rapidfuzz": {
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9,
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855,
+        "I120": 0.855,
+        "I119": 0.855,
+        "F5102": 0.72,
+        "A851": 0.72,
+        "A835": 0.72
+      }
+    },
+    "candidate": {
+      "code": "I249",
+      "confidence": 0.865975
+    }
   },
   {
     "text": "đau bụng trên",
@@ -111,7 +211,12 @@
     "sentence": "Ban đầu xuất hiện [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -127,7 +232,12 @@
     "sentence": "Hôm nay, bệnh nhân có [ENTITY] nhẹ đến 38.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hạ sườn phải",
@@ -143,7 +253,12 @@
     "sentence": "3°C kèm theo [ENTITY] tái phát, ngày càng nặng hơn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -159,7 +274,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -175,7 +295,12 @@
     "sentence": "Ban đầu xuất hiện [ENTITY] trên.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hạ sườn phải",
@@ -191,7 +316,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -207,7 +337,12 @@
     "sentence": "[ENTITY] nhẹ đến 38.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hạ sườn phải",
@@ -223,7 +358,12 @@
     "sentence": "[ENTITY] tái phát, ngày càng nặng hơn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau hạ sườn phải",
@@ -239,7 +379,12 @@
     "sentence": "[ENTITY] liên tục.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -255,7 +400,12 @@
     "sentence": "Triệu chứng liên quan: không thấy [ENTITY], nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -271,7 +421,12 @@
     "sentence": "Triệu chứng liên quan: không thấy buồn [ENTITY], nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ớn lạnh",
@@ -287,7 +442,12 @@
     "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, [ENTITY], thay đổi chức năng ruột, đau ngực, khó thở.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau ngực",
@@ -303,7 +463,12 @@
     "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, [ENTITY], khó thở.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -319,7 +484,12 @@
     "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "AMA",
@@ -327,7 +497,12 @@
     "position": [
       1732,
       1735
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
@@ -335,7 +510,12 @@
     "position": [
       149,
       156
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật cấp",
@@ -357,7 +537,34 @@
       "Acute gallbladder inflammation",
       "Inflammation of the gallbladder acute",
       "Acute inflammation of the gallbladder"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K810": 1.0,
+        "K819": 0.826204,
+        "K812": 0.747653,
+        "K811": 0.728649,
+        "K82A1": 0.725266
+      },
+      "rapidfuzz": {
+        "K810": 1.0,
+        "K8043": 0.9,
+        "K8001": 0.9,
+        "K8047": 0.855,
+        "A0819": 0.855,
+        "I82629": 0.855,
+        "S92115K": 0.855,
+        "S92355S": 0.855,
+        "Z959": 0.855,
+        "L97125": 0.855,
+        "S82242F": 0.855,
+        "S82242E": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K810",
+      "confidence": 1.0
+    }
   },
   {
     "text": "siêu âm",
@@ -365,7 +572,12 @@
     "position": [
       1818,
       1825
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật",
@@ -387,7 +599,33 @@
       "Acute cholecystitis",
       "Inflammation of the gallbladder",
       "Gallbladder inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K810": 1.0,
+        "K819": 0.986,
+        "K829": 0.815092,
+        "K811": 0.795584,
+        "K812": 0.747653
+      },
+      "rapidfuzz": {
+        "K810": 1.0,
+        "K8046": 0.9,
+        "K8000": 0.9,
+        "K8043": 0.9,
+        "K8001": 0.9,
+        "S82102N": 0.855,
+        "S82102D": 0.855,
+        "S82102C": 0.855,
+        "J682": 0.855,
+        "H95111": 0.855,
+        "H95112": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K810",
+      "confidence": 1.0
+    }
   },
   {
     "text": "sỏi ống mật",
@@ -409,7 +647,33 @@
       "Common bile duct stone",
       "Biliary duct calculus",
       "Choledocholithiasis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K8030": 0.736606,
+        "K824": 0.726674,
+        "K8040": 0.725598,
+        "K563": 0.70802,
+        "Q444": 0.705738
+      },
+      "rapidfuzz": {
+        "D3151": 0.855,
+        "D3150": 0.855,
+        "D444": 0.855,
+        "Q453": 0.855,
+        "C6952": 0.855,
+        "K8019": 0.855,
+        "K8018": 0.855,
+        "K8050": 0.855,
+        "L632": 0.771429,
+        "B743": 0.75,
+        "K8080": 0.725455
+      }
+    },
+    "candidate": {
+      "code": "K8030",
+      "confidence": 0.589285
+    }
   },
   {
     "text": "chụp ct",
@@ -417,7 +681,12 @@
     "position": [
       2405,
       2412
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
@@ -425,7 +694,12 @@
     "position": [
       2294,
       2301
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm túi mật cấp",
@@ -447,7 +721,34 @@
       "Acute gallbladder inflammation",
       "Inflammation of the gallbladder acute",
       "Acute inflammation of the gallbladder"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K810": 1.0,
+        "K819": 0.826204,
+        "K812": 0.747653,
+        "K811": 0.728649,
+        "K82A1": 0.725266
+      },
+      "rapidfuzz": {
+        "K810": 1.0,
+        "K8043": 0.9,
+        "K8001": 0.9,
+        "K8047": 0.855,
+        "A0819": 0.855,
+        "I82629": 0.855,
+        "S92115K": 0.855,
+        "S92355S": 0.855,
+        "Z959": 0.855,
+        "L97125": 0.855,
+        "S82242F": 0.855,
+        "S82242E": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K810",
+      "confidence": 1.0
+    }
   },
   {
     "text": "viêm túi mật cấp",
@@ -469,6 +770,33 @@
       "Acute gallbladder inflammation",
       "Inflammation of the gallbladder acute",
       "Acute inflammation of the gallbladder"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K810": 1.0,
+        "K819": 0.826204,
+        "K812": 0.747653,
+        "K811": 0.728649,
+        "K82A1": 0.725266
+      },
+      "rapidfuzz": {
+        "K810": 1.0,
+        "K8043": 0.9,
+        "K8001": 0.9,
+        "K8047": 0.855,
+        "A0819": 0.855,
+        "I82629": 0.855,
+        "S92115K": 0.855,
+        "S92355S": 0.855,
+        "Z959": 0.855,
+        "L97125": 0.855,
+        "S82242F": 0.855,
+        "S82242E": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K810",
+      "confidence": 1.0
+    }
   }
 ]

@@ -19,7 +19,34 @@
       "Heart disease",
       "Cardiac disorder",
       "Vascular disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I519": 0.983466,
+        "I739": 0.801571,
+        "I5189": 0.757212,
+        "I999": 0.745403,
+        "I679": 0.741166
+      },
+      "rapidfuzz": {
+        "O1012": 0.9,
+        "O10119": 0.9,
+        "O10113": 0.9,
+        "G468": 0.9,
+        "I69933": 0.9,
+        "I69934": 0.9,
+        "C946": 0.855,
+        "I289": 0.855,
+        "I279": 0.855,
+        "Z950": 0.855,
+        "M70952": 0.855,
+        "G939": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I519",
+      "confidence": 0.786773
+    }
   },
   {
     "text": "xơ vữa",
@@ -41,7 +68,34 @@
       "Arteriosclerosis",
       "Vascular sclerosis",
       "Coronary atherosclerosis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I7090": 0.960917,
+        "I7091": 0.846441,
+        "I700": 0.836473,
+        "I2584": 0.773773,
+        "I672": 0.760518
+      },
+      "rapidfuzz": {
+        "I70743": 0.9,
+        "I70291": 0.9,
+        "I70269": 0.9,
+        "I2583": 0.9,
+        "I2584": 0.9,
+        "Z959": 0.855,
+        "Z9862": 0.855,
+        "Z95828": 0.855,
+        "I70209": 0.855,
+        "I7090": 0.812903,
+        "I7091": 0.812903,
+        "I70735": 0.812903
+      }
+    },
+    "candidate": {
+      "code": "I7090",
+      "confidence": 0.931314
+    }
   },
   {
     "text": "ăng huyết áp",
@@ -63,7 +117,34 @@
       "High blood pressure",
       "Elevated blood pressure",
       "Hypertensive condition"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I169": 0.707123,
+        "R030": 0.694782,
+        "I160": 0.689331
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "R030": 0.9,
+        "L98A214": 0.855,
+        "S3599XS": 0.855,
+        "L98A298": 0.855,
+        "L89816": 0.855,
+        "D72829": 0.855,
+        "L496": 0.855,
+        "L497": 0.855,
+        "Z0571": 0.855
+      }
+    },
+    "candidate": {
+      "code": "R030",
+      "confidence": 0.735826
+    }
   },
   {
     "text": "Đái tháo đường",
@@ -85,7 +166,34 @@
       "Type 2 diabetes",
       "Common clinical synonym",
       "Expanded abbreviation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.84212,
+        "O24119": 0.714028,
+        "R7303": 0.712752,
+        "Z833": 0.710006,
+        "E119": 0.708696
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "O2412": 0.9,
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "T485X6S": 0.855,
+        "D831": 0.855,
+        "D832": 0.855,
+        "O200": 0.65,
+        "L80": 0.6,
+        "R002": 0.6
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.673696
+    }
   },
   {
     "text": "Cơn rối loạn ý thức",
@@ -101,7 +209,12 @@
     "sentence": "Lý do vào viện: [ENTITY] thoáng qua, nghi ngờ cơn co giật.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "co giật",
@@ -117,7 +230,12 @@
     "sentence": "Lý do vào viện: Cơn rối loạn ý thức thoáng qua, nghi ngờ cơn [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xuất huyết dưới nhện",
@@ -139,7 +257,34 @@
       "SAH",
       "Subarachnoid hemorrhage acute",
       "Subarachnoid hemorrhage without mention of complications"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I609": 0.847717,
+        "I608": 0.812658,
+        "I607": 0.809271,
+        "I6900": 0.790415,
+        "S066X0S": 0.773451
+      },
+      "rapidfuzz": {
+        "P103": 0.9,
+        "I6010": 0.9,
+        "I6011": 0.9,
+        "S065X4S": 0.855,
+        "M93072": 0.855,
+        "M93073": 0.855,
+        "E3602": 0.855,
+        "S82844H": 0.855,
+        "S82844J": 0.855,
+        "A0223": 0.72,
+        "A0222": 0.72,
+        "D869": 0.72
+      }
+    },
+    "candidate": {
+      "code": "I609",
+      "confidence": 0.678174
+    }
   },
   {
     "text": "Chụp cắt lớp vi tính",
@@ -147,7 +292,12 @@
     "position": [
       275,
       295
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xuất huyết dưới nhện",
@@ -169,7 +319,34 @@
       "SAH",
       "Subarachnoid hemorrhage acute",
       "Subarachnoid hemorrhage without mention of complications"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I609": 0.847717,
+        "I608": 0.812658,
+        "I607": 0.809271,
+        "I6900": 0.790415,
+        "S066X0S": 0.773451
+      },
+      "rapidfuzz": {
+        "P103": 0.9,
+        "I6010": 0.9,
+        "I6011": 0.9,
+        "S065X4S": 0.855,
+        "M93072": 0.855,
+        "M93073": 0.855,
+        "E3602": 0.855,
+        "S82844H": 0.855,
+        "S82844J": 0.855,
+        "A0223": 0.72,
+        "A0222": 0.72,
+        "D869": 0.72
+      }
+    },
+    "candidate": {
+      "code": "I609",
+      "confidence": 0.678174
+    }
   },
   {
     "text": "nang màng nhện",
@@ -191,7 +368,34 @@
       "Mite-induced skin condition",
       "Cutaneous mite infestation",
       "Scabies-like dermatitis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "B86": 0.89594,
+        "B870": 0.788249,
+        "B8801": 0.721743,
+        "B879": 0.692697,
+        "B653": 0.687283
+      },
+      "rapidfuzz": {
+        "B86": 0.9,
+        "T63303A": 0.855,
+        "T63303S": 0.855,
+        "T63391S": 0.855,
+        "F14280": 0.855,
+        "E0800": 0.855,
+        "G4441": 0.855,
+        "S7422XS": 0.855,
+        "A220": 0.855,
+        "S7420XS": 0.855,
+        "C8630": 0.855,
+        "T543X1S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "B86",
+      "confidence": 0.896752
+    }
   },
   {
     "text": "tụ dịch",
@@ -213,7 +417,32 @@
       "Cardiogenic pulmonary edema",
       "Congestive heart failure with pulmonary edema",
       "Acute pulmonary edema"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J810": 1.0,
+        "J811": 0.768516,
+        "J681": 0.736766,
+        "R609": 0.729968,
+        "R570": 0.725354
+      },
+      "rapidfuzz": {
+        "J810": 1.0,
+        "J811": 0.9,
+        "J681": 0.9,
+        "S061X6A": 0.855,
+        "E08311": 0.855,
+        "V466XXD": 0.855,
+        "Z941": 0.855,
+        "Z91A18": 0.855,
+        "I82463": 0.855,
+        "I82A11": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J810",
+      "confidence": 1.0
+    }
   },
   {
     "text": "tụ máu dưới màng cứng mạn tính",
@@ -235,7 +464,34 @@
       "Chronic subdural blood collection",
       "Subdural hematoma, chronic",
       "Chronic subdural hemorrhage"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I6203": 0.881539,
+        "I6202": 0.739393,
+        "I6200": 0.721568,
+        "S065X0S": 0.691251,
+        "I6201": 0.656989
+      },
+      "rapidfuzz": {
+        "I6203": 0.95,
+        "M12051": 0.855,
+        "I82501": 0.855,
+        "I82509": 0.855,
+        "S065X0S": 0.855,
+        "I5023": 0.855,
+        "M86562": 0.855,
+        "L97501": 0.855,
+        "L97222": 0.855,
+        "L97223": 0.855,
+        "L98438": 0.855,
+        "M12029": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I6203",
+      "confidence": 0.895231
+    }
   },
   {
     "text": "chụp CT",
@@ -243,7 +499,12 @@
     "position": [
       553,
       560
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau đầu kéo dài",
@@ -259,7 +520,12 @@
     "sentence": "Sau xuất viện, bệnh nhân từng quay lại khoa Cấp cứu vì [ENTITY].",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tụ máu ngoài màng cứng",
@@ -281,7 +547,33 @@
       "Extradural hemorrhage",
       "Subdural bleeding",
       "Cerebral subdural hematoma"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I621": 0.873141,
+        "I6200": 0.764453,
+        "I6203": 0.725108,
+        "I6202": 0.711137,
+        "I6201": 0.693521
+      },
+      "rapidfuzz": {
+        "I621": 0.9,
+        "O717": 0.855,
+        "O902": 0.855,
+        "S065X2D": 0.855,
+        "K91841": 0.855,
+        "E89810": 0.855,
+        "K51811": 0.855,
+        "K5793": 0.855,
+        "K5792": 0.855,
+        "K9161": 0.855,
+        "S065X2A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I621",
+      "confidence": 0.878513
+    }
   },
   {
     "text": "chụp CT",
@@ -289,7 +581,12 @@
     "position": [
       862,
       869
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau đầu vùng thái dương",
@@ -305,7 +602,12 @@
     "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn [ENTITY] phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đầu",
@@ -321,7 +623,12 @@
     "sentence": "Sau xuất viện, bệnh nhân từng quay lại khoa Cấp cứu vì đau [ENTITY] kéo dài.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tê bì nửa mặt phải",
@@ -337,7 +644,12 @@
     "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh đầu, kèm cảm giác [ENTITY], đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh táo",
@@ -353,7 +665,12 @@
     "sentence": "Ngày vào viện, buổi sáng bệnh nhân thức dậy [ENTITY], sinh hoạt bình thường, ăn sáng, đọc báo và sử dụng máy tính.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất định hướng",
@@ -369,7 +686,12 @@
     "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, [ENTITY], đi lại không vững và gần như ngất.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đi lại không vững",
@@ -385,7 +707,12 @@
     "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, [ENTITY] và gần như ngất.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngất",
@@ -401,7 +728,12 @@
     "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, đi lại không vững và gần như [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mở mắt",
@@ -417,7 +749,12 @@
     "sentence": "Bệnh nhân lúc [ENTITY], lúc nhắm mắt, nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhắm mắt",
@@ -433,7 +770,12 @@
     "sentence": "Bệnh nhân lúc mở mắt, lúc [ENTITY], nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đầu ra",
@@ -449,7 +791,12 @@
     "sentence": "Bệnh nhân lúc mở mắt, lúc nhắm mắt, nhiều lần ngửa [ENTITY] sau và không đáp ứng được các câu hỏi của người nhà.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thích",
@@ -465,7 +812,12 @@
     "sentence": "Trong cơn, bệnh nhân kích [ENTITY] nhẹ, liên tục cố gắng đứng dậy và tỏ ra không hiểu tình trạng đang xảy ra.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh táo",
@@ -481,7 +833,12 @@
     "sentence": "Khi nhân viên cấp cứu đến nơi, bệnh nhân bắt đầu [ENTITY] trở lại và hồi phục hoàn toàn về trạng thái ban đầu.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "run giật tay chân",
@@ -497,7 +854,12 @@
     "sentence": "Bệnh nhân không ghi nhận [ENTITY], không cứng đờ, không cắn lưỡi và không tiểu tiện không tự chủ trong cơn.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cứng đờ",
@@ -513,7 +875,12 @@
     "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không [ENTITY], không cắn lưỡi và không tiểu tiện không tự chủ trong cơn.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cắn lưỡi",
@@ -529,7 +896,12 @@
     "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không [ENTITY] và không tiểu tiện không tự chủ trong cơn.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiểu tiện",
@@ -545,7 +917,12 @@
     "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không cắn lưỡi và không [ENTITY] không tự chủ trong cơn.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tự",
@@ -561,7 +938,12 @@
     "sentence": "Bệnh nhân không ghi nhận run giật tay chân, không cứng đờ, không cắn lưỡi và không tiểu tiện không [ENTITY] chủ trong cơn.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau đầu vùng thái dương phải",
@@ -577,7 +959,12 @@
     "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn [ENTITY] và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tê bì vùng trán",
@@ -593,7 +980,12 @@
     "sentence": "[ENTITY] phải, da đầu phải và nửa mặt phải.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đầu",
@@ -609,7 +1001,12 @@
     "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau [ENTITY] vùng thái dương phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mặt",
@@ -625,7 +1022,12 @@
     "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh đầu, kèm cảm giác tê bì nửa [ENTITY] phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Cơn rối loạn ý thức",
@@ -641,7 +1043,12 @@
     "sentence": "[ENTITY] thoáng qua.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Mất định hướng",
@@ -657,7 +1064,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Mất thăng bằng",
@@ -673,7 +1085,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngất",
@@ -689,7 +1106,12 @@
     "sentence": "Gần [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tỉnh táo",
@@ -705,7 +1127,12 @@
     "sentence": "Tình trạng trước nhập viện: Sau cơn bệnh nhân [ENTITY] hoàn toàn, ý thức trở về mức nền ban đầu.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất định hướng",
@@ -721,7 +1148,12 @@
     "sentence": "Có ghi nhận giai đoạn [ENTITY] và đi lại không vững theo lời kể người nhà.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đi lại không vững",
@@ -737,7 +1169,12 @@
     "sentence": "Có ghi nhận giai đoạn mất định hướng và [ENTITY] theo lời kể người nhà.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "kích thích",
@@ -753,7 +1190,12 @@
     "sentence": "Trong cơn, bệnh nhân [ENTITY] nhẹ, liên tục cố gắng đứng dậy và tỏ ra không hiểu tình trạng đang xảy ra.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngửa đầu ra",
@@ -769,7 +1211,12 @@
     "sentence": "Bệnh nhân lúc mở mắt, lúc nhắm mắt, nhiều lần [ENTITY] sau và không đáp ứng được các câu hỏi của người nhà.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhắm mắt",
@@ -785,7 +1232,12 @@
     "sentence": "Trong cơn có biểu hiện kích thích nhẹ, ngửa đầu ra sau và [ENTITY] từng lúc.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Chụp cắt lớp vi tính",
@@ -793,7 +1245,12 @@
     "position": [
       2496,
       2516
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "CT",
@@ -801,7 +1258,12 @@
     "position": [
       558,
       560
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Điện tâm đồ",
@@ -809,7 +1271,12 @@
     "position": [
       2655,
       2666
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ghi điện tim cấp cứu tại giường",
@@ -817,7 +1284,12 @@
     "position": [
       2668,
       2699
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "WBC",
@@ -825,7 +1297,12 @@
     "position": [
       2828,
       2831
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "14.99",
@@ -833,7 +1310,12 @@
     "position": [
       2834,
       2839
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "NEUT",
@@ -850,7 +1332,12 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": []
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Hemoglobin",
@@ -858,7 +1345,12 @@
     "position": [
       2872,
       2882
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "PT",
@@ -866,7 +1358,12 @@
     "position": [
       2892,
       2894
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "INR",
@@ -874,7 +1371,12 @@
     "position": [
       2897,
       2900
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "1.05",
@@ -882,7 +1384,12 @@
     "position": [
       2902,
       2906
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "CT",
@@ -890,7 +1397,12 @@
     "position": [
       867,
       869
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "xuất",
@@ -909,7 +1421,25 @@
     },
     "eng_translation": [
       "Exudative pleural effusion"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J90": 0.761708,
+        "J910": 0.745877,
+        "J940": 0.729944,
+        "J942": 0.631592,
+        "J8401": 0.618302
+      },
+      "rapidfuzz": {
+        "H353293": 0.855,
+        "H353210": 0.855,
+        "H353211": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J90",
+      "confidence": 0.609366
+    }
   },
   {
     "text": "huyết dưới nhện",
@@ -925,7 +1455,12 @@
     "sentence": "Khoảng 1 tháng trước nhập viện, bệnh nhân bị ngã và được chẩn đoán xuất [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "dập nhu",
@@ -941,7 +1476,12 @@
     "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm [ENTITY] mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nang màng nhện",
@@ -963,7 +1503,34 @@
       "Mite-induced skin condition",
       "Cutaneous mite infestation",
       "Scabies-like dermatitis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "B86": 0.89594,
+        "B870": 0.788249,
+        "B8801": 0.721743,
+        "B879": 0.692697,
+        "B653": 0.687283
+      },
+      "rapidfuzz": {
+        "B86": 0.9,
+        "T63303A": 0.855,
+        "T63303S": 0.855,
+        "T63391S": 0.855,
+        "F14280": 0.855,
+        "E0800": 0.855,
+        "G4441": 0.855,
+        "S7422XS": 0.855,
+        "A220": 0.855,
+        "S7420XS": 0.855,
+        "C8630": 0.855,
+        "T543X1S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "B86",
+      "confidence": 0.896752
+    }
   },
   {
     "text": "tụ máu dưới màng cứng mạn tính",
@@ -985,7 +1552,34 @@
       "Chronic subdural blood collection",
       "Subdural hematoma, chronic",
       "Chronic subdural hemorrhage"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I6203": 0.881539,
+        "I6202": 0.739393,
+        "I6200": 0.721568,
+        "S065X0S": 0.691251,
+        "I6201": 0.656989
+      },
+      "rapidfuzz": {
+        "I6203": 0.95,
+        "M12051": 0.855,
+        "I82501": 0.855,
+        "I82509": 0.855,
+        "S065X0S": 0.855,
+        "I5023": 0.855,
+        "M86562": 0.855,
+        "L97501": 0.855,
+        "L97222": 0.855,
+        "L97223": 0.855,
+        "L98438": 0.855,
+        "M12029": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I6203",
+      "confidence": 0.895231
+    }
   },
   {
     "text": "tụ máu ngoài",
@@ -1001,7 +1595,12 @@
     "sentence": "Chụp kiểm tra ghi nhận [ENTITY] màng cứng phải cấp tính trên nền tổn thương mạn tính.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "màng cứng",
@@ -1023,6 +1622,32 @@
       "Dura",
       "Dura mater membrane",
       "Dura mater layer"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "G9612": 0.541152,
+        "G9741": 0.529513,
+        "G9611": 0.526061,
+        "C700": 0.516145,
+        "C709": 0.508246
+      },
+      "rapidfuzz": {
+        "G9611": 0.9,
+        "G8918": 0.9,
+        "N486": 0.9,
+        "G9741": 0.855,
+        "H18319": 0.855,
+        "H18321": 0.855,
+        "H18322": 0.855,
+        "L98A392": 0.855,
+        "L98A122": 0.855,
+        "L98462": 0.855,
+        "X923XXA": 0.72
+      }
+    },
+    "candidate": {
+      "code": "G9611",
+      "confidence": 0.600849
+    }
   }
 ]

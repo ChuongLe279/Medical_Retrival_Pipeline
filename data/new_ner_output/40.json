@@ -13,7 +13,12 @@
     "sentence": "Bệnh nhân nữ 75 tuổi vào viện vì [ENTITY], khó thở.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -29,7 +34,12 @@
     "sentence": "Bệnh nhân nữ 75 tuổi vào viện vì Đi ngoài phân đen, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng quanh rốn",
@@ -45,7 +55,12 @@
     "sentence": "BN xuất hiện [ENTITY], nôn thức ăn lẫn máu kèm đi ngoài phân đen, khó thở liên tục, không rõ sốt => Vào viện tuyến dưới nội soi tiêu hóa, chẩn đoán XHTH quá liều thuốc kháng vitamin K (INR 15), được dùng **********, ********** => Chuyển viện.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn thức ăn lẫn máu",
@@ -61,7 +76,12 @@
     "sentence": "BN xuất hiện đau bụng quanh rốn, [ENTITY] kèm đi ngoài phân đen, khó thở liên tục, không rõ sốt => Vào viện tuyến dưới nội soi tiêu hóa, chẩn đoán XHTH quá liều thuốc kháng vitamin K (INR 15), được dùng **********, ********** => Chuyển viện.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đi ngoài phân đen",
@@ -77,7 +97,12 @@
     "sentence": "BN xuất hiện đau bụng quanh rốn, nôn thức ăn lẫn máu kèm [ENTITY], khó thở liên tục, không rõ sốt => Vào viện tuyến dưới nội soi tiêu hóa, chẩn đoán XHTH quá liều thuốc kháng vitamin K (INR 15), được dùng **********, ********** => Chuyển viện.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -93,7 +118,12 @@
     "sentence": "BN xuất hiện đau bụng quanh rốn, nôn thức ăn lẫn máu kèm đi ngoài phân đen, [ENTITY] liên tục, không rõ sốt => Vào viện tuyến dưới nội soi tiêu hóa, chẩn đoán XHTH quá liều thuốc kháng vitamin K (INR 15), được dùng **********, ********** => Chuyển viện.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -109,7 +139,12 @@
     "sentence": "BN xuất hiện đau bụng quanh rốn, nôn thức ăn lẫn máu kèm đi ngoài phân đen, khó thở liên tục, không rõ [ENTITY] => Vào viện tuyến dưới nội soi tiêu hóa, chẩn đoán XHTH quá liều thuốc kháng vitamin K (INR 15), được dùng **********, ********** => Chuyển viện.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nội soi",
@@ -117,7 +152,12 @@
     "position": [
       223,
       230
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "XHTH",
@@ -139,7 +179,33 @@
       "Hypertensive heart disease with left ventricular hypertrophy",
       "Hypertensive heart disease with complications",
       "Hypertensive heart disease with acute decompensated heart failure"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I110": 0.999999,
+        "I119": 0.868523,
+        "I130": 0.801815,
+        "I132": 0.800954,
+        "I2722": 0.780997
+      },
+      "rapidfuzz": {
+        "I110": 1.0,
+        "I119": 0.967742,
+        "S31623A": 0.855,
+        "S42031K": 0.855,
+        "R1012": 0.855,
+        "R10814": 0.855,
+        "T3164": 0.855,
+        "T3165": 0.855,
+        "T3166": 0.855,
+        "S62252K": 0.855,
+        "S62252G": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I110",
+      "confidence": 0.999999
+    }
   },
   {
     "text": "vitamin",
@@ -147,7 +213,12 @@
     "position": [
       277,
       284
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vitamin K",
@@ -169,7 +240,29 @@
       "Vitamin K1",
       "Phytonadione",
       "Vit K"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "8308": 1.0,
+        "1551675": 1.0,
+        "11258": 1.0,
+        "1458226": 1.0,
+        "1551674": 1.0
+      },
+      "rapidfuzz": {
+        "11258": 1.0,
+        "8308": 1.0,
+        "42781": 0.95,
+        "312424": 0.9,
+        "333831": 0.855,
+        "834061": 0.855,
+        "834102": 0.855
+      }
+    },
+    "candidate": {
+      "code": "11258",
+      "confidence": 1.0
+    }
   },
   {
     "text": "K",
@@ -177,7 +270,12 @@
     "position": [
       53,
       54
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "INR",
@@ -185,7 +283,12 @@
     "position": [
       288,
       291
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "15",
@@ -193,7 +296,12 @@
     "position": [
       292,
       294
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Mạch",
@@ -201,7 +309,12 @@
     "position": [
       379,
       383
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "130",
@@ -209,7 +322,12 @@
     "position": [
       473,
       476
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nhợt",
@@ -225,7 +343,12 @@
     "sentence": "Da niêm mạc [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phù",
@@ -241,7 +364,12 @@
     "sentence": "Không [ENTITY], không xuất huyết dưới da.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "huyết dưới da",
@@ -257,7 +385,12 @@
     "sentence": "Không phù, không xuất [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Bụng mềm",
@@ -273,7 +406,12 @@
     "sentence": "[ENTITY], không chướng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau thành bụng",
@@ -289,7 +427,12 @@
     "sentence": "Không điểm [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhiệt độ",
@@ -297,7 +440,12 @@
     "position": [
       740,
       748
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "37",
@@ -305,7 +453,12 @@
     "position": [
       750,
       752
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Huyết áp",
@@ -313,7 +466,12 @@
     "position": [
       756,
       764
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "130 / 70",
@@ -321,7 +479,12 @@
     "position": [
       766,
       774
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nhịp thở",
@@ -329,7 +492,12 @@
     "position": [
       781,
       789
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "21",
@@ -337,7 +505,12 @@
     "position": [
       792,
       794
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Xuất huyết tiêu",
@@ -359,7 +532,34 @@
       "Hemorrhage, unspecified site",
       "Bleeding, digestive tract",
       "Gastrointestinal hemorrhage"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K922": 0.981978,
+        "D699": 0.861177,
+        "R58": 0.804066,
+        "K920": 0.717562,
+        "K9421": 0.684806
+      },
+      "rapidfuzz": {
+        "K922": 0.95,
+        "P543": 0.9,
+        "H05239": 0.862069,
+        "K2990": 0.855,
+        "K2991": 0.855,
+        "K31811": 0.855,
+        "S93139S": 0.855,
+        "S52136E": 0.855,
+        "C7880": 0.855,
+        "O99612": 0.855,
+        "O99611": 0.855,
+        "H9541": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K922",
+      "confidence": 0.975582
+    }
   },
   {
     "text": "vitamin",
@@ -367,7 +567,12 @@
     "position": [
       856,
       863
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vitamin K",
@@ -389,7 +594,29 @@
       "Vitamin K1",
       "Phytonadione",
       "Vit K"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "8308": 1.0,
+        "1551675": 1.0,
+        "11258": 1.0,
+        "1458226": 1.0,
+        "1551674": 1.0
+      },
+      "rapidfuzz": {
+        "11258": 1.0,
+        "8308": 1.0,
+        "42781": 0.95,
+        "312424": 0.9,
+        "333831": 0.855,
+        "834061": 0.855,
+        "834102": 0.855
+      }
+    },
+    "candidate": {
+      "code": "11258",
+      "confidence": 1.0
+    }
   },
   {
     "text": "K",
@@ -397,7 +624,12 @@
     "position": [
       146,
       147
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Viêm phổi",
@@ -419,7 +651,34 @@
       "Infection of lung",
       "Lung infection",
       "Pneumonia, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J189": 0.964508,
+        "J159": 0.845792,
+        "J129": 0.806214,
+        "J188": 0.793173,
+        "J181": 0.791288
+      },
+      "rapidfuzz": {
+        "J159": 0.95,
+        "J129": 0.95,
+        "J189": 0.95,
+        "A0103": 0.9,
+        "P238": 0.9,
+        "P236": 0.9,
+        "B671": 0.9,
+        "T86812": 0.858064,
+        "X832XXD": 0.855,
+        "A0220": 0.855,
+        "M01X52": 0.855,
+        "M01X59": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J189",
+      "confidence": 0.961606
+    }
   },
   {
     "text": "Đái tháo đường",
@@ -441,7 +700,34 @@
       "Type 2 diabetes",
       "Common clinical synonym",
       "Expanded abbreviation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.84212,
+        "O24119": 0.714028,
+        "R7303": 0.712752,
+        "Z833": 0.710006,
+        "E119": 0.708696
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "O2412": 0.9,
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "T485X6S": 0.855,
+        "D831": 0.855,
+        "D832": 0.855,
+        "O200": 0.65,
+        "L80": 0.6,
+        "R002": 0.6
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.673696
+    }
   },
   {
     "text": "Tổng phân tích tế bào máu ngoại vi (bằng máy đếm laser)",
@@ -449,7 +735,12 @@
     "position": [
       1048,
       1103
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "aPTT",
@@ -457,7 +748,12 @@
     "position": [
       1149,
       1153
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "PT",
@@ -465,7 +761,12 @@
     "position": [
       1150,
       1152
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Glucose",
@@ -473,7 +774,12 @@
     "position": [
       1358,
       1365
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Creatinin",
@@ -481,7 +787,12 @@
     "position": [
       1372,
       1381
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Na",
@@ -489,7 +800,12 @@
     "position": [
       1400,
       1402
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "K",
@@ -497,7 +813,12 @@
     "position": [
       169,
       170
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cl",
@@ -505,7 +826,12 @@
     "position": [
       1294,
       1296
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "AST",
@@ -513,7 +839,12 @@
     "position": [
       1124,
       1127
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "GOT",
@@ -521,7 +852,12 @@
     "position": [
       1440,
       1443
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ALT",
@@ -529,7 +865,12 @@
     "position": [
       1448,
       1451
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "GPT",
@@ -537,7 +878,12 @@
     "position": [
       1453,
       1456
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Troponin T",
@@ -545,7 +891,12 @@
     "position": [
       1493,
       1503
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Troponin T",
@@ -553,7 +904,12 @@
     "position": [
       1518,
       1528
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "co giật",
@@ -569,7 +925,12 @@
     "sentence": "Không ghi nhận [ENTITY], cứng đờ, cắn lưỡi hoặc tiểu tiện không tự chủ.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cứng đờ",
@@ -585,7 +946,12 @@
     "sentence": "Không ghi nhận co giật, [ENTITY], cắn lưỡi hoặc tiểu tiện không tự chủ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cắn lưỡi",
@@ -601,7 +967,12 @@
     "sentence": "Không ghi nhận co giật, cứng đờ, [ENTITY] hoặc tiểu tiện không tự chủ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiểu tiện không tự chủ",
@@ -617,7 +988,12 @@
     "sentence": "Không ghi nhận co giật, cứng đờ, cắn lưỡi hoặc [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Creatinin",
@@ -625,7 +1001,12 @@
     "position": [
       1663,
       1672
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "46",
@@ -633,7 +1014,12 @@
     "position": [
       1675,
       1677
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Kali",
@@ -641,7 +1027,12 @@
     "position": [
       1685,
       1689
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Chụp CT",
@@ -649,7 +1040,12 @@
     "position": [
       1743,
       1750
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "quai ruột",
@@ -671,7 +1067,34 @@
       "Small bowel inflammation",
       "Intestinal inflammation - small intestine",
       "Small intestine mucosal inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K90829": 0.72525,
+        "K639": 0.67845,
+        "A049": 0.671204,
+        "K638219": 0.661709,
+        "A020": 0.660814
+      },
+      "rapidfuzz": {
+        "H30012": 0.855,
+        "H30032": 0.855,
+        "H30031": 0.855,
+        "H3093": 0.855,
+        "C8305": 0.855,
+        "C8306": 0.855,
+        "D3A019": 0.855,
+        "I83223": 0.855,
+        "I83224": 0.855,
+        "A0819": 0.855,
+        "P052": 0.855,
+        "K50019": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K90829",
+      "confidence": 0.5802
+    }
   },
   {
     "text": "Ceftriaxone 1g",
@@ -693,6 +1116,27 @@
       "Ceftriaxone 1000 mg",
       "Ceftriaxone injection",
       "Ceftriaxone 1g injection"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "1665020": 1.0,
+        "1664992": 1.0,
+        "1665021": 0.975172,
+        "2563576": 0.923799,
+        "376593": 0.918722
+      },
+      "rapidfuzz": {
+        "1665020": 1.0,
+        "1664992": 1.0,
+        "1665021": 0.980392,
+        "2193": 0.95,
+        "1665046": 0.95,
+        "1665045": 0.947368
+      }
+    },
+    "candidate": {
+      "code": "1665020",
+      "confidence": 1.0
+    }
   }
 ]

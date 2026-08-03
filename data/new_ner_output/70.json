@@ -19,7 +19,34 @@
       "Type 2 diabetes",
       "Common clinical synonym",
       "Expanded abbreviation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.84212,
+        "O24119": 0.714028,
+        "R7303": 0.712752,
+        "Z833": 0.710006,
+        "E119": 0.708696
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "O2412": 0.9,
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "T485X6S": 0.855,
+        "D831": 0.855,
+        "D832": 0.855,
+        "O200": 0.65,
+        "L80": 0.6,
+        "R002": 0.6
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.673696
+    }
   },
   {
     "text": "ngừng thở khi",
@@ -35,7 +62,12 @@
     "sentence": "[ENTITY] ngủ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy tim",
@@ -57,7 +89,34 @@
       "Congestive heart failure",
       "Left ventricular failure",
       "Cardiac insufficiency"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I501": 0.983093,
+        "I5084": 0.853405,
+        "I5020": 0.81339,
+        "I5082": 0.791518
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9,
+        "I5041": 0.9,
+        "I5020": 0.9,
+        "I5021": 0.9,
+        "I501": 0.9,
+        "I97110": 0.9,
+        "I97111": 0.9,
+        "S78112D": 0.855,
+        "S7702XD": 0.855,
+        "O365113": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I501",
+      "confidence": 0.966474
+    }
   },
   {
     "text": "furosemide",
@@ -79,7 +138,31 @@
       "furosemide 40 mg tablet",
       "furosemide 20 mg tablet",
       "furosemide 10 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "4603": 1.0,
+        "313988": 0.996546,
+        "310429": 0.995831,
+        "2592955": 0.742314
+      },
+      "rapidfuzz": {
+        "4603": 1.0,
+        "313988": 0.95,
+        "315971": 0.95,
+        "200809": 0.95,
+        "315970": 0.95,
+        "310429": 0.95,
+        "200801": 0.95,
+        "2725542": 0.9,
+        "2725545": 0.9,
+        "1546056": 0.883721
+      }
+    },
+    "candidate": {
+      "code": "4603",
+      "confidence": 1.0
+    }
   },
   {
     "text": "khó thở",
@@ -95,7 +178,12 @@
     "sentence": "Lý do nhập viện: [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -111,7 +199,12 @@
     "sentence": "bắt đầu nhận thấy [ENTITY] khi xem TV lúc 11:00 sáng ba ngày trước.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -127,7 +220,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó nằm vào ban đêm",
@@ -143,7 +241,12 @@
     "sentence": "[ENTITY] để ngủ vì thở.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngủ",
@@ -159,7 +262,12 @@
     "sentence": "ngừng thở khi [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thở",
@@ -175,7 +283,12 @@
     "sentence": "ngừng [ENTITY] khi ngủ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "căng cứng vai trái",
@@ -191,7 +304,12 @@
     "sentence": "[ENTITY] (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho có đờm trắng",
@@ -207,7 +325,12 @@
     "sentence": "tiền sử [ENTITY].",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -223,7 +346,12 @@
     "sentence": "chủ quan [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phù chi dưới",
@@ -239,7 +367,12 @@
     "sentence": "[ENTITY] (ổn định).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "căng cứng vai trái",
@@ -255,7 +388,12 @@
     "sentence": "Vị trí: [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "căng cứng vai trái",
@@ -271,7 +409,12 @@
     "sentence": "Thời gian: kéo dài 5 phút ([ENTITY]).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "căng cứng vai",
@@ -287,7 +430,12 @@
     "sentence": "[ENTITY] trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó nằm vào ban đêm",
@@ -303,7 +451,12 @@
     "sentence": "Triệu chứng liên quan: [ENTITY] để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngủ",
@@ -319,7 +472,12 @@
     "sentence": "khó nằm vào ban đêm để [ENTITY] vì thở.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -335,7 +493,12 @@
     "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì [ENTITY], ho có đờm trắng, chủ quan sốt, phù chi dưới.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ho có đờm trắng",
@@ -351,7 +514,12 @@
     "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, [ENTITY], chủ quan sốt, phù chi dưới.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -367,7 +535,12 @@
     "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan [ENTITY], phù chi dưới.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phù chi dưới",
@@ -383,7 +556,12 @@
     "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "độ bão hòa oxy",
@@ -391,7 +569,12 @@
     "position": [
       1097,
       1111
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "86",
@@ -399,7 +582,12 @@
     "position": [
       1115,
       1117
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "độ bão hòa oxy",
@@ -407,7 +595,12 @@
     "position": [
       1293,
       1307
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "86",
@@ -415,7 +608,12 @@
     "position": [
       1311,
       1313
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh dại",
@@ -437,7 +635,32 @@
       "Rabid",
       "Rabies disease",
       "Rabies infection"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A829": 0.978476,
+        "A820": 0.924223,
+        "A821": 0.851076,
+        "A259": 0.714648,
+        "A281": 0.69862
+      },
+      "rapidfuzz": {
+        "Z203": 0.9,
+        "A821": 0.9,
+        "A820": 0.9,
+        "E7523": 0.857143,
+        "E75243": 0.855,
+        "E75242": 0.855,
+        "A040": 0.855,
+        "O2390": 0.855,
+        "O2391": 0.855,
+        "A829": 0.8
+      }
+    },
+    "candidate": {
+      "code": "A829",
+      "confidence": 0.942781
+    }
   },
   {
     "text": "aspirin 325mg",
@@ -459,7 +682,29 @@
       "aspirin 325 mg tablet",
       "aspirin 325 mg cap",
       "aspirin 325 mg tablet strength"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "198466": 0.997302,
+        "212033": 0.995022,
+        "198467": 0.995022,
+        "572393": 0.974495,
+        "572203": 0.96399
+      },
+      "rapidfuzz": {
+        "317300": 1.0,
+        "329295": 0.962963,
+        "212033": 0.95,
+        "335953": 0.928571,
+        "1191": 0.9,
+        "308363": 0.874286,
+        "197989": 0.855
+      }
+    },
+    "candidate": {
+      "code": "212033",
+      "confidence": 0.986018
+    }
   },
   {
     "text": "methylprednisolone 125mg iv",
@@ -481,6 +726,24 @@
       "methylprednisolone 125 mg injection",
       "methylprednisolone 125 mg iv push",
       "methylprednisolone 125 mg iv solution"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "1743704": 1.0,
+        "1743707": 0.946902
+      },
+      "rapidfuzz": {
+        "1743704": 1.0,
+        "1743702": 0.95,
+        "1743707": 0.95,
+        "316285": 0.906818,
+        "317427": 0.906818,
+        "8638": 0.9
+      }
+    },
+    "candidate": {
+      "code": "1743704",
+      "confidence": 1.0
+    }
   }
 ]

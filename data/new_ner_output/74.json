@@ -19,7 +19,34 @@
       "Inflammatory bowel disease, colitis",
       "Colonic ulceration",
       "Chronic colitis with ulceration"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K5190": 0.830791,
+        "K523": 0.819526,
+        "K51919": 0.809321,
+        "K51912": 0.804278,
+        "A09": 0.780272
+      },
+      "rapidfuzz": {
+        "K5190": 0.9,
+        "K51819": 0.9,
+        "K51818": 0.9,
+        "M05119": 0.855,
+        "T84629S": 0.855,
+        "A281": 0.855,
+        "I7075": 0.855,
+        "I70735": 0.855,
+        "I70734": 0.855,
+        "S061X3D": 0.855,
+        "V654XXS": 0.855,
+        "V655XXA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K5190",
+      "confidence": 0.844633
+    }
   },
   {
     "text": "Bệnh gan do rượu",
@@ -41,7 +68,34 @@
       "Liver disease due to alcohol",
       "Alcohol-induced liver damage",
       "Chronic alcohol-related liver condition"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K709": 0.983661,
+        "K700": 0.913166,
+        "K702": 0.837117,
+        "G721": 0.748365,
+        "K7041": 0.746312
+      },
+      "rapidfuzz": {
+        "K709": 0.9,
+        "O9893": 0.855,
+        "O9892": 0.855,
+        "S60111D": 0.855,
+        "W499XXD": 0.855,
+        "W499XXA": 0.855,
+        "O35CXX1": 0.855,
+        "O35DXX2": 0.855,
+        "O35DXX1": 0.855,
+        "L97226": 0.855,
+        "L97219": 0.855,
+        "L97218": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K709",
+      "confidence": 0.966929
+    }
   },
   {
     "text": "bệnh nấm bẹn",
@@ -63,7 +117,34 @@
       "Tinea cruris",
       "Athlete's foot on groin",
       "Fungal infection of groin area"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "B356": 1.0,
+        "B354": 0.839315,
+        "B351": 0.804677,
+        "B352": 0.792312,
+        "B353": 0.791605
+      },
+      "rapidfuzz": {
+        "B356": 1.0,
+        "O070": 0.855,
+        "T80219S": 0.855,
+        "T80219D": 0.855,
+        "B350": 0.855,
+        "P140": 0.855,
+        "Z91A91": 0.855,
+        "Z91A98": 0.855,
+        "Y37220S": 0.855,
+        "S92046G": 0.855,
+        "S92046D": 0.855,
+        "B354": 0.846154
+      }
+    },
+    "candidate": {
+      "code": "B356",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ăn uống",
@@ -79,7 +160,12 @@
     "sentence": "[ENTITY] kém do buồn nôn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -95,7 +181,12 @@
     "sentence": "ăn uống kém do [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -111,7 +202,12 @@
     "sentence": "[ENTITY]/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó chịu vùng bụng",
@@ -127,7 +223,12 @@
     "sentence": "đau bụng/[ENTITY] tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -143,7 +244,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -159,7 +265,12 @@
     "sentence": "ăn uống kém do buồn [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -175,7 +286,12 @@
     "sentence": "chủ quan [ENTITY] và run rẩy.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "run rẩy",
@@ -191,7 +307,12 @@
     "sentence": "chủ quan sốt và [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất cảm giác ngon miệng",
@@ -207,7 +328,12 @@
     "sentence": "[ENTITY]/chán ăn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chán ăn",
@@ -223,7 +349,12 @@
     "sentence": "mất cảm giác ngon miệng/[ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy nhược",
@@ -239,7 +370,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy kiệt",
@@ -255,7 +391,12 @@
     "sentence": "Toàn trạng [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -271,7 +412,12 @@
     "sentence": "Mức độ nghiêm trọng: [ENTITY]/khó chịu vùng bụng tăng dần.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó chịu vùng bụng",
@@ -287,7 +433,12 @@
     "sentence": "Mức độ nghiêm trọng: đau bụng/[ENTITY] tăng dần.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -303,7 +454,12 @@
     "sentence": "buồn [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -319,7 +475,12 @@
     "sentence": "Triệu chứng liên quan: chủ quan [ENTITY] và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "run rẩy",
@@ -335,7 +496,12 @@
     "sentence": "Triệu chứng liên quan: chủ quan sốt và [ENTITY], mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất cảm giác ngon miệng",
@@ -351,7 +517,12 @@
     "sentence": "Triệu chứng liên quan: chủ quan sốt và run rẩy, [ENTITY]/chán ăn, suy nhược, toàn trạng suy kiệt thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chán ăn",
@@ -367,7 +538,12 @@
     "sentence": "Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/[ENTITY], suy nhược, toàn trạng suy kiệt thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy nhược",
@@ -383,7 +559,12 @@
     "sentence": "Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, [ENTITY], toàn trạng suy kiệt thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy kiệt",
@@ -399,7 +580,12 @@
     "sentence": "Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng [ENTITY] thiểu niệu, chảy dịch từ lỗ dò tăng đáng kể.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "niệu",
@@ -415,7 +601,12 @@
     "sentence": "Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt thiểu [ENTITY], chảy dịch từ lỗ dò tăng đáng kể.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy dịch",
@@ -431,7 +622,12 @@
     "sentence": "Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt thiểu niệu, [ENTITY] từ lỗ dò tăng đáng kể.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ăn uống kém",
@@ -447,7 +643,12 @@
     "sentence": "[ENTITY] do buồn nôn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -463,6 +664,11 @@
     "sentence": "ăn uống kém do [ENTITY], được cho là do tác dụng phụ của thuốc giảm đau opioid.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

@@ -13,7 +13,12 @@
     "sentence": "CGhi nhận triệu chứng tương tự trước đây: xuất hiện [ENTITY] – đùi phải dữ dội, xảy ra cách đây vài tháng.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đùi phải dữ dội",
@@ -29,7 +34,12 @@
     "sentence": "CGhi nhận triệu chứng tương tự trước đây: xuất hiện đau vùng xương bánh chè – [ENTITY], xảy ra cách đây vài tháng.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau đầu gối phải",
@@ -45,7 +55,12 @@
     "sentence": "Lý do nhập viện: Tái khám vì [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đau bánh chè đùi phải dữ dội",
@@ -61,7 +76,12 @@
     "sentence": "Thứ tự phát triển triệu chứng: [ENTITY] cách đây vài tháng.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau đau dữ dội",
@@ -77,7 +97,12 @@
     "sentence": "Tiếp tục bị [ENTITY] khi thực hiện hầu hết các hoạt động.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau đầu gối phải",
@@ -93,7 +118,12 @@
     "sentence": "Triệu chứng hiện tại: [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Siêu âm ổ bụng (gan mật, tụy, lách, thận, bàng quang)",
@@ -101,7 +131,12 @@
     "position": [
       626,
       679
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Siêu âm Doppler tim, van tim",
@@ -109,7 +144,12 @@
     "position": [
       728,
       756
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "BP",
@@ -117,7 +157,12 @@
     "position": [
       824,
       826
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "28",
@@ -125,7 +170,12 @@
     "position": [
       828,
       830
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy tim",
@@ -147,7 +197,34 @@
       "Congestive heart failure",
       "Left ventricular failure",
       "Cardiac insufficiency"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I501": 0.983093,
+        "I5084": 0.853405,
+        "I5020": 0.81339,
+        "I5082": 0.791518
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9,
+        "I5041": 0.9,
+        "I5020": 0.9,
+        "I5021": 0.9,
+        "I501": 0.9,
+        "I97110": 0.9,
+        "I97111": 0.9,
+        "S78112D": 0.855,
+        "S7702XD": 0.855,
+        "O365113": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I501",
+      "confidence": 0.966474
+    }
   },
   {
     "text": "suy thận mạn",
@@ -169,7 +246,34 @@
       "CKD",
       "Renal failure, chronic",
       "Chronic renal insufficiency"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N189": 0.982146,
+        "N186": 0.821806,
+        "N039": 0.781739,
+        "N19": 0.772215,
+        "N181": 0.744167
+      },
+      "rapidfuzz": {
+        "D631": 0.95,
+        "N181": 0.95,
+        "N1831": 0.95,
+        "G893": 0.855,
+        "M86529": 0.855,
+        "M86572": 0.855,
+        "H402211": 0.855,
+        "L97528": 0.855,
+        "L97526": 0.855,
+        "I450": 0.72,
+        "I452": 0.72,
+        "I453": 0.72
+      }
+    },
+    "candidate": {
+      "code": "N189",
+      "confidence": 0.785717
+    }
   },
   {
     "text": "huyết áp",
@@ -191,7 +295,34 @@
       "High blood pressure",
       "Elevated blood pressure",
       "Hypertensive state"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I169": 0.735532,
+        "I160": 0.708806,
+        "R030": 0.694782
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "R030": 0.9,
+        "L98A214": 0.855,
+        "S3599XS": 0.855,
+        "L98A298": 0.855,
+        "L89816": 0.855,
+        "D72829": 0.855,
+        "R403": 0.855,
+        "R4589": 0.855,
+        "R457": 0.855
+      }
+    },
+    "candidate": {
+      "code": "R030",
+      "confidence": 0.735826
+    }
   },
   {
     "text": "chụp cắt lớp vi tính",
@@ -199,6 +330,11 @@
     "position": [
       1514,
       1534
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

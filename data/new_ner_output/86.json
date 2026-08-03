@@ -13,7 +13,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nghẹt ngực",
@@ -29,7 +34,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -45,7 +55,12 @@
     "sentence": "[ENTITY] nhẹ-vừa khó thở khi gắng sức.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -61,7 +76,12 @@
     "sentence": "khó thở nhẹ-vừa [ENTITY] khi gắng sức.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
@@ -77,7 +97,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Viêm hang vị sung huyết",
@@ -99,7 +124,34 @@
       "Acute gastritis with hemorrhage",
       "Inflammatory gastritis",
       "Erosive gastric inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2901": 0.970227,
+        "K250": 0.840749,
+        "K2900": 0.820577,
+        "K2921": 0.789767,
+        "K2971": 0.76667
+      },
+      "rapidfuzz": {
+        "K2931": 0.855,
+        "K2940": 0.855,
+        "K2930": 0.855,
+        "S72045Q": 0.855,
+        "Z91A51": 0.855,
+        "S72052F": 0.855,
+        "T8453XS": 0.855,
+        "T490X3D": 0.855,
+        "T490X3A": 0.855,
+        "H61321": 0.855,
+        "H5940": 0.855,
+        "H5943": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K2901",
+      "confidence": 0.776182
+    }
   },
   {
     "text": "đau bụng cồn cào",
@@ -115,7 +167,12 @@
     "sentence": "Biểu hiện chủ yếu là [ENTITY] kèm theo ợ hơi, ợ chua, có thể có cảm giác buồn nôn hoặc nôn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "cồn",
@@ -123,7 +180,12 @@
     "position": [
       282,
       285
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ợ hơi",
@@ -139,7 +201,12 @@
     "sentence": "Biểu hiện chủ yếu là đau bụng cồn cào kèm theo [ENTITY], ợ chua, có thể có cảm giác buồn nôn hoặc nôn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ợ chua",
@@ -155,7 +222,12 @@
     "sentence": "Biểu hiện chủ yếu là đau bụng cồn cào kèm theo ợ hơi, [ENTITY], có thể có cảm giác buồn nôn hoặc nôn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -171,7 +243,12 @@
     "sentence": "Biểu hiện chủ yếu là đau bụng cồn cào kèm theo ợ hơi, ợ chua, có thể có cảm giác [ENTITY] hoặc nôn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -187,7 +264,12 @@
     "sentence": "Biểu hiện chủ yếu là đau bụng cồn cào kèm theo ợ hơi, ợ chua, có thể có cảm giác buồn [ENTITY] hoặc nôn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh",
@@ -206,7 +288,25 @@
     },
     "eng_translation": [
       "Bệnh"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "F50029": 0.525086,
+        "N8501": 0.518717,
+        "F50819": 0.516542,
+        "D72824": 0.514136,
+        "F5020": 0.507698
+      },
+      "rapidfuzz": {
+        "D369": 0.514286,
+        "F1811": 0.514286,
+        "F1810": 0.514286
+      }
+    },
+    "candidate": {
+      "code": "F50029",
+      "confidence": 0.420069
+    }
   },
   {
     "text": "dày",
@@ -228,7 +328,34 @@
       "Skin thickening",
       "Cutaneous hypertrophy",
       "Increased skin thickness"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "L859": 0.865736,
+        "L919": 0.834338,
+        "L987": 0.745802,
+        "L689": 0.704452,
+        "L918": 0.692555
+      },
+      "rapidfuzz": {
+        "Z840": 0.855,
+        "W453XXD": 0.855,
+        "W453XXA": 0.855,
+        "L7632": 0.855,
+        "L7631": 0.855,
+        "L7622": 0.855,
+        "S7421XD": 0.855,
+        "C8661": 0.855,
+        "S7422XS": 0.855,
+        "W458XXS": 0.855,
+        "D0439": 0.855,
+        "D0430": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L859",
+      "confidence": 0.692589
+    }
   },
   {
     "text": "nội soi",
@@ -236,7 +363,12 @@
     "position": [
       441,
       448
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh viêm sung huyết hang vị dạ dày",
@@ -258,7 +390,34 @@
       "Hemorrhagic gastritis",
       "Inflammatory gastritis with hemorrhage",
       "Acute hemorrhagic gastritis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2901": 0.90159,
+        "K2971": 0.815271,
+        "K2900": 0.794837,
+        "K2931": 0.789937,
+        "K2921": 0.783309
+      },
+      "rapidfuzz": {
+        "S32455G": 0.855,
+        "S52513P": 0.855,
+        "S52513N": 0.855,
+        "I780": 0.855,
+        "A968": 0.855,
+        "A969": 0.855,
+        "S82842D": 0.855,
+        "O30819": 0.855,
+        "O30813": 0.855,
+        "C9100": 0.855,
+        "C9101": 0.855,
+        "C9200": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K2901",
+      "confidence": 0.721272
+    }
   },
   {
     "text": "nội soi",
@@ -266,7 +425,12 @@
     "position": [
       608,
       615
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đồng",
@@ -274,7 +438,12 @@
     "position": [
       963,
       967
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm sung huyết hang vị dạ dày",
@@ -296,6 +465,33 @@
       "Antral gastritis",
       "Inflammation of gastric antrum",
       "Acute antral gastritis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2900": 0.78168,
+        "K2901": 0.749143,
+        "K2970": 0.70994,
+        "K31A0": 0.655392,
+        "K2940": 0.647473
+      },
+      "rapidfuzz": {
+        "T471X4D": 0.855,
+        "H30129": 0.855,
+        "H30131": 0.855,
+        "K2921": 0.855,
+        "K2930": 0.855,
+        "K5281": 0.855,
+        "Z975": 0.855,
+        "S92404D": 0.855,
+        "S92404G": 0.855,
+        "C9260": 0.855,
+        "C9252": 0.855,
+        "C9251": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K2900",
+      "confidence": 0.625344
+    }
   }
 ]

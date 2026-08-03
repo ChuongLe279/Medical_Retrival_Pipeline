@@ -19,7 +19,34 @@
       "Chronic myelogenous leukemia",
       "CML",
       "Chronic myeloid leukemia, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "D471": 0.814773,
+        "C9292": 0.668733,
+        "C9312": 0.666095,
+        "C9211": 0.646788,
+        "C9291": 0.639924
+      },
+      "rapidfuzz": {
+        "C9210": 0.9,
+        "C9211": 0.9,
+        "C9212": 0.9,
+        "N990": 0.855,
+        "L98A398": 0.855,
+        "L98A224": 0.855,
+        "S72051C": 0.855,
+        "S85401A": 0.855,
+        "S85401D": 0.855,
+        "F40240": 0.72,
+        "B661": 0.72,
+        "R683": 0.72
+      }
+    },
+    "candidate": {
+      "code": "C9211",
+      "confidence": 0.69743
+    }
   },
   {
     "text": "bạch cầu",
@@ -27,7 +54,12 @@
     "position": [
       51,
       59
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tăng huyết áp",
@@ -49,7 +81,34 @@
       "Hypertension",
       "High blood pressure",
       "HTN"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.699688,
+        "R030": 0.694782,
+        "I169": 0.692033
+      },
+      "rapidfuzz": {
+        "R030": 0.9,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "L89816": 0.855,
+        "D72829": 0.855,
+        "L98A214": 0.855,
+        "S3599XS": 0.855,
+        "L98A298": 0.855,
+        "R636": 0.72,
+        "R29890": 0.72,
+        "E663": 0.72
+      }
+    },
+    "candidate": {
+      "code": "R030",
+      "confidence": 0.735826
+    }
   },
   {
     "text": "Đái tháo đường típ 2",
@@ -71,7 +130,34 @@
       "Diabetes mellitus, type 2",
       "Non-insulin-dependent diabetes",
       "Mellitus, type 2 diabetes"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.844191,
+        "P702": 0.782015,
+        "E119": 0.736971,
+        "Z833": 0.724102,
+        "E118": 0.723496
+      },
+      "rapidfuzz": {
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "E1169": 0.9,
+        "S72362Q": 0.855,
+        "S72361M": 0.855,
+        "S72361N": 0.855,
+        "M45A8": 0.855,
+        "E0842": 0.855,
+        "E0843": 0.855,
+        "S79129D": 0.855,
+        "S72122B": 0.855,
+        "S72121R": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.675353
+    }
   },
   {
     "text": "ho",
@@ -87,7 +173,12 @@
     "sentence": "[ENTITY] Bệnh bạch cầu dòng tủy mãn tính.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Rung nhĩ",
@@ -109,7 +200,34 @@
       "Atrial flutter",
       "Atrial flutter, non-paroxysmal",
       "Atrial flutter, chronic"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I4892": 0.972711,
+        "I483": 0.911247,
+        "I4820": 0.808564,
+        "I4902": 0.792337,
+        "I484": 0.785306
+      },
+      "rapidfuzz": {
+        "I4892": 0.9,
+        "I483": 0.9,
+        "I484": 0.9,
+        "I69144": 0.855,
+        "L97526": 0.855,
+        "L97525": 0.855,
+        "M1A0210": 0.855,
+        "E1322": 0.855,
+        "E0822": 0.855,
+        "D590": 0.6,
+        "D611": 0.6,
+        "D592": 0.6
+      }
+    },
+    "candidate": {
+      "code": "I4892",
+      "confidence": 0.958169
+    }
   },
   {
     "text": "bệnh thận mạn",
@@ -131,7 +249,34 @@
       "CKD",
       "Renal failure, chronic",
       "End-stage renal disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N186": 0.997678,
+        "N189": 0.982146,
+        "N039": 0.781739,
+        "N19": 0.771673,
+        "I5084": 0.755979
+      },
+      "rapidfuzz": {
+        "N186": 1.0,
+        "D631": 0.95,
+        "N181": 0.95,
+        "N1831": 0.95,
+        "I1311": 0.9,
+        "I132": 0.9,
+        "G893": 0.855,
+        "M86529": 0.855,
+        "M86572": 0.855,
+        "I450": 0.72,
+        "I452": 0.72,
+        "I453": 0.72
+      }
+    },
+    "candidate": {
+      "code": "N186",
+      "confidence": 0.998142
+    }
   },
   {
     "text": "Khó thở",
@@ -147,7 +292,12 @@
     "sentence": "Lý do vào viện: [ENTITY] tăng dần, diễn tiến nặng hơn từ sáng ngày nhập viện.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nghẹt ngực",
@@ -163,7 +313,12 @@
     "sentence": "Khoảng 5 ngày trước nhập viện, bệnh nhân xuất hiện cảm giác [ENTITY] kèm sốt, nhiệt độ cao nhất khoảng 38,3°C.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -179,7 +334,12 @@
     "sentence": "Khoảng 5 ngày trước nhập viện, bệnh nhân xuất hiện cảm giác nghẹt ngực kèm [ENTITY], nhiệt độ cao nhất khoảng 38,3°C.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -195,7 +355,12 @@
     "sentence": "Sau đó không còn [ENTITY] nhưng tình trạng nghẹt ngực vẫn kéo dài.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nghẹt ngực",
@@ -211,7 +376,12 @@
     "sentence": "Sau đó không còn sốt nhưng tình trạng [ENTITY] vẫn kéo dài.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở",
@@ -227,7 +397,12 @@
     "sentence": "Trong vài ngày gần đây, bệnh nhân xuất hiện [ENTITY] tăng dần, chủ yếu khi gắng sức, kèm phù ngoại vi tăng dần trong vài tuần trở lại đây.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phù",
@@ -243,7 +418,12 @@
     "sentence": "Trong vài ngày gần đây, bệnh nhân xuất hiện khó thở tăng dần, chủ yếu khi gắng sức, kèm [ENTITY] ngoại vi tăng dần trong vài tuần trở lại đây.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -259,7 +439,12 @@
     "sentence": "Bệnh nhân có tiền sử nhập viện gần đây vì [ENTITY] và đau vai.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau vai",
@@ -275,7 +460,12 @@
     "sentence": "Bệnh nhân có tiền sử nhập viện gần đây vì sốt và [ENTITY].",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy hô hấp",
@@ -297,7 +487,34 @@
       "Acute respiratory failure",
       "Respiratory insufficiency",
       "Hypoxemic respiratory failure"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J9691": 0.900296,
+        "J9601": 0.866666,
+        "J9600": 0.83767,
+        "J9690": 0.833608,
+        "J9611": 0.823474
+      },
+      "rapidfuzz": {
+        "P285": 0.9,
+        "J9622": 0.9,
+        "J9690": 0.9,
+        "J9600": 0.9,
+        "J9601": 0.9,
+        "J9602": 0.9,
+        "I97111": 0.855,
+        "Z01811": 0.855,
+        "N5203": 0.855,
+        "D6189": 0.855,
+        "T86831": 0.855,
+        "T17918D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J9601",
+      "confidence": 0.873333
+    }
   },
   {
     "text": "tăng huyết áp",
@@ -319,7 +536,34 @@
       "Hypertension",
       "High blood pressure",
       "HTN"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.699688,
+        "R030": 0.694782,
+        "I169": 0.692033
+      },
+      "rapidfuzz": {
+        "R030": 0.9,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "L89816": 0.855,
+        "D72829": 0.855,
+        "L98A214": 0.855,
+        "S3599XS": 0.855,
+        "L98A298": 0.855,
+        "R636": 0.72,
+        "R29890": 0.72,
+        "E663": 0.72
+      }
+    },
+    "candidate": {
+      "code": "R030",
+      "confidence": 0.735826
+    }
   },
   {
     "text": "nhiễm khuẩn huyết",
@@ -341,7 +585,34 @@
       "Blood infection",
       "Systemic infection",
       "Infection in bloodstream"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R7881": 1.0,
+        "A419": 0.798737,
+        "B999": 0.759875,
+        "A499": 0.751384,
+        "B998": 0.688495
+      },
+      "rapidfuzz": {
+        "R7881": 1.0,
+        "K8510": 0.855,
+        "K8590": 0.855,
+        "Z6791": 0.855,
+        "A084": 0.855,
+        "T84611S": 0.855,
+        "T84612A": 0.855,
+        "V550XXD": 0.855,
+        "V566XXD": 0.855,
+        "V566XXS": 0.855,
+        "A059": 0.8,
+        "M0089": 0.8
+      }
+    },
+    "candidate": {
+      "code": "R7881",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Siêu âm",
@@ -349,7 +620,12 @@
     "position": [
       1116,
       1123
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thuyên tắc phổi",
@@ -371,7 +647,34 @@
       "Pulmonary thromboembolism",
       "Thromboembolism of lung",
       "Acute pulmonary embolism"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J810": 0.760515,
+        "O88219": 0.737306,
+        "I2782": 0.730659,
+        "O8822": 0.728217,
+        "O8823": 0.706717
+      },
+      "rapidfuzz": {
+        "I2782": 0.95,
+        "I2693": 0.9,
+        "I2601": 0.9,
+        "S25401S": 0.855,
+        "S25402A": 0.855,
+        "S25401D": 0.855,
+        "T24121D": 0.855,
+        "S76809D": 0.855,
+        "S76809A": 0.855,
+        "J0380": 0.855,
+        "H04019": 0.855,
+        "H04013": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I2782",
+      "confidence": 0.774527
+    }
   },
   {
     "text": "hội chứng bàn chân bẹt bẩm sinh",
@@ -393,7 +696,34 @@
       "flatfoot congenital",
       "acquired flatfoot with congenital component",
       "congenital flatfoot with acquired features"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q6650": 0.828906,
+        "Q6680": 0.822963,
+        "M4030": 0.82161,
+        "M2140": 0.82161,
+        "Q6640": 0.818015
+      },
+      "rapidfuzz": {
+        "Q7212": 0.855,
+        "Q839": 0.855,
+        "O3140X4": 0.855,
+        "Q272": 0.855,
+        "Q398": 0.855,
+        "Q399": 0.855,
+        "V152XXA": 0.855,
+        "V172XXA": 0.855,
+        "V172XXD": 0.855,
+        "V2451XS": 0.855,
+        "S0633AS": 0.855,
+        "T50A12S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "Q6650",
+      "confidence": 0.663125
+    }
   },
   {
     "text": "bệnh bàn chân bẹt",
@@ -415,7 +745,31 @@
       "Acquired flatfoot",
       "Pes planus",
       "Flatfoot deformity"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q6650": 0.890303,
+        "M2140": 0.889073,
+        "M21549": 0.814825,
+        "Q6680": 0.814007,
+        "M21539": 0.777473
+      },
+      "rapidfuzz": {
+        "M2142": 0.9,
+        "M2140": 0.9,
+        "M2141": 0.9,
+        "Z90712": 0.855,
+        "Z90711": 0.855,
+        "Z90710": 0.855,
+        "Q675": 0.855,
+        "Q682": 0.855,
+        "Q680": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M2140",
+      "confidence": 0.891258
+    }
   },
   {
     "text": "Siêu âm",
@@ -423,7 +777,12 @@
     "position": [
       2108,
       2115
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thuyên tắc phổi",
@@ -445,6 +804,33 @@
       "Pulmonary thromboembolism",
       "Thromboembolism of lung",
       "Acute pulmonary embolism"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J810": 0.760515,
+        "O88219": 0.737306,
+        "I2782": 0.730659,
+        "O8822": 0.728217,
+        "O8823": 0.706717
+      },
+      "rapidfuzz": {
+        "I2782": 0.95,
+        "I2693": 0.9,
+        "I2601": 0.9,
+        "S25401S": 0.855,
+        "S25402A": 0.855,
+        "S25401D": 0.855,
+        "T24121D": 0.855,
+        "S76809D": 0.855,
+        "S76809A": 0.855,
+        "J0380": 0.855,
+        "H04019": 0.855,
+        "H04013": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I2782",
+      "confidence": 0.774527
+    }
   }
 ]

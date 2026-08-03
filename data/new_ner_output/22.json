@@ -13,7 +13,12 @@
     "sentence": "Các tập tương tự trước đây: Từng bị [ENTITY] tương tự trong quá khứ, luôn thuyên giảm khi dùng thuốc.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "acetaminophen 500mg",
@@ -35,7 +40,33 @@
       "paracetamol 500 mg",
       "generic acetaminophen 500 mg",
       "APAP 500 mg"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "315266": 1.0,
+        "1100003": 0.970029,
+        "570070": 0.967523,
+        "565623": 0.964835,
+        "570054": 0.962989
+      },
+      "rapidfuzz": {
+        "315266": 1.0,
+        "315259": 0.95,
+        "315264": 0.95,
+        "251454": 0.9,
+        "161": 0.9,
+        "1872075": 0.9,
+        "1866143": 0.9,
+        "1798453": 0.9,
+        "332815": 0.868571,
+        "2743411": 0.855,
+        "1790533": 0.855
+      }
+    },
+    "candidate": {
+      "code": "315266",
+      "confidence": 1.0
+    }
   },
   {
     "text": "cơn đau dữ",
@@ -51,7 +82,12 @@
     "sentence": "Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi [ENTITY] dội, thường 4 viên mỗi giờ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -67,7 +103,12 @@
     "sentence": "Lý do nhập viện: [ENTITY] ngày càng nặng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -83,7 +124,12 @@
     "sentence": "Tiền sử 2 ngày [ENTITY] ngày càng nặng.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -99,7 +145,12 @@
     "sentence": "Tiền sử 2 tháng [ENTITY] liên tục.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -115,7 +166,12 @@
     "sentence": "Tiền sử 2 tháng [ENTITY] liên tục.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -131,7 +187,12 @@
     "sentence": "2 ngày trước khi nhập viện, [ENTITY] trở nên tồi tệ hơn.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "men gan",
@@ -153,7 +214,33 @@
       "Liver failure, acute",
       "Acute hepatic failure",
       "Acute men gan"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K7201": 0.853689,
+        "K7291": 0.815759,
+        "K7200": 0.803728,
+        "K7290": 0.789629,
+        "T8642": 0.763272
+      },
+      "rapidfuzz": {
+        "K7200": 0.9,
+        "K7201": 0.9,
+        "C9261": 0.855,
+        "O2662": 0.855,
+        "O26619": 0.855,
+        "C9101": 0.855,
+        "C9260": 0.855,
+        "K7290": 0.855,
+        "J45901": 0.855,
+        "J441": 0.855,
+        "J4521": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K7201",
+      "confidence": 0.862951
+    }
   },
   {
     "text": "bilirubin",
@@ -161,7 +248,12 @@
     "position": [
       692,
       701
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -177,7 +269,12 @@
     "sentence": "[ENTITY] ngày càng nặng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng liên",
@@ -193,7 +290,12 @@
     "sentence": "Tiền sử 2 tháng [ENTITY] tục.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi toàn thân",
@@ -209,7 +311,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "yếu sức",
@@ -225,7 +332,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở khi",
@@ -241,7 +353,12 @@
     "sentence": "[ENTITY] gắng sức.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sức",
@@ -257,7 +374,12 @@
     "sentence": "yếu [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngứa toàn thân",
@@ -273,7 +395,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiểu ra máu",
@@ -289,7 +416,12 @@
     "sentence": "Vài lần [ENTITY] không đau.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
@@ -305,7 +437,12 @@
     "sentence": "Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi cơn [ENTITY] dữ dội, thường 4 viên mỗi giờ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Đau vùng gan",
@@ -321,7 +458,12 @@
     "sentence": "Vị trí: [ENTITY] phải (RUQ) và thượng vị lan ra sau lưng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -337,7 +479,12 @@
     "sentence": "Không có [ENTITY].",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -353,7 +500,12 @@
     "sentence": "Không có buồn [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phân có máu",
@@ -369,7 +521,12 @@
     "sentence": "Không có [ENTITY], đen hoặc nhựa đường.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "acetaminophen 500mg",
@@ -391,7 +548,33 @@
       "paracetamol 500 mg",
       "generic acetaminophen 500 mg",
       "APAP 500 mg"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "315266": 1.0,
+        "1100003": 0.970029,
+        "570070": 0.967523,
+        "565623": 0.964835,
+        "570054": 0.962989
+      },
+      "rapidfuzz": {
+        "315266": 1.0,
+        "315259": 0.95,
+        "315264": 0.95,
+        "251454": 0.9,
+        "161": 0.9,
+        "1872075": 0.9,
+        "1866143": 0.9,
+        "1798453": 0.9,
+        "332815": 0.868571,
+        "2743411": 0.855,
+        "1790533": 0.855
+      }
+    },
+    "candidate": {
+      "code": "315266",
+      "confidence": 1.0
+    }
   },
   {
     "text": "nhẹ nhàng nhẹ nhàng",
@@ -407,7 +590,12 @@
     "sentence": "Câu hỏi từ người dùng : Dạ em có một người, hiện tại bạn ấy đang nổi những nét [ENTITY] rất đến và khắp nơi, bạn em nổi quanh năm ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "dị",
@@ -423,7 +611,12 @@
     "sentence": "Cả hai người đều không phải [ENTITY] ứng thời tiết hay thức ăn, nó có thể nổi lên mọi lúc.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ast",
@@ -431,7 +624,12 @@
     "position": [
       1967,
       1970
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "421",
@@ -439,7 +637,12 @@
     "position": [
       1971,
       1974
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "alt",
@@ -447,7 +650,12 @@
     "position": [
       1977,
       1980
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "336",
@@ -455,7 +663,12 @@
     "position": [
       1981,
       1984
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bilirubin",
@@ -463,7 +676,12 @@
     "position": [
       1997,
       2006
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm gan virus",
@@ -485,7 +703,34 @@
       "Hepatitis due to virus",
       "Infectious hepatitis",
       "Viral infection of liver"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "B179": 0.861242,
+        "B0081": 0.826379,
+        "K752": 0.803918,
+        "B189": 0.795088,
+        "K739": 0.749914
+      },
+      "rapidfuzz": {
+        "B189": 0.9,
+        "B188": 0.9,
+        "B1910": 0.9,
+        "A031": 0.855,
+        "A001": 0.855,
+        "Y26XXXA": 0.855,
+        "A09": 0.855,
+        "R6510": 0.855,
+        "H20031": 0.855,
+        "A0229": 0.855,
+        "T3133": 0.855,
+        "T3132": 0.855
+      }
+    },
+    "candidate": {
+      "code": "B189",
+      "confidence": 0.81607
+    }
   },
   {
     "text": "ferritin",
@@ -493,7 +738,12 @@
     "position": [
       2110,
       2118
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
@@ -501,7 +751,12 @@
     "position": [
       2243,
       2250
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ercp",
@@ -509,7 +764,12 @@
     "position": [
       2305,
       2309
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ercp",
@@ -517,7 +777,12 @@
     "position": [
       2428,
       2432
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "gan",
@@ -539,7 +804,34 @@
       "Gastric cancer",
       "Gastric neoplasm",
       "Gastric malignancy"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C169": 0.891326,
+        "C162": 0.759538,
+        "C160": 0.63609,
+        "C029": 0.628763,
+        "C259": 0.624741
+      },
+      "rapidfuzz": {
+        "T471X4S": 0.855,
+        "T471X5A": 0.855,
+        "T471X1S": 0.855,
+        "T17210A": 0.855,
+        "T17218A": 0.855,
+        "T17210S": 0.855,
+        "C781": 0.855,
+        "C7932": 0.855,
+        "C7940": 0.855,
+        "K259": 0.855,
+        "K254": 0.855,
+        "K253": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C169",
+      "confidence": 0.713061
+    }
   },
   {
     "text": "bilirubin",
@@ -547,6 +839,11 @@
     "position": [
       2484,
       2493
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

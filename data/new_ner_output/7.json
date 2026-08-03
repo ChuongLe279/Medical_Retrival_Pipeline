@@ -13,7 +13,12 @@
     "sentence": "Từ năm 24-26 tuổi em có dấu hiệu [ENTITY] (thỉnh thoảng đau và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
@@ -29,7 +34,12 @@
     "sentence": "Từ năm 24-26 tuổi em có dấu hiệu [ENTITY] bao tử (thỉnh thoảng đau và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nội soi",
@@ -37,7 +47,12 @@
     "position": [
       297,
       304
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
@@ -53,7 +68,12 @@
     "sentence": "Từ năm 24-26 tuổi em có dấu hiệu đau bao tử (thỉnh thoảng [ENTITY] và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
@@ -69,7 +89,12 @@
     "sentence": "Thay vào đó em đã chuyển về sống cùng gia đình và ăn uống rất điều độ nên hầu như em không bị [ENTITY] lại nữa.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng râm ran",
@@ -85,7 +110,12 @@
     "sentence": "Đến 21h em bắt đầu [ENTITY] và cơn đau càng dồn đạp đến 12h đêm.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
@@ -101,7 +131,12 @@
     "sentence": "Em thấy không còn bị [ENTITY] như trước và cơ thể cũng có cảm giác khỏe lên.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bụng",
@@ -117,7 +152,12 @@
     "sentence": "Đến 21h em bắt đầu đau [ENTITY] râm ran và cơn đau càng dồn đạp đến 12h đêm.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau",
@@ -133,7 +173,12 @@
     "sentence": "Đến 21h em bắt đầu [ENTITY] bụng râm ran và cơn đau càng dồn đạp đến 12h đêm.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
@@ -141,7 +186,12 @@
     "position": [
       1347,
       1354
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sỏi thận",
@@ -163,7 +213,32 @@
       "Nephrolithiasis",
       "Renal calculus",
       "Urolithiasis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N200": 0.966716,
+        "N209": 0.841044,
+        "N219": 0.765217,
+        "N201": 0.740864,
+        "N210": 0.739108
+      },
+      "rapidfuzz": {
+        "J8402": 0.86087,
+        "S37002A": 0.855,
+        "T8610": 0.855,
+        "T8611": 0.855,
+        "Z992": 0.855,
+        "S35495A": 0.855,
+        "S35415S": 0.855,
+        "L632": 0.771429,
+        "K115": 0.769231,
+        "B743": 0.75
+      }
+    },
+    "candidate": {
+      "code": "N200",
+      "confidence": 0.773373
+    }
   },
   {
     "text": "đau",
@@ -179,7 +254,12 @@
     "sentence": "Đến 21h em bắt đầu đau bụng râm ran và cơn [ENTITY] càng dồn đạp đến 12h đêm.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm bao tử",
@@ -201,7 +281,33 @@
       "Gastric ulcer",
       "Peptic ulcer disease",
       "Gastric ulcer disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Z8711": 0.759951,
+        "K279": 0.747297,
+        "K259": 0.726415,
+        "K633": 0.639637,
+        "K30": 0.636065
+      },
+      "rapidfuzz": {
+        "Z8711": 0.9,
+        "P7882": 0.9,
+        "K275": 0.9,
+        "K256": 0.9,
+        "K257": 0.9,
+        "K259": 0.9,
+        "M84564A": 0.855,
+        "I69962": 0.855,
+        "E13630": 0.855,
+        "M11071": 0.855,
+        "M11072": 0.855
+      }
+    },
+    "candidate": {
+      "code": "Z8711",
+      "confidence": 0.787961
+    }
   },
   {
     "text": "siêu âm",
@@ -209,7 +315,12 @@
     "position": [
       1886,
       1893
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nội soi",
@@ -217,7 +328,12 @@
     "position": [
       1894,
       1901
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "citrate 40mg",
@@ -237,7 +353,28 @@
     "eng_translation": [
       "citrate 40 mg",
       "calcium citrate 40 mg"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "804612": 0.890721,
+        "315520": 0.860181,
+        "331224": 0.843065,
+        "331382": 0.837148,
+        "329624": 0.835186
+      },
+      "rapidfuzz": {
+        "329624": 0.954545,
+        "47613": 0.95,
+        "329626": 0.930233,
+        "2690661": 0.9,
+        "1293490": 0.9,
+        "804612": 0.9
+      }
+    },
+    "candidate": {
+      "code": "804612",
+      "confidence": 0.892577
+    }
   },
   {
     "text": "metoclopramide 10mg",
@@ -259,7 +396,30 @@
       "metoclopramide 10 mg oral solution",
       "metoclopramide 10 mg tablet",
       "metoclopramide 10 mg oral suspension"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "328464": 1.0,
+        "311666": 0.99679,
+        "568051": 0.951524,
+        "863584": 0.937846,
+        "104884": 0.935272
+      },
+      "rapidfuzz": {
+        "328464": 1.0,
+        "863584": 0.95,
+        "334427": 0.95,
+        "372883": 0.95,
+        "311666": 0.95,
+        "104884": 0.942857,
+        "316969": 0.9,
+        "6915": 0.9
+      }
+    },
+    "candidate": {
+      "code": "328464",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ợ nóng",
@@ -275,7 +435,12 @@
     "sentence": "Nhôm hydroxid và magie hydroxid có thể sử dụng được cho phụ nữ mang thai để điều trị triệu chứng [ENTITY] hoặc trào ngược dạ dày thực quản và cần sử dụng trong mức liều khuyến cáo.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "trào ngược dạ dày thực quản",
@@ -297,7 +462,32 @@
       "GERD",
       "Esophageal reflux",
       "Gastric reflux"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K219": 0.805945,
+        "K2100": 0.736454,
+        "R12": 0.735888,
+        "P7883": 0.71577,
+        "K2101": 0.706403
+      },
+      "rapidfuzz": {
+        "P7883": 0.95,
+        "K2101": 0.9,
+        "K2100": 0.9,
+        "K219": 0.870968,
+        "K31A22": 0.855,
+        "Z4651": 0.855,
+        "T471X1A": 0.855,
+        "M65341": 0.771429,
+        "M65342": 0.771429,
+        "R454": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "K219",
+      "confidence": 0.81895
+    }
   },
   {
     "text": "đau đớn",
@@ -313,7 +503,12 @@
     "sentence": "Tổn thương cực kỳ [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "siêu âm",
@@ -321,7 +516,12 @@
     "position": [
       3033,
       3040
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nội soi",
@@ -329,7 +529,12 @@
     "position": [
       3041,
       3048
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày",
@@ -351,6 +556,31 @@
       "Chronic gastritis",
       "Acute gastritis",
       "Gastritis unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2900": 0.79039,
+        "K2901": 0.782795,
+        "K2950": 0.779421,
+        "K2970": 0.777139,
+        "K2930": 0.74892
+      },
+      "rapidfuzz": {
+        "I776": 0.904762,
+        "K2970": 0.9,
+        "K2900": 0.9,
+        "K2930": 0.9,
+        "K2951": 0.9,
+        "K2950": 0.9,
+        "K2901": 0.9,
+        "K2971": 0.9,
+        "L98A115": 0.855,
+        "J200": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K2900",
+      "confidence": 0.812312
+    }
   }
 ]

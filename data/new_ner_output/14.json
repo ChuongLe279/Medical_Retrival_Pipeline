@@ -13,7 +13,12 @@
     "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu [ENTITY] và ngứa khắp người, bạn em bị nổi quanh năm luôn ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngứa khắp người",
@@ -29,7 +34,12 @@
     "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và [ENTITY], bạn em bị nổi quanh năm luôn ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "dấu mề đay nổi rất khó chịu",
@@ -45,7 +55,12 @@
     "sentence": "Những [ENTITY] và ngứa, được biết bạn em có từng đi chữa trị và sử dụng rất nhiều thuốc nhưng không đỡ ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngứa",
@@ -61,7 +76,12 @@
     "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và [ENTITY] khắp người, bạn em bị nổi quanh năm luôn ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Bệnh bạch cầu dòng tủy mãn tính",
@@ -83,7 +103,34 @@
       "Chronic myelogenous leukemia",
       "CML",
       "Chronic myeloid leukemia, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "D471": 0.814773,
+        "C9292": 0.668733,
+        "C9312": 0.666095,
+        "C9211": 0.646788,
+        "C9291": 0.639924
+      },
+      "rapidfuzz": {
+        "C9210": 0.9,
+        "C9211": 0.9,
+        "C9212": 0.9,
+        "N990": 0.855,
+        "L98A398": 0.855,
+        "L98A224": 0.855,
+        "S72051C": 0.855,
+        "S85401A": 0.855,
+        "S85401D": 0.855,
+        "F40240": 0.72,
+        "B661": 0.72,
+        "R683": 0.72
+      }
+    },
+    "candidate": {
+      "code": "C9211",
+      "confidence": 0.69743
+    }
   },
   {
     "text": "bạch cầu",
@@ -91,7 +138,12 @@
     "position": [
       647,
       655
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "gleevec",
@@ -113,7 +165,32 @@
       "Imatinib",
       "Stivarga",
       "Imatinib Mesylate"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "282388": 1.0,
+        "284924": 1.0,
+        "1312403": 1.0,
+        "282386": 1.0,
+        "1997267": 0.813729
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "282388": 1.0,
+        "1312403": 1.0,
+        "284924": 1.0,
+        "404588": 0.9,
+        "404589": 0.9,
+        "576514": 0.9,
+        "1312408": 0.9,
+        "10603": 0.9,
+        "2699831": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282386",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Tăng huyết áp",
@@ -135,7 +212,34 @@
       "Hypertension",
       "High blood pressure",
       "HTN"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.699688,
+        "R030": 0.694782,
+        "I169": 0.692033
+      },
+      "rapidfuzz": {
+        "R030": 0.9,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "L89816": 0.855,
+        "D72829": 0.855,
+        "L98A214": 0.855,
+        "S3599XS": 0.855,
+        "L98A298": 0.855,
+        "R636": 0.72,
+        "R29890": 0.72,
+        "E663": 0.72
+      }
+    },
+    "candidate": {
+      "code": "R030",
+      "confidence": 0.735826
+    }
   },
   {
     "text": "tăng lipid máu",
@@ -157,7 +261,31 @@
       "Elevated blood lipids",
       "Increased serum lipids",
       "Lipidemia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E785": 0.979012,
+        "E7849": 0.765059,
+        "E786": 0.760039,
+        "E782": 0.751965,
+        "E7841": 0.744404
+      },
+      "rapidfuzz": {
+        "E782": 0.95,
+        "E7849": 0.95,
+        "E785": 0.9,
+        "T372X1A": 0.855,
+        "S159XXD": 0.855,
+        "Z862": 0.855,
+        "T8069XA": 0.855,
+        "T8069XD": 0.855,
+        "T8062XS": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E785",
+      "confidence": 0.96321
+    }
   },
   {
     "text": "Đái tháo đường típ 2",
@@ -179,7 +307,34 @@
       "Diabetes mellitus, type 2",
       "Non-insulin-dependent diabetes",
       "Mellitus, type 2 diabetes"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.844191,
+        "P702": 0.782015,
+        "E119": 0.736971,
+        "Z833": 0.724102,
+        "E118": 0.723496
+      },
+      "rapidfuzz": {
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "E1169": 0.9,
+        "S72362Q": 0.855,
+        "S72361M": 0.855,
+        "S72361N": 0.855,
+        "M45A8": 0.855,
+        "E0842": 0.855,
+        "E0843": 0.855,
+        "S79129D": 0.855,
+        "S72122B": 0.855,
+        "S72121R": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.675353
+    }
   },
   {
     "text": "hẹp ống sống",
@@ -201,7 +356,34 @@
       "Canal stenosis",
       "Spinal canal narrowing",
       "Spinal stenosis, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M4800": 0.996702,
+        "M4804": 0.762521,
+        "M4802": 0.741901,
+        "M479": 0.727247,
+        "M4808": 0.712017
+      },
+      "rapidfuzz": {
+        "M4800": 0.95,
+        "M48062": 0.9,
+        "M4805": 0.9,
+        "M48061": 0.9,
+        "M429": 0.885246,
+        "M9943": 0.855,
+        "M9948": 0.855,
+        "D0320": 0.855,
+        "M9947": 0.855,
+        "M9931": 0.855,
+        "M9930": 0.855,
+        "S00209D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M4800",
+      "confidence": 0.987362
+    }
   },
   {
     "text": "Giả gout",
@@ -223,7 +405,34 @@
       "False gout",
       "Pseudogout",
       "Crystal arthropathy, non-gout"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M119": 0.873929,
+        "M109": 0.810908,
+        "M1000": 0.791288,
+        "M1009": 0.760321,
+        "M1180": 0.736479
+      },
+      "rapidfuzz": {
+        "M1028": 0.855,
+        "M10279": 0.855,
+        "M10462": 0.855,
+        "M10039": 0.855,
+        "M1A4111": 0.855,
+        "M1A4110": 0.855,
+        "L98A128": 0.855,
+        "M1A0691": 0.855,
+        "M1A0710": 0.855,
+        "B0803": 0.7,
+        "L731": 0.7,
+        "F482": 0.7
+      }
+    },
+    "candidate": {
+      "code": "M119",
+      "confidence": 0.699143
+    }
   },
   {
     "text": "bệnh thận mạn",
@@ -245,7 +454,34 @@
       "CKD",
       "Renal failure, chronic",
       "End-stage renal disease"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N186": 0.997678,
+        "N189": 0.982146,
+        "N039": 0.781739,
+        "N19": 0.771673,
+        "I5084": 0.755979
+      },
+      "rapidfuzz": {
+        "N186": 1.0,
+        "D631": 0.95,
+        "N181": 0.95,
+        "N1831": 0.95,
+        "I1311": 0.9,
+        "I132": 0.9,
+        "G893": 0.855,
+        "M86529": 0.855,
+        "M86572": 0.855,
+        "I450": 0.72,
+        "I452": 0.72,
+        "I453": 0.72
+      }
+    },
+    "candidate": {
+      "code": "N186",
+      "confidence": 0.998142
+    }
   },
   {
     "text": "tăng sản tuyến tiền liệt",
@@ -267,7 +503,34 @@
       "Prostatic hypertrophy",
       "Benign enlargement of prostate",
       "Non-cancerous prostate growth"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N400": 0.819702,
+        "D075": 0.791714,
+        "D291": 0.77782,
+        "N401": 0.741695,
+        "N4230": 0.72284
+      },
+      "rapidfuzz": {
+        "N400": 0.9,
+        "N401": 0.9,
+        "D3A024": 0.855,
+        "N9060": 0.855,
+        "N9069": 0.855,
+        "M89363": 0.855,
+        "T82223S": 0.855,
+        "S72326B": 0.855,
+        "S72326A": 0.855,
+        "T80A19S": 0.855,
+        "T80A19D": 0.855,
+        "T80A19A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N400",
+      "confidence": 0.835762
+    }
   },
   {
     "text": "ảo giác",
@@ -283,7 +546,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "gleevec",
@@ -305,7 +573,32 @@
       "Imatinib",
       "Stivarga",
       "Imatinib Mesylate"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "282388": 1.0,
+        "284924": 1.0,
+        "1312403": 1.0,
+        "282386": 1.0,
+        "1997267": 0.813729
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "282388": 1.0,
+        "1312403": 1.0,
+        "284924": 1.0,
+        "404588": 0.9,
+        "404589": 0.9,
+        "576514": 0.9,
+        "1312408": 0.9,
+        "10603": 0.9,
+        "2699831": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282386",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ảo giác",
@@ -321,7 +614,12 @@
     "sentence": "[ENTITY] dai dẳng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "lẫn",
@@ -337,7 +635,12 @@
     "sentence": "Lú [ENTITY] ngày càng nặng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ảo giác",
@@ -353,7 +656,12 @@
     "sentence": "[ENTITY] được vợ nhận thấy.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Lú lẫn",
@@ -369,7 +677,12 @@
     "sentence": "[ENTITY] ngày càng nặng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ca",
@@ -377,7 +690,12 @@
     "position": [
       1450,
       1452
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sa",
@@ -385,7 +703,12 @@
     "position": [
       993,
       995
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ca",
@@ -393,7 +716,12 @@
     "position": [
       1571,
       1573
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ca",
@@ -401,7 +729,12 @@
     "position": [
       1625,
       1627
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sa",
@@ -409,7 +742,12 @@
     "position": [
       1477,
       1479
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ca",
@@ -417,7 +755,12 @@
     "position": [
       1786,
       1788
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mày đay vô căn",
@@ -439,7 +782,32 @@
       "Urticaria, unspecified",
       "Allergic urticaria, unspecified",
       "Chronic urticaria, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.985941,
+        "L506": 0.806308,
+        "L508": 0.770095
+      },
+      "rapidfuzz": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.9,
+        "G4734": 0.855,
+        "M41123": 0.855,
+        "U099": 0.855,
+        "A0220": 0.855,
+        "S32613B": 0.855,
+        "S35401D": 0.855,
+        "T2220XA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L501",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Mày đay vô căn",
@@ -461,7 +829,32 @@
       "Urticaria, unspecified",
       "Allergic urticaria, unspecified",
       "Chronic urticaria, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.985941,
+        "L506": 0.806308,
+        "L508": 0.770095
+      },
+      "rapidfuzz": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.9,
+        "G4734": 0.855,
+        "M41123": 0.855,
+        "U099": 0.855,
+        "A0220": 0.855,
+        "S32613B": 0.855,
+        "S35401D": 0.855,
+        "T2220XA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L501",
+      "confidence": 1.0
+    }
   },
   {
     "text": "u trị phu",
@@ -481,7 +874,28 @@
     "eng_translation": [
       "Treatment of pharyngitis",
       "Pharyngitis management"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J312": 0.622562,
+        "J029": 0.566026,
+        "T280XXA": 0.560927,
+        "A545": 0.554263,
+        "Z293": 0.538146
+      },
+      "rapidfuzz": {
+        "T85890D": 0.855,
+        "S72442F": 0.855,
+        "S72442E": 0.855,
+        "Z739": 0.855,
+        "J028": 0.855,
+        "Z4589": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J312",
+      "confidence": 0.49805
+    }
   },
   {
     "text": "trị kiê",
@@ -502,7 +916,31 @@
       "Treatment of kiê",
       "Kiê management",
       "Kiê therapy"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "T494X6A": 0.54415,
+        "M931": 0.536281,
+        "T494X6S": 0.52997,
+        "Y93E5": 0.529368,
+        "T503X6A": 0.524042
+      },
+      "rapidfuzz": {
+        "S82141G": 0.855,
+        "S82141F": 0.855,
+        "S82141E": 0.855,
+        "Z319": 0.855,
+        "Z31448": 0.855,
+        "Z3189": 0.855,
+        "Y632": 0.855,
+        "Y634": 0.855,
+        "T8082XA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "T494X6A",
+      "confidence": 0.43532
+    }
   },
   {
     "text": "chư",
@@ -521,7 +959,25 @@
     },
     "eng_translation": [
       "Chur"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M301": 0.695095,
+        "M352": 0.56971,
+        "I675": 0.550229,
+        "M941": 0.548252,
+        "M310": 0.542122
+      },
+      "rapidfuzz": {
+        "B79": 0.9,
+        "L751": 0.771429,
+        "B182": 0.771429
+      }
+    },
+    "candidate": {
+      "code": "M301",
+      "confidence": 0.556076
+    }
   },
   {
     "text": "trị",
@@ -540,7 +996,25 @@
     },
     "eng_translation": [
       "Treatment for acute cholecystitis with complications"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K812": 0.708429,
+        "K8012": 0.678212,
+        "K8066": 0.677741,
+        "K8062": 0.677622,
+        "K8067": 0.675023
+      },
+      "rapidfuzz": {
+        "K810": 0.9,
+        "T3297": 0.855,
+        "O365995": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K812",
+      "confidence": 0.566743
+    }
   },
   {
     "text": "thấ",
@@ -559,7 +1033,25 @@
     },
     "eng_translation": [
       "Thalassemia trait"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "D569": 0.930316,
+        "D568": 0.77533,
+        "D560": 0.735755,
+        "D561": 0.715625,
+        "D562": 0.629847
+      },
+      "rapidfuzz": {
+        "D5740": 0.855,
+        "D57413": 0.855,
+        "D57412": 0.855
+      }
+    },
+    "candidate": {
+      "code": "D569",
+      "confidence": 0.744253
+    }
   },
   {
     "text": "ca",
@@ -567,7 +1059,12 @@
     "position": [
       2448,
       2450
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "u chậ",
@@ -586,6 +1083,24 @@
     },
     "eng_translation": [
       "Urethral stricture, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "N35919": 0.789195,
+        "Q6432": 0.737385,
+        "N3592": 0.705022,
+        "N35021": 0.697856,
+        "N369": 0.695411
+      },
+      "rapidfuzz": {
+        "N35911": 0.95,
+        "N35912": 0.95,
+        "N35914": 0.95
+      }
+    },
+    "candidate": {
+      "code": "N35919",
+      "confidence": 0.631356
+    }
   }
 ]

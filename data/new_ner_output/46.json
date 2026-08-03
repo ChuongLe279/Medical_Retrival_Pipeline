@@ -13,7 +13,12 @@
     "sentence": "[ENTITY], tiền sử: stent mạch vành - suy tim.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suy tim",
@@ -35,7 +40,34 @@
       "Congestive heart failure",
       "Left ventricular failure",
       "Cardiac insufficiency"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I501": 0.983093,
+        "I5084": 0.853405,
+        "I5020": 0.81339,
+        "I5082": 0.791518
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9,
+        "I5041": 0.9,
+        "I5020": 0.9,
+        "I5021": 0.9,
+        "I501": 0.9,
+        "I97110": 0.9,
+        "I97111": 0.9,
+        "S78112D": 0.855,
+        "S7702XD": 0.855,
+        "O365113": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I501",
+      "confidence": 0.966474
+    }
   },
   {
     "text": "tăng huyết áp",
@@ -57,7 +89,34 @@
       "Hypertension",
       "High blood pressure",
       "HTN"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.699688,
+        "R030": 0.694782,
+        "I169": 0.692033
+      },
+      "rapidfuzz": {
+        "R030": 0.9,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "L89816": 0.855,
+        "D72829": 0.855,
+        "L98A214": 0.855,
+        "S3599XS": 0.855,
+        "L98A298": 0.855,
+        "R636": 0.72,
+        "R29890": 0.72,
+        "E663": 0.72
+      }
+    },
+    "candidate": {
+      "code": "R030",
+      "confidence": 0.735826
+    }
   },
   {
     "text": "HoHL",
@@ -79,7 +138,34 @@
       "Head injury with hemorrhagic shock",
       "Traumatic brain injury with hemorrhage",
       "Hemorrhagic shock from head trauma"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Z87820": 0.723999,
+        "S06360S": 0.71696,
+        "S06360A": 0.703597,
+        "S06362A": 0.701017,
+        "S06369A": 0.699393
+      },
+      "rapidfuzz": {
+        "S61207S": 0.855,
+        "S61207A": 0.855,
+        "S61208D": 0.855,
+        "F12188": 0.855,
+        "S069X5A": 0.855,
+        "S069X5D": 0.855,
+        "S75102S": 0.855,
+        "S56002S": 0.855,
+        "S55991A": 0.855,
+        "S46199A": 0.855,
+        "S0919XS": 0.855,
+        "S0919XD": 0.855
+      }
+    },
+    "candidate": {
+      "code": "Z87820",
+      "confidence": 0.579199
+    }
   },
   {
     "text": "khó thở",
@@ -95,7 +181,12 @@
     "sentence": "[ENTITY] tăng lên, NYHA III-IV, mệt mỏi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
@@ -111,7 +202,12 @@
     "sentence": "khó thở tăng lên, NYHA III-IV, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -127,7 +223,12 @@
     "sentence": "nhiều, không [ENTITY], không đau bụng.",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -143,7 +244,12 @@
     "sentence": "nhiều, không sốt, không [ENTITY].",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phù phổi",
@@ -165,7 +271,33 @@
       "Acute pulmonary edema",
       "Congestive heart failure with pulmonary edema",
       "Left ventricular failure with pulmonary edema"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J810": 1.0,
+        "I501": 0.759847,
+        "J811": 0.754538,
+        "I50814": 0.749121,
+        "J681": 0.736766
+      },
+      "rapidfuzz": {
+        "J810": 1.0,
+        "J811": 0.9,
+        "J681": 0.9,
+        "I82463": 0.855,
+        "I82A11": 0.855,
+        "V466XXD": 0.855,
+        "Z941": 0.855,
+        "Z91A18": 0.855,
+        "S72465C": 0.855,
+        "S0211BD": 0.855,
+        "S0211BG": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J810",
+      "confidence": 1.0
+    }
   },
   {
     "text": "suy tim",
@@ -187,7 +319,34 @@
       "Congestive heart failure",
       "Left ventricular failure",
       "Cardiac insufficiency"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I501": 0.983093,
+        "I5084": 0.853405,
+        "I5020": 0.81339,
+        "I5082": 0.791518
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9,
+        "I5041": 0.9,
+        "I5020": 0.9,
+        "I5021": 0.9,
+        "I501": 0.9,
+        "I97110": 0.9,
+        "I97111": 0.9,
+        "S78112D": 0.855,
+        "S7702XD": 0.855,
+        "O365113": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I501",
+      "confidence": 0.966474
+    }
   },
   {
     "text": "tăng huyết áp",
@@ -209,7 +368,34 @@
       "Hypertension",
       "High blood pressure",
       "HTN"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.699688,
+        "R030": 0.694782,
+        "I169": 0.692033
+      },
+      "rapidfuzz": {
+        "R030": 0.9,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "L89816": 0.855,
+        "D72829": 0.855,
+        "L98A214": 0.855,
+        "S3599XS": 0.855,
+        "L98A298": 0.855,
+        "R636": 0.72,
+        "R29890": 0.72,
+        "E663": 0.72
+      }
+    },
+    "candidate": {
+      "code": "R030",
+      "confidence": 0.735826
+    }
   },
   {
     "text": "khó thở",
@@ -225,7 +411,12 @@
     "sentence": "hiện nay bệnh nhân còn [ENTITY] vừa, bệnh.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "phù",
@@ -241,7 +432,12 @@
     "sentence": "nhân đi khám tuyến dưới chẩn đoán [ENTITY] phổi cấp - suy tim -.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sốt",
@@ -257,7 +453,12 @@
     "sentence": "Không [ENTITY].",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "HA",
@@ -265,7 +466,12 @@
     "position": [
       210,
       212
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "160/ 80",
@@ -273,7 +479,12 @@
     "position": [
       549,
       556
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Bụng mềm",
@@ -289,7 +500,12 @@
     "sentence": "[ENTITY] không chướng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chướng",
@@ -305,7 +521,12 @@
     "sentence": "Bụng mềm không [ENTITY].",
     "assertion_result": {
       "tag": "isNegated"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ghi điện tim cấp cứu tại giường",
@@ -313,7 +534,12 @@
     "position": [
       703,
       734
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Siêu âm",
@@ -321,7 +547,12 @@
     "position": [
       887,
       894
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "BP",
@@ -329,7 +560,12 @@
     "position": [
       1111,
       1113
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "55",
@@ -337,7 +573,12 @@
     "position": [
       1115,
       1117
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Phù phổi",
@@ -359,7 +600,33 @@
       "Acute pulmonary edema",
       "Congestive heart failure with pulmonary edema",
       "Left ventricular failure with pulmonary edema"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J810": 1.0,
+        "I501": 0.759847,
+        "J811": 0.754538,
+        "I50814": 0.749121,
+        "J681": 0.736766
+      },
+      "rapidfuzz": {
+        "J810": 1.0,
+        "J811": 0.9,
+        "J681": 0.9,
+        "I82463": 0.855,
+        "I82A11": 0.855,
+        "V466XXD": 0.855,
+        "Z941": 0.855,
+        "Z91A18": 0.855,
+        "S72465C": 0.855,
+        "S0211BD": 0.855,
+        "S0211BG": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J810",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Suy tim",
@@ -381,7 +648,34 @@
       "Congestive heart failure",
       "Left ventricular failure",
       "Cardiac insufficiency"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I501": 0.983093,
+        "I5084": 0.853405,
+        "I5020": 0.81339,
+        "I5082": 0.791518
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9,
+        "I5041": 0.9,
+        "I5020": 0.9,
+        "I5021": 0.9,
+        "I501": 0.9,
+        "I97110": 0.9,
+        "I97111": 0.9,
+        "S78112D": 0.855,
+        "S7702XD": 0.855,
+        "O365113": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I501",
+      "confidence": 0.966474
+    }
   },
   {
     "text": "Tăng huyết áp",
@@ -403,7 +697,34 @@
       "Hypertension",
       "High blood pressure",
       "HTN"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.699688,
+        "R030": 0.694782,
+        "I169": 0.692033
+      },
+      "rapidfuzz": {
+        "R030": 0.9,
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9,
+        "L89816": 0.855,
+        "D72829": 0.855,
+        "L98A214": 0.855,
+        "S3599XS": 0.855,
+        "L98A298": 0.855,
+        "R636": 0.72,
+        "R29890": 0.72,
+        "E663": 0.72
+      }
+    },
+    "candidate": {
+      "code": "R030",
+      "confidence": 0.735826
+    }
   },
   {
     "text": "mệt mỏi",
@@ -419,7 +740,12 @@
     "sentence": "Lý do nhập viện: [ENTITY], mất trí nhớ chi tiết.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất trí nhớ chi tiết",
@@ -435,7 +761,12 @@
     "sentence": "Lý do nhập viện: mệt mỏi, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó chịu",
@@ -451,7 +782,12 @@
     "sentence": "Bệnh nhân kể cảm thấy [ENTITY] mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi",
@@ -467,7 +803,12 @@
     "sentence": "Bệnh nhân kể cảm thấy khó chịu [ENTITY] nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ăn không ngon miệng",
@@ -483,7 +824,12 @@
     "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, [ENTITY], ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngứa da toàn thân nhiều",
@@ -499,7 +845,12 @@
     "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, [ENTITY], và mất trí nhớ chi tiết, khó thở khi gắng sức.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất trí nhớ chi tiết",
@@ -515,7 +866,12 @@
     "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và [ENTITY], khó thở khi gắng sức.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở khi gắng sức",
@@ -531,7 +887,12 @@
     "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -547,7 +908,12 @@
     "sentence": "Tuần qua có [ENTITY], và nôn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -563,7 +929,12 @@
     "sentence": "Tuần qua có buồn [ENTITY], và nôn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mệt mỏi nhiều",
@@ -579,7 +950,12 @@
     "sentence": "Bệnh nhân kể cảm thấy khó chịu [ENTITY], ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ăn không ngon miệng",
@@ -595,7 +971,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngứa da toàn thân",
@@ -611,7 +992,12 @@
     "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, [ENTITY] nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất trí nhớ chi tiết",
@@ -627,7 +1013,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khó thở khi gắng sức",
@@ -643,7 +1034,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -659,7 +1055,12 @@
     "sentence": "[ENTITY] và nôn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn",
@@ -675,6 +1076,11 @@
     "sentence": "Tuần qua có buồn nôn, và [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

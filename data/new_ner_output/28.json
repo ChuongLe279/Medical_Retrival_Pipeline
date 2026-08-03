@@ -13,7 +13,12 @@
     "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các [ENTITY] và ngứa khắp người, bạn em bị nổi quanh năm luôn ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngứa khắp người",
@@ -29,7 +34,12 @@
     "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và [ENTITY], bạn em bị nổi quanh năm luôn ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "dấu mề đay nổi rất khó chịu",
@@ -45,7 +55,12 @@
     "sentence": "Những [ENTITY] và ngứa, được biết bạn em có từng đi chữa trị và sử dụng rất nhiều thuốc nhưng không đỡ ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ngứa",
@@ -61,7 +76,12 @@
     "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và [ENTITY] khắp người, bạn em bị nổi quanh năm luôn ạ.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "dị ứng",
@@ -83,7 +103,34 @@
       "Allergy",
       "Allergic response",
       "Allergic manifestation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Z889": 0.784828,
+        "T7840XD": 0.740479,
+        "L239": 0.73508,
+        "Z888": 0.729561,
+        "T7840XA": 0.717406
+      },
+      "rapidfuzz": {
+        "Z881": 0.9,
+        "Z880": 0.9,
+        "K0855": 0.9,
+        "L561": 0.9,
+        "T7804XA": 0.855,
+        "T7803XS": 0.855,
+        "T78089S": 0.855,
+        "R7612": 0.855,
+        "R6511": 0.855,
+        "B4481": 0.855,
+        "K5229": 0.855,
+        "J3081": 0.855
+      }
+    },
+    "candidate": {
+      "code": "Z889",
+      "confidence": 0.627862
+    }
   },
   {
     "text": "Ca",
@@ -91,7 +138,12 @@
     "position": [
       989,
       991
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sa",
@@ -99,7 +151,12 @@
     "position": [
       685,
       687
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ca",
@@ -107,7 +164,12 @@
     "position": [
       1110,
       1112
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tăng số lươ",
@@ -129,7 +191,34 @@
       "Elevated white blood cell count",
       "Leukocytosis",
       "High leukocyte count"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "D72829": 0.992511,
+        "D72820": 0.784213,
+        "D72819": 0.762456,
+        "D72828": 0.731577,
+        "D729": 0.707122
+      },
+      "rapidfuzz": {
+        "D72828": 0.95,
+        "D72829": 0.95,
+        "T24432S": 0.855,
+        "T520X4A": 0.855,
+        "Z975": 0.855,
+        "S25509A": 0.855,
+        "K31A22": 0.855,
+        "K22711": 0.855,
+        "O09899": 0.855,
+        "D700": 0.771429,
+        "D702": 0.771429,
+        "B59": 0.769231
+      }
+    },
+    "candidate": {
+      "code": "D72829",
+      "confidence": 0.984009
+    }
   },
   {
     "text": "ca",
@@ -137,7 +226,12 @@
     "position": [
       1164,
       1166
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sa",
@@ -145,7 +239,12 @@
     "position": [
       1016,
       1018
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ca",
@@ -153,7 +252,12 @@
     "position": [
       1325,
       1327
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "MÀY ĐAY VÔ CĂN",
@@ -175,7 +279,32 @@
       "Urticaria, unspecified",
       "Allergic urticaria, unspecified",
       "Chronic urticaria, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.985941,
+        "L506": 0.806308,
+        "L508": 0.770095
+      },
+      "rapidfuzz": {
+        "L501": 1.0,
+        "L509": 1.0,
+        "L500": 0.9,
+        "G4734": 0.855,
+        "M41123": 0.855,
+        "U099": 0.855,
+        "A0220": 0.855,
+        "S32613B": 0.855,
+        "S35401D": 0.855,
+        "T2220XA": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L501",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ĐAY VÔ CĂN",
@@ -195,7 +324,28 @@
     "eng_translation": [
       "Gastric outlet obstruction without known cause",
       "Gastric outlet obstruction, unspecified etiology"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K222": 0.693087,
+        "K313": 0.671068,
+        "Z903": 0.651795,
+        "K5902": 0.645634,
+        "N320": 0.618211
+      },
+      "rapidfuzz": {
+        "S21129S": 0.855,
+        "S2699XS": 0.855,
+        "S2610XA": 0.855,
+        "V409XXD": 0.855,
+        "S62606B": 0.855,
+        "S62606A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K222",
+      "confidence": 0.55447
+    }
   },
   {
     "text": "tri",
@@ -214,7 +364,25 @@
     },
     "eng_translation": [
       "Tri"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "H5355": 0.581351,
+        "O30133": 0.557767,
+        "Q242": 0.556995,
+        "Q927": 0.55158,
+        "E062": 0.544202
+      },
+      "rapidfuzz": {
+        "Z9884": 0.9,
+        "H5355": 0.9,
+        "I4901": 0.9
+      }
+    },
+    "candidate": {
+      "code": "H5355",
+      "confidence": 0.645081
+    }
   },
   {
     "text": "̣",
@@ -231,7 +399,12 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": []
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ca",
@@ -239,7 +412,12 @@
     "position": [
       1987,
       1989
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "châ",
@@ -258,7 +436,25 @@
     },
     "eng_translation": [
       "Chronic cholecystitis with complications"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K812": 0.842606,
+        "K811": 0.819223,
+        "K8010": 0.799975,
+        "K8064": 0.791764,
+        "K8011": 0.769089
+      },
+      "rapidfuzz": {
+        "K811": 0.9,
+        "S12491D": 0.855,
+        "S12491G": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K811",
+      "confidence": 0.835378
+    }
   },
   {
     "text": "chụp cộng hưởng từ (mri)",
@@ -266,7 +462,12 @@
     "position": [
       2235,
       2259
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hẹp",
@@ -288,6 +489,33 @@
       "Stricture",
       "Constriction",
       "Reduced diameter"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I771": 0.727858,
+        "H40039": 0.652258,
+        "M4800": 0.641888,
+        "Q2542": 0.618935,
+        "Q185": 0.616179
+      },
+      "rapidfuzz": {
+        "N99112": 0.9,
+        "N99113": 0.9,
+        "N99114": 0.9,
+        "S90542S": 0.9,
+        "S90549A": 0.9,
+        "S90549D": 0.9,
+        "T698XXS": 0.855,
+        "T699XXA": 0.855,
+        "T699XXD": 0.855,
+        "L600": 0.7,
+        "H40032": 0.7,
+        "H40039": 0.7
+      }
+    },
+    "candidate": {
+      "code": "H40039",
+      "confidence": 0.661806
+    }
   }
 ]

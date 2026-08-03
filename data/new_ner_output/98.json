@@ -13,7 +13,12 @@
     "sentence": "Mặt tôi bị [ENTITY], da sạm, tôi nghe nói bôi nghệ mật ong, uống nghệ giúp sang da, bác sĩ cho hỏi lời khuyên trên đúng không, áp dụng sao cho hiệu quả.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "da sạm",
@@ -29,7 +34,12 @@
     "sentence": "Mặt tôi bị tàn nhang, [ENTITY], tôi nghe nói bôi nghệ mật ong, uống nghệ giúp sang da, bác sĩ cho hỏi lời khuyên trên đúng không, áp dụng sao cho hiệu quả.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loạn cảm xúc",
@@ -45,7 +55,12 @@
     "sentence": "Rối [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loạn lưỡng cực",
@@ -61,7 +76,12 @@
     "sentence": "Rối [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rối loạn lo âu",
@@ -77,7 +97,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "clonidine",
@@ -99,7 +124,30 @@
       "clonidine hydrochloride",
       "Catapres",
       "clonidine hcl"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "142432": 1.0,
+        "2599": 1.0,
+        "202941": 0.999999,
+        "2268625": 0.800044,
+        "2268626": 0.790628
+      },
+      "rapidfuzz": {
+        "2599": 1.0,
+        "142432": 1.0,
+        "202941": 1.0,
+        "2646005": 0.95,
+        "884198": 0.9,
+        "2268644": 0.9,
+        "2268635": 0.9,
+        "892795": 0.9
+      }
+    },
+    "candidate": {
+      "code": "142432",
+      "confidence": 1.0
+    }
   },
   {
     "text": "suboxone",
@@ -121,7 +169,30 @@
       "buprenorphine and naloxone",
       "buprenorphine/naloxone",
       "buprenorphine and naloxone 2mg/0.5mg film tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "352990": 1.0,
+        "352364": 1.0,
+        "1988927": 0.921953,
+        "1010600": 0.886268,
+        "351266": 0.873299
+      },
+      "rapidfuzz": {
+        "352990": 1.0,
+        "352364": 1.0,
+        "1151360": 0.95,
+        "2269596": 0.9,
+        "1307063": 0.9,
+        "1819": 0.9,
+        "7242": 0.9,
+        "353392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "352990",
+      "confidence": 1.0
+    }
   },
   {
     "text": "trầm cảm",
@@ -143,7 +214,32 @@
       "Major depressive episode",
       "Clinical depression",
       "Depression"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "F32A": 0.968795,
+        "F329": 0.815084,
+        "F339": 0.755196,
+        "F39": 0.729299,
+        "F0631": 0.710479
+      },
+      "rapidfuzz": {
+        "F329": 0.9,
+        "F330": 0.9,
+        "F331": 0.9,
+        "Z1331": 0.9,
+        "Z1332": 0.9,
+        "P914": 0.9,
+        "M89779": 0.855,
+        "M89759": 0.855,
+        "M89761": 0.855,
+        "Z006": 0.855
+      }
+    },
+    "candidate": {
+      "code": "F329",
+      "confidence": 0.832067
+    }
   },
   {
     "text": "hưng cảm",
@@ -159,7 +255,12 @@
     "sentence": "Theo lời kể bệnh nhân bị trầm cảm ngày càng nặng , vài tháng trước có các giai đoạn giống [ENTITY] biểu hiện bằng tăng hoạt động và giảm nhu cầu ngủ 3-4 ngày, trong vài tuần nay và có ý định tự tử.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "suboxone",
@@ -181,7 +282,30 @@
       "buprenorphine and naloxone",
       "buprenorphine/naloxone",
       "buprenorphine and naloxone 2mg/0.5mg film tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "352990": 1.0,
+        "352364": 1.0,
+        "1988927": 0.921953,
+        "1010600": 0.886268,
+        "351266": 0.873299
+      },
+      "rapidfuzz": {
+        "352990": 1.0,
+        "352364": 1.0,
+        "1151360": 0.95,
+        "2269596": 0.9,
+        "1307063": 0.9,
+        "1819": 0.9,
+        "7242": 0.9,
+        "353392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "352990",
+      "confidence": 1.0
+    }
   },
   {
     "text": "suboxone",
@@ -203,7 +327,30 @@
       "buprenorphine and naloxone",
       "buprenorphine/naloxone",
       "buprenorphine and naloxone 2mg/0.5mg film tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "352990": 1.0,
+        "352364": 1.0,
+        "1988927": 0.921953,
+        "1010600": 0.886268,
+        "351266": 0.873299
+      },
+      "rapidfuzz": {
+        "352990": 1.0,
+        "352364": 1.0,
+        "1151360": 0.95,
+        "2269596": 0.9,
+        "1307063": 0.9,
+        "1819": 0.9,
+        "7242": 0.9,
+        "353392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "352990",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ý",
@@ -219,7 +366,12 @@
     "sentence": "L[ENTITY] do nhập viện:i ý định tự tử và ý nghĩ tự bắn vào đầu.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bắn vào đầu",
@@ -235,7 +387,12 @@
     "sentence": "Lý do nhập viện:i ý định tự tử và ý nghĩ tự [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "lo âu",
@@ -251,7 +408,12 @@
     "sentence": "rối loạn [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hoảng sợ",
@@ -267,7 +429,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hoang tưởng như",
@@ -283,6 +450,11 @@
     "sentence": "[ENTITY] đang chiếm khí oxy của người khác.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

@@ -18,7 +18,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 RXNORM_TEXT_DIR = PROJECT_ROOT / "src" / "Linking" / "text_list" / "rxnorm_text.json"
 ICD10_TEXT_DIR = PROJECT_ROOT / "src" / "Linking" / "text_list" / "icd10_text.json"
-JSON_FOLDER_PATH = PROJECT_ROOT / "data" / "output_merged_linking"  # File JSON test
+JSON_FOLDER_PATH = PROJECT_ROOT / "data" / "new_ner_output"  # File JSON test
 
 def loading_object(path):
     with open(path, "r", encoding="utf-8") as file:
@@ -72,7 +72,7 @@ def rapidfuzz_retrieval(text_list, candidate_texts, candidate_codes, top_k=5, sc
         kth=top_k - 1,
         axis=1,
     )[:, :top_k]
-    
+
     for row_i, row in enumerate(top_idx):
         for idx in row:
             code = candidate_codes[idx]

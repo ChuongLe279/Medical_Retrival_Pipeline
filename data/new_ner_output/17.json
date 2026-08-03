@@ -13,7 +13,12 @@
     "sentence": "chào bác sĩ, em 28 tuổi, dạo này em [ENTITY] hay chảy máu chân răng, miệng thấy hơi thở mùi khó chịu, kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu chân răng",
@@ -29,7 +34,12 @@
     "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh răng hay [ENTITY], miệng thấy hơi thở mùi khó chịu, kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "miệng",
@@ -45,7 +55,12 @@
     "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh răng hay chảy máu chân răng, [ENTITY] thấy hơi thở mùi khó chịu, kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hơi thở mùi khó chịu",
@@ -61,7 +76,12 @@
     "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh răng hay chảy máu chân răng, miệng thấy [ENTITY], kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mảng bám quanh răng",
@@ -77,7 +97,12 @@
     "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh răng hay chảy máu chân răng, miệng thấy hơi thở mùi khó chịu, kèm theo thấy nhiều [ENTITY] nữa, bác sĩ tư vấn giúp em với.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "ca",
@@ -85,7 +110,12 @@
     "position": [
       330,
       332
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu chân răng",
@@ -101,7 +131,12 @@
     "sentence": "Vệ sinh răng miệng kém: Đây được xem là nguyên nhân phổ biến gây ra [ENTITY] kèm hôi miệng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hôi miệng",
@@ -117,7 +152,12 @@
     "sentence": "Vệ sinh răng miệng kém: Đây được xem là nguyên nhân phổ biến gây ra chảy máu chân răng kèm [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mùi hôi",
@@ -133,7 +173,12 @@
     "sentence": "Nếu không vệ sinh răng miệng đúng cách sẽ tạo điều kiện cho vi khuẩn xâm nhập, gây tổn thương nướu và làm phát sinh [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Viêm quanh răng",
@@ -155,7 +200,34 @@
       "Inflammatory condition around dental implant",
       "Infection around dental implant",
       "Dental implant surrounding inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K054": 0.759167,
+        "M2762": 0.746592,
+        "M2761": 0.737353,
+        "M2763": 0.733561,
+        "T86832": 0.686149
+      },
+      "rapidfuzz": {
+        "M96639": 0.855,
+        "Z059": 0.855,
+        "Z0589": 0.855,
+        "P392": 0.855,
+        "O691XX2": 0.855,
+        "T83511A": 0.855,
+        "Z9620": 0.855,
+        "Z959": 0.855,
+        "T497X2S": 0.855,
+        "N481": 0.741176,
+        "Z95820": 0.694688,
+        "Z965": 0.692308
+      }
+    },
+    "candidate": {
+      "code": "K054",
+      "confidence": 0.607334
+    }
   },
   {
     "text": "răng",
@@ -171,7 +243,12 @@
     "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh [ENTITY] hay chảy máu chân răng, miệng thấy hơi thở mùi khó chịu, kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Viêm",
@@ -187,7 +264,12 @@
     "sentence": "[ENTITY] quanh răng: Các mô bao quanh cuống răng bị viêm và sưng do nhiễm vi khuẩn, sang chấn răng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sưng",
@@ -203,7 +285,12 @@
     "sentence": "Viêm quanh răng: Các mô bao quanh cuống răng bị viêm và [ENTITY] do nhiễm vi khuẩn, sang chấn răng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Viêm nha chu",
@@ -225,7 +312,34 @@
       "Inflammatory periodontal disease",
       "Gum infection",
       "Chronic periodontal inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K0530": 0.895554,
+        "K056": 0.872204,
+        "K054": 0.861152,
+        "K0520": 0.760476,
+        "K0510": 0.754807
+      },
+      "rapidfuzz": {
+        "K05211": 0.9,
+        "K05223": 0.9,
+        "K05229": 0.9,
+        "T84614D": 0.855,
+        "K08421": 0.855,
+        "K08422": 0.855,
+        "A0220": 0.855,
+        "T8361XA": 0.855,
+        "T8361XD": 0.855,
+        "M93033": 0.855,
+        "H0184": 0.855,
+        "H0183": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K0530",
+      "confidence": 0.716443
+    }
   },
   {
     "text": "nhiễm trùng",
@@ -247,7 +361,34 @@
       "Infectious process",
       "Infection without specified site",
       "Infection, unspecified"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "B999": 0.916389,
+        "A499": 0.819386,
+        "A419": 0.78894,
+        "B998": 0.772783,
+        "R69": 0.765575
+      },
+      "rapidfuzz": {
+        "B719": 0.95,
+        "B669": 0.95,
+        "B349": 0.95,
+        "T8643": 0.9,
+        "J069": 0.9,
+        "A5400": 0.9,
+        "S52024S": 0.855,
+        "S52024P": 0.855,
+        "S52024K": 0.855,
+        "N9489": 0.855,
+        "S72451R": 0.855,
+        "S72451Q": 0.855
+      }
+    },
+    "candidate": {
+      "code": "B999",
+      "confidence": 0.733111
+    }
   },
   {
     "text": "đau khi nhai",
@@ -263,7 +404,12 @@
     "sentence": "Viêm nha chu: Đây là dạng nhiễm trùng lợi nặng, các triệu chứng gồm [ENTITY], răng lung lay, sưng nướu, dễ chảy máu răng, hôi miệng, có mủ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "răng lung lay",
@@ -279,7 +425,12 @@
     "sentence": "Viêm nha chu: Đây là dạng nhiễm trùng lợi nặng, các triệu chứng gồm đau khi nhai, [ENTITY], sưng nướu, dễ chảy máu răng, hôi miệng, có mủ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "sưng nướu",
@@ -295,7 +446,12 @@
     "sentence": "Viêm nha chu: Đây là dạng nhiễm trùng lợi nặng, các triệu chứng gồm đau khi nhai, răng lung lay, [ENTITY], dễ chảy máu răng, hôi miệng, có mủ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "dễ chảy máu răng",
@@ -311,7 +467,12 @@
     "sentence": "Viêm nha chu: Đây là dạng nhiễm trùng lợi nặng, các triệu chứng gồm đau khi nhai, răng lung lay, sưng nướu, [ENTITY], hôi miệng, có mủ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hôi miệng",
@@ -327,7 +488,12 @@
     "sentence": "Viêm nha chu: Đây là dạng nhiễm trùng lợi nặng, các triệu chứng gồm đau khi nhai, răng lung lay, sưng nướu, dễ chảy máu răng, [ENTITY], có mủ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "có mủ",
@@ -343,7 +509,12 @@
     "sentence": "Viêm nha chu: Đây là dạng nhiễm trùng lợi nặng, các triệu chứng gồm đau khi nhai, răng lung lay, sưng nướu, dễ chảy máu răng, hôi miệng, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Viêm nha chu",
@@ -365,7 +536,34 @@
       "Inflammatory periodontal disease",
       "Gum infection",
       "Chronic periodontal inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K0530": 0.895554,
+        "K056": 0.872204,
+        "K054": 0.861152,
+        "K0520": 0.760476,
+        "K0510": 0.754807
+      },
+      "rapidfuzz": {
+        "K05211": 0.9,
+        "K05223": 0.9,
+        "K05229": 0.9,
+        "T84614D": 0.855,
+        "K08421": 0.855,
+        "K08422": 0.855,
+        "A0220": 0.855,
+        "T8361XA": 0.855,
+        "T8361XD": 0.855,
+        "M93033": 0.855,
+        "H0184": 0.855,
+        "H0183": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K0530",
+      "confidence": 0.716443
+    }
   },
   {
     "text": "viêm khớp dạng thấp",
@@ -387,7 +585,34 @@
       "Inflammatory arthritis",
       "Chronic polyarthritis",
       "Systemic inflammatory arthritis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "M069": 0.985794,
+        "M130": 0.874891,
+        "M064": 0.851898,
+        "M059": 0.843769,
+        "M790": 0.807832
+      },
+      "rapidfuzz": {
+        "M05521": 0.9,
+        "M05522": 0.9,
+        "M05529": 0.9,
+        "E790": 0.9,
+        "M3505": 0.9,
+        "M13832": 0.855,
+        "G44041": 0.855,
+        "R053": 0.855,
+        "O10219": 0.855,
+        "T4591XS": 0.855,
+        "M05752": 0.855,
+        "M05751": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M069",
+      "confidence": 0.788635
+    }
   },
   {
     "text": "bệnh hô hấp",
@@ -409,7 +634,34 @@
       "Respiratory disorder",
       "Respiratory condition",
       "Respiratory illness"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J989": 0.984845,
+        "J99": 0.743753,
+        "P289": 0.710545,
+        "J399": 0.706714,
+        "J988": 0.699903
+      },
+      "rapidfuzz": {
+        "Z825": 0.9,
+        "P278": 0.9,
+        "P279": 0.9,
+        "J988": 0.9,
+        "J989": 0.9,
+        "J99": 0.9,
+        "P2889": 0.9,
+        "J683": 0.9,
+        "J684": 0.9,
+        "Z48813": 0.855,
+        "A158": 0.855,
+        "P2480": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J989",
+      "confidence": 0.967876
+    }
   },
   {
     "text": "đột quỵ",
@@ -431,7 +683,34 @@
       "Cerebrovascular accident",
       "Acute stroke",
       "Ischemic or hemorrhagic stroke"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I639": 0.808751,
+        "I679": 0.807886,
+        "I249": 0.759226,
+        "I6781": 0.754712,
+        "I219": 0.745214
+      },
+      "rapidfuzz": {
+        "T6701XA": 0.9,
+        "T6701XD": 0.9,
+        "T6701XS": 0.9,
+        "V9729XA": 0.855,
+        "V981XXA": 0.855,
+        "V980XXS": 0.855,
+        "C9401": 0.855,
+        "H65119": 0.855,
+        "G361": 0.855,
+        "T80919D": 0.855,
+        "V8041XD": 0.855,
+        "V2831XD": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I639",
+      "confidence": 0.647001
+    }
   },
   {
     "text": "canxi",
@@ -439,7 +718,12 @@
     "position": [
       1003,
       1008
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vitamin",
@@ -447,7 +731,12 @@
     "position": [
       1012,
       1019
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "canxi",
@@ -455,7 +744,12 @@
     "position": [
       1031,
       1036
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loãng xương",
@@ -477,7 +771,34 @@
       "Postmenopausal osteoporosis",
       "Decreased bone density",
       "Bone mineral density loss"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q782": 0.776448,
+        "M859": 0.771828,
+        "Z13820": 0.700483,
+        "Z8262": 0.699523,
+        "M810": 0.689851
+      },
+      "rapidfuzz": {
+        "M8000XS": 0.9,
+        "Z8262": 0.9,
+        "M80051S": 0.9,
+        "M808B2A": 0.855,
+        "M810": 0.855,
+        "M818": 0.855,
+        "M85559": 0.855,
+        "M85431": 0.855,
+        "M85432": 0.855,
+        "S62314D": 0.855,
+        "S62341G": 0.855,
+        "L98A326": 0.855
+      }
+    },
+    "candidate": {
+      "code": "Z8262",
+      "confidence": 0.739618
+    }
   },
   {
     "text": "sâu",
@@ -499,7 +820,34 @@
       "Insect sting",
       "Arthropod bite",
       "Arthropod sting"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "B882": 0.7592,
+        "B889": 0.61373,
+        "W44F4XD": 0.594449,
+        "Z91038": 0.585069,
+        "B879": 0.582913
+      },
+      "rapidfuzz": {
+        "S60460A": 0.9,
+        "S60464S": 0.9,
+        "S60464D": 0.9,
+        "S90465A": 0.855,
+        "S50861D": 0.855,
+        "S90464A": 0.855,
+        "S61051D": 0.855,
+        "S61059A": 0.855,
+        "S91052S": 0.855,
+        "T63484A": 0.855,
+        "T63484D": 0.855,
+        "T63484S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "B882",
+      "confidence": 0.60736
+    }
   },
   {
     "text": "răng",
@@ -515,7 +863,12 @@
     "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh răng hay chảy máu chân [ENTITY], miệng thấy hơi thở mùi khó chịu, kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm nha chu",
@@ -537,7 +890,34 @@
       "Inflammatory periodontal disease",
       "Gum infection",
       "Chronic periodontal inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K0530": 0.895554,
+        "K056": 0.872204,
+        "K054": 0.861152,
+        "K0520": 0.760476,
+        "K0510": 0.754807
+      },
+      "rapidfuzz": {
+        "K05211": 0.9,
+        "K05223": 0.9,
+        "K05229": 0.9,
+        "T84614D": 0.855,
+        "K08421": 0.855,
+        "K08422": 0.855,
+        "A0220": 0.855,
+        "T8361XA": 0.855,
+        "T8361XD": 0.855,
+        "M93033": 0.855,
+        "H0184": 0.855,
+        "H0183": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K0530",
+      "confidence": 0.716443
+    }
   },
   {
     "text": "miệng",
@@ -553,7 +933,12 @@
     "sentence": "Vệ sinh răng [ENTITY] kém: Đây được xem là nguyên nhân phổ biến gây ra chảy máu chân răng kèm hôi miệng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu chân răng",
@@ -569,7 +954,12 @@
     "sentence": "Hôi miệng và [ENTITY] còn có thể do cơ thể thiếu hụt vitamin K.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vitamin",
@@ -577,7 +967,12 @@
     "position": [
       1160,
       1167
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "vitamin K",
@@ -599,7 +994,29 @@
       "Vitamin K1",
       "Phytonadione",
       "Vit K"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "8308": 1.0,
+        "1551675": 1.0,
+        "11258": 1.0,
+        "1458226": 1.0,
+        "1551674": 1.0
+      },
+      "rapidfuzz": {
+        "11258": 1.0,
+        "8308": 1.0,
+        "42781": 0.95,
+        "312424": 0.9,
+        "333831": 0.855,
+        "834061": 0.855,
+        "834102": 0.855
+      }
+    },
+    "candidate": {
+      "code": "11258",
+      "confidence": 1.0
+    }
   },
   {
     "text": "K",
@@ -607,7 +1024,12 @@
     "position": [
       117,
       118
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Tiểu đường",
@@ -629,7 +1051,34 @@
       "Common clinical synonym",
       "Expanded abbreviation",
       "Direct English translation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R7303": 0.712752,
+        "Z833": 0.706901,
+        "O24919": 0.682559,
+        "E1165": 0.682321,
+        "P702": 0.664486
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "T485X6S": 0.855,
+        "D831": 0.855,
+        "D832": 0.855,
+        "M01X22": 0.855,
+        "M01X29": 0.855,
+        "M01X31": 0.855,
+        "O200": 0.65,
+        "L80": 0.6,
+        "R002": 0.6
+      }
+    },
+    "candidate": {
+      "code": "R7303",
+      "confidence": 0.570202
+    }
   },
   {
     "text": "miệng",
@@ -645,7 +1094,12 @@
     "sentence": "Vệ sinh răng miệng kém: Đây được xem là nguyên nhân phổ biến gây ra chảy máu chân răng kèm hôi [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu chân răng",
@@ -661,7 +1115,12 @@
     "sentence": "Tiểu đường: Hôi miệng và [ENTITY] là dấu hiệu của bệnh tiểu đường.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh tiểu đường",
@@ -683,7 +1142,34 @@
       "Type 2 diabetes",
       "Common clinical synonym",
       "Expanded abbreviation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.84212,
+        "O24119": 0.714028,
+        "R7303": 0.712752,
+        "Z833": 0.710006,
+        "E119": 0.708696
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "O2412": 0.9,
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "T485X6S": 0.855,
+        "D831": 0.855,
+        "D832": 0.855,
+        "O200": 0.65,
+        "L80": 0.6,
+        "R002": 0.6
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.673696
+    }
   },
   {
     "text": "tiểu đường",
@@ -705,7 +1191,34 @@
       "Common clinical synonym",
       "Expanded abbreviation",
       "Direct English translation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "R7303": 0.712752,
+        "Z833": 0.706901,
+        "O24919": 0.682559,
+        "E1165": 0.682321,
+        "P702": 0.664486
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9,
+        "T485X6S": 0.855,
+        "D831": 0.855,
+        "D832": 0.855,
+        "M01X22": 0.855,
+        "M01X29": 0.855,
+        "M01X31": 0.855,
+        "O200": 0.65,
+        "L80": 0.6,
+        "R002": 0.6
+      }
+    },
+    "candidate": {
+      "code": "R7303",
+      "confidence": 0.570202
+    }
   },
   {
     "text": "chảy máu",
@@ -721,7 +1234,12 @@
     "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh răng hay [ENTITY] chân răng, miệng thấy hơi thở mùi khó chịu, kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Hôi miệng",
@@ -737,7 +1255,12 @@
     "sentence": "[ENTITY] và chảy máu chân răng còn có thể do cơ thể thiếu hụt vitamin K.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu chân răng",
@@ -753,7 +1276,12 @@
     "sentence": "Tác dụng phụ của thuốc: Sử dụng một số loại thuốc có thể gây hôi miệng kèm [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Hôi miệng",
@@ -769,7 +1297,12 @@
     "sentence": "Tiểu đường: [ENTITY] và chảy máu chân răng là dấu hiệu của bệnh tiểu đường.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu chân răng",
@@ -785,7 +1318,12 @@
     "sentence": "Hút thuốc lá: Thành phần trong thuốc lá gây hỏng men răng, gai lưỡi phát triển quá mức khiến vi khuẩn xâm nhập, gây hôi miệng, [ENTITY] và mất răng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "mất răng",
@@ -801,7 +1339,12 @@
     "sentence": "Viêm nha chu nếu để kéo dài, chân răng có thể bị hư hại dẫn đến tình trạng [ENTITY] hoặc viêm khớp dạng thấp, các bệnh hô hấp, đột quỵ.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bệnh mạch máu ngoại biên",
@@ -823,7 +1366,34 @@
       "Peripheral arterial disease",
       "Peripheral circulatory disorder",
       "Peripheral vascular disorder"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I739": 0.980633,
+        "I999": 0.888445,
+        "I998": 0.735454,
+        "I779": 0.704525,
+        "I789": 0.677264
+      },
+      "rapidfuzz": {
+        "I739": 0.95,
+        "I7389": 0.9,
+        "H05322": 0.855,
+        "O1022": 0.855,
+        "M11061": 0.855,
+        "M11059": 0.855,
+        "M67969": 0.855,
+        "S243XXA": 0.855,
+        "L599": 0.855,
+        "F15159": 0.855,
+        "F15151": 0.855,
+        "F15150": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I739",
+      "confidence": 0.974506
+    }
   },
   {
     "text": "bệnh phổi tắc nghẽn mạn tính",
@@ -845,7 +1415,33 @@
       "COPD",
       "Chronic bronchitis and emphysema",
       "Chronic obstructive pulmonary disease with exacerbation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "J449": 0.984133,
+        "J441": 0.937057,
+        "J410": 0.783901,
+        "J42": 0.782041,
+        "J418": 0.747945
+      },
+      "rapidfuzz": {
+        "J449": 0.95,
+        "J4489": 0.95,
+        "J441": 0.95,
+        "T422X6D": 0.855,
+        "T422X1A": 0.855,
+        "T422X1D": 0.855,
+        "S12231G": 0.855,
+        "M84752D": 0.855,
+        "E610": 0.771429,
+        "O621": 0.675,
+        "O9812": 0.675
+      }
+    },
+    "candidate": {
+      "code": "J449",
+      "confidence": 0.977306
+    }
   },
   {
     "text": "Ngưng thở",
@@ -861,7 +1457,12 @@
     "sentence": "[ENTITY] khi ngủ do tắc nghẽn đang dùng BiPAP.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Ung thư biểu mô tế bào vảy",
@@ -883,7 +1484,33 @@
       "Malignant squamous cell neoplasm",
       "Squamous cell carcinoma of skin",
       "Cutaneous squamous cell carcinoma"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C4492": 0.982639,
+        "C4442": 0.724986,
+        "C439": 0.705065,
+        "C44320": 0.697416,
+        "C4A9": 0.684312
+      },
+      "rapidfuzz": {
+        "C4492": 0.95,
+        "C44520": 0.95,
+        "C44521": 0.95,
+        "C4482": 0.9,
+        "C44722": 0.9,
+        "Z122": 0.855,
+        "C846A": 0.855,
+        "C8470": 0.855,
+        "C8304": 0.855,
+        "C8334": 0.855,
+        "C8333": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C4492",
+      "confidence": 0.976111
+    }
   },
   {
     "text": "mùi hôi",
@@ -899,7 +1526,12 @@
     "sentence": "Uống trà gừng và mật ong để loại bỏ vi khuẩn gây hại, khử [ENTITY] do viêm, làm dịu niêm mạc, giảm sưng đau.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "khoang miệng",
@@ -915,7 +1547,12 @@
     "sentence": "Trà đinh hương giúp loại bỏ mùi hôi trong [ENTITY], ngăn ngừa chảy máu, giảm tình trạng chảy máu chân răng và hôi miệng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu",
@@ -931,7 +1568,12 @@
     "sentence": "Vệ sinh răng miệng kém: Đây được xem là nguyên nhân phổ biến gây ra [ENTITY] chân răng kèm hôi miệng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "chảy máu chân răng",
@@ -947,7 +1589,12 @@
     "sentence": "Trà đinh hương giúp loại bỏ mùi hôi trong khoang miệng, ngăn ngừa chảy máu, giảm tình trạng [ENTITY] và hôi miệng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hôi miệng",
@@ -963,6 +1610,11 @@
     "sentence": "Tác dụng phụ của thuốc: Sử dụng một số loại thuốc có thể gây [ENTITY] kèm chảy máu chân răng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]

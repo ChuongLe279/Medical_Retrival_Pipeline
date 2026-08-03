@@ -13,7 +13,12 @@
     "sentence": "Tái phát [ENTITY] và tiêu chảy cách đây vài năm.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
@@ -29,7 +34,12 @@
     "sentence": "Tái phát buồn nôn và [ENTITY] cách đây vài năm.",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nôn ra máu",
@@ -45,7 +55,12 @@
     "sentence": "[ENTITY] 2 tuần sau tập viêm dạ dày ruột do virus.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày ruột do virus",
@@ -67,7 +82,33 @@
       "Infectious gastroenteritis",
       "Gastroenteritis due to virus",
       "Viral infection of stomach and intestine"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.840588,
+        "A084": 0.830274,
+        "K529": 0.777668,
+        "A0839": 0.768424,
+        "B341": 0.760717
+      },
+      "rapidfuzz": {
+        "A09": 0.9,
+        "A084": 0.855,
+        "A99": 0.855,
+        "O98813": 0.855,
+        "O98819": 0.855,
+        "S91105D": 0.855,
+        "V9207XA": 0.855,
+        "V9206XS": 0.855,
+        "T578X3D": 0.855,
+        "S61059A": 0.855,
+        "S61052D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.85247
+    }
   },
   {
     "text": "Nôn ra máu",
@@ -83,7 +124,12 @@
     "sentence": "[ENTITY] trong 2 ngày qua.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hội chứng ruột kích thích",
@@ -105,7 +151,34 @@
       "Functional Gastrointestinal Disorder",
       "Abdominal Pain with Bloating",
       "Chronic Intestinal Hypersensitivity"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K589": 0.983415,
+        "K599": 0.898881,
+        "K580": 0.868963,
+        "K581": 0.856723,
+        "K582": 0.839673
+      },
+      "rapidfuzz": {
+        "K588": 0.95,
+        "K582": 0.95,
+        "K581": 0.9,
+        "F1624": 0.855,
+        "F19988": 0.855,
+        "F19982": 0.855,
+        "S066X4S": 0.855,
+        "S066X3S": 0.855,
+        "S72462Q": 0.855,
+        "L97802": 0.855,
+        "M12012": 0.855,
+        "M12011": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K581",
+      "confidence": 0.865378
+    }
   },
   {
     "text": "hội chứng ruột kích thích",
@@ -127,7 +200,34 @@
       "Functional Gastrointestinal Disorder",
       "Abdominal Pain with Bloating",
       "Chronic Intestinal Hypersensitivity"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K589": 0.983415,
+        "K599": 0.898881,
+        "K580": 0.868963,
+        "K581": 0.856723,
+        "K582": 0.839673
+      },
+      "rapidfuzz": {
+        "K588": 0.95,
+        "K582": 0.95,
+        "K581": 0.9,
+        "F1624": 0.855,
+        "F19988": 0.855,
+        "F19982": 0.855,
+        "S066X4S": 0.855,
+        "S066X3S": 0.855,
+        "S72462Q": 0.855,
+        "L97802": 0.855,
+        "M12012": 0.855,
+        "M12011": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K581",
+      "confidence": 0.865378
+    }
   },
   {
     "text": "Nội soi",
@@ -135,7 +235,12 @@
     "position": [
       353,
       360
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nội soi",
@@ -143,7 +248,12 @@
     "position": [
       411,
       418
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nội soi",
@@ -151,7 +261,12 @@
     "position": [
       469,
       476
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Viêm thực quản",
@@ -173,7 +288,32 @@
       "Esophagitis",
       "Inflammatory esophagus",
       "Esophageal inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K219": 0.805945,
+        "K2090": 0.803829,
+        "K2091": 0.753733,
+        "K200": 0.746482,
+        "K2100": 0.736454
+      },
+      "rapidfuzz": {
+        "K2101": 0.9,
+        "K219": 0.9,
+        "B3781": 0.9,
+        "K2100": 0.870968,
+        "T84619S": 0.855,
+        "T8460XA": 0.855,
+        "T8460XD": 0.855,
+        "H3091": 0.855,
+        "H3090": 0.855,
+        "H3093": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K219",
+      "confidence": 0.824756
+    }
   },
   {
     "text": "omeprazole",
@@ -195,7 +335,31 @@
       "omeprazole generic",
       "prilosec",
       "omeprazole 20 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.996872,
+        "283742": 0.969087,
+        "2594977": 0.933831
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.95,
+        "316408": 0.95,
+        "283742": 0.909091,
+        "343355": 0.9,
+        "1855336": 0.9,
+        "2625142": 0.855,
+        "1161025": 0.855
+      }
+    },
+    "candidate": {
+      "code": "203345",
+      "confidence": 1.0
+    }
   },
   {
     "text": "Nôn ra máu",
@@ -211,7 +375,12 @@
     "sentence": "Lý do nhập viện: [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "buồn nôn",
@@ -227,7 +396,12 @@
     "sentence": "Triệu chứng cách đây vài năm ([ENTITY] và tiêu chảy).",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
@@ -243,7 +417,12 @@
     "sentence": "Triệu chứng cách đây vài năm (buồn nôn và [ENTITY]).",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày ruột",
@@ -265,7 +444,34 @@
       "Inflammation of stomach and intestine",
       "Stomach and intestinal inflammation",
       "Gastric and enteric inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.77303,
+        "K5281": 0.747879,
+        "K529": 0.736855,
+        "K319": 0.713611,
+        "K9281": 0.701913
+      },
+      "rapidfuzz": {
+        "S63429D": 0.855,
+        "K50818": 0.855,
+        "K50814": 0.855,
+        "T3297": 0.855,
+        "S63209A": 0.855,
+        "S63209D": 0.855,
+        "O4191X4": 0.855,
+        "S75202D": 0.855,
+        "T84498A": 0.855,
+        "Z9989": 0.855,
+        "I80211": 0.855,
+        "I80212": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.618424
+    }
   },
   {
     "text": "buồn nôn",
@@ -281,7 +487,12 @@
     "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, [ENTITY] và tiêu chảy (2 tuần sau tập viêm dạ dày ruột do virus).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
@@ -297,7 +508,12 @@
     "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày ruột do virus",
@@ -319,7 +535,33 @@
       "Infectious gastroenteritis",
       "Gastroenteritis due to virus",
       "Viral infection of stomach and intestine"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.840588,
+        "A084": 0.830274,
+        "K529": 0.777668,
+        "A0839": 0.768424,
+        "B341": 0.760717
+      },
+      "rapidfuzz": {
+        "A09": 0.9,
+        "A084": 0.855,
+        "A99": 0.855,
+        "O98813": 0.855,
+        "O98819": 0.855,
+        "S91105D": 0.855,
+        "V9207XA": 0.855,
+        "V9206XS": 0.855,
+        "T578X3D": 0.855,
+        "S61059A": 0.855,
+        "S61052D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.85247
+    }
   },
   {
     "text": "Nôn ra máu",
@@ -335,7 +577,12 @@
     "sentence": "[ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày ruột do virus",
@@ -357,7 +604,33 @@
       "Infectious gastroenteritis",
       "Gastroenteritis due to virus",
       "Viral infection of stomach and intestine"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.840588,
+        "A084": 0.830274,
+        "K529": 0.777668,
+        "A0839": 0.768424,
+        "B341": 0.760717
+      },
+      "rapidfuzz": {
+        "A09": 0.9,
+        "A084": 0.855,
+        "A99": 0.855,
+        "O98813": 0.855,
+        "O98819": 0.855,
+        "S91105D": 0.855,
+        "V9207XA": 0.855,
+        "V9206XS": 0.855,
+        "T578X3D": 0.855,
+        "S61059A": 0.855,
+        "S61052D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.85247
+    }
   },
   {
     "text": "Nôn ra máu",
@@ -373,7 +646,12 @@
     "sentence": "[ENTITY] (trong 2 ngày qua).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -389,7 +667,12 @@
     "sentence": "Tình trạng [ENTITY] và nôn ra máu trở nên tồi tệ hơn (khi ngừng omeprazole).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn ra máu",
@@ -405,7 +688,12 @@
     "sentence": "Tình trạng đau bụng và [ENTITY] trở nên tồi tệ hơn (khi ngừng omeprazole).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "omeprazole",
@@ -427,7 +715,31 @@
       "omeprazole generic",
       "prilosec",
       "omeprazole 20 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.996872,
+        "283742": 0.969087,
+        "2594977": 0.933831
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.95,
+        "316408": 0.95,
+        "283742": 0.909091,
+        "343355": 0.9,
+        "1855336": 0.9,
+        "2625142": 0.855,
+        "1161025": 0.855
+      }
+    },
+    "candidate": {
+      "code": "203345",
+      "confidence": 1.0
+    }
   },
   {
     "text": "buồn nôn",
@@ -443,7 +755,12 @@
     "sentence": "Triệu chứng cách đây vài năm: tái phát [ENTITY] và tiêu chảy, chẩn đoán hội chứng ruột kích thích, phát hiện loét tá tràng khi nội soi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
@@ -459,7 +776,12 @@
     "sentence": "Triệu chứng cách đây vài năm: tái phát buồn nôn và [ENTITY], chẩn đoán hội chứng ruột kích thích, phát hiện loét tá tràng khi nội soi.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "hội chứng ruột kích thích",
@@ -481,7 +803,34 @@
       "Functional Gastrointestinal Disorder",
       "Abdominal Pain with Bloating",
       "Chronic Intestinal Hypersensitivity"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K589": 0.983415,
+        "K599": 0.898881,
+        "K580": 0.868963,
+        "K581": 0.856723,
+        "K582": 0.839673
+      },
+      "rapidfuzz": {
+        "K588": 0.95,
+        "K582": 0.95,
+        "K581": 0.9,
+        "F1624": 0.855,
+        "F19988": 0.855,
+        "F19982": 0.855,
+        "S066X4S": 0.855,
+        "S066X3S": 0.855,
+        "S72462Q": 0.855,
+        "L97802": 0.855,
+        "M12012": 0.855,
+        "M12011": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K581",
+      "confidence": 0.865378
+    }
   },
   {
     "text": "loét tá",
@@ -497,7 +846,12 @@
     "sentence": "Nội soi (cách đây vài năm, phát hiện [ENTITY] tràng).",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nội soi",
@@ -505,7 +859,12 @@
     "position": [
       1332,
       1339
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày ruột",
@@ -527,7 +886,34 @@
       "Inflammation of stomach and intestine",
       "Stomach and intestinal inflammation",
       "Gastric and enteric inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.77303,
+        "K5281": 0.747879,
+        "K529": 0.736855,
+        "K319": 0.713611,
+        "K9281": 0.701913
+      },
+      "rapidfuzz": {
+        "S63429D": 0.855,
+        "K50818": 0.855,
+        "K50814": 0.855,
+        "T3297": 0.855,
+        "S63209A": 0.855,
+        "S63209D": 0.855,
+        "O4191X4": 0.855,
+        "S75202D": 0.855,
+        "T84498A": 0.855,
+        "Z9989": 0.855,
+        "I80211": 0.855,
+        "I80212": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.618424
+    }
   },
   {
     "text": "viêm dạ dày ruột",
@@ -549,7 +935,34 @@
       "Inflammation of stomach and intestine",
       "Stomach and intestinal inflammation",
       "Gastric and enteric inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.77303,
+        "K5281": 0.747879,
+        "K529": 0.736855,
+        "K319": 0.713611,
+        "K9281": 0.701913
+      },
+      "rapidfuzz": {
+        "S63429D": 0.855,
+        "K50818": 0.855,
+        "K50814": 0.855,
+        "T3297": 0.855,
+        "S63209A": 0.855,
+        "S63209D": 0.855,
+        "O4191X4": 0.855,
+        "S75202D": 0.855,
+        "T84498A": 0.855,
+        "Z9989": 0.855,
+        "I80211": 0.855,
+        "I80212": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.618424
+    }
   },
   {
     "text": "buồn nôn",
@@ -565,7 +978,12 @@
     "sentence": "2 tuần sau điều trị viêm dạ dày ruột do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, [ENTITY], tiêu chảy, nôn ra máu.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
@@ -581,7 +999,12 @@
     "sentence": "2 tuần sau điều trị viêm dạ dày ruột do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, [ENTITY], nôn ra máu.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn ra máu",
@@ -597,7 +1020,12 @@
     "sentence": "2 tuần sau điều trị viêm dạ dày ruột do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, tiêu chảy, [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nội soi",
@@ -605,7 +1033,12 @@
     "position": [
       1567,
       1574
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loét tá tràng",
@@ -621,7 +1054,12 @@
     "sentence": "Nội soi (cách đây vài năm, phát hiện [ENTITY]).",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "omeprazole",
@@ -643,7 +1081,31 @@
       "omeprazole generic",
       "prilosec",
       "omeprazole 20 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.996872,
+        "283742": 0.969087,
+        "2594977": 0.933831
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.95,
+        "316408": 0.95,
+        "283742": 0.909091,
+        "343355": 0.9,
+        "1855336": 0.9,
+        "2625142": 0.855,
+        "1161025": 0.855
+      }
+    },
+    "candidate": {
+      "code": "203345",
+      "confidence": 1.0
+    }
   },
   {
     "text": "omeprazole",
@@ -665,7 +1127,31 @@
       "omeprazole generic",
       "prilosec",
       "omeprazole 20 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.996872,
+        "283742": 0.969087,
+        "2594977": 0.933831
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.95,
+        "316408": 0.95,
+        "283742": 0.909091,
+        "343355": 0.9,
+        "1855336": 0.9,
+        "2625142": 0.855,
+        "1161025": 0.855
+      }
+    },
+    "candidate": {
+      "code": "203345",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau bụng",
@@ -681,7 +1167,12 @@
     "sentence": "Khi ngừng omeprazole: phát triển [ENTITY] và nôn ra máu trở nên tồi tệ hơn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn ra máu",
@@ -697,7 +1188,12 @@
     "sentence": "Khi ngừng omeprazole: phát triển đau bụng và [ENTITY] trở nên tồi tệ hơn.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn ra máu",
@@ -713,7 +1209,12 @@
     "sentence": "2 ngày qua: tiếp tục [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Nôn ra máu",
@@ -729,7 +1230,12 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày ruột",
@@ -751,7 +1257,34 @@
       "Inflammation of stomach and intestine",
       "Stomach and intestinal inflammation",
       "Gastric and enteric inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.77303,
+        "K5281": 0.747879,
+        "K529": 0.736855,
+        "K319": 0.713611,
+        "K9281": 0.701913
+      },
+      "rapidfuzz": {
+        "S63429D": 0.855,
+        "K50818": 0.855,
+        "K50814": 0.855,
+        "T3297": 0.855,
+        "S63209A": 0.855,
+        "S63209D": 0.855,
+        "O4191X4": 0.855,
+        "S75202D": 0.855,
+        "T84498A": 0.855,
+        "Z9989": 0.855,
+        "I80211": 0.855,
+        "I80212": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.618424
+    }
   },
   {
     "text": "buồn nôn",
@@ -767,7 +1300,12 @@
     "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, [ENTITY] và tiêu chảy (2 tuần sau tập viêm dạ dày ruột do virus).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tiêu chảy",
@@ -783,7 +1321,12 @@
     "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày ruột",
@@ -805,7 +1348,34 @@
       "Inflammation of stomach and intestine",
       "Stomach and intestinal inflammation",
       "Gastric and enteric inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.77303,
+        "K5281": 0.747879,
+        "K529": 0.736855,
+        "K319": 0.713611,
+        "K9281": 0.701913
+      },
+      "rapidfuzz": {
+        "S63429D": 0.855,
+        "K50818": 0.855,
+        "K50814": 0.855,
+        "T3297": 0.855,
+        "S63209A": 0.855,
+        "S63209D": 0.855,
+        "O4191X4": 0.855,
+        "S75202D": 0.855,
+        "T84498A": 0.855,
+        "Z9989": 0.855,
+        "I80211": 0.855,
+        "I80212": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.618424
+    }
   },
   {
     "text": "nôn ra máu",
@@ -821,7 +1391,12 @@
     "sentence": "Nhập viện vì [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày ruột",
@@ -843,7 +1418,34 @@
       "Inflammation of stomach and intestine",
       "Stomach and intestinal inflammation",
       "Gastric and enteric inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.77303,
+        "K5281": 0.747879,
+        "K529": 0.736855,
+        "K319": 0.713611,
+        "K9281": 0.701913
+      },
+      "rapidfuzz": {
+        "S63429D": 0.855,
+        "K50818": 0.855,
+        "K50814": 0.855,
+        "T3297": 0.855,
+        "S63209A": 0.855,
+        "S63209D": 0.855,
+        "O4191X4": 0.855,
+        "S75202D": 0.855,
+        "T84498A": 0.855,
+        "Z9989": 0.855,
+        "I80211": 0.855,
+        "I80212": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.618424
+    }
   },
   {
     "text": "nội soi",
@@ -851,7 +1453,12 @@
     "position": [
       2264,
       2271
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "loét tá tràng",
@@ -867,7 +1474,12 @@
     "sentence": "Nội soi (cho thấy nhiều [ENTITY] và hồi tràng).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm dạ dày ruột",
@@ -889,7 +1501,34 @@
       "Inflammation of stomach and intestine",
       "Stomach and intestinal inflammation",
       "Gastric and enteric inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.77303,
+        "K5281": 0.747879,
+        "K529": 0.736855,
+        "K319": 0.713611,
+        "K9281": 0.701913
+      },
+      "rapidfuzz": {
+        "S63429D": 0.855,
+        "K50818": 0.855,
+        "K50814": 0.855,
+        "T3297": 0.855,
+        "S63209A": 0.855,
+        "S63209D": 0.855,
+        "O4191X4": 0.855,
+        "S75202D": 0.855,
+        "T84498A": 0.855,
+        "Z9989": 0.855,
+        "I80211": 0.855,
+        "I80212": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.618424
+    }
   },
   {
     "text": "viêm dạ dày ruột",
@@ -911,7 +1550,34 @@
       "Inflammation of stomach and intestine",
       "Stomach and intestinal inflammation",
       "Gastric and enteric inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.77303,
+        "K5281": 0.747879,
+        "K529": 0.736855,
+        "K319": 0.713611,
+        "K9281": 0.701913
+      },
+      "rapidfuzz": {
+        "S63429D": 0.855,
+        "K50818": 0.855,
+        "K50814": 0.855,
+        "T3297": 0.855,
+        "S63209A": 0.855,
+        "S63209D": 0.855,
+        "O4191X4": 0.855,
+        "S75202D": 0.855,
+        "T84498A": 0.855,
+        "Z9989": 0.855,
+        "I80211": 0.855,
+        "I80212": 0.855
+      }
+    },
+    "candidate": {
+      "code": "A09",
+      "confidence": 0.618424
+    }
   },
   {
     "text": "omeprazole",
@@ -933,7 +1599,31 @@
       "omeprazole generic",
       "prilosec",
       "omeprazole 20 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.996872,
+        "283742": 0.969087,
+        "2594977": 0.933831
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.95,
+        "316408": 0.95,
+        "283742": 0.909091,
+        "343355": 0.9,
+        "1855336": 0.9,
+        "2625142": 0.855,
+        "1161025": 0.855
+      }
+    },
+    "candidate": {
+      "code": "203345",
+      "confidence": 1.0
+    }
   },
   {
     "text": "đau bụng",
@@ -949,7 +1639,12 @@
     "sentence": "Phát triển [ENTITY] và nôn ra máu trở nên tồi tệ hơn (khi ngừng omeprazole).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "nôn ra máu",
@@ -965,7 +1660,12 @@
     "sentence": "Phát triển đau bụng và [ENTITY] trở nên tồi tệ hơn (khi ngừng omeprazole).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "omeprazole",
@@ -987,7 +1687,31 @@
       "omeprazole generic",
       "prilosec",
       "omeprazole 20 mg tablet"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.996872,
+        "283742": 0.969087,
+        "2594977": 0.933831
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "203345": 1.0,
+        "389172": 0.95,
+        "316408": 0.95,
+        "283742": 0.909091,
+        "343355": 0.9,
+        "1855336": 0.9,
+        "2625142": 0.855,
+        "1161025": 0.855
+      }
+    },
+    "candidate": {
+      "code": "203345",
+      "confidence": 1.0
+    }
   },
   {
     "text": "ung thư tuyến giáp",
@@ -1009,7 +1733,32 @@
       "Malignant neoplasm of thyroid",
       "Cancer of thyroid gland",
       "Thyroid carcinoma"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C73": 0.992907,
+        "C712": 0.673072,
+        "D440": 0.659599,
+        "Z85850": 0.641554,
+        "D34": 0.637581
+      },
+      "rapidfuzz": {
+        "C73": 0.95,
+        "Z85850": 0.9,
+        "C6932": 0.888889,
+        "S1114XS": 0.855,
+        "S1112XD": 0.855,
+        "H0551": 0.855,
+        "S72456J": 0.855,
+        "Z975": 0.855,
+        "E0531": 0.855,
+        "E0530": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C73",
+      "confidence": 0.984326
+    }
   },
   {
     "text": "bình",
@@ -1026,7 +1775,12 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": []
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Viêm thực quản",
@@ -1048,7 +1802,32 @@
       "Esophagitis",
       "Inflammatory esophagus",
       "Esophageal inflammation"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K219": 0.805945,
+        "K2090": 0.803829,
+        "K2091": 0.753733,
+        "K200": 0.746482,
+        "K2100": 0.736454
+      },
+      "rapidfuzz": {
+        "K2101": 0.9,
+        "K219": 0.9,
+        "B3781": 0.9,
+        "K2100": 0.870968,
+        "T84619S": 0.855,
+        "T8460XA": 0.855,
+        "T8460XD": 0.855,
+        "H3091": 0.855,
+        "H3090": 0.855,
+        "H3093": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K219",
+      "confidence": 0.824756
+    }
   },
   {
     "text": "C",
@@ -1070,7 +1849,34 @@
       "Colorectal cancer",
       "Malignant neoplasm of the colon",
       "Colon cancer"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "C189": 0.981943,
+        "C182": 0.779217,
+        "C180": 0.775634,
+        "C184": 0.771747,
+        "C20": 0.770835
+      },
+      "rapidfuzz": {
+        "Z15060": 0.9,
+        "C182": 0.884483,
+        "C184": 0.884483,
+        "C186": 0.884483,
+        "W74XXXD": 0.855,
+        "Z972": 0.855,
+        "Z973": 0.855,
+        "R971": 0.855,
+        "QA1790": 0.855,
+        "D122": 0.855,
+        "D123": 0.855,
+        "D124": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C182",
+      "confidence": 0.80027
+    }
   },
   {
     "text": "quản",
@@ -1089,7 +1895,25 @@
     },
     "eng_translation": [
       "Management of acute renal failure due to sepsis"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "Z51A": 0.641167,
+        "Y622": 0.613332,
+        "N008": 0.598683,
+        "T8144XA": 0.586809,
+        "R6520": 0.581337
+      },
+      "rapidfuzz": {
+        "S91203D": 0.855,
+        "S42324K": 0.855,
+        "S42324P": 0.855
+      }
+    },
+    "candidate": {
+      "code": "Z51A",
+      "confidence": 0.512934
+    }
   },
   {
     "text": "loét",
@@ -1105,7 +1929,12 @@
     "sentence": "Nội soi (cách đây vài năm, phát hiện [ENTITY] tá tràng).",
     "assertion_result": {
       "tag": "isHistorical"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thực quản",
@@ -1127,6 +1956,33 @@
       "Esophageal disorder",
       "Esophagus disease",
       "Esophageal condition"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "K229": 0.972848,
+        "D130": 0.814389,
+        "C159": 0.814293,
+        "K23": 0.765316,
+        "D001": 0.747502
+      },
+      "rapidfuzz": {
+        "T286XXA": 0.9,
+        "T286XXS": 0.9,
+        "T286XXD": 0.9,
+        "F14280": 0.855,
+        "F4002": 0.855,
+        "F4001": 0.855,
+        "M02331": 0.855,
+        "M05111": 0.855,
+        "M05169": 0.855,
+        "U099": 0.855,
+        "E083493": 0.855,
+        "E083499": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K229",
+      "confidence": 0.778278
+    }
   }
 ]

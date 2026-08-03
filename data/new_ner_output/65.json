@@ -13,7 +13,12 @@
     "sentence": "Em bị bệnh [ENTITY].",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rụng tóc",
@@ -29,7 +34,12 @@
     "sentence": "Em bị bệnh [ENTITY] từng mảng.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rụng",
@@ -46,7 +56,12 @@
     "assertion_result": {
       "tag": "isFamily"
     },
-    "eng_translation": []
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tóc",
@@ -62,7 +77,12 @@
     "sentence": "Em bị bệnh rụng [ENTITY] từng mảng.",
     "assertion_result": {
       "tag": "isFamily"
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rụng",
@@ -79,7 +99,12 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": []
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tóc",
@@ -95,7 +120,12 @@
     "sentence": "Bạn đang có vấn đề về rụng [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rụng tóc",
@@ -111,7 +141,12 @@
     "sentence": "Bạn đang có vấn đề về [ENTITY].",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "che",
@@ -119,7 +154,12 @@
     "position": [
       820,
       823
-    ]
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "thiếu máu cơ tim cục bộ",
@@ -141,7 +181,34 @@
       "Acute myocardial infarction",
       "Ischemic heart disease",
       "Cardiac ischemia"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.987287,
+        "I249": 0.857469,
+        "I255": 0.827983,
+        "I259": 0.821557,
+        "I519": 0.804931
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I219": 0.95,
+        "I2109": 0.9,
+        "I230": 0.9,
+        "I231": 0.9,
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9,
+        "O29192": 0.855,
+        "O29191": 0.855,
+        "O29129": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I219",
+      "confidence": 0.97983
+    }
   },
   {
     "text": "rụng tóc",
@@ -157,7 +224,12 @@
     "sentence": "Tiêm ************** nội thương tổn được chỉ định trong [ENTITY] từng vùng khi diện tích thương tổn dưới 50% diện tích da đầu.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "rụng tóc",
@@ -173,7 +245,12 @@
     "sentence": "Đối với [ENTITY] toàn bộ hoặc rụng tóc toàn thể khó điều trị có thể sử dụng 2,5g ********************e có bao phim che phủ 6 ngày/tuần trong 6 tháng.",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm da tiếp xúc",
@@ -195,7 +272,34 @@
       "Allergic contact dermatitis",
       "Irritant contact dermatitis",
       "Skin inflammation due to contact"
-    ]
+    ],
+    "retriever": {
+      "sapbert": {
+        "L249": 0.976515,
+        "L239": 0.973707,
+        "L259": 0.943783,
+        "L2489": 0.844606,
+        "L244": 0.821542
+      },
+      "rapidfuzz": {
+        "L234": 0.95,
+        "L562": 0.9,
+        "L24B3": 0.9,
+        "L250": 0.9,
+        "L230": 0.9,
+        "L232": 0.9,
+        "L24A0": 0.9,
+        "L24A1": 0.9,
+        "L24A2": 0.9,
+        "W9431XD": 0.855,
+        "O30299": 0.855,
+        "O30293": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L249",
+      "confidence": 0.781212
+    }
   },
   {
     "text": "mày đay",
@@ -211,7 +315,12 @@
     "sentence": "Các tác dụng phụ bao gồm viêm da tiếp xúc, [ENTITY], bất thường sắc tố (gồm cả bạch biến).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "bất thường sắc tố",
@@ -227,6 +336,11 @@
     "sentence": "Các tác dụng phụ bao gồm viêm da tiếp xúc, mày đay, [ENTITY] (gồm cả bạch biến).",
     "assertion_result": {
       "tag": null
-    }
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   }
 ]
