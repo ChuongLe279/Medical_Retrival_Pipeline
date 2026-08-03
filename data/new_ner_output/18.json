@@ -41,37 +41,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Myocardial infarction",
-      "Acute myocardial infarction",
-      "Heart attack",
-      "Cardiac infarction"
+      "Myocardial infarction"
     ],
     "retriever": {
       "sapbert": {
-        "I219": 0.987287,
-        "I249": 0.850784,
+        "I219": 0.851584,
         "I21A1": 0.785121,
+        "I249": 0.769203,
         "I252": 0.761003,
-        "I639": 0.756395
+        "I639": 0.728907
       },
       "rapidfuzz": {
         "I21A1": 0.95,
         "I252": 0.95,
-        "I219": 0.95,
-        "I2109": 0.9,
-        "I230": 0.9,
-        "I231": 0.9,
-        "A0102": 0.855,
-        "I2722": 0.855,
-        "T82512S": 0.855,
-        "T460X6A": 0.855,
-        "T827XXA": 0.855,
-        "T827XXD": 0.855
+        "I2109": 0.9
       }
     },
     "candidate": {
-      "code": "I219",
-      "confidence": 0.97983
+      "code": "I21A1",
+      "confidence": 0.861609
     }
   },
   {
@@ -116,37 +104,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Myocardial ischemia",
-      "Ischemic heart disease",
-      "Cardiac ischemia",
-      "Myocardial hypoperfusion"
+      "Myocardial ischemia"
     ],
     "retriever": {
       "sapbert": {
-        "I249": 0.857469,
         "I255": 0.828051,
-        "I259": 0.821557,
-        "I519": 0.804931,
-        "I6782": 0.801987
+        "I256": 0.79642,
+        "I6782": 0.762137,
+        "I249": 0.757936,
+        "I21A1": 0.70956
       },
       "rapidfuzz": {
         "I256": 0.95,
         "P294": 0.9,
-        "I2489": 0.9,
-        "I249": 0.9,
-        "I2589": 0.9,
-        "I235": 0.855,
-        "O29192": 0.855,
-        "O29191": 0.855,
-        "O29129": 0.855,
-        "I5A": 0.855,
-        "I220": 0.855,
-        "I2109": 0.855
+        "I235": 0.855
       }
     },
     "candidate": {
-      "code": "I249",
-      "confidence": 0.865975
+      "code": "I256",
+      "confidence": 0.876778
     }
   },
   {
@@ -165,36 +141,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Coronary artery disease",
-      "Ischemic heart disease",
-      "CAD",
-      "Coronary vascular disease"
+      "Coronary artery disease"
     ],
     "retriever": {
       "sapbert": {
-        "I249": 0.857469,
-        "I255": 0.827983,
-        "I259": 0.821557,
-        "I519": 0.804931,
-        "I209": 0.762008
+        "I209": 0.762008,
+        "I249": 0.730043,
+        "I519": 0.723818,
+        "I259": 0.692669,
+        "I2089": 0.664935
       },
       "rapidfuzz": {
-        "I2489": 0.9,
-        "I249": 0.9,
-        "I2589": 0.9,
         "I2542": 0.857143,
         "S55112D": 0.855,
-        "S55191D": 0.855,
-        "I120": 0.855,
-        "I119": 0.855,
-        "F5102": 0.72,
-        "A851": 0.72,
-        "A835": 0.72
+        "S55191D": 0.855
       }
     },
     "candidate": {
-      "code": "I249",
-      "confidence": 0.865975
+      "code": "I209",
+      "confidence": 0.690602
     }
   },
   {
@@ -420,7 +385,7 @@
     ],
     "sentence": "Triệu chứng liên quan: không thấy buồn [ENTITY], nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -441,7 +406,7 @@
     ],
     "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, [ENTITY], thay đổi chức năng ruột, đau ngực, khó thở.",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -462,7 +427,7 @@
     ],
     "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, [ENTITY], khó thở.",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -483,7 +448,7 @@
     ],
     "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, [ENTITY].",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -533,10 +498,7 @@
       "tag": "isUncertain"
     },
     "eng_translation": [
-      "Acute cholecystitis",
-      "Acute gallbladder inflammation",
-      "Inflammation of the gallbladder acute",
-      "Acute inflammation of the gallbladder"
+      "Acute cholecystitis"
     ],
     "retriever": {
       "sapbert": {
@@ -544,21 +506,12 @@
         "K819": 0.826204,
         "K812": 0.747653,
         "K811": 0.728649,
-        "K82A1": 0.725266
+        "K82A1": 0.703488
       },
       "rapidfuzz": {
         "K810": 1.0,
         "K8043": 0.9,
-        "K8001": 0.9,
-        "K8047": 0.855,
-        "A0819": 0.855,
-        "I82629": 0.855,
-        "S92115K": 0.855,
-        "S92355S": 0.855,
-        "Z959": 0.855,
-        "L97125": 0.855,
-        "S82242F": 0.855,
-        "S82242E": 0.855
+        "K8001": 0.9
       }
     },
     "candidate": {
@@ -595,36 +548,25 @@
       "tag": "isUncertain"
     },
     "eng_translation": [
-      "Cholecystitis",
-      "Acute cholecystitis",
-      "Inflammation of the gallbladder",
-      "Gallbladder inflammation"
+      "Cholecystitis"
     ],
     "retriever": {
       "sapbert": {
-        "K810": 1.0,
         "K819": 0.986,
-        "K829": 0.815092,
+        "K810": 0.843182,
         "K811": 0.795584,
-        "K812": 0.747653
+        "K829": 0.729062,
+        "K653": 0.724968
       },
       "rapidfuzz": {
-        "K810": 1.0,
+        "K810": 0.95,
         "K8046": 0.9,
-        "K8000": 0.9,
-        "K8043": 0.9,
-        "K8001": 0.9,
-        "S82102N": 0.855,
-        "S82102D": 0.855,
-        "S82102C": 0.855,
-        "J682": 0.855,
-        "H95111": 0.855,
-        "H95112": 0.855
+        "K8000": 0.9
       }
     },
     "candidate": {
-      "code": "K810",
-      "confidence": 1.0
+      "code": "K819",
+      "confidence": 0.908823
     }
   },
   {
@@ -640,39 +582,28 @@
     ],
     "sentence": "siêu âm vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc [ENTITY] (lần nhập viện trước).",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "eng_translation": [
-      "Gallbladder duct stone",
-      "Common bile duct stone",
-      "Biliary duct calculus",
       "Choledocholithiasis"
     ],
     "retriever": {
       "sapbert": {
-        "K8030": 0.736606,
         "K824": 0.726674,
-        "K8040": 0.725598,
+        "K8040": 0.712694,
         "K563": 0.70802,
-        "Q444": 0.705738
+        "Q444": 0.705738,
+        "K8030": 0.693456
       },
       "rapidfuzz": {
-        "D3151": 0.855,
-        "D3150": 0.855,
-        "D444": 0.855,
-        "Q453": 0.855,
-        "C6952": 0.855,
-        "K8019": 0.855,
-        "K8018": 0.855,
-        "K8050": 0.855,
         "L632": 0.771429,
         "B743": 0.75,
         "K8080": 0.725455
       }
     },
     "candidate": {
-      "code": "K8030",
-      "confidence": 0.589285
+      "code": "K824",
+      "confidence": 0.656104
     }
   },
   {
@@ -717,10 +648,7 @@
       "tag": "isUncertain"
     },
     "eng_translation": [
-      "Acute cholecystitis",
-      "Acute gallbladder inflammation",
-      "Inflammation of the gallbladder acute",
-      "Acute inflammation of the gallbladder"
+      "Acute cholecystitis"
     ],
     "retriever": {
       "sapbert": {
@@ -728,21 +656,12 @@
         "K819": 0.826204,
         "K812": 0.747653,
         "K811": 0.728649,
-        "K82A1": 0.725266
+        "K82A1": 0.703488
       },
       "rapidfuzz": {
         "K810": 1.0,
         "K8043": 0.9,
-        "K8001": 0.9,
-        "K8047": 0.855,
-        "A0819": 0.855,
-        "I82629": 0.855,
-        "S92115K": 0.855,
-        "S92355S": 0.855,
-        "Z959": 0.855,
-        "L97125": 0.855,
-        "S82242F": 0.855,
-        "S82242E": 0.855
+        "K8001": 0.9
       }
     },
     "candidate": {
@@ -766,10 +685,7 @@
       "tag": null
     },
     "eng_translation": [
-      "Acute cholecystitis",
-      "Acute gallbladder inflammation",
-      "Inflammation of the gallbladder acute",
-      "Acute inflammation of the gallbladder"
+      "Acute cholecystitis"
     ],
     "retriever": {
       "sapbert": {
@@ -777,21 +693,12 @@
         "K819": 0.826204,
         "K812": 0.747653,
         "K811": 0.728649,
-        "K82A1": 0.725266
+        "K82A1": 0.703488
       },
       "rapidfuzz": {
         "K810": 1.0,
         "K8043": 0.9,
-        "K8001": 0.9,
-        "K8047": 0.855,
-        "A0819": 0.855,
-        "I82629": 0.855,
-        "S92115K": 0.855,
-        "S92355S": 0.855,
-        "Z959": 0.855,
-        "L97125": 0.855,
-        "S82242F": 0.855,
-        "S82242E": 0.855
+        "K8001": 0.9
       }
     },
     "candidate": {

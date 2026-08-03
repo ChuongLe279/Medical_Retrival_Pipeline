@@ -24,7 +24,7 @@ def test_calculate_position_uses_occurrence_and_tolerates_whitespace():
     [
         ("isNegated", "isHistorical", ["isNegated"]),
         ("isUncertain", "isNegated", []),
-        (None, "isFamily", ["isFamily"]),
+        (None, "isFamily", []),
         (None, "isUncertain", []),
         (None, None, []),
     ],
@@ -35,13 +35,13 @@ def test_assertion_precedence(primary, qwen, expected):
     assert formatting._format_assertions(entity) == expected
 
 
-def test_format_file_maps_normalized_offsets_to_original_text():
+def test_format_file_uses_raw_offsets_and_formats_assertions():
     source = "1.  Tiền sử\n- ho\n- ho"
     entities = [
         {
             "text": "ho",
             "type": "TRIỆU_CHỨNG",
-            "position": [9, 11],
+            "position": [14, 16],
             "assertion_result": {"tag": None},
             "qwen_assertion": "isNegated",
             "candidate": None,
@@ -49,7 +49,7 @@ def test_format_file_maps_normalized_offsets_to_original_text():
         {
             "text": "ho",
             "type": "TRIỆU_CHỨNG",
-            "position": [13, 15],
+            "position": [19, 21],
             "assertion_result": {"tag": "isUncertain"},
             "qwen_assertion": "isFamily",
             "candidate": None,
@@ -60,7 +60,7 @@ def test_format_file_maps_normalized_offsets_to_original_text():
         {
             "text": "ho",
             "type": "TRIỆU_CHỨNG",
-            "assertions": ["isNegated"],
+            "assertions": [],
             "position": [14, 16],
         },
         {

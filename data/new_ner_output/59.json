@@ -15,32 +15,20 @@
       "tag": null
     },
     "eng_translation": [
-      "Acne vulgaris",
-      "Common acne",
-      "Follicular acne",
-      "Comedonal acne"
+      "Acne vulgaris"
     ],
     "retriever": {
       "sapbert": {
         "L700": 1.0,
-        "L709": 0.906552,
+        "L709": 0.884626,
         "L702": 0.857474,
         "L705": 0.825391,
-        "L703": 0.798516
+        "L704": 0.773444
       },
       "rapidfuzz": {
         "L700": 1.0,
-        "T485X5A": 0.855,
-        "T485X4A": 0.855,
-        "T485X3S": 0.855,
-        "H10012": 0.855,
-        "H10431": 0.855,
-        "H10432": 0.855,
         "L100": 0.72381,
-        "L400": 0.72381,
-        "P614": 0.642857,
-        "Q2543": 0.642857,
-        "P613": 0.642857
+        "L400": 0.72381
       }
     },
     "candidate": {
@@ -103,7 +91,7 @@
     ],
     "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là [ENTITY] và mụn đầu trắng.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -124,7 +112,7 @@
     ],
     "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và [ENTITY].",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -145,7 +133,7 @@
     ],
     "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên [ENTITY] trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và mụn đầu trắng.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -166,7 +154,7 @@
     ],
     "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm [ENTITY] ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và mụn đầu trắng.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -189,39 +177,12 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": [
-      "Infection",
-      "Infectious process",
-      "Infection without specified site",
-      "Infection, unspecified"
-    ],
+    "eng_translation": [],
     "retriever": {
-      "sapbert": {
-        "B999": 0.916389,
-        "A499": 0.819386,
-        "A419": 0.78894,
-        "B998": 0.772783,
-        "R69": 0.765575
-      },
-      "rapidfuzz": {
-        "B719": 0.95,
-        "B669": 0.95,
-        "B349": 0.95,
-        "T8643": 0.9,
-        "J069": 0.9,
-        "A5400": 0.9,
-        "S52024S": 0.855,
-        "S52024P": 0.855,
-        "S52024K": 0.855,
-        "N9489": 0.855,
-        "S72451R": 0.855,
-        "S72451Q": 0.855
-      }
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    "candidate": {
-      "code": "B999",
-      "confidence": 0.733111
-    }
+    "candidate": null
   },
   {
     "text": "đường",
@@ -239,33 +200,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Diabetes mellitus unspecified",
-      "Unspecified diabetes",
-      "Diabetes mellitus, unspecified type",
-      "Unspecified diabetes mellitus"
+      "Urinary tract infection"
     ],
     "retriever": {
       "sapbert": {
-        "O24919": 0.738319,
-        "R7303": 0.709356,
-        "Z833": 0.698562,
-        "E1165": 0.69816,
-        "O24319": 0.686327
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
       },
       "rapidfuzz": {
-        "O2492": 0.95,
-        "O24911": 0.9,
-        "O24912": 0.9,
-        "O24913": 0.9,
-        "O2493": 0.874603,
-        "S66129D": 0.855,
-        "S63509A": 0.855,
-        "Z9710": 0.855
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
       }
     },
     "candidate": {
-      "code": "O24919",
-      "confidence": 0.590655
+      "code": "N390",
+      "confidence": 0.874628
     }
   },
   {
@@ -310,37 +263,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Osteomyelitis",
-      "Infection of bone marrow",
-      "Bone marrow inflammation",
-      "Acute osteomyelitis"
+      "Osteomyelitis"
     ],
     "retriever": {
       "sapbert": {
         "M869": 0.980384,
         "M868X9": 0.832993,
-        "M8610": 0.827478,
-        "M8600": 0.807123,
-        "T8603": 0.764921
+        "M868X89": 0.721278,
+        "M8620": 0.718941,
+        "M868X0": 0.701727
       },
       "rapidfuzz": {
         "A0105": 0.9,
         "A0224": 0.9,
-        "M86012": 0.9,
-        "M86239": 0.9,
-        "M86241": 0.9,
-        "M86171": 0.9,
-        "T8603": 0.886667,
-        "A0229": 0.855,
-        "Z9716": 0.855,
-        "H95112": 0.855,
-        "H95119": 0.855,
-        "S62323K": 0.855
+        "M86012": 0.9
       }
     },
     "candidate": {
-      "code": "T8603",
-      "confidence": 0.78927
+      "code": "M869",
+      "confidence": 0.904454
     }
   },
   {
@@ -381,32 +322,20 @@
       "tag": null
     },
     "eng_translation": [
-      "Acne vulgaris",
-      "Common acne",
-      "Follicular acne",
-      "Comedonal acne"
+      "Acne vulgaris"
     ],
     "retriever": {
       "sapbert": {
         "L700": 1.0,
-        "L709": 0.906552,
+        "L709": 0.884626,
         "L702": 0.857474,
         "L705": 0.825391,
-        "L703": 0.798516
+        "L704": 0.773444
       },
       "rapidfuzz": {
         "L700": 1.0,
-        "T485X5A": 0.855,
-        "T485X4A": 0.855,
-        "T485X3S": 0.855,
-        "H10012": 0.855,
-        "H10431": 0.855,
-        "H10432": 0.855,
         "L100": 0.72381,
-        "L400": 0.72381,
-        "P614": 0.642857,
-        "Q2543": 0.642857,
-        "P613": 0.642857
+        "L400": 0.72381
       }
     },
     "candidate": {

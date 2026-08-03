@@ -12,7 +12,7 @@
     ],
     "sentence": "Từ năm 24-26 tuổi em có dấu hiệu [ENTITY] (thỉnh thoảng đau và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -33,7 +33,7 @@
     ],
     "sentence": "Từ năm 24-26 tuổi em có dấu hiệu [ENTITY] bao tử (thỉnh thoảng đau và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -67,7 +67,7 @@
     ],
     "sentence": "Từ năm 24-26 tuổi em có dấu hiệu đau bao tử (thỉnh thoảng [ENTITY] và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -88,7 +88,7 @@
     ],
     "sentence": "Thay vào đó em đã chuyển về sống cùng gia đình và ăn uống rất điều độ nên hầu như em không bị [ENTITY] lại nữa.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -109,7 +109,7 @@
     ],
     "sentence": "Đến 21h em bắt đầu [ENTITY] và cơn đau càng dồn đạp đến 12h đêm.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -130,7 +130,7 @@
     ],
     "sentence": "Em thấy không còn bị [ENTITY] như trước và cơ thể cũng có cảm giác khỏe lên.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -151,7 +151,7 @@
     ],
     "sentence": "Đến 21h em bắt đầu đau [ENTITY] râm ran và cơn đau càng dồn đạp đến 12h đêm.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -172,7 +172,7 @@
     ],
     "sentence": "Đến 21h em bắt đầu [ENTITY] bụng râm ran và cơn đau càng dồn đạp đến 12h đêm.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -206,38 +206,28 @@
     ],
     "sentence": "BS nói [ENTITY] không phải là lý do làm em đau và nói khả năng em bị viêm bao tử, có nói do em đang có thai nên không thể dùng thuốc đặc trị được mà chỉ cho thuốc tạm thôi.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "eng_translation": [
-      "Kidney stone",
-      "Nephrolithiasis",
-      "Renal calculus",
-      "Urolithiasis"
+      "Nephrolithiasis"
     ],
     "retriever": {
       "sapbert": {
-        "N200": 0.966716,
-        "N209": 0.841044,
-        "N219": 0.765217,
-        "N201": 0.740864,
-        "N210": 0.739108
+        "N200": 0.861715,
+        "N209": 0.805772,
+        "N219": 0.713575,
+        "N210": 0.692339,
+        "Z1883": 0.662918
       },
       "rapidfuzz": {
-        "J8402": 0.86087,
-        "S37002A": 0.855,
-        "T8610": 0.855,
-        "T8611": 0.855,
-        "Z992": 0.855,
-        "S35495A": 0.855,
-        "S35415S": 0.855,
         "L632": 0.771429,
-        "K115": 0.769231,
+        "J8402": 0.761538,
         "B743": 0.75
       }
     },
     "candidate": {
       "code": "N200",
-      "confidence": 0.773373
+      "confidence": 0.783935
     }
   },
   {
@@ -253,7 +243,7 @@
     ],
     "sentence": "Đến 21h em bắt đầu đau bụng râm ran và cơn [ENTITY] càng dồn đạp đến 12h đêm.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -274,39 +264,28 @@
     ],
     "sentence": "BS nói sỏi thận không phải là lý do làm em đau và nói khả năng em bị [ENTITY], có nói do em đang có thai nên không thể dùng thuốc đặc trị được mà chỉ cho thuốc tạm thôi.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": "isUncertain"
     },
     "eng_translation": [
-      "Peptic ulcer",
-      "Gastric ulcer",
-      "Peptic ulcer disease",
-      "Gastric ulcer disease"
+      "Gastritis"
     ],
     "retriever": {
       "sapbert": {
-        "Z8711": 0.759951,
-        "K279": 0.747297,
-        "K259": 0.726415,
-        "K633": 0.639637,
-        "K30": 0.636065
+        "K2970": 0.749555,
+        "K2971": 0.686647,
+        "K30": 0.677284,
+        "K819": 0.644893,
+        "K2960": 0.630461
       },
       "rapidfuzz": {
-        "Z8711": 0.9,
-        "P7882": 0.9,
-        "K275": 0.9,
-        "K256": 0.9,
-        "K257": 0.9,
-        "K259": 0.9,
-        "M84564A": 0.855,
-        "I69962": 0.855,
-        "E13630": 0.855,
-        "M11071": 0.855,
-        "M11072": 0.855
+        "K2970": 0.9,
+        "K2900": 0.9,
+        "K2930": 0.9
       }
     },
     "candidate": {
-      "code": "Z8711",
-      "confidence": 0.787961
+      "code": "K2970",
+      "confidence": 0.834036
     }
   },
   {
@@ -351,29 +330,25 @@
       "tag": null
     },
     "eng_translation": [
-      "citrate 40 mg",
-      "calcium citrate 40 mg"
+      "alverine citrate 40 mg"
     ],
     "retriever": {
       "sapbert": {
-        "804612": 0.890721,
-        "315520": 0.860181,
-        "331224": 0.843065,
-        "331382": 0.837148,
-        "329624": 0.835186
+        "1293490": 0.857112,
+        "336345": 0.840182,
+        "328722": 0.801932,
+        "331019": 0.798866,
+        "385594": 0.790847
       },
       "rapidfuzz": {
-        "329624": 0.954545,
-        "47613": 0.95,
-        "329626": 0.930233,
-        "2690661": 0.9,
-        "1293490": 0.9,
-        "804612": 0.9
+        "71767": 0.95,
+        "114200": 0.9,
+        "17627": 0.9
       }
     },
     "candidate": {
-      "code": "804612",
-      "confidence": 0.892577
+      "code": "1293490",
+      "confidence": 0.516807
     }
   },
   {
@@ -392,28 +367,20 @@
       "tag": null
     },
     "eng_translation": [
-      "metoclopramide 10 mg",
-      "metoclopramide 10 mg oral solution",
-      "metoclopramide 10 mg tablet",
-      "metoclopramide 10 mg oral suspension"
+      "metoclopramide 10 mg"
     ],
     "retriever": {
       "sapbert": {
         "328464": 1.0,
-        "311666": 0.99679,
         "568051": 0.951524,
         "863584": 0.937846,
-        "104884": 0.935272
+        "334427": 0.833395,
+        "328463": 0.817869
       },
       "rapidfuzz": {
         "328464": 1.0,
         "863584": 0.95,
-        "334427": 0.95,
-        "372883": 0.95,
-        "311666": 0.95,
-        "104884": 0.942857,
-        "316969": 0.9,
-        "6915": 0.9
+        "334427": 0.95
       }
     },
     "candidate": {
@@ -458,35 +425,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Gastroesophageal reflux disease",
-      "GERD",
-      "Esophageal reflux",
-      "Gastric reflux"
+      "Gastroesophageal reflux disease"
     ],
     "retriever": {
       "sapbert": {
         "K219": 0.805945,
         "K2100": 0.736454,
-        "R12": 0.735888,
-        "P7883": 0.71577,
-        "K2101": 0.706403
+        "K2101": 0.706403,
+        "P7883": 0.693847,
+        "R12": 0.67996
       },
       "rapidfuzz": {
-        "P7883": 0.95,
-        "K2101": 0.9,
-        "K2100": 0.9,
+        "K2101": 0.870968,
         "K219": 0.870968,
-        "K31A22": 0.855,
-        "Z4651": 0.855,
-        "T471X1A": 0.855,
-        "M65341": 0.771429,
-        "M65342": 0.771429,
-        "R454": 0.771429
+        "K2100": 0.870968
       }
     },
     "candidate": {
       "code": "K219",
-      "confidence": 0.81895
+      "confidence": 0.882871
     }
   },
   {
@@ -549,38 +506,28 @@
     ],
     "sentence": "Em nên đến bệnh viện để được bác sĩ chuyên khoa tư vấn kĩ hơn về các xét nghiệm/siêu âm/nội soi cần thiết mà không ảnh hưởng đến thai nhi cũng như được tư vấn về chế độ ăn phù hợp, tránh tình trạng nhịn ăn dẫn đến [ENTITY] em nhé.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "eng_translation": [
-      "Gastritis",
-      "Chronic gastritis",
-      "Acute gastritis",
-      "Gastritis unspecified"
+      "Gastritis"
     ],
     "retriever": {
       "sapbert": {
-        "K2900": 0.79039,
-        "K2901": 0.782795,
-        "K2950": 0.779421,
-        "K2970": 0.777139,
-        "K2930": 0.74892
+        "K2970": 0.749555,
+        "K2971": 0.686647,
+        "K30": 0.677284,
+        "K819": 0.644893,
+        "K2960": 0.630461
       },
       "rapidfuzz": {
-        "I776": 0.904762,
         "K2970": 0.9,
         "K2900": 0.9,
-        "K2930": 0.9,
-        "K2951": 0.9,
-        "K2950": 0.9,
-        "K2901": 0.9,
-        "K2971": 0.9,
-        "L98A115": 0.855,
-        "J200": 0.855
+        "K2930": 0.9
       }
     },
     "candidate": {
-      "code": "K2900",
-      "confidence": 0.812312
+      "code": "K2970",
+      "confidence": 0.834036
     }
   }
 ]

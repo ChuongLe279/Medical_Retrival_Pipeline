@@ -1,9 +1,8 @@
 """Convert linked pipeline output to the competition submission schema.
 
-The entity offsets produced earlier in the pipeline refer to the normalized
-test documents.  The competition, however, expects offsets into the original
-``data/test/*.txt`` files.  This module uses an entity's occurrence in the
-normalized document to select the same occurrence in the original document.
+Competition ``position`` values are character offsets into the untouched raw
+test input. The assertion pipeline's separate ``assertion_position`` belongs
+to normalized text and must never be submitted as ``position``.
 """
 
 from __future__ import annotations
@@ -17,8 +16,8 @@ from typing import Any, Iterable
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-JSON_FOLDER = PROJECT_ROOT / "data" / "output_merged_linking"
-TEST_FOLDER = PROJECT_ROOT / "data" / "test"
+JSON_FOLDER = PROJECT_ROOT / "data" / "new_ner_output"
+TEST_FOLDER = PROJECT_ROOT / "data" / "new_test_input"
 FINAL_JSON_FOLDER = PROJECT_ROOT / "data" / "output_merged_validation"
 SUBMISSION_ZIP = PROJECT_ROOT / "data" / "output.zip"
 
@@ -126,7 +125,7 @@ def _occurrence_in_normalized_text(
 
 
 def _format_assertions(entity: dict[str, Any]) -> list[str]:
-    """Apply the rule-based assertion first, then Qwen as a fallback."""
+    """Return one valid assertion, treating null/uncertain as empty."""
 
     assertion_result = entity.get("assertion_result")
     if isinstance(assertion_result, dict):
@@ -136,8 +135,9 @@ def _format_assertions(entity: dict[str, Any]) -> list[str]:
     else:
         raise ValueError(f"Invalid assertion_result: {assertion_result!r}")
 
-    # An uncertain primary result is intentionally empty and must not fall back.
-    if primary == UNCERTAIN_ASSERTION:
+    # A present rule-based result is authoritative. Per submission policy,
+    # both null and isUncertain become an empty assertion list.
+    if isinstance(assertion_result, dict) and primary in (None, UNCERTAIN_ASSERTION):
         return []
 
     selected = primary if primary is not None else entity.get("qwen_assertion")
@@ -157,6 +157,11 @@ def _format_candidates(entity: dict[str, Any]) -> list[str]:
     if not isinstance(candidate, dict) or candidate.get("code") is None:
         raise ValueError(f"Invalid candidate: {candidate!r}")
     return [str(candidate["code"])]
+
+
+def _comparable_entity_text(text: str) -> str:
+    """Normalize harmless raw/normalized differences for span validation."""
+    return " ".join(text.split()).casefold().rstrip(" .?!;:,")
 
 
 def _numeric_json_sort_key(path: Path) -> tuple[int, int | str]:
@@ -181,16 +186,49 @@ def _format_file(entities: Iterable[dict[str, Any]], source_text: str) -> list[d
 
     for index, entity in enumerate(entities):
         try:
-            text = entity["text"]
             entity_type = entity["type"]
             if entity_type not in ALLOWED_TYPES:
                 raise ValueError(f"Unsupported entity type: {entity_type!r}")
 
-            occurrence = _occurrence_in_normalized_text(
-                text,
-                normalized_text,
-                entity.get("position"),
-            )
+            position = entity.get("position")
+            if (
+                not isinstance(position, (list, tuple))
+                or len(position) != 2
+                or not all(isinstance(value, int) and not isinstance(value, bool) for value in position)
+            ):
+                raise ValueError(f"Invalid raw position: {position!r}")
+            start, end = position
+            if start < 0 or end <= start or end > len(source_text):
+                raise ValueError(
+                    f"Raw position {[start, end]} is outside document length {len(source_text)}"
+                )
+
+            recorded_text = entity.get("text")
+            if not isinstance(recorded_text, str) or not recorded_text:
+                raise ValueError(f"Invalid entity text: {recorded_text!r}")
+
+            raw_text = source_text[start:end]
+            if _comparable_entity_text(recorded_text) == _comparable_entity_text(raw_text):
+                output_position = [start, end]
+            else:
+                # Backward compatibility for linked files generated before
+                # ``position`` was switched to raw offsets. Use the normalized
+                # assertion span to identify the occurrence, then map it back.
+                normalized_position = entity.get("assertion_position", position)
+                occurrence = _occurrence_in_normalized_text(
+                    recorded_text,
+                    normalized_text,
+                    normalized_position,
+                )
+                output_position = calculate_position(
+                    recorded_text,
+                    source_text,
+                    occurrence=occurrence,
+                )
+
+            # Submission text must exactly match the submitted raw span.
+            start, end = output_position
+            text = source_text[start:end]
             output: dict[str, Any] = {
                 "text": text,
                 "type": entity_type,
@@ -199,11 +237,7 @@ def _format_file(entities: Iterable[dict[str, Any]], source_text: str) -> list[d
                 output["candidates"] = _format_candidates(entity)
             if entity_type in ASSERTION_TYPES:
                 output["assertions"] = _format_assertions(entity)
-            output["position"] = calculate_position(
-                text,
-                source_text,
-                occurrence=occurrence,
-            )
+            output["position"] = output_position
             formatted.append(output)
         except (KeyError, TypeError, ValueError) as exc:
             raise ValueError(f"entity[{index}]: {exc}") from exc

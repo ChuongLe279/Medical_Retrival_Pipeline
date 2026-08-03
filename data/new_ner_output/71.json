@@ -12,38 +12,28 @@
     ],
     "sentence": "Không xác nhận đã bị [ENTITY] trước đó, và không xác nhận có ý định tự tử.",
     "assertion_result": {
-      "tag": null
+      "tag": "isUncertain"
     },
     "eng_translation": [
-      "Depressive disorder",
-      "Major depressive episode",
-      "Clinical depression",
-      "Depression"
+      "Depressive disorder"
     ],
     "retriever": {
       "sapbert": {
-        "F32A": 0.968795,
-        "F329": 0.815084,
-        "F339": 0.755196,
+        "F32A": 0.871937,
         "F39": 0.729299,
-        "F0631": 0.710479
+        "F0631": 0.710479,
+        "F329": 0.707575,
+        "F341": 0.681379
       },
       "rapidfuzz": {
         "F329": 0.9,
         "F330": 0.9,
-        "F331": 0.9,
-        "Z1331": 0.9,
-        "Z1332": 0.9,
-        "P914": 0.9,
-        "M89779": 0.855,
-        "M89759": 0.855,
-        "M89761": 0.855,
-        "Z006": 0.855
+        "F331": 0.9
       }
     },
     "candidate": {
-      "code": "F329",
-      "confidence": 0.832067
+      "code": "F32A",
+      "confidence": 0.806139
     }
   },
   {
@@ -62,37 +52,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Pulmonary embolism",
-      "Pulmonary thromboembolism",
-      "Thromboembolism of lung",
-      "Acute pulmonary embolism"
+      "Pulmonary embolism"
     ],
     "retriever": {
       "sapbert": {
-        "J810": 0.760515,
-        "O88219": 0.737306,
         "I2782": 0.730659,
-        "O8822": 0.728217,
-        "O8823": 0.706717
+        "O047": 0.686062,
+        "Z86711": 0.684785,
+        "O037": 0.672976,
+        "O082": 0.67138
       },
       "rapidfuzz": {
         "I2782": 0.95,
         "I2693": 0.9,
-        "I2601": 0.9,
-        "S25401S": 0.855,
-        "S25402A": 0.855,
-        "S25401D": 0.855,
-        "T24121D": 0.855,
-        "S76809D": 0.855,
-        "S76809A": 0.855,
-        "J0380": 0.855,
-        "H04019": 0.855,
-        "H04013": 0.855
+        "I2601": 0.9
       }
     },
     "candidate": {
       "code": "I2782",
-      "confidence": 0.774527
+      "confidence": 0.824283
     }
   },
   {
@@ -111,37 +89,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Infection of limb",
-      "Limb infection",
-      "Infectious limb condition",
-      "Infection involving limb"
+      "Limb infection"
     ],
     "retriever": {
       "sapbert": {
-        "M60005": 0.751318,
-        "L03119": 0.746903,
-        "M60069": 0.702968,
-        "M60002": 0.701001,
-        "T8740": 0.699076
+        "L03119": 0.742212,
+        "M60005": 0.68631,
+        "T8740": 0.683649,
+        "A419": 0.682853,
+        "B999": 0.666694
       },
       "rapidfuzz": {
-        "T871X1": 0.855,
-        "T8731": 0.855,
-        "T8730": 0.855,
         "L02436": 0.855,
         "A049": 0.855,
-        "C84A4": 0.855,
-        "F29": 0.855,
-        "C8515": 0.855,
-        "C8514": 0.855,
-        "A043": 0.855,
-        "Y36300D": 0.855,
-        "Y36300A": 0.855
+        "C84A4": 0.855
       }
     },
     "candidate": {
-      "code": "M60005",
-      "confidence": 0.601054
+      "code": "L03119",
+      "confidence": 0.676376
     }
   },
   {
@@ -160,30 +126,16 @@
       "tag": null
     },
     "eng_translation": [
-      "vancomycin",
-      "vancomycin 500 mg",
-      "vancomycin iv",
-      "vancomycin 1000 mg iv"
+      "vancomycin"
     ],
     "retriever": {
       "sapbert": {
-        "1807515": 1.0,
-        "11124": 1.0,
-        "1807513": 0.955088,
-        "2049887": 0.913804,
-        "328784": 0.887465
+        "11124": 1.0
       },
       "rapidfuzz": {
         "11124": 1.0,
-        "1807515": 1.0,
-        "2049889": 0.971429,
-        "1807512": 0.95,
-        "1807517": 0.941176,
         "2387078": 0.9,
-        "2118449": 0.9,
-        "342893": 0.878049,
-        "1160499": 0.864,
-        "1807507": 0.864
+        "2118449": 0.9
       }
     },
     "candidate": {
@@ -204,7 +156,7 @@
     ],
     "sentence": "Chào em, đọc mô tả của em mình có một số câu hỏi sau: Từ khi phát hiện đến nay em có thường xuyên theo dõi tình trạng [ENTITY] em hay không?",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -225,7 +177,7 @@
     ],
     "sentence": "Chào em, đọc mô tả của em mình có một số câu hỏi sau: Từ khi phát hiện đến nay em có thường xuyên theo dõi tình trạng [ENTITY] ở vùng lưng em hay không?",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -246,40 +198,28 @@
     ],
     "sentence": "Sau khi phát hiện em điều trị bằng thuốc [ENTITY] có thấy tình trạng bệnh xấu đi không hay là vẫn như cũ?",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "eng_translation": [
-      "Hirsutism cyst",
-      "Hair follicle cyst",
-      "Trichilemmal cyst",
-      "Epidermoid cyst of hair follicle"
+      "Folliculitis"
     ],
     "retriever": {
       "sapbert": {
-        "L7212": 0.876654,
-        "L720": 0.788683,
-        "L7211": 0.783899,
-        "L729": 0.766874,
-        "L723": 0.7411
+        "L662": 0.777202,
+        "L709": 0.689754,
+        "L700": 0.659053,
+        "L739": 0.640307,
+        "L03213": 0.637262
       },
       "rapidfuzz": {
-        "L680": 0.9,
-        "H21273": 0.855,
-        "H21271": 0.855,
-        "B432": 0.855,
-        "H21332": 0.855,
-        "Q842": 0.855,
-        "H35342": 0.855,
-        "H35343": 0.855,
-        "H35349": 0.855,
-        "T2054XA": 0.855,
-        "T2056XD": 0.855,
-        "T2056XS": 0.855
+        "L731": 0.9,
+        "L664": 0.9,
+        "L663": 0.9
       }
     },
     "candidate": {
-      "code": "L7212",
-      "confidence": 0.701323
+      "code": "L662",
+      "confidence": 0.712599
     }
   },
   {
@@ -295,7 +235,7 @@
     ],
     "sentence": "Từ nhỏ đến giờ tình trạng [ENTITY] ấy xuất hiện nhiều lần hay chỉ một lần và thường trong hoàn cảnh nào em phát hiện nó?",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -361,34 +301,24 @@
       "tag": null
     },
     "eng_translation": [
-      "psoriasis",
-      "psoriatic disease",
-      "psoriasis vulgaris",
-      "chronic plaque psoriasis"
+      "Psoriasis"
     ],
     "retriever": {
       "sapbert": {
-        "L400": 1.0,
         "L409": 0.976724,
-        "L4050": 0.824604,
-        "L4052": 0.795179,
-        "L401": 0.783529
+        "L400": 0.940103,
+        "L4050": 0.761785,
+        "L401": 0.739282,
+        "L404": 0.715488
       },
       "rapidfuzz": {
-        "L400": 1.0,
         "L4050": 0.9,
-        "L409": 0.9,
-        "P379": 0.855,
-        "M84633S": 0.855,
-        "M84633P": 0.855,
-        "L401": 0.855,
-        "M1A0491": 0.855,
-        "L97209": 0.855,
-        "L97208": 0.855
+        "L400": 0.9,
+        "L409": 0.9
       }
     },
     "candidate": {
-      "code": "L400",
+      "code": "L409",
       "confidence": 1.0
     }
   }

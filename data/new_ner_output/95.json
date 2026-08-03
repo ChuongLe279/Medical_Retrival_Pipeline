@@ -15,37 +15,25 @@
       "tag": "isFamily"
     },
     "eng_translation": [
-      "gout",
-      "hyperuricemia with acute arthritis",
-      "acute inflammatory arthritis due to urate crystals",
-      "gouty arthritis"
+      "Gout"
     ],
     "retriever": {
       "sapbert": {
         "M109": 0.97747,
         "M1000": 0.845624,
-        "E790": 0.803774,
         "M1009": 0.739016,
-        "M10069": 0.726942
+        "M1020": 0.72526,
+        "M10069": 0.685732
       },
       "rapidfuzz": {
         "M109": 0.9,
         "M10421": 0.9,
-        "M10422": 0.9,
-        "S82832E": 0.855,
-        "O3680X9": 0.855,
-        "S72121H": 0.855,
-        "O355XX0": 0.855,
-        "A0104": 0.855,
-        "A060": 0.855,
-        "M05549": 0.855,
-        "M05522": 0.855,
-        "M05459": 0.855
+        "M10422": 0.9
       }
     },
     "candidate": {
       "code": "M109",
-      "confidence": 0.961976
+      "confidence": 1.0
     }
   },
   {
@@ -61,7 +49,7 @@
     ],
     "sentence": "Chào bác sĩ, ông em năm nay 70 tuổi, bị bệnh gút hai năm nay, cũng điều trị mấy tháng khỏi đau rồi không uống thuốc nữa, mà gần đây xuất hiện hạt nhỏ màu trắng trên [ENTITY] chỗ mấy khớp ngón tay với ngón chân.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -82,40 +70,28 @@
     ],
     "sentence": "Với những mô tả của bạn thì ông bạn đã bị bệnhgout, dạo gần đây không điều trị thường xuyên, và hình thành những hạt nhỏ ở vùng khớp như hình ảnh, đây là hạt tophi trong [ENTITY].",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "eng_translation": [
-      "Chronic gout",
-      "Chronic gout disease",
-      "Chronic hyperuricemia with gout",
-      "Long-standing gout"
+      "Chronic gout"
     ],
     "retriever": {
       "sapbert": {
-        "E790": 0.840615,
         "M1A9XX0": 0.820199,
         "M1000": 0.809269,
         "M1A00X0": 0.785348,
-        "M109": 0.778763
+        "M109": 0.778763,
+        "M1009": 0.771223
       },
       "rapidfuzz": {
         "M1A1521": 0.9,
         "M1A2120": 0.9,
-        "M1A1311": 0.9,
-        "M84561P": 0.855,
-        "M84542G": 0.855,
-        "M84542D": 0.855,
-        "V174XXA": 0.855,
-        "S06317A": 0.855,
-        "S92501P": 0.855,
-        "M10169": 0.855,
-        "V00842A": 0.855,
-        "V00841S": 0.855
+        "M1A1311": 0.9
       }
     },
     "candidate": {
-      "code": "E790",
-      "confidence": 0.672492
+      "code": "M1A9XX0",
+      "confidence": 0.739819
     }
   },
   {
@@ -173,40 +149,28 @@
     ],
     "sentence": "Với những mô tả của bạn thì ông bạn đã bị bệnh[ENTITY], dạo gần đây không điều trị thường xuyên, và hình thành những hạt nhỏ ở vùng khớp như hình ảnh, đây là hạt tophi trong bệnh gout mạn tính.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": null
     },
     "eng_translation": [
-      "Gout",
-      "Hyperuricemia",
-      "Acute gouty arthritis",
-      "Gouty arthritis"
+      "Gout"
     ],
     "retriever": {
       "sapbert": {
         "M109": 0.97747,
-        "R82993": 0.878489,
         "M1000": 0.845624,
         "M1009": 0.739016,
-        "M10069": 0.726942
+        "M1020": 0.72526,
+        "M10069": 0.685732
       },
       "rapidfuzz": {
         "M109": 0.9,
         "M10421": 0.9,
-        "M10422": 0.9,
-        "E790": 0.9,
-        "K0501": 0.855,
-        "M0000": 0.855,
-        "A1802": 0.855,
-        "M05549": 0.855,
-        "M05522": 0.855,
-        "M05459": 0.855,
-        "R82993": 0.785714,
-        "E8352": 0.769231
+        "M10422": 0.9
       }
     },
     "candidate": {
       "code": "M109",
-      "confidence": 0.961976
+      "confidence": 1.0
     }
   },
   {
@@ -243,40 +207,28 @@
     ],
     "sentence": "[ENTITY].",
     "assertion_result": {
-      "tag": "isUncertain"
+      "tag": "isHistorical"
     },
     "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes mellitus",
-      "Non-insulin-dependent diabetes mellitus",
-      "Common diabetes"
+      "Diabetes mellitus"
     ],
     "retriever": {
       "sapbert": {
-        "E1165": 0.844191,
-        "P702": 0.787525,
-        "E119": 0.736971,
-        "Z833": 0.724102,
-        "E118": 0.723496
+        "R7303": 0.712752,
+        "Z833": 0.706901,
+        "O24919": 0.682559,
+        "E1165": 0.682321,
+        "P702": 0.664486
       },
       "rapidfuzz": {
         "E103523": 0.9,
         "E103592": 0.9,
-        "E103591": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9,
-        "E1169": 0.9,
-        "I69153": 0.855,
-        "E133541": 0.855,
-        "E133539": 0.855,
-        "E083519": 0.855,
-        "J00": 0.855,
-        "O2433": 0.855
+        "E103591": 0.9
       }
     },
     "candidate": {
-      "code": "E1165",
-      "confidence": 0.675353
+      "code": "R7303",
+      "confidence": 0.642354
     }
   },
   {
@@ -292,40 +244,28 @@
     ],
     "sentence": "[ENTITY].",
     "assertion_result": {
-      "tag": "isUncertain"
+      "tag": "isHistorical"
     },
     "eng_translation": [
-      "Elevated blood pressure",
-      "Hypertension",
-      "High blood pressure",
-      "HTN"
+      "Hypertension"
     ],
     "retriever": {
       "sapbert": {
         "I10": 0.805703,
         "I159": 0.743498,
-        "I160": 0.699688,
-        "R030": 0.694782,
-        "I169": 0.692033
+        "I160": 0.689331,
+        "I150": 0.684921,
+        "I169": 0.681309
       },
       "rapidfuzz": {
-        "R030": 0.9,
         "H40052": 0.9,
         "H40053": 0.9,
-        "H40051": 0.9,
-        "L89816": 0.855,
-        "D72829": 0.855,
-        "L98A214": 0.855,
-        "S3599XS": 0.855,
-        "L98A298": 0.855,
-        "R636": 0.72,
-        "R29890": 0.72,
-        "E663": 0.72
+        "H40051": 0.9
       }
     },
     "candidate": {
-      "code": "R030",
-      "confidence": 0.735826
+      "code": "I10",
+      "confidence": 0.734463
     }
   },
   {
@@ -341,40 +281,28 @@
     ],
     "sentence": "[ENTITY].",
     "assertion_result": {
-      "tag": "isUncertain"
+      "tag": "isHistorical"
     },
     "eng_translation": [
-      "Obesity",
-      "Overweight",
-      "Excessive body weight",
-      "Adiposity"
+      "Obesity"
     ],
     "retriever": {
       "sapbert": {
-        "E663": 1.0,
         "E669": 0.985618,
+        "E663": 0.883644,
         "E66811": 0.865016,
         "E66813": 0.861392,
         "E66812": 0.832182
       },
       "rapidfuzz": {
-        "E663": 1.0,
         "E8882": 0.9,
         "O99211": 0.9,
-        "Z152": 0.9,
-        "E65": 0.9,
-        "T148XXA": 0.855,
-        "S41142D": 0.855,
-        "S41142A": 0.855,
-        "R636": 0.761905,
-        "O2601": 0.72,
-        "QA1798": 0.7,
-        "K036": 0.675
+        "Z152": 0.9
       }
     },
     "candidate": {
-      "code": "E663",
-      "confidence": 1.0
+      "code": "E669",
+      "confidence": 0.902352
     }
   },
   {
@@ -390,7 +318,7 @@
     ],
     "sentence": "[ENTITY] khi ngủ do tắc nghẽn.",
     "assertion_result": {
-      "tag": null
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -411,35 +339,23 @@
     ],
     "sentence": "[ENTITY].",
     "assertion_result": {
-      "tag": "isUncertain"
+      "tag": "isHistorical"
     },
     "eng_translation": [
-      "Acetaminophen",
-      "Tylenol",
-      "APAP",
-      "Acetaminophen 325 mg tablet"
+      "Tylenol"
     ],
     "retriever": {
       "sapbert": {
-        "161": 1.0,
         "202433": 1.0,
-        "313782": 0.995208,
-        "707705": 0.97086,
-        "352523": 0.894457
+        "352523": 0.894457,
+        "220582": 0.889741,
+        "220573": 0.884246,
+        "2623416": 0.879626
       },
       "rapidfuzz": {
-        "161": 1.0,
         "202433": 1.0,
-        "315270": 0.95,
-        "332815": 0.95,
         "220581": 0.95,
-        "1358837": 0.95,
-        "1235462": 0.95,
-        "2264779": 0.95,
-        "209459": 0.9,
-        "665056": 0.9,
-        "425723": 0.9,
-        "422626": 0.9
+        "209459": 0.9
       }
     },
     "candidate": {
@@ -460,36 +376,28 @@
     ],
     "sentence": "[ENTITY].",
     "assertion_result": {
-      "tag": "isUncertain"
+      "tag": "isHistorical"
     },
     "eng_translation": [
-      "Mucinex D 12hr",
-      "Guaifenesin Pseudoephedrine",
-      "Mucinex D",
-      "Guaifenesin Pseudoephedrine 600mg/30mg"
+      "Mucinex D"
     ],
     "retriever": {
       "sapbert": {
         "2388175": 1.0,
-        "214599": 0.892601,
         "352777": 0.891874,
         "669103": 0.851699,
-        "2388176": 0.83803
+        "2388176": 0.83803,
+        "728573": 0.824803
       },
       "rapidfuzz": {
-        "214599": 1.0,
         "352777": 0.95,
-        "1159127": 0.95,
-        "5032": 0.9,
-        "705895": 0.855,
-        "2661061": 0.855,
         "1011087": 0.855,
         "1011086": 0.855
       }
     },
     "candidate": {
-      "code": "214599",
-      "confidence": 0.914081
+      "code": "352777",
+      "confidence": 0.924624
     }
   },
   {
@@ -505,32 +413,14 @@
     ],
     "sentence": "thỉnh thoảng [ENTITY] chảy các thuốc của ông ấy.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": "isHistorical"
     },
-    "eng_translation": [
-      "Acute appendicitis with perforation",
-      "Perforated appendicitis"
-    ],
+    "eng_translation": [],
     "retriever": {
-      "sapbert": {
-        "K3533": 0.821772,
-        "K3532": 0.818078,
-        "K35211": 0.799282,
-        "K35201": 0.787726,
-        "K35219": 0.786583
-      },
-      "rapidfuzz": {
-        "K3532": 0.9,
-        "K3533": 0.9,
-        "E083393": 0.855,
-        "K3530": 0.855,
-        "K3531": 0.855
-      }
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    "candidate": {
-      "code": "K3533",
-      "confidence": 0.837418
-    }
+    "candidate": null
   },
   {
     "text": "chảy",
@@ -545,7 +435,7 @@
     ],
     "sentence": "thỉnh thoảng tiêu [ENTITY] các thuốc của ông ấy.",
     "assertion_result": {
-      "tag": "isFamily"
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},

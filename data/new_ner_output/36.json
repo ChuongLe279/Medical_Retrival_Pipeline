@@ -35,27 +35,12 @@
     "assertion_result": {
       "tag": "isHistorical"
     },
-    "eng_translation": [
-      "Hội chứng"
-    ],
+    "eng_translation": [],
     "retriever": {
-      "sapbert": {
-        "E5111": 0.555515,
-        "E5112": 0.551051,
-        "A8181": 0.528181,
-        "R066": 0.526034,
-        "G4451": 0.501304
-      },
-      "rapidfuzz": {
-        "F070": 0.6,
-        "W9439XS": 0.6,
-        "W9429XS": 0.6
-      }
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    "candidate": {
-      "code": "E5111",
-      "confidence": 0.444412
-    }
+    "candidate": null
   },
   {
     "text": "thận hư",
@@ -73,37 +58,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Kidney deficiency",
-      "Renal insufficiency",
-      "Kidney weakness",
-      "Chronic kidney dysfunction"
+      "Nephrotic syndrome"
     ],
     "retriever": {
       "sapbert": {
-        "N189": 0.907616,
-        "N19": 0.852947,
-        "N039": 0.796399,
-        "N186": 0.793749,
-        "P960": 0.742307
+        "N049": 0.92409,
+        "N040": 0.814643,
+        "N048": 0.80514,
+        "N041": 0.760244,
+        "N046": 0.725299
       },
       "rapidfuzz": {
-        "R531": 0.9,
-        "S37011D": 0.855,
-        "N170": 0.855,
-        "N171": 0.855,
-        "M1A3510": 0.855,
-        "M1A3120": 0.855,
-        "M1A3111": 0.855,
-        "Y622": 0.855,
-        "N07B": 0.855,
-        "M86639": 0.855,
-        "H402290": 0.855,
-        "H402291": 0.855
+        "N040": 0.9,
+        "N041": 0.9,
+        "N0420": 0.9
       }
     },
     "candidate": {
-      "code": "N189",
-      "confidence": 0.726093
+      "code": "N049",
+      "confidence": 0.848098
     }
   },
   {
@@ -203,7 +176,7 @@
     ],
     "sentence": "Hiện tại hết [ENTITY], còn phù nhẹ 2 chi dưới.",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -287,37 +260,25 @@
       "tag": "isNegated"
     },
     "eng_translation": [
-      "Chronic kidney disease",
-      "Kidney failure",
-      "Renal insufficiency",
-      "End-stage renal disease"
+      "Renal failure"
     ],
     "retriever": {
       "sapbert": {
-        "N186": 0.997678,
-        "N189": 0.982146,
-        "N19": 0.980992,
-        "N179": 0.799021,
-        "N039": 0.781739
+        "N19": 0.93467,
+        "N179": 0.75937,
+        "N186": 0.725589,
+        "T8612": 0.699954,
+        "P960": 0.696078
       },
       "rapidfuzz": {
-        "N186": 1.0,
-        "D631": 0.95,
-        "N181": 0.95,
-        "N1831": 0.95,
-        "N19": 0.9,
-        "N990": 0.9,
-        "N179": 0.9,
-        "I1311": 0.9,
-        "I132": 0.9,
-        "M1A3510": 0.855,
-        "M1A3120": 0.855,
-        "M1A3111": 0.855
+        "O0732": 0.9,
+        "P960": 0.9,
+        "O084": 0.9
       }
     },
     "candidate": {
-      "code": "N186",
-      "confidence": 0.998142
+      "code": "N19",
+      "confidence": 0.867498
     }
   },
   {
@@ -440,37 +401,25 @@
       "tag": "isNegated"
     },
     "eng_translation": [
-      "Pharyngitis",
-      "Inflammation of pharynx",
-      "Acute pharyngitis",
-      "Pharyngitis due to viral infection"
+      "Pharyngitis"
     ],
     "retriever": {
       "sapbert": {
-        "J029": 0.985637,
-        "J060": 0.80576,
-        "J00": 0.801809,
+        "J029": 0.813456,
         "R070": 0.75023,
-        "A564": 0.745258
+        "J312": 0.689576,
+        "J020": 0.667568,
+        "A564": 0.653022
       },
       "rapidfuzz": {
-        "J040": 0.909091,
         "B085": 0.9,
         "A5003": 0.9,
-        "J020": 0.9,
-        "J028": 0.9,
-        "J029": 0.9,
-        "T23332D": 0.855,
-        "T23329D": 0.855,
-        "T23329A": 0.855,
-        "H47522": 0.855,
-        "A0819": 0.855,
-        "S61310D": 0.855
+        "J020": 0.9
       }
     },
     "candidate": {
       "code": "J029",
-      "confidence": 0.96851
+      "confidence": 0.741594
     }
   },
   {
@@ -486,40 +435,28 @@
     ],
     "sentence": "Tiền sử: Không có viêm họng cấp, [ENTITY] ngoài da trong 1 tháng trước khi vào viện.",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "eng_translation": [
-      "Infection",
-      "Infectious process",
-      "Infection without specified site",
-      "Infection, unspecified"
+      "Infection"
     ],
     "retriever": {
       "sapbert": {
-        "B999": 0.916389,
-        "A499": 0.819386,
-        "A419": 0.78894,
-        "B998": 0.772783,
-        "R69": 0.765575
+        "B999": 0.860331,
+        "A499": 0.772018,
+        "A419": 0.756399,
+        "B998": 0.752882,
+        "R69": 0.746258
       },
       "rapidfuzz": {
-        "B719": 0.95,
-        "B669": 0.95,
-        "B349": 0.95,
         "T8643": 0.9,
         "J069": 0.9,
-        "A5400": 0.9,
-        "S52024S": 0.855,
-        "S52024P": 0.855,
-        "S52024K": 0.855,
-        "N9489": 0.855,
-        "S72451R": 0.855,
-        "S72451Q": 0.855
+        "A5400": 0.9
       }
     },
     "candidate": {
       "code": "B999",
-      "confidence": 0.733111
+      "confidence": 0.787545
     }
   },
   {
@@ -538,37 +475,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Chronic glomerulonephritis",
-      "Chronic kidney disease - glomerular cause",
-      "Chronic glomerular nephropathy",
-      "Chronic renal disease with glomerular involvement"
+      "Chronic glomerulonephritis"
     ],
     "retriever": {
       "sapbert": {
-        "N189": 0.86787,
-        "N030": 0.765797,
+        "N030": 0.765249,
         "N039": 0.750315,
-        "N031": 0.730932,
-        "N119": 0.718904
+        "N189": 0.74563,
+        "N119": 0.715406,
+        "N035": 0.695925
       },
       "rapidfuzz": {
         "L97504": 0.855,
         "L98A295": 0.855,
-        "L98A294": 0.855,
-        "M84559K": 0.855,
-        "M84563G": 0.855,
-        "M84563D": 0.855,
-        "M86531": 0.855,
-        "H61023": 0.855,
-        "M1A2221": 0.855,
-        "S72099D": 0.855,
-        "S72092K": 0.855,
-        "S72092J": 0.855
+        "L98A294": 0.855
       }
     },
     "candidate": {
-      "code": "N189",
-      "confidence": 0.694296
+      "code": "N030",
+      "confidence": 0.690964
     }
   },
   {
@@ -587,37 +512,25 @@
       "tag": "isUncertain"
     },
     "eng_translation": [
-      "Nephrotic syndrome",
-      "Nephrotic syndrome unspecified",
-      "Nephrotic syndrome without renal failure",
-      "Nephrotic syndrome with edema"
+      "Nephrotic syndrome"
     ],
     "retriever": {
       "sapbert": {
-        "N049": 0.943422,
-        "N040": 0.856826,
-        "N048": 0.807939,
-        "N041": 0.767312,
-        "N0421": 0.730983
+        "N049": 0.92409,
+        "N040": 0.814643,
+        "N048": 0.80514,
+        "N041": 0.760244,
+        "N046": 0.725299
       },
       "rapidfuzz": {
         "N040": 0.9,
         "N041": 0.9,
-        "N0420": 0.9,
-        "G839": 0.866667,
-        "F13931": 0.855,
-        "S0010XS": 0.855,
-        "N8041": 0.855,
-        "E089": 0.855,
-        "K31A13": 0.855,
-        "O3514X9": 0.855,
-        "T80A11D": 0.855,
-        "T80A11S": 0.855
+        "N0420": 0.9
       }
     },
     "candidate": {
-      "code": "N040",
-      "confidence": 0.865461
+      "code": "N049",
+      "confidence": 0.848098
     }
   },
   {
@@ -670,32 +583,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Medrol 16 mg",
-      "Methylprednisolone 16 mg",
-      "Methylprednisolone 16 mg tablet",
-      "Methylprednisolone 16 mg oral tablet"
+      "Medrol 16 mg"
     ],
     "retriever": {
       "sapbert": {
-        "328161": 1.0,
-        "317426": 1.0,
-        "207138": 0.971738,
-        "567929": 0.971627,
-        "316287": 0.872539
+        "317426": 0.928539,
+        "567929": 0.92446,
+        "316287": 0.802992,
+        "1744015": 0.771423,
+        "2262710": 0.765563
       },
       "rapidfuzz": {
-        "317426": 1.0,
-        "328161": 1.0,
-        "199771": 0.958904,
-        "567929": 0.95,
         "207138": 0.9,
         "202702": 0.9,
         "2743351": 0.855
       }
     },
     "candidate": {
-      "code": "328161",
-      "confidence": 1.0
+      "code": "317426",
+      "confidence": 0.557735
     }
   },
   {
@@ -748,31 +654,24 @@
       "tag": null
     },
     "eng_translation": [
-      "Zestril 10 mg",
-      "lisinopril 10 mg",
-      "lisinopril 10 mg tablet"
+      "Zestril 10 mg"
     ],
     "retriever": {
       "sapbert": {
-        "316151": 1.0,
-        "314076": 0.997183,
-        "563611": 0.962945,
-        "567576": 0.960589,
-        "316153": 0.871199
+        "563611": 0.847223,
+        "316151": 0.829997,
+        "857165": 0.80361,
+        "315925": 0.786154,
+        "316627": 0.778017
       },
       "rapidfuzz": {
-        "316151": 1.0,
-        "314076": 0.95,
-        "316153": 0.9375,
-        "316154": 0.9375,
         "196472": 0.9,
-        "104377": 0.9,
-        "29046": 0.9
+        "104377": 0.9
       }
     },
     "candidate": {
-      "code": "316151",
-      "confidence": 1.0
+      "code": "563611",
+      "confidence": 0.510918
     }
   }
 ]

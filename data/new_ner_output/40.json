@@ -175,36 +175,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Hypertensive heart disease with heart failure",
-      "Hypertensive heart disease with left ventricular hypertrophy",
-      "Hypertensive heart disease with complications",
-      "Hypertensive heart disease with acute decompensated heart failure"
+      "Gastrointestinal hemorrhage"
     ],
     "retriever": {
       "sapbert": {
-        "I110": 0.999999,
-        "I119": 0.868523,
-        "I130": 0.801815,
-        "I132": 0.800954,
-        "I2722": 0.780997
+        "K922": 0.981978,
+        "K920": 0.714228,
+        "K9421": 0.684806,
+        "D699": 0.622076,
+        "K2971": 0.613371
       },
       "rapidfuzz": {
-        "I110": 1.0,
-        "I119": 0.967742,
-        "S31623A": 0.855,
-        "S42031K": 0.855,
-        "R1012": 0.855,
-        "R10814": 0.855,
-        "T3164": 0.855,
-        "T3165": 0.855,
-        "T3166": 0.855,
-        "S62252K": 0.855,
-        "S62252G": 0.855
+        "K922": 0.95,
+        "P543": 0.9,
+        "H9541": 0.855
       }
     },
     "candidate": {
-      "code": "I110",
-      "confidence": 0.999999
+      "code": "K922",
+      "confidence": 1.0
     }
   },
   {
@@ -236,27 +225,20 @@
       "tag": null
     },
     "eng_translation": [
-      "Vitamin K",
-      "Vitamin K1",
-      "Phytonadione",
-      "Vit K"
+      "vitamin K"
     ],
     "retriever": {
       "sapbert": {
-        "8308": 1.0,
-        "1551675": 1.0,
         "11258": 1.0,
         "1458226": 1.0,
-        "1551674": 1.0
+        "1551674": 1.0,
+        "8308": 0.928084,
+        "42781": 0.915122
       },
       "rapidfuzz": {
         "11258": 1.0,
-        "8308": 1.0,
         "42781": 0.95,
-        "312424": 0.9,
-        "333831": 0.855,
-        "834061": 0.855,
-        "834102": 0.855
+        "8308": 0.95
       }
     },
     "candidate": {
@@ -384,7 +366,7 @@
     ],
     "sentence": "Không phù, không xuất [ENTITY].",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -528,37 +510,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Gastrointestinal bleeding",
-      "Hemorrhage, unspecified site",
-      "Bleeding, digestive tract",
       "Gastrointestinal hemorrhage"
     ],
     "retriever": {
       "sapbert": {
         "K922": 0.981978,
-        "D699": 0.861177,
-        "R58": 0.804066,
-        "K920": 0.717562,
-        "K9421": 0.684806
+        "K920": 0.714228,
+        "K9421": 0.684806,
+        "D699": 0.622076,
+        "K2971": 0.613371
       },
       "rapidfuzz": {
         "K922": 0.95,
         "P543": 0.9,
-        "H05239": 0.862069,
-        "K2990": 0.855,
-        "K2991": 0.855,
-        "K31811": 0.855,
-        "S93139S": 0.855,
-        "S52136E": 0.855,
-        "C7880": 0.855,
-        "O99612": 0.855,
-        "O99611": 0.855,
         "H9541": 0.855
       }
     },
     "candidate": {
       "code": "K922",
-      "confidence": 0.975582
+      "confidence": 1.0
     }
   },
   {
@@ -590,27 +560,20 @@
       "tag": null
     },
     "eng_translation": [
-      "Vitamin K",
-      "Vitamin K1",
-      "Phytonadione",
-      "Vit K"
+      "vitamin K"
     ],
     "retriever": {
       "sapbert": {
-        "8308": 1.0,
-        "1551675": 1.0,
         "11258": 1.0,
         "1458226": 1.0,
-        "1551674": 1.0
+        "1551674": 1.0,
+        "8308": 0.928084,
+        "42781": 0.915122
       },
       "rapidfuzz": {
         "11258": 1.0,
-        "8308": 1.0,
         "42781": 0.95,
-        "312424": 0.9,
-        "333831": 0.855,
-        "834061": 0.855,
-        "834102": 0.855
+        "8308": 0.95
       }
     },
     "candidate": {
@@ -647,37 +610,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Pneumonia",
-      "Infection of lung",
-      "Lung infection",
-      "Pneumonia, unspecified"
+      "Pneumonia"
     ],
     "retriever": {
       "sapbert": {
-        "J189": 0.964508,
-        "J159": 0.845792,
-        "J129": 0.806214,
-        "J188": 0.793173,
-        "J181": 0.791288
+        "J189": 0.95392,
+        "J159": 0.839622,
+        "J129": 0.787309,
+        "J181": 0.781404,
+        "J188": 0.781283
       },
       "rapidfuzz": {
-        "J159": 0.95,
-        "J129": 0.95,
-        "J189": 0.95,
         "A0103": 0.9,
         "P238": 0.9,
-        "P236": 0.9,
-        "B671": 0.9,
-        "T86812": 0.858064,
-        "X832XXD": 0.855,
-        "A0220": 0.855,
-        "M01X52": 0.855,
-        "M01X59": 0.855
+        "P236": 0.9
       }
     },
     "candidate": {
       "code": "J189",
-      "confidence": 0.961606
+      "confidence": 0.875673
     }
   },
   {
@@ -696,37 +647,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Diabetes mellitus",
-      "Type 2 diabetes",
-      "Common clinical synonym",
-      "Expanded abbreviation"
+      "Diabetes mellitus"
     ],
     "retriever": {
       "sapbert": {
-        "E1165": 0.84212,
-        "O24119": 0.714028,
         "R7303": 0.712752,
-        "Z833": 0.710006,
-        "E119": 0.708696
+        "Z833": 0.706901,
+        "O24919": 0.682559,
+        "E1165": 0.682321,
+        "P702": 0.664486
       },
       "rapidfuzz": {
         "E103523": 0.9,
         "E103592": 0.9,
-        "E103591": 0.9,
-        "O2412": 0.9,
-        "O24111": 0.9,
-        "O24112": 0.9,
-        "T485X6S": 0.855,
-        "D831": 0.855,
-        "D832": 0.855,
-        "O200": 0.65,
-        "L80": 0.6,
-        "R002": 0.6
+        "E103591": 0.9
       }
     },
     "candidate": {
-      "code": "E1165",
-      "confidence": 0.673696
+      "code": "R7303",
+      "confidence": 0.642354
     }
   },
   {
@@ -945,7 +884,7 @@
     ],
     "sentence": "Không ghi nhận co giật, [ENTITY], cắn lưỡi hoặc tiểu tiện không tự chủ.",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -966,7 +905,7 @@
     ],
     "sentence": "Không ghi nhận co giật, cứng đờ, [ENTITY] hoặc tiểu tiện không tự chủ.",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -987,7 +926,7 @@
     ],
     "sentence": "Không ghi nhận co giật, cứng đờ, cắn lưỡi hoặc [ENTITY].",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -1062,39 +1001,12 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": [
-      "Small intestine inflammation",
-      "Small bowel inflammation",
-      "Intestinal inflammation - small intestine",
-      "Small intestine mucosal inflammation"
-    ],
+    "eng_translation": [],
     "retriever": {
-      "sapbert": {
-        "K90829": 0.72525,
-        "K639": 0.67845,
-        "A049": 0.671204,
-        "K638219": 0.661709,
-        "A020": 0.660814
-      },
-      "rapidfuzz": {
-        "H30012": 0.855,
-        "H30032": 0.855,
-        "H30031": 0.855,
-        "H3093": 0.855,
-        "C8305": 0.855,
-        "C8306": 0.855,
-        "D3A019": 0.855,
-        "I83223": 0.855,
-        "I83224": 0.855,
-        "A0819": 0.855,
-        "P052": 0.855,
-        "K50019": 0.855
-      }
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    "candidate": {
-      "code": "K90829",
-      "confidence": 0.5802
-    }
+    "candidate": null
   },
   {
     "text": "Ceftriaxone 1g",
@@ -1112,30 +1024,19 @@
       "tag": null
     },
     "eng_translation": [
-      "Ceftriaxone 1g",
-      "Ceftriaxone 1000 mg",
-      "Ceftriaxone injection",
-      "Ceftriaxone 1g injection"
+      "ceftriaxone 1 g injection"
     ],
     "retriever": {
       "sapbert": {
-        "1665020": 1.0,
-        "1664992": 1.0,
-        "1665021": 0.975172,
-        "2563576": 0.923799,
-        "376593": 0.918722
+        "1665021": 0.994629
       },
       "rapidfuzz": {
-        "1665020": 1.0,
-        "1664992": 1.0,
         "1665021": 0.980392,
-        "2193": 0.95,
-        "1665046": 0.95,
-        "1665045": 0.947368
+        "1664992": 0.95
       }
     },
     "candidate": {
-      "code": "1665020",
+      "code": "1665021",
       "confidence": 1.0
     }
   }

@@ -393,30 +393,20 @@
       "tag": null
     },
     "eng_translation": [
-      "Idiopathic urticaria",
-      "Urticaria, unspecified",
-      "Allergic urticaria, unspecified",
-      "Chronic urticaria, unspecified"
+      "Idiopathic urticaria"
     ],
     "retriever": {
       "sapbert": {
         "L501": 1.0,
-        "L509": 1.0,
-        "L500": 0.985941,
-        "L506": 0.806308,
-        "L508": 0.770095
+        "L500": 0.867424,
+        "L509": 0.782997,
+        "L506": 0.712078,
+        "L508": 0.691966
       },
       "rapidfuzz": {
         "L501": 1.0,
-        "L509": 1.0,
-        "L500": 0.9,
         "G4734": 0.855,
-        "M41123": 0.855,
-        "U099": 0.855,
-        "A0220": 0.855,
-        "S32613B": 0.855,
-        "S35401D": 0.855,
-        "T2220XA": 0.855
+        "M41123": 0.855
       }
     },
     "candidate": {
@@ -440,37 +430,25 @@
       "tag": null
     },
     "eng_translation": [
-      "Unspecified chronic disease",
-      "Chronic unspecified condition",
-      "Unspecified long-standing illness",
-      "Chronic non-specific disorder"
+      "Idiopathic urticaria"
     ],
     "retriever": {
       "sapbert": {
-        "N189": 0.705448,
-        "G894": 0.69031,
-        "J449": 0.624697,
-        "Z789": 0.620652,
-        "N039": 0.620558
+        "L501": 1.0,
+        "L500": 0.867424,
+        "L509": 0.782997,
+        "L506": 0.712078,
+        "L508": 0.691966
       },
       "rapidfuzz": {
-        "N189": 0.95,
-        "S32129D": 0.855,
-        "S32119B": 0.855,
-        "T3691XS": 0.855,
-        "S45302A": 0.855,
-        "S45302D": 0.855,
-        "S8292XM": 0.855,
-        "S6392XD": 0.855,
-        "O3660X5": 0.855,
-        "L98459": 0.855,
-        "L98458": 0.855,
-        "L98456": 0.855
+        "L501": 1.0,
+        "G4734": 0.855,
+        "M41123": 0.855
       }
     },
     "candidate": {
-      "code": "N189",
-      "confidence": 0.754358
+      "code": "L501",
+      "confidence": 1.0
     }
   },
   {
@@ -488,39 +466,12 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": [
-      "Chronic disease",
-      "Long-term illness",
-      "Persistent condition",
-      "Non-acute disorder"
-    ],
+    "eng_translation": [],
     "retriever": {
-      "sapbert": {
-        "R403": 0.701597,
-        "N189": 0.698254,
-        "R69": 0.681409,
-        "F349": 0.643647,
-        "N039": 0.608741
-      },
-      "rapidfuzz": {
-        "D638": 0.9,
-        "J358": 0.9,
-        "J359": 0.9,
-        "S46102D": 0.855,
-        "S66091A": 0.855,
-        "S66091D": 0.855,
-        "E083212": 0.855,
-        "E083211": 0.855,
-        "F064": 0.855,
-        "K55059": 0.855,
-        "F15282": 0.855,
-        "F15280": 0.855
-      }
+      "sapbert": {},
+      "rapidfuzz": {}
     },
-    "candidate": {
-      "code": "R403",
-      "confidence": 0.561278
-    }
+    "candidate": null
   },
   {
     "text": "buồn ngủ",
@@ -535,7 +486,7 @@
     ],
     "sentence": "*************** có thể hệ sau không gây [ENTITY] là đơn hàng đầu sau đó đến *************** có thể hệ 1, ********* bậc thấp cách ngày hoặc hàng ngày và giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần.",
     "assertion_result": {
-      "tag": null
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
