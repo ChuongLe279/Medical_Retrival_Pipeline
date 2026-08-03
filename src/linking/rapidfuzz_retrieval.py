@@ -65,13 +65,14 @@ def rapidfuzz_retrieval(text_list, candidate_texts, candidate_codes, top_k=5, sc
     if score_matrix.shape[1] == 0 or top_k <= 0:
         return {}
 
-    top_k = min(top_k, score_matrix.shape[1])
+    top_k = min(top_k, score_matrix.shape[1])   
 
     top_idx = np.argpartition(
         -score_matrix,
         kth=top_k - 1,
         axis=1,
     )[:, :top_k]
+    
     for row_i, row in enumerate(top_idx):
         for idx in row:
             code = candidate_codes[idx]

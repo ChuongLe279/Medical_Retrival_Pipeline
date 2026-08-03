@@ -1,23 +1,39 @@
 import json
+import re
 from pathlib import Path
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
 
-JSON_FOLDER = Path(
-    "/content/drive/MyDrive/Mock data viettel ai"
-)
+JSON_FOLDER = Path("/content/drive/MyDrive/json")
 MODEL_NAME = "Qwen/Qwen3-8B"
+SUPPORTED_LINKING_TYPES = {"THUỐC", "CHẨN_ĐOÁN"}
 
-# Load once — no quantization
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+tokenizer = None
+model = None
 
-model = AutoModelForCausalLM.from_pretrained(
-    MODEL_NAME,
-    torch_dtype="auto",
-    device_map="auto",
-)
 
-model.eval()
+def json_sort_key(path: Path):
+    try:
+        return 0, int(path.stem)
+    except ValueError:
+        return 1, path.stem
+
+
+def get_model_and_tokenizer():
+    """Load Qwen only when generation is actually requested."""
+    global tokenizer, model
+    from transformers import AutoModelForCausalLM, AutoTokenizer
+
+    if tokenizer is None:
+        tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    if model is None:
+        dtype = torch.float16 if torch.cuda.is_available() else "auto"
+        model = AutoModelForCausalLM.from_pretrained(
+            MODEL_NAME,
+            torch_dtype=dtype,
+            device_map="auto",
+        )
+        model.eval()
+    return tokenizer, model
 
 
 @torch.inference_mode()
@@ -34,6 +50,8 @@ def qwen_translate_vi_to_en(s: str) -> str:
     if not s:
         return ""
 
+    tokenizer, model = get_model_and_tokenizer()
+
     messages = [
         {
             "role": "system",
@@ -41,7 +59,7 @@ def qwen_translate_vi_to_en(s: str) -> str:
                 "You are an expert medical translator specializing in Vietnamese "
                 "clinical records. Translate the provided Vietnamese medical text "
                 "into accurate, concise English clinical language.\n\n"
-                
+
                 "Strict requirements:\n"
                 "1. Preserve the exact medical meaning. Do not summarize, explain, "
                 "correct, infer, or add information.\n"
@@ -115,6 +133,8 @@ def qwen_query_expansion(s: str) -> list[str]:
 
     if not s:
         return ["", "", ""]
+
+    tokenizer, model = get_model_and_tokenizer()
 
     expansion_prompts = [
         (
@@ -194,13 +214,94 @@ def qwen_query_expansion(s: str) -> list[str]:
 
     return expansions
 
+
+@torch.inference_mode()
+def qwen_linking_queries(text: str, entity_type: str) -> list[str]:
+    """Create concise English linking queries with one model generation."""
+    if not isinstance(text, str):
+        raise TypeError("Input must be a string.")
+
+    text = " ".join(text.strip().split())
+    if not text or entity_type not in SUPPORTED_LINKING_TYPES:
+        return []
+
+    if entity_type == "THUỐC":
+        instruction = (
+            "Convert the medication mention to concise English RxNorm lookup "
+            "queries. Include only applicable forms among: original English "
+            "translation, generic ingredient name, common brand name, and expanded "
+            "medication abbreviation. Preserve strength and dose form when present. "
+            "Never output a diagnosis, drug class, indication, explanation, or full "
+            "sentence. Return a JSON array of 1 to 4 unique strings, each no longer "
+            "than 12 words."
+        )
+    else:
+        instruction = (
+            "Convert the diagnosis mention to concise English ICD-10 lookup queries. "
+            "Include only applicable forms among: direct English translation, "
+            "canonical diagnosis, common clinical synonym, and expanded abbreviation. "
+            "Preserve anatomical site, acuity, cause, severity, and complications only "
+            "when stated. Never add a code, explanation, treatment, or unsupported "
+            "diagnosis. Return a JSON array of 1 to 4 unique strings, each no longer "
+            "than 20 words."
+        )
+
+    tokenizer, model = get_model_and_tokenizer()
+    messages = [
+        {"role": "system", "content": instruction},
+        {"role": "user", "content": text},
+    ]
+    prompt = tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True,
+        enable_thinking=False,
+    )
+    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512).to(
+        model.device
+    )
+    generated_ids = model.generate(  # type: ignore
+        **inputs,
+        max_new_tokens=128,
+        do_sample=False,
+        pad_token_id=tokenizer.eos_token_id,
+        eos_token_id=tokenizer.eos_token_id,
+    )
+    result = tokenizer.decode(
+        generated_ids[0, inputs["input_ids"].shape[1]:],
+        skip_special_tokens=True,
+    ).strip()
+
+    array_match = re.search(r"\[[\s\S]*?\]", result)
+    if array_match is None:
+        return []
+    try:
+        candidates = json.loads(array_match.group())
+    except json.JSONDecodeError:
+        return []
+    if not isinstance(candidates, list):
+        return []
+
+    max_words = 12 if entity_type == "THUỐC" else 20
+    queries = []
+    seen = set()
+    for candidate in candidates:
+        if not isinstance(candidate, str):
+            continue
+        candidate = " ".join(candidate.strip().split())
+        key = candidate.casefold()
+        if candidate and len(candidate.split()) <= max_words and key not in seen:
+            seen.add(key)
+            queries.append(candidate)
+    return queries[:4]
+
 def translate_test_data(json_files):
     print(f"Found {len(json_files)} JSON files.")
     for file_path in json_files:
         print(f"Processing file: {file_path.name}")
         with file_path.open("r", encoding="utf-8") as file:
             data = json.load(file)
-        
+
         # Process all entities in the data for the current file
         for entities in data:
             entities["eng_translation"] = qwen_translate_vi_to_en(entities["text"])
@@ -211,6 +312,7 @@ def translate_test_data(json_files):
 
 def query_expansion(json_files):
     print(f"Found {len(json_files)} JSON files.")
+    query_cache = {}
 
     for file_path in json_files:
         print(f"Processing file: {file_path.name}")
@@ -219,41 +321,16 @@ def query_expansion(json_files):
             data = json.load(file)
 
         for entity in data:
-            english_text = qwen_translate_vi_to_en(entity["text"])
+            entity_type = entity.get("type", "")
+            source_text = entity.get("text", "")
+            if entity_type not in SUPPORTED_LINKING_TYPES or not isinstance(source_text, str):
+                entity.pop("eng_translation", None)
+                continue
 
-            expansions = qwen_query_expansion(english_text)
-
-            entity["eng_translation"] = [
-                english_text,       # Original English translation
-                expansions[0],      # Canonical diagnosis
-                expansions[1],      # English synonym
-                expansions[2],      # Abbreviation expansion
-            ]
-            candidates = [
-                english_text,
-                expansions[0],  # Canonical diagnosis
-                expansions[1],  # English synonym
-                expansions[2],  # Abbreviation expansion
-            ]
-
-            """Dedupe vì qwen8B đôi khi không mở rộng được ngữ cảnh."""
-            seen = set()
-            entity["eng_translation"] = []
-
-            for text in candidates:
-                if not isinstance(text, str):
-                    continue
-
-                text = " ".join(text.strip().split())
-
-                if not text:
-                    continue
-
-                normalized_text = text.casefold()
-
-                if normalized_text not in seen:
-                    seen.add(normalized_text)
-                    entity["eng_translation"].append(text)
+            cache_key = (entity_type, " ".join(source_text.strip().split()).casefold())
+            if cache_key not in query_cache:
+                query_cache[cache_key] = qwen_linking_queries(source_text, entity_type)
+            entity["eng_translation"] = list(query_cache[cache_key])
 
 
         with file_path.open("w", encoding="utf-8") as file:
@@ -274,7 +351,7 @@ if __name__ == "__main__":
 
     json_files = sorted(
         JSON_FOLDER.glob("*.json"),
-        key=lambda path: int(path.stem)
+        key=json_sort_key,
     )
 
     if not json_files:
