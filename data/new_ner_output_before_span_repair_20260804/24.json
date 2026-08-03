@@ -1,0 +1,1161 @@
+[
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      49,
+      56
+    ],
+    "assertion_position": [
+      49,
+      56
+    ],
+    "sentence": "Bệnh nhân nam 40 tuổi, bộ đội vào viện với lý do [ENTITY], vàng da, vàng mắt ngày thứ 10, hiện tại ngày thứ 17 của bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      58,
+      65
+    ],
+    "assertion_position": [
+      58,
+      65
+    ],
+    "sentence": "Bệnh nhân nam 40 tuổi, bộ đội vào viện với lý do mệt mỏi, [ENTITY], vàng mắt ngày thứ 10, hiện tại ngày thứ 17 của bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      67,
+      75
+    ],
+    "assertion_position": [
+      67,
+      75
+    ],
+    "sentence": "Bệnh nhân nam 40 tuổi, bộ đội vào viện với lý do mệt mỏi, vàng da, [ENTITY] ngày thứ 10, hiện tại ngày thứ 17 của bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhiễm trùng nhiễm độc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      191,
+      212
+    ],
+    "assertion_position": [
+      183,
+      204
+    ],
+    "sentence": "Hội chứng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B999": 0.860331,
+        "A499": 0.772018,
+        "A419": 0.756399,
+        "B998": 0.752882,
+        "R69": 0.746258
+      },
+      "rapidfuzz": {
+        "T8643": 0.9,
+        "J069": 0.9,
+        "A5400": 0.9
+      }
+    },
+    "candidate": {
+      "code": "B999",
+      "confidence": 0.787545
+    }
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      238,
+      241
+    ],
+    "assertion_position": [
+      222,
+      225
+    ],
+    "sentence": "Khởi phát từ từ [ENTITY] nhẹ (37^∘ 8), sốt nóng liên tục có gai rét, không có cơn rét run, dùng 1 viên paracetamol viên sủi, không thấy đỡ, sau 3 ngày bệnh nhân hết sốt thì xuất hiện vàng da, vàng niêm mạc.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt nóng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      256,
+      264
+    ],
+    "assertion_position": [
+      240,
+      248
+    ],
+    "sentence": "Khởi phát từ từ sốt nhẹ (37^∘ 8), [ENTITY] liên tục có gai rét, không có cơn rét run, dùng 1 viên paracetamol viên sủi, không thấy đỡ, sau 3 ngày bệnh nhân hết sốt thì xuất hiện vàng da, vàng niêm mạc.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gai rét",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      277,
+      284
+    ],
+    "assertion_position": [
+      261,
+      268
+    ],
+    "sentence": "Khởi phát từ từ sốt nhẹ (37^∘ 8), sốt nóng liên tục có [ENTITY], không có cơn rét run, dùng 1 viên paracetamol viên sủi, không thấy đỡ, sau 3 ngày bệnh nhân hết sốt thì xuất hiện vàng da, vàng niêm mạc.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "rét run",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      299,
+      306
+    ],
+    "assertion_position": [
+      283,
+      290
+    ],
+    "sentence": "Khởi phát từ từ sốt nhẹ (37^∘ 8), sốt nóng liên tục có gai rét, không có cơn [ENTITY], dùng 1 viên paracetamol viên sủi, không thấy đỡ, sau 3 ngày bệnh nhân hết sốt thì xuất hiện vàng da, vàng niêm mạc.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "paracetamol",
+    "type": "THUỐC",
+    "position": [
+      320,
+      331
+    ],
+    "assertion_position": [
+      304,
+      315
+    ],
+    "sentence": "Khởi phát từ từ sốt nhẹ (37^∘ 8), sốt nóng liên tục có gai rét, không có cơn rét run, dùng 1 viên [ENTITY] viên sủi, không thấy đỡ, sau 3 ngày bệnh nhân hết sốt thì xuất hiện vàng da, vàng niêm mạc.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "acetaminophen"
+    ],
+    "retriever": {
+      "sapbert": {
+        "161": 1.0,
+        "707705": 0.97086
+      },
+      "rapidfuzz": {
+        "161": 1.0,
+        "315270": 0.95,
+        "332815": 0.95
+      }
+    },
+    "candidate": {
+      "code": "161",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      382,
+      385
+    ],
+    "assertion_position": [
+      366,
+      369
+    ],
+    "sentence": "Khởi phát từ từ sốt nhẹ (37^∘ 8), sốt nóng liên tục có gai rét, không có cơn rét run, dùng 1 viên paracetamol viên sủi, không thấy đỡ, sau 3 ngày bệnh nhân hết [ENTITY] thì xuất hiện vàng da, vàng niêm mạc.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      400,
+      407
+    ],
+    "assertion_position": [
+      384,
+      391
+    ],
+    "sentence": "Khởi phát từ từ sốt nhẹ (37^∘ 8), sốt nóng liên tục có gai rét, không có cơn rét run, dùng 1 viên paracetamol viên sủi, không thấy đỡ, sau 3 ngày bệnh nhân hết sốt thì xuất hiện [ENTITY], vàng niêm mạc.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vàng niêm mạc",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      409,
+      422
+    ],
+    "assertion_position": [
+      393,
+      406
+    ],
+    "sentence": "Khởi phát từ từ sốt nhẹ (37^∘ 8), sốt nóng liên tục có gai rét, không có cơn rét run, dùng 1 viên paracetamol viên sủi, không thấy đỡ, sau 3 ngày bệnh nhân hết sốt thì xuất hiện vàng da, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      441,
+      444
+    ],
+    "assertion_position": [
+      417,
+      420
+    ],
+    "sentence": "Kèm theo [ENTITY] bn mệt mỏi nhiều chỉ muốn nằm nghỉ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      448,
+      455
+    ],
+    "assertion_position": [
+      424,
+      431
+    ],
+    "sentence": "Kèm theo sốt bn [ENTITY] nhiều chỉ muốn nằm nghỉ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      506,
+      509
+    ],
+    "assertion_position": [
+      473,
+      476
+    ],
+    "sentence": "Hiện tại bn hết [ENTITY], hết mệt mỏi, ăn ngủ tốt.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      515,
+      522
+    ],
+    "assertion_position": [
+      482,
+      489
+    ],
+    "sentence": "Hiện tại bn hết sốt, hết [ENTITY], ăn ngủ tốt.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ăn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      524,
+      530
+    ],
+    "assertion_position": [
+      491,
+      497
+    ],
+    "sentence": "Hiện tại bn hết sốt, hết mệt mỏi, [ENTITY] tốt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "BC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      544,
+      546
+    ]
+  },
+  {
+    "text": "5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      547,
+      548
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "HBsAg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      573,
+      578
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "IgG",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      614,
+      617
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "IgM",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      632,
+      635
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      658,
+      666
+    ],
+    "assertion_position": [
+      596,
+      604
+    ],
+    "sentence": "Hội chứng [ENTITY] vàng da ứ mật.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Hepatitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B179": 0.802121,
+        "K752": 0.790674,
+        "K739": 0.770126,
+        "K759": 0.768324,
+        "B0081": 0.749258
+      },
+      "rapidfuzz": {
+        "B0081": 0.9,
+        "B159": 0.9,
+        "K7010": 0.9
+      }
+    },
+    "candidate": {
+      "code": "B0081",
+      "confidence": 0.824332
+    }
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      667,
+      674
+    ],
+    "assertion_position": [
+      605,
+      612
+    ],
+    "sentence": "Hội chứng viêm gan [ENTITY] ứ mật.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ứ mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      675,
+      680
+    ],
+    "assertion_position": [
+      613,
+      618
+    ],
+    "sentence": "Hội chứng viêm gan vàng da [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Cholestasis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R17": 0.674794,
+        "O26649": 0.674183,
+        "K710": 0.656703,
+        "K831": 0.651098,
+        "P591": 0.626781
+      },
+      "rapidfuzz": {
+        "O26641": 0.9,
+        "O26649": 0.9,
+        "O26643": 0.9
+      }
+    },
+    "candidate": {
+      "code": "O26649",
+      "confidence": 0.756765
+    }
+  },
+  {
+    "text": "da niêm mạc vàng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      712,
+      728
+    ],
+    "assertion_position": [
+      642,
+      658
+    ],
+    "sentence": "Khởi phát bệnh từ từ, [ENTITY] sau khi hết sốt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nước tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      758,
+      767
+    ],
+    "assertion_position": [
+      688,
+      697
+    ],
+    "sentence": "Kèm theo có [ENTITY] ít hơn so với bình thường, vàng sậm như nước vối.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vàng sậm như nước vối",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      795,
+      816
+    ],
+    "assertion_position": [
+      725,
+      746
+    ],
+    "sentence": "Kèm theo có nước tiểu ít hơn so với bình thường, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      860,
+      867
+    ],
+    "assertion_position": [
+      781,
+      788
+    ],
+    "sentence": "hiện tại bn [ENTITY] giảm, nước tiểu trong, số lượng đã nhiều hơn so với lúc vào viện, 1000ml/24h.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nước tiểu trong",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      874,
+      889
+    ],
+    "assertion_position": [
+      795,
+      810
+    ],
+    "sentence": "hiện tại bn vàng da giảm, [ENTITY], số lượng đã nhiều hơn so với lúc vào viện, 1000ml/24h.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Gan to",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      954,
+      960
+    ],
+    "assertion_position": [
+      867,
+      873
+    ],
+    "sentence": "[ENTITY] dưới bờ sườn 3cm, bờ tù, mật độ mềm, bề mặt nhẵn, ấn tức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1053,
+      1062
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1115,
+      1118
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "5,9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1120,
+      1123
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1132,
+      1141
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "89",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1143,
+      1145
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "GOT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1224,
+      1227
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "542",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1229,
+      1232
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "GPT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1238,
+      1241
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "628",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1243,
+      1246
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "GOT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1290,
+      1293
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "GPT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1294,
+      1297
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1410,
+      1417
+    ],
+    "assertion_position": [
+      1240,
+      1247
+    ],
+    "sentence": "Tiền sử bản thân: chưa bị [ENTITY], vàng mắt trước đó.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1419,
+      1427
+    ],
+    "assertion_position": [
+      1249,
+      1257
+    ],
+    "sentence": "Tiền sử bản thân: chưa bị vàng da, [ENTITY] trước đó.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm gan B",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1578,
+      1588
+    ],
+    "assertion_position": [
+      1400,
+      1410
+    ],
+    "sentence": "Tiền sử gia đình: không ai bị nhiễm virus [ENTITY], C.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Hepatitis B"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B0081": 0.698724,
+        "B181": 0.693591,
+        "K739": 0.660675,
+        "K752": 0.658045,
+        "B189": 0.638017
+      },
+      "rapidfuzz": {
+        "B180": 0.9,
+        "B160": 0.9,
+        "B1911": 0.9
+      }
+    },
+    "candidate": {
+      "code": "B0081",
+      "confidence": 0.629622
+    }
+  },
+  {
+    "text": "viêm gan B",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1653,
+      1663
+    ],
+    "assertion_position": [
+      1467,
+      1477
+    ],
+    "sentence": "Tiền sử dịch tễ: Trong đơn vị có 3 người mang virus [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hepatitis B"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B0081": 0.698724,
+        "B181": 0.693591,
+        "K739": 0.660675,
+        "K752": 0.658045,
+        "B189": 0.638017
+      },
+      "rapidfuzz": {
+        "B180": 0.9,
+        "B160": 0.9,
+        "B1911": 0.9
+      }
+    },
+    "candidate": {
+      "code": "B0081",
+      "confidence": 0.629622
+    }
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1712,
+      1719
+    ],
+    "assertion_position": [
+      1517,
+      1524
+    ],
+    "sentence": "Hiện tại ngày thứ 7 sau khi vào viện: [ENTITY] hết, vàng da giảm nhẹ, ăn ngủ được, đánh răng không chảy máu, tiểu tiện 1000ml/24h, nước tiểu vàng nhẹ, đại tiện phân thành khuôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1725,
+      1732
+    ],
+    "assertion_position": [
+      1530,
+      1537
+    ],
+    "sentence": "Hiện tại ngày thứ 7 sau khi vào viện: mệt mỏi hết, [ENTITY] giảm nhẹ, ăn ngủ được, đánh răng không chảy máu, tiểu tiện 1000ml/24h, nước tiểu vàng nhẹ, đại tiện phân thành khuôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đánh răng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1756,
+      1765
+    ],
+    "assertion_position": [
+      1561,
+      1570
+    ],
+    "sentence": "Hiện tại ngày thứ 7 sau khi vào viện: mệt mỏi hết, vàng da giảm nhẹ, ăn ngủ được, [ENTITY] không chảy máu, tiểu tiện 1000ml/24h, nước tiểu vàng nhẹ, đại tiện phân thành khuôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1777,
+      1780
+    ],
+    "assertion_position": [
+      1582,
+      1585
+    ],
+    "sentence": "Hiện tại ngày thứ 7 sau khi vào viện: mệt mỏi hết, vàng da giảm nhẹ, ăn ngủ được, đánh răng không chảy [ENTITY], tiểu tiện 1000ml/24h, nước tiểu vàng nhẹ, đại tiện phân thành khuôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1782,
+      1791
+    ],
+    "assertion_position": [
+      1587,
+      1596
+    ],
+    "sentence": "Hiện tại ngày thứ 7 sau khi vào viện: mệt mỏi hết, vàng da giảm nhẹ, ăn ngủ được, đánh răng không chảy máu, [ENTITY] 1000ml/24h, nước tiểu vàng nhẹ, đại tiện phân thành khuôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nước tiểu vàng nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1804,
+      1822
+    ],
+    "assertion_position": [
+      1609,
+      1627
+    ],
+    "sentence": "Hiện tại ngày thứ 7 sau khi vào viện: mệt mỏi hết, vàng da giảm nhẹ, ăn ngủ được, đánh răng không chảy máu, tiểu tiện 1000ml/24h, [ENTITY], đại tiện phân thành khuôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đại tiện phân thành khuôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1824,
+      1849
+    ],
+    "assertion_position": [
+      1629,
+      1654
+    ],
+    "sentence": "Hiện tại ngày thứ 7 sau khi vào viện: mệt mỏi hết, vàng da giảm nhẹ, ăn ngủ được, đánh răng không chảy máu, tiểu tiện 1000ml/24h, nước tiểu vàng nhẹ, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chịu vùng ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1974,
+      1988
+    ],
+    "assertion_position": [
+      1774,
+      1788
+    ],
+    "sentence": "Khi được chuyển vào khoa điều trị, bệnh nhân không còn cảm giáckhó [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1997,
+      2004
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ALT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2193,
+      2196
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "AST",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2198,
+      2201
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ALT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2295,
+      2298
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "AST",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2300,
+      2303
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

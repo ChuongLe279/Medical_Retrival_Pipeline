@@ -1,27 +1,5 @@
 [
   {
-    "text": "kinh",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      160,
-      164
-    ],
-    "assertion_position": [
-      134,
-      138
-    ],
-    "sentence": "Sự thay đổi nội tiết tố trong chu kỳ [ENTITY] nguyệt và trong thời kỳ mãn kinh có thể đóng một vai trò.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "đổ mồ hôi đêm",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -85,72 +63,102 @@
     "candidate": null
   },
   {
-    "text": "âu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      450,
-      452
-    ],
-    "assertion_position": [
-      415,
-      417
-    ],
-    "sentence": "Chủ động giải quyết những sang chấn tâm lý có khả năng gây ra các rối loạn lo [ENTITY],trầm cảm, stress.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "trầm",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      453,
-      457
-    ],
-    "assertion_position": [
-      418,
-      422
-    ],
-    "sentence": "Chủ động giải quyết những sang chấn tâm lý có khả năng gây ra các rối loạn lo âu,[ENTITY] cảm, stress.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "cảm",
+    "text": "rối loạn lo âu",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      458,
-      461
+      438,
+      452
     ],
-    "assertion_position": [
-      423,
-      426
-    ],
-    "sentence": "Chủ động giải quyết những sang chấn tâm lý có khả năng gây ra các rối loạn lo âu,trầm [ENTITY], stress.",
+    "sentence": "-        Chủ động giải quyết những sang chấn tâm lý có khả năng gây ra các [ENTITY],trầm cảm, stress.",
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": [],
     "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
+      "sapbert": {
+        "F419": 0.985462,
+        "F411": 0.811386,
+        "F409": 0.783895,
+        "F064": 0.77711,
+        "F4322": 0.741798
+      },
+      "rapidfuzz": {
+        "F16180": 0.9,
+        "F16980": 0.9,
+        "F930": 0.9
+      }
     },
-    "candidate": null
+    "candidate": {
+      "code": "F419",
+      "confidence": 0.913027,
+      "ranked_candidates": [
+        {
+          "code": "F419",
+          "confidence": 0.913027
+        },
+        {
+          "code": "F411",
+          "confidence": 0.730247
+        },
+        {
+          "code": "F409",
+          "confidence": 0.705506
+        }
+      ]
+    },
+    "eng_translation": [
+      "Anxiety disorder"
+    ]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      453,
+      461
+    ],
+    "sentence": "-        Chủ động giải quyết những sang chấn tâm lý có khả năng gây ra các rối loạn lo âu,[ENTITY], stress.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {
+        "F32A": 0.871937,
+        "F39": 0.729299,
+        "F0631": 0.710479,
+        "F329": 0.707575,
+        "F341": 0.681379
+      },
+      "rapidfuzz": {
+        "F329": 0.9,
+        "F330": 0.9,
+        "F331": 0.9
+      }
+    },
+    "candidate": {
+      "code": "F32A",
+      "confidence": 0.806139,
+      "ranked_candidates": [
+        {
+          "code": "F32A",
+          "confidence": 0.806139
+        },
+        {
+          "code": "F329",
+          "confidence": 0.726817
+        },
+        {
+          "code": "F39",
+          "confidence": 0.656369
+        }
+      ]
+    },
+    "eng_translation": [
+      "Depressive disorder"
+    ]
   },
   {
     "text": "stress",
-    "type": "THUỐC",
+    "type": "TRIỆU_CHỨNG",
     "position": [
       463,
       469
@@ -163,29 +171,6 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "chứng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      842,
-      847
-    ],
-    "assertion_position": [
-      779,
-      784
-    ],
-    "sentence": "Phẫu thuật đặt cảng để điều trị [ENTITY] tăng nhãn áp ở thời kỳ sơ sinh.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -226,21 +211,22 @@
     },
     "candidate": {
       "code": "H409",
-      "confidence": 0.886943
+      "confidence": 0.886943,
+      "ranked_candidates": [
+        {
+          "code": "H409",
+          "confidence": 0.886943
+        },
+        {
+          "code": "H44519",
+          "confidence": 0.813468
+        },
+        {
+          "code": "Q150",
+          "confidence": 0.734901
+        }
+      ]
     }
-  },
-  {
-    "text": "nhãn áp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      853,
-      860
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "đau đầu kéo dài",
@@ -339,7 +325,21 @@
     },
     "candidate": {
       "code": "Q039",
-      "confidence": 0.901469
+      "confidence": 0.901469,
+      "ranked_candidates": [
+        {
+          "code": "Q039",
+          "confidence": 0.901469
+        },
+        {
+          "code": "G919",
+          "confidence": 0.897074
+        },
+        {
+          "code": "G918",
+          "confidence": 0.80518
+        }
+      ]
     }
   },
   {
@@ -376,7 +376,21 @@
     },
     "candidate": {
       "code": "Q039",
-      "confidence": 0.901469
+      "confidence": 0.901469,
+      "ranked_candidates": [
+        {
+          "code": "Q039",
+          "confidence": 0.901469
+        },
+        {
+          "code": "G919",
+          "confidence": 0.897074
+        },
+        {
+          "code": "G918",
+          "confidence": 0.80518
+        }
+      ]
     }
   },
   {
@@ -404,16 +418,16 @@
     "text": "đau đầu",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1047,
-      1054
+      1453,
+      1460
     ],
     "assertion_position": [
-      976,
-      983
+      1360,
+      1367
     ],
-    "sentence": "Lý do nhập viện: [ENTITY] kéo dài kèm theo mờ mắt.",
+    "sentence": "Nhập viện trước đây vào khoa Thần kinh để điều trị chứng [ENTITY].",
     "assertion_result": {
-      "tag": null
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -455,7 +469,21 @@
     },
     "candidate": {
       "code": "H4711",
-      "confidence": 0.952014
+      "confidence": 0.952014,
+      "ranked_candidates": [
+        {
+          "code": "H4711",
+          "confidence": 0.952014
+        },
+        {
+          "code": "H4712",
+          "confidence": 0.889443
+        },
+        {
+          "code": "H4710",
+          "confidence": 0.88362
+        }
+      ]
     }
   },
   {
@@ -472,27 +500,6 @@
     "sentence": "Đến hôm nay, bệnh nhân bị [ENTITY], bên trái nặng hơn bên phải, tiến triển trong 2 tuần qua.",
     "assertion_result": {
       "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1344,
-      1351
-    ],
-    "assertion_position": [
-      1257,
-      1264
-    ],
-    "sentence": "Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện tăng [ENTITY] , triệu chứng cải thiện khi nằm ngửa.",
-    "assertion_result": {
-      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -543,7 +550,7 @@
     "candidate": null
   },
   {
-    "text": "cơn đau đầu",
+    "text": "cơn  đau đầu",
     "type": "TRIỆU_CHỨNG",
     "position": [
       1833,
@@ -556,48 +563,6 @@
     "sentence": "[ENTITY] nhiều hơn.",
     "assertion_result": {
       "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nhìn mờ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1777,
-      1784
-    ],
-    "assertion_position": [
-      1652,
-      1659
-    ],
-    "sentence": "[ENTITY] ở cả hai mắt, bên trái nặng hơn bên phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1453,
-      1460
-    ],
-    "assertion_position": [
-      1360,
-      1367
-    ],
-    "sentence": "Nhập viện trước đây vào khoa Thần kinh để điều trị chứng [ENTITY].",
-    "assertion_result": {
-      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -639,7 +604,21 @@
     },
     "candidate": {
       "code": "H4711",
-      "confidence": 0.952014
+      "confidence": 0.952014,
+      "ranked_candidates": [
+        {
+          "code": "H4711",
+          "confidence": 0.952014
+        },
+        {
+          "code": "H4712",
+          "confidence": 0.889443
+        },
+        {
+          "code": "H4710",
+          "confidence": 0.88362
+        }
+      ]
     }
   },
   {
@@ -676,7 +655,21 @@
     },
     "candidate": {
       "code": "H4711",
-      "confidence": 0.952014
+      "confidence": 0.952014,
+      "ranked_candidates": [
+        {
+          "code": "H4711",
+          "confidence": 0.952014
+        },
+        {
+          "code": "H4712",
+          "confidence": 0.889443
+        },
+        {
+          "code": "H4710",
+          "confidence": 0.88362
+        }
+      ]
     }
   },
   {
@@ -713,21 +706,22 @@
     },
     "candidate": {
       "code": "H409",
-      "confidence": 0.886943
+      "confidence": 0.886943,
+      "ranked_candidates": [
+        {
+          "code": "H409",
+          "confidence": 0.886943
+        },
+        {
+          "code": "H44519",
+          "confidence": 0.813468
+        },
+        {
+          "code": "Q150",
+          "confidence": 0.734901
+        }
+      ]
     }
-  },
-  {
-    "text": "nhãn áp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      2336,
-      2343
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
@@ -776,7 +770,21 @@
     },
     "candidate": {
       "code": "H4711",
-      "confidence": 0.952014
+      "confidence": 0.952014,
+      "ranked_candidates": [
+        {
+          "code": "H4711",
+          "confidence": 0.952014
+        },
+        {
+          "code": "H4712",
+          "confidence": 0.889443
+        },
+        {
+          "code": "H4710",
+          "confidence": 0.88362
+        }
+      ]
     }
   }
 ]

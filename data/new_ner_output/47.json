@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "C189",
-      "confidence": 0.713803
+      "confidence": 0.713803,
+      "ranked_candidates": [
+        {
+          "code": "C189",
+          "confidence": 0.713803
+        },
+        {
+          "code": "C182",
+          "confidence": 0.57307
+        },
+        {
+          "code": "C180",
+          "confidence": 0.568772
+        }
+      ]
     }
   },
   {
@@ -70,7 +84,21 @@
     },
     "candidate": {
       "code": "J449",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "J449",
+          "confidence": 1.0
+        },
+        {
+          "code": "J4489",
+          "confidence": 0.711072
+        },
+        {
+          "code": "J42",
+          "confidence": 0.587383
+        }
+      ]
     }
   },
   {
@@ -107,7 +135,21 @@
     },
     "candidate": {
       "code": "R7303",
-      "confidence": 0.642354
+      "confidence": 0.642354,
+      "ranked_candidates": [
+        {
+          "code": "R7303",
+          "confidence": 0.642354
+        },
+        {
+          "code": "Z833",
+          "confidence": 0.636211
+        },
+        {
+          "code": "O24919",
+          "confidence": 0.614303
+        }
+      ]
     }
   },
   {
@@ -144,7 +186,21 @@
     },
     "candidate": {
       "code": "K702",
-      "confidence": 0.815721
+      "confidence": 0.815721,
+      "ranked_candidates": [
+        {
+          "code": "K702",
+          "confidence": 0.815721
+        },
+        {
+          "code": "K7030",
+          "confidence": 0.800369
+        },
+        {
+          "code": "K7031",
+          "confidence": 0.767631
+        }
+      ]
     }
   },
   {
@@ -181,7 +237,21 @@
     },
     "candidate": {
       "code": "C189",
-      "confidence": 0.859156
+      "confidence": 0.859156,
+      "ranked_candidates": [
+        {
+          "code": "C189",
+          "confidence": 0.859156
+        },
+        {
+          "code": "C180",
+          "confidence": 0.639939
+        },
+        {
+          "code": "C187",
+          "confidence": 0.63288
+        }
+      ]
     }
   },
   {
@@ -218,7 +288,21 @@
     },
     "candidate": {
       "code": "K702",
-      "confidence": 0.815721
+      "confidence": 0.815721,
+      "ranked_candidates": [
+        {
+          "code": "K702",
+          "confidence": 0.815721
+        },
+        {
+          "code": "K7030",
+          "confidence": 0.800369
+        },
+        {
+          "code": "K7031",
+          "confidence": 0.767631
+        }
+      ]
     }
   },
   {
@@ -318,7 +402,21 @@
     },
     "candidate": {
       "code": "J189",
-      "confidence": 0.875673
+      "confidence": 0.875673,
+      "ranked_candidates": [
+        {
+          "code": "J189",
+          "confidence": 0.875673
+        },
+        {
+          "code": "J159",
+          "confidence": 0.75566
+        },
+        {
+          "code": "J129",
+          "confidence": 0.708578
+        }
+      ]
     }
   },
   {
@@ -355,21 +453,35 @@
     },
     "candidate": {
       "code": "I4891",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "I4891",
+          "confidence": 1.0
+        },
+        {
+          "code": "I4821",
+          "confidence": 0.824635
+        },
+        {
+          "code": "I4820",
+          "confidence": 0.813104
+        }
+      ]
     }
   },
   {
-    "text": "nhịp nhanh",
+    "text": "nhịp nhanh trên",
     "type": "TRIỆU_CHỨNG",
     "position": [
       592,
-      602
+      607
     ],
     "assertion_position": [
       587,
-      597
+      602
     ],
-    "sentence": "Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và rung nhĩ và [ENTITY] trên thất, sau đó xuất viện về trung tâm phục hồi chức năng.",
+    "sentence": "Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và rung nhĩ và [ENTITY] thất, sau đó xuất viện về trung tâm phục hồi chức năng.",
     "assertion_result": {
       "tag": null
     },
@@ -433,27 +545,6 @@
       841
     ],
     "sentence": "đi tiêu không liên quan đến đau bụng, [ENTITY], nôn, tiêu chảy, hoặc táo bón.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      848,
-      851
-    ],
-    "assertion_position": [
-      838,
-      841
-    ],
-    "sentence": "đi tiêu không liên quan đến đau bụng, buồn [ENTITY], nôn, tiêu chảy, hoặc táo bón.",
     "assertion_result": {
       "tag": "isNegated"
     },
@@ -632,6 +723,23 @@
     "candidate": null
   },
   {
+    "text": "dịch từ vết mổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1000,
+      1014
+    ],
+    "sentence": "- Không có đau bụng hoặc [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
     "text": "đỏ da",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -653,38 +761,13 @@
     "candidate": null
   },
   {
-    "text": "bục",
+    "text": "bục chỉ khâu bụng",
     "type": "TRIỆU_CHỨNG",
     "position": [
       1039,
-      1042
+      1056
     ],
-    "assertion_position": [
-      1021,
-      1024
-    ],
-    "sentence": "Không có đỏ da, hoặc [ENTITY] chỉ khâu bụng.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "bụng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      837,
-      841
-    ],
-    "assertion_position": [
-      827,
-      831
-    ],
-    "sentence": "đi tiêu không liên quan đến đau [ENTITY], buồn nôn, nôn, tiêu chảy, hoặc táo bón.",
+    "sentence": "- Không có đỏ da, hoặc [ENTITY].",
     "assertion_result": {
       "tag": "isNegated"
     },
@@ -737,19 +820,15 @@
     "candidate": null
   },
   {
-    "text": "dịch",
+    "text": "dịch rỉ huyết thanh từ vết mổ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1000,
-      1004
+      1135,
+      1164
     ],
-    "assertion_position": [
-      984,
-      988
-    ],
-    "sentence": "Không có đau bụng hoặc [ENTITY] từ vết mổ.",
+    "sentence": "- Khám thấy ran nổ, phù phù, [ENTITY], và phân nâu dương tính guaiac.",
     "assertion_result": {
-      "tag": "isNegated"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -863,27 +942,6 @@
     "candidate": null
   },
   {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      869,
-      871
-    ],
-    "assertion_position": [
-      859,
-      861
-    ],
-    "sentence": "đi tiêu không liên quan đến đau bụng, buồn nôn, nôn, tiêu chảy, [ENTITY]ặc táo bón.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "đờm vàng loãng",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -895,27 +953,6 @@
       1417
     ],
     "sentence": "ho mạn tính có [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ran",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1118,
-      1121
-    ],
-    "assertion_position": [
-      1097,
-      1100
-    ],
-    "sentence": "Khám thấy [ENTITY] nổ, phù phù, dịch rỉ huyết thanh từ vết mổ, và phân nâu dương tính guaiac.",
     "assertion_result": {
       "tag": null
     },
@@ -947,40 +984,15 @@
     "candidate": null
   },
   {
-    "text": "dịch",
+    "text": "dịch thanh dịch lẫn máu từ vết mổ",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1135,
-      1139
+      1464,
+      1497
     ],
-    "assertion_position": [
-      1114,
-      1118
-    ],
-    "sentence": "Khám thấy ran nổ, phù phù, [ENTITY] rỉ huyết thanh từ vết mổ, và phân nâu dương tính guaiac.",
+    "sentence": "- [ENTITY]",
     "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "máu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1484,
-      1487
-    ],
-    "assertion_position": [
-      1453,
-      1456
-    ],
-    "sentence": "dịch thanh dịch lẫn [ENTITY] từ vết mổ.",
-    "assertion_result": {
-      "tag": null
+      "tag": "isUncertain"
     },
     "retriever": {
       "sapbert": {},
@@ -1056,7 +1068,21 @@
     },
     "candidate": {
       "code": "J9811",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "J9811",
+          "confidence": 1.0
+        },
+        {
+          "code": "P2811",
+          "confidence": 0.745049
+        },
+        {
+          "code": "P2810",
+          "confidence": 0.717383
+        }
+      ]
     }
   },
   {
@@ -1114,49 +1140,21 @@
     },
     "candidate": {
       "code": "J189",
-      "confidence": 0.875673
+      "confidence": 0.875673,
+      "ranked_candidates": [
+        {
+          "code": "J189",
+          "confidence": 0.875673
+        },
+        {
+          "code": "J159",
+          "confidence": 0.75566
+        },
+        {
+          "code": "J129",
+          "confidence": 0.708578
+        }
+      ]
     }
-  },
-  {
-    "text": "rung nhĩ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      580,
-      588
-    ],
-    "assertion_position": [
-      575,
-      583
-    ],
-    "sentence": "Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và [ENTITY] và nhịp nhanh trên thất, sau đó xuất viện về trung tâm phục hồi chức năng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nhịp nhanh trên",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      592,
-      607
-    ],
-    "assertion_position": [
-      587,
-      602
-    ],
-    "sentence": "Bệnh nhân nhập viện, quá trình điều trị biến chứng bởi Viêm phổi bệnh viện và rung nhĩ và [ENTITY] thất, sau đó xuất viện về trung tâm phục hồi chức năng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   }
 ]

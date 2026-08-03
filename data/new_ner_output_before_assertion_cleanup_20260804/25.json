@@ -1,0 +1,748 @@
+[
+  {
+    "text": "k",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      85,
+      86
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      386,
+      394
+    ],
+    "assertion_position": [
+      386,
+      394
+    ],
+    "sentence": "Em thấy sau mỗi lần uống thì em có [ENTITY] nhưng k chảy máu với trễ kinh ạ, kinh tới rất đều ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "k",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      401,
+      402
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      403,
+      411
+    ],
+    "assertion_position": [
+      403,
+      411
+    ],
+    "sentence": "Em thấy sau mỗi lần uống thì em có đau bụng nhưng k [ENTITY] với trễ kinh ạ, kinh tới rất đều ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "trễ kinh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      416,
+      424
+    ],
+    "assertion_position": [
+      416,
+      424
+    ],
+    "sentence": "Em thấy sau mỗi lần uống thì em có đau bụng nhưng k chảy máu với [ENTITY] ạ, kinh tới rất đều ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tắc ống dẫn trứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      757,
+      774
+    ],
+    "assertion_position": [
+      746,
+      763
+    ],
+    "sentence": "Gây ra tình trạng [ENTITY], lạm dụng thuốc còn khiến teo niêm mạc tử cung, không rụng trứng dẫn đến vô sinh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Fallopian tube obstruction"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N83529": 0.632861,
+        "N971": 0.626427,
+        "O659": 0.615301,
+        "K820": 0.603866,
+        "O669": 0.603282
+      },
+      "rapidfuzz": {
+        "N132": 0.855,
+        "K51912": 0.855,
+        "T81529D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N83529",
+      "confidence": 0.57054
+    }
+  },
+  {
+    "text": "teo",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      801,
+      804
+    ],
+    "assertion_position": [
+      790,
+      793
+    ],
+    "sentence": "Gây ra tình trạng tắc ống dẫn trứng, lạm dụng thuốc còn khiến [ENTITY] niêm mạc tử cung, không rụng trứng dẫn đến vô sinh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ung thư cổ tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      895,
+      913
+    ],
+    "assertion_position": [
+      884,
+      902
+    ],
+    "sentence": "Nhiều trường hợp nguy hiểm còn gây ra [ENTITY] do dùng thuốc quá nhiều.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Cervical cancer"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C539": 0.838726,
+        "C530": 0.676917,
+        "D069": 0.669068,
+        "C549": 0.623911,
+        "N879": 0.611662
+      },
+      "rapidfuzz": {
+        "S12100K": 0.855,
+        "S12451A": 0.855,
+        "S12450S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "C539",
+      "confidence": 0.779125
+    }
+  },
+  {
+    "text": "ngoài tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1024,
+      1037
+    ],
+    "assertion_position": [
+      1004,
+      1017
+    ],
+    "sentence": "Sử dụng nhiều ************************* khiến chị em tăng nguy cơ mang thai [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Ectopic pregnancy"
+    ],
+    "retriever": {
+      "sapbert": {
+        "O0090": 0.823652,
+        "O0091": 0.806708,
+        "P014": 0.776852,
+        "O0080": 0.755901,
+        "O0081": 0.723285
+      },
+      "rapidfuzz": {
+        "O0911": 0.9,
+        "O0910": 0.9,
+        "O0912": 0.9
+      }
+    },
+    "candidate": {
+      "code": "O0090",
+      "confidence": 0.743828
+    }
+  },
+  {
+    "text": "ảnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1082,
+      1085
+    ],
+    "assertion_position": [
+      1053,
+      1056
+    ],
+    "sentence": "Chị em sử dụng thuốc quá liều gây [ENTITY] hưởng đến tim, mạch, gan, thận.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mụn trứng cá",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1227,
+      1239
+    ],
+    "assertion_position": [
+      1187,
+      1199
+    ],
+    "sentence": "Nồng độ hormone thay đổi nội tiết tố trong cơ thể gây ra các bệnh lý về da có thể xuất hiện nhiều [ENTITY], nám, tàn nhang, sạm da….",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nám",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1241,
+      1244
+    ],
+    "assertion_position": [
+      1201,
+      1204
+    ],
+    "sentence": "Nồng độ hormone thay đổi nội tiết tố trong cơ thể gây ra các bệnh lý về da có thể xuất hiện nhiều mụn trứng cá, [ENTITY], tàn nhang, sạm da….",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tàn nhang",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1246,
+      1255
+    ],
+    "assertion_position": [
+      1206,
+      1215
+    ],
+    "sentence": "Nồng độ hormone thay đổi nội tiết tố trong cơ thể gây ra các bệnh lý về da có thể xuất hiện nhiều mụn trứng cá, nám, [ENTITY], sạm da….",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sạm da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1257,
+      1263
+    ],
+    "assertion_position": [
+      1217,
+      1223
+    ],
+    "sentence": "Nồng độ hormone thay đổi nội tiết tố trong cơ thể gây ra các bệnh lý về da có thể xuất hiện nhiều mụn trứng cá, nám, tàn nhang, [ENTITY]….",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bồn chồn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1317,
+      1325
+    ],
+    "assertion_position": [
+      1269,
+      1277
+    ],
+    "sentence": "Ảnh hưởng đến tâm trạng, cảm xúc, hay thấy [ENTITY], lo lắng, bứt rứt trong người, gây giảm ham muốn, lãnh cảm, suy giảm hưng phấn đối với tình dục, ảnh hưởng đến tình cảm gia đình.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lo lắng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1327,
+      1334
+    ],
+    "assertion_position": [
+      1279,
+      1286
+    ],
+    "sentence": "Ảnh hưởng đến tâm trạng, cảm xúc, hay thấy bồn chồn, [ENTITY], bứt rứt trong người, gây giảm ham muốn, lãnh cảm, suy giảm hưng phấn đối với tình dục, ảnh hưởng đến tình cảm gia đình.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bứt rứt trong người",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1336,
+      1355
+    ],
+    "assertion_position": [
+      1288,
+      1307
+    ],
+    "sentence": "Ảnh hưởng đến tâm trạng, cảm xúc, hay thấy bồn chồn, lo lắng, [ENTITY], gây giảm ham muốn, lãnh cảm, suy giảm hưng phấn đối với tình dục, ảnh hưởng đến tình cảm gia đình.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gây giảm ham muốn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1357,
+      1374
+    ],
+    "assertion_position": [
+      1309,
+      1326
+    ],
+    "sentence": "Ảnh hưởng đến tâm trạng, cảm xúc, hay thấy bồn chồn, lo lắng, bứt rứt trong người, [ENTITY], lãnh cảm, suy giảm hưng phấn đối với tình dục, ảnh hưởng đến tình cảm gia đình.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lãnh cảm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1376,
+      1384
+    ],
+    "assertion_position": [
+      1328,
+      1336
+    ],
+    "sentence": "Ảnh hưởng đến tâm trạng, cảm xúc, hay thấy bồn chồn, lo lắng, bứt rứt trong người, gây giảm ham muốn, [ENTITY], suy giảm hưng phấn đối với tình dục, ảnh hưởng đến tình cảm gia đình.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "suy giảm hưng phấn đối với tình dục",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1386,
+      1421
+    ],
+    "assertion_position": [
+      1338,
+      1373
+    ],
+    "sentence": "Ảnh hưởng đến tâm trạng, cảm xúc, hay thấy bồn chồn, lo lắng, bứt rứt trong người, gây giảm ham muốn, lãnh cảm, [ENTITY], ảnh hưởng đến tình cảm gia đình.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1494,
+      1500
+    ],
+    "assertion_position": [
+      1441,
+      1447
+    ],
+    "sentence": "Lý do nhập viện: xuất hiện nhiều [ENTITY] và đau khi sờ nắn ở vết mổ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau khi sờ nắn ở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1504,
+      1520
+    ],
+    "assertion_position": [
+      1451,
+      1467
+    ],
+    "sentence": "Lý do nhập viện: xuất hiện nhiều ban đỏ và [ENTITY] vết mổ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng nề",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1649,
+      1656
+    ],
+    "assertion_position": [
+      1578,
+      1585
+    ],
+    "sentence": "bắt đầu có hiện tượng [ENTITY] đau khi sờ nắn trên vùng da kèm theo ban đỏ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau khi sờ nắn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1657,
+      1671
+    ],
+    "assertion_position": [
+      1586,
+      1600
+    ],
+    "sentence": "bắt đầu có hiện tượng sưng nề [ENTITY] trên vùng da kèm theo ban đỏ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1694,
+      1700
+    ],
+    "assertion_position": [
+      1623,
+      1629
+    ],
+    "sentence": "bắt đầu có hiện tượng sưng nề đau khi sờ nắn trên vùng da kèm theo [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau khi sờ nắn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1741,
+      1755
+    ],
+    "assertion_position": [
+      1662,
+      1676
+    ],
+    "sentence": "tăng diện tích [ENTITY] trên vùng da kèm theo ban đỏ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1778,
+      1784
+    ],
+    "assertion_position": [
+      1699,
+      1705
+    ],
+    "sentence": "tăng diện tích đau khi sờ nắn trên vùng da kèm theo [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng nề",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1829,
+      1836
+    ],
+    "assertion_position": [
+      1740,
+      1747
+    ],
+    "sentence": "vùng da [ENTITY] được chọc hút dịch, gửi đi cấy mẫu bệnh phẩm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1983,
+      1989
+    ],
+    "assertion_position": [
+      1883,
+      1889
+    ],
+    "sentence": "tái khám với triệu chứng xuất hiện [ENTITY] lan rộng kèm theo chóng mặt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2008,
+      2017
+    ],
+    "assertion_position": [
+      1908,
+      1917
+    ],
+    "sentence": "tái khám với triệu chứng xuất hiện ban đỏ lan rộng kèm theo [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2154,
+      2160
+    ],
+    "assertion_position": [
+      2034,
+      2040
+    ],
+    "sentence": "[ENTITY] xuất hiện nhiểu ở vị trí phẫu thuật.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2232,
+      2241
+    ],
+    "assertion_position": [
+      2102,
+      2111
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2254,
+      2257
+    ],
+    "assertion_position": [
+      2119,
+      2122
+    ],
+    "sentence": "không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2370,
+      2376
+    ],
+    "assertion_position": [
+      2219,
+      2225
+    ],
+    "sentence": "[ENTITY] ở vị trí phẫu thuật.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

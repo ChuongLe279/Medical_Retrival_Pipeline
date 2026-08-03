@@ -33,29 +33,22 @@
     },
     "candidate": {
       "code": "L700",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "L700",
+          "confidence": 1.0
+        },
+        {
+          "code": "L709",
+          "confidence": 0.796163
+        },
+        {
+          "code": "L702",
+          "confidence": 0.771727
+        }
+      ]
     }
-  },
-  {
-    "text": "mụn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      69,
-      72
-    ],
-    "assertion_position": [
-      67,
-      70
-    ],
-    "sentence": "Cháu năm nay 18 tuổi da rất nhiều dầu và bị [ENTITY] trứng cá từ năm lớp 8.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "mụn",
@@ -70,49 +63,7 @@
     ],
     "sentence": "Đến năm lớp 11 cháu đi khám da liễu, thì sau khoảng 3 tháng điều trị da cháu ít dầu hơn và dường như không còn [ENTITY].",
     "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "mụn cám",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      316,
-      323
-    ],
-    "assertion_position": [
-      314,
-      321
-    ],
-    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là [ENTITY] và mụn đầu trắng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "mụn đầu trắng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      327,
-      340
-    ],
-    "assertion_position": [
-      325,
-      338
-    ],
-    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và [ENTITY].",
-    "assertion_result": {
-      "tag": null
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -163,21 +114,41 @@
     "candidate": null
   },
   {
-    "text": "nhiễm",
-    "type": "CHẨN_ĐOÁN",
+    "text": "mụn cám",
+    "type": "TRIỆU_CHỨNG",
     "position": [
-      773,
-      778
+      316,
+      323
     ],
     "assertion_position": [
-      766,
-      771
+      314,
+      321
     ],
-    "sentence": "Cấy nước tiểu : [ENTITY] khuẩn đường tiết niệu có các vi khuẩn hỗn hợp.",
+    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là [ENTITY] và mụn đầu trắng.",
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mụn đầu trắng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      327,
+      340
+    ],
+    "assertion_position": [
+      325,
+      338
+    ],
+    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -218,7 +189,21 @@
     },
     "candidate": {
       "code": "N390",
-      "confidence": 0.874628
+      "confidence": 0.874628,
+      "ranked_candidates": [
+        {
+          "code": "N390",
+          "confidence": 0.874628
+        },
+        {
+          "code": "P393",
+          "confidence": 0.75672
+        },
+        {
+          "code": "R8281",
+          "confidence": 0.65374
+        }
+      ]
     }
   },
   {
@@ -281,30 +266,22 @@
     },
     "candidate": {
       "code": "M869",
-      "confidence": 0.904454
+      "confidence": 0.904454,
+      "ranked_candidates": [
+        {
+          "code": "M869",
+          "confidence": 0.904454
+        },
+        {
+          "code": "M868X9",
+          "confidence": 0.749694
+        },
+        {
+          "code": "M868X89",
+          "confidence": 0.64915
+        }
+      ]
     }
-  },
-  {
-    "text": "acne",
-    "type": "THUỐC",
-    "position": [
-      1014,
-      1018
-    ],
-    "assertion_position": [
-      1003,
-      1007
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "mụn trứng cá",
@@ -340,7 +317,21 @@
     },
     "candidate": {
       "code": "L700",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "L700",
+          "confidence": 1.0
+        },
+        {
+          "code": "L709",
+          "confidence": 0.796163
+        },
+        {
+          "code": "L702",
+          "confidence": 0.771727
+        }
+      ]
     }
   }
 ]

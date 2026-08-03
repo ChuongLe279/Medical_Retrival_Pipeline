@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "I4891",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "I4891",
+          "confidence": 1.0
+        },
+        {
+          "code": "I4821",
+          "confidence": 0.824635
+        },
+        {
+          "code": "I4820",
+          "confidence": 0.813104
+        }
+      ]
     }
   },
   {
@@ -70,7 +84,21 @@
     },
     "candidate": {
       "code": "I10",
-      "confidence": 0.734463
+      "confidence": 0.734463,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 0.734463
+        },
+        {
+          "code": "I159",
+          "confidence": 0.669148
+        },
+        {
+          "code": "I160",
+          "confidence": 0.620398
+        }
+      ]
     }
   },
   {
@@ -107,7 +135,21 @@
     },
     "candidate": {
       "code": "I509",
-      "confidence": 0.905845
+      "confidence": 0.905845,
+      "ranked_candidates": [
+        {
+          "code": "I509",
+          "confidence": 0.905845
+        },
+        {
+          "code": "I5089",
+          "confidence": 0.799584
+        },
+        {
+          "code": "I5084",
+          "confidence": 0.768065
+        }
+      ]
     }
   },
   {
@@ -144,7 +186,21 @@
     },
     "candidate": {
       "code": "E669",
-      "confidence": 0.902352
+      "confidence": 0.902352,
+      "ranked_candidates": [
+        {
+          "code": "E669",
+          "confidence": 0.902352
+        },
+        {
+          "code": "E663",
+          "confidence": 0.79528
+        },
+        {
+          "code": "E66811",
+          "confidence": 0.778514
+        }
+      ]
     }
   },
   {
@@ -193,16 +249,16 @@
     "text": "mụn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      145,
-      148
+      283,
+      286
     ],
     "assertion_position": [
-      139,
-      142
+      277,
+      280
     ],
-    "sentence": "Cháu năm nay 18 tuổi da rất nhiều dầu và bị [ENTITY] trứng cá từ năm lớp 8.",
+    "sentence": "Đến năm lớp 11 cháu đi khám da liễu, thì sau khoảng 3 tháng điều trị da cháu ít dầu hơn và dường như không còn [ENTITY].",
     "assertion_result": {
-      "tag": null
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -266,27 +322,6 @@
     "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và [ENTITY].",
     "assertion_result": {
       "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "mụn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      283,
-      286
-    ],
-    "assertion_position": [
-      277,
-      280
-    ],
-    "sentence": "Đến năm lớp 11 cháu đi khám da liễu, thì sau khoảng 3 tháng điều trị da cháu ít dầu hơn và dường như không còn [ENTITY].",
-    "assertion_result": {
-      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -685,7 +720,21 @@
     },
     "candidate": {
       "code": "202991",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "202991",
+          "confidence": 1.0
+        },
+        {
+          "code": "2735130",
+          "confidence": 0.506221
+        },
+        {
+          "code": "2739320",
+          "confidence": 0.414185
+        }
+      ]
     }
   },
   {
@@ -722,7 +771,21 @@
     },
     "candidate": {
       "code": "202991",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "202991",
+          "confidence": 1.0
+        },
+        {
+          "code": "2735130",
+          "confidence": 0.506221
+        },
+        {
+          "code": "2739320",
+          "confidence": 0.414185
+        }
+      ]
     }
   },
   {
@@ -759,7 +822,21 @@
     },
     "candidate": {
       "code": "224913",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "224913",
+          "confidence": 1.0
+        },
+        {
+          "code": "216611",
+          "confidence": 0.56148
+        },
+        {
+          "code": "216610",
+          "confidence": 0.555827
+        }
+      ]
     }
   },
   {
@@ -847,17 +924,13 @@
     "candidate": null
   },
   {
-    "text": "nhịp",
+    "text": "nhịp tim",
     "type": "TRIỆU_CHỨNG",
     "position": [
       2175,
-      2179
+      2183
     ],
-    "assertion_position": [
-      2119,
-      2123
-    ],
-    "sentence": "[ENTITY] tim cải thiện thành.",
+    "sentence": "- [ENTITY] cải thiện thành",
     "assertion_result": {
       "tag": null
     },

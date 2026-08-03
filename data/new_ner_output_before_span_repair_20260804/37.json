@@ -1,0 +1,194 @@
+[
+  {
+    "text": "đau đớn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      990,
+      997
+    ],
+    "assertion_position": [
+      979,
+      986
+    ],
+    "sentence": "Mức độ nghiêm trọng: cực kỳ [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1087,
+      1093
+    ],
+    "assertion_position": [
+      1066,
+      1072
+    ],
+    "sentence": "Các triệu chứng liên quan: [ENTITY], chảy mủ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chảy mủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1095,
+      1102
+    ],
+    "assertion_position": [
+      1074,
+      1081
+    ],
+    "sentence": "Các triệu chứng liên quan: ban đỏ, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "position": [
+      1211,
+      1218
+    ],
+    "assertion_position": [
+      1182,
+      1189
+    ],
+    "sentence": "Được bác sĩ chăm sóc chính thay thế khám vào ngày, được tăng liều [ENTITY] và doxycycline để điều trị chẩn đoán Viêm mô tế bào.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Bactrim"
+    ],
+    "retriever": {
+      "sapbert": {
+        "151399": 1.0,
+        "91920": 0.962183,
+        "1427187": 0.925317,
+        "346206": 0.897712,
+        "227591": 0.839903
+      },
+      "rapidfuzz": {
+        "151399": 1.0,
+        "1167959": 0.9,
+        "208416": 0.9
+      }
+    },
+    "candidate": {
+      "code": "151399",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "position": [
+      1222,
+      1233
+    ],
+    "assertion_position": [
+      1193,
+      1204
+    ],
+    "sentence": "Được bác sĩ chăm sóc chính thay thế khám vào ngày, được tăng liều bactrim và [ENTITY] để điều trị chẩn đoán Viêm mô tế bào.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "doxycycline"
+    ],
+    "retriever": {
+      "sapbert": {
+        "3640": 1.0,
+        "1545992": 0.941019
+      },
+      "rapidfuzz": {
+        "3640": 1.0,
+        "1160779": 0.95,
+        "205604": 0.9
+      }
+    },
+    "candidate": {
+      "code": "3640",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1256,
+      1270
+    ],
+    "assertion_position": [
+      1227,
+      1241
+    ],
+    "sentence": "Được bác sĩ chăm sóc chính thay thế khám vào ngày, được tăng liều bactrim và doxycycline để điều trị chẩn đoán [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Cellulitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "L0390": 0.990185,
+        "L03119": 0.789576,
+        "L03818": 0.778997,
+        "L080": 0.693834,
+        "M609": 0.655382
+      },
+      "rapidfuzz": {
+        "L03314": 0.9,
+        "L03315": 0.9,
+        "H6011": 0.9
+      }
+    },
+    "candidate": {
+      "code": "L0390",
+      "confidence": 0.921166
+    }
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1310,
+      1316
+    ],
+    "assertion_position": [
+      1276,
+      1282
+    ],
+    "sentence": "Báo cáo có cải thiện một phần về [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

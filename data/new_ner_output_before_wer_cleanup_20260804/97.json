@@ -1,0 +1,457 @@
+[
+  {
+    "text": "Suy thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      60
+    ],
+    "assertion_position": [
+      36,
+      48
+    ],
+    "sentence": "[ENTITY] giai đoạn V do đái tháo đường và tăng huyết áp.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Chronic kidney disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N189": 0.982146,
+        "N039": 0.781739,
+        "N186": 0.757736,
+        "N181": 0.744167,
+        "N1830": 0.681813
+      },
+      "rapidfuzz": {
+        "D631": 0.95,
+        "N181": 0.95,
+        "N1831": 0.95
+      }
+    },
+    "candidate": {
+      "code": "N189",
+      "confidence": 0.913931
+    }
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      76,
+      90
+    ],
+    "assertion_position": [
+      64,
+      78
+    ],
+    "sentence": "Suy thận mạn giai đoạn V do [ENTITY] và tăng huyết áp.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Diabetes mellitus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R7303": 0.712752,
+        "Z833": 0.706901,
+        "O24919": 0.682559,
+        "E1165": 0.682321,
+        "P702": 0.664486
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9
+      }
+    },
+    "candidate": {
+      "code": "R7303",
+      "confidence": 0.642354
+    }
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      94,
+      107
+    ],
+    "assertion_position": [
+      82,
+      95
+    ],
+    "sentence": "Suy thận mạn giai đoạn V do đái tháo đường và [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.689331,
+        "I150": 0.684921,
+        "I169": 0.681309
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.734463
+    }
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      387,
+      394
+    ],
+    "assertion_position": [
+      343,
+      350
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY], mất trí nhớ chi tiết.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      396,
+      416
+    ],
+    "assertion_position": [
+      352,
+      372
+    ],
+    "sentence": "Lý do nhập viện: mệt mỏi, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      439,
+      447
+    ],
+    "assertion_position": [
+      396,
+      404
+    ],
+    "sentence": "Bệnh nhân kể cảm thấy [ENTITY] mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      448,
+      455
+    ],
+    "assertion_position": [
+      405,
+      412
+    ],
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu [ENTITY] nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ăn không ngon miệng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      463,
+      482
+    ],
+    "assertion_position": [
+      420,
+      439
+    ],
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, [ENTITY], ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngứa da toàn thân nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      484,
+      507
+    ],
+    "assertion_position": [
+      441,
+      464
+    ],
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, [ENTITY], và mất trí nhớ chi tiết, khó thở khi gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      512,
+      532
+    ],
+    "assertion_position": [
+      469,
+      489
+    ],
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và [ENTITY], khó thở khi gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở khi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      534,
+      545
+    ],
+    "assertion_position": [
+      491,
+      502
+    ],
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, [ENTITY] gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      568,
+      576
+    ],
+    "assertion_position": [
+      525,
+      533
+    ],
+    "sentence": "Tuần qua có [ENTITY], và nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      573,
+      576
+    ],
+    "assertion_position": [
+      530,
+      533
+    ],
+    "sentence": "Tuần qua có buồn [ENTITY], và nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      448,
+      461
+    ],
+    "assertion_position": [
+      405,
+      418
+    ],
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu [ENTITY], ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Ăn không ngon miệng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      648,
+      667
+    ],
+    "assertion_position": [
+      595,
+      614
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngứa da toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      484,
+      501
+    ],
+    "assertion_position": [
+      441,
+      458
+    ],
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, [ENTITY] nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      704,
+      724
+    ],
+    "assertion_position": [
+      641,
+      661
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh trĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      835,
+      843
+    ],
+    "assertion_position": [
+      771,
+      779
+    ],
+    "sentence": "Điều trị [ENTITY] theo tây y có hai cách nội khoa và ngoại khoa.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Hemorrhoids"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K649": 0.963918,
+        "K640": 0.818931,
+        "K648": 0.794308,
+        "K643": 0.783399,
+        "K642": 0.735634
+      },
+      "rapidfuzz": {
+        "O2240": 0.9,
+        "O2241": 0.9,
+        "O2242": 0.9
+      }
+    },
+    "candidate": {
+      "code": "K649",
+      "confidence": 0.889274
+    }
+  },
+  {
+    "text": "Ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      953,
+      956
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

@@ -1,0 +1,612 @@
+[
+  {
+    "text": "viêm tủy xương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      52,
+      66
+    ],
+    "assertion_position": [
+      45,
+      59
+    ],
+    "sentence": "Các bệnh lý mãn tính: [ENTITY] và bàng quang thần kinh có biến chứng liệt hai chi dưới.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Osteomyelitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M869": 0.980384,
+        "M868X9": 0.832993,
+        "M868X89": 0.721278,
+        "M8620": 0.718941,
+        "M868X0": 0.701727
+      },
+      "rapidfuzz": {
+        "A0105": 0.9,
+        "A0224": 0.9,
+        "M86012": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M869",
+      "confidence": 0.904454
+    }
+  },
+  {
+    "text": "hai chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      110,
+      122
+    ],
+    "assertion_position": [
+      103,
+      115
+    ],
+    "sentence": "Các bệnh lý mãn tính: viêm tủy xương và bàng quang thần kinh có biến chứng liệt [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      191,
+      204
+    ],
+    "assertion_position": [
+      177,
+      190
+    ],
+    "sentence": "Lý do nhập viện: biến đổi ý thức kèm theo [ENTITY] và hạ huyết áp.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      208,
+      219
+    ],
+    "assertion_position": [
+      194,
+      205
+    ],
+    "sentence": "Lý do nhập viện: biến đổi ý thức kèm theo hạ thân nhiệt và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      395,
+      408
+    ],
+    "assertion_position": [
+      379,
+      392
+    ],
+    "sentence": "Trước khi nhập viện, bệnh nhân được phát hiện trong tình trạng biến đổi ý thức, [ENTITY], hạ huyết áp với huyết áp tâm thu là 90.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      410,
+      421
+    ],
+    "assertion_position": [
+      394,
+      405
+    ],
+    "sentence": "Trước khi nhập viện, bệnh nhân được phát hiện trong tình trạng biến đổi ý thức, hạ thân nhiệt, [ENTITY] với huyết áp tâm thu là 90.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "biến đổi ý",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      166,
+      176
+    ],
+    "assertion_position": [
+      152,
+      162
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY] thức kèm theo hạ thân nhiệt và hạ huyết áp.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      506,
+      519
+    ],
+    "assertion_position": [
+      477,
+      490
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      520,
+      527
+    ],
+    "assertion_position": [
+      492,
+      499
+    ],
+    "sentence": "[ENTITY] khi nằm đầu bằng, SpO2 99% thở khí 2L/ph.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "SpO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      546,
+      550
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "99",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      551,
+      553
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Tim nhịp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      571,
+      579
+    ],
+    "assertion_position": [
+      542,
+      550
+    ],
+    "sentence": "[ENTITY] không đều, tần số 105 chu kì/phút.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      211,
+      219
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "110/70",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      663,
+      669
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Bụng mềm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      733,
+      741
+    ],
+    "assertion_position": [
+      704,
+      712
+    ],
+    "sentence": "[ENTITY], không chướng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      749,
+      755
+    ],
+    "assertion_position": [
+      720,
+      726
+    ],
+    "sentence": "Bụng mềm, không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      771,
+      774
+    ],
+    "assertion_position": [
+      742,
+      745
+    ],
+    "sentence": "Không có điểm [ENTITY], gan lách không sờ thấy.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      806,
+      809
+    ],
+    "assertion_position": [
+      777,
+      780
+    ],
+    "sentence": "Không [ENTITY], tiểu được không rõ số lượng.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tiểu được",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      811,
+      820
+    ],
+    "assertion_position": [
+      782,
+      791
+    ],
+    "sentence": "Không phù, [ENTITY] không rõ số lượng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "COPD",
+    "type": "THUỐC",
+    "position": [
+      861,
+      865
+    ],
+    "assertion_position": [
+      833,
+      837
+    ],
+    "sentence": "Chẩn đoán : : Đợt cấp [ENTITY] - Tâm phế mạn - Cơn tim nhanh nhĩ - Nhiễm khuẩn đường tiêu hóa - Tăng huyết áp.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Tâm phế mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      868,
+      879
+    ],
+    "assertion_position": [
+      840,
+      851
+    ],
+    "sentence": "Chẩn đoán : : Đợt cấp COPD - [ENTITY] - Cơn tim nhanh nhĩ - Nhiễm khuẩn đường tiêu hóa - Tăng huyết áp.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Chronic cor pulmonale"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I2781": 0.979512,
+        "I50812": 0.742803,
+        "I2782": 0.710006,
+        "I279": 0.702018,
+        "I092": 0.698871
+      },
+      "rapidfuzz": {
+        "I2781": 0.95,
+        "I82552": 0.855,
+        "I82551": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I2781",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Cơn tim nhanh nhĩ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      882,
+      899
+    ],
+    "assertion_position": [
+      854,
+      871
+    ],
+    "sentence": "Chẩn đoán : : Đợt cấp COPD - Tâm phế mạn - [ENTITY] - Nhiễm khuẩn đường tiêu hóa - Tăng huyết áp.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Nhiễm khuẩn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      902,
+      913
+    ],
+    "assertion_position": [
+      874,
+      885
+    ],
+    "sentence": "Chẩn đoán : : Đợt cấp COPD - Tâm phế mạn - Cơn tim nhanh nhĩ - [ENTITY] đường tiêu hóa - Tăng huyết áp.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Bacterial infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "A499": 0.977557,
+        "A498": 0.781016,
+        "R7881": 0.759272,
+        "B999": 0.755496,
+        "A419": 0.752673
+      },
+      "rapidfuzz": {
+        "A498": 0.9,
+        "A499": 0.9,
+        "A310": 0.9
+      }
+    },
+    "candidate": {
+      "code": "A499",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      931,
+      944
+    ],
+    "assertion_position": [
+      903,
+      916
+    ],
+    "sentence": "Chẩn đoán : : Đợt cấp COPD - Tâm phế mạn - Cơn tim nhanh nhĩ - Nhiễm khuẩn đường tiêu hóa - [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.689331,
+        "I150": 0.684921,
+        "I169": 0.681309
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.734463
+    }
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1003,
+      1015
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1080,
+      1092
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1235,
+      1246
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhịp chậm xoang",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1256,
+      1271
+    ],
+    "assertion_position": [
+      1198,
+      1213
+    ],
+    "sentence": "điện tâm đồ cho thấy [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1275,
+      1286
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

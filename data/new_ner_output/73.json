@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "K5190",
-      "confidence": 0.899402
+      "confidence": 0.899402,
+      "ranked_candidates": [
+        {
+          "code": "K5190",
+          "confidence": 0.899402
+        },
+        {
+          "code": "K523",
+          "confidence": 0.737573
+        },
+        {
+          "code": "K51919",
+          "confidence": 0.728389
+        }
+      ]
     }
   },
   {
@@ -70,21 +84,31 @@
     },
     "candidate": {
       "code": "K709",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "K709",
+          "confidence": 1.0
+        },
+        {
+          "code": "K700",
+          "confidence": 0.821849
+        },
+        {
+          "code": "K702",
+          "confidence": 0.753405
+        }
+      ]
     }
   },
   {
-    "text": "ăn",
+    "text": "ăn uống kém",
     "type": "TRIỆU_CHỨNG",
     "position": [
       408,
-      410
+      419
     ],
-    "assertion_position": [
-      370,
-      372
-    ],
-    "sentence": "[ENTITY] uống kém do buồn nôn.",
+    "sentence": "- [ENTITY] do buồn nôn",
     "assertion_result": {
       "tag": null
     },
@@ -106,27 +130,6 @@
       393
     ],
     "sentence": "ăn uống kém do [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "bụng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      442,
-      446
-    ],
-    "assertion_position": [
-      399,
-      403
-    ],
-    "sentence": "đau [ENTITY]/khó chịu vùng bụng tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ).",
     "assertion_result": {
       "tag": null
     },
@@ -171,27 +174,6 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      428,
-      431
-    ],
-    "assertion_position": [
-      390,
-      393
-    ],
-    "sentence": "ăn uống kém do buồn [ENTITY].",
-    "assertion_result": {
-      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -359,7 +341,21 @@
     },
     "candidate": {
       "code": "E859",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "E859",
+          "confidence": 1.0
+        },
+        {
+          "code": "E853",
+          "confidence": 0.87397
+        },
+        {
+          "code": "E854",
+          "confidence": 0.801919
+        }
+      ]
     }
   },
   {
@@ -396,66 +392,22 @@
     },
     "candidate": {
       "code": "E859",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "E859",
+          "confidence": 1.0
+        },
+        {
+          "code": "E853",
+          "confidence": 0.87397
+        },
+        {
+          "code": "E854",
+          "confidence": 0.801919
+        }
+      ]
     }
-  },
-  {
-    "text": "amyloidosis",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      867,
-      878
-    ],
-    "assertion_position": [
-      772,
-      783
-    ],
-    "sentence": "Bệnh [ENTITY] di truyền hoặc gia đình.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Amyloidosis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "E859": 0.978412,
-        "E854": 0.891021,
-        "E853": 0.871078,
-        "E852": 0.846665,
-        "E850": 0.838211
-      },
-      "rapidfuzz": {
-        "E859": 0.9,
-        "E853": 0.9,
-        "E8581": 0.9
-      }
-    },
-    "candidate": {
-      "code": "E859",
-      "confidence": 1.0
-    }
-  },
-  {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      524,
-      527
-    ],
-    "assertion_position": [
-      476,
-      479
-    ],
-    "sentence": "buồn [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "sốt",
@@ -584,17 +536,13 @@
     "candidate": null
   },
   {
-    "text": "niệu",
+    "text": "thiểu niệu",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1344,
+      1338,
       1348
     ],
-    "assertion_position": [
-      1233,
-      1237
-    ],
-    "sentence": "Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt thiểu [ENTITY], chảy dịch từ lỗ dò tăng đáng kể.",
+    "sentence": "- Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  [ENTITY], chảy dịch từ lỗ dò tăng đáng kể",
     "assertion_result": {
       "tag": null
     },
@@ -616,27 +564,6 @@
       1251
     ],
     "sentence": "Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt thiểu niệu, [ENTITY] lỗ dò tăng đáng kể.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ăn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      467,
-      469
-    ],
-    "assertion_position": [
-      424,
-      426
-    ],
-    "sentence": "đau bụng/khó chịu vùng bụng t[ENTITY]g dần, đặc biệt ở vùng hạ vị bên trái (LLQ).",
     "assertion_result": {
       "tag": null
     },

@@ -1,0 +1,703 @@
+[
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      110,
+      135
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tăng đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      160,
+      172
+    ],
+    "assertion_position": [
+      142,
+      154
+    ],
+    "sentence": "Bị [ENTITY] cải thiện khi nằm ngửa.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chứng đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      257,
+      270
+    ],
+    "assertion_position": [
+      233,
+      246
+    ],
+    "sentence": "Nhập viện khoa Thần kinh vào thời điểm đó để điều trị [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      353,
+      364
+    ],
+    "assertion_position": [
+      323,
+      334
+    ],
+    "sentence": "Được bác sĩ nhãn khoa khám trong quá trình nhập viện đó và không phát hiện [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Papilledema"
+    ],
+    "retriever": {
+      "sapbert": {
+        "H4710": 0.968847,
+        "H4711": 0.891127,
+        "H4712": 0.88827,
+        "H4713": 0.879229,
+        "H47339": 0.743504
+      },
+      "rapidfuzz": {
+        "H4712": 0.9,
+        "H4713": 0.9,
+        "H4711": 0.9
+      }
+    },
+    "candidate": {
+      "code": "H4711",
+      "confidence": 0.952014
+    }
+  },
+  {
+    "text": "não úng thuỷ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      388,
+      400
+    ],
+    "assertion_position": [
+      354,
+      366
+    ],
+    "sentence": "Bệnh lý mãn tính: [ENTITY] khác từ thời kỳ sơ sinh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Hydrocephalus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G919": 0.983161,
+        "Q039": 0.901632,
+        "G911": 0.860141,
+        "G910": 0.809608,
+        "G918": 0.783533
+      },
+      "rapidfuzz": {
+        "G918": 0.95,
+        "Q051": 0.9,
+        "Q039": 0.9
+      }
+    },
+    "candidate": {
+      "code": "Q039",
+      "confidence": 0.901469
+    }
+  },
+  {
+    "text": "tăng nhãn áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      504,
+      516
+    ],
+    "assertion_position": [
+      462,
+      474
+    ],
+    "sentence": "Phẫu thuật đặt cảng để điều trị chứng [ENTITY] ở thời kỳ sơ sinh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Glaucoma"
+    ],
+    "retriever": {
+      "sapbert": {
+        "H409": 0.961359,
+        "Q150": 0.816557,
+        "H44519": 0.803853,
+        "H47239": 0.785797,
+        "H42": 0.778475
+      },
+      "rapidfuzz": {
+        "Z9883": 0.9,
+        "H401390": 0.9,
+        "H44519": 0.9
+      }
+    },
+    "candidate": {
+      "code": "H409",
+      "confidence": 0.886943
+    }
+  },
+  {
+    "text": "nhãn áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      509,
+      516
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      165,
+      172
+    ],
+    "assertion_position": [
+      147,
+      154
+    ],
+    "sentence": "Bị tăng [ENTITY] cải thiện khi nằm ngửa.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      715,
+      718
+    ],
+    "assertion_position": [
+      665,
+      668
+    ],
+    "sentence": "Lý do nhập viện: đau đầu kéo [ENTITY] kèm theo mờ mắt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mờ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      728,
+      734
+    ],
+    "assertion_position": [
+      678,
+      684
+    ],
+    "sentence": "Lý do nhập viện: đau đầu kéo dài kèm theo [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhìn mờ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      772,
+      779
+    ],
+    "assertion_position": [
+      719,
+      726
+    ],
+    "sentence": "Thời điểm khởi phát triệu chứng: [ENTITY] tiến triển trong 2 tuần qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "não úng tuỷ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      846,
+      857
+    ],
+    "assertion_position": [
+      785,
+      796
+    ],
+    "sentence": "Bệnh nhân bị [ENTITY] từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Hydrocephalus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G919": 0.983161,
+        "Q039": 0.901632,
+        "G911": 0.860141,
+        "G910": 0.809608,
+        "G918": 0.783533
+      },
+      "rapidfuzz": {
+        "G918": 0.95,
+        "Q051": 0.9,
+        "Q039": 0.9
+      }
+    },
+    "candidate": {
+      "code": "Q039",
+      "confidence": 0.901469
+    }
+  },
+  {
+    "text": "não úng thủy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      968,
+      980
+    ],
+    "assertion_position": [
+      902,
+      914
+    ],
+    "sentence": "Trước đây đã từng nhập viện với chẩn đoán [ENTITY], có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hydrocephalus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G919": 0.983161,
+        "Q039": 0.901632,
+        "G911": 0.860141,
+        "G910": 0.809608,
+        "G918": 0.783533
+      },
+      "rapidfuzz": {
+        "G918": 0.95,
+        "Q051": 0.9,
+        "Q039": 0.9
+      }
+    },
+    "candidate": {
+      "code": "Q039",
+      "confidence": 0.901469
+    }
+  },
+  {
+    "text": "tăng đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      995,
+      1007
+    ],
+    "assertion_position": [
+      929,
+      941
+    ],
+    "sentence": "Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện [ENTITY] , triệu chứng cải thiện khi nằm ngửa.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chứng đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1103,
+      1116
+    ],
+    "assertion_position": [
+      1031,
+      1044
+    ],
+    "sentence": "Nhập viện trước đây vào khoa Thần kinh để điều trị [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1192,
+      1203
+    ],
+    "assertion_position": [
+      1114,
+      1125
+    ],
+    "sentence": "Khám nhãn khoa trong quá trình nhập viện trước đó cho thấy không có [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Papilledema"
+    ],
+    "retriever": {
+      "sapbert": {
+        "H4710": 0.968847,
+        "H4711": 0.891127,
+        "H4712": 0.88827,
+        "H4713": 0.879229,
+        "H47339": 0.743504
+      },
+      "rapidfuzz": {
+        "H4712": 0.9,
+        "H4713": 0.9,
+        "H4711": 0.9
+      }
+    },
+    "candidate": {
+      "code": "H4711",
+      "confidence": 0.952014
+    }
+  },
+  {
+    "text": "mờ mắt ở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1237,
+      1245
+    ],
+    "assertion_position": [
+      1153,
+      1161
+    ],
+    "sentence": "Đến hôm nay, bệnh nhân bị [ENTITY] cả hai mắt, bên trái nặng hơn bên phải, tiến triển trong 2 tuần qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hai mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1249,
+      1256
+    ],
+    "assertion_position": [
+      1165,
+      1172
+    ],
+    "sentence": "Đến hôm nay, bệnh nhân bị mờ mắt ở cả [ENTITY], bên trái nặng hơn bên phải, tiến triển trong 2 tuần qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "PT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1416,
+      1418
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Prothrombin Time",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1421,
+      1437
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1510,
+      1518
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "AST",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1570,
+      1573
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "GOT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1575,
+      1578
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ALT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1592,
+      1595
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "GPT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1597,
+      1600
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Định lượng Creatinin (máu)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1604,
+      1630
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Na",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1219,
+      1221
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "K",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      64,
+      65
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Cl",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1654,
+      1656
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Tăng nhãn áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1772,
+      1784
+    ],
+    "assertion_position": [
+      1618,
+      1630
+    ],
+    "sentence": "[ENTITY] so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước).",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Glaucoma"
+    ],
+    "retriever": {
+      "sapbert": {
+        "H409": 0.961359,
+        "Q150": 0.816557,
+        "H44519": 0.803853,
+        "H47239": 0.785797,
+        "H42": 0.778475
+      },
+      "rapidfuzz": {
+        "Z9883": 0.9,
+        "H401390": 0.9,
+        "H44519": 0.9
+      }
+    },
+    "candidate": {
+      "code": "H409",
+      "confidence": 0.886943
+    }
+  },
+  {
+    "text": "nhãn áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1777,
+      1784
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1792,
+      1817
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1863,
+      1874
+    ],
+    "assertion_position": [
+      1704,
+      1715
+    ],
+    "sentence": "[ENTITY] (theo báo cáo của bác sĩ nhãn khoa).",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Papilledema"
+    ],
+    "retriever": {
+      "sapbert": {
+        "H4710": 0.968847,
+        "H4711": 0.891127,
+        "H4712": 0.88827,
+        "H4713": 0.879229,
+        "H47339": 0.743504
+      },
+      "rapidfuzz": {
+        "H4712": 0.9,
+        "H4713": 0.9,
+        "H4711": 0.9
+      }
+    },
+    "candidate": {
+      "code": "H4711",
+      "confidence": 0.952014
+    }
+  }
+]

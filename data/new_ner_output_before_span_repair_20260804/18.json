@@ -1,0 +1,617 @@
+[
+  {
+    "text": "Điện tâm đồ (ECG)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      14,
+      31
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      101,
+      109
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhồi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      127,
+      131
+    ],
+    "assertion_position": [
+      119,
+      123
+    ],
+    "sentence": "Troponin I/T ↑ (chẩn đoán [ENTITY] máu).",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Myocardial infarction"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.851584,
+        "I21A1": 0.785121,
+        "I249": 0.769203,
+        "I252": 0.761003,
+        "I639": 0.728907
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2109": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I21A1",
+      "confidence": 0.861609
+    }
+  },
+  {
+    "text": "CK-MB",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      140,
+      145
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      149,
+      160
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      254,
+      270
+    ],
+    "assertion_position": [
+      238,
+      254
+    ],
+    "sentence": "Phát hiện [ENTITY] khi gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Myocardial ischemia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I255": 0.828051,
+        "I256": 0.79642,
+        "I6782": 0.762137,
+        "I249": 0.757936,
+        "I21A1": 0.70956
+      },
+      "rapidfuzz": {
+        "I256": 0.95,
+        "P294": 0.9,
+        "I235": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I256",
+      "confidence": 0.876778
+    }
+  },
+  {
+    "text": "bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      791,
+      805
+    ],
+    "assertion_position": [
+      737,
+      751
+    ],
+    "sentence": "Dự phòng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Coronary artery disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I209": 0.762008,
+        "I249": 0.730043,
+        "I519": 0.723818,
+        "I259": 0.692669,
+        "I2089": 0.664935
+      },
+      "rapidfuzz": {
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I209",
+      "confidence": 0.690602
+    }
+  },
+  {
+    "text": "đau bụng trên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      895,
+      908
+    ],
+    "assertion_position": [
+      835,
+      848
+    ],
+    "sentence": "Ban đầu xuất hiện [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1113,
+      1116
+    ],
+    "assertion_position": [
+      1037,
+      1040
+    ],
+    "sentence": "Hôm nay, bệnh nhân có [ENTITY] nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1141,
+      1157
+    ],
+    "assertion_position": [
+      1065,
+      1081
+    ],
+    "sentence": "3°C kèm theo [ENTITY] tái phát, ngày càng nặng hơn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1283,
+      1286
+    ],
+    "assertion_position": [
+      1191,
+      1194
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1308,
+      1324
+    ],
+    "assertion_position": [
+      1206,
+      1222
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1331,
+      1334
+    ],
+    "assertion_position": [
+      1224,
+      1227
+    ],
+    "sentence": "[ENTITY] nhẹ đến 38.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1356,
+      1372
+    ],
+    "assertion_position": [
+      1244,
+      1260
+    ],
+    "sentence": "[ENTITY] tái phát, ngày càng nặng hơn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1408,
+      1424
+    ],
+    "assertion_position": [
+      1291,
+      1307
+    ],
+    "sentence": "[ENTITY] liên tục.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1605,
+      1613
+    ],
+    "assertion_position": [
+      1463,
+      1471
+    ],
+    "sentence": "Triệu chứng liên quan: không thấy [ENTITY], nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1620,
+      1627
+    ],
+    "assertion_position": [
+      1478,
+      1485
+    ],
+    "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, [ENTITY], thay đổi chức năng ruột, đau ngực, khó thở.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1654,
+      1662
+    ],
+    "assertion_position": [
+      1512,
+      1520
+    ],
+    "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, [ENTITY], khó thở.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1664,
+      1671
+    ],
+    "assertion_position": [
+      1522,
+      1529
+    ],
+    "sentence": "Triệu chứng liên quan: không thấy buồn nôn, nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "AMA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1732,
+      1735
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1818,
+      1825
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1911,
+      1927
+    ],
+    "assertion_position": [
+      1754,
+      1770
+    ],
+    "sentence": "Được thực hiện siêu âm vùng gan mật tại phòng cấp cứu cho thấy túi mật căng to với dịch quanh túi mật gợi ý [ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Acute cholecystitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K810": 1.0,
+        "K819": 0.826204,
+        "K812": 0.747653,
+        "K811": 0.728649,
+        "K82A1": 0.703488
+      },
+      "rapidfuzz": {
+        "K810": 1.0,
+        "K8043": 0.9,
+        "K8001": 0.9
+      }
+    },
+    "candidate": {
+      "code": "K810",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2294,
+      2301
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sỏi ống mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2365,
+      2376
+    ],
+    "assertion_position": [
+      2168,
+      2179
+    ],
+    "sentence": "siêu âm vùng gan mật cho thấy sỏi mật nhưng không có viêm túi mật hoặc [ENTITY] (lần nhập viện trước).",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Choledocholithiasis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K824": 0.726674,
+        "K8040": 0.712694,
+        "K563": 0.70802,
+        "Q444": 0.705738,
+        "K8030": 0.693456
+      },
+      "rapidfuzz": {
+        "L632": 0.771429,
+        "B743": 0.75,
+        "K8080": 0.725455
+      }
+    },
+    "candidate": {
+      "code": "K824",
+      "confidence": 0.656104
+    }
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2405,
+      2412
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2564,
+      2580
+    ],
+    "assertion_position": [
+      2357,
+      2373
+    ],
+    "sentence": "siêu âm vùng gan mật hiện tại cho thấy túi mật căng to với dịch quanh túi mật gợi ý [ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Acute cholecystitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K810": 1.0,
+        "K819": 0.826204,
+        "K812": 0.747653,
+        "K811": 0.728649,
+        "K82A1": 0.703488
+      },
+      "rapidfuzz": {
+        "K810": 1.0,
+        "K8043": 0.9,
+        "K8001": 0.9
+      }
+    },
+    "candidate": {
+      "code": "K810",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "viêm túi mật cấp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2623,
+      2639
+    ],
+    "assertion_position": [
+      2413,
+      2429
+    ],
+    "sentence": "Các phát hiện chẩn đoán khác: lo ngại [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Acute cholecystitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K810": 1.0,
+        "K819": 0.826204,
+        "K812": 0.747653,
+        "K811": 0.728649,
+        "K82A1": 0.703488
+      },
+      "rapidfuzz": {
+        "K810": 1.0,
+        "K8043": 0.9,
+        "K8001": 0.9
+      }
+    },
+    "candidate": {
+      "code": "K810",
+      "confidence": 1.0
+    }
+  }
+]

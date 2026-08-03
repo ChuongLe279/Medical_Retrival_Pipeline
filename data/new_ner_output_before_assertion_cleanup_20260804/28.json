@@ -1,0 +1,189 @@
+[
+  {
+    "text": "dấu mề đay rất to",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      81,
+      98
+    ],
+    "assertion_position": [
+      79,
+      96
+    ],
+    "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các [ENTITY] và ngứa khắp người, bạn em bị nổi quanh năm luôn ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngứa khắp người",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      102,
+      117
+    ],
+    "assertion_position": [
+      100,
+      115
+    ],
+    "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và [ENTITY], bạn em bị nổi quanh năm luôn ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dấu mề đay nổi rất khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      157,
+      184
+    ],
+    "assertion_position": [
+      155,
+      182
+    ],
+    "sentence": "Những [ENTITY] và ngứa, được biết bạn em có từng đi chữa trị và sử dụng rất nhiều thuốc nhưng không đỡ ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dị ứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      357,
+      363
+    ],
+    "assertion_position": [
+      355,
+      361
+    ],
+    "sentence": "Cả hai người đều không phải [ENTITY] do thời tiết hay thức ăn, nó có thể nổi lên mọi lúc.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Allergy"
+    ],
+    "retriever": {
+      "sapbert": {
+        "Z889": 0.784828,
+        "Z888": 0.729561,
+        "T7840XA": 0.717406,
+        "Z0182": 0.715869,
+        "Z9109": 0.701436
+      },
+      "rapidfuzz": {
+        "Z881": 0.9,
+        "Z880": 0.9,
+        "K0855": 0.9
+      }
+    },
+    "candidate": {
+      "code": "Z889",
+      "confidence": 0.714635
+    }
+  },
+  {
+    "text": "MÀY ĐAY VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      733,
+      747
+    ],
+    "assertion_position": [
+      728,
+      742
+    ],
+    "sentence": "Như bạn đã mô tả, trường hợp này bạn thuộc [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Idiopathic urticaria"
+    ],
+    "retriever": {
+      "sapbert": {
+        "L501": 1.0,
+        "L500": 0.867424,
+        "L509": 0.782997,
+        "L506": 0.712078,
+        "L508": 0.691966
+      },
+      "rapidfuzz": {
+        "L501": 1.0,
+        "G4734": 0.855,
+        "M41123": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L501",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "chụp cộng hưởng từ (mri)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2235,
+      2259
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hẹp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2281,
+      2284
+    ],
+    "assertion_position": [
+      2269,
+      2272
+    ],
+    "sentence": "Kết quả chụp ảnh: chụp cộng hưởng từ (mri) cột sống cổ cho thấy [ENTITY] ống sống C4-5, C5-6, C6-7 và hẹp lỗ liên hợp.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Cervical spinal stenosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M4802": 0.982862,
+        "M4803": 0.847811,
+        "M9931": 0.808133,
+        "N882": 0.789746,
+        "M9941": 0.76009
+      },
+      "rapidfuzz": {
+        "M4802": 0.95,
+        "S12040G": 0.855,
+        "I362": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M4802",
+      "confidence": 1.0
+    }
+  }
+]

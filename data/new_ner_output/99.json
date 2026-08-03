@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "M869",
-      "confidence": 0.904454
+      "confidence": 0.904454,
+      "ranked_candidates": [
+        {
+          "code": "M869",
+          "confidence": 0.904454
+        },
+        {
+          "code": "M868X9",
+          "confidence": 0.749694
+        },
+        {
+          "code": "M868X89",
+          "confidence": 0.64915
+        }
+      ]
     }
   },
   {
@@ -48,6 +62,27 @@
       115
     ],
     "sentence": "Các bệnh lý mãn tính: viêm tủy xương và bàng quang thần kinh có biến chứng liệt [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "biến đổi ý",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      166,
+      176
+    ],
+    "assertion_position": [
+      152,
+      162
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY] thức kèm theo hạ thân nhiệt và hạ huyết áp.",
     "assertion_result": {
       "tag": null
     },
@@ -142,27 +177,6 @@
     "candidate": null
   },
   {
-    "text": "biến đổi ý",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      166,
-      176
-    ],
-    "assertion_position": [
-      152,
-      162
-    ],
-    "sentence": "Lý do nhập viện: [ENTITY] thức kèm theo hạ thân nhiệt và hạ huyết áp.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "hạ thân nhiệt",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -245,19 +259,6 @@
     "assertion_result": {
       "tag": null
     },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Huyết áp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      211,
-      219
-    ],
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -384,7 +385,7 @@
   },
   {
     "text": "COPD",
-    "type": "THUỐC",
+    "type": "CHẨN_ĐOÁN",
     "position": [
       861,
       865
@@ -397,12 +398,41 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": [],
+    "eng_translation": [
+      "Chronic obstructive pulmonary disease"
+    ],
     "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
+      "sapbert": {
+        "J449": 0.984133,
+        "J4489": 0.684525,
+        "J42": 0.652648,
+        "I2781": 0.644329,
+        "J849": 0.633067
+      },
+      "rapidfuzz": {
+        "J449": 0.95,
+        "J4489": 0.95,
+        "J441": 0.9
+      }
     },
-    "candidate": null
+    "candidate": {
+      "code": "J449",
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "J449",
+          "confidence": 1.0
+        },
+        {
+          "code": "J4489",
+          "confidence": 0.711072
+        },
+        {
+          "code": "J42",
+          "confidence": 0.587383
+        }
+      ]
+    }
   },
   {
     "text": "Tâm phế mạn",
@@ -438,7 +468,21 @@
     },
     "candidate": {
       "code": "I2781",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "I2781",
+          "confidence": 1.0
+        },
+        {
+          "code": "I50812",
+          "confidence": 0.668523
+        },
+        {
+          "code": "I2782",
+          "confidence": 0.639005
+        }
+      ]
     }
   },
   {
@@ -496,7 +540,21 @@
     },
     "candidate": {
       "code": "A499",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "A499",
+          "confidence": 1.0
+        },
+        {
+          "code": "A498",
+          "confidence": 0.792914
+        },
+        {
+          "code": "R7881",
+          "confidence": 0.683345
+        }
+      ]
     }
   },
   {
@@ -533,7 +591,21 @@
     },
     "candidate": {
       "code": "I10",
-      "confidence": 0.734463
+      "confidence": 0.734463,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 0.734463
+        },
+        {
+          "code": "I159",
+          "confidence": 0.669148
+        },
+        {
+          "code": "I160",
+          "confidence": 0.620398
+        }
+      ]
     }
   },
   {

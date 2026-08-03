@@ -1,0 +1,509 @@
+[
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      77,
+      88
+    ],
+    "assertion_position": [
+      65,
+      76
+    ],
+    "sentence": "NSAID để điều trị [ENTITY] (đã ngừng).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      106,
+      116
+    ],
+    "assertion_position": [
+      89,
+      99
+    ],
+    "sentence": "[ENTITY] (bắt đầu dùng).",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "omeprazole"
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "283742": 0.969087
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "283742": 0.909091,
+        "343355": 0.9
+      }
+    },
+    "candidate": {
+      "code": "7646",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      206,
+      227
+    ],
+    "assertion_position": [
+      183,
+      204
+    ],
+    "sentence": "Tiền sử bệnh hiện tạiBệnh nhân nhập viện vì [ENTITY] kéo dài vài tuần nay.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      315,
+      336
+    ],
+    "assertion_position": [
+      292,
+      313
+    ],
+    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng [ENTITY], kèm chướng bụng và buồn nôn thoáng qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      353
+    ],
+    "assertion_position": [
+      319,
+      330
+    ],
+    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng đau vùng hạ sườn phải, kèm [ENTITY] và buồn nôn thoáng qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      357,
+      365
+    ],
+    "assertion_position": [
+      334,
+      342
+    ],
+    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng đau vùng hạ sườn phải, kèm chướng bụng và [ENTITY] thoáng qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn ói",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      404,
+      410
+    ],
+    "assertion_position": [
+      380,
+      386
+    ],
+    "sentence": "Bệnh nhân không ghi nhận [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      442,
+      458
+    ],
+    "assertion_position": [
+      418,
+      434
+    ],
+    "sentence": "Ngoài ra, bệnh nhân có tiền sử [ENTITY] từ lâu, khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      551,
+      559
+    ],
+    "assertion_position": [
+      527,
+      535
+    ],
+    "sentence": "[ENTITY] chủ yếu khu trú vùng hạ sườn phải, xuất hiện nhiều sau ăn, kèm cảm giác chướng bụng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      632,
+      643
+    ],
+    "assertion_position": [
+      608,
+      619
+    ],
+    "sentence": "Đau bụng chủ yếu khu trú vùng hạ sườn phải, xuất hiện nhiều sau ăn, kèm cảm giác [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      676,
+      684
+    ],
+    "assertion_position": [
+      651,
+      659
+    ],
+    "sentence": "Các triệu chứng liên quan gồm [ENTITY] thoáng qua, không nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      362,
+      365
+    ],
+    "assertion_position": [
+      339,
+      342
+    ],
+    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng đau vùng hạ sườn phải, kèm chướng bụng và buồn [ENTITY] thoáng qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      743,
+      759
+    ],
+    "assertion_position": [
+      718,
+      734
+    ],
+    "sentence": "Bệnh nhân cũng ghi nhận tình trạng [ENTITY] như trên.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      871,
+      897
+    ],
+    "assertion_position": [
+      842,
+      868
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "amyloidosis",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      963,
+      974
+    ],
+    "assertion_position": [
+      932,
+      943
+    ],
+    "sentence": "Tùy vào loại [ENTITY] mà sẽ có phương pháp điều trị khác nhau như: Uống thuốc, hóa trị, ghép gan,….",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Amyloidosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E859": 0.978412,
+        "E854": 0.891021,
+        "E853": 0.871078,
+        "E852": 0.846665,
+        "E850": 0.838211
+      },
+      "rapidfuzz": {
+        "E859": 0.9,
+        "E853": 0.9,
+        "E8581": 0.9
+      }
+    },
+    "candidate": {
+      "code": "E859",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1157,
+      1164
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1196,
+      1207
+    ],
+    "assertion_position": [
+      1165,
+      1176
+    ],
+    "sentence": "Chẩn đoán hình ảnh và thăm dò:Nội soi thực quản - dạ dày - tá tràng: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Gastritis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2970": 0.749555,
+        "K2971": 0.686647,
+        "K30": 0.677284,
+        "K819": 0.644893,
+        "K2960": 0.630461
+      },
+      "rapidfuzz": {
+        "K2970": 0.9,
+        "K2900": 0.9,
+        "K2930": 0.9
+      }
+    },
+    "candidate": {
+      "code": "K2970",
+      "confidence": 0.834036
+    }
+  },
+  {
+    "text": "Nội soi mật tụy ngược dòng (ERCP)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1288,
+      1321
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ERCP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1316,
+      1320
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp cộng hưởng từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1411,
+      1429
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sỏi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1233,
+      1236
+    ],
+    "assertion_position": [
+      1202,
+      1205
+    ],
+    "sentence": "Cộng hưởng từ mật tụy : [ENTITY] đoạn cuối ống mật chủ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Calculus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N209": 0.758064,
+        "N200": 0.740294,
+        "Z1883": 0.692925,
+        "K036": 0.655186,
+        "N210": 0.632227
+      },
+      "rapidfuzz": {
+        "K8043": 0.9,
+        "K8033": 0.9,
+        "K8032": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N209",
+      "confidence": 0.684923
+    }
+  },
+  {
+    "text": "dẫn mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1478,
+      1485
+    ],
+    "assertion_position": [
+      1439,
+      1446
+    ],
+    "sentence": "chụp cộng hưởng từ mật tụy tụi mật được thực hiện cho thấy sỏi ống [ENTITY] chung đoạn cuối.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Choledocholithiasis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K824": 0.726674,
+        "K8040": 0.712694,
+        "K563": 0.70802,
+        "Q444": 0.705738,
+        "K8030": 0.693456
+      },
+      "rapidfuzz": {
+        "L632": 0.771429,
+        "B743": 0.75,
+        "K8080": 0.725455
+      }
+    },
+    "candidate": {
+      "code": "K824",
+      "confidence": 0.656104
+    }
+  }
+]

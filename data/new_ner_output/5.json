@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "C221",
-      "confidence": 0.661858
+      "confidence": 0.661858,
+      "ranked_candidates": [
+        {
+          "code": "C221",
+          "confidence": 0.661858
+        },
+        {
+          "code": "C220",
+          "confidence": 0.552282
+        },
+        {
+          "code": "C249",
+          "confidence": 0.544825
+        }
+      ]
     }
   },
   {
@@ -96,7 +110,21 @@
     },
     "candidate": {
       "code": "E282",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "E282",
+          "confidence": 1.0
+        },
+        {
+          "code": "Q613",
+          "confidence": 0.589036
+        },
+        {
+          "code": "N9983",
+          "confidence": 0.562655
+        }
+      ]
     }
   },
   {
@@ -154,7 +182,21 @@
     },
     "candidate": {
       "code": "E669",
-      "confidence": 0.902352
+      "confidence": 0.902352,
+      "ranked_candidates": [
+        {
+          "code": "E669",
+          "confidence": 0.902352
+        },
+        {
+          "code": "E663",
+          "confidence": 0.79528
+        },
+        {
+          "code": "E66811",
+          "confidence": 0.778514
+        }
+      ]
     }
   },
   {
@@ -195,14 +237,14 @@
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1174,
-      1177
+      1179,
+      1182
     ],
     "assertion_position": [
-      1156,
-      1159
+      1161,
+      1164
     ],
-    "sentence": "- Bà ấy phủ nhận bất kỳ buồn [ENTITY], nôn, sốt, ớn lạnh, hoặc dịch rò rỉ quanh ống thông.",
+    "sentence": "- Bà ấy phủ nhận bất kỳ buồn nôn, [ENTITY], sốt, ớn lạnh, hoặc dịch rò rỉ quanh ống thông.",
     "assertion_result": {
       "tag": "isNegated"
     },
@@ -255,17 +297,13 @@
     "candidate": null
   },
   {
-    "text": "dịch rò rỉ quanh",
+    "text": "dịch rò rỉ quanh ống thông",
     "type": "TRIỆU_CHỨNG",
     "position": [
       1203,
-      1219
+      1229
     ],
-    "assertion_position": [
-      1185,
-      1201
-    ],
-    "sentence": "- Bà ấy phủ nhận bất kỳ buồn nôn, nôn, sốt, ớn lạnh, hoặc [ENTITY] ống thông.",
+    "sentence": "Chúc bạn nhiều sức khoẻ!    - Bà ấy phủ nhận bất kỳ buồn nôn, nôn, sốt, ớn lạnh, hoặc [ENTITY].",
     "assertion_result": {
       "tag": "isNegated"
     },
@@ -309,7 +347,21 @@
     },
     "candidate": {
       "code": "C801",
-      "confidence": 0.583399
+      "confidence": 0.583399,
+      "ranked_candidates": [
+        {
+          "code": "C801",
+          "confidence": 0.583399
+        },
+        {
+          "code": "C459",
+          "confidence": 0.523427
+        },
+        {
+          "code": "C7A00",
+          "confidence": 0.519377
+        }
+      ]
     }
   },
   {
@@ -324,27 +376,6 @@
       1887
     ],
     "sentence": "Sau thủ thuật, bệnh nhân phủ nhận bất kỳ [ENTITY], nôn, đau ngực, hoặc khó thở.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1179,
-      1182
-    ],
-    "assertion_position": [
-      1161,
-      1164
-    ],
-    "sentence": "- Bà ấy phủ nhận bất kỳ buồn nôn, [ENTITY], sốt, ớn lạnh, hoặc dịch rò rỉ quanh ống thông.",
     "assertion_result": {
       "tag": "isNegated"
     },
@@ -400,16 +431,16 @@
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1954,
-      1957
+      2011,
+      2014
     ],
     "assertion_position": [
-      1894,
-      1897
+      1945,
+      1948
     ],
-    "sentence": "Sau thủ thuật, bệnh nhân phủ nhận bất kỳ buồn nôn, nôn, [ENTITY] ngực, hoặc khó thở.",
+    "sentence": "Bà ấy cho biết có một chút [ENTITY] khi sờ nắn xung quanh vị trí đặt ống dẫn, đặc biệt là khi hít thở sâu.",
     "assertion_result": {
-      "tag": "isNegated"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -429,27 +460,6 @@
       2281
     ],
     "sentence": "Phủ nhận [ENTITY], nôn, sốt, ớn lạnh, hoặc dịch rò rỉ quanh ống thông.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1944,
-      1947
-    ],
-    "assertion_position": [
-      1884,
-      1887
-    ],
-    "sentence": "Sau thủ thuật, bệnh nhân phủ nhận bất kỳ buồn [ENTITY], nôn, đau ngực, hoặc khó thở.",
     "assertion_result": {
       "tag": "isNegated"
     },
@@ -502,27 +512,6 @@
     "candidate": null
   },
   {
-    "text": "dịch rò rỉ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1203,
-      1213
-    ],
-    "assertion_position": [
-      1185,
-      1195
-    ],
-    "sentence": "- Bà ấy phủ nhận bất kỳ buồn nôn, nôn, sốt, ớn lạnh, hoặc [ENTITY] quanh ống thông.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "ung thư biểu mô tuyến",
     "type": "CHẨN_ĐOÁN",
     "position": [
@@ -556,29 +545,22 @@
     },
     "candidate": {
       "code": "C801",
-      "confidence": 0.583399
+      "confidence": 0.583399,
+      "ranked_candidates": [
+        {
+          "code": "C801",
+          "confidence": 0.583399
+        },
+        {
+          "code": "C459",
+          "confidence": 0.523427
+        },
+        {
+          "code": "C7A00",
+          "confidence": 0.519377
+        }
+      ]
     }
-  },
-  {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2011,
-      2014
-    ],
-    "assertion_position": [
-      1945,
-      1948
-    ],
-    "sentence": "Bà ấy cho biết có một chút [ENTITY] khi sờ nắn xung quanh vị trí đặt ống dẫn, đặc biệt là khi hít thở sâu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "ung thư biểu mô tuyến",
@@ -614,7 +596,21 @@
     },
     "candidate": {
       "code": "C801",
-      "confidence": 0.583399
+      "confidence": 0.583399,
+      "ranked_candidates": [
+        {
+          "code": "C801",
+          "confidence": 0.583399
+        },
+        {
+          "code": "C459",
+          "confidence": 0.523427
+        },
+        {
+          "code": "C7A00",
+          "confidence": 0.519377
+        }
+      ]
     }
   }
 ]

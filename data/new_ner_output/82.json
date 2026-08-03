@@ -51,7 +51,21 @@
     },
     "candidate": {
       "code": "7646",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "7646",
+          "confidence": 1.0
+        },
+        {
+          "code": "283742",
+          "confidence": 1.0
+        },
+        {
+          "code": "343355",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -244,27 +258,6 @@
     "candidate": null
   },
   {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      362,
-      365
-    ],
-    "assertion_position": [
-      339,
-      342
-    ],
-    "sentence": "Khởi phát bệnh cách thời điểm nhập viện vài tuần với triệu chứng đau vùng hạ sườn phải, kèm chướng bụng và buồn [ENTITY] thoáng qua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "đau lưng kéo dài",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -340,7 +333,21 @@
     },
     "candidate": {
       "code": "E859",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "E859",
+          "confidence": 1.0
+        },
+        {
+          "code": "E853",
+          "confidence": 0.87397
+        },
+        {
+          "code": "E854",
+          "confidence": 0.801919
+        }
+      ]
     }
   },
   {
@@ -390,7 +397,68 @@
     },
     "candidate": {
       "code": "K2970",
-      "confidence": 0.834036
+      "confidence": 0.834036,
+      "ranked_candidates": [
+        {
+          "code": "K2970",
+          "confidence": 0.834036
+        },
+        {
+          "code": "K2971",
+          "confidence": 0.617982
+        },
+        {
+          "code": "K30",
+          "confidence": 0.609556
+        }
+      ]
+    }
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1233,
+      1258
+    ],
+    "sentence": "Cộng hưởng từ mật tụy : [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Choledocholithiasis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K824": 0.726674,
+        "K8040": 0.712694,
+        "K563": 0.70802,
+        "Q444": 0.705738,
+        "K8030": 0.693456
+      },
+      "rapidfuzz": {
+        "L632": 0.771429,
+        "B743": 0.75,
+        "K8080": 0.725455
+      }
+    },
+    "candidate": {
+      "code": "K824",
+      "confidence": 0.656104,
+      "ranked_candidates": [
+        {
+          "code": "K824",
+          "confidence": 0.656104
+        },
+        {
+          "code": "K8040",
+          "confidence": 0.641425
+        },
+        {
+          "code": "K563",
+          "confidence": 0.637218
+        }
+      ]
     }
   },
   {
@@ -399,19 +467,6 @@
     "position": [
       1288,
       1321
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ERCP",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1316,
-      1320
     ],
     "retriever": {
       "sapbert": {},
@@ -431,43 +486,6 @@
       "rapidfuzz": {}
     },
     "candidate": null
-  },
-  {
-    "text": "sỏi",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1233,
-      1236
-    ],
-    "assertion_position": [
-      1202,
-      1205
-    ],
-    "sentence": "Cộng hưởng từ mật tụy : [ENTITY] đoạn cuối ống mật chủ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Calculus"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N209": 0.758064,
-        "N200": 0.740294,
-        "Z1883": 0.692925,
-        "K036": 0.655186,
-        "N210": 0.632227
-      },
-      "rapidfuzz": {
-        "K8043": 0.9,
-        "K8033": 0.9,
-        "K8032": 0.9
-      }
-    },
-    "candidate": {
-      "code": "N209",
-      "confidence": 0.684923
-    }
   },
   {
     "text": "dẫn mật",
@@ -503,7 +521,21 @@
     },
     "candidate": {
       "code": "K824",
-      "confidence": 0.656104
+      "confidence": 0.656104,
+      "ranked_candidates": [
+        {
+          "code": "K824",
+          "confidence": 0.656104
+        },
+        {
+          "code": "K8040",
+          "confidence": 0.641425
+        },
+        {
+          "code": "K563",
+          "confidence": 0.637218
+        }
+      ]
     }
   }
 ]

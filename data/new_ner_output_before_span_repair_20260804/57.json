@@ -1,0 +1,905 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      52
+    ],
+    "assertion_position": [
+      37,
+      50
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.689331,
+        "I150": 0.684921,
+        "I169": 0.681309
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.734463
+    }
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      54,
+      68
+    ],
+    "assertion_position": [
+      52,
+      66
+    ],
+    "sentence": "[ENTITY], có biến chứng bệnh lý thần kinh ngoại biên.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Diabetes mellitus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R7303": 0.712752,
+        "Z833": 0.706901,
+        "O24919": 0.682559,
+        "E1165": 0.682321,
+        "P702": 0.664486
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9
+      }
+    },
+    "candidate": {
+      "code": "R7303",
+      "confidence": 0.642354
+    }
+  },
+  {
+    "text": "Suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      114,
+      121
+    ],
+    "assertion_position": [
+      112,
+      119
+    ],
+    "sentence": "[ENTITY] không do thiếu máu cơ tim (theo chẩn đoán trước đây).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Heart failure"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I5084": 0.853405,
+        "I5089": 0.777315,
+        "I501": 0.76459,
+        "I5082": 0.7478
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I509",
+      "confidence": 0.905845
+    }
+  },
+  {
+    "text": "thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      131,
+      147
+    ],
+    "assertion_position": [
+      129,
+      145
+    ],
+    "sentence": "Suy tim không do [ENTITY] (theo chẩn đoán trước đây).",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Myocardial ischemia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I255": 0.828051,
+        "I256": 0.79642,
+        "I6782": 0.762137,
+        "I249": 0.757936,
+        "I21A1": 0.70956
+      },
+      "rapidfuzz": {
+        "I256": 0.95,
+        "P294": 0.9,
+        "I235": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I256",
+      "confidence": 0.876778
+    }
+  },
+  {
+    "text": "Bệnh thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      176,
+      194
+    ],
+    "assertion_position": [
+      174,
+      192
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Chronic kidney disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N189": 0.982146,
+        "N039": 0.781739,
+        "N186": 0.757736,
+        "N181": 0.744167,
+        "N1830": 0.681813
+      },
+      "rapidfuzz": {
+        "D631": 0.95,
+        "N181": 0.95,
+        "N1831": 0.95
+      }
+    },
+    "candidate": {
+      "code": "N189",
+      "confidence": 0.913931
+    }
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "position": [
+      224,
+      233
+    ],
+    "assertion_position": [
+      221,
+      230
+    ],
+    "sentence": "[ENTITY]: uống 1 viên/ngày, đôi khi 2 viên/ngày.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "torsemide"
+    ],
+    "retriever": {
+      "sapbert": {
+        "38413": 0.999999
+      },
+      "rapidfuzz": {
+        "38413": 1.0,
+        "2682560": 0.9
+      }
+    },
+    "candidate": {
+      "code": "38413",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Insulin glargine",
+    "type": "THUỐC",
+    "position": [
+      274,
+      290
+    ],
+    "assertion_position": [
+      271,
+      287
+    ],
+    "sentence": "[ENTITY]: theo đơn 100 đơn vị x 2 lần/ngày, hiện đã ngừng sử dụng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "insulin glargine"
+    ],
+    "retriever": {
+      "sapbert": {
+        "274783": 1.0
+      },
+      "rapidfuzz": {
+        "274783": 1.0,
+        "2589006": 0.95,
+        "2563969": 0.95
+      }
+    },
+    "candidate": {
+      "code": "274783",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Crestor",
+    "type": "THUỐC",
+    "position": [
+      419,
+      426
+    ],
+    "assertion_position": [
+      416,
+      423
+    ],
+    "sentence": "Rosuvastatin ([ENTITY]): đã hết thuốc khoảng 3 tuần trước nhập viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Crestor"
+    ],
+    "retriever": {
+      "sapbert": {
+        "320864": 1.0,
+        "323828": 0.706414,
+        "301542": 0.687032
+      },
+      "rapidfuzz": {
+        "320864": 1.0,
+        "859425": 0.9,
+        "859426": 0.9
+      }
+    },
+    "candidate": {
+      "code": "320864",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "position": [
+      473,
+      483
+    ],
+    "assertion_position": [
+      470,
+      480
+    ],
+    "sentence": "[ENTITY]: đã hết thuốc khoảng 3 tuần trước nhập viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "carvedilol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "20352": 1.0,
+        "668310": 0.824347
+      },
+      "rapidfuzz": {
+        "20352": 1.0,
+        "686924": 0.9,
+        "686925": 0.9
+      }
+    },
+    "candidate": {
+      "code": "20352",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      595,
+      599
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      607,
+      617
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "position": [
+      741,
+      750
+    ],
+    "assertion_position": [
+      735,
+      744
+    ],
+    "sentence": "Báo cáo đang dùng 1 viên [ENTITY]/ ngày , đôi khi 2 viên.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "torsemide"
+    ],
+    "retriever": {
+      "sapbert": {
+        "38413": 0.999999
+      },
+      "rapidfuzz": {
+        "38413": 1.0,
+        "2682560": 0.9
+      }
+    },
+    "candidate": {
+      "code": "38413",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "torsemide",
+    "type": "THUỐC",
+    "position": [
+      805,
+      814
+    ],
+    "assertion_position": [
+      798,
+      807
+    ],
+    "sentence": "Bác sĩ đề nghị ngừng sử dụng [ENTITY] lâu dài.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "torsemide"
+    ],
+    "retriever": {
+      "sapbert": {
+        "38413": 0.999999
+      },
+      "rapidfuzz": {
+        "38413": 1.0,
+        "2682560": 0.9
+      }
+    },
+    "candidate": {
+      "code": "38413",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      850,
+      861
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      911,
+      918
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "crestor",
+    "type": "THUỐC",
+    "position": [
+      1052,
+      1059
+    ],
+    "assertion_position": [
+      1039,
+      1046
+    ],
+    "sentence": "Các loại thuốc (isosorbide, [ENTITY], carvedilol) đã hết khi đi khám PCP.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Crestor"
+    ],
+    "retriever": {
+      "sapbert": {
+        "320864": 1.0,
+        "323828": 0.706414,
+        "301542": 0.687032
+      },
+      "rapidfuzz": {
+        "320864": 1.0,
+        "859425": 0.9,
+        "859426": 0.9
+      }
+    },
+    "candidate": {
+      "code": "320864",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "carvedilol",
+    "type": "THUỐC",
+    "position": [
+      1061,
+      1071
+    ],
+    "assertion_position": [
+      1048,
+      1058
+    ],
+    "sentence": "Các loại thuốc (isosorbide, crestor, [ENTITY]) đã hết khi đi khám PCP.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "carvedilol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "20352": 1.0,
+        "668310": 0.824347
+      },
+      "rapidfuzz": {
+        "20352": 1.0,
+        "686924": 0.9,
+        "686925": 0.9
+      }
+    },
+    "candidate": {
+      "code": "20352",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "crestor",
+    "type": "THUỐC",
+    "position": [
+      1114,
+      1121
+    ],
+    "assertion_position": [
+      1100,
+      1107
+    ],
+    "sentence": "Hết isosorbide, [ENTITY], carvedilol khoảng 3 tuần trước.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Crestor"
+    ],
+    "retriever": {
+      "sapbert": {
+        "320864": 1.0,
+        "323828": 0.706414,
+        "301542": 0.687032
+      },
+      "rapidfuzz": {
+        "320864": 1.0,
+        "859425": 0.9,
+        "859426": 0.9
+      }
+    },
+    "candidate": {
+      "code": "320864",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "carvedilol",
+    "type": "THUỐC",
+    "position": [
+      1123,
+      1133
+    ],
+    "assertion_position": [
+      1109,
+      1119
+    ],
+    "sentence": "Hết isosorbide, crestor, [ENTITY] khoảng 3 tuần trước.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "carvedilol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "20352": 1.0,
+        "668310": 0.824347
+      },
+      "rapidfuzz": {
+        "20352": 1.0,
+        "686924": 0.9,
+        "686925": 0.9
+      }
+    },
+    "candidate": {
+      "code": "20352",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1205,
+      1209
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "6.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1213,
+      1216
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1356,
+      1360
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "6.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1361,
+      1364
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "kali (k)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1386,
+      1394
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ure (bun)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1399,
+      1408
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "83",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1409,
+      1411
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1414,
+      1424
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "5.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1425,
+      1428
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1431,
+      1441
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "7.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1442,
+      1445
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1460,
+      1463
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "21,000",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1464,
+      1470
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1473,
+      1497
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "cồn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1522,
+      1525
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Folate",
+    "type": "THUỐC",
+    "position": [
+      1565,
+      1571
+    ],
+    "assertion_position": [
+      1539,
+      1545
+    ],
+    "sentence": "Tăng cường sản phẩm [ENTITY], Vitamin C, các carotenoid, các chất chống oxy hóa Flavonoid.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "folic acid"
+    ],
+    "retriever": {
+      "sapbert": {
+        "4511": 1.0
+      },
+      "rapidfuzz": {
+        "4511": 1.0,
+        "7631": 0.9,
+        "1313966": 0.9
+      }
+    },
+    "candidate": {
+      "code": "4511",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Vitamin C",
+    "type": "THUỐC",
+    "position": [
+      1573,
+      1582
+    ],
+    "assertion_position": [
+      1547,
+      1556
+    ],
+    "sentence": "Tăng cường sản phẩm Folate, [ENTITY], các carotenoid, các chất chống oxy hóa Flavonoid.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "ascorbic acid"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1151": 1.0
+      },
+      "rapidfuzz": {
+        "1151": 1.0,
+        "1043293": 0.95,
+        "350183": 0.95
+      }
+    },
+    "candidate": {
+      "code": "1151",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "dextrose",
+    "type": "THUỐC",
+    "position": [
+      1686,
+      1694
+    ],
+    "assertion_position": [
+      1657,
+      1665
+    ],
+    "sentence": "Được dùng insulin và [ENTITY] cho tăng kali máu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "dextrose"
+    ],
+    "retriever": {
+      "sapbert": {
+        "4850": 1.0
+      },
+      "rapidfuzz": {
+        "244095": 0.9,
+        "800644": 0.9,
+        "847627": 0.9
+      }
+    },
+    "candidate": {
+      "code": "4850",
+      "confidence": 0.63
+    }
+  },
+  {
+    "text": "lasix 40 mg once",
+    "type": "THUỐC",
+    "position": [
+      1718,
+      1734
+    ],
+    "assertion_position": [
+      1688,
+      1704
+    ],
+    "sentence": "iv [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "furosemide 40 mg injection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1719291": 0.872723,
+        "727575": 0.798473,
+        "1719285": 0.756664,
+        "2341791": 0.756664,
+        "1719290": 0.742264
+      },
+      "rapidfuzz": {
+        "1719291": 0.95,
+        "1719285": 0.95
+      }
+    },
+    "candidate": {
+      "code": "1719291",
+      "confidence": 0.974771
+    }
+  }
+]

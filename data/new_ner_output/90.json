@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "I10",
-      "confidence": 0.734463
+      "confidence": 0.734463,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 0.734463
+        },
+        {
+          "code": "I159",
+          "confidence": 0.669148
+        },
+        {
+          "code": "I160",
+          "confidence": 0.620398
+        }
+      ]
     }
   },
   {
@@ -70,48 +84,34 @@
     },
     "candidate": {
       "code": "I10",
-      "confidence": 0.734463
+      "confidence": 0.734463,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 0.734463
+        },
+        {
+          "code": "I159",
+          "confidence": 0.669148
+        },
+        {
+          "code": "I160",
+          "confidence": 0.620398
+        }
+      ]
     }
   },
   {
-    "text": "Táo",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      138,
-      141
-    ],
-    "assertion_position": [
-      122,
-      125
-    ],
-    "sentence": "[ENTITY] bón mãn tính.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "bón mãn tính",
+    "text": "Táo bón mãn tính",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      142,
+      138,
       154
     ],
-    "assertion_position": [
-      126,
-      138
-    ],
-    "sentence": "Táo [ENTITY].",
+    "sentence": "- [ENTITY]",
     "assertion_result": {
-      "tag": null
+      "tag": "isUncertain"
     },
-    "eng_translation": [
-      "Chronic constipation"
-    ],
     "retriever": {
       "sapbert": {
         "K5904": 0.904344,
@@ -128,8 +128,25 @@
     },
     "candidate": {
       "code": "K5904",
-      "confidence": 0.821459
-    }
+      "confidence": 0.821459,
+      "ranked_candidates": [
+        {
+          "code": "K5904",
+          "confidence": 0.821459
+        },
+        {
+          "code": "K5900",
+          "confidence": 0.768615
+        },
+        {
+          "code": "K5901",
+          "confidence": 0.728278
+        }
+      ]
+    },
+    "eng_translation": [
+      "Chronic constipation"
+    ]
   },
   {
     "text": "ngưng thở khi ngủ",
@@ -207,27 +224,6 @@
     ],
     "sentence": "Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện [ENTITY], ho và chảy nước mũi.",
     "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      61,
-      63
-    ],
-    "assertion_position": [
-      61,
-      63
-    ],
-    "sentence": "Cảm ơn bạn đã gửi câu hỏi c[ENTITY] chúng tôi.",
-    "assertion_result": {
       "tag": null
     },
     "retriever": {
@@ -249,7 +245,7 @@
     ],
     "sentence": "Theo lời kể , khoảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, ho và [ENTITY].",
     "assertion_result": {
-      "tag": "isHistorical"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -291,7 +287,21 @@
     },
     "candidate": {
       "code": "B999",
-      "confidence": 0.683484
+      "confidence": 0.683484,
+      "ranked_candidates": [
+        {
+          "code": "B999",
+          "confidence": 0.683484
+        },
+        {
+          "code": "J22",
+          "confidence": 0.674192
+        },
+        {
+          "code": "J989",
+          "confidence": 0.647515
+        }
+      ]
     }
   },
   {
@@ -329,27 +339,6 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      269,
-      271
-    ],
-    "assertion_position": [
-      238,
-      240
-    ],
-    "sentence": "Theo lời kể , k[ENTITY]ảng 2 tuần trước khi nhập viện bệnh nhân xuất hiện mệt mỏi, ho và chảy nước mũi.",
-    "assertion_result": {
-      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -605,7 +594,21 @@
     },
     "candidate": {
       "code": "J84111",
-      "confidence": 0.967989
+      "confidence": 0.967989,
+      "ranked_candidates": [
+        {
+          "code": "J84111",
+          "confidence": 0.967989
+        },
+        {
+          "code": "J84117",
+          "confidence": 0.888903
+        },
+        {
+          "code": "J84113",
+          "confidence": 0.747712
+        }
+      ]
     }
   },
   {
@@ -639,7 +642,21 @@
     },
     "candidate": {
       "code": "435",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "435",
+          "confidence": 1.0
+        },
+        {
+          "code": "237159",
+          "confidence": 0.586532
+        },
+        {
+          "code": "2284636",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -676,7 +693,21 @@
     },
     "candidate": {
       "code": "202433",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "202433",
+          "confidence": 1.0
+        },
+        {
+          "code": "352523",
+          "confidence": 0.536674
+        },
+        {
+          "code": "220582",
+          "confidence": 0.533845
+        }
+      ]
     }
   }
 ]

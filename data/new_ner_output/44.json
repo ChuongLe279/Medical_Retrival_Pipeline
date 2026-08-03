@@ -121,7 +121,21 @@
     },
     "candidate": {
       "code": "161",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "161",
+          "confidence": 1.0
+        },
+        {
+          "code": "707705",
+          "confidence": 0.582516
+        },
+        {
+          "code": "315270",
+          "confidence": 0.38
+        }
+      ]
     }
   },
   {
@@ -154,7 +168,21 @@
     },
     "candidate": {
       "code": "197",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "197",
+          "confidence": 1.0
+        },
+        {
+          "code": "1153153",
+          "confidence": 0.38
+        },
+        {
+          "code": "1591923",
+          "confidence": 0.38
+        }
+      ]
     }
   },
   {
@@ -197,48 +225,6 @@
     "candidate": null
   },
   {
-    "text": "đay",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      622,
-      625
-    ],
-    "assertion_position": [
-      615,
-      618
-    ],
-    "sentence": "Câu trả lời của bác sĩ: Chào bạn,mình xin trả lời câu hỏi của bạn như sau Như bạn đã mô tả, trường hợp này bạn thuộc MÀY [ENTITY] VÔ CĂN.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đay",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      720,
-      723
-    ],
-    "assertion_position": [
-      713,
-      716
-    ],
-    "sentence": "Đây là tình trạng hay gặp nhất của MÀY [ENTITY] MẠN.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "MÀY đay VÔ CĂN",
     "type": "CHẨN_ĐOÁN",
     "position": [
@@ -272,45 +258,69 @@
     },
     "candidate": {
       "code": "L501",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "L501",
+          "confidence": 1.0
+        },
+        {
+          "code": "L500",
+          "confidence": 0.780682
+        },
+        {
+          "code": "L509",
+          "confidence": 0.704697
+        }
+      ]
     }
   },
   {
-    "text": "đay VÔ CĂN",
+    "text": "MÀY đay MẠN",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      622,
-      632
+      716,
+      727
     ],
-    "assertion_position": [
-      615,
-      625
-    ],
-    "sentence": "Câu trả lời của bác sĩ: Chào bạn,mình xin trả lời câu hỏi của bạn như sau Như bạn đã mô tả, trường hợp này bạn thuộc MÀY [ENTITY].",
+    "sentence": "Câu trả lời của bác sĩ: Chào bạn,mình xin trả lời câu hỏi của bạn như sau Như bạn đã mô tả, trường hợp này bạn thuộc MÀY đay VÔ CĂN. Chúng tôi không tìm được nguyên nhân gây bệnh. Đây là tình trạng hay gặp nhất của [ENTITY]. Tổ thương mô bệnh học chủ yếu là tình trạng xâm nhập của tế bào một nhân kết hợp với bạch huyết T và đại thực bào. Các loại tiền thưởng khó quan sát trên kính hiển thị vi quang học thông thường cần xem trên kính hiển thị vi điện tử. Các tế bào cột sống tăng lượng hạ bì với các mức độ thoát ra khác nhau cũng được quan sát. Quảng cáo quảng cáo thiết bị thương mại miễn phí dịch sinh học không tìm thấy hình ảnh giảm phức tạp, bổ sung hay sợi fibrin. Đối với bệnh lý mày đay vô căn, để lâu thường không có biến chứng gì nặng, chủ yếu bệnh làm ảnh hưởng tới chất lượng cuộc sống. Bạn đay vô căn hộ là một bệnh mạn tính, việc điều trị phải dài và liên tục. Quá giá trị chỉ là giấy chứng nhận. Điều trị phụ thuộc vào mức độ nghiêm trọng và nền tảng có liên kết. Cần lưu ý cân bằng giữa hiệu quả kiểm soát triệu chứng và những tác hại gây độc của liệu pháp điều trị. *************** có thể hệ sau không gây buồn ngủ là đơn hàng đầu sau đó đến *************** có thể hệ 1, ********* bậc thấp cách ngày hoặc hàng ngày và giảm dần chậm 2,5 – 5mg mỗi 2-3 tuần. Nếu không được hỗ trợ hoặc chống chỉ định, xin bạn hãy đến gặp bác sĩ chuyên khoa da liễu để có phương pháp điều trị tốt nhất. Cảm ơn bạn đã gửi câu hỏi",
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": [
-      "Idiopathic urticaria"
-    ],
     "retriever": {
       "sapbert": {
-        "L501": 1.0,
-        "L500": 0.867424,
-        "L509": 0.782997,
-        "L506": 0.712078,
-        "L508": 0.691966
+        "L501": 0.832761,
+        "L500": 0.801324,
+        "L509": 0.73191,
+        "L506": 0.681733,
+        "L508": 0.649014
       },
       "rapidfuzz": {
-        "L501": 1.0,
-        "G4734": 0.855,
-        "M41123": 0.855
+        "L97401": 0.855,
+        "O1033": 0.855,
+        "O1032": 0.855
       }
     },
     "candidate": {
       "code": "L501",
-      "confidence": 1.0
-    }
+      "confidence": 0.7542,
+      "ranked_candidates": [
+        {
+          "code": "L501",
+          "confidence": 0.7542
+        },
+        {
+          "code": "L500",
+          "confidence": 0.721192
+        },
+        {
+          "code": "L509",
+          "confidence": 0.658719
+        }
+      ]
+    },
+    "eng_translation": [
+      "Chronic urticaria"
+    ]
   },
   {
     "text": "buồn ngủ",

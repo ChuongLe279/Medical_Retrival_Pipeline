@@ -33,29 +33,22 @@
     },
     "candidate": {
       "code": "L700",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "L700",
+          "confidence": 1.0
+        },
+        {
+          "code": "L709",
+          "confidence": 0.796163
+        },
+        {
+          "code": "L702",
+          "confidence": 0.771727
+        }
+      ]
     }
-  },
-  {
-    "text": "mụn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      69,
-      72
-    ],
-    "assertion_position": [
-      67,
-      70
-    ],
-    "sentence": "Cháu năm nay 18 tuổi da rất nhiều dầu và bị [ENTITY] trứng cá từ năm lớp 8.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "mụn",
@@ -70,7 +63,7 @@
     ],
     "sentence": "Đến năm lớp 11 cháu đi khám da liễu, thì sau khoảng 3 tháng điều trị da cháu ít dầu hơn và dường như không còn [ENTITY].",
     "assertion_result": {
-      "tag": "isNegated"
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -79,17 +72,38 @@
     "candidate": null
   },
   {
-    "text": "trán",
+    "text": "mụn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      272,
-      276
+      250,
+      253
     ],
     "assertion_position": [
-      270,
-      274
+      248,
+      251
     ],
-    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở [ENTITY], má, 2 bên quai hàm và cằm, hầu như là mụn cám và mụn đầu trắng.",
+    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên [ENTITY] trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và mụn đầu trắng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      266,
+      269
+    ],
+    "assertion_position": [
+      264,
+      267
+    ],
+    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm [ENTITY] ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và mụn đầu trắng.",
     "assertion_result": {
       "tag": null
     },
@@ -142,48 +156,6 @@
     "candidate": null
   },
   {
-    "text": "mụn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      250,
-      253
-    ],
-    "assertion_position": [
-      248,
-      251
-    ],
-    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên [ENTITY] trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và mụn đầu trắng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "mụn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      266,
-      269
-    ],
-    "assertion_position": [
-      264,
-      267
-    ],
-    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm [ENTITY] ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và mụn đầu trắng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "coumadin 3.0 mg",
     "type": "THUỐC",
     "position": [
@@ -217,7 +189,21 @@
     },
     "candidate": {
       "code": "855319",
-      "confidence": 0.54559
+      "confidence": 0.54559,
+      "ranked_candidates": [
+        {
+          "code": "855319",
+          "confidence": 0.54559
+        },
+        {
+          "code": "855317",
+          "confidence": 0.541879
+        },
+        {
+          "code": "855321",
+          "confidence": 0.507685
+        }
+      ]
     }
   },
   {
@@ -386,27 +372,6 @@
     "candidate": null
   },
   {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1237,
-      1240
-    ],
-    "assertion_position": [
-      1215,
-      1218
-    ],
-    "sentence": "Không có buồn [ENTITY], không nôn.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "Nhiệt độ",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
@@ -490,19 +455,6 @@
     "position": [
       1426,
       1434
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "20",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1415,
-      1417
     ],
     "retriever": {
       "sapbert": {},

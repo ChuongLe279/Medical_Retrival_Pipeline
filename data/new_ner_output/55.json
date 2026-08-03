@@ -141,28 +141,6 @@
     "candidate": null
   },
   {
-    "text": "tăng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      407,
-      411
-    ],
-    "assertion_position": [
-      404,
-      408
-    ],
-    "sentence": "em năm nay 22 tuổi, đợt vừa rồi có đi khám sức khỏe có đo HA là 160/70 mmHg, sau đó đo lại là HA: 170/60 mmHg, đo lại lần nữa là HA: 150/60 mmHg, nhưng lúc đó em cảm thấy hồi hợp, cảm giác rợn người, em có mua máy đo HA điện tử về nhà, tự đo thì HA bình thường, em đo rất nhiều lần, em học y nên kĩ thuật có thể nói là chính xác, nhưng cứ có người đo cho em thì nó HA nhịp tim đều [ENTITY] và có cùng một cảm giác rợn người, hồi hộp, cảm nhận được tim đập rất mạnh, em có đi khám ở ĐHYD làm rất nhiều XN nhưng tất cả đều bình thường và không tìm ra nguyên nhân, sau đó bs có hẹn 1 tuần tái khám nhưng do dịch nên không đi được, em muốn hỏi, tình trạng của em có phải là tăng HA thật sự không ạ?",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "Suy thận mạn",
     "type": "CHẨN_ĐOÁN",
     "position": [
@@ -196,7 +174,21 @@
     },
     "candidate": {
       "code": "N189",
-      "confidence": 0.913931
+      "confidence": 0.913931,
+      "ranked_candidates": [
+        {
+          "code": "N189",
+          "confidence": 0.913931
+        },
+        {
+          "code": "N181",
+          "confidence": 0.76475
+        },
+        {
+          "code": "N039",
+          "confidence": 0.703565
+        }
+      ]
     }
   },
   {
@@ -233,7 +225,21 @@
     },
     "candidate": {
       "code": "R7303",
-      "confidence": 0.642354
+      "confidence": 0.642354,
+      "ranked_candidates": [
+        {
+          "code": "R7303",
+          "confidence": 0.642354
+        },
+        {
+          "code": "Z833",
+          "confidence": 0.636211
+        },
+        {
+          "code": "O24919",
+          "confidence": 0.614303
+        }
+      ]
     }
   },
   {
@@ -270,7 +276,21 @@
     },
     "candidate": {
       "code": "I10",
-      "confidence": 0.734463
+      "confidence": 0.734463,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 0.734463
+        },
+        {
+          "code": "I159",
+          "confidence": 0.669148
+        },
+        {
+          "code": "I160",
+          "confidence": 0.620398
+        }
+      ]
     }
   },
   {

@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "N189",
-      "confidence": 0.913931
+      "confidence": 0.913931,
+      "ranked_candidates": [
+        {
+          "code": "N189",
+          "confidence": 0.913931
+        },
+        {
+          "code": "N181",
+          "confidence": 0.76475
+        },
+        {
+          "code": "N039",
+          "confidence": 0.703565
+        }
+      ]
     }
   },
   {
@@ -70,7 +84,21 @@
     },
     "candidate": {
       "code": "R7303",
-      "confidence": 0.642354
+      "confidence": 0.642354,
+      "ranked_candidates": [
+        {
+          "code": "R7303",
+          "confidence": 0.642354
+        },
+        {
+          "code": "Z833",
+          "confidence": 0.636211
+        },
+        {
+          "code": "O24919",
+          "confidence": 0.614303
+        }
+      ]
     }
   },
   {
@@ -107,7 +135,21 @@
     },
     "candidate": {
       "code": "I10",
-      "confidence": 0.734463
+      "confidence": 0.734463,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 0.734463
+        },
+        {
+          "code": "I159",
+          "confidence": 0.669148
+        },
+        {
+          "code": "I160",
+          "confidence": 0.620398
+        }
+      ]
     }
   },
   {
@@ -174,17 +216,17 @@
     "candidate": null
   },
   {
-    "text": "mệt mỏi",
+    "text": "mệt mỏi nhiều",
     "type": "TRIỆU_CHỨNG",
     "position": [
       448,
-      455
+      461
     ],
     "assertion_position": [
       405,
-      412
+      418
     ],
-    "sentence": "Bệnh nhân kể cảm thấy khó chịu [ENTITY] nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu [ENTITY], ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
     "assertion_result": {
       "tag": null
     },
@@ -258,17 +300,13 @@
     "candidate": null
   },
   {
-    "text": "khó thở khi",
+    "text": "khó thở khi gắng sức",
     "type": "TRIỆU_CHỨNG",
     "position": [
       534,
-      545
+      554
     ],
-    "assertion_position": [
-      491,
-      502
-    ],
-    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, [ENTITY] gắng sức.",
+    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, [ENTITY]. Tuần qua có buồn nôn, và nôn .",
     "assertion_result": {
       "tag": null
     },
@@ -300,48 +338,6 @@
     "candidate": null
   },
   {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      573,
-      576
-    ],
-    "assertion_position": [
-      530,
-      533
-    ],
-    "sentence": "Tuần qua có buồn [ENTITY], và nôn.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "mệt mỏi nhiều",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      448,
-      461
-    ],
-    "assertion_position": [
-      405,
-      418
-    ],
-    "sentence": "Bệnh nhân kể cảm thấy khó chịu [ENTITY], ăn không ngon miệng, ngứa da toàn thân nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "Ăn không ngon miệng",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -355,27 +351,6 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ngứa da toàn thân",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      484,
-      501
-    ],
-    "assertion_position": [
-      441,
-      458
-    ],
-    "sentence": "Bệnh nhân kể cảm thấy khó chịu mệt mỏi nhiều, ăn không ngon miệng, [ENTITY] nhiều, và mất trí nhớ chi tiết, khó thở khi gắng sức.",
-    "assertion_result": {
-      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -438,7 +413,21 @@
     },
     "candidate": {
       "code": "K649",
-      "confidence": 0.889274
+      "confidence": 0.889274,
+      "ranked_candidates": [
+        {
+          "code": "K649",
+          "confidence": 0.889274
+        },
+        {
+          "code": "K640",
+          "confidence": 0.737038
+        },
+        {
+          "code": "K648",
+          "confidence": 0.714877
+        }
+      ]
     }
   },
   {

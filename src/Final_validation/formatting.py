@@ -149,13 +149,23 @@ def _format_assertions(entity: dict[str, Any]) -> list[str]:
 
 
 def _format_candidates(entity: dict[str, Any]) -> list[str]:
-    """Return the selected candidate code as a one-element string list."""
+    """Return only the highest-confidence code for candidate precision."""
 
     candidate = entity.get("candidate")
     if candidate is None:
         return []
     if not isinstance(candidate, dict) or candidate.get("code") is None:
         raise ValueError(f"Invalid candidate: {candidate!r}")
+
+    ranked = candidate.get("ranked_candidates")
+    if ranked is not None:
+        if not isinstance(ranked, list) or not ranked:
+            raise ValueError(f"Invalid ranked candidates: {ranked!r}")
+        first = ranked[0]
+        if not isinstance(first, dict) or first.get("code") is None:
+            raise ValueError(f"Invalid ranked candidate: {first!r}")
+        if str(first["code"]) != str(candidate["code"]):
+            raise ValueError("Primary candidate must be first in ranked_candidates")
     return [str(candidate["code"])]
 
 

@@ -157,6 +157,57 @@ class AssertionRuleBasedTest(unittest.TestCase):
 
         self.assertEqual(classify_entity(entity, raw_text), {"tag": None})
 
+    def test_presenting_symptom_before_admission_is_current(self) -> None:
+        sentence = (
+            "Khoảng 5 ngày trước nhập viện, bệnh nhân xuất hiện cảm giác "
+            "[ENTITY] kèm sốt."
+        )
+        self.assertEqual(classify_assertion(sentence), {"tag": None})
+
+    def test_current_duration_written_as_tien_su_is_not_historical(self) -> None:
+        sentence = "Tiền sử 2 ngày [ENTITY] ngày càng nặng."
+        self.assertEqual(classify_assertion(sentence), {"tag": None})
+
+    def test_current_symptom_with_onset_duration_is_not_historical(self) -> None:
+        sentence = (
+            "Bệnh nhân vào viện vì [ENTITY], bệnh khởi phát cách đây 1 tháng."
+        )
+        self.assertEqual(classify_assertion(sentence), {"tag": None})
+
+    def test_prior_diagnosis_before_admission_remains_historical(self) -> None:
+        sentence = (
+            "Khoảng 1 tháng trước nhập viện, bệnh nhân bị ngã và được chẩn đoán "
+            "[ENTITY]."
+        )
+        self.assertEqual(classify_assertion(sentence), {"tag": "isHistorical"})
+
+    def test_resolved_symptom_is_historical_not_negated(self) -> None:
+        for sentence in (
+            "Hiện tại bệnh nhân hết [ENTITY].",
+            "Sau đó không còn [ENTITY] nhưng vẫn đau ngực.",
+            "Dường như không còn [ENTITY].",
+            "[ENTITY] đã khỏi.",
+        ):
+            with self.subTest(sentence=sentence):
+                self.assertEqual(
+                    classify_assertion(sentence), {"tag": "isHistorical"}
+                )
+
+    def test_plain_absence_remains_negated(self) -> None:
+        self.assertEqual(
+            classify_assertion("Bệnh nhân không có [ENTITY]."),
+            {"tag": "isNegated"},
+        )
+
+    def test_low_probability_diagnosis_is_uncertain(self) -> None:
+        sentence = (
+            "Không ghi nhận huyết khối, xạ hình cho thấy xác suất thấp "
+            "[ENTITY]."
+        )
+        self.assertEqual(
+            classify_assertion(sentence), {"tag": "isUncertain"}
+        )
+
     def test_process_file_changes_only_supported_assertion_result(self) -> None:
         data = [
             {

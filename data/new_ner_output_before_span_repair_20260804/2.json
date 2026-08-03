@@ -1,0 +1,1249 @@
+[
+  {
+    "text": "Bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      3,
+      16
+    ],
+    "assertion_position": [
+      0,
+      13
+    ],
+    "sentence": "[ENTITY] là gì.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Kawasaki disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M302": 0.598909,
+        "I300": 0.597338,
+        "I4981": 0.593915,
+        "M314": 0.585544
+      },
+      "rapidfuzz": {
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.785888
+    }
+  },
+  {
+    "text": "Bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      25,
+      38
+    ],
+    "assertion_position": [
+      21,
+      34
+    ],
+    "sentence": "[ENTITY] là tình trạng sốt cấp kéo dài, thường đi kèm phát ban toàn thân, với đặc điểm chính là viêm lan tỏa hệ mạch máu nhỏ và vừa, bao gồm động mạch vành – mạch máu quan trọng cung cấp máu cho tim.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Kawasaki disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M302": 0.598909,
+        "I300": 0.597338,
+        "I4981": 0.593915,
+        "M314": 0.585544
+      },
+      "rapidfuzz": {
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.785888
+    }
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      53,
+      56
+    ],
+    "assertion_position": [
+      49,
+      52
+    ],
+    "sentence": "Bệnh Kawasaki là tình trạng [ENTITY] cấp kéo dài, thường đi kèm phát ban toàn thân, với đặc điểm chính là viêm lan tỏa hệ mạch máu nhỏ và vừa, bao gồm động mạch vành – mạch máu quan trọng cung cấp máu cho tim.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phát ban",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      84,
+      92
+    ],
+    "assertion_position": [
+      80,
+      88
+    ],
+    "sentence": "Bệnh Kawasaki là tình trạng sốt cấp kéo dài, thường đi kèm [ENTITY] toàn thân, với đặc điểm chính là viêm lan tỏa hệ mạch máu nhỏ và vừa, bao gồm động mạch vành – mạch máu quan trọng cung cấp máu cho tim.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      555,
+      563
+    ],
+    "assertion_position": [
+      542,
+      550
+    ],
+    "sentence": "Đặc điểm nguy hiểm: Giai đoạn đầu có thể chưa quá nghiêm trọng, nhưng nếu không điều trị kịp thời, bệnh có thể dẫn đến [ENTITY], phình giãn động mạch vành, đột tử, nhồi máu cơ tim, hoặc hẹp tắc mạch vành gây suy tim về sau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Myocarditis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I514": 0.978506,
+        "I090": 0.828326,
+        "I401": 0.821318,
+        "B3322": 0.818398,
+        "I400": 0.800908
+      },
+      "rapidfuzz": {
+        "J1182": 0.9,
+        "B3322": 0.9,
+        "J1082": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I514",
+      "confidence": 0.903182
+    }
+  },
+  {
+    "text": "phình giãn động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      565,
+      590
+    ],
+    "assertion_position": [
+      552,
+      577
+    ],
+    "sentence": "Đặc điểm nguy hiểm: Giai đoạn đầu có thể chưa quá nghiêm trọng, nhưng nếu không điều trị kịp thời, bệnh có thể dẫn đến viêm tim, [ENTITY], đột tử, nhồi máu cơ tim, hoặc hẹp tắc mạch vành gây suy tim về sau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Coronary artery aneurysm"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I2541": 1.0,
+        "I253": 0.839198,
+        "I2542": 0.734205,
+        "I729": 0.699732,
+        "I720": 0.631975
+      },
+      "rapidfuzz": {
+        "I2541": 1.0,
+        "S85102A": 0.855,
+        "S35493A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I2541",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "đột tử",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      592,
+      598
+    ],
+    "assertion_position": [
+      579,
+      585
+    ],
+    "sentence": "Đặc điểm nguy hiểm: Giai đoạn đầu có thể chưa quá nghiêm trọng, nhưng nếu không điều trị kịp thời, bệnh có thể dẫn đến viêm tim, phình giãn động mạch vành, [ENTITY], nhồi máu cơ tim, hoặc hẹp tắc mạch vành gây suy tim về sau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Sudden death"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G9382": 0.704914,
+        "I469": 0.685322,
+        "Z8241": 0.653102,
+        "Z8674": 0.628915,
+        "I4721": 0.628901
+      },
+      "rapidfuzz": {
+        "O3121X4": 0.855,
+        "O3122X1": 0.855,
+        "O3122X4": 0.855
+      }
+    },
+    "candidate": {
+      "code": "G9382",
+      "confidence": 0.637361
+    }
+  },
+  {
+    "text": "nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      600,
+      615
+    ],
+    "assertion_position": [
+      587,
+      602
+    ],
+    "sentence": "Đặc điểm nguy hiểm: Giai đoạn đầu có thể chưa quá nghiêm trọng, nhưng nếu không điều trị kịp thời, bệnh có thể dẫn đến viêm tim, phình giãn động mạch vành, đột tử, [ENTITY], hoặc hẹp tắc mạch vành gây suy tim về sau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Myocardial infarction"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I219": 0.851584,
+        "I21A1": 0.785121,
+        "I249": 0.769203,
+        "I252": 0.761003,
+        "I639": 0.728907
+      },
+      "rapidfuzz": {
+        "I21A1": 0.95,
+        "I252": 0.95,
+        "I2109": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I21A1",
+      "confidence": 0.861609
+    }
+  },
+  {
+    "text": "hẹp tắc mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      622,
+      639
+    ],
+    "assertion_position": [
+      609,
+      626
+    ],
+    "sentence": "Đặc điểm nguy hiểm: Giai đoạn đầu có thể chưa quá nghiêm trọng, nhưng nếu không điều trị kịp thời, bệnh có thể dẫn đến viêm tim, phình giãn động mạch vành, đột tử, nhồi máu cơ tim, hoặc [ENTITY] gây suy tim về sau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Coronary artery stenosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I209": 0.698966,
+        "I2542": 0.63648,
+        "I200": 0.633618,
+        "Z9861": 0.626504,
+        "I2584": 0.622982
+      },
+      "rapidfuzz": {
+        "S15009S": 0.855,
+        "S15002S": 0.855,
+        "S15009A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I209",
+      "confidence": 0.638442
+    }
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      644,
+      651
+    ],
+    "assertion_position": [
+      631,
+      638
+    ],
+    "sentence": "Đặc điểm nguy hiểm: Giai đoạn đầu có thể chưa quá nghiêm trọng, nhưng nếu không điều trị kịp thời, bệnh có thể dẫn đến viêm tim, phình giãn động mạch vành, đột tử, nhồi máu cơ tim, hoặc hẹp tắc mạch vành gây [ENTITY] về sau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Heart failure"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I5084": 0.853405,
+        "I5089": 0.777315,
+        "I501": 0.76459,
+        "I5082": 0.7478
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I509",
+      "confidence": 0.905845
+    }
+  },
+  {
+    "text": "bệnh viêm mạch máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      682,
+      700
+    ],
+    "assertion_position": [
+      668,
+      686
+    ],
+    "sentence": "Tóm lại: Kawasaki là [ENTITY] nguy hiểm, cần phát hiện sớm để tránh biến chứng nặng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Vasculitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M310": 0.694532,
+        "L959": 0.674831,
+        "I776": 0.674289,
+        "M319": 0.663517,
+        "I7782": 0.656457
+      },
+      "rapidfuzz": {
+        "L950": 0.9,
+        "L959": 0.9,
+        "L958": 0.9
+      }
+    },
+    "candidate": {
+      "code": "L959",
+      "confidence": 0.757348
+    }
+  },
+  {
+    "text": "bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      775,
+      788
+    ],
+    "assertion_position": [
+      758,
+      771
+    ],
+    "sentence": "Nguyên nhân gây [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Kawasaki disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M302": 0.598909,
+        "I300": 0.597338,
+        "I4981": 0.593915,
+        "M314": 0.585544
+      },
+      "rapidfuzz": {
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.785888
+    }
+  },
+  {
+    "text": "bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1336,
+      1349
+    ],
+    "assertion_position": [
+      1305,
+      1318
+    ],
+    "sentence": "Triệu chứng [ENTITY] ở trẻ em.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Kawasaki disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M302": 0.598909,
+        "I300": 0.597338,
+        "I4981": 0.593915,
+        "M314": 0.585544
+      },
+      "rapidfuzz": {
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.785888
+    }
+  },
+  {
+    "text": "Sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1439,
+      1446
+    ],
+    "assertion_position": [
+      1408,
+      1415
+    ],
+    "sentence": "[ENTITY] kéo dài.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Sốt 39",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1458,
+      1464
+    ],
+    "assertion_position": [
+      1425,
+      1431
+    ],
+    "sentence": "[ENTITY]–40°C trong hơn 5 ngày.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Mắt đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1534,
+      1540
+    ],
+    "assertion_position": [
+      1494,
+      1500
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Viêm kết mạc 2 bên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1544,
+      1562
+    ],
+    "assertion_position": [
+      1502,
+      1520
+    ],
+    "sentence": "[ENTITY], đỏ nhưng không có ghèn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "niêm mạc miệng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1601,
+      1615
+    ],
+    "assertion_position": [
+      1555,
+      1569
+    ],
+    "sentence": "Thay đổi [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Môi đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1619,
+      1625
+    ],
+    "assertion_position": [
+      1571,
+      1577
+    ],
+    "sentence": "[ENTITY], nứt, có thể rỉ máu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nứt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1627,
+      1630
+    ],
+    "assertion_position": [
+      1579,
+      1582
+    ],
+    "sentence": "Môi đỏ, [ENTITY], có thể rỉ máu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "rỉ máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1639,
+      1645
+    ],
+    "assertion_position": [
+      1591,
+      1597
+    ],
+    "sentence": "Môi đỏ, nứt, có thể [ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Lưỡi đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1650,
+      1657
+    ],
+    "assertion_position": [
+      1599,
+      1606
+    ],
+    "sentence": "[ENTITY] như dâu tây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dâu tây",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1662,
+      1669
+    ],
+    "assertion_position": [
+      1611,
+      1618
+    ],
+    "sentence": "Lưỡi đỏ như [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Họng đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1674,
+      1681
+    ],
+    "assertion_position": [
+      1620,
+      1627
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Tổn thương ở đầu chi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1686,
+      1706
+    ],
+    "assertion_position": [
+      1629,
+      1649
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Sưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1710,
+      1714
+    ],
+    "assertion_position": [
+      1651,
+      1655
+    ],
+    "sentence": "[ENTITY], đỏ mu bàn tay – chân.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đỏ mu bàn tay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1716,
+      1729
+    ],
+    "assertion_position": [
+      1657,
+      1670
+    ],
+    "sentence": "Sưng, [ENTITY] – chân.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1732,
+      1736
+    ],
+    "assertion_position": [
+      1673,
+      1677
+    ],
+    "sentence": "Sưng, đỏ mu bàn tay – [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Đỏ gan bàn tay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1741,
+      1755
+    ],
+    "assertion_position": [
+      1679,
+      1693
+    ],
+    "sentence": "[ENTITY] – chân.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Bong da đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1767,
+      1778
+    ],
+    "assertion_position": [
+      1702,
+      1713
+    ],
+    "sentence": "[ENTITY] ngón tay, ngón chân vào ngày 7–14 của bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1827,
+      1833
+    ],
+    "assertion_position": [
+      1758,
+      1764
+    ],
+    "sentence": "[ENTITY] toàn thân.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dát",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1865,
+      1868
+    ],
+    "assertion_position": [
+      1794,
+      1797
+    ],
+    "sentence": "Ban dạng đa hình: [ENTITY] – sẩn – mảng đỏ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sẩn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1871,
+      1874
+    ],
+    "assertion_position": [
+      1800,
+      1803
+    ],
+    "sentence": "Ban dạng đa hình: dát – [ENTITY] – mảng đỏ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mảng đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1877,
+      1884
+    ],
+    "assertion_position": [
+      1806,
+      1813
+    ],
+    "sentence": "Ban dạng đa hình: dát – sẩn – [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Bệnh đa xơ cứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1916,
+      1931
+    ],
+    "assertion_position": [
+      1838,
+      1853
+    ],
+    "sentence": "Sẽ không điển hình cho [ENTITY] theo ý kiến của bác sĩ thần kinh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Multiple sclerosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G35D": 0.975326,
+        "M349": 0.805708,
+        "G35B0": 0.774728,
+        "M340": 0.773053,
+        "G370": 0.759771
+      },
+      "rapidfuzz": {
+        "G35B2": 0.9,
+        "G35B1": 0.9,
+        "G35A": 0.9
+      }
+    },
+    "candidate": {
+      "code": "G35D",
+      "confidence": 0.903236
+    }
+  },
+  {
+    "text": "Ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1971,
+      1978
+    ],
+    "assertion_position": [
+      1888,
+      1895
+    ],
+    "sentence": "[ENTITY] do rượu (suy nghĩ).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2042,
+      2055
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "albumin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2083,
+      2090
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2144,
+      2155
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ECG",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2204,
+      2207
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2208,
+      2219
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2233,
+      2246
+    ],
+    "assertion_position": [
+      2132,
+      2145
+    ],
+    "sentence": "Điều trị [ENTITY] ở trẻ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Kawasaki disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M302": 0.598909,
+        "I300": 0.597338,
+        "I4981": 0.593915,
+        "M314": 0.585544
+      },
+      "rapidfuzz": {
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.785888
+    }
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2841,
+      2852
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      3407,
+      3420
+    ],
+    "assertion_position": [
+      3252,
+      3265
+    ],
+    "sentence": "[ENTITY] là bệnh nguy hiểm nhưng hoàn toàn có thể điều trị hiệu quả nếu được phát hiện sớm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Kawasaki disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M302": 0.598909,
+        "I300": 0.597338,
+        "I4981": 0.593915,
+        "M314": 0.585544
+      },
+      "rapidfuzz": {
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.785888
+    }
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3550,
+      3557
+    ],
+    "assertion_position": [
+      3395,
+      3402
+    ],
+    "sentence": "Cha mẹ cần đưa trẻ đến bệnh viện ngay khi trẻ [ENTITY] kéo dài kèm các dấu hiệu như đỏ mắt, ban đỏ, môi đỏ – nứt, lưỡi đỏ dâu tây hoặc sưng hạch cổ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đỏ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3587,
+      3593
+    ],
+    "assertion_position": [
+      3432,
+      3438
+    ],
+    "sentence": "Cha mẹ cần đưa trẻ đến bệnh viện ngay khi trẻ sốt cao kéo dài kèm các dấu hiệu như [ENTITY], ban đỏ, môi đỏ – nứt, lưỡi đỏ dâu tây hoặc sưng hạch cổ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3595,
+      3601
+    ],
+    "assertion_position": [
+      3440,
+      3446
+    ],
+    "sentence": "Cha mẹ cần đưa trẻ đến bệnh viện ngay khi trẻ sốt cao kéo dài kèm các dấu hiệu như đỏ mắt, [ENTITY], môi đỏ – nứt, lưỡi đỏ dâu tây hoặc sưng hạch cổ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "môi đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3603,
+      3609
+    ],
+    "assertion_position": [
+      3448,
+      3454
+    ],
+    "sentence": "Cha mẹ cần đưa trẻ đến bệnh viện ngay khi trẻ sốt cao kéo dài kèm các dấu hiệu như đỏ mắt, ban đỏ, [ENTITY] – nứt, lưỡi đỏ dâu tây hoặc sưng hạch cổ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nứt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3612,
+      3615
+    ],
+    "assertion_position": [
+      3457,
+      3460
+    ],
+    "sentence": "Cha mẹ cần đưa trẻ đến bệnh viện ngay khi trẻ sốt cao kéo dài kèm các dấu hiệu như đỏ mắt, ban đỏ, môi đỏ – [ENTITY], lưỡi đỏ dâu tây hoặc sưng hạch cổ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lưỡi đỏ dâu tây",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3617,
+      3632
+    ],
+    "assertion_position": [
+      3462,
+      3477
+    ],
+    "sentence": "Cha mẹ cần đưa trẻ đến bệnh viện ngay khi trẻ sốt cao kéo dài kèm các dấu hiệu như đỏ mắt, ban đỏ, môi đỏ – nứt, [ENTITY] hoặc sưng hạch cổ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sưng hạch cổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3638,
+      3650
+    ],
+    "assertion_position": [
+      3483,
+      3495
+    ],
+    "sentence": "Cha mẹ cần đưa trẻ đến bệnh viện ngay khi trẻ sốt cao kéo dài kèm các dấu hiệu như đỏ mắt, ban đỏ, môi đỏ – nứt, lưỡi đỏ dâu tây hoặc [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

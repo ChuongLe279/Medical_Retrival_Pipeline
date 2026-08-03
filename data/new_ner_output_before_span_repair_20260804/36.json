@@ -1,0 +1,558 @@
+[
+  {
+    "text": "tiểu ít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      73,
+      80
+    ],
+    "assertion_position": [
+      73,
+      80
+    ],
+    "sentence": "Bệnh nhân nam 17 tuổi, vào viện với lý do nặng mặt, tức nặng 2 chi dưới, [ENTITY], bệnh khởi phát cách đây 1 tháng, quá trình bệnh diễn biến với các hội chứng và triệu chứng sau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      187,
+      204
+    ],
+    "assertion_position": [
+      178,
+      195
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Nephrotic syndrome"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N049": 0.92409,
+        "N040": 0.814643,
+        "N048": 0.80514,
+        "N041": 0.760244,
+        "N046": 0.725299
+      },
+      "rapidfuzz": {
+        "N040": 0.9,
+        "N041": 0.9,
+        "N0420": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N049",
+      "confidence": 0.848098
+    }
+  },
+  {
+    "text": "Phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      212,
+      215
+    ],
+    "assertion_position": [
+      197,
+      200
+    ],
+    "sentence": "[ENTITY]: xuất hiện đột ngột, tiến triển nhanh, đầu tiên ở quanh 2 mi mắt, mặt, sau 1 ngày xuất hiện phù 2 chi dưới, phù tăng về sáng, sau ngủ dậy, giảm về chiều, khi ăn mặn phù tăng lên.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù 2 chi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      308,
+      317
+    ],
+    "assertion_position": [
+      293,
+      302
+    ],
+    "sentence": "Phù: xuất hiện đột ngột, tiến triển nhanh, đầu tiên ở quanh 2 mi mắt, mặt, sau 1 ngày xuất hiện [ENTITY] dưới, phù tăng về sáng, sau ngủ dậy, giảm về chiều, khi ăn mặn phù tăng lên.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      324,
+      327
+    ],
+    "assertion_position": [
+      309,
+      312
+    ],
+    "sentence": "Phù: xuất hiện đột ngột, tiến triển nhanh, đầu tiên ở quanh 2 mi mắt, mặt, sau 1 ngày xuất hiện phù 2 chi dưới, [ENTITY] tăng về sáng, sau ngủ dậy, giảm về chiều, khi ăn mặn phù tăng lên.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      381,
+      384
+    ],
+    "assertion_position": [
+      366,
+      369
+    ],
+    "sentence": "Phù: xuất hiện đột ngột, tiến triển nhanh, đầu tiên ở quanh 2 mi mắt, mặt, sau 1 ngày xuất hiện phù 2 chi dưới, phù tăng về sáng, sau ngủ dậy, giảm về chiều, khi ăn mặn [ENTITY] tăng lên.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      408,
+      415
+    ],
+    "assertion_position": [
+      393,
+      400
+    ],
+    "sentence": "Hiện tại hết [ENTITY], còn phù nhẹ 2 chi dưới.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù nhẹ 2 chi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      421,
+      434
+    ],
+    "assertion_position": [
+      406,
+      419
+    ],
+    "sentence": "Hiện tại hết phù mặt, còn [ENTITY] dưới.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Albumin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      505,
+      512
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "20",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      514,
+      516
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "suy thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      808,
+      816
+    ],
+    "assertion_position": [
+      745,
+      753
+    ],
+    "sentence": "Không có [ENTITY]: Ure: 6,4 mmol/l; Creatinin: 79 micromol/l.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Renal failure"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N19": 0.93467,
+        "N179": 0.75937,
+        "N186": 0.725589,
+        "T8612": 0.699954,
+        "P960": 0.696078
+      },
+      "rapidfuzz": {
+        "O0732": 0.9,
+        "P960": 0.9,
+        "O084": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N19",
+      "confidence": 0.867498
+    }
+  },
+  {
+    "text": "Ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      818,
+      821
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "6,4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      823,
+      826
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      835,
+      844
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "79",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      846,
+      848
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Cl",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      961,
+      963
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Ca",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      978,
+      980
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm họng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1020,
+      1029
+    ],
+    "assertion_position": [
+      939,
+      948
+    ],
+    "sentence": "Tiền sử: Không có [ENTITY] cấp, viêm nhiễm ngoài da trong 1 tháng trước khi vào viện.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Pharyngitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J029": 0.813456,
+        "R070": 0.75023,
+        "J312": 0.689576,
+        "J020": 0.667568,
+        "A564": 0.653022
+      },
+      "rapidfuzz": {
+        "B085": 0.9,
+        "A5003": 0.9,
+        "J020": 0.9
+      }
+    },
+    "candidate": {
+      "code": "J029",
+      "confidence": 0.741594
+    }
+  },
+  {
+    "text": "viêm nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1035,
+      1045
+    ],
+    "assertion_position": [
+      954,
+      964
+    ],
+    "sentence": "Tiền sử: Không có viêm họng cấp, [ENTITY] ngoài da trong 1 tháng trước khi vào viện.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "Infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B999": 0.860331,
+        "A499": 0.772018,
+        "A419": 0.756399,
+        "B998": 0.752882,
+        "R69": 0.746258
+      },
+      "rapidfuzz": {
+        "T8643": 0.9,
+        "J069": 0.9,
+        "A5400": 0.9
+      }
+    },
+    "candidate": {
+      "code": "B999",
+      "confidence": 0.787545
+    }
+  },
+  {
+    "text": "Viêm cầu thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1102,
+      1119
+    ],
+    "assertion_position": [
+      1019,
+      1036
+    ],
+    "sentence": "Chẩn đoán: [ENTITY] - Hội chứng thận hư.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Chronic glomerulonephritis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N030": 0.765249,
+        "N039": 0.750315,
+        "N189": 0.74563,
+        "N119": 0.715406,
+        "N035": 0.695925
+      },
+      "rapidfuzz": {
+        "L97504": 0.855,
+        "L98A295": 0.855,
+        "L98A294": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N030",
+      "confidence": 0.690964
+    }
+  },
+  {
+    "text": "albumin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1312,
+      1319
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Medrol 16mg",
+    "type": "THUỐC",
+    "position": [
+      1642,
+      1653
+    ],
+    "assertion_position": [
+      1504,
+      1515
+    ],
+    "sentence": "[ENTITY] x 3 viên, uống 8h sáng sau ăn no.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Medrol 16 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "317426": 0.928539,
+        "567929": 0.92446,
+        "316287": 0.802992,
+        "1744015": 0.771423,
+        "2262710": 0.765563
+      },
+      "rapidfuzz": {
+        "207138": 0.9,
+        "202702": 0.9,
+        "2743351": 0.855
+      }
+    },
+    "candidate": {
+      "code": "317426",
+      "confidence": 0.557735
+    }
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1908,
+      1929
+    ],
+    "assertion_position": [
+      1740,
+      1761
+    ],
+    "sentence": "Triệu chứng hiện tại: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1972,
+      1979
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Zestril 10mg",
+    "type": "THUỐC",
+    "position": [
+      2007,
+      2019
+    ],
+    "assertion_position": [
+      1822,
+      1834
+    ],
+    "sentence": "[ENTITY] x 1 viên, uống sáng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Zestril 10 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "563611": 0.847223,
+        "316151": 0.829997,
+        "857165": 0.80361,
+        "315925": 0.786154,
+        "316627": 0.778017
+      },
+      "rapidfuzz": {
+        "196472": 0.9,
+        "104377": 0.9
+      }
+    },
+    "candidate": {
+      "code": "563611",
+      "confidence": 0.510918
+    }
+  }
+]

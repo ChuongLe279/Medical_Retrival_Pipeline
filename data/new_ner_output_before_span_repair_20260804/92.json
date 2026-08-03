@@ -1,0 +1,646 @@
+[
+  {
+    "text": "viêm tủy xương mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      18,
+      41
+    ],
+    "assertion_position": [
+      14,
+      37
+    ],
+    "sentence": "[ENTITY] và bàng quang thần kinh gây biến chứng liệt hai chi dưới và loét tì đè giai đoạn IV mãn tính.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Chronic osteomyelitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M8630": 0.841231,
+        "M8660": 0.794375,
+        "M8620": 0.77522,
+        "M869": 0.767566,
+        "M8640": 0.711504
+      },
+      "rapidfuzz": {
+        "M86461": 0.9,
+        "M86462": 0.9,
+        "M86469": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M8630",
+      "confidence": 0.764136
+    }
+  },
+  {
+    "text": "liệt hai chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      81,
+      98
+    ],
+    "assertion_position": [
+      77,
+      94
+    ],
+    "sentence": "viêm tủy xương mãn tính và bàng quang thần kinh gây biến chứng [ENTITY] và loét tì đè giai đoạn IV mãn tính.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "loét tì đè",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      102,
+      112
+    ],
+    "assertion_position": [
+      98,
+      108
+    ],
+    "sentence": "viêm tủy xương mãn tính và bàng quang thần kinh gây biến chứng liệt hai chi dưới và [ENTITY] giai đoạn IV mãn tính.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      163,
+      185
+    ],
+    "assertion_position": [
+      155,
+      177
+    ],
+    "sentence": "đặt lưu sonde tiểu gây [ENTITY] niệu tái phát.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Urinary tract infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.874628
+    }
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "position": [
+      321,
+      328
+    ],
+    "assertion_position": [
+      313,
+      320
+    ],
+    "sentence": "Sau khi khám chuyên khoa Truyền nhiễm đang dùng [ENTITY] để điều trị nhiễm khuẩn đường tiết niệu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Bactrim"
+    ],
+    "retriever": {
+      "sapbert": {
+        "151399": 1.0,
+        "91920": 0.962183,
+        "1427187": 0.925317,
+        "346206": 0.897712,
+        "227591": 0.839903
+      },
+      "rapidfuzz": {
+        "151399": 1.0,
+        "1167959": 0.9,
+        "208416": 0.9
+      }
+    },
+    "candidate": {
+      "code": "151399",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      407,
+      414
+    ],
+    "assertion_position": [
+      397,
+      404
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      466,
+      477
+    ],
+    "assertion_position": [
+      457,
+      468
+    ],
+    "sentence": "Cách ngày vào viện 2 tuần bệnh nhân đã vào viện vì [ENTITY] và được chẩn đoán nhiễm trùng huyết điều trị bằng kháng sinh vancozosynbactrim điều trị bệnh viêm tuỷ xương.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhiễm trùng huyết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      497,
+      514
+    ],
+    "assertion_position": [
+      487,
+      504
+    ],
+    "sentence": "Cách ngày vào viện 2 tuần bệnh nhân đã vào viện vì hạ huyết áp và được chẩn đoán [ENTITY] điều trị bằng kháng sinh vancozosynbactrim điều trị bệnh viêm tuỷ xương.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Sepsis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "A419": 0.95952,
+        "R7881": 0.785678,
+        "A4189": 0.764044,
+        "A412": 0.701026,
+        "A499": 0.693874
+      },
+      "rapidfuzz": {
+        "A021": 0.9,
+        "P364": 0.9,
+        "P368": 0.9
+      }
+    },
+    "candidate": {
+      "code": "A419",
+      "confidence": 0.889644
+    }
+  },
+  {
+    "text": "bệnh viêm tuỷ xương",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      570,
+      589
+    ],
+    "assertion_position": [
+      557,
+      576
+    ],
+    "sentence": "Cách ngày vào viện 2 tuần bệnh nhân đã vào viện vì hạ huyết áp và được chẩn đoán nhiễm trùng huyết điều trị bằng kháng sinh vancozosynbactrim điều trị [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Osteomyelitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M869": 0.980384,
+        "M868X9": 0.832993,
+        "M868X89": 0.721278,
+        "M8620": 0.718941,
+        "M868X0": 0.701727
+      },
+      "rapidfuzz": {
+        "A0105": 0.9,
+        "A0224": 0.9,
+        "M86012": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M869",
+      "confidence": 0.904454
+    }
+  },
+  {
+    "text": "viêm tủy xương mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      655,
+      678
+    ],
+    "assertion_position": [
+      641,
+      664
+    ],
+    "sentence": "Sau đó dùng zosyn 8 ngày và dừng tất cả kháng sinh để điều trị [ENTITY] tại khoa Hồi sức tích cực.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Chronic osteomyelitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M8630": 0.841231,
+        "M8660": 0.794375,
+        "M8620": 0.77522,
+        "M869": 0.767566,
+        "M8640": 0.711504
+      },
+      "rapidfuzz": {
+        "M86461": 0.9,
+        "M86462": 0.9,
+        "M86469": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M8630",
+      "confidence": 0.764136
+    }
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      822,
+      829
+    ],
+    "assertion_position": [
+      808,
+      815
+    ],
+    "sentence": "Sáng cùng ngày vào viện bệnh nhân xuất hiện [ENTITY] 39.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khát nước",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      905,
+      914
+    ],
+    "assertion_position": [
+      892,
+      901
+    ],
+    "sentence": "Cảm giác [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Da khô",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      915,
+      921
+    ],
+    "assertion_position": [
+      903,
+      909
+    ],
+    "sentence": "[ENTITY], nếp véo da mất chậm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nếp véo da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      923,
+      933
+    ],
+    "assertion_position": [
+      911,
+      921
+    ],
+    "sentence": "Da khô, [ENTITY] mất chậm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Không ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      943,
+      953
+    ],
+    "assertion_position": [
+      932,
+      942
+    ],
+    "sentence": "[ENTITY], không khó thở.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      962,
+      969
+    ],
+    "assertion_position": [
+      950,
+      957
+    ],
+    "sentence": "Không ngực, không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      970,
+      978
+    ],
+    "assertion_position": [
+      959,
+      967
+    ],
+    "sentence": "[ENTITY], đau hông từng cơn-.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau hông từng cơn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      980,
+      997
+    ],
+    "assertion_position": [
+      969,
+      986
+    ],
+    "sentence": "Đau bụng, [ENTITY]-.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      999,
+      1010
+    ],
+    "assertion_position": [
+      989,
+      1000
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Mạch nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1011,
+      1021
+    ],
+    "assertion_position": [
+      1002,
+      1012
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Tim nhịp nhanh đều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1023,
+      1041
+    ],
+    "assertion_position": [
+      1014,
+      1032
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhiễm trùng huyết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1232,
+      1249
+    ],
+    "assertion_position": [
+      1223,
+      1240
+    ],
+    "sentence": "Chẩn đoán: [ENTITY] đường vào tiết niệu- viêm tủy xương mãn tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Sepsis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "A419": 0.95952,
+        "R7881": 0.785678,
+        "A4189": 0.764044,
+        "A412": 0.701026,
+        "A499": 0.693874
+      },
+      "rapidfuzz": {
+        "A021": 0.9,
+        "P364": 0.9,
+        "P368": 0.9
+      }
+    },
+    "candidate": {
+      "code": "A419",
+      "confidence": 0.889644
+    }
+  },
+  {
+    "text": "viêm tủy xương mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1271,
+      1294
+    ],
+    "assertion_position": [
+      1262,
+      1285
+    ],
+    "sentence": "Chẩn đoán: nhiễm trùng huyết đường vào tiết niệu- [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Chronic osteomyelitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M8630": 0.841231,
+        "M8660": 0.794375,
+        "M8620": 0.77522,
+        "M869": 0.767566,
+        "M8640": 0.711504
+      },
+      "rapidfuzz": {
+        "M86461": 0.9,
+        "M86462": 0.9,
+        "M86469": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M8630",
+      "confidence": 0.764136
+    }
+  },
+  {
+    "text": "Vancomycin",
+    "type": "THUỐC",
+    "position": [
+      1365,
+      1375
+    ],
+    "assertion_position": [
+      1351,
+      1361
+    ],
+    "sentence": "Kháng sinh Cefepim và [ENTITY] truyền tĩnh mạch.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "vancomycin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "11124": 1.0
+      },
+      "rapidfuzz": {
+        "11124": 1.0,
+        "2387078": 0.9,
+        "2118449": 0.9
+      }
+    },
+    "candidate": {
+      "code": "11124",
+      "confidence": 1.0
+    }
+  }
+]

@@ -54,7 +54,21 @@
     },
     "candidate": {
       "code": "C50919",
-      "confidence": 0.727926
+      "confidence": 0.727926,
+      "ranked_candidates": [
+        {
+          "code": "C50919",
+          "confidence": 0.727926
+        },
+        {
+          "code": "D493",
+          "confidence": 0.678272
+        },
+        {
+          "code": "C7981",
+          "confidence": 0.646962
+        }
+      ]
     }
   },
   {
@@ -121,157 +135,51 @@
     "candidate": null
   },
   {
-    "text": "Ung thư",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      195,
-      202
-    ],
-    "assertion_position": [
-      193,
-      200
-    ],
-    "sentence": "[ENTITY] vú di căn, tràn dịch màng phổi trái tái phát.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Cancer"
-    ],
-    "retriever": {
-      "sapbert": {
-        "C801": 0.842919,
-        "D499": 0.653178,
-        "D099": 0.643483,
-        "C800": 0.620034,
-        "C799": 0.606006
-      },
-      "rapidfuzz": {
-        "R971": 0.9,
-        "Z15060": 0.9,
-        "D701": 0.9
-      }
-    },
-    "candidate": {
-      "code": "C801",
-      "confidence": 0.787088
-    }
-  },
-  {
-    "text": "rụng tóc",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      35,
-      43
-    ],
-    "assertion_position": [
-      34,
-      42
-    ],
-    "sentence": "Em bị bệnh [ENTITY] từng mảng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "vùng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      653,
-      657
-    ],
-    "assertion_position": [
-      642,
-      646
-    ],
-    "sentence": "Tiêm ************** nội thương tổn được chỉ định trong rụng tóc từng [ENTITY] khi diện tích thương tổn dưới 50% diện tích da đầu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "rụng tóc",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      35,
-      43
-    ],
-    "assertion_position": [
-      34,
-      42
-    ],
-    "sentence": "Em bị bệnh [ENTITY] từng mảng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Hair loss"
-    ],
-    "retriever": {
-      "sapbert": {
-        "L659": 0.876519,
-        "L651": 0.66046,
-        "L639": 0.641834,
-        "L631": 0.639256,
-        "Q840": 0.63399
-      },
-      "rapidfuzz": {
-        "L658": 0.9,
-        "L659": 0.9,
-        "Q842": 0.855
-      }
-    },
-    "candidate": {
-      "code": "L659",
-      "confidence": 0.968867
-    }
-  },
-  {
-    "text": "rụng tóc",
+    "text": "rụng tóc từng vùng",
     "type": "CHẨN_ĐOÁN",
     "position": [
       639,
-      647
+      657
     ],
-    "assertion_position": [
-      628,
-      636
-    ],
-    "sentence": "Tiêm ************** nội thương tổn được chỉ định trong [ENTITY] từng vùng khi diện tích thương tổn dưới 50% diện tích da đầu.",
+    "sentence": "Tiêm ************** nội thương tổn được chỉ định trong [ENTITY] khi diện tích thương tổn dưới 50% diện tích da đầu. Tiêm nhắc lại sau mỗi 4-6 tuần. Corticosteroid bôi tại chỗ thường được chỉ định cho trẻ em. Các thuốc hay dùng là kem *************************** hai lần một ngày hoặc ************************************ (corticoid mức độ mạnh).",
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": [
-      "Hair loss"
-    ],
     "retriever": {
       "sapbert": {
-        "L659": 0.876519,
-        "L651": 0.66046,
-        "L639": 0.641834,
-        "L631": 0.639256,
-        "Q840": 0.63399
+        "L639": 0.982307,
+        "L631": 0.853645,
+        "L669": 0.809812,
+        "L649": 0.807602,
+        "Q840": 0.77514
       },
       "rapidfuzz": {
-        "L658": 0.9,
-        "L659": 0.9,
-        "Q842": 0.855
+        "L638": 0.95,
+        "L639": 0.9,
+        "L6681": 0.855
       }
     },
     "candidate": {
-      "code": "L659",
-      "confidence": 0.968867
-    }
+      "code": "L639",
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "L639",
+          "confidence": 1.0
+        },
+        {
+          "code": "L631",
+          "confidence": 0.768281
+        },
+        {
+          "code": "L669",
+          "confidence": 0.728831
+        }
+      ]
+    },
+    "eng_translation": [
+      "Alopecia areata"
+    ]
   },
   {
     "text": "che",
@@ -280,27 +188,6 @@
       1055,
       1058
     ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "rụng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      35,
-      39
-    ],
-    "assertion_position": [
-      34,
-      38
-    ],
-    "sentence": "Em bị bệnh [ENTITY] tóc từng mảng.",
-    "assertion_result": {
-      "tag": null
-    },
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -341,65 +228,21 @@
     },
     "candidate": {
       "code": "L239",
-      "confidence": 0.898668
-    }
-  },
-  {
-    "text": "rụng tóc",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      639,
-      647
-    ],
-    "assertion_position": [
-      628,
-      636
-    ],
-    "sentence": "Tiêm ************** nội thương tổn được chỉ định trong [ENTITY] từng vùng khi diện tích thương tổn dưới 50% diện tích da đầu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "viêm da tiếp xúc",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1389,
-      1405
-    ],
-    "assertion_position": [
-      1369,
-      1385
-    ],
-    "sentence": "Các chất gây mẫn cảm như diphenylcyclopropenone (diphencyprone) và dinitrochlorobenzene được quét lên vùng rụng tóc, chúng sẽ gây [ENTITY] dị ứng ở vùng điều trị, có thể sử dụng 01 lần/tuần trên vùng rụng tóc trong 06 tháng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Contact dermatitis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "L259": 0.943783,
-        "L239": 0.78158,
-        "L249": 0.762464,
-        "L309": 0.753709,
-        "L258": 0.716999
-      },
-      "rapidfuzz": {
-        "L562": 0.9,
-        "L24B3": 0.9,
-        "L250": 0.9
-      }
-    },
-    "candidate": {
-      "code": "L259",
-      "confidence": 0.873735
+      "confidence": 0.898668,
+      "ranked_candidates": [
+        {
+          "code": "L239",
+          "confidence": 0.898668
+        },
+        {
+          "code": "L259",
+          "confidence": 0.742348
+        },
+        {
+          "code": "L249",
+          "confidence": 0.723679
+        }
+      ]
     }
   },
   {

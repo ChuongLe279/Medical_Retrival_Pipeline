@@ -1,29 +1,16 @@
 [
   {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      10,
-      14
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "THIẾU MEN",
+    "text": "THIẾU MEN G6PD",
     "type": "CHẨN_ĐOÁN",
     "position": [
       0,
-      9
+      14
     ],
     "assertion_position": [
       0,
-      9
+      14
     ],
-    "sentence": "[ENTITY] G6PD là gì.",
+    "sentence": "[ENTITY] là gì.",
     "assertion_result": {
       "tag": null
     },
@@ -46,34 +33,35 @@
     },
     "candidate": {
       "code": "D75A",
-      "confidence": 0.901622
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
     }
   },
   {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      37,
-      41
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Thiếu men",
+    "text": "Thiếu men G6PD",
     "type": "CHẨN_ĐOÁN",
     "position": [
       27,
-      36
+      41
     ],
     "assertion_position": [
       22,
-      31
+      36
     ],
-    "sentence": "[ENTITY] G6PD là bệnh gì.",
+    "sentence": "[ENTITY] là bệnh gì.",
     "assertion_result": {
       "tag": null
     },
@@ -96,21 +84,73 @@
     },
     "candidate": {
       "code": "D75A",
-      "confidence": 0.901622
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
     }
   },
   {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "Thiếu men G6PD",
+    "type": "CHẨN_ĐOÁN",
     "position": [
-      65,
+      55,
       69
     ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
+    "assertion_position": [
+      49,
+      63
+    ],
+    "sentence": "[ENTITY] (Glucose-6-Phosphate Dehydrogenase) là một bệnh di truyền lặn liên kết với nhiễm sắc thể X.",
+    "assertion_result": {
+      "tag": null
     },
-    "candidate": null
+    "eng_translation": [
+      "G6PD deficiency"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D75A": 0.827015,
+        "D550": 0.778289,
+        "E7400": 0.634536,
+        "E74810": 0.632328,
+        "E72530": 0.59343
+      },
+      "rapidfuzz": {
+        "D75A": 0.9,
+        "D550": 0.9,
+        "D512": 0.855
+      }
+    },
+    "candidate": {
+      "code": "D75A",
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
+    }
   },
   {
     "text": "Glucose",
@@ -230,156 +270,6 @@
     "candidate": null
   },
   {
-    "text": "THIẾU MEN G6PD",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      0,
-      14
-    ],
-    "assertion_position": [
-      0,
-      14
-    ],
-    "sentence": "[ENTITY] là gì.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "G6PD deficiency"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D75A": 0.827015,
-        "D550": 0.778289,
-        "E7400": 0.634536,
-        "E74810": 0.632328,
-        "E72530": 0.59343
-      },
-      "rapidfuzz": {
-        "D75A": 0.9,
-        "D550": 0.9,
-        "D512": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D75A",
-      "confidence": 0.901622
-    }
-  },
-  {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1029,
-      1033
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Thiếu men G6PD",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      27,
-      41
-    ],
-    "assertion_position": [
-      22,
-      36
-    ],
-    "sentence": "[ENTITY] là bệnh gì.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "G6PD deficiency"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D75A": 0.827015,
-        "D550": 0.778289,
-        "E7400": 0.634536,
-        "E74810": 0.632328,
-        "E72530": 0.59343
-      },
-      "rapidfuzz": {
-        "D75A": 0.9,
-        "D550": 0.9,
-        "D512": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D75A",
-      "confidence": 0.901622
-    }
-  },
-  {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1147,
-      1151
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Thiếu men G6PD",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      55,
-      69
-    ],
-    "assertion_position": [
-      49,
-      63
-    ],
-    "sentence": "[ENTITY] (Glucose-6-Phosphate Dehydrogenase) là một bệnh di truyền lặn liên kết với nhiễm sắc thể X.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "G6PD deficiency"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D75A": 0.827015,
-        "D550": 0.778289,
-        "E7400": 0.634536,
-        "E74810": 0.632328,
-        "E72530": 0.59343
-      },
-      "rapidfuzz": {
-        "D75A": 0.9,
-        "D550": 0.9,
-        "D512": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D75A",
-      "confidence": 0.901622
-    }
-  },
-  {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1239,
-      1243
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "thiếu men G6PD",
     "type": "CHẨN_ĐOÁN",
     "position": [
@@ -413,21 +303,22 @@
     },
     "candidate": {
       "code": "D75A",
-      "confidence": 0.901622
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
     }
-  },
-  {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1381,
-      1385
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "thiếu men G6PD",
@@ -463,21 +354,175 @@
     },
     "candidate": {
       "code": "D75A",
-      "confidence": 0.901622
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
     }
   },
   {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "thiếu men G6PD",
+    "type": "CHẨN_ĐOÁN",
     "position": [
-      1507,
-      1511
+      1229,
+      1243
+    ],
+    "assertion_position": [
+      1217,
+      1231
+    ],
+    "sentence": "Nếu kết quả nghi ngờ [ENTITY], trẻ sẽ được chỉ định làm thêm các xét nghiệm chuyên sâu nhằm khẳng định chẩn đoán.",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "G6PD deficiency"
     ],
     "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
+      "sapbert": {
+        "D75A": 0.827015,
+        "D550": 0.778289,
+        "E7400": 0.634536,
+        "E74810": 0.632328,
+        "E72530": 0.59343
+      },
+      "rapidfuzz": {
+        "D75A": 0.9,
+        "D550": 0.9,
+        "D512": 0.855
+      }
     },
-    "candidate": null
+    "candidate": {
+      "code": "D75A",
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
+    }
+  },
+  {
+    "text": "thiếu men G6PD",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1371,
+      1385
+    ],
+    "assertion_position": [
+      1358,
+      1372
+    ],
+    "sentence": "Trong trường hợp trẻ không được phát hiện [ENTITY] ngay từ giai đoạn sơ sinh, cha mẹ cần đặc biệt lưu ý các dấu hiệu điển hình để sớm đưa trẻ đi khám.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "G6PD deficiency"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D75A": 0.827015,
+        "D550": 0.778289,
+        "E7400": 0.634536,
+        "E74810": 0.632328,
+        "E72530": 0.59343
+      },
+      "rapidfuzz": {
+        "D75A": 0.9,
+        "D550": 0.9,
+        "D512": 0.855
+      }
+    },
+    "candidate": {
+      "code": "D75A",
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
+    }
+  },
+  {
+    "text": "thiếu men G6PD",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1497,
+      1511
+    ],
+    "assertion_position": [
+      1484,
+      1498
+    ],
+    "sentence": "Khi trẻ bị [ENTITY] và ăn đậu tằm hoặc sử dụng thuốc, thực phẩm chứa chất oxy hóa, bệnh có thể khởi phát đột ngột với các biểu hiện như.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "G6PD deficiency"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D75A": 0.827015,
+        "D550": 0.778289,
+        "E7400": 0.634536,
+        "E74810": 0.632328,
+        "E72530": 0.59343
+      },
+      "rapidfuzz": {
+        "D75A": 0.9,
+        "D550": 0.9,
+        "D512": 0.855
+      }
+    },
+    "candidate": {
+      "code": "D75A",
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
+    }
   },
   {
     "text": "Sốt cao",
@@ -585,28 +630,6 @@
     "candidate": null
   },
   {
-    "text": "huyết",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1775,
-      1780
-    ],
-    "assertion_position": [
-      1754,
-      1759
-    ],
-    "sentence": "Khi đi khám, xét nghiệm máu thường cho thấy thiếu máu do tan [ENTITY], hồng cầu bị phá hủy hàng loạt, dẫn đến thiếu máu, vàng da vàng mắt và thậm chí suy thận cấp.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "hồng cầu",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
@@ -695,7 +718,21 @@
     },
     "candidate": {
       "code": "N179",
-      "confidence": 0.746054
+      "confidence": 0.746054,
+      "ranked_candidates": [
+        {
+          "code": "N179",
+          "confidence": 0.746054
+        },
+        {
+          "code": "N170",
+          "confidence": 0.65325
+        },
+        {
+          "code": "N009",
+          "confidence": 0.647462
+        }
+      ]
     }
   },
   {
@@ -762,17 +799,55 @@
     "candidate": null
   },
   {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "Thiếu men G6PD",
+    "type": "CHẨN_ĐOÁN",
     "position": [
-      2286,
+      2276,
       2290
     ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
+    "assertion_position": [
+      2250,
+      2264
+    ],
+    "sentence": "[ENTITY] có nguy hiểm không.",
+    "assertion_result": {
+      "tag": null
     },
-    "candidate": null
+    "eng_translation": [
+      "G6PD deficiency"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D75A": 0.827015,
+        "D550": 0.778289,
+        "E7400": 0.634536,
+        "E74810": 0.632328,
+        "E72530": 0.59343
+      },
+      "rapidfuzz": {
+        "D75A": 0.9,
+        "D550": 0.9,
+        "D512": 0.855
+      }
+    },
+    "candidate": {
+      "code": "D75A",
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
+    }
   },
   {
     "text": "G6PD",
@@ -860,7 +935,21 @@
     },
     "candidate": {
       "code": "D589",
-      "confidence": 0.649864
+      "confidence": 0.649864,
+      "ranked_candidates": [
+        {
+          "code": "D589",
+          "confidence": 0.649864
+        },
+        {
+          "code": "D599",
+          "confidence": 0.629226
+        },
+        {
+          "code": "R823",
+          "confidence": 0.614304
+        }
+      ]
     }
   },
   {
@@ -888,16 +977,16 @@
     "text": "thiếu men G6PD",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      1229,
-      1243
+      2517,
+      2531
     ],
     "assertion_position": [
-      1217,
-      1231
+      2489,
+      2503
     ],
-    "sentence": "Nếu kết quả nghi ngờ [ENTITY], trẻ sẽ được chỉ định làm thêm các xét nghiệm chuyên sâu nhằm khẳng định chẩn đoán.",
+    "sentence": "Ở trẻ sơ sinh, vàng da nặng do [ENTITY] có thể gây ra nhiều biến chứng nguy hiểm như.",
     "assertion_result": {
-      "tag": "isUncertain"
+      "tag": null
     },
     "eng_translation": [
       "G6PD deficiency"
@@ -918,21 +1007,22 @@
     },
     "candidate": {
       "code": "D75A",
-      "confidence": 0.901622
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
     }
-  },
-  {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      2527,
-      2531
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "Bại não",
@@ -948,27 +1038,6 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "chậm phát triển trí tuệ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2004,
-      2027
-    ],
-    "assertion_position": [
-      1983,
-      2006
-    ],
-    "sentence": "Đặc biệt, nếu trẻ sơ sinh bị vàng da nặng sau khoảng 2 tuần tuổi, các tổn thương thần kinh có thể rất nghiêm trọng, gây bại não, [ENTITY] và vận động.",
-    "assertion_result": {
-      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -1031,7 +1100,21 @@
     },
     "candidate": {
       "code": "D589",
-      "confidence": 0.649864
+      "confidence": 0.649864,
+      "ranked_candidates": [
+        {
+          "code": "D589",
+          "confidence": 0.649864
+        },
+        {
+          "code": "D599",
+          "confidence": 0.629226
+        },
+        {
+          "code": "R823",
+          "confidence": 0.614304
+        }
+      ]
     }
   },
   {
@@ -1056,89 +1139,17 @@
     "candidate": null
   },
   {
-    "text": "sơ sinh",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1049,
-      1056
-    ],
-    "assertion_position": [
-      1037,
-      1044
-    ],
-    "sentence": "Hiện nay, trẻ [ENTITY] sau khi chào đời sẽ được sàng lọc sớm các bệnh bẩm sinh, trong đó có xét nghiệm thiếu men G6PD.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "thiếu men G6PD",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      1371,
-      1385
-    ],
-    "assertion_position": [
-      1358,
-      1372
-    ],
-    "sentence": "Trong trường hợp trẻ không được phát hiện [ENTITY] ngay từ giai đoạn sơ sinh, cha mẹ cần đặc biệt lưu ý các dấu hiệu điển hình để sớm đưa trẻ đi khám.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "G6PD deficiency"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D75A": 0.827015,
-        "D550": 0.778289,
-        "E7400": 0.634536,
-        "E74810": 0.632328,
-        "E72530": 0.59343
-      },
-      "rapidfuzz": {
-        "D75A": 0.9,
-        "D550": 0.9,
-        "D512": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D75A",
-      "confidence": 0.901622
-    }
-  },
-  {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      2874,
+      2864,
       2878
     ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "thiếu men G6PD",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1497,
-      1511
-    ],
     "assertion_position": [
-      1484,
-      1498
+      2829,
+      2843
     ],
-    "sentence": "Khi trẻ bị [ENTITY] và ăn đậu tằm hoặc sử dụng thuốc, thực phẩm chứa chất oxy hóa, bệnh có thể khởi phát đột ngột với các biểu hiện như.",
+    "sentence": "Vì vậy, khi phát hiện trẻ bị [ENTITY] thông qua sàng lọc sớm, phụ huynh cần tuân thủ hướng dẫn của bác sĩ, đặc biệt là tránh các tác nhân gây tan huyết như đậu tằm, thuốc và thực phẩm có tính oxy hóa cao.",
     "assertion_result": {
       "tag": null
     },
@@ -1161,34 +1172,35 @@
     },
     "candidate": {
       "code": "D75A",
-      "confidence": 0.901622
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
     }
   },
   {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
+    "text": "thiếu men G6PD",
+    "type": "CHẨN_ĐOÁN",
     "position": [
-      3089,
+      3079,
       3093
     ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Thiếu men G6PD",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2276,
-      2290
-    ],
     "assertion_position": [
-      2250,
-      2264
+      3043,
+      3057
     ],
-    "sentence": "[ENTITY] có nguy hiểm không.",
+    "sentence": "Tuy nhiên, không phải mọi người [ENTITY] đều luôn trong tình trạng nguy hiểm.",
     "assertion_result": {
       "tag": null
     },
@@ -1211,36 +1223,37 @@
     },
     "candidate": {
       "code": "D75A",
-      "confidence": 0.901622
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
     }
-  },
-  {
-    "text": "G6PD",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      3278,
-      3282
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "thiếu men G6PD",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      2517,
-      2531
+      3268,
+      3282
     ],
     "assertion_position": [
-      2489,
-      2503
+      3228,
+      3242
     ],
-    "sentence": "Ở trẻ sơ sinh, vàng da nặng do [ENTITY] có thể gây ra nhiều biến chứng nguy hiểm như.",
+    "sentence": "Cần làm gì khi con bị [ENTITY].",
     "assertion_result": {
-      "tag": null
+      "tag": "isFamily"
     },
     "eng_translation": [
       "G6PD deficiency"
@@ -1261,7 +1274,21 @@
     },
     "candidate": {
       "code": "D75A",
-      "confidence": 0.901622
+      "confidence": 0.901622,
+      "ranked_candidates": [
+        {
+          "code": "D75A",
+          "confidence": 0.901622
+        },
+        {
+          "code": "D550",
+          "confidence": 0.85046
+        },
+        {
+          "code": "E7400",
+          "confidence": 0.571082
+        }
+      ]
     }
   },
   {
@@ -1270,19 +1297,6 @@
     "position": [
       3327,
       3331
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Vitamin",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      3583,
-      3590
     ],
     "retriever": {
       "sapbert": {},
@@ -1324,21 +1338,22 @@
     },
     "candidate": {
       "code": "11258",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "11258",
+          "confidence": 1.0
+        },
+        {
+          "code": "8308",
+          "confidence": 0.99685
+        },
+        {
+          "code": "42781",
+          "confidence": 0.929073
+        }
+      ]
     }
-  },
-  {
-    "text": "K",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      137,
-      138
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "nhiễm khuẩn tiết niệu",
@@ -1374,44 +1389,21 @@
     },
     "candidate": {
       "code": "N390",
-      "confidence": 0.874628
-    }
-  },
-  {
-    "text": "thiếu men G6PD",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2864,
-      2878
-    ],
-    "assertion_position": [
-      2829,
-      2843
-    ],
-    "sentence": "Vì vậy, khi phát hiện trẻ bị [ENTITY] thông qua sàng lọc sớm, phụ huynh cần tuân thủ hướng dẫn của bác sĩ, đặc biệt là tránh các tác nhân gây tan huyết như đậu tằm, thuốc và thực phẩm có tính oxy hóa cao.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "G6PD deficiency"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D75A": 0.827015,
-        "D550": 0.778289,
-        "E7400": 0.634536,
-        "E74810": 0.632328,
-        "E72530": 0.59343
-      },
-      "rapidfuzz": {
-        "D75A": 0.9,
-        "D550": 0.9,
-        "D512": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D75A",
-      "confidence": 0.901622
+      "confidence": 0.874628,
+      "ranked_candidates": [
+        {
+          "code": "N390",
+          "confidence": 0.874628
+        },
+        {
+          "code": "P393",
+          "confidence": 0.75672
+        },
+        {
+          "code": "R8281",
+          "confidence": 0.65374
+        }
+      ]
     }
   },
   {
@@ -1428,43 +1420,6 @@
     "candidate": null
   },
   {
-    "text": "thiếu men G6PD",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      3079,
-      3093
-    ],
-    "assertion_position": [
-      3043,
-      3057
-    ],
-    "sentence": "Tuy nhiên, không phải mọi người [ENTITY] đều luôn trong tình trạng nguy hiểm.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "G6PD deficiency"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D75A": 0.827015,
-        "D550": 0.778289,
-        "E7400": 0.634536,
-        "E74810": 0.632328,
-        "E72530": 0.59343
-      },
-      "rapidfuzz": {
-        "D75A": 0.9,
-        "D550": 0.9,
-        "D512": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D75A",
-      "confidence": 0.901622
-    }
-  },
-  {
     "text": "G6PD",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
@@ -1476,43 +1431,6 @@
       "rapidfuzz": {}
     },
     "candidate": null
-  },
-  {
-    "text": "thiếu men G6PD",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      3268,
-      3282
-    ],
-    "assertion_position": [
-      3228,
-      3242
-    ],
-    "sentence": "Cần làm gì khi con bị [ENTITY].",
-    "assertion_result": {
-      "tag": "isFamily"
-    },
-    "eng_translation": [
-      "G6PD deficiency"
-    ],
-    "retriever": {
-      "sapbert": {
-        "D75A": 0.827015,
-        "D550": 0.778289,
-        "E7400": 0.634536,
-        "E74810": 0.632328,
-        "E72530": 0.59343
-      },
-      "rapidfuzz": {
-        "D75A": 0.9,
-        "D550": 0.9,
-        "D512": 0.855
-      }
-    },
-    "candidate": {
-      "code": "D75A",
-      "confidence": 0.901622
-    }
   },
   {
     "text": "G6PD",

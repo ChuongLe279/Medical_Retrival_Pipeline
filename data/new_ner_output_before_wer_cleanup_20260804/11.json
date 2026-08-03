@@ -1,0 +1,1155 @@
+[
+  {
+    "text": "Bệnh tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      21,
+      34
+    ],
+    "assertion_position": [
+      17,
+      30
+    ],
+    "sentence": "[ENTITY] do xơ vữa động mạch.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Cardiovascular disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I519": 0.861471,
+        "I679": 0.694969,
+        "I999": 0.684393,
+        "I259": 0.66817,
+        "I5189": 0.656756
+      },
+      "rapidfuzz": {
+        "C946": 0.855,
+        "I289": 0.855,
+        "I279": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I519",
+      "confidence": 0.800299
+    }
+  },
+  {
+    "text": "xơ vữa",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      38,
+      44
+    ],
+    "assertion_position": [
+      34,
+      40
+    ],
+    "sentence": "Bệnh tim mạch do [ENTITY] động mạch.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Atherosclerosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I7090": 0.960917,
+        "I7091": 0.846441,
+        "I700": 0.836473,
+        "I672": 0.751668,
+        "I708": 0.727376
+      },
+      "rapidfuzz": {
+        "I70743": 0.9,
+        "I70291": 0.9,
+        "I70269": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I7090",
+      "confidence": 0.881997
+    }
+  },
+  {
+    "text": "ăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      56,
+      68
+    ],
+    "assertion_position": [
+      52,
+      64
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.689331,
+        "I150": 0.684921,
+        "I169": 0.681309
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.734463
+    }
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      89,
+      103
+    ],
+    "assertion_position": [
+      85,
+      99
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Diabetes mellitus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R7303": 0.712752,
+        "Z833": 0.706901,
+        "O24919": 0.682559,
+        "E1165": 0.682321,
+        "P702": 0.664486
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9
+      }
+    },
+    "candidate": {
+      "code": "R7303",
+      "confidence": 0.642354
+    }
+  },
+  {
+    "text": "Cơn rối loạn ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      132,
+      151
+    ],
+    "assertion_position": [
+      128,
+      147
+    ],
+    "sentence": "Lý do vào viện: [ENTITY] thoáng qua, nghi ngờ cơn co giật.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      177,
+      184
+    ],
+    "assertion_position": [
+      173,
+      180
+    ],
+    "sentence": "Lý do vào viện: Cơn rối loạn ý thức thoáng qua, nghi ngờ cơn [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      253,
+      273
+    ],
+    "assertion_position": [
+      249,
+      269
+    ],
+    "sentence": "Khoảng 1 tháng trước nhập viện, bệnh nhân bị ngã và được chẩn đoán [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Subarachnoid hemorrhage"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I609": 0.779369,
+        "P103": 0.69536,
+        "I69093": 0.672027,
+        "P525": 0.657628,
+        "I607": 0.651628
+      },
+      "rapidfuzz": {
+        "P103": 0.9,
+        "I6010": 0.9,
+        "I6011": 0.9
+      }
+    },
+    "candidate": {
+      "code": "P103",
+      "confidence": 0.715824
+    }
+  },
+  {
+    "text": "Chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      275,
+      295
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      317,
+      337
+    ],
+    "assertion_position": [
+      312,
+      332
+    ],
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh [ENTITY] vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Subarachnoid hemorrhage"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I609": 0.779369,
+        "P103": 0.69536,
+        "I69093": 0.672027,
+        "P525": 0.657628,
+        "I607": 0.651628
+      },
+      "rapidfuzz": {
+        "P103": 0.9,
+        "I6010": 0.9,
+        "I6011": 0.9
+      }
+    },
+    "candidate": {
+      "code": "P103",
+      "confidence": 0.715824
+    }
+  },
+  {
+    "text": "nang màng nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      484,
+      498
+    ],
+    "assertion_position": [
+      479,
+      493
+    ],
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến [ENTITY] hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Arachnoid cyst"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G930": 0.728069,
+        "M8550": 0.685989,
+        "K048": 0.668928,
+        "Q046": 0.657648,
+        "L720": 0.648508
+      },
+      "rapidfuzz": {
+        "H35349": 0.855,
+        "H35343": 0.855,
+        "M71359": 0.855
+      }
+    },
+    "candidate": {
+      "code": "G930",
+      "confidence": 0.661574
+    }
+  },
+  {
+    "text": "tụ dịch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      504,
+      511
+    ],
+    "assertion_position": [
+      499,
+      506
+    ],
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc [ENTITY]/tụ máu dưới màng cứng mạn tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Fluid collection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "Y844": 0.618877,
+        "Y93E3": 0.557188,
+        "Z4803": 0.537196,
+        "R142": 0.521643,
+        "Y847": 0.520495
+      },
+      "rapidfuzz": {
+        "Z982": 0.855,
+        "G9783": 0.855,
+        "G9609": 0.855
+      }
+    },
+    "candidate": {
+      "code": "Y844",
+      "confidence": 0.566243
+    }
+  },
+  {
+    "text": "tụ máu dưới màng cứng mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      512,
+      542
+    ],
+    "assertion_position": [
+      507,
+      537
+    ],
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm dập nhu mô vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/[ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Chronic subdural hematoma"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I6203": 0.870887,
+        "I6202": 0.733959,
+        "I6200": 0.721568,
+        "S065X0S": 0.672532,
+        "I6201": 0.656989
+      },
+      "rapidfuzz": {
+        "M12051": 0.855,
+        "I82501": 0.855,
+        "I82509": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I6203",
+      "confidence": 0.804337
+    }
+  },
+  {
+    "text": "chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      553,
+      560
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau đầu kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      711,
+      726
+    ],
+    "assertion_position": [
+      705,
+      720
+    ],
+    "sentence": "Sau xuất viện, bệnh nhân từng quay lại khoa Cấp cứu vì [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tụ máu ngoài màng cứng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      752,
+      774
+    ],
+    "assertion_position": [
+      745,
+      767
+    ],
+    "sentence": "Chụp kiểm tra ghi nhận [ENTITY] phải cấp tính trên nền tổn thương mạn tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Epidural hematoma"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I621": 0.674812,
+        "S064X0S": 0.665628,
+        "G062": 0.647567,
+        "S064X2A": 0.616672,
+        "S064X0A": 0.616418
+      },
+      "rapidfuzz": {
+        "H59331": 0.855,
+        "H59349": 0.855,
+        "H61121": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I621",
+      "confidence": 0.608708
+    }
+  },
+  {
+    "text": "chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      862,
+      869
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau đầu vùng thái dương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1001,
+      1024
+    ],
+    "assertion_position": [
+      993,
+      1016
+    ],
+    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn [ENTITY] phải và đỉnh đầu, kèm cảm giác tê bì nửa mặt phải, đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      715,
+      718
+    ],
+    "assertion_position": [
+      709,
+      712
+    ],
+    "sentence": "Sau xuất viện, bệnh nhân từng quay lại khoa Cấp cứu vì đau [ENTITY] kéo dài.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tê bì nửa mặt phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1056,
+      1074
+    ],
+    "assertion_position": [
+      1048,
+      1066
+    ],
+    "sentence": "Trong thời gian sau đó, bệnh nhân tương đối ổn định nhưng vẫn còn đau đầu vùng thái dương phải và đỉnh đầu, kèm cảm giác [ENTITY], đặc biệt vùng trán phải và da đầu phải từ sau lần ngã.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tỉnh táo",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1175,
+      1183
+    ],
+    "assertion_position": [
+      1167,
+      1175
+    ],
+    "sentence": "Ngày vào viện, buổi sáng bệnh nhân thức dậy [ENTITY], sinh hoạt bình thường, ăn sáng, đọc báo và sử dụng máy tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1376,
+      1390
+    ],
+    "assertion_position": [
+      1367,
+      1381
+    ],
+    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, [ENTITY], đi lại không vững và gần như ngất.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đi lại không vững",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1392,
+      1409
+    ],
+    "assertion_position": [
+      1383,
+      1400
+    ],
+    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, [ENTITY] và gần như ngất.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1421,
+      1425
+    ],
+    "assertion_position": [
+      1412,
+      1416
+    ],
+    "sentence": "Người nhà nhận thấy bệnh nhân có biểu hiện bất thường, mất định hướng, đi lại không vững và gần như [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mở mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1442,
+      1448
+    ],
+    "assertion_position": [
+      1432,
+      1438
+    ],
+    "sentence": "Bệnh nhân lúc [ENTITY], lúc nhắm mắt, nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhắm mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1454,
+      1462
+    ],
+    "assertion_position": [
+      1444,
+      1452
+    ],
+    "sentence": "Bệnh nhân lúc mở mắt, lúc [ENTITY], nhiều lần ngửa đầu ra sau và không đáp ứng được các câu hỏi của người nhà.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đầu ra",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1479,
+      1485
+    ],
+    "assertion_position": [
+      1469,
+      1475
+    ],
+    "sentence": "Bệnh nhân lúc mở mắt, lúc nhắm mắt, nhiều lần ngửa [ENTITY] sau và không đáp ứng được các câu hỏi của người nhà.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "thích",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1601,
+      1606
+    ],
+    "assertion_position": [
+      1590,
+      1595
+    ],
+    "sentence": "Trong cơn, bệnh nhân kích [ENTITY] nhẹ, liên tục cố gắng đứng dậy và tỏ ra không hiểu tình trạng đang xảy ra.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "táo",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1180,
+      1183
+    ],
+    "assertion_position": [
+      1172,
+      1175
+    ],
+    "sentence": "Ngày vào viện, buổi sáng bệnh nhân thức dậy tỉnh [ENTITY], sinh hoạt bình thường, ăn sáng, đọc báo và sử dụng máy tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh bàn chân bẹt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1898,
+      1915
+    ],
+    "assertion_position": [
+      1885,
+      1902
+    ],
+    "sentence": "Theo như mô tả của Bạn cháu bé bị [ENTITY], đây là tật bẩm sinh không ảnh hưởng nhiều đến sức khỏe.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Congenital pes planus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "Q6650": 0.953089,
+        "M2140": 0.848673,
+        "Q6680": 0.762133,
+        "Q6670": 0.733569,
+        "Q6600": 0.698266
+      },
+      "rapidfuzz": {
+        "Q6652": 0.95,
+        "Q6650": 0.9,
+        "Q6651": 0.9
+      }
+    },
+    "candidate": {
+      "code": "Q6650",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nhảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1992,
+      1996
+    ],
+    "assertion_position": [
+      1979,
+      1983
+    ],
+    "sentence": "Hiện tại cháu chạy [ENTITY] bình thường, không đau, chưa có chỉ định phẫu thuật, Tuy nhiên bạn nên cho cháu đến bệnh viện để kiểm tra đánh giá bất thường về xương, khám lâm sàng để đánh giá các thiếu hụt về phần mềm, trên cơ sở đó chúng tôi sẽ có các hướng dẫn cụ thể về tập vận động, tiên lượng về tiến triển của bệnh một cách cụ thể.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2343,
+      2357
+    ],
+    "assertion_position": [
+      2329,
+      2343
+    ],
+    "sentence": "Có ghi nhận giai đoạn [ENTITY] và đi lại không vững theo lời kể người nhà.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đi lại không vững",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2361,
+      2378
+    ],
+    "assertion_position": [
+      2347,
+      2364
+    ],
+    "sentence": "Có ghi nhận giai đoạn mất định hướng và [ENTITY] theo lời kể người nhà.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "kích thích",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1596,
+      1606
+    ],
+    "assertion_position": [
+      1585,
+      1595
+    ],
+    "sentence": "Trong cơn, bệnh nhân [ENTITY] nhẹ, liên tục cố gắng đứng dậy và tỏ ra không hiểu tình trạng đang xảy ra.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngửa đầu ra sau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1474,
+      1489
+    ],
+    "assertion_position": [
+      1464,
+      1479
+    ],
+    "sentence": "Bệnh nhân lúc mở mắt, lúc nhắm mắt, nhiều lần [ENTITY] và không đáp ứng được các câu hỏi của người nhà.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhắm mắt từng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2460,
+      2473
+    ],
+    "assertion_position": [
+      2446,
+      2459
+    ],
+    "sentence": "Trong cơn có biểu hiện kích thích nhẹ, ngửa đầu ra sau và [ENTITY] lúc.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2494,
+      2501
+    ],
+    "assertion_position": [
+      2480,
+      2487
+    ],
+    "sentence": "Không ghi nhận [ENTITY], cứng đờ, cắn lưỡi hoặc tiểu tiện không tự chủ.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "cứng đờ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2503,
+      2510
+    ],
+    "assertion_position": [
+      2489,
+      2496
+    ],
+    "sentence": "Không ghi nhận co giật, [ENTITY], cắn lưỡi hoặc tiểu tiện không tự chủ.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "cắn lưỡi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2512,
+      2520
+    ],
+    "assertion_position": [
+      2498,
+      2506
+    ],
+    "sentence": "Không ghi nhận co giật, cứng đờ, [ENTITY] hoặc tiểu tiện không tự chủ.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tiểu tiện không tự chủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2526,
+      2548
+    ],
+    "assertion_position": [
+      2512,
+      2534
+    ],
+    "sentence": "Không ghi nhận co giật, cứng đờ, cắn lưỡi hoặc [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      558,
+      560
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2592,
+      2612
+    ],
+    "assertion_position": [
+      2578,
+      2598
+    ],
+    "sentence": "Cận lâm sàng: CT sọ não trước đó ghi nhận [ENTITY] vùng trán phải.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Subarachnoid hemorrhage"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I609": 0.779369,
+        "P103": 0.69536,
+        "I69093": 0.672027,
+        "P525": 0.657628,
+        "I607": 0.651628
+      },
+      "rapidfuzz": {
+        "P103": 0.9,
+        "I6010": 0.9,
+        "I6011": 0.9
+      }
+    },
+    "candidate": {
+      "code": "P103",
+      "confidence": 0.715824
+    }
+  },
+  {
+    "text": "dập nhu mô",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      358,
+      368
+    ],
+    "assertion_position": [
+      353,
+      363
+    ],
+    "sentence": "Chụp cắt lớp vi tính sọ não cho hình ảnh xuất huyết dưới nhện vùng trán phải, bầm [ENTITY] vùng trán phải và trán - thái dương phải, kèm một lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ nhiều đến nang màng nhện hoặc tụ dịch/tụ máu dưới màng cứng mạn tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nang màng nhện",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2743,
+      2757
+    ],
+    "assertion_position": [
+      2729,
+      2743
+    ],
+    "sentence": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ đến [ENTITY] hoặc tụ máu dưới màng cứng mạn tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Arachnoid cyst"
+    ],
+    "retriever": {
+      "sapbert": {
+        "G930": 0.728069,
+        "M8550": 0.685989,
+        "K048": 0.668928,
+        "Q046": 0.657648,
+        "L720": 0.648508
+      },
+      "rapidfuzz": {
+        "H35349": 0.855,
+        "H35343": 0.855,
+        "M71359": 0.855
+      }
+    },
+    "candidate": {
+      "code": "G930",
+      "confidence": 0.661574
+    }
+  },
+  {
+    "text": "tụ máu dưới màng cứng mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2763,
+      2793
+    ],
+    "assertion_position": [
+      2749,
+      2779
+    ],
+    "sentence": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải, nghĩ đến nang màng nhện hoặc [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Chronic subdural hematoma"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I6203": 0.870887,
+        "I6202": 0.733959,
+        "I6200": 0.721568,
+        "S065X0S": 0.672532,
+        "I6201": 0.656989
+      },
+      "rapidfuzz": {
+        "M12051": 0.855,
+        "I82501": 0.855,
+        "I82509": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I6203",
+      "confidence": 0.804337
+    }
+  },
+  {
+    "text": "tụ máu ngoài màng cứng phải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      752,
+      779
+    ],
+    "assertion_position": [
+      745,
+      772
+    ],
+    "sentence": "Chụp kiểm tra ghi nhận [ENTITY] cấp tính trên nền tổn thương mạn tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Right epidural hematoma"
+    ],
+    "retriever": {
+      "sapbert": {
+        "H44811": 0.558357,
+        "H2101": 0.530258,
+        "R92341": 0.529698,
+        "H47021": 0.528755,
+        "H3561": 0.527609
+      },
+      "rapidfuzz": {
+        "Z96651": 0.855,
+        "S15111A": 0.855,
+        "S15111D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "H44811",
+      "confidence": 0.506736
+    }
+  }
+]

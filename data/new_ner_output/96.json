@@ -47,19 +47,6 @@
     "candidate": null
   },
   {
-    "text": "vitamin",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1301,
-      1308
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "vitamin C",
     "type": "THUỐC",
     "position": [
@@ -89,29 +76,21 @@
     },
     "candidate": {
       "code": "1151",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "1151",
+          "confidence": 1.0
+        },
+        {
+          "code": "1043293",
+          "confidence": 0.38
+        },
+        {
+          "code": "350183",
+          "confidence": 0.38
+        }
+      ]
     }
-  },
-  {
-    "text": "cam",
-    "type": "THUỐC",
-    "position": [
-      1312,
-      1315
-    ],
-    "assertion_position": [
-      1269,
-      1272
-    ],
-    "sentence": "Bổ sung nhiều thực phẩm có chưa vitamin C ([ENTITY], bưởi,…).",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   }
 ]

@@ -1,0 +1,446 @@
+[
+  {
+    "text": "bệnh gút",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      64,
+      72
+    ],
+    "assertion_position": [
+      63,
+      71
+    ],
+    "sentence": "Chào bác sĩ, ông em năm nay 70 tuổi, bị [ENTITY] hai năm nay, cũng điều trị mấy tháng khỏi đau rồi không uống thuốc nữa, mà gần đây xuất hiện hạt nhỏ màu trắng trên da chỗ mấy khớp ngón tay với ngón chân.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "Gout"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M109": 0.97747,
+        "M1000": 0.845624,
+        "M1009": 0.739016,
+        "M1020": 0.72526,
+        "M10069": 0.685732
+      },
+      "rapidfuzz": {
+        "M109": 0.9,
+        "M10421": 0.9,
+        "M10422": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M109",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      189,
+      191
+    ],
+    "assertion_position": [
+      188,
+      190
+    ],
+    "sentence": "Chào bác sĩ, ông em năm nay 70 tuổi, bị bệnh gút hai năm nay, cũng điều trị mấy tháng khỏi đau rồi không uống thuốc nữa, mà gần đây xuất hiện hạt nhỏ màu trắng trên [ENTITY] chỗ mấy khớp ngón tay với ngón chân.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh gout mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      524,
+      542
+    ],
+    "assertion_position": [
+      519,
+      537
+    ],
+    "sentence": "Với những mô tả của bạn thì ông bạn đã bị bệnhgout, dạo gần đây không điều trị thường xuyên, và hình thành những hạt nhỏ ở vùng khớp như hình ảnh, đây là hạt tophi trong [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Chronic gout"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M1A9XX0": 0.820199,
+        "M1000": 0.809269,
+        "M1A00X0": 0.785348,
+        "M109": 0.778763,
+        "M1009": 0.771223
+      },
+      "rapidfuzz": {
+        "M1A1521": 0.9,
+        "M1A2120": 0.9,
+        "M1A1311": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M1A9XX0",
+      "confidence": 0.739819
+    }
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      788,
+      792
+    ],
+    "assertion_position": [
+      783,
+      787
+    ],
+    "sentence": "Tại vùng nổi hạt tophi có hiện tượng [ENTITY], tấy đỏ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tấy đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      794,
+      800
+    ],
+    "assertion_position": [
+      789,
+      795
+    ],
+    "sentence": "Tại vùng nổi hạt tophi có hiện tượng sưng, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gout",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      400,
+      404
+    ],
+    "assertion_position": [
+      395,
+      399
+    ],
+    "sentence": "Với những mô tả của bạn thì ông bạn đã bị bệnh[ENTITY], dạo gần đây không điều trị thường xuyên, và hình thành những hạt nhỏ ở vùng khớp như hình ảnh, đây là hạt tophi trong bệnh gout mạn tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Gout"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M109": 0.97747,
+        "M1000": 0.845624,
+        "M1009": 0.739016,
+        "M1020": 0.72526,
+        "M10069": 0.685732
+      },
+      "rapidfuzz": {
+        "M109": 0.9,
+        "M10421": 0.9,
+        "M10422": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M109",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "đau các khớp rất nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1086,
+      1108
+    ],
+    "assertion_position": [
+      1081,
+      1103
+    ],
+    "sentence": "Có những trường hợp acid uric tron hạt tophi giải phóng vào máu gây cơn gout cấp, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1162,
+      1179
+    ],
+    "assertion_position": [
+      1144,
+      1161
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Diabetes mellitus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R7303": 0.712752,
+        "Z833": 0.706901,
+        "O24919": 0.682559,
+        "E1165": 0.682321,
+        "P702": 0.664486
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9
+      }
+    },
+    "candidate": {
+      "code": "R7303",
+      "confidence": 0.642354
+    }
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1186,
+      1199
+    ],
+    "assertion_position": [
+      1163,
+      1176
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.689331,
+        "I150": 0.684921,
+        "I169": 0.681309
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.734463
+    }
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1206,
+      1213
+    ],
+    "assertion_position": [
+      1178,
+      1185
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Obesity"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E669": 0.985618,
+        "E663": 0.883644,
+        "E66811": 0.865016,
+        "E66813": 0.861392,
+        "E66812": 0.832182
+      },
+      "rapidfuzz": {
+        "E8882": 0.9,
+        "O99211": 0.9,
+        "Z152": 0.9
+      }
+    },
+    "candidate": {
+      "code": "E669",
+      "confidence": 0.902352
+    }
+  },
+  {
+    "text": "ngưng thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1220,
+      1229
+    ],
+    "assertion_position": [
+      1187,
+      1196
+    ],
+    "sentence": "[ENTITY] khi ngủ do tắc nghẽn.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "position": [
+      1287,
+      1294
+    ],
+    "assertion_position": [
+      1246,
+      1253
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Tylenol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "202433": 1.0,
+        "352523": 0.894457,
+        "220582": 0.889741,
+        "220573": 0.884246,
+        "2623416": 0.879626
+      },
+      "rapidfuzz": {
+        "202433": 1.0,
+        "220581": 0.95,
+        "209459": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202433",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mucinex d",
+    "type": "THUỐC",
+    "position": [
+      1301,
+      1310
+    ],
+    "assertion_position": [
+      1255,
+      1264
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Mucinex D"
+    ],
+    "retriever": {
+      "sapbert": {
+        "2388175": 1.0,
+        "352777": 0.891874,
+        "669103": 0.851699,
+        "2388176": 0.83803,
+        "728573": 0.824803
+      },
+      "rapidfuzz": {
+        "352777": 0.95,
+        "1011087": 0.855,
+        "1011086": 0.855
+      }
+    },
+    "candidate": {
+      "code": "352777",
+      "confidence": 0.924624
+    }
+  },
+  {
+    "text": "tiêu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1330,
+      1334
+    ],
+    "assertion_position": [
+      1279,
+      1283
+    ],
+    "sentence": "thỉnh thoảng [ENTITY] chảy các thuốc của ông ấy.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1335,
+      1339
+    ],
+    "assertion_position": [
+      1284,
+      1288
+    ],
+    "sentence": "thỉnh thoảng tiêu [ENTITY] các thuốc của ông ấy.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

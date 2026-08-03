@@ -76,6 +76,23 @@ def test_candidate_code_is_stringified():
     assert formatting._format_candidates({"candidate": {"code": 123}}) == ["123"]
 
 
+def test_only_primary_ranked_candidate_is_emitted():
+    entity = {
+        "candidate": {
+            "code": "A",
+            "confidence": 0.9,
+            "ranked_candidates": [
+                {"code": "A", "confidence": 0.9},
+                {"code": "B", "confidence": 0.8},
+                {"code": "C", "confidence": 0.7},
+                {"code": "D", "confidence": 0.6},
+            ],
+        }
+    }
+
+    assert formatting._format_candidates(entity) == ["A"]
+
+
 def test_create_submission_zip_uses_required_output_directory(tmp_path):
     second = tmp_path / "2.json"
     tenth = tmp_path / "10.json"

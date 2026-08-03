@@ -1,0 +1,117 @@
+[
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      57,
+      82
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      201,
+      226
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Môi bong vẩy trắng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      592,
+      610
+    ],
+    "assertion_position": [
+      578,
+      596
+    ],
+    "sentence": "[ENTITY] có thể do sau phun môi, môi khô và nhiều da chết do đó bạn nên tăng cường dưỡng ẩm cho môi và tuyệt đối không cậy, bóc vảy môi.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vitamin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1301,
+      1308
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "vitamin C",
+    "type": "THUỐC",
+    "position": [
+      1301,
+      1310
+    ],
+    "assertion_position": [
+      1258,
+      1267
+    ],
+    "sentence": "Bổ sung nhiều thực phẩm có chưa [ENTITY] (cam, bưởi,…).",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "ascorbic acid"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1151": 1.0
+      },
+      "rapidfuzz": {
+        "1151": 1.0,
+        "1043293": 0.95,
+        "350183": 0.95
+      }
+    },
+    "candidate": {
+      "code": "1151",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cam",
+    "type": "THUỐC",
+    "position": [
+      1312,
+      1315
+    ],
+    "assertion_position": [
+      1269,
+      1272
+    ],
+    "sentence": "Bổ sung nhiều thực phẩm có chưa vitamin C ([ENTITY], bưởi,…).",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

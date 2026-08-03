@@ -1,0 +1,646 @@
+[
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      76
+    ],
+    "assertion_position": [
+      45,
+      59
+    ],
+    "sentence": "[ENTITY] được kiểm soát bằng chế độ ăn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Diabetes mellitus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R7303": 0.712752,
+        "Z833": 0.706901,
+        "O24919": 0.682559,
+        "E1165": 0.682321,
+        "P702": 0.664486
+      },
+      "rapidfuzz": {
+        "E103523": 0.9,
+        "E103592": 0.9,
+        "E103591": 0.9
+      }
+    },
+    "candidate": {
+      "code": "R7303",
+      "confidence": 0.642354
+    }
+  },
+  {
+    "text": "ngừng thở khi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      113,
+      126
+    ],
+    "assertion_position": [
+      91,
+      104
+    ],
+    "sentence": "[ENTITY] ngủ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      127,
+      130
+    ],
+    "assertion_position": [
+      105,
+      108
+    ],
+    "sentence": "ngừng thở khi [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      154,
+      161
+    ],
+    "assertion_position": [
+      127,
+      134
+    ],
+    "sentence": "tiền sử lâm sàng [ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Heart failure"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I5084": 0.853405,
+        "I5089": 0.777315,
+        "I501": 0.76459,
+        "I5082": 0.7478
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I509",
+      "confidence": 0.905845
+    }
+  },
+  {
+    "text": "furosemide",
+    "type": "THUỐC",
+    "position": [
+      197,
+      207
+    ],
+    "assertion_position": [
+      167,
+      177
+    ],
+    "sentence": "Dị ứng: Dị ứng [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "furosemide"
+    ],
+    "retriever": {
+      "sapbert": {
+        "4603": 1.0
+      },
+      "rapidfuzz": {
+        "4603": 1.0,
+        "2725542": 0.9,
+        "2725545": 0.9
+      }
+    },
+    "candidate": {
+      "code": "4603",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      256,
+      263
+    ],
+    "assertion_position": [
+      219,
+      226
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      362,
+      369
+    ],
+    "assertion_position": [
+      311,
+      318
+    ],
+    "sentence": "bắt đầu nhận thấy [ENTITY] khi xem TV lúc 11:00 sáng ba ngày trước.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      441,
+      448
+    ],
+    "assertion_position": [
+      382,
+      389
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó nằm vào ban đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      455,
+      474
+    ],
+    "assertion_position": [
+      391,
+      410
+    ],
+    "sentence": "[ENTITY] để ngủ vì thở.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      478,
+      481
+    ],
+    "assertion_position": [
+      414,
+      417
+    ],
+    "sentence": "khó nằm vào ban đêm để [ENTITY] vì thở.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      495,
+      513
+    ],
+    "assertion_position": [
+      426,
+      444
+    ],
+    "sentence": "[ENTITY] (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho có đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      582,
+      597
+    ],
+    "assertion_position": [
+      508,
+      523
+    ],
+    "sentence": "tiền sử [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      613,
+      616
+    ],
+    "assertion_position": [
+      534,
+      537
+    ],
+    "sentence": "chủ quan [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      623,
+      635
+    ],
+    "assertion_position": [
+      539,
+      551
+    ],
+    "sentence": "[ENTITY] (ổn định).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      685,
+      703
+    ],
+    "assertion_position": [
+      593,
+      611
+    ],
+    "sentence": "Vị trí: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      737,
+      755
+    ],
+    "assertion_position": [
+      640,
+      658
+    ],
+    "sentence": "Thời gian: kéo dài 5 phút ([ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó nằm vào ban đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      847,
+      866
+    ],
+    "assertion_position": [
+      740,
+      759
+    ],
+    "sentence": "Triệu chứng liên quan: [ENTITY] để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      877,
+      884
+    ],
+    "assertion_position": [
+      770,
+      777
+    ],
+    "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì [ENTITY], ho có đờm trắng, chủ quan sốt, phù chi dưới.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ho có đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      886,
+      901
+    ],
+    "assertion_position": [
+      779,
+      794
+    ],
+    "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, [ENTITY], chủ quan sốt, phù chi dưới.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      912,
+      915
+    ],
+    "assertion_position": [
+      805,
+      808
+    ],
+    "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan [ENTITY], phù chi dưới.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      917,
+      929
+    ],
+    "assertion_position": [
+      810,
+      822
+    ],
+    "sentence": "Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "độ bão hòa oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1097,
+      1111
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "86",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1115,
+      1117
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "độ bão hòa oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1293,
+      1307
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "86",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1311,
+      1313
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh dại",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1417,
+      1425
+    ],
+    "assertion_position": [
+      1274,
+      1282
+    ],
+    "sentence": "Các yếu tố có thể ảnh hưởng đến sự phát triển lây nhiễm [ENTITY] bao gồm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Rabies"
+    ],
+    "retriever": {
+      "sapbert": {
+        "A829": 0.978476,
+        "A820": 0.919449,
+        "A821": 0.821663,
+        "Z203": 0.670933,
+        "A259": 0.64761
+      },
+      "rapidfuzz": {
+        "Z203": 0.9,
+        "A821": 0.9,
+        "A820": 0.9
+      }
+    },
+    "candidate": {
+      "code": "A820",
+      "confidence": 0.977504
+    }
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "position": [
+      1522,
+      1535
+    ],
+    "assertion_position": [
+      1375,
+      1388
+    ],
+    "sentence": "được cho [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "aspirin 325 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "572393": 0.974495,
+        "572203": 0.96399,
+        "572210": 0.962723,
+        "2563424": 0.96112,
+        "574308": 0.959
+      },
+      "rapidfuzz": {
+        "317300": 1.0,
+        "329295": 0.962963,
+        "335953": 0.928571
+      }
+    },
+    "candidate": {
+      "code": "317300",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "methylprednisolone 125mg iv",
+    "type": "THUỐC",
+    "position": [
+      1597,
+      1624
+    ],
+    "assertion_position": [
+      1440,
+      1467
+    ],
+    "sentence": "được cho [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "methylprednisolone 125 mg injection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1743704": 1.0,
+        "1743707": 0.946902
+      },
+      "rapidfuzz": {
+        "1743704": 1.0,
+        "1743707": 0.95
+      }
+    },
+    "candidate": {
+      "code": "1743704",
+      "confidence": 1.0
+    }
+  }
+]

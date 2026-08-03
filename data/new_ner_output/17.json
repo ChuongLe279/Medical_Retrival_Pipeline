@@ -42,27 +42,6 @@
     "candidate": null
   },
   {
-    "text": "miệng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      94,
-      99
-    ],
-    "assertion_position": [
-      93,
-      98
-    ],
-    "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh răng hay chảy máu chân răng, [ENTITY] thấy hơi thở mùi khó chịu, kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "hơi thở mùi khó chịu",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -98,19 +77,6 @@
     "assertion_result": {
       "tag": null
     },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ca",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      330,
-      332
-    ],
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -214,50 +180,22 @@
     },
     "candidate": {
       "code": "K054",
-      "confidence": 0.765143
+      "confidence": 0.765143,
+      "ranked_candidates": [
+        {
+          "code": "K054",
+          "confidence": 0.765143
+        },
+        {
+          "code": "K056",
+          "confidence": 0.728655
+        },
+        {
+          "code": "K0530",
+          "confidence": 0.693999
+        }
+      ]
     }
-  },
-  {
-    "text": "răng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      65,
-      69
-    ],
-    "assertion_position": [
-      64,
-      68
-    ],
-    "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh [ENTITY] hay chảy máu chân răng, miệng thấy hơi thở mùi khó chịu, kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Viêm",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      613,
-      617
-    ],
-    "assertion_position": [
-      607,
-      611
-    ],
-    "sentence": "[ENTITY] quanh răng: Các mô bao quanh cuống răng bị viêm và sưng do nhiễm vi khuẩn, sang chấn răng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "sưng",
@@ -314,7 +252,21 @@
     },
     "candidate": {
       "code": "K054",
-      "confidence": 0.765143
+      "confidence": 0.765143,
+      "ranked_candidates": [
+        {
+          "code": "K054",
+          "confidence": 0.765143
+        },
+        {
+          "code": "K056",
+          "confidence": 0.728655
+        },
+        {
+          "code": "K0530",
+          "confidence": 0.693999
+        }
+      ]
     }
   },
   {
@@ -351,7 +303,21 @@
     },
     "candidate": {
       "code": "B999",
-      "confidence": 0.787545
+      "confidence": 0.787545,
+      "ranked_candidates": [
+        {
+          "code": "B999",
+          "confidence": 0.787545
+        },
+        {
+          "code": "A499",
+          "confidence": 0.694816
+        },
+        {
+          "code": "A419",
+          "confidence": 0.680759
+        }
+      ]
     }
   },
   {
@@ -514,8 +480,43 @@
     },
     "candidate": {
       "code": "K054",
-      "confidence": 0.765143
+      "confidence": 0.765143,
+      "ranked_candidates": [
+        {
+          "code": "K054",
+          "confidence": 0.765143
+        },
+        {
+          "code": "K056",
+          "confidence": 0.728655
+        },
+        {
+          "code": "K0530",
+          "confidence": 0.693999
+        }
+      ]
     }
+  },
+  {
+    "text": "mất răng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      931,
+      939
+    ],
+    "assertion_position": [
+      922,
+      930
+    ],
+    "sentence": "Viêm nha chu nếu để kéo dài, chân răng có thể bị hư hại dẫn đến tình trạng [ENTITY] hoặc viêm khớp dạng thấp, các bệnh hô hấp, đột quỵ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "viêm khớp dạng thấp",
@@ -551,7 +552,21 @@
     },
     "candidate": {
       "code": "M069",
-      "confidence": 0.908518
+      "confidence": 0.908518,
+      "ranked_candidates": [
+        {
+          "code": "M069",
+          "confidence": 0.908518
+        },
+        {
+          "code": "M059",
+          "confidence": 0.759392
+        },
+        {
+          "code": "M0600",
+          "confidence": 0.721535
+        }
+      ]
     }
   },
   {
@@ -588,7 +603,21 @@
     },
     "candidate": {
       "code": "J989",
-      "confidence": 0.874302
+      "confidence": 0.874302,
+      "ranked_candidates": [
+        {
+          "code": "J989",
+          "confidence": 0.874302
+        },
+        {
+          "code": "J99",
+          "confidence": 0.667794
+        },
+        {
+          "code": "J988",
+          "confidence": 0.622642
+        }
+      ]
     }
   },
   {
@@ -625,7 +654,21 @@
     },
     "candidate": {
       "code": "I639",
-      "confidence": 0.715774
+      "confidence": 0.715774,
+      "ranked_candidates": [
+        {
+          "code": "I639",
+          "confidence": 0.715774
+        },
+        {
+          "code": "G464",
+          "confidence": 0.655364
+        },
+        {
+          "code": "I679",
+          "confidence": 0.642613
+        }
+      ]
     }
   },
   {
@@ -634,19 +677,6 @@
     "position": [
       1003,
       1008
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "vitamin",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1012,
-      1019
     ],
     "retriever": {
       "sapbert": {},
@@ -701,21 +731,31 @@
     },
     "candidate": {
       "code": "Z8262",
-      "confidence": 0.713692
+      "confidence": 0.713692,
+      "ranked_candidates": [
+        {
+          "code": "Z8262",
+          "confidence": 0.713692
+        },
+        {
+          "code": "Q782",
+          "confidence": 0.710198
+        },
+        {
+          "code": "Z13820",
+          "confidence": 0.630435
+        }
+      ]
     }
   },
   {
-    "text": "sâu",
+    "text": "sâu răng",
     "type": "CHẨN_ĐOÁN",
     "position": [
       1057,
-      1060
+      1065
     ],
-    "assertion_position": [
-      1043,
-      1046
-    ],
-    "sentence": "Thiếu canxi và vitamin: Thiếu hụt canxi dễ gây loãng xương, [ENTITY] răng và có nguy cơ bị viêm nha chu.",
+    "sentence": "- Thiếu canxi và vitamin: Thiếu hụt canxi dễ gây loãng xương, [ENTITY] và có nguy cơ bị viêm nha chu. Hôi miệng và chảy máu chân răng còn có thể do cơ thể thiếu hụt vitamin K.",
     "assertion_result": {
       "tag": null
     },
@@ -738,29 +778,22 @@
     },
     "candidate": {
       "code": "K029",
-      "confidence": 0.908488
+      "confidence": 0.908488,
+      "ranked_candidates": [
+        {
+          "code": "K029",
+          "confidence": 0.908488
+        },
+        {
+          "code": "K027",
+          "confidence": 0.827965
+        },
+        {
+          "code": "Z91849",
+          "confidence": 0.673072
+        }
+      ]
     }
-  },
-  {
-    "text": "răng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      88,
-      92
-    ],
-    "assertion_position": [
-      87,
-      91
-    ],
-    "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh răng hay chảy máu chân [ENTITY], miệng thấy hơi thở mùi khó chịu, kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "viêm nha chu",
@@ -796,21 +829,35 @@
     },
     "candidate": {
       "code": "K054",
-      "confidence": 0.765143
+      "confidence": 0.765143,
+      "ranked_candidates": [
+        {
+          "code": "K054",
+          "confidence": 0.765143
+        },
+        {
+          "code": "K056",
+          "confidence": 0.728655
+        },
+        {
+          "code": "K0530",
+          "confidence": 0.693999
+        }
+      ]
     }
   },
   {
-    "text": "miệng",
+    "text": "Hôi miệng",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      397,
-      402
+      1097,
+      1106
     ],
     "assertion_position": [
-      393,
-      398
+      1083,
+      1092
     ],
-    "sentence": "Vệ sinh răng [ENTITY] kém: Đây được xem là nguyên nhân phổ biến gây ra chảy máu chân răng kèm hôi miệng.",
+    "sentence": "[ENTITY] và chảy máu chân răng còn có thể do cơ thể thiếu hụt vitamin K.",
     "assertion_result": {
       "tag": null
     },
@@ -835,19 +882,6 @@
     "assertion_result": {
       "tag": null
     },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "vitamin",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1160,
-      1167
-    ],
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -888,21 +922,22 @@
     },
     "candidate": {
       "code": "11258",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "11258",
+          "confidence": 1.0
+        },
+        {
+          "code": "8308",
+          "confidence": 0.99685
+        },
+        {
+          "code": "42781",
+          "confidence": 0.929073
+        }
+      ]
     }
-  },
-  {
-    "text": "K",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      117,
-      118
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "Tiểu đường",
@@ -938,21 +973,35 @@
     },
     "candidate": {
       "code": "R7303",
-      "confidence": 0.642354
+      "confidence": 0.642354,
+      "ranked_candidates": [
+        {
+          "code": "R7303",
+          "confidence": 0.642354
+        },
+        {
+          "code": "Z833",
+          "confidence": 0.636211
+        },
+        {
+          "code": "O24919",
+          "confidence": 0.614303
+        }
+      ]
     }
   },
   {
-    "text": "miệng",
+    "text": "Hôi miệng",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      479,
-      484
+      1185,
+      1194
     ],
     "assertion_position": [
-      475,
-      480
+      1169,
+      1178
     ],
-    "sentence": "Vệ sinh răng miệng kém: Đây được xem là nguyên nhân phổ biến gây ra chảy máu chân răng kèm hôi [ENTITY].",
+    "sentence": "Tiểu đường: [ENTITY] và chảy máu chân răng là dấu hiệu của bệnh tiểu đường.",
     "assertion_result": {
       "tag": null
     },
@@ -1017,79 +1066,35 @@
     },
     "candidate": {
       "code": "R7303",
-      "confidence": 0.642354
+      "confidence": 0.642354,
+      "ranked_candidates": [
+        {
+          "code": "R7303",
+          "confidence": 0.642354
+        },
+        {
+          "code": "Z833",
+          "confidence": 0.636211
+        },
+        {
+          "code": "O24919",
+          "confidence": 0.614303
+        }
+      ]
     }
   },
   {
-    "text": "tiểu đường",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1238,
-      1248
-    ],
-    "assertion_position": [
-      1222,
-      1232
-    ],
-    "sentence": "Tiểu đường: Hôi miệng và chảy máu chân răng là dấu hiệu của bệnh [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Diabetes mellitus"
-    ],
-    "retriever": {
-      "sapbert": {
-        "R7303": 0.712752,
-        "Z833": 0.706901,
-        "O24919": 0.682559,
-        "E1165": 0.682321,
-        "P702": 0.664486
-      },
-      "rapidfuzz": {
-        "E103523": 0.9,
-        "E103592": 0.9,
-        "E103591": 0.9
-      }
-    },
-    "candidate": {
-      "code": "R7303",
-      "confidence": 0.642354
-    }
-  },
-  {
-    "text": "chảy máu",
+    "text": "hôi miệng",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      74,
-      82
+      1536,
+      1545
     ],
     "assertion_position": [
-      73,
-      81
+      1518,
+      1527
     ],
-    "sentence": "chào bác sĩ, em 28 tuổi, dạo này em đánh răng hay [ENTITY] chân răng, miệng thấy hơi thở mùi khó chịu, kèm theo thấy nhiều mảng bám quanh răng nữa, bác sĩ tư vấn giúp em với.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Hôi miệng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1097,
-      1106
-    ],
-    "assertion_position": [
-      1083,
-      1092
-    ],
-    "sentence": "[ENTITY] và chảy máu chân răng còn có thể do cơ thể thiếu hụt vitamin K.",
+    "sentence": "Tác dụng phụ của thuốc: Sử dụng một số loại thuốc có thể gây [ENTITY] kèm chảy máu chân răng.",
     "assertion_result": {
       "tag": null
     },
@@ -1121,27 +1126,6 @@
     "candidate": null
   },
   {
-    "text": "Hôi miệng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1185,
-      1194
-    ],
-    "assertion_position": [
-      1169,
-      1178
-    ],
-    "sentence": "Tiểu đường: [ENTITY] và chảy máu chân răng là dấu hiệu của bệnh tiểu đường.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "chảy máu chân răng",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -1153,27 +1137,6 @@
       1809
     ],
     "sentence": "Hút thuốc lá: Thành phần trong thuốc lá gây hỏng men răng, gai lưỡi phát triển quá mức khiến vi khuẩn xâm nhập, gây hôi miệng, [ENTITY] và mất răng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "mất răng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      931,
-      939
-    ],
-    "assertion_position": [
-      922,
-      930
-    ],
-    "sentence": "Viêm nha chu nếu để kéo dài, chân răng có thể bị hư hại dẫn đến tình trạng [ENTITY] hoặc viêm khớp dạng thấp, các bệnh hô hấp, đột quỵ.",
     "assertion_result": {
       "tag": null
     },
@@ -1217,7 +1180,21 @@
     },
     "candidate": {
       "code": "I739",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "I739",
+          "confidence": 1.0
+        },
+        {
+          "code": "I7389",
+          "confidence": 0.69126
+        },
+        {
+          "code": "I679",
+          "confidence": 0.603073
+        }
+      ]
     }
   },
   {
@@ -1254,7 +1231,21 @@
     },
     "candidate": {
       "code": "J449",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "J449",
+          "confidence": 1.0
+        },
+        {
+          "code": "J4489",
+          "confidence": 0.711072
+        },
+        {
+          "code": "J42",
+          "confidence": 0.587383
+        }
+      ]
     }
   },
   {
@@ -1312,7 +1303,21 @@
     },
     "candidate": {
       "code": "C4492",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "C4492",
+          "confidence": 1.0
+        },
+        {
+          "code": "C4442",
+          "confidence": 0.609021
+        },
+        {
+          "code": "C4A9",
+          "confidence": 0.608162
+        }
+      ]
     }
   },
   {
@@ -1358,27 +1363,6 @@
     "candidate": null
   },
   {
-    "text": "chảy máu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      452,
-      460
-    ],
-    "assertion_position": [
-      448,
-      456
-    ],
-    "sentence": "Vệ sinh răng miệng kém: Đây được xem là nguyên nhân phổ biến gây ra [ENTITY] chân răng kèm hôi miệng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "chảy máu chân răng",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -1390,27 +1374,6 @@
       2288
     ],
     "sentence": "Trà đinh hương giúp loại bỏ mùi hôi trong khoang miệng, ngăn ngừa chảy máu, giảm tình trạng [ENTITY] và hôi miệng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "hôi miệng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1536,
-      1545
-    ],
-    "assertion_position": [
-      1518,
-      1527
-    ],
-    "sentence": "Tác dụng phụ của thuốc: Sử dụng một số loại thuốc có thể gây [ENTITY] kèm chảy máu chân răng.",
     "assertion_result": {
       "tag": null
     },

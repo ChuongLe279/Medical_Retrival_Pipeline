@@ -1,0 +1,866 @@
+[
+  {
+    "text": "metoprolol 25mg po bid",
+    "type": "THUỐC",
+    "position": [
+      53,
+      75
+    ],
+    "assertion_position": [
+      41,
+      63
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "metoprolol 25 mg oral tablet"
+    ],
+    "retriever": {
+      "sapbert": {
+        "866924": 1.0
+      },
+      "rapidfuzz": {
+        "866924": 0.95,
+        "372891": 0.95,
+        "317541": 0.9
+      }
+    },
+    "candidate": {
+      "code": "866924",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "position": [
+      82,
+      93
+    ],
+    "assertion_position": [
+      65,
+      76
+    ],
+    "sentence": "[ENTITY] cho viêm tuyến mồ hôi.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "doxycycline"
+    ],
+    "retriever": {
+      "sapbert": {
+        "3640": 1.0,
+        "1545992": 0.941019
+      },
+      "rapidfuzz": {
+        "3640": 1.0,
+        "1160779": 0.95,
+        "205604": 0.9
+      }
+    },
+    "candidate": {
+      "code": "3640",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "viêm tuyến mồ hôi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      98,
+      115
+    ],
+    "assertion_position": [
+      81,
+      98
+    ],
+    "sentence": "doxycycline cho [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hidradenitis suppurativa"
+    ],
+    "retriever": {
+      "sapbert": {
+        "L732": 1.0,
+        "L210": 0.629484,
+        "L705": 0.628567,
+        "L820": 0.621046,
+        "L663": 0.605917
+      },
+      "rapidfuzz": {
+        "L732": 1.0,
+        "H6623": 0.646,
+        "H6622": 0.646
+      }
+    },
+    "candidate": {
+      "code": "L732",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "atenolol",
+    "type": "THUỐC",
+    "position": [
+      122,
+      130
+    ],
+    "assertion_position": [
+      100,
+      108
+    ],
+    "sentence": "[ENTITY] (uống hôm nay).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "atenolol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1202": 1.0,
+        "1431126": 0.939277
+      },
+      "rapidfuzz": {
+        "1202": 1.0,
+        "2662562": 0.9,
+        "565804": 0.9
+      }
+    },
+    "candidate": {
+      "code": "1202",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "thẳng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      231,
+      236
+    ],
+    "assertion_position": [
+      199,
+      204
+    ],
+    "sentence": "Theo lời bệnh nhân kể lại bệnh nhân có Căng [ENTITY] nhiều trong công việc.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "caffeine",
+    "type": "THUỐC",
+    "position": [
+      356,
+      364
+    ],
+    "assertion_position": [
+      312,
+      320
+    ],
+    "sentence": "Một ngày người bệnh có thể uống hàng chục tách cà phê có [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "caffeine"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1886": 1.0
+      },
+      "rapidfuzz": {
+        "1886": 1.0,
+        "2661484": 0.9,
+        "1152405": 0.9
+      }
+    },
+    "candidate": {
+      "code": "1886",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "caffeine",
+    "type": "THUỐC",
+    "position": [
+      395,
+      403
+    ],
+    "assertion_position": [
+      345,
+      353
+    ],
+    "sentence": "và 1 tách cà phê không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "eng_translation": [
+      "caffeine"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1886": 1.0
+      },
+      "rapidfuzz": {
+        "1886": 1.0,
+        "2661484": 0.9,
+        "1152405": 0.9
+      }
+    },
+    "candidate": {
+      "code": "1886",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      497,
+      512
+    ],
+    "assertion_position": [
+      439,
+      454
+    ],
+    "sentence": "Lý do nhập viện: Bệnh nhân vào viện vì xuất hiện triệu chứng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      615,
+      630
+    ],
+    "assertion_position": [
+      550,
+      565
+    ],
+    "sentence": "Cách 10 ngày trước khi vào việc bệnh nhân xuất hiện cảm giác [ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      666,
+      681
+    ],
+    "assertion_position": [
+      593,
+      608
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Khó thở nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      688,
+      699
+    ],
+    "assertion_position": [
+      610,
+      621
+    ],
+    "sentence": "[ENTITY] khó thở.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      700,
+      707
+    ],
+    "assertion_position": [
+      622,
+      629
+    ],
+    "sentence": "Khó thở nhẹ [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "cảm giác thắt chặt ngực vùng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      714,
+      742
+    ],
+    "assertion_position": [
+      631,
+      659
+    ],
+    "sentence": "[ENTITY] trước tim (khởi phát lúc 17 giờ).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Tăng đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      782,
+      802
+    ],
+    "assertion_position": [
+      694,
+      714
+    ],
+    "sentence": "[ENTITY] (khởi phát lúc 17 giờ).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      832,
+      839
+    ],
+    "assertion_position": [
+      739,
+      746
+    ],
+    "sentence": "[ENTITY] (khởi phát lúc 17 giờ).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      878,
+      885
+    ],
+    "assertion_position": [
+      780,
+      787
+    ],
+    "sentence": "Cảm thấy [ENTITY] nhiều khi gắng sức trong tuần qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      935,
+      942
+    ],
+    "assertion_position": [
+      832,
+      839
+    ],
+    "sentence": "Cảm thấy [ENTITY] nhiều hơn sau khi luyện tập thể dục so với mọi ngày.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1053,
+      1068
+    ],
+    "assertion_position": [
+      941,
+      956
+    ],
+    "sentence": "[ENTITY]: còn cảm giác đánh trống ngực khi nhập viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1084,
+      1099
+    ],
+    "assertion_position": [
+      971,
+      986
+    ],
+    "sentence": "đánh trống ngực: còn cảm giác [ENTITY] khi nhập viện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1121,
+      1128
+    ],
+    "assertion_position": [
+      1002,
+      1009
+    ],
+    "sentence": "[ENTITY]: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1149,
+      1164
+    ],
+    "assertion_position": [
+      1030,
+      1045
+    ],
+    "sentence": "khó thở: Nhẹ, liên quan đến [ENTITY], liên quan đến khó thở (khởi phát lúc 17 giờ).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1180,
+      1187
+    ],
+    "assertion_position": [
+      1061,
+      1068
+    ],
+    "sentence": "khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến [ENTITY] (khởi phát lúc 17 giờ).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1301,
+      1309
+    ],
+    "assertion_position": [
+      1177,
+      1185
+    ],
+    "sentence": "cảm giác thắt chặt ngực: Trung tâm, khởi phát lúc 17 giờ, kéo dài 20 giây, không có [ENTITY] vùng ngực khi đến tầng.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1339,
+      1346
+    ],
+    "assertion_position": [
+      1210,
+      1217
+    ],
+    "sentence": "[ENTITY]: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1362,
+      1377
+    ],
+    "assertion_position": [
+      1233,
+      1248
+    ],
+    "sentence": "khó thở: Liên quan đến [ENTITY], khởi phát lúc 17 giờ, kéo dài 20 giây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1461,
+      1469
+    ],
+    "assertion_position": [
+      1319,
+      1327
+    ],
+    "sentence": "Không [ENTITY], hay nôn, đổ mồ hôi.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1480,
+      1489
+    ],
+    "assertion_position": [
+      1338,
+      1347
+    ],
+    "sentence": "Không buồn nôn, hay nôn, [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "metoprolol 25mg po bid",
+    "type": "THUỐC",
+    "position": [
+      1772,
+      1794
+    ],
+    "assertion_position": [
+      1604,
+      1626
+    ],
+    "sentence": "Bắt đầu dùng [ENTITY], không có cải thiện.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "metoprolol 25 mg oral tablet"
+    ],
+    "retriever": {
+      "sapbert": {
+        "866924": 1.0
+      },
+      "rapidfuzz": {
+        "866924": 0.95,
+        "372891": 0.95,
+        "317541": 0.9
+      }
+    },
+    "candidate": {
+      "code": "866924",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1929,
+      1940
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2095,
+      2110
+    ],
+    "assertion_position": [
+      1910,
+      1925
+    ],
+    "sentence": "Ngày hôm nay khoảng Lúc 17 giờ, khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng [ENTITY], và khó thở kéo dài 20 giây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "position": [
+      2199,
+      2212
+    ],
+    "assertion_position": [
+      2003,
+      2016
+    ],
+    "sentence": "Được chỉ định điều trị [ENTITY] x 1.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "aspirin 325 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "572393": 0.974495,
+        "572203": 0.96399,
+        "572210": 0.962723,
+        "2563424": 0.96112,
+        "574308": 0.959
+      },
+      "rapidfuzz": {
+        "317300": 1.0,
+        "329295": 0.962963,
+        "335953": 0.928571
+      }
+    },
+    "candidate": {
+      "code": "317300",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2223,
+      2235
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2276,
+      2295
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ecg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2331,
+      2334
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Viêm gan cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2506,
+      2523
+    ],
+    "assertion_position": [
+      2281,
+      2298
+    ],
+    "sentence": "[ENTITY] do virus B thể thông thường điển hình mức độ nặng giai đoạn toàn phát.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Acute hepatitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B179": 0.945385,
+        "K752": 0.768428,
+        "B172": 0.749293,
+        "B150": 0.723954,
+        "K754": 0.714704
+      },
+      "rapidfuzz": {
+        "B172": 0.95,
+        "B1711": 0.9,
+        "B160": 0.9
+      }
+    },
+    "candidate": {
+      "code": "B179",
+      "confidence": 0.87739
+    }
+  },
+  {
+    "text": "phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2633,
+      2652
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2708,
+      2720
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2786,
+      2797
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

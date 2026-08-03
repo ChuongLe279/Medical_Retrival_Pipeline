@@ -79,13 +79,12 @@ NEGATED = (
     re.compile(r"^không\s+buồn\s+nôn,\s*(?:hay\s+)?nôn,\s*\[entity\]"),
     re.compile(r"\bphủ nhận bất kỳ\b[^.;:!?]{0,180}\[entity\]"),
     re.compile(r"\bkhông ghi nhận\b[^.;:!?]{0,120}\[entity\]"),
-    re.compile(r"\b(?:không|chẳng|chưa)\s+(?:có\s+)?(?:bị\s+|mắc\s+|thấy\s+|ghi nhận\s+|phát hiện\s+|còn\s+)?\[entity\]"),
+    re.compile(r"\b(?:không(?!\s+còn\b)|chẳng|chưa)\s+(?:có\s+)?(?:bị\s+|mắc\s+|thấy\s+|ghi nhận\s+|phát hiện\s+)?\[entity\]"),
     re.compile(
         r"\bkhông\s+có\s+(?!thay đổi|cải thiện|phương pháp|khả năng)"
         r"(?:(?!\b(?:dùng|sử dụng|điều trị|sau|nhưng|tuy nhiên)\b)[^.;:!?]){0,100}"
         r"\[entity\]"
     ),
-    re.compile(r"\bkhông\s+còn\b[^.;:!?]{0,45}\[entity\]"),
     re.compile(r"\bkhông\s+(?:có\s+)?(?:cơn|cảm giác|dấu hiệu|triệu chứng)\s+\[entity\]"),
     re.compile(r"\bkhông\s+(?:gây|ra|xuất)\s+\[entity\]"),
     re.compile(r"\bkhông\s+liên quan\s+đến\b[^.;:!?]{0,100}\[entity\]"),
@@ -93,15 +92,13 @@ NEGATED = (
     re.compile(r"\b(?:không|chẳng|chưa)\s+(?:có\s+)?(?:bằng chứng|dấu hiệu|biểu hiện|triệu chứng)(?:\s+(?:của|gợi ý))?\s+\[entity\]"),
     re.compile(r"\b(?:phủ nhận|loại trừ)\s+(?:có\s+)?\[entity\]"),
     re.compile(r"\bphủ nhận\b[^.;:!?]{0,60}\[entity\]"),
-    re.compile(r"\b\[entity\]\s+(?:âm tính|không thấy|không còn|đã khỏi)\b"),
+    re.compile(r"\b\[entity\]\s+(?:âm tính|không thấy)\b"),
     re.compile(r"\b\[entity\][^.;:!?]{0,20}\b(?:là\s+)?âm tính\b"),
     re.compile(r"\bâm tính\s+(?:với|cho)\s+\[entity\]"),
-    re.compile(r"\b\[entity\]\s+(?:đã\s+)?hết\b"),
     re.compile(r"\bchưa từng\s+(?:bị|mắc|có)\s+\[entity\]"),
     re.compile(r"\bchưa từng\s+(?:dùng|sử dụng|điều trị bằng|xét nghiệm)\s+\[entity\]"),
     re.compile(r"\bchưa\s+(?:bị|mắc|có)\b[^.;:!?]{0,50}\[entity\]"),
     re.compile(r"\b(?:không ghi nhận|không phát hiện|không thấy)\b[^.;:!?]{0,45}\[entity\]"),
-    re.compile(r"\bhết\s+\[entity\]"),
     re.compile(r"\bkhông\s+phải\s+(?:là\s+)?\[entity\]"),
     re.compile(r"\bkhông\s+có\b[^.;:!?]{0,80}\b(?:hoặc|và)\s+\[entity\]"),
     re.compile(r"\b\[entity\]\s*(?:\(\s*-\s*\)|:\s*âm tính|âm tính)\b"),
@@ -114,9 +111,15 @@ UNCERTAIN = (
     re.compile(r"\b\[entity\]\s+(?:được\s+)?(?:gợi ý|nghi ngờ|chưa xác định|chờ xác nhận|cần theo dõi)\b"),
     re.compile(r"\b(?:không xác nhận|không nhớ)\b[^.;:!?]{0,65}\[entity\]"),
     re.compile(r"\bkhả năng\b[^.;:!?]{0,45}\b(?:bị|mắc|có)\s+\[entity\]"),
+    re.compile(r"\b(?:xác suất|nguy cơ)\s+(?:rất\s+)?thấp\s+\[entity\]"),
 )
 
 HISTORICAL = (
+    # A previously present symptom that has resolved is historical, not a
+    # simple negated finding.
+    re.compile(r"\b(?:hiện tại\s+)?(?:dường như\s+)?không\s+còn\b[^.;:!?]{0,45}\[entity\]"),
+    re.compile(r"\b(?:hiện tại\s+|sau\s+\d+\s+ngày\s+)?hết\s+\[entity\]"),
+    re.compile(r"\b\[entity\][^.;:!?]{0,24}\b(?:không còn|đã hết|đã khỏi|đã hồi phục)\b"),
     re.compile(r"\btiền sử(?!\s+bệnh\s+hiện tại)\b[^.;!?]{0,90}\[entity\]"),
     re.compile(
         r"\b(?:đã\s+)?từng\s+(?:bị|mắc|có|dùng|sử dụng|"
@@ -150,6 +153,29 @@ NON_ASSERTION_CONTEXT = (
     re.compile(r"\bkhông\s+có\s+cơn\b[^.;:!?]{0,80}\bdùng\b[^.;:!?]{0,25}\[entity\]"),
     re.compile(r"\b(?:cơn đau thắt ngực|bệnh|chẩn đoán)\b[^.;:!?]{0,35}\bkhông\s+\[entity\]"),
     re.compile(r"\bkhông\s+do\s+\[entity\]"),
+    # A symptom that started before admission but belongs to the presenting
+    # episode is current, not historical.
+    re.compile(
+        r"\b(?:khoảng\s+|cách\s+|theo lời kể\s*,?\s*khoảng\s+)?"
+        r"\d+\s+(?:ngày|tuần|tháng)\s+trước\s+(?:khi\s+)?"
+        r"(?:vào|nhập)\s+viện\b[^.;:!?]{0,120}"
+        r"\b(?:xuất hiện|bắt đầu|khởi phát)\b[^.;:!?]{0,100}\[entity\]"
+    ),
+    re.compile(
+        r"\b(?:khoảng\s+|cách\s+|theo lời kể\s*,?\s*khoảng\s+)?"
+        r"\d+\s+(?:ngày|tuần|tháng)\s+trước\s+(?:khi\s+)?"
+        r"(?:vào|nhập)\s+viện\b[^.;:!?]{0,80}\[entity\]"
+        r"[^.;:!?]{0,80}\b(?:xuất hiện|trở nên|ngày càng|kéo dài)\b"
+    ),
+    re.compile(
+        r"\btiền sử\s+\d+\s+(?:ngày|tuần|tháng)\s+"
+        r"[^.;:!?]{0,30}\[entity\][^.;:!?]{0,35}"
+        r"\b(?:ngày càng|liên tục|kéo dài|nặng)\b"
+    ),
+    re.compile(
+        r"\[entity\][^.;:!?]{0,90}\b(?:bệnh|triệu chứng)\s+"
+        r"(?:khởi phát|bắt đầu)\s+cách đây\b"
+    ),
 )
 
 

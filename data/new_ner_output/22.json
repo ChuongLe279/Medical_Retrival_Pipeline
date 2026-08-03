@@ -54,21 +54,31 @@
     },
     "candidate": {
       "code": "315266",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "315266",
+          "confidence": 1.0
+        },
+        {
+          "code": "1100003",
+          "confidence": 0.582017
+        },
+        {
+          "code": "570070",
+          "confidence": 0.580514
+        }
+      ]
     }
   },
   {
-    "text": "cơn đau dữ",
+    "text": "cơn đau dữ dội",
     "type": "TRIỆU_CHỨNG",
     "position": [
       222,
-      232
+      236
     ],
-    "assertion_position": [
-      220,
-      230
-    ],
-    "sentence": "Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi [ENTITY] dội, thường 4 viên mỗi giờ.",
+    "sentence": "- Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi [ENTITY], thường 4 viên mỗi giờ",
     "assertion_result": {
       "tag": "isHistorical"
     },
@@ -112,7 +122,7 @@
     ],
     "sentence": "Tiền sử 2 ngày [ENTITY] ngày càng nặng.",
     "assertion_result": {
-      "tag": "isHistorical"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -121,17 +131,13 @@
     "candidate": null
   },
   {
-    "text": "đau bụng",
+    "text": "đau bụng liên tục",
     "type": "TRIỆU_CHỨNG",
     "position": [
       491,
-      499
+      508
     ],
-    "assertion_position": [
-      485,
-      493
-    ],
-    "sentence": "Tiền sử 2 tháng [ENTITY] liên tục.",
+    "sentence": "- Tiền sử 2 tháng [ENTITY]",
     "assertion_result": {
       "tag": "isHistorical"
     },
@@ -154,7 +160,7 @@
     ],
     "sentence": "Tiền sử 2 tháng [ENTITY] liên tục.",
     "assertion_result": {
-      "tag": "isHistorical"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -175,7 +181,7 @@
     ],
     "sentence": "2 ngày trước khi nhập viện, [ENTITY] trở nên tồi tệ hơn.",
     "assertion_result": {
-      "tag": "isHistorical"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -217,7 +223,21 @@
     },
     "candidate": {
       "code": "R7401",
-      "confidence": 0.797668
+      "confidence": 0.797668,
+      "ranked_candidates": [
+        {
+          "code": "R7401",
+          "confidence": 0.797668
+        },
+        {
+          "code": "R749",
+          "confidence": 0.595975
+        },
+        {
+          "code": "R748",
+          "confidence": 0.585243
+        }
+      ]
     }
   },
   {
@@ -247,27 +267,6 @@
     "sentence": "[ENTITY] ngày càng nặng.",
     "assertion_result": {
       "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đau bụng liên",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      491,
-      504
-    ],
-    "assertion_position": [
-      485,
-      498
-    ],
-    "sentence": "Tiền sử 2 tháng [ENTITY] tục.",
-    "assertion_result": {
-      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -318,40 +317,15 @@
     "candidate": null
   },
   {
-    "text": "khó thở khi",
+    "text": "khó thở khi gắng sức",
     "type": "TRIỆU_CHỨNG",
     "position": [
       851,
-      862
+      871
     ],
-    "assertion_position": [
-      839,
-      850
-    ],
-    "sentence": "[ENTITY] gắng sức.",
+    "sentence": "- [ENTITY]",
     "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "sức",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      845,
-      848
-    ],
-    "assertion_position": [
-      834,
-      837
-    ],
-    "sentence": "yếu [ENTITY].",
-    "assertion_result": {
-      "tag": null
+      "tag": "isUncertain"
     },
     "retriever": {
       "sapbert": {},
@@ -402,27 +376,6 @@
     "candidate": null
   },
   {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      226,
-      229
-    ],
-    "assertion_position": [
-      224,
-      227
-    ],
-    "sentence": "Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi cơn [ENTITY] dữ dội, thường 4 viên mỗi giờ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "Đau vùng gan",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -455,27 +408,6 @@
       1009
     ],
     "sentence": "Không có [ENTITY].",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1021,
-      1024
-    ],
-    "assertion_position": [
-      1006,
-      1009
-    ],
-    "sentence": "Không có buồn [ENTITY].",
     "assertion_result": {
       "tag": "isNegated"
     },
@@ -540,7 +472,21 @@
     },
     "candidate": {
       "code": "315266",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "315266",
+          "confidence": 1.0
+        },
+        {
+          "code": "1100003",
+          "confidence": 0.582017
+        },
+        {
+          "code": "570070",
+          "confidence": 0.580514
+        }
+      ]
     }
   },
   {
@@ -565,25 +511,51 @@
     "candidate": null
   },
   {
-    "text": "dị",
-    "type": "TRIỆU_CHỨNG",
+    "text": "dị ứng",
+    "type": "CHẨN_ĐOÁN",
     "position": [
       1652,
-      1654
+      1658
     ],
-    "assertion_position": [
-      1634,
-      1636
-    ],
-    "sentence": "Cả hai người đều không phải [ENTITY] ứng thời tiết hay thức ăn, nó có thể nổi lên mọi lúc.",
+    "sentence": "Câu hỏi từ người dùng : Dạ em có một người, hiện tại bạn ấy đang nổi những nét nhẹ nhàng nhẹ nhàng rất đến và khắp nơi, bạn em nổi quanh năm ạ. Những thuốc giảm đau nổi bật rất khó chịu và tư vấn, được biết bạn đã từng đi chữa trị và sử dụng rất nhiều thuốc nhưng không đỡ ạ. Mẹ của bạn cũng là người nên Yên tĩnh chắc chắn là dây truyền tải. Cả hai người đều không phải [ENTITY] thời tiết hay thức ăn, nó có thể nổi lên mọi lúc. Mọi người cho em hỏi là bệnh này là bệnh gì ạ và để lâu có bệnh nặng hay ảnh hưởng nghiêm trọng gì không ạ. Mọi người cho em xin ý kiến ​​​​​​​và có cách nào để giải quyết cho em không ạ. Em cảm ơn rất nhiều .",
     "assertion_result": {
       "tag": "isNegated"
     },
     "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
+      "sapbert": {
+        "Z889": 0.784828,
+        "Z888": 0.729561,
+        "T7840XA": 0.717406,
+        "Z0182": 0.715869,
+        "Z9109": 0.701436
+      },
+      "rapidfuzz": {
+        "Z881": 0.9,
+        "Z880": 0.9,
+        "K0855": 0.9
+      }
     },
-    "candidate": null
+    "candidate": {
+      "code": "Z889",
+      "confidence": 0.714635,
+      "ranked_candidates": [
+        {
+          "code": "Z889",
+          "confidence": 0.714635
+        },
+        {
+          "code": "Z888",
+          "confidence": 0.656605
+        },
+        {
+          "code": "T7840XA",
+          "confidence": 0.645665
+        }
+      ]
+    },
+    "eng_translation": [
+      "Allergy"
+    ]
   },
   {
     "text": "ast",
@@ -684,7 +656,21 @@
     },
     "candidate": {
       "code": "B189",
-      "confidence": 0.865579
+      "confidence": 0.865579,
+      "ranked_candidates": [
+        {
+          "code": "B189",
+          "confidence": 0.865579
+        },
+        {
+          "code": "B179",
+          "confidence": 0.785041
+        },
+        {
+          "code": "B0081",
+          "confidence": 0.69131
+        }
+      ]
     }
   },
   {
@@ -733,28 +719,6 @@
       2428,
       2432
     ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "gan",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      651,
-      654
-    ],
-    "assertion_position": [
-      643,
-      646
-    ],
-    "sentence": "Diễn biến trong viện: tăng men [ENTITY] bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}

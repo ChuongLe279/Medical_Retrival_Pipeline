@@ -1,62 +1,5 @@
 [
   {
-    "text": "̣",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      9,
-      10
-    ],
-    "assertion_position": [
-      9,
-      10
-    ],
-    "sentence": "Điều tri[ENTITY] phụ thuộc vào mức độ nặng và bệnh lý nền có liên quan.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ca",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      354,
-      356
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "u châ",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      398,
-      403
-    ],
-    "assertion_position": [
-      398,
-      403
-    ],
-    "sentence": "**************** thể hệ sau không gây buồn ngủ là lựa chọn hàng đầu sau đó đến **************** thể hệ 1, corticoid liều thấp cách ngày hoặc hàng ngày và giảm liề[ENTITY]̣m 2,5 – 5mg mỗi 2-3 tuần.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "loạn cảm xúc",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -120,38 +63,6 @@
     "candidate": null
   },
   {
-    "text": "clonidine",
-    "type": "THUỐC",
-    "position": [
-      754,
-      763
-    ],
-    "assertion_position": [
-      721,
-      730
-    ],
-    "sentence": "klonopin[ENTITY] (được kê đơn).",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "eng_translation": [
-      "clonidine"
-    ],
-    "retriever": {
-      "sapbert": {
-        "2599": 1.0
-      },
-      "rapidfuzz": {
-        "2599": 1.0,
-        "884198": 0.9
-      }
-    },
-    "candidate": {
-      "code": "2599",
-      "confidence": 1.0
-    }
-  },
-  {
     "text": "suboxone",
     "type": "THUỐC",
     "position": [
@@ -184,8 +95,43 @@
     },
     "candidate": {
       "code": "352990",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "352990",
+          "confidence": 1.0
+        },
+        {
+          "code": "7242",
+          "confidence": 0.44818
+        },
+        {
+          "code": "7243",
+          "confidence": 0.448162
+        }
+      ]
     }
+  },
+  {
+    "text": "ý nghĩ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1062,
+      1068
+    ],
+    "assertion_position": [
+      1004,
+      1010
+    ],
+    "sentence": "Lý do nhập viện:i ý định tự tử và [ENTITY] tự bắn vào đầu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "trầm cảm",
@@ -221,7 +167,21 @@
     },
     "candidate": {
       "code": "F32A",
-      "confidence": 0.806139
+      "confidence": 0.806139,
+      "ranked_candidates": [
+        {
+          "code": "F32A",
+          "confidence": 0.806139
+        },
+        {
+          "code": "F329",
+          "confidence": 0.726817
+        },
+        {
+          "code": "F39",
+          "confidence": 0.656369
+        }
+      ]
     }
   },
   {
@@ -278,7 +238,21 @@
     },
     "candidate": {
       "code": "352990",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "352990",
+          "confidence": 1.0
+        },
+        {
+          "code": "7242",
+          "confidence": 0.44818
+        },
+        {
+          "code": "7243",
+          "confidence": 0.448162
+        }
+      ]
     }
   },
   {
@@ -314,50 +288,22 @@
     },
     "candidate": {
       "code": "352990",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "352990",
+          "confidence": 1.0
+        },
+        {
+          "code": "7242",
+          "confidence": 0.44818
+        },
+        {
+          "code": "7243",
+          "confidence": 0.448162
+        }
+      ]
     }
-  },
-  {
-    "text": "ý nghĩ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1062,
-      1068
-    ],
-    "assertion_position": [
-      1004,
-      1010
-    ],
-    "sentence": "Lý do nhập viện:i ý định tự tử và [ENTITY] tự bắn vào đầu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "lo âu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      639,
-      644
-    ],
-    "assertion_position": [
-      619,
-      624
-    ],
-    "sentence": "rối loạn [ENTITY].",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "hoảng sợ",

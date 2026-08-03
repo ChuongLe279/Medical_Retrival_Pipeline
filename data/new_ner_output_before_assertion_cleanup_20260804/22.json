@@ -1,0 +1,671 @@
+[
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      52,
+      60
+    ],
+    "assertion_position": [
+      50,
+      58
+    ],
+    "sentence": "Các tập tương tự trước đây: Từng bị [ENTITY] tương tự trong quá khứ, luôn thuyên giảm khi dùng thuốc.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      171,
+      190
+    ],
+    "assertion_position": [
+      169,
+      188
+    ],
+    "sentence": "Tự điều trị bằng liều cao [ENTITY], taking 10 pills at a time khi cơn đau dữ dội, thường 4 viên mỗi giờ.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "acetaminophen 500 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "315266": 1.0,
+        "1100003": 0.970029,
+        "570070": 0.967523,
+        "565623": 0.964835,
+        "570054": 0.962989
+      },
+      "rapidfuzz": {
+        "315266": 1.0,
+        "315259": 0.95,
+        "315264": 0.95
+      }
+    },
+    "candidate": {
+      "code": "315266",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cơn đau dữ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      222,
+      232
+    ],
+    "assertion_position": [
+      220,
+      230
+    ],
+    "sentence": "Tự điều trị bằng liều cao acetaminophen 500mg, taking 10 pills at a time khi [ENTITY] dội, thường 4 viên mỗi giờ.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      376,
+      384
+    ],
+    "assertion_position": [
+      371,
+      379
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      449,
+      457
+    ],
+    "assertion_position": [
+      444,
+      452
+    ],
+    "sentence": "Tiền sử 2 ngày [ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng liên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      491,
+      504
+    ],
+    "assertion_position": [
+      485,
+      498
+    ],
+    "sentence": "Tiền sử 2 tháng [ENTITY] tục.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      542,
+      550
+    ],
+    "assertion_position": [
+      536,
+      544
+    ],
+    "sentence": "Tiền sử 2 tháng [ENTITY] liên tục.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      590,
+      598
+    ],
+    "assertion_position": [
+      583,
+      591
+    ],
+    "sentence": "2 ngày trước khi nhập viện, [ENTITY] trở nên tồi tệ hơn.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "men gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      647,
+      654
+    ],
+    "assertion_position": [
+      639,
+      646
+    ],
+    "sentence": "Diễn biến trong viện: tăng [ENTITY] bắt đầu có xu hướng giảm mặc dù tổng bilirubin bắt đầu tăng lên đạt đỉnh 6.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Elevated liver enzymes"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R7401": 0.854283,
+        "R749": 0.662194,
+        "R748": 0.65027,
+        "D731": 0.602514,
+        "R830": 0.589791
+      },
+      "rapidfuzz": {
+        "D376": 0.855,
+        "Q4470": 0.855,
+        "P7884": 0.855
+      }
+    },
+    "candidate": {
+      "code": "R7401",
+      "confidence": 0.797668
+    }
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      692,
+      701
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      775,
+      783
+    ],
+    "assertion_position": [
+      767,
+      775
+    ],
+    "sentence": "[ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      821,
+      838
+    ],
+    "assertion_position": [
+      811,
+      828
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      841,
+      848
+    ],
+    "assertion_position": [
+      830,
+      837
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở khi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      851,
+      862
+    ],
+    "assertion_position": [
+      839,
+      850
+    ],
+    "sentence": "[ENTITY] gắng sức.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngứa toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      874,
+      888
+    ],
+    "assertion_position": [
+      861,
+      875
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tiểu ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      899,
+      910
+    ],
+    "assertion_position": [
+      885,
+      896
+    ],
+    "sentence": "Vài lần [ENTITY] không đau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Đau vùng gan",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      952,
+      964
+    ],
+    "assertion_position": [
+      938,
+      950
+    ],
+    "sentence": "Vị trí: [ENTITY] phải (RUQ) và thượng vị lan ra sau lưng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1016,
+      1024
+    ],
+    "assertion_position": [
+      1001,
+      1009
+    ],
+    "sentence": "Không có [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phân có máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1090,
+      1101
+    ],
+    "assertion_position": [
+      1072,
+      1083
+    ],
+    "sentence": "Không có [ENTITY], đen hoặc nhựa đường.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "position": [
+      1183,
+      1202
+    ],
+    "assertion_position": [
+      1165,
+      1184
+    ],
+    "sentence": "Tự điều trị bằng liều cao [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "acetaminophen 500 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "315266": 1.0,
+        "1100003": 0.970029,
+        "570070": 0.967523,
+        "565623": 0.964835,
+        "570054": 0.962989
+      },
+      "rapidfuzz": {
+        "315266": 1.0,
+        "315259": 0.95,
+        "315264": 0.95
+      }
+    },
+    "candidate": {
+      "code": "315266",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nhẹ nhàng nhẹ nhàng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1360,
+      1379
+    ],
+    "assertion_position": [
+      1342,
+      1361
+    ],
+    "sentence": "Câu hỏi từ người dùng : Dạ em có một người, hiện tại bạn ấy đang nổi những nét [ENTITY] rất đến và khắp nơi, bạn em nổi quanh năm ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1652,
+      1654
+    ],
+    "assertion_position": [
+      1634,
+      1636
+    ],
+    "sentence": "Cả hai người đều không phải [ENTITY] ứng thời tiết hay thức ăn, nó có thể nổi lên mọi lúc.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1967,
+      1970
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1971,
+      1974
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1977,
+      1980
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1981,
+      1984
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1997,
+      2006
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm gan virus",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2082,
+      2096
+    ],
+    "assertion_position": [
+      2054,
+      2068
+    ],
+    "sentence": "bảng xét nghiệm [ENTITY] là âm tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Viral hepatitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B179": 0.861242,
+        "B189": 0.795088,
+        "B0081": 0.768122,
+        "K752": 0.73457,
+        "K739": 0.728425
+      },
+      "rapidfuzz": {
+        "B189": 0.9,
+        "B188": 0.9,
+        "B1910": 0.9
+      }
+    },
+    "candidate": {
+      "code": "B189",
+      "confidence": 0.865579
+    }
+  },
+  {
+    "text": "ferritin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2110,
+      2118
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2243,
+      2250
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2305,
+      2309
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2428,
+      2432
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2484,
+      2493
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

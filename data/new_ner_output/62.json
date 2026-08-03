@@ -3,14 +3,14 @@
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      133,
-      135
+      244,
+      246
     ],
     "assertion_position": [
-      133,
-      135
+      240,
+      242
     ],
-    "sentence": "Để hạn chế sự tiến triển của các hạt tophi thì cần tuân thủ điều trị để hạ lượng acid uric máu, bạn cần đưa ông bạn đến khám chuyên k[ENTITY]a cơ xương khớp để được tư vấn và có lộ trình điều trị cụ thể.",
+    "sentence": "Lý do nhập viện: [ENTITY], thiếu oxy.",
     "assertion_result": {
       "tag": null
     },
@@ -45,16 +45,16 @@
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      244,
-      246
+      353,
+      355
     ],
     "assertion_position": [
-      240,
-      242
+      338,
+      340
     ],
-    "sentence": "Lý do nhập viện: [ENTITY], thiếu oxy.",
+    "sentence": "[ENTITY].",
     "assertion_result": {
-      "tag": null
+      "tag": "isUncertain"
     },
     "retriever": {
       "sapbert": {},
@@ -231,40 +231,15 @@
     "candidate": null
   },
   {
-    "text": "đau buốt khi",
+    "text": "đau buốt khi đi tiểu",
     "type": "TRIỆU_CHỨNG",
     "position": [
       562,
-      574
+      582
     ],
-    "assertion_position": [
-      512,
-      524
-    ],
-    "sentence": "đi tiểu nhiều lần vào ban đêm, không có [ENTITY] đi tiểu.",
+    "sentence": "- đi tiểu nhiều lần vào ban đêm, không có [ENTITY]",
     "assertion_result": {
       "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "tiểu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      525,
-      529
-    ],
-    "assertion_position": [
-      475,
-      479
-    ],
-    "sentence": "đi [ENTITY] nhiều lần vào ban đêm, không có đau buốt khi đi tiểu.",
-    "assertion_result": {
-      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -305,48 +280,6 @@
       601
     ],
     "sentence": "khó thở khi gắng sức bao gồm cảm giác [ENTITY] sau khi đi bộ vài khối.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      353,
-      355
-    ],
-    "assertion_position": [
-      338,
-      340
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "bã",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      700,
-      702
-    ],
-    "assertion_position": [
-      637,
-      639
-    ],
-    "sentence": "ho đặc như [ENTITY] theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì.",
     "assertion_result": {
       "tag": null
     },
@@ -462,27 +395,6 @@
     "candidate": null
   },
   {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      881,
-      884
-    ],
-    "assertion_position": [
-      798,
-      801
-    ],
-    "sentence": "Phủ nhận buồn [ENTITY]/nôn.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "đổ mồ hôi đêm",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -579,7 +491,21 @@
     },
     "candidate": {
       "code": "Q334",
-      "confidence": 0.901691
+      "confidence": 0.901691,
+      "ranked_candidates": [
+        {
+          "code": "Q334",
+          "confidence": 0.901691
+        },
+        {
+          "code": "J479",
+          "confidence": 0.887248
+        },
+        {
+          "code": "J471",
+          "confidence": 0.717937
+        }
+      ]
     }
   },
   {
@@ -613,7 +539,21 @@
     },
     "candidate": {
       "code": "18631",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "18631",
+          "confidence": 1.0
+        },
+        {
+          "code": "672606",
+          "confidence": 0.572571
+        },
+        {
+          "code": "1155012",
+          "confidence": 0.38
+        }
+      ]
     }
   },
   {
@@ -650,7 +590,21 @@
     },
     "candidate": {
       "code": "202433",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "202433",
+          "confidence": 1.0
+        },
+        {
+          "code": "352523",
+          "confidence": 0.536674
+        },
+        {
+          "code": "220582",
+          "confidence": 0.533845
+        }
+      ]
     }
   },
   {
@@ -687,7 +641,21 @@
     },
     "candidate": {
       "code": "352777",
-      "confidence": 0.924624
+      "confidence": 0.924624,
+      "ranked_candidates": [
+        {
+          "code": "352777",
+          "confidence": 0.924624
+        },
+        {
+          "code": "2388175",
+          "confidence": 0.616219
+        },
+        {
+          "code": "669103",
+          "confidence": 0.511019
+        }
+      ]
     }
   },
   {
@@ -815,7 +783,21 @@
     },
     "candidate": {
       "code": "J181",
-      "confidence": 0.599956
+      "confidence": 0.599956,
+      "ranked_candidates": [
+        {
+          "code": "J181",
+          "confidence": 0.599956
+        },
+        {
+          "code": "B0681",
+          "confidence": 0.594767
+        },
+        {
+          "code": "J151",
+          "confidence": 0.570027
+        }
+      ]
     }
   }
 ]

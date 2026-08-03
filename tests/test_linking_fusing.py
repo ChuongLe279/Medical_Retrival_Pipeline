@@ -31,7 +31,12 @@ def test_unique_exact_rapidfuzz_match_can_override_sapbert():
 
     fuse_entity_result(record)
 
-    assert record["candidate"] == {"code": "EXACT", "confidence": 1.0}
+    assert record["candidate"]["code"] == "EXACT"
+    assert record["candidate"]["confidence"] == 1.0
+    assert record["candidate"]["ranked_candidates"][0] == {
+        "code": "EXACT",
+        "confidence": 1.0,
+    }
 
 
 def test_tied_exact_rapidfuzz_results_do_not_override_sapbert():
@@ -85,3 +90,17 @@ def test_empty_or_unsupported_entity_has_no_candidate():
 
     assert empty["candidate"] is None
     assert unsupported["candidate"] is None
+
+
+def test_fusion_keeps_three_ranked_candidates():
+    record = entity(
+        "CHẨN_ĐOÁN",
+        {"A": 0.90, "B": 0.80, "C": 0.70, "D": 0.60},
+        {},
+    )
+
+    fuse_entity_result(record)
+
+    assert [
+        item["code"] for item in record["candidate"]["ranked_candidates"]
+    ] == ["A", "B", "C"]

@@ -63,49 +63,6 @@
     "candidate": null
   },
   {
-    "text": "ngứa",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      102,
-      106
-    ],
-    "assertion_position": [
-      100,
-      104
-    ],
-    "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và [ENTITY] khắp người, bạn em bị nổi quanh năm luôn ạ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "dị",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      357,
-      359
-    ],
-    "assertion_position": [
-      355,
-      357
-    ],
-    "sentence": "Cả hai người đều không phải [ENTITY] ứng do thời tiết hay thức ăn, nó có thể nổi lên mọi lúc.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "tylenol",
     "type": "THUỐC",
     "position": [
@@ -139,8 +96,43 @@
     },
     "candidate": {
       "code": "202433",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "202433",
+          "confidence": 1.0
+        },
+        {
+          "code": "352523",
+          "confidence": 0.536674
+        },
+        {
+          "code": "220582",
+          "confidence": 0.533845
+        }
+      ]
     }
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      696,
+      699
+    ],
+    "assertion_position": [
+      682,
+      685
+    ],
+    "sentence": "Bác sĩ PCP khuyên dùng tylenol cho [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "tylenol",
@@ -176,29 +168,22 @@
     },
     "candidate": {
       "code": "202433",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "202433",
+          "confidence": 1.0
+        },
+        {
+          "code": "352523",
+          "confidence": 0.536674
+        },
+        {
+          "code": "220582",
+          "confidence": 0.533845
+        }
+      ]
     }
-  },
-  {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      696,
-      699
-    ],
-    "assertion_position": [
-      682,
-      685
-    ],
-    "sentence": "Bác sĩ PCP khuyên dùng tylenol cho [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "đau bụng",
@@ -339,7 +324,21 @@
     },
     "candidate": {
       "code": "202433",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "202433",
+          "confidence": 1.0
+        },
+        {
+          "code": "352523",
+          "confidence": 0.536674
+        },
+        {
+          "code": "220582",
+          "confidence": 0.533845
+        }
+      ]
     }
   },
   {
@@ -397,86 +396,22 @@
     },
     "candidate": {
       "code": "202433",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "202433",
+          "confidence": 1.0
+        },
+        {
+          "code": "352523",
+          "confidence": 0.536674
+        },
+        {
+          "code": "220582",
+          "confidence": 0.533845
+        }
+      ]
     }
-  },
-  {
-    "text": "Ca",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1417,
-      1419
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "sa",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1444,
-      1446
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Ca",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1538,
-      1540
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ca",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1592,
-      1594
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "sa",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1641,
-      1643
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ca",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1753,
-      1755
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "MÀY ĐAY VÔ CĂN",
@@ -512,7 +447,21 @@
     },
     "candidate": {
       "code": "L501",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "L501",
+          "confidence": 1.0
+        },
+        {
+          "code": "L500",
+          "confidence": 0.780682
+        },
+        {
+          "code": "L509",
+          "confidence": 0.704697
+        }
+      ]
     }
   },
   {
@@ -549,130 +498,21 @@
     },
     "candidate": {
       "code": "L501",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "L501",
+          "confidence": 1.0
+        },
+        {
+          "code": "L500",
+          "confidence": 0.780682
+        },
+        {
+          "code": "L509",
+          "confidence": 0.704697
+        }
+      ]
     }
-  },
-  {
-    "text": "u trị phu",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2065,
-      2075
-    ],
-    "assertion_position": [
-      1992,
-      2002
-    ],
-    "sentence": "Điề[ENTITY]̣ thuộc vào mức độ nặng và bệnh lý nền có liên quan.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "trị kiê",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2183,
-      2191
-    ],
-    "assertion_position": [
-      2110,
-      2118
-    ],
-    "sentence": "Cần lưu ý cân bằng giữa hiệu quả điều [ENTITY]̉m soát triệu chứng và những tác dụng gây độc của liệu pháp điều trị.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "chư",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2207,
-      2210
-    ],
-    "assertion_position": [
-      2134,
-      2137
-    ],
-    "sentence": "Cần lưu ý cân bằng giữa hiệu quả điều trị kiểm soát triệu [ENTITY]́ng và những tác dụng gây độc của liệu pháp điều trị.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "trị",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2067,
-      2071
-    ],
-    "assertion_position": [
-      1994,
-      1998
-    ],
-    "sentence": "Điều [ENTITY] phụ thuộc vào mức độ nặng và bệnh lý nền có liên quan.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ca",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      2415,
-      2417
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "chậ",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2461,
-      2465
-    ],
-    "assertion_position": [
-      2388,
-      2392
-    ],
-    "sentence": "**************** thể hệ sau không gây buồn ngủ là lựa chọn hàng đầu sau đó đến **************** thể hệ 1, corticoid liều thấp cách ngày hoặc hàng ngày và giảm liều [ENTITY]m 2,5 – 5mg mỗi 2-3 tuần.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   }
 ]

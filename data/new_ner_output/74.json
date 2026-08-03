@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "K5190",
-      "confidence": 0.899402
+      "confidence": 0.899402,
+      "ranked_candidates": [
+        {
+          "code": "K5190",
+          "confidence": 0.899402
+        },
+        {
+          "code": "K523",
+          "confidence": 0.737573
+        },
+        {
+          "code": "K51919",
+          "confidence": 0.728389
+        }
+      ]
     }
   },
   {
@@ -70,7 +84,21 @@
     },
     "candidate": {
       "code": "K709",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "K709",
+          "confidence": 1.0
+        },
+        {
+          "code": "K700",
+          "confidence": 0.821849
+        },
+        {
+          "code": "K702",
+          "confidence": 0.753405
+        }
+      ]
     }
   },
   {
@@ -107,21 +135,35 @@
     },
     "candidate": {
       "code": "B356",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "B356",
+          "confidence": 1.0
+        },
+        {
+          "code": "B354",
+          "confidence": 0.839999
+        },
+        {
+          "code": "B351",
+          "confidence": 0.724209
+        }
+      ]
     }
   },
   {
-    "text": "ăn uống",
+    "text": "ăn uống kém",
     "type": "TRIỆU_CHỨNG",
     "position": [
       634,
-      641
+      645
     ],
     "assertion_position": [
       598,
-      605
+      609
     ],
-    "sentence": "[ENTITY] kém do buồn nôn.",
+    "sentence": "[ENTITY] do buồn nôn.",
     "assertion_result": {
       "tag": null
     },
@@ -208,27 +250,6 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      654,
-      657
-    ],
-    "assertion_position": [
-      618,
-      621
-    ],
-    "sentence": "ăn uống kém do buồn [ENTITY].",
-    "assertion_result": {
-      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -405,27 +426,6 @@
     "candidate": null
   },
   {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      750,
-      753
-    ],
-    "assertion_position": [
-      704,
-      707
-    ],
-    "sentence": "buồn [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -552,17 +552,13 @@
     "candidate": null
   },
   {
-    "text": "niệu",
+    "text": "thiểu niệu",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1338,
+      1332,
       1342
     ],
-    "assertion_position": [
-      1227,
-      1231
-    ],
-    "sentence": "Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt thiểu [ENTITY], chảy dịch từ lỗ dò tăng đáng kể.",
+    "sentence": "- Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt  [ENTITY], chảy dịch từ lỗ dò tăng đáng kể",
     "assertion_result": {
       "tag": null
     },
@@ -584,27 +580,6 @@
       1242
     ],
     "sentence": "Triệu chứng liên quan: chủ quan sốt và run rẩy, mất cảm giác ngon miệng/chán ăn, suy nhược, toàn trạng suy kiệt thiểu niệu, [ENTITY] từ lỗ dò tăng đáng kể.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ăn uống kém",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      634,
-      645
-    ],
-    "assertion_position": [
-      598,
-      609
-    ],
-    "sentence": "[ENTITY] do buồn nôn.",
     "assertion_result": {
       "tag": null
     },

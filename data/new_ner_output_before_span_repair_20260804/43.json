@@ -1,0 +1,544 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      88
+    ],
+    "assertion_position": [
+      45,
+      76
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Chronic myeloid leukemia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D471": 0.779444,
+        "C9292": 0.650754,
+        "C9211": 0.63722,
+        "C9212": 0.623018,
+        "C9291": 0.614959
+      },
+      "rapidfuzz": {
+        "C9210": 0.9,
+        "C9211": 0.9,
+        "C9212": 0.9
+      }
+    },
+    "candidate": {
+      "code": "D471",
+      "confidence": 0.720803
+    }
+  },
+  {
+    "text": "tăng cholesterol máu đơn thuần",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      95,
+      125
+    ],
+    "assertion_position": [
+      78,
+      108
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Pure hypercholesterolemia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E7800": 0.982499,
+        "E78019": 0.848191,
+        "E782": 0.799193,
+        "E78011": 0.763405,
+        "E78010": 0.760003
+      },
+      "rapidfuzz": {
+        "E7800": 0.95,
+        "D6101": 0.855,
+        "D609": 0.855
+      }
+    },
+    "candidate": {
+      "code": "E7800",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      132,
+      145
+    ],
+    "assertion_position": [
+      110,
+      123
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.689331,
+        "I150": 0.684921,
+        "I169": 0.681309
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.734463
+    }
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      190,
+      197
+    ],
+    "assertion_position": [
+      160,
+      167
+    ],
+    "sentence": "[ENTITY] (ngừng uống cách nhập viện 5 ngày).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Gleevec"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282386": 1.0,
+        "1997267": 0.813729,
+        "284924": 0.792983,
+        "282388": 0.783785
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "404588": 0.9,
+        "404589": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282386",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "position": [
+      239,
+      250
+    ],
+    "assertion_position": [
+      204,
+      215
+    ],
+    "sentence": "[ENTITY] (ngừng uống.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "allopurinol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "519": 1.0,
+        "7820": 0.855735
+      },
+      "rapidfuzz": {
+        "519": 1.0,
+        "1154942": 0.95,
+        "813995": 0.9
+      }
+    },
+    "candidate": {
+      "code": "519",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      363,
+      370
+    ],
+    "assertion_position": [
+      317,
+      324
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo giácxuất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      451,
+      462
+    ],
+    "assertion_position": [
+      394,
+      405
+    ],
+    "sentence": "[ENTITY] hiện khoảng một tháng trước.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      515,
+      542
+    ],
+    "assertion_position": [
+      452,
+      479
+    ],
+    "sentence": "Đã được điều trị [ENTITY], vị trí không xác định.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Urinary tract infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.874628
+    }
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      664,
+      691
+    ],
+    "assertion_position": [
+      589,
+      616
+    ],
+    "sentence": "Không có thay đổi đáng kể về triệu chứng mặc dù đã điều trị [ENTITY], vị trí không xác định và ngừng thuốc giảm đau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Urinary tract infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.874628
+    }
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      751,
+      758
+    ],
+    "assertion_position": [
+      670,
+      677
+    ],
+    "sentence": "Liều [ENTITY] đã ngừng cách nhập viện 5 ngày.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Gleevec"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282386": 1.0,
+        "1997267": 0.813729,
+        "284924": 0.792983,
+        "282388": 0.783785
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "404588": 0.9,
+        "404589": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282386",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "position": [
+      797,
+      808
+    ],
+    "assertion_position": [
+      710,
+      721
+    ],
+    "sentence": "[ENTITY] đã ngừng cách nhập viện 5 ngày.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "allopurinol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "519": 1.0,
+        "7820": 0.855735
+      },
+      "rapidfuzz": {
+        "519": 1.0,
+        "1154942": 0.95,
+        "813995": 0.9
+      }
+    },
+    "candidate": {
+      "code": "519",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      847,
+      854
+    ],
+    "assertion_position": [
+      754,
+      761
+    ],
+    "sentence": "[ENTITY] xảy ra khoảng mỗi đêm lúc 2 giờ sáng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      919,
+      926
+    ],
+    "assertion_position": [
+      822,
+      829
+    ],
+    "sentence": "Triệu chứng hiện tại: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tưởng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1137,
+      1142
+    ],
+    "assertion_position": [
+      1037,
+      1042
+    ],
+    "sentence": "Bệnh nhân thường hoang [ENTITY]/lo sợ rằng họ sẽ chạm vào da của mình.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đi cầu phân sống",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1252,
+      1268
+    ],
+    "assertion_position": [
+      1148,
+      1164
+    ],
+    "sentence": "Chào bạn, không biết là tình trạng [ENTITY] của bé đã diễn ra lâu chưa?",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đi cầu phân sống",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1396,
+      1412
+    ],
+    "assertion_position": [
+      1292,
+      1308
+    ],
+    "sentence": "Nếu từ khi chuyển sang bú sữa công thức, bé có dấu hiệu [ENTITY], có thể bé không hấp thu được một số protein trong loại sữa này.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      1743,
+      1750
+    ],
+    "assertion_position": [
+      1636,
+      1643
+    ],
+    "sentence": "- Liều [ENTITY] đã ngừng cách nhập viện 5 ngày.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Gleevec"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282386": 1.0,
+        "1997267": 0.813729,
+        "284924": 0.792983,
+        "282388": 0.783785
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "404588": 0.9,
+        "404589": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282386",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "position": [
+      1788,
+      1799
+    ],
+    "assertion_position": [
+      1676,
+      1687
+    ],
+    "sentence": "[ENTITY] đã ngừng cách nhập viện 5 ngày.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "allopurinol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "519": 1.0,
+        "7820": 0.855735
+      },
+      "rapidfuzz": {
+        "519": 1.0,
+        "1154942": 0.95,
+        "813995": 0.9
+      }
+    },
+    "candidate": {
+      "code": "519",
+      "confidence": 1.0
+    }
+  }
+]

@@ -24,100 +24,14 @@
     "text": "rụng tóc",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      35,
-      43
-    ],
-    "assertion_position": [
-      34,
-      42
-    ],
-    "sentence": "Em bị bệnh [ENTITY] từng mảng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "rụng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      35,
-      39
-    ],
-    "assertion_position": [
-      34,
-      38
-    ],
-    "sentence": "Em bị bệnh [ENTITY] tóc từng mảng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "tóc",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      40,
-      43
-    ],
-    "assertion_position": [
-      39,
-      42
-    ],
-    "sentence": "Em bị bệnh rụng [ENTITY] từng mảng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "rụng",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
       252,
-      256
-    ],
-    "assertion_position": [
-      249,
-      253
-    ],
-    "sentence": "Bạn đang có vấn đề về [ENTITY] tóc.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "tóc",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      257,
       260
     ],
     "assertion_position": [
-      254,
+      249,
       257
     ],
-    "sentence": "Bạn đang có vấn đề về rụng [ENTITY].",
+    "sentence": "Bạn đang có vấn đề về [ENTITY].",
     "assertion_result": {
       "tag": null
     },
@@ -131,14 +45,35 @@
     "text": "rụng tóc",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      252,
-      260
+      404,
+      412
     ],
     "assertion_position": [
-      249,
-      257
+      394,
+      402
     ],
-    "sentence": "Bạn đang có vấn đề về [ENTITY].",
+    "sentence": "Tiêm ************** nội thương tổn được chỉ định trong [ENTITY] từng vùng khi diện tích thương tổn dưới 50% diện tích da đầu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "rụng tóc",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      713,
+      721
+    ],
+    "assertion_position": [
+      703,
+      711
+    ],
+    "sentence": "Đối với [ENTITY] toàn bộ hoặc rụng tóc toàn thể khó điều trị có thể sử dụng 2,5g ********************e có bao phim che phủ 6 ngày/tuần trong 6 tháng.",
     "assertion_result": {
       "tag": null
     },
@@ -195,50 +130,22 @@
     },
     "candidate": {
       "code": "I256",
-      "confidence": 0.876778
+      "confidence": 0.876778,
+      "ranked_candidates": [
+        {
+          "code": "I256",
+          "confidence": 0.876778
+        },
+        {
+          "code": "I255",
+          "confidence": 0.749991
+        },
+        {
+          "code": "I6782",
+          "confidence": 0.685923
+        }
+      ]
     }
-  },
-  {
-    "text": "rụng tóc",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      404,
-      412
-    ],
-    "assertion_position": [
-      394,
-      402
-    ],
-    "sentence": "Tiêm ************** nội thương tổn được chỉ định trong [ENTITY] từng vùng khi diện tích thương tổn dưới 50% diện tích da đầu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "rụng tóc",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      713,
-      721
-    ],
-    "assertion_position": [
-      703,
-      711
-    ],
-    "sentence": "Đối với [ENTITY] toàn bộ hoặc rụng tóc toàn thể khó điều trị có thể sử dụng 2,5g ********************e có bao phim che phủ 6 ngày/tuần trong 6 tháng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "viêm da tiếp xúc",
@@ -274,7 +181,21 @@
     },
     "candidate": {
       "code": "L259",
-      "confidence": 0.873735
+      "confidence": 0.873735,
+      "ranked_candidates": [
+        {
+          "code": "L259",
+          "confidence": 0.873735
+        },
+        {
+          "code": "L239",
+          "confidence": 0.703422
+        },
+        {
+          "code": "L249",
+          "confidence": 0.686218
+        }
+      ]
     }
   },
   {

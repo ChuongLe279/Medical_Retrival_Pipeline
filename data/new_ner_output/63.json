@@ -33,21 +33,22 @@
     },
     "candidate": {
       "code": "D471",
-      "confidence": 0.720803
+      "confidence": 0.720803,
+      "ranked_candidates": [
+        {
+          "code": "D471",
+          "confidence": 0.720803
+        },
+        {
+          "code": "C9211",
+          "confidence": 0.663498
+        },
+        {
+          "code": "C9212",
+          "confidence": 0.650716
+        }
+      ]
     }
-  },
-  {
-    "text": "bạch cầu",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      62,
-      70
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "tăng cholesterol máu đơn",
@@ -83,34 +84,22 @@
     },
     "candidate": {
       "code": "E78019",
-      "confidence": 0.84833
+      "confidence": 0.84833,
+      "ranked_candidates": [
+        {
+          "code": "E78019",
+          "confidence": 0.84833
+        },
+        {
+          "code": "E785",
+          "confidence": 0.769399
+        },
+        {
+          "code": "E7800",
+          "confidence": 0.76472
+        }
+      ]
     }
-  },
-  {
-    "text": "cholesterol",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      100,
-      111
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "k",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      21,
-      22
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "mẩn ngứa",
@@ -166,7 +155,21 @@
     },
     "candidate": {
       "code": "282386",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "282386",
+          "confidence": 1.0
+        },
+        {
+          "code": "1997267",
+          "confidence": 0.488237
+        },
+        {
+          "code": "284924",
+          "confidence": 0.47579
+        }
+      ]
     }
   },
   {
@@ -200,7 +203,21 @@
     },
     "candidate": {
       "code": "519",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "519",
+          "confidence": 1.0
+        },
+        {
+          "code": "7820",
+          "confidence": 0.513441
+        },
+        {
+          "code": "1154942",
+          "confidence": 0.38
+        }
+      ]
     }
   },
   {
@@ -279,7 +296,21 @@
     },
     "candidate": {
       "code": "N390",
-      "confidence": 0.874628
+      "confidence": 0.874628,
+      "ranked_candidates": [
+        {
+          "code": "N390",
+          "confidence": 0.874628
+        },
+        {
+          "code": "P393",
+          "confidence": 0.75672
+        },
+        {
+          "code": "R8281",
+          "confidence": 0.65374
+        }
+      ]
     }
   },
   {
@@ -316,7 +347,21 @@
     },
     "candidate": {
       "code": "N390",
-      "confidence": 0.874628
+      "confidence": 0.874628,
+      "ranked_candidates": [
+        {
+          "code": "N390",
+          "confidence": 0.874628
+        },
+        {
+          "code": "P393",
+          "confidence": 0.75672
+        },
+        {
+          "code": "R8281",
+          "confidence": 0.65374
+        }
+      ]
     }
   },
   {
@@ -352,7 +397,21 @@
     },
     "candidate": {
       "code": "282386",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "282386",
+          "confidence": 1.0
+        },
+        {
+          "code": "1997267",
+          "confidence": 0.488237
+        },
+        {
+          "code": "284924",
+          "confidence": 0.47579
+        }
+      ]
     }
   },
   {
@@ -386,29 +445,22 @@
     },
     "candidate": {
       "code": "519",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "519",
+          "confidence": 1.0
+        },
+        {
+          "code": "7820",
+          "confidence": 0.513441
+        },
+        {
+          "code": "1154942",
+          "confidence": 0.38
+        }
+      ]
     }
-  },
-  {
-    "text": "ảo giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      629,
-      636
-    ],
-    "assertion_position": [
-      580,
-      587
-    ],
-    "sentence": "[ENTITY]xuất hiện khoảng một tháng trước.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "ảo giác",
@@ -443,6 +495,27 @@
       1015
     ],
     "sentence": "Triệu chứng hiện tại: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1254,
+      1261
+    ],
+    "assertion_position": [
+      1162,
+      1169
+    ],
+    "sentence": "[ENTITY] không mang tính chất ra lệnh.",
     "assertion_result": {
       "tag": null
     },
@@ -507,7 +580,21 @@
     },
     "candidate": {
       "code": "N390",
-      "confidence": 0.874628
+      "confidence": 0.874628,
+      "ranked_candidates": [
+        {
+          "code": "N390",
+          "confidence": 0.874628
+        },
+        {
+          "code": "P393",
+          "confidence": 0.75672
+        },
+        {
+          "code": "R8281",
+          "confidence": 0.65374
+        }
+      ]
     }
   },
   {
@@ -543,7 +630,21 @@
     },
     "candidate": {
       "code": "282386",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "282386",
+          "confidence": 1.0
+        },
+        {
+          "code": "1997267",
+          "confidence": 0.488237
+        },
+        {
+          "code": "284924",
+          "confidence": 0.47579
+        }
+      ]
     }
   },
   {
@@ -577,28 +678,21 @@
     },
     "candidate": {
       "code": "519",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "519",
+          "confidence": 1.0
+        },
+        {
+          "code": "7820",
+          "confidence": 0.513441
+        },
+        {
+          "code": "1154942",
+          "confidence": 0.38
+        }
+      ]
     }
-  },
-  {
-    "text": "Ảo giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1254,
-      1261
-    ],
-    "assertion_position": [
-      1162,
-      1169
-    ],
-    "sentence": "[ENTITY] không mang tính chất ra lệnh.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   }
 ]

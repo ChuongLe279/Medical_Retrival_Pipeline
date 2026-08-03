@@ -1,0 +1,591 @@
+[
+  {
+    "text": "mề đay rất to",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      85,
+      98
+    ],
+    "assertion_position": [
+      83,
+      96
+    ],
+    "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu [ENTITY] và ngứa khắp người, bạn em bị nổi quanh năm luôn ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngứa khắp người",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      102,
+      117
+    ],
+    "assertion_position": [
+      100,
+      115
+    ],
+    "sentence": "Dạ em có một người bạn, hiện tại bạn ấy đang bị nổi các dấu mề đay rất to và [ENTITY], bạn em bị nổi quanh năm luôn ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "dấu mề đay nổi rất khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      157,
+      184
+    ],
+    "assertion_position": [
+      155,
+      182
+    ],
+    "sentence": "Những [ENTITY] và ngứa, được biết bạn em có từng đi chữa trị và sử dụng rất nhiều thuốc nhưng không đỡ ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      642,
+      673
+    ],
+    "assertion_position": [
+      632,
+      663
+    ],
+    "sentence": "[ENTITY] đang dùng gleevec.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Chronic myeloid leukemia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "D471": 0.779444,
+        "C9292": 0.650754,
+        "C9211": 0.63722,
+        "C9212": 0.623018,
+        "C9291": 0.614959
+      },
+      "rapidfuzz": {
+        "C9210": 0.9,
+        "C9211": 0.9,
+        "C9212": 0.9
+      }
+    },
+    "candidate": {
+      "code": "D471",
+      "confidence": 0.720803
+    }
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      684,
+      691
+    ],
+    "assertion_position": [
+      674,
+      681
+    ],
+    "sentence": "Bệnh bạch cầu dòng tủy mãn tính đang dùng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Gleevec"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282386": 1.0,
+        "1997267": 0.813729,
+        "284924": 0.792983,
+        "282388": 0.783785
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "404588": 0.9,
+        "404589": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282386",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      698,
+      711
+    ],
+    "assertion_position": [
+      683,
+      696
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.689331,
+        "I150": 0.684921,
+        "I169": 0.681309
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.734463
+    }
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      718,
+      732
+    ],
+    "assertion_position": [
+      698,
+      712
+    ],
+    "sentence": "[ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hyperlipidemia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E785": 0.979012,
+        "E7849": 0.765059,
+        "E786": 0.760039,
+        "E782": 0.751965,
+        "E7841": 0.744404
+      },
+      "rapidfuzz": {
+        "E782": 0.95,
+        "E7849": 0.95,
+        "E785": 0.9
+      }
+    },
+    "candidate": {
+      "code": "E785",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      755,
+      775
+    ],
+    "assertion_position": [
+      730,
+      750
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Type 2 diabetes mellitus"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E1165": 0.844191,
+        "E119": 0.736971,
+        "Z833": 0.724102,
+        "E118": 0.723496,
+        "O24119": 0.718197
+      },
+      "rapidfuzz": {
+        "O24111": 0.9,
+        "O24112": 0.9,
+        "E1169": 0.9
+      }
+    },
+    "candidate": {
+      "code": "E1165",
+      "confidence": 0.775855
+    }
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      782,
+      794
+    ],
+    "assertion_position": [
+      752,
+      764
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Spinal stenosis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M4800": 0.984485,
+        "M4804": 0.762521,
+        "M4802": 0.741901,
+        "M479": 0.71277,
+        "M4808": 0.712017
+      },
+      "rapidfuzz": {
+        "M48062": 0.9,
+        "M4805": 0.9,
+        "M48061": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M4800",
+      "confidence": 0.916037
+    }
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      801,
+      809
+    ],
+    "assertion_position": [
+      766,
+      774
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Pseudogout"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B664": 0.62257,
+        "L0100": 0.5904,
+        "A665": 0.584926,
+        "L660": 0.575287,
+        "L0101": 0.568042
+      },
+      "rapidfuzz": {
+        "B0803": 0.7,
+        "L731": 0.7,
+        "F482": 0.7
+      }
+    },
+    "candidate": {
+      "code": "B664",
+      "confidence": 0.565138
+    }
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      816,
+      829
+    ],
+    "assertion_position": [
+      776,
+      789
+    ],
+    "sentence": "[ENTITY], không đặc hiệu Giai đoạn 4.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Chronic kidney disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N189": 0.982146,
+        "N039": 0.781739,
+        "N186": 0.757736,
+        "N181": 0.744167,
+        "N1830": 0.681813
+      },
+      "rapidfuzz": {
+        "D631": 0.95,
+        "N181": 0.95,
+        "N1831": 0.95
+      }
+    },
+    "candidate": {
+      "code": "N189",
+      "confidence": 0.913931
+    }
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      864,
+      888
+    ],
+    "assertion_position": [
+      819,
+      843
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Benign prostatic hyperplasia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N400": 0.819702,
+        "D291": 0.770737,
+        "N401": 0.741695,
+        "N4231": 0.690872,
+        "Z87430": 0.67855
+      },
+      "rapidfuzz": {
+        "N400": 0.9,
+        "N401": 0.9,
+        "D3A024": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N400",
+      "confidence": 0.895077
+    }
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      927,
+      934
+    ],
+    "assertion_position": [
+      872,
+      879
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      966,
+      973
+    ],
+    "assertion_position": [
+      908,
+      915
+    ],
+    "sentence": "Thuốc trước khi nhập viện: [ENTITY] (dừng theo chỉ dẫn sau xuất viện).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Gleevec"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282386": 1.0,
+        "1997267": 0.813729,
+        "284924": 0.792983,
+        "282388": 0.783785
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "404588": 0.9,
+        "404589": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282386",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1108,
+      1115
+    ],
+    "assertion_position": [
+      1032,
+      1039
+    ],
+    "sentence": "[ENTITY] dai dẳng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1131,
+      1137
+    ],
+    "assertion_position": [
+      1050,
+      1056
+    ],
+    "sentence": "[ENTITY] ngày càng nặng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1246,
+      1253
+    ],
+    "assertion_position": [
+      1154,
+      1161
+    ],
+    "sentence": "[ENTITY] được vợ nhận thấy.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1857,
+      1871
+    ],
+    "assertion_position": [
+      1761,
+      1775
+    ],
+    "sentence": "Đối với bệnh lý [ENTITY], để lâu thường không có biến chứng gì nặng, chủ yếu bệnh làm ảnh hưởng tới chất lượng cuộc sống.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Idiopathic urticaria"
+    ],
+    "retriever": {
+      "sapbert": {
+        "L501": 1.0,
+        "L500": 0.867424,
+        "L509": 0.782997,
+        "L506": 0.712078,
+        "L508": 0.691966
+      },
+      "rapidfuzz": {
+        "L501": 1.0,
+        "G4734": 0.855,
+        "M41123": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L501",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Mày đay vô căn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1969,
+      1983
+    ],
+    "assertion_position": [
+      1873,
+      1887
+    ],
+    "sentence": "[ENTITY] là một bệnh mạn tính, việc điều trị phải lâu dài và liên tục.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Idiopathic urticaria"
+    ],
+    "retriever": {
+      "sapbert": {
+        "L501": 1.0,
+        "L500": 0.867424,
+        "L509": 0.782997,
+        "L506": 0.712078,
+        "L508": 0.691966
+      },
+      "rapidfuzz": {
+        "L501": 1.0,
+        "G4734": 0.855,
+        "M41123": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L501",
+      "confidence": 1.0
+    }
+  }
+]

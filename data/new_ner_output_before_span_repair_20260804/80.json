@@ -1,0 +1,218 @@
+[
+  {
+    "text": "bệnh gút",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      64,
+      72
+    ],
+    "assertion_position": [
+      63,
+      71
+    ],
+    "sentence": "Chào bác sĩ, ông em năm nay 70 tuổi, bị [ENTITY] hai năm nay, cũng điều trị mấy tháng khỏi đau rồi không uống thuốc nữa, mà gần đây xuất hiện hạt nhỏ màu trắng trên da chỗ mấy khớp ngón tay với ngón chân.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "Gout"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M109": 0.97747,
+        "M1000": 0.845624,
+        "M1009": 0.739016,
+        "M1020": 0.72526,
+        "M10069": 0.685732
+      },
+      "rapidfuzz": {
+        "M109": 0.9,
+        "M10421": 0.9,
+        "M10422": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M109",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      189,
+      191
+    ],
+    "assertion_position": [
+      188,
+      190
+    ],
+    "sentence": "Chào bác sĩ, ông em năm nay 70 tuổi, bị bệnh gút hai năm nay, cũng điều trị mấy tháng khỏi đau rồi không uống thuốc nữa, mà gần đây xuất hiện hạt nhỏ màu trắng trên [ENTITY] chỗ mấy khớp ngón tay với ngón chân.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh gout mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      524,
+      542
+    ],
+    "assertion_position": [
+      519,
+      537
+    ],
+    "sentence": "Với những mô tả của bạn thì ông bạn đã bị bệnhgout, dạo gần đây không điều trị thường xuyên, và hình thành những hạt nhỏ ở vùng khớp như hình ảnh, đây là hạt tophi trong [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Chronic gout"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M1A9XX0": 0.820199,
+        "M1000": 0.809269,
+        "M1A00X0": 0.785348,
+        "M109": 0.778763,
+        "M1009": 0.771223
+      },
+      "rapidfuzz": {
+        "M1A1521": 0.9,
+        "M1A2120": 0.9,
+        "M1A1311": 0.9
+      }
+    },
+    "candidate": {
+      "code": "M1A9XX0",
+      "confidence": 0.739819
+    }
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      788,
+      792
+    ],
+    "assertion_position": [
+      783,
+      787
+    ],
+    "sentence": "Tại vùng nổi hạt tophi có hiện tượng [ENTITY], tấy đỏ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tấy đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      794,
+      800
+    ],
+    "assertion_position": [
+      789,
+      795
+    ],
+    "sentence": "Tại vùng nổi hạt tophi có hiện tượng sưng, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "xơ gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1019,
+      1025
+    ],
+    "assertion_position": [
+      1009,
+      1015
+    ],
+    "sentence": "Bệnh nhân [ENTITY] mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và tràn dịch màng phổi.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Cirrhosis of liver"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K7460": 0.976819,
+        "P7881": 0.862972,
+        "K741": 0.781352,
+        "K7469": 0.761354,
+        "K745": 0.754063
+      },
+      "rapidfuzz": {
+        "K7469": 0.95,
+        "P7881": 0.9,
+        "K7460": 0.9
+      }
+    },
+    "candidate": {
+      "code": "K7460",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cổ trướng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1063,
+      1072
+    ],
+    "assertion_position": [
+      1053,
+      1062
+    ],
+    "sentence": "Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, [ENTITY] và tràn dịch màng phổi.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tràn dịch màng phổi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1076,
+      1095
+    ],
+    "assertion_position": [
+      1066,
+      1085
+    ],
+    "sentence": "Bệnh nhân xơ gan mất bù có tăng áp lực tĩnh mạch cửa, cổ trướng và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

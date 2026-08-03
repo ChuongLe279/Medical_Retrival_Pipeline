@@ -33,155 +33,21 @@
     },
     "candidate": {
       "code": "J850",
-      "confidence": 0.766862
-    }
-  },
-  {
-    "text": "viêm phổi",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      20,
-      29
-    ],
-    "assertion_position": [
-      20,
-      29
-    ],
-    "sentence": "Hỏi : Dạ cho em hỏi [ENTITY] hoại tử có phải là giai đoạn nặng của viêm phổi và tiến triển tiếp theo là hình thành áp xe phổi.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Pneumonia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J189": 0.95392,
-        "J159": 0.839622,
-        "J129": 0.787309,
-        "J181": 0.781404,
-        "J188": 0.781283
-      },
-      "rapidfuzz": {
-        "A0103": 0.9,
-        "P238": 0.9,
-        "P236": 0.9
-      }
-    },
-    "candidate": {
-      "code": "J189",
-      "confidence": 0.875673
-    }
-  },
-  {
-    "text": "áp xe phổi",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      116,
-      126
-    ],
-    "assertion_position": [
-      116,
-      126
-    ],
-    "sentence": "Hỏi : Dạ cho em hỏi viêm phổi hoại tử có phải là giai đoạn nặng của viêm phổi và tiến triển tiếp theo là hình thành [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Lung abscess"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J851": 0.80343,
-        "J852": 0.775321,
-        "J853": 0.700419,
-        "A065": 0.691389,
-        "J4B": 0.686319
-      },
-      "rapidfuzz": {
-        "A065": 0.9,
-        "J677": 0.855,
-        "M05141": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J851",
-      "confidence": 0.727303
-    }
-  },
-  {
-    "text": "VP",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      135,
-      137
-    ],
-    "assertion_position": [
-      135,
-      137
-    ],
-    "sentence": "Hay là [ENTITY] và VPHT là hai bệnh có cơ chế bệnh sinh khác nhau ạ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Pneumonia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J189": 0.95392,
-        "J159": 0.839622,
-        "J129": 0.787309,
-        "J181": 0.781404,
-        "J188": 0.781283
-      },
-      "rapidfuzz": {
-        "A0103": 0.9,
-        "P238": 0.9,
-        "P236": 0.9
-      }
-    },
-    "candidate": {
-      "code": "J189",
-      "confidence": 0.875673
-    }
-  },
-  {
-    "text": "VPHT",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      141,
-      145
-    ],
-    "assertion_position": [
-      141,
-      145
-    ],
-    "sentence": "Hay là VP và [ENTITY] là hai bệnh có cơ chế bệnh sinh khác nhau ạ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Necrotizing pneumonia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J850": 0.779837,
-        "M726": 0.742299,
-        "A480": 0.672817,
-        "M319": 0.662149,
-        "K5530": 0.6613
-      },
-      "rapidfuzz": {
-        "A690": 0.855,
-        "G0432": 0.855,
-        "G374": 0.855
-      }
-    },
-    "candidate": {
-      "code": "J850",
-      "confidence": 0.707484
+      "confidence": 0.766862,
+      "ranked_candidates": [
+        {
+          "code": "J850",
+          "confidence": 0.766862
+        },
+        {
+          "code": "J181",
+          "confidence": 0.590411
+        },
+        {
+          "code": "J851",
+          "confidence": 0.577871
+        }
+      ]
     }
   },
   {
@@ -218,7 +84,225 @@
     },
     "candidate": {
       "code": "J189",
-      "confidence": 0.875673
+      "confidence": 0.875673,
+      "ranked_candidates": [
+        {
+          "code": "J189",
+          "confidence": 0.875673
+        },
+        {
+          "code": "J159",
+          "confidence": 0.75566
+        },
+        {
+          "code": "J129",
+          "confidence": 0.708578
+        }
+      ]
+    }
+  },
+  {
+    "text": "áp xe phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      116,
+      126
+    ],
+    "assertion_position": [
+      116,
+      126
+    ],
+    "sentence": "Hỏi : Dạ cho em hỏi viêm phổi hoại tử có phải là giai đoạn nặng của viêm phổi và tiến triển tiếp theo là hình thành [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Lung abscess"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J851": 0.80343,
+        "J852": 0.775321,
+        "J853": 0.700419,
+        "A065": 0.691389,
+        "J4B": 0.686319
+      },
+      "rapidfuzz": {
+        "A065": 0.9,
+        "J677": 0.855,
+        "M05141": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J851",
+      "confidence": 0.727303,
+      "ranked_candidates": [
+        {
+          "code": "J851",
+          "confidence": 0.727303
+        },
+        {
+          "code": "A065",
+          "confidence": 0.71675
+        },
+        {
+          "code": "J852",
+          "confidence": 0.697789
+        }
+      ]
+    }
+  },
+  {
+    "text": "VP",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      135,
+      137
+    ],
+    "assertion_position": [
+      135,
+      137
+    ],
+    "sentence": "Hay là [ENTITY] và VPHT là hai bệnh có cơ chế bệnh sinh khác nhau ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Pneumonia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J189": 0.95392,
+        "J159": 0.839622,
+        "J129": 0.787309,
+        "J181": 0.781404,
+        "J188": 0.781283
+      },
+      "rapidfuzz": {
+        "A0103": 0.9,
+        "P238": 0.9,
+        "P236": 0.9
+      }
+    },
+    "candidate": {
+      "code": "J189",
+      "confidence": 0.875673,
+      "ranked_candidates": [
+        {
+          "code": "J189",
+          "confidence": 0.875673
+        },
+        {
+          "code": "J159",
+          "confidence": 0.75566
+        },
+        {
+          "code": "J129",
+          "confidence": 0.708578
+        }
+      ]
+    }
+  },
+  {
+    "text": "VPHT",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      141,
+      145
+    ],
+    "assertion_position": [
+      141,
+      145
+    ],
+    "sentence": "Hay là VP và [ENTITY] là hai bệnh có cơ chế bệnh sinh khác nhau ạ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Necrotizing pneumonia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J850": 0.779837,
+        "M726": 0.742299,
+        "A480": 0.672817,
+        "M319": 0.662149,
+        "K5530": 0.6613
+      },
+      "rapidfuzz": {
+        "A690": 0.855,
+        "G0432": 0.855,
+        "G374": 0.855
+      }
+    },
+    "candidate": {
+      "code": "J850",
+      "confidence": 0.707484,
+      "ranked_candidates": [
+        {
+          "code": "J850",
+          "confidence": 0.707484
+        },
+        {
+          "code": "M726",
+          "confidence": 0.668069
+        },
+        {
+          "code": "A480",
+          "confidence": 0.605535
+        }
+      ]
+    }
+  },
+  {
+    "text": "Viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      211,
+      220
+    ],
+    "assertion_position": [
+      211,
+      220
+    ],
+    "sentence": "[ENTITY] là tình trạng viêm phế quản, phế nang, giai đoạn đầu là xuất tiết dịch, nếu điều trị sớm và kịp thời thì sẽ nhanh chóng hết với những cơ thể có sức đề kháng bình thường.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Pneumonia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J189": 0.95392,
+        "J159": 0.839622,
+        "J129": 0.787309,
+        "J181": 0.781404,
+        "J188": 0.781283
+      },
+      "rapidfuzz": {
+        "A0103": 0.9,
+        "P238": 0.9,
+        "P236": 0.9
+      }
+    },
+    "candidate": {
+      "code": "J189",
+      "confidence": 0.875673,
+      "ranked_candidates": [
+        {
+          "code": "J189",
+          "confidence": 0.875673
+        },
+        {
+          "code": "J159",
+          "confidence": 0.75566
+        },
+        {
+          "code": "J129",
+          "confidence": 0.708578
+        }
+      ]
     }
   },
   {
@@ -255,66 +339,21 @@
     },
     "candidate": {
       "code": "J40",
-      "confidence": 0.846172
-    }
-  },
-  {
-    "text": "phế nang",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      250,
-      258
-    ],
-    "assertion_position": [
-      250,
-      258
-    ],
-    "sentence": "Viêm phổi là tình trạng viêm phế quản, [ENTITY], giai đoạn đầu là xuất tiết dịch, nếu điều trị sớm và kịp thời thì sẽ nhanh chóng hết với những cơ thể có sức đề kháng bình thường.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Viêm phổi",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      211,
-      220
-    ],
-    "assertion_position": [
-      211,
-      220
-    ],
-    "sentence": "[ENTITY] là tình trạng viêm phế quản, phế nang, giai đoạn đầu là xuất tiết dịch, nếu điều trị sớm và kịp thời thì sẽ nhanh chóng hết với những cơ thể có sức đề kháng bình thường.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Pneumonia"
-    ],
-    "retriever": {
-      "sapbert": {
-        "J189": 0.95392,
-        "J159": 0.839622,
-        "J129": 0.787309,
-        "J181": 0.781404,
-        "J188": 0.781283
-      },
-      "rapidfuzz": {
-        "A0103": 0.9,
-        "P238": 0.9,
-        "P236": 0.9
-      }
-    },
-    "candidate": {
-      "code": "J189",
-      "confidence": 0.875673
+      "confidence": 0.846172,
+      "ranked_candidates": [
+        {
+          "code": "J40",
+          "confidence": 0.846172
+        },
+        {
+          "code": "J410",
+          "confidence": 0.817544
+        },
+        {
+          "code": "J42",
+          "confidence": 0.75904
+        }
+      ]
     }
   },
   {
@@ -351,7 +390,21 @@
     },
     "candidate": {
       "code": "J850",
-      "confidence": 0.766862
+      "confidence": 0.766862,
+      "ranked_candidates": [
+        {
+          "code": "J850",
+          "confidence": 0.766862
+        },
+        {
+          "code": "J181",
+          "confidence": 0.590411
+        },
+        {
+          "code": "J851",
+          "confidence": 0.577871
+        }
+      ]
     }
   },
   {
@@ -388,7 +441,21 @@
     },
     "candidate": {
       "code": "J851",
-      "confidence": 0.727303
+      "confidence": 0.727303,
+      "ranked_candidates": [
+        {
+          "code": "J851",
+          "confidence": 0.727303
+        },
+        {
+          "code": "A065",
+          "confidence": 0.71675
+        },
+        {
+          "code": "J852",
+          "confidence": 0.697789
+        }
+      ]
     }
   },
   {
@@ -425,7 +492,21 @@
     },
     "candidate": {
       "code": "J851",
-      "confidence": 0.727303
+      "confidence": 0.727303,
+      "ranked_candidates": [
+        {
+          "code": "J851",
+          "confidence": 0.727303
+        },
+        {
+          "code": "A065",
+          "confidence": 0.71675
+        },
+        {
+          "code": "J852",
+          "confidence": 0.697789
+        }
+      ]
     }
   },
   {
@@ -495,48 +576,6 @@
     "text": "đau đầu",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1538,
-      1545
-    ],
-    "assertion_position": [
-      1522,
-      1529
-    ],
-    "sentence": "[ENTITY] kéo dài.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nhìn mờ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1560,
-      1567
-    ],
-    "assertion_position": [
-      1539,
-      1546
-    ],
-    "sentence": "[ENTITY] ở cả hai mắt, bên trái nặng hơn bên phải.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đau đầu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
       1621,
       1628
     ],
@@ -588,7 +627,21 @@
     },
     "candidate": {
       "code": "H4711",
-      "confidence": 0.952014
+      "confidence": 0.952014,
+      "ranked_candidates": [
+        {
+          "code": "H4711",
+          "confidence": 0.952014
+        },
+        {
+          "code": "H4712",
+          "confidence": 0.889443
+        },
+        {
+          "code": "H4710",
+          "confidence": 0.88362
+        }
+      ]
     }
   },
   {
@@ -625,7 +678,21 @@
     },
     "candidate": {
       "code": "H4711",
-      "confidence": 0.952014
+      "confidence": 0.952014,
+      "ranked_candidates": [
+        {
+          "code": "H4711",
+          "confidence": 0.952014
+        },
+        {
+          "code": "H4712",
+          "confidence": 0.889443
+        },
+        {
+          "code": "H4710",
+          "confidence": 0.88362
+        }
+      ]
     }
   },
   {
@@ -662,21 +729,22 @@
     },
     "candidate": {
       "code": "H409",
-      "confidence": 0.886943
+      "confidence": 0.886943,
+      "ranked_candidates": [
+        {
+          "code": "H409",
+          "confidence": 0.886943
+        },
+        {
+          "code": "H44519",
+          "confidence": 0.813468
+        },
+        {
+          "code": "Q150",
+          "confidence": 0.734901
+        }
+      ]
     }
-  },
-  {
-    "text": "nhãn áp",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      2119,
-      2126
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "chụp cắt lớp vi tính (ct)",
@@ -725,7 +793,21 @@
     },
     "candidate": {
       "code": "J851",
-      "confidence": 0.727303
+      "confidence": 0.727303,
+      "ranked_candidates": [
+        {
+          "code": "J851",
+          "confidence": 0.727303
+        },
+        {
+          "code": "A065",
+          "confidence": 0.71675
+        },
+        {
+          "code": "J852",
+          "confidence": 0.697789
+        }
+      ]
     }
   }
 ]

@@ -1,0 +1,743 @@
+[
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      77,
+      88
+    ],
+    "assertion_position": [
+      65,
+      76
+    ],
+    "sentence": "NSAID để điều trị [ENTITY] (đã ngừng).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      106,
+      116
+    ],
+    "assertion_position": [
+      89,
+      99
+    ],
+    "sentence": "[ENTITY] (bắt đầu dùng).",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "omeprazole"
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "283742": 0.969087
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "283742": 0.909091,
+        "343355": 0.9
+      }
+    },
+    "candidate": {
+      "code": "7646",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "giãn thừng tinh 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      240,
+      257
+    ],
+    "assertion_position": [
+      218,
+      235
+    ],
+    "sentence": "Em trai mình sn 2004, đi khám ở Tuyến Tỉnh bs chẩn đoán [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Varicocele"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I861": 0.819607,
+        "I862": 0.718141,
+        "N4340": 0.677915,
+        "I864": 0.655863,
+        "N4401": 0.650833
+      },
+      "rapidfuzz": {
+        "B010": 0.741176,
+        "B0111": 0.741176,
+        "B012": 0.741176
+      }
+    },
+    "candidate": {
+      "code": "I861",
+      "confidence": 0.752866
+    }
+  },
+  {
+    "text": "đau nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      341,
+      348
+    ],
+    "assertion_position": [
+      319,
+      326
+    ],
+    "sentence": "5mm 1 bên, đã khám và điều trị thuốc uống 5 tuần, độ giãn không giảm, thỉnh thoảng [ENTITY], cảm thấy nóng phần tinh hoàn, đã ngừng dùng thuốc, vì tình hình covid không thể vào hcm để vào chuyên khoa khám , nhờ quý bác sĩ tư vấn được không ạ, để lâu em sợ ảnh hưởng tinh trùng ảnh hưởng sinh sản ạ.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nóng phần tinh hoàn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      359,
+      378
+    ],
+    "assertion_position": [
+      337,
+      356
+    ],
+    "sentence": "5mm 1 bên, đã khám và điều trị thuốc uống 5 tuần, độ giãn không giảm, thỉnh thoảng đau nhẹ, cảm thấy [ENTITY], đã ngừng dùng thuốc, vì tình hình covid không thể vào hcm để vào chuyên khoa khám , nhờ quý bác sĩ tư vấn được không ạ, để lâu em sợ ảnh hưởng tinh trùng ảnh hưởng sinh sản ạ.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "giãn thừng tinh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      240,
+      255
+    ],
+    "assertion_position": [
+      218,
+      233
+    ],
+    "sentence": "Em trai mình sn 2004, đi khám ở Tuyến Tỉnh bs chẩn đoán [ENTITY] 2.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Varicocele"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I861": 0.819607,
+        "I862": 0.718141,
+        "N4340": 0.677915,
+        "I864": 0.655863,
+        "N4401": 0.650833
+      },
+      "rapidfuzz": {
+        "B010": 0.741176,
+        "B0111": 0.741176,
+        "B012": 0.741176
+      }
+    },
+    "candidate": {
+      "code": "I861",
+      "confidence": 0.752866
+    }
+  },
+  {
+    "text": "vô sinh thứ phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      643,
+      659
+    ],
+    "assertion_position": [
+      619,
+      635
+    ],
+    "sentence": "Giãn thừng tinh là một trong nhiều nguyên nhân gây [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Secondary infertility"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N979": 0.719208,
+        "N469": 0.69703,
+        "N914": 0.69053,
+        "N978": 0.689774,
+        "N911": 0.672215
+      },
+      "rapidfuzz": {
+        "C7B01": 0.855,
+        "C772": 0.855,
+        "C773": 0.855
+      }
+    },
+    "candidate": {
+      "code": "N979",
+      "confidence": 0.650614
+    }
+  },
+  {
+    "text": "Giãn thừng tinh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      592,
+      607
+    ],
+    "assertion_position": [
+      568,
+      583
+    ],
+    "sentence": "[ENTITY] là một trong nhiều nguyên nhân gây vô sinh thứ phát.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Varicocele"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I861": 0.819607,
+        "I862": 0.718141,
+        "N4340": 0.677915,
+        "I864": 0.655863,
+        "N4401": 0.650833
+      },
+      "rapidfuzz": {
+        "B010": 0.741176,
+        "B0111": 0.741176,
+        "B012": 0.741176
+      }
+    },
+    "candidate": {
+      "code": "I861",
+      "confidence": 0.752866
+    }
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      958,
+      984
+    ],
+    "assertion_position": [
+      926,
+      952
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      991,
+      1002
+    ],
+    "assertion_position": [
+      954,
+      965
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn thoáng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1010,
+      1025
+    ],
+    "assertion_position": [
+      967,
+      982
+    ],
+    "sentence": "[ENTITY] qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1036,
+      1043
+    ],
+    "assertion_position": [
+      988,
+      995
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1064,
+      1077
+    ],
+    "assertion_position": [
+      1010,
+      1023
+    ],
+    "sentence": "Bệnh nhân có [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1117,
+      1138
+    ],
+    "assertion_position": [
+      1055,
+      1076
+    ],
+    "sentence": "Vị trí: [ENTITY], đau lưng (khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1064,
+      1072
+    ],
+    "assertion_position": [
+      1010,
+      1018
+    ],
+    "sentence": "Bệnh nhân có [ENTITY] âm ỉ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      958,
+      966
+    ],
+    "assertion_position": [
+      926,
+      934
+    ],
+    "sentence": "[ENTITY] vùng hạ sườn phải.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1291,
+      1302
+    ],
+    "assertion_position": [
+      1224,
+      1235
+    ],
+    "sentence": "Thời gian: Thường xuất hiện sau bữa ăn (đau bụng, [ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1337,
+      1348
+    ],
+    "assertion_position": [
+      1265,
+      1276
+    ],
+    "sentence": "Các triệu chứng liên quan: [ENTITY], buồn nôn thoáng qua, nôn, đau lưng kéo dài.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn thoáng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1351,
+      1366
+    ],
+    "assertion_position": [
+      1278,
+      1293
+    ],
+    "sentence": "Các triệu chứng liên quan: chướng bụng, [ENTITY] qua, nôn, đau lưng kéo dài.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1015,
+      1018
+    ],
+    "assertion_position": [
+      972,
+      975
+    ],
+    "sentence": "buồn [ENTITY] thoáng qua.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau lưng kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1377,
+      1393
+    ],
+    "assertion_position": [
+      1304,
+      1320
+    ],
+    "sentence": "Các triệu chứng liên quan: chướng bụng, buồn nôn thoáng qua, nôn, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1446,
+      1453
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1512,
+      1523
+    ],
+    "assertion_position": [
+      1436,
+      1447
+    ],
+    "sentence": "Bệnh nhân được nội soi thực quản - dạ dày - tá tràng ngoại trú, kết quả ghi nhận [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Gastritis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2970": 0.749555,
+        "K2971": 0.686647,
+        "K30": 0.677284,
+        "K819": 0.644893,
+        "K2960": 0.630461
+      },
+      "rapidfuzz": {
+        "K2970": 0.9,
+        "K2900": 0.9,
+        "K2930": 0.9
+      }
+    },
+    "candidate": {
+      "code": "K2970",
+      "confidence": 0.834036
+    }
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      1575,
+      1585
+    ],
+    "assertion_position": [
+      1499,
+      1509
+    ],
+    "sentence": "Được điều trị bằng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "omeprazole"
+    ],
+    "retriever": {
+      "sapbert": {
+        "7646": 1.0,
+        "283742": 0.969087
+      },
+      "rapidfuzz": {
+        "7646": 1.0,
+        "283742": 0.909091,
+        "343355": 0.9
+      }
+    },
+    "candidate": {
+      "code": "7646",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Chụp cộng hưởng từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1587,
+      1605
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1880,
+      1887
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1919,
+      1930
+    ],
+    "assertion_position": [
+      1844,
+      1855
+    ],
+    "sentence": "Chẩn đoán hình ảnh và thăm dò:Nội soi thực quản - dạ dày - tá tràng: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Gastritis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2970": 0.749555,
+        "K2971": 0.686647,
+        "K30": 0.677284,
+        "K819": 0.644893,
+        "K2960": 0.630461
+      },
+      "rapidfuzz": {
+        "K2970": 0.9,
+        "K2900": 0.9,
+        "K2930": 0.9
+      }
+    },
+    "candidate": {
+      "code": "K2970",
+      "confidence": 0.834036
+    }
+  },
+  {
+    "text": "Nội soi mật tụy ngược dòng (ERCP)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2011,
+      2044
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ERCP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2039,
+      2043
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp cộng hưởng từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2134,
+      2152
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sỏi ống dẫn mật",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2193,
+      2208
+    ],
+    "assertion_position": [
+      2110,
+      2125
+    ],
+    "sentence": "chụp cộng hưởng từ mật tụy tụi mật được thực hiện cho thấy [ENTITY] chung đoạn cuối.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Choledocholithiasis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K824": 0.726674,
+        "K8040": 0.712694,
+        "K563": 0.70802,
+        "Q444": 0.705738,
+        "K8030": 0.693456
+      },
+      "rapidfuzz": {
+        "L632": 0.771429,
+        "B743": 0.75,
+        "K8080": 0.725455
+      }
+    },
+    "candidate": {
+      "code": "K824",
+      "confidence": 0.656104
+    }
+  }
+]

@@ -29,7 +29,21 @@
     },
     "candidate": {
       "code": "866924",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "866924",
+          "confidence": 1.0
+        },
+        {
+          "code": "372891",
+          "confidence": 0.38
+        },
+        {
+          "code": "317541",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -63,7 +77,21 @@
     },
     "candidate": {
       "code": "3640",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "3640",
+          "confidence": 1.0
+        },
+        {
+          "code": "1545992",
+          "confidence": 0.564611
+        },
+        {
+          "code": "1160779",
+          "confidence": 0.38
+        }
+      ]
     }
   },
   {
@@ -100,7 +128,21 @@
     },
     "candidate": {
       "code": "L732",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "L732",
+          "confidence": 1.0
+        },
+        {
+          "code": "L210",
+          "confidence": 0.566536
+        },
+        {
+          "code": "L705",
+          "confidence": 0.56571
+        }
+      ]
     }
   },
   {
@@ -134,7 +176,21 @@
     },
     "candidate": {
       "code": "1202",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "1202",
+          "confidence": 1.0
+        },
+        {
+          "code": "1431126",
+          "confidence": 0.563566
+        },
+        {
+          "code": "2662562",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -188,7 +244,21 @@
     },
     "candidate": {
       "code": "1886",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "1886",
+          "confidence": 1.0
+        },
+        {
+          "code": "1152405",
+          "confidence": 0.36
+        },
+        {
+          "code": "2661484",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -221,7 +291,21 @@
     },
     "candidate": {
       "code": "1886",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "1886",
+          "confidence": 1.0
+        },
+        {
+          "code": "1152405",
+          "confidence": 0.36
+        },
+        {
+          "code": "2661484",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -309,17 +393,17 @@
     "candidate": null
   },
   {
-    "text": "Khó thở",
+    "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      688,
-      695
+      700,
+      707
     ],
     "assertion_position": [
-      610,
-      617
+      622,
+      629
     ],
-    "sentence": "[ENTITY] nhẹ khó thở.",
+    "sentence": "Khó thở nhẹ [ENTITY].",
     "assertion_result": {
       "tag": null
     },
@@ -330,17 +414,13 @@
     "candidate": null
   },
   {
-    "text": "cảm giác thắt chặt ngực vùng",
+    "text": "cảm giác thắt chặt ngực vùng trước tim",
     "type": "TRIỆU_CHỨNG",
     "position": [
       714,
-      742
+      752
     ],
-    "assertion_position": [
-      631,
-      659
-    ],
-    "sentence": "[ENTITY] trước tim (khởi phát lúc 17 giờ).",
+    "sentence": "- [ENTITY] (khởi phát lúc 17 giờ)",
     "assertion_result": {
       "tag": null
     },
@@ -351,17 +431,17 @@
     "candidate": null
   },
   {
-    "text": "đánh trống ngực",
+    "text": "Tăng đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      787,
+      782,
       802
     ],
     "assertion_position": [
-      699,
+      694,
       714
     ],
-    "sentence": "Tăng [ENTITY] (khởi phát lúc 17 giờ).",
+    "sentence": "[ENTITY] (khởi phát lúc 17 giờ).",
     "assertion_result": {
       "tag": null
     },
@@ -375,14 +455,14 @@
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      700,
-      707
+      832,
+      839
     ],
     "assertion_position": [
-      622,
-      629
+      739,
+      746
     ],
-    "sentence": "Khó thở nhẹ [ENTITY].",
+    "sentence": "[ENTITY] (khởi phát lúc 17 giờ).",
     "assertion_result": {
       "tag": null
     },
@@ -480,14 +560,14 @@
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      832,
-      839
+      1121,
+      1128
     ],
     "assertion_position": [
-      739,
-      746
+      1002,
+      1009
     ],
-    "sentence": "[ENTITY] (khởi phát lúc 17 giờ).",
+    "sentence": "[ENTITY]: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ).",
     "assertion_result": {
       "tag": null
     },
@@ -522,35 +602,14 @@
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1121,
-      1128
+      1180,
+      1187
     ],
     "assertion_position": [
-      1002,
-      1009
+      1061,
+      1068
     ],
-    "sentence": "[ENTITY]: Nhẹ, liên quan đến đánh trống ngực, liên quan đến khó thở (khởi phát lúc 17 giờ).",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "giác thắt chặt ngực",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      718,
-      737
-    ],
-    "assertion_position": [
-      635,
-      654
-    ],
-    "sentence": "cảm [ENTITY] vùng trước tim (khởi phát lúc 17 giờ).",
+    "sentence": "khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến [ENTITY] (khởi phát lúc 17 giờ).",
     "assertion_result": {
       "tag": null
     },
@@ -585,14 +644,14 @@
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1180,
-      1187
+      1339,
+      1346
     ],
     "assertion_position": [
-      1061,
-      1068
+      1210,
+      1217
     ],
-    "sentence": "khó thở: Nhẹ, liên quan đến đánh trống ngực, liên quan đến [ENTITY] (khởi phát lúc 17 giờ).",
+    "sentence": "[ENTITY]: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây.",
     "assertion_result": {
       "tag": null
     },
@@ -635,27 +694,6 @@
       1327
     ],
     "sentence": "Không [ENTITY], hay nôn, đổ mồ hôi.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1466,
-      1469
-    ],
-    "assertion_position": [
-      1324,
-      1327
-    ],
-    "sentence": "Không buồn [ENTITY], hay nôn, đổ mồ hôi.",
     "assertion_result": {
       "tag": "isNegated"
     },
@@ -716,7 +754,21 @@
     },
     "candidate": {
       "code": "866924",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "866924",
+          "confidence": 1.0
+        },
+        {
+          "code": "372891",
+          "confidence": 0.38
+        },
+        {
+          "code": "317541",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -733,59 +785,17 @@
     "candidate": null
   },
   {
-    "text": "thắt chặt ngực vùng",
+    "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      723,
-      742
+      2095,
+      2110
     ],
     "assertion_position": [
-      640,
-      659
+      1910,
+      1925
     ],
-    "sentence": "cảm giác [ENTITY] trước tim (khởi phát lúc 17 giờ).",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Tăng đánh trống ngực",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      782,
-      802
-    ],
-    "assertion_position": [
-      694,
-      714
-    ],
-    "sentence": "[ENTITY] (khởi phát lúc 17 giờ).",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "khó thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1339,
-      1346
-    ],
-    "assertion_position": [
-      1210,
-      1217
-    ],
-    "sentence": "[ENTITY]: Liên quan đến đánh trống ngực, khởi phát lúc 17 giờ, kéo dài 20 giây.",
+    "sentence": "Ngày hôm nay khoảng Lúc 17 giờ, khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng [ENTITY], và khó thở kéo dài 20 giây.",
     "assertion_result": {
       "tag": null
     },
@@ -829,7 +839,21 @@
     },
     "candidate": {
       "code": "317300",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "317300",
+          "confidence": 1.0
+        },
+        {
+          "code": "572393",
+          "confidence": 0.586273
+        },
+        {
+          "code": "572203",
+          "confidence": 0.578394
+        }
+      ]
     }
   },
   {
@@ -872,27 +896,6 @@
     "candidate": null
   },
   {
-    "text": "đánh trống ngực",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2095,
-      2110
-    ],
-    "assertion_position": [
-      1910,
-      1925
-    ],
-    "sentence": "Ngày hôm nay khoảng Lúc 17 giờ, khi đang mang đồ tạp hóa ra xe, xuất hiện cảm giác thắt chặt ngực vùng trước tim, tăng [ENTITY], và khó thở kéo dài 20 giây.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "Viêm gan cấp tính",
     "type": "CHẨN_ĐOÁN",
     "position": [
@@ -926,7 +929,21 @@
     },
     "candidate": {
       "code": "B179",
-      "confidence": 0.87739
+      "confidence": 0.87739,
+      "ranked_candidates": [
+        {
+          "code": "B179",
+          "confidence": 0.87739
+        },
+        {
+          "code": "B172",
+          "confidence": 0.774364
+        },
+        {
+          "code": "K752",
+          "confidence": 0.691585
+        }
+      ]
     }
   },
   {

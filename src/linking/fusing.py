@@ -37,6 +37,7 @@ RAPIDFUZZ_MARGIN_SCALE = 0.10
 MAX_MARGIN_BONUS_INPUT = 0.20
 EXACT_FUZZ_SCORE = 0.995
 EXACT_FUZZ_MIN_MARGIN = 0.02
+MAX_CANDIDATES = 3
 
 
 def _clean_results(value: object) -> dict[str, float]:
@@ -98,17 +99,12 @@ def fuse_entity_result(entity: dict) -> None:
 
     # A unique exact string match is stronger evidence than a conflicting
     # semantic neighbour. Tied WRatio=1.0 results are deliberately excluded.
-    if (
+    exact_fuzz_override = (
         fuzz_top is not None
         and fuzz_top_score >= EXACT_FUZZ_SCORE
         and fuzz_margin >= EXACT_FUZZ_MIN_MARGIN
         and fuzz_top != sap_top
-    ):
-        entity["candidate"] = {
-            "code": fuzz_top,
-            "confidence": round(fuzz_top_score, 6),
-        }
-        return
+    )
 
     sap_weight, fuzz_weight = TYPE_WEIGHTS[entity["type"]]
     scored: list[tuple[str, float, bool, float, float]] = []
@@ -156,10 +152,22 @@ def fuse_entity_result(entity: dict) -> None:
             item[0],
         )
     )
-    best_code, best_score, _, _, _ = scored[0]
+
+    if exact_fuzz_override:
+        exact_item = next(item for item in scored if item[0] == fuzz_top)
+        scored.remove(exact_item)
+        scored.insert(0, (exact_item[0], fuzz_top_score, *exact_item[2:]))
+
+    ranked_candidates = [
+        {"code": code, "confidence": round(score, 6)}
+        for code, score, _, _, _ in scored[:MAX_CANDIDATES]
+    ]
+    best_code = ranked_candidates[0]["code"]
+    best_score = ranked_candidates[0]["confidence"]
     entity["candidate"] = {
         "code": best_code,
-        "confidence": round(best_score, 6),
+        "confidence": best_score,
+        "ranked_candidates": ranked_candidates,
     }
 
 

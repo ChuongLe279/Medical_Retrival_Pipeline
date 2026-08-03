@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "I10",
-      "confidence": 0.734463
+      "confidence": 0.734463,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 0.734463
+        },
+        {
+          "code": "I159",
+          "confidence": 0.669148
+        },
+        {
+          "code": "I160",
+          "confidence": 0.620398
+        }
+      ]
     }
   },
   {
@@ -70,7 +84,21 @@
     },
     "candidate": {
       "code": "R7303",
-      "confidence": 0.642354
+      "confidence": 0.642354,
+      "ranked_candidates": [
+        {
+          "code": "R7303",
+          "confidence": 0.642354
+        },
+        {
+          "code": "Z833",
+          "confidence": 0.636211
+        },
+        {
+          "code": "O24919",
+          "confidence": 0.614303
+        }
+      ]
     }
   },
   {
@@ -107,7 +135,21 @@
     },
     "candidate": {
       "code": "I509",
-      "confidence": 0.905845
+      "confidence": 0.905845,
+      "ranked_candidates": [
+        {
+          "code": "I509",
+          "confidence": 0.905845
+        },
+        {
+          "code": "I5089",
+          "confidence": 0.799584
+        },
+        {
+          "code": "I5084",
+          "confidence": 0.768065
+        }
+      ]
     }
   },
   {
@@ -144,7 +186,21 @@
     },
     "candidate": {
       "code": "I256",
-      "confidence": 0.876778
+      "confidence": 0.876778,
+      "ranked_candidates": [
+        {
+          "code": "I256",
+          "confidence": 0.876778
+        },
+        {
+          "code": "I255",
+          "confidence": 0.749991
+        },
+        {
+          "code": "I6782",
+          "confidence": 0.685923
+        }
+      ]
     }
   },
   {
@@ -181,7 +237,21 @@
     },
     "candidate": {
       "code": "N189",
-      "confidence": 0.913931
+      "confidence": 0.913931,
+      "ranked_candidates": [
+        {
+          "code": "N189",
+          "confidence": 0.913931
+        },
+        {
+          "code": "N181",
+          "confidence": 0.76475
+        },
+        {
+          "code": "N039",
+          "confidence": 0.703565
+        }
+      ]
     }
   },
   {
@@ -206,45 +276,11 @@
     "candidate": null
   },
   {
-    "text": "tiểu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      295,
-      299
-    ],
-    "assertion_position": [
-      285,
-      289
-    ],
-    "sentence": "Ăn 6 bữa 1 ngày (7h, 9h, 11h, 14h, 17h, 20h), người đỡ mệt, đại [ENTITY] tiện bình thường, nước tiểu trong.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "HA",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
       370,
       372
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "130/75",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      374,
-      380
     ],
     "retriever": {
       "sapbert": {},
@@ -344,17 +380,55 @@
     "candidate": null
   },
   {
-    "text": "2",
-    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "text": "tăng HA",
+    "type": "CHẨN_ĐOÁN",
     "position": [
-      271,
-      272
+      670,
+      677
+    ],
+    "assertion_position": [
+      590,
+      597
+    ],
+    "sentence": "Phát hiện [ENTITY] từ năm 2009, không duy trì thuốc thường xuyên.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hypertension"
     ],
     "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.689331,
+        "I150": 0.684921,
+        "I169": 0.681309
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9
+      }
     },
-    "candidate": null
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.734463,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 0.734463
+        },
+        {
+          "code": "I159",
+          "confidence": 0.669148
+        },
+        {
+          "code": "I160",
+          "confidence": 0.620398
+        }
+      ]
+    }
   },
   {
     "text": "Đái tháo đường typ II",
@@ -390,67 +464,22 @@
     },
     "candidate": {
       "code": "E1165",
-      "confidence": 0.775855
+      "confidence": 0.775855,
+      "ranked_candidates": [
+        {
+          "code": "E1165",
+          "confidence": 0.775855
+        },
+        {
+          "code": "E119",
+          "confidence": 0.663274
+        },
+        {
+          "code": "Z833",
+          "confidence": 0.651692
+        }
+      ]
     }
-  },
-  {
-    "text": "tăng HA",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      670,
-      677
-    ],
-    "assertion_position": [
-      590,
-      597
-    ],
-    "sentence": "Phát hiện [ENTITY] từ năm 2009, không duy trì thuốc thường xuyên.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "eng_translation": [
-      "Hypertension"
-    ],
-    "retriever": {
-      "sapbert": {
-        "I10": 0.805703,
-        "I159": 0.743498,
-        "I160": 0.689331,
-        "I150": 0.684921,
-        "I169": 0.681309
-      },
-      "rapidfuzz": {
-        "H40052": 0.9,
-        "H40053": 0.9,
-        "H40051": 0.9
-      }
-    },
-    "candidate": {
-      "code": "I10",
-      "confidence": 0.734463
-    }
-  },
-  {
-    "text": "III",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      858,
-      861
-    ],
-    "assertion_position": [
-      763,
-      766
-    ],
-    "sentence": "Chẩn đoán: Đái tháo đường typ II/Tăng HA độ [ENTITY] đáp ứng với thuốc.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "crestor",
@@ -484,7 +513,21 @@
     },
     "candidate": {
       "code": "320864",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "320864",
+          "confidence": 1.0
+        },
+        {
+          "code": "323828",
+          "confidence": 0.423848
+        },
+        {
+          "code": "301542",
+          "confidence": 0.412219
+        }
+      ]
     }
   },
   {
@@ -518,7 +561,21 @@
     },
     "candidate": {
       "code": "20352",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "20352",
+          "confidence": 1.0
+        },
+        {
+          "code": "668310",
+          "confidence": 0.494608
+        },
+        {
+          "code": "686924",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -553,7 +610,21 @@
     },
     "candidate": {
       "code": "320864",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "320864",
+          "confidence": 1.0
+        },
+        {
+          "code": "323828",
+          "confidence": 0.423848
+        },
+        {
+          "code": "301542",
+          "confidence": 0.412219
+        }
+      ]
     }
   },
   {
@@ -587,7 +658,21 @@
     },
     "candidate": {
       "code": "20352",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "20352",
+          "confidence": 1.0
+        },
+        {
+          "code": "668310",
+          "confidence": 0.494608
+        },
+        {
+          "code": "686924",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -836,21 +921,22 @@
     },
     "candidate": {
       "code": "4850",
-      "confidence": 0.63
+      "confidence": 0.63,
+      "ranked_candidates": [
+        {
+          "code": "4850",
+          "confidence": 0.63
+        },
+        {
+          "code": "244095",
+          "confidence": 0.36
+        },
+        {
+          "code": "800644",
+          "confidence": 0.36
+        }
+      ]
     }
-  },
-  {
-    "text": "kali",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1360,
-      1364
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "lasix 40 mg once",
@@ -885,7 +971,21 @@
     },
     "candidate": {
       "code": "1719291",
-      "confidence": 0.974771
+      "confidence": 0.974771,
+      "ranked_candidates": [
+        {
+          "code": "1719291",
+          "confidence": 0.974771
+        },
+        {
+          "code": "1719285",
+          "confidence": 0.833998
+        },
+        {
+          "code": "727575",
+          "confidence": 0.479084
+        }
+      ]
     }
   }
 ]

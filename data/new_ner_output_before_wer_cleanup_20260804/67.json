@@ -1,0 +1,497 @@
+[
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      30,
+      37
+    ],
+    "assertion_position": [
+      23,
+      30
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Heart failure"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I5084": 0.853405,
+        "I5089": 0.777315,
+        "I501": 0.76459,
+        "I5082": 0.7478
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I509",
+      "confidence": 0.905845
+    }
+  },
+  {
+    "text": "bệnh mạch máu ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      44,
+      68
+    ],
+    "assertion_position": [
+      32,
+      56
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Peripheral vascular disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I739": 0.980633,
+        "I679": 0.670081,
+        "I7389": 0.668067,
+        "Q279": 0.635147,
+        "I999": 0.632729
+      },
+      "rapidfuzz": {
+        "I739": 0.95,
+        "I7389": 0.9,
+        "H05322": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I739",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      75,
+      103
+    ],
+    "assertion_position": [
+      58,
+      86
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Chronic obstructive pulmonary disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J449": 0.984133,
+        "J4489": 0.684525,
+        "J42": 0.652648,
+        "I2781": 0.644329,
+        "J849": 0.633067
+      },
+      "rapidfuzz": {
+        "J449": 0.95,
+        "J4489": 0.95,
+        "J441": 0.9
+      }
+    },
+    "candidate": {
+      "code": "J449",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Ngưng thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      110,
+      119
+    ],
+    "assertion_position": [
+      88,
+      97
+    ],
+    "sentence": "[ENTITY] khi ngủ do tắc nghẽn đang dùng BiPAP.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      124,
+      127
+    ],
+    "assertion_position": [
+      102,
+      105
+    ],
+    "sentence": "Ngưng thở khi [ENTITY] do tắc nghẽn đang dùng BiPAP.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Ung thư biểu mô tế bào vảy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      163,
+      189
+    ],
+    "assertion_position": [
+      136,
+      162
+    ],
+    "sentence": "[ENTITY] xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với bờ diện cắt dương tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Squamous cell carcinoma"
+    ],
+    "retriever": {
+      "sapbert": {
+        "C4492": 0.920567,
+        "C4442": 0.67669,
+        "C4A9": 0.675736,
+        "C4491": 0.663493,
+        "C439": 0.620563
+      },
+      "rapidfuzz": {
+        "C4482": 0.9,
+        "C4492": 0.9,
+        "C44722": 0.9
+      }
+    },
+    "candidate": {
+      "code": "C4492",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Viêm hang vị sung huyết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      336,
+      359
+    ],
+    "assertion_position": [
+      303,
+      326
+    ],
+    "sentence": "[ENTITY] là tình trạng niêm mạc vùng hang vị dạ dày viêm, các mạch máu vùng viêm giãn nở do ứ máu nhiều.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Antral gastritis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2970": 0.70994,
+        "K2900": 0.660374,
+        "K31A0": 0.655392,
+        "K2940": 0.647473,
+        "K5281": 0.632976
+      },
+      "rapidfuzz": {
+        "K2921": 0.855,
+        "K2930": 0.855,
+        "K5281": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K5281",
+      "confidence": 0.715178
+    }
+  },
+  {
+    "text": "đau bụng cồn cào",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      477,
+      493
+    ],
+    "assertion_position": [
+      444,
+      460
+    ],
+    "sentence": "Biểu hiện chủ yếu là [ENTITY] kèm theo ợ hơi, ợ chua, có thể có cảm giác buồn nôn hoặc nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "cồn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      486,
+      489
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      503,
+      508
+    ],
+    "assertion_position": [
+      470,
+      475
+    ],
+    "sentence": "Biểu hiện chủ yếu là đau bụng cồn cào kèm theo [ENTITY], ợ chua, có thể có cảm giác buồn nôn hoặc nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      510,
+      516
+    ],
+    "assertion_position": [
+      477,
+      483
+    ],
+    "sentence": "Biểu hiện chủ yếu là đau bụng cồn cào kèm theo ợ hơi, [ENTITY], có thể có cảm giác buồn nôn hoặc nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      537,
+      545
+    ],
+    "assertion_position": [
+      504,
+      512
+    ],
+    "sentence": "Biểu hiện chủ yếu là đau bụng cồn cào kèm theo ợ hơi, ợ chua, có thể có cảm giác [ENTITY] hoặc nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      542,
+      545
+    ],
+    "assertion_position": [
+      509,
+      512
+    ],
+    "sentence": "Biểu hiện chủ yếu là đau bụng cồn cào kèm theo ợ hơi, ợ chua, có thể có cảm giác buồn [ENTITY] hoặc nôn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      566,
+      577
+    ],
+    "assertion_position": [
+      533,
+      544
+    ],
+    "sentence": "Trước kia [ENTITY] được coi là bệnh nan y và nguy hiểm nhưng mấy chục năm gần đây nhờ nội soi phát triển nên bệnh đã được điều trị hiệu quả.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Stomach disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K319": 0.79205,
+        "K929": 0.712487,
+        "K30": 0.674377,
+        "K829": 0.65087,
+        "K3189": 0.628671
+      },
+      "rapidfuzz": {
+        "M84675G": 0.855,
+        "M8468XK": 0.855,
+        "M84675S": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K319",
+      "confidence": 0.724779
+    }
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      645,
+      652
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh viêm sung huyết hang vị dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      721,
+      756
+    ],
+    "assertion_position": [
+      688,
+      723
+    ],
+    "sentence": "Để điều trị dứt điểm [ENTITY], trước hết, người bệnh cần được thăm khám chuyên khoa, nội soi dạ dày để tìm nguyên nhân, đánh giá mức độ bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Antral gastritis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2970": 0.70994,
+        "K2900": 0.660374,
+        "K31A0": 0.655392,
+        "K2940": 0.647473,
+        "K5281": 0.632976
+      },
+      "rapidfuzz": {
+        "K2921": 0.855,
+        "K2930": 0.855,
+        "K5281": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K5281",
+      "confidence": 0.715178
+    }
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      812,
+      819
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đồng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1167,
+      1171
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm sung huyết hang vị dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      726,
+      756
+    ],
+    "assertion_position": [
+      693,
+      723
+    ],
+    "sentence": "Để điều trị dứt điểm bệnh [ENTITY], trước hết, người bệnh cần được thăm khám chuyên khoa, nội soi dạ dày để tìm nguyên nhân, đánh giá mức độ bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Antral gastritis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2970": 0.70994,
+        "K2900": 0.660374,
+        "K31A0": 0.655392,
+        "K2940": 0.647473,
+        "K5281": 0.632976
+      },
+      "rapidfuzz": {
+        "K2921": 0.855,
+        "K2930": 0.855,
+        "K5281": 0.855
+      }
+    },
+    "candidate": {
+      "code": "K5281",
+      "confidence": 0.715178
+    }
+  }
+]

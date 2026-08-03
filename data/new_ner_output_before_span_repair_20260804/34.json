@@ -1,0 +1,989 @@
+[
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      65,
+      68
+    ],
+    "assertion_position": [
+      64,
+      67
+    ],
+    "sentence": "Dạo gần đây em hay bị [ENTITY] nửa đầu dữ dội, mỗi lần đau có cảm giác ớn lạnh, buồn nôn và hơi sốt?",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lạ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      122,
+      125
+    ],
+    "assertion_position": [
+      121,
+      124
+    ],
+    "sentence": "Dạo gần đây em hay bị đau nửa đầu dữ dội, mỗi lần đau có cảm giác ớn [ENTITY]nh, buồn nôn và hơi sốt?",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn và hơi số",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      135,
+      150
+    ],
+    "assertion_position": [
+      134,
+      149
+    ],
+    "sentence": "Dạo gần đây em hay bị đau nửa đầu dữ dội, mỗi lần đau có cảm giác ớn lạnh, buồn [ENTITY]t?",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau nửa đầu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      344,
+      355
+    ],
+    "assertion_position": [
+      341,
+      352
+    ],
+    "sentence": "Những triệu chứng của bạn có vẻ giống Bệnh lý [ENTITY] hay còn gọi là bệnh đau nửa đầu Migraine, bệnh lý này sẽ khiến người bệnh thấy đau nửa đầu không cố định hoặc đôi lúc đau cả hai bên, kèm theo các triệu chứng mạch đập.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Migraine"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R519": 0.777722,
+        "G4482": 0.645695,
+        "G4485": 0.64014,
+        "G4481": 0.630549,
+        "G4483": 0.627864
+      },
+      "rapidfuzz": {
+        "G43001": 0.9,
+        "G43009": 0.9,
+        "G43011": 0.9
+      }
+    },
+    "candidate": {
+      "code": "R519",
+      "confidence": 0.719754
+    }
+  },
+  {
+    "text": "bệnh đau nửa đầu Migraine",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      371,
+      396
+    ],
+    "assertion_position": [
+      368,
+      393
+    ],
+    "sentence": "Những triệu chứng của bạn có vẻ giống Bệnh lý đau nửa đầu hay còn gọi là [ENTITY], bệnh lý này sẽ khiến người bệnh thấy đau nửa đầu không cố định hoặc đôi lúc đau cả hai bên, kèm theo các triệu chứng mạch đập.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Migraine"
+    ],
+    "retriever": {
+      "sapbert": {
+        "R519": 0.777722,
+        "G4482": 0.645695,
+        "G4485": 0.64014,
+        "G4481": 0.630549,
+        "G4483": 0.627864
+      },
+      "rapidfuzz": {
+        "G43001": 0.9,
+        "G43009": 0.9,
+        "G43011": 0.9
+      }
+    },
+    "candidate": {
+      "code": "R519",
+      "confidence": 0.719754
+    }
+  },
+  {
+    "text": "đau nửa đầu không cố định",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      438,
+      463
+    ],
+    "assertion_position": [
+      435,
+      460
+    ],
+    "sentence": "Những triệu chứng của bạn có vẻ giống Bệnh lý đau nửa đầu hay còn gọi là bệnh đau nửa đầu Migraine, bệnh lý này sẽ khiến người bệnh thấy [ENTITY] hoặc đôi lúc đau cả hai bên, kèm theo các triệu chứng mạch đập.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau cả hai bên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      477,
+      491
+    ],
+    "assertion_position": [
+      474,
+      488
+    ],
+    "sentence": "Những triệu chứng của bạn có vẻ giống Bệnh lý đau nửa đầu hay còn gọi là bệnh đau nửa đầu Migraine, bệnh lý này sẽ khiến người bệnh thấy đau nửa đầu không cố định hoặc đôi lúc [ENTITY], kèm theo các triệu chứng mạch đập.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mạch đập",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      518,
+      526
+    ],
+    "assertion_position": [
+      515,
+      523
+    ],
+    "sentence": "Những triệu chứng của bạn có vẻ giống Bệnh lý đau nửa đầu hay còn gọi là bệnh đau nửa đầu Migraine, bệnh lý này sẽ khiến người bệnh thấy đau nửa đầu không cố định hoặc đôi lúc đau cả hai bên, kèm theo các triệu chứng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "thị giác bị nhòe",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      591,
+      607
+    ],
+    "assertion_position": [
+      588,
+      604
+    ],
+    "sentence": "Tiền tình trạng đau nửa đầu, người bệnh sẽ có các biểu hiện về [ENTITY], ruồi bay, buồn nôn, mạch đập ở vùng thái dương.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ruồi bay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      609,
+      617
+    ],
+    "assertion_position": [
+      606,
+      614
+    ],
+    "sentence": "Tiền tình trạng đau nửa đầu, người bệnh sẽ có các biểu hiện về thị giác bị nhòe, [ENTITY], buồn nôn, mạch đập ở vùng thái dương.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      619,
+      627
+    ],
+    "assertion_position": [
+      616,
+      624
+    ],
+    "sentence": "Tiền tình trạng đau nửa đầu, người bệnh sẽ có các biểu hiện về thị giác bị nhòe, ruồi bay, [ENTITY], mạch đập ở vùng thái dương.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mạch đập ở vùng thái dương",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      629,
+      655
+    ],
+    "assertion_position": [
+      626,
+      652
+    ],
+    "sentence": "Tiền tình trạng đau nửa đầu, người bệnh sẽ có các biểu hiện về thị giác bị nhòe, ruồi bay, buồn nôn, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      709,
+      719
+    ],
+    "assertion_position": [
+      706,
+      716
+    ],
+    "sentence": "Tùy vào mức độ mà người bệnh có thể có đau vừa hoặc [ENTITY], cơn đau tăng dần, thậm chí kèm theo các triệu chứng buồn nôn, sợ ánh sáng, sợ tiếng động, căng thẳng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "cơn đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      721,
+      728
+    ],
+    "assertion_position": [
+      718,
+      725
+    ],
+    "sentence": "Tùy vào mức độ mà người bệnh có thể có đau vừa hoặc đau dữ dội, [ENTITY] tăng dần, thậm chí kèm theo các triệu chứng buồn nôn, sợ ánh sáng, sợ tiếng động, căng thẳng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      773,
+      781
+    ],
+    "assertion_position": [
+      770,
+      778
+    ],
+    "sentence": "Tùy vào mức độ mà người bệnh có thể có đau vừa hoặc đau dữ dội, cơn đau tăng dần, thậm chí kèm theo các triệu chứng [ENTITY], sợ ánh sáng, sợ tiếng động, căng thẳng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sợ ánh sáng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      783,
+      794
+    ],
+    "assertion_position": [
+      780,
+      791
+    ],
+    "sentence": "Tùy vào mức độ mà người bệnh có thể có đau vừa hoặc đau dữ dội, cơn đau tăng dần, thậm chí kèm theo các triệu chứng buồn nôn, [ENTITY], sợ tiếng động, căng thẳng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sợ tiếng động",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      796,
+      809
+    ],
+    "assertion_position": [
+      793,
+      806
+    ],
+    "sentence": "Tùy vào mức độ mà người bệnh có thể có đau vừa hoặc đau dữ dội, cơn đau tăng dần, thậm chí kèm theo các triệu chứng buồn nôn, sợ ánh sáng, [ENTITY], căng thẳng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "căng thẳng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      811,
+      821
+    ],
+    "assertion_position": [
+      808,
+      818
+    ],
+    "sentence": "Tùy vào mức độ mà người bệnh có thể có đau vừa hoặc đau dữ dội, cơn đau tăng dần, thậm chí kèm theo các triệu chứng buồn nôn, sợ ánh sáng, sợ tiếng động, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau nửa đầu bên trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      876,
+      896
+    ],
+    "assertion_position": [
+      872,
+      892
+    ],
+    "sentence": "Với tình trạng đau nửa đầu, đa số người bệnh đều bị [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau kéo",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      909,
+      916
+    ],
+    "assertion_position": [
+      905,
+      912
+    ],
+    "sentence": "Tình trạng [ENTITY] dài, thường xuyên dễ bị chẩn đoán nguyên nhân đau đầu do viêm xoang và có thể dẫn đến điều trị không đúng bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      963,
+      970
+    ],
+    "assertion_position": [
+      959,
+      966
+    ],
+    "sentence": "Tình trạng đau kéo dài, thường xuyên dễ bị chẩn đoán nguyên nhân [ENTITY] do viêm xoang và có thể dẫn đến điều trị không đúng bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm xoang",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      974,
+      984
+    ],
+    "assertion_position": [
+      970,
+      980
+    ],
+    "sentence": "Tình trạng đau kéo dài, thường xuyên dễ bị chẩn đoán nguyên nhân đau đầu do [ENTITY] và có thể dẫn đến điều trị không đúng bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Sinusitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "J0190": 0.802197,
+        "J329": 0.693303,
+        "J0180": 0.673019,
+        "J0191": 0.622656,
+        "L0390": 0.617954
+      },
+      "rapidfuzz": {
+        "J0121": 0.9,
+        "J0110": 0.9,
+        "J0181": 0.9
+      }
+    },
+    "candidate": {
+      "code": "J0190",
+      "confidence": 0.738311
+    }
+  },
+  {
+    "text": "cơn đau nửa đầu trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1038,
+      1058
+    ],
+    "assertion_position": [
+      1034,
+      1054
+    ],
+    "sentence": "Người bị [ENTITY] hành hạ để lâu sẽ gây ra các hậu quả nguy hiểm cho sức khỏe như suy giảm trí nhớ, khó tập trung, trầm cảm thậm chí là đột quỵ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hạ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1064,
+      1066
+    ],
+    "assertion_position": [
+      1060,
+      1062
+    ],
+    "sentence": "Người bị cơn đau nửa đầu trái hành [ENTITY] để lâu sẽ gây ra các hậu quả nguy hiểm cho sức khỏe như suy giảm trí nhớ, khó tập trung, trầm cảm thậm chí là đột quỵ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "suy giảm trí nhớ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1123,
+      1139
+    ],
+    "assertion_position": [
+      1119,
+      1135
+    ],
+    "sentence": "Người bị cơn đau nửa đầu trái hành hạ để lâu sẽ gây ra các hậu quả nguy hiểm cho sức khỏe như [ENTITY], khó tập trung, trầm cảm thậm chí là đột quỵ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó tập trung",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1141,
+      1154
+    ],
+    "assertion_position": [
+      1137,
+      1150
+    ],
+    "sentence": "Người bị cơn đau nửa đầu trái hành hạ để lâu sẽ gây ra các hậu quả nguy hiểm cho sức khỏe như suy giảm trí nhớ, [ENTITY], trầm cảm thậm chí là đột quỵ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "trầm cảm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1156,
+      1164
+    ],
+    "assertion_position": [
+      1152,
+      1160
+    ],
+    "sentence": "Người bị cơn đau nửa đầu trái hành hạ để lâu sẽ gây ra các hậu quả nguy hiểm cho sức khỏe như suy giảm trí nhớ, khó tập trung, [ENTITY] thậm chí là đột quỵ.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đột quỵ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1177,
+      1184
+    ],
+    "assertion_position": [
+      1173,
+      1180
+    ],
+    "sentence": "Người bị cơn đau nửa đầu trái hành hạ để lâu sẽ gây ra các hậu quả nguy hiểm cho sức khỏe như suy giảm trí nhớ, khó tập trung, trầm cảm thậm chí là [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Stroke"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I639": 0.785716,
+        "G464": 0.728182,
+        "I679": 0.714014,
+        "I6782": 0.713341,
+        "G459": 0.666712
+      },
+      "rapidfuzz": {
+        "T6701XA": 0.9,
+        "T6701XD": 0.9,
+        "T6701XS": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I639",
+      "confidence": 0.715774
+    }
+  },
+  {
+    "text": "suy thoái võng mạc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1222,
+      1240
+    ],
+    "assertion_position": [
+      1218,
+      1236
+    ],
+    "sentence": "Một số trường hợp còn có biến chứng [ENTITY], mất thị lực và mù vĩnh viễn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Retinal degeneration"
+    ],
+    "retriever": {
+      "sapbert": {
+        "H3540": 0.79601,
+        "H359": 0.752957,
+        "H3550": 0.710405,
+        "H35449": 0.691554,
+        "H35439": 0.685673
+      },
+      "rapidfuzz": {
+        "H3540": 0.9,
+        "H35461": 0.9,
+        "H35462": 0.9
+      }
+    },
+    "candidate": {
+      "code": "H3540",
+      "confidence": 0.872867
+    }
+  },
+  {
+    "text": "mất thị lực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1242,
+      1253
+    ],
+    "assertion_position": [
+      1238,
+      1249
+    ],
+    "sentence": "Một số trường hợp còn có biến chứng suy thoái võng mạc, [ENTITY] và mù vĩnh viễn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mù vĩnh viễn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1257,
+      1269
+    ],
+    "assertion_position": [
+      1253,
+      1265
+    ],
+    "sentence": "Một số trường hợp còn có biến chứng suy thoái võng mạc, mất thị lực và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      1389,
+      1396
+    ],
+    "assertion_position": [
+      1377,
+      1384
+    ],
+    "sentence": "[ENTITY] (ngừng uống cách nhập viện 5 ngày).",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Gleevec"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282386": 1.0,
+        "1997267": 0.813729,
+        "284924": 0.792983,
+        "282388": 0.783785
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "404588": 0.9,
+        "404589": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282386",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "position": [
+      1438,
+      1449
+    ],
+    "assertion_position": [
+      1421,
+      1432
+    ],
+    "sentence": "[ENTITY] (ngừng uống.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "allopurinol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "519": 1.0,
+        "7820": 0.855735
+      },
+      "rapidfuzz": {
+        "519": 1.0,
+        "1154942": 0.95,
+        "813995": 0.9
+      }
+    },
+    "candidate": {
+      "code": "519",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1562,
+      1569
+    ],
+    "assertion_position": [
+      1534,
+      1541
+    ],
+    "sentence": "Lý do nhập viện: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo giácxuất",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1650,
+      1661
+    ],
+    "assertion_position": [
+      1611,
+      1622
+    ],
+    "sentence": "[ENTITY] hiện khoảng một tháng trước.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1714,
+      1741
+    ],
+    "assertion_position": [
+      1669,
+      1696
+    ],
+    "sentence": "Đã được điều trị [ENTITY], vị trí không xác định.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Urinary tract infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.874628
+    }
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1863,
+      1890
+    ],
+    "assertion_position": [
+      1806,
+      1833
+    ],
+    "sentence": "Không có thay đổi đáng kể về triệu chứng mặc dù đã điều trị [ENTITY], vị trí không xác định và ngừng thuốc giảm đau.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Urinary tract infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N390": 0.938475,
+        "P393": 0.729689,
+        "R8281": 0.726378,
+        "O8620": 0.722883,
+        "O2340": 0.716599
+      },
+      "rapidfuzz": {
+        "P393": 0.95,
+        "O2390": 0.9,
+        "O2392": 0.9
+      }
+    },
+    "candidate": {
+      "code": "N390",
+      "confidence": 0.874628
+    }
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "position": [
+      1950,
+      1957
+    ],
+    "assertion_position": [
+      1887,
+      1894
+    ],
+    "sentence": "Liều [ENTITY] đã ngừng cách nhập viện 5 ngày.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Gleevec"
+    ],
+    "retriever": {
+      "sapbert": {
+        "282386": 1.0,
+        "1997267": 0.813729,
+        "284924": 0.792983,
+        "282388": 0.783785
+      },
+      "rapidfuzz": {
+        "282386": 1.0,
+        "404588": 0.9,
+        "404589": 0.9
+      }
+    },
+    "candidate": {
+      "code": "282386",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "position": [
+      1996,
+      2007
+    ],
+    "assertion_position": [
+      1927,
+      1938
+    ],
+    "sentence": "[ENTITY] đã ngừng cách nhập viện 5 ngày.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "allopurinol"
+    ],
+    "retriever": {
+      "sapbert": {
+        "519": 1.0,
+        "7820": 0.855735
+      },
+      "rapidfuzz": {
+        "519": 1.0,
+        "1154942": 0.95,
+        "813995": 0.9
+      }
+    },
+    "candidate": {
+      "code": "519",
+      "confidence": 1.0
+    }
+  }
+]

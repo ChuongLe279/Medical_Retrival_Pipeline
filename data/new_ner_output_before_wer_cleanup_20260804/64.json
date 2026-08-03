@@ -1,0 +1,437 @@
+[
+  {
+    "text": "bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      81
+    ],
+    "assertion_position": [
+      63,
+      82
+    ],
+    "sentence": "Chào Bác sĩ, mẹ em bị [ENTITY] đã nhiều năm.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "eng_translation": [
+      "Coronary artery disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I209": 0.762008,
+        "I249": 0.730043,
+        "I519": 0.723818,
+        "I259": 0.692669,
+        "I2089": 0.664935
+      },
+      "rapidfuzz": {
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I209",
+      "confidence": 0.690602
+    }
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      203,
+      210
+    ],
+    "assertion_position": [
+      204,
+      211
+    ],
+    "sentence": "Tuy nhiên sau nhiều năm sử dụng thuốc thì mẹ em bị [ENTITY] và mẹ em đã ngừng sử dụng thuốc Vastarel.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh Graves",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      283,
+      294
+    ],
+    "assertion_position": [
+      276,
+      287
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Graves disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "H05833": 0.671795,
+        "E011": 0.645567,
+        "E010": 0.644474,
+        "E012": 0.640586,
+        "E0781": 0.630798
+      },
+      "rapidfuzz": {
+        "I69812": 0.855,
+        "I69820": 0.855,
+        "I69821": 0.855
+      }
+    },
+    "candidate": {
+      "code": "H05833",
+      "confidence": 0.60855
+    }
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      301,
+      315
+    ],
+    "assertion_position": [
+      289,
+      303
+    ],
+    "sentence": "[ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hyperlipidemia"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E785": 0.979012,
+        "E7849": 0.765059,
+        "E786": 0.760039,
+        "E782": 0.751965,
+        "E7841": 0.744404
+      },
+      "rapidfuzz": {
+        "E782": 0.95,
+        "E7849": 0.95,
+        "E785": 0.9
+      }
+    },
+    "candidate": {
+      "code": "E785",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "run rẩy tay chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      338,
+      354
+    ],
+    "assertion_position": [
+      326,
+      342
+    ],
+    "sentence": "hoặc [ENTITY], mất thăng bằng khi đi đứng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mất thăng bằng khi đi đứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      356,
+      382
+    ],
+    "assertion_position": [
+      344,
+      370
+    ],
+    "sentence": "hoặc run rẩy tay chân, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      417,
+      424
+    ],
+    "assertion_position": [
+      405,
+      412
+    ],
+    "sentence": "Như vậy Mẹ của bạn đã bắt đầu bị [ENTITY], đó có thể do tác dụng phụ của thuốc.",
+    "assertion_result": {
+      "tag": "isFamily"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      725,
+      732
+    ],
+    "assertion_position": [
+      713,
+      720
+    ],
+    "sentence": "Chờ đến sau 4 tháng nếu không đỡ hiện tượng [ENTITY] thì nên.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "position": [
+      832,
+      845
+    ],
+    "assertion_position": [
+      820,
+      833
+    ],
+    "sentence": "Đối với thuốc Nitramyl 2,5 mg/viên ([ENTITY]) thì tác dụng chủ yếu của thuốc là làm giãn mạch vành, gây tăng tưới máu cho cơ tim, dùng để ngừa cơn đau thắt ngực.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "nitroglycerin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "4917": 1.0,
+        "237098": 0.98165
+      },
+      "rapidfuzz": {
+        "4917": 1.0,
+        "316377": 0.95,
+        "316370": 0.95
+      }
+    },
+    "candidate": {
+      "code": "4917",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cơn đau thắt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      944,
+      961
+    ],
+    "assertion_position": [
+      932,
+      949
+    ],
+    "sentence": "Đối với thuốc Nitramyl 2,5 mg/viên (nitroglycerin) thì tác dụng chủ yếu của thuốc là làm giãn mạch vành, gây tăng tưới máu cho cơ tim, dùng để ngừa [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      969,
+      983
+    ],
+    "assertion_position": [
+      957,
+      971
+    ],
+    "sentence": "trong [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Coronary artery disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I209": 0.762008,
+        "I249": 0.730043,
+        "I519": 0.723818,
+        "I259": 0.692669,
+        "I2089": 0.664935
+      },
+      "rapidfuzz": {
+        "I2542": 0.857143,
+        "S55112D": 0.855,
+        "S55191D": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I209",
+      "confidence": 0.690602
+    }
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1201,
+      1208
+    ],
+    "assertion_position": [
+      1188,
+      1195
+    ],
+    "sentence": "[ENTITY], chóng mặt, buồn nôn, đỏ mặt, và tác dụng tụt huyết áp thế đứng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1210,
+      1219
+    ],
+    "assertion_position": [
+      1197,
+      1206
+    ],
+    "sentence": "đau đầu, [ENTITY], buồn nôn, đỏ mặt, và tác dụng tụt huyết áp thế đứng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1221,
+      1229
+    ],
+    "assertion_position": [
+      1208,
+      1216
+    ],
+    "sentence": "đau đầu, chóng mặt, [ENTITY], đỏ mặt, và tác dụng tụt huyết áp thế đứng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đỏ mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1231,
+      1237
+    ],
+    "assertion_position": [
+      1218,
+      1224
+    ],
+    "sentence": "đau đầu, chóng mặt, buồn nôn, [ENTITY], và tác dụng tụt huyết áp thế đứng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tụt huyết áp thế đứng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1251,
+      1272
+    ],
+    "assertion_position": [
+      1238,
+      1259
+    ],
+    "sentence": "đau đầu, chóng mặt, buồn nôn, đỏ mặt, và tác dụng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tham",
+    "type": "THUỐC",
+    "position": [
+      1628,
+      1632
+    ],
+    "assertion_position": [
+      1613,
+      1617
+    ],
+    "sentence": "Cám ơn bạn đã [ENTITY] gia chương trình.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

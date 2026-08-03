@@ -37,8 +37,8 @@
     "text": "k",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      263,
-      264
+      401,
+      402
     ],
     "retriever": {
       "sapbert": {},
@@ -89,40 +89,6 @@
     "candidate": null
   },
   {
-    "text": "kinh",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      420,
-      424
-    ],
-    "assertion_position": [
-      420,
-      424
-    ],
-    "sentence": "Em thấy sau mỗi lần uống thì em có đau bụng nhưng k chảy máu với trễ [ENTITY] ạ, kinh tới rất đều ạ.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "k",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      401,
-      402
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "tắc ống dẫn trứng",
     "type": "CHẨN_ĐOÁN",
     "position": [
@@ -156,29 +122,69 @@
     },
     "candidate": {
       "code": "N83529",
-      "confidence": 0.57054
+      "confidence": 0.57054,
+      "ranked_candidates": [
+        {
+          "code": "N83529",
+          "confidence": 0.57054
+        },
+        {
+          "code": "N971",
+          "confidence": 0.563784
+        },
+        {
+          "code": "O659",
+          "confidence": 0.553771
+        }
+      ]
     }
   },
   {
-    "text": "teo",
-    "type": "TRIỆU_CHỨNG",
+    "text": "teo niêm mạc tử cung",
+    "type": "CHẨN_ĐOÁN",
     "position": [
       801,
-      804
+      821
     ],
-    "assertion_position": [
-      790,
-      793
-    ],
-    "sentence": "Gây ra tình trạng tắc ống dẫn trứng, lạm dụng thuốc còn khiến [ENTITY] niêm mạc tử cung, không rụng trứng dẫn đến vô sinh.",
+    "sentence": "-        Gây ra tình trạng tắc ống dẫn trứng, lạm dụng thuốc còn khiến [ENTITY], không rụng trứng dẫn đến vô sinh. Nhiều trường hợp nguy hiểm còn gây ra ung thư cổ tử cung do dùng thuốc quá nhiều.",
     "assertion_result": {
       "tag": null
     },
     "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
+      "sapbert": {
+        "Q51811": 0.662099,
+        "D070": 0.646438,
+        "N912": 0.636787,
+        "N911": 0.632499,
+        "N9985": 0.632007
+      },
+      "rapidfuzz": {
+        "H47239": 0.855,
+        "H47291": 0.855,
+        "H47293": 0.855
+      }
     },
-    "candidate": null
+    "candidate": {
+      "code": "Q51811",
+      "confidence": 0.598238,
+      "ranked_candidates": [
+        {
+          "code": "Q51811",
+          "confidence": 0.598238
+        },
+        {
+          "code": "D070",
+          "confidence": 0.581794
+        },
+        {
+          "code": "N912",
+          "confidence": 0.573108
+        }
+      ]
+    },
+    "eng_translation": [
+      "Endometrial atrophy"
+    ]
   },
   {
     "text": "ung thư cổ tử cung",
@@ -214,7 +220,21 @@
     },
     "candidate": {
       "code": "C539",
-      "confidence": 0.779125
+      "confidence": 0.779125,
+      "ranked_candidates": [
+        {
+          "code": "C539",
+          "confidence": 0.779125
+        },
+        {
+          "code": "C530",
+          "confidence": 0.609225
+        },
+        {
+          "code": "D069",
+          "confidence": 0.602161
+        }
+      ]
     }
   },
   {
@@ -251,7 +271,21 @@
     },
     "candidate": {
       "code": "O0090",
-      "confidence": 0.743828
+      "confidence": 0.743828,
+      "ranked_candidates": [
+        {
+          "code": "O0090",
+          "confidence": 0.743828
+        },
+        {
+          "code": "O0091",
+          "confidence": 0.726037
+        },
+        {
+          "code": "P014",
+          "confidence": 0.699167
+        }
+      ]
     }
   },
   {
@@ -465,27 +499,6 @@
     "candidate": null
   },
   {
-    "text": "ảnh",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1082,
-      1085
-    ],
-    "assertion_position": [
-      1053,
-      1056
-    ],
-    "sentence": "Chị em sử dụng thuốc quá liều gây [ENTITY] hưởng đến tim, mạch, gan, thận.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "ban đỏ",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -552,14 +565,14 @@
     "text": "đau khi sờ nắn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1504,
-      1518
+      1657,
+      1671
     ],
     "assertion_position": [
-      1451,
-      1465
+      1586,
+      1600
     ],
-    "sentence": "Lý do nhập viện: xuất hiện nhiều ban đỏ và [ENTITY] ở vết mổ.",
+    "sentence": "bắt đầu có hiện tượng sưng nề [ENTITY] trên vùng da kèm theo ban đỏ.",
     "assertion_result": {
       "tag": null
     },
@@ -594,14 +607,14 @@
     "text": "đau khi sờ nắn",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      1657,
-      1671
+      1741,
+      1755
     ],
     "assertion_position": [
-      1586,
-      1600
+      1662,
+      1676
     ],
-    "sentence": "bắt đầu có hiện tượng sưng nề [ENTITY] trên vùng da kèm theo ban đỏ.",
+    "sentence": "tăng diện tích [ENTITY] trên vùng da kèm theo ban đỏ.",
     "assertion_result": {
       "tag": null
     },
@@ -707,27 +720,6 @@
       2040
     ],
     "sentence": "[ENTITY] xuất hiện nhiểu ở vị trí phẫu thuật.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đau khi sờ nắn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1741,
-      1755
-    ],
-    "assertion_position": [
-      1662,
-      1676
-    ],
-    "sentence": "tăng diện tích [ENTITY] trên vùng da kèm theo ban đỏ.",
     "assertion_result": {
       "tag": null
     },

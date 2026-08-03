@@ -1,27 +1,5 @@
 [
   {
-    "text": "ho",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      51,
-      53
-    ],
-    "assertion_position": [
-      39,
-      41
-    ],
-    "sentence": "[ENTITY] đái tháo đường.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "đái tháo đường",
     "type": "CHẨN_ĐOÁN",
     "position": [
@@ -55,7 +33,21 @@
     },
     "candidate": {
       "code": "R7303",
-      "confidence": 0.642354
+      "confidence": 0.642354,
+      "ranked_candidates": [
+        {
+          "code": "R7303",
+          "confidence": 0.642354
+        },
+        {
+          "code": "Z833",
+          "confidence": 0.636211
+        },
+        {
+          "code": "O24919",
+          "confidence": 0.614303
+        }
+      ]
     }
   },
   {
@@ -92,7 +84,21 @@
     },
     "candidate": {
       "code": "I10",
-      "confidence": 0.734463
+      "confidence": 0.734463,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 0.734463
+        },
+        {
+          "code": "I159",
+          "confidence": 0.669148
+        },
+        {
+          "code": "I160",
+          "confidence": 0.620398
+        }
+      ]
     }
   },
   {
@@ -129,7 +135,21 @@
     },
     "candidate": {
       "code": "E669",
-      "confidence": 0.902352
+      "confidence": 0.902352,
+      "ranked_candidates": [
+        {
+          "code": "E669",
+          "confidence": 0.902352
+        },
+        {
+          "code": "E663",
+          "confidence": 0.79528
+        },
+        {
+          "code": "E66811",
+          "confidence": 0.778514
+        }
+      ]
     }
   },
   {
@@ -187,7 +207,21 @@
     },
     "candidate": {
       "code": "202433",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "202433",
+          "confidence": 1.0
+        },
+        {
+          "code": "352523",
+          "confidence": 0.536674
+        },
+        {
+          "code": "220582",
+          "confidence": 0.533845
+        }
+      ]
     }
   },
   {
@@ -224,7 +258,21 @@
     },
     "candidate": {
       "code": "352777",
-      "confidence": 0.924624
+      "confidence": 0.924624,
+      "ranked_candidates": [
+        {
+          "code": "352777",
+          "confidence": 0.924624
+        },
+        {
+          "code": "2388175",
+          "confidence": 0.616219
+        },
+        {
+          "code": "669103",
+          "confidence": 0.511019
+        }
+      ]
     }
   },
   {
@@ -249,27 +297,6 @@
     "candidate": null
   },
   {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      51,
-      53
-    ],
-    "assertion_position": [
-      39,
-      41
-    ],
-    "sentence": "[ENTITY] đái tháo đường.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "thiếu oxy",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -281,111 +308,6 @@
       259
     ],
     "sentence": "Lý do nhập viện: ho, [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đau bụng vu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      424,
-      436
-    ],
-    "assertion_position": [
-      366,
-      378
-    ],
-    "sentence": "Một tuần nay em bị [ENTITY]̀ng thượng vị, ợ hơi, ợ chua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "thươ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      440,
-      444
-    ],
-    "assertion_position": [
-      382,
-      386
-    ],
-    "sentence": "Một tuần nay em bị đau bụng vùng [ENTITY]̣ng vị, ợ hơi, ợ chua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "vi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      165,
-      167
-    ],
-    "assertion_position": [
-      135,
-      137
-    ],
-    "sentence": "Thuốc trước khi nhập [ENTITY]ện.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "̣ hơi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      454,
-      459
-    ],
-    "assertion_position": [
-      396,
-      401
-    ],
-    "sentence": "Một tuần nay em bị đau bụng vùng thượng vị, ơ[ENTITY], ợ chua.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "̣ chua",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      462,
-      468
-    ],
-    "assertion_position": [
-      404,
-      410
-    ],
-    "sentence": "Một tuần nay em bị đau bụng vùng thượng vị, ợ hơi, ơ[ENTITY].",
     "assertion_result": {
       "tag": null
     },
@@ -598,27 +520,6 @@
     "candidate": null
   },
   {
-    "text": "ho",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      213,
-      215
-    ],
-    "assertion_position": [
-      168,
-      170
-    ],
-    "sentence": "thỉnh t[ENTITY]ảng tiêu chảy các thuốc của ông ấy.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -661,43 +562,6 @@
     "candidate": null
   },
   {
-    "text": "tiêu chảy",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      219,
-      228
-    ],
-    "assertion_position": [
-      174,
-      183
-    ],
-    "sentence": "thỉnh thoảng [ENTITY] các thuốc của ông ấy.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "eng_translation": [
-      "Diarrhea"
-    ],
-    "retriever": {
-      "sapbert": {
-        "R197": 0.983377,
-        "K591": 0.89261,
-        "K5900": 0.696563,
-        "K580": 0.656586,
-        "R150": 0.648707
-      },
-      "rapidfuzz": {
-        "P783": 0.9,
-        "R197": 0.9,
-        "K591": 0.9
-      }
-    },
-    "candidate": {
-      "code": "R197",
-      "confidence": 1.0
-    }
-  },
-  {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -730,27 +594,6 @@
       1032
     ],
     "sentence": "Phủ nhận [ENTITY]/nôn.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1141,
-      1144
-    ],
-    "assertion_position": [
-      1029,
-      1032
-    ],
-    "sentence": "Phủ nhận buồn [ENTITY]/nôn.",
     "assertion_result": {
       "tag": "isNegated"
     },
@@ -857,7 +700,21 @@
     },
     "candidate": {
       "code": "Q334",
-      "confidence": 0.901691
+      "confidence": 0.901691,
+      "ranked_candidates": [
+        {
+          "code": "Q334",
+          "confidence": 0.901691
+        },
+        {
+          "code": "J479",
+          "confidence": 0.887248
+        },
+        {
+          "code": "J471",
+          "confidence": 0.717937
+        }
+      ]
     }
   },
   {
@@ -891,7 +748,21 @@
     },
     "candidate": {
       "code": "18631",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "18631",
+          "confidence": 1.0
+        },
+        {
+          "code": "672606",
+          "confidence": 0.572571
+        },
+        {
+          "code": "1155012",
+          "confidence": 0.38
+        }
+      ]
     }
   },
   {
@@ -928,7 +799,21 @@
     },
     "candidate": {
       "code": "202433",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "202433",
+          "confidence": 1.0
+        },
+        {
+          "code": "352523",
+          "confidence": 0.536674
+        },
+        {
+          "code": "220582",
+          "confidence": 0.533845
+        }
+      ]
     }
   },
   {
@@ -965,7 +850,21 @@
     },
     "candidate": {
       "code": "352777",
-      "confidence": 0.924624
+      "confidence": 0.924624,
+      "ranked_candidates": [
+        {
+          "code": "352777",
+          "confidence": 0.924624
+        },
+        {
+          "code": "2388175",
+          "confidence": 0.616219
+        },
+        {
+          "code": "669103",
+          "confidence": 0.511019
+        }
+      ]
     }
   },
   {
@@ -1093,7 +992,21 @@
     },
     "candidate": {
       "code": "J181",
-      "confidence": 0.599956
+      "confidence": 0.599956,
+      "ranked_candidates": [
+        {
+          "code": "J181",
+          "confidence": 0.599956
+        },
+        {
+          "code": "B0681",
+          "confidence": 0.594767
+        },
+        {
+          "code": "J151",
+          "confidence": 0.570027
+        }
+      ]
     }
   }
 ]

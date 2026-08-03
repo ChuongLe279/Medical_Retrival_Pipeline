@@ -154,6 +154,7 @@ if __name__ == "__main__":
         raise FileNotFoundError(
             f"No JSON files found in: {JSON_FOLDER_PATH}"
         )
+    retrieval_cache = {}
     for file_path in json_files:
         print(f"Processing file: {file_path.name}")
 
@@ -179,22 +180,25 @@ if __name__ == "__main__":
             entity.setdefault("retriever", {})
             entity["retriever"]["sapbert"] = {}
 
-            if entity_type == "THUỐC":
-                entity["retriever"]["sapbert"] = sapbert_retrieval(
-                    vector_store=rxnorm_vector_store,
-                    texts=queries,
-                    code_key="rxcui",
-                    k=K,
-                )
-            elif entity_type == "CHẨN_ĐOÁN":
-                entity["retriever"]["sapbert"] = sapbert_retrieval(
-                    vector_store=icd10_vector_store,
-                    texts=queries,
-                    code_key="code",
-                    k=K,
-                )
-            else:
-                entity["retriever"]["sapbert"] = {}
+            cache_key = (entity_type, tuple(queries))
+            if cache_key not in retrieval_cache:
+                if entity_type == "THUỐC":
+                    retrieval_cache[cache_key] = sapbert_retrieval(
+                        vector_store=rxnorm_vector_store,
+                        texts=queries,
+                        code_key="rxcui",
+                        k=K,
+                    )
+                elif entity_type == "CHẨN_ĐOÁN":
+                    retrieval_cache[cache_key] = sapbert_retrieval(
+                        vector_store=icd10_vector_store,
+                        texts=queries,
+                        code_key="code",
+                        k=K,
+                    )
+                else:
+                    retrieval_cache[cache_key] = {}
+            entity["retriever"]["sapbert"] = dict(retrieval_cache[cache_key])
             
             
         with file_path.open("w", encoding="utf-8") as file:

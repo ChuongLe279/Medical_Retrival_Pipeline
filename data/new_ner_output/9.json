@@ -24,14 +24,14 @@
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      113,
-      116
+      138,
+      141
     ],
     "assertion_position": [
-      113,
-      116
+      138,
+      141
     ],
-    "sentence": "Từ năm 24-26 tuổi em có dấu hiệu [ENTITY] bao tử (thỉnh thoảng đau và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
+    "sentence": "Từ năm 24-26 tuổi em có dấu hiệu đau bao tử (thỉnh thoảng [ENTITY] và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
     "assertion_result": {
       "tag": "isHistorical"
     },
@@ -58,16 +58,16 @@
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      138,
-      141
+      550,
+      553
     ],
     "assertion_position": [
-      138,
-      141
+      550,
+      553
     ],
-    "sentence": "Từ năm 24-26 tuổi em có dấu hiệu đau bao tử (thỉnh thoảng [ENTITY] và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
+    "sentence": "Thay vào đó em đã chuyển về sống cùng gia đình và ăn uống rất điều độ nên hầu như em không bị [ENTITY] lại nữa.",
     "assertion_result": {
-      "tag": "isHistorical"
+      "tag": "isNegated"
     },
     "retriever": {
       "sapbert": {},
@@ -79,16 +79,16 @@
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      550,
-      553
+      659,
+      662
     ],
     "assertion_position": [
-      550,
-      553
+      658,
+      661
     ],
-    "sentence": "Thay vào đó em đã chuyển về sống cùng gia đình và ăn uống rất điều độ nên hầu như em không bị [ENTITY] lại nữa.",
+    "sentence": "Em thấy không còn bị [ENTITY] như trước và cơ thể cũng có cảm giác khỏe lên.",
     "assertion_result": {
-      "tag": "isNegated"
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -121,56 +121,14 @@
     "text": "đau",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      659,
-      662
+      1054,
+      1057
     ],
     "assertion_position": [
-      658,
-      661
+      1053,
+      1056
     ],
-    "sentence": "Em thấy không còn bị [ENTITY] như trước và cơ thể cũng có cảm giác khỏe lên.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "bụng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1034,
-      1038
-    ],
-    "assertion_position": [
-      1033,
-      1037
-    ],
-    "sentence": "Đến 21h em bắt đầu đau [ENTITY] râm ran và cơn đau càng dồn đạp đến 12h đêm.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1030,
-      1033
-    ],
-    "assertion_position": [
-      1029,
-      1032
-    ],
-    "sentence": "Đến 21h em bắt đầu [ENTITY] bụng râm ran và cơn đau càng dồn đạp đến 12h đêm.",
+    "sentence": "Đến 21h em bắt đầu đau bụng râm ran và cơn [ENTITY] càng dồn đạp đến 12h đêm.",
     "assertion_result": {
       "tag": null
     },
@@ -227,29 +185,22 @@
     },
     "candidate": {
       "code": "N200",
-      "confidence": 0.783935
+      "confidence": 0.783935,
+      "ranked_candidates": [
+        {
+          "code": "N200",
+          "confidence": 0.783935
+        },
+        {
+          "code": "N209",
+          "confidence": 0.725195
+        },
+        {
+          "code": "N219",
+          "confidence": 0.642217
+        }
+      ]
     }
-  },
-  {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1054,
-      1057
-    ],
-    "assertion_position": [
-      1053,
-      1056
-    ],
-    "sentence": "Đến 21h em bắt đầu đau bụng râm ran và cơn [ENTITY] càng dồn đạp đến 12h đêm.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "viêm bao tử",
@@ -285,7 +236,21 @@
     },
     "candidate": {
       "code": "K2970",
-      "confidence": 0.834036
+      "confidence": 0.834036,
+      "ranked_candidates": [
+        {
+          "code": "K2970",
+          "confidence": 0.834036
+        },
+        {
+          "code": "K2971",
+          "confidence": 0.617982
+        },
+        {
+          "code": "K30",
+          "confidence": 0.609556
+        }
+      ]
     }
   },
   {
@@ -348,7 +313,21 @@
     },
     "candidate": {
       "code": "1293490",
-      "confidence": 0.516807
+      "confidence": 0.516807,
+      "ranked_candidates": [
+        {
+          "code": "1293490",
+          "confidence": 0.516807
+        },
+        {
+          "code": "336345",
+          "confidence": 0.504109
+        },
+        {
+          "code": "328722",
+          "confidence": 0.481159
+        }
+      ]
     }
   },
   {
@@ -385,7 +364,21 @@
     },
     "candidate": {
       "code": "328464",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "328464",
+          "confidence": 1.0
+        },
+        {
+          "code": "863584",
+          "confidence": 1.0
+        },
+        {
+          "code": "334427",
+          "confidence": 0.880037
+        }
+      ]
     }
   },
   {
@@ -443,7 +436,21 @@
     },
     "candidate": {
       "code": "K219",
-      "confidence": 0.882871
+      "confidence": 0.882871,
+      "ranked_candidates": [
+        {
+          "code": "K219",
+          "confidence": 0.882871
+        },
+        {
+          "code": "K2100",
+          "confidence": 0.809905
+        },
+        {
+          "code": "K2101",
+          "confidence": 0.722859
+        }
+      ]
     }
   },
   {

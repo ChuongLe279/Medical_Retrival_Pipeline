@@ -96,7 +96,21 @@
     },
     "candidate": {
       "code": "A084",
-      "confidence": 0.89733
+      "confidence": 0.89733,
+      "ranked_candidates": [
+        {
+          "code": "A084",
+          "confidence": 0.89733
+        },
+        {
+          "code": "A09",
+          "confidence": 0.736003
+        },
+        {
+          "code": "A0839",
+          "confidence": 0.691582
+        }
+      ]
     }
   },
   {
@@ -154,7 +168,21 @@
     },
     "candidate": {
       "code": "K589",
-      "confidence": 0.902241
+      "confidence": 0.902241,
+      "ranked_candidates": [
+        {
+          "code": "K589",
+          "confidence": 0.902241
+        },
+        {
+          "code": "K581",
+          "confidence": 0.861051
+        },
+        {
+          "code": "K582",
+          "confidence": 0.850706
+        }
+      ]
     }
   },
   {
@@ -191,7 +219,21 @@
     },
     "candidate": {
       "code": "K589",
-      "confidence": 0.902241
+      "confidence": 0.902241,
+      "ranked_candidates": [
+        {
+          "code": "K589",
+          "confidence": 0.902241
+        },
+        {
+          "code": "K581",
+          "confidence": 0.861051
+        },
+        {
+          "code": "K582",
+          "confidence": 0.850706
+        }
+      ]
     }
   },
   {
@@ -208,12 +250,54 @@
     "candidate": null
   },
   {
+    "text": "loét tá tràng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      390,
+      403
+    ],
+    "assertion_position": [
+      357,
+      370
+    ],
+    "sentence": "Nội soi (cách đây vài năm, phát hiện [ENTITY]).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
     "text": "Nội soi",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
       411,
       418
     ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "loét tá tràng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      435,
+      448
+    ],
+    "assertion_position": [
+      397,
+      410
+    ],
+    "sentence": "Nội soi (cho thấy nhiều [ENTITY] và hồi tràng).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -267,7 +351,21 @@
     },
     "candidate": {
       "code": "K2090",
-      "confidence": 0.730961
+      "confidence": 0.730961,
+      "ranked_candidates": [
+        {
+          "code": "K2090",
+          "confidence": 0.730961
+        },
+        {
+          "code": "K2091",
+          "confidence": 0.67836
+        },
+        {
+          "code": "K229",
+          "confidence": 0.617518
+        }
+      ]
     }
   },
   {
@@ -301,7 +399,21 @@
     },
     "candidate": {
       "code": "7646",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "7646",
+          "confidence": 1.0
+        },
+        {
+          "code": "283742",
+          "confidence": 1.0
+        },
+        {
+          "code": "343355",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -368,40 +480,54 @@
     "candidate": null
   },
   {
-    "text": "viêm dạ dày ruột",
+    "text": "viêm dạ dày ruột do virus",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      144,
-      160
+      842,
+      867
     ],
     "assertion_position": [
-      127,
-      143
+      776,
+      801
     ],
-    "sentence": "Nôn ra máu 2 tuần sau tập [ENTITY] do virus.",
+    "sentence": "Tập [ENTITY] (trong năm nay).",
     "assertion_result": {
       "tag": null
     },
     "eng_translation": [
-      "Gastroenteritis"
+      "Viral gastroenteritis"
     ],
     "retriever": {
       "sapbert": {
-        "A09": 0.762749,
-        "K529": 0.732292,
-        "A049": 0.666311,
-        "R197": 0.665124,
-        "K929": 0.659685
+        "A084": 0.825803,
+        "A0839": 0.768424,
+        "B341": 0.760717,
+        "A09": 0.722781,
+        "A0831": 0.685234
       },
       "rapidfuzz": {
-        "K5289": 0.9,
-        "K529": 0.9,
-        "K5281": 0.9
+        "A09": 0.855,
+        "A084": 0.855,
+        "A99": 0.855
       }
     },
     "candidate": {
-      "code": "K529",
-      "confidence": 0.809063
+      "code": "A084",
+      "confidence": 0.89733,
+      "ranked_candidates": [
+        {
+          "code": "A084",
+          "confidence": 0.89733
+        },
+        {
+          "code": "A09",
+          "confidence": 0.736003
+        },
+        {
+          "code": "A0839",
+          "confidence": 0.691582
+        }
+      ]
     }
   },
   {
@@ -450,64 +576,6 @@
     "text": "viêm dạ dày ruột do virus",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      842,
-      867
-    ],
-    "assertion_position": [
-      776,
-      801
-    ],
-    "sentence": "Tập [ENTITY] (trong năm nay).",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Viral gastroenteritis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "A084": 0.825803,
-        "A0839": 0.768424,
-        "B341": 0.760717,
-        "A09": 0.722781,
-        "A0831": 0.685234
-      },
-      "rapidfuzz": {
-        "A09": 0.855,
-        "A084": 0.855,
-        "A99": 0.855
-      }
-    },
-    "candidate": {
-      "code": "A084",
-      "confidence": 0.89733
-    }
-  },
-  {
-    "text": "Nôn ra máu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1008,
-      1018
-    ],
-    "assertion_position": [
-      932,
-      942
-    ],
-    "sentence": "[ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "viêm dạ dày ruột do virus",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
       975,
       1000
     ],
@@ -538,7 +606,93 @@
     },
     "candidate": {
       "code": "A084",
-      "confidence": 0.89733
+      "confidence": 0.89733,
+      "ranked_candidates": [
+        {
+          "code": "A084",
+          "confidence": 0.89733
+        },
+        {
+          "code": "A09",
+          "confidence": 0.736003
+        },
+        {
+          "code": "A0839",
+          "confidence": 0.691582
+        }
+      ]
+    }
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1008,
+      1018
+    ],
+    "assertion_position": [
+      932,
+      942
+    ],
+    "sentence": "[ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm dạ dày ruột",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1035,
+      1051
+    ],
+    "assertion_position": [
+      959,
+      975
+    ],
+    "sentence": "Nôn ra máu (2 tuần sau tập [ENTITY] do virus).",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Gastroenteritis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "A09": 0.762749,
+        "K529": 0.732292,
+        "A049": 0.666311,
+        "R197": 0.665124,
+        "K929": 0.659685
+      },
+      "rapidfuzz": {
+        "K5289": 0.9,
+        "K529": 0.9,
+        "K5281": 0.9
+      }
+    },
+    "candidate": {
+      "code": "K529",
+      "confidence": 0.809063,
+      "ranked_candidates": [
+        {
+          "code": "K529",
+          "confidence": 0.809063
+        },
+        {
+          "code": "A09",
+          "confidence": 0.691043
+        },
+        {
+          "code": "A049",
+          "confidence": 0.59968
+        }
+      ]
     }
   },
   {
@@ -635,7 +789,21 @@
     },
     "candidate": {
       "code": "7646",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "7646",
+          "confidence": 1.0
+        },
+        {
+          "code": "283742",
+          "confidence": 1.0
+        },
+        {
+          "code": "343355",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -714,29 +882,22 @@
     },
     "candidate": {
       "code": "K589",
-      "confidence": 0.902241
+      "confidence": 0.902241,
+      "ranked_candidates": [
+        {
+          "code": "K589",
+          "confidence": 0.902241
+        },
+        {
+          "code": "K581",
+          "confidence": 0.861051
+        },
+        {
+          "code": "K582",
+          "confidence": 0.850706
+        }
+      ]
     }
-  },
-  {
-    "text": "loét tá",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      390,
-      397
-    ],
-    "assertion_position": [
-      357,
-      364
-    ],
-    "sentence": "Nội soi (cách đây vài năm, phát hiện [ENTITY] tràng).",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "nội soi",
@@ -755,14 +916,14 @@
     "text": "viêm dạ dày ruột",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      842,
-      858
+      1406,
+      1422
     ],
     "assertion_position": [
-      776,
-      792
+      1306,
+      1322
     ],
-    "sentence": "Tập [ENTITY] do virus (trong năm nay).",
+    "sentence": "Trong năm nay: không thể giữ được bất cứ thứ gì, chẩn đoán [ENTITY] do virus.",
     "assertion_result": {
       "tag": null
     },
@@ -785,21 +946,35 @@
     },
     "candidate": {
       "code": "K529",
-      "confidence": 0.809063
+      "confidence": 0.809063,
+      "ranked_candidates": [
+        {
+          "code": "K529",
+          "confidence": 0.809063
+        },
+        {
+          "code": "A09",
+          "confidence": 0.691043
+        },
+        {
+          "code": "A049",
+          "confidence": 0.59968
+        }
+      ]
     }
   },
   {
     "text": "viêm dạ dày ruột",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      975,
-      991
+      1460,
+      1476
     ],
     "assertion_position": [
-      904,
-      920
+      1353,
+      1369
     ],
-    "sentence": "Tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn và tiêu chảy (2 tuần sau tập [ENTITY] do virus).",
+    "sentence": "2 tuần sau điều trị [ENTITY] do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, tiêu chảy, nôn ra máu.",
     "assertion_result": {
       "tag": null
     },
@@ -822,7 +997,21 @@
     },
     "candidate": {
       "code": "K529",
-      "confidence": 0.809063
+      "confidence": 0.809063,
+      "ranked_candidates": [
+        {
+          "code": "K529",
+          "confidence": 0.809063
+        },
+        {
+          "code": "A09",
+          "confidence": 0.691043
+        },
+        {
+          "code": "A049",
+          "confidence": 0.59968
+        }
+      ]
     }
   },
   {
@@ -902,27 +1091,6 @@
     "candidate": null
   },
   {
-    "text": "loét tá tràng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      390,
-      403
-    ],
-    "assertion_position": [
-      357,
-      370
-    ],
-    "sentence": "Nội soi (cách đây vài năm, phát hiện [ENTITY]).",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "omeprazole",
     "type": "THUỐC",
     "position": [
@@ -953,7 +1121,21 @@
     },
     "candidate": {
       "code": "7646",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "7646",
+          "confidence": 1.0
+        },
+        {
+          "code": "283742",
+          "confidence": 1.0
+        },
+        {
+          "code": "343355",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -987,7 +1169,21 @@
     },
     "candidate": {
       "code": "7646",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "7646",
+          "confidence": 1.0
+        },
+        {
+          "code": "283742",
+          "confidence": 1.0
+        },
+        {
+          "code": "343355",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -1078,14 +1274,14 @@
     "text": "viêm dạ dày ruột",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      1035,
-      1051
+      2025,
+      2041
     ],
     "assertion_position": [
-      959,
-      975
+      1862,
+      1878
     ],
-    "sentence": "Nôn ra máu (2 tuần sau tập [ENTITY] do virus).",
+    "sentence": "Chẩn đoán [ENTITY] do virus (trong năm nay).",
     "assertion_result": {
       "tag": null
     },
@@ -1108,7 +1304,21 @@
     },
     "candidate": {
       "code": "K529",
-      "confidence": 0.809063
+      "confidence": 0.809063,
+      "ranked_candidates": [
+        {
+          "code": "K529",
+          "confidence": 0.809063
+        },
+        {
+          "code": "A09",
+          "confidence": 0.691043
+        },
+        {
+          "code": "A049",
+          "confidence": 0.59968
+        }
+      ]
     }
   },
   {
@@ -1157,172 +1367,6 @@
     "text": "viêm dạ dày ruột",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      1406,
-      1422
-    ],
-    "assertion_position": [
-      1306,
-      1322
-    ],
-    "sentence": "Trong năm nay: không thể giữ được bất cứ thứ gì, chẩn đoán [ENTITY] do virus.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Gastroenteritis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "A09": 0.762749,
-        "K529": 0.732292,
-        "A049": 0.666311,
-        "R197": 0.665124,
-        "K929": 0.659685
-      },
-      "rapidfuzz": {
-        "K5289": 0.9,
-        "K529": 0.9,
-        "K5281": 0.9
-      }
-    },
-    "candidate": {
-      "code": "K529",
-      "confidence": 0.809063
-    }
-  },
-  {
-    "text": "nôn ra máu",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2204,
-      2214
-    ],
-    "assertion_position": [
-      2031,
-      2041
-    ],
-    "sentence": "Nhập viện vì [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "viêm dạ dày ruột",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1460,
-      1476
-    ],
-    "assertion_position": [
-      1353,
-      1369
-    ],
-    "sentence": "2 tuần sau điều trị [ENTITY] do virus: tiếp tục khó khăn khi ăn uống qua đường miệng, buồn nôn, tiêu chảy, nôn ra máu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Gastroenteritis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "A09": 0.762749,
-        "K529": 0.732292,
-        "A049": 0.666311,
-        "R197": 0.665124,
-        "K929": 0.659685
-      },
-      "rapidfuzz": {
-        "K5289": 0.9,
-        "K529": 0.9,
-        "K5281": 0.9
-      }
-    },
-    "candidate": {
-      "code": "K529",
-      "confidence": 0.809063
-    }
-  },
-  {
-    "text": "nội soi",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      2264,
-      2271
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "loét tá tràng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      435,
-      448
-    ],
-    "assertion_position": [
-      397,
-      410
-    ],
-    "sentence": "Nội soi (cho thấy nhiều [ENTITY] và hồi tràng).",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "viêm dạ dày ruột",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2025,
-      2041
-    ],
-    "assertion_position": [
-      1862,
-      1878
-    ],
-    "sentence": "Chẩn đoán [ENTITY] do virus (trong năm nay).",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Gastroenteritis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "A09": 0.762749,
-        "K529": 0.732292,
-        "A049": 0.666311,
-        "R197": 0.665124,
-        "K929": 0.659685
-      },
-      "rapidfuzz": {
-        "K5289": 0.9,
-        "K529": 0.9,
-        "K5281": 0.9
-      }
-    },
-    "candidate": {
-      "code": "K529",
-      "confidence": 0.809063
-    }
-  },
-  {
-    "text": "viêm dạ dày ruột",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
       2158,
       2174
     ],
@@ -1353,8 +1397,56 @@
     },
     "candidate": {
       "code": "K529",
-      "confidence": 0.809063
+      "confidence": 0.809063,
+      "ranked_candidates": [
+        {
+          "code": "K529",
+          "confidence": 0.809063
+        },
+        {
+          "code": "A09",
+          "confidence": 0.691043
+        },
+        {
+          "code": "A049",
+          "confidence": 0.59968
+        }
+      ]
     }
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2204,
+      2214
+    ],
+    "assertion_position": [
+      2031,
+      2041
+    ],
+    "sentence": "Nhập viện vì [ENTITY] (2 tuần sau tập viêm dạ dày ruột do virus).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2264,
+      2271
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "omeprazole",
@@ -1387,7 +1479,21 @@
     },
     "candidate": {
       "code": "7646",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "7646",
+          "confidence": 1.0
+        },
+        {
+          "code": "283742",
+          "confidence": 1.0
+        },
+        {
+          "code": "343355",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -1463,7 +1569,21 @@
     },
     "candidate": {
       "code": "7646",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "7646",
+          "confidence": 1.0
+        },
+        {
+          "code": "283742",
+          "confidence": 1.0
+        },
+        {
+          "code": "343355",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -1488,9 +1608,9 @@
       "sapbert": {
         "C73": 0.91154,
         "D440": 0.645328,
+        "Z85850": 0.617578,
         "A1881": 0.615271,
-        "D34": 0.614837,
-        "C712": 0.614642
+        "D34": 0.614837
       },
       "rapidfuzz": {
         "Z85850": 0.855,
@@ -1500,30 +1620,22 @@
     },
     "candidate": {
       "code": "C73",
-      "confidence": 0.850386
+      "confidence": 0.850386,
+      "ranked_candidates": [
+        {
+          "code": "C73",
+          "confidence": 0.850386
+        },
+        {
+          "code": "Z85850",
+          "confidence": 0.64132
+        },
+        {
+          "code": "D440",
+          "confidence": 0.580795
+        }
+      ]
     }
-  },
-  {
-    "text": "bình",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      3030,
-      3034
-    ],
-    "assertion_position": [
-      2837,
-      2841
-    ],
-    "sentence": "Chào bạn, bạn mắc ung thư tuyến giáp và chắc đã phẫu thuật, hiện bác sĩ đang kê đơn cho bạn uống levothyroxine với liều 75 microgam/ngày (lưu ý: một viên thuốc Berlthyrox có hàm lượng là 100 microgam chứ không phải 100 miligam như bạn đã nói), là hormone tuyến giáp tổng hợp, nhằm bù lại lượng hormone giáp cơ thể không thể sản sinh ra để duy trì trạng thái sinh lý cân bằng của chức năng tuyến giáp (còn gọi là trạng thái [ENTITY] giáp).",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "Viêm thực quản",
@@ -1559,124 +1671,21 @@
     },
     "candidate": {
       "code": "K2090",
-      "confidence": 0.730961
-    }
-  },
-  {
-    "text": "C",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      21,
-      22
-    ],
-    "assertion_position": [
-      14,
-      15
-    ],
-    "sentence": "[ENTITY]ác tập phát bệnh tương tự trước đây.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "quản",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      488,
-      492
-    ],
-    "assertion_position": [
-      445,
-      449
-    ],
-    "sentence": "nội soi (Viêm thực [ENTITY] độ C, loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm).",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Esophagitis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K2090": 0.803829,
-        "K2091": 0.753733,
-        "K229": 0.686131,
-        "K200": 0.681128,
-        "K2080": 0.66687
-      },
-      "rapidfuzz": {
-        "B3781": 0.9,
-        "K2101": 0.9,
-        "K219": 0.9
-      }
-    },
-    "candidate": {
-      "code": "K2090",
-      "confidence": 0.730961
-    }
-  },
-  {
-    "text": "loét",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      390,
-      394
-    ],
-    "assertion_position": [
-      357,
-      361
-    ],
-    "sentence": "Nội soi (cách đây vài năm, phát hiện [ENTITY] tá tràng).",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "thực quản",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      483,
-      492
-    ],
-    "assertion_position": [
-      440,
-      449
-    ],
-    "sentence": "nội soi (Viêm [ENTITY] độ C, loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm).",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [
-      "Esophagitis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K2090": 0.803829,
-        "K2091": 0.753733,
-        "K229": 0.686131,
-        "K200": 0.681128,
-        "K2080": 0.66687
-      },
-      "rapidfuzz": {
-        "B3781": 0.9,
-        "K2101": 0.9,
-        "K219": 0.9
-      }
-    },
-    "candidate": {
-      "code": "K2090",
-      "confidence": 0.730961
+      "confidence": 0.730961,
+      "ranked_candidates": [
+        {
+          "code": "K2090",
+          "confidence": 0.730961
+        },
+        {
+          "code": "K2091",
+          "confidence": 0.67836
+        },
+        {
+          "code": "K229",
+          "confidence": 0.617518
+        }
+      ]
     }
   }
 ]

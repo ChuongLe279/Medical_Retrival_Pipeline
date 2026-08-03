@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "J849",
-      "confidence": 0.864604
+      "confidence": 0.864604,
+      "ranked_candidates": [
+        {
+          "code": "J849",
+          "confidence": 0.864604
+        },
+        {
+          "code": "J84115",
+          "confidence": 0.846862
+        },
+        {
+          "code": "J84170",
+          "confidence": 0.746367
+        }
+      ]
     }
   },
   {
@@ -70,7 +84,21 @@
     },
     "candidate": {
       "code": "E669",
-      "confidence": 0.902352
+      "confidence": 0.902352,
+      "ranked_candidates": [
+        {
+          "code": "E669",
+          "confidence": 0.902352
+        },
+        {
+          "code": "E663",
+          "confidence": 0.79528
+        },
+        {
+          "code": "E66811",
+          "confidence": 0.778514
+        }
+      ]
     }
   },
   {
@@ -107,7 +135,21 @@
     },
     "candidate": {
       "code": "I10",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 1.0
+        },
+        {
+          "code": "I159",
+          "confidence": 0.681551
+        },
+        {
+          "code": "I160",
+          "confidence": 0.649275
+        }
+      ]
     }
   },
   {
@@ -144,7 +186,21 @@
     },
     "candidate": {
       "code": "151399",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "151399",
+          "confidence": 1.0
+        },
+        {
+          "code": "91920",
+          "confidence": 0.57731
+        },
+        {
+          "code": "1427187",
+          "confidence": 0.55519
+        }
+      ]
     }
   },
   {
@@ -178,65 +234,73 @@
     },
     "candidate": {
       "code": "3640",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "3640",
+          "confidence": 1.0
+        },
+        {
+          "code": "1545992",
+          "confidence": 0.564611
+        },
+        {
+          "code": "1160779",
+          "confidence": 0.38
+        }
+      ]
     }
   },
   {
-    "text": "Suy",
+    "text": "viêm mô tế bào",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      478,
-      481
+      976,
+      990
     ],
     "assertion_position": [
-      421,
-      424
+      907,
+      921
     ],
-    "sentence": "[ENTITY] giảm miễn dịch do sử dụng corticoid kéo dài.",
+    "sentence": "Sau đó được bác sĩ điều trị khám và tăng liều cotrimoxazol, đồng thời bổ sung doxycyclin do nghi ngờ [ENTITY].",
     "assertion_result": {
-      "tag": "isHistorical"
+      "tag": "isUncertain"
     },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đồng",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      935,
-      939
+    "eng_translation": [
+      "Cellulitis"
     ],
     "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
+      "sapbert": {
+        "L0390": 0.990185,
+        "L03119": 0.789576,
+        "L03818": 0.778997,
+        "L080": 0.693834,
+        "M609": 0.655382
+      },
+      "rapidfuzz": {
+        "L03314": 0.9,
+        "L03315": 0.9,
+        "H6011": 0.9
+      }
     },
-    "candidate": null
-  },
-  {
-    "text": "mô",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      609,
-      611
-    ],
-    "assertion_position": [
-      546,
-      548
-    ],
-    "sentence": "Lý do nhập viện: Tình trạng tổn thương vùng âm hộ và [ENTITY]ng bên phải ngày càng nặng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
+    "candidate": {
+      "code": "L0390",
+      "confidence": 0.921166,
+      "ranked_candidates": [
+        {
+          "code": "L0390",
+          "confidence": 0.921166
+        },
+        {
+          "code": "L03119",
+          "confidence": 0.710618
+        },
+        {
+          "code": "L03818",
+          "confidence": 0.701097
+        }
+      ]
+    }
   },
   {
     "text": "ban đỏ",
@@ -419,7 +483,21 @@
     },
     "candidate": {
       "code": "151399",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "151399",
+          "confidence": 1.0
+        },
+        {
+          "code": "91920",
+          "confidence": 0.57731
+        },
+        {
+          "code": "1427187",
+          "confidence": 0.55519
+        }
+      ]
     }
   },
   {
@@ -453,66 +531,22 @@
     },
     "candidate": {
       "code": "3640",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "3640",
+          "confidence": 1.0
+        },
+        {
+          "code": "1545992",
+          "confidence": 0.564611
+        },
+        {
+          "code": "1160779",
+          "confidence": 0.38
+        }
+      ]
     }
-  },
-  {
-    "text": "viêm mô tế bào",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      976,
-      990
-    ],
-    "assertion_position": [
-      907,
-      921
-    ],
-    "sentence": "Sau đó được bác sĩ điều trị khám và tăng liều cotrimoxazol, đồng thời bổ sung doxycyclin do nghi ngờ [ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Cellulitis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "L0390": 0.990185,
-        "L03119": 0.789576,
-        "L03818": 0.778997,
-        "L080": 0.693834,
-        "M609": 0.655382
-      },
-      "rapidfuzz": {
-        "L03314": 0.9,
-        "L03315": 0.9,
-        "H6011": 0.9
-      }
-    },
-    "candidate": {
-      "code": "L0390",
-      "confidence": 0.921166
-    }
-  },
-  {
-    "text": "ban đỏ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2083,
-      2089
-    ],
-    "assertion_position": [
-      1962,
-      1968
-    ],
-    "sentence": "Báo cáo có cải thiện một phần về [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "Viêm mô tế bào",
@@ -548,8 +582,43 @@
     },
     "candidate": {
       "code": "L0390",
-      "confidence": 0.921166
+      "confidence": 0.921166,
+      "ranked_candidates": [
+        {
+          "code": "L0390",
+          "confidence": 0.921166
+        },
+        {
+          "code": "L03119",
+          "confidence": 0.710618
+        },
+        {
+          "code": "L03818",
+          "confidence": 0.701097
+        }
+      ]
     }
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2083,
+      2089
+    ],
+    "assertion_position": [
+      1962,
+      1968
+    ],
+    "sentence": "Báo cáo có cải thiện một phần về [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
   },
   {
     "text": "Bệnh thủy đậu",
@@ -585,7 +654,21 @@
     },
     "candidate": {
       "code": "B019",
-      "confidence": 0.884827
+      "confidence": 0.884827,
+      "ranked_candidates": [
+        {
+          "code": "B019",
+          "confidence": 0.884827
+        },
+        {
+          "code": "B0111",
+          "confidence": 0.710497
+        },
+        {
+          "code": "B001",
+          "confidence": 0.680438
+        }
+      ]
     }
   }
 ]

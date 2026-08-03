@@ -1,0 +1,849 @@
+[
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      47
+    ],
+    "assertion_position": [
+      36,
+      44
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Atrial fibrillation"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I4891": 0.978406,
+        "I4821": 0.816261,
+        "I480": 0.816079,
+        "I4820": 0.803449,
+        "I4901": 0.799594
+      },
+      "rapidfuzz": {
+        "I4820": 0.9,
+        "I4821": 0.9,
+        "I4891": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I4891",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      50,
+      63
+    ],
+    "assertion_position": [
+      46,
+      59
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Hypertension"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I10": 0.805703,
+        "I159": 0.743498,
+        "I160": 0.689331,
+        "I150": 0.684921,
+        "I169": 0.681309
+      },
+      "rapidfuzz": {
+        "H40052": 0.9,
+        "H40053": 0.9,
+        "H40051": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I10",
+      "confidence": 0.734463
+    }
+  },
+  {
+    "text": "suy tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      66,
+      73
+    ],
+    "assertion_position": [
+      61,
+      68
+    ],
+    "sentence": "[ENTITY], không đặc hiệu.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Heart failure"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I509": 0.984625,
+        "I5084": 0.853405,
+        "I5089": 0.777315,
+        "I501": 0.76459,
+        "I5082": 0.7478
+      },
+      "rapidfuzz": {
+        "I5089": 0.95,
+        "I110": 0.9,
+        "I0981": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I509",
+      "confidence": 0.905845
+    }
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      92,
+      99
+    ],
+    "assertion_position": [
+      86,
+      93
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Obesity"
+    ],
+    "retriever": {
+      "sapbert": {
+        "E669": 0.985618,
+        "E663": 0.883644,
+        "E66811": 0.865016,
+        "E66813": 0.861392,
+        "E66812": 0.832182
+      },
+      "rapidfuzz": {
+        "E8882": 0.9,
+        "O99211": 0.9,
+        "Z152": 0.9
+      }
+    },
+    "candidate": {
+      "code": "E669",
+      "confidence": 0.902352
+    }
+  },
+  {
+    "text": "nhiều dầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      129,
+      138
+    ],
+    "assertion_position": [
+      123,
+      132
+    ],
+    "sentence": "Cháu năm nay 18 tuổi da rất [ENTITY] và bị mụn trứng cá từ năm lớp 8.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mụn trứng cá",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      145,
+      157
+    ],
+    "assertion_position": [
+      139,
+      151
+    ],
+    "sentence": "Cháu năm nay 18 tuổi da rất nhiều dầu và bị [ENTITY] từ năm lớp 8.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mụn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      283,
+      286
+    ],
+    "assertion_position": [
+      277,
+      280
+    ],
+    "sentence": "Đến năm lớp 11 cháu đi khám da liễu, thì sau khoảng 3 tháng điều trị da cháu ít dầu hơn và dường như không còn [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mụn ở trán",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      342,
+      352
+    ],
+    "assertion_position": [
+      336,
+      346
+    ],
+    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm [ENTITY], má, 2 bên quai hàm và cằm, hầu như là mụn cám và mụn đầu trắng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mụn cám",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      392,
+      399
+    ],
+    "assertion_position": [
+      386,
+      393
+    ],
+    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là [ENTITY] và mụn đầu trắng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mụn đầu trắng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      403,
+      416
+    ],
+    "assertion_position": [
+      397,
+      410
+    ],
+    "sentence": "Nhưng sau 6 tháng da cháu bắt đầu lên mụn trở lại gồm mụn ở trán, má, 2 bên quai hàm và cằm, hầu như là mụn cám và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      720,
+      727
+    ],
+    "assertion_position": [
+      711,
+      718
+    ],
+    "sentence": "[ENTITY] và weak.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "weak",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      731,
+      735
+    ],
+    "assertion_position": [
+      722,
+      726
+    ],
+    "sentence": "mệt mỏi và [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngủ quên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      751,
+      759
+    ],
+    "assertion_position": [
+      741,
+      749
+    ],
+    "sentence": "Thường xuyên [ENTITY] hoặc có thể ngất xỉu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      772,
+      780
+    ],
+    "assertion_position": [
+      762,
+      770
+    ],
+    "sentence": "Thường xuyên ngủ quên hoặc có thể [ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Đau buốt khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      829,
+      849
+    ],
+    "assertion_position": [
+      817,
+      837
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      852,
+      859
+    ],
+    "assertion_position": [
+      839,
+      846
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nôn từng đợt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      862,
+      874
+    ],
+    "assertion_position": [
+      848,
+      860
+    ],
+    "sentence": "[ENTITY] sau khi ăn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      909,
+      917
+    ],
+    "assertion_position": [
+      895,
+      903
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "tê bì ở cánh tay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1033,
+      1049
+    ],
+    "assertion_position": [
+      1013,
+      1029
+    ],
+    "sentence": "kèm theo [ENTITY] trái trên và đau ở cánh tay trái dưới và bàn tay.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ở cánh tay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1063,
+      1077
+    ],
+    "assertion_position": [
+      1043,
+      1057
+    ],
+    "sentence": "kèm theo tê bì ở cánh tay trái trên và [ENTITY] trái dưới và bàn tay.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau rát khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1290,
+      1309
+    ],
+    "assertion_position": [
+      1260,
+      1279
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1373,
+      1380
+    ],
+    "assertion_position": [
+      1337,
+      1344
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1427,
+      1435
+    ],
+    "assertion_position": [
+      1388,
+      1396
+    ],
+    "sentence": "cơn [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhớ đập đầu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1527,
+      1538
+    ],
+    "assertion_position": [
+      1484,
+      1495
+    ],
+    "sentence": "va phải cánh tay phải và bụng phải nhưng không [ENTITY].",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1554,
+      1569
+    ],
+    "assertion_position": [
+      1510,
+      1525
+    ],
+    "sentence": "không nhớ bị [ENTITY], chóng mặt trước khi bị ngã.",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1571,
+      1580
+    ],
+    "assertion_position": [
+      1527,
+      1536
+    ],
+    "sentence": "không nhớ bị đánh trống ngực, [ENTITY] trước khi bị ngã.",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1594,
+      1597
+    ],
+    "assertion_position": [
+      1550,
+      1553
+    ],
+    "sentence": "không nhớ bị đánh trống ngực, chóng mặt trước khi bị [ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lasix",
+    "type": "THUỐC",
+    "position": [
+      1659,
+      1664
+    ],
+    "assertion_position": [
+      1615,
+      1620
+    ],
+    "sentence": "Bệnh nhân đã dùng thêm 80mg po [ENTITY] ở nhà mà không có tác dụng.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Lasix"
+    ],
+    "retriever": {
+      "sapbert": {
+        "202991": 1.0,
+        "2735130": 0.843701,
+        "2739320": 0.690308,
+        "1364397": 0.680973,
+        "669533": 0.66056
+      },
+      "rapidfuzz": {
+        "202991": 1.0,
+        "565458": 0.9,
+        "1175645": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202991",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "lasix",
+    "type": "THUỐC",
+    "position": [
+      1939,
+      1944
+    ],
+    "assertion_position": [
+      1889,
+      1894
+    ],
+    "sentence": "Nhận 80mg [ENTITY] iv.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Lasix"
+    ],
+    "retriever": {
+      "sapbert": {
+        "202991": 1.0,
+        "2735130": 0.843701,
+        "2739320": 0.690308,
+        "1364397": 0.680973,
+        "669533": 0.66056
+      },
+      "rapidfuzz": {
+        "202991": 1.0,
+        "565458": 0.9,
+        "1175645": 0.9
+      }
+    },
+    "candidate": {
+      "code": "202991",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "dilaudid",
+    "type": "THUỐC",
+    "position": [
+      1979,
+      1987
+    ],
+    "assertion_position": [
+      1927,
+      1935
+    ],
+    "sentence": "Nhận 1mg [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Dilaudid"
+    ],
+    "retriever": {
+      "sapbert": {
+        "224913": 1.0,
+        "216611": 0.9358,
+        "216610": 0.926379,
+        "358355": 0.919615,
+        "605270": 0.780929
+      },
+      "rapidfuzz": {
+        "224913": 1.0,
+        "368895": 0.9,
+        "2657343": 0.9
+      }
+    },
+    "candidate": {
+      "code": "224913",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2081,
+      2088
+    ],
+    "assertion_position": [
+      2027,
+      2034
+    ],
+    "sentence": "Với ntg [ENTITY] cải thiện nhưng đau ngực vẫn còn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2105,
+      2113
+    ],
+    "assertion_position": [
+      2051,
+      2059
+    ],
+    "sentence": "Với ntg khó thở cải thiện nhưng [ENTITY] vẫn còn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2132,
+      2139
+    ],
+    "assertion_position": [
+      2077,
+      2084
+    ],
+    "sentence": "Với ntg [ENTITY] cải thiện nhưng đau ngực vẫn còn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2156,
+      2164
+    ],
+    "assertion_position": [
+      2101,
+      2109
+    ],
+    "sentence": "Với ntg khó thở cải thiện nhưng [ENTITY] vẫn còn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhịp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2175,
+      2179
+    ],
+    "assertion_position": [
+      2119,
+      2123
+    ],
+    "sentence": "[ENTITY] tim cải thiện thành.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

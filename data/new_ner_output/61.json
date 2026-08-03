@@ -33,7 +33,21 @@
     },
     "candidate": {
       "code": "194722",
-      "confidence": 0.615814
+      "confidence": 0.615814,
+      "ranked_candidates": [
+        {
+          "code": "194722",
+          "confidence": 0.615814
+        },
+        {
+          "code": "322751",
+          "confidence": 0.536745
+        },
+        {
+          "code": "2739838",
+          "confidence": 0.421478
+        }
+      ]
     }
   },
   {
@@ -58,17 +72,17 @@
     "candidate": null
   },
   {
-    "text": "khó khăn",
+    "text": "khó khăn khi ra khỏi",
     "type": "TRIỆU_CHỨNG",
     "position": [
       639,
-      647
+      659
     ],
     "assertion_position": [
       628,
-      636
+      648
     ],
-    "sentence": "Hôm nay, bệnh nhân đến khoa Cấp cứu khám vì tình trạng mệt mỏi kéo dài trong vài ngày, kèm theo [ENTITY] khi ra khỏi giường vào sáng nay.",
+    "sentence": "Hôm nay, bệnh nhân đến khoa Cấp cứu khám vì tình trạng mệt mỏi kéo dài trong vài ngày, kèm theo [ENTITY] giường vào sáng nay.",
     "assertion_result": {
       "tag": null
     },
@@ -79,17 +93,17 @@
     "candidate": null
   },
   {
-    "text": "đau bụng gián",
+    "text": "đau bụng gián đoạn",
     "type": "TRIỆU_CHỨNG",
     "position": [
       699,
-      712
+      717
     ],
     "assertion_position": [
       686,
-      699
+      704
     ],
-    "sentence": "Bệnh nhân đã có [ENTITY] đoạn kể từ khi phẫu thuật.",
+    "sentence": "Bệnh nhân đã có [ENTITY] kể từ khi phẫu thuật.",
     "assertion_result": {
       "tag": null
     },
@@ -163,82 +177,15 @@
     "candidate": null
   },
   {
-    "text": "khó khăn khi ra khỏi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      639,
-      659
-    ],
-    "assertion_position": [
-      628,
-      648
-    ],
-    "sentence": "Hôm nay, bệnh nhân đến khoa Cấp cứu khám vì tình trạng mệt mỏi kéo dài trong vài ngày, kèm theo [ENTITY] giường vào sáng nay.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đau bụng gián đoạn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      699,
-      717
-    ],
-    "assertion_position": [
-      686,
-      704
-    ],
-    "sentence": "Bệnh nhân đã có [ENTITY] kể từ khi phẫu thuật.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "khó thở khi",
+    "text": "khó thở khi gắng sức",
     "type": "TRIỆU_CHỨNG",
     "position": [
       864,
-      875
-    ],
-    "assertion_position": [
-      845,
-      856
-    ],
-    "sentence": "[ENTITY] gắng sức.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "sức",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      881,
       884
     ],
-    "assertion_position": [
-      862,
-      865
-    ],
-    "sentence": "khó thở khi gắng [ENTITY].",
+    "sentence": "- [ENTITY]",
     "assertion_result": {
-      "tag": null
+      "tag": "isUncertain"
     },
     "retriever": {
       "sapbert": {},

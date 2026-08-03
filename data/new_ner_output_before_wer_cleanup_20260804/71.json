@@ -1,0 +1,325 @@
+[
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      106,
+      114
+    ],
+    "assertion_position": [
+      107,
+      115
+    ],
+    "sentence": "Không xác nhận đã bị [ENTITY] trước đó, và không xác nhận có ý định tự tử.",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Depressive disorder"
+    ],
+    "retriever": {
+      "sapbert": {
+        "F32A": 0.871937,
+        "F39": 0.729299,
+        "F0631": 0.710479,
+        "F329": 0.707575,
+        "F341": 0.681379
+      },
+      "rapidfuzz": {
+        "F329": 0.9,
+        "F330": 0.9,
+        "F331": 0.9
+      }
+    },
+    "candidate": {
+      "code": "F32A",
+      "confidence": 0.806139
+    }
+  },
+  {
+    "text": "thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      319,
+      334
+    ],
+    "assertion_position": [
+      319,
+      334
+    ],
+    "sentence": "Chẩn đoán: Phẫu thuật cắt cụt chân trái bên trên gối và cắt cụt chân phải bên dưới gối / biến chứng [ENTITY] hai bên - nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Pulmonary embolism"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I2782": 0.730659,
+        "O047": 0.686062,
+        "Z86711": 0.684785,
+        "O037": 0.672976,
+        "O082": 0.67138
+      },
+      "rapidfuzz": {
+        "I2782": 0.95,
+        "I2693": 0.9,
+        "I2601": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I2782",
+      "confidence": 0.824283
+    }
+  },
+  {
+    "text": "nhiễm trùng chi",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      346,
+      361
+    ],
+    "assertion_position": [
+      345,
+      360
+    ],
+    "sentence": "Chẩn đoán: Phẫu thuật cắt cụt chân trái bên trên gối và cắt cụt chân phải bên dưới gối / biến chứng thuyên tắc phổi hai bên - [ENTITY] dưới bên phải do Enterococcus kháng vancomycin.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Limb infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "L03119": 0.742212,
+        "M60005": 0.68631,
+        "T8740": 0.683649,
+        "A419": 0.682853,
+        "B999": 0.666694
+      },
+      "rapidfuzz": {
+        "L02436": 0.855,
+        "A049": 0.855,
+        "C84A4": 0.855
+      }
+    },
+    "candidate": {
+      "code": "L03119",
+      "confidence": 0.676376
+    }
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "position": [
+      398,
+      408
+    ],
+    "assertion_position": [
+      397,
+      407
+    ],
+    "sentence": "Chẩn đoán: Phẫu thuật cắt cụt chân trái bên trên gối và cắt cụt chân phải bên dưới gối / biến chứng thuyên tắc phổi hai bên - nhiễm trùng chi dưới bên phải do Enterococcus kháng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "vancomycin"
+    ],
+    "retriever": {
+      "sapbert": {
+        "11124": 1.0
+      },
+      "rapidfuzz": {
+        "11124": 1.0,
+        "2387078": 0.9,
+        "2118449": 0.9
+      }
+    },
+    "candidate": {
+      "code": "11124",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nổi mẩn ở vùng lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      632,
+      651
+    ],
+    "assertion_position": [
+      625,
+      644
+    ],
+    "sentence": "Chào em, đọc mô tả của em mình có một số câu hỏi sau: Từ khi phát hiện đến nay em có thường xuyên theo dõi tình trạng [ENTITY] em hay không?",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nổi mẩn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      632,
+      639
+    ],
+    "assertion_position": [
+      625,
+      632
+    ],
+    "sentence": "Chào em, đọc mô tả của em mình có một số câu hỏi sau: Từ khi phát hiện đến nay em có thường xuyên theo dõi tình trạng [ENTITY] ở vùng lưng em hay không?",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "viêm nang lông",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      914,
+      928
+    ],
+    "assertion_position": [
+      907,
+      921
+    ],
+    "sentence": "Sau khi phát hiện em điều trị bằng thuốc [ENTITY] có thấy tình trạng bệnh xấu đi không hay là vẫn như cũ?",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Folliculitis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "L662": 0.777202,
+        "L709": 0.689754,
+        "L700": 0.659053,
+        "L739": 0.640307,
+        "L03213": 0.637262
+      },
+      "rapidfuzz": {
+        "L731": 0.9,
+        "L664": 0.9,
+        "L663": 0.9
+      }
+    },
+    "candidate": {
+      "code": "L662",
+      "confidence": 0.712599
+    }
+  },
+  {
+    "text": "nổi mẩn vùng lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1064,
+      1081
+    ],
+    "assertion_position": [
+      1057,
+      1074
+    ],
+    "sentence": "Từ nhỏ đến giờ tình trạng [ENTITY] ấy xuất hiện nhiều lần hay chỉ một lần và thường trong hoàn cảnh nào em phát hiện nó?",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nổi mẩn đỏ ngứa ở lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1171,
+      1193
+    ],
+    "assertion_position": [
+      1164,
+      1186
+    ],
+    "sentence": "Vì [ENTITY] có thể xuất hiện do quá trình ma sát giữa da và quần áo, vệ sinh da kém, thay đổi thời tiết.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nổi mề đay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1411,
+      1421
+    ],
+    "assertion_position": [
+      1404,
+      1414
+    ],
+    "sentence": "Cụ thể như suy giảm chức năng gan, [ENTITY], bệnh vảy nến, tác dụng phụ của một số loại thuốc chữa bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh vảy nến",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1423,
+      1435
+    ],
+    "assertion_position": [
+      1416,
+      1428
+    ],
+    "sentence": "Cụ thể như suy giảm chức năng gan, nổi mề đay, [ENTITY], tác dụng phụ của một số loại thuốc chữa bệnh.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Psoriasis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "L409": 0.976724,
+        "L400": 0.940103,
+        "L4050": 0.761785,
+        "L401": 0.739282,
+        "L404": 0.715488
+      },
+      "rapidfuzz": {
+        "L4050": 0.9,
+        "L400": 0.9,
+        "L409": 0.9
+      }
+    },
+    "candidate": {
+      "code": "L409",
+      "confidence": 1.0
+    }
+  }
+]

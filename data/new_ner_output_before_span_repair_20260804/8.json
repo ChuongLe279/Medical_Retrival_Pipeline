@@ -1,0 +1,1402 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      48,
+      50
+    ],
+    "assertion_position": [
+      36,
+      38
+    ],
+    "sentence": "[ENTITY] Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "loạn cảm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      55,
+      63
+    ],
+    "assertion_position": [
+      43,
+      51
+    ],
+    "sentence": "ho Rối [ENTITY] xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      69,
+      77
+    ],
+    "assertion_position": [
+      57,
+      65
+    ],
+    "sentence": "ho Rối loạn cảm xúc ([ENTITY]) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Depressive disorder"
+    ],
+    "retriever": {
+      "sapbert": {
+        "F32A": 0.871937,
+        "F39": 0.729299,
+        "F0631": 0.710479,
+        "F329": 0.707575,
+        "F341": 0.681379
+      },
+      "rapidfuzz": {
+        "F329": 0.9,
+        "F330": 0.9,
+        "F331": 0.9
+      }
+    },
+    "candidate": {
+      "code": "F32A",
+      "confidence": 0.806139
+    }
+  },
+  {
+    "text": "trầm cảm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      98,
+      106
+    ],
+    "assertion_position": [
+      86,
+      94
+    ],
+    "sentence": "ho Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn [ENTITY] không đặc hiệu).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Depressive disorder"
+    ],
+    "retriever": {
+      "sapbert": {
+        "F32A": 0.871937,
+        "F39": 0.729299,
+        "F0631": 0.710479,
+        "F329": 0.707575,
+        "F341": 0.681379
+      },
+      "rapidfuzz": {
+        "F329": 0.9,
+        "F330": 0.9,
+        "F331": 0.9
+      }
+    },
+    "candidate": {
+      "code": "F32A",
+      "confidence": 0.806139
+    }
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      129,
+      150
+    ],
+    "assertion_position": [
+      112,
+      133
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Alcohol dependence syndrome"
+    ],
+    "retriever": {
+      "sapbert": {
+        "F1029": 0.872136,
+        "F1020": 0.819201,
+        "F10229": 0.796509,
+        "F1024": 0.764671,
+        "F1019": 0.757378
+      },
+      "rapidfuzz": {
+        "F10181": 0.855,
+        "F10151": 0.855,
+        "F10150": 0.855
+      }
+    },
+    "candidate": {
+      "code": "F1029",
+      "confidence": 0.792863
+    }
+  },
+  {
+    "text": "seroquel",
+    "type": "THUỐC",
+    "position": [
+      190,
+      198
+    ],
+    "assertion_position": [
+      170,
+      178
+    ],
+    "sentence": "Thuốc trước khi nhập viện lần này: [ENTITY] (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "eng_translation": [
+      "Seroquel"
+    ],
+    "retriever": {
+      "sapbert": {
+        "83553": 1.0,
+        "2633850": 0.91459,
+        "51272": 0.80307,
+        "221153": 0.782139
+      },
+      "rapidfuzz": {
+        "83553": 1.0,
+        "853202": 0.9
+      }
+    },
+    "candidate": {
+      "code": "83553",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      229,
+      235
+    ],
+    "assertion_position": [
+      209,
+      215
+    ],
+    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng [ENTITY], chóng mặt, khó nhìn gần có thể liên quan đến thuốc).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      237,
+      246
+    ],
+    "assertion_position": [
+      217,
+      226
+    ],
+    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, [ENTITY], khó nhìn gần có thể liên quan đến thuốc).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó nhìn gần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      248,
+      260
+    ],
+    "assertion_position": [
+      228,
+      240
+    ],
+    "sentence": "Thuốc trước khi nhập viện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, [ENTITY] có thể liên quan đến thuốc).",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "cơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      309,
+      311
+    ],
+    "assertion_position": [
+      286,
+      288
+    ],
+    "sentence": "Các yếu tố nguy [ENTITY] liên quan: hội chứng nghiện rượu.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      323,
+      344
+    ],
+    "assertion_position": [
+      300,
+      321
+    ],
+    "sentence": "Các yếu tố nguy cơ liên quan: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Alcohol dependence syndrome"
+    ],
+    "retriever": {
+      "sapbert": {
+        "F1029": 0.872136,
+        "F1020": 0.819201,
+        "F10229": 0.796509,
+        "F1024": 0.764671,
+        "F1019": 0.757378
+      },
+      "rapidfuzz": {
+        "F10181": 0.855,
+        "F10151": 0.855,
+        "F10150": 0.855
+      }
+    },
+    "candidate": {
+      "code": "F1029",
+      "confidence": 0.792863
+    }
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      477,
+      483
+    ],
+    "assertion_position": [
+      434,
+      440
+    ],
+    "sentence": "[ENTITY] từng đợt gần đây.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      516,
+      525
+    ],
+    "assertion_position": [
+      468,
+      477
+    ],
+    "sentence": "cảm giác [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "khó khăn khi nhìn gần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      532,
+      553
+    ],
+    "assertion_position": [
+      479,
+      500
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "rối loạn thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      560,
+      577
+    ],
+    "assertion_position": [
+      502,
+      519
+    ],
+    "sentence": "[ENTITY], nhìn thấy con cái mình ở góc mắt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhìn thấy con cái mình ở góc mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      579,
+      611
+    ],
+    "assertion_position": [
+      521,
+      553
+    ],
+    "sentence": "rối loạn thị giác, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      618,
+      634
+    ],
+    "assertion_position": [
+      555,
+      571
+    ],
+    "sentence": "[ENTITY] (ảo giác thị giác).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      636,
+      652
+    ],
+    "assertion_position": [
+      573,
+      589
+    ],
+    "sentence": "ảo giác thị giác ([ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Ảo thanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      660,
+      668
+    ],
+    "assertion_position": [
+      592,
+      600
+    ],
+    "sentence": "[ENTITY] (AH) (ảo giác thính giác).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo giác thính giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      675,
+      693
+    ],
+    "assertion_position": [
+      607,
+      625
+    ],
+    "sentence": "Ảo thanh (AH) ([ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      817,
+      823
+    ],
+    "assertion_position": [
+      736,
+      742
+    ],
+    "sentence": "[ENTITY]: từng đợt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      840,
+      849
+    ],
+    "assertion_position": [
+      754,
+      763
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Khó khăn về thị lực gần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      856,
+      879
+    ],
+    "assertion_position": [
+      765,
+      788
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "rối loạn thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      886,
+      903
+    ],
+    "assertion_position": [
+      790,
+      807
+    ],
+    "sentence": "[ENTITY]: nhìn thấy con cái ở góc mắt.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhìn thấy con cái ở góc mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      905,
+      932
+    ],
+    "assertion_position": [
+      809,
+      836
+    ],
+    "sentence": "rối loạn thị giác: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      939,
+      955
+    ],
+    "assertion_position": [
+      838,
+      854
+    ],
+    "sentence": "[ENTITY], Ảo thanh (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Ảo thanh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      957,
+      965
+    ],
+    "assertion_position": [
+      856,
+      864
+    ],
+    "sentence": "ảo giác thị giác, [ENTITY] (AH): có vẻ là ảo giác hơn là ảo ảnh thực sự.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "ảo ảnh thực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      996,
+      1007
+    ],
+    "assertion_position": [
+      895,
+      906
+    ],
+    "sentence": "ảo giác thị giác, Ảo thanh (AH): có vẻ là ảo giác hơn là [ENTITY] sự.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "mẫu đơn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1149,
+      1156
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1278,
+      1285
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1818,
+      1825
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sống thắt lưng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1942,
+      1956
+    ],
+    "assertion_position": [
+      1786,
+      1800
+    ],
+    "sentence": "Các thủ thuật đã thực hiện: chọc dò dịch não tủy (Đột [ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "hạch cổ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2164,
+      2171
+    ],
+    "assertion_position": [
+      1988,
+      1995
+    ],
+    "sentence": "Sưng [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2260,
+      2268
+    ],
+    "assertion_position": [
+      2081,
+      2089
+    ],
+    "sentence": "Các triệu chứng của [ENTITY] dễ nhầm với sốt siêu vi, sốt phát ban, nhiễm trùng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Kawasaki disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M302": 0.598909,
+        "I300": 0.597338,
+        "I4981": 0.593915,
+        "M314": 0.585544
+      },
+      "rapidfuzz": {
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.785888
+    }
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2281,
+      2284
+    ],
+    "assertion_position": [
+      2102,
+      2105
+    ],
+    "sentence": "Các triệu chứng của Kawasaki dễ nhầm với [ENTITY] siêu vi, sốt phát ban, nhiễm trùng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sốt phát ban",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2294,
+      2306
+    ],
+    "assertion_position": [
+      2115,
+      2127
+    ],
+    "sentence": "Các triệu chứng của Kawasaki dễ nhầm với sốt siêu vi, [ENTITY], nhiễm trùng.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2308,
+      2319
+    ],
+    "assertion_position": [
+      2129,
+      2140
+    ],
+    "sentence": "Các triệu chứng của Kawasaki dễ nhầm với sốt siêu vi, sốt phát ban, [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Infection"
+    ],
+    "retriever": {
+      "sapbert": {
+        "B999": 0.860331,
+        "A499": 0.772018,
+        "A419": 0.756399,
+        "B998": 0.752882,
+        "R69": 0.746258
+      },
+      "rapidfuzz": {
+        "T8643": 0.9,
+        "J069": 0.9,
+        "A5400": 0.9
+      }
+    },
+    "candidate": {
+      "code": "B999",
+      "confidence": 0.787545
+    }
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2329,
+      2336
+    ],
+    "assertion_position": [
+      2150,
+      2157
+    ],
+    "sentence": "Nếu trẻ [ENTITY] 3–4 ngày + đỏ mắt + phát ban + môi đỏ hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đỏ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2348,
+      2354
+    ],
+    "assertion_position": [
+      2169,
+      2175
+    ],
+    "sentence": "Nếu trẻ sốt cao 3–4 ngày + [ENTITY] + phát ban + môi đỏ hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "môi đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2368,
+      2374
+    ],
+    "assertion_position": [
+      2189,
+      2195
+    ],
+    "sentence": "Nếu trẻ sốt cao 3–4 ngày + đỏ mắt + phát ban + [ENTITY] hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lưỡi đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2380,
+      2387
+    ],
+    "assertion_position": [
+      2201,
+      2208
+    ],
+    "sentence": "Nếu trẻ sốt cao 3–4 ngày + đỏ mắt + phát ban + môi đỏ hoặc [ENTITY] → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2403,
+      2411
+    ],
+    "assertion_position": [
+      2224,
+      2232
+    ],
+    "sentence": "Nếu trẻ sốt cao 3–4 ngày + đỏ mắt + phát ban + môi đỏ hoặc lưỡi đỏ → cần nghĩ đến [ENTITY] và đưa trẻ đi khám sớm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Kawasaki disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M302": 0.598909,
+        "I300": 0.597338,
+        "I4981": 0.593915,
+        "M314": 0.585544
+      },
+      "rapidfuzz": {
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.785888
+    }
+  },
+  {
+    "text": "bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2464,
+      2477
+    ],
+    "assertion_position": [
+      2282,
+      2295
+    ],
+    "sentence": "Biến chứng nguy hiểm của [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Kawasaki disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M302": 0.598909,
+        "I300": 0.597338,
+        "I4981": 0.593915,
+        "M314": 0.585544
+      },
+      "rapidfuzz": {
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.785888
+    }
+  },
+  {
+    "text": "mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2581,
+      2590
+    ],
+    "assertion_position": [
+      2397,
+      2406
+    ],
+    "sentence": "Phình giãn động [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Coronary artery aneurysm"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I2541": 1.0,
+        "I253": 0.839198,
+        "I2542": 0.734205,
+        "I729": 0.699732,
+        "I720": 0.631975
+      },
+      "rapidfuzz": {
+        "I2541": 1.0,
+        "S85102A": 0.855,
+        "S35493A": 0.855
+      }
+    },
+    "candidate": {
+      "code": "I2541",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Thiếu máu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2622,
+      2634
+    ],
+    "assertion_position": [
+      2434,
+      2446
+    ],
+    "sentence": "[ENTITY] tim.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Suy vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2661,
+      2669
+    ],
+    "assertion_position": [
+      2469,
+      2477
+    ],
+    "sentence": "[ENTITY] mạn tính.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Ischemic heart disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "I249": 0.857469,
+        "I255": 0.827983,
+        "I259": 0.821557,
+        "I519": 0.804931,
+        "I209": 0.742629
+      },
+      "rapidfuzz": {
+        "I2489": 0.9,
+        "I249": 0.9,
+        "I2589": 0.9
+      }
+    },
+    "candidate": {
+      "code": "I249",
+      "confidence": 0.926145
+    }
+  },
+  {
+    "text": "Viêm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2764,
+      2768
+    ],
+    "assertion_position": [
+      2570,
+      2574
+    ],
+    "sentence": "[ENTITY] cơ tim.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Inflammation"
+    ],
+    "retriever": {
+      "sapbert": {
+        "A419": 0.684718,
+        "R52": 0.66731,
+        "R69": 0.664599,
+        "L0390": 0.652208,
+        "M3581": 0.630273
+      },
+      "rapidfuzz": {
+        "I83223": 0.9,
+        "I83224": 0.9,
+        "I83225": 0.9
+      }
+    },
+    "candidate": {
+      "code": "A419",
+      "confidence": 0.618857
+    }
+  },
+  {
+    "text": "dịch màng tim",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2784,
+      2797
+    ],
+    "assertion_position": [
+      2588,
+      2601
+    ],
+    "sentence": "Tràn [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Tăng men gan",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2801,
+      2813
+    ],
+    "assertion_position": [
+      2603,
+      2615
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bệnh Kawasaki",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2848,
+      2861
+    ],
+    "assertion_position": [
+      2646,
+      2659
+    ],
+    "sentence": "Chẩn đoán [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Kawasaki disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "M303": 0.839875,
+        "M302": 0.598909,
+        "I300": 0.597338,
+        "I4981": 0.593915,
+        "M314": 0.585544
+      },
+      "rapidfuzz": {
+        "A920": 0.855,
+        "M84531P": 0.855,
+        "K759": 0.855
+      }
+    },
+    "candidate": {
+      "code": "M303",
+      "confidence": 0.785888
+    }
+  },
+  {
+    "text": "Viêm kết mạc 2",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2921,
+      2935
+    ],
+    "assertion_position": [
+      2715,
+      2729
+    ],
+    "sentence": "[ENTITY] bên không ghèn.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "miệng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2961,
+      2966
+    ],
+    "assertion_position": [
+      2752,
+      2757
+    ],
+    "sentence": "Môi – [ENTITY] thay đổi (nứt, đỏ, lưỡi dâu tây).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nứt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2977,
+      2980
+    ],
+    "assertion_position": [
+      2768,
+      2771
+    ],
+    "sentence": "Môi – miệng thay đổi ([ENTITY], đỏ, lưỡi dâu tây).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "lưỡi dâu tây",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2986,
+      2998
+    ],
+    "assertion_position": [
+      2777,
+      2789
+    ],
+    "sentence": "Môi – miệng thay đổi (nứt, đỏ, [ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3024,
+      3027
+    ],
+    "assertion_position": [
+      2812,
+      2815
+    ],
+    "sentence": "Tổn thương đầu chi ([ENTITY], đỏ, bong da).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "bong da",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3033,
+      3040
+    ],
+    "assertion_position": [
+      2821,
+      2828
+    ],
+    "sentence": "Tổn thương đầu chi (phù, đỏ, [ENTITY]).",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Ban đỏ toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3046,
+      3062
+    ],
+    "assertion_position": [
+      2831,
+      2847
+    ],
+    "sentence": "[ENTITY].",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "Hạch cổ to",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      3067,
+      3077
+    ],
+    "assertion_position": [
+      2849,
+      2859
+    ],
+    "sentence": "[ENTITY] ≥1,5 cm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

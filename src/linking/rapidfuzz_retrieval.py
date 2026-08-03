@@ -99,6 +99,7 @@ if __name__ == "__main__":
         )
     rxnorm_code, rxnorm_text = loading_object(RXNORM_TEXT_DIR)
     icd10_code, icd10_text = loading_object(ICD10_TEXT_DIR)
+    retrieval_cache = {}
 
     for file_path in json_files:
         print(f"Processing file: {file_path.name}")
@@ -123,22 +124,27 @@ if __name__ == "__main__":
             entity.setdefault("retriever", {})
             entity["retriever"]["rapidfuzz"] = {}
 
-            if entity_type == "THUỐC":
-                entity["retriever"]["rapidfuzz"] = rapidfuzz_retrieval(
-                    text_list = queries,
-                    candidate_texts = rxnorm_text,
-                    candidate_codes = rxnorm_code,
-                    top_k=3,
-                )
-            elif entity_type == "CHẨN_ĐOÁN":
-                entity["retriever"]["rapidfuzz"] = rapidfuzz_retrieval(
-                    text_list = queries,
-                    candidate_texts = icd10_text,
-                    candidate_codes = icd10_code,
-                    top_k=3,
-                )
-            else:
-                entity["retriever"]["rapidfuzz"] = {}
+            cache_key = (entity_type, tuple(queries))
+            if cache_key not in retrieval_cache:
+                if entity_type == "THUỐC":
+                    retrieval_cache[cache_key] = rapidfuzz_retrieval(
+                        text_list=queries,
+                        candidate_texts=rxnorm_text,
+                        candidate_codes=rxnorm_code,
+                        top_k=3,
+                    )
+                elif entity_type == "CHẨN_ĐOÁN":
+                    retrieval_cache[cache_key] = rapidfuzz_retrieval(
+                        text_list=queries,
+                        candidate_texts=icd10_text,
+                        candidate_codes=icd10_code,
+                        top_k=3,
+                    )
+                else:
+                    retrieval_cache[cache_key] = {}
+            entity["retriever"]["rapidfuzz"] = dict(
+                retrieval_cache[cache_key]
+            )
             # Sort rapidfuzz results by score, descending
             entity["retriever"]["rapidfuzz"] = dict(
                 sorted(

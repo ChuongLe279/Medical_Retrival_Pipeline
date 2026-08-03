@@ -33,29 +33,69 @@
     },
     "candidate": {
       "code": "R7303",
-      "confidence": 0.642354
+      "confidence": 0.642354,
+      "ranked_candidates": [
+        {
+          "code": "R7303",
+          "confidence": 0.642354
+        },
+        {
+          "code": "Z833",
+          "confidence": 0.636211
+        },
+        {
+          "code": "O24919",
+          "confidence": 0.614303
+        }
+      ]
     }
   },
   {
-    "text": "ngừng thở khi",
-    "type": "TRIỆU_CHỨNG",
+    "text": "ngừng thở khi ngủ",
+    "type": "CHẨN_ĐOÁN",
     "position": [
       113,
-      126
+      130
     ],
-    "assertion_position": [
-      91,
-      104
-    ],
-    "sentence": "[ENTITY] ngủ.",
+    "sentence": "- [ENTITY]",
     "assertion_result": {
-      "tag": null
+      "tag": "isUncertain"
     },
     "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
+      "sapbert": {
+        "G4730": 0.980046,
+        "R0681": 0.813714,
+        "G4733": 0.787294,
+        "G4731": 0.77147,
+        "P2840": 0.731238
+      },
+      "rapidfuzz": {
+        "G4737": 0.9,
+        "G4733": 0.9,
+        "G4731": 0.9
+      }
     },
-    "candidate": null
+    "candidate": {
+      "code": "G4730",
+      "confidence": 0.906991,
+      "ranked_candidates": [
+        {
+          "code": "G4730",
+          "confidence": 0.906991
+        },
+        {
+          "code": "G4733",
+          "confidence": 0.798565
+        },
+        {
+          "code": "G4731",
+          "confidence": 0.784323
+        }
+      ]
+    },
+    "eng_translation": [
+      "Sleep apnea"
+    ]
   },
   {
     "text": "suy tim",
@@ -91,7 +131,21 @@
     },
     "candidate": {
       "code": "I509",
-      "confidence": 0.905845
+      "confidence": 0.905845,
+      "ranked_candidates": [
+        {
+          "code": "I509",
+          "confidence": 0.905845
+        },
+        {
+          "code": "I5089",
+          "confidence": 0.799584
+        },
+        {
+          "code": "I5084",
+          "confidence": 0.768065
+        }
+      ]
     }
   },
   {
@@ -124,7 +178,21 @@
     },
     "candidate": {
       "code": "4603",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "4603",
+          "confidence": 1.0
+        },
+        {
+          "code": "2725542",
+          "confidence": 0.36
+        },
+        {
+          "code": "2725545",
+          "confidence": 0.36
+        }
+      ]
     }
   },
   {
@@ -202,48 +270,6 @@
       410
     ],
     "sentence": "[ENTITY] để ngủ vì thở.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ngủ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      127,
-      130
-    ],
-    "assertion_position": [
-      105,
-      108
-    ],
-    "sentence": "ngừng thở khi [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "thở",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      119,
-      122
-    ],
-    "assertion_position": [
-      97,
-      100
-    ],
-    "sentence": "ngừng [ENTITY] khi ngủ.",
     "assertion_result": {
       "tag": null
     },
@@ -380,27 +406,6 @@
     "candidate": null
   },
   {
-    "text": "căng cứng vai",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      495,
-      508
-    ],
-    "assertion_position": [
-      426,
-      439
-    ],
-    "sentence": "[ENTITY] trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút).",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "khó nằm vào ban đêm",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -412,27 +417,6 @@
       759
     ],
     "sentence": "Triệu chứng liên quan: [ENTITY] để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "ngủ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      478,
-      481
-    ],
-    "assertion_position": [
-      414,
-      417
-    ],
-    "sentence": "khó nằm vào ban đêm để [ENTITY] vì thở.",
     "assertion_result": {
       "tag": null
     },
@@ -612,7 +596,21 @@
     },
     "candidate": {
       "code": "A820",
-      "confidence": 0.977504
+      "confidence": 0.977504,
+      "ranked_candidates": [
+        {
+          "code": "A820",
+          "confidence": 0.977504
+        },
+        {
+          "code": "A829",
+          "confidence": 0.889482
+        },
+        {
+          "code": "A821",
+          "confidence": 0.829497
+        }
+      ]
     }
   },
   {
@@ -649,7 +647,21 @@
     },
     "candidate": {
       "code": "317300",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "317300",
+          "confidence": 1.0
+        },
+        {
+          "code": "572393",
+          "confidence": 0.586273
+        },
+        {
+          "code": "572203",
+          "confidence": 0.578394
+        }
+      ]
     }
   },
   {
@@ -682,7 +694,17 @@
     },
     "candidate": {
       "code": "1743704",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "1743704",
+          "confidence": 1.0
+        },
+        {
+          "code": "1743707",
+          "confidence": 1.0
+        }
+      ]
     }
   }
 ]

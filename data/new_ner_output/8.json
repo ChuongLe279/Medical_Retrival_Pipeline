@@ -75,7 +75,21 @@
     },
     "candidate": {
       "code": "F32A",
-      "confidence": 0.806139
+      "confidence": 0.806139,
+      "ranked_candidates": [
+        {
+          "code": "F32A",
+          "confidence": 0.806139
+        },
+        {
+          "code": "F329",
+          "confidence": 0.726817
+        },
+        {
+          "code": "F39",
+          "confidence": 0.656369
+        }
+      ]
     }
   },
   {
@@ -112,7 +126,21 @@
     },
     "candidate": {
       "code": "F32A",
-      "confidence": 0.806139
+      "confidence": 0.806139,
+      "ranked_candidates": [
+        {
+          "code": "F32A",
+          "confidence": 0.806139
+        },
+        {
+          "code": "F329",
+          "confidence": 0.726817
+        },
+        {
+          "code": "F39",
+          "confidence": 0.656369
+        }
+      ]
     }
   },
   {
@@ -149,7 +177,21 @@
     },
     "candidate": {
       "code": "F1029",
-      "confidence": 0.792863
+      "confidence": 0.792863,
+      "ranked_candidates": [
+        {
+          "code": "F1029",
+          "confidence": 0.792863
+        },
+        {
+          "code": "F1020",
+          "confidence": 0.737281
+        },
+        {
+          "code": "F10229",
+          "confidence": 0.716858
+        }
+      ]
     }
   },
   {
@@ -184,7 +226,21 @@
     },
     "candidate": {
       "code": "83553",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "83553",
+          "confidence": 1.0
+        },
+        {
+          "code": "2633850",
+          "confidence": 0.548754
+        },
+        {
+          "code": "51272",
+          "confidence": 0.481842
+        }
+      ]
     }
   },
   {
@@ -284,7 +340,21 @@
     },
     "candidate": {
       "code": "F1029",
-      "confidence": 0.792863
+      "confidence": 0.792863,
+      "ranked_candidates": [
+        {
+          "code": "F1029",
+          "confidence": 0.792863
+        },
+        {
+          "code": "F1020",
+          "confidence": 0.737281
+        },
+        {
+          "code": "F10229",
+          "confidence": 0.716858
+        }
+      ]
     }
   },
   {
@@ -540,19 +610,6 @@
     "candidate": null
   },
   {
-    "text": "thị lực",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      868,
-      875
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "rối loạn thị giác",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -637,27 +694,6 @@
     "candidate": null
   },
   {
-    "text": "ảo giác",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      618,
-      625
-    ],
-    "assertion_position": [
-      555,
-      562
-    ],
-    "sentence": "[ENTITY] thị giác (ảo giác thị giác).",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "ảo ảnh thực",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -685,28 +721,6 @@
       1149,
       1156
     ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "cam",
-    "type": "THUỐC",
-    "position": [
-      1157,
-      1160
-    ],
-    "assertion_position": [
-      1043,
-      1046
-    ],
-    "sentence": "Được yêu cầu ký một mẫu đơn [ENTITY] kết đảm bảo an toàn trong 24 giờ trước khi bắt đầu chương trình điều trị bán trú, và anh ấy không thể làm được.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -815,12 +829,26 @@
     },
     "candidate": {
       "code": "M303",
-      "confidence": 0.785888
+      "confidence": 0.785888,
+      "ranked_candidates": [
+        {
+          "code": "M303",
+          "confidence": 0.785888
+        },
+        {
+          "code": "M302",
+          "confidence": 0.539018
+        },
+        {
+          "code": "I300",
+          "confidence": 0.537604
+        }
+      ]
     }
   },
   {
     "text": "sốt",
-    "type": "CHẨN_ĐOÁN",
+    "type": "TRIỆU_CHỨNG",
     "position": [
       2281,
       2284
@@ -833,44 +861,6 @@
     "assertion_result": {
       "tag": null
     },
-    "eng_translation": [
-      "Fever"
-    ],
-    "retriever": {
-      "sapbert": {
-        "R509": 0.980554,
-        "R502": 0.739891,
-        "R5081": 0.695557,
-        "R6883": 0.678149,
-        "A759": 0.667115
-      },
-      "rapidfuzz": {
-        "A78": 0.95,
-        "A0109": 0.9,
-        "R5083": 0.9
-      }
-    },
-    "candidate": {
-      "code": "R509",
-      "confidence": 0.912499
-    }
-  },
-  {
-    "text": "vi",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      176,
-      178
-    ],
-    "assertion_position": [
-      156,
-      158
-    ],
-    "sentence": "Thuốc trước khi nhập [ENTITY]ện lần này: seroquel (ngụ ý, vì bệnh nhân cho rằng lú lẫn, chóng mặt, khó nhìn gần có thể liên quan đến thuốc).",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -932,7 +922,21 @@
     },
     "candidate": {
       "code": "B999",
-      "confidence": 0.787545
+      "confidence": 0.787545,
+      "ranked_candidates": [
+        {
+          "code": "B999",
+          "confidence": 0.787545
+        },
+        {
+          "code": "A499",
+          "confidence": 0.694816
+        },
+        {
+          "code": "A419",
+          "confidence": 0.680759
+        }
+      ]
     }
   },
   {
@@ -968,27 +972,6 @@
       2175
     ],
     "sentence": "Nếu trẻ sốt cao 3–4 ngày + [ENTITY] + phát ban + môi đỏ hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "phát ban",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2298,
-      2306
-    ],
-    "assertion_position": [
-      2119,
-      2127
-    ],
-    "sentence": "Các triệu chứng của Kawasaki dễ nhầm với sốt siêu vi, sốt [ENTITY], nhiễm trùng.",
     "assertion_result": {
       "tag": null
     },
@@ -1074,7 +1057,21 @@
     },
     "candidate": {
       "code": "M303",
-      "confidence": 0.785888
+      "confidence": 0.785888,
+      "ranked_candidates": [
+        {
+          "code": "M303",
+          "confidence": 0.785888
+        },
+        {
+          "code": "M302",
+          "confidence": 0.539018
+        },
+        {
+          "code": "I300",
+          "confidence": 0.537604
+        }
+      ]
     }
   },
   {
@@ -1111,30 +1108,22 @@
     },
     "candidate": {
       "code": "M303",
-      "confidence": 0.785888
+      "confidence": 0.785888,
+      "ranked_candidates": [
+        {
+          "code": "M303",
+          "confidence": 0.785888
+        },
+        {
+          "code": "M302",
+          "confidence": 0.539018
+        },
+        {
+          "code": "I300",
+          "confidence": 0.537604
+        }
+      ]
     }
-  },
-  {
-    "text": "giãn động",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2571,
-      2580
-    ],
-    "assertion_position": [
-      2387,
-      2396
-    ],
-    "sentence": "Phình [ENTITY] mạch vành.",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "mạch vành",
@@ -1170,7 +1159,21 @@
     },
     "candidate": {
       "code": "I2541",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "I2541",
+          "confidence": 1.0
+        },
+        {
+          "code": "I253",
+          "confidence": 0.755278
+        },
+        {
+          "code": "I2542",
+          "confidence": 0.660784
+        }
+      ]
     }
   },
   {
@@ -1188,71 +1191,6 @@
     "assertion_result": {
       "tag": null
     },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "tim",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2535,
-      2538
-    ],
-    "assertion_position": [
-      2354,
-      2357
-    ],
-    "sentence": "Biến chứng [ENTITY] mạch (nguy hiểm nhất).",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "máu cơ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2628,
-      2634
-    ],
-    "assertion_position": [
-      2440,
-      2446
-    ],
-    "sentence": "Thiếu [ENTITY] tim.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "tim",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2635,
-      2638
-    ],
-    "assertion_position": [
-      2447,
-      2450
-    ],
-    "sentence": "Thiếu máu cơ [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -1293,88 +1231,69 @@
     },
     "candidate": {
       "code": "I249",
-      "confidence": 0.926145
+      "confidence": 0.926145,
+      "ranked_candidates": [
+        {
+          "code": "I249",
+          "confidence": 0.926145
+        },
+        {
+          "code": "I255",
+          "confidence": 0.745185
+        },
+        {
+          "code": "I259",
+          "confidence": 0.739401
+        }
+      ]
     }
   },
   {
-    "text": "Viêm",
+    "text": "Viêm cơ tim",
     "type": "CHẨN_ĐOÁN",
     "position": [
       2764,
-      2768
+      2775
     ],
-    "assertion_position": [
-      2570,
-      2574
-    ],
-    "sentence": "[ENTITY] cơ tim.",
+    "sentence": "• [ENTITY]",
     "assertion_result": {
-      "tag": null
+      "tag": "isUncertain"
     },
     "eng_translation": [
-      "Inflammation"
+      "Myocarditis"
     ],
     "retriever": {
       "sapbert": {
-        "A419": 0.684718,
-        "R52": 0.66731,
-        "R69": 0.664599,
-        "L0390": 0.652208,
-        "M3581": 0.630273
+        "I514": 0.978506,
+        "I090": 0.828326,
+        "I401": 0.821318,
+        "B3322": 0.818398,
+        "I400": 0.800908
       },
       "rapidfuzz": {
-        "I83223": 0.9,
-        "I83224": 0.9,
-        "I83225": 0.9
+        "J1182": 0.9,
+        "B3322": 0.9,
+        "J1082": 0.9
       }
     },
     "candidate": {
-      "code": "A419",
-      "confidence": 0.618857
+      "code": "I514",
+      "confidence": 0.903182,
+      "ranked_candidates": [
+        {
+          "code": "I514",
+          "confidence": 0.903182
+        },
+        {
+          "code": "B3322",
+          "confidence": 0.826558
+        },
+        {
+          "code": "I090",
+          "confidence": 0.745493
+        }
+      ]
     }
-  },
-  {
-    "text": "cơ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      309,
-      311
-    ],
-    "assertion_position": [
-      286,
-      288
-    ],
-    "sentence": "Các yếu tố nguy [ENTITY] liên quan: hội chứng nghiện rượu.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "tim",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      2654,
-      2657
-    ],
-    "assertion_position": [
-      2464,
-      2467
-    ],
-    "sentence": "Nhồi máu cơ [ENTITY].",
-    "assertion_result": {
-      "tag": null
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "dịch màng tim",
@@ -1419,27 +1338,6 @@
     "candidate": null
   },
   {
-    "text": "loạn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      55,
-      59
-    ],
-    "assertion_position": [
-      43,
-      47
-    ],
-    "sentence": "ho Rối [ENTITY] cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu).",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "bệnh Kawasaki",
     "type": "CHẨN_ĐOÁN",
     "position": [
@@ -1473,29 +1371,22 @@
     },
     "candidate": {
       "code": "M303",
-      "confidence": 0.785888
+      "confidence": 0.785888,
+      "ranked_candidates": [
+        {
+          "code": "M303",
+          "confidence": 0.785888
+        },
+        {
+          "code": "M302",
+          "confidence": 0.539018
+        },
+        {
+          "code": "I300",
+          "confidence": 0.537604
+        }
+      ]
     }
-  },
-  {
-    "text": "sốt",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2281,
-      2284
-    ],
-    "assertion_position": [
-      2102,
-      2105
-    ],
-    "sentence": "Các triệu chứng của Kawasaki dễ nhầm với [ENTITY] siêu vi, sốt phát ban, nhiễm trùng.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
   },
   {
     "text": "Viêm kết mạc 2",
@@ -1519,48 +1410,6 @@
     "candidate": null
   },
   {
-    "text": "môi",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2368,
-      2371
-    ],
-    "assertion_position": [
-      2189,
-      2192
-    ],
-    "sentence": "Nếu trẻ sốt cao 3–4 ngày + đỏ mắt + phát ban + [ENTITY] đỏ hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "miệng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2961,
-      2966
-    ],
-    "assertion_position": [
-      2752,
-      2757
-    ],
-    "sentence": "Môi – [ENTITY] thay đổi (nứt, đỏ, lưỡi dâu tây).",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "nứt",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -1572,27 +1421,6 @@
       2771
     ],
     "sentence": "Môi – miệng thay đổi ([ENTITY], đỏ, lưỡi dâu tây).",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đỏ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2348,
-      2350
-    ],
-    "assertion_position": [
-      2169,
-      2171
-    ],
-    "sentence": "Nếu trẻ sốt cao 3–4 ngày + [ENTITY] mắt + phát ban + môi đỏ hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
     "assertion_result": {
       "tag": null
     },
@@ -1635,27 +1463,6 @@
       2815
     ],
     "sentence": "Tổn thương đầu chi ([ENTITY], đỏ, bong da).",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đỏ",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      2372,
-      2374
-    ],
-    "assertion_position": [
-      2193,
-      2195
-    ],
-    "sentence": "Nếu trẻ sốt cao 3–4 ngày + đỏ mắt + phát ban + môi [ENTITY] hoặc lưỡi đỏ → cần nghĩ đến Kawasaki và đưa trẻ đi khám sớm.",
     "assertion_result": {
       "tag": null
     },

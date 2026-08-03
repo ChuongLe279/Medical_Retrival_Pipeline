@@ -26,17 +26,13 @@
     "candidate": null
   },
   {
-    "text": "nhồi",
+    "text": "nhồi máu",
     "type": "CHẨN_ĐOÁN",
     "position": [
       127,
-      131
+      135
     ],
-    "assertion_position": [
-      119,
-      123
-    ],
-    "sentence": "Troponin I/T ↑ (chẩn đoán [ENTITY] máu).",
+    "sentence": "• Troponin I/T ↑ (chẩn đoán [ENTITY])",
     "assertion_result": {
       "tag": null
     },
@@ -59,7 +55,21 @@
     },
     "candidate": {
       "code": "I21A1",
-      "confidence": 0.861609
+      "confidence": 0.861609,
+      "ranked_candidates": [
+        {
+          "code": "I21A1",
+          "confidence": 0.861609
+        },
+        {
+          "code": "I252",
+          "confidence": 0.779903
+        },
+        {
+          "code": "I219",
+          "confidence": 0.776395
+        }
+      ]
     }
   },
   {
@@ -122,7 +132,21 @@
     },
     "candidate": {
       "code": "I256",
-      "confidence": 0.876778
+      "confidence": 0.876778,
+      "ranked_candidates": [
+        {
+          "code": "I256",
+          "confidence": 0.876778
+        },
+        {
+          "code": "I255",
+          "confidence": 0.749991
+        },
+        {
+          "code": "I6782",
+          "confidence": 0.685923
+        }
+      ]
     }
   },
   {
@@ -159,7 +183,21 @@
     },
     "candidate": {
       "code": "I209",
-      "confidence": 0.690602
+      "confidence": 0.690602,
+      "ranked_candidates": [
+        {
+          "code": "I209",
+          "confidence": 0.690602
+        },
+        {
+          "code": "I249",
+          "confidence": 0.657039
+        },
+        {
+          "code": "I519",
+          "confidence": 0.651436
+        }
+      ]
     }
   },
   {
@@ -239,27 +277,6 @@
     "sentence": "[ENTITY].",
     "assertion_result": {
       "tag": "isUncertain"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "đau bụng",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      895,
-      903
-    ],
-    "assertion_position": [
-      835,
-      843
-    ],
-    "sentence": "Ban đầu xuất hiện [ENTITY] trên.",
-    "assertion_result": {
-      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -373,27 +390,6 @@
     "candidate": null
   },
   {
-    "text": "nôn",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      1610,
-      1613
-    ],
-    "assertion_position": [
-      1468,
-      1471
-    ],
-    "sentence": "Triệu chứng liên quan: không thấy buồn [ENTITY], nôn, ớn lạnh, thay đổi chức năng ruột, đau ngực, khó thở.",
-    "assertion_result": {
-      "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "ớn lạnh",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -473,8 +469,8 @@
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      149,
-      156
+      1818,
+      1825
     ],
     "retriever": {
       "sapbert": {},
@@ -516,58 +512,35 @@
     },
     "candidate": {
       "code": "K810",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "K810",
+          "confidence": 1.0
+        },
+        {
+          "code": "K819",
+          "confidence": 0.743584
+        },
+        {
+          "code": "K812",
+          "confidence": 0.672888
+        }
+      ]
     }
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
-      1818,
-      1825
+      2294,
+      2301
     ],
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
     },
     "candidate": null
-  },
-  {
-    "text": "viêm túi mật",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      1911,
-      1923
-    ],
-    "assertion_position": [
-      1754,
-      1766
-    ],
-    "sentence": "Được thực hiện siêu âm vùng gan mật tại phòng cấp cứu cho thấy túi mật căng to với dịch quanh túi mật gợi ý [ENTITY] cấp.",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Cholecystitis"
-    ],
-    "retriever": {
-      "sapbert": {
-        "K819": 0.986,
-        "K810": 0.843182,
-        "K811": 0.795584,
-        "K829": 0.729062,
-        "K653": 0.724968
-      },
-      "rapidfuzz": {
-        "K810": 0.95,
-        "K8046": 0.9,
-        "K8000": 0.9
-      }
-    },
-    "candidate": {
-      "code": "K819",
-      "confidence": 0.908823
-    }
   },
   {
     "text": "sỏi ống mật",
@@ -603,7 +576,21 @@
     },
     "candidate": {
       "code": "K824",
-      "confidence": 0.656104
+      "confidence": 0.656104,
+      "ranked_candidates": [
+        {
+          "code": "K824",
+          "confidence": 0.656104
+        },
+        {
+          "code": "K8040",
+          "confidence": 0.641425
+        },
+        {
+          "code": "K563",
+          "confidence": 0.637218
+        }
+      ]
     }
   },
   {
@@ -612,19 +599,6 @@
     "position": [
       2405,
       2412
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "siêu âm",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      2294,
-      2301
     ],
     "retriever": {
       "sapbert": {},
@@ -666,7 +640,21 @@
     },
     "candidate": {
       "code": "K810",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "K810",
+          "confidence": 1.0
+        },
+        {
+          "code": "K819",
+          "confidence": 0.743584
+        },
+        {
+          "code": "K812",
+          "confidence": 0.672888
+        }
+      ]
     }
   },
   {
@@ -703,7 +691,21 @@
     },
     "candidate": {
       "code": "K810",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "K810",
+          "confidence": 1.0
+        },
+        {
+          "code": "K819",
+          "confidence": 0.743584
+        },
+        {
+          "code": "K812",
+          "confidence": 0.672888
+        }
+      ]
     }
   }
 ]

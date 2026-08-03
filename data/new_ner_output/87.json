@@ -84,27 +84,6 @@
     "candidate": null
   },
   {
-    "text": "đau",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      34,
-      37
-    ],
-    "assertion_position": [
-      34,
-      37
-    ],
-    "sentence": "[ENTITY] ngực.",
-    "assertion_result": {
-      "tag": null
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "Đau ngực",
     "type": "TRIỆU_CHỨNG",
     "position": [
@@ -160,27 +139,6 @@
     "sentence": "không [ENTITY].",
     "assertion_result": {
       "tag": "isNegated"
-    },
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Tim",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      333,
-      336
-    ],
-    "assertion_position": [
-      332,
-      335
-    ],
-    "sentence": "[ENTITY] nhịp đều.",
-    "assertion_result": {
-      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -340,32 +298,6 @@
     "candidate": null
   },
   {
-    "text": "Na",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      3,
-      5
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "K",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      48,
-      49
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "Cl",
     "type": "TÊN_XÉT_NGHIỆM",
     "position": [
@@ -506,7 +438,21 @@
     },
     "candidate": {
       "code": "I10",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "ranked_candidates": [
+        {
+          "code": "I10",
+          "confidence": 1.0
+        },
+        {
+          "code": "I159",
+          "confidence": 0.681551
+        },
+        {
+          "code": "I160",
+          "confidence": 0.649275
+        }
+      ]
     }
   }
 ]

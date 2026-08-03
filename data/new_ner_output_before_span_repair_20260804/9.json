@@ -1,0 +1,399 @@
+[
+  {
+    "text": "đau bao tử",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      113,
+      123
+    ],
+    "assertion_position": [
+      113,
+      123
+    ],
+    "sentence": "Từ năm 24-26 tuổi em có dấu hiệu [ENTITY] (thỉnh thoảng đau và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      138,
+      141
+    ],
+    "assertion_position": [
+      138,
+      141
+    ],
+    "sentence": "Từ năm 24-26 tuổi em có dấu hiệu đau bao tử (thỉnh thoảng [ENTITY] và sau 1-2 tiếng thì hết do thời gian này em sống xa gia đình nên ăn uống thất thường) nhưng không khám cũng như không uống thuốc gì cả.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      297,
+      304
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      550,
+      553
+    ],
+    "assertion_position": [
+      550,
+      553
+    ],
+    "sentence": "Thay vào đó em đã chuyển về sống cùng gia đình và ăn uống rất điều độ nên hầu như em không bị [ENTITY] lại nữa.",
+    "assertion_result": {
+      "tag": "isNegated"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      659,
+      662
+    ],
+    "assertion_position": [
+      658,
+      661
+    ],
+    "sentence": "Em thấy không còn bị [ENTITY] như trước và cơ thể cũng có cảm giác khỏe lên.",
+    "assertion_result": {
+      "tag": "isHistorical"
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau bụng râm ran",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1030,
+      1046
+    ],
+    "assertion_position": [
+      1029,
+      1045
+    ],
+    "sentence": "Đến 21h em bắt đầu [ENTITY] và cơn đau càng dồn đạp đến 12h đêm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1054,
+      1057
+    ],
+    "assertion_position": [
+      1053,
+      1056
+    ],
+    "sentence": "Đến 21h em bắt đầu đau bụng râm ran và cơn [ENTITY] càng dồn đạp đến 12h đêm.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1347,
+      1354
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "sỏi thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1455,
+      1463
+    ],
+    "assertion_position": [
+      1454,
+      1462
+    ],
+    "sentence": "BS nói [ENTITY] không phải là lý do làm em đau và nói khả năng em bị viêm bao tử, có nói do em đang có thai nên không thể dùng thuốc đặc trị được mà chỉ cho thuốc tạm thôi.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Nephrolithiasis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "N200": 0.861715,
+        "N209": 0.805772,
+        "N219": 0.713575,
+        "N210": 0.692339,
+        "Z1883": 0.662918
+      },
+      "rapidfuzz": {
+        "L632": 0.771429,
+        "J8402": 0.761538,
+        "B743": 0.75
+      }
+    },
+    "candidate": {
+      "code": "N200",
+      "confidence": 0.783935
+    }
+  },
+  {
+    "text": "viêm bao tử",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1517,
+      1528
+    ],
+    "assertion_position": [
+      1516,
+      1527
+    ],
+    "sentence": "BS nói sỏi thận không phải là lý do làm em đau và nói khả năng em bị [ENTITY], có nói do em đang có thai nên không thể dùng thuốc đặc trị được mà chỉ cho thuốc tạm thôi.",
+    "assertion_result": {
+      "tag": "isUncertain"
+    },
+    "eng_translation": [
+      "Gastritis"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K2970": 0.749555,
+        "K2971": 0.686647,
+        "K30": 0.677284,
+        "K819": 0.644893,
+        "K2960": 0.630461
+      },
+      "rapidfuzz": {
+        "K2970": 0.9,
+        "K2900": 0.9,
+        "K2930": 0.9
+      }
+    },
+    "candidate": {
+      "code": "K2970",
+      "confidence": 0.834036
+    }
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1886,
+      1893
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1894,
+      1901
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "citrate 40mg",
+    "type": "THUỐC",
+    "position": [
+      2102,
+      2114
+    ],
+    "assertion_position": [
+      2101,
+      2113
+    ],
+    "sentence": "Simenic: Alverin [ENTITY] và Simethicon 100mg.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "alverine citrate 40 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "1293490": 0.857112,
+        "336345": 0.840182,
+        "328722": 0.801932,
+        "331019": 0.798866,
+        "385594": 0.790847
+      },
+      "rapidfuzz": {
+        "71767": 0.95,
+        "114200": 0.9,
+        "17627": 0.9
+      }
+    },
+    "candidate": {
+      "code": "1293490",
+      "confidence": 0.516807
+    }
+  },
+  {
+    "text": "metoclopramide 10mg",
+    "type": "THUỐC",
+    "position": [
+      2145,
+      2164
+    ],
+    "assertion_position": [
+      2145,
+      2164
+    ],
+    "sentence": "Pimperam: [ENTITY].",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "metoclopramide 10 mg"
+    ],
+    "retriever": {
+      "sapbert": {
+        "328464": 1.0,
+        "568051": 0.951524,
+        "863584": 0.937846,
+        "334427": 0.833395,
+        "328463": 0.817869
+      },
+      "rapidfuzz": {
+        "328464": 1.0,
+        "863584": 0.95,
+        "334427": 0.95
+      }
+    },
+    "candidate": {
+      "code": "328464",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ợ nóng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      2346,
+      2352
+    ],
+    "assertion_position": [
+      2347,
+      2353
+    ],
+    "sentence": "Nhôm hydroxid và magie hydroxid có thể sử dụng được cho phụ nữ mang thai để điều trị triệu chứng [ENTITY] hoặc trào ngược dạ dày thực quản và cần sử dụng trong mức liều khuyến cáo.",
+    "assertion_result": {
+      "tag": null
+    },
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  },
+  {
+    "text": "trào ngược dạ dày thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2358,
+      2385
+    ],
+    "assertion_position": [
+      2359,
+      2386
+    ],
+    "sentence": "Nhôm hydroxid và magie hydroxid có thể sử dụng được cho phụ nữ mang thai để điều trị triệu chứng ợ nóng hoặc [ENTITY] và cần sử dụng trong mức liều khuyến cáo.",
+    "assertion_result": {
+      "tag": null
+    },
+    "eng_translation": [
+      "Gastroesophageal reflux disease"
+    ],
+    "retriever": {
+      "sapbert": {
+        "K219": 0.805945,
+        "K2100": 0.736454,
+        "K2101": 0.706403,
+        "P7883": 0.693847,
+        "R12": 0.67996
+      },
+      "rapidfuzz": {
+        "K2101": 0.870968,
+        "K219": 0.870968,
+        "K2100": 0.870968
+      }
+    },
+    "candidate": {
+      "code": "K219",
+      "confidence": 0.882871
+    }
+  },
+  {
+    "text": "chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2860,
+      2867
+    ],
+    "retriever": {
+      "sapbert": {},
+      "rapidfuzz": {}
+    },
+    "candidate": null
+  }
+]

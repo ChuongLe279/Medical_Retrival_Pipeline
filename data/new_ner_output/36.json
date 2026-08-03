@@ -12,7 +12,7 @@
     ],
     "sentence": "Bệnh nhân nam 17 tuổi, vào viện với lý do nặng mặt, tức nặng 2 chi dưới, [ENTITY], bệnh khởi phát cách đây 1 tháng, quá trình bệnh diễn biến với các hội chứng và triệu chứng sau.",
     "assertion_result": {
-      "tag": "isHistorical"
+      "tag": null
     },
     "retriever": {
       "sapbert": {},
@@ -21,41 +21,19 @@
     "candidate": null
   },
   {
-    "text": "hội",
+    "text": "Hội chứng thận hư",
     "type": "CHẨN_ĐOÁN",
     "position": [
-      148,
-      151
-    ],
-    "assertion_position": [
-      148,
-      151
-    ],
-    "sentence": "Bệnh nhân nam 17 tuổi, vào viện với lý do nặng mặt, tức nặng 2 chi dưới, tiểu ít, bệnh khởi phát cách đây 1 tháng, quá trình bệnh diễn biến với các [ENTITY] chứng và triệu chứng sau.",
-    "assertion_result": {
-      "tag": "isHistorical"
-    },
-    "eng_translation": [],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "thận hư",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      197,
+      187,
       204
     ],
     "assertion_position": [
-      188,
+      178,
       195
     ],
-    "sentence": "Hội chứng [ENTITY].",
+    "sentence": "[ENTITY].",
     "assertion_result": {
-      "tag": null
+      "tag": "isUncertain"
     },
     "eng_translation": [
       "Nephrotic syndrome"
@@ -76,7 +54,21 @@
     },
     "candidate": {
       "code": "N049",
-      "confidence": 0.848098
+      "confidence": 0.848098,
+      "ranked_candidates": [
+        {
+          "code": "N049",
+          "confidence": 0.848098
+        },
+        {
+          "code": "N040",
+          "confidence": 0.823179
+        },
+        {
+          "code": "N041",
+          "confidence": 0.77422
+        }
+      ]
     }
   },
   {
@@ -125,14 +117,14 @@
     "text": "phù",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      308,
-      311
+      324,
+      327
     ],
     "assertion_position": [
-      293,
-      296
+      309,
+      312
     ],
-    "sentence": "Phù: xuất hiện đột ngột, tiến triển nhanh, đầu tiên ở quanh 2 mi mắt, mặt, sau 1 ngày xuất hiện [ENTITY] 2 chi dưới, phù tăng về sáng, sau ngủ dậy, giảm về chiều, khi ăn mặn phù tăng lên.",
+    "sentence": "Phù: xuất hiện đột ngột, tiến triển nhanh, đầu tiên ở quanh 2 mi mắt, mặt, sau 1 ngày xuất hiện phù 2 chi dưới, [ENTITY] tăng về sáng, sau ngủ dậy, giảm về chiều, khi ăn mặn phù tăng lên.",
     "assertion_result": {
       "tag": null
     },
@@ -146,14 +138,14 @@
     "text": "phù",
     "type": "TRIỆU_CHỨNG",
     "position": [
-      324,
-      327
+      381,
+      384
     ],
     "assertion_position": [
-      309,
-      312
+      366,
+      369
     ],
-    "sentence": "Phù: xuất hiện đột ngột, tiến triển nhanh, đầu tiên ở quanh 2 mi mắt, mặt, sau 1 ngày xuất hiện phù 2 chi dưới, [ENTITY] tăng về sáng, sau ngủ dậy, giảm về chiều, khi ăn mặn phù tăng lên.",
+    "sentence": "Phù: xuất hiện đột ngột, tiến triển nhanh, đầu tiên ở quanh 2 mi mắt, mặt, sau 1 ngày xuất hiện phù 2 chi dưới, phù tăng về sáng, sau ngủ dậy, giảm về chiều, khi ăn mặn [ENTITY] tăng lên.",
     "assertion_result": {
       "tag": null
     },
@@ -176,7 +168,7 @@
     ],
     "sentence": "Hiện tại hết [ENTITY], còn phù nhẹ 2 chi dưới.",
     "assertion_result": {
-      "tag": "isNegated"
+      "tag": "isHistorical"
     },
     "retriever": {
       "sapbert": {},
@@ -232,19 +224,6 @@
     "candidate": null
   },
   {
-    "text": "SA",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      173,
-      175
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
     "text": "suy thận",
     "type": "CHẨN_ĐOÁN",
     "position": [
@@ -278,7 +257,21 @@
     },
     "candidate": {
       "code": "N19",
-      "confidence": 0.867498
+      "confidence": 0.867498,
+      "ranked_candidates": [
+        {
+          "code": "N19",
+          "confidence": 0.867498
+        },
+        {
+          "code": "P960",
+          "confidence": 0.71647
+        },
+        {
+          "code": "N179",
+          "confidence": 0.683433
+        }
+      ]
     }
   },
   {
@@ -326,32 +319,6 @@
     "position": [
       846,
       848
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "Na",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      10,
-      12
-    ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "K",
-    "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      87,
-      88
     ],
     "retriever": {
       "sapbert": {},
@@ -419,7 +386,21 @@
     },
     "candidate": {
       "code": "J029",
-      "confidence": 0.741594
+      "confidence": 0.741594,
+      "ranked_candidates": [
+        {
+          "code": "J029",
+          "confidence": 0.741594
+        },
+        {
+          "code": "J020",
+          "confidence": 0.690811
+        },
+        {
+          "code": "R070",
+          "confidence": 0.675207
+        }
+      ]
     }
   },
   {
@@ -456,7 +437,21 @@
     },
     "candidate": {
       "code": "B999",
-      "confidence": 0.787545
+      "confidence": 0.787545,
+      "ranked_candidates": [
+        {
+          "code": "B999",
+          "confidence": 0.787545
+        },
+        {
+          "code": "A499",
+          "confidence": 0.694816
+        },
+        {
+          "code": "A419",
+          "confidence": 0.680759
+        }
+      ]
     }
   },
   {
@@ -493,44 +488,21 @@
     },
     "candidate": {
       "code": "N030",
-      "confidence": 0.690964
-    }
-  },
-  {
-    "text": "Hội chứng thận hư",
-    "type": "CHẨN_ĐOÁN",
-    "position": [
-      187,
-      204
-    ],
-    "assertion_position": [
-      178,
-      195
-    ],
-    "sentence": "[ENTITY].",
-    "assertion_result": {
-      "tag": "isUncertain"
-    },
-    "eng_translation": [
-      "Nephrotic syndrome"
-    ],
-    "retriever": {
-      "sapbert": {
-        "N049": 0.92409,
-        "N040": 0.814643,
-        "N048": 0.80514,
-        "N041": 0.760244,
-        "N046": 0.725299
-      },
-      "rapidfuzz": {
-        "N040": 0.9,
-        "N041": 0.9,
-        "N0420": 0.9
-      }
-    },
-    "candidate": {
-      "code": "N049",
-      "confidence": 0.848098
+      "confidence": 0.690964,
+      "ranked_candidates": [
+        {
+          "code": "N030",
+          "confidence": 0.690964
+        },
+        {
+          "code": "N039",
+          "confidence": 0.675283
+        },
+        {
+          "code": "N189",
+          "confidence": 0.671067
+        }
+      ]
     }
   },
   {
@@ -540,27 +512,6 @@
       1312,
       1319
     ],
-    "retriever": {
-      "sapbert": {},
-      "rapidfuzz": {}
-    },
-    "candidate": null
-  },
-  {
-    "text": "phù",
-    "type": "TRIỆU_CHỨNG",
-    "position": [
-      381,
-      384
-    ],
-    "assertion_position": [
-      366,
-      369
-    ],
-    "sentence": "Phù: xuất hiện đột ngột, tiến triển nhanh, đầu tiên ở quanh 2 mi mắt, mặt, sau 1 ngày xuất hiện phù 2 chi dưới, phù tăng về sáng, sau ngủ dậy, giảm về chiều, khi ăn mặn [ENTITY] tăng lên.",
-    "assertion_result": {
-      "tag": null
-    },
     "retriever": {
       "sapbert": {},
       "rapidfuzz": {}
@@ -601,7 +552,21 @@
     },
     "candidate": {
       "code": "317426",
-      "confidence": 0.557735
+      "confidence": 0.557735,
+      "ranked_candidates": [
+        {
+          "code": "317426",
+          "confidence": 0.557735
+        },
+        {
+          "code": "567929",
+          "confidence": 0.554676
+        },
+        {
+          "code": "316287",
+          "confidence": 0.481795
+        }
+      ]
     }
   },
   {
@@ -671,7 +636,21 @@
     },
     "candidate": {
       "code": "563611",
-      "confidence": 0.510918
+      "confidence": 0.510918,
+      "ranked_candidates": [
+        {
+          "code": "563611",
+          "confidence": 0.510918
+        },
+        {
+          "code": "316151",
+          "confidence": 0.497998
+        },
+        {
+          "code": "857165",
+          "confidence": 0.482166
+        }
+      ]
     }
   }
 ]
