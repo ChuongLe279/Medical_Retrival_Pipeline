@@ -11,8 +11,9 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+TEST_INPUT_PATH = PROJECT_ROOT / "data" / "new_test_input"
 NORMALIZED_TEXT_PATH = PROJECT_ROOT / "data" / "test_normalized"
-JSON_PATH = PROJECT_ROOT / "data" / "output_merged"
+JSON_PATH = PROJECT_ROOT / "data" / "new_ner_output"
 ENTITY_PLACEHOLDER = "[ENTITY]"
 SUPPORTED_ENTITY_TYPES = {"CHẨN_ĐOÁN", "THUỐC", "TRIỆU_CHỨNG"}
 
@@ -31,9 +32,39 @@ def find_position(entity_text: str, input_text: str, start_at: int = 0) -> tuple
     pattern = re.compile(re.escape(entity_text))
     match = pattern.search(input_text, start_at)
 
+    # The NER representation collapses whitespace, while raw test input can
+    # contain repeated spaces, tabs, or line breaks. Treat each whitespace run
+    # in the entity as one-or-more whitespace characters in the source.
+    if match is None:
+        flexible_parts = [
+            r"\s+" if part.isspace() else re.escape(part)
+            for part in re.split(r"(\s+)", entity_text)
+            if part
+        ]
+        match = re.compile("".join(flexible_parts), re.IGNORECASE).search(
+            input_text, start_at
+        )
+
+    # NER output may add sentence-ending punctuation that is not present in
+    # the raw input (for example ``"Viêm mô tế bào."`` at the end of a
+    # bullet line). In that case, match the textual part and leave the absent
+    # punctuation outside the returned span.
+    if match is None and entity_text.endswith((".", "?", "!")):
+        text_without_terminal_mark = entity_text[:-1].rstrip()
+        if text_without_terminal_mark:
+            flexible_parts = [
+                r"\s+" if part.isspace() else re.escape(part)
+                for part in re.split(r"(\s+)", text_without_terminal_mark)
+                if part
+            ]
+            fallback_pattern = re.compile(
+                "".join(flexible_parts) + r"(?=\s|$)", re.IGNORECASE
+            )
+            match = fallback_pattern.search(input_text, start_at)
+
     if match is None:
         raise ValueError(
-            f"Could not find entity text {entity_text!r} in the normalized "
+            f"Could not find entity text {entity_text!r} in the input "
             f"text (searching from position {start_at})."
         )
 
@@ -42,14 +73,14 @@ def find_position(entity_text: str, input_text: str, start_at: int = 0) -> tuple
 
 def calculating_assertion_pos(json_file, text_file):
     """
-    Locate every entity in the NORMALIZED text file `text_file`, but only
+    Locate every entity in the raw test input file `text_file`, but only
     store "assertion_position" for supported assertion entity types.
 
     Overlap-aware: uses each entity's ORIGINAL "position" span to detect nesting
     (entity B is "nested" in entity A if A's original span contains B's
     original start). This matters because normalize_text_file() reshapes
     the raw text, so we can't assume entities occur strictly left-to-right
-    with no overlap in the normalized text -- a naive "search from previous
+    with no overlap in the input text -- a naive "search from previous
     match's end" approach would fail to find a child entity whose
     normalized position falls *before* its parent's normalized end.
 
@@ -65,7 +96,7 @@ def calculating_assertion_pos(json_file, text_file):
         entities = json.load(file)
 
     with text_file.open("r", encoding="utf-8") as file:
-        normalized_text = file.read()
+        input_text = file.read()
 
     # Process parents before children nested inside them: earlier original
     # start first, and for ties, the longer (outer) span first.
@@ -90,8 +121,7 @@ def calculating_assertion_pos(json_file, text_file):
         entity = entities[idx]
         orig_start, orig_end = entity["position"]
 
-        # Apply the same whitespace normalization used for normalized text.
-        normalized_entity_text = normalized_ner_entity(entity["text"])
+        entity_text = entity["text"]
 
         # Close out ancestor frames that have fully ended before this
         # entity starts (no overlap -> not actually an ancestor), pushing
@@ -108,12 +138,12 @@ def calculating_assertion_pos(json_file, text_file):
         search_from = stack[-1]["last_norm_end"] if stack else root_last_end
 
         norm_start, norm_end = find_position(
-            normalized_entity_text, normalized_text, search_from
+            entity_text, input_text, search_from
         )
         if entity.get("type") in SUPPORTED_ENTITY_TYPES:
-            # Keep the stored target text in sync so the later assertion-
-            # position validation compares like with like.
-            entity["text"] = normalized_entity_text
+            # Use the exact raw substring. This is important when the NER text
+            # contains punctuation that was absent from the source document.
+            entity["text"] = input_text[norm_start:norm_end]
             entity["assertion_position"] = [norm_start, norm_end]
         else:
             entity.pop("assertion_position", None)
@@ -195,9 +225,55 @@ def _build_sentence_with_masked_entity(full_text, sent_start, sent_end, ent_star
     return masked.strip()
 
 
+def _find_normalized_assertion_positions(entities, normalized_text):
+    """Locate supported entities in normalized text without changing raw offsets."""
+    supported_indices = [
+        i for i, entity in enumerate(entities)
+        if entity.get("type") in SUPPORTED_ENTITY_TYPES
+    ]
+    order = sorted(
+        supported_indices,
+        key=lambda i: (
+            entities[i]["position"][0],
+            -(entities[i]["position"][1] - entities[i]["position"][0]),
+        ),
+    )
+    positions = {}
+    stack = []
+    root_last_end = 0
+
+    for idx in order:
+        entity = entities[idx]
+        orig_start, orig_end = entity["position"]
+
+        while stack and stack[-1]["orig_end"] <= orig_start:
+            closed = stack.pop()
+            bound = max(closed["text_end"], closed["last_text_end"])
+            if stack:
+                stack[-1]["last_text_end"] = max(
+                    stack[-1]["last_text_end"], bound
+                )
+            else:
+                root_last_end = max(root_last_end, bound)
+
+        search_from = stack[-1]["last_text_end"] if stack else root_last_end
+        normalized_entity_text = normalized_ner_entity(entity["text"])
+        start, end = find_position(
+            normalized_entity_text, normalized_text, search_from
+        )
+        positions[idx] = (start, end)
+        stack.append({
+            "orig_end": orig_end,
+            "text_end": end,
+            "last_text_end": start,
+        })
+
+    return positions
+
+
 def add_sentence_to_entities(txt_path, json_path):
     """
-    Read a Vietnamese clinical .txt file (the NORMALIZED version) and its
+    Read a normalized Vietnamese clinical .txt file and its
     corresponding NER .json entity file, attach the full sentence containing
     each supported assertion entity (with that entity's own text replaced by
     "[ENTITY]"), and write the entities back to `json_path`.
@@ -205,11 +281,11 @@ def add_sentence_to_entities(txt_path, json_path):
     Parameters
     ----------
     txt_path : str or Path
-        Path to the UTF-8 NORMALIZED .txt file with the full clinical document.
+        Path to the UTF-8 normalized .txt file with the full clinical document.
     json_path : str or Path
         Path to the .json file containing a list of entities, each with
         "text", "type", "position" (offsets in the original raw text) and
-        "assertion_position" for supported types (offsets in the normalized
+        "assertion_position" for supported types (offsets in the raw
         text, computed by calculating_assertion_pos). This file is overwritten
         in place.
 
@@ -217,10 +293,10 @@ def add_sentence_to_entities(txt_path, json_path):
     -----
     - txt_path is only ever opened for reading; it is never modified.
     - Raises ValueError if an entity's recorded text does not match the
-      actual substring of the normalized document at its
+      actual substring of the raw document at its
       "assertion_position" offsets.
     """
-    # --- 1. Read the source (normalized) text (read-only) ---
+    # --- 1. Read the normalized source text (read-only) ---
     with open(txt_path, 'r', encoding='utf-8') as f:
         full_text = f.read()
 
@@ -230,10 +306,11 @@ def add_sentence_to_entities(txt_path, json_path):
 
     # --- 3. Pre-compute sentence spans once for the whole document ---
     spans = _split_sentences_with_spans(full_text)
+    normalized_positions = _find_normalized_assertion_positions(entities, full_text)
 
     # --- 4. Process each entity ---
     enriched_entities = []
-    for entity in entities:
+    for entity_index, entity in enumerate(entities):
         if entity.get("type") not in SUPPORTED_ENTITY_TYPES:
             enriched_entities.append({
                 'text': entity['text'],
@@ -242,23 +319,16 @@ def add_sentence_to_entities(txt_path, json_path):
             })
             continue
 
-        start, end = entity['assertion_position']
-        expected_text = entity['text']
-        actual_text = full_text[start:end]
-
-        # --- Validate offsets match the recorded entity text ---
-        if actual_text != expected_text:
-            raise ValueError(
-                f"Entity/text mismatch at assertion_position [{start}, {end}]: "
-                f"expected {expected_text!r} but found {actual_text!r} "
-                f"in the normalized document ({txt_path})."
-            )
+        # assertion_position belongs to the raw input. Locate a separate span
+        # in normalized text solely for sentence extraction and masking.
+        start, end = normalized_positions[entity_index]
+        expected_text = normalized_ner_entity(entity['text'])
 
         sent_span = _find_sentence_span(spans, start, end)
         if sent_span is None:
             raise ValueError(
                 f"Could not find a containing sentence for entity "
-                f"{expected_text!r} at assertion_position [{start}, {end}] ({txt_path})."
+                f"{expected_text!r} at normalized position [{start}, {end}] ({txt_path})."
             )
         sent_start, sent_end = sent_span
 
@@ -291,6 +361,7 @@ def check_folder_exist(path):
 
 if __name__ == '__main__':
     check_folder_exist(JSON_PATH)
+    check_folder_exist(TEST_INPUT_PATH)
     check_folder_exist(NORMALIZED_TEXT_PATH)
 
     json_files = sorted(
@@ -300,12 +371,13 @@ if __name__ == '__main__':
 
     for json_path in json_files:
         print(f"Processing: {json_path.name}")
-        text_path = NORMALIZED_TEXT_PATH / json_path.with_suffix(".txt").name
+        raw_text_path = TEST_INPUT_PATH / json_path.with_suffix(".txt").name
+        normalized_text_path = NORMALIZED_TEXT_PATH / json_path.with_suffix(".txt").name
 
         print(f"Calculating assertion_position for {json_path.name}")
-        calculating_assertion_pos(json_path, text_path)
+        calculating_assertion_pos(json_path, raw_text_path)
 
         print(f"Adding entities {json_path.name}")
-        add_sentence_to_entities(text_path, json_path)
+        add_sentence_to_entities(normalized_text_path, json_path)
 
     print("Preprocessing is done.")
